@@ -3,7 +3,7 @@
     "components": 33,
     "concepts": 28,
     "observations": 28,
-    "repos": 19,
+    "repos": 20,
     "terms": 28
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
     "Bearer/homebrew-tap",
@@ -22,6 +22,7 @@
     "danielrosehill/Israel-First-Aid",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "Hitesh-Aggarwal/dotfiles",
+    "JuliaBinaryWrappers/FreeType2_jll.jl",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "JuliaBinaryWrappers/Glib_jll.jl",
     "kdubbo/client-go",

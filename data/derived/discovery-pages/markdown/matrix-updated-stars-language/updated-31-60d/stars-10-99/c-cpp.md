@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 46
-- terms: 307
-- components: 235
-- concepts: 312
-- observations: 313
+- repos: 42
+- terms: 298
+- components: 206
+- concepts: 303
+- observations: 304
 
 ## Static behavior
 
@@ -68,10 +68,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ROCm/ROCgdb](https://github.com/ROCm/ROCgdb) | 69 | 2026-04-24T12:30:39Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [acts-project/traccc](https://github.com/acts-project/traccc) | 42 | 2026-04-24T11:20:27Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [milvus-io/milvus-sdk-cpp](https://github.com/milvus-io/milvus-sdk-cpp) | 54 | 2026-04-24T07:53:40Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [boostorg/config](https://github.com/boostorg/config) | 76 | 2026-04-23T23:39:52Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [yquake2/yquake2remaster](https://github.com/yquake2/yquake2remaster) | 99 | 2026-04-23T22:28:02Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [ROCm/rocAL](https://github.com/ROCm/rocAL) | 23 | 2026-04-23T20:00:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [rapidsai/ucxx](https://github.com/rapidsai/ucxx) | 58 | 2026-04-23T19:53:52Z | C/C++ | Infrastructure/tooling | 3 | 18 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -79,7 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [analogdevicesinc/msdk](https://github.com/analogdevicesinc/msdk) | 99 | 2026-05-04T15:56:44Z | C/C++ | Infrastructure/tooling | 24 | 18 | 24 | 24 |
 | [gazebosim/gz-gui](https://github.com/gazebosim/gz-gui) | 99 | 2026-04-28T17:30:35Z | C/C++ | Infrastructure/tooling | 15 | 5 | 15 | 15 |
-| [yquake2/yquake2remaster](https://github.com/yquake2/yquake2remaster) | 99 | 2026-04-23T22:28:02Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [llnl/camp](https://github.com/llnl/camp) | 98 | 2026-04-28T22:17:30Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [compiler-research/CppInterOp](https://github.com/compiler-research/CppInterOp) | 95 | 2026-05-03T19:02:57Z | C/C++ | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [kendryte/canmv_k230](https://github.com/kendryte/canmv_k230) | 94 | 2026-04-28T08:05:10Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -93,12 +88,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [erigontech/mdbx-go](https://github.com/erigontech/mdbx-go) | 76 | 2026-05-13T09:16:36Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [gazebosim/gz-rendering](https://github.com/gazebosim/gz-rendering) | 76 | 2026-05-01T13:14:18Z | C/C++ | Infrastructure/tooling | 18 | 7 | 19 | 19 |
 | [microsoft/aitour-exploring-cutting-edge-models](https://github.com/microsoft/aitour-exploring-cutting-edge-models) | 76 | 2026-04-30T19:29:08Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
-| [boostorg/config](https://github.com/boostorg/config) | 76 | 2026-04-23T23:39:52Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ROCm/rpp](https://github.com/ROCm/rpp) | 72 | 2026-04-29T16:52:27Z | C/C++ | Library | 12 | 0 | 12 | 12 |
 | [ROCm/ROCgdb](https://github.com/ROCm/ROCgdb) | 69 | 2026-04-24T12:30:39Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [LedgerHQ/app-boilerplate](https://github.com/LedgerHQ/app-boilerplate) | 68 | 2026-04-28T12:21:18Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [skeeto/dcmake](https://github.com/skeeto/dcmake) | 68 | 2026-04-25T15:15:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [rapidsai/ucxx](https://github.com/rapidsai/ucxx) | 58 | 2026-04-23T19:53:52Z | C/C++ | Infrastructure/tooling | 3 | 18 | 3 | 3 |
 | [milvus-io/milvus-sdk-cpp](https://github.com/milvus-io/milvus-sdk-cpp) | 54 | 2026-04-24T07:53:40Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [gazebosim/gz-transport](https://github.com/gazebosim/gz-transport) | 51 | 2026-04-24T23:17:15Z | C/C++ | CLI | 17 | 7 | 17 | 17 |
 | [heiher/hev-socks5-core](https://github.com/heiher/hev-socks5-core) | 48 | 2026-05-02T09:04:59Z | C/C++ | CLI | 3 | 1 | 3 | 3 |
@@ -113,7 +106,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xjb714/xjb](https://github.com/xjb714/xjb) | 28 | 2026-04-29T14:37:00Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [gazebosim/gz-common](https://github.com/gazebosim/gz-common) | 26 | 2026-05-02T02:16:30Z | C/C++ | Infrastructure/tooling | 22 | 8 | 23 | 23 |
 | [0xPolygonHermez/pil2-proofman](https://github.com/0xPolygonHermez/pil2-proofman) | 26 | 2026-04-29T12:18:31Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [ROCm/rocAL](https://github.com/ROCm/rocAL) | 23 | 2026-04-23T20:00:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [akruphi/far2l](https://github.com/akruphi/far2l) | 21 | 2026-04-26T09:34:25Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [atsushieno/aap-juce](https://github.com/atsushieno/aap-juce) | 20 | 2026-05-14T09:01:56Z | C/C++ | Infrastructure/tooling | 7 | 6 | 7 | 8 |
 | [diffscope/diffscope-project](https://github.com/diffscope/diffscope-project) | 19 | 2026-05-14T18:08:39Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |

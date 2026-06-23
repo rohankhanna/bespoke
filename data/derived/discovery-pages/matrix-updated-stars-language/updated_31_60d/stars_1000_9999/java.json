@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 563,
-    "concepts": 714,
-    "observations": 714,
-    "repos": 67,
-    "terms": 710
+    "components": 514,
+    "concepts": 633,
+    "observations": 633,
+    "repos": 60,
+    "terms": 629
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
-    "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
     "androidx/media",
     "apache/beam",
-    "apache/camel",
     "apache/flink-kubernetes-operator",
     "apache/hudi",
     "apache/iceberg",
@@ -27,11 +25,9 @@
     "apache/parquet-java",
     "apache/pdfbox",
     "apache/phoenix",
-    "apache/poi",
     "apache/seatunnel",
     "apache/tomcat",
     "aws/aws-sdk-java-v2",
-    "besu-eth/besu",
     "bonigarcia/webdrivermanager",
     "castorini/anserini",
     "checkstyle/checkstyle",
@@ -47,9 +43,7 @@
     "FasterXML/jackson-databind",
     "firebase/firebase-android-sdk",
     "flyway/flyway",
-    "google/adk-java",
     "google/conscrypt",
-    "google/google-java-format",
     "google/tsunami-security-scanner-plugins",
     "googleapis/google-cloud-java",
     "hazelcast/hazelcast",
@@ -69,7 +63,6 @@
     "mapsforge/mapsforge",
     "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
-    "oshi/oshi",
     "reactor/BlockHound",
     "reactor/reactor-core",
     "smithy-lang/smithy",

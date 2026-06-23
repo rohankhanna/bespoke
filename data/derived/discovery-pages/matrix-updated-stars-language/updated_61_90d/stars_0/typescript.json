@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 323,
+    "components": 309,
     "concepts": 38,
     "observations": 38,
-    "repos": 11,
+    "repos": 10,
     "terms": 39
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "8144225309/superscalar-wallet",
     "9romise/eslint-config",
-    "adipalko/hatraot",
     "fekkak1998/scira",
     "gopi2211/ralph",
     "grubersjoe/react-activity-calendar-tests",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 38,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 4,
-    "terms": 35
+    "concepts": 38,
+    "observations": 38,
+    "repos": 5,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "aws/karpenter-provider-aws",
+    "bazel-contrib/rules_go",
     "crc-org/crc",
     "googleapis/google-api-go-client",
     "googleapis/google-cloud-go"

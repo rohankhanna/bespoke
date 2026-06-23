@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 40,
-    "concepts": 66,
-    "observations": 67,
+    "concepts": 64,
+    "observations": 65,
     "repos": 10,
-    "terms": 66
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
-    "clearml/clearml-agent",
     "databrickslabs/ucx",
     "flagos-ai/FlagAttention",
     "google-deepmind/chex",
@@ -23,6 +22,7 @@
     "machinewrapped/llm-subtrans",
     "meta-pytorch/torchft",
     "the-database/traiNNer-redux",
+    "unum-bio/USearchMolecules",
     "xlite-dev/Awesome-DiT-Inference"
   ]
 }

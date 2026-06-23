@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 323,
-    "concepts": 240,
-    "observations": 243,
-    "repos": 48,
-    "terms": 238
+    "components": 324,
+    "concepts": 243,
+    "observations": 247,
+    "repos": 49,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
@@ -33,6 +33,7 @@
     "google/argh",
     "GREsau/schemars",
     "guillaume-be/rust-bert",
+    "gyscos/cursive",
     "haleclipse/ccometixline",
     "helix-editor/nucleo",
     "ImageOptim/gifski",

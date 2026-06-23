@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2961,
-    "concepts": 1236,
-    "observations": 1240,
-    "repos": 919,
-    "terms": 1267
+    "components": 2971,
+    "concepts": 1239,
+    "observations": 1243,
+    "repos": 921,
+    "terms": 1270
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -73,6 +73,7 @@
     "ainvaltin/nu_plugin_plist",
     "aipurposes1587-max/weixin-agent-rs",
     "akamming/domoticz-snapcast",
+    "akashAD98/vectordb-recipes",
     "akira-l/warc_extractor_mnbvc",
     "albertogeniola/elmax-api",
     "aldernero/debugui",
@@ -809,6 +810,7 @@
     "py-cov-action/python-coverage-comment-action-v3-example",
     "qiayuanl/unitree_buildfarm",
     "QuantuMope/GroundingDINO",
+    "quietvoid/mpv-winbuild-cmake",
     "radashi-org/radashi-canary",
     "rasahq/pytest-sanic",
     "redai-infra/TransferQueue",

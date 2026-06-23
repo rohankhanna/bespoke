@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 290
+- repos: 291
 - terms: 332
 - components: 197
 - concepts: 332
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [getlantern/lantern-forum-cn](https://github.com/getlantern/lantern-forum-cn) | 22 | 2025-12-24T15:48:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PacificBiosciences/pbAA](https://github.com/PacificBiosciences/pbAA) | 27 | 2025-12-22T12:07:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [logseq/db-test](https://github.com/logseq/db-test) | 26 | 2025-12-19T16:58:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [talk-flow/Lynxe-public-usecase](https://github.com/talk-flow/Lynxe-public-usecase) | 25 | 2025-12-15T03:11:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -501,6 +502,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [autowarefoundation/autoware_ai_documentation](https://github.com/autowarefoundation/autoware_ai_documentation) | 23 | 2022-08-31T15:06:00Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [thetutlage/meta](https://github.com/thetutlage/meta) | 23 | 2022-03-30T06:32:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [google-research-datasets/widget-caption](https://github.com/google-research-datasets/widget-caption) | 23 | 2021-06-24T23:39:04Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [getlantern/lantern-forum-cn](https://github.com/getlantern/lantern-forum-cn) | 22 | 2025-12-24T15:48:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [NLPJCL/RAG-Retrieval](https://github.com/NLPJCL/RAG-Retrieval) | 22 | 2025-07-05T09:02:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [xavysp/UDED](https://github.com/xavysp/UDED) | 22 | 2025-05-01T13:34:03Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [facebookresearch/llama-hd-dataset](https://github.com/facebookresearch/llama-hd-dataset) | 22 | 2024-01-22T19:44:44Z | Unknown | Model/data | 0 | 0 | 0 | 0 |

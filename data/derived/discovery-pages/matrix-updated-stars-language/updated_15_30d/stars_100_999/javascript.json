@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 4,
-    "terms": 34
+    "components": 18,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 2,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "all-contributors/app",
-    "avocadowastaken/prettier-plugin-prisma",
-    "beve-org/beve",
-    "jupyter/nbclassic"
+    "beve-org/beve"
   ]
 }

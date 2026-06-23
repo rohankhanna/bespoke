@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 80
+- repos: 24
+- terms: 79
 - components: 125
-- concepts: 80
-- observations: 80
+- concepts: 79
+- observations: 79
 
 ## Static behavior
 
@@ -50,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TJC-LP/sanzaru](https://github.com/TJC-LP/sanzaru) | 5 | 2026-04-25T19:24:00Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [kalavai-net/kube-watcher](https://github.com/kalavai-net/kube-watcher) | 5 | 2026-04-24T15:25:39Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [flagos-ai/TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL) | 4 | 2026-04-24T10:04:59Z | Python | Infrastructure/tooling | 5 | 8 | 5 | 5 |
-| [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -80,4 +79,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [compiler-research/cppyy](https://github.com/compiler-research/cppyy) | 1 | 2026-04-30T10:43:13Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [eea/eea-website-backend](https://github.com/eea/eea-website-backend) | 1 | 2026-04-29T15:23:24Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [mozilla-ai/tinyagent](https://github.com/mozilla-ai/tinyagent) | 1 | 2026-04-29T13:40:33Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
-| [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |

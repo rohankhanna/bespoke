@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 181
-- components: 263
-- concepts: 182
-- observations: 183
+- repos: 38
+- terms: 169
+- components: 252
+- concepts: 169
+- observations: 170
 
 ## Static behavior
 
@@ -64,11 +64,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sigstore/k8s-manifest-sigstore](https://github.com/sigstore/k8s-manifest-sigstore) | 87 | 2026-04-24T20:52:26Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [sigstore/helm-sigstore](https://github.com/sigstore/helm-sigstore) | 69 | 2026-04-24T20:09:45Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [aquasecurity/trivy-java-db](https://github.com/aquasecurity/trivy-java-db) | 41 | 2026-04-24T10:02:51Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [danielgtaylor/shorthand](https://github.com/danielgtaylor/shorthand) | 37 | 2026-04-24T01:28:24Z | Go | CLI | 5 | 3 | 6 | 6 |
-| [danielgtaylor/mexpr](https://github.com/danielgtaylor/mexpr) | 34 | 2026-04-24T00:16:39Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
-| [ebitengine/debugui](https://github.com/ebitengine/debugui) | 96 | 2026-04-23T15:18:26Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [openshift/ci-tools](https://github.com/openshift/ci-tools) | 44 | 2026-04-23T14:39:26Z | Go | Unknown | 0 | 0 | 0 | 0 |
-| [kubernetes-sigs/provider-aws-test-infra](https://github.com/kubernetes-sigs/provider-aws-test-infra) | 19 | 2026-04-23T13:18:48Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -77,7 +72,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gookit/rux](https://github.com/gookit/rux) | 99 | 2026-05-05T04:50:20Z | Go | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [openshift/kubernetes](https://github.com/openshift/kubernetes) | 99 | 2026-04-28T17:32:48Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [Kong/kong-operator](https://github.com/Kong/kong-operator) | 98 | 2026-04-29T16:20:30Z | Go | Infrastructure/tooling | 8 | 20 | 8 | 8 |
-| [ebitengine/debugui](https://github.com/ebitengine/debugui) | 96 | 2026-04-23T15:18:26Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cosmos/ibc-apps](https://github.com/cosmos/ibc-apps) | 93 | 2026-04-28T12:18:43Z | Go | Infrastructure/tooling | 8 | 21 | 8 | 8 |
 | [tendermint/tm-db](https://github.com/tendermint/tm-db) | 92 | 2026-05-05T13:15:51Z | Go | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [gookit/ini](https://github.com/gookit/ini) | 88 | 2026-05-05T01:56:02Z | Go | Infrastructure/tooling | 13 | 7 | 13 | 13 |
@@ -90,15 +84,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudfoundry/cf-acceptance-tests](https://github.com/cloudfoundry/cf-acceptance-tests) | 68 | 2026-04-28T13:10:44Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [compozy/kb](https://github.com/compozy/kb) | 67 | 2026-05-19T03:48:50Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [ipfs/ipfs-check](https://github.com/ipfs/ipfs-check) | 53 | 2026-04-28T00:55:17Z | Go | Infrastructure/tooling | 7 | 15 | 7 | 7 |
-| [openshift/ci-tools](https://github.com/openshift/ci-tools) | 44 | 2026-04-23T14:39:26Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [EngFlow/gazelle_cc](https://github.com/EngFlow/gazelle_cc) | 42 | 2026-04-29T18:45:27Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [aquasecurity/trivy-java-db](https://github.com/aquasecurity/trivy-java-db) | 41 | 2026-04-24T10:02:51Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [datachainlab/cosmos-ethereum-ibc-lcp](https://github.com/datachainlab/cosmos-ethereum-ibc-lcp) | 40 | 2026-04-28T05:34:18Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cloudfoundry/cf-smoke-tests](https://github.com/cloudfoundry/cf-smoke-tests) | 40 | 2026-04-27T07:27:28Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [golangci/misspell](https://github.com/golangci/misspell) | 38 | 2026-04-30T14:47:54Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [transparency-dev/witness](https://github.com/transparency-dev/witness) | 38 | 2026-04-27T09:41:31Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
-| [danielgtaylor/shorthand](https://github.com/danielgtaylor/shorthand) | 37 | 2026-04-24T01:28:24Z | Go | CLI | 5 | 3 | 6 | 6 |
-| [danielgtaylor/mexpr](https://github.com/danielgtaylor/mexpr) | 34 | 2026-04-24T00:16:39Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [energye/lcl](https://github.com/energye/lcl) | 33 | 2026-04-30T13:31:00Z | Go | Framework | 0 | 0 | 0 | 0 |
 | [cloudfoundry/bpm-release](https://github.com/cloudfoundry/bpm-release) | 33 | 2026-04-25T10:36:33Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [cloudfoundry/bosh-backup-and-restore](https://github.com/cloudfoundry/bosh-backup-and-restore) | 29 | 2026-04-29T22:25:00Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -109,7 +100,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oracle/karpenter-provider-oci](https://github.com/oracle/karpenter-provider-oci) | 25 | 2026-04-28T18:14:17Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [ankitpokhrel/shopctl](https://github.com/ankitpokhrel/shopctl) | 23 | 2026-05-01T06:55:52Z | Go | CLI | 12 | 7 | 12 | 12 |
 | [energye/wv](https://github.com/energye/wv) | 22 | 2026-05-09T01:13:26Z | Go | Framework | 0 | 0 | 0 | 0 |
-| [kubernetes-sigs/provider-aws-test-infra](https://github.com/kubernetes-sigs/provider-aws-test-infra) | 19 | 2026-04-23T13:18:48Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [DevExpGbb/gh-devlake](https://github.com/DevExpGbb/gh-devlake) | 17 | 2026-04-28T20:20:00Z | Go | CLI | 9 | 9 | 9 | 10 |
 | [philips-labs/tabia](https://github.com/philips-labs/tabia) | 14 | 2026-04-29T10:47:34Z | Go | CLI | 13 | 6 | 13 | 13 |
 | [energye/cef](https://github.com/energye/cef) | 14 | 2026-04-29T04:56:31Z | Go | Framework | 0 | 0 | 0 | 0 |

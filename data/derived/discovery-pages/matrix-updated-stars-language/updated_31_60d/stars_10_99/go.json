@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 263,
-    "concepts": 182,
-    "observations": 183,
-    "repos": 43,
-    "terms": 181
+    "components": 252,
+    "concepts": 169,
+    "observations": 170,
+    "repos": 38,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "ankitpokhrel/shopctl",
@@ -28,12 +28,9 @@
     "cloudfoundry/cf-smoke-tests",
     "compozy/kb",
     "cosmos/ibc-apps",
-    "danielgtaylor/mexpr",
-    "danielgtaylor/shorthand",
     "datachainlab/cosmos-ethereum-ibc-lcp",
     "DevExpGbb/gh-devlake",
     "dianlight/gollama.cpp",
-    "ebitengine/debugui",
     "energye/cef",
     "energye/lcl",
     "energye/wv",
@@ -45,8 +42,6 @@
     "ipfs/ipfs-check",
     "Kong/kong-operator",
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
-    "kubernetes-sigs/provider-aws-test-infra",
-    "openshift/ci-tools",
     "openshift/kubernetes",
     "oracle/karpenter-provider-oci",
     "philips-labs/dct-notary-admin",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1650,
-    "concepts": 3020,
-    "observations": 3024,
-    "repos": 1713,
-    "terms": 3029
+    "components": 1656,
+    "concepts": 3025,
+    "observations": 3029,
+    "repos": 1715,
+    "terms": 3034
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -367,6 +367,7 @@
     "collective-funds/guidelines",
     "collective/awesome-volto",
     "colstone/Multi-langs_Dictionary",
+    "Comfy-Org/ComfyUI-Standalone-Environments",
     "CommunitySpecification/Community_Specification",
     "Computer-Vision-in-the-Wild/CVinW_Readings",
     "conda-forge/captum-feedstock",
@@ -976,6 +977,7 @@
     "ItMarki/jyunsaikaai",
     "ItMarki/MisekiBitmap",
     "jackielii/qmk_firmware",
+    "Jaded-Encoding-Thaumaturgy/JET-guide",
     "JaeZ1205/PS_NBI2k",
     "JafferWilson/Process-Data-of-CNN-DailyMail",
     "jakoch/rasterizers",

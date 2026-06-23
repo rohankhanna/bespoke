@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 71
-- terms: 195
+- repos: 70
+- terms: 190
 - components: 95
-- concepts: 195
-- observations: 195
+- concepts: 190
+- observations: 190
 
 ## Static behavior
 
@@ -96,7 +96,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/gapic-generator](https://github.com/googleapis/gapic-generator) | 322 | 2022-01-31T22:48:04Z | Java | CLI | 0 | 0 | 0 | 0 |
 | [abarisain/dmix](https://github.com/abarisain/dmix) | 604 | 2021-12-09T07:27:26Z | Java | CLI | 0 | 0 | 0 | 0 |
 | [julienledem/redelm](https://github.com/julienledem/redelm) | 138 | 2021-08-26T11:16:34Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [dropbox/mypy-PyCharm-plugin](https://github.com/dropbox/mypy-PyCharm-plugin) | 320 | 2021-06-23T20:37:47Z | Java | Unknown | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -126,7 +125,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spring-attic/reactive-streams-commons](https://github.com/spring-attic/reactive-streams-commons) | 361 | 2022-02-24T23:57:10Z | Java | Unknown | 2 | 0 | 2 | 2 |
 | [dmis-lab/biobert-pytorch](https://github.com/dmis-lab/biobert-pytorch) | 352 | 2023-06-24T05:15:27Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [googleapis/gapic-generator](https://github.com/googleapis/gapic-generator) | 322 | 2022-01-31T22:48:04Z | Java | CLI | 0 | 0 | 0 | 0 |
-| [dropbox/mypy-PyCharm-plugin](https://github.com/dropbox/mypy-PyCharm-plugin) | 320 | 2021-06-23T20:37:47Z | Java | Unknown | 5 | 0 | 5 | 5 |
 | [trustin/os-maven-plugin](https://github.com/trustin/os-maven-plugin) | 318 | 2024-04-15T07:52:29Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [ScaCap/spring-auto-restdocs](https://github.com/ScaCap/spring-auto-restdocs) | 312 | 2023-12-19T14:18:15Z | Java | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [GoSimpleLLC/nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) | 309 | 2025-09-05T02:24:23Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |

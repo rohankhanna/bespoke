@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 670,
-    "concepts": 471,
-    "observations": 473,
+    "components": 667,
+    "concepts": 466,
+    "observations": 468,
     "repos": 173,
-    "terms": 466
+    "terms": 461
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
-    "2KAbhishek/pickme.nvim",
     "6cdh/dotfiles",
     "aarroyoc/djota",
     "aarroyoc/doclog",
@@ -87,6 +86,7 @@
     "FoundationDB/fdb-build-support",
     "FreneticLLC/FreneticUtilities",
     "friemen/diffit",
+    "GaloisInc/cryptol-specs",
     "getgrav/grav-theme-learn2",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "GoogleCloudPlatform/getting-started-dotnet",
@@ -98,6 +98,7 @@
     "Humans-of-Julia/StaticWebPages.jl",
     "ImranR98/obtainium.imranr.dev",
     "informalsystems/audits",
+    "informalsystems/choreo",
     "informalsystems/quint-llm-kit",
     "IQVIA-ML/LightGBM.jl",
     "jaegertracing/docker-protobuf",
@@ -119,7 +120,6 @@
     "jupyter-xeus/xeus-python-wheel",
     "kahliburke/MCPRepl.jl",
     "kalbasit/nur-packages",
-    "kigster/puma-daemon",
     "kool-engine/kool-templates",
     "lambdaisland/kaocha-cljs",
     "larshp/abapGitServer",

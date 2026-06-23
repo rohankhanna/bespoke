@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 4,
-    "terms": 42
+    "components": 93,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 5,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "dense-analysis/ale",
     "github-linguist/linguist",
     "mixmark-io/turndown",
+    "upptime/upptime",
     "vbenjs/vue-vben-admin"
   ]
 }

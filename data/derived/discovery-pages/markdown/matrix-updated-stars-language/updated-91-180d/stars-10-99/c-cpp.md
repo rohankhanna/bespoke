@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 70
-- terms: 198
-- components: 173
-- concepts: 198
-- observations: 199
+- repos: 71
+- terms: 197
+- components: 174
+- concepts: 197
+- observations: 198
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bartp5/libtexprintf](https://github.com/bartp5/libtexprintf) | 71 | 2026-03-24T22:35:22Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [midi2-dev/ni-midi2](https://github.com/midi2-dev/ni-midi2) | 57 | 2026-03-24T11:22:34Z | C/C++ | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [CROSS-signature/CROSS-implementation](https://github.com/CROSS-signature/CROSS-implementation) | 13 | 2026-03-23T17:42:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ssiu/flash-attention-turing](https://github.com/ssiu/flash-attention-turing) | 89 | 2026-03-23T07:13:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -86,6 +87,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eliemichel/dawn-prebuilt](https://github.com/eliemichel/dawn-prebuilt) | 15 | 2026-01-21T14:44:33Z | C/C++ | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [r-spatial/lwgeom](https://github.com/r-spatial/lwgeom) | 63 | 2026-01-20T09:43:07Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [eddelbuettel/rcppfastfloat](https://github.com/eddelbuettel/rcppfastfloat) | 21 | 2026-01-19T03:34:42Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [SineStriker/syscmdline](https://github.com/SineStriker/syscmdline) | 18 | 2026-01-18T14:16:37Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [osmcode/osm-gis-export](https://github.com/osmcode/osm-gis-export) | 24 | 2026-01-18T13:51:30Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [Yepkit/ykush](https://github.com/Yepkit/ykush) | 63 | 2026-01-16T02:53:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [coin-or/CHiPPS-ALPS](https://github.com/coin-or/CHiPPS-ALPS) | 11 | 2026-01-14T04:12:47Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
@@ -95,7 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ccslykx/Starry](https://github.com/ccslykx/Starry) | 97 | 2025-12-30T09:12:28Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jdlph/OpenDTA](https://github.com/jdlph/OpenDTA) | 11 | 2025-12-26T23:40:18Z | C/C++ | Model/data | 6 | 0 | 6 | 6 |
 | [XR-Robotics/XRoboToolkit-PC-Service-Pybind](https://github.com/XR-Robotics/XRoboToolkit-PC-Service-Pybind) | 20 | 2025-12-25T23:10:52Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [lemire/fast_float](https://github.com/lemire/fast_float) | 12 | 2025-12-24T20:44:57Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -120,6 +121,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cisco/libacvp](https://github.com/cisco/libacvp) | 77 | 2026-03-16T14:44:04Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [onicai/llama_cpp_canister](https://github.com/onicai/llama_cpp_canister) | 76 | 2026-03-18T19:10:37Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [tlaplus-community/tree-sitter-tlaplus](https://github.com/tlaplus-community/tree-sitter-tlaplus) | 75 | 2026-02-17T16:55:51Z | C/C++ | Infrastructure/tooling | 8 | 16 | 8 | 8 |
+| [bartp5/libtexprintf](https://github.com/bartp5/libtexprintf) | 71 | 2026-03-24T22:35:22Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 | [RomanArzumanyan/VALI](https://github.com/RomanArzumanyan/VALI) | 70 | 2026-02-05T19:12:18Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [RekGRpth/pg_task](https://github.com/RekGRpth/pg_task) | 67 | 2026-03-18T04:02:01Z | C/C++ | Infrastructure/tooling | 10 | 5 | 10 | 10 |
@@ -160,13 +162,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FourierTransformer/lua-simdjson](https://github.com/FourierTransformer/lua-simdjson) | 20 | 2026-02-10T23:28:53Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [XR-Robotics/XRoboToolkit-PC-Service-Pybind](https://github.com/XR-Robotics/XRoboToolkit-PC-Service-Pybind) | 20 | 2025-12-25T23:10:52Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [icppWorld/icpp_llm](https://github.com/icppWorld/icpp_llm) | 19 | 2026-01-09T20:17:21Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [SineStriker/syscmdline](https://github.com/SineStriker/syscmdline) | 18 | 2026-01-18T14:16:37Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [AFD-Illinois/ebhlight](https://github.com/AFD-Illinois/ebhlight) | 17 | 2026-03-19T20:27:04Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [gozaltech/espeak-ng-sapi](https://github.com/gozaltech/espeak-ng-sapi) | 15 | 2026-03-15T11:54:58Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [eliemichel/dawn-prebuilt](https://github.com/eliemichel/dawn-prebuilt) | 15 | 2026-01-21T14:44:33Z | C/C++ | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [CROSS-signature/CROSS-implementation](https://github.com/CROSS-signature/CROSS-implementation) | 13 | 2026-03-23T17:42:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ilyabrilev/biosim4](https://github.com/ilyabrilev/biosim4) | 13 | 2026-03-09T20:33:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [DavidKinder/Windows-Glk](https://github.com/DavidKinder/Windows-Glk) | 13 | 2026-02-11T17:37:03Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [lemire/fast_float](https://github.com/lemire/fast_float) | 12 | 2025-12-24T20:44:57Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [jupyter-xeus/xeus-zmq](https://github.com/jupyter-xeus/xeus-zmq) | 11 | 2026-03-04T22:03:29Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [coin-or/CHiPPS-ALPS](https://github.com/coin-or/CHiPPS-ALPS) | 11 | 2026-01-14T04:12:47Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [jdlph/OpenDTA](https://github.com/jdlph/OpenDTA) | 11 | 2025-12-26T23:40:18Z | C/C++ | Model/data | 6 | 0 | 6 | 6 |

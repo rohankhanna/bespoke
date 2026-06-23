@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 313,
-    "concepts": 655,
-    "observations": 656,
-    "repos": 114,
-    "terms": 649
+    "components": 317,
+    "concepts": 660,
+    "observations": 661,
+    "repos": 115,
+    "terms": 652
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -82,6 +82,7 @@
     "microsoft/LoRA",
     "microsoft/nni",
     "microsoft/Swin-Transformer",
+    "microsoft/TRELLIS",
     "Mikubill/sd-webui-controlnet",
     "milesial/Pytorch-UNet",
     "minimaxir/big-list-of-naughty-strings",

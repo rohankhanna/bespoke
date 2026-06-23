@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 116,
-    "observations": 117,
+    "components": 142,
+    "concepts": 98,
+    "observations": 98,
     "repos": 10,
-    "terms": 116
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
-    "datalevin/datalevin",
     "dotnet/reactive",
-    "dotnet/Silk.NET",
     "firebase/flutterfire",
+    "kurrent-io/KurrentDB",
     "licensee/licensed",
     "microsoft/aspire",
     "microsoft/aspire-samples",
+    "seancorfield/honeysql",
     "swiftlang/llvm-project",
-    "TryGhost/node-sqlite3",
+    "swiftlang/swift-syntax",
     "web-platform-tests/wpt"
   ]
 }

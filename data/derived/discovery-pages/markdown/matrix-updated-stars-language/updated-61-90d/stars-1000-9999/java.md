@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 235
-- components: 231
-- concepts: 235
-- observations: 237
+- repos: 40
+- terms: 316
+- components: 280
+- concepts: 316
+- observations: 318
 
 ## Static behavior
 
@@ -26,6 +26,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [agents-flex/agents-flex](https://github.com/agents-flex/agents-flex) | 1031 | 2026-04-24T05:48:16Z | Java | Framework | 6 | 0 | 6 | 6 |
+| [besu-eth/besu](https://github.com/besu-eth/besu) | 1800 | 2026-04-23T23:40:06Z | Java | CLI | 12 | 13 | 12 | 12 |
+| [google/google-java-format](https://github.com/google/google-java-format) | 6117 | 2026-04-23T21:56:44Z | Java | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [google/adk-java](https://github.com/google/adk-java) | 1499 | 2026-04-23T20:34:30Z | Java | Infrastructure/tooling | 16 | 4 | 16 | 16 |
+| [apache/poi](https://github.com/apache/poi) | 2223 | 2026-04-23T18:04:02Z | Java | Infrastructure/tooling | 10 | 6 | 10 | 10 |
+| [oshi/oshi](https://github.com/oshi/oshi) | 5207 | 2026-04-23T16:57:51Z | Java | Infrastructure/tooling | 21 | 11 | 21 | 21 |
+| [apache/camel](https://github.com/apache/camel) | 6186 | 2026-04-23T16:14:10Z | Java | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [diffplug/spotless](https://github.com/diffplug/spotless) | 5427 | 2026-04-23T11:56:48Z | Java | Infrastructure/tooling | 15 | 8 | 15 | 15 |
 | [apache/netbeans](https://github.com/apache/netbeans) | 3046 | 2026-04-23T10:43:45Z | Java | Infrastructure/tooling | 8 | 9 | 8 | 9 |
 | [apache/lucene](https://github.com/apache/lucene) | 3408 | 2026-04-23T09:41:23Z | Java | Infrastructure/tooling | 13 | 7 | 13 | 13 |
@@ -68,7 +75,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/error-prone](https://github.com/google/error-prone) | 7158 | 2026-04-21T23:33:25Z | Java | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [rabbitmq/rabbitmq-tutorials](https://github.com/rabbitmq/rabbitmq-tutorials) | 6884 | 2026-04-23T02:04:09Z | Java | Unknown | 2 | 0 | 2 | 2 |
 | [raphw/byte-buddy](https://github.com/raphw/byte-buddy) | 6818 | 2026-04-22T23:08:03Z | Java | Infrastructure/tooling | 9 | 8 | 9 | 9 |
+| [apache/camel](https://github.com/apache/camel) | 6186 | 2026-04-23T16:14:10Z | Java | Infrastructure/tooling | 13 | 9 | 13 | 13 |
+| [google/google-java-format](https://github.com/google/google-java-format) | 6117 | 2026-04-23T21:56:44Z | Java | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [diffplug/spotless](https://github.com/diffplug/spotless) | 5427 | 2026-04-23T11:56:48Z | Java | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [oshi/oshi](https://github.com/oshi/oshi) | 5207 | 2026-04-23T16:57:51Z | Java | Infrastructure/tooling | 21 | 11 | 21 | 21 |
 | [brianfrankcooper/YCSB](https://github.com/brianfrankcooper/YCSB) | 5205 | 2026-04-15T15:08:44Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [stleary/JSON-java](https://github.com/stleary/JSON-java) | 4716 | 2026-03-26T16:52:50Z | Java | Infrastructure/tooling | 6 | 7 | 7 | 7 |
 | [objectbox/objectbox-java](https://github.com/objectbox/objectbox-java) | 4609 | 2026-03-30T10:21:02Z | Java | Infrastructure/tooling | 13 | 1 | 13 | 13 |
@@ -85,9 +95,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [http-kit/http-kit](https://github.com/http-kit/http-kit) | 2572 | 2026-04-08T10:03:52Z | Java | CLI | 7 | 5 | 7 | 7 |
 | [peergos/peergos](https://github.com/Peergos/Peergos) | 2393 | 2026-04-18T23:06:04Z | Java | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java) | 2390 | 2026-04-22T00:52:49Z | Java | Infrastructure/tooling | 10 | 14 | 10 | 10 |
+| [apache/poi](https://github.com/apache/poi) | 2223 | 2026-04-23T18:04:02Z | Java | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [ninjaframework/ninja](https://github.com/ninjaframework/ninja) | 1902 | 2026-04-03T18:40:39Z | Java | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [spring-ai-alibaba/DataAgent](https://github.com/spring-ai-alibaba/DataAgent) | 1826 | 2026-04-22T05:13:12Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
+| [besu-eth/besu](https://github.com/besu-eth/besu) | 1800 | 2026-04-23T23:40:06Z | Java | CLI | 12 | 13 | 12 | 12 |
 | [langchain4j/langchain4j-examples](https://github.com/langchain4j/langchain4j-examples) | 1679 | 2026-04-09T14:28:46Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [google/adk-java](https://github.com/google/adk-java) | 1499 | 2026-04-23T20:34:30Z | Java | Infrastructure/tooling | 16 | 4 | 16 | 16 |
 | [googleapis/google-api-java-client](https://github.com/googleapis/google-api-java-client) | 1449 | 2026-04-20T21:14:38Z | Java | CLI | 4 | 6 | 4 | 4 |
 | [beehive-lab/TornadoVM](https://github.com/beehive-lab/TornadoVM) | 1449 | 2026-04-16T10:18:03Z | Java | Infrastructure/tooling | 12 | 2 | 12 | 12 |
 | [googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client) | 1433 | 2026-04-20T20:46:31Z | Java | CLI | 5 | 8 | 5 | 5 |
@@ -97,3 +110,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bobbylight/RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea) | 1236 | 2026-03-30T19:36:23Z | Java | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs) | 1182 | 2026-04-08T17:02:53Z | Java | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [codelibs/fess](https://github.com/codelibs/fess) | 1107 | 2026-04-21T13:20:34Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
+| [agents-flex/agents-flex](https://github.com/agents-flex/agents-flex) | 1031 | 2026-04-24T05:48:16Z | Java | Framework | 6 | 0 | 6 | 6 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 398
-- terms: 1287
-- components: 728
+- repos: 400
+- terms: 1286
+- components: 753
 - concepts: 1307
 - observations: 1310
 
@@ -35,6 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stefantalpalaru/w_scan2](https://github.com/stefantalpalaru/w_scan2) | 100 | 2025-12-15T14:52:47Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [JokerJohn/LIO_SAM_6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) | 841 | 2025-12-15T10:51:10Z | C/C++ | Infrastructure/tooling | 7 | 0 | 8 | 8 |
 | [jimporter/mettle](https://github.com/jimporter/mettle) | 125 | 2025-12-13T21:14:57Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [Chuyu-Team/VC-LTL5](https://github.com/Chuyu-Team/VC-LTL5) | 711 | 2025-12-12T06:06:34Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [birkett/srvany-ng](https://github.com/birkett/srvany-ng) | 129 | 2025-12-11T21:02:52Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [powervr-graphics/Native_SDK](https://github.com/powervr-graphics/Native_SDK) | 767 | 2025-12-11T15:15:51Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [isciences/exactextractr](https://github.com/isciences/exactextractr) | 305 | 2025-12-01T15:50:27Z | C/C++ | Library | 2 | 0 | 2 | 2 |
@@ -242,6 +243,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IST-DASLab/QUIK](https://github.com/IST-DASLab/QUIK) | 185 | 2024-04-16T03:21:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [dnanexus-rnd/GLnexus](https://github.com/dnanexus-rnd/GLnexus) | 183 | 2024-04-12T00:01:44Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [anhero/JsonBox](https://github.com/anhero/JsonBox) | 115 | 2024-04-11T10:14:26Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [xaviergonz/js-angusj-clipper](https://github.com/xaviergonz/js-angusj-clipper) | 176 | 2024-04-11T06:19:02Z | C/C++ | CLI | 0 | 19 | 0 | 0 |
 | [MorganRO8/Lucys_Labyrinth](https://github.com/MorganRO8/Lucys_Labyrinth) | 198 | 2024-04-09T15:00:15Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [MegEngine/InferLLM](https://github.com/MegEngine/InferLLM) | 752 | 2024-04-07T01:57:37Z | C/C++ | Framework | 3 | 0 | 3 | 3 |
 | [adafruit/Adafruit_ADXL345](https://github.com/adafruit/Adafruit_ADXL345) | 139 | 2024-04-06T14:45:00Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -307,7 +309,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yuanming-hu/taichi](https://github.com/yuanming-hu/taichi) | 411 | 2023-09-16T14:39:21Z | C/C++ | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [bigcode-project/starcoder.cpp](https://github.com/bigcode-project/starcoder.cpp) | 458 | 2023-09-09T16:54:50Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [PotatoOfDoom/CyberFSR2](https://github.com/PotatoOfDoom/CyberFSR2) | 619 | 2023-09-05T20:34:07Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 633 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 21 | 19 | 21 | 21 |
+| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 633 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 20 | 19 | 21 | 21 |
 | [tsattler/RansacLib](https://github.com/tsattler/RansacLib) | 383 | 2023-08-31T15:25:26Z | C/C++ | Template/starter | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/Discregrid](https://github.com/InteractiveComputerGraphics/Discregrid) | 312 | 2023-08-31T10:30:00Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [Koihik/LuaFormatter](https://github.com/Koihik/LuaFormatter) | 801 | 2023-08-25T16:37:49Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -501,6 +503,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BlueBrain/HighFive](https://github.com/BlueBrain/HighFive) | 723 | 2025-01-09T09:29:48Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) | 722 | 2023-07-24T17:16:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 718 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [Chuyu-Team/VC-LTL5](https://github.com/Chuyu-Team/VC-LTL5) | 711 | 2025-12-12T06:06:34Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [voutcn/megahit](https://github.com/voutcn/megahit) | 711 | 2025-10-28T04:07:04Z | C/C++ | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [inikep/lizard](https://github.com/inikep/lizard) | 702 | 2025-10-09T17:41:20Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [Mange/rofi-emoji](https://github.com/Mange/rofi-emoji) | 700 | 2025-04-04T21:31:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -519,7 +522,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Livox-SDK/Livox-SDK](https://github.com/Livox-SDK/Livox-SDK) | 638 | 2024-12-17T13:20:09Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [danfis/libccd](https://github.com/danfis/libccd) | 636 | 2023-12-04T14:46:54Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [libbitcoin/libbitcoin-explorer](https://github.com/libbitcoin/libbitcoin-explorer) | 634 | 2024-03-01T22:16:22Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
-| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 633 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 21 | 19 | 21 | 21 |
+| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 633 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 20 | 19 | 21 | 21 |
 | [axodox/axodox-machinelearning](https://github.com/axodox/axodox-machinelearning) | 631 | 2025-05-29T17:26:00Z | C/C++ | Model/data | 12 | 0 | 12 | 12 |
 | [twhui/LiteFlowNet](https://github.com/twhui/LiteFlowNet) | 629 | 2023-03-21T07:13:27Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [YukihoAA/waifu2x_snowshell](https://github.com/YukihoAA/waifu2x_snowshell) | 627 | 2023-03-09T16:13:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -736,6 +739,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FeiGeChuanShu/ncnn_Android_face](https://github.com/FeiGeChuanShu/ncnn_Android_face) | 180 | 2022-11-01T05:52:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [IST-DASLab/qutlass](https://github.com/IST-DASLab/qutlass) | 179 | 2025-11-11T13:41:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [JaneaSystems/nodejs-mobile-samples](https://github.com/JaneaSystems/nodejs-mobile-samples) | 179 | 2023-01-03T21:47:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [xaviergonz/js-angusj-clipper](https://github.com/xaviergonz/js-angusj-clipper) | 176 | 2024-04-11T06:19:02Z | C/C++ | CLI | 0 | 19 | 0 | 0 |
 | [InteractiveComputerGraphics/CompactNSearch](https://github.com/InteractiveComputerGraphics/CompactNSearch) | 175 | 2025-09-11T10:47:21Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [mayah/tinytoml](https://github.com/mayah/tinytoml) | 175 | 2024-06-20T16:20:06Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [serde-rs/json-benchmark](https://github.com/serde-rs/json-benchmark) | 175 | 2024-03-26T05:31:58Z | C/C++ | Infrastructure/tooling | 3 | 5 | 4 | 4 |

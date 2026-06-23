@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 116,
-    "observations": 117,
-    "repos": 43,
-    "terms": 109
+    "components": 36,
+    "concepts": 119,
+    "observations": 120,
+    "repos": 45,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "abubakarsiddik31/claude-skills-collection",
@@ -21,6 +21,7 @@
     "bluescan/proggyfonts",
     "Calcium-Ion/new-api-horizon",
     "docker-library/faq",
+    "dotnet/source-build",
     "emberjs/core-notes",
     "eza-community/eza-themes",
     "filecoin-project/devgrants",
@@ -46,6 +47,7 @@
     "neon-bindings/examples",
     "ntnu-arl/lidar_degeneracy_datasets",
     "oh-my-fish/packages-main",
+    "oobabooga/textgen-extensions",
     "pbatard/UEFI-Shell",
     "peter-evans/enable-pull-request-automerge",
     "pingcap/community",

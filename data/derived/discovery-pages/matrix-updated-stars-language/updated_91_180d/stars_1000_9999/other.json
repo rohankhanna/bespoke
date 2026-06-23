@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 655,
-    "concepts": 755,
-    "observations": 760,
-    "repos": 148,
-    "terms": 758
+    "components": 680,
+    "concepts": 789,
+    "observations": 794,
+    "repos": 151,
+    "terms": 791
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -66,6 +66,7 @@
     "flycheck/flycheck",
     "folke/lazydev.nvim",
     "folke/snacks.nvim",
+    "folke/tokyonight.nvim",
     "formtastic/formtastic",
     "freerange/mocha",
     "fsprojects/Paket",
@@ -76,6 +77,7 @@
     "google/cel-spec",
     "google/gumbo-parser",
     "googleapis/elixir-google-api",
+    "gpuweb/gpuweb",
     "grangier/python-goose",
     "greggh/claude-code.nvim",
     "guard/guard",
@@ -92,6 +94,7 @@
     "jpanther/congo",
     "kaminari/kaminari",
     "karb94/neoscroll.nvim",
+    "kepano/obsidian-minimal",
     "kevinhwang91/nvim-ufo",
     "kha-white/mokuro",
     "kikito/inspect.lua",

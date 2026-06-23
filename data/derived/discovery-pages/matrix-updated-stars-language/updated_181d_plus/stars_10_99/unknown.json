@@ -3,7 +3,7 @@
     "components": 197,
     "concepts": 332,
     "observations": 332,
-    "repos": 290,
+    "repos": 291,
     "terms": 332
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -128,6 +128,7 @@
     "francisengelmann/3D-MPA",
     "ganelson/inform-public-library",
     "gchq/gaffer-doc",
+    "getlantern/lantern-forum-cn",
     "getsops/community",
     "github-starter-workflows/repo-analysis-partner",
     "gogocodeio/vue-element-admin",

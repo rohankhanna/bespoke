@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 76
-- terms: 285
-- components: 439
-- concepts: 287
-- observations: 290
+- repos: 77
+- terms: 288
+- components: 443
+- concepts: 290
+- observations: 293
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [getsentry/rust-sourcemap](https://github.com/getsentry/rust-sourcemap) | 246 | 2026-03-25T04:01:23Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [dtolnay/ref-cast](https://github.com/dtolnay/ref-cast) | 219 | 2026-03-24T02:43:31Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [dtolnay/readonly](https://github.com/dtolnay/readonly) | 265 | 2026-03-24T02:37:41Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [AchetaGames/Epic-Asset-Manager](https://github.com/AchetaGames/Epic-Asset-Manager) | 501 | 2026-03-23T13:47:23Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 3 |
@@ -149,6 +150,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IWANABETHATGUY/tower-lsp-boilerplate](https://github.com/IWANABETHATGUY/tower-lsp-boilerplate) | 282 | 2026-03-04T13:35:04Z | Rust | Infrastructure/tooling | 0 | 19 | 0 | 0 |
 | [dtolnay/readonly](https://github.com/dtolnay/readonly) | 265 | 2026-03-24T02:37:41Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [bluss/matrixmultiply](https://github.com/bluss/matrixmultiply) | 254 | 2026-01-07T11:47:49Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [getsentry/rust-sourcemap](https://github.com/getsentry/rust-sourcemap) | 246 | 2026-03-25T04:01:23Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [Roblox/foreman](https://github.com/Roblox/foreman) | 244 | 2026-01-13T22:22:15Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [cormacrelf/dark-notify](https://github.com/cormacrelf/dark-notify) | 240 | 2026-02-21T06:47:33Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [callum-oakley/json5-rs](https://github.com/callum-oakley/json5-rs) | 232 | 2026-02-07T15:06:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |

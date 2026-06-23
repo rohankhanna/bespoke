@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 334,
+    "components": 348,
     "concepts": 170,
     "observations": 171,
-    "repos": 103,
+    "repos": 106,
     "terms": 169
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -19,6 +19,7 @@
     "8144225309/superscalar-mcp",
     "abbhisap/LLM-Council-SAP",
     "AdaCore/vss-text",
+    "adipalko/hatraot",
     "aldernero/spider",
     "aleclarson/vite-multi-spa",
     "all-the-noises/data",
@@ -41,6 +42,7 @@
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/Failover-Internet-Israel-Notes",
+    "danielrosehill/Hebrew-Tech-Vocab",
     "danielrosehill/Israel-First-Aid",
     "danielrosehill/Model-Scout-MCP",
     "danielrosehill/N8N-Workflows-Index",
@@ -71,6 +73,7 @@
     "iambriccardo/gcp-bigquery-client",
     "jackielii/qmk_firmware",
     "jrsoftware/is7z",
+    "JuliaBinaryWrappers/FreeType2_jll.jl",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "JuliaBinaryWrappers/Glib_jll.jl",
     "kdubbo/api",

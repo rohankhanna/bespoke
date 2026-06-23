@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1918,
-    "concepts": 294,
-    "observations": 297,
-    "repos": 77,
-    "terms": 326
+    "components": 2241,
+    "concepts": 335,
+    "observations": 338,
+    "repos": 83,
+    "terms": 367
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -35,7 +35,9 @@
     "cahamilton/stylelint-config-property-sort-order-smacss",
     "cargo-bins/release-pr",
     "celo-org/developer-tooling",
+    "celo-org/social-connect",
     "codemirror/language",
+    "dannyhw/expo-storybook-starter",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "DataDog/opentelemetry-demo",
     "dokploy/cli",
@@ -47,7 +49,10 @@
     "gicentre/prettier-plugin-elm",
     "gnosischain/gbc-deposit-ui",
     "Godefroy/micdrop",
+    "grafana/profiles-drilldown",
     "GreptimeTeam/greptimedb-grafana-datasource",
+    "gridatek/semantic-icons",
+    "hairyf/genapi",
     "hashintel/labs",
     "haskell-actions/setup",
     "haskell/ghcup-setup",
@@ -67,12 +72,14 @@
     "labring/fastgpt-plugin",
     "llamastack/llama-stack-client-typescript",
     "lobehub/lobe-lint",
+    "mcous/vitest-when",
     "mdjastrzebski/test-renderer",
     "memoryhole/jjo",
     "microsoft/vscode-js-debug-companion",
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
     "obi1kenobi/cargo-semver-checks-action",
+    "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
@@ -85,7 +92,6 @@
     "Shougo/dpp-ext-installer",
     "slopus/slopus.github.io",
     "solidjs-community/storybook",
-    "TravisTheTechie/vscode-write-good",
     "vaultwarden/vw_web_builds",
     "wighawag/rocketh",
     "ylsssq926/relic.skill",

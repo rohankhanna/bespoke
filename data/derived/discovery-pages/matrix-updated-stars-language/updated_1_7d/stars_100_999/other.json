@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 11,
-    "terms": 95
+    "components": 84,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 13,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
-    "clj-commons/rewrite-clj",
+    "Artoriuz/ArtCNN",
+    "astroautomata/SymbolicRegression.jl",
+    "Deep-Symmetry/beat-link-trigger",
     "devcontainers/devcontainers.github.io",
     "emacs-eldev/eldev",
     "fsprojects/FSharp.Data.GraphQL",

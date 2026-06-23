@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39496,
-    "concepts": 8838,
-    "observations": 8865,
-    "repos": 2086,
-    "terms": 8829
+    "components": 39475,
+    "concepts": 8831,
+    "observations": 8858,
+    "repos": 2082,
+    "terms": 8820
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -36,7 +36,6 @@
     "5scontrol/machine-control-js",
     "5sControl/operation-control-js",
     "6/stopwords-json",
-    "71/logseq-snippets",
     "8144225309/superscalar-mcp",
     "88250/wide",
     "A/textr",
@@ -745,9 +744,6 @@
     "felixge/node-combined-stream",
     "fengari-lua/fengari",
     "fengari-lua/fengari-interop",
-    "fengari-lua/fengari-loader",
-    "fengari-lua/fengari-node-cli",
-    "fengari-lua/fengari-web",
     "fengyuanchen/compressorjs",
     "feross/buffer",
     "feross/simple-get",
@@ -1963,7 +1959,7 @@
     "treosh/lighthouse-ci-action",
     "TrigenSoftware/simple-release-action",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "TritonDataCenter/node-http-signature",
     "TritonDataCenter/node-verror",
     "trylovetom/clean-code-javascript",

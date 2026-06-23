@@ -3,8 +3,8 @@
     "components": 747,
     "concepts": 1557,
     "observations": 1559,
-    "repos": 867,
-    "terms": 1536
+    "repos": 869,
+    "terms": 1535
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -486,6 +486,7 @@
     "ionelmc/tox-wheel",
     "isamert/gedi",
     "isamert/gracer",
+    "ishandutta0098/lancedb-multimodal-myntra-fashion-search-engine",
     "jacobmarks/clustering-plugin",
     "jacobmarks/image-quality-issues",
     "jason9075/Ultra-Light-Fast-Generic-Face-Detector_Tensorflow-Model-Converter",
@@ -760,6 +761,7 @@
     "SkyworkAI/vllm",
     "SLDGroup/CASCADE",
     "SLDGroup/EfficientMedNeXt",
+    "SLDGroup/EffiDec3D",
     "SLDGroup/G-CASCADE",
     "SLDGroup/MERIT",
     "SLDGroup/PP-SAM",

@@ -1,6 +1,6 @@
 # Unknown
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-06-22T11:59:31.612749+00:00`
 
 ## Counts
 
-- repos: 1713
-- terms: 3029
-- components: 1650
-- concepts: 3020
-- observations: 3024
+- repos: 1715
+- terms: 3034
+- components: 1656
+- concepts: 3025
+- observations: 3029
 
 ## Static behavior
 
@@ -29,7 +29,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 7 | 2026-06-13T02:12:50Z | Unknown | CLI | 1 | 0 | 1 | 1 |
 | [Alex313031/Thorium-MacOS](https://github.com/Alex313031/Thorium-MacOS) | 608 | 2026-06-10T02:15:23Z | Unknown | Unknown | 9 | 0 | 9 | 9 |
 | [FAIR-IMPACT/MOD](https://github.com/FAIR-IMPACT/MOD) | 36 | 2026-06-04T11:30:58Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [Comfy-Org/ComfyUI-Standalone-Environments](https://github.com/Comfy-Org/ComfyUI-Standalone-Environments) | 3 | 2026-06-03T00:30:42Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-21T08:10:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [Jaded-Encoding-Thaumaturgy/JET-guide](https://github.com/Jaded-Encoding-Thaumaturgy/JET-guide) | 34 | 2026-05-20T01:28:34Z | Unknown | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [OpenHands/incubator-program](https://github.com/OpenHands/incubator-program) | 0 | 2026-05-18T17:45:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [RiDDiX/home-assistant-addons](https://github.com/RiDDiX/home-assistant-addons) | 93 | 2026-05-14T16:09:01Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | 29165 | 2026-05-10T20:41:20Z | Unknown | Infrastructure/tooling | 10 | 3 | 10 | 10 |
@@ -2555,6 +2557,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yzyydev/agentic-coding-structure](https://github.com/yzyydev/agentic-coding-structure) | 35 | 2025-09-15T14:45:37Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [rbong/flog-symbols](https://github.com/rbong/flog-symbols) | 35 | 2024-08-30T05:53:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mozilla-mobile/shared-docs](https://github.com/mozilla-mobile/shared-docs) | 35 | 2023-01-09T23:59:45Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [Jaded-Encoding-Thaumaturgy/JET-guide](https://github.com/Jaded-Encoding-Thaumaturgy/JET-guide) | 34 | 2026-05-20T01:28:34Z | Unknown | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [BingguangHao/RLFC](https://github.com/BingguangHao/RLFC) | 34 | 2025-08-11T02:32:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [openlanguagedata/seed](https://github.com/openlanguagedata/seed) | 34 | 2024-11-12T09:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lxgw/LxgwHeartSerif](https://github.com/lxgw/LxgwHeartSerif) | 34 | 2024-09-09T15:07:29Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -2928,6 +2931,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SivilTaram/tapex_transformers](https://github.com/SivilTaram/tapex_transformers) | 4 | 2022-03-11T03:08:38Z | Unknown | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [webpack/v4.webpack.js.org](https://github.com/webpack/v4.webpack.js.org) | 4 | 2021-11-07T00:27:03Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [lyceum/lyceumregistry](https://github.com/Lyceum/LyceumRegistry) | 4 | 2021-09-23T22:38:08Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [Comfy-Org/ComfyUI-Standalone-Environments](https://github.com/Comfy-Org/ComfyUI-Standalone-Environments) | 3 | 2026-06-03T00:30:42Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [emacs-straight/emacsmirror-mirror](https://github.com/emacs-straight/emacsmirror-mirror) | 3 | 2026-05-04T00:20:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Ideation-Planning-Plugin](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) | 3 | 2026-04-28T11:54:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Data-Analyst-plugin](https://github.com/danielrosehill/Claude-Data-Analyst-plugin) | 3 | 2026-04-23T14:53:13Z | Unknown | Unknown | 3 | 0 | 3 | 3 |

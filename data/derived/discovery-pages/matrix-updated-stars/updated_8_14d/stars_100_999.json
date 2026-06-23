@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 322,
-    "concepts": 179,
-    "observations": 180,
-    "repos": 31,
-    "terms": 179
+    "components": 364,
+    "concepts": 199,
+    "observations": 200,
+    "repos": 33,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
+    "abaplint/transpiler",
     "adamchainz/blacken-docs",
     "Ai00-X/ai00_server",
     "Alex313031/Thorium-MacOS",
@@ -22,7 +23,6 @@
     "babashka/nbb",
     "browserslist/caniuse-lite",
     "ChiyukiGana/Quickinput",
-    "clearml/clearml-agent",
     "databrickslabs/ucx",
     "dwyl/phoenix-ecto-encryption-example",
     "eclipse-buildship/buildship",
@@ -32,15 +32,17 @@
     "google-deepmind/chex",
     "google-deepmind/xmanager",
     "GoogleCloudPlatform/google-cloud-node-todos",
+    "haasn/libplacebo",
     "lobehub/lobe-cli-toolbox",
     "machinewrapped/llm-subtrans",
     "mafintosh/streamx",
-    "meshcat-dev/meshcat",
     "meta-pytorch/torchft",
     "rescript-lang/reanalyze",
+    "SpecterOps/AzureHound",
     "tc39/proposal-decimal",
     "the-database/traiNNer-redux",
     "unplugin/unplugin-imagemin",
+    "unum-bio/USearchMolecules",
     "w3c/trusted-types",
     "xlite-dev/Awesome-DiT-Inference",
     "yaling888/quirktiva"

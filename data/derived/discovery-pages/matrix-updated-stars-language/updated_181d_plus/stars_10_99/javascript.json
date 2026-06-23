@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3039,
-    "concepts": 681,
-    "observations": 681,
-    "repos": 286,
-    "terms": 673
+    "components": 3024,
+    "concepts": 676,
+    "observations": 676,
+    "repos": 283,
+    "terms": 668
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
-    "71/logseq-snippets",
     "A11yance/axobject-query",
     "a2not/vite-grpc-web",
     "aaronlamz/excel-to-json",
@@ -125,8 +124,6 @@
     "erkyrath/glkote",
     "ethereum/rpc-tests",
     "faceyspacey/redux-first-router-link",
-    "fengari-lua/fengari-loader",
-    "fengari-lua/fengari-node-cli",
     "flekschas/hipiler",
     "fnproject/ui",
     "fontello/cubic2quad",
@@ -282,7 +279,7 @@
     "tommasongr/nova-vue",
     "topojson/topojson-simplify",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "udacity/FEF-UdaciMeals-Backbone",
     "un-ts/toml-tools",
     "unlight/postcss-import-url",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 55
-- terms: 154
-- components: 954
-- concepts: 152
-- observations: 152
+- repos: 56
+- terms: 157
+- components: 972
+- concepts: 155
+- observations: 155
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [TravisTheTechie/vscode-write-good](https://github.com/TravisTheTechie/vscode-write-good) | 58 | 2026-03-24T22:36:46Z | TypeScript | Infrastructure/tooling | 3 | 18 | 3 | 3 |
 | [literalpie/storybook-framework-qwik](https://github.com/literalpie/storybook-framework-qwik) | 33 | 2026-03-24T02:00:19Z | TypeScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [automazeio/proof](https://github.com/automazeio/proof) | 41 | 2026-03-23T20:42:52Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [apache/incubator-devlake-website](https://github.com/apache/incubator-devlake-website) | 43 | 2026-03-23T14:31:00Z | TypeScript | Infrastructure/tooling | 5 | 22 | 5 | 5 |
@@ -100,6 +101,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pkgxdev/brewkit](https://github.com/pkgxdev/brewkit) | 64 | 2026-03-13T15:57:18Z | TypeScript | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [googleapis/nodejs-logging-bunyan](https://github.com/googleapis/nodejs-logging-bunyan) | 64 | 2026-02-05T18:05:46Z | TypeScript | CLI | 4 | 30 | 4 | 4 |
 | [janwilmake/openapisearch](https://github.com/janwilmake/openapisearch) | 60 | 2026-02-21T12:49:32Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
+| [TravisTheTechie/vscode-write-good](https://github.com/TravisTheTechie/vscode-write-good) | 58 | 2026-03-24T22:36:46Z | TypeScript | Infrastructure/tooling | 3 | 18 | 3 | 3 |
 | [aigc3d/LAM_WebRender](https://github.com/aigc3d/LAM_WebRender) | 55 | 2025-12-25T08:38:15Z | TypeScript | Web app | 0 | 4 | 0 | 0 |
 | [dannyhw/react-native-storybook-starter](https://github.com/dannyhw/react-native-storybook-starter) | 53 | 2026-03-11T11:57:36Z | TypeScript | CLI | 0 | 50 | 0 | 0 |
 | [dao-xyz/borsh-ts](https://github.com/dao-xyz/borsh-ts) | 50 | 2025-12-31T15:08:17Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 72
-- terms: 123
-- components: 297
-- concepts: 123
-- observations: 123
+- repos: 76
+- terms: 160
+- components: 309
+- concepts: 160
+- observations: 160
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [b-data/jupyterlab-mojo-docker-stack](https://github.com/b-data/jupyterlab-mojo-docker-stack) | 5 | 2026-04-24T05:25:17Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [b-data/jupyterlab-julia-docker-stack](https://github.com/b-data/jupyterlab-julia-docker-stack) | 9 | 2026-04-24T03:45:41Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [curiousdannii/emglken](https://github.com/curiousdannii/emglken) | 9 | 2026-04-24T02:34:56Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
+| [enbop/fungi-app](https://github.com/enbop/fungi-app) | 3 | 2026-04-23T14:04:05Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [KhronosGroup/KTX-Software-CTS](https://github.com/KhronosGroup/KTX-Software-CTS) | 2 | 2026-04-23T13:17:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/croc-feedstock](https://github.com/conda-forge/croc-feedstock) | 1 | 2026-04-23T06:46:24Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [jhugestar/jhugestar.github.io](https://github.com/jhugestar/jhugestar.github.io) | 3 | 2026-04-23T03:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/scikit-build-core-feedstock](https://github.com/conda-forge/scikit-build-core-feedstock) | 1 | 2026-04-23T00:36:17Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
@@ -97,12 +102,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vovkos/doxyrest_b](https://github.com/vovkos/doxyrest_b) | 4 | 2026-03-27T07:29:22Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [gmberton/gmberton.github.io](https://github.com/gmberton/gmberton.github.io) | 5 | 2026-03-27T06:24:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [WebAssembly/compact-import-section](https://github.com/WebAssembly/compact-import-section) | 5 | 2026-03-25T17:41:00Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [Asmod4n/mruby-argon2](https://github.com/Asmod4n/mruby-argon2) | 2 | 2026-03-24T18:51:14Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [b-data/jupyterlab-julia-docker-stack](https://github.com/b-data/jupyterlab-julia-docker-stack) | 9 | 2026-04-24T03:45:41Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [curiousdannii/emglken](https://github.com/curiousdannii/emglken) | 9 | 2026-04-24T02:34:56Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [flagos-ai/flir](https://github.com/flagos-ai/flir) | 9 | 2026-04-21T01:25:02Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [JuliaCI/julia-buildkite](https://github.com/JuliaCI/julia-buildkite) | 9 | 2026-04-20T22:02:48Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [knopp/native_toolchain_ninja](https://github.com/knopp/native_toolchain_ninja) | 9 | 2026-04-15T15:59:33Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -130,6 +136,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ROCm/hipBLAS-common](https://github.com/ROCm/hipBLAS-common) | 6 | 2026-04-14T13:53:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [marcindulak/learning-api-styles-gen-ai-experiments](https://github.com/marcindulak/learning-api-styles-gen-ai-experiments) | 6 | 2026-04-08T07:48:26Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [objectbox/objectbox-swift-spm](https://github.com/objectbox/objectbox-swift-spm) | 6 | 2026-03-27T15:10:51Z | Other | Library | 3 | 0 | 3 | 3 |
+| [b-data/jupyterlab-mojo-docker-stack](https://github.com/b-data/jupyterlab-mojo-docker-stack) | 5 | 2026-04-24T05:25:17Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [conda-forge/pybind11-feedstock](https://github.com/conda-forge/pybind11-feedstock) | 5 | 2026-04-22T16:53:41Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [apache/netbeans-antora-ui](https://github.com/apache/netbeans-antora-ui) | 5 | 2026-04-22T08:25:11Z | Other | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [raku-community-modules/Terminal-WCWidth](https://github.com/raku-community-modules/Terminal-WCWidth) | 5 | 2026-04-21T19:43:43Z | Other | CLI | 3 | 2 | 3 | 3 |
@@ -146,6 +153,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [0xPolygonHermez/stark-recurser](https://github.com/0xPolygonHermez/stark-recurser) | 4 | 2026-04-16T08:32:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [mpizenberg/elm-test-runner](https://github.com/mpizenberg/elm-test-runner) | 4 | 2026-03-28T15:50:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vovkos/doxyrest_b](https://github.com/vovkos/doxyrest_b) | 4 | 2026-03-27T07:29:22Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [enbop/fungi-app](https://github.com/enbop/fungi-app) | 3 | 2026-04-23T14:04:05Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [jhugestar/jhugestar.github.io](https://github.com/jhugestar/jhugestar.github.io) | 3 | 2026-04-23T03:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [wavelens/gobgp.nix](https://github.com/wavelens/gobgp.nix) | 3 | 2026-04-21T05:52:59Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [mitchuski/agentprivacy-docs](https://github.com/mitchuski/agentprivacy-docs) | 3 | 2026-04-16T15:26:35Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -155,6 +163,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bolasblack/BlogFront](https://github.com/bolasblack/BlogFront) | 3 | 2026-04-01T14:19:18Z | Other | Unknown | 0 | 22 | 0 | 0 |
 | [dylibso/xtp-go-bindgen](https://github.com/dylibso/xtp-go-bindgen) | 3 | 2026-03-29T12:28:20Z | Other | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [aspect-build/tools_telemetry](https://github.com/aspect-build/tools_telemetry) | 3 | 2026-03-28T22:21:56Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [KhronosGroup/KTX-Software-CTS](https://github.com/KhronosGroup/KTX-Software-CTS) | 2 | 2026-04-23T13:17:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [CVEProject/cve-user-registry-client](https://github.com/CVEProject/cve-user-registry-client) | 2 | 2026-04-21T18:22:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [caronc/apprise-docs](https://github.com/caronc/apprise-docs) | 2 | 2026-04-21T02:08:52Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [conda-forge/.cirun](https://github.com/conda-forge/.cirun) | 2 | 2026-04-20T18:39:59Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -164,7 +173,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dp111/6502timing](https://github.com/dp111/6502Timing) | 2 | 2026-04-11T09:31:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hchiam/convenience](https://github.com/hchiam/convenience) | 2 | 2026-04-07T04:43:33Z | Other | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [dylibso/xtp-csharp-bindgen](https://github.com/dylibso/xtp-csharp-bindgen) | 2 | 2026-03-29T11:39:13Z | Other | Infrastructure/tooling | 2 | 13 | 2 | 2 |
-| [Asmod4n/mruby-argon2](https://github.com/Asmod4n/mruby-argon2) | 2 | 2026-03-24T18:51:14Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [conda-forge/croc-feedstock](https://github.com/conda-forge/croc-feedstock) | 1 | 2026-04-23T06:46:24Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/scikit-build-core-feedstock](https://github.com/conda-forge/scikit-build-core-feedstock) | 1 | 2026-04-23T00:36:17Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [cake-contrib/Cake.Markdownlint](https://github.com/cake-contrib/Cake.Markdownlint) | 1 | 2026-04-22T20:43:57Z | Other | Unknown | 4 | 0 | 4 | 4 |

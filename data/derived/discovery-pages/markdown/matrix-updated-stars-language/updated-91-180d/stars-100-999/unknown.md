@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 109
-- components: 30
-- concepts: 116
-- observations: 117
+- repos: 45
+- terms: 112
+- components: 36
+- concepts: 119
+- observations: 120
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dotnet/source-build](https://github.com/dotnet/source-build) | 286 | 2026-03-24T16:57:01Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [oobabooga/textgen-extensions](https://github.com/oobabooga/textgen-extensions) | 678 | 2026-03-24T13:19:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [revfactory/harness-100](https://github.com/revfactory/harness-100) | 589 | 2026-03-22T22:42:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [near/borsh](https://github.com/near/borsh) | 611 | 2026-03-21T12:03:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) | 620 | 2026-03-19T17:43:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -82,6 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Alex313031/Thorium-Android](https://github.com/Alex313031/Thorium-Android) | 732 | 2026-02-25T15:32:41Z | Unknown | Unknown | 11 | 0 | 12 | 12 |
 | [lumen-oss/nvim-best-practices](https://github.com/lumen-oss/nvim-best-practices) | 706 | 2026-03-19T14:22:47Z | Unknown | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [Ableton/push-interface](https://github.com/Ableton/push-interface) | 701 | 2026-01-22T19:52:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [oobabooga/textgen-extensions](https://github.com/oobabooga/textgen-extensions) | 678 | 2026-03-24T13:19:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [TimoBolkart/FLAME-Universe](https://github.com/TimoBolkart/FLAME-Universe) | 671 | 2026-03-03T16:22:45Z | Unknown | Model/data | 8 | 0 | 10 | 10 |
 | [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) | 620 | 2026-03-19T17:43:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [near/borsh](https://github.com/near/borsh) | 611 | 2026-03-21T12:03:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -100,6 +103,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lintool/guide](https://github.com/lintool/guide) | 324 | 2026-02-11T23:06:08Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [google/deepsomatic](https://github.com/google/deepsomatic) | 304 | 2026-03-05T23:37:06Z | Unknown | Unknown | 10 | 0 | 10 | 10 |
 | [mapbox/tilejson-spec](https://github.com/mapbox/tilejson-spec) | 291 | 2026-01-14T18:33:44Z | Unknown | Unknown | 2 | 0 | 3 | 3 |
+| [dotnet/source-build](https://github.com/dotnet/source-build) | 286 | 2026-03-24T16:57:01Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [shadowspawn/node-version-usage](https://github.com/shadowspawn/node-version-usage) | 280 | 2026-02-14T00:44:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [pingcap/community](https://github.com/pingcap/community) | 269 | 2026-01-16T09:06:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [oh-my-fish/packages-main](https://github.com/oh-my-fish/packages-main) | 260 | 2026-01-06T17:40:02Z | Unknown | Infrastructure/tooling | 3 | 1 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 61,
-    "observations": 61,
+    "components": 130,
+    "concepts": 65,
+    "observations": 65,
     "repos": 9,
-    "terms": 61
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
+    "ash-rs/ash",
     "bionic-gpt/bionic-gpt",
-    "crate-ci/cargo-release",
-    "evcxr/evcxr",
+    "dmtrKovalenko/fff",
     "geiger-rs/cargo-geiger",
     "godot-rust/gdext",
     "imgui-rs/imgui-rs",

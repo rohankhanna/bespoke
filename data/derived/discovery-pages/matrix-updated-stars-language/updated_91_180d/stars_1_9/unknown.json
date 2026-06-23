@@ -3,7 +3,7 @@
     "components": 76,
     "concepts": 42,
     "observations": 42,
-    "repos": 38,
+    "repos": 39,
     "terms": 42
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -37,6 +37,7 @@
     "danielrosehill/Digital-Evidence-Toolkit",
     "danielrosehill/Hebrew-TTS-Providers",
     "gakonst/foundry",
+    "hchiam/learning-gh",
     "hesreallyhim/inkverse-fork",
     "jsdom/.github",
     "kornia/data",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · Go
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 68
-- components: 120
-- concepts: 67
-- observations: 67
+- repos: 29
+- terms: 78
+- components: 127
+- concepts: 77
+- observations: 77
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [walles/ftop](https://github.com/walles/ftop) | 6 | 2026-04-23T17:17:39Z | Go | CLI | 5 | 2 | 5 | 5 |
+| [probe-lab/tiros](https://github.com/probe-lab/tiros) | 6 | 2026-04-23T13:20:24Z | Go | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [cgrindel/swift_gazelle_plugin](https://github.com/cgrindel/swift_gazelle_plugin) | 9 | 2026-04-22T21:23:01Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [usbarmory/boot-transparency](https://github.com/usbarmory/boot-transparency) | 6 | 2026-04-21T10:18:08Z | Go | Library | 0 | 0 | 0 | 0 |
 | [transparency-dev/armored-witness-boot](https://github.com/transparency-dev/armored-witness-boot) | 2 | 2026-04-20T21:40:24Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -67,6 +69,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ainvaltin/nu-plugin](https://github.com/ainvaltin/nu-plugin) | 7 | 2026-04-12T19:57:06Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [apache/dubbo-go-extensions](https://github.com/apache/dubbo-go-extensions) | 7 | 2026-04-12T11:39:45Z | Go | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [archestra-ai/terraform-provider-archestra](https://github.com/archestra-ai/terraform-provider-archestra) | 7 | 2026-03-30T20:11:36Z | Go | Infrastructure/tooling | 3 | 10 | 3 | 3 |
+| [walles/ftop](https://github.com/walles/ftop) | 6 | 2026-04-23T17:17:39Z | Go | CLI | 5 | 2 | 5 | 5 |
+| [probe-lab/tiros](https://github.com/probe-lab/tiros) | 6 | 2026-04-23T13:20:24Z | Go | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [usbarmory/boot-transparency](https://github.com/usbarmory/boot-transparency) | 6 | 2026-04-21T10:18:08Z | Go | Library | 0 | 0 | 0 | 0 |
 | [usbarmory/go-net](https://github.com/usbarmory/go-net) | 6 | 2026-04-16T16:36:30Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [transparency-dev/distributor](https://github.com/transparency-dev/distributor) | 5 | 2026-04-20T12:17:46Z | Go | Infrastructure/tooling | 5 | 11 | 5 | 5 |

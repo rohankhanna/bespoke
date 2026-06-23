@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 111
-- terms: 473
-- components: 349
-- concepts: 479
-- observations: 481
+- repos: 115
+- terms: 481
+- components: 352
+- concepts: 487
+- observations: 489
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [intel/gmmlib](https://github.com/intel/gmmlib) | 191 | 2026-03-25T05:04:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [littlefs-project/littlefs-fuse](https://github.com/littlefs-project/littlefs-fuse) | 215 | 2026-03-25T04:16:40Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [microsoft/xlang](https://github.com/microsoft/xlang) | 907 | 2026-03-25T00:58:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [LuisaGroup/LuisaRender](https://github.com/LuisaGroup/LuisaRender) | 603 | 2026-03-24T04:36:58Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
 | [eclipse-cyclonedds/cyclonedds-cxx](https://github.com/eclipse-cyclonedds/cyclonedds-cxx) | 138 | 2026-03-23T11:50:47Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [JokerJohn/MS-Mapping](https://github.com/JokerJohn/MS-Mapping) | 356 | 2026-03-22T06:40:04Z | C/C++ | Unknown | 13 | 0 | 13 | 13 |
@@ -113,6 +116,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ashawkey/cubvh](https://github.com/ashawkey/cubvh) | 287 | 2026-01-27T14:20:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [pganalyze/pg_query](https://github.com/pganalyze/pg_query) | 871 | 2026-01-27T06:11:35Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [avaneev/lzav](https://github.com/avaneev/lzav) | 526 | 2026-01-27T03:04:06Z | C/C++ | Unknown | 16 | 0 | 16 | 16 |
+| [jhasse/poly2tri](https://github.com/jhasse/poly2tri) | 514 | 2026-01-24T23:10:46Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [bdwgc/libatomic_ops](https://github.com/bdwgc/libatomic_ops) | 447 | 2026-01-22T19:30:17Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [intel/isa-l_crypto](https://github.com/intel/isa-l_crypto) | 295 | 2026-01-22T17:04:40Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [aviggiano/redis-roaring](https://github.com/aviggiano/redis-roaring) | 381 | 2026-01-21T21:19:56Z | C/C++ | Infrastructure/tooling | 3 | 13 | 3 | 3 |
@@ -148,6 +152,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [koide3/small_gicp](https://github.com/koide3/small_gicp) | 927 | 2026-02-10T15:23:51Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [devkitPro/libctru](https://github.com/devkitPro/libctru) | 925 | 2026-02-19T17:23:39Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [naelstrof/slop](https://github.com/naelstrof/slop) | 923 | 2026-02-01T16:57:19Z | C/C++ | CLI | 6 | 0 | 6 | 6 |
+| [microsoft/xlang](https://github.com/microsoft/xlang) | 907 | 2026-03-25T00:58:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [swigger/wechat-ocr](https://github.com/swigger/wechat-ocr) | 902 | 2026-01-18T09:44:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [pganalyze/pg_query](https://github.com/pganalyze/pg_query) | 871 | 2026-01-27T06:11:35Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [frankmorgner/vsmartcard](https://github.com/frankmorgner/vsmartcard) | 836 | 2026-03-12T21:09:17Z | C/C++ | Infrastructure/tooling | 10 | 4 | 10 | 10 |
@@ -180,6 +185,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hhyyrylainen/GodotPckTool](https://github.com/hhyyrylainen/GodotPckTool) | 535 | 2026-02-27T07:02:57Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [lualanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [avaneev/lzav](https://github.com/avaneev/lzav) | 526 | 2026-01-27T03:04:06Z | C/C++ | Unknown | 16 | 0 | 16 | 16 |
+| [jhasse/poly2tri](https://github.com/jhasse/poly2tri) | 514 | 2026-01-24T23:10:46Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [beached/daw_json_link](https://github.com/beached/daw_json_link) | 503 | 2026-02-16T21:46:19Z | C/C++ | Infrastructure/tooling | 11 | 6 | 14 | 14 |
 | [mit-han-lab/Block-Sparse-Attention](https://github.com/mit-han-lab/Block-Sparse-Attention) | 502 | 2026-01-18T02:55:56Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [numactl/numactl](https://github.com/numactl/numactl) | 494 | 2026-02-24T16:32:21Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -223,8 +229,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [deeptools/pyBigWig](https://github.com/deeptools/pyBigWig) | 243 | 2026-01-14T14:49:32Z | C/C++ | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [xtensor-stack/xtl](https://github.com/xtensor-stack/xtl) | 233 | 2026-02-12T12:31:26Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [ARM-software/EndpointAI](https://github.com/ARM-software/EndpointAI) | 224 | 2026-03-04T16:54:34Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [littlefs-project/littlefs-fuse](https://github.com/littlefs-project/littlefs-fuse) | 215 | 2026-03-25T04:16:40Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [smarco/WFA2-lib](https://github.com/smarco/WFA2-lib) | 213 | 2026-03-18T08:53:53Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ZDisket/TensorVox](https://github.com/ZDisket/TensorVox) | 213 | 2026-02-05T02:14:58Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
+| [intel/gmmlib](https://github.com/intel/gmmlib) | 191 | 2026-03-25T05:04:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/TriangleMeshDistance](https://github.com/InteractiveComputerGraphics/TriangleMeshDistance) | 180 | 2026-02-14T17:36:17Z | C/C++ | Library | 9 | 0 | 9 | 9 |
 | [mongodb-js/kerberos](https://github.com/mongodb-js/kerberos) | 177 | 2026-03-01T15:05:18Z | C/C++ | Infrastructure/tooling | 11 | 32 | 11 | 12 |
 | [ylsdamxssjxxdd/eva](https://github.com/ylsdamxssjxxdd/eva) | 176 | 2026-02-27T07:23:56Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |

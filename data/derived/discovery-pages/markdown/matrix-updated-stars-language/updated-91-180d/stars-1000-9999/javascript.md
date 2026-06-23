@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 53
+- repos: 54
 - terms: 288
 - components: 1061
 - concepts: 291
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Adobe-CEP/Samples](https://github.com/Adobe-CEP/Samples) | 1076 | 2026-03-24T16:09:31Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [pmndrs/drei](https://github.com/pmndrs/drei) | 9610 | 2026-03-23T19:31:26Z | JavaScript | Infrastructure/tooling | 7 | 82 | 7 | 7 |
 | [mapbox/delaunator](https://github.com/mapbox/delaunator) | 2589 | 2026-03-23T09:52:11Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch) | 8858 | 2026-03-21T22:04:39Z | JavaScript | CLI | 12 | 23 | 12 | 12 |
@@ -51,7 +52,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [istanbuljs/nyc](https://github.com/istanbuljs/nyc) | 5762 | 2026-02-23T14:50:00Z | JavaScript | CLI | 3 | 39 | 3 | 3 |
 | [dwyl/learn-json-web-tokens](https://github.com/dwyl/learn-json-web-tokens) | 4186 | 2026-02-23T12:48:07Z | JavaScript | Web app | 0 | 8 | 0 | 0 |
 | [Adobe-CEP/CEP-Resources](https://github.com/Adobe-CEP/CEP-Resources) | 1818 | 2026-02-20T20:59:34Z | JavaScript | Docs/knowledge | 4 | 0 | 4 | 4 |
-| [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9254 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
+| [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9255 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [microsoft/generative-ai-with-javascript](https://github.com/microsoft/generative-ai-with-javascript) | 1194 | 2026-02-19T10:27:16Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [breejs/bree](https://github.com/breejs/bree) | 3285 | 2026-02-17T22:09:07Z | JavaScript | Infrastructure/tooling | 15 | 34 | 15 | 15 |
 | [casparwylie/cascii-core](https://github.com/casparwylie/cascii-core) | 1170 | 2026-02-17T21:01:02Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
@@ -85,7 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [pmndrs/drei](https://github.com/pmndrs/drei) | 9610 | 2026-03-23T19:31:26Z | JavaScript | Infrastructure/tooling | 7 | 82 | 7 | 7 |
-| [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9254 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
+| [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9255 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [grpc/grpc-web](https://github.com/grpc/grpc-web) | 9201 | 2026-02-07T16:30:59Z | JavaScript | CLI | 5 | 3 | 5 | 5 |
 | [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch) | 8858 | 2026-03-21T22:04:39Z | JavaScript | CLI | 12 | 23 | 12 | 12 |
 | [remarkjs/remark](https://github.com/remarkjs/remark) | 8842 | 2026-02-24T19:08:59Z | JavaScript | Infrastructure/tooling | 4 | 16 | 5 | 5 |
@@ -137,3 +138,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/generative-ai-with-javascript](https://github.com/microsoft/generative-ai-with-javascript) | 1194 | 2026-02-19T10:27:16Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [TritonDataCenter/node-verror](https://github.com/TritonDataCenter/node-verror) | 1191 | 2026-01-13T22:31:32Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [casparwylie/cascii-core](https://github.com/casparwylie/cascii-core) | 1170 | 2026-02-17T21:01:02Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
+| [Adobe-CEP/Samples](https://github.com/Adobe-CEP/Samples) | 1076 | 2026-03-24T16:09:31Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

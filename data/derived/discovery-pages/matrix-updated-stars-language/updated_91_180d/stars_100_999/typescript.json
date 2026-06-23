@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2143,
-    "concepts": 391,
-    "observations": 392,
-    "repos": 75,
-    "terms": 401
+    "components": 2160,
+    "concepts": 396,
+    "observations": 397,
+    "repos": 76,
+    "terms": 406
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -54,6 +54,7 @@
     "jsonquerylang/jsonquery",
     "kamranahmedse/claude-run",
     "kutsan/stylelint-config-clean-order",
+    "kylebarron/arrow-js-ffi",
     "LeDDGroup/typescript-transform-paths",
     "lobehub/lobe-charts",
     "lobehub/lobe-tts",

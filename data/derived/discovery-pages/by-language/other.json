@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26604,
-    "concepts": 22911,
-    "observations": 22987,
-    "repos": 5633,
-    "terms": 22849
+    "components": 26631,
+    "concepts": 22946,
+    "observations": 23022,
+    "repos": 5640,
+    "terms": 22878
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -241,6 +241,7 @@
     "ajinasokan/recharge",
     "akabe/ocaml-jupyter",
     "akash-akya/vix",
+    "akashAD98/vectordb-recipes",
     "akermu/emacs-libvterm",
     "aki-0929/PaddleOCRJson.NET",
     "Akifyss/obsidian-border",
@@ -537,6 +538,7 @@
     "argotorg/hevm",
     "ArimaGenomics/mapping_pipeline",
     "aristocratos/LHM-CppExport",
+    "Ark223/Clipper2-Lua",
     "arkav/lualine-lsp-progress",
     "arkime/arkimeweb",
     "arktekk/sbt-aether-deploy",
@@ -1985,6 +1987,7 @@
     "ericjang/svd3",
     "erick2418/vue-axios-vuex-jwt",
     "ericmj/decimal",
+    "ErikSom/Clipper2-WASM",
     "Erikvl87/docker-languagetool",
     "erlef/rebar3_hex",
     "erlef/website",
@@ -2752,6 +2755,7 @@
     "jackielii/skhd.zig",
     "jackroos/VL-BERT",
     "JacksonBurns/chemeleon",
+    "Jaded-Encoding-Thaumaturgy/vs-wheels",
     "jadestrong/lsp-volar",
     "jaegertracing/docker-protobuf",
     "jakeheis/SwiftCLI",
@@ -2877,6 +2881,7 @@
     "joshuaulrich/TTR",
     "joshuaulrich/xts",
     "joshwlewis/unitwise",
+    "jothepro/doxygen-awesome-css",
     "JoyMoe/Ksuid.Net",
     "jpanther/congo",
     "jpbruyere/Crow",
@@ -4446,6 +4451,7 @@
     "queryverse/VegaLite.jl",
     "Quick/Nimble",
     "Quick/Quick",
+    "quietvoid/mpv-winbuild-cmake",
     "quil/quil",
     "quil/quil-examples",
     "quil/quil-templates",
@@ -4993,6 +4999,7 @@
     "status-im/nimbus-eth1",
     "status-im/nimbus-eth2",
     "status-im/status-app",
+    "stdware/qmsetup",
     "stefan-hoeck/idris2-pack",
     "stefanlogue/scoops",
     "SteffenDE/makeup_syntect",

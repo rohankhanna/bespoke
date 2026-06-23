@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,8 +12,8 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 210
-- terms: 430
+- repos: 211
+- terms: 429
 - components: 594
 - concepts: 436
 - observations: 441
@@ -176,7 +176,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rubik/hydroconf](https://github.com/rubik/hydroconf) | 52 | 2023-10-12T06:10:18Z | Rust | Unknown | 2 | 0 | 3 | 3 |
 | [dapplion/beacon-metrics-gazer](https://github.com/dapplion/beacon-metrics-gazer) | 11 | 2023-10-10T20:01:00Z | Rust | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [domoritz/arrow-wasm](https://github.com/domoritz/arrow-wasm) | 90 | 2023-09-25T04:39:39Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
-| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 0 | 5 | 1 | 1 |
 | [KerfuffleV2/smolrsrwkv](https://github.com/KerfuffleV2/smolrsrwkv) | 94 | 2023-09-02T19:19:37Z | Rust | Model/data | 6 | 0 | 6 | 6 |
 | [AdnoC/sixel-rs](https://github.com/AdnoC/sixel-rs) | 40 | 2023-08-30T16:16:30Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ethDreamer/json_rpc_snoop](https://github.com/ethDreamer/json_rpc_snoop) | 31 | 2023-08-23T17:19:15Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -189,6 +189,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [calebzulawski/autobahn-hash](https://github.com/calebzulawski/autobahn-hash) | 18 | 2023-06-06T00:17:24Z | Rust | Unknown | 5 | 0 | 5 | 5 |
 | [balajisivaraman/basic_calculator_rs](https://github.com/balajisivaraman/basic_calculator_rs) | 28 | 2023-05-25T15:29:23Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [iqlusioninc/cosmon](https://github.com/iqlusioninc/cosmon) | 36 | 2023-05-16T20:00:58Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [plotters-rs/plotters-minifb-demo](https://github.com/plotters-rs/plotters-minifb-demo) | 10 | 2023-04-24T19:48:55Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [digama0/frat](https://github.com/digama0/frat) | 16 | 2023-04-08T06:55:38Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [embarkstudios/buildkite-jobify](https://github.com/EmbarkStudios/buildkite-jobify) | 24 | 2023-03-28T08:49:31Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [asaaki/opentelemetry-tide](https://github.com/asaaki/opentelemetry-tide) | 19 | 2023-03-27T22:00:25Z | Rust | Infrastructure/tooling | 10 | 4 | 10 | 10 |
@@ -408,7 +409,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [not-fl3/quad-net](https://github.com/not-fl3/quad-net) | 17 | 2024-09-10T18:55:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [argmin-rs/modcholesky](https://github.com/argmin-rs/modcholesky) | 17 | 2024-08-31T14:23:52Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [celo-org/snark-setup](https://github.com/celo-org/snark-setup) | 17 | 2024-02-03T00:58:56Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 0 | 5 | 1 | 1 |
 | [Xuanwo/serde-bridge](https://github.com/Xuanwo/serde-bridge) | 16 | 2025-09-08T11:44:54Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [op-rs/maili](https://github.com/op-rs/maili) | 16 | 2025-02-21T23:30:18Z | Rust | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [digama0/frat](https://github.com/digama0/frat) | 16 | 2023-04-08T06:55:38Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -450,4 +451,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vipera/cheap-ruler-rs](https://github.com/vipera/cheap-ruler-rs) | 10 | 2025-02-06T09:43:12Z | Rust | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [imgui-rs/imgui-winit-support](https://github.com/imgui-rs/imgui-winit-support) | 10 | 2025-01-19T17:33:30Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [kawamuray/linux-taskstats-rs](https://github.com/kawamuray/linux-taskstats-rs) | 10 | 2024-08-15T10:00:46Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [plotters-rs/plotters-minifb-demo](https://github.com/plotters-rs/plotters-minifb-demo) | 10 | 2023-04-24T19:48:55Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [andreivasiliu/cybersub](https://github.com/andreivasiliu/cybersub) | 10 | 2022-01-06T19:55:11Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |

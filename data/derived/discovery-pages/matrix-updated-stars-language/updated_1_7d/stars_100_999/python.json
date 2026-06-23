@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 12,
-    "terms": 76
+    "components": 87,
+    "concepts": 82,
+    "observations": 82,
+    "repos": 11,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "andfoy/pywinpty",
+    "BBC-Esq/Faster-Whisper-Transcriber",
     "eclipse-paho/paho.mqtt.testing",
     "flagos-ai/FlagScale",
     "googlefonts/roboto-3-classic",
-    "googlefonts/ufo2ft",
     "jupyter-server/jupyter_server",
-    "NCAS-CMS/pyfive",
+    "NVIDIA-NeMo/Automodel",
     "PyCQA/eradicate",
-    "scverse/rapids-singlecell",
-    "tox-dev/filelock",
-    "unum-bio/USearchMolecules"
+    "pyrtlsdr/pyrtlsdr",
+    "tox-dev/filelock"
   ]
 }

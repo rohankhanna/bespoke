@@ -3,7 +3,7 @@
     "components": 75,
     "concepts": 106,
     "observations": 106,
-    "repos": 30,
+    "repos": 29,
     "terms": 106
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "adoptium/temurin21-binaries",
@@ -20,7 +20,6 @@
     "box/box-openapi",
     "Chocolate4U/Iran-sing-box-rules",
     "chromedp/cdproto",
-    "cisagov/vulnrichment",
     "deepset-ai/haystack-integrations",
     "dnaka91/obws",
     "fluxcd/flux2-multi-tenancy",

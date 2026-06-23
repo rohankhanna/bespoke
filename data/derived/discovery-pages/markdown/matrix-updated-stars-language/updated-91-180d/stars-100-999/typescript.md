@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 75
-- terms: 401
-- components: 2143
-- concepts: 391
-- observations: 392
+- repos: 76
+- terms: 406
+- components: 2160
+- concepts: 396
+- observations: 397
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kylebarron/arrow-js-ffi](https://github.com/kylebarron/arrow-js-ffi) | 131 | 2026-03-24T22:20:10Z | TypeScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [vim-denops/denops.vim](https://github.com/vim-denops/denops.vim) | 784 | 2026-03-23T01:05:40Z | TypeScript | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [XantreDev/preact-signals](https://github.com/XantreDev/preact-signals) | 110 | 2026-03-22T17:23:18Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [connectrpc/connect-query-es](https://github.com/connectrpc/connect-query-es) | 358 | 2026-03-21T18:02:19Z | TypeScript | Infrastructure/tooling | 13 | 25 | 13 | 13 |
@@ -172,6 +173,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SassNinja/postcss-extract-media-query](https://github.com/SassNinja/postcss-extract-media-query) | 139 | 2026-01-21T23:40:03Z | TypeScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [tracked-tools/tracked-built-ins](https://github.com/tracked-tools/tracked-built-ins) | 137 | 2026-03-20T21:21:28Z | TypeScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [akshaykmr/teletype](https://github.com/akshaykmr/teletype) | 132 | 2026-01-22T00:38:41Z | TypeScript | CLI | 8 | 23 | 8 | 8 |
+| [kylebarron/arrow-js-ffi](https://github.com/kylebarron/arrow-js-ffi) | 131 | 2026-03-24T22:20:10Z | TypeScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server) | 121 | 2026-03-13T00:35:42Z | TypeScript | Framework | 7 | 6 | 7 | 7 |
 | [axel-op/googlejavaformat-action](https://github.com/axel-op/googlejavaformat-action) | 119 | 2026-01-30T17:04:02Z | TypeScript | Infrastructure/tooling | 12 | 19 | 12 | 12 |
 | [posthtml/posthtml-parser](https://github.com/posthtml/posthtml-parser) | 116 | 2026-01-21T23:18:29Z | TypeScript | Infrastructure/tooling | 1 | 16 | 1 | 1 |

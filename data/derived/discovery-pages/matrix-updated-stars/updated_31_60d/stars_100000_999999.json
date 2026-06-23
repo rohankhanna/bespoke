@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 425,
-    "concepts": 179,
-    "observations": 180,
-    "repos": 15,
-    "terms": 176
+    "components": 410,
+    "concepts": 156,
+    "observations": 157,
+    "repos": 13,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "anomalyco/opencode",
@@ -24,8 +24,6 @@
     "microsoft/generative-ai-for-beginners",
     "open-webui/open-webui",
     "rust-lang/rust",
-    "Significant-Gravitas/AutoGPT",
-    "tensorflow/tensorflow",
     "twbs/bootstrap",
     "vinta/awesome-python"
   ]

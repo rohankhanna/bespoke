@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 105,
-    "observations": 105,
+    "components": 67,
+    "concepts": 109,
+    "observations": 109,
     "repos": 29,
-    "terms": 105
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
@@ -21,6 +21,7 @@
     "bbatsov/clojure-style-guide",
     "bbatsov/emacs-lisp-style-guide",
     "behisecc/awesome-claude-skills",
+    "CVEProject/cvelistV5",
     "dotnet/docs",
     "esbatmop/MNBVC",
     "FasterXML/jackson",
@@ -41,7 +42,6 @@
     "shuaibiyy/awesome-tf",
     "skills-directory/skill-codex",
     "tmstack/awesome-persona-skills",
-    "web-padawan/awesome-lit",
-    "WebAssembly/proposals"
+    "web-padawan/awesome-lit"
   ]
 }

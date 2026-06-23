@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 14
-- terms: 59
-- components: 170
-- concepts: 59
-- observations: 59
+- terms: 66
+- components: 145
+- concepts: 66
+- observations: 66
 
 ## Static behavior
 
@@ -37,8 +37,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlcommons/logging](https://github.com/mlcommons/logging) | 42 | 2026-05-27T20:16:16Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [jelly-beam/rebar3_ex_doc](https://github.com/jelly-beam/rebar3_ex_doc) | 50 | 2026-05-27T03:09:07Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [mono/skia](https://github.com/mono/skia) | 87 | 2026-05-26T19:40:22Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [countertype/clipper2-ts](https://github.com/countertype/clipper2-ts) | 34 | 2026-05-25T03:56:03Z | TypeScript | CLI | 11 | 9 | 11 | 11 |
 | [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 24 | 2026-05-24T15:18:50Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
-| [python-poetry/website](https://github.com/python-poetry/website) | 39 | 2026-05-23T13:39:57Z | Other | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -54,7 +54,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lumen-oss/nurr](https://github.com/lumen-oss/nurr) | 42 | 2026-06-07T11:24:13Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [mlcommons/logging](https://github.com/mlcommons/logging) | 42 | 2026-05-27T20:16:16Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [AMD-AGI/Nitro-T](https://github.com/AMD-AGI/Nitro-T) | 41 | 2026-06-04T05:52:55Z | Python | Model/data | 3 | 0 | 3 | 3 |
-| [python-poetry/website](https://github.com/python-poetry/website) | 39 | 2026-05-23T13:39:57Z | Other | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 | [FAIR-IMPACT/MOD](https://github.com/FAIR-IMPACT/MOD) | 36 | 2026-06-04T11:30:58Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [countertype/clipper2-ts](https://github.com/countertype/clipper2-ts) | 34 | 2026-05-25T03:56:03Z | TypeScript | CLI | 11 | 9 | 11 | 11 |
 | [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 24 | 2026-05-24T15:18:50Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
 | [aidenlab/hic-straw](https://github.com/aidenlab/hic-straw) | 10 | 2026-06-03T18:27:43Z | JavaScript | CLI | 0 | 7 | 0 | 0 |

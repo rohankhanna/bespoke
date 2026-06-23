@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 38,
-    "observations": 38,
+    "components": 30,
+    "concepts": 31,
+    "observations": 31,
     "repos": 4,
-    "terms": 38
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "lancedb/lancedb",
     "swiftlang/swift",
-    "triton-lang/triton",
-    "upptime/upptime"
+    "TA-Lib/ta-lib-python",
+    "triton-lang/triton"
   ]
 }

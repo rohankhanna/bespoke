@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 486,
-    "concepts": 343,
-    "observations": 345,
-    "repos": 77,
-    "terms": 338
+    "components": 484,
+    "concepts": 336,
+    "observations": 338,
+    "repos": 79,
+    "terms": 330
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -35,7 +35,6 @@
     "blinklabs-io/bluefin",
     "celo-org/op-geth",
     "chrislusf/seaweedfs",
-    "cjkreklow/t38c",
     "cloudfoundry/bbs",
     "cloudwego/kitex-benchmark",
     "cmdjulian/mopy",
@@ -45,12 +44,15 @@
     "connectrpc/grpchealth-go",
     "containers/container-libs",
     "cosmos/cosmos-db",
+    "danielgtaylor/mexpr",
+    "danielgtaylor/shorthand",
     "darkweak/storages",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
     "depado/bfchroma",
     "depado/smallblog",
     "dlclark/regexp2cg",
+    "ebitengine/debugui",
     "ethpandaops/xatu",
     "featherbread/hypcast",
     "fgrehm/clotilde",
@@ -67,8 +69,8 @@
     "ipfs/gateway-conformance",
     "ipshipyard/p2p-forge",
     "kubernetes-sigs/apiserver-runtime",
+    "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
-    "kurrent-io/KurrentDB-Client-Go",
     "magodo/aztft",
     "magodo/tfadd",
     "MicahParks/jwkset",
@@ -78,7 +80,7 @@
     "notaryproject/notation-core-go",
     "notaryproject/notation-go",
     "opea-project/GenAIInfra",
-    "OpenCIDN/ocimirror",
+    "openshift/ci-tools",
     "quicksilver-zone/quicksilver",
     "scaleway/serverless-examples",
     "sigstore/rekor-tiles",

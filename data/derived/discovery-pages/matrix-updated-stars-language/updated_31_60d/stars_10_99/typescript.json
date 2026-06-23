@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2128,
-    "concepts": 428,
-    "observations": 430,
-    "repos": 73,
-    "terms": 428
+    "components": 1787,
+    "concepts": 384,
+    "observations": 386,
+    "repos": 66,
+    "terms": 384
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -22,11 +22,9 @@
     "appsignal/appsignal-javascript",
     "carbon-design-system/carbon-preprocess-svelte",
     "catppuccin/.github",
-    "celo-org/social-connect",
     "coasys/flux",
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
-    "dannyhw/expo-storybook-starter",
     "ecyrbe/zodios-express",
     "elastic/opentelemetry-demo",
     "emscripten-forge/mambajs",
@@ -35,9 +33,6 @@
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
     "GoogleCloudPlatform/opentelemetry-demo",
-    "grafana/profiles-drilldown",
-    "gridatek/semantic-icons",
-    "hairyf/genapi",
     "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
     "iconify/tools",
@@ -53,7 +48,6 @@
     "julia-actions/install-juliaup",
     "ldclabs/KIP",
     "maplibre/maplibre-gl-inspect",
-    "mcous/vitest-when",
     "microsoft/Agents-for-js",
     "NullVoxPopuli/ember-deep-tracked",
     "obsidianmd/eslint-plugin",
@@ -68,7 +62,6 @@
     "octokit/auth-oauth-user.js",
     "octokit/oauth-app.js",
     "octokit/oauth-authorization-url.js",
-    "octokit/webhooks-methods.js",
     "OffchainLabs/arbitrum-chain-sdk",
     "OffchainLabs/nitro-testnode",
     "openwebdocs/mdn-bcd-collector",

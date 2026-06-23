@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 59,
-    "observations": 59,
+    "components": 145,
+    "concepts": 66,
+    "observations": 66,
     "repos": 14,
-    "terms": 59
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "AMD-AGI/Nitro-T",
     "BirolLab/LINKS",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+    "countertype/clipper2-ts",
     "dwyl/mvp",
     "f3liz-casa/noraneko",
     "FAIR-IMPACT/MOD",
@@ -25,7 +26,6 @@
     "lumen-oss/nurr",
     "mlcommons/logging",
     "mono/skia",
-    "python-poetry/website",
     "skilld-dev/retriv"
   ]
 }

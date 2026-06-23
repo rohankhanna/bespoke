@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 349,
-    "concepts": 479,
-    "observations": 481,
-    "repos": 111,
-    "terms": 473
+    "components": 352,
+    "concepts": 487,
+    "observations": 489,
+    "repos": 115,
+    "terms": 481
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "anacrolix/go-libutp",
@@ -59,11 +59,13 @@
     "hhyyrylainen/GodotPckTool",
     "Imagick/imagick",
     "Improbable-AI/VisionProTeleop",
+    "intel/gmmlib",
     "intel/isa-l_crypto",
     "intel/torch-ccl",
     "InteractiveComputerGraphics/TriangleMeshDistance",
     "isciences/exactextract",
     "iwongu/sqlite3pp",
+    "jhasse/poly2tri",
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
     "jsk-ros-pkg/jsk_visualization",
@@ -76,12 +78,14 @@
     "lexxmark/winflexbison",
     "lh3/yak",
     "libxsmm/libxsmm",
+    "littlefs-project/littlefs-fuse",
     "lualanes/lanes",
     "LuisaGroup/LuisaRender",
     "luvit/luvi",
     "marbl/canu",
     "martinmoene/lest",
     "mengyao/Complete-Striped-Smith-Waterman-Library",
+    "microsoft/xlang",
     "mit-han-lab/Block-Sparse-Attention",
     "mlc-ai/tokenizers-cpp",
     "mongodb-js/kerberos",

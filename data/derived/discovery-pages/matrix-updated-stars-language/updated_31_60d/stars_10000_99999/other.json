@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1124,
-    "concepts": 939,
-    "observations": 942,
-    "repos": 89,
-    "terms": 932
+    "components": 1048,
+    "concepts": 875,
+    "observations": 878,
+    "repos": 82,
+    "terms": 868
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
     "adityatelange/hugo-PaperMod",
-    "AlDanial/cloc",
     "alpinejs/alpine",
     "apache/apisix",
     "App-vNext/Polly",
@@ -39,9 +38,6 @@
     "doomemacs/doomemacs",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
-    "dotnet/efcore",
-    "dotnet/orleans",
-    "dotnet/roslyn",
     "drduh/YubiKey-Guide",
     "exelban/stats",
     "getgrav/grav",
@@ -57,7 +53,6 @@
     "jellyfin/jellyfin",
     "JetBrains/compose-multiplatform",
     "jgm/pandoc",
-    "jupyter/notebook",
     "keeweb/keeweb",
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
@@ -99,9 +94,7 @@
     "symfony/symfony",
     "tc39/ecma262",
     "tiann/KernelSU",
-    "topjohnwu/Magisk",
     "vim-airline/vim-airline",
-    "vim/vim",
     "xmake-io/xmake"
   ]
 }

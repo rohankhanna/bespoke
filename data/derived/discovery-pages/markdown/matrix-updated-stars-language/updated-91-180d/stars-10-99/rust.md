@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 59
-- terms: 164
+- repos: 60
+- terms: 168
 - components: 226
-- concepts: 166
-- observations: 167
+- concepts: 170
+- observations: 171
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dcampbell24/mdbook-djot](https://github.com/dcampbell24/mdbook-djot) | 11 | 2026-03-25T02:01:18Z | Rust | Unknown | 4 | 0 | 4 | 4 |
 | [omerbenamram/pyo3-file](https://github.com/omerbenamram/pyo3-file) | 49 | 2026-03-21T01:17:18Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [Vaishnav-Sabari-Girish/Hayasen](https://github.com/Vaishnav-Sabari-Girish/Hayasen) | 29 | 2026-03-20T15:37:19Z | Rust | Unknown | 6 | 0 | 6 | 6 |
 | [psmux/Tmux-Plugin-Panel](https://github.com/psmux/Tmux-Plugin-Panel) | 64 | 2026-03-19T14:13:24Z | Rust | CLI | 9 | 5 | 9 | 9 |
@@ -144,6 +145,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Anush008/tokenizers](https://github.com/Anush008/tokenizers) | 13 | 2026-03-19T07:31:49Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [jakudlaty/tsid](https://github.com/jakudlaty/tsid) | 13 | 2026-02-08T17:42:59Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [loyd/fixnum](https://github.com/loyd/fixnum) | 12 | 2026-02-03T12:49:56Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [dcampbell24/mdbook-djot](https://github.com/dcampbell24/mdbook-djot) | 11 | 2026-03-25T02:01:18Z | Rust | Unknown | 4 | 0 | 4 | 4 |
 | [microsoft/tracing-etw](https://github.com/microsoft/tracing-etw) | 10 | 2026-03-09T11:23:34Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [jonas-k/coremidi-sys](https://github.com/jonas-k/coremidi-sys) | 10 | 2026-02-13T23:34:42Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [OneSignal/serde-magnus](https://github.com/OneSignal/serde-magnus) | 10 | 2026-02-10T17:39:39Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |

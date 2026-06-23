@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33601,
-    "concepts": 15285,
-    "observations": 15342,
-    "repos": 1721,
-    "terms": 15246
+    "components": 33607,
+    "concepts": 15290,
+    "observations": 15347,
+    "repos": 1722,
+    "terms": 15239
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -1048,6 +1048,7 @@
     "microsoft/semantic-kernel",
     "microsoft/STL",
     "microsoft/Swin-Transformer",
+    "microsoft/TRELLIS",
     "microsoft/typescript-go",
     "microsoft/unilm",
     "microsoft/vcpkg",

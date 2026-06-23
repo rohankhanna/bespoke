@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 66
-- terms: 75
+- repos: 68
+- terms: 78
 - components: 44
-- concepts: 75
-- observations: 75
+- concepts: 78
+- observations: 78
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [oobabooga/screenshots](https://github.com/oobabooga/screenshots) | 5 | 2026-04-23T19:22:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Data-Analyst-plugin](https://github.com/danielrosehill/Claude-Data-Analyst-plugin) | 3 | 2026-04-23T14:53:13Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [AlmaLinux/osv-database](https://github.com/AlmaLinux/osv-database) | 8 | 2026-04-23T12:52:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-LLM-Council-Creator-Plugin](https://github.com/danielrosehill/Claude-LLM-Council-Creator-Plugin) | 1 | 2026-04-23T11:02:26Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [danielrosehill/Awesome-LLM-Council-Projects](https://github.com/danielrosehill/Awesome-LLM-Council-Projects) | 3 | 2026-04-23T10:54:31Z | Unknown | Model/data | 1 | 0 | 1 | 1 |
 | [bell-sw/osv-database](https://github.com/bell-sw/osv-database) | 1 | 2026-04-23T07:05:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -91,13 +94,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/learning-template](https://github.com/hchiam/learning-template) | 2 | 2026-03-26T00:04:39Z | Unknown | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ada-url/url-various-datasets](https://github.com/ada-url/url-various-datasets) | 5 | 2026-03-25T20:07:19Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [danielrosehill/claude-code-sysadmin-workspaces-index](https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index) | 1 | 2026-03-25T16:18:31Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [danielrosehill/Claude-Code-Plugins](https://github.com/danielrosehill/Claude-Code-Plugins) | 9 | 2026-04-21T21:44:33Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [AlmaLinux/osv-database](https://github.com/AlmaLinux/osv-database) | 8 | 2026-04-23T12:52:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/ultralytics-feedstock](https://github.com/conda-forge/ultralytics-feedstock) | 8 | 2026-04-21T18:13:29Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ai-dynamo/enhancements](https://github.com/ai-dynamo/enhancements) | 8 | 2026-04-14T22:49:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dpc/crev-proofs](https://github.com/dpc/crev-proofs) | 8 | 2026-04-14T02:58:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -110,6 +113,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eternahybridexchange/eterna-mcp](https://github.com/EternaHybridExchange/eterna-mcp) | 6 | 2026-04-17T12:50:01Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [sigstore/architecture-docs](https://github.com/sigstore/architecture-docs) | 6 | 2026-04-13T16:32:27Z | Unknown | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [csm-actions/docs](https://github.com/csm-actions/docs) | 6 | 2026-04-01T07:13:46Z | Unknown | CLI | 3 | 0 | 3 | 3 |
+| [oobabooga/screenshots](https://github.com/oobabooga/screenshots) | 5 | 2026-04-23T19:22:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-ADHD-Research-Workspace](https://github.com/danielrosehill/Claude-ADHD-Research-Workspace) | 5 | 2026-04-16T13:56:55Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [nodejs/web-team](https://github.com/nodejs/web-team) | 5 | 2026-04-14T11:30:18Z | Unknown | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [danielrosehill/Agent-Handover-Demo](https://github.com/danielrosehill/Agent-Handover-Demo) | 5 | 2026-04-06T12:38:20Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
@@ -119,6 +123,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openwebdocs/mdn-bcd-results](https://github.com/openwebdocs/mdn-bcd-results) | 4 | 2026-04-23T06:24:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [1sh1ro/liangxi-skills](https://github.com/1sh1ro/liangxi-skills) | 4 | 2026-04-10T17:37:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [vega/.github](https://github.com/vega/.github) | 4 | 2026-03-27T17:16:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Data-Analyst-plugin](https://github.com/danielrosehill/Claude-Data-Analyst-plugin) | 3 | 2026-04-23T14:53:13Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Awesome-LLM-Council-Projects](https://github.com/danielrosehill/Awesome-LLM-Council-Projects) | 3 | 2026-04-23T10:54:31Z | Unknown | Model/data | 1 | 0 | 1 | 1 |
 | [conda-forge/scikit-optimize-feedstock](https://github.com/conda-forge/scikit-optimize-feedstock) | 3 | 2026-04-23T00:37:15Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [kyverno/community](https://github.com/kyverno/community) | 3 | 2026-04-22T15:23:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -162,4 +167,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lab-cosmo/.github](https://github.com/lab-cosmo/.github) | 1 | 2026-03-30T08:47:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [addfox/skills](https://github.com/addfox/skills) | 1 | 2026-03-26T15:31:23Z | Unknown | Web app | 0 | 0 | 0 | 0 |
 | [danielrosehill/claude-code-sysadmin-workspaces-index](https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index) | 1 | 2026-03-25T16:18:31Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |

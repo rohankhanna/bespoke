@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 7,
-    "terms": 55
+    "components": 62,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 8,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "bazel-contrib/rules_jvm_external",
     "cloudfoundry/credhub",
+    "Deep-Symmetry/beat-link",
     "eclipse-corrosion/corrosion",
     "eclipse-lsp4j/lsp4j",
     "eclipse-tm4e/tm4e",

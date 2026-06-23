@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1348,
-    "concepts": 853,
-    "observations": 857,
-    "repos": 141,
-    "terms": 859
+    "components": 1353,
+    "concepts": 860,
+    "observations": 864,
+    "repos": 143,
+    "terms": 866
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -60,10 +60,12 @@
     "github/copilot.vim",
     "go-chi/chi",
     "google-research/vision_transformer",
+    "google/dopamine",
     "google/leveldb",
     "GoogleChromeLabs/squoosh",
     "gulpjs/gulp",
     "guzzle/guzzle",
+    "Huanshere/VideoLingo",
     "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
     "i3/i3",
@@ -79,6 +81,7 @@
     "kubernetes/ingress-nginx",
     "kyleneideck/backgroundmusic",
     "lc044/wechatmsg",
+    "less/less.js",
     "Lightricks/LTX-Video",
     "linsa-io/linsa",
     "localstack/localstack",
@@ -116,6 +119,7 @@
     "rany2/edge-tts",
     "RasaHQ/rasa",
     "rbenv/rbenv",
+    "ReactiveX/RxAndroid",
     "romkatv/powerlevel10k",
     "rubocop/ruby-style-guide",
     "ryanoasis/nerd-fonts",
@@ -131,10 +135,8 @@
     "streamich/react-use",
     "superclaude-org/superclaude_framework",
     "Swordfish90/cool-retro-term",
-    "TA-Lib/ta-lib-python",
     "TabbyML/tabby",
     "tachyons-css/tachyons",
-    "toml-lang/toml",
     "tpope/vim-fugitive",
     "tqdm/tqdm",
     "transitive-bullshit/agentic",

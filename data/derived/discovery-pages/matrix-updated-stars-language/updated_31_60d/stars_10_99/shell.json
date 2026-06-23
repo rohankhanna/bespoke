@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 200,
-    "observations": 200,
-    "repos": 36,
-    "terms": 197
+    "components": 145,
+    "concepts": 184,
+    "observations": 184,
+    "repos": 33,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "Alexpux/MINGW-packages",
     "apache/datafusion-ballista-python",
     "Azure/aaz",
-    "bitnami/vulndb",
     "bufbuild/homebrew-buf",
     "Chocolate4U/Iran-clash-rules",
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
-    "crazy-max/goxx",
-    "dependabot/smoke-tests",
     "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
     "envoyproxy/examples",

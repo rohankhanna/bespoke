@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 173
-- terms: 466
-- components: 670
-- concepts: 471
-- observations: 473
+- terms: 461
+- components: 667
+- concepts: 466
+- observations: 468
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [GaloisInc/cryptol-specs](https://github.com/GaloisInc/cryptol-specs) | 47 | 2026-03-24T17:19:06Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
+| [informalsystems/choreo](https://github.com/informalsystems/choreo) | 13 | 2026-03-24T15:04:34Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [dwyl/elixir-auth-google-demo](https://github.com/dwyl/elixir-auth-google-demo) | 25 | 2026-03-24T08:22:36Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [dwyl/email](https://github.com/dwyl/email) | 44 | 2026-03-24T08:21:52Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [oap-project/oap-mllib](https://github.com/oap-project/oap-mllib) | 22 | 2026-03-24T00:41:48Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -197,8 +199,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [EvelynZhang-epiclab/DaTo](https://github.com/EvelynZhang-epiclab/DaTo) | 10 | 2025-12-28T04:36:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaGtk/Gtk4Makie.jl](https://github.com/JuliaGtk/Gtk4Makie.jl) | 31 | 2025-12-28T02:27:13Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [nelson-lang/nelson-website](https://github.com/nelson-lang/nelson-website) | 12 | 2025-12-27T16:43:08Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [2KAbhishek/pickme.nvim](https://github.com/2KAbhishek/pickme.nvim) | 74 | 2025-12-24T21:33:56Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
-| [kigster/puma-daemon](https://github.com/kigster/puma-daemon) | 39 | 2025-12-24T19:53:34Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -229,7 +229,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SciML/sciml.ai](https://github.com/SciML/sciml.ai) | 75 | 2026-03-21T12:34:46Z | Other | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [status-im/nim-serialization](https://github.com/status-im/nim-serialization) | 75 | 2026-02-04T09:23:45Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [jpmml/r2pmml](https://github.com/jpmml/r2pmml) | 74 | 2026-02-05T18:07:56Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [2KAbhishek/pickme.nvim](https://github.com/2KAbhishek/pickme.nvim) | 74 | 2025-12-24T21:33:56Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [HaxeFlixel/haxeflixel.com](https://github.com/HaxeFlixel/haxeflixel.com) | 73 | 2026-02-26T16:47:36Z | Other | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [flycheck/flycheck-eglot](https://github.com/flycheck/flycheck-eglot) | 72 | 2026-02-25T02:56:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JunoLab/Atom.jl](https://github.com/JunoLab/Atom.jl) | 70 | 2026-02-26T15:24:20Z | Other | CLI | 2 | 8 | 2 | 2 |
@@ -273,6 +272,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [anmolitor/travelm-agency](https://github.com/anmolitor/travelm-agency) | 49 | 2026-02-09T20:52:23Z | Other | Infrastructure/tooling | 1 | 13 | 1 | 1 |
 | [robotology/icub-models](https://github.com/robotology/icub-models) | 48 | 2026-02-26T14:55:58Z | Other | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [GoogleCloudPlatform/ai-infra-cluster-provisioning](https://github.com/GoogleCloudPlatform/ai-infra-cluster-provisioning) | 48 | 2026-01-05T18:52:18Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [GaloisInc/cryptol-specs](https://github.com/GaloisInc/cryptol-specs) | 47 | 2026-03-24T17:19:06Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [ocaml-opam/opam-publish](https://github.com/ocaml-opam/opam-publish) | 47 | 2026-02-20T19:29:33Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [dwyl/elixir-auth-microsoft](https://github.com/dwyl/elixir-auth-microsoft) | 47 | 2026-01-26T08:55:32Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [friemen/diffit](https://github.com/friemen/diffit) | 47 | 2026-01-17T16:39:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -292,7 +292,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [antonbabenko/serverless.tf-playground](https://github.com/antonbabenko/serverless.tf-playground) | 41 | 2026-02-05T19:57:21Z | Other | Service/API | 5 | 0 | 5 | 5 |
 | [eddelbuettel/tinythemes](https://github.com/eddelbuettel/tinythemes) | 40 | 2026-02-14T01:28:42Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [lostromb/concentus.oggfile](https://github.com/lostromb/concentus.oggfile) | 39 | 2026-03-17T19:39:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [kigster/puma-daemon](https://github.com/kigster/puma-daemon) | 39 | 2025-12-24T19:53:34Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [V13Axel/neotest-pest](https://github.com/V13Axel/neotest-pest) | 38 | 2026-03-16T20:41:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [dwyl/cid](https://github.com/dwyl/cid) | 38 | 2026-03-10T18:14:24Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [SqrtMinusOne/eshell-atuin](https://github.com/SqrtMinusOne/eshell-atuin) | 38 | 2026-02-22T08:02:18Z | Other | Infrastructure/tooling | 3 | 2 | 4 | 4 |
@@ -361,6 +360,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jruby/maven-tools](https://github.com/jruby/maven-tools) | 14 | 2026-02-04T18:44:08Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [WICG/crash-reporting](https://github.com/WICG/crash-reporting) | 14 | 2026-02-02T15:29:00Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [MichaelHatherly/REPLicant.jl](https://github.com/MichaelHatherly/REPLicant.jl) | 14 | 2026-01-22T19:45:21Z | Other | Infrastructure/tooling | 4 | 11 | 4 | 4 |
+| [informalsystems/choreo](https://github.com/informalsystems/choreo) | 13 | 2026-03-24T15:04:34Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [jupyter-xeus/xeus-python-wheel](https://github.com/jupyter-xeus/xeus-python-wheel) | 13 | 2026-03-02T18:23:59Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [kool-engine/kool-templates](https://github.com/kool-engine/kool-templates) | 13 | 2026-01-17T18:06:29Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [coin-or-tools/homebrew-coinor](https://github.com/coin-or-tools/homebrew-coinor) | 12 | 2026-03-16T19:03:19Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |

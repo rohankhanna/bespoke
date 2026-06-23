@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 95
-- components: 391
-- concepts: 96
-- observations: 96
+- repos: 18
+- terms: 99
+- components: 400
+- concepts: 100
+- observations: 100
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [less/less.js](https://github.com/less/less.js) | 17030 | 2026-03-24T22:41:03Z | JavaScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [typicode/json-server](https://github.com/typicode/json-server) | 75577 | 2026-03-23T19:40:00Z | JavaScript | Infrastructure/tooling | 7 | 25 | 8 | 8 |
 | [websockets/ws](https://github.com/websockets/ws) | 22743 | 2026-03-21T17:13:48Z | JavaScript | CLI | 8 | 14 | 8 | 8 |
 | [typicode/husky](https://github.com/typicode/husky) | 34988 | 2026-03-19T23:03:16Z | JavaScript | Infrastructure/tooling | 6 | 7 | 6 | 6 |
@@ -61,6 +62,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [websockets/ws](https://github.com/websockets/ws) | 22743 | 2026-03-21T17:13:48Z | JavaScript | CLI | 8 | 14 | 8 | 8 |
 | [pugjs/pug](https://github.com/pugjs/pug) | 21849 | 2026-03-13T15:12:43Z | JavaScript | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) | 17047 | 2026-02-04T13:10:54Z | JavaScript | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [less/less.js](https://github.com/less/less.js) | 17030 | 2026-03-24T22:41:03Z | JavaScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [forwardemail/superagent](https://github.com/forwardemail/superagent) | 16647 | 2026-01-06T07:45:06Z | JavaScript | CLI | 0 | 48 | 0 | 0 |
 | [sql-js/sql.js](https://github.com/sql-js/sql.js) | 13606 | 2026-03-04T01:48:35Z | JavaScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [mozilla/readability](https://github.com/mozilla/readability) | 11180 | 2026-01-21T23:10:44Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |

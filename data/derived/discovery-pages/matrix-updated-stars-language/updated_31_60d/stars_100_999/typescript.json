@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4364,
-    "concepts": 956,
-    "observations": 958,
-    "repos": 128,
-    "terms": 947
+    "components": 4071,
+    "concepts": 900,
+    "observations": 902,
+    "repos": 120,
+    "terms": 891
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -60,7 +60,6 @@
     "glassflow/clickhouse-etl",
     "Gnathonic/mokuro-reader",
     "gradle/actions",
-    "graphprotocol/graph-client",
     "haskell/vscode-haskell",
     "heroku/cli",
     "i18next/i18next-cli",
@@ -75,7 +74,6 @@
     "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
     "Koenkk/zigbee-herdsman",
-    "Kong/kong-manager",
     "lambdalisue/vim-gin",
     "LemmyNet/lemmy-js-client",
     "LuaLS/vscode-lua",
@@ -85,7 +83,6 @@
     "Luligu/matterbridge-zigbee2mqtt",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
-    "microsoft/playwright-vscode",
     "microsoft/security-devops-action",
     "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
@@ -101,15 +98,12 @@
     "octokit/action.js",
     "octokit/app.js",
     "octokit/auth-app.js",
-    "octokit/auth-token.js",
     "octokit/graphql.js",
-    "octokit/request.js",
     "ory/docs",
     "oxc-project/eslint-plugin-oxlint",
     "P4sca1/cron-schedule",
     "privatenumber/get-tsconfig",
     "radashi-org/radashi",
-    "redhat-developer/vscode-xml",
     "redhat-developer/vscode-yaml",
     "Rel1cx/eslint-react",
     "relative-ci/bundle-stats",
@@ -122,8 +116,6 @@
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
     "sumup-oss/circuit-ui",
-    "sveltejs/svelte-eslint-parser",
-    "TabbyML/pochi",
     "TanStack/config",
     "TanStack/devtools",
     "TanStack/pacer",

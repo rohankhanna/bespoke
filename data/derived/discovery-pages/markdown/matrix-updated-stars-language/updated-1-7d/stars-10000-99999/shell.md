@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Shell
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 14
+- terms: 11
 - components: 9
 - concepts: 14
 - observations: 14
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) | 20524 | 2026-06-18T22:32:12Z | Shell | CLI | 14 | 9 | 14 | 14 |
+| [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) | 20523 | 2026-06-18T22:32:12Z | Shell | CLI | 11 | 9 | 14 | 14 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) | 20524 | 2026-06-18T22:32:12Z | Shell | CLI | 14 | 9 | 14 | 14 |
+| [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) | 20523 | 2026-06-18T22:32:12Z | Shell | CLI | 11 | 9 | 14 | 14 |

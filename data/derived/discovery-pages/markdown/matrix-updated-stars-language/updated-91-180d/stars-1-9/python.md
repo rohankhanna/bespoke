@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 46
-- terms: 114
-- components: 112
-- concepts: 108
-- observations: 108
+- repos: 48
+- terms: 119
+- components: 120
+- concepts: 113
+- observations: 113
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [fixie-ai/evals](https://github.com/fixie-ai/evals) | 7 | 2026-03-24T23:22:05Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [Boulaouaney/timmx](https://github.com/Boulaouaney/timmx) | 4 | 2026-03-24T14:28:03Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Mercury13/unicodia-sesh](https://github.com/Mercury13/unicodia-sesh) | 3 | 2026-03-23T13:21:58Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [42-evey/evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) | 7 | 2026-03-22T15:07:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [sparklabutah/timewarp](https://github.com/sparklabutah/timewarp) | 1 | 2026-03-18T01:24:09Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -81,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flinedev/recall](https://github.com/FlineDev/Recall) | 8 | 2026-03-10T20:36:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [llm-in-sandbox/llm-in-sandbox-rl](https://github.com/llm-in-sandbox/llm-in-sandbox-rl) | 8 | 2026-03-03T07:09:39Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [LedgerHQ/ledgercomm](https://github.com/LedgerHQ/ledgercomm) | 8 | 2026-01-15T10:37:53Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [fixie-ai/evals](https://github.com/fixie-ai/evals) | 7 | 2026-03-24T23:22:05Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [42-evey/evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) | 7 | 2026-03-22T15:07:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [shadmau/autocouncil](https://github.com/shadmau/autocouncil) | 7 | 2026-03-16T16:00:19Z | Python | Model/data | 2 | 0 | 2 | 2 |
 | [AIxCyberChallenge/example-crs-architecture](https://github.com/AIxCyberChallenge/example-crs-architecture) | 7 | 2026-01-23T20:16:22Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -93,6 +96,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [al1-nasir/Research_council](https://github.com/al1-nasir/Research_council) | 5 | 2026-03-10T15:49:20Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [datajuicer/data-juicer-sandbox](https://github.com/datajuicer/data-juicer-sandbox) | 5 | 2026-01-15T07:57:58Z | Python | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [qinwang-ai/PolypsAlign](https://github.com/qinwang-ai/PolypsAlign) | 5 | 2026-01-03T02:39:21Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [Boulaouaney/timmx](https://github.com/Boulaouaney/timmx) | 4 | 2026-03-24T14:28:03Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [openelections/openelections-data-sd](https://github.com/openelections/openelections-data-sd) | 4 | 2026-03-16T15:17:05Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [day50-dev/mcp-search-and-run](https://github.com/day50-dev/mcp-search-and-run) | 4 | 2026-03-09T11:02:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hailiang-wang/llm-get-started](https://github.com/hailiang-wang/llm-get-started) | 4 | 2026-03-06T08:46:54Z | Python | Unknown | 1 | 0 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 252
+- repos: 253
 - terms: 990
 - components: 591
 - concepts: 999
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nicklashansen/dreamer4](https://github.com/nicklashansen/dreamer4) | 291 | 2026-03-25T03:23:15Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [allenai/olmes](https://github.com/allenai/olmes) | 367 | 2026-03-24T17:47:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [clearml/clearml-server](https://github.com/clearml/clearml-server) | 457 | 2026-03-24T09:43:32Z | Python | Infrastructure/tooling | 12 | 0 | 12 | 12 |
 | [MAGREF-Video/MAGREF](https://github.com/MAGREF-Video/MAGREF) | 294 | 2026-03-24T03:41:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [voxel51/voxelgpt](https://github.com/voxel51/voxelgpt) | 253 | 2026-03-23T22:26:04Z | Python | Model/data | 8 | 15 | 8 | 8 |
@@ -277,7 +279,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TEN-framework/ten-turn-detection](https://github.com/TEN-framework/ten-turn-detection) | 561 | 2025-12-26T07:52:20Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [ashvardanian/less_slow.py](https://github.com/ashvardanian/less_slow.py) | 125 | 2025-12-25T22:46:09Z | Python | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [24mlight/a-share-mcp-is-just-i-need](https://github.com/24mlight/a-share-mcp-is-just-i-need) | 642 | 2025-12-25T08:54:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [ZhangXJ199/TinyLLaVA-Video-R1](https://github.com/ZhangXJ199/TinyLLaVA-Video-R1) | 115 | 2025-12-24T12:40:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -406,6 +407,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/ANCE](https://github.com/microsoft/ANCE) | 385 | 2026-01-06T08:59:57Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [OpenDriveLab/LaneSegNet](https://github.com/OpenDriveLab/LaneSegNet) | 374 | 2026-02-25T05:47:22Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [PyCQA/modernize](https://github.com/PyCQA/modernize) | 371 | 2026-03-16T22:47:30Z | Python | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [allenai/olmes](https://github.com/allenai/olmes) | 367 | 2026-03-24T17:47:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [GANWANSHUI/GaussianOcc](https://github.com/GANWANSHUI/GaussianOcc) | 366 | 2026-02-17T13:41:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Blosc/python-blosc](https://github.com/Blosc/python-blosc) | 361 | 2026-03-09T20:42:06Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [nii-yamagishilab/project-NN-Pytorch-scripts](https://github.com/nii-yamagishilab/project-NN-Pytorch-scripts) | 361 | 2026-03-07T14:52:08Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -434,6 +436,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hustvl/DiffusionDriveV2](https://github.com/hustvl/DiffusionDriveV2) | 302 | 2025-12-29T02:11:53Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [InternRobotics/VLAC](https://github.com/InternRobotics/VLAC) | 296 | 2026-01-23T09:58:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [MAGREF-Video/MAGREF](https://github.com/MAGREF-Video/MAGREF) | 294 | 2026-03-24T03:41:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [nicklashansen/dreamer4](https://github.com/nicklashansen/dreamer4) | 291 | 2026-03-25T03:23:15Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [xArm-Developer/xArm-Python-SDK](https://github.com/xArm-Developer/xArm-Python-SDK) | 291 | 2026-01-23T09:23:31Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [bytedance/Q-Insight](https://github.com/bytedance/Q-Insight) | 290 | 2026-03-03T05:18:53Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [KakaruHayate/ColorSplitter](https://github.com/KakaruHayate/ColorSplitter) | 288 | 2026-01-17T03:04:25Z | Python | CLI | 0 | 0 | 0 | 0 |
@@ -519,7 +522,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AMD-AGI/Nitro-E](https://github.com/AMD-AGI/Nitro-E) | 120 | 2026-02-24T01:23:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [heyoeyo/muggled_dpt](https://github.com/heyoeyo/muggled_dpt) | 119 | 2026-03-23T20:33:33Z | Python | Unknown | 5 | 0 | 6 | 6 |
 | [whatwg/meta](https://github.com/whatwg/meta) | 115 | 2026-02-17T05:53:32Z | Python | Unknown | 2 | 0 | 2 | 2 |
-| [ZhangXJ199/TinyLLaVA-Video-R1](https://github.com/ZhangXJ199/TinyLLaVA-Video-R1) | 115 | 2025-12-24T12:40:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aws-samples/sample-bedrock-deep-researcher](https://github.com/aws-samples/sample-bedrock-deep-researcher) | 114 | 2026-02-05T21:01:02Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [dualverse-ai/station](https://github.com/dualverse-ai/station) | 112 | 2026-02-09T06:57:32Z | Python | Model/data | 6 | 0 | 6 | 6 |
 | [nicklashansen/newt](https://github.com/nicklashansen/newt) | 111 | 2026-01-09T22:50:40Z | Python | Unknown | 0 | 0 | 0 | 0 |

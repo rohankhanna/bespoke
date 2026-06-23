@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 132,
-    "observations": 134,
-    "repos": 15,
-    "terms": 131
+    "components": 49,
+    "concepts": 104,
+    "observations": 106,
+    "repos": 12,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "arcee-ai/mergekit",
     "aws/serverless-application-model",
-    "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
     "eclipse-paho/paho.mqtt.python",
     "google-deepmind/optax",
@@ -24,10 +23,8 @@
     "meta-pytorch/captum",
     "modelscope/FunClip",
     "modelscope/ms-agent",
-    "NEKOparapa/AiNiee",
     "opencv/opencv-python",
     "PaddlePaddle/PaddleClas",
-    "roboflow/maestro",
     "webpy/webpy"
   ]
 }

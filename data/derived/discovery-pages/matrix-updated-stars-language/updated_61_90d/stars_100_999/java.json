@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 293,
-    "observations": 293,
+    "components": 188,
+    "concepts": 284,
+    "observations": 284,
     "repos": 37,
-    "terms": 290
+    "terms": 284
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "apache/camel-examples",
@@ -27,7 +27,6 @@
     "Cosium/git-code-format-maven-plugin",
     "fabmax/physx-jni",
     "FasterXML/woodstox",
-    "filip26/titanium-json-ld",
     "fnproject/fdk-java",
     "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
@@ -50,6 +49,7 @@
     "spring-io/spring-javaformat",
     "swagger-api/swagger-inflector",
     "swagger-api/validator-badge",
-    "ysbing/YADB"
+    "ysbing/YADB",
+    "zilliztech/vts"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 4,
     "concepts": 32,
     "observations": 32,
-    "repos": 9,
+    "repos": 8,
     "terms": 32
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "drduh/macOS-Security-and-Privacy-Guide",
@@ -21,7 +21,6 @@
     "lc044/wechatmsg",
     "MoonshotAI/Kimi-K2",
     "rubocop/ruby-style-guide",
-    "slatedocs/slate",
-    "toml-lang/toml"
+    "slatedocs/slate"
   ]
 }

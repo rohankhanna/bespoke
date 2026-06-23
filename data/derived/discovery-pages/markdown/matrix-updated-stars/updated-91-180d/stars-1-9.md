@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 281
-- terms: 697
-- components: 1114
-- concepts: 699
-- observations: 701
+- repos: 289
+- terms: 714
+- components: 1135
+- concepts: 718
+- observations: 720
 
 ## Static behavior
 
@@ -25,6 +25,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [agent-sh/ship](https://github.com/agent-sh/ship) | 2 | 2026-03-25T00:15:01Z | JavaScript | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [fixie-ai/evals](https://github.com/fixie-ai/evals) | 7 | 2026-03-24T23:22:05Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [hchiam/learning-bash-scripts](https://github.com/hchiam/learning-bash-scripts) | 1 | 2026-03-24T21:40:04Z | Shell | Unknown | 0 | 0 | 2 | 2 |
+| [Asmod4n/mruby-argon2](https://github.com/Asmod4n/mruby-argon2) | 2 | 2026-03-24T18:51:14Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [brody2consult/react-native-init-func](https://github.com/brody2consult/react-native-init-func) | 1 | 2026-03-24T18:12:30Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
+| [serpro69/claude-in-docker](https://github.com/serpro69/claude-in-docker) | 2 | 2026-03-24T14:50:33Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [Boulaouaney/timmx](https://github.com/Boulaouaney/timmx) | 4 | 2026-03-24T14:28:03Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [dash0hq/opentelemetry-demo](https://github.com/dash0hq/opentelemetry-demo) | 1 | 2026-03-24T08:23:22Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [aquasecurity/tfsec-azure-pipelines-task](https://github.com/aquasecurity/tfsec-azure-pipelines-task) | 8 | 2026-03-24T03:58:30Z | TypeScript | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [aaronrsun/spec-kit-checkpoint](https://github.com/aaronrsun/spec-kit-checkpoint) | 4 | 2026-03-24T03:13:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -342,6 +350,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LedgerHQ/ledgercomm](https://github.com/LedgerHQ/ledgercomm) | 8 | 2026-01-15T10:37:53Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [haskell-compat/base-orphans](https://github.com/haskell-compat/base-orphans) | 8 | 2026-01-10T15:53:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [cloudaper/compact_enc_det](https://github.com/cloudaper/compact_enc_det) | 8 | 2025-12-26T10:37:21Z | C/C++ | Infrastructure/tooling | 9 | 5 | 9 | 9 |
+| [fixie-ai/evals](https://github.com/fixie-ai/evals) | 7 | 2026-03-24T23:22:05Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [42-evey/evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) | 7 | 2026-03-22T15:07:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [maxritter/pilot-shell-demo](https://github.com/maxritter/pilot-shell-demo) | 7 | 2026-03-18T07:07:10Z | TypeScript | Web app | 6 | 32 | 6 | 6 |
 | [shadmau/autocouncil](https://github.com/shadmau/autocouncil) | 7 | 2026-03-16T16:00:19Z | Python | Model/data | 2 | 0 | 2 | 2 |
@@ -410,6 +419,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IWANABETHATGUY/l-lang](https://github.com/IWANABETHATGUY/l-lang) | 5 | 2026-01-13T15:26:37Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Development-Agents](https://github.com/danielrosehill/Claude-Development-Agents) | 5 | 2026-01-03T08:40:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [qinwang-ai/PolypsAlign](https://github.com/qinwang-ai/PolypsAlign) | 5 | 2026-01-03T02:39:21Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [Boulaouaney/timmx](https://github.com/Boulaouaney/timmx) | 4 | 2026-03-24T14:28:03Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [aaronrsun/spec-kit-checkpoint](https://github.com/aaronrsun/spec-kit-checkpoint) | 4 | 2026-03-24T03:13:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ptsochantaris/trailer-json](https://github.com/ptsochantaris/trailer-json) | 4 | 2026-03-23T19:11:04Z | Other | Unknown | 4 | 0 | 5 | 5 |
 | [aifoundry-org/riscv-gnu-toolchain](https://github.com/aifoundry-org/riscv-gnu-toolchain) | 4 | 2026-03-21T04:54:07Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 3 |
@@ -474,6 +484,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [b-data/docker-deployment-jupyter](https://github.com/b-data/docker-deployment-jupyter) | 3 | 2026-01-05T12:28:39Z | Python | Unknown | 16 | 0 | 16 | 16 |
 | [DavidKinder/Glulxe](https://github.com/DavidKinder/Glulxe) | 3 | 2026-01-02T10:48:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hedronvision/bazel-cc-filesystem-backport](https://github.com/hedronvision/bazel-cc-filesystem-backport) | 3 | 2026-01-01T15:44:38Z | Other | Service/API | 6 | 0 | 6 | 6 |
+| [agent-sh/ship](https://github.com/agent-sh/ship) | 2 | 2026-03-25T00:15:01Z | JavaScript | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [Asmod4n/mruby-argon2](https://github.com/Asmod4n/mruby-argon2) | 2 | 2026-03-24T18:51:14Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [serpro69/claude-in-docker](https://github.com/serpro69/claude-in-docker) | 2 | 2026-03-24T14:50:33Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [alexellis/gha-bump](https://github.com/alexellis/gha-bump) | 2 | 2026-03-23T22:10:11Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [filip26/tree-io](https://github.com/filip26/tree-io) | 2 | 2026-03-23T09:23:34Z | Java | Infrastructure/tooling | 4 | 2 | 6 | 6 |
 | [clearbluejar/ghidra-python](https://github.com/clearbluejar/ghidra-python) | 2 | 2026-03-22T21:45:31Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -524,6 +537,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vercel-labs/include_dir](https://github.com/vercel-labs/include_dir) | 2 | 2026-01-07T15:03:07Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [blooper05/action-rails_best_practices](https://github.com/blooper05/action-rails_best_practices) | 2 | 2026-01-06T05:19:12Z | Shell | Infrastructure/tooling | 9 | 14 | 9 | 10 |
 | [heshengtao/sap-ai-drawio](https://github.com/heshengtao/sap-ai-drawio) | 2 | 2026-01-02T17:10:42Z | Other | Unknown | 1 | 0 | 1 | 1 |
+| [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [hchiam/learning-bash-scripts](https://github.com/hchiam/learning-bash-scripts) | 1 | 2026-03-24T21:40:04Z | Shell | Unknown | 0 | 0 | 2 | 2 |
+| [brody2consult/react-native-init-func](https://github.com/brody2consult/react-native-init-func) | 1 | 2026-03-24T18:12:30Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [dash0hq/opentelemetry-demo](https://github.com/dash0hq/opentelemetry-demo) | 1 | 2026-03-24T08:23:22Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [asafr93-rosa/shopping-list-il](https://github.com/asafr93-rosa/shopping-list-il) | 1 | 2026-03-23T21:53:35Z | TypeScript | Unknown | 0 | 25 | 0 | 0 |
 | [Adam-Boesky/astro_SPLASH](https://github.com/Adam-Boesky/astro_SPLASH) | 1 | 2026-03-23T15:53:06Z | Other | Unknown | 0 | 0 | 0 | 0 |

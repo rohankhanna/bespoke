@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 1423
-- terms: 2005
+- repos: 1424
+- terms: 2019
 - components: 5601
-- concepts: 2005
-- observations: 2008
+- concepts: 2019
+- observations: 2022
 
 ## Static behavior
 
@@ -319,6 +319,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prisma/presskit](https://github.com/prisma/presskit) | 6 | 2025-06-12T13:27:23Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lupapiste/lupapiste](https://github.com/lupapiste/lupapiste) | 8 | 2025-06-12T09:41:20Z | Other | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [XcodesOrg/homebrew-made](https://github.com/XcodesOrg/homebrew-made) | 1 | 2025-06-11T02:35:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [Ark223/Clipper2-Lua](https://github.com/Ark223/Clipper2-Lua) | 4 | 2025-06-10T13:02:32Z | Other | CLI | 14 | 0 | 14 | 14 |
 | [nextjournal/nbb-test-runner](https://github.com/nextjournal/nbb-test-runner) | 2 | 2025-06-10T07:24:18Z | Other | Unknown | 0 | 1 | 0 | 0 |
 | [songhuaixu/clipper2c](https://github.com/songhuaixu/clipper2c) | 1 | 2025-06-09T03:10:31Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [Extraltodeus/shared_models_galleries](https://github.com/Extraltodeus/shared_models_galleries) | 3 | 2025-06-08T22:14:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -1382,7 +1383,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [745165806/PaddleSpeechTask](https://github.com/745165806/PaddleSpeechTask) | 8 | 2021-11-05T02:33:50Z | Python | Library | 0 | 0 | 0 | 0 |
 | [pedromtcosta/fluentassertions.csharpfunctionalextensions](https://github.com/pedromtcosta/FluentAssertions.CSharpFunctionalExtensions) | 8 | 2021-11-03T20:59:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jiweimaster/lfs](https://github.com/JiweiMaster/lfs) | 1 | 2021-11-03T03:14:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [unitycontainer/aspnet-webapi](https://github.com/unitycontainer/aspnet-webapi) | 9 | 2021-10-31T18:10:05Z | Other | Library | 0 | 0 | 0 | 0 |
 | [bow-swift/nef-editor-server](https://github.com/bow-swift/nef-editor-server) | 7 | 2021-10-31T17:05:52Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [go-bun/go-http-routing-benchmark](https://github.com/go-bun/go-http-routing-benchmark) | 4 | 2021-10-21T06:48:19Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -1779,7 +1780,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [allenai/scifact-evaluator](https://github.com/allenai/scifact-evaluator) | 7 | 2021-12-29T06:10:06Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [euagendas/semeval_8_2022_ia_downloader](https://github.com/euagendas/semeval_8_2022_ia_downloader) | 7 | 2021-12-15T14:58:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [brentyi/fannypack](https://github.com/brentyi/fannypack) | 7 | 2021-11-10T01:12:20Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [bow-swift/nef-editor-server](https://github.com/bow-swift/nef-editor-server) | 7 | 2021-10-31T17:05:52Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [IndexXuan/vue-enterprise-boilerplate](https://github.com/IndexXuan/vue-enterprise-boilerplate) | 7 | 2021-08-09T08:12:03Z | JavaScript | CLI | 0 | 47 | 0 | 0 |
 | [AjayThorve/Spatial-Analytics-Viz](https://github.com/AjayThorve/Spatial-Analytics-Viz) | 7 | 2021-08-04T01:03:04Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -2069,6 +2070,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Softcatala/dubbing-service](https://github.com/Softcatala/dubbing-service) | 4 | 2025-06-26T05:29:40Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/mcp-tdo](https://github.com/2KAbhishek/mcp-tdo) | 4 | 2025-06-25T05:14:23Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [databendlabs/sub-cache](https://github.com/databendlabs/sub-cache) | 4 | 2025-06-15T04:23:07Z | Rust | CLI | 1 | 5 | 1 | 1 |
+| [Ark223/Clipper2-Lua](https://github.com/Ark223/Clipper2-Lua) | 4 | 2025-06-10T13:02:32Z | Other | CLI | 14 | 0 | 14 | 14 |
 | [usdot-fhwa-stol/avt_vimba_camera](https://github.com/usdot-fhwa-stol/avt_vimba_camera) | 4 | 2025-05-28T17:49:45Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [EpicStep/clickhouse-go-rows-utils](https://github.com/EpicStep/clickhouse-go-rows-utils) | 4 | 2025-05-22T07:27:51Z | Go | CLI | 2 | 3 | 2 | 2 |
 | [danielrosehill/Home-Inventory-AI-Assistants](https://github.com/danielrosehill/Home-Inventory-AI-Assistants) | 4 | 2025-05-17T11:56:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

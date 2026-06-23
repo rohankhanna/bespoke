@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 357
-- terms: 540
+- repos: 358
+- terms: 554
 - components: 1201
-- concepts: 533
-- observations: 533
+- concepts: 547
+- observations: 547
 
 ## Static behavior
 
@@ -104,6 +104,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JimBuzbee/matter-controller](https://github.com/JimBuzbee/matter-controller) | 7 | 2025-06-13T19:35:41Z | Other | Web app | 0 | 1 | 0 | 0 |
 | [lupapiste/lupapiste](https://github.com/lupapiste/lupapiste) | 8 | 2025-06-12T09:41:20Z | Other | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [XcodesOrg/homebrew-made](https://github.com/XcodesOrg/homebrew-made) | 1 | 2025-06-11T02:35:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [Ark223/Clipper2-Lua](https://github.com/Ark223/Clipper2-Lua) | 4 | 2025-06-10T13:02:32Z | Other | CLI | 14 | 0 | 14 | 14 |
 | [nextjournal/nbb-test-runner](https://github.com/nextjournal/nbb-test-runner) | 2 | 2025-06-10T07:24:18Z | Other | Unknown | 0 | 1 | 0 | 0 |
 | [rexthinker/rexthinker.github.io](https://github.com/rexthinker/rexthinker.github.io) | 3 | 2025-06-05T07:39:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [chhackett/vty-windows](https://github.com/chhackett/vty-windows) | 6 | 2025-06-01T13:27:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -568,6 +569,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jtdaugherty/vty-crossplatform](https://github.com/jtdaugherty/vty-crossplatform) | 4 | 2025-11-22T23:42:43Z | Other | Library | 0 | 0 | 0 | 0 |
 | [XR-Robotics/XRoboToolkit-RobotVision-PC](https://github.com/XR-Robotics/XRoboToolkit-RobotVision-PC) | 4 | 2025-08-20T01:45:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jpbruyere/CrowEdit](https://github.com/jpbruyere/CrowEdit) | 4 | 2025-08-16T20:17:10Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [Ark223/Clipper2-Lua](https://github.com/Ark223/Clipper2-Lua) | 4 | 2025-06-10T13:02:32Z | Other | CLI | 14 | 0 | 14 | 14 |
 | [bugarela/tla-input](https://github.com/bugarela/tla-input) | 4 | 2025-04-16T16:26:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [GuyTevet/mdm-page](https://github.com/GuyTevet/mdm-page) | 4 | 2025-02-22T11:53:00Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [charlottia/ava](https://github.com/charlottia/ava) | 4 | 2025-02-12T03:39:07Z | Other | Unknown | 3 | 0 | 3 | 3 |

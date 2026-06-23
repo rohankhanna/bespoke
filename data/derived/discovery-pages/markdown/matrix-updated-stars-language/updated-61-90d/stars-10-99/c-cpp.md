@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 63
-- terms: 292
-- components: 337
-- concepts: 292
-- observations: 292
+- repos: 67
+- terms: 298
+- components: 372
+- concepts: 298
+- observations: 298
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [boostorg/config](https://github.com/boostorg/config) | 76 | 2026-04-23T23:39:52Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [yquake2/yquake2remaster](https://github.com/yquake2/yquake2remaster) | 99 | 2026-04-23T22:28:02Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [ROCm/rocAL](https://github.com/ROCm/rocAL) | 23 | 2026-04-23T20:00:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [rapidsai/ucxx](https://github.com/rapidsai/ucxx) | 58 | 2026-04-23T19:53:52Z | C/C++ | Infrastructure/tooling | 3 | 18 | 3 | 3 |
 | [openvinotoolkit/openvino_tokenizers](https://github.com/openvinotoolkit/openvino_tokenizers) | 50 | 2026-04-23T08:46:17Z | C/C++ | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [gazebosim/gz-fuel-tools](https://github.com/gazebosim/gz-fuel-tools) | 16 | 2026-04-23T07:47:23Z | C/C++ | CLI | 15 | 7 | 15 | 15 |
 | [DeepLink-org/DLSlime](https://github.com/DeepLink-org/DLSlime) | 97 | 2026-04-23T05:49:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -35,6 +39,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ad-si/FlatCV](https://github.com/ad-si/FlatCV) | 47 | 2026-04-22T19:25:38Z | C/C++ | CLI | 14 | 7 | 14 | 14 |
 | [Mbed-TLS/TF-PSA-Crypto](https://github.com/Mbed-TLS/TF-PSA-Crypto) | 45 | 2026-04-22T19:09:15Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [bufbuild/protovalidate-cc](https://github.com/bufbuild/protovalidate-cc) | 25 | 2026-04-22T11:47:59Z | C/C++ | Infrastructure/tooling | 11 | 11 | 11 | 11 |
+| [sgt0/vs-placebo](https://github.com/sgt0/vs-placebo) | 21 | 2026-04-22T09:37:10Z | C/C++ | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [ICRAR/crc32c](https://github.com/ICRAR/crc32c) | 48 | 2026-04-22T04:15:39Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [apache/pulsar-client-cpp](https://github.com/apache/pulsar-client-cpp) | 69 | 2026-04-22T03:19:15Z | C/C++ | CLI | 9 | 11 | 9 | 9 |
 | [openucx/xpmem](https://github.com/openucx/xpmem) | 23 | 2026-04-21T10:15:45Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -88,12 +93,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flashlight/text](https://github.com/flashlight/text) | 79 | 2026-03-31T16:49:46Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [galaxyproject/KegAlign](https://github.com/galaxyproject/KegAlign) | 40 | 2026-03-27T09:08:00Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ada-url/goada](https://github.com/ada-url/goada) | 60 | 2026-03-26T18:13:28Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [bartp5/libtexprintf](https://github.com/bartp5/libtexprintf) | 71 | 2026-03-24T22:35:22Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [yquake2/yquake2remaster](https://github.com/yquake2/yquake2remaster) | 99 | 2026-04-23T22:28:02Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [narugit/smctemp](https://github.com/narugit/smctemp) | 98 | 2026-04-22T23:12:00Z | C/C++ | CLI | 14 | 4 | 14 | 14 |
 | [Level/classic-level](https://github.com/Level/classic-level) | 98 | 2026-04-01T04:04:51Z | C/C++ | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [DeepLink-org/DLSlime](https://github.com/DeepLink-org/DLSlime) | 97 | 2026-04-23T05:49:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -111,10 +116,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flashlight/text](https://github.com/flashlight/text) | 79 | 2026-03-31T16:49:46Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [DavidKinder/Windows-Inform7](https://github.com/DavidKinder/Windows-Inform7) | 78 | 2026-04-18T16:38:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [flatpak/xdg-dbus-proxy](https://github.com/flatpak/xdg-dbus-proxy) | 78 | 2026-04-07T16:53:34Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [boostorg/config](https://github.com/boostorg/config) | 76 | 2026-04-23T23:39:52Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [uael/sv](https://github.com/uael/sv) | 76 | 2026-04-06T07:29:47Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [heal-research/pyoperon](https://github.com/heal-research/pyoperon) | 75 | 2026-03-31T17:38:27Z | C/C++ | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [r-lyeh/Spectral](https://github.com/r-lyeh/Spectral) | 73 | 2026-04-06T15:13:52Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
-| [bartp5/libtexprintf](https://github.com/bartp5/libtexprintf) | 71 | 2026-03-24T22:35:22Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [apache/pulsar-client-cpp](https://github.com/apache/pulsar-client-cpp) | 69 | 2026-04-22T03:19:15Z | C/C++ | CLI | 9 | 11 | 9 | 9 |
 | [lxqt/liblxqt](https://github.com/lxqt/liblxqt) | 69 | 2026-04-20T07:16:03Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [ada-url/ada-python](https://github.com/ada-url/ada-python) | 67 | 2026-04-09T20:21:49Z | C/C++ | Infrastructure/tooling | 4 | 8 | 4 | 4 |
@@ -125,6 +130,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yquake2/ref_vk](https://github.com/yquake2/ref_vk) | 60 | 2026-04-18T15:17:43Z | C/C++ | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [marciogranzotto/clawd-tank](https://github.com/marciogranzotto/clawd-tank) | 60 | 2026-04-17T13:36:43Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [ada-url/goada](https://github.com/ada-url/goada) | 60 | 2026-03-26T18:13:28Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [rapidsai/ucxx](https://github.com/rapidsai/ucxx) | 58 | 2026-04-23T19:53:52Z | C/C++ | Infrastructure/tooling | 3 | 18 | 3 | 3 |
 | [AFD-Illinois/kharma](https://github.com/AFD-Illinois/kharma) | 58 | 2026-04-22T23:18:58Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [grain-lang/binaryen.ml](https://github.com/grain-lang/binaryen.ml) | 52 | 2026-04-08T23:22:15Z | C/C++ | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [openvinotoolkit/openvino_tokenizers](https://github.com/openvinotoolkit/openvino_tokenizers) | 50 | 2026-04-23T08:46:17Z | C/C++ | Infrastructure/tooling | 2 | 15 | 2 | 2 |
@@ -141,10 +147,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nx10/unigd](https://github.com/nx10/unigd) | 28 | 2026-04-20T16:43:10Z | C/C++ | Infrastructure/tooling | 6 | 15 | 6 | 6 |
 | [bufbuild/protovalidate-cc](https://github.com/bufbuild/protovalidate-cc) | 25 | 2026-04-22T11:47:59Z | C/C++ | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [f32c/tools](https://github.com/f32c/tools) | 25 | 2026-04-20T11:19:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
+| [ROCm/rocAL](https://github.com/ROCm/rocAL) | 23 | 2026-04-23T20:00:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [openucx/xpmem](https://github.com/openucx/xpmem) | 23 | 2026-04-21T10:15:45Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [chusitoo/flatbush](https://github.com/chusitoo/flatbush) | 23 | 2026-04-08T01:41:10Z | C/C++ | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [dubhatervapoursynth/vapoursynth-scxvid](https://github.com/dubhatervapoursynth/vapoursynth-scxvid) | 22 | 2026-04-17T10:12:57Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [cpmech/tritet](https://github.com/cpmech/tritet) | 22 | 2026-04-06T21:57:42Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [sgt0/vs-placebo](https://github.com/sgt0/vs-placebo) | 21 | 2026-04-22T09:37:10Z | C/C++ | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [yoshoku/numo-narray-alt](https://github.com/yoshoku/numo-narray-alt) | 21 | 2026-04-19T08:39:37Z | C/C++ | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [walbourn/directxtktest](https://github.com/walbourn/directxtktest) | 20 | 2026-04-21T05:14:03Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [mybigday/llama.node](https://github.com/mybigday/llama.node) | 19 | 2026-04-17T11:20:01Z | C/C++ | Infrastructure/tooling | 7 | 23 | 7 | 7 |

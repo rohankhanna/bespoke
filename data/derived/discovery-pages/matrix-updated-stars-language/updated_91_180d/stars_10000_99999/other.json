@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 83,
-    "observations": 83,
+    "components": 59,
+    "concepts": 78,
+    "observations": 78,
     "repos": 18,
-    "terms": 81
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "datawhalechina/happy-llm",
@@ -20,6 +20,7 @@
     "facebookresearch/audiocraft",
     "github/copilot.vim",
     "google-research/vision_transformer",
+    "google/dopamine",
     "guzzle/guzzle",
     "junegunn/vim-plug",
     "MatsuriDayo/NekoBoxForAndroid",
@@ -28,7 +29,6 @@
     "QwenLM/Qwen3-VL",
     "ryanoasis/nerd-fonts",
     "Swordfish90/cool-retro-term",
-    "TA-Lib/ta-lib-python",
     "tachyons-css/tachyons",
     "tpope/vim-fugitive",
     "twbs/bootstrap-sass"

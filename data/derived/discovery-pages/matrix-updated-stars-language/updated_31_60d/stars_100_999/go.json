@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 997,
-    "concepts": 901,
-    "observations": 902,
-    "repos": 112,
-    "terms": 899
+    "components": 886,
+    "concepts": 808,
+    "observations": 809,
+    "repos": 100,
+    "terms": 806
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
-    "a2aproject/a2a-go",
-    "AdguardTeam/urlfilter",
-    "ai-dynamo/grove",
     "aliyun/aliyun-cli",
     "andreykaipov/goobs",
     "apache/dubbo-go-hessian2",
@@ -34,13 +31,10 @@
     "betterleaks/betterleaks",
     "bitrise-io/bitrise",
     "boj/redistore",
-    "bufbuild/protovalidate-go",
     "buildpacks/lifecycle",
     "celzero/firestack",
-    "chainguard-dev/melange",
     "charmbracelet/x",
     "ClickHouse/ch-go",
-    "cloudflare/go",
     "cloudfoundry/bosh-bootloader",
     "cloudfoundry/bosh-cli",
     "cloudfoundry/cf-deployment",
@@ -85,14 +79,10 @@
     "itzg/mc-monitor",
     "itzg/mc-router",
     "kelos-dev/kelos",
-    "Kong/deck",
     "kubernetes-sigs/dra-driver-nvidia-gpu",
     "kubernetes-sigs/karpenter-provider-cluster-api",
     "kubernetes-sigs/lws",
-    "kubernetes-sigs/prow",
     "mattn/go-isatty",
-    "microsoft/dcp",
-    "moul/gotty-client",
     "OffchainLabs/nitro",
     "operator-framework/operator-registry",
     "oracle/oci-go-sdk",
@@ -114,7 +104,6 @@
     "sergelogvinov/karpenter-provider-proxmox",
     "sergelogvinov/proxmox-cloud-controller-manager",
     "sigstore/fulcio",
-    "snowflakedb/gosnowflake",
     "suzuki-shunsuke/ghalint",
     "suzuki-shunsuke/ghtkn",
     "suzuki-shunsuke/pinact",
@@ -124,7 +113,6 @@
     "trzsz/tsshd",
     "usbarmory/go-boot",
     "web-infra-dev/rslint",
-    "web-platform-tests/wpt.fyi",
     "yaml/go-yaml"
   ]
 }

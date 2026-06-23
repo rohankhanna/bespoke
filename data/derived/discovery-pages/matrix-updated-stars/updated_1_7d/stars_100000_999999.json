@@ -1,18 +1,20 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 1,
-    "terms": 15
+    "components": 122,
+    "concepts": 50,
+    "observations": 51,
+    "repos": 3,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
-    "electron/electron"
+    "f/prompts.chat",
+    "ohmyzsh/ohmyzsh",
+    "ollama/ollama"
   ]
 }

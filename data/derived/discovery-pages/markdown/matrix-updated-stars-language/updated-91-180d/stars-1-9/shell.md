@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Shell
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 43
-- components: 34
-- concepts: 44
-- observations: 45
+- repos: 18
+- terms: 44
+- components: 39
+- concepts: 47
+- observations: 48
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hchiam/learning-bash-scripts](https://github.com/hchiam/learning-bash-scripts) | 1 | 2026-03-24T21:40:04Z | Shell | Unknown | 0 | 0 | 2 | 2 |
+| [serpro69/claude-in-docker](https://github.com/serpro69/claude-in-docker) | 2 | 2026-03-24T14:50:33Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [danielrosehill/Claude-Dolphin-Konsole-Actions](https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions) | 1 | 2026-03-18T18:16:58Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [eddelbuettel/github-actions](https://github.com/eddelbuettel/github-actions) | 6 | 2026-03-10T13:45:21Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [flinedev/customstatusline](https://github.com/FlineDev/CustomStatusline) | 7 | 2026-03-10T01:28:48Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -55,8 +57,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alonw0/cc-redalerts-statusline](https://github.com/alonw0/cc-redalerts-statusline) | 4 | 2026-03-05T15:48:01Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [tombelieber/claude-backup](https://github.com/tombelieber/claude-backup) | 4 | 2026-02-27T16:15:35Z | Shell | CLI | 15 | 4 | 16 | 16 |
 | [azdavis/ungrammar-tools](https://github.com/azdavis/ungrammar-tools) | 4 | 2026-01-06T12:29:22Z | Shell | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [serpro69/claude-in-docker](https://github.com/serpro69/claude-in-docker) | 2 | 2026-03-24T14:50:33Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [tzachar/sqlite_skim](https://github.com/tzachar/sqlite_skim) | 2 | 2026-02-24T16:03:10Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [blooper05/action-rails_best_practices](https://github.com/blooper05/action-rails_best_practices) | 2 | 2026-01-06T05:19:12Z | Shell | Infrastructure/tooling | 9 | 14 | 9 | 10 |
+| [hchiam/learning-bash-scripts](https://github.com/hchiam/learning-bash-scripts) | 1 | 2026-03-24T21:40:04Z | Shell | Unknown | 0 | 0 | 2 | 2 |
 | [danielrosehill/Claude-Dolphin-Konsole-Actions](https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions) | 1 | 2026-03-18T18:16:58Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Claude-MD-Chunk](https://github.com/danielrosehill/Claude-MD-Chunk) | 1 | 2026-02-17T01:41:11Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [hchiam/learning-https-server](https://github.com/hchiam/learning-https-server) | 1 | 2026-02-03T20:27:11Z | Shell | Service/API | 0 | 0 | 0 | 0 |

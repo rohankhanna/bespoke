@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -420,7 +420,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [psugihara/FreeChat](https://github.com/psugihara/FreeChat) | 500 | 2024-11-25T17:19:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [xserrat/docker-facebook-demucs](https://github.com/xserrat/docker-facebook-demucs) | 195 | 2024-11-24T18:41:07Z | Other | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [cgbur/llama2.zig](https://github.com/cgbur/llama2.zig) | 212 | 2024-11-21T19:47:07Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [litedb-org/LiteDB.Studio](https://github.com/litedb-org/LiteDB.Studio) | 943 | 2024-11-20T18:06:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [litedb-org/LiteDB.Studio](https://github.com/litedb-org/LiteDB.Studio) | 944 | 2024-11-20T18:06:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hydescarf/Obsidian-Theme-Mado-Miniflow](https://github.com/hydescarf/Obsidian-Theme-Mado-Miniflow) | 208 | 2024-11-20T09:28:10Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [cognitect-labs/test-runner](https://github.com/cognitect-labs/test-runner) | 307 | 2024-11-19T22:32:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [yardenfren1996/B-LoRA](https://github.com/yardenfren1996/B-LoRA) | 399 | 2024-11-14T09:56:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -680,7 +680,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atteneder/DracoUnity](https://github.com/atteneder/DracoUnity) | 272 | 2023-11-10T09:44:48Z | Other | Library | 0 | 1 | 0 | 0 |
 | [Malabarba/beacon](https://github.com/Malabarba/beacon) | 702 | 2023-11-07T11:41:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [liuchengxu/space-vim-dark](https://github.com/liuchengxu/space-vim-dark) | 622 | 2023-11-04T02:12:37Z | Other | Unknown | 4 | 0 | 4 | 4 |
-| [openhackathons-org/gpubootcamp](https://github.com/openhackathons-org/gpubootcamp) | 550 | 2023-11-02T08:53:35Z | Other | Unknown | 9 | 0 | 9 | 9 |
+| [openhackathons-org/gpubootcamp](https://github.com/openhackathons-org/gpubootcamp) | 549 | 2023-11-02T08:53:35Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [ai-forever/MoVQGAN](https://github.com/ai-forever/MoVQGAN) | 265 | 2023-10-31T06:21:47Z | Other | Model/data | 4 | 0 | 4 | 4 |
 | [JuliaPy/Pandas.jl](https://github.com/JuliaPy/Pandas.jl) | 174 | 2023-10-29T01:25:43Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [JuliaData/JuliaDB.jl](https://github.com/JuliaData/JuliaDB.jl) | 766 | 2023-10-29T00:14:52Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
@@ -1049,7 +1049,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [konpatp/diffae](https://github.com/konpatp/diffae) | 961 | 2024-09-12T17:51:20Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [xolox/vim-session](https://github.com/xolox/vim-session) | 961 | 2022-07-29T03:23:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [michaeleisel/ZippyJSON](https://github.com/michaeleisel/ZippyJSON) | 958 | 2025-09-07T22:16:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [litedb-org/LiteDB.Studio](https://github.com/litedb-org/LiteDB.Studio) | 943 | 2024-11-20T18:06:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [litedb-org/LiteDB.Studio](https://github.com/litedb-org/LiteDB.Studio) | 944 | 2024-11-20T18:06:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [FluxML/model-zoo](https://github.com/FluxML/model-zoo) | 934 | 2024-11-25T18:49:31Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [ninenines/gun](https://github.com/ninenines/gun) | 933 | 2025-11-06T15:38:00Z | Other | CLI | 17 | 1 | 17 | 17 |
 | [protobuf-net/protobuf-net.Grpc](https://github.com/protobuf-net/protobuf-net.Grpc) | 932 | 2025-07-01T07:46:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1287,7 +1287,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cszn/FFDNet](https://github.com/cszn/FFDNet) | 554 | 2021-10-09T22:05:04Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [dominicletz/websockex](https://github.com/dominicletz/websockex) | 553 | 2025-12-01T13:48:14Z | Other | CLI | 3 | 2 | 3 | 3 |
 | [kernelsauce/turbo](https://github.com/kernelsauce/turbo) | 551 | 2025-05-06T16:47:46Z | Other | Framework | 4 | 0 | 4 | 4 |
-| [openhackathons-org/gpubootcamp](https://github.com/openhackathons-org/gpubootcamp) | 550 | 2023-11-02T08:53:35Z | Other | Unknown | 9 | 0 | 9 | 9 |
+| [openhackathons-org/gpubootcamp](https://github.com/openhackathons-org/gpubootcamp) | 549 | 2023-11-02T08:53:35Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [researchmm/STTN](https://github.com/researchmm/STTN) | 548 | 2025-06-18T03:59:02Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [nathom/filetype.nvim](https://github.com/nathom/filetype.nvim) | 548 | 2024-05-06T20:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [audeering/w2v2-how-to](https://github.com/audeering/w2v2-how-to) | 545 | 2023-05-22T13:00:31Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |

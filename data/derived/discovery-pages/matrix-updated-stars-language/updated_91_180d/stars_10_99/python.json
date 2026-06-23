@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 336,
-    "concepts": 311,
-    "observations": 312,
-    "repos": 123,
-    "terms": 318
+    "components": 350,
+    "concepts": 322,
+    "observations": 323,
+    "repos": 124,
+    "terms": 328
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -36,6 +36,7 @@
     "bentoml/BentoLMDeploy",
     "bigai-nlco/RuleReasoner",
     "biocypher/project-template",
+    "BirolLab/tigmint",
     "BoosterRobotics/booster_assets",
     "BoosterRobotics/booster_deploy",
     "bootmortis/ito-gov-mirror",
@@ -84,6 +85,7 @@
     "InteractiveComputerGraphics/blender-sequence-loader",
     "InternScience/SciReason",
     "IQTLabs/snowglobe",
+    "ironArray/Caterva2",
     "IST-DASLab/Quartet-II",
     "JarnoRFB/incense",
     "jhakulin/realtime-ai",
@@ -117,7 +119,6 @@
     "ServiceNow/webarena-verified",
     "seung-lab/cloud-files",
     "shawn0728/ARES",
-    "SLDGroup/EffiDec3D",
     "SLDGroup/LoMix",
     "SLDGroup/MK-UNet",
     "sylabs/singularity-userdocs",

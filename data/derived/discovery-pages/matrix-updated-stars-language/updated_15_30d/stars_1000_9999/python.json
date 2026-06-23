@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 77,
-    "observations": 78,
+    "components": 26,
+    "concepts": 68,
+    "observations": 69,
     "repos": 8,
-    "terms": 77
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "Farama-Foundation/Minigrid",
     "google-deepmind/dm-haiku",
-    "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
     "lucidrains/vector-quantize-pytorch",
+    "microsoft/TRELLIS.2",
     "zhiyiYo/PyQt-Fluent-Widgets",
     "zyddnys/manga-image-translator"
   ]

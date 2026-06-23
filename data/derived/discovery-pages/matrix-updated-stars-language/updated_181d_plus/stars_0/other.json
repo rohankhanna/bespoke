@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 107,
-    "terms": 114
+    "components": 202,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 109,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -23,6 +23,7 @@
     "adre5577/contour-tinted",
     "agausmann/base16-wofi-colors",
     "agroportal/documentation",
+    "akashAD98/vectordb-recipes",
     "alekcz/pcp-template",
     "altgr/opam-publish",
     "anonymized-transformer/anonymized-transformer.github.io",
@@ -105,6 +106,7 @@
     "oneflow-inc/docker-images",
     "opentk/glfw-redist",
     "pgvector/pgvector-ada",
+    "quietvoid/mpv-winbuild-cmake",
     "rlancemartin/LLMTest_NeedleInAHaystack",
     "RohanVashisht1234/justperfect",
     "rudionrails/yell",

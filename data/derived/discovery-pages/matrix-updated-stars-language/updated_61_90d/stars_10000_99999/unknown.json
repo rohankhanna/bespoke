@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 9,
-    "terms": 50
+    "components": 10,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 11,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
     "enaqx/awesome-react",
+    "fffaraz/awesome-cpp",
+    "google/material-design-icons",
     "microsoft/winget-pkgs",
     "multica-ai/andrej-karpathy-skills",
     "othneildrew/Best-README-Template",

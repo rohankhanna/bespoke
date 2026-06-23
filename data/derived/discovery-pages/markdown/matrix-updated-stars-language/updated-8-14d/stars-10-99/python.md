@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
+- repos: 2
 - terms: 4
 - components: 0
 - concepts: 4
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-06-15T15:30:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [symgraph/BinAssistMCP](https://github.com/symgraph/BinAssistMCP) | 40 | 2026-06-14T15:02:29Z | Python | Unknown | 4 | 0 | 4 | 4 |
 
 ## Repos sorted by stars
@@ -33,3 +34,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [symgraph/BinAssistMCP](https://github.com/symgraph/BinAssistMCP) | 40 | 2026-06-14T15:02:29Z | Python | Unknown | 4 | 0 | 4 | 4 |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-06-15T15:30:04Z | Python | Unknown | 0 | 0 | 0 | 0 |

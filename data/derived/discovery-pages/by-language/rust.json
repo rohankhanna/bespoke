@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11827,
-    "concepts": 8072,
-    "observations": 8134,
-    "repos": 1744,
-    "terms": 8063
+    "components": 11835,
+    "concepts": 8073,
+    "observations": 8135,
+    "repos": 1747,
+    "terms": 8061
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -1133,6 +1133,7 @@
     "Mooncake-Labs/pg_mooncake",
     "Mooncake-Labs/rust-postgres",
     "Morganamilo/paru",
+    "mozilla-ai/otari-sdk-rust",
     "mozilla/application-services",
     "mozilla/cbindgen",
     "mozilla/dump_syms",
@@ -1287,6 +1288,8 @@
     "plotters-rs/plotters",
     "plotters-rs/plotters-cairo",
     "plotters-rs/plotters-canvas",
+    "plotters-rs/plotters-gtk-demo",
+    "plotters-rs/plotters-minifb-demo",
     "pola-rs/polars",
     "pop-os/cosmic-text",
     "posit-dev/air",

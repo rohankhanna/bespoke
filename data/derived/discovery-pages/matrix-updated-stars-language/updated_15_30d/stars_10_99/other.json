@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 6,
-    "terms": 41
+    "components": 67,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 5,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "BirolLab/LINKS",
     "dwyl/mvp",
     "f3liz-casa/noraneko",
     "jelly-beam/rebar3_ex_doc",
-    "lumen-oss/nurr",
-    "python-poetry/website"
+    "lumen-oss/nurr"
   ]
 }

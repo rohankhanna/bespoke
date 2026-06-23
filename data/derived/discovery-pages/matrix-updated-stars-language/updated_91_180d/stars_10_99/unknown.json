@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 46,
-    "terms": 88
+    "components": 52,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 47,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -36,12 +36,13 @@
     "dredozubov/prd-generator",
     "ellie/atuin",
     "ethereum/beacon-metrics",
-    "getlantern/lantern-forum-cn",
     "getsentry/.github",
     "googlefonts/emoji-metadata",
+    "grpc/grpc-community",
     "hchiam/learning",
     "hicchicc/x8y12pxDenkiChip",
     "HZAI-ZJNU/happy-llm-ppt",
+    "ithiria894/awesome-claude-code-hooks",
     "JaeZ1205/PS_NBI2k",
     "johandahlberg/awesome-10x-genomics",
     "json-schema-org/.github",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3498,
-    "concepts": 1734,
-    "observations": 1737,
-    "repos": 342,
-    "terms": 1708
+    "components": 3502,
+    "concepts": 1739,
+    "observations": 1742,
+    "repos": 344,
+    "terms": 1711
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -225,6 +225,7 @@
     "microsoft/LoRA",
     "microsoft/nni",
     "microsoft/Swin-Transformer",
+    "microsoft/TRELLIS",
     "Mikubill/sd-webui-controlnet",
     "milesial/Pytorch-UNet",
     "minimaxir/big-list-of-naughty-strings",
@@ -323,6 +324,7 @@
     "tloen/alpaca-lora",
     "tmux-plugins/tmux-resurrect",
     "tmux-plugins/tpm",
+    "toml-lang/toml",
     "tomnomnom/gron",
     "tpope/vim-pathogen",
     "TypeStrong/ts-node",

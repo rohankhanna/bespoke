@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 63,
-    "observations": 63,
+    "components": 80,
+    "concepts": 46,
+    "observations": 47,
     "repos": 7,
-    "terms": 63
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
-    "Artoriuz/ArtCNN",
-    "astroautomata/SymbolicRegression.jl",
     "bazel-contrib/rules_kotlin",
     "ChristopherHX/runner.server",
-    "Deep-Symmetry/beat-link-trigger",
+    "clj-commons/rewrite-clj",
+    "grpc/grpc-dart",
+    "meshcat-dev/meshcat",
     "sbt/sbt-jmh"
   ]
 }

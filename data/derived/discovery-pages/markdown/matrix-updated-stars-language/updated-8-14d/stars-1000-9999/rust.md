@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 8
-- components: 4
-- concepts: 8
-- observations: 8
+- terms: 9
+- components: 23
+- concepts: 9
+- observations: 9
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4831 | 2026-05-30T11:28:13Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-06-15T15:27:14Z | Rust | Infrastructure/tooling | 9 | 23 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4831 | 2026-05-30T11:28:13Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-06-15T15:27:14Z | Rust | Infrastructure/tooling | 9 | 23 | 9 | 9 |

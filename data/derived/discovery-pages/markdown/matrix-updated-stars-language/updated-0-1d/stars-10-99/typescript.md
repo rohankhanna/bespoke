@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-30T07:41:34.941193+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-05-29T23:42:02Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
+| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-22T19:08:44Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-05-29T23:42:02Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
+| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-22T19:08:44Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |

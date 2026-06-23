@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
-- terms: 555
-- components: 792
-- concepts: 563
-- observations: 564
+- repos: 41
+- terms: 493
+- components: 683
+- concepts: 501
+- observations: 502
 
 ## Static behavior
 
@@ -67,13 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Automattic/harper](https://github.com/Automattic/harper) | 10405 | 2026-04-27T01:19:13Z | Rust | Infrastructure/tooling | 15 | 17 | 15 | 15 |
 | [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | 26143 | 2026-04-24T09:17:34Z | Rust | Infrastructure/tooling | 9 | 25 | 9 | 9 |
-| [microsoft/windows-rs](https://github.com/microsoft/windows-rs) | 12128 | 2026-04-24T04:33:01Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
-| [nearai/ironclaw](https://github.com/nearai/ironclaw) | 11944 | 2026-04-23T21:55:32Z | Rust | Infrastructure/tooling | 7 | 17 | 7 | 7 |
-| [FuelLabs/sway](https://github.com/FuelLabs/sway) | 61756 | 2026-04-23T20:47:02Z | Rust | Infrastructure/tooling | 9 | 20 | 9 | 9 |
-| [rayon-rs/rayon](https://github.com/rayon-rs/rayon) | 12916 | 2026-04-23T20:07:00Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core) | 57132 | 2026-04-23T19:27:01Z | Rust | Infrastructure/tooling | 9 | 27 | 9 | 9 |
-| [web-infra-dev/rspack](https://github.com/web-infra-dev/rspack) | 12632 | 2026-04-23T15:03:14Z | Rust | Infrastructure/tooling | 16 | 21 | 16 | 16 |
-| [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21381 | 2026-04-23T15:00:50Z | Rust | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -81,8 +74,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [zed-industries/zed](https://github.com/zed-industries/zed) | 80446 | 2026-04-29T17:21:23Z | Rust | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 63824 | 2026-05-02T02:14:57Z | Rust | CLI | 8 | 1 | 8 | 8 |
-| [FuelLabs/sway](https://github.com/FuelLabs/sway) | 61756 | 2026-04-23T20:47:02Z | Rust | Infrastructure/tooling | 9 | 20 | 9 | 9 |
-| [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core) | 57132 | 2026-04-23T19:27:01Z | Rust | Infrastructure/tooling | 9 | 27 | 9 | 9 |
 | [tw93/Pake](https://github.com/tw93/Pake) | 48393 | 2026-05-03T15:05:14Z | Rust | Infrastructure/tooling | 17 | 48 | 17 | 17 |
 | [astral-sh/ruff](https://github.com/astral-sh/ruff) | 47401 | 2026-05-06T18:10:34Z | Rust | Infrastructure/tooling | 14 | 40 | 14 | 14 |
 | [helix-editor/helix](https://github.com/helix-editor/helix) | 44167 | 2026-04-28T23:25:11Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
@@ -106,7 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebook/flow](https://github.com/facebook/flow) | 22206 | 2026-05-01T09:05:10Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [RustPython/RustPython](https://github.com/RustPython/RustPython) | 22027 | 2026-04-29T19:45:59Z | Rust | Infrastructure/tooling | 13 | 24 | 14 | 14 |
 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 21747 | 2026-05-01T05:42:30Z | Rust | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21381 | 2026-04-23T15:00:50Z | Rust | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [oxc-project/oxc](https://github.com/oxc-project/oxc) | 20930 | 2026-04-30T14:23:34Z | Rust | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [wasmerio/wasmer](https://github.com/wasmerio/wasmer) | 20643 | 2026-05-01T11:50:20Z | Rust | Infrastructure/tooling | 18 | 18 | 18 | 18 |
 | [getzola/zola](https://github.com/getzola/zola) | 16990 | 2026-04-29T09:34:31Z | Rust | Infrastructure/tooling | 11 | 14 | 13 | 13 |
@@ -117,10 +107,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rolldown/rolldown](https://github.com/rolldown/rolldown) | 13385 | 2026-04-30T10:24:03Z | Rust | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [ClementTsang/bottom](https://github.com/ClementTsang/bottom) | 13260 | 2026-04-28T05:54:36Z | Rust | CLI | 12 | 13 | 12 | 12 |
 | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13110 | 2026-04-27T08:58:52Z | Rust | CLI | 10 | 14 | 10 | 10 |
-| [rayon-rs/rayon](https://github.com/rayon-rs/rayon) | 12916 | 2026-04-23T20:07:00Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [web-infra-dev/rspack](https://github.com/web-infra-dev/rspack) | 12632 | 2026-04-23T15:03:14Z | Rust | Infrastructure/tooling | 16 | 21 | 16 | 16 |
-| [microsoft/windows-rs](https://github.com/microsoft/windows-rs) | 12128 | 2026-04-24T04:33:01Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
-| [nearai/ironclaw](https://github.com/nearai/ironclaw) | 11944 | 2026-04-23T21:55:32Z | Rust | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide) | 11257 | 2026-04-29T15:29:35Z | Rust | CLI | 7 | 13 | 7 | 7 |
 | [quickwit-oss/quickwit](https://github.com/quickwit-oss/quickwit) | 11122 | 2026-04-30T08:26:12Z | Rust | Infrastructure/tooling | 17 | 20 | 17 | 17 |
 | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) | 10684 | 2026-04-27T15:48:00Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |

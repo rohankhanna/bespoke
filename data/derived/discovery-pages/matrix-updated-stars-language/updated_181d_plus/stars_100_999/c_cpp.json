@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 728,
+    "components": 753,
     "concepts": 1307,
     "observations": 1310,
-    "repos": 398,
-    "terms": 1287
+    "repos": 400,
+    "terms": 1286
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -87,6 +87,7 @@
     "chenkui164/FastASR",
     "chfast/ethash",
     "chongyi-zheng/SMPLpp",
+    "Chuyu-Team/VC-LTL5",
     "clab/fast_align",
     "cmp-nct/ggllm.cpp",
     "cofyc/dnscrypt-wrapper",
@@ -398,6 +399,7 @@
     "WisdomShell/llama_cpp_for_codeshell",
     "WL-Amigo/waifu2x-converter-cpp",
     "WojciechMula/base64simd",
+    "xaviergonz/js-angusj-clipper",
     "xiongzhu666/Sky-Segmentation-and-Post-processing",
     "xlab/libvpx-go",
     "xlite-dev/RVM-Inference",

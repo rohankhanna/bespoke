@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 222,
-    "observations": 224,
-    "repos": 15,
-    "terms": 222
+    "components": 144,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 11,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "axolotl-ai-cloud/axolotl",
-    "Comfy-Org/ComfyUI-Manager",
-    "fastapi/fastapi",
+    "datalab-to/marker",
     "hiyouga/LlamaFactory",
     "jax-ml/jax",
+    "Lightning-AI/litgpt",
     "modelscope/FunASR",
-    "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
     "OpenHands/OpenHands",
     "pydantic/pydantic",
-    "qubvel-org/segmentation_models.pytorch",
     "TEN-framework/ten-framework",
-    "tinygrad/tinygrad",
-    "verl-project/verl",
-    "zhayujie/CowAgent"
+    "verl-project/verl"
   ]
 }

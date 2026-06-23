@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 198,
-    "observations": 199,
-    "repos": 70,
-    "terms": 198
+    "components": 174,
+    "concepts": 197,
+    "observations": 198,
+    "repos": 71,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
@@ -22,6 +22,7 @@
     "aseprite/clip",
     "aseprite/observable",
     "atsushieno/cmidi2",
+    "bartp5/libtexprintf",
     "Birch-san/box2d3-wasm",
     "ccslykx/Starry",
     "cisco/libacvp",
@@ -56,7 +57,6 @@
     "JuliaInterop/libcxxwrap-julia",
     "jupyter-xeus/xeus-zmq",
     "jupyter-xeus/xleaflet",
-    "lemire/fast_float",
     "lemire/simple_fastfloat_benchmark",
     "mesh-iit/creo2urdf",
     "microsoft/react-native-winrt",
@@ -72,6 +72,7 @@
     "Rezonality/zing",
     "RomanArzumanyan/VALI",
     "shriramters/chordcat",
+    "SineStriker/syscmdline",
     "smuellerDD/acvpparser",
     "ssiu/flash-attention-turing",
     "Taritsyn/LibSassHost",

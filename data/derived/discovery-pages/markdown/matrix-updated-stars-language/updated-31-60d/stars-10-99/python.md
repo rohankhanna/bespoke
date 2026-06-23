@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 86
-- terms: 335
-- components: 481
-- concepts: 341
-- observations: 341
+- repos: 80
+- terms: 314
+- components: 444
+- concepts: 320
+- observations: 320
 
 ## Static behavior
 
@@ -106,18 +106,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atlanhq/application-sdk](https://github.com/atlanhq/application-sdk) | 24 | 2026-04-24T18:19:38Z | Python | Infrastructure/tooling | 7 | 20 | 7 | 7 |
 | [GreptimeTeam/demo-scene](https://github.com/GreptimeTeam/demo-scene) | 42 | 2026-04-24T15:57:46Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [HabanaAI/vllm-fork](https://github.com/HabanaAI/vllm-fork) | 86 | 2026-04-24T06:22:39Z | Python | Infrastructure/tooling | 8 | 16 | 8 | 8 |
-| [mayeut/pep600_compliance](https://github.com/mayeut/pep600_compliance) | 62 | 2026-04-24T04:24:17Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [DeterminateSystems/determinate-nix-action](https://github.com/DeterminateSystems/determinate-nix-action) | 28 | 2026-04-23T22:24:17Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [meta-pytorch/MSLK](https://github.com/meta-pytorch/MSLK) | 99 | 2026-04-23T19:53:21Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
-| [ansible/ansible-compat](https://github.com/ansible/ansible-compat) | 27 | 2026-04-23T18:16:36Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
-| [conda-forge/admin-requests](https://github.com/conda-forge/admin-requests) | 37 | 2026-04-23T15:39:51Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [notofonts/notobuilder](https://github.com/notofonts/notobuilder) | 11 | 2026-04-23T15:32:01Z | Python | Infrastructure/tooling | 1 | 13 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [meta-pytorch/MSLK](https://github.com/meta-pytorch/MSLK) | 99 | 2026-04-23T19:53:21Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [HKU-BAL/ClairS-TO](https://github.com/HKU-BAL/ClairS-TO) | 90 | 2026-04-28T09:10:29Z | Python | Infrastructure/tooling | 15 | 0 | 15 | 15 |
 | [dbfixtures/mirakuru](https://github.com/dbfixtures/mirakuru) | 90 | 2026-04-27T22:53:14Z | Python | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [DanielNoord/pydocstringformatter](https://github.com/DanielNoord/pydocstringformatter) | 87 | 2026-04-27T17:28:18Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
@@ -136,7 +129,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [redis/docs](https://github.com/redis/docs) | 66 | 2026-04-30T17:46:55Z | Python | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [rwightman/timm](https://github.com/rwightman/timm) | 65 | 2026-04-27T19:12:01Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [analogdevicesinc/ai8x-synthesis](https://github.com/analogdevicesinc/ai8x-synthesis) | 65 | 2026-04-26T00:30:14Z | Python | Infrastructure/tooling | 10 | 3 | 10 | 10 |
-| [mayeut/pep600_compliance](https://github.com/mayeut/pep600_compliance) | 62 | 2026-04-24T04:24:17Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [goombalab/raven](https://github.com/goombalab/raven) | 58 | 2026-05-11T10:33:11Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [gordon-code/cuid2](https://github.com/gordon-code/cuid2) | 58 | 2026-04-30T17:39:56Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [sublimelsp/LSP-ruff](https://github.com/sublimelsp/LSP-ruff) | 58 | 2026-04-24T18:55:32Z | Python | Unknown | 1 | 0 | 1 | 1 |
@@ -170,7 +162,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [executablebooks/mdit-py-plugins](https://github.com/executablebooks/mdit-py-plugins) | 41 | 2026-04-27T16:39:43Z | Python | Infrastructure/tooling | 3 | 4 | 5 | 5 |
 | [graalvm/oracle-graalvm-ea-builds](https://github.com/graalvm/oracle-graalvm-ea-builds) | 40 | 2026-04-29T12:41:32Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [terrierteam/pyterrier_pisa](https://github.com/terrierteam/pyterrier_pisa) | 37 | 2026-04-28T15:18:44Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
-| [conda-forge/admin-requests](https://github.com/conda-forge/admin-requests) | 37 | 2026-04-23T15:39:51Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [castorini/anserini-tools](https://github.com/castorini/anserini-tools) | 36 | 2026-04-25T19:35:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [caketop/python-starlark-go](https://github.com/caketop/python-starlark-go) | 35 | 2026-04-25T21:18:40Z | Python | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [dora-rs/dora-hub](https://github.com/dora-rs/dora-hub) | 34 | 2026-05-03T17:53:15Z | Python | Infrastructure/tooling | 2 | 15 | 2 | 2 |
@@ -180,8 +171,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pre-commit/sync-pre-commit-deps](https://github.com/pre-commit/sync-pre-commit-deps) | 30 | 2026-04-28T22:26:02Z | Python | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [pipecat-ai/pipecat-cli](https://github.com/pipecat-ai/pipecat-cli) | 29 | 2026-04-29T13:30:51Z | Python | CLI | 4 | 6 | 4 | 4 |
 | [open-edge-platform/physical-ai-studio](https://github.com/open-edge-platform/physical-ai-studio) | 28 | 2026-04-29T16:21:43Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [DeterminateSystems/determinate-nix-action](https://github.com/DeterminateSystems/determinate-nix-action) | 28 | 2026-04-23T22:24:17Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [ansible/ansible-compat](https://github.com/ansible/ansible-compat) | 27 | 2026-04-23T18:16:36Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [pdm-project/tox-pdm](https://github.com/pdm-project/tox-pdm) | 26 | 2026-04-27T21:41:33Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [xhluca/bm25-benchmarks](https://github.com/xhluca/bm25-benchmarks) | 24 | 2026-04-29T05:07:43Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [atlanhq/application-sdk](https://github.com/atlanhq/application-sdk) | 24 | 2026-04-24T18:19:38Z | Python | Infrastructure/tooling | 7 | 20 | 7 | 7 |
@@ -202,4 +191,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Hiroshiba/voicevox_engine](https://github.com/Hiroshiba/voicevox_engine) | 11 | 2026-05-02T13:42:14Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [LedgerHQ/ragger](https://github.com/LedgerHQ/ragger) | 11 | 2026-04-29T13:07:39Z | Python | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [sigstore/sigstore-conformance](https://github.com/sigstore/sigstore-conformance) | 11 | 2026-04-29T06:20:01Z | Python | CLI | 5 | 7 | 5 | 5 |
-| [notofonts/notobuilder](https://github.com/notofonts/notobuilder) | 11 | 2026-04-23T15:32:01Z | Python | Infrastructure/tooling | 1 | 13 | 1 | 1 |

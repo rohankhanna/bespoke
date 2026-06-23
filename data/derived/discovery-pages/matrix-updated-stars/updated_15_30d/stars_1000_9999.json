@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 521,
-    "concepts": 324,
-    "observations": 327,
-    "repos": 33,
-    "terms": 324
+    "components": 514,
+    "concepts": 307,
+    "observations": 310,
+    "repos": 35,
+    "terms": 307
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "alichherawalla/off-grid-mobile-ai",
@@ -19,16 +19,18 @@
     "dkron-io/dkron",
     "Farama-Foundation/Minigrid",
     "geotiffjs/geotiff.js",
-    "gildas-lormeau/zip.js",
     "google-deepmind/dm-haiku",
+    "googleapis/google-api-php-client",
     "hacl-star/hacl-star",
-    "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
+    "jothepro/doxygen-awesome-css",
     "JuliaAI/MLJ.jl",
     "lambdalisue/vim-fern",
     "lightning/bolts",
+    "litedb-org/LiteDB",
     "lucidrains/vector-quantize-pytorch",
     "mayocream/koharu",
+    "microsoft/TRELLIS.2",
     "mono/SkiaSharp",
     "neavo/LinguaGacha",
     "nvim-tree/nvim-web-devicons",

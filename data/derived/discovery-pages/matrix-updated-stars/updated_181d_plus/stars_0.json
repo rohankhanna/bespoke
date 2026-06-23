@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1386,
-    "concepts": 572,
-    "observations": 574,
-    "repos": 465,
-    "terms": 572
+    "components": 1396,
+    "concepts": 575,
+    "observations": 577,
+    "repos": 467,
+    "terms": 575
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -46,6 +46,7 @@
     "ai-bot-pro/pipeline-go",
     "aidenlab/java-straw",
     "akamming/domoticz-snapcast",
+    "akashAD98/vectordb-recipes",
     "akira-l/warc_extractor_mnbvc",
     "albertogeniola/elmax-api",
     "alekcz/pcp-template",
@@ -410,6 +411,7 @@
     "puffyyy/PCSim",
     "py-cov-action/python-coverage-comment-action-v3-example",
     "QuantuMope/GroundingDINO",
+    "quietvoid/mpv-winbuild-cmake",
     "radashi-org/radashi-canary",
     "redcaps-dataset/pytorch-retinaface",
     "redis-om/redis-om-dotnet",

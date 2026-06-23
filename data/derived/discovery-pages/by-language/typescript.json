@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 63112,
-    "concepts": 10933,
-    "observations": 10969,
-    "repos": 1917,
-    "terms": 11235
+    "components": 63141,
+    "concepts": 10947,
+    "observations": 10983,
+    "repos": 1920,
+    "terms": 11248
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -310,6 +310,7 @@
     "better-auth/better-auth",
     "BetterThanTomorrow/calva",
     "Binaryify/OneDark-Pro",
+    "Birch-san/box2d-wasm",
     "birdofpreyru/js-utils",
     "birdofpreyru/react-native-fs",
     "birdofpreyru/react-starter",
@@ -470,6 +471,7 @@
     "cosmiconfig/cosmiconfig",
     "cosmos/cosmjs",
     "CosmWasm/testnets",
+    "countertype/clipper2-ts",
     "criteo/mesos-term",
     "cryptonomic/conseiljs",
     "cryptonomic/conseiljs-ledgersigner",
@@ -1036,6 +1038,7 @@
     "labring/sealos",
     "lace/hyla",
     "lambdalisue/vim-gin",
+    "lancedb/lancedb-vercel-chatbot",
     "langchain-ai/deepagentsjs",
     "langchain-ai/langchainjs",
     "langchain-ai/langgraphjs",

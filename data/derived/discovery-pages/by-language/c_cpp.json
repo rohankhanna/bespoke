@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9686,
-    "concepts": 11513,
-    "observations": 11541,
-    "repos": 2398,
-    "terms": 11421
+    "components": 9740,
+    "concepts": 11537,
+    "observations": 11565,
+    "repos": 2405,
+    "terms": 11442
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -453,6 +453,7 @@
     "chromiumembedded/cef",
     "chunqian/icecream-c",
     "chusitoo/flatbush",
+    "Chuyu-Team/VC-LTL5",
     "Chuyu-Team/YY-Thunks",
     "cisco/hash-sigs",
     "cisco/libacvp",
@@ -1004,6 +1005,7 @@
     "guoqingbao/flashattn.rs",
     "h2o/h2o",
     "h2o/picohttpparser",
+    "haasn/libplacebo",
     "hacker1024/coretemp",
     "haiwen/seafile",
     "haixuanTao/frenet_optimal_trajectory_planner",
@@ -1191,6 +1193,7 @@
     "JFLarvoire/the_silver_searcher",
     "jgm/cmark-lua",
     "jgm/lunamark",
+    "jhasse/poly2tri",
     "jhawthorn/fzy",
     "jherico/VulkanExamples",
     "jiixyj/libebur128",
@@ -2062,6 +2065,7 @@
     "sergei-mironov/xkb-switch",
     "sewenew/tokenizer",
     "SFML/imgui-sfml",
+    "sgt0/vs-placebo",
     "shader-slang/slang",
     "shader-slang/slang-rhi",
     "shadowsocks/badvpn",
@@ -2076,6 +2080,7 @@
     "simdutf/simdutf",
     "simonfuhrmann/mve",
     "simongog/sdsl-lite",
+    "SineStriker/syscmdline",
     "skeeto/aas-sign",
     "skeeto/dcmake",
     "skeeto/w64devkit",
@@ -2171,6 +2176,7 @@
     "Themaister/Granite",
     "thestk/rtmidi",
     "TheTechnobear/EraeTouchLite",
+    "TheTom/llama-cpp-turboquant",
     "ThisisBillhe/torch_quantizer",
     "thlorenz/learnuv",
     "ThrowTheSwitch/Unity",
@@ -2338,6 +2344,7 @@
     "WojciechMula/toys",
     "wolfpld/tracy",
     "wxinix/wxlib",
+    "xaviergonz/js-angusj-clipper",
     "xinntao/Real-ESRGAN-ncnn-vulkan",
     "xiongzhu666/Sky-Segmentation-and-Post-processing",
     "xiph/LPCNet",

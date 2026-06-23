@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 465
-- terms: 572
-- components: 1386
-- concepts: 572
-- observations: 574
+- repos: 467
+- terms: 575
+- components: 1396
+- concepts: 575
+- observations: 577
 
 ## Static behavior
 
@@ -207,6 +207,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adre5577/contour-tinted](https://github.com/adre5577/contour-tinted) | 0 | 2025-03-19T00:40:34Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [danielrosehill/Docs-Grabber](https://github.com/danielrosehill/Docs-Grabber) | 0 | 2025-03-13T16:41:29Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Blosc_jll.jl](https://github.com/JuliaBinaryWrappers/Blosc_jll.jl) | 0 | 2025-03-12T20:29:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [akashAD98/vectordb-recipes](https://github.com/akashAD98/vectordb-recipes) | 0 | 2025-03-09T20:47:02Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [fnoopv/rueidisstore](https://github.com/fnoopv/rueidisstore) | 0 | 2025-03-07T09:51:48Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Context-Chunker-Assistant](https://github.com/danielrosehill/Context-Chunker-Assistant) | 0 | 2025-03-07T01:03:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [juharris/dotnet-OptionsProvider](https://github.com/juharris/dotnet-OptionsProvider) | 0 | 2025-03-05T20:08:44Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -381,6 +382,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atsushieno/aap-juce-plugin-host](https://github.com/atsushieno/aap-juce-plugin-host) | 0 | 2023-07-17T12:29:53Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [lifeiteng/lifeiteng.github.com](https://github.com/lifeiteng/lifeiteng.github.com) | 0 | 2023-06-29T04:31:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [f-amerehi/eidolon](https://github.com/f-amerehi/Eidolon) | 0 | 2023-06-18T18:23:30Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [quietvoid/mpv-winbuild-cmake](https://github.com/quietvoid/mpv-winbuild-cmake) | 0 | 2023-06-03T12:23:10Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [0ghny/asdf-tlsgcli](https://github.com/0ghny/asdf-tlsgcli) | 0 | 2023-05-28T17:19:02Z | Shell | CLI | 2 | 4 | 2 | 2 |
 | [ashwincc/yolov6-sagemaker](https://github.com/ashwincc/yolov6-sagemaker) | 0 | 2023-05-23T04:42:44Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [yousty/event_store_subscriptions](https://github.com/yousty/event_store_subscriptions) | 0 | 2023-05-17T13:50:20Z | Other | CLI | 2 | 2 | 2 | 2 |
@@ -677,6 +679,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adre5577/contour-tinted](https://github.com/adre5577/contour-tinted) | 0 | 2025-03-19T00:40:34Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [danielrosehill/Docs-Grabber](https://github.com/danielrosehill/Docs-Grabber) | 0 | 2025-03-13T16:41:29Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Blosc_jll.jl](https://github.com/JuliaBinaryWrappers/Blosc_jll.jl) | 0 | 2025-03-12T20:29:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [akashAD98/vectordb-recipes](https://github.com/akashAD98/vectordb-recipes) | 0 | 2025-03-09T20:47:02Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [fnoopv/rueidisstore](https://github.com/fnoopv/rueidisstore) | 0 | 2025-03-07T09:51:48Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Context-Chunker-Assistant](https://github.com/danielrosehill/Context-Chunker-Assistant) | 0 | 2025-03-07T01:03:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [juharris/dotnet-OptionsProvider](https://github.com/juharris/dotnet-OptionsProvider) | 0 | 2025-03-05T20:08:44Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -851,6 +854,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atsushieno/aap-juce-plugin-host](https://github.com/atsushieno/aap-juce-plugin-host) | 0 | 2023-07-17T12:29:53Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [lifeiteng/lifeiteng.github.com](https://github.com/lifeiteng/lifeiteng.github.com) | 0 | 2023-06-29T04:31:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [f-amerehi/eidolon](https://github.com/f-amerehi/Eidolon) | 0 | 2023-06-18T18:23:30Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [quietvoid/mpv-winbuild-cmake](https://github.com/quietvoid/mpv-winbuild-cmake) | 0 | 2023-06-03T12:23:10Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [0ghny/asdf-tlsgcli](https://github.com/0ghny/asdf-tlsgcli) | 0 | 2023-05-28T17:19:02Z | Shell | CLI | 2 | 4 | 2 | 2 |
 | [ashwincc/yolov6-sagemaker](https://github.com/ashwincc/yolov6-sagemaker) | 0 | 2023-05-23T04:42:44Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [yousty/event_store_subscriptions](https://github.com/yousty/event_store_subscriptions) | 0 | 2023-05-17T13:50:20Z | Other | CLI | 2 | 2 | 2 | 2 |

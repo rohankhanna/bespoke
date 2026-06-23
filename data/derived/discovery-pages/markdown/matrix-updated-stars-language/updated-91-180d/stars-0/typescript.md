@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · TypeScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
+- repos: 5
 - terms: 1
-- components: 28
+- components: 42
 - concepts: 1
 - observations: 1
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [adipalko/hatraot](https://github.com/adipalko/hatraot) | 0 | 2026-03-24T20:13:43Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
 | [onomojo/i18n-country-translations-js](https://github.com/onomojo/i18n-country-translations-js) | 0 | 2026-03-08T01:45:28Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [onomojo/i18n-timezones-js](https://github.com/onomojo/i18n-timezones-js) | 0 | 2026-03-08T01:45:25Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [0xBigBoss/ghostty-web](https://github.com/0xBigBoss/ghostty-web) | 0 | 2026-02-24T02:47:12Z | TypeScript | Infrastructure/tooling | 1 | 13 | 1 | 1 |
@@ -35,6 +36,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [adipalko/hatraot](https://github.com/adipalko/hatraot) | 0 | 2026-03-24T20:13:43Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
 | [onomojo/i18n-country-translations-js](https://github.com/onomojo/i18n-country-translations-js) | 0 | 2026-03-08T01:45:28Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [onomojo/i18n-timezones-js](https://github.com/onomojo/i18n-timezones-js) | 0 | 2026-03-08T01:45:25Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [0xBigBoss/ghostty-web](https://github.com/0xBigBoss/ghostty-web) | 0 | 2026-02-24T02:47:12Z | TypeScript | Infrastructure/tooling | 1 | 13 | 1 | 1 |

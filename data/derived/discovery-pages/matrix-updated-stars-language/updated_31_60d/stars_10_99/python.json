@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 481,
-    "concepts": 341,
-    "observations": 341,
-    "repos": 86,
-    "terms": 335
+    "components": 444,
+    "concepts": 320,
+    "observations": 320,
+    "repos": 80,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
@@ -21,7 +21,6 @@
     "All-Hands-AI/OpenHands-Cloud",
     "allenai/cached_path",
     "analogdevicesinc/ai8x-synthesis",
-    "ansible/ansible-compat",
     "apify/actor-templates",
     "arcaputo3/mcp-server-whisper",
     "AstraZeneca/runnable",
@@ -38,12 +37,10 @@
     "carstencodes/pdm-bump",
     "castorini/anserini-tools",
     "cloudfoundry/community",
-    "conda-forge/admin-requests",
     "conda-forge/conda-forge-pinning-feedstock",
     "conservationtechlab/animl-py",
     "DanielNoord/pydocstringformatter",
     "dbfixtures/mirakuru",
-    "DeterminateSystems/determinate-nix-action",
     "dora-rs/dora-hub",
     "espressif/esp-idf-monitor",
     "executablebooks/mdit-py-plugins",
@@ -62,15 +59,12 @@
     "jfly/shtuff",
     "LedgerHQ/ragger",
     "lhj5426/YSG",
-    "mayeut/pep600_compliance",
-    "meta-pytorch/MSLK",
     "MGenAI/GRN",
     "microsoft/olive-recipes",
     "NeilGirdhar/tjax",
     "neo4j/neo4j-python-driver-rust-ext",
     "NoakLiu/FastCache-xDiT",
     "nod-ai/amd-shark-ai",
-    "notofonts/notobuilder",
     "NVIDIA/multi-storage-client",
     "oneapi-src/level-zero-spec",
     "open-edge-platform/physical-ai-studio",

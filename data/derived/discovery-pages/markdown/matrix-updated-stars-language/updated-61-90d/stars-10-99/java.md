@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 32
-- terms: 152
-- components: 144
-- concepts: 155
-- observations: 157
+- terms: 148
+- components: 150
+- concepts: 150
+- observations: 151
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bufbuild/protovalidate-java](https://github.com/bufbuild/protovalidate-java) | 63 | 2026-04-23T20:00:36Z | Java | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [googleapis/discovery-artifact-manager](https://github.com/googleapis/discovery-artifact-manager) | 59 | 2026-04-23T18:11:06Z | Java | CLI | 3 | 4 | 3 | 3 |
 | [filip26/ld-cli](https://github.com/filip26/ld-cli) | 32 | 2026-04-22T09:17:06Z | Java | CLI | 14 | 8 | 16 | 16 |
 | [apache/netbeans-mavenutils-nbm-maven-plugin](https://github.com/apache/netbeans-mavenutils-nbm-maven-plugin) | 16 | 2026-04-22T08:22:30Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [yawkat/lz4-java](https://github.com/yawkat/lz4-java) | 43 | 2026-04-22T08:08:18Z | Java | Infrastructure/tooling | 3 | 8 | 3 | 3 |
@@ -56,8 +58,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/datasketches-pig](https://github.com/apache/datasketches-pig) | 10 | 2026-03-28T19:49:59Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [akarnokd/RxJavaFiberInterop](https://github.com/akarnokd/RxJavaFiberInterop) | 40 | 2026-03-26T08:31:13Z | Java | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [enola-dev/enola](https://github.com/enola-dev/enola) | 53 | 2026-03-25T20:40:13Z | Java | Infrastructure/tooling | 10 | 20 | 10 | 10 |
-| [filip26/iridium-cbor-ld](https://github.com/filip26/iridium-cbor-ld) | 13 | 2026-03-24T18:40:07Z | Java | Infrastructure/tooling | 10 | 3 | 11 | 12 |
-| [multiformats/java-multibase](https://github.com/multiformats/java-multibase) | 41 | 2026-03-24T14:03:07Z | Java | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -72,6 +72,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kurrent-io/KurrentDB-Client-Java](https://github.com/kurrent-io/KurrentDB-Client-Java) | 71 | 2026-04-14T06:24:15Z | Java | CLI | 14 | 6 | 14 | 14 |
 | [bobbylight/RSTALanguageSupport](https://github.com/bobbylight/RSTALanguageSupport) | 70 | 2026-03-30T10:47:38Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [apache/flink-connector-pulsar](https://github.com/apache/flink-connector-pulsar) | 67 | 2026-04-14T00:22:27Z | Java | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [bufbuild/protovalidate-java](https://github.com/bufbuild/protovalidate-java) | 63 | 2026-04-23T20:00:36Z | Java | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [googleapis/discovery-artifact-manager](https://github.com/googleapis/discovery-artifact-manager) | 59 | 2026-04-23T18:11:06Z | Java | CLI | 3 | 4 | 3 | 3 |
 | [zai-org/z-ai-sdk-java](https://github.com/zai-org/z-ai-sdk-java) | 56 | 2026-04-08T02:45:06Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [bazel-contrib/rules_jvm](https://github.com/bazel-contrib/rules_jvm) | 53 | 2026-04-20T14:25:59Z | Java | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [enola-dev/enola](https://github.com/enola-dev/enola) | 53 | 2026-03-25T20:40:13Z | Java | Infrastructure/tooling | 10 | 20 | 10 | 10 |
@@ -79,7 +81,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [codetyio/codety-scanner](https://github.com/codetyio/codety-scanner) | 50 | 2026-04-09T14:16:53Z | Java | Infrastructure/tooling | 7 | 2 | 7 | 8 |
 | [bobbylight/SpellChecker](https://github.com/bobbylight/SpellChecker) | 45 | 2026-03-30T17:07:51Z | Java | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [yawkat/lz4-java](https://github.com/yawkat/lz4-java) | 43 | 2026-04-22T08:08:18Z | Java | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [multiformats/java-multibase](https://github.com/multiformats/java-multibase) | 41 | 2026-03-24T14:03:07Z | Java | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [akarnokd/RxJavaFiberInterop](https://github.com/akarnokd/RxJavaFiberInterop) | 40 | 2026-03-26T08:31:13Z | Java | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [agentclientprotocol/java-sdk](https://github.com/agentclientprotocol/java-sdk) | 39 | 2026-04-21T18:22:58Z | Java | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [codelibs/fess-crawler](https://github.com/codelibs/fess-crawler) | 36 | 2026-04-19T10:37:09Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -92,6 +93,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dart4e/dart4e](https://github.com/dart4e/dart4e) | 16 | 2026-04-01T16:12:10Z | Java | CLI | 9 | 5 | 9 | 9 |
 | [bsorrentino/java-async-generator](https://github.com/bsorrentino/java-async-generator) | 15 | 2026-04-21T22:06:31Z | Java | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [smithy-lang/smithy-dafny](https://github.com/smithy-lang/smithy-dafny) | 15 | 2026-03-30T19:48:10Z | Java | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [filip26/iridium-cbor-ld](https://github.com/filip26/iridium-cbor-ld) | 13 | 2026-03-24T18:40:07Z | Java | Infrastructure/tooling | 10 | 3 | 11 | 12 |
 | [simonpoole/OpeningHoursFragment](https://github.com/simonpoole/OpeningHoursFragment) | 10 | 2026-04-20T14:48:48Z | Java | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [apache/datasketches-pig](https://github.com/apache/datasketches-pig) | 10 | 2026-03-28T19:49:59Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |

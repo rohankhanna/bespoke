@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3708,
-    "concepts": 719,
-    "observations": 719,
-    "repos": 136,
-    "terms": 780
+    "components": 3984,
+    "concepts": 770,
+    "observations": 770,
+    "repos": 143,
+    "terms": 831
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -71,6 +71,7 @@
     "google/adk-web",
     "GoogleCloudPlatform/wombat-dressing-room",
     "graalvm/setup-graalvm",
+    "graphprotocol/graph-client",
     "grubersjoe/github-contributions-api",
     "grubersjoe/react-activity-calendar",
     "grubersjoe/react-github-calendar",
@@ -85,8 +86,8 @@
     "jupyterlab/extension-examples",
     "k-dense-ai/k-dense-byok",
     "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
+    "Kong/kong-manager",
     "krassowski/jupyterlab-lsp",
-    "kylebarron/arrow-js-ffi",
     "kysely-org/kysely-ctl",
     "latex-lsp/texlab-vscode",
     "lerna-lite/lerna-lite",
@@ -102,6 +103,7 @@
     "matepek/vscode-catch2-test-adapter",
     "MattiasBuelens/web-streams-polyfill",
     "microsoft/DefinitelyTyped-tools",
+    "microsoft/playwright-vscode",
     "microsoft/react-native-gallery",
     "microsoft/TypeScript-DOM-lib-generator",
     "microsoft/vscode-css-languageservice",
@@ -117,7 +119,9 @@
     "NVIDIA/OpenShell-Community",
     "nyatinte/ccexp",
     "Obsidian-TTRPG-Community/initiative-tracker",
+    "octokit/auth-token.js",
     "octokit/plugin-rest-endpoint-methods.js",
+    "octokit/request.js",
     "octokit/webhooks",
     "octokit/webhooks.js",
     "OffchainLabs/arbitrum-sdk",
@@ -128,6 +132,7 @@
     "ory/hydra-login-consent-node",
     "ory/kratos-selfservice-ui-node",
     "PanAeon/vscode-tmgrammar-test",
+    "redhat-developer/vscode-xml",
     "retracedhq/retraced",
     "ruvnet/agentic-flow",
     "safe-global/safe-deployments",
@@ -142,6 +147,8 @@
     "storybookjs/test-runner",
     "strands-agents/sdk-typescript",
     "sveltejs/eslint-plugin-svelte",
+    "sveltejs/svelte-eslint-parser",
+    "TabbyML/pochi",
     "timkindberg/jest-when",
     "tombii/better-ccflare",
     "tony1223/better-agent-terminal",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 105,
-    "observations": 106,
-    "repos": 10,
-    "terms": 105
+    "components": 85,
+    "concepts": 116,
+    "observations": 117,
+    "repos": 13,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
+    "googleapis/google-api-php-client",
     "hacl-star/hacl-star",
+    "jothepro/doxygen-awesome-css",
     "JuliaAI/MLJ.jl",
     "lambdalisue/vim-fern",
     "lightning/bolts",
+    "litedb-org/LiteDB",
     "mono/SkiaSharp",
     "nvim-tree/nvim-web-devicons",
     "openai/openai-dotnet",

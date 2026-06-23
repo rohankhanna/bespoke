@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 86
+- repos: 28
+- terms: 87
 - components: 28
-- concepts: 87
-- observations: 87
+- concepts: 88
+- observations: 88
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [WebAssembly/proposals](https://github.com/WebAssembly/proposals) | 1124 | 2026-03-24T18:25:27Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [microsoft/vscode-ai-toolkit](https://github.com/microsoft/vscode-ai-toolkit) | 1958 | 2026-03-24T08:24:41Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [devcontainers/spec](https://github.com/devcontainers/spec) | 5368 | 2026-03-20T11:13:13Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [lxgw/LxgwWenKai-Screen](https://github.com/lxgw/LxgwWenKai-Screen) | 1956 | 2026-03-18T16:41:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -83,5 +84,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [orogene/orogene](https://github.com/orogene/orogene) | 1542 | 2026-02-26T03:53:25Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [syntax-tree/mdast](https://github.com/syntax-tree/mdast) | 1419 | 2026-02-04T18:45:51Z | Unknown | Infrastructure/tooling | 3 | 5 | 4 | 4 |
 | [sindresorhus/ponyfill](https://github.com/sindresorhus/ponyfill) | 1275 | 2026-02-01T15:17:01Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [WebAssembly/proposals](https://github.com/WebAssembly/proposals) | 1124 | 2026-03-24T18:25:27Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [uBlockOrigin/uBlock-issues](https://github.com/uBlockOrigin/uBlock-issues) | 1123 | 2026-02-09T23:25:33Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [CLUEbenchmark/CLUECorpus2020](https://github.com/CLUEbenchmark/CLUECorpus2020) | 1005 | 2026-02-06T11:43:34Z | Unknown | Unknown | 8 | 0 | 8 | 8 |

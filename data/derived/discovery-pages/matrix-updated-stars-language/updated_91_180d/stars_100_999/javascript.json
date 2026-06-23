@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 893,
-    "concepts": 162,
-    "observations": 163,
-    "repos": 53,
-    "terms": 161
+    "components": 931,
+    "concepts": 197,
+    "observations": 198,
+    "repos": 56,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
+    "AghayeCoder/tx-ui",
+    "ankane/ahoy.js",
     "appbaseio/searchbox",
     "asdf-vm/actions",
     "AssemblyScript/wabt.js",
@@ -45,6 +47,8 @@
     "mourner/robust-predicates",
     "nodenv/jetbrains-npm",
     "npm/abbrev-js",
+    "npm/rfcs",
+    "oblador/react-native-vector-image",
     "omnidan/redux-ignore",
     "omnidan/redux-recycle",
     "omnidan/redux-undo-boilerplate",
@@ -56,7 +60,6 @@
     "RJWadley/stylelint-no-unsupported-browser-features",
     "rstudio/DT",
     "runegan/jsxbin",
-    "scripting/reallysimple",
     "sindresorhus/env-paths",
     "sindresorhus/multimatch",
     "stsquad/emacs_chrome",

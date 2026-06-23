@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 5
-- components: 0
-- concepts: 5
-- observations: 5
+- terms: 7
+- components: 14
+- concepts: 7
+- observations: 7
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Archerkattri/hicache-plus-plus](https://github.com/Archerkattri/hicache-plus-plus) | 8 | 2026-06-15T13:19:03Z | Python | Unknown | 5 | 0 | 5 | 5 |
+| [OpenHands/automation](https://github.com/OpenHands/automation) | 4 | 2026-06-22T01:47:30Z | Python | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Archerkattri/hicache-plus-plus](https://github.com/Archerkattri/hicache-plus-plus) | 8 | 2026-06-15T13:19:03Z | Python | Unknown | 5 | 0 | 5 | 5 |
+| [OpenHands/automation](https://github.com/OpenHands/automation) | 4 | 2026-06-22T01:47:30Z | Python | Infrastructure/tooling | 7 | 14 | 7 | 7 |

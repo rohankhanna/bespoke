@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 398,
-    "concepts": 108,
-    "observations": 109,
-    "repos": 11,
-    "terms": 108
+    "components": 407,
+    "concepts": 112,
+    "observations": 113,
+    "repos": 12,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "AndyMik90/Aperant",
@@ -23,6 +23,7 @@
     "gitleaks/gitleaks",
     "Lightning-AI/pytorch-lightning",
     "nvm-sh/nvm",
-    "preactjs/preact"
+    "preactjs/preact",
+    "realworld-apps/realworld"
   ]
 }

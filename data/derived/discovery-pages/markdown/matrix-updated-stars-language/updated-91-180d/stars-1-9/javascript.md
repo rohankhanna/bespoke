@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 24
-- terms: 71
-- components: 191
-- concepts: 71
-- observations: 71
+- repos: 26
+- terms: 81
+- components: 197
+- concepts: 81
+- observations: 81
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [agent-sh/ship](https://github.com/agent-sh/ship) | 2 | 2026-03-25T00:15:01Z | JavaScript | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [brody2consult/react-native-init-func](https://github.com/brody2consult/react-native-init-func) | 1 | 2026-03-24T18:12:30Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [agent-sh/deslop](https://github.com/agent-sh/deslop) | 3 | 2026-03-23T02:31:44Z | JavaScript | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [fishballapp/inquirer-cli](https://github.com/fishballapp/inquirer-cli) | 3 | 2026-03-22T09:14:37Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [actions-cool/test-issues-helper](https://github.com/actions-cool/test-issues-helper) | 1 | 2026-03-20T09:39:28Z | JavaScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
@@ -68,8 +70,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heshengtao/desktop-for-sap](https://github.com/heshengtao/desktop-for-sap) | 3 | 2026-03-02T10:50:21Z | JavaScript | CLI | 1 | 9 | 1 | 1 |
 | [0xPolygonHermez/pil2-compiler](https://github.com/0xPolygonHermez/pil2-compiler) | 3 | 2026-02-25T09:44:02Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [qiuyu96/CoDeF](https://github.com/qiuyu96/CoDeF) | 3 | 2026-01-28T17:09:30Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [agent-sh/ship](https://github.com/agent-sh/ship) | 2 | 2026-03-25T00:15:01Z | JavaScript | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [alexpolonsky/agent-skill-maccabi-pharm-search](https://github.com/alexpolonsky/agent-skill-maccabi-pharm-search) | 2 | 2026-02-21T10:35:04Z | JavaScript | Unknown | 10 | 0 | 10 | 10 |
 | [lukasz-wronski/Antigravity-Shit-Chat](https://github.com/lukasz-wronski/Antigravity-Shit-Chat) | 2 | 2026-01-17T07:34:52Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
+| [brody2consult/react-native-init-func](https://github.com/brody2consult/react-native-init-func) | 1 | 2026-03-24T18:12:30Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [actions-cool/test-issues-helper](https://github.com/actions-cool/test-issues-helper) | 1 | 2026-03-20T09:39:28Z | JavaScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [hchiam/react-jexcel-redux](https://github.com/hchiam/react-jexcel-redux) | 1 | 2026-02-13T19:20:22Z | JavaScript | Unknown | 0 | 21 | 0 | 0 |
 | [hchiam/chat-app-fcc-react-redux](https://github.com/hchiam/chat-app-fcc-react-redux) | 1 | 2026-02-13T18:08:23Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

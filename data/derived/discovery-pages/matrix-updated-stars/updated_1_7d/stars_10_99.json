@@ -1,33 +1,32 @@
 {
   "counts": {
-    "components": 295,
-    "concepts": 137,
-    "observations": 137,
-    "repos": 23,
-    "terms": 137
+    "components": 276,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 22,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "andfoy/winpty-rs",
     "apostrophecms/starter-kit-astro-apollo",
     "asdf-community/asdf-pdm",
-    "cloudfoundry/credhub-cli",
-    "corgi-emacs/corgi-packages",
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "edge-classic/EDGE-classic",
     "honwen/openwrt-dnsmasq-extra",
+    "intel-staging/text-generation-webui",
+    "Jaded-Encoding-Thaumaturgy/vs-jetpack",
     "karafka/example-apps",
     "kurrent-io/KurrentDB-Client-Rust",
     "lhj5426/X-AnyLabeling",
     "lumen-oss/luarocks-tag-release",
-    "mesh-iit/cad-libraries",
     "mongodb/winkerberos",
     "mozilla-ai/otari",
-    "nuxt-modules/emotion",
+    "nvim-mini/mini.deps",
     "ogx-ai/ogx-client-typescript",
     "pivotal/credhub-release",
     "processing/processing-website",

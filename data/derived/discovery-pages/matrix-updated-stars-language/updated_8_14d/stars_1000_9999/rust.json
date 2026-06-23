@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 8,
-    "observations": 8,
+    "components": 23,
+    "concepts": 9,
+    "observations": 9,
     "repos": 1,
-    "terms": 8
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
-    "godot-rust/gdext"
+    "crate-ci/cargo-release"
   ]
 }

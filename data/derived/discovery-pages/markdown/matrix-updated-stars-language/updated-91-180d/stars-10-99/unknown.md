@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 46
-- terms: 88
-- components: 51
-- concepts: 83
-- observations: 83
+- repos: 47
+- terms: 95
+- components: 52
+- concepts: 90
+- observations: 90
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [grpc/grpc-community](https://github.com/grpc/grpc-community) | 65 | 2026-03-24T22:35:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [ithiria894/awesome-claude-code-hooks](https://github.com/ithiria894/awesome-claude-code-hooks) | 11 | 2026-03-24T21:08:05Z | Unknown | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [getsentry/.github](https://github.com/getsentry/.github) | 23 | 2026-03-24T06:46:32Z | Unknown | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [opencontainers/tob](https://github.com/opencontainers/tob) | 90 | 2026-03-23T20:33:56Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [CommunitySpecification/Community_Specification](https://github.com/CommunitySpecification/Community_Specification) | 77 | 2026-03-23T15:51:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -71,7 +73,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JaeZ1205/PS_NBI2k](https://github.com/JaeZ1205/PS_NBI2k) | 12 | 2025-12-31T12:26:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [json-schema-org/.github](https://github.com/json-schema-org/.github) | 12 | 2025-12-27T15:04:22Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [Adlik/model_zoo](https://github.com/Adlik/model_zoo) | 11 | 2025-12-26T01:36:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [getlantern/lantern-forum-cn](https://github.com/getlantern/lantern-forum-cn) | 22 | 2025-12-24T15:48:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -86,6 +87,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CommunitySpecification/Community_Specification](https://github.com/CommunitySpecification/Community_Specification) | 77 | 2026-03-23T15:51:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nushell/showcase](https://github.com/nushell/showcase) | 75 | 2026-03-07T12:45:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [hicchicc/x8y12pxDenkiChip](https://github.com/hicchicc/x8y12pxDenkiChip) | 75 | 2026-02-20T05:51:02Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [grpc/grpc-community](https://github.com/grpc/grpc-community) | 65 | 2026-03-24T22:35:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [chaiNNer-org/chaiNNer-nightly](https://github.com/chaiNNer-org/chaiNNer-nightly) | 61 | 2026-02-23T23:35:28Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [marko-js/examples](https://github.com/marko-js/examples) | 58 | 2026-03-15T03:32:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [1ilkhamov/opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) | 53 | 2025-12-31T14:58:10Z | Unknown | Unknown | 0 | 3 | 0 | 0 |
@@ -109,7 +111,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [automazeio/open-royalties](https://github.com/automazeio/open-royalties) | 23 | 2026-01-16T12:22:54Z | Unknown | Framework | 0 | 0 | 0 | 0 |
 | [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [stephenschoettler/taches-oc-prompts](https://github.com/stephenschoettler/taches-oc-prompts) | 22 | 2026-01-14T04:58:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [getlantern/lantern-forum-cn](https://github.com/getlantern/lantern-forum-cn) | 22 | 2025-12-24T15:48:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [robotology/mesh-support](https://github.com/robotology/mesh-support) | 21 | 2026-03-07T16:47:58Z | Unknown | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cta-wave/WMAS](https://github.com/cta-wave/WMAS) | 20 | 2026-03-18T13:07:02Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [hchiam/learning](https://github.com/hchiam/learning) | 19 | 2026-02-14T04:35:44Z | Unknown | Unknown | 15 | 0 | 15 | 15 |
@@ -120,6 +121,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aquasecurity/setup-trivy](https://github.com/aquasecurity/setup-trivy) | 12 | 2026-03-19T22:27:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JaeZ1205/PS_NBI2k](https://github.com/JaeZ1205/PS_NBI2k) | 12 | 2025-12-31T12:26:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [json-schema-org/.github](https://github.com/json-schema-org/.github) | 12 | 2025-12-27T15:04:22Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [ithiria894/awesome-claude-code-hooks](https://github.com/ithiria894/awesome-claude-code-hooks) | 11 | 2026-03-24T21:08:05Z | Unknown | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [Adlik/model_zoo](https://github.com/Adlik/model_zoo) | 11 | 2025-12-26T01:36:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datajuicer/data-juicer-hub](https://github.com/datajuicer/data-juicer-hub) | 10 | 2026-02-12T09:46:27Z | Unknown | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cloudrepo-io/founder-os](https://github.com/cloudrepo-io/founder-os) | 10 | 2026-02-05T21:57:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

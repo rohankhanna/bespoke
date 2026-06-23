@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 551,
-    "concepts": 70,
-    "observations": 71,
-    "repos": 14,
-    "terms": 70
+    "components": 436,
+    "concepts": 64,
+    "observations": 65,
+    "repos": 11,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
-    "ai-that-works/ai-that-works",
     "apollographql/apollo-tooling",
     "benchmark-action/github-action-benchmark",
-    "ebullient/obsidian-admonition",
-    "electron/rebuild",
     "flightcontrolhq/superjson",
     "google-gemini/live-api-web-console",
     "graphql-hive/graphql-inspector",
-    "microsoft/vscode-js-debug",
     "react-native-webview/react-native-webview",
     "TanStack/form",
+    "typescript-language-server/typescript-language-server",
     "vercel/serve",
     "vuejs/devtools",
     "vuejs/language-tools"

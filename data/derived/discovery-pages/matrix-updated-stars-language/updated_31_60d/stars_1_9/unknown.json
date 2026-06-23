@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 52,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 38,
-    "terms": 42
+    "concepts": 39,
+    "observations": 39,
+    "repos": 35,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
-    "AlmaLinux/osv-database",
     "angular/angular-devkit-build-webpack-builds",
     "calda/SwiftFormat-nightly",
     "Cebeerre/dnsblocklists",
@@ -23,7 +22,6 @@
     "conda-forge/python-build-feedstock",
     "csm-actions/demo-server",
     "danielrosehill/Claude-Content-Writing-Plugin",
-    "danielrosehill/Claude-Data-Analyst-plugin",
     "danielrosehill/Claude-Desktop-Manager-Plugin",
     "danielrosehill/Claude-Ideation-Planning-Plugin",
     "danielrosehill/Claude-Image-Production-Plugin",
@@ -42,7 +40,6 @@
     "HKUDS/.github",
     "hybridgroup/llama-cpp-builder",
     "jku/tuf-demo",
-    "oobabooga/screenshots",
     "OpenSC/Nightly",
     "pot-app/.github",
     "puppetlabs/.github",

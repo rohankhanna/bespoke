@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 47,
-    "terms": 104
+    "components": 116,
+    "concepts": 127,
+    "observations": 128,
+    "repos": 50,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -22,6 +22,7 @@
     "BAI-LAB/Survey-on-AI-Memory",
     "bleichenbacher-daniel/Rooterberg",
     "bmad-code-org/bmad-plugins-marketplace",
+    "canonical/ubuntu-security-notices",
     "cdxeve/awesome-computer-use-agents",
     "cedar-policy/cedar-docs",
     "charmbracelet/scoop-bucket",
@@ -29,6 +30,7 @@
     "containerd/project",
     "crewAIInc/skills",
     "Dexters-Hub/Dexters-Hub",
+    "docker/github-builder",
     "dragonflyoss/community",
     "eigenfoundation/elips",
     "flinedev/plankit",
@@ -36,11 +38,9 @@
     "GDevelopApp/GDevelop-community-list",
     "goharbor/community",
     "google/oss-policies-info",
-    "grpc/grpc-community",
     "Homebrew/.github",
     "ipshipyard/dnslink-action",
     "ipshipyard/ipfs-deploy-action",
-    "ithiria894/awesome-claude-code-hooks",
     "jakoch/rasterizers",
     "jakoch/vulkan-sdk-arm",
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
@@ -52,9 +52,12 @@
     "operator-framework/community",
     "pre-commit/mirrors-eslint",
     "qemus/virtiso-whql",
+    "quarkiverse/quarkiverse-docs",
     "rstackjs/rstack-design-resources",
     "SeleniumHQ/selenium_manager_artifacts",
+    "sigstore/community",
     "simonw/simonwillisonblog-backup",
+    "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
     "tc39/proposal-duplicate-named-capturing-groups",
     "uxlfoundation/open-source-working-group",

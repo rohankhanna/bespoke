@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 148
-- terms: 758
-- components: 655
-- concepts: 755
-- observations: 760
+- repos: 151
+- terms: 791
+- components: 680
+- concepts: 789
+- observations: 794
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kepano/obsidian-minimal](https://github.com/kepano/obsidian-minimal) | 5016 | 2026-03-25T02:07:57Z | Other | Unknown | 7 | 9 | 7 | 7 |
+| [gpuweb/gpuweb](https://github.com/gpuweb/gpuweb) | 5380 | 2026-03-24T21:32:20Z | Other | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) | 7975 | 2026-03-24T15:25:11Z | Other | Infrastructure/tooling | 18 | 5 | 19 | 19 |
 | [awaescher/OllamaSharp](https://github.com/awaescher/OllamaSharp) | 1352 | 2026-03-24T08:31:40Z | Other | CLI | 10 | 9 | 10 | 10 |
 | [Intellindust-AI-Lab/DEIMv2](https://github.com/Intellindust-AI-Lab/DEIMv2) | 1733 | 2026-03-24T02:12:14Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [ptsochantaris/trailer](https://github.com/ptsochantaris/trailer) | 1210 | 2026-03-22T22:03:53Z | Other | Unknown | 8 | 0 | 8 | 8 |
@@ -190,6 +193,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sindresorhus/Gifski](https://github.com/sindresorhus/Gifski) | 8365 | 2026-01-07T16:59:26Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [omniauth/omniauth](https://github.com/omniauth/omniauth) | 8068 | 2026-02-27T14:56:33Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 7 |
 | [krzysztofzablocki/Sourcery](https://github.com/krzysztofzablocki/Sourcery) | 7984 | 2026-02-11T11:16:30Z | Other | Infrastructure/tooling | 13 | 11 | 13 | 13 |
+| [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) | 7975 | 2026-03-24T15:25:11Z | Other | Infrastructure/tooling | 18 | 5 | 19 | 19 |
 | [puppetlabs/puppet](https://github.com/puppetlabs/puppet) | 7845 | 2026-03-16T11:58:10Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [bencodezen/vue-enterprise-boilerplate](https://github.com/bencodezen/vue-enterprise-boilerplate) | 7782 | 2026-01-26T23:39:47Z | Other | CLI | 2 | 28 | 2 | 2 |
 | [folke/snacks.nvim](https://github.com/folke/snacks.nvim) | 7478 | 2026-03-21T09:05:56Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
@@ -204,12 +208,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [black7375/Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix) | 5810 | 2026-02-06T00:06:12Z | Other | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [salesforce/BLIP](https://github.com/salesforce/BLIP) | 5698 | 2026-03-03T12:43:12Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization) | 5520 | 2026-02-23T15:56:59Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [gpuweb/gpuweb](https://github.com/gpuweb/gpuweb) | 5380 | 2026-03-24T21:32:20Z | Other | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [rrousselGit/provider](https://github.com/rrousselGit/provider) | 5264 | 2026-03-10T14:53:05Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [rspec/rspec-rails](https://github.com/rspec/rspec-rails) | 5256 | 2026-03-11T09:13:00Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [formtastic/formtastic](https://github.com/formtastic/formtastic) | 5205 | 2026-02-28T05:30:10Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [google/gumbo-parser](https://github.com/google/gumbo-parser) | 5189 | 2026-01-21T17:17:17Z | Other | Library | 0 | 0 | 0 | 0 |
 | [athityakumar/colorls](https://github.com/athityakumar/colorls) | 5112 | 2026-03-20T06:59:36Z | Other | CLI | 6 | 3 | 6 | 7 |
 | [Deci-AI/super-gradients](https://github.com/Deci-AI/super-gradients) | 5026 | 2026-02-24T12:31:01Z | Other | Infrastructure/tooling | 6 | 6 | 6 | 6 |
+| [kepano/obsidian-minimal](https://github.com/kepano/obsidian-minimal) | 5016 | 2026-03-25T02:07:57Z | Other | Unknown | 7 | 9 | 7 | 7 |
 | [facebookresearch/co-tracker](https://github.com/facebookresearch/co-tracker) | 4925 | 2026-03-03T21:51:22Z | Other | Model/data | 3 | 0 | 3 | 3 |
 | [opal/opal](https://github.com/opal/opal) | 4914 | 2026-03-18T22:22:36Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [reagent-project/reagent](https://github.com/reagent-project/reagent) | 4863 | 2026-01-23T13:16:19Z | Other | Infrastructure/tooling | 7 | 22 | 7 | 7 |

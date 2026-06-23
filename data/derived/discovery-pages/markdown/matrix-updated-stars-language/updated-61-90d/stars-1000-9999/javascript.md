@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 99
-- terms: 614
-- components: 2900
-- concepts: 616
-- observations: 616
+- repos: 101
+- terms: 647
+- components: 3014
+- concepts: 650
+- observations: 650
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ipfs/ipfs-desktop](https://github.com/ipfs/ipfs-desktop) | 6525 | 2026-04-24T00:23:14Z | JavaScript | Infrastructure/tooling | 15 | 54 | 15 | 15 |
+| [expressjs/body-parser](https://github.com/expressjs/body-parser) | 5501 | 2026-04-23T23:40:39Z | JavaScript | Infrastructure/tooling | 8 | 29 | 9 | 9 |
+| [conventional-changelog/standard-version](https://github.com/conventional-changelog/standard-version) | 7963 | 2026-04-23T15:39:15Z | JavaScript | CLI | 10 | 31 | 10 | 10 |
 | [americanexpress/jest-image-snapshot](https://github.com/americanexpress/jest-image-snapshot) | 3909 | 2026-04-23T11:04:01Z | JavaScript | Infrastructure/tooling | 13 | 26 | 13 | 13 |
 | [minio/minio-js](https://github.com/minio/minio-js) | 1135 | 2026-04-23T07:18:08Z | JavaScript | CLI | 6 | 60 | 6 | 6 |
 | [apache/cordova-ios](https://github.com/apache/cordova-ios) | 2215 | 2026-04-23T05:13:16Z | JavaScript | Infrastructure/tooling | 10 | 27 | 10 | 10 |
@@ -80,7 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gatsbyjs/gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog) | 3515 | 2026-04-15T12:34:37Z | JavaScript | Template/starter | 0 | 17 | 0 | 0 |
 | [webpack/sass-loader](https://github.com/webpack/sass-loader) | 3893 | 2026-04-15T11:37:33Z | JavaScript | Infrastructure/tooling | 9 | 55 | 9 | 9 |
 | [GoogleChromeLabs/browser-fs-access](https://github.com/GoogleChromeLabs/browser-fs-access) | 1564 | 2026-04-15T11:13:02Z | JavaScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [codemirror/dev](https://github.com/codemirror/dev) | 7821 | 2026-04-15T10:24:43Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
+| [codemirror/dev](https://github.com/codemirror/dev) | 7820 | 2026-04-15T10:24:43Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [webtorrent/webtorrent-cli](https://github.com/webtorrent/webtorrent-cli) | 1340 | 2026-04-14T22:15:43Z | JavaScript | CLI | 7 | 28 | 7 | 7 |
 | [GoogleChromeLabs/ProjectVisBug](https://github.com/GoogleChromeLabs/ProjectVisBug) | 5726 | 2026-04-14T01:18:27Z | JavaScript | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [mapbox/maki](https://github.com/mapbox/maki) | 1567 | 2026-04-13T23:02:51Z | JavaScript | Unknown | 3 | 11 | 3 | 3 |
@@ -124,7 +127,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webpack/mini-css-extract-plugin](https://github.com/webpack/mini-css-extract-plugin) | 4662 | 2026-03-26T12:25:31Z | JavaScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [kangax/html-minifier](https://github.com/kangax/html-minifier) | 5058 | 2026-03-26T11:35:43Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [babel/babel-loader](https://github.com/babel/babel-loader) | 4840 | 2026-03-25T22:10:23Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
-| [Adobe-CEP/Samples](https://github.com/Adobe-CEP/Samples) | 1076 | 2026-03-24T16:09:31Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -140,7 +142,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [piebald-ai/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) | 9112 | 2026-04-17T23:32:30Z | JavaScript | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [GoogleChrome/web-vitals](https://github.com/GoogleChrome/web-vitals) | 8483 | 2026-04-23T04:57:37Z | JavaScript | Infrastructure/tooling | 2 | 21 | 2 | 2 |
 | [grommet/grommet](https://github.com/grommet/grommet) | 8355 | 2026-04-22T15:23:34Z | JavaScript | Framework | 7 | 95 | 7 | 7 |
-| [codemirror/dev](https://github.com/codemirror/dev) | 7821 | 2026-04-15T10:24:43Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
+| [conventional-changelog/standard-version](https://github.com/conventional-changelog/standard-version) | 7963 | 2026-04-23T15:39:15Z | JavaScript | CLI | 10 | 31 | 10 | 10 |
+| [codemirror/dev](https://github.com/codemirror/dev) | 7820 | 2026-04-15T10:24:43Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [hotoo/pinyin](https://github.com/hotoo/pinyin) | 7811 | 2026-04-09T15:33:21Z | JavaScript | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) | 7809 | 2026-04-02T06:27:19Z | JavaScript | CLI | 1 | 0 | 0 | 0 |
 | [sindresorhus/np](https://github.com/sindresorhus/np) | 7698 | 2026-04-20T12:11:49Z | JavaScript | CLI | 6 | 50 | 6 | 6 |
@@ -153,6 +156,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ai/size-limit](https://github.com/ai/size-limit) | 6905 | 2026-04-13T19:45:44Z | JavaScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
 | [brunch/brunch](https://github.com/brunch/brunch) | 6758 | 2026-04-19T14:13:39Z | JavaScript | Web app | 4 | 27 | 4 | 4 |
 | [dooy/chatgpt-web-midjourney-proxy](https://github.com/Dooy/chatgpt-web-midjourney-proxy) | 6655 | 2026-03-28T11:40:44Z | JavaScript | Infrastructure/tooling | 18 | 62 | 18 | 18 |
+| [ipfs/ipfs-desktop](https://github.com/ipfs/ipfs-desktop) | 6525 | 2026-04-24T00:23:14Z | JavaScript | Infrastructure/tooling | 15 | 54 | 15 | 15 |
 | [RichardLitt/standard-readme](https://github.com/RichardLitt/standard-readme) | 6291 | 2026-04-10T03:26:11Z | JavaScript | Unknown | 5 | 2 | 5 | 5 |
 | [DavidAnson/markdownlint](https://github.com/DavidAnson/markdownlint) | 6021 | 2026-04-20T02:23:53Z | JavaScript | Infrastructure/tooling | 7 | 44 | 8 | 8 |
 | [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5959 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -161,6 +165,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BrowserWorks/waterfox](https://github.com/BrowserWorks/waterfox) | 5742 | 2026-04-21T23:11:39Z | JavaScript | Infrastructure/tooling | 10 | 33 | 10 | 10 |
 | [fengyuanchen/compressorjs](https://github.com/fengyuanchen/compressorjs) | 5739 | 2026-04-06T09:58:13Z | JavaScript | Infrastructure/tooling | 5 | 41 | 5 | 5 |
 | [GoogleChromeLabs/ProjectVisBug](https://github.com/GoogleChromeLabs/ProjectVisBug) | 5726 | 2026-04-14T01:18:27Z | JavaScript | Infrastructure/tooling | 7 | 30 | 7 | 7 |
+| [expressjs/body-parser](https://github.com/expressjs/body-parser) | 5501 | 2026-04-23T23:40:39Z | JavaScript | Infrastructure/tooling | 8 | 29 | 9 | 9 |
 | [npm/node-semver](https://github.com/npm/node-semver) | 5419 | 2026-04-16T17:02:20Z | JavaScript | CLI | 8 | 13 | 8 | 8 |
 | [kangax/html-minifier](https://github.com/kangax/html-minifier) | 5058 | 2026-03-26T11:35:43Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [json-schema-org/json-schema-spec](https://github.com/json-schema-org/json-schema-spec) | 4944 | 2026-04-22T18:02:10Z | JavaScript | Infrastructure/tooling | 5 | 25 | 7 | 7 |
@@ -225,7 +230,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [minio/minio-js](https://github.com/minio/minio-js) | 1135 | 2026-04-23T07:18:08Z | JavaScript | CLI | 6 | 60 | 6 | 6 |
 | [ethereum/devp2p](https://github.com/ethereum/devp2p) | 1114 | 2026-03-30T13:14:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [istanbuljs/istanbuljs](https://github.com/istanbuljs/istanbuljs) | 1096 | 2026-04-09T17:48:19Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
-| [Adobe-CEP/Samples](https://github.com/Adobe-CEP/Samples) | 1076 | 2026-03-24T16:09:31Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [serverless-operations/serverless-step-functions](https://github.com/serverless-operations/serverless-step-functions) | 1045 | 2026-04-17T11:50:47Z | JavaScript | Infrastructure/tooling | 7 | 26 | 7 | 7 |
 | [igorshubovych/markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) | 1045 | 2026-04-13T19:28:14Z | JavaScript | CLI | 1 | 23 | 2 | 2 |
 | [newrelic/node-newrelic](https://github.com/newrelic/node-newrelic) | 1000 | 2026-04-22T17:28:31Z | JavaScript | Infrastructure/tooling | 7 | 79 | 7 | 7 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 29
-- terms: 105
-- components: 56
-- concepts: 105
-- observations: 105
+- terms: 109
+- components: 67
+- concepts: 109
+- observations: 109
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CVEProject/cvelistV5](https://github.com/CVEProject/cvelistV5) | 2611 | 2026-04-23T21:53:25Z | Unknown | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [dotnet/docs](https://github.com/dotnet/docs) | 4671 | 2026-04-23T04:03:19Z | Unknown | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [aws-controllers-k8s/community](https://github.com/aws-controllers-k8s/community) | 2625 | 2026-04-23T00:01:41Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [rustsec/advisory-db](https://github.com/rustsec/advisory-db) | 1103 | 2026-04-22T19:53:50Z | Unknown | Infrastructure/tooling | 10 | 3 | 10 | 10 |
@@ -54,7 +55,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [behisecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) | 8594 | 2026-04-01T08:24:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bbatsov/emacs-lisp-style-guide](https://github.com/bbatsov/emacs-lisp-style-guide) | 1129 | 2026-03-31T12:31:44Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [FunnyWolf/Viper](https://github.com/FunnyWolf/Viper) | 5029 | 2026-03-31T10:39:39Z | Unknown | Unknown | 7 | 13 | 7 | 7 |
-| [WebAssembly/proposals](https://github.com/WebAssembly/proposals) | 1124 | 2026-03-24T18:25:27Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -75,6 +75,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [QwenLM/Qwen3.6](https://github.com/QwenLM/Qwen3.6) | 3222 | 2026-04-22T13:00:00Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [libp2p/libp2p](https://github.com/libp2p/libp2p) | 3026 | 2026-04-11T11:19:19Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [aws-controllers-k8s/community](https://github.com/aws-controllers-k8s/community) | 2625 | 2026-04-23T00:01:41Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [CVEProject/cvelistV5](https://github.com/CVEProject/cvelistV5) | 2611 | 2026-04-23T21:53:25Z | Unknown | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [mapbox/awesome-vector-tiles](https://github.com/mapbox/awesome-vector-tiles) | 2596 | 2026-04-22T19:23:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) | 2294 | 2026-04-16T17:23:01Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [rust-embedded/wg](https://github.com/rust-embedded/wg) | 2122 | 2026-04-21T19:12:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -86,6 +87,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flathub/flathub](https://github.com/flathub/flathub) | 1432 | 2026-04-22T12:55:34Z | Unknown | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [skills-directory/skill-codex](https://github.com/skills-directory/skill-codex) | 1170 | 2026-04-10T08:15:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bbatsov/emacs-lisp-style-guide](https://github.com/bbatsov/emacs-lisp-style-guide) | 1129 | 2026-03-31T12:31:44Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
-| [WebAssembly/proposals](https://github.com/WebAssembly/proposals) | 1124 | 2026-03-24T18:25:27Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [rustsec/advisory-db](https://github.com/rustsec/advisory-db) | 1103 | 2026-04-22T19:53:50Z | Unknown | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [tmstack/awesome-persona-skills](https://github.com/tmstack/awesome-persona-skills) | 1102 | 2026-04-15T11:43:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

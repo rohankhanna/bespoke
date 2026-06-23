@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 127
-- components: 182
-- concepts: 127
-- observations: 128
+- repos: 28
+- terms: 119
+- components: 172
+- concepts: 120
+- observations: 121
 
 ## Static behavior
 
@@ -27,7 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [influxdata/arrow-datafusion](https://github.com/influxdata/arrow-datafusion) | 1 | 2026-05-06T09:55:52Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
-| [tirithen/clipper2c-sys](https://github.com/tirithen/clipper2c-sys) | 2 | 2026-05-05T21:40:06Z | Rust | CLI | 13 | 4 | 13 | 13 |
+| [tirithen/clipper2c-sys](https://github.com/tirithen/clipper2c-sys) | 2 | 2026-05-05T21:40:06Z | Rust | CLI | 12 | 4 | 13 | 13 |
 | [open-telemetry/opentelemetry-weaver-examples](https://github.com/open-telemetry/opentelemetry-weaver-examples) | 9 | 2026-05-05T01:15:12Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [godot-rust/godot4-prebuilt](https://github.com/godot-rust/godot4-prebuilt) | 6 | 2026-05-02T07:09:28Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [databendlabs/databend-meta](https://github.com/databendlabs/databend-meta) | 5 | 2026-05-02T02:36:12Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -54,9 +54,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [EspressoSystems/tide-disco](https://github.com/EspressoSystems/tide-disco) | 5 | 2026-04-26T00:47:16Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [huggingface/fuser](https://github.com/huggingface/fuser) | 1 | 2026-04-25T12:44:42Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 2 |
 | [juharris/optify](https://github.com/juharris/optify) | 8 | 2026-04-24T21:16:46Z | Rust | Infrastructure/tooling | 1 | 20 | 1 | 1 |
-| [curiousdannii/remglk-rs](https://github.com/curiousdannii/remglk-rs) | 2 | 2026-04-24T02:09:24Z | Rust | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [eth-act/ere-guests](https://github.com/eth-act/ere-guests) | 7 | 2026-04-24T01:11:43Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [facebookexperimental/cxx](https://github.com/facebookexperimental/cxx) | 4 | 2026-04-23T17:57:37Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -74,7 +71,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Hiroshiba/voicevox_core](https://github.com/Hiroshiba/voicevox_core) | 7 | 2026-04-29T17:06:23Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [typst/typst-dev-assets](https://github.com/typst/typst-dev-assets) | 7 | 2026-04-29T13:28:00Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [black-desk/djotfmt](https://github.com/black-desk/djotfmt) | 7 | 2026-04-29T07:30:40Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [eth-act/ere-guests](https://github.com/eth-act/ere-guests) | 7 | 2026-04-24T01:11:43Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [godot-rust/godot4-prebuilt](https://github.com/godot-rust/godot4-prebuilt) | 6 | 2026-05-02T07:09:28Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [decibri/decibri](https://github.com/decibri/decibri) | 6 | 2026-04-30T12:51:46Z | Rust | Infrastructure/tooling | 16 | 13 | 16 | 16 |
 | [oxc-project/oxc-index-vec](https://github.com/oxc-project/oxc-index-vec) | 6 | 2026-04-27T19:03:09Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -84,10 +80,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dcampbell24/djot-implementations](https://github.com/dcampbell24/djot-implementations) | 5 | 2026-04-29T17:24:51Z | Rust | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [EspressoSystems/tide-disco](https://github.com/EspressoSystems/tide-disco) | 5 | 2026-04-26T00:47:16Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [hecrj/llama-server](https://github.com/hecrj/llama-server) | 4 | 2026-04-30T01:53:46Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [facebookexperimental/cxx](https://github.com/facebookexperimental/cxx) | 4 | 2026-04-23T17:57:37Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [vercel-labs/mdxjs-rs-turbopack](https://github.com/vercel-labs/mdxjs-rs-turbopack) | 3 | 2026-04-28T17:22:34Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [tirithen/clipper2c-sys](https://github.com/tirithen/clipper2c-sys) | 2 | 2026-05-05T21:40:06Z | Rust | CLI | 13 | 4 | 13 | 13 |
-| [curiousdannii/remglk-rs](https://github.com/curiousdannii/remglk-rs) | 2 | 2026-04-24T02:09:24Z | Rust | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [tirithen/clipper2c-sys](https://github.com/tirithen/clipper2c-sys) | 2 | 2026-05-05T21:40:06Z | Rust | CLI | 12 | 4 | 13 | 13 |
 | [influxdata/arrow-datafusion](https://github.com/influxdata/arrow-datafusion) | 1 | 2026-05-06T09:55:52Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [sp1-patches/RustCrypto-hashes](https://github.com/sp1-patches/RustCrypto-hashes) | 1 | 2026-04-29T17:36:14Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [bourumir-wyngs/saphyr](https://github.com/bourumir-wyngs/saphyr) | 1 | 2026-04-28T20:28:27Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |

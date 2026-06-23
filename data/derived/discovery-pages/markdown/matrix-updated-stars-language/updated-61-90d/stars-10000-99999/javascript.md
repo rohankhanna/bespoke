@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 67
-- terms: 473
-- components: 2704
-- concepts: 470
-- observations: 472
+- repos: 72
+- terms: 518
+- components: 2987
+- concepts: 515
+- observations: 518
 
 ## Static behavior
 
@@ -26,6 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [zloirock/core-js](https://github.com/zloirock/core-js) | 25486 | 2026-04-23T21:57:30Z | JavaScript | Infrastructure/tooling | 11 | 53 | 11 | 11 |
+| [lovell/sharp](https://github.com/lovell/sharp) | 32171 | 2026-04-23T21:06:56Z | JavaScript | Infrastructure/tooling | 14 | 33 | 14 | 14 |
+| [rollup/rollup](https://github.com/rollup/rollup) | 26267 | 2026-04-23T19:34:58Z | JavaScript | Infrastructure/tooling | 3 | 106 | 3 | 3 |
+| [expressjs/express](https://github.com/expressjs/express) | 68974 | 2026-04-23T17:50:10Z | JavaScript | Infrastructure/tooling | 6 | 59 | 6 | 6 |
+| [cure53/DOMPurify](https://github.com/cure53/DOMPurify) | 16918 | 2026-04-23T14:29:58Z | JavaScript | Infrastructure/tooling | 14 | 38 | 14 | 15 |
+| [electron/minimal-repro](https://github.com/electron/minimal-repro) | 11465 | 2026-04-23T13:35:27Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 24968 | 2026-04-23T09:11:44Z | JavaScript | Infrastructure/tooling | 24 | 37 | 24 | 24 |
 | [be5invis/Iosevka](https://github.com/be5invis/Iosevka) | 22135 | 2026-04-23T07:17:19Z | JavaScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [commitizen/cz-cli](https://github.com/commitizen/cz-cli) | 17465 | 2026-04-23T03:01:49Z | JavaScript | CLI | 9 | 39 | 9 | 9 |
@@ -92,13 +98,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [auth0/node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) | 18167 | 2026-03-30T18:59:54Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
 | [hapijs/joi](https://github.com/hapijs/joi) | 21195 | 2026-03-30T17:24:52Z | JavaScript | Infrastructure/tooling | 3 | 16 | 3 | 3 |
 | [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it) | 21334 | 2026-03-26T17:26:45Z | JavaScript | Infrastructure/tooling | 1 | 40 | 2 | 2 |
-| [less/less.js](https://github.com/less/less.js) | 17030 | 2026-03-24T22:41:03Z | JavaScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | 79134 | 2026-03-31T00:50:07Z | JavaScript | Infrastructure/tooling | 13 | 41 | 13 | 13 |
+| [expressjs/express](https://github.com/expressjs/express) | 68974 | 2026-04-23T17:50:10Z | JavaScript | Infrastructure/tooling | 6 | 59 | 6 | 6 |
 | [webpack/webpack](https://github.com/webpack/webpack) | 65784 | 2026-04-22T22:38:00Z | JavaScript | Infrastructure/tooling | 19 | 121 | 19 | 19 |
 | [lodash/lodash](https://github.com/lodash/lodash) | 61263 | 2026-04-22T18:47:42Z | JavaScript | Infrastructure/tooling | 11 | 39 | 11 | 11 |
 | [jquery/jquery](https://github.com/jquery/jquery) | 59832 | 2026-04-21T20:35:10Z | JavaScript | Infrastructure/tooling | 9 | 39 | 9 | 9 |
@@ -112,6 +118,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yarnpkg/yarn](https://github.com/yarnpkg/yarn) | 41516 | 2026-04-17T20:36:19Z | JavaScript | Infrastructure/tooling | 3 | 94 | 3 | 3 |
 | [markedjs/marked](https://github.com/markedjs/marked) | 36743 | 2026-04-21T02:52:38Z | JavaScript | Infrastructure/tooling | 5 | 27 | 6 | 6 |
 | [fastify/fastify](https://github.com/fastify/fastify) | 36109 | 2026-04-22T13:23:17Z | JavaScript | Infrastructure/tooling | 12 | 59 | 12 | 12 |
+| [lovell/sharp](https://github.com/lovell/sharp) | 32171 | 2026-04-23T21:06:56Z | JavaScript | Infrastructure/tooling | 14 | 33 | 14 | 14 |
 | [webtorrent/webtorrent](https://github.com/webtorrent/webtorrent) | 30888 | 2026-04-18T12:52:06Z | JavaScript | CLI | 12 | 84 | 12 | 12 |
 | [immerjs/immer](https://github.com/immerjs/immer) | 28930 | 2026-04-14T01:20:21Z | JavaScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 | [tj/commander.js](https://github.com/tj/commander.js) | 28149 | 2026-04-13T22:33:18Z | JavaScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
@@ -122,6 +129,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [remy/nodemon](https://github.com/remy/nodemon) | 26697 | 2026-04-22T11:54:12Z | JavaScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 26594 | 2026-03-31T18:24:26Z | JavaScript | Infrastructure/tooling | 8 | 95 | 0 | 0 |
 | [badges/shields](https://github.com/badges/shields) | 26483 | 2026-04-23T01:02:18Z | JavaScript | Infrastructure/tooling | 13 | 111 | 13 | 13 |
+| [rollup/rollup](https://github.com/rollup/rollup) | 26267 | 2026-04-23T19:34:58Z | JavaScript | Infrastructure/tooling | 3 | 106 | 3 | 3 |
+| [zloirock/core-js](https://github.com/zloirock/core-js) | 25486 | 2026-04-23T21:57:30Z | JavaScript | Infrastructure/tooling | 11 | 53 | 11 | 11 |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 25372 | 2026-04-17T04:17:46Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 24968 | 2026-04-23T09:11:44Z | JavaScript | Infrastructure/tooling | 24 | 37 | 24 | 24 |
 | [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) | 23574 | 2026-04-20T09:18:33Z | JavaScript | Infrastructure/tooling | 14 | 56 | 14 | 15 |
@@ -140,7 +149,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [auth0/node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) | 18167 | 2026-03-30T18:59:54Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
 | [pot-app/pot-desktop](https://github.com/pot-app/pot-desktop) | 17870 | 2026-04-10T08:11:00Z | JavaScript | Infrastructure/tooling | 9 | 50 | 9 | 9 |
 | [commitizen/cz-cli](https://github.com/commitizen/cz-cli) | 17465 | 2026-04-23T03:01:49Z | JavaScript | CLI | 9 | 39 | 9 | 9 |
-| [less/less.js](https://github.com/less/less.js) | 17030 | 2026-03-24T22:41:03Z | JavaScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [cure53/DOMPurify](https://github.com/cure53/DOMPurify) | 16918 | 2026-04-23T14:29:58Z | JavaScript | Infrastructure/tooling | 14 | 38 | 14 | 15 |
 | [infernojs/inferno](https://github.com/infernojs/inferno) | 16413 | 2026-04-07T13:07:29Z | JavaScript | Infrastructure/tooling | 8 | 60 | 8 | 8 |
 | [jasmine/jasmine](https://github.com/jasmine/jasmine) | 15834 | 2026-04-18T14:35:10Z | JavaScript | Infrastructure/tooling | 3 | 16 | 3 | 3 |
 | [avwo/whistle](https://github.com/avwo/whistle) | 15490 | 2026-04-11T09:08:32Z | JavaScript | Web app | 8 | 60 | 8 | 8 |
@@ -161,6 +170,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [karma-runner/karma](https://github.com/karma-runner/karma) | 11963 | 2026-04-14T19:00:20Z | JavaScript | Infrastructure/tooling | 3 | 65 | 3 | 3 |
 | [vega/vega](https://github.com/vega/vega) | 11849 | 2026-04-16T14:20:55Z | JavaScript | Infrastructure/tooling | 9 | 41 | 9 | 9 |
 | [reactjs/react.dev](https://github.com/reactjs/react.dev) | 11733 | 2026-04-09T15:35:10Z | JavaScript | Infrastructure/tooling | 7 | 86 | 7 | 7 |
+| [electron/minimal-repro](https://github.com/electron/minimal-repro) | 11465 | 2026-04-23T13:35:27Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [debug-js/debug](https://github.com/debug-js/debug) | 11442 | 2026-04-01T12:03:30Z | JavaScript | Web app | 6 | 12 | 6 | 6 |
 | [jquery/jquery-ui](https://github.com/jquery/jquery-ui) | 11342 | 2026-04-01T18:13:06Z | JavaScript | Infrastructure/tooling | 5 | 22 | 5 | 5 |
 | [jantimon/html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) | 10734 | 2026-04-17T14:36:42Z | JavaScript | Infrastructure/tooling | 2 | 37 | 2 | 2 |

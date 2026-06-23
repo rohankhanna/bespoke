@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 4,
-    "terms": 47
+    "components": 50,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 3,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
-    "DioxusLabs/dioxus",
     "ratatui/ratatui",
     "rust-lang/mdBook",
     "tracel-ai/burn"

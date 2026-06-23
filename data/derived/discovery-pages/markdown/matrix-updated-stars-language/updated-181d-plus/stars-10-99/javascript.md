@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 286
-- terms: 673
-- components: 3039
-- concepts: 681
-- observations: 681
+- repos: 283
+- terms: 668
+- components: 3024
+- concepts: 676
+- observations: 676
 
 ## Static behavior
 
@@ -126,7 +126,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [muhajirdev/monad-ui](https://github.com/muhajirdev/monad-ui) | 37 | 2024-08-29T20:42:13Z | JavaScript | Unknown | 3 | 9 | 3 | 3 |
 | [Comfy-Org/ComfyUI_legacy_frontend](https://github.com/Comfy-Org/ComfyUI_legacy_frontend) | 10 | 2024-08-11T14:45:40Z | JavaScript | Web app | 0 | 1 | 0 | 0 |
 | [sumcumo/imagemin-merlin](https://github.com/sumcumo/imagemin-merlin) | 64 | 2024-08-06T16:59:07Z | JavaScript | Unknown | 6 | 9 | 6 | 6 |
-| [TritonDataCenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [tritondatacenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [brombal/just-install](https://github.com/brombal/just-install) | 51 | 2024-07-31T23:01:48Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [pot-app/pot-app-collection-plugin-shanbay](https://github.com/pot-app/pot-app-collection-plugin-shanbay) | 10 | 2024-07-31T00:10:02Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [crudo/grunt-testcafe](https://github.com/crudo/grunt-testcafe) | 10 | 2024-07-26T18:22:25Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
@@ -309,9 +309,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [npm/npm-lifecycle](https://github.com/npm/npm-lifecycle) | 36 | 2021-08-03T19:07:35Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
 | [webview2/EdgeSharp.Samples](https://github.com/webview2/EdgeSharp.Samples) | 35 | 2021-07-06T12:41:41Z | JavaScript | Unknown | 14 | 0 | 14 | 14 |
 | [vutran/zel](https://github.com/vutran/zel) | 57 | 2021-06-24T05:39:50Z | JavaScript | Unknown | 6 | 12 | 6 | 6 |
-| [71/logseq-snippets](https://github.com/71/logseq-snippets) | 76 | 2021-06-23T19:32:01Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [fengari-lua/fengari-loader](https://github.com/fengari-lua/fengari-loader) | 30 | 2021-06-23T16:12:05Z | JavaScript | Web app | 3 | 10 | 3 | 3 |
-| [fengari-lua/fengari-node-cli](https://github.com/fengari-lua/fengari-node-cli) | 35 | 2021-06-23T16:11:09Z | JavaScript | CLI | 2 | 5 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -361,7 +358,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mikolalysenko/typedarray-pool](https://github.com/mikolalysenko/typedarray-pool) | 77 | 2021-11-23T20:18:53Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [apollographql/starwars-server](https://github.com/apollographql/starwars-server) | 76 | 2024-10-01T17:30:32Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
 | [dwyl/hapi-error](https://github.com/dwyl/hapi-error) | 76 | 2022-06-27T22:29:04Z | JavaScript | CLI | 2 | 21 | 2 | 2 |
-| [71/logseq-snippets](https://github.com/71/logseq-snippets) | 76 | 2021-06-23T19:32:01Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [csstree/validator](https://github.com/csstree/validator) | 73 | 2025-02-20T00:52:28Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [browserslist/browserslist-ga-export](https://github.com/browserslist/browserslist-ga-export) | 73 | 2023-07-03T02:31:44Z | JavaScript | Web app | 0 | 5 | 0 | 0 |
 | [micromata/cli-error-notifier](https://github.com/micromata/cli-error-notifier) | 72 | 2023-07-19T22:29:02Z | JavaScript | CLI | 11 | 17 | 11 | 11 |
@@ -436,7 +432,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sanctuary-js/sanctuary-either](https://github.com/sanctuary-js/sanctuary-either) | 48 | 2024-11-10T14:54:16Z | JavaScript | Unknown | 2 | 11 | 2 | 2 |
 | [wylieconlon/jsonrpc-ws-proxy](https://github.com/wylieconlon/jsonrpc-ws-proxy) | 48 | 2022-07-18T19:38:17Z | JavaScript | Web app | 0 | 11 | 0 | 0 |
 | [JakePartusch/wait-for-netlify-action](https://github.com/JakePartusch/wait-for-netlify-action) | 47 | 2024-05-20T23:02:05Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [TritonDataCenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [tritondatacenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [jlevy/atom-flowmark](https://github.com/jlevy/atom-flowmark) | 45 | 2023-03-04T09:45:13Z | JavaScript | Unknown | 0 | 17 | 0 | 0 |
 | [GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint](https://github.com/GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint) | 44 | 2025-03-31T09:17:55Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [ethereum/rpc-tests](https://github.com/ethereum/rpc-tests) | 44 | 2023-06-20T16:52:49Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
@@ -475,7 +471,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TritonDataCenter/node-extsprintf](https://github.com/TritonDataCenter/node-extsprintf) | 36 | 2021-11-02T21:49:00Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [npm/npm-lifecycle](https://github.com/npm/npm-lifecycle) | 36 | 2021-08-03T19:07:35Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
 | [webview2/EdgeSharp.Samples](https://github.com/webview2/EdgeSharp.Samples) | 35 | 2021-07-06T12:41:41Z | JavaScript | Unknown | 14 | 0 | 14 | 14 |
-| [fengari-lua/fengari-node-cli](https://github.com/fengari-lua/fengari-node-cli) | 35 | 2021-06-23T16:11:09Z | JavaScript | CLI | 2 | 5 | 2 | 2 |
 | [graphql/defer-stream-wg](https://github.com/graphql/defer-stream-wg) | 34 | 2025-10-02T15:53:41Z | JavaScript | Unknown | 1 | 3 | 1 | 1 |
 | [A11yance/axobject-query](https://github.com/A11yance/axobject-query) | 34 | 2024-12-17T09:13:18Z | JavaScript | Infrastructure/tooling | 0 | 25 | 0 | 0 |
 | [node-gh/gh-jira](https://github.com/node-gh/gh-jira) | 34 | 2022-11-01T21:08:06Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
@@ -497,7 +492,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [weaviate/biggraph-wikidata-search-with-weaviate](https://github.com/weaviate/biggraph-wikidata-search-with-weaviate) | 31 | 2021-12-12T15:34:12Z | JavaScript | Model/data | 0 | 0 | 0 | 0 |
 | [sveltejs/sapper-template-webpack](https://github.com/sveltejs/sapper-template-webpack) | 31 | 2021-10-18T01:06:56Z | JavaScript | Web app | 0 | 9 | 0 | 0 |
 | [multiformats/js-multihashing-async](https://github.com/multiformats/js-multihashing-async) | 30 | 2021-08-24T13:13:29Z | JavaScript | Infrastructure/tooling | 0 | 18 | 0 | 0 |
-| [fengari-lua/fengari-loader](https://github.com/fengari-lua/fengari-loader) | 30 | 2021-06-23T16:12:05Z | JavaScript | Web app | 3 | 10 | 3 | 3 |
 | [markdown-it/markdown-it-sub](https://github.com/markdown-it/markdown-it-sub) | 29 | 2025-11-21T08:09:35Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [rose-pine/build](https://github.com/rose-pine/build) | 29 | 2025-11-05T14:46:00Z | JavaScript | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [erkyrath/glkote](https://github.com/erkyrath/glkote) | 29 | 2025-06-25T02:58:09Z | JavaScript | Library | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41182 | 2026-05-26T16:56:03Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
+| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41184 | 2026-05-26T16:56:03Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41182 | 2026-05-26T16:56:03Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
+| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41184 | 2026-05-26T16:56:03Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |

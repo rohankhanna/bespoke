@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 185
-- components: 139
-- concepts: 182
-- observations: 184
+- repos: 37
+- terms: 201
+- components: 147
+- concepts: 198
+- observations: 200
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [aurutils/aurutils](https://github.com/aurutils/aurutils) | 1039 | 2026-04-23T13:21:14Z | Shell | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) | 7743 | 2026-04-23T10:52:06Z | Shell | Unknown | 2 | 0 | 3 | 3 |
 | [docker-library/docs](https://github.com/docker-library/docs) | 5274 | 2026-04-23T01:18:32Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [docker-library/official-images](https://github.com/docker-library/official-images) | 6943 | 2026-04-23T00:54:22Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -89,6 +91,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [devcontainers/images](https://github.com/devcontainers/images) | 2004 | 2026-04-22T05:52:08Z | Shell | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [docker-library/wordpress](https://github.com/docker-library/wordpress) | 1951 | 2026-03-27T00:51:57Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [trailofbits/claude-code-config](https://github.com/trailofbits/claude-code-config) | 1870 | 2026-04-02T09:26:12Z | Shell | CLI | 3 | 0 | 3 | 3 |
+| [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [spiffe/spiffe](https://github.com/spiffe/spiffe) | 1746 | 2026-04-13T17:10:08Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [pacstall/pacstall](https://github.com/pacstall/pacstall) | 1608 | 2026-04-21T17:41:47Z | Shell | Infrastructure/tooling | 15 | 8 | 18 | 18 |
 | [docker-library/golang](https://github.com/docker-library/golang) | 1554 | 2026-04-20T04:42:31Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -101,3 +104,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/adk-docs](https://github.com/google/adk-docs) | 1311 | 2026-04-22T22:26:27Z | Shell | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [anthropics/claude-agent-sdk-typescript](https://github.com/anthropics/claude-agent-sdk-typescript) | 1308 | 2026-04-22T00:04:37Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [aquasecurity/trivy-action](https://github.com/aquasecurity/trivy-action) | 1300 | 2026-04-22T10:11:00Z | Shell | Infrastructure/tooling | 9 | 3 | 9 | 9 |
+| [aurutils/aurutils](https://github.com/aurutils/aurutils) | 1039 | 2026-04-23T13:21:14Z | Shell | Infrastructure/tooling | 6 | 1 | 6 | 6 |

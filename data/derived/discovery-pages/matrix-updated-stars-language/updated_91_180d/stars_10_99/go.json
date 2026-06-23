@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 157,
-    "observations": 157,
-    "repos": 45,
-    "terms": 158
+    "components": 190,
+    "concepts": 177,
+    "observations": 177,
+    "repos": 48,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "AbsaOSS/external-dns-infoblox-webhook",
@@ -30,6 +30,7 @@
     "caltechlibrary/datatools",
     "casparwylie/cascii-server",
     "chromedp/pdlgen",
+    "cjkreklow/t38c",
     "cloudfoundry/buildpackapplifecycle",
     "concourse/pool-resource",
     "containerd/release-tool",
@@ -47,10 +48,12 @@
     "ipfs/go-ipfs-example-plugin",
     "ipfs/go-log",
     "jm33-m0/arc",
+    "kurrent-io/KurrentDB-Client-Go",
     "lesismal/nbio-examples",
     "matelang/jwt-go-aws-kms",
     "mikespook/possum",
     "multiformats/go-varint",
+    "OpenCIDN/ocimirror",
     "rose-pine/rose-pine-bloom",
     "roy2220/osc52pty",
     "rpcxio/rpcx-etcd",

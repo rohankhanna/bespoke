@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
-- terms: 238
-- components: 323
-- concepts: 240
-- observations: 243
+- repos: 49
+- terms: 241
+- components: 324
+- concepts: 243
+- observations: 247
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gyscos/cursive](https://github.com/gyscos/cursive) | 4783 | 2026-03-25T02:11:00Z | Rust | CLI | 3 | 1 | 3 | 4 |
 | [dtolnay/anyhow](https://github.com/dtolnay/anyhow) | 6489 | 2026-03-24T02:44:34Z | Rust | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [dtolnay/thiserror](https://github.com/dtolnay/thiserror) | 5403 | 2026-03-24T02:34:35Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [visioncortex/vtracer](https://github.com/visioncortex/vtracer) | 5957 | 2026-03-23T15:31:45Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 4 |
@@ -92,6 +93,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sachaos/viddy](https://github.com/sachaos/viddy) | 5319 | 2026-02-05T18:28:09Z | Rust | CLI | 5 | 6 | 5 | 5 |
 | [smol-rs/smol](https://github.com/smol-rs/smol) | 4849 | 2026-03-23T14:46:03Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [dtolnay/proc-macro-workshop](https://github.com/dtolnay/proc-macro-workshop) | 4792 | 2026-03-16T04:27:05Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [gyscos/cursive](https://github.com/gyscos/cursive) | 4783 | 2026-03-25T02:11:00Z | Rust | CLI | 3 | 1 | 3 | 4 |
 | [anordal/shellharden](https://github.com/anordal/shellharden) | 4778 | 2026-01-05T06:45:45Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [tokio-rs/prost](https://github.com/tokio-rs/prost) | 4671 | 2026-03-02T05:32:37Z | Rust | Infrastructure/tooling | 3 | 16 | 3 | 3 |
 | [tower-rs/tower](https://github.com/tower-rs/tower) | 4172 | 2026-02-24T22:54:27Z | Rust | Infrastructure/tooling | 5 | 8 | 5 | 5 |

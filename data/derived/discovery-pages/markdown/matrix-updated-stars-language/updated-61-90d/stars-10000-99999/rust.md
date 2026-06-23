@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 409
-- components: 696
-- concepts: 415
-- observations: 416
+- repos: 50
+- terms: 471
+- components: 805
+- concepts: 477
+- observations: 478
 
 ## Static behavior
 
@@ -26,6 +26,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/windows-rs](https://github.com/microsoft/windows-rs) | 12128 | 2026-04-24T04:33:01Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
+| [nearai/ironclaw](https://github.com/nearai/ironclaw) | 11944 | 2026-04-23T21:55:32Z | Rust | Infrastructure/tooling | 7 | 17 | 7 | 7 |
+| [FuelLabs/sway](https://github.com/FuelLabs/sway) | 61756 | 2026-04-23T20:47:02Z | Rust | Infrastructure/tooling | 9 | 20 | 9 | 9 |
+| [rayon-rs/rayon](https://github.com/rayon-rs/rayon) | 12916 | 2026-04-23T20:07:00Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core) | 57132 | 2026-04-23T19:27:01Z | Rust | Infrastructure/tooling | 9 | 27 | 9 | 9 |
+| [web-infra-dev/rspack](https://github.com/web-infra-dev/rspack) | 12632 | 2026-04-23T15:03:14Z | Rust | Infrastructure/tooling | 16 | 21 | 16 | 16 |
+| [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21381 | 2026-04-23T15:00:50Z | Rust | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [launchbadge/sqlx](https://github.com/launchbadge/sqlx) | 16918 | 2026-04-23T11:23:56Z | Rust | Infrastructure/tooling | 11 | 5 | 11 | 11 |
 | [servo/servo](https://github.com/servo/servo) | 36515 | 2026-04-23T06:38:32Z | Rust | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) | 24946 | 2026-04-23T06:19:22Z | Rust | Infrastructure/tooling | 12 | 12 | 12 | 12 |
@@ -76,8 +83,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [astral-sh/uv](https://github.com/astral-sh/uv) | 83519 | 2026-04-19T10:42:48Z | Rust | Infrastructure/tooling | 4 | 16 | 4 | 4 |
 | [openai/codex](https://github.com/openai/codex) | 76290 | 2026-04-19T12:20:49Z | Rust | CLI | 5 | 12 | 5 | 5 |
+| [FuelLabs/sway](https://github.com/FuelLabs/sway) | 61756 | 2026-04-23T20:47:02Z | Rust | Infrastructure/tooling | 9 | 20 | 9 | 9 |
 | [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | 58907 | 2026-04-22T12:29:35Z | Rust | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | 58412 | 2026-04-20T02:09:54Z | Rust | CLI | 8 | 6 | 8 | 8 |
+| [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core) | 57132 | 2026-04-23T19:27:01Z | Rust | Infrastructure/tooling | 9 | 27 | 9 | 9 |
 | [starship/starship](https://github.com/starship/starship) | 56783 | 2026-04-22T20:12:05Z | Rust | Infrastructure/tooling | 17 | 22 | 19 | 19 |
 | [typst/typst](https://github.com/typst/typst) | 52949 | 2026-04-22T12:41:50Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [bevyengine/bevy](https://github.com/bevyengine/bevy) | 45691 | 2026-04-22T05:03:26Z | Rust | Infrastructure/tooling | 13 | 10 | 13 | 13 |
@@ -98,6 +107,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actix/actix-web](https://github.com/actix/actix-web) | 24581 | 2026-04-22T14:44:18Z | Rust | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [gitui-org/gitui](https://github.com/gitui-org/gitui) | 21812 | 2026-04-23T01:39:06Z | Rust | CLI | 8 | 13 | 9 | 9 |
 | [eza-community/eza](https://github.com/eza-community/eza) | 21431 | 2026-04-10T14:51:09Z | Rust | CLI | 13 | 12 | 13 | 13 |
+| [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21381 | 2026-04-23T15:00:50Z | Rust | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [cjpais/Handy](https://github.com/cjpais/Handy) | 20464 | 2026-04-19T13:32:12Z | Rust | Infrastructure/tooling | 12 | 52 | 12 | 12 |
 | [huggingface/candle](https://github.com/huggingface/candle) | 20040 | 2026-04-19T13:22:31Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [facebook/relay](https://github.com/facebook/relay) | 18934 | 2026-04-21T02:03:45Z | Rust | Infrastructure/tooling | 4 | 69 | 4 | 4 |
@@ -111,7 +121,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) | 14508 | 2026-04-23T00:29:32Z | Rust | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 | [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | 14046 | 2026-04-17T08:14:45Z | Rust | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | 13558 | 2026-04-23T02:37:29Z | Rust | CLI | 19 | 20 | 19 | 19 |
+| [rayon-rs/rayon](https://github.com/rayon-rs/rayon) | 12916 | 2026-04-23T20:07:00Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [web-infra-dev/rspack](https://github.com/web-infra-dev/rspack) | 12632 | 2026-04-23T15:03:14Z | Rust | Infrastructure/tooling | 16 | 21 | 16 | 16 |
+| [microsoft/windows-rs](https://github.com/microsoft/windows-rs) | 12128 | 2026-04-24T04:33:01Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [hyperium/tonic](https://github.com/hyperium/tonic) | 11986 | 2026-04-21T16:40:37Z | Rust | CLI | 4 | 14 | 4 | 4 |
+| [nearai/ironclaw](https://github.com/nearai/ironclaw) | 11944 | 2026-04-23T21:55:32Z | Rust | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [orhun/git-cliff](https://github.com/orhun/git-cliff) | 11754 | 2026-04-21T16:48:07Z | Rust | CLI | 19 | 33 | 19 | 19 |
 | [seanmonstar/reqwest](https://github.com/seanmonstar/reqwest) | 11557 | 2026-04-17T15:56:49Z | Rust | CLI | 3 | 7 | 3 | 3 |
 | [Spotifyd/spotifyd](https://github.com/Spotifyd/spotifyd) | 10609 | 2026-04-23T01:35:47Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 69,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 22,
-    "terms": 86
+    "components": 76,
+    "concepts": 101,
+    "observations": 102,
+    "repos": 24,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "Accla/D4M.py",
     "Antibrumm/jackson-antpathfilter",
@@ -24,6 +24,7 @@
     "caprica/vlcj-examples",
     "clearml/clearml-pycharm-plugin",
     "EXIficient/exificient-for-json",
+    "filip26/iridium-cbor-ld",
     "google/tsunami-security-scanner-callback-server",
     "googleapis/java-bigquerystorage",
     "guyboertje/jrjackson",
@@ -31,6 +32,7 @@
     "JodaOrg/joda-time-hibernate",
     "jpmml/jpmml-transpiler",
     "langgraph4j/langgraph4j-examples",
+    "multiformats/java-multibase",
     "padreati/rapaio",
     "piomin/spring-ai-showcase",
     "smithy-lang/smithy-gradle-plugin",

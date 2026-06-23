@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55781,
-    "concepts": 36186,
-    "observations": 36299,
-    "repos": 6098,
-    "terms": 36083
+    "components": 55815,
+    "concepts": 36207,
+    "observations": 36320,
+    "repos": 6103,
+    "terms": 36094
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -233,6 +233,7 @@
     "AlexanderKoch-Koch/low_cost_robot",
     "alexedwards/scs",
     "alexellis/arkade",
+    "alexellis/k3sup",
     "alexmojaki/birdseye",
     "alexmojaki/heartrate",
     "alexmojaki/snoop",
@@ -2915,6 +2916,7 @@
     "JoshData/python-email-validator",
     "joshmedeski/sesh",
     "josStorer/RWKV-Runner",
+    "jothepro/doxygen-awesome-css",
     "jpanther/congo",
     "jpillora/cloud-torrent",
     "jpmens/jo",
@@ -3644,6 +3646,7 @@
     "microsoft/TextWorld",
     "microsoft/ToRA",
     "microsoft/torchscale",
+    "microsoft/TRELLIS.2",
     "microsoft/tsdoc",
     "microsoft/UFO",
     "microsoft/vscode-ai-toolkit",
@@ -5477,6 +5480,8 @@
     "theroyallab/tabbyAPI",
     "theskumar/python-dotenv",
     "thestk/rtmidi",
+    "TheTom/llama-cpp-turboquant",
+    "TheTom/turboquant_plus",
     "theupdateframework/python-tuf",
     "thewh1teagle/kokoro-onnx",
     "TheZoraiz/ascii-image-converter",

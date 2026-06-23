@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 3,
-    "terms": 32
+    "components": 51,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 4,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "apache/casbin-jcasbin",
     "eclipse-jdtls/eclipse.jdt.ls",
+    "eclipse-openvsx/openvsx",
     "helidon-io/helidon"
   ]
 }

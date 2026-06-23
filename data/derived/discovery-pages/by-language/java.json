@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 2899,
-    "concepts": 3585,
-    "observations": 3593,
-    "repos": 645,
-    "terms": 3565
+    "concepts": 3580,
+    "observations": 3588,
+    "repos": 644,
+    "terms": 3560
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -221,7 +221,6 @@
     "dlew/joda-time-android",
     "dmis-lab/biobert-pytorch",
     "dogla/filesystem-watcher",
-    "dropbox/mypy-PyCharm-plugin",
     "dropwizard/dropwizard",
     "du00cs/json-repairj",
     "dylibso/chicory",

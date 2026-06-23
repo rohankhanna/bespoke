@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Shell
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 20
-- components: 21
-- concepts: 20
-- observations: 20
+- repos: 8
+- terms: 18
+- components: 16
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -34,8 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kyverno/.github](https://github.com/kyverno/.github) | 0 | 2026-04-27T04:35:10Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [conda-forge/xeus-cpp-feedstock](https://github.com/conda-forge/xeus-cpp-feedstock) | 0 | 2026-04-24T15:06:05Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [nodenv/node-build-prerelease](https://github.com/nodenv/node-build-prerelease) | 0 | 2026-04-24T07:57:51Z | Shell | Infrastructure/tooling | 10 | 9 | 10 | 10 |
-| [edward3h/bedrock-viz-from-backups](https://github.com/edward3h/bedrock-viz-from-backups) | 0 | 2026-04-24T01:53:19Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [conda-forge/ergocub-software-feedstock](https://github.com/conda-forge/ergocub-software-feedstock) | 0 | 2026-04-23T12:46:07Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -49,5 +47,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kyverno/.github](https://github.com/kyverno/.github) | 0 | 2026-04-27T04:35:10Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [conda-forge/xeus-cpp-feedstock](https://github.com/conda-forge/xeus-cpp-feedstock) | 0 | 2026-04-24T15:06:05Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [nodenv/node-build-prerelease](https://github.com/nodenv/node-build-prerelease) | 0 | 2026-04-24T07:57:51Z | Shell | Infrastructure/tooling | 10 | 9 | 10 | 10 |
-| [edward3h/bedrock-viz-from-backups](https://github.com/edward3h/bedrock-viz-from-backups) | 0 | 2026-04-24T01:53:19Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [conda-forge/ergocub-software-feedstock](https://github.com/conda-forge/ergocub-software-feedstock) | 0 | 2026-04-23T12:46:07Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |

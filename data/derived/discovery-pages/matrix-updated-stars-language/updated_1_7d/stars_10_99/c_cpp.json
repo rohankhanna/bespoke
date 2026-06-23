@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 2,
-    "terms": 18
+    "components": 43,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 3,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
+    "edge-classic/EDGE-classic",
     "mongodb/winkerberos",
     "zhouwg/ggml-hexagon"
   ]

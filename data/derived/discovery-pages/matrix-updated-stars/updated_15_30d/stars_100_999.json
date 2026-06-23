@@ -1,25 +1,24 @@
 {
   "counts": {
-    "components": 446,
-    "concepts": 202,
-    "observations": 202,
-    "repos": 36,
-    "terms": 202
+    "components": 348,
+    "concepts": 201,
+    "observations": 201,
+    "repos": 34,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
-    "actions/container-toolkit-action",
     "all-contributors/app",
     "AMD-AGI/Nitro-1",
     "appelmar/gdalcubes",
-    "avocadowastaken/prettier-plugin-prisma",
     "beve-org/beve",
     "celtera/libremidi",
+    "clearml/clearml-agent",
     "Deep-Symmetry/dysentery",
     "elixir-protobuf/protobuf",
     "emacscollective/auto-compile",
@@ -28,14 +27,13 @@
     "google-deepmind/dm_pix",
     "jawah/charset_normalizer",
     "JuliaGraphics/Luxor.jl",
-    "jupyter/nbclassic",
     "kantv-ai/kantv",
+    "lancedb/yoloexplorer",
     "lbcb-sci/herro",
     "localai-org/apex-quant",
     "MetaCubeX/Yacd-meta",
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
-    "perrygeo/python-rasterstats",
     "preactjs/preact-devtools",
     "pypa/build",
     "readthedocs/commonmark.py",

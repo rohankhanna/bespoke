@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2163,
-    "concepts": 2021,
-    "observations": 2027,
-    "repos": 863,
-    "terms": 2009
+    "components": 2172,
+    "concepts": 2031,
+    "observations": 2037,
+    "repos": 865,
+    "terms": 2019
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -29,6 +29,7 @@
     "20000yshust/SWARM",
     "2KAbhishek/co-author.nvim",
     "2KAbhishek/octohub.nvim",
+    "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
     "2KAbhishek/termim.nvim",
     "2KAbhishek/utils.nvim",
@@ -518,6 +519,7 @@
     "kdheepak/JuliaFormatter.vim",
     "keychera/panas.example",
     "keychera/panas.reload",
+    "kigster/puma-daemon",
     "Kim2091/helpful-scripts",
     "kkharji/impatient.nvim",
     "kkharji/lispdocs.nvim",

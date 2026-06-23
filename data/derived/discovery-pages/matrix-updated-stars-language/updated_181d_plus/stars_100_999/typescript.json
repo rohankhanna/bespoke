@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5048,
-    "concepts": 794,
-    "observations": 796,
-    "repos": 211,
-    "terms": 805
+    "components": 5066,
+    "concepts": 797,
+    "observations": 799,
+    "repos": 213,
+    "terms": 808
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -44,6 +44,7 @@
     "Azzedde/brainstormers",
     "Beaglefoot/awk-language-server",
     "ben-rogerson/twin.examples",
+    "Birch-san/box2d-wasm",
     "bolinfest/monaco-tm",
     "bonukai/MediaTracker",
     "Borodutch/telegram-bot-starter",
@@ -126,6 +127,7 @@
     "kripod/react-hooks",
     "kyleshevlin/shevyjs",
     "kyryl-opens-ml/no-ocr",
+    "lancedb/lancedb-vercel-chatbot",
     "linkedin/eyeglass",
     "lobehub/lobe-vidol",
     "luisherranz/deepsignal",

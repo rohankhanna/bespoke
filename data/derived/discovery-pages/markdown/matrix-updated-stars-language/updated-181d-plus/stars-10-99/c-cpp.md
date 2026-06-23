@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 301
-- terms: 679
-- components: 577
-- concepts: 685
-- observations: 686
+- repos: 302
+- terms: 684
+- components: 580
+- concepts: 690
+- observations: 691
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lemire/fast_float](https://github.com/lemire/fast_float) | 12 | 2025-12-24T20:44:57Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [nativium/nativium](https://github.com/nativium/nativium) | 69 | 2025-12-23T03:52:23Z | C/C++ | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [DLR-TS/SUMOLibraries](https://github.com/DLR-TS/SUMOLibraries) | 27 | 2025-12-16T11:30:44Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [adamharrison/lite-xl-terminal](https://github.com/adamharrison/lite-xl-terminal) | 54 | 2025-12-15T21:18:43Z | C/C++ | CLI | 0 | 3 | 0 | 0 |
@@ -612,6 +613,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [joto/gdalcpp](https://github.com/joto/gdalcpp) | 14 | 2021-09-25T19:50:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [pullmoll/musl-fts](https://github.com/pullmoll/musl-fts) | 13 | 2024-02-26T08:54:09Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [larseggert/asciiTeX](https://github.com/larseggert/asciiTeX) | 13 | 2023-01-30T11:33:02Z | C/C++ | Infrastructure/tooling | 7 | 6 | 7 | 7 |
+| [lemire/fast_float](https://github.com/lemire/fast_float) | 12 | 2025-12-24T20:44:57Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [ingonyama-zk/icicle-gnark](https://github.com/ingonyama-zk/icicle-gnark) | 12 | 2025-08-29T08:45:25Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [libxsmm/libxsmm-dnn](https://github.com/libxsmm/libxsmm-dnn) | 12 | 2025-08-15T08:55:56Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [garyservin/linka-firmware](https://github.com/garyservin/linka-firmware) | 12 | 2024-12-11T15:48:59Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 3,
-    "terms": 8
+    "components": 14,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 4,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "google-deepmind/reverb",
     "ipsilon/evmone",
-    "ROCm/hipBLAS"
+    "ROCm/hipBLAS",
+    "tree-sitter-grammars/tree-sitter-markdown"
   ]
 }

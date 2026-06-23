@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 54
-- terms: 332
-- components: 299
-- concepts: 332
-- observations: 333
+- repos: 55
+- terms: 339
+- components: 315
+- concepts: 339
+- observations: 340
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gpustack/gguf-parser-go](https://github.com/gpustack/gguf-parser-go) | 265 | 2026-03-25T02:02:24Z | Go | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [kubernetes-sigs/hydrophone](https://github.com/kubernetes-sigs/hydrophone) | 116 | 2026-03-22T18:34:14Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | 376 | 2026-03-21T16:57:57Z | Go | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [minio/highwayhash](https://github.com/minio/highwayhash) | 949 | 2026-03-21T05:38:40Z | Go | Infrastructure/tooling | 7 | 6 | 7 | 7 |
@@ -119,6 +120,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws/amazon-ec2-metadata-mock](https://github.com/aws/amazon-ec2-metadata-mock) | 289 | 2025-12-29T17:01:30Z | Go | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [slinso/goTemplateBenchmark](https://github.com/slinso/goTemplateBenchmark) | 277 | 2026-02-16T14:01:46Z | Go | Template/starter | 3 | 0 | 3 | 3 |
 | [gost-dom/browser](https://github.com/gost-dom/browser) | 268 | 2026-02-19T06:50:48Z | Go | Infrastructure/tooling | 11 | 9 | 11 | 12 |
+| [gpustack/gguf-parser-go](https://github.com/gpustack/gguf-parser-go) | 265 | 2026-03-25T02:02:24Z | Go | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [itzg/rcon-cli](https://github.com/itzg/rcon-cli) | 215 | 2026-03-12T21:03:03Z | Go | CLI | 5 | 3 | 5 | 5 |
 | [aws/aws-xray-daemon](https://github.com/aws/aws-xray-daemon) | 195 | 2026-03-20T16:40:15Z | Go | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [cedar-policy/cedar-go](https://github.com/cedar-policy/cedar-go) | 191 | 2026-03-20T17:39:06Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |

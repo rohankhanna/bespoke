@@ -1,35 +1,36 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 149,
-    "observations": 149,
-    "repos": 19,
-    "terms": 149
+    "components": 173,
+    "concepts": 148,
+    "observations": 148,
+    "repos": 20,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
+    "ai-that-works/ai-that-works",
     "ashvardanian/NumKong",
     "bazel-contrib/bazel-gazelle",
-    "bazel-contrib/rules_go",
     "bencheeorg/benchee",
     "collabora/WhisperLive",
+    "crate-ci/cargo-release",
     "gluonfield/enchanted",
     "gobackup/gobackup",
-    "googleapis/google-api-php-client",
     "huggingface/optimum-quanto",
     "intel/BigDL",
     "intelligent-machine-learning/dlrover",
-    "litedb-org/LiteDB",
     "meta-pytorch/tnt",
+    "NEKOparapa/AiNiee",
     "Nevcairiel/LAVFilters",
     "olric-data/olric",
     "preservim/tagbar",
     "standardrb/standard",
+    "TheTom/turboquant_plus",
     "ultrajson/ultrajson",
     "vale-cli/vale"
   ]

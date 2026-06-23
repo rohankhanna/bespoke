@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 53
-- terms: 161
-- components: 893
-- concepts: 162
-- observations: 163
+- repos: 56
+- terms: 196
+- components: 931
+- concepts: 197
+- observations: 198
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AghayeCoder/tx-ui](https://github.com/AghayeCoder/tx-ui) | 452 | 2026-03-25T03:53:46Z | JavaScript | Infrastructure/tooling | 14 | 9 | 14 | 14 |
+| [ankane/ahoy.js](https://github.com/ankane/ahoy.js) | 509 | 2026-03-25T00:35:41Z | JavaScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [oblador/react-native-vector-image](https://github.com/oblador/react-native-vector-image) | 361 | 2026-03-24T20:21:25Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
+| [npm/rfcs](https://github.com/npm/rfcs) | 767 | 2026-03-24T15:01:35Z | JavaScript | CLI | 11 | 7 | 11 | 11 |
 | [rstudio/DT](https://github.com/rstudio/DT) | 620 | 2026-03-23T18:01:03Z | JavaScript | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [npm/abbrev-js](https://github.com/npm/abbrev-js) | 167 | 2026-03-23T15:38:30Z | JavaScript | CLI | 8 | 11 | 8 | 8 |
 | [mapbox/cheap-ruler](https://github.com/mapbox/cheap-ruler) | 427 | 2026-03-23T09:11:39Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
@@ -78,7 +82,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [omnidan/redux-undo-boilerplate](https://github.com/omnidan/redux-undo-boilerplate) | 122 | 2026-01-02T10:51:07Z | JavaScript | Template/starter | 0 | 42 | 0 | 0 |
 | [omnidan/redux-ignore](https://github.com/omnidan/redux-ignore) | 840 | 2026-01-02T10:44:29Z | JavaScript | Unknown | 0 | 16 | 0 | 0 |
 | [omnidan/redux-recycle](https://github.com/omnidan/redux-recycle) | 147 | 2026-01-02T10:38:33Z | JavaScript | Unknown | 0 | 17 | 0 | 0 |
-| [scripting/reallysimple](https://github.com/scripting/reallysimple) | 105 | 2025-12-24T14:51:58Z | JavaScript | Library | 0 | 5 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -88,6 +91,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adriantoine/enzyme-to-json](https://github.com/adriantoine/enzyme-to-json) | 940 | 2026-01-27T09:53:57Z | JavaScript | Unknown | 9 | 28 | 9 | 9 |
 | [omnidan/redux-ignore](https://github.com/omnidan/redux-ignore) | 840 | 2026-01-02T10:44:29Z | JavaScript | Unknown | 0 | 16 | 0 | 0 |
 | [agenda/agendash](https://github.com/agenda/agendash) | 811 | 2026-01-28T16:53:42Z | JavaScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
+| [npm/rfcs](https://github.com/npm/rfcs) | 767 | 2026-03-24T15:01:35Z | JavaScript | CLI | 11 | 7 | 11 | 11 |
 | [igvteam/igv.js](https://github.com/igvteam/igv.js) | 719 | 2026-03-20T00:51:27Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [adobe-photoshop/generator-core](https://github.com/adobe-photoshop/generator-core) | 699 | 2026-02-22T20:45:54Z | JavaScript | Library | 0 | 9 | 0 | 0 |
 | [faceyspacey/extract-css-chunks-webpack-plugin](https://github.com/faceyspacey/extract-css-chunks-webpack-plugin) | 696 | 2026-02-16T20:48:34Z | JavaScript | Unknown | 0 | 42 | 0 | 0 |
@@ -95,7 +99,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [svg-sprite/gulp-svg-sprite](https://github.com/svg-sprite/gulp-svg-sprite) | 644 | 2026-02-07T12:01:10Z | JavaScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [rstudio/DT](https://github.com/rstudio/DT) | 620 | 2026-03-23T18:01:03Z | JavaScript | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [stsquad/emacs_chrome](https://github.com/stsquad/emacs_chrome) | 538 | 2026-01-05T09:07:01Z | JavaScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [ankane/ahoy.js](https://github.com/ankane/ahoy.js) | 509 | 2026-03-25T00:35:41Z | JavaScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [kepano/defuddle-cli](https://github.com/kepano/defuddle-cli) | 500 | 2026-03-02T14:54:31Z | JavaScript | CLI | 3 | 7 | 4 | 4 |
+| [AghayeCoder/tx-ui](https://github.com/AghayeCoder/tx-ui) | 452 | 2026-03-25T03:53:46Z | JavaScript | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [RJWadley/stylelint-no-unsupported-browser-features](https://github.com/RJWadley/stylelint-no-unsupported-browser-features) | 451 | 2026-02-03T18:34:40Z | JavaScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [prebuild/prebuild](https://github.com/prebuild/prebuild) | 444 | 2026-02-07T12:12:56Z | JavaScript | CLI | 4 | 25 | 4 | 4 |
 | [sindresorhus/env-paths](https://github.com/sindresorhus/env-paths) | 440 | 2026-01-24T14:29:07Z | JavaScript | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -107,6 +113,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [testing-library/eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom) | 367 | 2026-02-13T21:29:12Z | JavaScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [lemire/FastPriorityQueue.js](https://github.com/lemire/FastPriorityQueue.js) | 365 | 2026-02-25T05:17:39Z | JavaScript | Unknown | 2 | 12 | 2 | 2 |
 | [gherghett/Antigravity-Shit-Chat](https://github.com/gherghett/Antigravity-Shit-Chat) | 362 | 2026-01-18T09:44:30Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
+| [oblador/react-native-vector-image](https://github.com/oblador/react-native-vector-image) | 361 | 2026-03-24T20:21:25Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [mourner/robust-predicates](https://github.com/mourner/robust-predicates) | 336 | 2026-03-22T10:28:25Z | JavaScript | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [Calcium-Ion/neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool) | 328 | 2026-02-11T08:12:40Z | JavaScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [tonyganch/gonzales-pe](https://github.com/tonyganch/gonzales-pe) | 328 | 2026-01-17T11:05:58Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
@@ -135,5 +142,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Mario4272/ag_bridge](https://github.com/Mario4272/ag_bridge) | 111 | 2026-02-17T18:38:00Z | JavaScript | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [dzeiocom/lucide-astro](https://github.com/dzeiocom/lucide-astro) | 109 | 2026-01-05T13:27:29Z | JavaScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [runegan/jsxbin](https://github.com/runegan/jsxbin) | 105 | 2026-02-04T20:16:04Z | JavaScript | Unknown | 3 | 10 | 3 | 3 |
-| [scripting/reallysimple](https://github.com/scripting/reallysimple) | 105 | 2025-12-24T14:51:58Z | JavaScript | Library | 0 | 5 | 0 | 0 |
 | [nodenv/jetbrains-npm](https://github.com/nodenv/jetbrains-npm) | 103 | 2026-02-09T12:31:57Z | JavaScript | Infrastructure/tooling | 7 | 5 | 7 | 7 |

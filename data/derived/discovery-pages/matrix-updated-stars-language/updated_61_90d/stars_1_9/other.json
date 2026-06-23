@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 297,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 72,
-    "terms": 123
+    "components": 309,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 76,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
@@ -21,9 +21,10 @@
     "alstafeev/midscene-java",
     "ankane/seaduck",
     "apache/netbeans-antora-ui",
-    "Asmod4n/mruby-argon2",
     "aspect-build/tools_telemetry",
     "azure/homebrew-bicep",
+    "b-data/jupyterlab-julia-docker-stack",
+    "b-data/jupyterlab-mojo-docker-stack",
     "bladeacer/obsi-snip-coll",
     "bolasblack/BlogFront",
     "cake-contrib/Cake.Markdownlint",
@@ -35,6 +36,7 @@
     "conda-forge/croc-feedstock",
     "conda-forge/pybind11-feedstock",
     "conda-forge/scikit-build-core-feedstock",
+    "curiousdannii/emglken",
     "CVEProject/cve-user-registry-client",
     "cyber404/che-apple-mail-mcp",
     "diffblue/homebrew-cbmc",
@@ -48,6 +50,7 @@
     "dylibso/xtp-go-bindgen",
     "dylibso/xtp-python-bindgen",
     "elixir-makeup/makeup_syntect",
+    "enbop/fungi-app",
     "ethpandaops/checkpoint-sync-health-checks",
     "flagos-ai/flir",
     "floxym/financial-chat-finance-nlp-chatbots",
@@ -62,6 +65,7 @@
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
     "JuliaCI/julia-buildkite",
+    "KhronosGroup/KTX-Software-CTS",
     "knopp/native_toolchain_ninja",
     "KnotUntied/scoop-fonts",
     "konnov/apalache-examples",

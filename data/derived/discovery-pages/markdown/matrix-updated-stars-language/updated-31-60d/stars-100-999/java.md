@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 51
-- terms: 382
-- components: 345
-- concepts: 384
-- observations: 384
+- repos: 50
+- terms: 378
+- components: 342
+- concepts: 380
+- observations: 380
 
 ## Static behavior
 
@@ -76,7 +76,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sevntu-checkstyle/sevntu.checkstyle](https://github.com/sevntu-checkstyle/sevntu.checkstyle) | 196 | 2026-04-25T01:26:12Z | Java | CLI | 3 | 3 | 3 | 3 |
 | [graalvm/graalvm-demos](https://github.com/graalvm/graalvm-demos) | 678 | 2026-04-24T14:31:26Z | Java | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [milvus-io/milvus-sdk-java](https://github.com/milvus-io/milvus-sdk-java) | 485 | 2026-04-24T06:45:15Z | Java | Infrastructure/tooling | 8 | 6 | 8 | 8 |
-| [zilliztech/vts](https://github.com/zilliztech/vts) | 121 | 2026-04-23T13:19:03Z | Java | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -132,4 +131,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jpmml/jpmml-xgboost](https://github.com/jpmml/jpmml-xgboost) | 131 | 2026-04-26T12:19:22Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [KosherJava/zmanim](https://github.com/KosherJava/zmanim) | 130 | 2026-05-10T05:29:05Z | Java | Infrastructure/tooling | 18 | 5 | 18 | 18 |
 | [openjdk/jdk17u](https://github.com/openjdk/jdk17u) | 125 | 2026-05-13T12:31:41Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [zilliztech/vts](https://github.com/zilliztech/vts) | 121 | 2026-04-23T13:19:03Z | Java | Infrastructure/tooling | 4 | 3 | 4 | 4 |

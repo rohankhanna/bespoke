@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10327,
-    "concepts": 10124,
-    "observations": 10156,
-    "repos": 1719,
-    "terms": 10074
+    "components": 10348,
+    "concepts": 10142,
+    "observations": 10174,
+    "repos": 1723,
+    "terms": 10092
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -114,6 +114,7 @@
     "alexellis/discord-updater",
     "alexellis/fstail",
     "alexellis/gha-bump",
+    "alexellis/k3sup",
     "alexkohler/dogsled",
     "alexkohler/nakedret",
     "alexkohler/nargs",
@@ -680,6 +681,7 @@
     "envoyproxy/gateway",
     "envoyproxy/go-control-plane",
     "EpicStep/clickhouse-go-rows-utils",
+    "epit3d/goclipper2",
     "ergochat/ircdog",
     "ergochat/readline",
     "ericfreese/rat",
@@ -981,6 +983,7 @@
     "hertz-contrib/cache",
     "hertz-contrib/casbin",
     "hertz-contrib/etag",
+    "hetznercloud/hcloud-cloud-controller-manager",
     "hibiken/asynq",
     "high-moctane/mocword-data",
     "high-moctane/nextword",
@@ -1194,6 +1197,7 @@
     "linxGnu/grocksdb",
     "liquidmetal-dev/cluster-api-provider-microvm",
     "liquidmetal-dev/flintlock",
+    "localai-org/localai-realtime-demo",
     "localtunnel/go-localtunnel",
     "Logiase/MiraiGo-Template",
     "Loyalsoldier/geoip",

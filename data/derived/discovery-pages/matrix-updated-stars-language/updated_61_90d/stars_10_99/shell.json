@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 184,
-    "observations": 187,
-    "repos": 39,
-    "terms": 184
+    "components": 178,
+    "concepts": 200,
+    "observations": 203,
+    "repos": 42,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -26,6 +26,7 @@
     "aporthq/aport-agent-guardrails",
     "argoproj-labs/argocd-extension-installer",
     "beehive-lab/docker-tornadovm",
+    "bitnami/vulndb",
     "bnb-chain/node-deploy",
     "ChainSafe/forest-iac",
     "clojure/brew-install",
@@ -37,7 +38,9 @@
     "confluentinc/cp-demo",
     "containers/automation",
     "containers/automation_images",
+    "crazy-max/goxx",
     "cri-o/packaging",
+    "dependabot/smoke-tests",
     "Digidai/product-manager-skills",
     "flinedev/tandemkit",
     "gentoo-mirror/guru",

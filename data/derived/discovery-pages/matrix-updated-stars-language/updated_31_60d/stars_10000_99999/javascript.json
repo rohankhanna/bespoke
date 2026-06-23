@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2491,
-    "concepts": 442,
-    "observations": 443,
-    "repos": 49,
-    "terms": 435
+    "components": 2199,
+    "concepts": 393,
+    "observations": 393,
+    "repos": 43,
+    "terms": 386
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -21,13 +21,10 @@
     "ampproject/amphtml",
     "Automattic/mongoose",
     "CesiumGS/cesium",
-    "cure53/DOMPurify",
     "easydiffusion/easydiffusion",
     "electerm/electerm",
-    "electron/minimal-repro",
     "emotion-js/emotion",
     "eslint/eslint",
-    "expressjs/express",
     "facebook/hermes",
     "faisalman/ua-parser-js",
     "foliojs/pdfkit",
@@ -40,7 +37,6 @@
     "jsdom/jsdom",
     "krisk/Fuse",
     "lint-staged/lint-staged",
-    "lovell/sharp",
     "lutzroeder/netron",
     "MagicMirrorOrg/MagicMirror",
     "mdx-js/mdx",
@@ -52,7 +48,6 @@
     "novnc/noVNC",
     "plotly/plotly.js",
     "protobufjs/protobuf.js",
-    "rollup/rollup",
     "SillyTavern/SillyTavern",
     "stylelint/stylelint",
     "sveltejs/kit",
@@ -61,7 +56,6 @@
     "Unitech/pm2",
     "validatorjs/validator.js",
     "wix/Detox",
-    "yokoffing/Betterfox",
-    "zloirock/core-js"
+    "yokoffing/Betterfox"
   ]
 }

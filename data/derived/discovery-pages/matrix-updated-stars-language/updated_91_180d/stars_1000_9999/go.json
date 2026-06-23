@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 271,
-    "concepts": 272,
-    "observations": 272,
-    "repos": 59,
-    "terms": 268
+    "components": 295,
+    "concepts": 288,
+    "observations": 288,
+    "repos": 63,
+    "terms": 283
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
     "achannarasappa/ticker",
+    "alexellis/k3sup",
     "ankitpokhrel/jira-cli",
     "apache/rocketmq-client-go",
     "avast/retry-go",
@@ -46,6 +47,7 @@
     "goccy/go-json",
     "golang/oauth2",
     "google/go-cmp",
+    "google/go-jsonnet",
     "hashicorp/go-metrics",
     "hashicorp/memberlist",
     "instrumenta/kubeval",
@@ -70,8 +72,10 @@
     "shazow/ssh-chat",
     "sony/gobreaker",
     "spf13/pflag",
+    "stripe/stripe-mock",
     "tidwall/btree",
     "tmc/langchaingo",
-    "xtaci/smux"
+    "xtaci/smux",
+    "yuin/goldmark"
   ]
 }

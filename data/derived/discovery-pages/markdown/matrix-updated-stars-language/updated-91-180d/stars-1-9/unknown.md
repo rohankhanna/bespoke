@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
+- repos: 39
 - terms: 42
 - components: 76
 - concepts: 42
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [aaronrsun/spec-kit-checkpoint](https://github.com/aaronrsun/spec-kit-checkpoint) | 4 | 2026-03-24T03:13:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hebrew-TTS-Providers](https://github.com/danielrosehill/Hebrew-TTS-Providers) | 1 | 2026-03-22T11:48:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/modin-feedstock](https://github.com/conda-forge/modin-feedstock) | 1 | 2026-03-16T17:40:55Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
@@ -95,6 +96,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [trufflesecurity/test_keys](https://github.com/trufflesecurity/test_keys) | 2 | 2026-01-27T16:58:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [buttercannfly/AIPex](https://github.com/buttercannfly/AIPex) | 2 | 2026-01-09T08:27:23Z | Unknown | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [vercel-labs/include_dir](https://github.com/vercel-labs/include_dir) | 2 | 2026-01-07T15:03:07Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hebrew-TTS-Providers](https://github.com/danielrosehill/Hebrew-TTS-Providers) | 1 | 2026-03-22T11:48:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/modin-feedstock](https://github.com/conda-forge/modin-feedstock) | 1 | 2026-03-16T17:40:55Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [danielrosehill/claude-agent-workspace-generator](https://github.com/danielrosehill/Claude-Agent-Workspace-Generator) | 1 | 2026-03-09T19:56:45Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |

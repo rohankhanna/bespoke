@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 39
-- terms: 184
-- components: 149
-- concepts: 184
-- observations: 187
+- repos: 42
+- terms: 200
+- components: 178
+- concepts: 200
+- observations: 203
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dependabot/smoke-tests](https://github.com/dependabot/smoke-tests) | 66 | 2026-04-23T19:32:53Z | Shell | Infrastructure/tooling | 9 | 6 | 9 | 9 |
+| [crazy-max/goxx](https://github.com/crazy-max/goxx) | 51 | 2026-04-23T19:13:07Z | Shell | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [bitnami/vulndb](https://github.com/bitnami/vulndb) | 35 | 2026-04-23T18:12:49Z | Shell | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [iterate-ch/profiles](https://github.com/iterate-ch/profiles) | 33 | 2026-04-23T07:59:52Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [bnb-chain/node-deploy](https://github.com/bnb-chain/node-deploy) | 69 | 2026-04-23T02:51:41Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [argoproj-labs/argocd-extension-installer](https://github.com/argoproj-labs/argocd-extension-installer) | 40 | 2026-04-22T17:27:45Z | Shell | Infrastructure/tooling | 3 | 6 | 3 | 3 |
@@ -76,10 +79,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [2KAbhishek/tmux-tilit](https://github.com/2KAbhishek/tmux-tilit) | 77 | 2026-03-31T03:36:27Z | Shell | CLI | 5 | 0 | 5 | 5 |
 | [confluentinc/cp-demo](https://github.com/confluentinc/cp-demo) | 75 | 2026-04-17T11:56:29Z | Shell | Infrastructure/tooling | 9 | 0 | 9 | 9 |
 | [bnb-chain/node-deploy](https://github.com/bnb-chain/node-deploy) | 69 | 2026-04-23T02:51:41Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [dependabot/smoke-tests](https://github.com/dependabot/smoke-tests) | 66 | 2026-04-23T19:32:53Z | Shell | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [aiKrice/homebrew-badgetizr](https://github.com/aiKrice/homebrew-badgetizr) | 64 | 2026-04-06T19:21:54Z | Shell | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills) | 63 | 2026-04-12T03:05:07Z | Shell | Unknown | 19 | 0 | 19 | 19 |
 | [agricidaniel/claude-cybersecurity](https://github.com/AgriciDaniel/claude-cybersecurity) | 58 | 2026-04-15T09:43:43Z | Shell | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [reviewdog/action-hadolint](https://github.com/reviewdog/action-hadolint) | 55 | 2026-04-21T20:09:49Z | Shell | Infrastructure/tooling | 8 | 9 | 8 | 9 |
+| [crazy-max/goxx](https://github.com/crazy-max/goxx) | 51 | 2026-04-23T19:13:07Z | Shell | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [cri-o/packaging](https://github.com/cri-o/packaging) | 48 | 2026-04-21T05:22:32Z | Shell | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [milvus-io/milvus-proto](https://github.com/milvus-io/milvus-proto) | 46 | 2026-04-22T10:09:39Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [nodenv/nodenv-package-rehash](https://github.com/nodenv/nodenv-package-rehash) | 43 | 2026-04-18T12:57:52Z | Shell | Infrastructure/tooling | 3 | 10 | 3 | 3 |
@@ -88,6 +93,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [10up/action-wordpress-plugin-build-zip](https://github.com/10up/action-wordpress-plugin-build-zip) | 37 | 2026-04-08T18:48:14Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [NixOS/org](https://github.com/NixOS/org) | 36 | 2026-04-20T14:22:24Z | Shell | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [2KAbhishek/mac2k](https://github.com/2KAbhishek/mac2k) | 36 | 2026-04-12T20:26:13Z | Shell | CLI | 6 | 0 | 6 | 6 |
+| [bitnami/vulndb](https://github.com/bitnami/vulndb) | 35 | 2026-04-23T18:12:49Z | Shell | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [conda-forge/poppler-feedstock](https://github.com/conda-forge/poppler-feedstock) | 35 | 2026-04-08T15:38:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [iterate-ch/profiles](https://github.com/iterate-ch/profiles) | 33 | 2026-04-23T07:59:52Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [sclorg/mariadb-container](https://github.com/sclorg/mariadb-container) | 33 | 2026-04-21T07:12:14Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |

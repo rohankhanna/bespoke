@@ -1,23 +1,23 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 27,
-    "observations": 27,
+    "components": 57,
+    "concepts": 25,
+    "observations": 25,
     "repos": 6,
-    "terms": 27
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "cloudfoundry/bosh-google-cpi-release",
-    "edge-classic/EDGE-classic",
-    "intel-staging/text-generation-webui",
+    "cloudfoundry/credhub-cli",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "mozilla-ai/any-guardrail",
-    "nvim-mini/mini.deps"
+    "nuxt-modules/emotion"
   ]
 }

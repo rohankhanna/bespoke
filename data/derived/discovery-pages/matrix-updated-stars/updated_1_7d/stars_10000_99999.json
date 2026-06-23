@@ -1,44 +1,49 @@
 {
   "counts": {
-    "components": 402,
-    "concepts": 295,
-    "observations": 295,
-    "repos": 27,
-    "terms": 295
+    "components": 468,
+    "concepts": 420,
+    "observations": 421,
+    "repos": 32,
+    "terms": 412
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
+    "apache/brpc",
     "apache/casbin",
     "clsid2/mpc-hc",
+    "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
     "deepspeedai/DeepSpeed",
     "dense-analysis/ale",
-    "DioxusLabs/dioxus",
-    "gastownhall/beads",
+    "fastapi/fastapi",
+    "fastapi/full-stack-fastapi-template",
     "ggml-org/ggml",
     "github-linguist/linguist",
     "google-ai-edge/mediapipe",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
-    "langchain-ai/langchainjs",
-    "Lightning-AI/litgpt",
+    "isl-org/Open3D",
+    "jestjs/jest",
     "mixmark-io/turndown",
-    "moby/moby",
+    "modelscope/ms-swift",
     "psf/black",
     "pyg-team/pytorch_geometric",
+    "qubvel-org/segmentation_models.pytorch",
     "ratatui/ratatui",
-    "realworld-apps/realworld",
     "run-llama/llama_index",
     "rust-lang/mdBook",
     "spaceship-prompt/spaceship-prompt",
+    "tinygrad/tinygrad",
     "tracel-ai/burn",
     "ungoogled-software/ungoogled-chromium",
+    "upptime/upptime",
     "vbenjs/vue-vben-admin",
-    "vercel-labs/skills"
+    "vercel-labs/skills",
+    "zhayujie/CowAgent"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 5,
-    "observations": 5,
+    "components": 16,
+    "concepts": 9,
+    "observations": 9,
     "repos": 1,
-    "terms": 5
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
-    "SpecterOps/AzureHound"
+    "hetznercloud/hcloud-cloud-controller-manager"
   ]
 }

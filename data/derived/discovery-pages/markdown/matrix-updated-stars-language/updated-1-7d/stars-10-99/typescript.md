@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 11
-- components: 77
-- concepts: 11
-- observations: 11
+- repos: 2
+- terms: 7
+- components: 56
+- concepts: 7
+- observations: 7
 
 ## Static behavior
 
@@ -27,7 +27,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-19T00:14:51Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-18T16:41:48Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [ogx-ai/ogx-client-typescript](https://github.com/ogx-ai/ogx-client-typescript) | 96 | 2026-06-16T13:27:42Z | TypeScript | Infrastructure/tooling | 3 | 33 | 3 | 3 |
 
 ## Repos sorted by stars
@@ -35,5 +34,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [ogx-ai/ogx-client-typescript](https://github.com/ogx-ai/ogx-client-typescript) | 96 | 2026-06-16T13:27:42Z | TypeScript | Infrastructure/tooling | 3 | 33 | 3 | 3 |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-18T16:41:48Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-19T00:14:51Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |

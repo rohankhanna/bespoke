@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10,000 to 99,999 stars · Unknown
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 20
+- repos: 21
 - terms: 43
 - components: 5
 - concepts: 45
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [toml-lang/toml](https://github.com/toml-lang/toml) | 20457 | 2025-12-24T17:29:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [WebAssembly/design](https://github.com/WebAssembly/design) | 11572 | 2025-10-22T02:46:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) | 14779 | 2025-09-20T13:56:23Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | 36816 | 2025-08-28T14:40:51Z | Unknown | CLI | 5 | 2 | 7 | 7 |
@@ -62,6 +63,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rwaldron/idiomatic.js](https://github.com/rwaldron/idiomatic.js) | 25697 | 2024-01-08T20:19:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/api-guidelines](https://github.com/microsoft/api-guidelines) | 23260 | 2025-08-11T21:31:30Z | Unknown | Service/API | 3 | 0 | 3 | 3 |
 | [wsargent/docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet) | 22511 | 2024-12-31T03:00:47Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [toml-lang/toml](https://github.com/toml-lang/toml) | 20457 | 2025-12-24T17:29:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [css-modules/css-modules](https://github.com/css-modules/css-modules) | 17972 | 2024-05-30T14:58:51Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [NVIDIA/nvidia-docker](https://github.com/NVIDIA/nvidia-docker) | 17537 | 2023-12-06T09:16:49Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [dotnet/corefx](https://github.com/dotnet/corefx) | 17504 | 2023-01-21T00:07:42Z | Unknown | Unknown | 7 | 0 | 7 | 7 |

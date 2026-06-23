@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 17,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 3,
-    "terms": 21
+    "concepts": 17,
+    "observations": 17,
+    "repos": 2,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "CleverCloud/karpenter-provider-clever-cloud",
-    "cloudfoundry/credhub-acceptance-tests",
     "paperclipinc/karpenter-provider-hetzner"
   ]
 }

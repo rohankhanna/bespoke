@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1216,
-    "concepts": 988,
-    "observations": 991,
-    "repos": 255,
-    "terms": 982
+    "components": 1222,
+    "concepts": 996,
+    "observations": 998,
+    "repos": 257,
+    "terms": 990
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -20,6 +20,7 @@
     "4d49/scene-library",
     "66RING/tiny-flash-attention",
     "AccountGo/accountgo",
+    "actboy168/json.lua",
     "agrafix/elm-bridge",
     "ahausladen/PdfiumLib",
     "ahyatt/emacs-websocket",
@@ -43,8 +44,10 @@
     "Azure-Samples/azureai-samples",
     "Azure-Samples/contoso-creative-writer",
     "Azure/aca-landing-zone-accelerator",
+    "Azure/appservice-landing-zone-accelerator",
     "Azure/arm-ttk",
     "Azure/template-analyzer",
+    "babashka/cli",
     "babashka/scittle",
     "badges/awesome-badges",
     "bbatsov/super-save",
@@ -133,7 +136,6 @@
     "google-research/nested-transformer",
     "google/CommonLoopUtils",
     "gradle-nexus/publish-plugin",
-    "grpc/grpc-dart",
     "gvvaughan/lyaml",
     "haskell-nix/hnix",
     "haskell/text",

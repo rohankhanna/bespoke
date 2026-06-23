@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 58,
-    "terms": 38
+    "components": 11,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 50,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
-    "conda-forge/equinox-feedstock",
-    "conda-forge/textgrad-feedstock",
-    "conda-forge/tianshou-feedstock",
     "conda-forge/versioneer-feedstock",
     "csm-actions/demo-client",
-    "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
     "danielrosehill/AI-Memory-Layers",
-    "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/BUDGET.md",
@@ -38,7 +33,6 @@
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Data-Annotation-Plugin",
-    "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
     "danielrosehill/Claude-Declutter-Genie-Plugin",
     "danielrosehill/Claude-Dev-Tools-Plugin",
     "danielrosehill/Claude-Digital-Evidence-Plugin",
@@ -52,7 +46,6 @@
     "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
     "danielrosehill/Claude-Hopper",
-    "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Jewish-Utilities-Plugin",
     "danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin",
     "danielrosehill/Claude-Keyboard-Scanner",
@@ -65,7 +58,6 @@
     "danielrosehill/GROUNDING.md",
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Jewish-Texts-Reference-Plugin",
-    "danielrosehill/Open-Research-Workspaces-Index",
     "hermit-os/.github",
     "kleisauke/glib",
     "OpenHands/incubator-program",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 211
-- terms: 805
-- components: 5048
-- concepts: 794
-- observations: 796
+- repos: 213
+- terms: 808
+- components: 5066
+- concepts: 797
+- observations: 799
 
 ## Static behavior
 
@@ -103,6 +103,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [iamcco/coc-diagnostic](https://github.com/iamcco/coc-diagnostic) | 245 | 2025-01-15T18:50:29Z | TypeScript | Service/API | 0 | 7 | 0 | 0 |
 | [luisherranz/deepsignal](https://github.com/luisherranz/deepsignal) | 254 | 2025-01-13T15:48:33Z | TypeScript | Infrastructure/tooling | 4 | 47 | 4 | 4 |
 | [delashum/obsidian-checklist-plugin](https://github.com/delashum/obsidian-checklist-plugin) | 469 | 2025-01-11T19:07:57Z | TypeScript | Unknown | 0 | 16 | 0 | 0 |
+| [Birch-san/box2d-wasm](https://github.com/Birch-san/box2d-wasm) | 303 | 2024-12-29T17:05:11Z | TypeScript | Web app | 3 | 0 | 3 | 3 |
 | [proposal-signals/signal-utils](https://github.com/proposal-signals/signal-utils) | 116 | 2024-12-23T13:50:42Z | TypeScript | Infrastructure/tooling | 2 | 21 | 2 | 2 |
 | [microsoft/botframework-cli](https://github.com/microsoft/botframework-cli) | 176 | 2024-12-10T13:32:21Z | TypeScript | CLI | 0 | 0 | 0 | 0 |
 | [mobxjs/mobx-angular](https://github.com/mobxjs/mobx-angular) | 481 | 2024-12-09T22:51:49Z | TypeScript | Infrastructure/tooling | 8 | 49 | 8 | 8 |
@@ -148,6 +149,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [1hanzla100/developer-portfolio](https://github.com/1hanzla100/developer-portfolio) | 798 | 2024-04-09T11:02:08Z | TypeScript | Infrastructure/tooling | 14 | 32 | 14 | 14 |
 | [mgmeyers/obsidian-smart-typography](https://github.com/mgmeyers/obsidian-smart-typography) | 330 | 2024-03-30T05:45:07Z | TypeScript | Infrastructure/tooling | 4 | 15 | 4 | 4 |
 | [mostjs/core](https://github.com/mostjs/core) | 413 | 2024-03-29T01:24:31Z | TypeScript | Unknown | 3 | 19 | 3 | 3 |
+| [lancedb/lancedb-vercel-chatbot](https://github.com/lancedb/lancedb-vercel-chatbot) | 101 | 2024-03-26T18:27:42Z | TypeScript | Web app | 0 | 18 | 0 | 0 |
 | [arcanis/typanion](https://github.com/arcanis/typanion) | 275 | 2024-03-25T17:14:02Z | TypeScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [gxmari007/vite-plugin-eslint](https://github.com/gxmari007/vite-plugin-eslint) | 280 | 2024-03-19T09:07:31Z | TypeScript | Infrastructure/tooling | 3 | 16 | 3 | 3 |
 | [101arrowz/fzstd](https://github.com/101arrowz/fzstd) | 313 | 2024-03-15T06:44:44Z | TypeScript | Library | 0 | 5 | 0 | 0 |
@@ -344,6 +346,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [obartra/ssim](https://github.com/obartra/ssim) | 317 | 2023-12-07T18:19:52Z | TypeScript | Unknown | 4 | 28 | 4 | 4 |
 | [browserslist/browserslist-useragent](https://github.com/browserslist/browserslist-useragent) | 314 | 2023-01-24T17:40:07Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [101arrowz/fzstd](https://github.com/101arrowz/fzstd) | 313 | 2024-03-15T06:44:44Z | TypeScript | Library | 0 | 5 | 0 | 0 |
+| [Birch-san/box2d-wasm](https://github.com/Birch-san/box2d-wasm) | 303 | 2024-12-29T17:05:11Z | TypeScript | Web app | 3 | 0 | 3 | 3 |
 | [openupm/openupm-cli](https://github.com/openupm/openupm-cli) | 298 | 2025-08-25T03:52:23Z | TypeScript | CLI | 8 | 53 | 8 | 8 |
 | [yaegassy/coc-volar](https://github.com/yaegassy/coc-volar) | 295 | 2025-03-02T13:18:18Z | TypeScript | Unknown | 3 | 14 | 3 | 3 |
 | [sebelga/gstore-node](https://github.com/sebelga/gstore-node) | 292 | 2024-03-04T19:56:26Z | TypeScript | Model/data | 7 | 51 | 7 | 7 |
@@ -453,3 +456,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marcello3d/node-tosource](https://github.com/marcello3d/node-tosource) | 104 | 2023-06-17T18:49:19Z | TypeScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
 | [idris-hackers/atom-language-idris](https://github.com/idris-hackers/atom-language-idris) | 102 | 2024-07-23T07:28:43Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [cocos/cocos-tutorial-mind-your-step](https://github.com/cocos/cocos-tutorial-mind-your-step) | 102 | 2023-09-19T08:53:44Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
+| [lancedb/lancedb-vercel-chatbot](https://github.com/lancedb/lancedb-vercel-chatbot) | 101 | 2024-03-26T18:27:42Z | TypeScript | Web app | 0 | 18 | 0 | 0 |

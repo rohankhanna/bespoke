@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2788,
-    "concepts": 520,
-    "observations": 521,
-    "repos": 70,
-    "terms": 516
+    "components": 2683,
+    "concepts": 505,
+    "observations": 506,
+    "repos": 68,
+    "terms": 502
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
@@ -21,11 +21,10 @@
     "appium/appium-inspector",
     "carbon-design-system/carbon",
     "chaijs/chai",
-    "conventional-changelog/standard-version",
     "dotenvx/dotenvx",
-    "expressjs/body-parser",
     "flow-typed/flow-typed",
     "ghostery/ghostery-extension",
+    "gildas-lormeau/zip.js",
     "GladysAssistant/Gladys",
     "google/docsy",
     "GoogleChromeLabs/clooney",
@@ -35,7 +34,6 @@
     "i18next/react-i18next",
     "import-js/eslint-plugin-import",
     "ipfs/ipfs-companion",
-    "ipfs/ipfs-desktop",
     "isomorphic-git/isomorphic-git",
     "jakerella/jquery-mockjax",
     "jasonlong/isometric-contributions",

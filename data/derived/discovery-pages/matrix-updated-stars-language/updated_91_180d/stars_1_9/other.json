@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 56,
-    "terms": 136
+    "components": 180,
+    "concepts": 141,
+    "observations": 141,
+    "repos": 57,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -20,6 +20,7 @@
     "adobe/spectrum-tokens",
     "anchordotdev/puma-acme",
     "arya-s/phantty",
+    "Asmod4n/mruby-argon2",
     "aspect-build/rules_jasmine",
     "ATProtoKit/MultiformatsKit",
     "baskeboler/clj-karaoke-lyrics",

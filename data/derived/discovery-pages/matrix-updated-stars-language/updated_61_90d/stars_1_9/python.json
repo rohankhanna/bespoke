@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 238,
-    "concepts": 144,
-    "observations": 144,
-    "repos": 65,
-    "terms": 161
+    "components": 230,
+    "concepts": 140,
+    "observations": 140,
+    "repos": 64,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -32,7 +32,6 @@
     "audeering/audonnx",
     "axolotl-ai-cloud/ml-cross-entropy",
     "beneadie/DeepDog_1",
-    "Boulaouaney/timmx",
     "bryanh9111/engram",
     "caesar0301/soothe",
     "cafitac/hermit-agent",
@@ -40,6 +39,7 @@
     "cdxeve/scale-openclaw",
     "chaoss/grimoirelab-toolkit",
     "cjtruheart/abundance-codex",
+    "conda-forge/threadpoolctl-feedstock",
     "CoolCat467/idlemypyextension",
     "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
     "danielrosehill/claude-slash-commands",
@@ -49,7 +49,6 @@
     "dora-rs/dora-benchmark",
     "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",
-    "fixie-ai/evals",
     "floxym/financial-chat",
     "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",

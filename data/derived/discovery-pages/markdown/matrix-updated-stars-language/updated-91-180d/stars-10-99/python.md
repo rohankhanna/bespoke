@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 123
-- terms: 318
-- components: 336
-- concepts: 311
-- observations: 312
+- repos: 124
+- terms: 328
+- components: 350
+- concepts: 322
+- observations: 323
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [BirolLab/tigmint](https://github.com/BirolLab/tigmint) | 63 | 2026-03-24T15:16:02Z | Python | Infrastructure/tooling | 7 | 6 | 8 | 8 |
+| [ironArray/Caterva2](https://github.com/ironArray/Caterva2) | 13 | 2026-03-24T12:33:15Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [IST-DASLab/Quartet-II](https://github.com/IST-DASLab/Quartet-II) | 70 | 2026-03-23T13:53:39Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [logic-star-ai/swt-bench](https://github.com/logic-star-ai/swt-bench) | 76 | 2026-03-23T10:01:52Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [nousresearch/tinker-atropos](https://github.com/NousResearch/tinker-atropos) | 52 | 2026-03-22T21:35:09Z | Python | Service/API | 0 | 0 | 0 | 0 |
@@ -148,7 +150,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [EasternJournalist/pipeline](https://github.com/EasternJournalist/pipeline) | 13 | 2025-12-26T09:28:11Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [ReneHollander/rep0st](https://github.com/ReneHollander/rep0st) | 37 | 2025-12-25T16:07:05Z | Python | Unknown | 0 | 8 | 0 | 0 |
 | [BoosterRobotics/booster_deploy](https://github.com/BoosterRobotics/booster_deploy) | 22 | 2025-12-25T11:27:47Z | Python | Framework | 0 | 0 | 0 | 0 |
-| [SLDGroup/EffiDec3D](https://github.com/SLDGroup/EffiDec3D) | 38 | 2025-12-24T21:46:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -189,6 +190,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-deepmind/alphageometry2](https://github.com/google-deepmind/alphageometry2) | 68 | 2026-01-07T22:35:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Owen-Liuyuxuan/ros2_vision_inference](https://github.com/Owen-Liuyuxuan/ros2_vision_inference) | 67 | 2026-02-18T13:44:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [enjoy-digital/liteiclink](https://github.com/enjoy-digital/liteiclink) | 66 | 2026-02-20T14:09:07Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [BirolLab/tigmint](https://github.com/BirolLab/tigmint) | 63 | 2026-03-24T15:16:02Z | Python | Infrastructure/tooling | 7 | 6 | 8 | 8 |
 | [CMBAgents/cmbagent](https://github.com/CMBAgents/cmbagent) | 62 | 2026-02-12T18:05:46Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Embarcadero/PythonEnvironments](https://github.com/Embarcadero/PythonEnvironments) | 61 | 2026-02-27T10:20:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [philipy1219/ComfyUI-TaylorSeer](https://github.com/philipy1219/ComfyUI-TaylorSeer) | 60 | 2026-01-29T06:37:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -226,7 +228,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zheng977/MutiAgent4Fraud](https://github.com/zheng977/MutiAgent4Fraud) | 39 | 2026-02-03T06:33:32Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [gazebosim/gz-mujoco](https://github.com/gazebosim/gz-mujoco) | 38 | 2026-03-04T22:45:11Z | Python | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [MINT-SJTU/STI-Bench](https://github.com/MINT-SJTU/STI-Bench) | 38 | 2026-01-12T14:23:56Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [SLDGroup/EffiDec3D](https://github.com/SLDGroup/EffiDec3D) | 38 | 2025-12-24T21:46:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [bigai-nlco/RuleReasoner](https://github.com/bigai-nlco/RuleReasoner) | 37 | 2026-02-25T14:32:07Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [galaxyproject/tools-devteam](https://github.com/galaxyproject/tools-devteam) | 37 | 2026-02-20T07:13:27Z | Python | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [TencentYoutuResearch/SPEAR](https://github.com/TencentYoutuResearch/SPEAR) | 37 | 2026-01-30T11:23:30Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -265,6 +266,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [talieisin/britfix](https://github.com/Talieisin/britfix) | 14 | 2026-03-12T08:25:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [SLDGroup/LoMix](https://github.com/SLDGroup/LoMix) | 14 | 2026-02-04T16:50:32Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [HabanaAI/DeepSpeed](https://github.com/HabanaAI/DeepSpeed) | 14 | 2026-01-08T19:21:44Z | Python | Infrastructure/tooling | 9 | 2 | 9 | 9 |
+| [ironArray/Caterva2](https://github.com/ironArray/Caterva2) | 13 | 2026-03-24T12:33:15Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [PoseLib/posebench](https://github.com/PoseLib/posebench) | 13 | 2026-03-18T10:51:51Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [chaoss/grimoirelab-kidash](https://github.com/chaoss/grimoirelab-kidash) | 13 | 2026-03-03T09:03:44Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [chenkang455/ManiSkill-GS](https://github.com/chenkang455/ManiSkill-GS) | 13 | 2026-02-26T13:23:36Z | Python | Unknown | 0 | 0 | 0 | 0 |

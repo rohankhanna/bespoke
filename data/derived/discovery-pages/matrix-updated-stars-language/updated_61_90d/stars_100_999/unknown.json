@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 274,
-    "observations": 275,
-    "repos": 68,
-    "terms": 273
+    "components": 76,
+    "concepts": 271,
+    "observations": 272,
+    "repos": 67,
+    "terms": 270
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -32,6 +32,7 @@
     "attack68/rateslib",
     "AutoJunjie/awesome-agent-harness",
     "bloomberg/clang-p2996",
+    "cisagov/vulnrichment",
     "cloudflare/skills",
     "cncf/artwork",
     "cosmos/awesome-cosmos",
@@ -39,7 +40,6 @@
     "django/deps",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
-    "dotnet/source-build",
     "e18e/ecosystem-issues",
     "emberjs/rfcs",
     "eryajf/awesome-stars-eryajf",
@@ -66,7 +66,6 @@
     "NuGet/docs.microsoft.com-nuget",
     "oak-security/audit-reports",
     "ocaml/opam-repository",
-    "oobabooga/textgen-extensions",
     "piebald-ai/awesome-gemini-cli",
     "preactjs/awesome-preact",
     "ranpox/awesome-computer-use",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2704,
-    "concepts": 470,
-    "observations": 472,
-    "repos": 67,
-    "terms": 473
+    "components": 2987,
+    "concepts": 515,
+    "observations": 518,
+    "repos": 72,
+    "terms": 518
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -29,8 +29,11 @@
     "brianc/node-postgres",
     "commitizen/cz-cli",
     "ConardLi/easy-dataset",
+    "cure53/DOMPurify",
     "debug-js/debug",
     "decaporg/decap-cms",
+    "electron/minimal-repro",
+    "expressjs/express",
     "eyaltoledano/claude-task-master",
     "fastify/fastify",
     "google/zx",
@@ -53,8 +56,8 @@
     "jquery/jquery-ui",
     "karma-runner/karma",
     "Leaflet/Leaflet",
-    "less/less.js",
     "lodash/lodash",
+    "lovell/sharp",
     "markdown-it/markdown-it",
     "markedjs/marked",
     "motdotla/dotenv",
@@ -67,6 +70,7 @@
     "PrismJS/prism",
     "reactjs/react.dev",
     "remy/nodemon",
+    "rollup/rollup",
     "semantic-release/semantic-release",
     "serverless/serverless",
     "simple-icons/simple-icons",
@@ -80,6 +84,7 @@
     "webpack/webpack",
     "webtorrent/webtorrent",
     "welldone-software/why-did-you-render",
-    "yarnpkg/yarn"
+    "yarnpkg/yarn",
+    "zloirock/core-js"
   ]
 }

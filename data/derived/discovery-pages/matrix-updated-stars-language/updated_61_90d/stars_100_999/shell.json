@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 227,
-    "concepts": 277,
-    "observations": 281,
-    "repos": 54,
-    "terms": 288
+    "components": 230,
+    "concepts": 290,
+    "observations": 294,
+    "repos": 57,
+    "terms": 301
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
+    "alexmyczko/fnt",
     "alfredolopez80/multi-agent-ralph-loop",
+    "alpinelinux/aports",
     "arangrhie/T2T-Polish",
     "aslafy-z/helm-git",
     "astro-han/claude-pace",
     "aws/aws-app-mesh-examples",
+    "bnb-chain/bsc-snapshots",
     "chaoss/grimoirelab",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",

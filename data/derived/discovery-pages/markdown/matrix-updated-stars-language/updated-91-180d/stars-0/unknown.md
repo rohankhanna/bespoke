@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
+- repos: 22
 - terms: 47
 - components: 84
 - concepts: 47
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [hermit-os/tokio](https://github.com/hermit-os/tokio) | 0 | 2026-03-17T19:45:58Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [cwfitzgerald/libtest-mimic](https://github.com/cwfitzgerald/libtest-mimic) | 0 | 2026-03-16T16:27:11Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -52,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [hermit-os/tokio](https://github.com/hermit-os/tokio) | 0 | 2026-03-17T19:45:58Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [cwfitzgerald/libtest-mimic](https://github.com/cwfitzgerald/libtest-mimic) | 0 | 2026-03-16T16:27:11Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |

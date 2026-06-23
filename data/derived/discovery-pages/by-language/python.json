@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 18149,
-    "concepts": 27240,
-    "observations": 27292,
-    "repos": 6767,
-    "terms": 27039
+    "components": 18174,
+    "concepts": 27282,
+    "observations": 27334,
+    "repos": 6776,
+    "terms": 27061
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -674,6 +674,9 @@
     "ArcadeAI/arcade-mcp",
     "arcaputo3/mcp-server-whisper",
     "arcee-ai/mergekit",
+    "Archerkattri/faster-trellis",
+    "Archerkattri/hermit-trellis2",
+    "Archerkattri/hermit-trellis2-plus-plus",
     "Archerkattri/hicache-plus-plus",
     "archinetai/a-unet",
     "archinetai/audio-diffusion-pytorch",
@@ -3227,6 +3230,7 @@
     "isamert/gedi",
     "isamert/gracer",
     "ISEEKYAN/mbridge",
+    "ishandutta0098/lancedb-multimodal-myntra-fashion-search-engine",
     "isl-org/DPT",
     "isl-org/MiDaS",
     "isl-org/next-vit",
@@ -3248,6 +3252,7 @@
     "jackyjsy/CVPR21Chal-SLR",
     "jacobmarks/clustering-plugin",
     "jacobmarks/image-quality-issues",
+    "Jaded-Encoding-Thaumaturgy/vs-jetpack",
     "jadore801120/attention-is-all-you-need-pytorch",
     "JaidedAI/EasyOCR",
     "jakubcerveny/gilbert",
@@ -3673,6 +3678,7 @@
     "laixintao/tokei-pie",
     "laksjdjf/IPAdapter-ComfyUI",
     "LambdaLabsML/distributed-training-guide",
+    "lancedb/yoloexplorer",
     "langbot-app/LangBot",
     "langchain-ai/deepagents",
     "langchain-ai/langchain",
@@ -4199,6 +4205,8 @@
     "microsoft/ToRA",
     "microsoft/torchscale",
     "microsoft/TREC-2019-Deep-Learning",
+    "microsoft/TRELLIS",
+    "microsoft/TRELLIS.2",
     "microsoft/UFO",
     "microsoft/unilm",
     "microsoft/UniSpeech",
@@ -6057,6 +6065,7 @@
     "therealxiaomanchu/ex-skill",
     "theroyallab/tabbyAPI",
     "theskumar/python-dotenv",
+    "TheTom/turboquant_plus",
     "theupdateframework/python-tuf",
     "theupdateframework/specification",
     "theupdateframework/tuf-on-ci",

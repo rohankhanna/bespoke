@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-22T11:59:31.612749+00:00`
+Generated at: `2026-06-23T05:55:24.270285+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 863
-- terms: 2009
-- components: 2163
-- concepts: 2021
-- observations: 2027
+- repos: 865
+- terms: 2019
+- components: 2172
+- concepts: 2031
+- observations: 2037
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2KAbhishek/pickme.nvim](https://github.com/2KAbhishek/pickme.nvim) | 74 | 2025-12-24T21:33:56Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [kigster/puma-daemon](https://github.com/kigster/puma-daemon) | 39 | 2025-12-24T19:53:34Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [travis-ci/travis-listener](https://github.com/travis-ci/travis-listener) | 44 | 2025-12-23T14:43:07Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [travis-ci/travis-scheduler](https://github.com/travis-ci/travis-scheduler) | 28 | 2025-12-23T14:03:11Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [falcoframework/Falco.Htmx](https://github.com/falcoframework/Falco.Htmx) | 75 | 2025-12-22T10:06:18Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -1021,6 +1023,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Ernest-su/LinuxCmd](https://github.com/Ernest-su/LinuxCmd) | 75 | 2023-02-03T11:09:19Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [google/google-id-token](https://github.com/google/google-id-token) | 75 | 2023-01-19T23:41:27Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AlexBrohshtut/vue-ts-realworld-app](https://github.com/AlexBrohshtut/vue-ts-realworld-app) | 75 | 2022-07-20T23:50:19Z | Other | Unknown | 0 | 37 | 0 | 0 |
+| [2KAbhishek/pickme.nvim](https://github.com/2KAbhishek/pickme.nvim) | 74 | 2025-12-24T21:33:56Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [0xZunia/ToonSharp](https://github.com/0xZunia/ToonSharp) | 74 | 2025-10-30T14:15:10Z | Other | Library | 0 | 0 | 0 | 0 |
 | [DoodleBears/split-lang](https://github.com/DoodleBears/split-lang) | 74 | 2025-09-18T03:16:32Z | Other | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [EdwardDixon/snake](https://github.com/EdwardDixon/snake) | 74 | 2025-07-10T22:30:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1337,6 +1340,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dom8509/logseq-to-markdown](https://github.com/dom8509/logseq-to-markdown) | 40 | 2024-06-10T05:01:01Z | Other | Unknown | 0 | 6 | 0 | 0 |
 | [niuiic/dap-utils.nvim](https://github.com/niuiic/dap-utils.nvim) | 40 | 2024-05-11T04:36:12Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [yousty/event_store_client](https://github.com/yousty/event_store_client) | 40 | 2023-09-14T08:03:23Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [kigster/puma-daemon](https://github.com/kigster/puma-daemon) | 39 | 2025-12-24T19:53:34Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [terrierteam/pyterrier_doc2query](https://github.com/terrierteam/pyterrier_doc2query) | 39 | 2025-11-27T09:54:49Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [redis-stack/helm-redis-stack](https://github.com/redis-stack/helm-redis-stack) | 39 | 2025-11-03T14:01:14Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [2KAbhishek/co-author.nvim](https://github.com/2KAbhishek/co-author.nvim) | 39 | 2025-10-16T05:35:29Z | Other | Infrastructure/tooling | 9 | 5 | 9 | 9 |

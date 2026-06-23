@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 235,
-    "concepts": 312,
-    "observations": 313,
-    "repos": 46,
-    "terms": 307
+    "components": 206,
+    "concepts": 303,
+    "observations": 304,
+    "repos": 42,
+    "terms": 298
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T11:59:31.612749+00:00",
+  "generated_at": "2026-06-23T05:55:24.270285+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
@@ -24,7 +24,6 @@
     "atsushieno/uapmd",
     "BirolLab/btllib",
     "bmwiedemann/openSUSE",
-    "boostorg/config",
     "compiler-research/CppInterOp",
     "confluentinc/libserdes",
     "diffscope/diffscope-project",
@@ -50,15 +49,12 @@
     "microsoft/aitour-exploring-cutting-edge-models",
     "milvus-io/milvus-sdk-cpp",
     "oneapi-src/unified-memory-framework",
-    "rapidsai/ucxx",
-    "ROCm/rocAL",
     "ROCm/ROCgdb",
     "ROCm/rpp",
     "skeeto/dcmake",
     "walbourn/directxmathtest",
     "xjb714/xjb",
     "xuegao-tzx/Fllama",
-    "yquake2/yquake2remaster",
     "zig-wasm/wasmer-zig-api"
   ]
 }
