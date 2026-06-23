@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/LocalVQE",
+      "target": "microsoft/aec-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/LocalVQE",
+      "target": "xiaobin-rong/gtcrn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "localai-org/LocalVQE",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "localai-org/LocalVQE",
+      "target": "c-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "localai-org/LocalVQE",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "localai-org/LocalVQE",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "localai-org/LocalVQE",
+      "target": "realtime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T07:42:36.080189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14516
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lean neural real-time acoustic echo cancellation with soft delay estimation - GGML and PyTorch inference",
+    "fork": false,
+    "full_name": "localai-org/LocalVQE",
+    "html_url": "https://github.com/localai-org/LocalVQE",
+    "language": "C++",
+    "pushed_at": "2026-06-22T21:02:36Z",
+    "stargazers_count": 138,
+    "topics": [
+      "audio-processing",
+      "c-api",
+      "embedded",
+      "neural-network",
+      "realtime"
+    ],
+    "updated_at": "2026-06-23T05:42:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/aec-challenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiaobin-rong/gtcrn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/LocalAI-io/LocalVQE-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/LocalAI-io/LocalVQE-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-api"
+    },
+    {
+      "context_snippet": "[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/LocalAI-io/LocalVQE-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/LocalAI-io/LocalVQE-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/LocalAI-io/LocalVQE-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    }
+  ]
+}

@@ -1555,6 +1555,30 @@
       "source_repo": "NVIDIA/cub",
       "status": "candidate-context",
       "text": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate-context",
+      "text": "Pure Rust Inference Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PacifAIst/Quansloth",
+      "status": "candidate-context",
+      "text": "Based on the implementation of Google's TurboQuant (ICLR 2026) \u2014 Quansloth brings elite KV cache compression to local LLM inference.  Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware with ease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PacifAIst/Quansloth",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -2331,6 +2355,18 @@
       "source_repo": "NVIDIA/cub",
       "status": "candidate",
       "text": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PacifAIst/Quansloth",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -6418,11 +6454,35 @@
       "observed_at": "2026-06-23T00:47:09.772172+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Avarok-Cybersecurity/atlas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "PacifAIst/Quansloth"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

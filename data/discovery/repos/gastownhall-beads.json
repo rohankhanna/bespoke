@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -36,22 +36,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci-measurements.yml"
-    },
-    {
-      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci-measurements.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci-measurements.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -66,7 +51,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -81,7 +66,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -96,7 +81,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -111,7 +96,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -126,7 +111,22 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-measurements.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-measurements.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-measurements.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -146,7 +146,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -161,7 +161,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -176,7 +176,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -186,7 +186,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -206,7 +206,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -226,7 +226,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -241,7 +241,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cross-version-smoke.yml"
     },
@@ -256,7 +256,7 @@
       "source_file": ".github/workflows/cross-version-smoke.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml"
     },
@@ -286,17 +286,17 @@
       "source_file": ".github/workflows/deploy-docs.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -311,32 +311,12 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -346,12 +326,32 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -366,7 +366,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -381,7 +381,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -391,7 +391,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -401,32 +401,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -441,17 +416,17 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -466,7 +441,17 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -481,12 +466,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -506,7 +486,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -516,7 +496,27 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -531,7 +531,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -541,7 +541,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -551,7 +551,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -561,7 +561,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -571,7 +571,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -586,7 +586,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -596,7 +596,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/migration-test.yml"
     },
@@ -611,7 +611,7 @@
       "source_file": ".github/workflows/migration-test.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml"
     },
@@ -621,12 +621,12 @@
       "source_file": ".github/workflows/nightly.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nix-build.yml"
     },
@@ -636,12 +636,12 @@
       "source_file": ".github/workflows/nix-build.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-risk.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-risk.yml"
     },
@@ -651,7 +651,7 @@
       "source_file": ".github/workflows/pr-risk.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-risk.yml"
     },
@@ -666,7 +666,7 @@
       "source_file": ".github/workflows/pr-risk.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-risk.yml"
     },
@@ -676,7 +676,7 @@
       "source_file": ".github/workflows/pr-risk.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-risk.yml"
     },
@@ -686,7 +686,7 @@
       "source_file": ".github/workflows/pr-risk.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-risk.yml"
     },
@@ -696,7 +696,7 @@
       "source_file": ".github/workflows/pr-risk.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-risk.yml"
     }
@@ -706,7 +706,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml",
       "source_repo": "gastownhall/beads",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -769,7 +769,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cross-version-smoke.yml",
       "source_repo": "gastownhall/beads",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -797,7 +797,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "gastownhall/beads",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -839,7 +839,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "gastownhall/beads",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -881,7 +881,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "gastownhall/beads",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "target_type": "component"
     },
     {
@@ -909,7 +909,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/migration-test.yml",
       "source_repo": "gastownhall/beads",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -937,7 +937,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "gastownhall/beads",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -951,7 +951,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "gastownhall/beads",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "target_type": "component"
     },
     {
@@ -965,7 +965,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nix-build.yml",
       "source_repo": "gastownhall/beads",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -986,7 +986,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-risk.yml",
       "source_repo": "gastownhall/beads",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -1039,7 +1039,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T19:50:17.118685+00:00",
+  "fetched_at": "2026-06-23T08:49:52.912419+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1047,15 +1047,15 @@
     },
     {
       "path": "go.mod",
-      "size": 14054
+      "size": 14118
     },
     {
       "path": ".github/workflows/ci-measurements.yml",
-      "size": 28967
+      "size": 29029
     },
     {
       "path": ".github/workflows/cross-version-smoke.yml",
-      "size": 2616
+      "size": 2678
     },
     {
       "path": ".github/workflows/deploy-docs.yml",
@@ -1063,23 +1063,23 @@
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 36212
+      "size": 36274
     },
     {
       "path": ".github/workflows/migration-test.yml",
-      "size": 2187
+      "size": 2249
     },
     {
       "path": ".github/workflows/nightly.yml",
-      "size": 3489
+      "size": 3551
     },
     {
       "path": ".github/workflows/nix-build.yml",
-      "size": 726
+      "size": 788
     },
     {
       "path": ".github/workflows/pr-risk.yml",
-      "size": 9041
+      "size": 9103
     }
   ],
   "related_repositories": [],
@@ -1091,14 +1091,14 @@
     "full_name": "gastownhall/beads",
     "html_url": "https://github.com/gastownhall/beads",
     "language": "Go",
-    "pushed_at": "2026-06-22T17:38:53Z",
-    "stargazers_count": 24690,
+    "pushed_at": "2026-06-23T06:27:42Z",
+    "stargazers_count": 24703,
     "topics": [
       "agents",
       "claude-code",
       "coding"
     ],
-    "updated_at": "2026-06-22T19:38:32Z"
+    "updated_at": "2026-06-23T08:45:55Z"
   },
   "repo_links": [],
   "terms": [

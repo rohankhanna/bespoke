@@ -8269,6 +8269,18 @@
       "source_repo": "the-database/traiNNer-redux",
       "status": "candidate-context",
       "text": "![redux3](https://github.com/user-attachments/assets/d107b2fc-6b68-4d3e-b08d-82c8231796cb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "status": "candidate-context",
+      "text": "Learning low-shot object classification with explicit shape bias learned from point clouds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "status": "candidate-context",
+      "text": "![alt text](images/teaser.png)"
     }
   ],
   "candidate_glosses": [
@@ -12411,6 +12423,12 @@
       "source_repo": "the-database/traiNNer-redux",
       "status": "candidate",
       "text": "![redux3](https://github.com/user-attachments/assets/d107b2fc-6b68-4d3e-b08d-82c8231796cb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "status": "candidate",
+      "text": "![alt text](images/teaser.png)"
     }
   ],
   "candidate_related_terms": [
@@ -39052,11 +39070,167 @@
       "observed_at": "2026-06-23T00:47:09.772172+00:00",
       "source_file": null,
       "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

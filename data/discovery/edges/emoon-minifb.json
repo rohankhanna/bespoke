@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emoon/minifb",
+      "target": "badlogic/gdb-7.1a",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emoon/minifb",
+      "target": "badlogic/dosbox-x",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-23T07:25:49.577775+00:00",
+  "source_repo": "emoon/minifb"
+}

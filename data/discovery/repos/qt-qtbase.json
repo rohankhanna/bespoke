@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ninja-build.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ninja-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ninja-build.yml",
+      "source_repo": "qt/qtbase",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ninja-build.yml",
+      "source_repo": "qt/qtbase",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ninja-build.yml",
+      "source_repo": "qt/qtbase",
+      "target": "Smoke build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qt/qtbase",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T08:53:23.232413+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ninja-build.yml",
+      "size": 6454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Qt Base (Core, Gui, Widgets, Network, ...)",
+    "fork": false,
+    "full_name": "qt/qtbase",
+    "html_url": "https://github.com/qt/qtbase",
+    "language": "C++",
+    "pushed_at": "2026-06-23T05:51:42Z",
+    "stargazers_count": 3035,
+    "topics": [
+      "c-plus-plus",
+      "qt",
+      "qt5"
+    ],
+    "updated_at": "2026-06-22T22:57:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Smoke build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ninja-build.yml",
+      "term": "Smoke build"
+    },
+    {
+      "context_snippet": "Smoke build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    }
+  ]
+}

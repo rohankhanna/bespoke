@@ -151,14 +151,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "plotters-rs/plotters",
-      "target": "plotters-rs/plotters-minifb-demo",
+      "target": "plotters-rs/plotters-piston",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "plotters-rs/plotters",
-      "target": "plotters-rs/plotters-gtk-demo",
+      "target": "plotters-rs/plotters-wasm-demo",
       "target_type": "repository"
     },
     {
@@ -400,7 +400,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T15:31:24.057821+00:00",
+  "fetched_at": "2026-06-23T08:53:39.501143+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -472,12 +472,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "plotters-rs/plotters-gtk-demo",
+      "full_name": "plotters-rs/plotters-piston",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "plotters-rs/plotters-minifb-demo",
+      "full_name": "plotters-rs/plotters-wasm-demo",
       "source_file": "README.md"
     }
   ],

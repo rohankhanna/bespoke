@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emoon/minifb",
+      "target": "badlogic/gdb-7.1a",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emoon/minifb",
+      "target": "badlogic/dosbox-x",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-23T08:53:45.767918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 47139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MiniFB is a small cross platform library to create a frame buffer that you can draw pixels in",
+    "fork": false,
+    "full_name": "emoon/minifb",
+    "html_url": "https://github.com/emoon/minifb",
+    "language": "C",
+    "pushed_at": "2026-04-12T20:30:02Z",
+    "stargazers_count": 1298,
+    "topics": [],
+    "updated_at": "2026-06-23T07:28:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badlogic/dosbox-x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badlogic/gdb-7.1a",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

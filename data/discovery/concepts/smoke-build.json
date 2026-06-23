@@ -19,12 +19,30 @@
       "source_repo": "DefinedNet/mobile_nebula",
       "status": "candidate-context",
       "text": "Smoke build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qt/qtbase",
+      "status": "candidate-context",
+      "text": "Qt Base (Core, Gui, Widgets, Network, ...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qt/qtbase",
+      "status": "candidate-context",
+      "text": "Smoke build"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "DefinedNet/mobile_nebula",
+      "status": "candidate",
+      "text": "Smoke build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qt/qtbase",
       "status": "candidate",
       "text": "Smoke build"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/smoke.yml",
       "source_repo": "DefinedNet/mobile_nebula"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/ninja-build.yml",
+      "source_repo": "qt/qtbase"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

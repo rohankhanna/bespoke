@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossplane/tbs",
+      "target": "crossplaneio/crossplane",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossplane/tbs",
+      "target": "crossplaneio/tbs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossplane/tbs",
+      "target": "heptio/tgik",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-23T07:39:11.265116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2037
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Information and content about \"The Binding Status\" Crossplane focused live stream and podcast",
+    "fork": false,
+    "full_name": "crossplane/tbs",
+    "html_url": "https://github.com/crossplane/tbs",
+    "language": "Go",
+    "pushed_at": "2023-12-15T08:37:55Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-03-01T12:50:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crossplaneio/crossplane",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crossplaneio/tbs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heptio/tgik",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

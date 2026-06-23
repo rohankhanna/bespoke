@@ -9784,6 +9784,18 @@
       "source_repo": "microsoft/aspire-samples",
       "status": "candidate-context",
       "text": "[![CI (main)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml/badge.svg)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/command-line-api",
+      "status": "candidate-context",
+      "text": "Command line parsing, invocation, and rendering of terminal output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/command-line-api",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026"
     }
   ],
   "candidate_glosses": [
@@ -14700,6 +14712,12 @@
       "source_repo": "microsoft/aspire-samples",
       "status": "candidate",
       "text": "[![CI (main)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml/badge.svg)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/command-line-api",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -38293,11 +38311,185 @@
       "observed_at": "2026-06-23T00:47:09.772172+00:00",
       "source_file": null,
       "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "ember-cli/broccoli-babel-transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "litedb-org/LiteDB"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

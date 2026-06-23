@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/Bundle.yml"
     },
@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/Bundle.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/Bundle.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/Bundle.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/FrontendTest.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/FrontendTest.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/IntegrationTest.yml"
     },
@@ -61,12 +61,12 @@
       "source_file": ".github/workflows/IntegrationTest.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/IntegrationTest.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/LaunchTest.yml"
     },
@@ -76,7 +76,7 @@
       "source_file": ".github/workflows/LaunchTest.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ReleaseTriggers.yml"
     },
@@ -86,7 +86,7 @@
       "source_file": ".github/workflows/TagBot.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/Test.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/Test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/TestBundledExport.yml"
     },
@@ -121,7 +121,7 @@
       "source_file": ".github/workflows/TestBundledExport.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/TestFirefox.yml"
     },
@@ -153,7 +153,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/Bundle.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -181,7 +181,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/FrontendTest.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -223,7 +223,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/IntegrationTest.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -251,7 +251,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/LaunchTest.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -272,7 +272,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ReleaseTriggers.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -300,7 +300,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/Test.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -342,7 +342,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/TestBundledExport.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -363,7 +363,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/TestFirefox.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -458,7 +458,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T14:37:24.805692+00:00",
+  "fetched_at": "2026-06-23T08:28:07.302096+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -510,8 +510,8 @@
     "full_name": "JuliaPluto/Pluto.jl",
     "html_url": "https://github.com/JuliaPluto/Pluto.jl",
     "language": "JavaScript",
-    "pushed_at": "2026-06-20T12:02:38Z",
-    "stargazers_count": 5347,
+    "pushed_at": "2026-06-23T08:22:13Z",
+    "stargazers_count": 5346,
     "topics": [
       "designed-for-teachers",
       "education",
@@ -523,7 +523,7 @@
       "reactive",
       "visualization"
     ],
-    "updated_at": "2026-06-20T01:25:14Z"
+    "updated_at": "2026-06-23T08:16:47Z"
   },
   "repo_links": [
     {

@@ -336,7 +336,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T00:49:00.230894+00:00",
+  "fetched_at": "2026-06-23T08:54:20.920156+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -361,14 +361,14 @@
     "html_url": "https://github.com/ufbx/ufbx",
     "language": "C",
     "pushed_at": "2026-06-22T07:35:59Z",
-    "stargazers_count": 1318,
+    "stargazers_count": 1319,
     "topics": [
       "c",
       "cpp",
       "fbx",
       "single-source"
     ],
-    "updated_at": "2026-06-21T23:26:56Z"
+    "updated_at": "2026-06-23T07:09:02Z"
   },
   "repo_links": [
     {

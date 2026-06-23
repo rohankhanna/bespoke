@@ -9,7 +9,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-06-22T16:32:54.996171+00:00",
+  "fetched_at": "2026-06-23T07:39:23.677717+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -29,12 +29,12 @@
     "full_name": "googleapis/google-api-go-client",
     "html_url": "https://github.com/googleapis/google-api-go-client",
     "language": "Go",
-    "pushed_at": "2026-06-22T07:37:17Z",
+    "pushed_at": "2026-06-22T17:20:47Z",
     "stargazers_count": 4448,
     "topics": [
       "go"
     ],
-    "updated_at": "2026-06-22T07:37:25Z"
+    "updated_at": "2026-06-23T04:29:08Z"
   },
   "repo_links": [
     {

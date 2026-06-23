@@ -9628,6 +9628,18 @@
       "source_repo": "tirithen/clipper2",
       "status": "candidate-context",
       "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate-context",
+      "text": "Pure Rust Inference Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -14586,6 +14598,12 @@
       "source_repo": "tirithen/clipper2",
       "status": "candidate",
       "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -42751,11 +42769,251 @@
       "observed_at": "2026-06-23T00:47:09.772172+00:00",
       "source_file": null,
       "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Avarok-Cybersecurity/atlas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "imgui-rs/imgui-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "larry0x/cw-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

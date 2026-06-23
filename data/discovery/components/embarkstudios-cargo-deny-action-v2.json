@@ -1,7 +1,7 @@
 {
   "component": "EmbarkStudios/cargo-deny-action@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -337,6 +337,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/Build.yml",
       "source_repo": "adumbidiot/lz-str-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "Avarok-Cybersecurity/atlas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lablup/mlxcel"
     }
   ]
 }

@@ -2790,6 +2790,9 @@
   "alpha builds": [
     "alpha-builds"
   ],
+  "alpha ci": [
+    "alpha-ci"
+  ],
   "alpha releases": [
     "alpha-releases"
   ],
@@ -18080,6 +18083,9 @@
   "check upstream proto files": [
     "check-upstream-proto-files"
   ],
+  "check upstream updates": [
+    "check-upstream-updates"
+  ],
   "check urls": [
     "check-urls"
   ],
@@ -23176,6 +23182,9 @@
   ],
   "commandline-monitor": [
     "commandline-monitor"
+  ],
+  "commandlineparser": [
+    "commandlineparser"
   ],
   "commands": [
     "commands"
@@ -31037,6 +31046,9 @@
   "dgl-ke": [
     "dgl-ke"
   ],
+  "dgx-spark": [
+    "dgx-spark"
+  ],
   "dhall": [
     "dhall"
   ],
@@ -31369,6 +31381,9 @@
   ],
   "directshow": [
     "directshow"
+  ],
+  "directsound": [
+    "directsound"
   ],
   "directvoxgo": [
     "directvoxgo"
@@ -33181,6 +33196,9 @@
   ],
   "dotnet-standard": [
     "dotnet-standard"
+  ],
+  "dotnet-suggest": [
+    "dotnet-suggest"
   ],
   "dotnet-verify-samples": [
     "dotnet-verify-samples"
@@ -37280,6 +37298,9 @@
   "fast-tags": [
     "fast-tags"
   ],
+  "fast-trellis": [
+    "fast-trellis"
+  ],
   "fasta": [
     "fasta"
   ],
@@ -40247,6 +40268,9 @@
   ],
   "gb-chroot": [
     "gb-chroot"
+  ],
+  "gb10": [
+    "gb10"
   ],
   "gb200": [
     "gb200"
@@ -46160,6 +46184,9 @@
   ],
   "hunyuan-video": [
     "hunyuan-video"
+  ],
+  "hunyuan3d": [
+    "hunyuan3d"
   ],
   "husky": [
     "husky"
@@ -55207,6 +55234,9 @@
   ],
   "low-resource-nlp": [
     "low-resource-nlp"
+  ],
+  "low-shot": [
+    "low-shot"
   ],
   "lowcode": [
     "lowcode"
@@ -65082,6 +65112,12 @@
   "opensim-application-core-pr": [
     "opensim-application-core-pr"
   ],
+  "opensl-es": [
+    "opensl-es"
+  ],
+  "opensles": [
+    "opensles"
+  ],
   "openslide": [
     "openslide"
   ],
@@ -67799,6 +67835,9 @@
   ],
   "pipeline": [
     "pipeline"
+  ],
+  "pipeline parallel ci": [
+    "pipeline-parallel-ci"
   ],
   "pipeline-debt": [
     "pipeline-debt"
@@ -73892,6 +73931,9 @@
   ],
   "quality-gates": [
     "quality-gates"
+  ],
+  "quansloth": [
+    "quansloth"
   ],
   "quant": [
     "quant"
@@ -80480,6 +80522,9 @@
   ],
   "salsa20": [
     "salsa20"
+  ],
+  "sam-3d": [
+    "sam-3d"
   ],
   "sam-ba": [
     "sam-ba"
@@ -87461,6 +87506,9 @@
   "sway": [
     "sway"
   ],
+  "swaywm": [
+    "swaywm"
+  ],
   "swc-plugin": [
     "swc-plugin"
   ],
@@ -88157,6 +88205,9 @@
   "system-algorithm-deisgn": [
     "system-algorithm-deisgn"
   ],
+  "system-commandline": [
+    "system-commandline"
+  ],
   "system-env": [
     "system-env"
   ],
@@ -88699,6 +88750,9 @@
   ],
   "tauri-v2": [
     "tauri-v2"
+  ],
+  "taylorseer": [
+    "taylorseer"
   ],
   "tbbmalloc": [
     "tbbmalloc"
@@ -93388,6 +93442,9 @@
   "turbomind": [
     "turbomind"
   ],
+  "turboquant": [
+    "turboquant"
+  ],
   "turborepo": [
     "turborepo"
   ],
@@ -96746,6 +96803,9 @@
   "validate successful build": [
     "validate-successful-build"
   ],
+  "validate tag": [
+    "validate-tag"
+  ],
   "validate tar based distributions": [
     "validate-tar-based-distributions"
   ],
@@ -98722,6 +98782,9 @@
   ],
   "vqvae": [
     "vqvae"
+  ],
+  "vram-wall": [
+    "vram-wall"
   ],
   "vramsaving": [
     "vramsaving"

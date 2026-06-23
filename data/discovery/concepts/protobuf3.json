@@ -754,11 +754,23 @@
       "observed_at": "2026-06-22T19:14:07.629510+00:00",
       "source_file": null,
       "source_repo": "celestiaorg/protobuf3-solidity-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity-lib"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

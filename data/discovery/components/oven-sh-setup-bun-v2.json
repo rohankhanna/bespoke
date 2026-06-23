@@ -1,7 +1,7 @@
 {
   "component": "oven-sh/setup-bun@v2",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1262,6 +1262,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "shareAI-lab/Kode-CLI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "Avarok-Cybersecurity/atlas"
     }
   ]
 }

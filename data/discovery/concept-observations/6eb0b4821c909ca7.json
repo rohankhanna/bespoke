@@ -84,7 +84,7 @@
   "normalized_form": "plotters-backend",
   "observation_id": "6eb0b4821c909ca7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T14:08:32.759567+00:00",
+  "observed_at": "2026-06-23T07:25:49.577775+00:00",
   "observed_text": "Plotters Backend",
   "source_context_snippet": "Plotters Backend",
   "source_file": ".github/workflows/plotters-backend.yml",

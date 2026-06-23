@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gen2brain/malgo",
+      "target": "dr-soft/miniaudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gen2brain/malgo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gen2brain/malgo",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gen2brain/malgo",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gen2brain/malgo",
+      "target": "alsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gen2brain/malgo",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gen2brain/malgo",
+      "target": "directsound",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gen2brain/malgo",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gen2brain/malgo",
+      "target": "opensl-es",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gen2brain/malgo",
+      "target": "opensles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gen2brain/malgo",
+      "target": "wasapi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T07:42:31.844960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1149
+    },
+    {
+      "path": "go.mod",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mini audio library",
+    "fork": false,
+    "full_name": "gen2brain/malgo",
+    "html_url": "https://github.com/gen2brain/malgo",
+    "language": "C",
+    "pushed_at": "2026-05-13T19:21:00Z",
+    "stargazers_count": 415,
+    "topics": [
+      "alsa",
+      "audio",
+      "directsound",
+      "golang",
+      "opensl-es",
+      "opensles",
+      "oss",
+      "wasapi"
+    ],
+    "updated_at": "2026-06-23T02:27:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dr-soft/miniaudio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/gen2brain/malgo/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/malgo/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alsa"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/gen2brain/malgo/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/malgo/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/gen2brain/malgo/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/malgo/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directsound"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/gen2brain/malgo/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/malgo/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/gen2brain/malgo/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/malgo/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensl-es"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/gen2brain/malgo/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/malgo/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensles"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/gen2brain/malgo/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/malgo/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasapi"
+    }
+  ]
+}

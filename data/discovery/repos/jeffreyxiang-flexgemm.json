@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JeffreyXiang/FlexGEMM",
+      "target": "openai/triton",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-23T07:46:51.891444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4424
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Cross-Platform Backend for High-Performance Sparse Convolutions",
+    "fork": false,
+    "full_name": "JeffreyXiang/FlexGEMM",
+    "html_url": "https://github.com/JeffreyXiang/FlexGEMM",
+    "language": "Python",
+    "pushed_at": "2026-05-09T07:43:43Z",
+    "stargazers_count": 132,
+    "topics": [],
+    "updated_at": "2026-06-21T19:55:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/triton",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-06-22T14:08:32.759567+00:00",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Archerkattri/hermit-trellis2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/fast-trellis2"
     }
   ],
   "term": "trellis"

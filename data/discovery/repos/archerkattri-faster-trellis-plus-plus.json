@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "target": "dynamic-mode-decomposition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "target": "flow-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "target": "hicache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "target": "training-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "target": "trellis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T07:46:36.053766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HiCache++ (DMD) carved-hybrid acceleration for TRELLIS v1.",
+    "fork": false,
+    "full_name": "Archerkattri/faster-trellis-plus-plus",
+    "html_url": "https://github.com/Archerkattri/faster-trellis-plus-plus",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-06-11T16:04:20Z",
+    "stargazers_count": 1,
+    "topics": [
+      "3d-generation",
+      "diffusion",
+      "dynamic-mode-decomposition",
+      "flow-matching",
+      "hicache",
+      "image-to-3d",
+      "training-free",
+      "trellis"
+    ],
+    "updated_at": "2026-06-12T17:54:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-mode-decomposition"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow-matching"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hicache"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training-free"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trellis"
+    }
+  ]
+}

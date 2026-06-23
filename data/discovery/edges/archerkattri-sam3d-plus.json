@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "facebookresearch/sam-3d-objects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "facebookresearch/sam-3d-body",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "archerkattri/sam3d-plus-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "hermite-polynomials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "hicache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "sam-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "training-free",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-23T07:25:49.577775+00:00",
+  "source_repo": "Archerkattri/sam3d-plus"
+}

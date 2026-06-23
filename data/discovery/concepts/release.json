@@ -18282,6 +18282,30 @@
       "source_repo": "mozilla-ai/otari-sdk-rust",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekryski/mlx-swift-lm",
+      "status": "candidate-context",
+      "text": "LLMs and VLMs with MLX Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekryski/mlx-swift-lm",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lablup/mlxcel",
+      "status": "candidate-context",
+      "text": "MLX-based experimental inference engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lablup/mlxcel",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "candidate_glosses": [
@@ -27546,6 +27570,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mozilla-ai/otari-sdk-rust",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekryski/mlx-swift-lm",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lablup/mlxcel",
       "status": "candidate",
       "text": "Release"
     }
@@ -82634,11 +82670,473 @@
       "observed_at": "2026-06-23T00:47:09.772172+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release-python.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "git-lfs/git-lfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release-package.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "0no-co/wonka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unplugin/unplugin-auto-import"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vuejs/language-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antfu-collective/eslint-vitest-rule-tester"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "skilld-dev/retriv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "skilld-dev/skilld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vuejs/devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ekryski/mlx-swift-lm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lablup/mlxcel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "huggingface/hf-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sveltejs/devalue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazel-contrib/bazel-gazelle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "vmware-archive/buildkit-cli-for-kubectl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lite-xl/lite-xl-plugin-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/SmashTable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazeltools/bazel-deps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "storybook-eol/addon-graphql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "storybook-community/addon-queryparams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-contract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrueFiEng/Waffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shareAI-lab/Kode-CLI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rainbend/frp-notify"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

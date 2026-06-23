@@ -84,7 +84,7 @@
   "normalized_form": "valgrind-memory-check",
   "observation_id": "56c1b0bee65ad1a7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_at": "2026-06-23T07:25:49.577775+00:00",
   "observed_text": "Valgrind Memory Check",
   "source_context_snippet": "Valgrind Memory Check",
   "source_file": ".github/workflows/valgrind.yml",

@@ -283,6 +283,18 @@
       "source_repo": "Rezonality/zing",
       "status": "candidate-context",
       "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "localai-org/LocalVQE",
+      "status": "candidate-context",
+      "text": "Lean neural real-time acoustic echo cancellation with soft delay estimation - GGML and PyTorch inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localai-org/LocalVQE",
+      "status": "candidate-context",
+      "text": "[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/LocalAI-io/LocalVQE-demo)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "Rezonality/zing",
       "status": "candidate",
       "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localai-org/LocalVQE",
+      "status": "candidate",
+      "text": "[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/LocalAI-io/LocalVQE-demo)"
     }
   ],
   "candidate_related_terms": [],
@@ -1024,11 +1042,23 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "localai-org/LocalVQE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

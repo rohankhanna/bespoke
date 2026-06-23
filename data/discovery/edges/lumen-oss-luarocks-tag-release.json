@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nix-build.yml",
       "source_repo": "lumen-oss/luarocks-tag-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -74,7 +74,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "lumen-oss/luarocks-tag-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -95,7 +95,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "lumen-oss/luarocks-tag-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -109,7 +109,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "lumen-oss/luarocks-tag-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -130,7 +130,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update.yml",
       "source_repo": "lumen-oss/luarocks-tag-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -232,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-22T19:14:07.629510+00:00",
+  "generated_at": "2026-06-23T07:25:49.577775+00:00",
   "source_repo": "lumen-oss/luarocks-tag-release"
 }

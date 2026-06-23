@@ -1,0 +1,173 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "facebookresearch/sam-3d-objects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "facebookresearch/sam-3d-body",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "archerkattri/sam3d-plus-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "hermite-polynomials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "hicache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "sam-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus",
+      "target": "training-free",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T07:46:42.056152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18044
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 843
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HiCache (Hermite) acceleration for Meta SAM 3D Objects.",
+    "fork": false,
+    "full_name": "Archerkattri/sam3d-plus",
+    "html_url": "https://github.com/Archerkattri/sam3d-plus",
+    "language": "Python",
+    "pushed_at": "2026-06-11T16:04:39Z",
+    "stargazers_count": 1,
+    "topics": [
+      "3d-generation",
+      "diffusion",
+      "hermite-polynomials",
+      "hicache",
+      "image-to-3d",
+      "sam-3d",
+      "training-free"
+    ],
+    "updated_at": "2026-06-12T17:53:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "archerkattri/sam3d-plus-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/sam-3d-body",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/sam-3d-objects",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hermite-polynomials"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hicache"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sam-3d"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training-free"
+    }
+  ]
+}

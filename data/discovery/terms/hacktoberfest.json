@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -4106,6 +4106,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/aspire-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api"
     }
   ],
   "term": "hacktoberfest"

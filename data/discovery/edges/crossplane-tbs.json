@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossplane/tbs",
+      "target": "crossplaneio/crossplane",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossplane/tbs",
+      "target": "crossplaneio/tbs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossplane/tbs",
+      "target": "heptio/tgik",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-23T07:25:49.577775+00:00",
+  "source_repo": "crossplane/tbs"
+}

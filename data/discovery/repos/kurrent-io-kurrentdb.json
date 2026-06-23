@@ -337,7 +337,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T14:12:44.768187+00:00",
+  "fetched_at": "2026-06-23T07:32:36.809990+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -389,7 +389,7 @@
     "full_name": "kurrent-io/KurrentDB",
     "html_url": "https://github.com/kurrent-io/KurrentDB",
     "language": "C#",
-    "pushed_at": "2026-06-22T13:55:00Z",
+    "pushed_at": "2026-06-22T16:28:33Z",
     "stargazers_count": 5811,
     "topics": [
       "cqrs",

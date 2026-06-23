@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "alpha CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekryski/mlx-swift-lm",
+      "status": "candidate-context",
+      "text": "LLMs and VLMs with MLX Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekryski/mlx-swift-lm",
+      "status": "candidate-context",
+      "text": "alpha CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekryski/mlx-swift-lm",
+      "status": "candidate",
+      "text": "alpha CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13332,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12272,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11964,
+      "status": "candidate",
+      "text": "polonium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11964,
+      "status": "candidate",
+      "text": "radium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11964,
+      "status": "candidate",
+      "text": "radon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "alpha CI",
+  "concept_id": "alpha-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/alpha-ci.yml",
+      "source_repo": "ekryski/mlx-swift-lm"
+    }
+  ],
+  "first_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "alpha CI",
+      "sense_id": "alpha-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

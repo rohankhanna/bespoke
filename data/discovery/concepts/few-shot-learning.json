@@ -139,6 +139,18 @@
       "source_repo": "GuansongPang/deviation-network",
       "status": "candidate-context",
       "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "status": "candidate-context",
+      "text": "Learning low-shot object classification with explicit shape bias learned from point clouds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "status": "candidate-context",
+      "text": "![alt text](images/teaser.png)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "GuansongPang/deviation-network",
       "status": "candidate",
       "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "status": "candidate",
+      "text": "![alt text](images/teaser.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -1204,11 +1222,17 @@
       "observed_at": "2026-06-23T00:47:09.772172+00:00",
       "source_file": null,
       "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

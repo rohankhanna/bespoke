@@ -584,11 +584,17 @@
       "observed_at": "2026-06-22T19:14:07.629510+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "crate-ci/typos@f8a58b6b53f2279f71eb605f03a4ae4d10608f45",
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

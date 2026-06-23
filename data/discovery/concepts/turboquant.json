@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "turboquant"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PacifAIst/Quansloth",
+      "status": "candidate-context",
+      "text": "Based on the implementation of Google's TurboQuant (ICLR 2026) \u2014 Quansloth brings elite KV cache compression to local LLM inference.  Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware with ease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PacifAIst/Quansloth",
+      "status": "candidate-context",
+      "text": "```"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PacifAIst/Quansloth",
+      "status": "candidate",
+      "text": "```"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "turboquant",
+  "concept_id": "turboquant",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "PacifAIst/Quansloth"
+    }
+  ],
+  "first_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "turboquant",
+      "sense_id": "turboquant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

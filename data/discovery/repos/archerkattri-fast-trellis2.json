@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Archerkattri/fast-trellis2",
+      "target": "wlfeng0509/fast-sam3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/fast-trellis2",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/fast-trellis2",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/fast-trellis2",
+      "target": "fast-trellis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/fast-trellis2",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/fast-trellis2",
+      "target": "taylorseer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/fast-trellis2",
+      "target": "training-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/fast-trellis2",
+      "target": "trellis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/fast-trellis2",
+      "target": "trellis2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T07:46:43.975904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TaylorSeer (Fast) baseline acceleration for TRELLIS.2-4B.",
+    "fork": false,
+    "full_name": "Archerkattri/fast-trellis2",
+    "html_url": "https://github.com/Archerkattri/fast-trellis2",
+    "language": "Python",
+    "pushed_at": "2026-06-11T16:02:26Z",
+    "stargazers_count": 1,
+    "topics": [
+      "3d-generation",
+      "diffusion",
+      "fast-trellis",
+      "image-to-3d",
+      "taylorseer",
+      "training-free",
+      "trellis",
+      "trellis2"
+    ],
+    "updated_at": "2026-06-12T17:55:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wlfeng0509/fast-sam3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast-trellis"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "taylorseer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training-free"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trellis"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trellis2"
+    }
+  ]
+}

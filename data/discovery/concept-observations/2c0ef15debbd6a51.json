@@ -113,7 +113,7 @@
   "normalized_form": "package",
   "observation_id": "2c0ef15debbd6a51",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T14:08:32.759567+00:00",
+  "observed_at": "2026-06-23T07:25:49.577775+00:00",
   "observed_text": "Package",
   "source_context_snippet": "Package",
   "source_file": ".github/workflows/package.yml",

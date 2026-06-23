@@ -1,0 +1,271 @@
+{
+  "components": [
+    {
+      "component": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "dotnet/arcade/.github/workflows/inter-branch-merge-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/command-line-api",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/command-line-api",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "source_repo": "dotnet/command-line-api",
+      "target": "dotnet/arcade/.github/workflows/inter-branch-merge-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "source_repo": "dotnet/command-line-api",
+      "target": "Inter-branch merge workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "commandlineparser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "completions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "dotnet-standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "dotnet-suggest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "posix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "system-commandline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api",
+      "target": "vt100",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T08:53:19.434567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2530
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 329
+    },
+    {
+      "path": ".github/workflows/inter-branch-merge-flow.yml",
+      "size": 225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Command line parsing, invocation, and rendering of terminal output.",
+    "fork": false,
+    "full_name": "dotnet/command-line-api",
+    "html_url": "https://github.com/dotnet/command-line-api",
+    "language": "C#",
+    "pushed_at": "2026-06-21T02:10:14Z",
+    "stargazers_count": 3667,
+    "topics": [
+      "command-line",
+      "commandlineparser",
+      "completions",
+      "dotnet-core",
+      "dotnet-standard",
+      "dotnet-suggest",
+      "hacktoberfest",
+      "parser",
+      "parsing",
+      "posix",
+      "system-commandline",
+      "terminal",
+      "vt100"
+    ],
+    "updated_at": "2026-06-22T09:03:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backport PR to branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport PR to branch"
+    },
+    {
+      "context_snippet": "Inter-branch merge workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "term": "Inter-branch merge workflow"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commandlineparser"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completions"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-standard"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-suggest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system-commandline"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vt100"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mini audio library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/gen2brain/malgo/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/malgo/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/gen2brain/malgo/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/malgo/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19722172,
+      "status": "candidate",
+      "text": "aslef"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19722171,
+      "status": "candidate",
+      "text": "aaasa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19722170,
+      "status": "candidate",
+      "text": "bsaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19722168,
+      "status": "candidate",
+      "text": "asio"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "alsa",
+      "sense_id": "alsa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "alsa",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "alsa",
+  "observation_id": "606bc4dc392ab257",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-23T07:25:49.577775+00:00",
+  "observed_text": "alsa",
+  "source_context_snippet": "[![Build Status](https://github.com/gen2brain/malgo/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/malgo/actions)",
+  "source_file": null,
+  "source_repo": "gen2brain/malgo",
+  "source_repo_description": "Mini audio library"
+}

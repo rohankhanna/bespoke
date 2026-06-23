@@ -327,7 +327,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T16:36:58.950313+00:00",
+  "fetched_at": "2026-06-23T07:45:10.616787+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -368,9 +368,9 @@
     "html_url": "https://github.com/huggingface/hf-mcp-server",
     "language": "TypeScript",
     "pushed_at": "2026-06-19T22:50:08Z",
-    "stargazers_count": 252,
+    "stargazers_count": 253,
     "topics": [],
-    "updated_at": "2026-06-19T23:17:48Z"
+    "updated_at": "2026-06-23T05:53:53Z"
   },
   "repo_links": [
     {

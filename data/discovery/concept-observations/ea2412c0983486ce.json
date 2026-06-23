@@ -84,7 +84,7 @@
   "normalized_form": "labeler-predict-issues",
   "observation_id": "ea2412c0983486ce",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_at": "2026-06-23T07:25:49.577775+00:00",
   "observed_text": "Labeler: Predict (Issues)",
   "source_context_snippet": "\"Labeler: Predict (Issues)\"",
   "source_file": ".github/workflows/labeler-predict-issues.yml",

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Based on the implementation of Google's TurboQuant (ICLR 2026) \u2014 Quansloth brings elite KV cache compression to local LLM inference.  Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware with ease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "```"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "```"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "turboquant",
+      "sense_id": "turboquant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "turboquant",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "turboquant",
+  "observation_id": "5de28200efa526ae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-23T07:25:49.577775+00:00",
+  "observed_text": "turboquant",
+  "source_context_snippet": "```",
+  "source_file": null,
+  "source_repo": "PacifAIst/Quansloth",
+  "source_repo_description": "Based on the implementation of Google's TurboQuant (ICLR 2026) \u2014 Quansloth brings elite KV cache compression to local LLM inference.  Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware with ease"
+}

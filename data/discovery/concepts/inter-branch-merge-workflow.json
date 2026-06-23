@@ -79,6 +79,18 @@
       "source_repo": "dotnet/wpf",
       "status": "candidate-context",
       "text": "Inter-branch merge workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/command-line-api",
+      "status": "candidate-context",
+      "text": "Command line parsing, invocation, and rendering of terminal output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/command-line-api",
+      "status": "candidate-context",
+      "text": "Inter-branch merge workflow"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dotnet/wpf",
+      "status": "candidate",
+      "text": "Inter-branch merge workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/command-line-api",
       "status": "candidate",
       "text": "Inter-branch merge workflow"
     }
@@ -196,11 +214,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "dotnet/wpf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "source_repo": "dotnet/command-line-api"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

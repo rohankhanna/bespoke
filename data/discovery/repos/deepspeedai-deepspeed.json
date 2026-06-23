@@ -74,26 +74,6 @@
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/hpu-gaudi2.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/modal-accelerate.yml"
-    },
-    {
-      "component": "dorny/paths-filter@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/modal-accelerate.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/modal-accelerate.yml"
-    },
-    {
-      "component": "actions/setup-python@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/modal-accelerate.yml"
     }
   ],
   "edges": [
@@ -210,6 +190,13 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "DCO",
+      "target_type": "term"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/formatting.yml",
       "source_repo": "deepspeedai/DeepSpeed",
@@ -249,34 +236,6 @@
       "source_file": ".github/workflows/hpu-gaudi2.yml",
       "source_repo": "deepspeedai/DeepSpeed",
       "target": "hpu-gaudi2",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/modal-accelerate.yml",
-      "source_repo": "deepspeedai/DeepSpeed",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/modal-accelerate.yml",
-      "source_repo": "deepspeedai/DeepSpeed",
-      "target": "dorny/paths-filter@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/modal-accelerate.yml",
-      "source_repo": "deepspeedai/DeepSpeed",
-      "target": "actions/setup-python@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/modal-accelerate.yml",
-      "source_repo": "deepspeedai/DeepSpeed",
-      "target": "modal-accelerate",
       "target_type": "term"
     },
     {
@@ -364,7 +323,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T16:39:53.196577+00:00",
+  "fetched_at": "2026-06-23T07:48:48.111618+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -380,7 +339,7 @@
     },
     {
       "path": ".github/workflows/aws-torch-latest-full.yml",
-      "size": 15632
+      "size": 15636
     },
     {
       "path": ".github/workflows/aws-torch-latest.yml",
@@ -388,7 +347,11 @@
     },
     {
       "path": ".github/workflows/cpu-torch-latest.yml",
-      "size": 8551
+      "size": 8562
+    },
+    {
+      "path": ".github/workflows/dco.yml",
+      "size": 15578
     },
     {
       "path": ".github/workflows/formatting.yml",
@@ -401,10 +364,6 @@
     {
       "path": ".github/workflows/hpu-gaudi2.yml",
       "size": 4962
-    },
-    {
-      "path": ".github/workflows/modal-accelerate.yml",
-      "size": 3263
     }
   ],
   "related_repositories": [],
@@ -416,8 +375,8 @@
     "full_name": "deepspeedai/DeepSpeed",
     "html_url": "https://github.com/deepspeedai/DeepSpeed",
     "language": "Python",
-    "pushed_at": "2026-06-18T23:32:40Z",
-    "stargazers_count": 42557,
+    "pushed_at": "2026-06-23T04:56:08Z",
+    "stargazers_count": 42565,
     "topics": [
       "billion-parameters",
       "compression",
@@ -433,7 +392,7 @@
       "trillion-parameters",
       "zero"
     ],
-    "updated_at": "2026-06-22T15:14:58Z"
+    "updated_at": "2026-06-23T06:31:33Z"
   },
   "repo_links": [
     {
@@ -479,6 +438,12 @@
       "term": "cpu-torch-latest"
     },
     {
+      "context_snippet": "DCO",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "term": "DCO"
+    },
+    {
       "context_snippet": "Formatting",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/formatting.yml",
@@ -495,12 +460,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/hpu-gaudi2.yml",
       "term": "hpu-gaudi2"
-    },
-    {
-      "context_snippet": "modal-accelerate",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/modal-accelerate.yml",
-      "term": "modal-accelerate"
     },
     {
       "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",

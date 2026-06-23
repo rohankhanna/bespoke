@@ -289,6 +289,18 @@
       "source_repo": "zh-plus/openlrc",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate-context",
+      "text": "Pure Rust Inference Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -435,6 +447,12 @@
       "source_repo": "zh-plus/openlrc",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1630,11 +1648,35 @@
       "observed_at": "2026-06-22T19:14:07.629510+00:00",
       "source_file": null,
       "source_repo": "zh-plus/openlrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Avarok-Cybersecurity/atlas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "zh-plus/openlrc"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

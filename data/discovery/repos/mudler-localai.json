@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend.yml"
     },
@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/backend.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/backend_build.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build_darwin.yml"
     },
@@ -121,7 +121,7 @@
       "source_file": ".github/workflows/backend_build_darwin.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_merge.yml"
     },
@@ -156,7 +156,7 @@
       "source_file": ".github/workflows/backend_merge.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_pr.yml"
     },
@@ -166,7 +166,7 @@
       "source_file": ".github/workflows/backend_pr.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/base-images.yml"
     },
@@ -191,7 +191,7 @@
       "source_file": ".github/workflows/base-images.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yaml"
     },
@@ -201,7 +201,7 @@
       "source_file": ".github/workflows/build-test.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yaml"
     },
@@ -216,7 +216,7 @@
       "source_file": ".github/workflows/build-test.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yaml"
     },
@@ -243,7 +243,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
-      "target": "localai-org/localai-realtime-demo",
+      "target": "localai-org/localvqe",
       "target_type": "repository"
     },
     {
@@ -264,7 +264,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -285,7 +285,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -341,7 +341,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build_darwin.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -390,7 +390,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_merge.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -439,7 +439,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_pr.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -460,7 +460,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/base-images.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -502,7 +502,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yaml",
       "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -611,7 +611,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T16:35:31.492757+00:00",
+  "fetched_at": "2026-06-23T07:42:23.066338+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -663,8 +663,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-06-22T16:26:19Z",
-    "stargazers_count": 47059,
+    "pushed_at": "2026-06-23T07:29:22Z",
+    "stargazers_count": 47066,
     "topics": [
       "agents",
       "ai",
@@ -685,7 +685,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-06-22T16:26:25Z"
+    "updated_at": "2026-06-23T07:41:47Z"
   },
   "repo_links": [
     {
@@ -705,7 +705,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "localai-org/localai-realtime-demo",
+      "full_name": "localai-org/localvqe",
       "source_file": "README.md"
     }
   ],

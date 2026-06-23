@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T16:39:48.975069+00:00",
+  "fetched_at": "2026-06-23T07:48:43.214774+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,7 +65,7 @@
     "html_url": "https://github.com/JIA-Lab-research/LongLoRA",
     "language": "Python",
     "pushed_at": "2024-08-14T12:48:54Z",
-    "stargazers_count": 2689,
+    "stargazers_count": 2690,
     "topics": [
       "fine-tuning-llm",
       "large-language-models",
@@ -73,7 +73,7 @@
       "long-context",
       "lora"
     ],
-    "updated_at": "2026-06-18T09:44:50Z"
+    "updated_at": "2026-06-22T22:39:55Z"
   },
   "repo_links": [
     {

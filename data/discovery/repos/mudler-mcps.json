@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/metadata-action@032a4b3bda1b716928481836ac5bfe36e1feaad6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/MCPs",
+      "target": "mudler/localrecall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/MCPs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/MCPs",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/MCPs",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/MCPs",
+      "target": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/MCPs",
+      "target": "docker/metadata-action@032a4b3bda1b716928481836ac5bfe36e1feaad6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/MCPs",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/MCPs",
+      "target": "build container images",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T07:42:39.450936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 54403
+    },
+    {
+      "path": "Dockerfile",
+      "size": 201
+    },
+    {
+      "path": "go.mod",
+      "size": 2991
+    },
+    {
+      "path": ".github/workflows/image.yml",
+      "size": 4486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "personal MCPs that I use with LocalAI",
+    "fork": false,
+    "full_name": "mudler/MCPs",
+    "html_url": "https://github.com/mudler/MCPs",
+    "language": "Go",
+    "pushed_at": "2026-04-16T17:24:14Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-06-14T22:11:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mudler/localrecall",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'build container images'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yml",
+      "term": "build container images"
+    }
+  ]
+}

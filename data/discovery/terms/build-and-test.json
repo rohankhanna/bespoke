@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -746,6 +746,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "dexie/Dexie.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ekryski/mlx-swift-lm"
     }
   ],
   "term": "Build and Test"

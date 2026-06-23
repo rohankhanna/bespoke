@@ -84,7 +84,7 @@
   "normalized_form": "migration-test-harness",
   "observation_id": "0e9402d23812c457",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_at": "2026-06-23T07:25:49.577775+00:00",
   "observed_text": "Migration Test Harness",
   "source_context_snippet": "Migration Test Harness",
   "source_file": ".github/workflows/migration-test.yml",

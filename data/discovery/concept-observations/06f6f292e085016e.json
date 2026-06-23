@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HiCache++ (DMD) carved-hybrid acceleration for TRELLIS v1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39835711,
+      "status": "candidate",
+      "text": "treillage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29835729,
+      "status": "candidate",
+      "text": "espalier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29784144,
+      "status": "candidate",
+      "text": "lattice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19835777,
+      "status": "candidate",
+      "text": "pergola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19835776,
+      "status": "candidate",
+      "text": "pergula"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trellis",
+      "sense_id": "trellis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3022,
+      "status": "candidate",
+      "text": "treillage"
+    }
+  ],
+  "concept_id": "trellis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trellis",
+  "observation_id": "06f6f292e085016e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-23T07:25:49.577775+00:00",
+  "observed_text": "trellis",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "Archerkattri/faster-trellis-plus-plus",
+  "source_repo_description": "HiCache++ (DMD) carved-hybrid acceleration for TRELLIS v1."
+}

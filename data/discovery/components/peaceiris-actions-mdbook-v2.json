@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-mdbook@v2",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/book.yml",
       "source_repo": "celtera/avendish"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Avarok-Cybersecurity/atlas"
     }
   ]
 }

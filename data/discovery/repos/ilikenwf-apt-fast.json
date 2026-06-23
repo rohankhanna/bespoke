@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-23T08:53:27.023669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10061
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "apt-fast: A shellscript wrapper for apt that speeds up downloading of packages.",
+    "fork": false,
+    "full_name": "ilikenwf/apt-fast",
+    "html_url": "https://github.com/ilikenwf/apt-fast",
+    "language": "Shell",
+    "pushed_at": "2026-04-02T17:55:46Z",
+    "stargazers_count": 2140,
+    "topics": [],
+    "updated_at": "2026-06-22T13:47:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

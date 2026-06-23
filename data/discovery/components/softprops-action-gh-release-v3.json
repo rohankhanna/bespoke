@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v3",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -512,6 +512,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pypipublish.yml",
       "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lablup/mlxcel"
     }
   ]
 }

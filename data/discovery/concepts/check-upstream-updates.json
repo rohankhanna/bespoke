@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check upstream updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "richiejp/VoxInput",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa4 A voice assistant that let's you control any Linux desktop and transcribe any audio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "richiejp/VoxInput",
+      "status": "candidate-context",
+      "text": "Check upstream updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "richiejp/VoxInput",
+      "status": "candidate",
+      "text": "Check upstream updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25843,
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25722,
+      "status": "candidate",
+      "text": "game point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25722,
+      "status": "candidate",
+      "text": "soffit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24106,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22610,
+      "status": "candidate",
+      "text": "candle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check upstream updates",
+  "concept_id": "check-upstream-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/check-upstream-updates.yml",
+      "source_repo": "richiejp/VoxInput"
+    }
+  ],
+  "first_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check upstream updates",
+      "sense_id": "check-upstream-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

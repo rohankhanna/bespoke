@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v6",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -637,6 +637,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "mozilla-ai/otari-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ekryski/mlx-swift-lm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Vodes/muxtools-doc"
     }
   ]
 }

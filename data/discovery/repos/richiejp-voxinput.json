@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-upstream-updates.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-build.yml"
+    },
+    {
+      "component": "DeterminateSystems/flake-checker-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-build.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3.21.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-tag.yml"
+    },
+    {
+      "component": "DeterminateSystems/flake-checker-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-tag.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3.21.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "richiejp/VoxInput",
+      "target": "sashabaranov/go-openai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-upstream-updates.yml",
+      "source_repo": "richiejp/VoxInput",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-upstream-updates.yml",
+      "source_repo": "richiejp/VoxInput",
+      "target": "Check upstream updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-build.yml",
+      "source_repo": "richiejp/VoxInput",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-build.yml",
+      "source_repo": "richiejp/VoxInput",
+      "target": "DeterminateSystems/flake-checker-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-build.yml",
+      "source_repo": "richiejp/VoxInput",
+      "target": "DeterminateSystems/determinate-nix-action@v3.21.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-tag.yml",
+      "source_repo": "richiejp/VoxInput",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-tag.yml",
+      "source_repo": "richiejp/VoxInput",
+      "target": "DeterminateSystems/flake-checker-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-tag.yml",
+      "source_repo": "richiejp/VoxInput",
+      "target": "DeterminateSystems/determinate-nix-action@v3.21.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-tag.yml",
+      "source_repo": "richiejp/VoxInput",
+      "target": "Validate Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richiejp/VoxInput",
+      "target": "assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richiejp/VoxInput",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richiejp/VoxInput",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richiejp/VoxInput",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richiejp/VoxInput",
+      "target": "localai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richiejp/VoxInput",
+      "target": "swaywm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richiejp/VoxInput",
+      "target": "transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richiejp/VoxInput",
+      "target": "voice-assistant",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T07:42:41.734194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20622
+    },
+    {
+      "path": "go.mod",
+      "size": 2244
+    },
+    {
+      "path": ".github/workflows/check-upstream-updates.yml",
+      "size": 2463
+    },
+    {
+      "path": ".github/workflows/validate-build.yml",
+      "size": 460
+    },
+    {
+      "path": ".github/workflows/validate-tag.yml",
+      "size": 804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfa4 A voice assistant that let's you control any Linux desktop and transcribe any audio.",
+    "fork": false,
+    "full_name": "richiejp/VoxInput",
+    "html_url": "https://github.com/richiejp/VoxInput",
+    "language": "Go",
+    "pushed_at": "2026-06-22T15:44:06Z",
+    "stargazers_count": 109,
+    "topics": [
+      "assistant",
+      "audio",
+      "golang",
+      "linux",
+      "localai",
+      "swaywm",
+      "transcription",
+      "voice-assistant"
+    ],
+    "updated_at": "2026-06-21T23:27:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sashabaranov/go-openai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check upstream updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-upstream-updates.yml",
+      "term": "Check upstream updates"
+    },
+    {
+      "context_snippet": "Validate Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-tag.yml",
+      "term": "Validate Tag"
+    },
+    {
+      "context_snippet": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assistant"
+    },
+    {
+      "context_snippet": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localai"
+    },
+    {
+      "context_snippet": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swaywm"
+    },
+    {
+      "context_snippet": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcription"
+    },
+    {
+      "context_snippet": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-assistant"
+    }
+  ]
+}

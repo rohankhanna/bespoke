@@ -1171,6 +1171,18 @@
       "source_repo": "Comfy-Org/comfy-cli",
       "status": "candidate-context",
       "text": "CLI for using ComfyUI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/command-line-api",
+      "status": "candidate-context",
+      "text": "Command line parsing, invocation, and rendering of terminal output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/command-line-api",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1749,6 +1761,12 @@
       "source_repo": "vadimdemedes/pastel",
       "status": "candidate",
       "text": "pastel \u2014 Framework for effortlessly building Ink apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/command-line-api",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/command-line-api/command-line-api?branchName=main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=175&branchName=main) [![Join the chat at https://gitter.im/dotnet/command-line\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -3696,11 +3714,29 @@
       "observed_at": "2026-06-23T00:47:09.772172+00:00",
       "source_file": null,
       "source_repo": "dat-ecosystem/dat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/command-line-api"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

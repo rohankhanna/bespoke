@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -1226,6 +1226,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "0x0ade/MonoMod-wip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Avarok-Cybersecurity/atlas"
     }
   ],
   "term": "Docs"

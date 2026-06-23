@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v2",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1332,6 +1332,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/add-model-like.yml",
       "source_repo": "pe-trik/transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ninja-build.yml",
+      "source_repo": "qt/qtbase"
     }
   ]
 }

@@ -127,6 +127,54 @@
       "source_repo": "Archerkattri/hermit-trellis2",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "status": "candidate-context",
+      "text": "HiCache++ (DMD) carved-hybrid acceleration for TRELLIS v1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/hunyuan2-plus",
+      "status": "candidate-context",
+      "text": "HiCache (Hermite) acceleration for Hunyuan3D-2 mini."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hunyuan2-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/sam3d-plus",
+      "status": "candidate-context",
+      "text": "HiCache (Hermite) acceleration for Meta SAM 3D Objects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/sam3d-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/fast-trellis2",
+      "status": "candidate-context",
+      "text": "TaylorSeer (Fast) baseline acceleration for TRELLIS.2-4B."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/fast-trellis2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +235,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Archerkattri/hermit-trellis2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/faster-trellis-plus-plus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hunyuan2-plus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/sam3d-plus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/fast-trellis2",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -598,11 +670,41 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": null,
       "source_repo": "Archerkattri/hermit-trellis2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/hunyuan2-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/fast-trellis2"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

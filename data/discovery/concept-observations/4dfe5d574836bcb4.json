@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa4 A voice assistant that let's you control any Linux desktop and transcribe any audio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049183,
+      "status": "candidate",
+      "text": "written text"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049182,
+      "status": "candidate",
+      "text": "transcript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048417,
+      "status": "candidate",
+      "text": "script"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047625,
+      "status": "candidate",
+      "text": "copying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046591,
+      "status": "candidate",
+      "text": "translation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transcription",
+      "sense_id": "transcription#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "written text"
+    }
+  ],
+  "concept_id": "transcription",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transcription",
+  "observation_id": "4dfe5d574836bcb4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-23T07:25:49.577775+00:00",
+  "observed_text": "transcription",
+  "source_context_snippet": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console.",
+  "source_file": null,
+  "source_repo": "richiejp/VoxInput",
+  "source_repo_description": "\ud83c\udfa4 A voice assistant that let's you control any Linux desktop and transcribe any audio."
+}

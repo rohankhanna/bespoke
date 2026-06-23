@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -3436,6 +3436,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "the-database/traiNNer-redux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias"
     }
   ],
   "term": "pytorch"

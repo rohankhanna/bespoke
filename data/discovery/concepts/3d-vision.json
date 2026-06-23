@@ -151,6 +151,18 @@
       "source_repo": "zju3dv/NeuralRecon",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "status": "candidate-context",
+      "text": "Learning low-shot object classification with explicit shape bias learned from point clouds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "status": "candidate-context",
+      "text": "![alt text](images/teaser.png)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "zju3dv/NeuralRecon",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "status": "candidate",
+      "text": "![alt text](images/teaser.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +346,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

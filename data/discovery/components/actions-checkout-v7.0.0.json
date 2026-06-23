@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v7.0.0",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sbt/sbt-jmh"
     }
   ]
 }

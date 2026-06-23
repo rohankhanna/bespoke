@@ -1216,7 +1216,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T16:36:10.995392+00:00",
+  "fetched_at": "2026-06-23T07:43:52.962587+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1269,14 +1269,14 @@
     "html_url": "https://github.com/firebase/flutterfire",
     "language": "Dart",
     "pushed_at": "2026-06-22T15:36:44Z",
-    "stargazers_count": 9220,
+    "stargazers_count": 9221,
     "topics": [
       "dart",
       "firebase",
       "flutter",
       "google"
     ],
-    "updated_at": "2026-06-22T13:27:06Z"
+    "updated_at": "2026-06-22T17:42:58Z"
   },
   "repo_links": [
     {

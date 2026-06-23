@@ -120,7 +120,7 @@
   "normalized_form": "chromatic",
   "observation_id": "0d898cda6d743a1f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_at": "2026-06-23T07:25:49.577775+00:00",
   "observed_text": "Chromatic",
   "source_context_snippet": "\"Chromatic\"",
   "source_file": ".github/workflows/chromatic.yml",

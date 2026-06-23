@@ -3046,6 +3046,18 @@
       "source_repo": "jhasse/poly2tri",
       "status": "candidate-context",
       "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "richiejp/VoxInput",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa4 A voice assistant that let's you control any Linux desktop and transcribe any audio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "richiejp/VoxInput",
+      "status": "candidate-context",
+      "text": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console."
     }
   ],
   "candidate_glosses": [
@@ -4584,6 +4596,12 @@
       "source_repo": "jhasse/poly2tri",
       "status": "candidate",
       "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "richiejp/VoxInput",
+      "status": "candidate",
+      "text": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console."
     }
   ],
   "candidate_related_terms": [
@@ -11737,11 +11755,53 @@
       "observed_at": "2026-06-23T00:47:09.772172+00:00",
       "source_file": null,
       "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "richiejp/VoxInput"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

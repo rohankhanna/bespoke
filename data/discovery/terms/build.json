@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -5421,6 +5421,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "alexellis/k3sup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gen2brain/malgo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Vodes/muxtools-doc"
     }
   ],
   "term": "Build"

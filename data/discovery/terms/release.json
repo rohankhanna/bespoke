@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -8081,6 +8081,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "mozilla-ai/otari-sdk-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ekryski/mlx-swift-lm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lablup/mlxcel"
     }
   ],
   "term": "Release"

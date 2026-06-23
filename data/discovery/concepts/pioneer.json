@@ -1538,11 +1538,29 @@
       "observed_at": "2026-06-22T19:14:07.629510+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/dysentery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/dysentery"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

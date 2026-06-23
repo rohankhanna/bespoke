@@ -82,6 +82,18 @@
       "source_repo": "conda/conda-libmamba-solver",
       "status": "candidate-context",
       "text": "The fast mamba solver, now in conda!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate-context",
+      "text": "Pure Rust Inference Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "conda/conda-libmamba-solver",
       "status": "candidate",
       "text": "The fast mamba solver, now in conda!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -673,11 +691,23 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T07:25:49.577775+00:00",
+      "source_file": null,
+      "source_repo": "Avarok-Cybersecurity/atlas"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
   "lexical_providers": [
     "datamuse"
   ],

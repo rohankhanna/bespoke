@@ -1,0 +1,208 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "sha-lab/feat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "wangyueft/rfs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "mileyan/simple_shot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "3d-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "few-shot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "few-shot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "low-shot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rehg-lab/lowshot-shapebias",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T07:46:48.095359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning low-shot object classification with explicit shape bias learned from point clouds",
+    "fork": false,
+    "full_name": "rehg-lab/lowshot-shapebias",
+    "html_url": "https://github.com/rehg-lab/lowshot-shapebias",
+    "language": "Python",
+    "pushed_at": "2021-12-08T15:10:51Z",
+    "stargazers_count": 60,
+    "topics": [
+      "3d",
+      "3d-vision",
+      "computer-vision",
+      "convolutional-neural-networks",
+      "deep-learning",
+      "few-shot",
+      "few-shot-learning",
+      "low-shot",
+      "point-cloud",
+      "pytorch",
+      "pytorch-implementation"
+    ],
+    "updated_at": "2026-05-31T13:53:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mileyan/simple_shot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sha-lab/feat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wangyueft/rfs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![alt text](images/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-vision"
+    },
+    {
+      "context_snippet": "![alt text](images/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![alt text](images/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "![alt text](images/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![alt text](images/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot"
+    },
+    {
+      "context_snippet": "![alt text](images/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-learning"
+    },
+    {
+      "context_snippet": "![alt text](images/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-shot"
+    },
+    {
+      "context_snippet": "![alt text](images/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "![alt text](images/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![alt text](images/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    }
+  ]
+}
