@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9740,
-    "concepts": 11537,
-    "observations": 11565,
-    "repos": 2405,
-    "terms": 11442
+    "components": 9744,
+    "concepts": 11552,
+    "observations": 11580,
+    "repos": 2409,
+    "terms": 11458
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -718,6 +718,7 @@
     "embeddedartistry/printf",
     "emersion/grim",
     "emersion/slurp",
+    "emoon/minifb",
     "empriselab/gen3_compliant_controllers",
     "empriselab/kortex_hardware",
     "emscripten-core/emscripten",
@@ -885,6 +886,7 @@
     "gazebosim/sdformat",
     "gbionics/idyntree",
     "gbrobro119-star/darksword-kexploit",
+    "gen2brain/malgo",
     "Genoil/cpp-ethereum",
     "genotrance/nimgen",
     "Genymobile/scrcpy",
@@ -1432,6 +1434,7 @@
     "llnl/RAJA-project-template",
     "lltcggie/waifu2x-caffe",
     "llvm/torch-mlir",
+    "localai-org/LocalVQE",
     "lockblox/multibase",
     "logicalclocks/rondb",
     "lonewolf-jp/convopeq",
@@ -1924,6 +1927,7 @@
     "QingyongHu/SensatUrban",
     "qmk/qmk_firmware",
     "qt-creator/qt-creator",
+    "qt/qtbase",
     "quantopian/libpy",
     "Qv2ray/Qv2ray",
     "QwenLM/qwen.cpp",

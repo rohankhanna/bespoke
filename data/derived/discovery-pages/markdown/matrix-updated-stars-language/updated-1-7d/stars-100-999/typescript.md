@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-23T05:55:24.270285+00:00`
+Generated at: `2026-06-23T09:02:56.745192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
+- repos: 3
 - terms: 7
-- components: 67
+- components: 108
 - concepts: 7
 - observations: 7
 
@@ -26,12 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 252 | 2026-06-19T22:50:08Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
-| [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 821 | 2026-06-19T19:48:06Z | TypeScript | Infrastructure/tooling | 4 | 41 | 4 | 4 |
+| [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 136 | 2026-06-22T08:15:32Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
+| [Comfy-Org/Comfy-Desktop](https://github.com/Comfy-Org/Comfy-Desktop) | 149 | 2026-06-22T08:04:38Z | TypeScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
+| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 253 | 2026-06-19T22:50:08Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 821 | 2026-06-19T19:48:06Z | TypeScript | Infrastructure/tooling | 4 | 41 | 4 | 4 |
-| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 252 | 2026-06-19T22:50:08Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
+| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 253 | 2026-06-19T22:50:08Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
+| [Comfy-Org/Comfy-Desktop](https://github.com/Comfy-Org/Comfy-Desktop) | 149 | 2026-06-22T08:04:38Z | TypeScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
+| [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 136 | 2026-06-22T08:15:32Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |

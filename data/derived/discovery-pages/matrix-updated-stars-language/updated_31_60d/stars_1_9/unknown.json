@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 35,
-    "terms": 39
+    "components": 50,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 34,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "angular/angular-devkit-build-webpack-builds",
     "calda/SwiftFormat-nightly",
@@ -43,7 +43,6 @@
     "OpenSC/Nightly",
     "pot-app/.github",
     "puppetlabs/.github",
-    "scalar/starter",
     "sp1-patches/RustCrypto-bigint",
     "sp1-patches/tiny-keccak",
     "stdlib-js/meetings",

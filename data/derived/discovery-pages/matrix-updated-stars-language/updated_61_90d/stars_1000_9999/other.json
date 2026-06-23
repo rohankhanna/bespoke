@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2384,
-    "concepts": 2182,
-    "observations": 2193,
-    "repos": 339,
-    "terms": 2176
+    "components": 2476,
+    "concepts": 2247,
+    "observations": 2258,
+    "repos": 346,
+    "terms": 2241
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -95,6 +95,7 @@
     "cssnano/cssnano",
     "csstools/sanitize.css",
     "ctrlpvim/ctrlp.vim",
+    "Cysharp/MagicOnion",
     "dart-lang/http",
     "dart-lang/site-www",
     "dashbitco/broadway",
@@ -107,7 +108,9 @@
     "Denys88/rl_games",
     "dependabot/dependabot-core",
     "dhall-lang/dhall-lang",
+    "djblue/portal",
     "DmitryTsepelev/store_model",
+    "docker-library/php",
     "docker-library/python",
     "dotnet/docfx",
     "dotnet/dotnet",
@@ -117,6 +120,7 @@
     "dotnet/project-system",
     "dotnet/roslynator",
     "dotnet/samples",
+    "dotnet/sdk",
     "dotnet/sourcelink",
     "durgeshsamariya/awesome-github-profile-readme-templates",
     "dwyl/learn-elixir",
@@ -141,6 +145,7 @@
     "Fyrd/caniuse",
     "garybernhardt/selecta",
     "geocompx/geocompr",
+    "getsentry/sentry-cocoa",
     "GFW-knocker/MahsaNG",
     "ggandor/leap.nvim",
     "ggml-org/llama.vim",
@@ -203,6 +208,7 @@
     "L3MON4D3/LuaSnip",
     "lervag/vimtex",
     "libbpf/libbpf-bootstrap",
+    "lm-sensors/lm-sensors",
     "lowRISC/opentitan",
     "luarocks/luarocks",
     "macvim-dev/macvim",
@@ -264,6 +270,7 @@
     "oxalorg/sakura",
     "pagedjs/pagedjs",
     "phodal/auto-dev",
+    "php/pie",
     "pinterest/ktlint",
     "Polytonic/Glitter",
     "postgis/postgis",

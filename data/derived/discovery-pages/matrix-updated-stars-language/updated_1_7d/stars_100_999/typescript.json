@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 67,
+    "components": 108,
     "concepts": 7,
     "observations": 7,
-    "repos": 2,
+    "repos": 3,
     "terms": 7
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
+    "Comfy-Org/Comfy-Desktop",
     "huggingface/hf-mcp-server",
-    "mightyiam/eslint-config-love"
+    "safe-fndn/safe-singleton-factory"
   ]
 }

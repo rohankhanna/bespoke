@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2153,
-    "concepts": 1526,
-    "observations": 1527,
-    "repos": 262,
-    "terms": 1517
+    "components": 2141,
+    "concepts": 1513,
+    "observations": 1514,
+    "repos": 261,
+    "terms": 1505
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
@@ -82,7 +82,6 @@
     "dhall-lang/dhall-haskell",
     "dwyl/quotes",
     "EdenEast/nyx",
-    "elixir-ecto/db_connection",
     "elixir-image/image",
     "emacs-ess/ESS",
     "ErikSom/Clipper2-WASM",
@@ -126,6 +125,7 @@
     "istio/istio.io",
     "jackielii/skhd.zig",
     "JakeWharton/dependency-tree-diff",
+    "JeffreyXiang/CuMesh",
     "jeziellago/compose-markdown",
     "jgarber/redcloth",
     "JohnnyMorganz/luau-lsp",
@@ -256,7 +256,6 @@
     "sigstore/root-signing",
     "simplex-chat/simplexmq",
     "SonarSource/sonarlint-intellij",
-    "status-im/nimbus-eth2",
     "status-im/status-app",
     "subframe7536/obsidian-theme-maple",
     "supranational/sppark",

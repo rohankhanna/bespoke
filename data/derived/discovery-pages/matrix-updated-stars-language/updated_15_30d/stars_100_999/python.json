@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 110,
-    "observations": 110,
+    "components": 86,
+    "concepts": 119,
+    "observations": 119,
     "repos": 18,
-    "terms": 110
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "AMD-AGI/Nitro-1",
     "clearml/clearml-agent",
@@ -24,9 +24,9 @@
     "OpenHands/ToM-SWE",
     "pypa/build",
     "readthedocs/commonmark.py",
-    "satan53x/SExtractor",
     "ShadowLoveElysia/AiNiee-Next",
     "SublimeText/AFileIcon",
+    "the-database/traiNNer-redux",
     "thu-ml/DiT-Extrapolation",
     "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",

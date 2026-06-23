@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1048,
-    "concepts": 875,
-    "observations": 878,
-    "repos": 82,
-    "terms": 868
+    "components": 1028,
+    "concepts": 850,
+    "observations": 852,
+    "repos": 80,
+    "terms": 844
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -52,7 +52,6 @@
     "IBM/plex",
     "jellyfin/jellyfin",
     "JetBrains/compose-multiplatform",
-    "jgm/pandoc",
     "keeweb/keeweb",
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
@@ -92,7 +91,6 @@
     "swiftlang/swift-package-manager",
     "syl20bnr/spacemacs",
     "symfony/symfony",
-    "tc39/ecma262",
     "tiann/KernelSU",
     "vim-airline/vim-airline",
     "xmake-io/xmake"

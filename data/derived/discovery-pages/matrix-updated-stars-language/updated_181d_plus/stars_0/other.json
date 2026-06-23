@@ -3,7 +3,7 @@
     "components": 202,
     "concepts": 117,
     "observations": 117,
-    "repos": 109,
+    "repos": 108,
     "terms": 117
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -37,7 +37,6 @@
     "barche/libcxxwrap_julia_jll.jl",
     "benkasminbullock/gzip-libdeflate",
     "benwmills/core-sass-compiler",
-    "bepinex/mono",
     "bluebear94/Terminal-WCWidth",
     "bnosac/audio.vadsilero",
     "bnosac/images",

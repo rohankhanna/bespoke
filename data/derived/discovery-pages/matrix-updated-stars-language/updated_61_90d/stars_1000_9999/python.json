@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2141,
-    "concepts": 2533,
-    "observations": 2539,
-    "repos": 343,
-    "terms": 2531
+    "components": 2175,
+    "concepts": 2566,
+    "observations": 2573,
+    "repos": 347,
+    "terms": 2564
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -127,6 +127,7 @@
     "google-deepmind/bsuite",
     "google-deepmind/mujoco_menagerie",
     "google-research/FLAN",
+    "google-research/scenic",
     "google-research/t5x",
     "google/adk-samples",
     "google/clusterfuzz",
@@ -245,6 +246,7 @@
     "nousresearch/atropos",
     "NovaSky-AI/SkyRL",
     "NVIDIA-NeMo/DataDesigner",
+    "NVIDIA-NeMo/RL",
     "NVIDIA/apex",
     "NVIDIA/flownet2-pytorch",
     "NVIDIA/TransformerEngine",
@@ -256,8 +258,8 @@
     "open-thought/reasoning-gym",
     "OpenBMB/UltraRAG",
     "opendatalab/labelU",
-    "OpenGVLab/InternVideo",
     "OpenRLHF/OpenRLHF",
+    "openvinotoolkit/nncf",
     "PaddlePaddle/PaddleX",
     "ParisNeo/lollms-webui",
     "patrick-kidger/diffrax",
@@ -307,6 +309,7 @@
     "rusty1s/pytorch_sparse",
     "sanderland/katrain",
     "scrapy-plugins/scrapy-playwright",
+    "secretflow/secretflow",
     "shapely/shapely",
     "shenweichen/DeepCTR-Torch",
     "shenweichen/DeepMatch",
@@ -356,6 +359,7 @@
     "ymcui/Chinese-ELECTRA",
     "ymcui/Chinese-LLaMA-Alpaca-2",
     "ymcui/Chinese-XLNet",
+    "Yuliang-Liu/MonkeyOCR",
     "yzhao062/pyod"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 4349,
+    "components": 4353,
     "concepts": 553,
     "observations": 554,
-    "repos": 191,
+    "repos": 192,
     "terms": 564
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -23,6 +23,7 @@
     "abaplint/abaplint-sci-server",
     "AcidLeroy/gaiadown-ts",
     "Agreon/styco",
+    "aigc3d/LAM_WebRender",
     "aliezzahn/rsbuild-plugin-css-optimizer",
     "aliezzahn/rsbuild-plugin-markdown-loader",
     "alixdehghani/echarts-for-angular",

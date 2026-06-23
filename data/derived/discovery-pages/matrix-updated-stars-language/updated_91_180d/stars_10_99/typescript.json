@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 972,
+    "components": 968,
     "concepts": 155,
     "observations": 155,
-    "repos": 56,
+    "repos": 55,
     "terms": 157
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -20,7 +20,6 @@
     "acro5piano/kysely-migration-cli",
     "adevinta/actions-lighthouseci-compare",
     "aiden0z/pptx-renderer",
-    "aigc3d/LAM_WebRender",
     "AlexJPotter/fluentvalidation-ts",
     "androidStern-personal/openclaw-mcp-adapter",
     "apache/incubator-devlake-website",

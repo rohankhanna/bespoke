@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 818,
-    "concepts": 845,
-    "observations": 846,
-    "repos": 143,
-    "terms": 843
+    "components": 793,
+    "concepts": 821,
+    "observations": 822,
+    "repos": 139,
+    "terms": 819
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -60,9 +60,9 @@
     "flexivrobotics/flexiv_rdk",
     "foldl/chatllm.cpp",
     "freetype/freetype",
-    "ganelson/inweb",
     "garglk/garglk",
     "gazebosim/sdformat",
+    "gen2brain/malgo",
     "gisbi-kim/removert",
     "go-skynet/go-llama.cpp",
     "googleapis/google-cloud-cpp",
@@ -118,11 +118,9 @@
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
     "openSUSE/libsolv",
-    "openvinotoolkit/model_server",
     "OpenVisualCloud/Media-Transport-Library",
     "optiscaler/OptiPatcher",
     "ouster-lidar/ouster-ros",
-    "pantoniou/libfyaml",
     "pkgxdev/pantry",
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
@@ -131,7 +129,6 @@
     "rmagick/rmagick",
     "robotology/yarp",
     "ROCm/AMDMIGraphX",
-    "ROCm/mori",
     "ROCm/rccl",
     "ROCm/rocBLAS",
     "ROCm/rocm-systems",
@@ -140,7 +137,6 @@
     "rspatial/terra",
     "ruby/prism",
     "samtools/htslib",
-    "secretflow/heu",
     "secretflow/spu",
     "shader-slang/slang-rhi",
     "snowballstem/snowball",

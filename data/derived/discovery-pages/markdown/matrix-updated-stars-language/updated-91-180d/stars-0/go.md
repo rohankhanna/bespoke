@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Go
 
-Generated at: `2026-06-23T05:55:24.270285+00:00`
+Generated at: `2026-06-23T09:02:56.745192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 3
-- components: 11
-- concepts: 3
-- observations: 3
+- repos: 6
+- terms: 2
+- components: 6
+- concepts: 2
+- observations: 2
 
 ## Static behavior
 
@@ -32,7 +32,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DataDog/go-cmp](https://github.com/DataDog/go-cmp) | 0 | 2026-03-01T14:30:00Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [grafana/cadvisor](https://github.com/grafana/cadvisor) | 0 | 2026-02-04T20:01:14Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [aldernero/spider](https://github.com/aldernero/spider) | 0 | 2026-01-20T03:37:43Z | Go | Library | 0 | 0 | 0 | 0 |
-| [appscodelabs/liche](https://github.com/appscodelabs/liche) | 0 | 2025-12-25T06:55:19Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -44,4 +43,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DataDog/go-cmp](https://github.com/DataDog/go-cmp) | 0 | 2026-03-01T14:30:00Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [grafana/cadvisor](https://github.com/grafana/cadvisor) | 0 | 2026-02-04T20:01:14Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [aldernero/spider](https://github.com/aldernero/spider) | 0 | 2026-01-20T03:37:43Z | Go | Library | 0 | 0 | 0 | 0 |
-| [appscodelabs/liche](https://github.com/appscodelabs/liche) | 0 | 2025-12-25T06:55:19Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |

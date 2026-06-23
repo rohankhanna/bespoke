@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6889,
-    "concepts": 1332,
-    "observations": 1336,
-    "repos": 175,
-    "terms": 1438
+    "components": 6821,
+    "concepts": 1315,
+    "observations": 1319,
+    "repos": 174,
+    "terms": 1421
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -45,7 +45,6 @@
     "berty/berty",
     "blockprotocol/blockprotocol",
     "bluesky-social/atproto",
-    "boxyhq/saas-starter-kit",
     "bufbuild/protobuf-es",
     "butlerx/wetty",
     "capricorn86/happy-dom",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1222,
-    "concepts": 996,
-    "observations": 998,
-    "repos": 257,
-    "terms": 990
+    "components": 1218,
+    "concepts": 994,
+    "observations": 996,
+    "repos": 256,
+    "terms": 988
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -219,7 +219,6 @@
     "rescript-lang/rescript-vscode",
     "ropensci/git2r",
     "rubocop/rubocop-performance",
-    "ruby-formatter/rufo",
     "saagarjha/unxip",
     "sandrohanea/whisper.net",
     "SciML/SciMLTutorials.jl",

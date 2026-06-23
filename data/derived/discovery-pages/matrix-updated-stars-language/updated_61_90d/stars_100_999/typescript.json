@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3984,
-    "concepts": 770,
-    "observations": 770,
-    "repos": 143,
-    "terms": 831
+    "components": 4041,
+    "concepts": 774,
+    "observations": 774,
+    "repos": 144,
+    "terms": 835
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -35,6 +35,7 @@
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
     "aws/aws-iot-device-sdk-js-v2",
+    "azat-io/eslint-plugin-de-morgan",
     "Azure/cli",
     "Azure/login",
     "babel/website",
@@ -56,6 +57,7 @@
     "DeterminateSystems/nix-installer-action",
     "devcontainers/ci",
     "dezoito/ollama-grid-search",
+    "docker/bake-action",
     "docker/setup-qemu-action",
     "EclipseFdn/open-vsx.org",
     "elizaos/elizaos.github.io",
@@ -65,7 +67,6 @@
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
     "fastify/demo",
-    "filllabs/dependi",
     "giselles-ai/giselle",
     "github/local-action",
     "google/adk-web",

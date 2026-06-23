@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 5,
-    "terms": 44
+    "components": 12,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 4,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "bencheeorg/benchee",
     "gluonfield/enchanted",
     "intel/BigDL",
-    "preservim/tagbar",
-    "standardrb/standard"
+    "preservim/tagbar"
   ]
 }

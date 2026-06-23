@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 16029,
-    "concepts": 14521,
-    "observations": 14549,
-    "repos": 4732,
-    "terms": 14304
+    "components": 16033,
+    "concepts": 14523,
+    "observations": 14551,
+    "repos": 4734,
+    "terms": 14302
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -34,6 +34,7 @@
     "1zhou-Wang/MemVR",
     "22-hours/cabrita",
     "23andMe/Yamale",
+    "24mlight/a-share-mcp-is-just-i-need",
     "26hzhang/VSLNet",
     "27medkamal/tmux-session-wizard",
     "2createStudio/postcss-sprites",
@@ -3855,6 +3856,7 @@
     "rsummers11/CADLab",
     "rubik/xenon",
     "Rubikplayer/flame-fitting",
+    "ruby-formatter/rufo",
     "ruby-numo/numo-narray",
     "RubyCrypto/rbnacl",
     "rubyjs/libv8",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 50818,
-    "concepts": 35128,
-    "observations": 35233,
-    "repos": 8624,
-    "terms": 34976
+    "components": 50837,
+    "concepts": 35169,
+    "observations": 35274,
+    "repos": 8631,
+    "terms": 35016
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -996,6 +996,7 @@
     "avaneev/prvhash",
     "avaneev/r8brain-free-src",
     "avanov/Plim",
+    "Avarok-Cybersecurity/atlas",
     "AVC2-UESTC/CRAFT-SR",
     "aviatesk/JET.jl",
     "aviggiano/redis-roaring",
@@ -3283,6 +3284,7 @@
     "geekodour/wscribe-editor",
     "GEM-benchmark/NL-Augmenter",
     "Gen-Verse/Open-AgentRL",
+    "gen2brain/malgo",
     "generalizable-neural-performer/gnr",
     "generalized-iou/g-darknet",
     "gengshan-y/high-res-stereo",
@@ -4292,6 +4294,8 @@
     "JeffersonQin/YuzuMarker.FontDetection",
     "jeffffffli/CrowdPose",
     "jeffffffli/res-loglikelihood-regression",
+    "JeffreyXiang/CuMesh",
+    "JeffreyXiang/FlexGEMM",
     "JeffWang987/OpenOccupancy",
     "jellyfin/jellyfin-ffmpeg",
     "JeremyCCHsu/Python-Wrapper-for-World-Vocoder",
@@ -5083,6 +5087,7 @@
     "lobehub/lobe-tts",
     "lobehub/lobe-vidol",
     "localai-org/apex-quant",
+    "localai-org/LocalVQE",
     "localtunnel/go-localtunnel",
     "locuslab/deq",
     "loganfsmyth/babel-plugin-transform-decorators-legacy",
@@ -6426,6 +6431,7 @@
     "p0p4k/vits2_pytorch",
     "P4sca1/cron-schedule",
     "p7zip-project/p7zip",
+    "PacifAIst/Quansloth",
     "PacificBiosciences/ccs",
     "PacificBiosciences/IsoSeq",
     "PacificBiosciences/pbbioconda",
@@ -6951,6 +6957,7 @@
     "Rhoban/onshape-to-robot",
     "ricardofbarros/linter-js-standard",
     "RichardLitt/generator-standard-readme",
+    "richiejp/VoxInput",
     "RiDDiX/home-assistant-matter-hub",
     "Riey/cargo-feature",
     "riscv-non-isa/riscv-sbi-doc",

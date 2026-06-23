@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 202,
-    "observations": 203,
+    "components": 159,
+    "concepts": 209,
+    "observations": 210,
     "repos": 14,
-    "terms": 199
+    "terms": 208
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "Comfy-Org/ComfyUI-Manager",
-    "Dao-AILab/flash-attention",
-    "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
+    "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "modelscope/ms-swift",
-    "psf/black",
+    "pydantic/pydantic",
     "pyg-team/pytorch_geometric",
     "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
+    "TEN-framework/ten-framework",
     "tinygrad/tinygrad",
     "ungoogled-software/ungoogled-chromium",
     "zhayujie/CowAgent"

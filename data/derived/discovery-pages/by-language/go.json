@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10348,
-    "concepts": 10142,
-    "observations": 10174,
-    "repos": 1723,
-    "terms": 10092
+    "components": 10360,
+    "concepts": 10153,
+    "observations": 10185,
+    "repos": 1726,
+    "terms": 10103
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -542,6 +542,7 @@
     "crc-org/crc",
     "creasty/defaults",
     "cri-o/cri-o",
+    "crossplane/tbs",
     "cruise-automation/isopod",
     "crytic/medusa",
     "csznet/tgState",
@@ -1295,6 +1296,7 @@
     "Mrs4s/MiraiGo",
     "MShekow/directory-checksum",
     "mudler/LocalAI",
+    "mudler/MCPs",
     "muesli/ansi",
     "muesli/duf",
     "muesli/reflow",
@@ -1480,6 +1482,7 @@
     "retracedhq/retraced-go",
     "reviewdog/reviewdog",
     "rhysd/actionlint",
+    "richiejp/VoxInput",
     "riyaz-ali/sqlite",
     "robertkrimen/otto",
     "roboll/helmfile",

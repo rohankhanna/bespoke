@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 380,
-    "observations": 380,
-    "repos": 50,
-    "terms": 378
+    "components": 336,
+    "concepts": 372,
+    "observations": 372,
+    "repos": 49,
+    "terms": 370
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "allegro/hermes",
     "apache/commons-jexl",
@@ -45,7 +45,6 @@
     "michel-kraemer/bson4jackson",
     "microsoft/LangChain4j-for-Beginners",
     "microsoft/vscode-java-test",
-    "milvus-io/milvus-sdk-java",
     "openjdk/jdk11u",
     "openjdk/jdk17u",
     "operator-framework/java-operator-sdk",

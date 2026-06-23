@@ -1,26 +1,27 @@
 {
   "counts": {
-    "components": 397,
-    "concepts": 319,
-    "observations": 320,
-    "repos": 43,
-    "terms": 317
+    "components": 405,
+    "concepts": 265,
+    "observations": 266,
+    "repos": 39,
+    "terms": 265
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
-    "andfoy/pywinpty",
     "Artoriuz/ArtCNN",
-    "astroautomata/SymbolicRegression.jl",
     "attackgoat/vk-graph",
+    "Avarok-Cybersecurity/atlas",
     "bazel-contrib/rules_jvm_external",
     "BBC-Esq/Faster-Whisper-Transcriber",
     "cloudfoundry/credhub",
+    "Comfy-Org/comfy-cli",
+    "Comfy-Org/Comfy-Desktop",
     "Deep-Symmetry/beat-link",
     "Deep-Symmetry/beat-link-trigger",
     "devcontainers/devcontainers.github.io",
@@ -29,6 +30,7 @@
     "eclipse-paho/paho.mqtt.testing",
     "eclipse-tm4e/tm4e",
     "emacs-eldev/eldev",
+    "flagos-ai/FlagCX",
     "flagos-ai/FlagScale",
     "fsprojects/FSharp.Data.GraphQL",
     "fw-ai/cookbook",
@@ -38,11 +40,8 @@
     "googlefonts/roboto-3-classic",
     "hetznercloud/hcloud-cloud-controller-manager",
     "huggingface/hf-mcp-server",
-    "ipsilon/evmone",
-    "jupyter-server/jupyter_server",
     "karafka/rdkafka-ruby",
     "kurrent-io/KurrentDB-Client-Dotnet",
-    "mightyiam/eslint-config-love",
     "NVIDIA-NeMo/Automodel",
     "PyCQA/eradicate",
     "pyOpenSci/software-submission",
@@ -50,11 +49,8 @@
     "redis/redis-om-dotnet",
     "redis/redis-om-spring",
     "ROCm/hipBLAS",
-    "ROCm/hipBLASLt",
-    "spring-projects/spring-tools",
-    "the-database/mpv-AnimeJaNai",
+    "safe-fndn/safe-singleton-factory",
     "the-database/VideoJaNai",
-    "tox-dev/filelock",
     "tree-sitter-grammars/tree-sitter-markdown"
   ]
 }

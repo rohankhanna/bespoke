@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 747,
-    "concepts": 1557,
-    "observations": 1559,
-    "repos": 869,
-    "terms": 1535
+    "concepts": 1567,
+    "observations": 1569,
+    "repos": 871,
+    "terms": 1545
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -587,6 +587,7 @@
     "matthew-brett/nb2plots",
     "MaureenZOU/detectron2-xyz",
     "Maxlinn/CHAIR-metric-standalone",
+    "MaxtirError/FlexiCubes",
     "MCG-NJU/FlowDCN",
     "mczhuge/SOCToolbox",
     "mdipierro/ulid",
@@ -716,6 +717,7 @@
     "reallyigor/easy_dwpose",
     "reasoning-machines/CoCoGen",
     "redcaps-dataset/redcaps-downloader",
+    "rehg-lab/lowshot-shapebias",
     "renqibing/MultiAgent4Collusion",
     "RickyL-2000/AlignSTS",
     "ritzz-ai/PACS",

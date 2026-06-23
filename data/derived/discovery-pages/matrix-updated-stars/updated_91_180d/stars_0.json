@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 348,
-    "concepts": 170,
-    "observations": 171,
-    "repos": 106,
-    "terms": 169
+    "components": 343,
+    "concepts": 169,
+    "observations": 170,
+    "repos": 105,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -23,7 +23,6 @@
     "aldernero/spider",
     "aleclarson/vite-multi-spa",
     "all-the-noises/data",
-    "appscodelabs/liche",
     "artsy/react-native-launch-arguments",
     "Bearer/homebrew-tap",
     "bgw/bincode",

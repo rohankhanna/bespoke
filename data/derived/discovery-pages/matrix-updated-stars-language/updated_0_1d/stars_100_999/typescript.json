@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 416,
+    "components": 375,
     "concepts": 79,
     "observations": 79,
-    "repos": 10,
+    "repos": 9,
     "terms": 79
   },
   "facet_version": 1,
@@ -12,16 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "actions/container-toolkit-action",
-    "Comfy-Org/Comfy-Desktop",
     "electron/packager",
     "hexabot-ai/Hexabot",
     "matter-js/matter.js",
+    "mightyiam/eslint-config-love",
     "OpenHands/agent-canvas",
-    "safe-fndn/safe-singleton-factory",
     "stx-labs/stacks.js",
     "wevm/abitype"
   ]

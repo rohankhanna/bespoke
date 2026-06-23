@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 303,
-    "observations": 304,
-    "repos": 42,
-    "terms": 298
+    "components": 200,
+    "concepts": 301,
+    "observations": 302,
+    "repos": 41,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
@@ -47,7 +47,6 @@
     "libbitcoin/libbitcoin-network",
     "llnl/camp",
     "microsoft/aitour-exploring-cutting-edge-models",
-    "milvus-io/milvus-sdk-cpp",
     "oneapi-src/unified-memory-framework",
     "ROCm/ROCgdb",
     "ROCm/rpp",

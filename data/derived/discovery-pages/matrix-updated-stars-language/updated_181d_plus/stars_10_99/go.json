@@ -3,7 +3,7 @@
     "components": 443,
     "concepts": 464,
     "observations": 467,
-    "repos": 175,
+    "repos": 176,
     "terms": 460
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -68,6 +68,7 @@
     "cmwaters/skychart",
     "cosnicolaou/pbzip2",
     "crazy-max/goreleaser-xx",
+    "crossplane/tbs",
     "dannyvankooten/extemplate",
     "darkweak/go-esi",
     "deneonet/benc",

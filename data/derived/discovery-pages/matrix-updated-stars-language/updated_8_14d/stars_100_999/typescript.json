@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 4,
-    "terms": 29
+    "components": 90,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 3,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "antvis/GPT-Vis",
-    "lobehub/lobe-cli-toolbox",
     "unplugin/unplugin-imagemin"
   ]
 }

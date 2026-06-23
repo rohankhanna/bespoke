@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-23T05:55:24.270285+00:00`
+Generated at: `2026-06-23T09:02:56.745192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 6
-- terms: 42
-- components: 306
-- concepts: 42
-- observations: 42
+- terms: 41
+- components: 350
+- concepts: 41
+- observations: 41
 
 ## Static behavior
 
@@ -26,20 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [endojs/endo](https://github.com/endojs/endo) | 1027 | 2026-06-22T07:40:37Z | JavaScript | Infrastructure/tooling | 18 | 55 | 18 | 18 |
 | [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1629 | 2026-06-21T12:46:09Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |
-| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5347 | 2026-06-20T12:02:38Z | JavaScript | Infrastructure/tooling | 19 | 11 | 19 | 19 |
 | [apollographql/eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql) | 1215 | 2026-06-18T20:05:58Z | JavaScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
 | [paralleldrive/cuid](https://github.com/paralleldrive/cuid) | 3504 | 2026-06-18T19:46:11Z | JavaScript | Web app | 0 | 14 | 0 | 0 |
-| [tape-testing/tape](https://github.com/tape-testing/tape) | 5800 | 2026-06-18T18:06:06Z | JavaScript | Infrastructure/tooling | 3 | 76 | 3 | 3 |
+| [tape-testing/tape](https://github.com/tape-testing/tape) | 5801 | 2026-06-18T18:06:06Z | JavaScript | Infrastructure/tooling | 3 | 76 | 3 | 3 |
 | [callstack/react-native-builder-bob](https://github.com/callstack/react-native-builder-bob) | 3217 | 2026-06-16T11:57:44Z | JavaScript | CLI | 11 | 28 | 11 | 11 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [tape-testing/tape](https://github.com/tape-testing/tape) | 5800 | 2026-06-18T18:06:06Z | JavaScript | Infrastructure/tooling | 3 | 76 | 3 | 3 |
-| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5347 | 2026-06-20T12:02:38Z | JavaScript | Infrastructure/tooling | 19 | 11 | 19 | 19 |
+| [tape-testing/tape](https://github.com/tape-testing/tape) | 5801 | 2026-06-18T18:06:06Z | JavaScript | Infrastructure/tooling | 3 | 76 | 3 | 3 |
 | [paralleldrive/cuid](https://github.com/paralleldrive/cuid) | 3504 | 2026-06-18T19:46:11Z | JavaScript | Web app | 0 | 14 | 0 | 0 |
 | [callstack/react-native-builder-bob](https://github.com/callstack/react-native-builder-bob) | 3217 | 2026-06-16T11:57:44Z | JavaScript | CLI | 11 | 28 | 11 | 11 |
 | [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1629 | 2026-06-21T12:46:09Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |
 | [apollographql/eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql) | 1215 | 2026-06-18T20:05:58Z | JavaScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
+| [endojs/endo](https://github.com/endojs/endo) | 1027 | 2026-06-22T07:40:37Z | JavaScript | Infrastructure/tooling | 18 | 55 | 18 | 18 |

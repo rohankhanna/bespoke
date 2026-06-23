@@ -1,29 +1,34 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 12,
-    "terms": 33
+    "components": 14,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 17,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "aidenlab/juicebox-web",
     "apostrophecms/starter-kit-astro-essentials",
     "appbaseio/reactivesearch-api-docker",
+    "Archerkattri/fast-trellis2",
     "Archerkattri/faster-trellis",
+    "Archerkattri/faster-trellis-plus-plus",
     "Archerkattri/hermit-trellis2",
     "Archerkattri/hermit-trellis2-plus-plus",
     "Archerkattri/hicache-plus-plus",
+    "Archerkattri/hunyuan2-plus",
+    "Archerkattri/sam3d-plus",
     "ashvardanian/StringZilla-CLI",
     "elixir-makeup/makeup_c",
     "git-up/libgit2",
     "localai-org/localai-realtime-demo",
-    "psmux/scoop-psmux"
+    "psmux/scoop-psmux",
+    "Vodes/muxtools-doc"
   ]
 }

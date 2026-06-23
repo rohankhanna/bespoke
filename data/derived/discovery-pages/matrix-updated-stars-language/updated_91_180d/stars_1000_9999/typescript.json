@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1889,
-    "concepts": 326,
-    "observations": 326,
-    "repos": 63,
-    "terms": 356
+    "components": 1957,
+    "concepts": 343,
+    "observations": 343,
+    "repos": 64,
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -25,6 +25,7 @@
     "antfu/vitesse-nuxt",
     "arktypeio/arktype",
     "ben-rogerson/twin.macro",
+    "boxyhq/saas-starter-kit",
     "coaidev/coai",
     "cosmiconfig/cosmiconfig",
     "ekalinin/sitemap.js",

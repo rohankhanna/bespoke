@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3071,
-    "concepts": 1366,
-    "observations": 1366,
-    "repos": 411,
-    "terms": 1393
+    "components": 3087,
+    "concepts": 1377,
+    "observations": 1377,
+    "repos": 414,
+    "terms": 1404
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/pil2-proofman-js",
@@ -89,6 +89,7 @@
     "beneadie/DeepDog_1",
     "birdofpreyru/react-starter",
     "birdofpreyru/react-utils",
+    "bitrise-io/bitrise-plugins-step",
     "bladeacer/obsi-snip-coll",
     "bndtools/workspace-templates",
     "bolasblack/BlogFront",
@@ -358,11 +359,13 @@
     "ROCm/rbuild",
     "rocq-community/docker-rocq",
     "rrsaldanha/burp-mcp-agents",
+    "rstackjs/rsbuild-plugin-i18next-extractor",
     "runtimeverification/kup",
     "saalfeldlab/n5-aws-s3",
     "saminiscool/twitter-ai-agent",
     "sass/sync-child-process",
     "sass/sync-message-port",
+    "scalar/starter",
     "ScoopInstaller/.github",
     "semgrep/mcp-marketplace",
     "serpro69/capy",

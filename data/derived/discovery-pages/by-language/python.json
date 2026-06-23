@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 18174,
-    "concepts": 27282,
-    "observations": 27334,
-    "repos": 6776,
-    "terms": 27061
+    "concepts": 27319,
+    "observations": 27371,
+    "repos": 6783,
+    "terms": 27103
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -674,10 +674,13 @@
     "ArcadeAI/arcade-mcp",
     "arcaputo3/mcp-server-whisper",
     "arcee-ai/mergekit",
+    "Archerkattri/fast-trellis2",
     "Archerkattri/faster-trellis",
     "Archerkattri/hermit-trellis2",
     "Archerkattri/hermit-trellis2-plus-plus",
     "Archerkattri/hicache-plus-plus",
+    "Archerkattri/hunyuan2-plus",
+    "Archerkattri/sam3d-plus",
     "archinetai/a-unet",
     "archinetai/audio-diffusion-pytorch",
     "archlizheng/frontend-slides-editable",
@@ -3308,6 +3311,7 @@
     "jeffffffli/CrowdPose",
     "jeffffffli/HybrIK",
     "jeffffffli/res-loglikelihood-regression",
+    "JeffreyXiang/FlexGEMM",
     "JeffWang987/OpenOccupancy",
     "jenicek/asmk",
     "jennifermarsman/PhiRecycling",
@@ -4033,6 +4037,7 @@
     "MaureenZOU/detectron2-xyz",
     "Maxlinn/CHAIR-metric-standalone",
     "maxrmorrison/torchcrepe",
+    "MaxtirError/FlexiCubes",
     "mayeut/pep600_compliance",
     "mbailey/voicemode",
     "Mbed-TLS/mbedtls-framework",
@@ -4967,6 +4972,7 @@
     "p-lambda/wilds",
     "p0p4k/pflowtts_pytorch",
     "p0p4k/vits2_pytorch",
+    "PacifAIst/Quansloth",
     "PacificBiosciences/PacBioFileFormats",
     "PacificBiosciences/pbsv",
     "PaddlePaddle/ERNIE",
@@ -5443,6 +5449,7 @@
     "ReexpressAI/Example_Data",
     "reginald-mclean/Metaworld",
     "regro/cf-scripts",
+    "rehg-lab/lowshot-shapebias",
     "remsky/Kokoro-FastAPI",
     "render-examples/chatgpt-retrieval-plugin",
     "ReneHollander/rep0st",

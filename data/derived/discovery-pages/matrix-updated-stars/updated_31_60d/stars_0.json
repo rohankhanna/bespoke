@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 101,
-    "terms": 134
+    "components": 259,
+    "concepts": 123,
+    "observations": 123,
+    "repos": 98,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -22,7 +22,6 @@
     "atsushieno/aap-lv2-string-machine",
     "buty4649/mruby-yyjson",
     "clearml/clearml-agent-bootstrap",
-    "conda-forge/versioneer-feedstock",
     "conda-forge/xeus-cpp-feedstock",
     "csm-actions/demo-client",
     "danielrosehill/AI-Dev-Repo-Template-1",
@@ -101,7 +100,6 @@
     "netdur/imaged-sdk-examples",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
-    "nodenv/node-build-prerelease",
     "OpenHands/incubator-program",
     "qiayuanl/unitree_buildfarm",
     "regro/cf-graph-countyfair",
@@ -112,7 +110,6 @@
     "starfishmod/bonjour-service",
     "Strivin0311/strivin0311.github.io",
     "superfarther/K2V",
-    "TransferQueue/community_doc",
     "UnknownPlatypus/markup_fmt"
   ]
 }

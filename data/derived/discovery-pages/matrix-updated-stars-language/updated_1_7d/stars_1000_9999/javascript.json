@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 306,
-    "concepts": 42,
-    "observations": 42,
+    "components": 350,
+    "concepts": 41,
+    "observations": 41,
     "repos": 6,
-    "terms": 42
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "apollographql/eslint-plugin-graphql",
     "callstack/react-native-builder-bob",
+    "endojs/endo",
     "ipfs/ipfs-webui",
-    "JuliaPluto/Pluto.jl",
     "paralleldrive/cuid",
     "tape-testing/tape"
   ]

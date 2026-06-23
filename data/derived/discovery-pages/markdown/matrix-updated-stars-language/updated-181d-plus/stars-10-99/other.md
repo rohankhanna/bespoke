@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-23T05:55:24.270285+00:00`
+Generated at: `2026-06-23T09:02:56.745192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 865
+- repos: 866
 - terms: 2019
 - components: 2172
 - concepts: 2031
@@ -328,6 +328,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [will62794/tlaplus_animation](https://github.com/will62794/tlaplus_animation) | 48 | 2024-12-09T19:26:13Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [wuxiyang1996/AutoHallusion](https://github.com/wuxiyang1996/AutoHallusion) | 22 | 2024-12-06T17:35:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [WebAssembly/annotations](https://github.com/WebAssembly/annotations) | 24 | 2024-12-06T16:55:28Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [JeffreyXiang/diffoctreerast](https://github.com/JeffreyXiang/diffoctreerast) | 62 | 2024-12-05T05:30:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [LaikaStudios/OSLShaderWriting](https://github.com/LaikaStudios/OSLShaderWriting) | 27 | 2024-12-04T16:46:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [lambdaisland/classpath](https://github.com/lambdaisland/classpath) | 87 | 2024-12-04T15:16:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [eddelbuettel/spotifytop50us](https://github.com/eddelbuettel/spotifytop50us) | 11 | 2024-11-29T14:19:17Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -1122,6 +1123,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [radian-software/blackout](https://github.com/radian-software/blackout) | 63 | 2022-05-09T23:50:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dwyl/learn-jsdoc](https://github.com/dwyl/learn-jsdoc) | 63 | 2022-04-06T08:17:54Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jgm/lcmark](https://github.com/jgm/lcmark) | 62 | 2025-01-19T23:25:28Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [JeffreyXiang/diffoctreerast](https://github.com/JeffreyXiang/diffoctreerast) | 62 | 2024-12-05T05:30:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [girishji/autosuggest.vim](https://github.com/girishji/autosuggest.vim) | 62 | 2024-10-13T14:36:51Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [anthonix/llm.c](https://github.com/anthonix/llm.c) | 62 | 2024-09-23T17:23:30Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [julia-vscode/DocumentFormat.jl](https://github.com/julia-vscode/DocumentFormat.jl) | 62 | 2024-06-28T12:54:41Z | Other | Infrastructure/tooling | 7 | 12 | 7 | 7 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 324,
-    "concepts": 243,
-    "observations": 247,
-    "repos": 49,
-    "terms": 241
+    "components": 336,
+    "concepts": 252,
+    "observations": 256,
+    "repos": 51,
+    "terms": 250
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
@@ -27,10 +27,12 @@
     "dtolnay/anyhow",
     "dtolnay/cargo-expand",
     "dtolnay/proc-macro-workshop",
+    "dtolnay/quote",
     "dtolnay/thiserror",
     "fschutt/printpdf",
     "godot-rust/gdnative",
     "google/argh",
+    "google/tarpc",
     "GREsau/schemars",
     "guillaume-be/rust-bert",
     "gyscos/cursive",

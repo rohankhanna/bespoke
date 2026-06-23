@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1266,
-    "concepts": 1360,
-    "observations": 1367,
-    "repos": 188,
-    "terms": 1351
+    "components": 1297,
+    "concepts": 1396,
+    "observations": 1403,
+    "repos": 194,
+    "terms": 1387
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -53,13 +53,16 @@
     "DLTcollab/sse2neon",
     "ebiggers/libdeflate",
     "ElementsProject/lightning",
+    "emoon/minifb",
     "ericniebler/range-v3",
     "erincatto/box2d",
     "espeak-ng/espeak-ng",
     "eth-brownie/brownie",
+    "facebook/igl",
     "facebookincubator/velox",
     "fastfloat/fast_float",
     "felt/tippecanoe",
+    "FEniCS/dolfinx",
     "FFTW/fftw3",
     "flatpak/flatpak",
     "fluent/fluent-bit",
@@ -122,11 +125,13 @@
     "microsoft/DirectX-Graphics-Samples",
     "microsoft/DirectXMath",
     "microsoft/DirectXShaderCompiler",
+    "microsoft/DirectXTK12",
     "microsoft/microsoft-ui-xaml",
     "microsoft/react-native-macos",
     "microsoft/snmalloc",
     "microsoft/wil",
     "microsoft/WindowsAppSDK",
+    "mintty/mintty",
     "mitsuba-renderer/mitsuba3",
     "ml-explore/mlx-swift",
     "Moddable-OpenSource/moddable",
@@ -161,6 +166,7 @@
     "plasma-umass/coz",
     "pnggroup/libpng",
     "posva/catimg",
+    "pytorch/FBGEMM",
     "rapidsai/cudf",
     "rapidsai/cuml",
     "richgel999/miniz",

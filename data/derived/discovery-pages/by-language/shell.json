@@ -3,14 +3,14 @@
     "components": 1929,
     "concepts": 2862,
     "observations": 2881,
-    "repos": 716,
-    "terms": 2791
+    "repos": 717,
+    "terms": 2794
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -397,6 +397,7 @@
     "hyperupcall/autoenv",
     "icanhasjonas/run-claude-docker",
     "ihmcrobotics/repository-group",
+    "ilikenwf/apt-fast",
     "infusion/udf_infusion",
     "ipfs/community",
     "ipfs/infra",

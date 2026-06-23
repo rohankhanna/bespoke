@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 67,
+    "components": 68,
     "concepts": 109,
     "observations": 109,
-    "repos": 29,
+    "repos": 30,
     "terms": 109
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
@@ -21,6 +21,7 @@
     "bbatsov/clojure-style-guide",
     "bbatsov/emacs-lisp-style-guide",
     "behisecc/awesome-claude-skills",
+    "CocoaPods/Specs",
     "CVEProject/cvelistV5",
     "dotnet/docs",
     "esbatmop/MNBVC",

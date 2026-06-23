@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5258,
-    "concepts": 3709,
-    "observations": 3720,
-    "repos": 717,
-    "terms": 3705
+    "components": 5350,
+    "concepts": 3778,
+    "observations": 3789,
+    "repos": 722,
+    "terms": 3774
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -79,6 +79,7 @@
     "apostrophecms/sanitize-html",
     "appbaseio/dejavu",
     "apple/ml-hypersim",
+    "aquasecurity/tfsec",
     "ardalis/ApiEndpoints",
     "ARISE-Initiative/robomimic",
     "ARISE-Initiative/robosuite",
@@ -113,6 +114,7 @@
     "black7375/Firefox-UI-Fix",
     "blader/claudeception",
     "BlinkDL/ChatRWKV",
+    "boxyhq/saas-starter-kit",
     "brandur/redis-cell",
     "breejs/bree",
     "breezedeus/CnOCR",
@@ -215,6 +217,7 @@
     "dtolnay/anyhow",
     "dtolnay/cargo-expand",
     "dtolnay/proc-macro-workshop",
+    "dtolnay/quote",
     "dtolnay/thiserror",
     "duckdb/pg_duckdb",
     "duke-git/lancet",
@@ -293,6 +296,7 @@
     "google/ml_collections",
     "google/re2",
     "google/snappy",
+    "google/tarpc",
     "google/vizier",
     "googleapis/elixir-google-api",
     "gperftools/gperftools",
@@ -512,6 +516,7 @@
     "OpenBMB/MiniCPM",
     "opencontainers/image-spec",
     "opencontainers/runtime-spec",
+    "OpenGVLab/InternVideo",
     "OpenNMT/CTranslate2",
     "OpenSPG/KAG",
     "orogene/orogene",

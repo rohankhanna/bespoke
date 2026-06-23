@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 348,
-    "concepts": 201,
-    "observations": 201,
-    "repos": 34,
-    "terms": 200
+    "components": 417,
+    "concepts": 239,
+    "observations": 239,
+    "repos": 37,
+    "terms": 239
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
+    "Ai00-X/ai00_server",
     "all-contributors/app",
     "AMD-AGI/Nitro-1",
     "appelmar/gdalcubes",
@@ -30,6 +31,7 @@
     "kantv-ai/kantv",
     "lancedb/yoloexplorer",
     "lbcb-sci/herro",
+    "lobehub/lobe-cli-toolbox",
     "localai-org/apex-quant",
     "MetaCubeX/Yacd-meta",
     "NVlabs/trajdata",
@@ -37,10 +39,11 @@
     "preactjs/preact-devtools",
     "pypa/build",
     "readthedocs/commonmark.py",
-    "satan53x/SExtractor",
     "ShadowLoveElysia/AiNiee-Next",
     "skilld-dev/skilld",
     "SublimeText/AFileIcon",
+    "tc39/proposal-decimal",
+    "the-database/traiNNer-redux",
     "thu-ml/DiT-Extrapolation",
     "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",

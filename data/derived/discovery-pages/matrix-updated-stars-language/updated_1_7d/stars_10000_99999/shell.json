@@ -4,7 +4,7 @@
     "concepts": 14,
     "observations": 14,
     "repos": 1,
-    "terms": 11
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "spaceship-prompt/spaceship-prompt"
   ]

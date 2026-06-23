@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 443,
+    "components": 453,
     "concepts": 290,
     "observations": 293,
-    "repos": 77,
+    "repos": 78,
     "terms": 288
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "arkworks-rs/r1cs-std",
@@ -32,6 +32,7 @@
     "dtolnay/prettyplease",
     "dtolnay/readonly",
     "dtolnay/ref-cast",
+    "dtolnay/trybuild",
     "esp-rs/embedded-svc",
     "fast/logforth",
     "filecoin-project/rust-fil-proofs",

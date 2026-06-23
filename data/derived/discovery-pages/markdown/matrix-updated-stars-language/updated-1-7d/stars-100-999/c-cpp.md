@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-23T05:55:24.270285+00:00`
+Generated at: `2026-06-23T09:02:56.745192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 4
-- terms: 12
-- components: 14
-- concepts: 13
-- observations: 13
+- terms: 17
+- components: 22
+- concepts: 17
+- observations: 17
 
 ## Static behavior
 
@@ -26,8 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 613 | 2026-06-21T13:12:25Z | C/C++ | Infrastructure/tooling | 4 | 14 | 5 | 5 |
-| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 976 | 2026-06-18T15:52:43Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 216 | 2026-06-22T08:52:45Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
+| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 613 | 2026-06-21T13:12:25Z | C/C++ | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 151 | 2026-06-17T16:09:37Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [google-deepmind/reverb](https://github.com/google-deepmind/reverb) | 785 | 2026-06-16T09:21:35Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
@@ -35,7 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 976 | 2026-06-18T15:52:43Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [google-deepmind/reverb](https://github.com/google-deepmind/reverb) | 785 | 2026-06-16T09:21:35Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 613 | 2026-06-21T13:12:25Z | C/C++ | Infrastructure/tooling | 4 | 14 | 5 | 5 |
+| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 613 | 2026-06-21T13:12:25Z | C/C++ | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 216 | 2026-06-22T08:52:45Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 151 | 2026-06-17T16:09:37Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |

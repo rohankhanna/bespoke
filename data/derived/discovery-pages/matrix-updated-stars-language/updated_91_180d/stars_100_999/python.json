@@ -3,7 +3,7 @@
     "components": 591,
     "concepts": 999,
     "observations": 1000,
-    "repos": 253,
+    "repos": 252,
     "terms": 990
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0k/shyaml",
-    "24mlight/a-share-mcp-is-just-i-need",
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
     "ACEnglish/truvari",

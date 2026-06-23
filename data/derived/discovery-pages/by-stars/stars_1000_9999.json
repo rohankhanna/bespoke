@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55815,
-    "concepts": 36207,
-    "observations": 36320,
-    "repos": 6103,
-    "terms": 36094
+    "components": 55822,
+    "concepts": 36224,
+    "observations": 36337,
+    "repos": 6107,
+    "terms": 36116
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1556,6 +1556,7 @@
     "dotfiles/dotfiles.github.com",
     "dothq/browser",
     "dotnet/announcements",
+    "dotnet/command-line-api",
     "dotnet/docfx",
     "dotnet/docs",
     "dotnet/dotnet",
@@ -1715,6 +1716,7 @@
     "emissary-ingress/emissary",
     "emk/rust-musl-builder",
     "emmetio/emmet",
+    "emoon/minifb",
     "emscripten-core/emsdk",
     "endernewton/tf-faster-rcnn",
     "endojs/endo",
@@ -2670,6 +2672,7 @@
     "igrigorik/ga-beacon",
     "ijl/orjson",
     "ikawrakow/ik_llama.cpp",
+    "ilikenwf/apt-fast",
     "illuin-tech/colpali",
     "image-rs/image",
     "imagemin/imagemin",
@@ -4678,6 +4681,7 @@
     "qqwweee/keras-yolo3",
     "qri-io/qri",
     "qt-creator/qt-creator",
+    "qt/qtbase",
     "que-etc/resize-observer-polyfill",
     "Quick/Nimble",
     "Quick/Quick",

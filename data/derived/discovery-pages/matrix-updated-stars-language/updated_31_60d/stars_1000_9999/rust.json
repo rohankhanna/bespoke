@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1082,
-    "concepts": 849,
-    "observations": 851,
-    "repos": 97,
-    "terms": 843
+    "components": 1057,
+    "concepts": 827,
+    "observations": 829,
+    "repos": 94,
+    "terms": 821
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "64bit/async-openai",
@@ -82,7 +82,6 @@
     "raphamorim/rio",
     "reubeno/brush",
     "risingwavelabs/risingwave",
-    "rizsotto/Bear",
     "robustmq/robustmq",
     "ron-rs/ron",
     "ros2-rust/ros2_rust",
@@ -92,7 +91,6 @@
     "Rust-GPU/rust-gpu",
     "rust-lang/flate2-rs",
     "rust-lang/libc",
-    "rust-lang/miri",
     "rust-lang/portable-simd",
     "rust-lang/rustfmt",
     "rust-lang/rustup",
@@ -100,7 +98,6 @@
     "RustAudio/cpal",
     "RustAudio/rodio",
     "skim-rs/skim",
-    "smallcloudai/refact",
     "Splode/pomotroid",
     "squidowl/halloy",
     "supabase/etl",

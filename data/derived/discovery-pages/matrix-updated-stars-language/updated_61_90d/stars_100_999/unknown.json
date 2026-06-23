@@ -3,7 +3,7 @@
     "components": 76,
     "concepts": 271,
     "observations": 272,
-    "repos": 67,
+    "repos": 68,
     "terms": 270
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -31,6 +31,7 @@
     "astro-han/karpathy-llm-wiki",
     "attack68/rateslib",
     "AutoJunjie/awesome-agent-harness",
+    "bitrise-io/bitrise-steplib",
     "bloomberg/clang-p2996",
     "cisagov/vulnrichment",
     "cloudflare/skills",

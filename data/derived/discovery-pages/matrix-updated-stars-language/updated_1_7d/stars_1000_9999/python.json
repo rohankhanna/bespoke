@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 104,
-    "observations": 106,
+    "components": 57,
+    "concepts": 88,
+    "observations": 90,
     "repos": 12,
-    "terms": 100
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
+    "aigc-apps/VideoX-Fun",
     "arcee-ai/mergekit",
-    "aws/serverless-application-model",
     "clearml/clearml",
     "eclipse-paho/paho.mqtt.python",
     "google-deepmind/optax",
@@ -24,7 +24,7 @@
     "modelscope/FunClip",
     "modelscope/ms-agent",
     "opencv/opencv-python",
-    "PaddlePaddle/PaddleClas",
+    "redis/redis-om-python",
     "webpy/webpy"
   ]
 }

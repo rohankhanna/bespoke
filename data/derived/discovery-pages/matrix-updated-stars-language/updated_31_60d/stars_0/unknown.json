@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 11,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 50,
-    "terms": 25
+    "concepts": 24,
+    "observations": 24,
+    "repos": 48,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
-    "conda-forge/versioneer-feedstock",
     "csm-actions/demo-client",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
@@ -62,7 +61,6 @@
     "kleisauke/glib",
     "OpenHands/incubator-program",
     "qiayuanl/unitree_buildfarm",
-    "sp1-patches/elliptic-curves",
-    "TransferQueue/community_doc"
+    "sp1-patches/elliptic-curves"
   ]
 }

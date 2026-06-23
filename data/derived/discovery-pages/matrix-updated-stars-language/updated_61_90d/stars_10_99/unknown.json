@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 127,
-    "observations": 128,
-    "repos": 50,
-    "terms": 126
+    "components": 118,
+    "concepts": 129,
+    "observations": 130,
+    "repos": 51,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -57,6 +57,7 @@
     "SeleniumHQ/selenium_manager_artifacts",
     "sigstore/community",
     "simonw/simonwillisonblog-backup",
+    "spring-projects/spring-ai-integration-tests",
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
     "tc39/proposal-duplicate-named-capturing-groups",

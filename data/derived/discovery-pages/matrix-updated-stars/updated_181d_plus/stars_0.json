@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1396,
-    "concepts": 575,
-    "observations": 577,
+    "components": 1401,
+    "concepts": 576,
+    "observations": 578,
     "repos": 467,
-    "terms": 575
+    "terms": 576
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -61,6 +61,7 @@
     "AniAggarwal/clip-score",
     "anonymized-transformer/anonymized-transformer.github.io",
     "apache/sling-org-apache-sling-feature-modelconverter",
+    "appscodelabs/liche",
     "aq-sensors/airbeamr",
     "artichoke/spec",
     "ashen-sensored/gradio",
@@ -80,7 +81,6 @@
     "base24/.github",
     "benkasminbullock/gzip-libdeflate",
     "benwmills/core-sass-compiler",
-    "bepinex/mono",
     "bfshi/llava_next_s2_integration",
     "bgw/virtue",
     "bigcodebench/bigcodebench",

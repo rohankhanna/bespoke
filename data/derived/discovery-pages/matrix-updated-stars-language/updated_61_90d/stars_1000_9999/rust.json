@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1614,
-    "concepts": 1162,
-    "observations": 1169,
-    "repos": 170,
-    "terms": 1173
+    "components": 1627,
+    "concepts": 1175,
+    "observations": 1182,
+    "repos": 171,
+    "terms": 1186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -55,7 +55,6 @@
     "dimforge/nalgebra",
     "dimforge/rapier",
     "dtolnay/cxx",
-    "dtolnay/quote",
     "dtolnay/syn",
     "EmbarkStudios/cargo-deny",
     "EmbarkStudios/puffin",
@@ -71,7 +70,6 @@
     "freenet/freenet-core",
     "gfx-rs/wgpu-native",
     "ggez/ggez",
-    "google/tarpc",
     "google/zerocopy",
     "googlefonts/Inconsolata",
     "GuillaumeGomez/sysinfo",
@@ -137,6 +135,7 @@
     "PyO3/maturin",
     "ratatui/mousefood",
     "release-plz/release-plz",
+    "rizsotto/Bear",
     "rkyv/rkyv",
     "romanz/electrs",
     "rusqlite/rusqlite",
@@ -149,6 +148,7 @@
     "rust-lang/futures-rs",
     "rust-lang/git2-rs",
     "rust-lang/log",
+    "rust-lang/miri",
     "rust-lang/rust-bindgen",
     "rust-postgres/rust-postgres",
     "rust-windowing/glutin",
@@ -164,6 +164,7 @@
     "servo/pathfinder",
     "sharkdp/pastel",
     "sigp/lighthouse",
+    "smallcloudai/refact",
     "snapview/tokio-tungstenite",
     "snapview/tungstenite-rs",
     "spacejam/sled",

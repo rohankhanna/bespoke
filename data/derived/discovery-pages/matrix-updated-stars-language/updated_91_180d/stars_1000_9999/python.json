@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 519,
-    "concepts": 1003,
-    "observations": 1003,
-    "repos": 187,
-    "terms": 993
+    "concepts": 1023,
+    "observations": 1023,
+    "repos": 188,
+    "terms": 1013
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -144,6 +144,7 @@
     "open-mmlab/mmaction2",
     "open-mmlab/mmcv",
     "open-webui/mcpo",
+    "OpenGVLab/InternVideo",
     "OpenSPG/KAG",
     "PaddlePaddle/ERNIE",
     "PaddlePaddle/PaddleSeg",

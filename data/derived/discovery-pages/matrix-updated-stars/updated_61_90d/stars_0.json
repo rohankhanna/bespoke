@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 925,
-    "concepts": 349,
-    "observations": 350,
-    "repos": 239,
-    "terms": 381
+    "components": 934,
+    "concepts": 360,
+    "observations": 361,
+    "repos": 242,
+    "terms": 392
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -70,6 +70,7 @@
     "conda-forge/pytomlpp-feedstock",
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
+    "conda-forge/versioneer-feedstock",
     "csjgg/ags-cookbook",
     "Culmus/hebrew-fonts",
     "damacol/ai-hub",
@@ -217,6 +218,7 @@
     "netdur/llama_cpp_rust",
     "neuroverseos/negotiator",
     "nibir1/vaultsim",
+    "nodenv/node-build-prerelease",
     "Patrick-ring-motive/sval-rhino-gs",
     "PetervanLunteren/EcoAssist-metadata",
     "piebald-ai/piebald",
@@ -244,6 +246,7 @@
     "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
     "sujithpvarghese/bedrock-full-reconciliation",
     "tornikepe/ai-chatbot",
+    "TransferQueue/community_doc",
     "transparency-dev/armored-witness-common",
     "ublacklist/store-assets",
     "ueno/podman-sequoia",

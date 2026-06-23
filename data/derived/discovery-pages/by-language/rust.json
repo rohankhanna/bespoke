@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11835,
-    "concepts": 8073,
-    "observations": 8135,
-    "repos": 1747,
-    "terms": 8061
+    "components": 11856,
+    "concepts": 8090,
+    "observations": 8152,
+    "repos": 1749,
+    "terms": 8080
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -211,6 +211,7 @@
     "atuinsh/atuin",
     "Automattic/harper",
     "autozimu/LanguageClient-neovim",
+    "Avarok-Cybersecurity/atlas",
     "aweinstock314/rust-clipboard",
     "awestlake87/pyo3-asyncio",
     "aws-cloudformation/cloudformation-guard",
@@ -992,6 +993,7 @@
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
     "la10736/rstest",
+    "lablup/mlxcel",
     "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper",
     "lalrpop/lalrpop",

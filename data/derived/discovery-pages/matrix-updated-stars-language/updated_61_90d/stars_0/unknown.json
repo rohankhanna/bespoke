@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 57,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 96,
-    "terms": 85
+    "concepts": 77,
+    "observations": 77,
+    "repos": 98,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -31,6 +31,7 @@
     "conda-forge/pytomlpp-feedstock",
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
+    "conda-forge/versioneer-feedstock",
     "csjgg/ags-cookbook",
     "Culmus/hebrew-fonts",
     "damacol/ai-hub",
@@ -106,6 +107,7 @@
     "pragmatical-transshipment598/claude-code-workflows",
     "semgrep/cursor-plugin",
     "shouted-numberone752/wechat-agent-connector",
+    "TransferQueue/community_doc",
     "ublacklist/store-assets",
     "vivianalaced749/vk-calls-tunnel",
     "wencuecryforme/mysoul.skill",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11970,
-    "concepts": 5377,
-    "observations": 5387,
-    "repos": 2392,
-    "terms": 5393
+    "components": 11972,
+    "concepts": 5408,
+    "observations": 5418,
+    "repos": 2397,
+    "terms": 5424
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -310,10 +310,14 @@
     "aralyekta/prompttester",
     "arangoml/dgl-adapter",
     "aratz-lasa/ex_multiaddr",
+    "Archerkattri/fast-trellis2",
     "Archerkattri/faster-trellis",
+    "Archerkattri/faster-trellis-plus-plus",
     "Archerkattri/hermit-trellis2",
     "Archerkattri/hermit-trellis2-plus-plus",
     "Archerkattri/hicache-plus-plus",
+    "Archerkattri/hunyuan2-plus",
+    "Archerkattri/sam3d-plus",
     "archestra-ai/terraform-provider-archestra",
     "archguard/archguard-gradle-plugin",
     "arecarn/vim-selection",
@@ -2330,6 +2334,7 @@
     "viperproject/axiom-profiler-2",
     "vitchyr/doodad",
     "vllm-project/media-kit",
+    "Vodes/muxtools-doc",
     "VOICEVOX/pyopenjtalk",
     "VollmondT/juice-rs",
     "volodya-lombrozo/neotest-ruby-minitest",

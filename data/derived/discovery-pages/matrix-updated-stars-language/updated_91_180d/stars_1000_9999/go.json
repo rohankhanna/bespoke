@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 295,
-    "concepts": 288,
-    "observations": 288,
-    "repos": 63,
-    "terms": 283
+    "components": 307,
+    "concepts": 311,
+    "observations": 311,
+    "repos": 64,
+    "terms": 306
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -20,6 +20,7 @@
     "alexellis/k3sup",
     "ankitpokhrel/jira-cli",
     "apache/rocketmq-client-go",
+    "aquasecurity/tfsec",
     "avast/retry-go",
     "bazelbuild/buildtools",
     "bytedance/gopkg",

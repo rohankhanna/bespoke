@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1000,
+    "components": 998,
     "concepts": 689,
     "observations": 693,
-    "repos": 104,
+    "repos": 103,
     "terms": 685
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
@@ -96,7 +96,6 @@
     "quickwit-oss/tantivy-py",
     "rust-diplomat/diplomat",
     "rust-lang/compiler-builtins",
-    "rust-lang/pkg-config-rs",
     "rust-lang/stdarch",
     "rust-random/getrandom",
     "RustCrypto/crypto-bigint",

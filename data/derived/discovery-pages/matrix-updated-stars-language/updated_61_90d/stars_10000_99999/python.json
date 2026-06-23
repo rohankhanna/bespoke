@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1740,
-    "concepts": 1472,
-    "observations": 1476,
-    "repos": 158,
-    "terms": 1498
+    "components": 1752,
+    "concepts": 1480,
+    "observations": 1484,
+    "repos": 159,
+    "terms": 1506
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -116,6 +116,7 @@
     "modelcontextprotocol/python-sdk",
     "nginx-proxy/nginx-proxy",
     "numba/numba",
+    "numpy/numpy",
     "NVIDIA/Megatron-LM",
     "NVIDIA/TensorRT-LLM",
     "onnx/onnx",

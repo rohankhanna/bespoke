@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 765,
-    "concepts": 885,
-    "observations": 888,
-    "repos": 169,
-    "terms": 877
+    "components": 792,
+    "concepts": 917,
+    "observations": 920,
+    "repos": 174,
+    "terms": 909
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "actboy168/bee.lua",
@@ -73,6 +73,7 @@
     "Frommi/miniz_oxide",
     "fujitsu/xbyak_aarch64",
     "g-truc/gli",
+    "ganelson/inweb",
     "gazebosim/gz-sensors",
     "gbionics/idyntree",
     "ghostty-org/ghostling",
@@ -140,9 +141,11 @@
     "onnx/optimizer",
     "OpenLightingProject/ola",
     "openSUSE/catatonit",
+    "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",
     "osmcode/libosmium",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
+    "pantoniou/libfyaml",
     "pauldmccarthy/indexed_gzip",
     "paullouisageneau/libjuice",
     "pbatard/Mosby",
@@ -158,11 +161,13 @@
     "roboception/cvkit",
     "ROCm/composable_kernel",
     "ROCm/MIVisionX",
+    "ROCm/mori",
     "ruby-debug/debase",
     "rusty1s/pytorch_cluster",
     "samdauwe/webgpu-native-examples",
     "samtools/bcftools",
     "SaschaWillems/HowToVulkan",
+    "secretflow/heu",
     "SHI-Labs/NATTEN",
     "Solo5/solo5",
     "sp-nitech/SPTK",

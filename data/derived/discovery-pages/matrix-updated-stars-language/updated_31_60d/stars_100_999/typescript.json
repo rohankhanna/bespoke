@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4071,
-    "concepts": 900,
-    "observations": 902,
-    "repos": 120,
-    "terms": 891
+    "components": 4009,
+    "concepts": 882,
+    "observations": 884,
+    "repos": 118,
+    "terms": 873
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -29,7 +29,6 @@
     "appwrite/sdk-for-web",
     "astahmer/typed-openapi",
     "aws-samples/swift-chat",
-    "azat-io/eslint-plugin-de-morgan",
     "bitwarden/directory-connector",
     "Brendonovich/MacroGraph",
     "browserslist/browserslist-useragent-regexp",
@@ -42,7 +41,6 @@
     "daeh/zotero-markdb-connect",
     "danielroe/beasties",
     "decentralized-identity/did-resolver",
-    "docker/bake-action",
     "dydxprotocol/v4-web",
     "electron-vite/vite-plugin-electron",
     "electron-vite/vite-plugin-electron-renderer",

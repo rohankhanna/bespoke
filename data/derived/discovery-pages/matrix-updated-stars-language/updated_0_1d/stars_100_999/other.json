@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 46,
-    "observations": 47,
-    "repos": 7,
-    "terms": 46
+    "components": 106,
+    "concepts": 85,
+    "observations": 86,
+    "repos": 10,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
+    "astroautomata/SymbolicRegression.jl",
     "bazel-contrib/rules_kotlin",
     "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
     "grpc/grpc-dart",
     "meshcat-dev/meshcat",
-    "sbt/sbt-jmh"
+    "ROCm/hipBLASLt",
+    "sbt/sbt-jmh",
+    "the-database/mpv-AnimeJaNai"
   ]
 }

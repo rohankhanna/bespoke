@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39475,
-    "concepts": 8831,
-    "observations": 8858,
-    "repos": 2082,
-    "terms": 8820
+    "components": 39464,
+    "concepts": 8825,
+    "observations": 8852,
+    "repos": 2081,
+    "terms": 8814
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -2018,7 +2018,6 @@
     "vuelidate/vuelidate",
     "vueuse/vue-demi",
     "vueuse/vueuse-vue3-example",
-    "vutran/zel",
     "w3c/trusted-types",
     "w3c/webidl2.js",
     "w3c/webref",

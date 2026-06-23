@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 14,
-    "terms": 89
+    "components": 89,
+    "concepts": 91,
+    "observations": 91,
+    "repos": 15,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "Aleksoid1978/VideoRenderer",
     "AviSynth/AviSynthPlus",
@@ -26,6 +26,7 @@
     "snapcast/snapcast",
     "swiftlang/swift-llbuild",
     "TheTom/llama-cpp-turboquant",
+    "ufbx/ufbx",
     "vapoursynth/vapoursynth",
     "xtensor-stack/xtensor"
   ]

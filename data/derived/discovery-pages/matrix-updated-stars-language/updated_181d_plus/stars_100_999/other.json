@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2406,
-    "concepts": 3209,
-    "observations": 3216,
-    "repos": 1002,
-    "terms": 3193
+    "components": 2410,
+    "concepts": 3211,
+    "observations": 3218,
+    "repos": 1003,
+    "terms": 3192
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -836,6 +836,7 @@
     "RRethy/nvim-treesitter-textsubjects",
     "rsmdt/yell",
     "rspatial/raster",
+    "ruby-formatter/rufo",
     "RubyCrypto/rbnacl",
     "rubyjs/libv8",
     "runtimeverification/verified-smart-contracts",

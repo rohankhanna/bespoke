@@ -3,7 +3,7 @@
     "components": 1295,
     "concepts": 5751,
     "observations": 5756,
-    "repos": 1914,
+    "repos": 1915,
     "terms": 5590
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -22,6 +22,7 @@
     "1zb/VecSetX",
     "1zhou-Wang/MemVR",
     "23andMe/Yamale",
+    "24mlight/a-share-mcp-is-just-i-need",
     "26hzhang/VSLNet",
     "2U1/Llama3.2-Vision-Finetune",
     "3dhumangan/3DHumanGAN",

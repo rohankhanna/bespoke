@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1301,
-    "concepts": 1351,
-    "observations": 1351,
-    "repos": 156,
-    "terms": 1342
+    "components": 1270,
+    "concepts": 1315,
+    "observations": 1315,
+    "repos": 151,
+    "terms": 1306
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -49,14 +49,12 @@
     "eclipse-sumo/sumo",
     "elfmz/far2l",
     "facebook/fbthrift",
-    "facebook/igl",
     "facebook/mvfst",
     "facebook/proxygen",
     "facebook/wangle",
     "facebookincubator/fizz",
     "facebookincubator/katran",
     "Farama-Foundation/Arcade-Learning-Environment",
-    "FEniCS/dolfinx",
     "flashrom/flashrom",
     "flightlessmango/MangoHud",
     "floooh/sokol",
@@ -104,11 +102,9 @@
     "microsoft/DirectML",
     "microsoft/DirectXTex",
     "microsoft/DirectXTK",
-    "microsoft/DirectXTK12",
     "microsoft/onnxruntime-genai",
     "microsoft/SPTAG",
     "miniupnp/miniupnp",
-    "mintty/mintty",
     "Mithril-mine/libmdbx",
     "mkazhdan/PoissonRecon",
     "mruby/mruby",
@@ -134,7 +130,6 @@
     "PortAudio/portaudio",
     "PRBonn/kiss-icp",
     "pure-data/pure-data",
-    "pytorch/FBGEMM",
     "qt-creator/qt-creator",
     "RainerKuemmerle/g2o",
     "realsenseai/librealsense",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3029,
-    "concepts": 2384,
-    "observations": 2389,
-    "repos": 440,
-    "terms": 2401
+    "components": 3041,
+    "concepts": 2397,
+    "observations": 2402,
+    "repos": 442,
+    "terms": 2414
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -179,6 +179,7 @@
     "eddelbuettel/r2u",
     "elastic/docs",
     "elementary/icons",
+    "elixir-ecto/db_connection",
     "elixir-ecto/ecto_sql",
     "elixir-lang/elixir-lang.github.com",
     "elixir-sqlite/ecto_sqlite3",
@@ -413,6 +414,7 @@
     "spotbugs/spotbugs-maven-plugin",
     "standardrb/standard-rails",
     "status-im/nimbus-eth1",
+    "status-im/nimbus-eth2",
     "stevemolitor/claude-code.el",
     "stevemolitor/monet",
     "stijnvdb88/Snap.Net",

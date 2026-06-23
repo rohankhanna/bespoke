@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26631,
-    "concepts": 22946,
-    "observations": 23022,
-    "repos": 5640,
-    "terms": 22878
+    "components": 26642,
+    "concepts": 22973,
+    "observations": 23049,
+    "repos": 5644,
+    "terms": 22907
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -521,6 +521,7 @@
     "araffin/rl-tutorial-jnrr19",
     "aragon/staking",
     "aratz-lasa/ex_multiaddr",
+    "Archerkattri/faster-trellis-plus-plus",
     "archguard/archguard",
     "archguard/archguard-gradle-plugin",
     "archguard/codedb",
@@ -855,7 +856,6 @@
     "BepInEx/BepInEx.BSIPA.Loader",
     "BepInEx/BepInEx.MDML.Loader",
     "BepInEx/BepInEx.MelonLoader.Loader",
-    "bepinex/mono",
     "bepu/bepuphysics1",
     "bepu/bepuphysics2",
     "Betterment/betterlint",
@@ -1731,6 +1731,7 @@
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
     "dotnet/AspNetDocs",
+    "dotnet/command-line-api",
     "dotnet/core",
     "dotnet/csharplang",
     "dotnet/csharpstandard",
@@ -1882,6 +1883,7 @@
     "ejconlon/libremidi-haskell",
     "eki3z/git-cliff.el",
     "ekino/frankenphp-magento2",
+    "ekryski/mlx-swift-lm",
     "eladrich/pixel2style2pixel",
     "elaforge/fast-tags",
     "elastic/docs",
@@ -2787,6 +2789,8 @@
     "jdanielmourao/obsidian-sanctum",
     "jdorn/sql-formatter",
     "jeffa5/typstfmt",
+    "JeffreyXiang/CuMesh",
+    "JeffreyXiang/diffoctreerast",
     "jeffzi/llscheck",
     "jekip/naive-ui-admin",
     "jekyll/jekyll",

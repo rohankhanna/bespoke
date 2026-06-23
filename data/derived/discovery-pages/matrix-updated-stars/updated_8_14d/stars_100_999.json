@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 364,
-    "concepts": 199,
-    "observations": 200,
-    "repos": 33,
-    "terms": 199
+    "components": 295,
+    "concepts": 161,
+    "observations": 162,
+    "repos": 29,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "adamchainz/blacken-docs",
-    "Ai00-X/ai00_server",
     "Alex313031/Thorium-MacOS",
     "alloy-rs/svm-rs",
     "antvis/GPT-Vis",
@@ -33,14 +32,11 @@
     "google-deepmind/xmanager",
     "GoogleCloudPlatform/google-cloud-node-todos",
     "haasn/libplacebo",
-    "lobehub/lobe-cli-toolbox",
     "machinewrapped/llm-subtrans",
     "mafintosh/streamx",
     "meta-pytorch/torchft",
     "rescript-lang/reanalyze",
     "SpecterOps/AzureHound",
-    "tc39/proposal-decimal",
-    "the-database/traiNNer-redux",
     "unplugin/unplugin-imagemin",
     "unum-bio/USearchMolecules",
     "w3c/trusted-types",

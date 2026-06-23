@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 484,
-    "concepts": 336,
-    "observations": 338,
-    "repos": 79,
-    "terms": 330
+    "components": 490,
+    "concepts": 337,
+    "observations": 339,
+    "repos": 80,
+    "terms": 331
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -76,6 +76,7 @@
     "MicahParks/jwkset",
     "minio/pkg",
     "MShekow/directory-checksum",
+    "mudler/MCPs",
     "muhlba91/external-dns-provider-adguard",
     "notaryproject/notation-core-go",
     "notaryproject/notation-go",

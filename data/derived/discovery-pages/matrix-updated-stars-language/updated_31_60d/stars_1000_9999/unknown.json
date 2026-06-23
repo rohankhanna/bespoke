@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 17,
+    "components": 16,
     "concepts": 85,
     "observations": 85,
-    "repos": 15,
+    "repos": 14,
     "terms": 85
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "ad-si/awesome-music-production",
-    "CocoaPods/Specs",
     "Efficient-ML/Awesome-Model-Quantization",
     "ephtracy/voxel-model",
     "github/rest-api-description",

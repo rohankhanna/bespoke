@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 10,
-    "terms": 98
+    "components": 140,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 12,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
+    "datalevin/datalevin",
     "dotnet/reactive",
     "firebase/flutterfire",
+    "googleapis/google-auth-library-php",
     "kurrent-io/KurrentDB",
-    "licensee/licensed",
     "microsoft/aspire",
     "microsoft/aspire-samples",
     "seancorfield/honeysql",
+    "standardrb/standard",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "web-platform-tests/wpt"

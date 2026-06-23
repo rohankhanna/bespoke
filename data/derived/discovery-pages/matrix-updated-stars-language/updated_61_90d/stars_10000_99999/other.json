@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1184,
-    "concepts": 815,
-    "observations": 820,
-    "repos": 94,
-    "terms": 813
+    "components": 1204,
+    "concepts": 840,
+    "observations": 846,
+    "repos": 96,
+    "terms": 837
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T05:55:24.270285+00:00",
+  "generated_at": "2026-06-23T09:02:56.745192+00:00",
   "repo_ids": [
     "abpframework/abp",
     "adambard/learnxinyminutes-docs",
@@ -67,6 +67,7 @@
     "jaywcjlove/linux-command",
     "jekyll/jekyll",
     "JetBrains/kotlin",
+    "jgm/pandoc",
     "jordansissel/fpm",
     "JuliaLang/julia",
     "junegunn/fzf.vim",
@@ -102,6 +103,7 @@
     "semgrep/semgrep",
     "shap/shap",
     "Solido/awesome-flutter",
+    "tc39/ecma262",
     "teamcapybara/capybara",
     "tmuxinator/tmuxinator",
     "tonsky/FiraCode",
