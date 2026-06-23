@@ -84,7 +84,7 @@
   "normalized_form": "visual-testing",
   "observation_id": "30ffb2ec39b8881e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T00:47:09.772172+00:00",
+  "observed_at": "2026-06-23T13:14:02.543868+00:00",
   "observed_text": "Visual Testing",
   "source_context_snippet": "Visual Testing",
   "source_file": ".github/workflows/argos-website.yaml",

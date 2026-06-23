@@ -2825,6 +2825,18 @@
       "source_repo": "Avarok-Cybersecurity/atlas",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blaizzy/mlx-audio",
+      "status": "candidate-context",
+      "text": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blaizzy/mlx-audio",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -4235,6 +4247,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Avarok-Cybersecurity/atlas",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blaizzy/mlx-audio",
       "status": "candidate",
       "text": "Docs"
     }
@@ -10764,11 +10782,65 @@
       "observed_at": "2026-06-23T07:25:49.577775+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "rust-lang/packed_simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Blaizzy/mlx-audio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

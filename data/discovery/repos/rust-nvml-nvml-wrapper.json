@@ -182,7 +182,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T00:59:35.553860+00:00",
+  "fetched_at": "2026-06-23T13:19:55.018115+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -210,7 +210,7 @@
     "full_name": "rust-nvml/nvml-wrapper",
     "html_url": "https://github.com/rust-nvml/nvml-wrapper",
     "language": "Rust",
-    "pushed_at": "2026-03-30T20:38:41Z",
+    "pushed_at": "2026-06-23T08:01:56Z",
     "stargazers_count": 199,
     "topics": [
       "cuda",
@@ -226,7 +226,7 @@
       "nvml",
       "opencl"
     ],
-    "updated_at": "2026-06-06T13:36:57Z"
+    "updated_at": "2026-06-23T08:02:01Z"
   },
   "repo_links": [
     {

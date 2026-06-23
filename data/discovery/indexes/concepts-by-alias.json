@@ -737,6 +737,12 @@
   "ace-jump": [
     "ace-jump"
   ],
+  "achievement": [
+    "achievement"
+  ],
+  "achievements": [
+    "achievements"
+  ],
   "aci integration tests": [
     "aci-integration-tests"
   ],
@@ -32696,6 +32702,9 @@
   "docs linting": [
     "docs-linting"
   ],
+  "docs pages": [
+    "docs-pages"
+  ],
   "docs pr preview deploy": [
     "docs-pr-preview-deploy"
   ],
@@ -34233,6 +34242,9 @@
   ],
   "early-hints": [
     "early-hints"
+  ],
+  "earn": [
+    "earn"
   ],
   "earth-science": [
     "earth-science"
@@ -36907,6 +36919,9 @@
   ],
   "extractor": [
     "extractor"
+  ],
+  "extraordinaire": [
+    "extraordinaire"
   ],
   "extrapolation": [
     "extrapolation"
@@ -40010,6 +40025,9 @@
   ],
   "galaxy": [
     "galaxy"
+  ],
+  "galaxy-brain": [
+    "galaxy-brain"
   ],
   "galaxy-import": [
     "galaxy-import"
@@ -43146,6 +43164,9 @@
   "gpt-5": [
     "gpt-5"
   ],
+  "gpt-5-api": [
+    "gpt-5-api"
+  ],
   "gpt-5-codex": [
     "gpt-5-codex"
   ],
@@ -44927,6 +44948,9 @@
   ],
   "heart": [
     "heart"
+  ],
+  "heart-on-your-sleeve": [
+    "heart-on-your-sleeve"
   ],
   "heartbeat-tests": [
     "heartbeat-tests"
@@ -53235,6 +53259,9 @@
   ],
   "lightline": [
     "lightline"
+  ],
+  "lightmap": [
+    "lightmap"
   ],
   "lightmode": [
     "lightmode"
@@ -64734,6 +64761,9 @@
   "open-source-tooling": [
     "open-source-tooling"
   ],
+  "open-sourcerer": [
+    "open-sourcerer"
+  ],
   "open-telemetry": [
     "open-telemetry"
   ],
@@ -66291,6 +66321,9 @@
   "paintdotnet": [
     "paintdotnet"
   ],
+  "pair-extraordinaire": [
+    "pair-extraordinaire"
+  ],
   "pair-programming": [
     "pair-programming"
   ],
@@ -66503,6 +66536,9 @@
   ],
   "parameter-encoding": [
     "parameter-encoding"
+  ],
+  "parameterization": [
+    "parameterization"
   ],
   "parameterized integration tests": [
     "parameterized-integration-tests"
@@ -82712,6 +82748,9 @@
   "shape-features": [
     "shape-features"
   ],
+  "shape-generation": [
+    "shape-generation"
+  ],
   "shape-representation": [
     "shape-representation"
   ],
@@ -85841,6 +85880,9 @@
   "stale issues & prs": [
     "stale-issues-prs"
   ],
+  "stale issues and prs": [
+    "stale-issues-and-prs"
+  ],
   "stale issues and pull requests": [
     "stale-issues-and-pull-requests"
   ],
@@ -86035,6 +86077,9 @@
   ],
   "starship": [
     "starship"
+  ],
+  "starstruck": [
+    "starstruck"
   ],
   "start": [
     "start"
@@ -91394,11 +91439,17 @@
   "texture": [
     "texture"
   ],
+  "texture-atlas": [
+    "texture-atlas"
+  ],
   "texture-bias": [
     "texture-bias"
   ],
   "texture-compression": [
     "texture-compression"
+  ],
+  "texture-generation": [
+    "texture-generation"
   ],
   "texture-mapping": [
     "texture-mapping"
@@ -94698,6 +94749,9 @@
   ],
   "universal-javascript": [
     "universal-javascript"
+  ],
+  "universe": [
+    "universe"
   ],
   "unix": [
     "unix"

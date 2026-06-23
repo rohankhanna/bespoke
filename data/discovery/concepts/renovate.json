@@ -56,6 +56,18 @@
       "source_repo": "kiron1/bazel-compile-commands",
       "status": "candidate-context",
       "text": "Renovate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossplane/crossplane",
+      "status": "candidate-context",
+      "text": "The Cloud Native Control Plane"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/crossplane",
+      "status": "candidate-context",
+      "text": "Renovate"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kiron1/bazel-compile-commands",
+      "status": "candidate",
+      "text": "Renovate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/crossplane",
       "status": "candidate",
       "text": "Renovate"
     }
@@ -171,11 +189,17 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": ".github/workflows/renovate.yaml",
       "source_repo": "kiron1/bazel-compile-commands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": ".github/workflows/renovate.yml",
+      "source_repo": "crossplane/crossplane"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

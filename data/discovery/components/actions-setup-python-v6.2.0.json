@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v6.2.0",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "sgt0/vs-placebo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ascend-a2-ci.yml",
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-header.yml",
+      "source_repo": "fla-org/flash-linear-attention"
     }
   ]
 }

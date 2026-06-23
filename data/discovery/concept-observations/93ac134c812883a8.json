@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diffusion-models",
+      "sense_id": "diffusion-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "diffusion-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "diffusion-models",
+  "observation_id": "93ac134c812883a8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_text": "diffusion-models",
+  "source_context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+  "source_file": null,
+  "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+  "source_repo_description": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models."
+}

@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T01:00:57.033437+00:00",
+  "fetched_at": "2026-06-23T13:20:37.304373+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -53,7 +53,7 @@
     "full_name": "okd-project/okd",
     "html_url": "https://github.com/okd-project/okd",
     "language": "HCL",
-    "pushed_at": "2026-06-18T08:50:20Z",
+    "pushed_at": "2026-06-23T10:34:21Z",
     "stargazers_count": 2080,
     "topics": [
       "kubernetes",

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-23T14:27:41.419859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6637
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 843
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SAM 3D Objects",
+    "fork": false,
+    "full_name": "facebookresearch/sam-3d-objects",
+    "html_url": "https://github.com/facebookresearch/sam-3d-objects",
+    "language": "Python",
+    "pushed_at": "2026-06-02T21:16:44Z",
+    "stargazers_count": 7003,
+    "topics": [],
+    "updated_at": "2026-06-23T13:09:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

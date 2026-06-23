@@ -228,20 +228,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redis-om/redis-om-spring",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redislabs-training/mod-devcap-redisjson-getting-started",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/redis-om-spring",
@@ -473,7 +459,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T15:37:52.747165+00:00",
+  "fetched_at": "2026-06-23T13:19:02.109332+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -497,7 +483,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 3870
+      "size": 3910
     }
   ],
   "related_repositories": [],
@@ -509,27 +495,16 @@
     "full_name": "redis/redis-om-spring",
     "html_url": "https://github.com/redis/redis-om-spring",
     "language": "Java",
-    "pushed_at": "2026-06-19T21:15:55Z",
+    "pushed_at": "2026-06-23T00:09:30Z",
     "stargazers_count": 654,
     "topics": [
       "java",
       "redis",
       "spring"
     ],
-    "updated_at": "2026-06-19T19:46:13Z"
+    "updated_at": "2026-06-22T23:52:55Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis-om/redis-om-spring",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redislabs-training/mod-devcap-redisjson-getting-started",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build",

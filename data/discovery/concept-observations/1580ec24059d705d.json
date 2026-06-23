@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":brain: 100% Local Memory layer and Knowledge base for agents with WebUI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run Go Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run Go Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40643,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38574,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35411,
+      "status": "candidate",
+      "text": "gallop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35024,
+      "status": "candidate",
+      "text": "trot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34624,
+      "status": "candidate",
+      "text": "make"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Go Tests",
+      "sense_id": "run-go-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-go-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-go-tests",
+  "observation_id": "1580ec24059d705d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_text": "Run Go Tests",
+  "source_context_snippet": "Run Go Tests",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "mudler/LocalRecall",
+  "source_repo_description": ":brain: 100% Local Memory layer and Knowledge base for agents with WebUI "
+}

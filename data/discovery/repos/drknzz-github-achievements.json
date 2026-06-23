@@ -1,0 +1,323 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "readme/featured",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "achievement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "achievements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "badge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "badges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "display",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "earn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "extraordinaire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "galaxy-brain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "heart-on-your-sleeve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "open-sourcerer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "pair-extraordinaire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "starstruck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements",
+      "target": "universe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T14:25:42.217200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd25 A Complete List of GitHub Profile Badges and Achievements \ud83d\udd25",
+    "fork": false,
+    "full_name": "drknzz/GitHub-Achievements",
+    "html_url": "https://github.com/drknzz/GitHub-Achievements",
+    "language": "Markdown",
+    "pushed_at": "2024-08-09T09:58:41Z",
+    "stargazers_count": 2964,
+    "topics": [
+      "achievement",
+      "achievements",
+      "badge",
+      "badges",
+      "display",
+      "earn",
+      "extraordinaire",
+      "galaxy-brain",
+      "github",
+      "heart-on-your-sleeve",
+      "list",
+      "open-sourcerer",
+      "pair-extraordinaire",
+      "profile",
+      "profile-readme",
+      "readme",
+      "source",
+      "starstruck",
+      "stats",
+      "universe"
+    ],
+    "updated_at": "2026-06-23T01:30:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "readme/featured",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "achievement"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "achievements"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badge"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badges"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "display"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "earn"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extraordinaire"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "galaxy-brain"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heart-on-your-sleeve"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "list"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-sourcerer"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pair-extraordinaire"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile-readme"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starstruck"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stats"
+    },
+    {
+      "context_snippet": "<!-- <div align=\"center\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "universe"
+    }
+  ]
+}

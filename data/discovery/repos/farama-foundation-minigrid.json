@@ -302,7 +302,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T01:25:16.829978+00:00",
+  "fetched_at": "2026-06-23T13:33:24.643619+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -346,7 +346,7 @@
     "full_name": "Farama-Foundation/Minigrid",
     "html_url": "https://github.com/Farama-Foundation/Minigrid",
     "language": "Python",
-    "pushed_at": "2026-05-30T23:37:22Z",
+    "pushed_at": "2026-06-23T06:52:45Z",
     "stargazers_count": 2466,
     "topics": [
       "gridworld-environment",

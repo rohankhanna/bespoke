@@ -557,7 +557,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T01:02:43.091866+00:00",
+  "fetched_at": "2026-06-23T13:21:38.623118+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -585,7 +585,7 @@
     },
     {
       "path": ".github/workflows/version.yml",
-      "size": 1485
+      "size": 1451
     }
   ],
   "related_repositories": [],
@@ -597,10 +597,10 @@
     "full_name": "stx-labs/stacks.js",
     "html_url": "https://github.com/stx-labs/stacks.js",
     "language": "TypeScript",
-    "pushed_at": "2026-06-22T21:50:53Z",
+    "pushed_at": "2026-06-23T12:46:44Z",
     "stargazers_count": 976,
     "topics": [],
-    "updated_at": "2026-06-22T21:50:56Z"
+    "updated_at": "2026-06-23T12:22:56Z"
   },
   "repo_links": [
     {

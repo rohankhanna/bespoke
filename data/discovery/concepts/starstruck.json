@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "starstruck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A Complete List of GitHub Profile Badges and Achievements \ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate-context",
+      "text": "<!-- <div align=\"center\"> -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate",
+      "text": "<!-- <div align=\"center\"> -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19975233,
+      "status": "candidate",
+      "text": "star-struck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19975232,
+      "status": "candidate",
+      "text": "stage-stricken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19975231,
+      "status": "candidate",
+      "text": "love-struck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19975230,
+      "status": "candidate",
+      "text": "starfilled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19975229,
+      "status": "candidate",
+      "text": "star-strewn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "starstruck",
+  "concept_id": "starstruck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements"
+    }
+  ],
+  "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "starstruck",
+      "sense_id": "starstruck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

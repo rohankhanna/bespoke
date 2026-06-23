@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenAI ChatGPT, GPT-5, GPT-Image-1, Whisper API clients for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sanity check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sanity check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039422,
+      "status": "candidate",
+      "text": "sanity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039421,
+      "status": "candidate",
+      "text": "saneness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039420,
+      "status": "candidate",
+      "text": "checkability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039419,
+      "status": "candidate",
+      "text": "soundness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039418,
+      "status": "candidate",
+      "text": "correctness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sanity check",
+      "sense_id": "sanity-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sanity-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sanity-check",
+  "observation_id": "84f567fb70ff9e07",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_text": "Sanity check",
+  "source_context_snippet": "Sanity check",
+  "source_file": ".github/workflows/pr.yml",
+  "source_repo": "sashabaranov/go-openai",
+  "source_repo_description": "OpenAI ChatGPT, GPT-5, GPT-Image-1, Whisper API clients for Go"
+}

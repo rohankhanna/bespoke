@@ -469,6 +469,18 @@
       "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
       "status": "candidate-context",
       "text": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sashabaranov/go-openai",
+      "status": "candidate-context",
+      "text": "OpenAI ChatGPT, GPT-5, GPT-Image-1, Whisper API clients for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sashabaranov/go-openai",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/sashabaranov/go-openai.svg)](https://pkg.go.dev/github.com/sashabaranov/go-openai)"
     }
   ],
   "candidate_glosses": [
@@ -705,6 +717,12 @@
       "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
       "status": "candidate",
       "text": "[![Star on GitHub][img-stars]][stars] ![Package Control][img-downloads]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sashabaranov/go-openai",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/sashabaranov/go-openai.svg)](https://pkg.go.dev/github.com/sashabaranov/go-openai)"
     }
   ],
   "candidate_related_terms": [],
@@ -2884,11 +2902,41 @@
       "observed_at": "2026-06-23T07:25:49.577775+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "sashabaranov/go-openai"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

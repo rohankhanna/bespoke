@@ -136,7 +136,7 @@
       "source_file": ".github/workflows/autopublish.yml"
     },
     {
-      "component": "actions/checkout@v2",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/generate-spec.yml"
     },
@@ -354,7 +354,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/generate-spec.yml",
       "source_repo": "w3c/trusted-types",
-      "target": "actions/checkout@v2",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
@@ -393,7 +393,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T07:45:56.385193+00:00",
+  "fetched_at": "2026-06-23T14:27:03.127870+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -421,8 +421,8 @@
     "full_name": "w3c/trusted-types",
     "html_url": "https://github.com/w3c/trusted-types",
     "language": "JavaScript",
-    "pushed_at": "2026-06-11T15:12:41Z",
-    "stargazers_count": 659,
+    "pushed_at": "2026-06-23T13:01:55Z",
+    "stargazers_count": 660,
     "topics": [
       "dom",
       "javascript",
@@ -432,7 +432,7 @@
       "w3c",
       "xss"
     ],
-    "updated_at": "2026-06-11T18:24:39Z"
+    "updated_at": "2026-06-23T11:54:03Z"
   },
   "repo_links": [
     {

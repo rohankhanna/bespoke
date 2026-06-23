@@ -163,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T07:26:53.120089+00:00",
+  "fetched_at": "2026-06-23T13:36:19.036159+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -192,7 +192,7 @@
     "html_url": "https://github.com/cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "language": "Python",
     "pushed_at": "2026-06-05T06:56:17Z",
-    "stargazers_count": 92,
+    "stargazers_count": 93,
     "topics": [
       "agents",
       "human-agent-interaction",
@@ -200,7 +200,7 @@
       "minecraft",
       "reinforcement-learning"
     ],
-    "updated_at": "2026-06-05T06:56:22Z"
+    "updated_at": "2026-06-23T12:49:34Z"
   },
   "repo_links": [
     {

@@ -466,6 +466,18 @@
       "source_repo": "mono/skia",
       "status": "candidate-context",
       "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossplane/crossplane",
+      "status": "candidate-context",
+      "text": "The Cloud Native Control Plane"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/crossplane",
+      "status": "candidate-context",
+      "text": "Backport"
     }
   ],
   "candidate_glosses": [
@@ -694,6 +706,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mono/skia",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/crossplane",
       "status": "candidate",
       "text": "Backport"
     }
@@ -991,11 +1009,17 @@
       "observed_at": "2026-05-26T18:56:15.123228+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "mono/skia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "crossplane/crossplane"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

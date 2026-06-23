@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Run Go tests"
+    "Run Go tests",
+    "Run Go Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "in-toto/attestation",
       "status": "candidate-context",
       "text": "Run Go tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mudler/LocalRecall",
+      "status": "candidate-context",
+      "text": ":brain: 100% Local Memory layer and Knowledge base for agents with WebUI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/LocalRecall",
+      "status": "candidate-context",
+      "text": "Run Go Tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "in-toto/attestation",
       "status": "candidate",
       "text": "Run Go tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/LocalRecall",
+      "status": "candidate",
+      "text": "Run Go Tests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/run-go-tests.yml",
       "source_repo": "in-toto/attestation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mudler/LocalRecall"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -61,16 +61,6 @@
       "source_file": ".github/workflows/pre-commit-autoupdate.yml"
     },
     {
-      "component": "actions/checkout@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml"
-    },
-    {
-      "component": "nvim-neorocks/luarocks-tag-release@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml"
-    },
-    {
       "component": "amannn/action-semantic-pull-request@v4.5.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/semantic-pr-subject.yml"
@@ -142,27 +132,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "nvim-tree/nvim-web-devicons",
-      "target": "actions/checkout@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "nvim-tree/nvim-web-devicons",
-      "target": "nvim-neorocks/luarocks-tag-release@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "nvim-tree/nvim-web-devicons",
-      "target": "Release",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/semantic-pr-subject.yml",
       "source_repo": "nvim-tree/nvim-web-devicons",
       "target": "amannn/action-semantic-pull-request@v4.5.0",
@@ -204,7 +173,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T19:33:57.997212+00:00",
+  "fetched_at": "2026-06-23T14:48:08.356115+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -223,10 +192,6 @@
       "size": 675
     },
     {
-      "path": ".github/workflows/release.yml",
-      "size": 610
-    },
-    {
       "path": ".github/workflows/semantic-pr-subject.yml",
       "size": 323
     }
@@ -241,7 +206,7 @@
     "html_url": "https://github.com/nvim-tree/nvim-web-devicons",
     "language": "Lua",
     "pushed_at": "2026-05-26T22:36:19Z",
-    "stargazers_count": 2690,
+    "stargazers_count": 2691,
     "topics": [
       "icons",
       "lua",
@@ -249,7 +214,7 @@
       "neovim-plugins",
       "nerd-fonts"
     ],
-    "updated_at": "2026-06-22T15:32:32Z"
+    "updated_at": "2026-06-23T08:40:42Z"
   },
   "repo_links": [],
   "terms": [
@@ -258,12 +223,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pre-commit-autoupdate.yml",
       "term": "Pre-commit autoupdate"
-    },
-    {
-      "context_snippet": "Release",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release.yml",
-      "term": "Release"
     },
     {
       "context_snippet": "Semantic Pull Request Subject",

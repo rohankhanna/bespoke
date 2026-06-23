@@ -163,6 +163,42 @@
       "source_repo": "Archerkattri/fast-trellis2",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/hunyuan2-plus-plus",
+      "status": "candidate-context",
+      "text": "HiCache++ (DMD) acceleration for Hunyuan3D-2 mini \u2014 exactly lossless at i5."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hunyuan2-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "status": "candidate-context",
+      "text": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/sam3d-plus-plus",
+      "status": "candidate-context",
+      "text": "HiCache++ (DMD) acceleration for SAM 3D Objects \u2014 lossless to i6."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/sam3d-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -241,6 +277,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Archerkattri/fast-trellis2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hunyuan2-plus-plus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/sam3d-plus-plus",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -328,11 +382,29 @@
       "observed_at": "2026-06-23T07:25:49.577775+00:00",
       "source_file": null,
       "source_repo": "Archerkattri/fast-trellis2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/hunyuan2-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus-plus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

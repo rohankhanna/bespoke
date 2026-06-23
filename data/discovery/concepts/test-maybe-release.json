@@ -869,11 +869,17 @@
       "observed_at": "2026-06-23T07:25:49.577775+00:00",
       "source_file": ".github/workflows/js-test-and-release.yml",
       "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

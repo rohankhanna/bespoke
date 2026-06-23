@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/action.yml"
     },
@@ -33,7 +33,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/action.yml",
       "source_repo": "libsndfile/libsndfile",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T01:27:43.126366+00:00",
+  "fetched_at": "2026-06-23T13:34:41.646218+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -94,7 +94,7 @@
     },
     {
       "path": ".github/workflows/action.yml",
-      "size": 8028
+      "size": 8102
     },
     {
       "path": ".github/workflows/cifuzz.yml",
@@ -110,7 +110,7 @@
     "full_name": "libsndfile/libsndfile",
     "html_url": "https://github.com/libsndfile/libsndfile",
     "language": "C",
-    "pushed_at": "2025-12-16T06:36:09Z",
+    "pushed_at": "2026-06-23T07:31:27Z",
     "stargazers_count": 1707,
     "topics": [
       "audio-library",
@@ -118,7 +118,7 @@
       "cmake",
       "libsndfile"
     ],
-    "updated_at": "2026-06-18T02:59:48Z"
+    "updated_at": "2026-06-23T07:31:32Z"
   },
   "repo_links": [
     {

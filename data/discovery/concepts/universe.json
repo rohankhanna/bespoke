@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "universe"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A Complete List of GitHub Profile Badges and Achievements \ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate-context",
+      "text": "<!-- <div align=\"center\"> -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate",
+      "text": "<!-- <div align=\"center\"> -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39807968,
+      "status": "candidate",
+      "text": "cosmos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39753579,
+      "status": "candidate",
+      "text": "universe of discourse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39733935,
+      "status": "candidate",
+      "text": "macrocosm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39733186,
+      "status": "candidate",
+      "text": "population"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39721223,
+      "status": "candidate",
+      "text": "creation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34042,
+      "status": "candidate",
+      "text": "existence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28035,
+      "status": "candidate",
+      "text": "macrocosm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24046,
+      "status": "candidate",
+      "text": "world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21040,
+      "status": "candidate",
+      "text": "creation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "cosmos"
+    }
+  ],
+  "canonical_name": "universe",
+  "concept_id": "universe",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements"
+    }
+  ],
+  "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "universe",
+      "sense_id": "universe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

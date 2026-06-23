@@ -84,7 +84,7 @@
   "normalized_form": "surya-cla-assistant",
   "observation_id": "78914a50bac7524b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T00:47:09.772172+00:00",
+  "observed_at": "2026-06-23T13:14:02.543868+00:00",
   "observed_text": "Surya CLA Assistant",
   "source_context_snippet": "\"Surya CLA Assistant\"",
   "source_file": ".github/workflows/cla.yml",

@@ -1,10 +1,17 @@
 {
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "web-platform-tests/wpt.",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-workflow-run.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -18,7 +25,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -67,7 +74,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -81,7 +88,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/epochs.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -102,7 +109,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/interfaces.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -130,7 +137,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/manifest.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -144,7 +151,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request_test_jobs.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "actions/checkout@v4.1.0",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -165,7 +172,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/regen_certs.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -186,7 +193,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/safari-wptrunner.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "actions/checkout@v4.1.0",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -323,6 +330,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-23T07:25:49.577775+00:00",
+  "generated_at": "2026-06-23T13:14:02.543868+00:00",
   "source_repo": "web-platform-tests/wpt"
 }

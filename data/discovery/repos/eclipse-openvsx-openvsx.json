@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/gradle-dependency-graph.yml"
     },
     {
-      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "component": "gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gradle-dependency-graph.yml"
     },
@@ -290,7 +290,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gradle-dependency-graph.yml",
       "source_repo": "eclipse-openvsx/openvsx",
-      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target": "gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92",
       "target_type": "component"
     },
     {
@@ -553,7 +553,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T00:52:00.105673+00:00",
+  "fetched_at": "2026-06-23T13:15:42.347107+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -605,7 +605,7 @@
     "full_name": "eclipse-openvsx/openvsx",
     "html_url": "https://github.com/eclipse-openvsx/openvsx",
     "language": "Java",
-    "pushed_at": "2026-06-21T20:45:43Z",
+    "pushed_at": "2026-06-23T12:51:16Z",
     "stargazers_count": 1984,
     "topics": [
       "extension",
@@ -614,7 +614,7 @@
       "theia",
       "vscode"
     ],
-    "updated_at": "2026-06-23T00:37:03Z"
+    "updated_at": "2026-06-23T11:54:47Z"
   },
   "repo_links": [
     {

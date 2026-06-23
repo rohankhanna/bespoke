@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "target": "xiaobin-rong/gtcrn_demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "target": "max1wz/h-gtcrn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "target": "xiaobin-rong/setrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "target": "xiaobin-rong/trt-se",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "target": "speech-enhancement",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T14:25:32.713669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4415
+    },
+    {
+      "path": "requirements.txt",
+      "size": 78
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official implementation of GTCRN, an ultra-lightweight SE model.",
+    "fork": false,
+    "full_name": "Xiaobin-Rong/gtcrn",
+    "html_url": "https://github.com/Xiaobin-Rong/gtcrn",
+    "language": "Python",
+    "pushed_at": "2026-01-18T09:22:15Z",
+    "stargazers_count": 672,
+    "topics": [
+      "lightweight",
+      "speech-enhancement"
+    ],
+    "updated_at": "2026-06-22T17:51:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "max1wz/h-gtcrn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiaobin-rong/gtcrn_demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiaobin-rong/setrain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiaobin-rong/trt-se",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is the official implementation of the ICASSP2024 paper: [GTCRN: A Speech Enhancement Model Requiring Ultralow Computational Resources](https://ieeexplore.ieee.org/document/10448310).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of the ICASSP2024 paper: [GTCRN: A Speech Enhancement Model Requiring Ultralow Computational Resources](https://ieeexplore.ieee.org/document/10448310).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-enhancement"
+    }
+  ]
+}

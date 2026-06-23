@@ -175,6 +175,30 @@
       "source_repo": "Archerkattri/fast-trellis2",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/hunyuan2-plus-plus",
+      "status": "candidate-context",
+      "text": "HiCache++ (DMD) acceleration for Hunyuan3D-2 mini \u2014 exactly lossless at i5."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hunyuan2-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/sam3d-plus-plus",
+      "status": "candidate-context",
+      "text": "HiCache++ (DMD) acceleration for SAM 3D Objects \u2014 lossless to i6."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/sam3d-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +283,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Archerkattri/fast-trellis2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hunyuan2-plus-plus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/sam3d-plus-plus",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -700,11 +736,29 @@
       "observed_at": "2026-06-23T07:25:49.577775+00:00",
       "source_file": null,
       "source_repo": "Archerkattri/fast-trellis2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/hunyuan2-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/sam3d-plus-plus"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

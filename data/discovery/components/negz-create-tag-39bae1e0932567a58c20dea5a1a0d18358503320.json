@@ -1,0 +1,12 @@
+{
+  "component": "negz/create-tag@39bae1e0932567a58c20dea5a1a0d18358503320",
+  "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "crossplane/crossplane"
+    }
+  ]
+}

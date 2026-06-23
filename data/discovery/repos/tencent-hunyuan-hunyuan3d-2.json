@@ -1,0 +1,210 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "oakshy/romantex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "kijai/comfyui-hunyuan3dwrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "mrforexample/comfyui-3d-pack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "neuralcarver/michelangelo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "3d-aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "hunyuan3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "shape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "shape-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "text-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "target": "texture-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T14:27:36.863449+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18696
+    },
+    {
+      "path": "requirements.txt",
+      "size": 387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models.",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/Hunyuan3D-2",
+    "html_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+    "language": "Python",
+    "pushed_at": "2025-10-28T09:58:12Z",
+    "stargazers_count": 14019,
+    "topics": [
+      "3d",
+      "3d-aigc",
+      "3d-generation",
+      "diffusion-models",
+      "hunyuan3d",
+      "image-to-3d",
+      "shape",
+      "shape-generation",
+      "text-to-3d",
+      "texture-generation"
+    ],
+    "updated_at": "2026-06-23T13:33:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijai/comfyui-hunyuan3dwrapper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrforexample/comfyui-3d-pack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neuralcarver/michelangelo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oakshy/romantex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-aigc"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan3d"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape-generation"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture-generation"
+    }
+  ]
+}

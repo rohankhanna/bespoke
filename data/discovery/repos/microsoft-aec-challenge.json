@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-23T14:25:32.008259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AEC Challenge",
+    "fork": false,
+    "full_name": "microsoft/AEC-Challenge",
+    "html_url": "https://github.com/microsoft/AEC-Challenge",
+    "language": null,
+    "pushed_at": "2024-06-04T03:51:04Z",
+    "stargazers_count": 488,
+    "topics": [],
+    "updated_at": "2026-06-22T00:35:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

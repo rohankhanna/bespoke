@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Stale Issues and PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossplane/crossplane",
+      "status": "candidate-context",
+      "text": "The Cloud Native Control Plane"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/crossplane",
+      "status": "candidate-context",
+      "text": "Stale Issues and PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/crossplane",
+      "status": "candidate",
+      "text": "Stale Issues and PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "been"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22175,
+      "status": "candidate",
+      "text": "precedent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18575,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14563,
+      "status": "candidate",
+      "text": "aux cayes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14563,
+      "status": "candidate",
+      "text": "beeb"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Stale Issues and PRs",
+  "concept_id": "stale-issues-and-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "crossplane/crossplane"
+    }
+  ],
+  "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale Issues and PRs",
+      "sense_id": "stale-issues-and-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

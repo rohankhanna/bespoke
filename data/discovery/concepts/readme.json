@@ -298,6 +298,18 @@
       "source_repo": "react-hook-form/resolvers",
       "status": "candidate-context",
       "text": "README"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A Complete List of GitHub Profile Badges and Achievements \ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate-context",
+      "text": "<!-- <div align=\"center\"> -->"
     }
   ],
   "candidate_glosses": [
@@ -444,6 +456,12 @@
       "source_repo": "react-hook-form/resolvers",
       "status": "candidate",
       "text": "README"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate",
+      "text": "<!-- <div align=\"center\"> -->"
     }
   ],
   "candidate_related_terms": [
@@ -649,11 +667,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/lock-issue.yml",
       "source_repo": "react-hook-form/resolvers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

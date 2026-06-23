@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wlfeng0509/Fast-SAM3D",
+      "target": "mingqiangwu/fast-trellis",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-23T13:14:02.543868+00:00",
+  "source_repo": "wlfeng0509/Fast-SAM3D"
+}

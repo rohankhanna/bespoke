@@ -1,7 +1,7 @@
 {
   "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -192,6 +192,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "JuliaLang/juliaup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crossplane/crossplane"
     }
   ]
 }

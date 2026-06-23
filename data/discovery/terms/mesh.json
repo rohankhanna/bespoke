@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -81,6 +81,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "lace/hobart-svg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcy/xatlas"
     }
   ],
   "term": "mesh"

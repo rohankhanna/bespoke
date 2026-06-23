@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml",
       "source_repo": "CleverCloud/karpenter-provider-clever-cloud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crossplane/crossplane"
     }
   ]
 }

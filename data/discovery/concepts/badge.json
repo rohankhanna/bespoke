@@ -153,6 +153,18 @@
       "source_repo": "storybookjs/brand",
       "status": "candidate-context",
       "text": "This repository contains Storybook brand assets. Feel free to use and customize these assets for your articles, talks, addons, websites, and anything else you can think of."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A Complete List of GitHub Profile Badges and Achievements \ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate-context",
+      "text": "<!-- <div align=\"center\"> -->"
     }
   ],
   "candidate_glosses": [
@@ -227,6 +239,12 @@
       "source_repo": "storybookjs/brand",
       "status": "candidate",
       "text": "This repository contains Storybook brand assets. Feel free to use and customize these assets for your articles, talks, addons, websites, and anything else you can think of."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate",
+      "text": "<!-- <div align=\"center\"> -->"
     }
   ],
   "candidate_related_terms": [
@@ -360,11 +378,17 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": null,
       "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -187,6 +187,18 @@
       "source_repo": "daybrush/css-styled",
       "status": "candidate-context",
       "text": "<h2 align=\"middle\">css-styled</h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "status": "candidate-context",
+      "text": "The official implementation of GTCRN, an ultra-lightweight SE model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "status": "candidate-context",
+      "text": "This repository is the official implementation of the ICASSP2024 paper: [GTCRN: A Speech Enhancement Model Requiring Ultralow Computational Resources](https://ieeexplore.ieee.org/document/10448310)."
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "daybrush/css-styled",
       "status": "candidate",
       "text": "<h2 align=\"middle\">css-styled</h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "status": "candidate",
+      "text": "This repository is the official implementation of the ICASSP2024 paper: [GTCRN: A Speech Enhancement Model Requiring Ultralow Computational Resources](https://ieeexplore.ieee.org/document/10448310)."
     }
   ],
   "candidate_related_terms": [
@@ -861,11 +879,23 @@
       "observed_at": "2026-06-23T00:47:09.772172+00:00",
       "source_file": null,
       "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/gtcrn"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

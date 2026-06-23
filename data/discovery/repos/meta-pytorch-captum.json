@@ -185,7 +185,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T01:14:19.260411+00:00",
+  "fetched_at": "2026-06-23T13:27:41.782457+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -233,7 +233,7 @@
     "full_name": "meta-pytorch/captum",
     "html_url": "https://github.com/meta-pytorch/captum",
     "language": "Python",
-    "pushed_at": "2026-06-20T10:21:47Z",
+    "pushed_at": "2026-06-23T05:18:28Z",
     "stargazers_count": 5654,
     "topics": [
       "feature-attribution",

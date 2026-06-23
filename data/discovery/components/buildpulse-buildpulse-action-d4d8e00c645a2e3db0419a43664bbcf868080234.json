@@ -1,0 +1,12 @@
+{
+  "component": "buildpulse/buildpulse-action@d4d8e00c645a2e3db0419a43664bbcf868080234",
+  "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crossplane/crossplane"
+    }
+  ]
+}

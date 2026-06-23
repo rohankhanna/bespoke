@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "lightmap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpcy/xatlas",
+      "status": "candidate-context",
+      "text": "Mesh parameterization / UV unwrapping library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpcy/xatlas",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/jpcy/xatlas/workflows/build/badge.svg)](https://github.com/jpcy/xatlas/actions) [![Appveyor CI Build Status](https://ci.appveyor.com/api/projects/status/github/jpcy/xatlas?branch=master&svg=true)](https://ci.appveyor.com/project/jpcy/xatlas)\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpcy/xatlas",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/jpcy/xatlas/workflows/build/badge.svg)](https://github.com/jpcy/xatlas/actions) [![Appveyor CI Build Status](https://ci.appveyor.com/api/projects/status/github/jpcy/xatlas?branch=master&svg=true)](https://ci.appveyor.com/project/jpcy/xatlas)\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021958,
+      "status": "candidate",
+      "text": "lightmapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021957,
+      "status": "candidate",
+      "text": "tilemap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021956,
+      "status": "candidate",
+      "text": "bump mapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021955,
+      "status": "candidate",
+      "text": "tone mapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021954,
+      "status": "candidate",
+      "text": "mipmap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lightmap",
+  "concept_id": "lightmap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "jpcy/xatlas"
+    }
+  ],
+  "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lightmap",
+      "sense_id": "lightmap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

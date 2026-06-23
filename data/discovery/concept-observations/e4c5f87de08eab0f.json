@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956470,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955955,
+      "status": "candidate",
+      "text": "determine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953959,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953835,
+      "status": "candidate",
+      "text": "embodiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952895,
+      "status": "candidate",
+      "text": "influence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shape",
+      "sense_id": "shape#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40076,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40046,
+      "status": "candidate",
+      "text": "soma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36045,
+      "status": "candidate",
+      "text": "influence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29082,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29038,
+      "status": "candidate",
+      "text": "physique"
+    }
+  ],
+  "concept_id": "shape",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shape",
+  "observation_id": "e4c5f87de08eab0f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_text": "shape",
+  "source_context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+  "source_file": null,
+  "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+  "source_repo_description": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models."
+}

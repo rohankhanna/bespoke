@@ -249,7 +249,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T15:36:30.042451+00:00",
+  "fetched_at": "2026-06-23T13:17:56.069475+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -282,7 +282,7 @@
     "html_url": "https://github.com/apache/casbin-jcasbin",
     "language": "Java",
     "pushed_at": "2026-06-16T15:21:44Z",
-    "stargazers_count": 2634,
+    "stargazers_count": 2635,
     "topics": [
       "abac",
       "access-control",
@@ -296,7 +296,7 @@
       "rbac",
       "xacml"
     ],
-    "updated_at": "2026-06-22T12:26:43Z"
+    "updated_at": "2026-06-23T02:28:51Z"
   },
   "repo_links": [
     {

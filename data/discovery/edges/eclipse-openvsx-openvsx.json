@@ -53,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gradle-dependency-graph.yml",
       "source_repo": "eclipse-openvsx/openvsx",
-      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target": "gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92",
       "target_type": "component"
     },
     {
@@ -316,6 +316,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-23T00:47:09.772172+00:00",
+  "generated_at": "2026-06-23T13:14:02.543868+00:00",
   "source_repo": "eclipse-openvsx/openvsx"
 }

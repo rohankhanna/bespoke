@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wlfeng0509/Fast-SAM3D",
+      "target": "mingqiangwu/fast-trellis",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-23T14:27:42.306625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11478
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 843
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2026] Official Repo for Fast-SAM3D: 3Dfy Anything in Images but Faster",
+    "fork": false,
+    "full_name": "wlfeng0509/Fast-SAM3D",
+    "html_url": "https://github.com/wlfeng0509/Fast-SAM3D",
+    "language": "Python",
+    "pushed_at": "2026-06-04T08:50:51Z",
+    "stargazers_count": 168,
+    "topics": [],
+    "updated_at": "2026-06-23T10:32:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mingqiangwu/fast-trellis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

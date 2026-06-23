@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899",
   "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale.yaml",
       "source_repo": "CleverCloud/karpenter-provider-clever-cloud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "crossplane/crossplane"
     }
   ]
 }

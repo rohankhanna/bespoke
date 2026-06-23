@@ -91,6 +91,18 @@
       "source_repo": "microsoft/TRELLIS",
       "status": "candidate-context",
       "text": "<img src=\"assets/logo.webp\" width=\"100%\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "status": "candidate-context",
+      "text": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "microsoft/TRELLIS",
       "status": "candidate",
       "text": "<img src=\"assets/logo.webp\" width=\"100%\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": null,
       "source_repo": "microsoft/TRELLIS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

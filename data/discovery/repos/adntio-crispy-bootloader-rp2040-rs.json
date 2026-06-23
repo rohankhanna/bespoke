@@ -96,7 +96,7 @@
       "source_file": ".github/workflows/security-scan.yml"
     },
     {
-      "component": "actions/dependency-review-action@v4",
+      "component": "actions/dependency-review-action@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security-scan.yml"
     },
@@ -241,7 +241,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security-scan.yml",
       "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
-      "target": "actions/dependency-review-action@v4",
+      "target": "actions/dependency-review-action@v5",
       "target_type": "component"
     },
     {
@@ -301,7 +301,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T07:52:59.787604+00:00",
+  "fetched_at": "2026-06-23T14:31:57.909816+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -329,10 +329,10 @@
     "full_name": "ADNTIO/crispy-bootloader-rp2040-rs",
     "html_url": "https://github.com/ADNTIO/crispy-bootloader-rp2040-rs",
     "language": "Rust",
-    "pushed_at": "2026-06-22T15:30:04Z",
+    "pushed_at": "2026-06-23T09:59:04Z",
     "stargazers_count": 9,
     "topics": [],
-    "updated_at": "2026-06-22T15:28:21Z"
+    "updated_at": "2026-06-23T09:57:13Z"
   },
   "repo_links": [
     {

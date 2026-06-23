@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "parameterization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpcy/xatlas",
+      "status": "candidate-context",
+      "text": "Mesh parameterization / UV unwrapping library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpcy/xatlas",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/jpcy/xatlas/workflows/build/badge.svg)](https://github.com/jpcy/xatlas/actions) [![Appveyor CI Build Status](https://ci.appveyor.com/api/projects/status/github/jpcy/xatlas?branch=master&svg=true)](https://ci.appveyor.com/project/jpcy/xatlas)\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpcy/xatlas",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/jpcy/xatlas/workflows/build/badge.svg)](https://github.com/jpcy/xatlas/actions) [![Appveyor CI Build Status](https://ci.appveyor.com/api/projects/status/github/jpcy/xatlas?branch=master&svg=true)](https://ci.appveyor.com/project/jpcy/xatlas)\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022625,
+      "status": "candidate",
+      "text": "superparameterization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022624,
+      "status": "candidate",
+      "text": "argumentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022623,
+      "status": "candidate",
+      "text": "param"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022622,
+      "status": "candidate",
+      "text": "metaparameter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022621,
+      "status": "candidate",
+      "text": "nondimensionalization"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "parameterization",
+  "concept_id": "parameterization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "jpcy/xatlas"
+    }
+  ],
+  "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parameterization",
+      "sense_id": "parameterization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

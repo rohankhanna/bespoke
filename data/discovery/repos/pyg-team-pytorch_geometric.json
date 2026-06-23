@@ -257,7 +257,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T01:05:35.291481+00:00",
+  "fetched_at": "2026-06-23T13:22:59.182813+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -310,7 +310,7 @@
     "html_url": "https://github.com/pyg-team/pytorch_geometric",
     "language": "Python",
     "pushed_at": "2026-06-19T00:13:10Z",
-    "stargazers_count": 23835,
+    "stargazers_count": 23839,
     "topics": [
       "deep-learning",
       "geometric-deep-learning",
@@ -318,7 +318,7 @@
       "graph-neural-networks",
       "pytorch"
     ],
-    "updated_at": "2026-06-23T00:56:41Z"
+    "updated_at": "2026-06-23T08:42:38Z"
   },
   "repo_links": [
     {

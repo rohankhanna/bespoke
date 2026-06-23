@@ -67,6 +67,18 @@
       "source_repo": "k2kobayashi/sprocket",
       "status": "candidate-context",
       "text": "[![Python Version](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "status": "candidate-context",
+      "text": "The official implementation of GTCRN, an ultra-lightweight SE model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "status": "candidate-context",
+      "text": "This repository is the official implementation of the ICASSP2024 paper: [GTCRN: A Speech Enhancement Model Requiring Ultralow Computational Resources](https://ieeexplore.ieee.org/document/10448310)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "k2kobayashi/sprocket",
       "status": "candidate",
       "text": "[![Python Version](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiaobin-Rong/gtcrn",
+      "status": "candidate",
+      "text": "This repository is the official implementation of the ICASSP2024 paper: [GTCRN: A Speech Enhancement Model Requiring Ultralow Computational Resources](https://ieeexplore.ieee.org/document/10448310)."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "k2kobayashi/sprocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/gtcrn"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

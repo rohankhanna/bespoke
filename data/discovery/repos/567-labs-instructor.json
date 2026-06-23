@@ -320,7 +320,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T01:22:12.498367+00:00",
+  "fetched_at": "2026-06-23T13:31:52.713162+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -372,8 +372,8 @@
     "full_name": "567-labs/instructor",
     "html_url": "https://github.com/567-labs/instructor",
     "language": "Python",
-    "pushed_at": "2026-06-15T05:05:32Z",
-    "stargazers_count": 13208,
+    "pushed_at": "2026-06-23T02:32:29Z",
+    "stargazers_count": 13210,
     "topics": [
       "openai",
       "openai-function-calli",
@@ -382,7 +382,7 @@
       "python",
       "validation"
     ],
-    "updated_at": "2026-06-23T00:52:52Z"
+    "updated_at": "2026-06-23T12:37:05Z"
   },
   "repo_links": [
     {

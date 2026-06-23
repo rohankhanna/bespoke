@@ -46,6 +46,18 @@
       "source_repo": "NVIDIA/multi-storage-client",
       "status": "candidate-context",
       "text": "Source"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A Complete List of GitHub Profile Badges and Achievements \ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate-context",
+      "text": "<!-- <div align=\"center\"> -->"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "NVIDIA/multi-storage-client",
       "status": "candidate",
       "text": "Source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drknzz/GitHub-Achievements",
+      "status": "candidate",
+      "text": "<!-- <div align=\"center\"> -->"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/.source.yml",
       "source_repo": "NVIDIA/multi-storage-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T13:14:02.543868+00:00",
+      "source_file": null,
+      "source_repo": "drknzz/GitHub-Achievements"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "fork-test",
   "observation_id": "d3072b04e85e772f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T00:47:09.772172+00:00",
+  "observed_at": "2026-06-23T13:14:02.543868+00:00",
   "observed_text": "fork-test",
   "source_context_snippet": "fork-test",
   "source_file": ".github/workflows/fork-test.yml",

@@ -128,7 +128,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T01:07:02.264355+00:00",
+  "fetched_at": "2026-06-23T13:23:45.407973+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -149,7 +149,7 @@
     "html_url": "https://github.com/advimman/lama",
     "language": "Jupyter Notebook",
     "pushed_at": "2025-02-05T08:41:52Z",
-    "stargazers_count": 10055,
+    "stargazers_count": 10057,
     "topics": [
       "cnn",
       "colab",
@@ -170,7 +170,7 @@
       "inpainting-methods",
       "pytorch"
     ],
-    "updated_at": "2026-06-22T09:59:33Z"
+    "updated_at": "2026-06-23T12:16:03Z"
   },
   "repo_links": [
     {
