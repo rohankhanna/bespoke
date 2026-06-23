@@ -65,11 +65,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T15:51:10.572742+00:00",
+  "fetched_at": "2026-06-23T01:12:17.231523+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 10947
+    },
+    {
+      "path": "requirements.txt",
+      "size": 125
     }
   ],
   "related_repositories": [],
@@ -82,7 +86,7 @@
     "html_url": "https://github.com/hzwer/ECCV2022-RIFE",
     "language": "Python",
     "pushed_at": "2025-09-10T06:32:03Z",
-    "stargazers_count": 5488,
+    "stargazers_count": 5489,
     "topics": [
       "aigc",
       "computer-vision",
@@ -90,7 +94,7 @@
       "slomo-filter",
       "video-interpolation"
     ],
-    "updated_at": "2026-06-22T08:19:00Z"
+    "updated_at": "2026-06-22T18:00:25Z"
   },
   "repo_links": [
     {

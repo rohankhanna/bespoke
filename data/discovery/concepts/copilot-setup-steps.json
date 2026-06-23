@@ -3191,11 +3191,17 @@
       "observed_at": "2026-06-22T19:14:07.629510+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "f3liz-casa/noraneko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T00:47:09.772172+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "endojs/endo"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

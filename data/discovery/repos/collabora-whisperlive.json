@@ -244,7 +244,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T15:31:44.233747+00:00",
+  "fetched_at": "2026-06-23T00:48:26.578814+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -265,7 +265,7 @@
     "html_url": "https://github.com/collabora/WhisperLive",
     "language": "Python",
     "pushed_at": "2026-06-14T16:18:36Z",
-    "stargazers_count": 4101,
+    "stargazers_count": 4102,
     "topics": [
       "dictation",
       "obs",
@@ -280,7 +280,7 @@
       "whisper",
       "whisper-tensorrt"
     ],
-    "updated_at": "2026-06-22T12:19:25Z"
+    "updated_at": "2026-06-22T20:09:11Z"
   },
   "repo_links": [
     {

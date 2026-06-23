@@ -22,13 +22,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "litedb-org/LiteDB",
-      "target": "josefnemec/litedbexplorer",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "litedb-org/LiteDB",
@@ -64,6 +57,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-22T14:08:32.759567+00:00",
+  "generated_at": "2026-06-23T00:47:09.772172+00:00",
   "source_repo": "litedb-org/LiteDB"
 }

@@ -1238,7 +1238,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T15:34:11.919914+00:00",
+  "fetched_at": "2026-06-23T00:52:20.346346+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1262,7 +1262,7 @@
     "full_name": "microsoft/vscode-js-debug",
     "html_url": "https://github.com/microsoft/vscode-js-debug",
     "language": "TypeScript",
-    "pushed_at": "2026-06-19T16:38:34Z",
+    "pushed_at": "2026-06-22T21:54:34Z",
     "stargazers_count": 1950,
     "topics": [
       "dap",
@@ -1271,7 +1271,7 @@
       "vscode",
       "vscode-extension"
     ],
-    "updated_at": "2026-06-22T14:36:33Z"
+    "updated_at": "2026-06-22T21:54:37Z"
   },
   "repo_links": [
     {

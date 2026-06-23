@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters-minifb-demo",
+      "target": "emoon/minifb",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-23T00:47:09.772172+00:00",
+  "source_repo": "plotters-rs/plotters-minifb-demo"
+}

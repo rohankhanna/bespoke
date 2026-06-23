@@ -192,7 +192,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T16:20:42.077175+00:00",
+  "fetched_at": "2026-06-23T01:28:09.427227+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -216,7 +216,7 @@
     "full_name": "avocadowastaken/prettier-plugin-prisma",
     "html_url": "https://github.com/avocadowastaken/prettier-plugin-prisma",
     "language": "JavaScript",
-    "pushed_at": "2026-06-03T13:49:50Z",
+    "pushed_at": "2026-06-22T18:59:57Z",
     "stargazers_count": 230,
     "topics": [
       "prettier-plugin",

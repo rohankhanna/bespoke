@@ -23,13 +23,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "litedb-org/LiteDB",
-      "target": "josefnemec/litedbexplorer",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "litedb-org/LiteDB",
@@ -65,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T15:32:13.953290+00:00",
+  "fetched_at": "2026-06-23T00:49:14.522623+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -93,11 +86,6 @@
     "updated_at": "2026-06-21T23:14:37Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "josefnemec/litedbexplorer",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lidanger/litedb.wiki_translation_zh-cn",

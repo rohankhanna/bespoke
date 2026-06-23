@@ -1,7 +1,7 @@
 {
   "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters-minifb-demo",
+      "target": "emoon/minifb",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-23T00:48:01.749795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 737
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example for realtime plotting with Plotters + MiniFB ",
+    "fork": false,
+    "full_name": "plotters-rs/plotters-minifb-demo",
+    "html_url": "https://github.com/plotters-rs/plotters-minifb-demo",
+    "language": "Rust",
+    "pushed_at": "2023-04-24T19:48:55Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-01-31T02:01:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emoon/minifb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

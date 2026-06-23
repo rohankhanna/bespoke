@@ -5022,11 +5022,29 @@
       "observed_at": "2026-06-22T19:14:07.629510+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "celestiaorg/protobuf3-solidity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T00:47:09.772172+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T00:47:09.772172+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T00:47:09.772172+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-dotnet"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

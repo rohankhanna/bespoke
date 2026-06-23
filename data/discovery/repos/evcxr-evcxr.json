@@ -272,7 +272,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T11:26:52.412105+00:00",
+  "fetched_at": "2026-06-23T00:47:56.167167+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -308,10 +308,10 @@
     "full_name": "evcxr/evcxr",
     "html_url": "https://github.com/evcxr/evcxr",
     "language": "Rust",
-    "pushed_at": "2026-06-15T14:26:44Z",
-    "stargazers_count": 6437,
+    "pushed_at": "2026-06-22T14:26:41Z",
+    "stargazers_count": 6436,
     "topics": [],
-    "updated_at": "2026-06-19T07:13:59Z"
+    "updated_at": "2026-06-22T15:35:56Z"
   },
   "repo_links": [],
   "terms": [

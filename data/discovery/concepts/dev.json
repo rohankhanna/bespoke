@@ -2417,11 +2417,23 @@
       "observed_at": "2026-06-22T19:14:07.629510+00:00",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T00:47:09.772172+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T00:47:09.772172+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista-python"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-23T00:47:09.772172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-23T00:48:00.137737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 468
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimal example for GTK + Plotters",
+    "fork": false,
+    "full_name": "plotters-rs/plotters-gtk-demo",
+    "html_url": "https://github.com/plotters-rs/plotters-gtk-demo",
+    "language": "Rust",
+    "pushed_at": "2026-05-20T23:36:49Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-05-20T23:36:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

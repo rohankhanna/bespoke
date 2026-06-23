@@ -18,126 +18,6 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish-verifiers-rl.yml"
     },
     {
@@ -251,24 +131,44 @@
       "source_file": ".github/workflows/style.yml"
     },
     {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-docs.yml"
+    },
+    {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/style.yml"
+      "source_file": ".github/workflows/test.yml"
     },
     {
       "component": "actions/setup-python@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/style.yml"
+      "source_file": ".github/workflows/test.yml"
     },
     {
       "component": "astral-sh/setup-uv@v7",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/style.yml"
+      "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "peter-evans/repository-dispatch@v3",
+      "component": "actions/cache@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sync-docs.yml"
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
     }
   ],
   "edges": [
@@ -291,90 +191,6 @@
       "source_file": ".github/workflows/publish-envs.yml",
       "source_repo": "PrimeIntellect-ai/verifiers",
       "target": "Publish Envs",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "astral-sh/setup-uv@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "actions/download-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-harnesses.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish-harnesses.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "Publish harnesses",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "astral-sh/setup-uv@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "actions/download-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-tasksets.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish-tasksets.yml",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "Publish tasksets",
       "target_type": "term"
     },
     {
@@ -495,33 +311,67 @@
       "source_repo": "PrimeIntellect-ai/verifiers",
       "target": "Sync Docs to Public Docs",
       "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "target": "Test",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T16:17:17.709338+00:00",
+  "fetched_at": "2026-06-23T01:22:58.630712+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 11759
+      "size": 9647
     },
     {
       "path": "pyproject.toml",
-      "size": 8184
+      "size": 10268
     },
     {
       "path": ".github/workflows/README.md",
-      "size": 3666
+      "size": 2574
     },
     {
       "path": ".github/workflows/publish-envs.yml",
-      "size": 2496
-    },
-    {
-      "path": ".github/workflows/publish-harnesses.yml",
-      "size": 6218
-    },
-    {
-      "path": ".github/workflows/publish-tasksets.yml",
-      "size": 6190
+      "size": 2654
     },
     {
       "path": ".github/workflows/publish-verifiers-rl.yml",
@@ -533,11 +383,15 @@
     },
     {
       "path": ".github/workflows/style.yml",
-      "size": 1696
+      "size": 993
     },
     {
       "path": ".github/workflows/sync-docs.yml",
       "size": 505
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3113
     }
   ],
   "related_repositories": [],
@@ -549,10 +403,10 @@
     "full_name": "PrimeIntellect-ai/verifiers",
     "html_url": "https://github.com/PrimeIntellect-ai/verifiers",
     "language": "Python",
-    "pushed_at": "2026-06-22T15:12:41Z",
-    "stargazers_count": 4219,
+    "pushed_at": "2026-06-23T01:16:00Z",
+    "stargazers_count": 4221,
     "topics": [],
-    "updated_at": "2026-06-22T13:21:22Z"
+    "updated_at": "2026-06-22T23:40:29Z"
   },
   "repo_links": [],
   "terms": [
@@ -561,18 +415,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish-envs.yml",
       "term": "Publish Envs"
-    },
-    {
-      "context_snippet": "Publish harnesses",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish-harnesses.yml",
-      "term": "Publish harnesses"
-    },
-    {
-      "context_snippet": "Publish tasksets",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish-tasksets.yml",
-      "term": "Publish tasksets"
     },
     {
       "context_snippet": "Publish verifiers-rl",
@@ -597,6 +439,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/sync-docs.yml",
       "term": "Sync Docs to Public Docs"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
     }
   ]
 }
