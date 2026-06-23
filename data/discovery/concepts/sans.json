@@ -538,11 +538,17 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": null,
       "source_repo": "nushu-script/Nyushu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": null,
+      "source_repo": "nushu-script/Nyushu"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -13432,11 +13432,35 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": null,
       "source_repo": "ByteVisionLab/TokenFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/LLM-API-Price-Estimates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

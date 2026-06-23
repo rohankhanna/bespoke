@@ -84,7 +84,7 @@
   "normalized_form": "create-new-empty-release",
   "observation_id": "f2b4ada0f60c4b13",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_at": "2026-06-23T18:51:00.487200+00:00",
   "observed_text": "Create new empty release",
   "source_context_snippet": "Create new empty release",
   "source_file": ".github/workflows/release-on-tag.yml",

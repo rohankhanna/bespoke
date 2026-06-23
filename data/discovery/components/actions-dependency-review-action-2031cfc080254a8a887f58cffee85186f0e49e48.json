@@ -1,7 +1,7 @@
 {
   "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

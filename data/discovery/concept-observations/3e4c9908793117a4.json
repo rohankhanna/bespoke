@@ -84,7 +84,7 @@
   "normalized_form": "upgrade-template-dependencies",
   "observation_id": "3e4c9908793117a4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-23T18:51:00.487200+00:00",
   "observed_text": "Upgrade template dependencies",
   "source_context_snippet": "Upgrade template dependencies",
   "source_file": ".github/workflows/upgrade-template-deps.yml",

@@ -896,7 +896,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T13:16:45.338502+00:00",
+  "fetched_at": "2026-06-23T19:13:26.691766+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -948,7 +948,7 @@
     "full_name": "endojs/endo",
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
-    "pushed_at": "2026-06-22T07:40:37Z",
+    "pushed_at": "2026-06-23T15:29:23Z",
     "stargazers_count": 1027,
     "topics": [
       "capabilities",

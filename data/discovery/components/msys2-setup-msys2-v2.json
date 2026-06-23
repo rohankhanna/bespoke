@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@v2",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -932,6 +932,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "dubhatervapoursynth/vapoursynth-scxvid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw32.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw64.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "badlogic/gdb-7.1a-djgpp"
     }
   ]
 }

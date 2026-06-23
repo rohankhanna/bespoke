@@ -1,7 +1,7 @@
 {
   "component": "neverthrow",
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

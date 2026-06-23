@@ -1,0 +1,286 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "joncampbell123/dosbox-x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "baron-von-riedesel/hx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "joncampbell123/doslib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "joncampbell123/doslib2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hxdos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hxdos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hxdos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "robinraju/release-downloader@v1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hxdos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/upload-artifact@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hxdos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hxdos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "HX-DOS build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/upload-artifact@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "Linux builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/upload-artifact@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "macOS builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw32.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw32.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw32.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw32.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/upload-artifact@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw32.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw64.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw64.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw64.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw64.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/upload-artifact@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw64.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild32.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild32.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild32.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "microsoft/setup-msbuild@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild32.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/upload-artifact@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild32.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild64.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild64.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild64.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "microsoft/setup-msbuild@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild64.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "actions/upload-artifact@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild64.yml",
+      "source_repo": "badlogic/dosbox-x",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-06-23T18:51:00.487200+00:00",
+  "source_repo": "badlogic/dosbox-x"
+}

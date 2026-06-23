@@ -56,6 +56,18 @@
       "source_repo": "isciences/exactextract",
       "status": "candidate-context",
       "text": "Linux builds"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badlogic/dosbox-x",
+      "status": "candidate-context",
+      "text": "DOSBox-X fork of the DOSBox project to poke around and get GDB debugging working"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badlogic/dosbox-x",
+      "status": "candidate-context",
+      "text": "Linux builds"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "isciences/exactextract",
+      "status": "candidate",
+      "text": "Linux builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badlogic/dosbox-x",
       "status": "candidate",
       "text": "Linux builds"
     }
@@ -149,11 +167,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/linux_build.yml",
       "source_repo": "isciences/exactextract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "badlogic/dosbox-x"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

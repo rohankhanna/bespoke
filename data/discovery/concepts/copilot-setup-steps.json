@@ -3233,11 +3233,29 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "vuejs/language-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "f3liz-casa/noraneko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "endojs/endo"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

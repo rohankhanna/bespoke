@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "badlogic/gdb-7.1a-djgpp"
+    }
+  ],
+  "term": "Build GDB 7.1a"
+}

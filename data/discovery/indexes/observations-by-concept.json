@@ -20247,6 +20247,9 @@
   "build-gaia-images": [
     "cbfaeb53101d9c58"
   ],
+  "build-gdb-7.1a": [
+    "24ad5bf5d8bad3fc"
+  ],
   "build-generate": [
     "ecb260b451838585"
   ],
@@ -78247,6 +78250,9 @@
   "hwcpipe": [
     "182eebb6513160c3"
   ],
+  "hx-dos-build": [
+    "3140158615acb878"
+  ],
   "hy-lang": [
     "c0aa32af41c23d65"
   ],
@@ -92353,6 +92359,7 @@
     "08aac6d85a6c58cb",
     "4677011ed2929261",
     "e1aab41caf0b86a7",
+    "e334600a127f0fe9",
     "e69a5b7473731112"
   ],
   "linux-builds-basic": [
@@ -96075,7 +96082,8 @@
   "macos-builds": [
     "4c2833fa9b48fb2e",
     "b0f7f4847a6c4e52",
-    "cf550e8ed74b0926"
+    "cf550e8ed74b0926",
+    "d6cbceda65d89939"
   ],
   "macos-catalina": [
     "7ecf699da51a608c"
@@ -138956,6 +138964,7 @@
     "223916d51600e96b",
     "2266d1eefb99d26d",
     "22b65fa1d7121ae7",
+    "22f3cad2a97ae227",
     "232f8c409be840fa",
     "23966021a4ce8e64",
     "23977514d7800454",

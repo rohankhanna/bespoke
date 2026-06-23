@@ -382,11 +382,17 @@
       "observed_at": "2026-06-23T07:25:49.577775+00:00",
       "source_file": ".github/workflows/pull_request.yaml",
       "source_repo": "mdbetancourt/eslint-plugin-neverthrow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": ".github/workflows/pull_request.yaml",
+      "source_repo": "mdbetancourt/eslint-plugin-neverthrow"
     }
   ],
   "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

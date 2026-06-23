@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@3a9db7e6a41a89f618792c92c0e97cc736e1b13f",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

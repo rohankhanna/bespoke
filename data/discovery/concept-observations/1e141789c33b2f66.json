@@ -84,7 +84,7 @@
   "normalized_form": "block-fork-main-prs",
   "observation_id": "1e141789c33b2f66",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-23T18:51:00.487200+00:00",
   "observed_text": "Block fork main PRs",
   "source_context_snippet": "Block fork main PRs",
   "source_file": ".github/workflows/block_fork_main_prs.yml",

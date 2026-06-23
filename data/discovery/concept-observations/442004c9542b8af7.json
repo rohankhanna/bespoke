@@ -84,7 +84,7 @@
   "normalized_form": "publish-dev-release-luarocks",
   "observation_id": "442004c9542b8af7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_at": "2026-06-23T18:51:00.487200+00:00",
   "observed_text": "Publish Dev Release LuaRocks",
   "source_context_snippet": "Publish Dev Release LuaRocks",
   "source_file": ".github/workflows/publish-dev.yml",

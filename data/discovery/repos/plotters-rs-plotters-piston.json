@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters-piston",
+      "target": "38/plotters",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-23T19:08:35.483833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 517
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plotters piston window backend",
+    "fork": false,
+    "full_name": "plotters-rs/plotters-piston",
+    "html_url": "https://github.com/plotters-rs/plotters-piston",
+    "language": "Rust",
+    "pushed_at": "2022-06-27T23:50:47Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-02-06T18:18:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "38/plotters",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

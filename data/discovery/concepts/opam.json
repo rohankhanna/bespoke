@@ -919,11 +919,23 @@
       "observed_at": "2026-06-23T07:25:49.577775+00:00",
       "source_file": null,
       "source_repo": "rocq-community/docker-coq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": null,
+      "source_repo": "rocq-community/docker-coq"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

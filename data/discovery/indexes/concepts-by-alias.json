@@ -12667,6 +12667,9 @@
   "build gaia images": [
     "build-gaia-images"
   ],
+  "build gdb 7.1a": [
+    "build-gdb-7.1a"
+  ],
   "build geoip files": [
     "build-geoip-files"
   ],
@@ -46221,6 +46224,9 @@
   "hwcpipe": [
     "hwcpipe"
   ],
+  "hx-dos build": [
+    "hx-dos-build"
+  ],
   "hy-lang": [
     "hy-lang"
   ],
@@ -55774,6 +55780,9 @@
   ],
   "macos build and test": [
     "macos-build-and-test"
+  ],
+  "macos builds": [
+    "macos-builds"
   ],
   "macos ci": [
     "macos-ci"

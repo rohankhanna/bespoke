@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "HX-DOS build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badlogic/dosbox-x",
+      "status": "candidate-context",
+      "text": "DOSBox-X fork of the DOSBox project to poke around and get GDB debugging working"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badlogic/dosbox-x",
+      "status": "candidate-context",
+      "text": "HX-DOS build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badlogic/dosbox-x",
+      "status": "candidate",
+      "text": "HX-DOS build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "broaden"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "HX-DOS build",
+  "concept_id": "hx-dos-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": ".github/workflows/hxdos.yml",
+      "source_repo": "badlogic/dosbox-x"
+    }
+  ],
+  "first_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "HX-DOS build",
+      "sense_id": "hx-dos-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

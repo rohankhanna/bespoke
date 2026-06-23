@@ -528,7 +528,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T08:40:42.198053+00:00",
+  "fetched_at": "2026-06-23T18:53:46.089466+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -557,13 +557,13 @@
     "html_url": "https://github.com/safe-fndn/safe-smart-account",
     "language": "TypeScript",
     "pushed_at": "2026-06-05T07:02:10Z",
-    "stargazers_count": 2160,
+    "stargazers_count": 2161,
     "topics": [
       "ethereum",
       "solidity",
       "wallet"
     ],
-    "updated_at": "2026-06-20T12:36:14Z"
+    "updated_at": "2026-06-23T14:27:23Z"
   },
   "repo_links": [
     {

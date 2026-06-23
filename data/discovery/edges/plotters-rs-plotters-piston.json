@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters-piston",
+      "target": "38/plotters",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-23T18:51:00.487200+00:00",
+  "source_repo": "plotters-rs/plotters-piston"
+}

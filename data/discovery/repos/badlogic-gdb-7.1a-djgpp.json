@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "badlogic/gdb-7.1a-djgpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "badlogic/gdb-7.1a-djgpp",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "badlogic/gdb-7.1a-djgpp",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "badlogic/gdb-7.1a-djgpp",
+      "target": "Build GDB 7.1a",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-23T19:08:44.403175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 790
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fork of GDB 7.1a which still works for debugging coff-go32 executables compiled by DJGPP",
+    "fork": false,
+    "full_name": "badlogic/gdb-7.1a-djgpp",
+    "html_url": "https://github.com/badlogic/gdb-7.1a-djgpp",
+    "language": "C",
+    "pushed_at": "2022-12-30T15:06:34Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-11T22:27:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build GDB 7.1a",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build GDB 7.1a"
+    }
+  ]
+}

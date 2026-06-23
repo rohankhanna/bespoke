@@ -3205,11 +3205,29 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "rust-lang/packed_simd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-23T18:51:00.487200+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "styfle/cancel-workflow-action@0.11.0",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/agent-docs.yml",
       "source_repo": "medusajs/medusa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hxdos.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw32.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw64.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild32.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild64.yml",
+      "source_repo": "badlogic/dosbox-x"
     }
   ]
 }

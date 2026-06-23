@@ -1,12 +1,47 @@
 {
   "component": "actions/upload-artifact@v3.1.1",
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/prerelease.yml",
       "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hxdos.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw32.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw64.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild32.yml",
+      "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vsbuild64.yml",
+      "source_repo": "badlogic/dosbox-x"
     }
   ]
 }

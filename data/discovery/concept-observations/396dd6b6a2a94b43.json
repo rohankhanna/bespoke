@@ -92,7 +92,7 @@
   "normalized_form": "inference",
   "observation_id": "396dd6b6a2a94b43",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-23T07:25:49.577775+00:00",
+  "observed_at": "2026-06-23T18:51:00.487200+00:00",
   "observed_text": "inference",
   "source_context_snippet": "[![CI](https://github.com/SYSTRAN/faster-whisper/workflows/CI/badge.svg)](https://github.com/SYSTRAN/faster-whisper/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/faster-whisper.svg)](https://badge.fury.io/py/faster-whisper)",
   "source_file": null,

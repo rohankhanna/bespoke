@@ -215,7 +215,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T13:22:09.399377+00:00",
+  "fetched_at": "2026-06-23T19:21:11.575126+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -263,7 +263,7 @@
     "full_name": "huggingface/optimum-quanto",
     "html_url": "https://github.com/huggingface/optimum-quanto",
     "language": "Python",
-    "pushed_at": "2026-06-09T17:55:02Z",
+    "pushed_at": "2026-06-23T17:54:31Z",
     "stargazers_count": 1044,
     "topics": [
       "optimum",

@@ -587,7 +587,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T08:52:29.685266+00:00",
+  "fetched_at": "2026-06-23T19:07:20.830572+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -635,7 +635,7 @@
     "full_name": "antvis/GPT-Vis",
     "html_url": "https://github.com/antvis/GPT-Vis",
     "language": "TypeScript",
-    "pushed_at": "2026-06-12T06:43:13Z",
+    "pushed_at": "2026-06-23T10:21:51Z",
     "stargazers_count": 746,
     "topics": [
       "antvis",

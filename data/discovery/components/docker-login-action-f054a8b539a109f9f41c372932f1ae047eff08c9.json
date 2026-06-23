@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

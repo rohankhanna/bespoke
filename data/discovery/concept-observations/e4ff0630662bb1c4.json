@@ -84,7 +84,7 @@
   "normalized_form": "notebook-quality-check",
   "observation_id": "e4ff0630662bb1c4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-23T18:51:00.487200+00:00",
   "observed_text": "Notebook Quality Check",
   "source_context_snippet": "Notebook Quality Check",
   "source_file": ".github/workflows/notebook-quality.yml",
