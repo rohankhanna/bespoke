@@ -1,7 +1,7 @@
 {
   "component": "@fortawesome/fontawesome-svg-core",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

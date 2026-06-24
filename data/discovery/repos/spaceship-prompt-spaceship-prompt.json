@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deps.yaml"
     },
@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/deps.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/homebrew.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/validate.yaml"
     },
@@ -73,7 +73,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deps.yaml",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -94,7 +94,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -143,7 +143,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -171,7 +171,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/validate.yaml",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -252,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T08:28:33.757092+00:00",
+  "fetched_at": "2026-06-24T07:29:05.988861+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -300,8 +300,8 @@
     "full_name": "spaceship-prompt/spaceship-prompt",
     "html_url": "https://github.com/spaceship-prompt/spaceship-prompt",
     "language": "Shell",
-    "pushed_at": "2026-06-18T22:32:12Z",
-    "stargazers_count": 20523,
+    "pushed_at": "2026-06-24T05:18:12Z",
+    "stargazers_count": 20524,
     "topics": [
       "oh-my-zsh",
       "prompt",
@@ -314,7 +314,7 @@
       "zsh-theme",
       "zsh-users"
     ],
-    "updated_at": "2026-06-23T05:06:00Z"
+    "updated_at": "2026-06-24T05:18:16Z"
   },
   "repo_links": [
     {

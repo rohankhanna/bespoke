@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T14:31:31.680796+00:00",
+  "fetched_at": "2026-06-24T07:26:52.897548+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,13 +51,13 @@
     "html_url": "https://github.com/zai-org/VisionReward",
     "language": "Python",
     "pushed_at": "2025-03-26T10:07:04Z",
-    "stargazers_count": 412,
+    "stargazers_count": 413,
     "topics": [
       "diffusion",
       "preference",
       "rlhf"
     ],
-    "updated_at": "2026-06-22T08:45:54Z"
+    "updated_at": "2026-06-23T23:34:15Z"
   },
   "repo_links": [
     {

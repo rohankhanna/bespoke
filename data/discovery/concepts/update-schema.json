@@ -556,11 +556,17 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": ".github/workflows/schema.yml",
       "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T07:22:11.002189+00:00",
+      "source_file": ".github/workflows/schema.yml",
+      "source_repo": "aws/serverless-application-model"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
   "lexical_providers": [
     "datamuse"
   ],

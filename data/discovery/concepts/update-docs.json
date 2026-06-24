@@ -56,6 +56,18 @@
       "source_repo": "google/oboe",
       "status": "candidate-context",
       "text": "Update Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ebullient/obsidian-admonition",
+      "status": "candidate-context",
+      "text": "Adds admonition block-styled content to Obsidian.md "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebullient/obsidian-admonition",
+      "status": "candidate-context",
+      "text": "Update docs"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
       "source_repo": "google/oboe",
       "status": "candidate",
       "text": "Update Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebullient/obsidian-admonition",
+      "status": "candidate",
+      "text": "Update docs"
     }
   ],
   "candidate_related_terms": [
@@ -1103,11 +1121,17 @@
       "observed_at": "2026-06-24T00:42:42.423974+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T07:22:11.002189+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "ebullient/obsidian-admonition"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
   "lexical_providers": [
     "datamuse"
   ],

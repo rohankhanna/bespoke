@@ -1,7 +1,7 @@
 {
   "component": "eslint-plugin-simple-import-sort",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

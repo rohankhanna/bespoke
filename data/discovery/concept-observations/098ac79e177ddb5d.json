@@ -84,7 +84,7 @@
   "normalized_form": "releasing-project-to-maven",
   "observation_id": "098ac79e177ddb5d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-24T07:22:11.002189+00:00",
   "observed_text": "Releasing Project to maven",
   "source_context_snippet": "Releasing Project to maven",
   "source_file": ".github/workflows/maven-release.yml",

@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS"
+      "text": "The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS"
     },
     {
       "source_kind": "source-snippet",
@@ -70,10 +70,10 @@
   "normalized_form": "lua-ci",
   "observation_id": "e8e7cdf70908f38d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T18:51:00.487200+00:00",
+  "observed_at": "2026-06-24T07:22:11.002189+00:00",
   "observed_text": "Lua CI",
   "source_context_snippet": "Lua CI",
   "source_file": ".github/workflows/lua.yml",
   "source_repo": "dmtrKovalenko/fff",
-  "source_repo_description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS"
+  "source_repo_description": "The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS"
 }

@@ -1,31 +1,16 @@
 {
-  "first_seen_at": "2026-06-24T00:42:42.423974+00:00",
-  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "first_seen_at": "2026-06-24T07:22:11.002189+00:00",
+  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "webview2/EdgeSharp"
+      "source_repo": "flightcontrolhq/superjson"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "webview2/EdgeSharp.Samples"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "dwyl/quotes"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ultrajson/ultrajson"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fastapi/fastapi"
+      "source_repo": "unum-cloud/UStore"
     }
   ],
   "term": "json"

@@ -48,7 +48,7 @@
   "normalized_form": "nearisbos",
   "observation_id": "10632830cd1d7f90",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-23T18:51:00.487200+00:00",
+  "observed_at": "2026-06-24T07:22:11.002189+00:00",
   "observed_text": "nearisbos",
   "source_context_snippet": "The smart contract responsible for managing the communities, posts, and permissions made available via the [NEAR DevHub frontend](https://neardevhub.org). The repository for the frontend widgets can be found [here](https://github.com/NEAR-DevHub/neardevhub-bos).",
   "source_file": null,

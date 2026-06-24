@@ -84,7 +84,7 @@
   "normalized_form": "nightly-release",
   "observation_id": "5349d923ff94263d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T18:51:00.487200+00:00",
+  "observed_at": "2026-06-24T07:22:11.002189+00:00",
   "observed_text": "Nightly Release",
   "source_context_snippet": "Nightly Release",
   "source_file": ".github/workflows/release_nightly.yml",

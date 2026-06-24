@@ -106,7 +106,7 @@
   "normalized_form": "audit",
   "observation_id": "0366cb626f5ea01b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-24T07:22:11.002189+00:00",
   "observed_text": "Audit",
   "source_context_snippet": "Audit",
   "source_file": ".github/workflows/audit.yml",

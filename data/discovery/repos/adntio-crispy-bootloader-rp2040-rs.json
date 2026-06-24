@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/download-artifact@v5",
+      "component": "actions/download-artifact@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -126,7 +126,7 @@
       "source_file": ".github/workflows/security-scan.yml"
     },
     {
-      "component": "actions/download-artifact@v5",
+      "component": "actions/download-artifact@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security-scan.yml"
     },
@@ -141,7 +141,7 @@
       "source_file": ".github/workflows/security-scan.yml"
     },
     {
-      "component": "actions/download-artifact@v5",
+      "component": "actions/download-artifact@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security-scan.yml"
     },
@@ -156,7 +156,7 @@
       "source_file": ".github/workflows/security-scan.yml"
     },
     {
-      "component": "actions/download-artifact@v5",
+      "component": "actions/download-artifact@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security-scan.yml"
     },
@@ -220,7 +220,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
-      "target": "actions/download-artifact@v5",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
@@ -276,7 +276,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security-scan.yml",
       "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
-      "target": "actions/download-artifact@v5",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
@@ -301,7 +301,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T14:31:57.909816+00:00",
+  "fetched_at": "2026-06-24T07:27:21.795361+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -329,10 +329,10 @@
     "full_name": "ADNTIO/crispy-bootloader-rp2040-rs",
     "html_url": "https://github.com/ADNTIO/crispy-bootloader-rp2040-rs",
     "language": "Rust",
-    "pushed_at": "2026-06-23T09:59:04Z",
+    "pushed_at": "2026-06-23T15:32:33Z",
     "stargazers_count": 9,
     "topics": [],
-    "updated_at": "2026-06-23T09:57:13Z"
+    "updated_at": "2026-06-23T15:32:46Z"
   },
   "repo_links": [
     {

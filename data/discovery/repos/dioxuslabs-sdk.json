@@ -119,7 +119,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T14:36:24.061477+00:00",
+  "fetched_at": "2026-06-24T07:32:49.522806+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -148,9 +148,9 @@
     "html_url": "https://github.com/DioxusLabs/sdk",
     "language": "Rust",
     "pushed_at": "2025-12-26T14:39:57Z",
-    "stargazers_count": 292,
+    "stargazers_count": 293,
     "topics": [],
-    "updated_at": "2026-06-21T07:09:13Z"
+    "updated_at": "2026-06-23T23:00:59Z"
   },
   "repo_links": [],
   "terms": [

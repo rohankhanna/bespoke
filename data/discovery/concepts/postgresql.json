@@ -3261,11 +3261,23 @@
       "observed_at": "2026-06-24T00:42:42.423974+00:00",
       "source_file": null,
       "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T07:22:11.002189+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T07:22:11.002189+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
   "lexical_providers": [
     "datamuse"
   ],

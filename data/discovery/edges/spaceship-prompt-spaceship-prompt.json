@@ -11,7 +11,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deps.yaml",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -32,7 +32,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -81,7 +81,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -109,7 +109,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/validate.yaml",
       "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -190,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-23T07:25:49.577775+00:00",
+  "generated_at": "2026-06-24T07:22:11.002189+00:00",
   "source_repo": "spaceship-prompt/spaceship-prompt"
 }

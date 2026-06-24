@@ -84,7 +84,7 @@
   "normalized_form": "generate-sponsors-readme",
   "observation_id": "8078093474d739f7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-24T07:22:11.002189+00:00",
   "observed_text": "Generate Sponsors README",
   "source_context_snippet": "Generate Sponsors README",
   "source_file": ".github/workflows/github-sponsors.yml",

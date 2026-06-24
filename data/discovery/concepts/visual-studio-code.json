@@ -1258,11 +1258,17 @@
       "observed_at": "2026-06-24T00:42:42.423974+00:00",
       "source_file": null,
       "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T07:22:11.002189+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.3.0",
   "first_seen_at": "2026-06-22T00:52:01.139311+00:00",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

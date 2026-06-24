@@ -120,7 +120,7 @@
   "normalized_form": "check",
   "observation_id": "7426d29342679f6b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-24T07:22:11.002189+00:00",
   "observed_text": "Check",
   "source_context_snippet": "Check",
   "source_file": ".github/workflows/check.yaml",

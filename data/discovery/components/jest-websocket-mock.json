@@ -1,7 +1,7 @@
 {
   "component": "jest-websocket-mock",
   "first_seen_at": "2026-05-06T07:04:23.568635+00:00",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

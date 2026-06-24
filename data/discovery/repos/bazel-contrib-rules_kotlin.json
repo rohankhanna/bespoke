@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -78,7 +78,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "bazel-contrib/rules_kotlin",
-      "target": "actions/cache@v5",
+      "target": "actions/cache@v6",
       "target_type": "component"
     },
     {
@@ -138,7 +138,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T18:54:23.589871+00:00",
+  "fetched_at": "2026-06-24T07:38:47.544473+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -174,14 +174,14 @@
     "full_name": "bazel-contrib/rules_kotlin",
     "html_url": "https://github.com/bazel-contrib/rules_kotlin",
     "language": "Starlark",
-    "pushed_at": "2026-06-23T17:36:52Z",
+    "pushed_at": "2026-06-23T21:32:45Z",
     "stargazers_count": 364,
     "topics": [
       "bazel",
       "bazel-rules",
       "kotlin"
     ],
-    "updated_at": "2026-06-19T20:39:49Z"
+    "updated_at": "2026-06-23T21:32:50Z"
   },
   "repo_links": [
     {
