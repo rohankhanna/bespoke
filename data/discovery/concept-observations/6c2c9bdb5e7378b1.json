@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Home of the HX DOS Extender and its DPMI-host HDPMI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Home of the HX DOS Extender and its DPMI-host HDPMI."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Home of the HX DOS Extender and its DPMI-host HDPMI."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020978,
+      "status": "candidate",
+      "text": "dcpm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020977,
+      "status": "candidate",
+      "text": "dcom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020976,
+      "status": "candidate",
+      "text": "drpm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020975,
+      "status": "candidate",
+      "text": "pmmu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020974,
+      "status": "candidate",
+      "text": "dpcm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dpmi",
+      "sense_id": "dpmi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dpmi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dpmi",
+  "observation_id": "6c2c9bdb5e7378b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-24T13:00:17.759930+00:00",
+  "observed_text": "dpmi",
+  "source_context_snippet": "Home of the HX DOS Extender and its DPMI-host HDPMI.",
+  "source_file": null,
+  "source_repo": "Baron-von-Riedesel/HX",
+  "source_repo_description": "Home of the HX DOS Extender and its DPMI-host HDPMI."
+}

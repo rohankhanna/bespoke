@@ -120,7 +120,7 @@
   "normalized_form": "build",
   "observation_id": "9e1ba23967aca7dd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T00:42:42.423974+00:00",
+  "observed_at": "2026-06-24T13:00:17.759930+00:00",
   "observed_text": "Build",
   "source_context_snippet": "Build",
   "source_file": ".github/workflows/go-cross-build.yml",

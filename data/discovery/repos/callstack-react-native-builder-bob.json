@@ -565,7 +565,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T19:22:03.415148+00:00",
+  "fetched_at": "2026-06-24T13:11:21.428229+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -618,13 +618,13 @@
     "html_url": "https://github.com/callstack/react-native-builder-bob",
     "language": "JavaScript",
     "pushed_at": "2026-06-16T11:57:44Z",
-    "stargazers_count": 3218,
+    "stargazers_count": 3219,
     "topics": [
       "hacktoberfest",
       "react-native",
       "template"
     ],
-    "updated_at": "2026-06-23T15:32:18Z"
+    "updated_at": "2026-06-24T11:00:04Z"
   },
   "repo_links": [
     {

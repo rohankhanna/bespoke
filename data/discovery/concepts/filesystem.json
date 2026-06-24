@@ -1984,11 +1984,23 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": null,
       "source_repo": "littlefs-project/ramcrc32bd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T13:00:17.759930+00:00",
+      "source_file": null,
+      "source_repo": "littlefs-project/ramcrc32bd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T13:00:17.759930+00:00",
+      "source_file": null,
+      "source_repo": "littlefs-project/ramrsbd"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
   "lexical_providers": [
     "datamuse"
   ],

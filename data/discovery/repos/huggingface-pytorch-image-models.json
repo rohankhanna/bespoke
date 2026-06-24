@@ -283,7 +283,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T19:28:07.503275+00:00",
+  "fetched_at": "2026-06-24T13:15:43.768504+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -328,7 +328,7 @@
     "html_url": "https://github.com/huggingface/pytorch-image-models",
     "language": "Python",
     "pushed_at": "2026-06-19T17:01:45Z",
-    "stargazers_count": 36906,
+    "stargazers_count": 36909,
     "topics": [
       "augmix",
       "convnext",
@@ -351,7 +351,7 @@
       "resnet",
       "vision-transformer-models"
     ],
-    "updated_at": "2026-06-23T14:45:46Z"
+    "updated_at": "2026-06-24T12:51:42Z"
   },
   "repo_links": [
     {

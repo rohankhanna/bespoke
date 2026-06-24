@@ -56,6 +56,18 @@
       "source_repo": "badlogic/dosbox-x",
       "status": "candidate-context",
       "text": "macOS builds"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joncampbell123/dosbox-x",
+      "status": "candidate-context",
+      "text": "DOSBox-X fork of the DOSBox project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joncampbell123/dosbox-x",
+      "status": "candidate-context",
+      "text": "macOS builds"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "badlogic/dosbox-x",
+      "status": "candidate",
+      "text": "macOS builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joncampbell123/dosbox-x",
       "status": "candidate",
       "text": "macOS builds"
     }
@@ -149,11 +167,17 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "badlogic/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T13:00:17.759930+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "joncampbell123/dosbox-x"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
   "lexical_providers": [
     "datamuse"
   ],

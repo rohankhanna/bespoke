@@ -56547,6 +56547,9 @@
   "dpll": [
     "ebb4519f1a7b471b"
   ],
+  "dpmi": [
+    "6c2c9bdb5e7378b1"
+  ],
   "dpp-exts": [
     "51fc804dbad4bdcb",
     "c4f47c4436911279",
@@ -61777,6 +61780,9 @@
   ],
   "extendedtests": [
     "466f5bbb16704976"
+  ],
+  "extender": [
+    "816341b7ae1f41c5"
   ],
   "extendscript": [
     "9226585c7d561710",
@@ -78272,7 +78278,8 @@
     "182eebb6513160c3"
   ],
   "hx-dos-build": [
-    "3140158615acb878"
+    "3140158615acb878",
+    "f24eb981ffae121b"
   ],
   "hy-lang": [
     "c0aa32af41c23d65"
@@ -92380,6 +92387,7 @@
   "linux-builds": [
     "08aac6d85a6c58cb",
     "4677011ed2929261",
+    "b02d647cf8d94c03",
     "e1aab41caf0b86a7",
     "e334600a127f0fe9",
     "e69a5b7473731112"
@@ -96103,6 +96111,7 @@
     "15ffcf3ace0668b8"
   ],
   "macos-builds": [
+    "04c18bb3731263a7",
     "4c2833fa9b48fb2e",
     "b0f7f4847a6c4e52",
     "cf550e8ed74b0926",
@@ -150341,6 +150350,9 @@
   "store-submission-on-release": [
     "5824baeea25ec7e4"
   ],
+  "store-sync-review": [
+    "41ac88f354b89ce0"
+  ],
   "stored-procedures": [
     "a39788b34374ce8b"
   ],
@@ -170446,6 +170458,9 @@
     "e1f6a9dfc276503d",
     "eea1ed5748d7e4f7"
   ],
+  "visual-studio-builds-for-winxp": [
+    "a08c111be798a015"
+  ],
   "visual-studio-code": [
     "0733ecc80cfec300",
     "254cd03802731820",
@@ -174716,6 +174731,9 @@
   ],
   "windows-installer": [
     "72af8a13e4620e9c"
+  ],
+  "windows-installers": [
+    "c6f81dc26a29a6f5"
   ],
   "windows-latest": [
     "a3df96736db07a7c"

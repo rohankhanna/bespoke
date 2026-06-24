@@ -136,7 +136,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T01:10:51.498331+00:00",
+  "fetched_at": "2026-06-24T13:11:04.574669+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -169,7 +169,7 @@
     "html_url": "https://github.com/meta-llama/llama-cookbook",
     "language": "Jupyter Notebook",
     "pushed_at": "2026-05-19T18:42:31Z",
-    "stargazers_count": 18374,
+    "stargazers_count": 18376,
     "topics": [
       "ai",
       "finetuning",
@@ -182,7 +182,7 @@
       "pytorch",
       "vllm"
     ],
-    "updated_at": "2026-06-23T11:41:11Z"
+    "updated_at": "2026-06-24T12:54:44Z"
   },
   "repo_links": [
     {

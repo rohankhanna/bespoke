@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows installers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joncampbell123/dosbox-x",
+      "status": "candidate-context",
+      "text": "DOSBox-X fork of the DOSBox project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joncampbell123/dosbox-x",
+      "status": "candidate-context",
+      "text": "Windows installers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joncampbell123/dosbox-x",
+      "status": "candidate",
+      "text": "Windows installers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "tiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15124,
+      "status": "candidate",
+      "text": "mac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "area"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows installers",
+  "concept_id": "windows-installers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T13:00:17.759930+00:00",
+      "source_file": ".github/workflows/windows-installers.yml",
+      "source_repo": "joncampbell123/dosbox-x"
+    }
+  ],
+  "first_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows installers",
+      "sense_id": "windows-installers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -896,7 +896,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T19:13:26.691766+00:00",
+  "fetched_at": "2026-06-24T13:05:54.167894+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -948,8 +948,8 @@
     "full_name": "endojs/endo",
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
-    "pushed_at": "2026-06-23T15:29:23Z",
-    "stargazers_count": 1027,
+    "pushed_at": "2026-06-24T01:32:44Z",
+    "stargazers_count": 1028,
     "topics": [
       "capabilities",
       "captp",
@@ -963,7 +963,7 @@
       "security",
       "supply-chain"
     ],
-    "updated_at": "2026-06-22T05:40:47Z"
+    "updated_at": "2026-06-24T10:17:15Z"
   },
   "repo_links": [
     {

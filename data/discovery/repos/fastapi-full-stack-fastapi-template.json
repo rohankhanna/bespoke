@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/guard-dependencies.yml"
     },
     {
-      "component": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
+      "component": "tiangolo/issue-manager@75d60679db1ea348f6f6ea1d0e20de80a7c04645",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-manager.yml"
     },
@@ -116,7 +116,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-manager.yml",
       "source_repo": "fastapi/full-stack-fastapi-template",
-      "target": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
+      "target": "tiangolo/issue-manager@75d60679db1ea348f6f6ea1d0e20de80a7c04645",
       "target_type": "component"
     },
     {
@@ -260,7 +260,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T19:17:02.206110+00:00",
+  "fetched_at": "2026-06-24T13:08:08.496979+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -296,7 +296,7 @@
     },
     {
       "path": ".github/workflows/issue-manager.yml",
-      "size": 1996
+      "size": 739
     },
     {
       "path": ".github/workflows/labeler.yml",
@@ -312,8 +312,8 @@
     "full_name": "fastapi/full-stack-fastapi-template",
     "html_url": "https://github.com/fastapi/full-stack-fastapi-template",
     "language": "TypeScript",
-    "pushed_at": "2026-06-21T20:51:47Z",
-    "stargazers_count": 43826,
+    "pushed_at": "2026-06-24T12:28:10Z",
+    "stargazers_count": 43848,
     "topics": [
       "backend",
       "chakra-ui",
@@ -335,7 +335,7 @@
       "traefik",
       "typescript"
     ],
-    "updated_at": "2026-06-23T17:57:00Z"
+    "updated_at": "2026-06-24T12:28:28Z"
   },
   "repo_links": [],
   "terms": [

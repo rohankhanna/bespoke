@@ -318,7 +318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T00:50:20.829179+00:00",
+  "fetched_at": "2026-06-24T13:20:37.109781+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -330,7 +330,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 12144
+      "size": 12162
     },
     {
       "path": ".github/workflows/api-node-template.yml",
@@ -370,10 +370,10 @@
     "full_name": "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "html_url": "https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-06-24T00:20:12Z",
+    "pushed_at": "2026-06-24T03:44:33Z",
     "stargazers_count": 88,
     "topics": [],
-    "updated_at": "2026-06-22T01:27:55Z"
+    "updated_at": "2026-06-24T03:44:11Z"
   },
   "repo_links": [
     {

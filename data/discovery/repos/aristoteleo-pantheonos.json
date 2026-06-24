@@ -193,6 +193,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/store-sync-review.yml",
+      "source_repo": "aristoteleo/PantheonOS",
+      "target": "store-sync-review",
+      "target_type": "term"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "aristoteleo/PantheonOS",
@@ -319,7 +326,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T19:07:26.478865+00:00",
+  "fetched_at": "2026-06-24T13:01:49.133271+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -342,6 +349,10 @@
       "size": 849
     },
     {
+      "path": ".github/workflows/store-sync-review.yml",
+      "size": 3218
+    },
+    {
       "path": ".github/workflows/test.yml",
       "size": 2677
     }
@@ -355,7 +366,7 @@
     "full_name": "aristoteleo/PantheonOS",
     "html_url": "https://github.com/aristoteleo/PantheonOS",
     "language": "Python",
-    "pushed_at": "2026-06-23T06:19:33Z",
+    "pushed_at": "2026-06-24T07:19:15Z",
     "stargazers_count": 449,
     "topics": [
       "agent",
@@ -375,7 +386,7 @@
       "singlecell",
       "spatial-transcriptomics"
     ],
-    "updated_at": "2026-06-23T06:19:36Z"
+    "updated_at": "2026-06-24T07:19:18Z"
   },
   "repo_links": [
     {
@@ -396,6 +407,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/promote-agent.yml",
       "term": "Promote Agent Image to :prod"
+    },
+    {
+      "context_snippet": "store-sync-review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/store-sync-review.yml",
+      "term": "store-sync-review"
     },
     {
       "context_snippet": "Tests",

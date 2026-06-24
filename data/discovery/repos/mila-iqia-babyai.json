@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T00:52:35.625064+00:00",
+  "fetched_at": "2026-06-24T13:22:04.348990+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,7 +65,7 @@
     "html_url": "https://github.com/mila-iqia/babyai",
     "language": "Python",
     "pushed_at": "2023-10-01T01:53:59Z",
-    "stargazers_count": 766,
+    "stargazers_count": 765,
     "topics": [
       "imitation-learning",
       "nlp",
@@ -73,7 +73,7 @@
       "openai-gym",
       "reinforcement-learning-environments"
     ],
-    "updated_at": "2026-06-16T07:00:41Z"
+    "updated_at": "2026-06-24T10:46:01Z"
   },
   "repo_links": [
     {

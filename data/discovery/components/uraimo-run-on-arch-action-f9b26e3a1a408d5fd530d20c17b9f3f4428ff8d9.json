@@ -1,7 +1,7 @@
 {
   "component": "uraimo/run-on-arch-action@f9b26e3a1a408d5fd530d20c17b9f3f4428ff8d9",
   "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

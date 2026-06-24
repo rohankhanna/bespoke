@@ -385,7 +385,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T00:48:15.580313+00:00",
+  "fetched_at": "2026-06-24T13:19:10.671981+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -437,8 +437,8 @@
     "full_name": "rllm-org/rllm",
     "html_url": "https://github.com/rllm-org/rllm",
     "language": "Python",
-    "pushed_at": "2026-06-23T22:31:00Z",
-    "stargazers_count": 5643,
+    "pushed_at": "2026-06-24T04:12:42Z",
+    "stargazers_count": 5645,
     "topics": [
       "agent-framework",
       "agentic-workflow",
@@ -455,7 +455,7 @@
       "tinker",
       "verl"
     ],
-    "updated_at": "2026-06-23T16:50:18Z"
+    "updated_at": "2026-06-24T09:25:45Z"
   },
   "repo_links": [
     {

@@ -84,7 +84,7 @@
   "normalized_form": "ci-build",
   "observation_id": "c6bdcae7c3d3678c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T18:51:00.487200+00:00",
+  "observed_at": "2026-06-24T13:00:17.759930+00:00",
   "observed_text": "CI Build",
   "source_context_snippet": "CI Build",
   "source_file": ".github/workflows/ci.yml",

@@ -33389,6 +33389,9 @@
   "dpll": [
     "dpll"
   ],
+  "dpmi": [
+    "dpmi"
+  ],
   "dpp-exts": [
     "dpp-exts"
   ],
@@ -36805,6 +36808,9 @@
   ],
   "extendedtests": [
     "extendedtests"
+  ],
+  "extender": [
+    "extender"
   ],
   "extendscript": [
     "extendscript"
@@ -86531,6 +86537,9 @@
   "store submission on release": [
     "store-submission-on-release"
   ],
+  "store-sync-review": [
+    "store-sync-review"
+  ],
   "stored-procedures": [
     "stored-procedures"
   ],
@@ -98315,6 +98324,9 @@
   "visual regression tests": [
     "visual-regression-tests"
   ],
+  "visual studio builds for winxp": [
+    "visual-studio-builds-for-winxp"
+  ],
   "visual testing": [
     "visual-testing"
   ],
@@ -100781,6 +100793,9 @@
   ],
   "windows implementation library ci": [
     "windows-implementation-library-ci"
+  ],
+  "windows installers": [
+    "windows-installers"
   ],
   "windows mandrel-quarkus tests": [
     "windows-mandrel-quarkus-tests"

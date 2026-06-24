@@ -5478,11 +5478,23 @@
       "observed_at": "2026-06-24T07:22:11.002189+00:00",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "react/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T13:00:17.759930+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T13:00:17.759930+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
+  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -607,11 +607,17 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": ".github/workflows/precommit.yml",
       "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T13:00:17.759930+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "google-deepmind/lab"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
   "lexical_providers": [
     "datamuse"
   ],

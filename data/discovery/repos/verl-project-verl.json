@@ -531,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-06-24T00:48:10.334511+00:00",
+  "fetched_at": "2026-06-24T13:19:05.577804+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -559,7 +559,7 @@
     },
     {
       "path": ".github/workflows/doc.yml",
-      "size": 4250
+      "size": 4265
     },
     {
       "path": ".github/workflows/docker-build-ascend-a2-qwen3_5.yml",
@@ -583,10 +583,10 @@
     "full_name": "verl-project/verl",
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
-    "pushed_at": "2026-06-23T13:30:15Z",
-    "stargazers_count": 22104,
+    "pushed_at": "2026-06-24T10:03:22Z",
+    "stargazers_count": 22120,
     "topics": [],
-    "updated_at": "2026-06-23T19:31:57Z"
+    "updated_at": "2026-06-24T13:18:37Z"
   },
   "repo_links": [
     {

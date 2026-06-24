@@ -183,7 +183,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T00:56:15.430976+00:00",
+  "fetched_at": "2026-06-24T13:24:24.793822+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -211,14 +211,14 @@
     "full_name": "tox-dev/filelock",
     "html_url": "https://github.com/tox-dev/filelock",
     "language": "Python",
-    "pushed_at": "2026-06-22T16:51:38Z",
+    "pushed_at": "2026-06-24T11:42:36Z",
     "stargazers_count": 961,
     "topics": [
       "filelock",
       "hacktoberfest",
       "python"
     ],
-    "updated_at": "2026-06-22T07:30:38Z"
+    "updated_at": "2026-06-24T07:37:26Z"
   },
   "repo_links": [
     {

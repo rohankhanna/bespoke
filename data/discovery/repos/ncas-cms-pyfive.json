@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6.0.3",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-and-deploy-on-pypi.yml"
     },
@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/install-from-conda.yml"
     },
     {
-      "component": "actions/checkout@v6.0.3",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/joss-draft-pdf.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/joss-draft-pdf.yml"
     },
     {
-      "component": "actions/checkout@v6.0.3",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml"
     },
@@ -68,7 +68,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
       "source_repo": "NCAS-CMS/pyfive",
-      "target": "actions/checkout@v6.0.3",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -110,7 +110,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/joss-draft-pdf.yml",
       "source_repo": "NCAS-CMS/pyfive",
-      "target": "actions/checkout@v6.0.3",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -138,7 +138,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "NCAS-CMS/pyfive",
-      "target": "actions/checkout@v6.0.3",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -163,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T19:23:07.445852+00:00",
+  "fetched_at": "2026-06-24T13:12:16.301177+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -199,10 +199,10 @@
     "full_name": "NCAS-CMS/pyfive",
     "html_url": "https://github.com/NCAS-CMS/pyfive",
     "language": "Python",
-    "pushed_at": "2026-06-22T21:30:54Z",
+    "pushed_at": "2026-06-24T12:48:10Z",
     "stargazers_count": 104,
     "topics": [],
-    "updated_at": "2026-06-22T10:33:06Z"
+    "updated_at": "2026-06-24T12:48:07Z"
   },
   "repo_links": [
     {

@@ -106,11 +106,17 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": ".github/workflows/promote-agent.yml",
       "source_repo": "aristoteleo/PantheonOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T13:00:17.759930+00:00",
+      "source_file": ".github/workflows/promote-agent.yml",
+      "source_repo": "aristoteleo/PantheonOS"
     }
   ],
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
   "lexical_providers": [
     "datamuse"
   ],

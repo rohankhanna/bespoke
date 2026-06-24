@@ -1,7 +1,7 @@
 {
   "component": "robinraju/release-downloader@v1.13",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cd.www.yml",
       "source_repo": "pkgxdev/mash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hxdos.yml",
+      "source_repo": "joncampbell123/dosbox-x"
     }
   ]
 }

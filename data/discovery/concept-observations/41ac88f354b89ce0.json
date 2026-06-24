@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A general, evolvable, and distributed agent framework & harness for data science."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "store-sync-review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "store-sync-review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "store-sync-review",
+      "sense_id": "store-sync-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "store-sync-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "store-sync-review",
+  "observation_id": "41ac88f354b89ce0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-24T13:00:17.759930+00:00",
+  "observed_text": "store-sync-review",
+  "source_context_snippet": "store-sync-review",
+  "source_file": ".github/workflows/store-sync-review.yml",
+  "source_repo": "aristoteleo/PantheonOS",
+  "source_repo_description": "A general, evolvable, and distributed agent framework & harness for data science."
+}

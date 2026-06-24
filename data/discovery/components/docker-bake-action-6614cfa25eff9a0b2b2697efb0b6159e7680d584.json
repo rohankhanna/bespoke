@@ -1,7 +1,7 @@
 {
   "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
   "first_seen_at": "2026-05-22T00:44:15.720901+00:00",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

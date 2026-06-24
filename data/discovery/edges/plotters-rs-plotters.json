@@ -4,20 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "plotters-rs/plotters",
-      "target": "plotters-rs/plotters-piston",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "plotters-rs/plotters",
-      "target": "plotters-rs/plotters-wasm-demo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "plotters-rs/plotters",
       "target": "google/evcxr",
       "target_type": "repository"
     },
@@ -253,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-23T07:25:49.577775+00:00",
+  "generated_at": "2026-06-24T13:00:17.759930+00:00",
   "source_repo": "plotters-rs/plotters"
 }

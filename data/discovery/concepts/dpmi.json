@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "dpmi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Baron-von-Riedesel/HX",
+      "status": "candidate-context",
+      "text": "Home of the HX DOS Extender and its DPMI-host HDPMI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Baron-von-Riedesel/HX",
+      "status": "candidate-context",
+      "text": "Home of the HX DOS Extender and its DPMI-host HDPMI."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Baron-von-Riedesel/HX",
+      "status": "candidate",
+      "text": "Home of the HX DOS Extender and its DPMI-host HDPMI."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020978,
+      "status": "candidate",
+      "text": "dcpm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020977,
+      "status": "candidate",
+      "text": "dcom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020976,
+      "status": "candidate",
+      "text": "drpm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020975,
+      "status": "candidate",
+      "text": "pmmu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020974,
+      "status": "candidate",
+      "text": "dpcm"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dpmi",
+  "concept_id": "dpmi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T13:00:17.759930+00:00",
+      "source_file": null,
+      "source_repo": "Baron-von-Riedesel/HX"
+    }
+  ],
+  "first_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dpmi",
+      "sense_id": "dpmi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

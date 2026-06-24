@@ -1,0 +1,54 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Baron-von-Riedesel/HX",
+      "target": "dpmi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Baron-von-Riedesel/HX",
+      "target": "extender",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T13:02:44.092949+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Home of the HX DOS Extender and its DPMI-host HDPMI.",
+    "fork": false,
+    "full_name": "Baron-von-Riedesel/HX",
+    "html_url": "https://github.com/Baron-von-Riedesel/HX",
+    "language": "Assembly",
+    "pushed_at": "2026-05-31T04:12:11Z",
+    "stargazers_count": 258,
+    "topics": [
+      "dos",
+      "dpmi",
+      "extender"
+    ],
+    "updated_at": "2026-06-18T08:43:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Home of the HX DOS Extender and its DPMI-host HDPMI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dpmi"
+    },
+    {
+      "context_snippet": "Home of the HX DOS Extender and its DPMI-host HDPMI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extender"
+    }
+  ]
+}

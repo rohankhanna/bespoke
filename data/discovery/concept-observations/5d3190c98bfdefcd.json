@@ -84,7 +84,7 @@
   "normalized_form": "daily-build-bsys6",
   "observation_id": "5d3190c98bfdefcd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T07:25:49.577775+00:00",
+  "observed_at": "2026-06-24T13:00:17.759930+00:00",
   "observed_text": "Daily Build (bsys6)",
   "source_context_snippet": "Daily Build (bsys6)",
   "source_file": ".github/workflows/bsys6-daily-build.yml",

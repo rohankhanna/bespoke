@@ -362,7 +362,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T00:52:49.772802+00:00",
+  "fetched_at": "2026-06-24T13:22:14.955394+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -390,7 +390,7 @@
     },
     {
       "path": ".github/workflows/integration-tests-amd.yml",
-      "size": 14551
+      "size": 14557
     },
     {
       "path": ".github/workflows/integration-tests-nvidia.yml",
@@ -414,10 +414,10 @@
     "full_name": "triton-lang/triton",
     "html_url": "https://github.com/triton-lang/triton",
     "language": "MLIR",
-    "pushed_at": "2026-06-24T00:25:56Z",
-    "stargazers_count": 19511,
+    "pushed_at": "2026-06-24T12:30:15Z",
+    "stargazers_count": 19516,
     "topics": [],
-    "updated_at": "2026-06-23T22:12:03Z"
+    "updated_at": "2026-06-24T09:35:44Z"
   },
   "repo_links": [
     {

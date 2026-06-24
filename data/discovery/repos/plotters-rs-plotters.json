@@ -151,20 +151,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "plotters-rs/plotters",
-      "target": "plotters-rs/plotters-piston",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "plotters-rs/plotters",
-      "target": "plotters-rs/plotters-wasm-demo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "plotters-rs/plotters",
       "target": "google/evcxr",
       "target_type": "repository"
     },
@@ -400,7 +386,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T08:53:39.501143+00:00",
+  "fetched_at": "2026-06-24T13:02:39.594517+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -445,7 +431,7 @@
     "html_url": "https://github.com/plotters-rs/plotters",
     "language": "Rust",
     "pushed_at": "2026-04-13T12:44:14Z",
-    "stargazers_count": 4580,
+    "stargazers_count": 4582,
     "topics": [
       "data-plotting",
       "graphing",
@@ -457,7 +443,7 @@
       "visualization",
       "webassembly"
     ],
-    "updated_at": "2026-06-18T07:17:22Z"
+    "updated_at": "2026-06-24T08:00:53Z"
   },
   "repo_links": [
     {
@@ -468,16 +454,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "google/evcxr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "plotters-rs/plotters-piston",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "plotters-rs/plotters-wasm-demo",
       "source_file": "README.md"
     }
   ],
