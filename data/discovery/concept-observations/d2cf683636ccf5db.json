@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repo for Crossplane documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run htmltest and validate links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run htmltest and validate links"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22707,
+      "status": "candidate",
+      "text": "maintain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22707,
+      "status": "candidate",
+      "text": "maintained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22707,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22707,
+      "status": "candidate",
+      "text": "occlusion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22540,
+      "status": "candidate",
+      "text": "fore"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run htmltest and validate links",
+      "sense_id": "run-htmltest-and-validate-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-htmltest-and-validate-links",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-htmltest-and-validate-links",
+  "observation_id": "d2cf683636ccf5db",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-24T18:42:53.825671+00:00",
+  "observed_text": "Run htmltest and validate links",
+  "source_context_snippet": "Run htmltest and validate links",
+  "source_file": ".github/workflows/link-checker.yml",
+  "source_repo": "crossplane/docs",
+  "source_repo_description": "Repo for Crossplane documentation."
+}

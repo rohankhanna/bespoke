@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3DTopia/LGM",
+      "target": "gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3DTopia/LGM",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3DTopia/LGM",
+      "target": "text-to-3d",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-24T18:42:53.825671+00:00",
+  "source_repo": "3DTopia/LGM"
+}

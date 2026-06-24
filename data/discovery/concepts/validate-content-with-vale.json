@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate content with Vale"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossplane/docs",
+      "status": "candidate-context",
+      "text": "Repo for Crossplane documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/docs",
+      "status": "candidate-context",
+      "text": "Validate content with Vale"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/docs",
+      "status": "candidate",
+      "text": "Validate content with Vale"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20715,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20715,
+      "status": "candidate",
+      "text": "stub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20715,
+      "status": "candidate",
+      "text": "trumpet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19546,
+      "status": "candidate",
+      "text": "docket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19546,
+      "status": "candidate",
+      "text": "hollow"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate content with Vale",
+  "concept_id": "validate-content-with-vale",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": ".github/workflows/vale.yml",
+      "source_repo": "crossplane/docs"
+    }
+  ],
+  "first_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate content with Vale",
+      "sense_id": "validate-content-with-vale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

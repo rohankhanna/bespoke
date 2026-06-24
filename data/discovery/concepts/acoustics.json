@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "acoustics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LCAV/pyroomacoustics",
+      "status": "candidate-context",
+      "text": "Pyroomacoustics is a package for audio signal processing for indoor applications. It was developed as a fast prototyping platform for beamforming algorithms in indoor scenarios."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LCAV/pyroomacoustics",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/LCAV/pyroomacoustics/raw/master/logo/pyroomacoustics_logo_horizontal.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LCAV/pyroomacoustics",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/LCAV/pyroomacoustics/raw/master/logo/pyroomacoustics_logo_horizontal.png"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951013,
+      "status": "candidate",
+      "text": "acoustical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29858010,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29854449,
+      "status": "candidate",
+      "text": "noise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024430,
+      "status": "candidate",
+      "text": "acoustooptics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024429,
+      "status": "candidate",
+      "text": "otoacoustics"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "acoustics",
+  "concept_id": "acoustics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "LCAV/pyroomacoustics"
+    }
+  ],
+  "first_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "acoustics",
+      "sense_id": "acoustics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

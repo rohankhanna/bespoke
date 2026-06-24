@@ -106,6 +106,18 @@
       "source_repo": "heroku/heroku-buildpack-dotnet",
       "status": "candidate-context",
       "text": "![dotnet-buildpack-github-banner](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-dotnet.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate-context",
+      "text": "UVAtlas isochart texture atlas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate-context",
+      "text": "MSBuild"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "heroku/heroku-buildpack-dotnet",
       "status": "candidate",
       "text": "![dotnet-buildpack-github-banner](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-dotnet.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate",
+      "text": "MSBuild"
     }
   ],
   "candidate_related_terms": [
@@ -247,11 +265,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "heroku/heroku-buildpack-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": ".github/workflows/msbuild.yml",
+      "source_repo": "microsoft/UVAtlas"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "lexical_providers": [
     "datamuse"
   ],

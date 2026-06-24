@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T07:32:47.864215+00:00",
+  "fetched_at": "2026-06-24T19:10:15.992566+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,7 +54,7 @@
     "html_url": "https://github.com/sentriz/fish-pipenv",
     "language": "Shell",
     "pushed_at": "2022-04-19T01:25:42Z",
-    "stargazers_count": 197,
+    "stargazers_count": 196,
     "topics": [
       "fish-shell",
       "fisher",
@@ -62,7 +62,7 @@
       "python",
       "virtualenv"
     ],
-    "updated_at": "2026-05-16T07:58:54Z"
+    "updated_at": "2026-06-24T10:45:54Z"
   },
   "repo_links": [
     {

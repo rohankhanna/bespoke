@@ -1,12 +1,17 @@
 {
   "component": "ai/clean-npm-project@0e1fd6e68c39b972235226864d47e368c550ebed",
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
-  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "browserslist/caniuse-lite"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -5436,6 +5436,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "jpcy/xatlas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification"
     }
   ],
   "term": "Build"

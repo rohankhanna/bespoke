@@ -1,12 +1,22 @@
 {
   "component": "actions/cache@v6",
   "first_seen_at": "2026-06-24T07:22:11.002189+00:00",
-  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
     }
   ]
 }

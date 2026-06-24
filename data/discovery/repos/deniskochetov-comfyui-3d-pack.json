@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DenisKochetov/ComfyUI-3D-Pack",
+      "target": "huanngzh/mv-adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DenisKochetov/ComfyUI-3D-Pack",
+      "target": "flowtyone/comfyui-flowty-triposr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DenisKochetov/ComfyUI-3D-Pack",
+      "target": "huggingface/gsplat.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DenisKochetov/ComfyUI-3D-Pack",
+      "target": "lava-nc/lava-dl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DenisKochetov/ComfyUI-3D-Pack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DenisKochetov/ComfyUI-3D-Pack",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DenisKochetov/ComfyUI-3D-Pack",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T18:58:59.978079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24935
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4397
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 447
+    },
+    {
+      "path": "requirements.txt",
+      "size": 841
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An extensive node suite that enables ComfyUI to process 3D inputs (Mesh & UV Texture, etc) using cutting edge algorithms (3DGS, NeRF, etc.)",
+    "fork": true,
+    "full_name": "DenisKochetov/ComfyUI-3D-Pack",
+    "html_url": "https://github.com/DenisKochetov/ComfyUI-3D-Pack",
+    "language": "Python",
+    "pushed_at": "2025-12-01T07:12:36Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-03T00:39:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flowtyone/comfyui-flowty-triposr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huanngzh/mv-adapter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/gsplat.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lava-nc/lava-dl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

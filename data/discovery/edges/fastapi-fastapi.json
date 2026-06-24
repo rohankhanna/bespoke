@@ -228,7 +228,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-manager.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "tiangolo/issue-manager@8505bda3fd28623a64d93935cbe13fa23f14fd8b",
+      "target": "tiangolo/issue-manager@75d60679db1ea348f6f6ea1d0e20de80a7c04645",
       "target_type": "component"
     },
     {
@@ -358,6 +358,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-24T00:42:42.423974+00:00",
+  "generated_at": "2026-06-24T18:42:53.825671+00:00",
   "source_repo": "fastapi/fastapi"
 }

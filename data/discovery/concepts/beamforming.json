@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "beamforming"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LCAV/pyroomacoustics",
+      "status": "candidate-context",
+      "text": "Pyroomacoustics is a package for audio signal processing for indoor applications. It was developed as a fast prototyping platform for beamforming algorithms in indoor scenarios."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LCAV/pyroomacoustics",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/LCAV/pyroomacoustics/raw/master/logo/pyroomacoustics_logo_horizontal.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LCAV/pyroomacoustics",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/LCAV/pyroomacoustics/raw/master/logo/pyroomacoustics_logo_horizontal.png"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016635,
+      "status": "candidate",
+      "text": "beam-steering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016634,
+      "status": "candidate",
+      "text": "rocking beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016633,
+      "status": "candidate",
+      "text": "signal boost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016632,
+      "status": "candidate",
+      "text": "entrainment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016631,
+      "status": "candidate",
+      "text": "amplification"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "beamforming",
+  "concept_id": "beamforming",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "LCAV/pyroomacoustics"
+    }
+  ],
+  "first_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beamforming",
+      "sense_id": "beamforming#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

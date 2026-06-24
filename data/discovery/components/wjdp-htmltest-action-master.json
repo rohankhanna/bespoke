@@ -1,12 +1,22 @@
 {
   "component": "wjdp/htmltest-action@master",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "newtheatre/history-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yml",
+      "source_repo": "crossplane/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/weekly-link-checker.yml",
+      "source_repo": "crossplane/docs"
     }
   ]
 }

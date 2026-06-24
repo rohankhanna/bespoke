@@ -1900,11 +1900,29 @@
       "observed_at": "2026-06-24T07:22:11.002189+00:00",
       "source_file": null,
       "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/transpiler"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "lexical_providers": [
     "datamuse"
   ],

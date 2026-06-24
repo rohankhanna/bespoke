@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-24T18:59:02.682095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plot 3D triangle meshes",
+    "fork": false,
+    "full_name": "skoch9/meshplot",
+    "html_url": "https://github.com/skoch9/meshplot",
+    "language": "Python",
+    "pushed_at": "2024-07-27T01:48:45Z",
+    "stargazers_count": 152,
+    "topics": [],
+    "updated_at": "2025-10-20T09:08:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

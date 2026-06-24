@@ -31,11 +31,6 @@
       "source_file": ".github/workflows/clang-tidy-check.yml"
     },
     {
-      "component": "jurplel/install-qt-action@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/clang-tidy-check.yml"
-    },
-    {
       "component": "cpp-linter/cpp-linter-action@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clang-tidy-check.yml"
@@ -166,13 +161,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clang-tidy-check.yml",
       "source_repo": "TrenchBroom/TrenchBroom",
-      "target": "jurplel/install-qt-action@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/clang-tidy-check.yml",
-      "source_repo": "TrenchBroom/TrenchBroom",
       "target": "cpp-linter/cpp-linter-action@v2",
       "target_type": "component"
     },
@@ -261,7 +249,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T07:27:08.740829+00:00",
+  "fetched_at": "2026-06-24T19:03:53.307191+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -285,7 +273,7 @@
     },
     {
       "path": ".github/workflows/clang-tidy-check.yml",
-      "size": 3239
+      "size": 3216
     },
     {
       "path": ".github/workflows/clean-commit.yml",
@@ -293,7 +281,7 @@
     },
     {
       "path": ".github/workflows/cleanup-nuget-package-versions.yml",
-      "size": 4113
+      "size": 7241
     },
     {
       "path": ".github/workflows/pr-autosquash.yml",
@@ -309,7 +297,7 @@
     "full_name": "TrenchBroom/TrenchBroom",
     "html_url": "https://github.com/TrenchBroom/TrenchBroom",
     "language": "C++",
-    "pushed_at": "2026-06-23T20:58:35Z",
+    "pushed_at": "2026-06-24T16:31:51Z",
     "stargazers_count": 2652,
     "topics": [
       "c-plus-plus",
@@ -317,7 +305,7 @@
       "games",
       "level-editor"
     ],
-    "updated_at": "2026-06-23T21:37:46Z"
+    "updated_at": "2026-06-24T16:32:40Z"
   },
   "repo_links": [
     {

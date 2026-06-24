@@ -1,0 +1,221 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "pyvista/setup-headless-display-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "pyvista/setup-headless-display-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "sp4cerat/fast-quadric-mesh-simplification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "pyvista/pyvista",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "kramer84/pyfqmr-fast-quadric-mesh-reduction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "pyvista/setup-headless-display-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "pypa/cibuildwheel@v3.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "source_repo": "pyvista/fast-simplification",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T18:59:01.830932+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 8949
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2074
+    },
+    {
+      "path": ".github/workflows/testing-and-deployment.yml",
+      "size": 3244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast Quadratic Mesh Simplification",
+    "fork": false,
+    "full_name": "pyvista/fast-simplification",
+    "html_url": "https://github.com/pyvista/fast-simplification",
+    "language": "C++",
+    "pushed_at": "2026-06-01T19:58:29Z",
+    "stargazers_count": 204,
+    "topics": [],
+    "updated_at": "2026-06-20T01:09:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kramer84/pyfqmr-fast-quadric-mesh-reduction",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyvista/pyvista",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sp4cerat/fast-quadric-mesh-simplification",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing-and-deployment.yml",
+      "term": "Build"
+    }
+  ]
+}

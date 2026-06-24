@@ -48,7 +48,7 @@
   "normalized_form": "docker-build",
   "observation_id": "7acfadc3ecf45243",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T00:42:42.423974+00:00",
+  "observed_at": "2026-06-24T18:42:53.825671+00:00",
   "observed_text": "docker-build",
   "source_context_snippet": "docker-build",
   "source_file": ".github/workflows/docker-build.yaml",

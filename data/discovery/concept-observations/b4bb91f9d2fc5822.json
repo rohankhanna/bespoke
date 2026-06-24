@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repo for Crossplane documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate content with Vale"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate content with Vale"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20715,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20715,
+      "status": "candidate",
+      "text": "stub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20715,
+      "status": "candidate",
+      "text": "trumpet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19546,
+      "status": "candidate",
+      "text": "docket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19546,
+      "status": "candidate",
+      "text": "hollow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate content with Vale",
+      "sense_id": "validate-content-with-vale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-content-with-vale",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-content-with-vale",
+  "observation_id": "b4bb91f9d2fc5822",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-24T18:42:53.825671+00:00",
+  "observed_text": "Validate content with Vale",
+  "source_context_snippet": "Validate content with Vale",
+  "source_file": ".github/workflows/vale.yml",
+  "source_repo": "crossplane/docs",
+  "source_repo_description": "Repo for Crossplane documentation."
+}

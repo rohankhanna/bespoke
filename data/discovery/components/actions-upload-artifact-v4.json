@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -13332,6 +13332,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "ekryski/mlx-swift-lm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mudler/skillserver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zhayujie/CowAgent"
     }
   ]
 }

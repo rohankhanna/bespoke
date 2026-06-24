@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TuZehai/Sheffield_Clarity_CEC1_Entry",
+      "target": "claritychallenge/clarity_cec1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TuZehai/Sheffield_Clarity_CEC1_Entry",
+      "target": "kaituoxu/conv-tasnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TuZehai/Sheffield_Clarity_CEC1_Entry",
+      "target": "claritychallenge/clarity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TuZehai/Sheffield_Clarity_CEC1_Entry",
+      "target": "mpariente/pytorch_stoi",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-24T18:42:53.825671+00:00",
+  "source_repo": "TuZehai/Sheffield_Clarity_CEC1_Entry"
+}

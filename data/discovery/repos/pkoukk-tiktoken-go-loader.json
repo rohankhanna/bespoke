@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-24T18:56:13.982380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 60
+    },
+    {
+      "path": "go.mod",
+      "size": 53
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Alterive bpe loader for tiktoken-go",
+    "fork": false,
+    "full_name": "pkoukk/tiktoken-go-loader",
+    "html_url": "https://github.com/pkoukk/tiktoken-go-loader",
+    "language": "Go",
+    "pushed_at": "2025-09-10T12:51:08Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-06-10T06:22:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

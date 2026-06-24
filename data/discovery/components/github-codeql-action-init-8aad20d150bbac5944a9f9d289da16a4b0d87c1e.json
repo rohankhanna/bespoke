@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

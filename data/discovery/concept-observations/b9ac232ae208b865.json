@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repo for Crossplane documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate external links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate external links"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24570,
+      "status": "candidate",
+      "text": "confirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24570,
+      "status": "candidate",
+      "text": "vet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22577,
+      "status": "candidate",
+      "text": "relations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22551,
+      "status": "candidate",
+      "text": "knee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22551,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate external links",
+      "sense_id": "validate-external-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-external-links",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-external-links",
+  "observation_id": "b9ac232ae208b865",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-24T18:42:53.825671+00:00",
+  "observed_text": "Validate external links",
+  "source_context_snippet": "Validate external links",
+  "source_file": ".github/workflows/weekly-link-checker.yml",
+  "source_repo": "crossplane/docs",
+  "source_repo_description": "Repo for Crossplane documentation."
+}

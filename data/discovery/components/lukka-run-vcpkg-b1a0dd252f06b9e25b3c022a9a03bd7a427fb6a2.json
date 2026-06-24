@@ -1,0 +1,22 @@
+{
+  "component": "lukka/run-vcpkg@b1a0dd252f06b9e25b3c022a9a03bd7a427fb6a2",
+  "first_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bvt.yml",
+      "source_repo": "microsoft/UVAtlas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "microsoft/UVAtlas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vcpkg.yml",
+      "source_repo": "microsoft/UVAtlas"
+    }
+  ]
+}

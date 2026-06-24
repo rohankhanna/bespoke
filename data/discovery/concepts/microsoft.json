@@ -367,6 +367,18 @@
       "source_repo": "microsoft/Detours",
       "status": "candidate-context",
       "text": "Detours is a software package for monitoring and instrumenting API calls on Windows. Detours"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate-context",
+      "text": "UVAtlas isochart texture atlas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate-context",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/UVAtlas/Dx_logo.GIF)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "microsoft/Detours",
       "status": "candidate",
       "text": "Detours is a software package for monitoring and instrumenting API calls on Windows. Detours"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/UVAtlas/Dx_logo.GIF)"
     }
   ],
   "candidate_related_terms": [
@@ -1323,11 +1341,17 @@
       "observed_at": "2026-06-24T13:00:17.759930+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/UVAtlas"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "lexical_providers": [
     "datamuse"
   ],

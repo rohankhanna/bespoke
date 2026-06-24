@@ -68,6 +68,36 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-windows-bash.yml"
     },
     {
@@ -177,6 +207,48 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "Release Desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-windows-bash.yml",
       "source_repo": "zhayujie/CowAgent",
       "target": "actions/checkout@v4",
@@ -246,7 +318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T01:18:38.896475+00:00",
+  "fetched_at": "2026-06-24T18:58:18.683460+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -273,6 +345,10 @@
       "size": 2282
     },
     {
+      "path": ".github/workflows/release.yml",
+      "size": 11062
+    },
+    {
       "path": ".github/workflows/test-windows-bash.yml",
       "size": 782
     }
@@ -286,8 +362,8 @@
     "full_name": "zhayujie/CowAgent",
     "html_url": "https://github.com/zhayujie/CowAgent",
     "language": "Python",
-    "pushed_at": "2026-06-23T12:57:25Z",
-    "stargazers_count": 45581,
+    "pushed_at": "2026-06-24T11:41:05Z",
+    "stargazers_count": 45595,
     "topics": [
       "ai",
       "ai-agent",
@@ -306,7 +382,7 @@
       "openclaw",
       "skills"
     ],
-    "updated_at": "2026-06-23T21:12:04Z"
+    "updated_at": "2026-06-24T18:19:30Z"
   },
   "repo_links": [],
   "terms": [
@@ -321,6 +397,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/deploy-image.yml",
       "term": "Create and publish a Docker image"
+    },
+    {
+      "context_snippet": "Release Desktop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Desktop"
     },
     {
       "context_snippet": "<p align=\"center\"><img src=\"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"420\" /></p>",

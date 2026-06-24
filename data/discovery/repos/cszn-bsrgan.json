@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T01:18:58.121813+00:00",
+  "fetched_at": "2026-06-24T18:58:31.039559+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,14 +75,14 @@
     "html_url": "https://github.com/cszn/BSRGAN",
     "language": "Python",
     "pushed_at": "2024-04-12T18:35:45Z",
-    "stargazers_count": 1373,
+    "stargazers_count": 1374,
     "topics": [
       "blind-image-super-resolution",
       "real-image-super-resolution",
       "realsr",
       "super-resolution"
     ],
-    "updated_at": "2026-06-17T11:09:38Z"
+    "updated_at": "2026-06-24T17:55:20Z"
   },
   "repo_links": [
     {

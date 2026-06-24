@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "crossplane"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossplane/docs",
+      "status": "candidate-context",
+      "text": "Repo for Crossplane documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/docs",
+      "status": "candidate-context",
+      "text": "This is the repository for the [Crossplane"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/docs",
+      "status": "candidate",
+      "text": "This is the repository for the [Crossplane"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "flat-plane crank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "transverse engine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "crankshaft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "flat engine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "overhead camshaft engine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "crossplane",
+  "concept_id": "crossplane",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "crossplane/docs"
+    }
+  ],
+  "first_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crossplane",
+      "sense_id": "crossplane#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

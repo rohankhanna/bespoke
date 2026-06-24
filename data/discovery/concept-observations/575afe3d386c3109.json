@@ -48,7 +48,7 @@
   "normalized_form": "ci-cuda",
   "observation_id": "575afe3d386c3109",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T07:22:11.002189+00:00",
+  "observed_at": "2026-06-24T18:42:53.825671+00:00",
   "observed_text": "CI-CUDA",
   "source_context_snippet": "CI-CUDA",
   "source_file": ".github/workflows/build-cuda.yml",

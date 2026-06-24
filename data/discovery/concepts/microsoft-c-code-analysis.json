@@ -31,6 +31,18 @@
       "source_repo": "microsoft/DirectXTK",
       "status": "candidate-context",
       "text": "Microsoft C++ Code Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate-context",
+      "text": "UVAtlas isochart texture atlas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate-context",
+      "text": "Microsoft C++ Code Analysis"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/DirectXTK",
+      "status": "candidate",
+      "text": "Microsoft C++ Code Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UVAtlas",
       "status": "candidate",
       "text": "Microsoft C++ Code Analysis"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/msvc.yml",
       "source_repo": "microsoft/DirectXTK"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "microsoft/UVAtlas"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "lexical_providers": [
     "datamuse"
   ],

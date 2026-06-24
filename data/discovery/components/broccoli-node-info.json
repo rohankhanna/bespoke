@@ -1,7 +1,7 @@
 {
   "component": "broccoli-node-info",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

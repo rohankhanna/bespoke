@@ -115,6 +115,18 @@
       "source_repo": "Archerkattri/faster-trellis",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3DTopia/LGM",
+      "status": "candidate-context",
+      "text": "[ECCV 2024 Oral] LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3DTopia/LGM",
+      "status": "candidate-context",
+      "text": "torch numpy tyro diffusers dearpygui einops accelerate gradio imageio imageio-ffmpeg lpips matplotlib packaging Pillow pygltflib rembg[gpu,cli] rich safetensors scikit-image scikit-learn scipy tqdm transformers trimesh kiui >= 0.2.3 xatlas roma plyfile"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "Archerkattri/faster-trellis",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3DTopia/LGM",
+      "status": "candidate",
+      "text": "torch numpy tyro diffusers dearpygui einops accelerate gradio imageio imageio-ffmpeg lpips matplotlib packaging Pillow pygltflib rembg[gpu,cli] rich safetensors scikit-image scikit-learn scipy tqdm transformers trimesh kiui >= 0.2.3 xatlas roma plyfile"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,17 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": null,
       "source_repo": "Archerkattri/faster-trellis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "3DTopia/LGM"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "lexical_providers": [
     "datamuse"
   ],

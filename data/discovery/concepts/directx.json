@@ -163,6 +163,18 @@
       "source_repo": "helix-toolkit/helix-toolkit",
       "status": "candidate-context",
       "text": "[![HelixToolkit](https://img.shields.io/badge/-Helix%20Toolkit-blue)](https://github.com/helix-toolkit/helix-toolkit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate-context",
+      "text": "UVAtlas isochart texture atlas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate-context",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/UVAtlas/Dx_logo.GIF)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "helix-toolkit/helix-toolkit",
       "status": "candidate",
       "text": "[![HelixToolkit](https://img.shields.io/badge/-Helix%20Toolkit-blue)](https://github.com/helix-toolkit/helix-toolkit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UVAtlas",
+      "status": "candidate",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/UVAtlas/Dx_logo.GIF)"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +382,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "helix-toolkit/helix-toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/UVAtlas"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "lexical_providers": [
     "datamuse"
   ],

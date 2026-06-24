@@ -55,6 +55,18 @@
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
       "status": "candidate-context",
       "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AiuniAI/Unique3D",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AiuniAI/Unique3D",
+      "status": "candidate-context",
+      "text": "**[\u4e2d\u6587\u7248\u672c](README_zh.md)**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
       "status": "candidate",
       "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AiuniAI/Unique3D",
+      "status": "candidate",
+      "text": "**[\u4e2d\u6587\u7248\u672c](README_zh.md)**"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": null,
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "AiuniAI/Unique3D"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "lexical_providers": [
     "datamuse"
   ],

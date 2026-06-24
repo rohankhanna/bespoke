@@ -1,0 +1,12 @@
+{
+  "component": "isort/isort-action@v1.0.0",
+  "first_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "LCAV/pyroomacoustics"
+    }
+  ]
+}

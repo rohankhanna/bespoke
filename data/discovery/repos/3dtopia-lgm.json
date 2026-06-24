@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3DTopia/LGM",
+      "target": "gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3DTopia/LGM",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3DTopia/LGM",
+      "target": "text-to-3d",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T18:58:49.770106+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024 Oral] LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation.",
+    "fork": false,
+    "full_name": "3DTopia/LGM",
+    "html_url": "https://github.com/3DTopia/LGM",
+    "language": "Python",
+    "pushed_at": "2024-08-20T16:27:45Z",
+    "stargazers_count": 2090,
+    "topics": [
+      "gaussian-splatting",
+      "image-to-3d",
+      "text-to-3d"
+    ],
+    "updated_at": "2026-06-24T09:30:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "torch numpy tyro diffusers dearpygui einops accelerate gradio imageio imageio-ffmpeg lpips matplotlib packaging Pillow pygltflib rembg[gpu,cli] rich safetensors scikit-image scikit-learn scipy tqdm transformers trimesh kiui >= 0.2.3 xatlas roma plyfile",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaussian-splatting"
+    },
+    {
+      "context_snippet": "torch numpy tyro diffusers dearpygui einops accelerate gradio imageio imageio-ffmpeg lpips matplotlib packaging Pillow pygltflib rembg[gpu,cli] rich safetensors scikit-image scikit-learn scipy tqdm transformers trimesh kiui >= 0.2.3 xatlas roma plyfile",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "torch numpy tyro diffusers dearpygui einops accelerate gradio imageio imageio-ffmpeg lpips matplotlib packaging Pillow pygltflib rembg[gpu,cli] rich safetensors scikit-image scikit-learn scipy tqdm transformers trimesh kiui >= 0.2.3 xatlas roma plyfile",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    }
+  ]
+}

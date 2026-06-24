@@ -261,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T07:31:25.081362+00:00",
+  "fetched_at": "2026-06-24T19:08:35.510044+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -286,7 +286,7 @@
     "html_url": "https://github.com/Deep-Symmetry/beat-link-trigger",
     "language": "Clojure",
     "pushed_at": "2026-06-22T04:26:03Z",
-    "stargazers_count": 660,
+    "stargazers_count": 659,
     "topics": [
       "ableton-link",
       "clojure",
@@ -296,7 +296,7 @@
       "network",
       "pioneer"
     ],
-    "updated_at": "2026-06-22T04:24:50Z"
+    "updated_at": "2026-06-24T15:36:31Z"
   },
   "repo_links": [
     {

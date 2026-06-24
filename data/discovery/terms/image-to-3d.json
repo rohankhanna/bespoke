@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "NeuralCarver/Michelangelo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "3DTopia/LGM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AiuniAI/Unique3D"
     }
   ],
   "term": "image-to-3d"

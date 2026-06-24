@@ -193,6 +193,18 @@
       "source_repo": "python-poetry/website",
       "status": "candidate-context",
       "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)][official website]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossplane/docs",
+      "status": "candidate-context",
+      "text": "Repo for Crossplane documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/docs",
+      "status": "candidate-context",
+      "text": "This is the repository for the [Crossplane"
     }
   ],
   "candidate_glosses": [
@@ -285,6 +297,12 @@
       "source_repo": "python-poetry/website",
       "status": "candidate",
       "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)][official website]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossplane/docs",
+      "status": "candidate",
+      "text": "This is the repository for the [Crossplane"
     }
   ],
   "candidate_related_terms": [
@@ -865,11 +883,23 @@
       "observed_at": "2026-06-24T07:22:11.002189+00:00",
       "source_file": null,
       "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "crossplane/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "lexical_providers": [
     "datamuse"
   ],

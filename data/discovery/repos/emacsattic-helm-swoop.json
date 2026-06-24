@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T07:28:26.997410+00:00",
+  "fetched_at": "2026-06-24T19:05:23.624004+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -86,9 +86,9 @@
     "html_url": "https://github.com/emacsattic/helm-swoop",
     "language": "Emacs Lisp",
     "pushed_at": "2024-01-04T23:56:46Z",
-    "stargazers_count": 700,
+    "stargazers_count": 699,
     "topics": [],
-    "updated_at": "2026-04-05T18:57:55Z"
+    "updated_at": "2026-06-24T15:37:37Z"
   },
   "repo_links": [
     {

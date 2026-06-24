@@ -797,6 +797,9 @@
   "acoustic-model": [
     "acoustic-model"
   ],
+  "acoustics": [
+    "acoustics"
+  ],
   "acquire unity activation file": [
     "acquire-unity-activation-file"
   ],
@@ -1009,6 +1012,9 @@
   ],
   "adaptive-feature-selection": [
     "adaptive-feature-selection"
+  ],
+  "adaptive-filtering": [
+    "adaptive-filtering"
   ],
   "adaptive-inference": [
     "adaptive-inference"
@@ -8363,6 +8369,9 @@
   ],
   "beam-search": [
     "beam-search"
+  ],
+  "beamforming": [
+    "beamforming"
   ],
   "bearer": [
     "bearer"
@@ -21749,8 +21758,14 @@
   "cmake (clang-cl)": [
     "cmake-clang-cl"
   ],
+  "cmake (uwp)": [
+    "cmake-uwp"
+  ],
   "cmake (windows on arm64)": [
     "cmake-windows-on-arm64"
+  ],
+  "cmake (windows using vcpkg)": [
+    "cmake-windows-using-vcpkg"
   ],
   "cmake (windows)": [
     "cmake-windows"
@@ -26687,6 +26702,9 @@
   "crosslingual": [
     "crosslingual"
   ],
+  "crossplane": [
+    "crossplane"
+  ],
   "crossplatform": [
     "crossplatform"
   ],
@@ -26977,6 +26995,9 @@
   ],
   "ctest (bvts)": [
     "ctest-bvts"
+  ],
+  "ctest (windows)": [
+    "ctest-windows"
   ],
   "ctgrind": [
     "ctgrind"
@@ -31423,6 +31444,9 @@
   ],
   "directxmath": [
     "directxmath"
+  ],
+  "directxmesh": [
+    "directxmesh"
   ],
   "directxtex": [
     "directxtex"
@@ -47201,6 +47225,9 @@
   ],
   "image-snapshots": [
     "image-snapshots"
+  ],
+  "image-source-model": [
+    "image-source-model"
   ],
   "image-sr": [
     "image-sr"
@@ -73512,6 +73539,9 @@
   "pyro": [
     "pyro"
   ],
+  "pyroomacoustics": [
+    "pyroomacoustics"
+  ],
   "pyroscope": [
     "pyroscope"
   ],
@@ -78978,6 +79008,9 @@
   "roocode": [
     "roocode"
   ],
+  "room-impulse-response": [
+    "room-impulse-response"
+  ],
   "root": [
     "root"
   ],
@@ -79796,6 +79829,9 @@
   ],
   "run heavy examples ci": [
     "run-heavy-examples-ci"
+  ],
+  "run htmltest and validate links": [
+    "run-htmltest-and-validate-links"
   ],
   "run hvd-specific unit tests on gpus": [
     "run-hvd-specific-unit-tests-on-gpus"
@@ -96563,6 +96599,9 @@
   "uuidv7": [
     "uuidv7"
   ],
+  "uvatlas": [
+    "uvatlas"
+  ],
   "uvicorn": [
     "uvicorn"
   ],
@@ -96707,6 +96746,9 @@
   "validate commit messages": [
     "validate-commit-messages"
   ],
+  "validate content with vale": [
+    "validate-content-with-vale"
+  ],
   "validate data": [
     "validate-data"
   ],
@@ -96727,6 +96769,9 @@
   ],
   "validate examples": [
     "validate-examples"
+  ],
+  "validate external links": [
+    "validate-external-links"
   ],
   "validate fastlane": [
     "validate-fastlane"

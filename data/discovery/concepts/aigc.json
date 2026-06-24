@@ -343,6 +343,18 @@
       "source_repo": "FunAudioLLM/SenseVoice",
       "status": "candidate-context",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AiuniAI/Unique3D",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AiuniAI/Unique3D",
+      "status": "candidate-context",
+      "text": "**[\u4e2d\u6587\u7248\u672c](README_zh.md)**"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "FunAudioLLM/SenseVoice",
       "status": "candidate",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AiuniAI/Unique3D",
+      "status": "candidate",
+      "text": "**[\u4e2d\u6587\u7248\u672c](README_zh.md)**"
     }
   ],
   "candidate_related_terms": [],
@@ -2122,11 +2140,17 @@
       "observed_at": "2026-06-24T13:00:17.759930+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T18:42:53.825671+00:00",
+      "source_file": null,
+      "source_repo": "AiuniAI/Unique3D"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
   "lexical_providers": [
     "datamuse"
   ],

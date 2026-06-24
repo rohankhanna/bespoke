@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
-      "target": "oakshy/romantex",
+      "target": "tencent-hunyuan/hunyuanworld-1.0",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
-      "target": "kijai/comfyui-hunyuan3dwrapper",
+      "target": "tencent-hunyuan/hunyuan3d-2.1",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
-      "target": "mrforexample/comfyui-3d-pack",
+      "target": "tencent/flashvdm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
-      "target": "neuralcarver/michelangelo",
+      "target": "sdbds/hunyuan3d-2-for-windows",
       "target_type": "repository"
     },
     {
@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T14:27:36.863449+00:00",
+  "fetched_at": "2026-06-24T18:58:47.682970+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,7 +114,7 @@
     "html_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
     "language": "Python",
     "pushed_at": "2025-10-28T09:58:12Z",
-    "stargazers_count": 14019,
+    "stargazers_count": 14028,
     "topics": [
       "3d",
       "3d-aigc",
@@ -127,27 +127,27 @@
       "text-to-3d",
       "texture-generation"
     ],
-    "updated_at": "2026-06-23T13:33:21Z"
+    "updated_at": "2026-06-24T12:53:20Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kijai/comfyui-hunyuan3dwrapper",
+      "full_name": "sdbds/hunyuan3d-2-for-windows",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mrforexample/comfyui-3d-pack",
+      "full_name": "tencent-hunyuan/hunyuan3d-2.1",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "neuralcarver/michelangelo",
+      "full_name": "tencent-hunyuan/hunyuanworld-1.0",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "oakshy/romantex",
+      "full_name": "tencent/flashvdm",
       "source_file": "README.md"
     }
   ],

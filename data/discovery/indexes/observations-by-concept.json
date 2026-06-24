@@ -97,6 +97,7 @@
   ],
   "3d-aigc": [
     "1abe5181bf54debf",
+    "1c2217fb8c89783d",
     "31b3f0db94221501",
     "92b076664d588a62",
     "a98e37ea08926f83"
@@ -1155,6 +1156,9 @@
     "b4c7f90736042733",
     "deadce6cc86e2006"
   ],
+  "acoustics": [
+    "3b21a79b2825decc"
+  ],
   "acquire-unity-activation-file": [
     "50c841043c4390ed"
   ],
@@ -1487,6 +1491,9 @@
   ],
   "adaptive-feature-selection": [
     "193bf13d9697a7b7"
+  ],
+  "adaptive-filtering": [
+    "63ada17f561e77d2"
   ],
   "adaptive-inference": [
     "bc1bda6af42930c6"
@@ -3316,6 +3323,7 @@
     "079f02c093126880",
     "142652fc6a17c867",
     "176ff0daafb80300",
+    "288e96e1c430d592",
     "2ddf192e88d30689",
     "340b9fdfdd150351",
     "385631a8dcd53b45",
@@ -8222,6 +8230,7 @@
     "3d2b537ff8976b1b",
     "3eb002a4064aac5a",
     "40af10675425632e",
+    "48962ffd9cef8687",
     "4c1618ca038ee9ae",
     "4f186edc2177f5e6",
     "4fe054edbe0b0305",
@@ -12788,6 +12797,9 @@
     "70de37bfdaa266e4",
     "f70ce94130613ad7"
   ],
+  "beamforming": [
+    "13a2d4a0d301652f"
+  ],
   "bearer": [
     "0ba3b4173dadac58"
   ],
@@ -16537,6 +16549,7 @@
     "1a5360fb0b8087a1",
     "1af67dae5626916f",
     "1b0c581415d41ff2",
+    "1b59002f6ca180f0",
     "1b643758b3903992",
     "1ba0152e04a6ef61",
     "1c2b4e3031bb92e6",
@@ -34045,6 +34058,9 @@
   "cmake-utils": [
     "69b8e617a15f669b"
   ],
+  "cmake-uwp": [
+    "43bf3c1544cad3ce"
+  ],
   "cmake-version": [
     "36704eb7edb8b668"
   ],
@@ -34055,6 +34071,7 @@
   ],
   "cmake-windows": [
     "9d2bda60f046597e",
+    "b314c204eb0763eb",
     "b8b9fbf55a54e099",
     "c621cfe89b12f060"
   ],
@@ -34063,6 +34080,9 @@
     "8344f2b6b73ff9ae",
     "a02efff7f7807369",
     "ab40b6d9ca759dff"
+  ],
+  "cmake-windows-using-vcpkg": [
+    "8b6d9d7709527b93"
   ],
   "cmake-wrapper": [
     "202bde11311edbbc"
@@ -35971,6 +35991,7 @@
     "e43e5d7ad1a7a03a",
     "e441e46bbbe8ad9e",
     "e4ab78012d089d4a",
+    "e4d040f4e134ddd1",
     "e4d305e8209e8a71",
     "e4ec8811f03addea",
     "e500d3ae62428205",
@@ -42184,6 +42205,7 @@
     "ade7850b83874b57",
     "af9605728e9ad17a",
     "c7847eb43c84f0ae",
+    "c7cb855c88ae3e60",
     "d3f75807d7d14d63",
     "eba001be2403c9c8",
     "f8dc4a2eff342b64"
@@ -43719,6 +43741,9 @@
   "crosslingual": [
     "3640f88df5f4ff7c"
   ],
+  "crossplane": [
+    "07a24f557dbab615"
+  ],
   "crossplatform": [
     "5a7e40757e03cd3d",
     "b43baee2a0aa734e"
@@ -44257,7 +44282,11 @@
     "b86f0cee90a3eea1"
   ],
   "ctest-bvts": [
-    "1c50283de7c3335b"
+    "1c50283de7c3335b",
+    "bf68a83d72b97f2a"
+  ],
+  "ctest-windows": [
+    "a4522c873569149f"
   ],
   "ctgrind": [
     "e212b46ed303597b"
@@ -52835,6 +52864,7 @@
     "bb78523415f6250a",
     "bc6630812e41878a",
     "c64884a8150c13a2",
+    "e002bd87fe9351e1",
     "f0c65232aa10ae51"
   ],
   "directx-11": [
@@ -52870,7 +52900,11 @@
     "8d109cda0e86f073",
     "e53d915624ca9765"
   ],
+  "directxmesh": [
+    "6440ebad41f0a0d5"
+  ],
   "directxtex": [
+    "2a2c26f098449608",
     "dab098e976503cca",
     "f416ad93ef902ac7"
   ],
@@ -55620,6 +55654,7 @@
     "73c01d5f4c21fac8",
     "7474d3aefdab52fa",
     "74fd392e2d8c23b2",
+    "751faf4b1457c66b",
     "76e85deb3d46909c",
     "78f14b0fb0db53d1",
     "7b592d2e41806f5f",
@@ -67348,6 +67383,7 @@
     "94dd4a500f8eadaf",
     "b2d150cbb2da67a7",
     "c4cae3e1cc1a6b96",
+    "d6581885d8957e92",
     "f348a076dfc67b89",
     "fbd9b35a37cb7d89"
   ],
@@ -78029,6 +78065,7 @@
   ],
   "hugo": [
     "03ccb868a1dfc9cb",
+    "16f1d9d8dbe5a1d2",
     "21086a24f944dc7c",
     "248ae8bb0fdc5043",
     "261655a6400130a2",
@@ -79945,6 +79982,9 @@
   "image-snapshots": [
     "04010793c478ba4c"
   ],
+  "image-source-model": [
+    "84c6bdc39e4c1bd2"
+  ],
   "image-sr": [
     "1c01e35e388a18b1",
     "36bbf43a046ead0d",
@@ -79991,6 +80031,8 @@
     "070d1bfd782ba869",
     "0a90713ef8ec80f9",
     "198c5d010ed1be8b",
+    "25cd63e1ca3d945f",
+    "4159b22e736aa59a",
     "4e7a5a01646a5568",
     "5351b2e45eca124a",
     "6529fdb68cad76ea",
@@ -91056,6 +91098,7 @@
     "b4f70053bca350d7",
     "b51ea024d619c4c3",
     "b5d43e73a49d02ce",
+    "b5ee82b1ae60210b",
     "b5f0a338bbb82c04",
     "b6629c354d272788",
     "b6c2a0cd18e51f76",
@@ -91165,6 +91208,7 @@
     "e8c225d29f573bb2",
     "e933ebb200dd9deb",
     "e9a26947c71f6ec9",
+    "ea113635701d2908",
     "eab77c22b441a490",
     "eb808f6171567aa5",
     "ec30dad6fe72e7d7",
@@ -99804,6 +99848,7 @@
     "5223482c56dd9ba7",
     "607d5cca366e0a25",
     "632bec922e5b7321",
+    "76f2901b4eeb72f7",
     "7c8762ee0d038973",
     "82916dd43235ca6b",
     "8fcabaeb86149e36",
@@ -99841,6 +99886,7 @@
   ],
   "microsoft-c-code-analysis": [
     "6fdb7e295e5f5980",
+    "7e5d07fa425cdd98",
     "85e9b8b543dc10a5"
   ],
   "microsoft-clearscript": [
@@ -102493,6 +102539,7 @@
   ],
   "msbuild": [
     "0f1887f72de69030",
+    "1ccf85b4792787f2",
     "2ede7d34e5e5b71e",
     "6bff90719572f5ee",
     "7d957c4aa80cd65b",
@@ -124258,6 +124305,7 @@
     "032e0f6da91303b1",
     "032f3f3dc10887a8",
     "0979ad05e96dab0b",
+    "0bbd309726f340bf",
     "132ba226cb5a03b6",
     "1707d293d162a712",
     "1bb4c17f6be9c50a",
@@ -126011,6 +126059,9 @@
   "pyro": [
     "312189b14107d632",
     "5361c52489a826e4"
+  ],
+  "pyroomacoustics": [
+    "67a247d09fc2f2d0"
   ],
   "pyroscope": [
     "cce21315c87dbff7"
@@ -131521,6 +131572,7 @@
     "69346a92785056b6",
     "6958b80375bb1716",
     "6970978cf133f9a7",
+    "6a1e1a0404da87a0",
     "6a2a0f241fa22f3f",
     "6a2e213c8aab7d93",
     "6a447ae17162d498",
@@ -132846,6 +132898,7 @@
     "02c633c43f05aa9e"
   ],
   "release-desktop": [
+    "70fefc3c441096a8",
     "8918a6fd06001cb9",
     "f7f2f378b40dcf27"
   ],
@@ -136878,6 +136931,9 @@
   "roocode": [
     "ea5f0d7cd201c2d0"
   ],
+  "room-impulse-response": [
+    "5af4868a821aef0e"
+  ],
   "root": [
     "482419676ce52891",
     "9342fe5c4c313994",
@@ -138206,6 +138262,9 @@
   ],
   "run-heavy-examples-ci": [
     "a7ef84a84d178901"
+  ],
+  "run-htmltest-and-validate-links": [
+    "d2cf683636ccf5db"
   ],
   "run-hvd-specific-unit-tests-on-gpus": [
     "e22db20592fd79aa"
@@ -150214,7 +150273,8 @@
     "f2a139bffba1bba7"
   ],
   "stft": [
-    "ccd9b68f87509e38"
+    "ccd9b68f87509e38",
+    "f00e64732430adff"
   ],
   "stick": [
     "0837c5c58434ac93"
@@ -155570,6 +155630,7 @@
     "34398259a1e0f84b",
     "343b93edeabdbacd",
     "345edf1df7fbe075",
+    "347645b7eb296e50",
     "34a22809f5614286",
     "34c8b36aab874f81",
     "353d9ea7acc47d0d",
@@ -159576,6 +159637,7 @@
     "b20bdf9c6164b3c6",
     "d1c5c5091128ba5e",
     "d760a6f7461fa213",
+    "de34ab33123826e7",
     "f3d22bddf78199bc"
   ],
   "text-to-audio": [
@@ -159848,7 +159910,8 @@
     "f9d27aed8ca308cc"
   ],
   "texture-atlas": [
-    "98f3cff4d083f29e"
+    "98f3cff4d083f29e",
+    "a5850a5961d35ab0"
   ],
   "texture-bias": [
     "bd89f6f0fb39d25b"
@@ -167316,6 +167379,9 @@
   "uuidv7": [
     "33b23cc45ecb320c"
   ],
+  "uvatlas": [
+    "0ca7dea1b3abf8a8"
+  ],
   "uvicorn": [
     "bf1f60fa9025146b"
   ],
@@ -167565,6 +167631,9 @@
   "validate-commit-messages": [
     "405466bdd6c5d6be"
   ],
+  "validate-content-with-vale": [
+    "b4bb91f9d2fc5822"
+  ],
   "validate-data": [
     "6887bab40ad647ba",
     "f26dfc2e93960485"
@@ -167587,6 +167656,9 @@
   "validate-examples": [
     "01f6454f7004b1cb",
     "99558e6aa646bd78"
+  ],
+  "validate-external-links": [
+    "b9ac232ae208b865"
   ],
   "validate-fastlane": [
     "548e3ed64457c4fe"

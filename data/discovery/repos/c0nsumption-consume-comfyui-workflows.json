@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "C0nsumption/Consume-ComfyUI-Workflows",
+      "target": "ltdrdata/comfyui-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "C0nsumption/Consume-ComfyUI-Workflows",
+      "target": "fannovel16/comfyui-frame-interpolation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-24T18:58:53.320172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of some of my basic ComfyUI workflows. These are meant to act as building block to construct larger workflows of your own. ",
+    "fork": false,
+    "full_name": "C0nsumption/Consume-ComfyUI-Workflows",
+    "html_url": "https://github.com/C0nsumption/Consume-ComfyUI-Workflows",
+    "language": null,
+    "pushed_at": "2024-07-08T04:00:30Z",
+    "stargazers_count": 251,
+    "topics": [],
+    "updated_at": "2026-06-09T05:56:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fannovel16/comfyui-frame-interpolation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltdrdata/comfyui-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

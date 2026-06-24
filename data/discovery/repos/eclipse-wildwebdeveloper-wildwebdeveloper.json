@@ -21,12 +21,12 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/licensecheck.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensecheck.yml"
     },
@@ -165,7 +165,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
-      "target": "actions/cache@v5",
+      "target": "actions/cache@v6",
       "target_type": "component"
     },
     {
@@ -263,7 +263,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensecheck.yml",
       "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
-      "target": "actions/cache@v5",
+      "target": "actions/cache@v6",
       "target_type": "component"
     },
     {
@@ -323,7 +323,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T07:36:42.963912+00:00",
+  "fetched_at": "2026-06-24T19:14:15.335695+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -355,7 +355,7 @@
     "full_name": "eclipse-wildwebdeveloper/wildwebdeveloper",
     "html_url": "https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper",
     "language": "Java",
-    "pushed_at": "2026-06-22T16:31:36Z",
+    "pushed_at": "2026-06-24T16:00:26Z",
     "stargazers_count": 198,
     "topics": [
       "eclipse",
@@ -363,7 +363,7 @@
       "hacktoberfest",
       "java"
     ],
-    "updated_at": "2026-06-22T16:31:41Z"
+    "updated_at": "2026-06-24T16:00:56Z"
   },
   "repo_links": [
     {

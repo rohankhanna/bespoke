@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-24T18:59:08.394769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 470
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Texture atlas generation tool",
+    "fork": false,
+    "full_name": "Thekla/thekla_atlas",
+    "html_url": "https://github.com/Thekla/thekla_atlas",
+    "language": "C++",
+    "pushed_at": "2026-04-09T16:44:59Z",
+    "stargazers_count": 497,
+    "topics": [],
+    "updated_at": "2026-05-29T02:20:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

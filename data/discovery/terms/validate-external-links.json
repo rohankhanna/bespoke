@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/weekly-link-checker.yml",
+      "source_repo": "crossplane/docs"
+    }
+  ],
+  "term": "Validate external links"
+}
