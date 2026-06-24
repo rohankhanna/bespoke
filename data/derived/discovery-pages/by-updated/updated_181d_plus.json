@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 49757,
-    "concepts": 35643,
-    "observations": 35711,
-    "repos": 12797,
-    "terms": 35203
+    "concepts": 35649,
+    "observations": 35717,
+    "repos": 12798,
+    "terms": 35206
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -11424,6 +11424,7 @@
     "TelemetryHub/opentelemetry-demo",
     "teletrace/opentelemetry-demo",
     "tellnobody1/sublime-purescript-syntax",
+    "TEN-framework/ten-turn-detection",
     "tenable/terrascan",
     "tencent-ailab/IP-Adapter",
     "Tencent-Hunyuan/flex-block-attn",

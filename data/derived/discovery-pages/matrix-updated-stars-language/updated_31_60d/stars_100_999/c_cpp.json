@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 768,
-    "concepts": 801,
-    "observations": 802,
-    "repos": 132,
-    "terms": 799
+    "components": 764,
+    "concepts": 800,
+    "observations": 801,
+    "repos": 131,
+    "terms": 798
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -87,7 +87,6 @@
     "kleisauke/wasm-vips",
     "kokkos/kokkos-kernels",
     "LedgerHQ/speculos",
-    "libbitcoin/libbitcoin-node",
     "libbitcoin/libbitcoin-server",
     "libimobiledevice/libirecovery",
     "libnice/libnice",

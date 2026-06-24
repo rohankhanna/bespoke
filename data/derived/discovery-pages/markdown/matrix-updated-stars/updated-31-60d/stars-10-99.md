@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 517
-- terms: 2470
-- components: 4828
-- concepts: 2489
-- observations: 2501
+- repos: 514
+- terms: 2458
+- components: 4766
+- concepts: 2477
+- observations: 2489
 
 ## Static behavior
 
@@ -539,9 +539,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudfoundry/bpm-release](https://github.com/cloudfoundry/bpm-release) | 33 | 2026-04-25T10:36:33Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [cloudfoundry/bosh-azure-cpi-release](https://github.com/cloudfoundry/bosh-azure-cpi-release) | 63 | 2026-04-25T10:05:06Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [napi-rs/mimalloc-safe](https://github.com/napi-rs/mimalloc-safe) | 15 | 2026-04-25T08:43:39Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
-| [oclif/plugin-plugins](https://github.com/oclif/plugin-plugins) | 50 | 2026-04-25T06:45:53Z | TypeScript | CLI | 7 | 53 | 7 | 7 |
-| [libbitcoin/libbitcoin-database](https://github.com/libbitcoin/libbitcoin-database) | 83 | 2026-04-25T06:18:46Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [apache/datasketches-go](https://github.com/apache/datasketches-go) | 26 | 2026-04-25T06:17:17Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -621,7 +618,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [addfox/addfox](https://github.com/addfox/addfox) | 84 | 2026-04-27T12:44:02Z | TypeScript | Web app | 11 | 6 | 11 | 11 |
 | [Airfooox/cron-validate](https://github.com/Airfooox/cron-validate) | 83 | 2026-05-01T18:56:11Z | TypeScript | Unknown | 5 | 23 | 5 | 5 |
 | [eopb/cargo-override](https://github.com/eopb/cargo-override) | 83 | 2026-04-26T00:26:56Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
-| [libbitcoin/libbitcoin-database](https://github.com/libbitcoin/libbitcoin-database) | 83 | 2026-04-25T06:18:46Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [microsoft/microsoft-foundry-for-vscode](https://github.com/microsoft/microsoft-foundry-for-vscode) | 82 | 2026-05-03T03:12:25Z | Unknown | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [Accla/graphulo](https://github.com/Accla/graphulo) | 82 | 2026-04-30T19:15:30Z | Java | Library | 0 | 0 | 0 | 0 |
 | [tinted-theming/tinted-shell](https://github.com/tinted-theming/tinted-shell) | 82 | 2026-04-26T03:21:03Z | Shell | Infrastructure/tooling | 7 | 2 | 9 | 9 |
@@ -753,7 +749,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MGenAI/GRN](https://github.com/MGenAI/GRN) | 51 | 2026-04-29T13:56:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [rust-bitcoin/corepc](https://github.com/rust-bitcoin/corepc) | 51 | 2026-04-29T00:23:50Z | Rust | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [NeilGirdhar/tjax](https://github.com/NeilGirdhar/tjax) | 51 | 2026-04-28T20:04:20Z | Python | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [oclif/plugin-plugins](https://github.com/oclif/plugin-plugins) | 50 | 2026-04-25T06:45:53Z | TypeScript | CLI | 7 | 53 | 7 | 7 |
 | [microsoft/olive-recipes](https://github.com/microsoft/olive-recipes) | 49 | 2026-04-29T23:37:18Z | Python | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [hermanjustnu/scoop-emulators](https://github.com/hermanjustnu/scoop-emulators) | 49 | 2026-04-29T03:33:17Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [NoakLiu/FastCache-xDiT](https://github.com/NoakLiu/FastCache-xDiT) | 49 | 2026-04-29T02:29:24Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
@@ -892,7 +887,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [localstack/localstack-cli](https://github.com/localstack/localstack-cli) | 26 | 2026-04-29T07:16:24Z | Other | CLI | 1 | 7 | 1 | 1 |
 | [pdm-project/tox-pdm](https://github.com/pdm-project/tox-pdm) | 26 | 2026-04-27T21:41:33Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [urschrei/rdp](https://github.com/urschrei/rdp) | 26 | 2026-04-27T09:11:15Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [apache/datasketches-go](https://github.com/apache/datasketches-go) | 26 | 2026-04-25T06:17:17Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [cucumber/cucumber-js-examples](https://github.com/cucumber/cucumber-js-examples) | 25 | 2026-05-04T14:37:06Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [angellist/boba](https://github.com/angellist/boba) | 25 | 2026-05-01T15:38:50Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [conservationtechlab/animl-r](https://github.com/conservationtechlab/animl-r) | 25 | 2026-04-30T21:21:59Z | Other | Library | 2 | 0 | 2 | 2 |

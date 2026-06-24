@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1297,
-    "concepts": 5767,
-    "observations": 5772,
-    "repos": 1918,
-    "terms": 5605
+    "concepts": 5773,
+    "observations": 5778,
+    "repos": 1919,
+    "terms": 5607
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1679,6 +1679,7 @@
     "tbodt/deoplete-tabnine",
     "tdrussell/qlora-pipe",
     "tegusi/EAGRNet",
+    "TEN-framework/ten-turn-detection",
     "TencentARC/MasaCtrl",
     "TencentARC/SEED-Story",
     "TencentQQGYLab/ComfyUI-ELLA",

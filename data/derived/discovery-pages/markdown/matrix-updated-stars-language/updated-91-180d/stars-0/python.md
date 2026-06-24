@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Python
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 25
-- components: 35
+- repos: 16
+- terms: 27
+- components: 41
 - concepts: 25
 - observations: 25
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [adammes/voyanode](https://github.com/AdamMes/voyanode) | 0 | 2026-03-25T19:51:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [Nambers/ssrJSON-benchmark](https://github.com/Nambers/ssrJSON-benchmark) | 0 | 2026-03-23T20:11:45Z | Python | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [Systemcluster/tokenizer-bench](https://github.com/Systemcluster/tokenizer-bench) | 0 | 2026-03-23T18:30:29Z | Python | Model/data | 3 | 0 | 3 | 3 |
@@ -46,6 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [adammes/voyanode](https://github.com/AdamMes/voyanode) | 0 | 2026-03-25T19:51:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [Nambers/ssrJSON-benchmark](https://github.com/Nambers/ssrJSON-benchmark) | 0 | 2026-03-23T20:11:45Z | Python | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [Systemcluster/tokenizer-bench](https://github.com/Systemcluster/tokenizer-bench) | 0 | 2026-03-23T18:30:29Z | Python | Model/data | 3 | 0 | 3 | 3 |

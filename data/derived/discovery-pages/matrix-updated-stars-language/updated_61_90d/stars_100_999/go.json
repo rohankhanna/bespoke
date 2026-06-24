@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 982,
-    "concepts": 778,
-    "observations": 784,
-    "repos": 132,
-    "terms": 786
+    "components": 986,
+    "concepts": 784,
+    "observations": 790,
+    "repos": 133,
+    "terms": 792
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "a2aproject/a2a-go",
@@ -144,6 +144,7 @@
     "terraform-linters/tflint-ruleset-aws",
     "terraform-linters/tflint-ruleset-azurerm",
     "transparency-dev/tessera",
+    "trzsz/tsshd",
     "usbarmory/GoTEE",
     "web-platform-tests/wpt.fyi"
   ]

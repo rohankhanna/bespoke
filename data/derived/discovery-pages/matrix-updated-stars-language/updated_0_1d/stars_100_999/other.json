@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 21,
-    "observations": 21,
+    "components": 42,
+    "concepts": 36,
+    "observations": 36,
     "repos": 5,
-    "terms": 21
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
+    "astroautomata/SymbolicRegression.jl",
     "bazel-contrib/rules_kotlin",
     "devcontainers/devcontainers.github.io",
     "meshcat-dev/meshcat",
-    "ROCm/hipBLASLt",
-    "sbt/sbt-jmh"
+    "ROCm/hipBLASLt"
   ]
 }

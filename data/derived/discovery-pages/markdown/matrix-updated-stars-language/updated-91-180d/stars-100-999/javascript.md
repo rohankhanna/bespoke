@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 62
-- terms: 216
-- components: 1016
-- concepts: 217
-- observations: 218
+- repos: 64
+- terms: 226
+- components: 1040
+- concepts: 227
+- observations: 228
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [protocolbuffers/protobuf-javascript](https://github.com/protocolbuffers/protobuf-javascript) | 460 | 2026-03-26T07:27:46Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
+| [mourner/flatqueue](https://github.com/mourner/flatqueue) | 144 | 2026-03-26T07:01:04Z | JavaScript | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [hudochenkov/stylelint-order](https://github.com/hudochenkov/stylelint-order) | 955 | 2026-03-25T21:59:42Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [gruntjs/grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) | 790 | 2026-03-25T21:51:57Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [gruntjs/grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin) | 421 | 2026-03-25T21:29:22Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
@@ -111,6 +113,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stsquad/emacs_chrome](https://github.com/stsquad/emacs_chrome) | 538 | 2026-01-05T09:07:01Z | JavaScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [ankane/ahoy.js](https://github.com/ankane/ahoy.js) | 509 | 2026-03-25T00:35:41Z | JavaScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [kepano/defuddle-cli](https://github.com/kepano/defuddle-cli) | 500 | 2026-03-02T14:54:31Z | JavaScript | CLI | 3 | 7 | 4 | 4 |
+| [protocolbuffers/protobuf-javascript](https://github.com/protocolbuffers/protobuf-javascript) | 460 | 2026-03-26T07:27:46Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [AghayeCoder/tx-ui](https://github.com/AghayeCoder/tx-ui) | 452 | 2026-03-25T03:53:46Z | JavaScript | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [RJWadley/stylelint-no-unsupported-browser-features](https://github.com/RJWadley/stylelint-no-unsupported-browser-features) | 451 | 2026-02-03T18:34:40Z | JavaScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [prebuild/prebuild](https://github.com/prebuild/prebuild) | 444 | 2026-02-07T12:12:56Z | JavaScript | CLI | 4 | 25 | 4 | 4 |
@@ -147,6 +150,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [asdf-vm/actions](https://github.com/asdf-vm/actions) | 162 | 2026-03-01T16:02:27Z | JavaScript | Infrastructure/tooling | 8 | 17 | 8 | 9 |
 | [emberjs/ember-cli-babel](https://github.com/emberjs/ember-cli-babel) | 152 | 2026-02-05T01:34:19Z | JavaScript | CLI | 2 | 70 | 2 | 2 |
 | [omnidan/redux-recycle](https://github.com/omnidan/redux-recycle) | 147 | 2026-01-02T10:38:33Z | JavaScript | Unknown | 0 | 17 | 0 | 0 |
+| [mourner/flatqueue](https://github.com/mourner/flatqueue) | 144 | 2026-03-26T07:01:04Z | JavaScript | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [omnidan/redux-undo-boilerplate](https://github.com/omnidan/redux-undo-boilerplate) | 122 | 2026-01-02T10:51:07Z | JavaScript | Template/starter | 0 | 42 | 0 | 0 |
 | [usnistgov/jsfive](https://github.com/usnistgov/jsfive) | 117 | 2026-03-01T19:45:33Z | JavaScript | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [prebuild/prebuild-install](https://github.com/prebuild/prebuild-install) | 115 | 2026-02-19T18:18:57Z | JavaScript | CLI | 5 | 22 | 5 | 5 |

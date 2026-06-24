@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 5,
-    "terms": 80
+    "components": 32,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 3,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "argotorg/solidity",
-    "ggml-org/whisper.cpp",
     "google-ai-edge/mediapipe",
-    "isl-org/Open3D",
     "mozilla-ai/llamafile"
   ]
 }

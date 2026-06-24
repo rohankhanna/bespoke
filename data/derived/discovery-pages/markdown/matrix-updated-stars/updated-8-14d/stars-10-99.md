@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 12
-- terms: 43
-- components: 184
-- concepts: 43
-- observations: 43
+- repos: 11
+- terms: 41
+- components: 131
+- concepts: 41
+- observations: 41
 
 ## Static behavior
 
@@ -27,7 +27,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [kurrent-io/KurrentDB-Client-Rust](https://github.com/kurrent-io/KurrentDB-Client-Rust) | 63 | 2026-06-16T23:56:11Z | Rust | CLI | 15 | 7 | 15 | 15 |
 | [ogx-ai/ogx-client-typescript](https://github.com/ogx-ai/ogx-client-typescript) | 96 | 2026-06-16T13:27:42Z | TypeScript | Infrastructure/tooling | 3 | 33 | 3 | 3 |
-| [processing/processing-website](https://github.com/processing/processing-website) | 88 | 2026-06-16T12:58:25Z | Other | Infrastructure/tooling | 2 | 53 | 2 | 2 |
 | [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-06-15T15:30:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [corgi-emacs/corgi-packages](https://github.com/corgi-emacs/corgi-packages) | 16 | 2026-06-15T12:15:43Z | Other | Library | 0 | 0 | 0 | 0 |
 | [symgraph/BinAssistMCP](https://github.com/symgraph/BinAssistMCP) | 40 | 2026-06-14T15:02:29Z | Python | Unknown | 4 | 0 | 4 | 4 |
@@ -43,7 +42,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [ogx-ai/ogx-client-typescript](https://github.com/ogx-ai/ogx-client-typescript) | 96 | 2026-06-16T13:27:42Z | TypeScript | Infrastructure/tooling | 3 | 33 | 3 | 3 |
-| [processing/processing-website](https://github.com/processing/processing-website) | 88 | 2026-06-16T12:58:25Z | Other | Infrastructure/tooling | 2 | 53 | 2 | 2 |
 | [kurrent-io/KurrentDB-Client-Rust](https://github.com/kurrent-io/KurrentDB-Client-Rust) | 63 | 2026-06-16T23:56:11Z | Rust | CLI | 15 | 7 | 15 | 15 |
 | [ocaml-tracing/ocaml-opentelemetry](https://github.com/ocaml-tracing/ocaml-opentelemetry) | 57 | 2026-06-10T19:31:02Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [symgraph/BinAssistMCP](https://github.com/symgraph/BinAssistMCP) | 40 | 2026-06-14T15:02:29Z | Python | Unknown | 4 | 0 | 4 | 4 |

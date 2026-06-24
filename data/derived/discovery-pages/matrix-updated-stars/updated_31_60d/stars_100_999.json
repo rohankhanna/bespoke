@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11283,
-    "concepts": 6355,
-    "observations": 6370,
-    "repos": 1003,
-    "terms": 6315
+    "components": 11272,
+    "concepts": 6328,
+    "observations": 6343,
+    "repos": 999,
+    "terms": 6287
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0no-co/wonka",
@@ -247,7 +247,6 @@
     "cp2k/dbcsr",
     "csstools/cssdb",
     "cucumber/aruba",
-    "CVHub520/X-AnyLabeling-Server",
     "daeh/zotero-markdb-connect",
     "DanielLin94144/Full-Duplex-Bench",
     "danielroe/beasties",
@@ -576,7 +575,6 @@
     "LedgerHQ/speculos",
     "left-curve/left-curve",
     "LemmyNet/lemmy-js-client",
-    "libbitcoin/libbitcoin-node",
     "libbitcoin/libbitcoin-server",
     "libbpf/blazesym",
     "libimobiledevice/libirecovery",
@@ -869,7 +867,6 @@
     "sass/sass-spec",
     "satan53x/SExtractor",
     "sbt/sbt-ci-release",
-    "sbt/sbt-pgp",
     "scalameta/nvim-metals",
     "scaleway/scaleway-cli",
     "scaleway/scaleway-sdk-go",
@@ -956,7 +953,6 @@
     "triton-inference-server/perf_analyzer",
     "triton-inference-server/pytorch_backend",
     "triton-inference-server/tensorrtllm_backend",
-    "trzsz/tsshd",
     "ttktjmt/mjswan",
     "TuringLang/docs",
     "TypedDevs/bashunit",

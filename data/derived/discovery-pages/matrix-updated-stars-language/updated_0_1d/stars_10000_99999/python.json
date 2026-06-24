@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 219,
-    "observations": 221,
-    "repos": 14,
-    "terms": 219
+    "components": 167,
+    "concepts": 221,
+    "observations": 223,
+    "repos": 15,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "axolotl-ai-cloud/axolotl",
+    "Comfy-Org/ComfyUI-Manager",
     "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
     "hiyouga/LlamaFactory",

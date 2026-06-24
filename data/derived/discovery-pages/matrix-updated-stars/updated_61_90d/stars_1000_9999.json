@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 19804,
-    "concepts": 11791,
-    "observations": 11837,
-    "repos": 1677,
-    "terms": 11894
+    "components": 19797,
+    "concepts": 11779,
+    "observations": 11825,
+    "repos": 1676,
+    "terms": 11879
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -1229,6 +1229,7 @@
     "openvinotoolkit/openvino_notebooks",
     "openxla/xla",
     "operator-framework/operator-sdk",
+    "OptimalScale/LMFlow",
     "oras-project/oras",
     "OrchardCMS/OrchardCore",
     "ory/dockertest",
@@ -1423,7 +1424,6 @@
     "rustls/rustls",
     "rustsec/advisory-db",
     "rustsec/rustsec",
-    "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
     "ruvnet/ruvector",
     "rvm/rvm",
@@ -1473,7 +1473,6 @@
     "smallnest/rpcx",
     "smtg-ai/claude-squad",
     "snakers4/silero-models",
-    "snakers4/silero-vad",
     "snapview/tokio-tungstenite",
     "snapview/tungstenite-rs",
     "sneako/finch",

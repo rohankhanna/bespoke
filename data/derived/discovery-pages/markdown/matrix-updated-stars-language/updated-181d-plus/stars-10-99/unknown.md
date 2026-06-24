@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 292
-- terms: 334
+- terms: 333
 - components: 197
 - concepts: 334
 - observations: 334
@@ -78,7 +78,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [o3de/sig-simulation](https://github.com/o3de/sig-simulation) | 12 | 2025-07-10T14:54:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ChainAgnostic/varsig](https://github.com/ChainAgnostic/varsig) | 13 | 2025-07-09T19:14:36Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [NLPJCL/RAG-Retrieval](https://github.com/NLPJCL/RAG-Retrieval) | 22 | 2025-07-05T09:02:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [oakshy/RomanTex](https://github.com/oakshy/RomanTex) | 83 | 2025-07-03T09:25:30Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [oakshy/RomanTex](https://github.com/oakshy/RomanTex) | 83 | 2025-07-03T09:25:30Z | Unknown | Unknown | 1 | 0 | 2 | 2 |
 | [OffchainLabs/arbitrum](https://github.com/OffchainLabs/arbitrum) | 76 | 2025-07-02T11:28:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Farama-Foundation/gym-docs](https://github.com/Farama-Foundation/gym-docs) | 43 | 2025-06-29T13:21:43Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [chrisleyva/todo-slash-command](https://github.com/chrisleyva/todo-slash-command) | 27 | 2025-06-25T23:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -347,7 +347,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [v7labs/covid-19-xray-dataset](https://github.com/v7labs/covid-19-xray-dataset) | 85 | 2021-07-02T16:46:18Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
 | [dwyl/dev-setup](https://github.com/dwyl/dev-setup) | 84 | 2024-10-02T13:42:13Z | Unknown | Docs/knowledge | 3 | 0 | 3 | 3 |
 | [NiteshMethani/PlotQA](https://github.com/NiteshMethani/PlotQA) | 84 | 2023-06-20T14:34:12Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
-| [oakshy/RomanTex](https://github.com/oakshy/RomanTex) | 83 | 2025-07-03T09:25:30Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [oakshy/RomanTex](https://github.com/oakshy/RomanTex) | 83 | 2025-07-03T09:25:30Z | Unknown | Unknown | 1 | 0 | 2 | 2 |
 | [JasonJZLiu/FACTR_Hardware](https://github.com/JasonJZLiu/FACTR_Hardware) | 83 | 2025-06-15T22:24:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lxgw/FusionKai](https://github.com/lxgw/FusionKai) | 83 | 2024-05-13T03:30:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [google-deepmind/boxoban-levels](https://github.com/google-deepmind/boxoban-levels) | 83 | 2022-12-28T16:26:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

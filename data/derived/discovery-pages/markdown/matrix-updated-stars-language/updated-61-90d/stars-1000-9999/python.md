@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 351
-- terms: 2568
-- components: 2212
-- concepts: 2569
-- observations: 2576
+- repos: 350
+- terms: 2556
+- components: 2205
+- concepts: 2557
+- observations: 2564
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) | 8486 | 2026-04-25T07:42:02Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [vietanhdev/anylabeling](https://github.com/vietanhdev/anylabeling) | 3326 | 2026-04-25T04:46:10Z | Python | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [lhotse-speech/lhotse](https://github.com/lhotse-speech/lhotse) | 1128 | 2026-04-25T01:00:32Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [microsoft/sample-app-aoai-chatGPT](https://github.com/microsoft/sample-app-aoai-chatGPT) | 1922 | 2026-04-24T23:57:43Z | Python | Infrastructure/tooling | 5 | 14 | 5 | 5 |
@@ -375,8 +376,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rusty1s/pytorch_sparse](https://github.com/rusty1s/pytorch_sparse) | 1095 | 2026-03-26T15:10:21Z | Python | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [ionelmc/pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) | 1427 | 2026-03-26T12:10:25Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [aws-cloudformation/aws-cloudformation-templates](https://github.com/aws-cloudformation/aws-cloudformation-templates) | 5167 | 2026-03-26T08:00:05Z | Python | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [snakers4/silero-vad](https://github.com/snakers4/silero-vad) | 8874 | 2026-03-26T07:50:13Z | Python | Infrastructure/tooling | 12 | 4 | 12 | 12 |
-| [rusty1s/pytorch_scatter](https://github.com/rusty1s/pytorch_scatter) | 1731 | 2026-03-26T07:05:31Z | Python | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -396,7 +395,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pytorch/tutorials](https://github.com/pytorch/tutorials) | 9118 | 2026-04-22T20:38:13Z | Python | Infrastructure/tooling | 5 | 12 | 5 | 6 |
 | [NVIDIA/apex](https://github.com/NVIDIA/apex) | 8950 | 2026-04-20T20:51:11Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [google/adk-samples](https://github.com/google/adk-samples) | 8947 | 2026-04-21T22:52:45Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 8 |
-| [snakers4/silero-vad](https://github.com/snakers4/silero-vad) | 8874 | 2026-03-26T07:50:13Z | Python | Infrastructure/tooling | 12 | 4 | 12 | 12 |
 | [modelscope/modelscope](https://github.com/modelscope/modelscope) | 8862 | 2026-04-21T08:17:47Z | Python | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [googleapis/google-api-python-client](https://github.com/googleapis/google-api-python-client) | 8790 | 2026-04-21T08:05:24Z | Python | CLI | 1 | 2 | 1 | 1 |
 | [theskumar/python-dotenv](https://github.com/theskumar/python-dotenv) | 8750 | 2026-04-19T19:39:11Z | Python | Infrastructure/tooling | 5 | 4 | 6 | 6 |
@@ -407,6 +405,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pdm-project/pdm](https://github.com/pdm-project/pdm) | 8569 | 2026-04-23T02:47:00Z | Python | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [ml-explore/mlx-examples](https://github.com/ml-explore/mlx-examples) | 8523 | 2026-04-06T18:56:05Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [microsoft/UFO](https://github.com/microsoft/UFO) | 8503 | 2026-04-14T10:55:39Z | Python | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) | 8486 | 2026-04-25T07:42:02Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [jupyter/docker-stacks](https://github.com/jupyter/docker-stacks) | 8427 | 2026-04-24T00:20:05Z | Python | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [ogx-ai/llama-stack](https://github.com/ogx-ai/llama-stack) | 8345 | 2026-04-24T11:50:50Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [llamastack/llama-stack](https://github.com/llamastack/llama-stack) | 8343 | 2026-04-22T20:44:34Z | Python | Infrastructure/tooling | 7 | 15 | 7 | 7 |
@@ -644,7 +643,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [python/typing](https://github.com/python/typing) | 1748 | 2026-04-21T01:34:10Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [tabatkins/railroad-diagrams](https://github.com/tabatkins/railroad-diagrams) | 1738 | 2026-03-28T15:48:51Z | Python | Library | 0 | 0 | 0 | 0 |
 | [mkdocs/catalog](https://github.com/mkdocs/catalog) | 1731 | 2026-04-16T19:19:33Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [rusty1s/pytorch_scatter](https://github.com/rusty1s/pytorch_scatter) | 1731 | 2026-03-26T07:05:31Z | Python | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) | 1727 | 2026-04-19T11:14:00Z | Python | CLI | 2 | 8 | 0 | 0 |
 | [ronf/asyncssh](https://github.com/ronf/asyncssh) | 1724 | 2026-04-18T15:48:29Z | Python | CLI | 1 | 8 | 1 | 1 |
 | [neovim/pynvim](https://github.com/neovim/pynvim) | 1696 | 2026-04-10T18:01:44Z | Python | CLI | 0 | 3 | 0 | 0 |

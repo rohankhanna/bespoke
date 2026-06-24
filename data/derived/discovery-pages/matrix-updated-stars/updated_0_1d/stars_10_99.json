@@ -1,24 +1,26 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 8,
-    "terms": 38
+    "components": 186,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 10,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "alloy-rs/evm",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "karafka/example-apps",
     "mongodb/winkerberos",
+    "nuxt-modules/emotion",
     "pivotal/credhub-release",
+    "processing/processing-website",
     "TrigenSoftware/simple-release",
     "vaporif/parry-guard"
   ]

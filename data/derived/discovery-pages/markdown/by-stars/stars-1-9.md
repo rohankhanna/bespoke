@@ -1,6 +1,6 @@
 # 1 to 9 stars
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 ## Active filters
 
@@ -10,7 +10,7 @@ Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 - repos: 2403
 - terms: 5436
-- components: 11985
+- components: 11986
 - concepts: 5426
 - observations: 5436
 
@@ -22,7 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-06-23T09:59:04Z | Rust | Infrastructure/tooling | 1 | 20 | 1 | 1 |
+| [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-06-23T15:32:33Z | Rust | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [cloudfoundry/credhub-acceptance-tests](https://github.com/cloudfoundry/credhub-acceptance-tests) | 2 | 2026-06-22T13:02:44Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [kurrent-io/KurrentDB-Bridge-Client](https://github.com/kurrent-io/KurrentDB-Bridge-Client) | 1 | 2026-06-22T11:48:49Z | Rust | CLI | 7 | 9 | 7 | 7 |
 | [OpenHands/automation](https://github.com/OpenHands/automation) | 4 | 2026-06-22T01:47:30Z | Python | Infrastructure/tooling | 7 | 14 | 7 | 7 |
@@ -2430,7 +2430,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-06-23T09:59:04Z | Rust | Infrastructure/tooling | 1 | 20 | 1 | 1 |
+| [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-06-23T15:32:33Z | Rust | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [appbaseio/reactivesearch-api-docker](https://github.com/appbaseio/reactivesearch-api-docker) | 9 | 2026-06-13T11:18:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Vodes/muxtools-doc](https://github.com/Vodes/muxtools-doc) | 9 | 2026-06-13T00:38:35Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [hermit-os/rust-std-hermit](https://github.com/hermit-os/rust-std-hermit) | 9 | 2026-06-01T20:07:04Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |

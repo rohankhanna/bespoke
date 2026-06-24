@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 ## Active filters
 
@@ -9,7 +9,7 @@ Generated at: `2026-06-24T05:54:35.907506+00:00`
 ## Counts
 
 - repos: 107
-- terms: 706
+- terms: 707
 - components: 1227
 - concepts: 707
 - observations: 712
@@ -46,7 +46,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rocq-community/docker-base](https://github.com/rocq-community/docker-base) | 4 | 2026-06-06T14:36:05Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [thu-ml/DiT-Extrapolation](https://github.com/thu-ml/DiT-Extrapolation) | 808 | 2026-06-06T13:19:59Z | Python | Unknown | 11 | 0 | 11 | 11 |
 | [conda-forge/numba-feedstock](https://github.com/conda-forge/numba-feedstock) | 0 | 2026-06-06T05:35:57Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) | 4540 | 2026-06-06T04:00:50Z | C/C++ | Infrastructure/tooling | 2 | 17 | 2 | 3 |
+| [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) | 4542 | 2026-06-06T04:00:50Z | C/C++ | Infrastructure/tooling | 2 | 17 | 2 | 3 |
 | [celtera/libremidi](https://github.com/celtera/libremidi) | 690 | 2026-06-06T03:44:39Z | C/C++ | Infrastructure/tooling | 15 | 14 | 15 | 15 |
 | [vale-cli/packages](https://github.com/vale-cli/packages) | 119 | 2026-06-05T20:18:09Z | Python | Library | 1 | 0 | 1 | 1 |
 | [lucidrains/vector-quantize-pytorch](https://github.com/lucidrains/vector-quantize-pytorch) | 3968 | 2026-06-05T20:07:17Z | Python | Unknown | 5 | 0 | 5 | 5 |
@@ -97,7 +97,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mayocream/candle](https://github.com/mayocream/candle) | 0 | 2026-05-29T02:32:15Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12186 | 2026-05-28T21:29:54Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 | [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-28T15:39:46Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-28T13:59:53Z | Other | Infrastructure/tooling | 13 | 11 | 14 | 14 |
+| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-28T13:59:53Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [TinyLLaVA/TinyLLaVA_Factory](https://github.com/TinyLLaVA/TinyLLaVA_Factory) | 988 | 2026-05-28T12:23:03Z | Python | Framework | 6 | 0 | 6 | 6 |
 | [OpenHands/ToM-SWE](https://github.com/OpenHands/ToM-SWE) | 112 | 2026-05-28T06:50:08Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2917 | 2026-05-28T05:40:29Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |
@@ -155,7 +155,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mono/SkiaSharp](https://github.com/mono/SkiaSharp) | 5412 | 2026-05-26T15:10:21Z | Other | Infrastructure/tooling | 17 | 12 | 17 | 17 |
 | [dkron-io/dkron](https://github.com/dkron-io/dkron) | 4699 | 2026-06-03T21:23:15Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [rust-ml/linfa](https://github.com/rust-ml/linfa) | 4684 | 2026-05-30T11:29:40Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
-| [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) | 4540 | 2026-06-06T04:00:50Z | C/C++ | Infrastructure/tooling | 2 | 17 | 2 | 3 |
+| [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) | 4542 | 2026-06-06T04:00:50Z | C/C++ | Infrastructure/tooling | 2 | 17 | 2 | 3 |
 | [mayocream/koharu](https://github.com/mayocream/koharu) | 4471 | 2026-05-26T06:52:17Z | Rust | Infrastructure/tooling | 13 | 18 | 13 | 13 |
 | [lucidrains/vector-quantize-pytorch](https://github.com/lucidrains/vector-quantize-pytorch) | 3968 | 2026-06-05T20:07:17Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [google-deepmind/dm-haiku](https://github.com/google-deepmind/dm-haiku) | 3242 | 2026-06-02T17:56:40Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
@@ -189,7 +189,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [celtera/libremidi](https://github.com/celtera/libremidi) | 690 | 2026-06-06T03:44:39Z | C/C++ | Infrastructure/tooling | 15 | 14 | 15 | 15 |
 | [tc39/proposal-decimal](https://github.com/tc39/proposal-decimal) | 627 | 2026-06-09T08:55:49Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [all-contributors/app](https://github.com/all-contributors/app) | 627 | 2026-05-27T06:49:39Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
-| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-28T13:59:53Z | Other | Infrastructure/tooling | 13 | 11 | 14 | 14 |
+| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-28T13:59:53Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [Ai00-X/ai00_server](https://github.com/Ai00-X/ai00_server) | 617 | 2026-06-09T06:16:58Z | Rust | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [Alex313031/Thorium-MacOS](https://github.com/Alex313031/Thorium-MacOS) | 609 | 2026-06-10T02:15:23Z | Unknown | Unknown | 9 | 0 | 9 | 9 |
 | [gitleaks/gitleaks-action](https://github.com/gitleaks/gitleaks-action) | 602 | 2026-06-10T00:12:05Z | JavaScript | Infrastructure/tooling | 14 | 13 | 14 | 14 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 295
+- repos: 296
 - terms: 726
 - components: 1147
 - concepts: 730
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [flagos-ai/FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) | 7 | 2026-03-26T06:58:57Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [hchiam/learning-template](https://github.com/hchiam/learning-template) | 2 | 2026-03-26T00:04:39Z | Unknown | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [justinfx/olric-nats-plugin](https://github.com/justinfx/olric-nats-plugin) | 8 | 2026-03-25T20:22:13Z | Go | Service/API | 7 | 0 | 7 | 7 |
 | [ada-url/url-various-datasets](https://github.com/ada-url/url-various-datasets) | 5 | 2026-03-25T20:07:19Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
@@ -357,6 +358,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LedgerHQ/ledgercomm](https://github.com/LedgerHQ/ledgercomm) | 8 | 2026-01-15T10:37:53Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [haskell-compat/base-orphans](https://github.com/haskell-compat/base-orphans) | 8 | 2026-01-10T15:53:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [cloudaper/compact_enc_det](https://github.com/cloudaper/compact_enc_det) | 8 | 2025-12-26T10:37:21Z | C/C++ | Infrastructure/tooling | 9 | 5 | 9 | 9 |
+| [flagos-ai/FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) | 7 | 2026-03-26T06:58:57Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [fixie-ai/evals](https://github.com/fixie-ai/evals) | 7 | 2026-03-24T23:22:05Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [42-evey/evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) | 7 | 2026-03-22T15:07:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [maxritter/pilot-shell-demo](https://github.com/maxritter/pilot-shell-demo) | 7 | 2026-03-18T07:07:10Z | TypeScript | Web app | 6 | 32 | 6 | 6 |

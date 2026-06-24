@@ -1,24 +1,24 @@
 {
   "counts": {
-    "components": 753,
-    "concepts": 416,
-    "observations": 418,
-    "repos": 57,
-    "terms": 414
+    "components": 758,
+    "concepts": 426,
+    "observations": 428,
+    "repos": 58,
+    "terms": 425
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "actions/container-toolkit-action",
     "andfoy/pywinpty",
     "apalache-mc/apalache",
+    "aristoteleo/PantheonOS",
     "Artoriuz/ArtCNN",
-    "astroautomata/SymbolicRegression.jl",
     "attackgoat/vk-graph",
     "Avarok-Cybersecurity/atlas",
     "avocadowastaken/prettier-plugin-prisma",
@@ -41,7 +41,6 @@
     "electron/packager",
     "emacs-eldev/eldev",
     "flagos-ai/FlagCX",
-    "flagos-ai/FlagScale",
     "fsprojects/FSharp.Data.GraphQL",
     "fw-ai/cookbook",
     "GDevelopApp/GDevelop-extensions",
@@ -65,6 +64,8 @@
     "richiejp/VoxInput",
     "ROCm/hipBLAS",
     "safe-fndn/safe-singleton-factory",
+    "sbt/sbt-jmh",
+    "spring-projects/spring-tools",
     "the-database/mpv-AnimeJaNai",
     "the-database/VideoJaNai",
     "tox-dev/filelock",

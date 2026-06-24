@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 16037,
-    "concepts": 14566,
-    "observations": 14594,
-    "repos": 4743,
-    "terms": 14341
+    "concepts": 14572,
+    "observations": 14600,
+    "repos": 4744,
+    "terms": 14345
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -4233,6 +4233,7 @@
     "tecbot/gorocksdb",
     "teelinsan/camoscio",
     "tegusi/EAGRNet",
+    "TEN-framework/ten-turn-detection",
     "Tencent-Hunyuan/flex-block-attn",
     "TencentARC/MasaCtrl",
     "TencentARC/SEED-Story",

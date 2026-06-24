@@ -4,7 +4,7 @@
     "concepts": 3221,
     "observations": 3228,
     "repos": 1006,
-    "terms": 3202
+    "terms": 3201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",

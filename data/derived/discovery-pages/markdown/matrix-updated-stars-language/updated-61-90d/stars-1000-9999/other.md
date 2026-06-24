@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -228,7 +228,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/Recognizers-Text](https://github.com/microsoft/Recognizers-Text) | 1778 | 2026-04-17T06:19:03Z | Other | Library | 14 | 0 | 14 | 14 |
 | [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples) | 2524 | 2026-04-17T06:11:50Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [Denys88/rl_games](https://github.com/Denys88/rl_games) | 1331 | 2026-04-17T05:58:32Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [nvimdev/dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | 2848 | 2026-04-17T02:06:43Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [nvimdev/dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | 2849 | 2026-04-17T02:06:43Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [automazeio/vibeproxy](https://github.com/automazeio/vibeproxy) | 2409 | 2026-04-17T00:22:34Z | Other | CLI | 8 | 7 | 8 | 8 |
 | [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | 9816 | 2026-04-16T22:58:07Z | Other | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [ocaml/opam](https://github.com/ocaml/opam) | 1344 | 2026-04-16T21:50:25Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
@@ -358,7 +358,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) | 5885 | 2026-03-31T13:27:44Z | Other | CLI | 15 | 2 | 15 | 15 |
 | [copilot-emacs/copilot.el](https://github.com/copilot-emacs/copilot.el) | 2305 | 2026-03-31T07:13:56Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [sds/overcommit](https://github.com/sds/overcommit) | 3998 | 2026-03-31T07:06:15Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1924 | 2026-03-30T18:40:46Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1926 | 2026-03-30T18:40:46Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) | 3902 | 2026-03-30T18:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [google/brax](https://github.com/google/brax) | 3142 | 2026-03-30T17:14:22Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [google/jsonnet](https://github.com/google/jsonnet) | 7502 | 2026-03-30T14:23:57Z | Other | Infrastructure/tooling | 7 | 14 | 8 | 8 |
@@ -552,7 +552,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaLang/IJulia.jl](https://github.com/JuliaLang/IJulia.jl) | 2894 | 2026-04-21T08:22:07Z | Other | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [serversideup/financial-freedom](https://github.com/serversideup/financial-freedom) | 2855 | 2026-04-08T15:22:34Z | Other | Infrastructure/tooling | 10 | 29 | 10 | 10 |
 | [RubyMoney/money](https://github.com/RubyMoney/money) | 2855 | 2026-03-29T18:54:22Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 5 |
-| [nvimdev/dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | 2848 | 2026-04-17T02:06:43Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [nvimdev/dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | 2849 | 2026-04-17T02:06:43Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [zjunlp/EasyEdit](https://github.com/zjunlp/EasyEdit) | 2799 | 2026-04-01T14:20:09Z | Other | Infrastructure/tooling | 19 | 0 | 19 | 19 |
 | [wincent/command-t](https://github.com/wincent/command-t) | 2775 | 2026-04-09T14:16:53Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) | 2757 | 2026-04-07T09:06:13Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
@@ -615,7 +615,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jgm/djot](https://github.com/jgm/djot) | 1961 | 2026-03-29T20:25:14Z | Other | Unknown | 3 | 0 | 4 | 4 |
 | [akermu/emacs-libvterm](https://github.com/akermu/emacs-libvterm) | 1958 | 2026-04-06T01:34:56Z | Other | CLI | 4 | 0 | 4 | 4 |
 | [JuliaPlots/Plots.jl](https://github.com/JuliaPlots/Plots.jl) | 1942 | 2026-04-03T17:02:32Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1924 | 2026-03-30T18:40:46Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1926 | 2026-03-30T18:40:46Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [MagicDuck/grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim) | 1886 | 2026-04-11T01:17:17Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [cimgui/cimgui](https://github.com/cimgui/cimgui) | 1868 | 2026-04-20T08:38:05Z | Other | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [stevearc/overseer.nvim](https://github.com/stevearc/overseer.nvim) | 1867 | 2026-04-01T21:43:56Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |

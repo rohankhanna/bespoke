@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1368,
-    "concepts": 865,
-    "observations": 869,
-    "repos": 146,
-    "terms": 871
+    "components": 1373,
+    "concepts": 874,
+    "observations": 878,
+    "repos": 147,
+    "terms": 878
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -71,6 +71,7 @@
     "humanlayer/humanlayer",
     "i3/i3",
     "IdreesInc/Monocraft",
+    "Ileriayo/markdown-badges",
     "jaredpalmer/tsdx",
     "jart/cosmopolitan",
     "Jiayi-Pan/TinyZero",

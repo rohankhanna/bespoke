@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 16677,
-    "concepts": 9575,
-    "observations": 9604,
-    "repos": 1073,
-    "terms": 9505
+    "components": 16674,
+    "concepts": 9567,
+    "observations": 9596,
+    "repos": 1072,
+    "terms": 9497
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "1andrevich/Re-filter-lists",
@@ -760,7 +760,6 @@
     "openwrt/packages",
     "operator-framework/operator-lifecycle-manager",
     "opnsense/plugins",
-    "OptimalScale/LMFlow",
     "optiscaler/OptiScaler",
     "oracle/graaljs",
     "oracle/graalpython",

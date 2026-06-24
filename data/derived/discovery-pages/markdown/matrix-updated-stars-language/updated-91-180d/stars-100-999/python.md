@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 256
-- terms: 1007
+- repos: 255
+- terms: 1001
 - components: 597
-- concepts: 1017
-- observations: 1018
+- concepts: 1011
+- observations: 1012
 
 ## Static behavior
 
@@ -281,7 +281,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Akajiaku11/Air-Quality-Prediction-Model](https://github.com/Akajiaku11/Air-Quality-Prediction-Model) | 124 | 2025-12-27T08:43:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [TsinghuaDatabaseGroup/DB-GPT](https://github.com/TsinghuaDatabaseGroup/DB-GPT) | 704 | 2025-12-27T03:28:34Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [Mountchicken/Resophy](https://github.com/Mountchicken/Resophy) | 200 | 2025-12-27T02:52:55Z | Python | Unknown | 2 | 0 | 2 | 2 |
-| [TEN-framework/ten-turn-detection](https://github.com/TEN-framework/ten-turn-detection) | 561 | 2025-12-26T07:52:20Z | Python | Unknown | 6 | 0 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -368,7 +367,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ServiceNow/AgentLab](https://github.com/ServiceNow/AgentLab) | 573 | 2026-03-17T19:43:32Z | Python | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [JunyaoHu/common_metrics_on_video_quality](https://github.com/JunyaoHu/common_metrics_on_video_quality) | 569 | 2026-01-17T15:24:46Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | 561 | 2026-03-14T17:47:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [TEN-framework/ten-turn-detection](https://github.com/TEN-framework/ten-turn-detection) | 561 | 2025-12-26T07:52:20Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [MMMU-Benchmark/MMMU](https://github.com/MMMU-Benchmark/MMMU) | 560 | 2026-02-12T09:41:31Z | Python | Unknown | 17 | 0 | 17 | 17 |
 | [NVlabs/GatedDeltaNet](https://github.com/NVlabs/GatedDeltaNet) | 557 | 2026-03-13T21:53:31Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [hustvl/Senna](https://github.com/hustvl/Senna) | 549 | 2026-03-15T08:03:11Z | Python | Model/data | 3 | 0 | 3 | 3 |

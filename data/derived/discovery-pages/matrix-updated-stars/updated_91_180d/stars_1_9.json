@@ -3,7 +3,7 @@
     "components": 1147,
     "concepts": 730,
     "observations": 732,
-    "repos": 295,
+    "repos": 296,
     "terms": 726
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -157,6 +157,7 @@
     "filip26/tree-io",
     "fishballapp/inquirer-cli",
     "fixie-ai/evals",
+    "flagos-ai/FlagOS-Robo",
     "flagos-ai/llvm-project",
     "flagos-ai/vllm-FL",
     "flinedev/customstatusline",

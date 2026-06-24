@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1006
-- terms: 3202
+- terms: 3201
 - components: 2412
 - concepts: 3221
 - observations: 3228
@@ -824,7 +824,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GoogleCloudPlatform/elixir-samples](https://github.com/GoogleCloudPlatform/elixir-samples) | 295 | 2023-02-14T09:33:34Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [bkamins/Julia-DataFrames-Tutorial](https://github.com/bkamins/Julia-DataFrames-Tutorial) | 537 | 2023-02-13T12:01:36Z | Other | Library | 3 | 0 | 3 | 3 |
 | [antoinemadec/FixCursorHold.nvim](https://github.com/antoinemadec/FixCursorHold.nvim) | 295 | 2023-02-13T11:23:07Z | Other | Unknown | 2 | 0 | 2 | 2 |
-| [webview2/EdgeSharp](https://github.com/webview2/EdgeSharp) | 286 | 2023-02-12T21:08:22Z | Other | Unknown | 15 | 0 | 15 | 15 |
+| [webview2/EdgeSharp](https://github.com/webview2/EdgeSharp) | 286 | 2023-02-12T21:08:22Z | Other | Unknown | 14 | 0 | 15 | 15 |
 | [AlexGraikos/diffusion_priors](https://github.com/AlexGraikos/diffusion_priors) | 211 | 2023-02-09T17:44:23Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [peteanderson80/Up-Down-Captioner](https://github.com/peteanderson80/Up-Down-Captioner) | 249 | 2023-02-03T03:44:28Z | Other | Model/data | 4 | 0 | 4 | 4 |
 | [dwyl/flutter-todo-list-tutorial](https://github.com/dwyl/flutter-todo-list-tutorial) | 109 | 2023-02-02T16:17:24Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
@@ -1574,7 +1574,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Alloyed/lua-lsp](https://github.com/Alloyed/lua-lsp) | 291 | 2025-08-12T02:08:10Z | Other | Service/API | 3 | 0 | 3 | 3 |
 | [LintaoAmons/bookmarks.nvim](https://github.com/LintaoAmons/bookmarks.nvim) | 289 | 2025-10-24T04:37:59Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [joshwlewis/unitwise](https://github.com/joshwlewis/unitwise) | 286 | 2025-11-27T14:41:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [webview2/EdgeSharp](https://github.com/webview2/EdgeSharp) | 286 | 2023-02-12T21:08:22Z | Other | Unknown | 15 | 0 | 15 | 15 |
+| [webview2/EdgeSharp](https://github.com/webview2/EdgeSharp) | 286 | 2023-02-12T21:08:22Z | Other | Unknown | 14 | 0 | 15 | 15 |
 | [clojure-goes-fast/clj-java-decompiler](https://github.com/clojure-goes-fast/clj-java-decompiler) | 285 | 2025-09-29T07:13:38Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [tc39/proposal-json-modules](https://github.com/tc39/proposal-json-modules) | 284 | 2025-09-04T09:21:14Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [JuliaPy/SymPy.jl](https://github.com/JuliaPy/SymPy.jl) | 284 | 2025-02-19T17:36:53Z | Other | Infrastructure/tooling | 4 | 12 | 4 | 4 |

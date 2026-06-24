@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1260,
-    "concepts": 1039,
-    "observations": 1041,
-    "repos": 263,
-    "terms": 1033
+    "components": 1324,
+    "concepts": 1040,
+    "observations": 1042,
+    "repos": 264,
+    "terms": 1034
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -112,6 +112,7 @@
     "dmitry-brazhenko/SharpToken",
     "domluna/JuliaFormatter.jl",
     "donut-party/system",
+    "doolijb/serene-pub",
     "dwyl/elixir-auth-google",
     "dwyl/labels",
     "dwyl/phoenix-liveview-chat-example",

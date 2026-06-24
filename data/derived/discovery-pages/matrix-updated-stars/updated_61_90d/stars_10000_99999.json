@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15659,
-    "concepts": 6470,
-    "observations": 6499,
-    "repos": 692,
-    "terms": 6477
+    "components": 15654,
+    "concepts": 6461,
+    "observations": 6490,
+    "repos": 691,
+    "terms": 6470
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -349,7 +349,6 @@
     "hyperium/tonic",
     "iamkun/dayjs",
     "ianyh/Amethyst",
-    "Ileriayo/markdown-badges",
     "Immediate-Mode-UI/Nuklear",
     "immerjs/immer",
     "ImranR98/Obtainium",

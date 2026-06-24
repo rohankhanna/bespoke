@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 263
-- terms: 1033
-- components: 1260
-- concepts: 1039
-- observations: 1041
+- repos: 264
+- terms: 1034
+- components: 1324
+- concepts: 1040
+- observations: 1042
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [doolijb/serene-pub](https://github.com/doolijb/serene-pub) | 168 | 2026-03-26T06:04:30Z | Other | CLI | 1 | 64 | 1 | 1 |
 | [malaysia-ai/malaya](https://github.com/malaysia-ai/malaya) | 526 | 2026-03-26T00:34:10Z | Other | Infrastructure/tooling | 13 | 2 | 13 | 13 |
 | [creativescala/doodle](https://github.com/creativescala/doodle) | 347 | 2026-03-25T22:06:17Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [metosin/spec-tools](https://github.com/metosin/spec-tools) | 607 | 2026-03-25T21:59:27Z | Other | Infrastructure/tooling | 7 | 11 | 8 | 8 |
@@ -498,6 +499,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arnetheduck/nim-results](https://github.com/arnetheduck/nim-results) | 171 | 2026-02-10T11:31:06Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [JuliaPlots/GraphRecipes.jl](https://github.com/JuliaPlots/GraphRecipes.jl) | 170 | 2026-03-10T15:44:44Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [ppwwyyxx/cocoapi](https://github.com/ppwwyyxx/cocoapi) | 169 | 2026-03-23T06:36:26Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [doolijb/serene-pub](https://github.com/doolijb/serene-pub) | 168 | 2026-03-26T06:04:30Z | Other | CLI | 1 | 64 | 1 | 1 |
 | [autodeployai/ai-serving](https://github.com/autodeployai/ai-serving) | 166 | 2026-02-24T02:56:29Z | Other | Infrastructure/tooling | 19 | 5 | 19 | 19 |
 | [excubo-ag/WebCompiler](https://github.com/excubo-ag/WebCompiler) | 166 | 2026-01-22T20:43:55Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [terraform-aws-modules/terraform-aws-apigateway-v2](https://github.com/terraform-aws-modules/terraform-aws-apigateway-v2) | 166 | 2026-01-08T16:55:17Z | Other | Infrastructure/tooling | 8 | 10 | 8 | 8 |

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 944,
+    "components": 938,
     "concepts": 373,
     "observations": 373,
-    "repos": 238,
-    "terms": 405
+    "repos": 237,
+    "terms": 403
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -210,7 +210,6 @@
     "narutoxdd6/nyro",
     "netdur/llama_cpp_rust",
     "neuroverseos/negotiator",
-    "nibir1/vaultsim",
     "nodenv/node-build-prerelease",
     "Patrick-ring-motive/sval-rhino-gs",
     "PetervanLunteren/EcoAssist-metadata",

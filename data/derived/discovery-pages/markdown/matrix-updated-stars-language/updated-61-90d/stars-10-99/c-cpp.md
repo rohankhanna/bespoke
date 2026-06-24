@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 71
-- terms: 324
-- components: 393
-- concepts: 324
-- observations: 324
+- repos: 72
+- terms: 325
+- components: 397
+- concepts: 325
+- observations: 325
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [libbitcoin/libbitcoin-database](https://github.com/libbitcoin/libbitcoin-database) | 83 | 2026-04-25T06:18:46Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [gazebosim/gz-transport](https://github.com/gazebosim/gz-transport) | 51 | 2026-04-24T23:17:15Z | C/C++ | CLI | 17 | 7 | 17 | 17 |
 | [ROCm/ROCgdb](https://github.com/ROCm/ROCgdb) | 69 | 2026-04-24T12:30:39Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [acts-project/traccc](https://github.com/acts-project/traccc) | 42 | 2026-04-24T11:20:27Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -115,6 +116,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JFLarvoire/the_silver_searcher](https://github.com/JFLarvoire/the_silver_searcher) | 86 | 2026-04-19T10:15:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ROCm/roctracer](https://github.com/ROCm/roctracer) | 84 | 2026-04-14T17:40:05Z | C/C++ | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [mxmlnkn/indexed_bzip2](https://github.com/mxmlnkn/indexed_bzip2) | 84 | 2026-04-07T08:02:59Z | C/C++ | CLI | 14 | 7 | 15 | 15 |
+| [libbitcoin/libbitcoin-database](https://github.com/libbitcoin/libbitcoin-database) | 83 | 2026-04-25T06:18:46Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [jupyter-xeus/xeus-lua](https://github.com/jupyter-xeus/xeus-lua) | 80 | 2026-04-10T07:49:16Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [lxqt/libqtxdg](https://github.com/lxqt/libqtxdg) | 79 | 2026-04-20T07:04:58Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [flashlight/text](https://github.com/flashlight/text) | 79 | 2026-03-31T16:49:46Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |

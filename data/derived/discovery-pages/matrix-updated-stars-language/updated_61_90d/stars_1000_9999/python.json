@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2212,
-    "concepts": 2569,
-    "observations": 2576,
-    "repos": 351,
-    "terms": 2568
+    "components": 2205,
+    "concepts": 2557,
+    "observations": 2564,
+    "repos": 350,
+    "terms": 2556
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -264,6 +264,7 @@
     "opendatalab/labelU",
     "OpenRLHF/OpenRLHF",
     "openvinotoolkit/nncf",
+    "OptimalScale/LMFlow",
     "PaddlePaddle/PaddleX",
     "ParisNeo/lollms-webui",
     "patrick-kidger/diffrax",
@@ -310,7 +311,6 @@
     "RUC-NLPIR/ARPO",
     "RUC-NLPIR/DeepAgent",
     "RUC-NLPIR/FlashRAG",
-    "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
     "sanderland/katrain",
     "scrapy-plugins/scrapy-playwright",
@@ -320,7 +320,6 @@
     "shenweichen/DeepMatch",
     "sierra-research/tau2-bench",
     "SirVer/ultisnips",
-    "snakers4/silero-vad",
     "sparckles/Robyn",
     "spyder-ide/qtpy",
     "ssitu/ComfyUI_UltimateSDUpscale",

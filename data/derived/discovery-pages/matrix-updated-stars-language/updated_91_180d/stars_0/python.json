@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
+    "components": 41,
     "concepts": 25,
     "observations": 25,
-    "repos": 15,
-    "terms": 25
+    "repos": 16,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "abbhisap/LLM-Council-SAP",
@@ -25,6 +25,7 @@
     "maeste/a2a-tck",
     "marin-community/harbor",
     "Nambers/ssrJSON-benchmark",
+    "nibir1/vaultsim",
     "petercorke/sphinx-autorun",
     "samsja/dion",
     "sarlinpe/pybind11-stubgen",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2241,
-    "concepts": 348,
-    "observations": 351,
-    "repos": 83,
-    "terms": 380
+    "components": 2294,
+    "concepts": 355,
+    "observations": 358,
+    "repos": 84,
+    "terms": 387
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "9romise/eslint-plugin-import-lite",
@@ -79,6 +79,7 @@
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
     "obi1kenobi/cargo-semver-checks-action",
+    "oclif/plugin-plugins",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",

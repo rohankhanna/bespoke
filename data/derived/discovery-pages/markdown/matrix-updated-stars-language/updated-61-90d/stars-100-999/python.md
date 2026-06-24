@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 365
-- terms: 1831
+- repos: 366
+- terms: 1850
 - components: 1843
-- concepts: 1818
-- observations: 1826
+- concepts: 1837
+- observations: 1845
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CVHub520/X-AnyLabeling-Server](https://github.com/CVHub520/X-AnyLabeling-Server) | 212 | 2026-04-25T07:23:35Z | Python | CLI | 19 | 0 | 19 | 19 |
 | [Farama-Foundation/Minari](https://github.com/Farama-Foundation/Minari) | 509 | 2026-04-24T22:32:56Z | Python | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [C2SP/C2SP](https://github.com/C2SP/C2SP) | 572 | 2026-04-24T19:51:41Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [ansible-collections/kubernetes.core](https://github.com/ansible-collections/kubernetes.core) | 254 | 2026-04-24T18:46:37Z | Python | Infrastructure/tooling | 14 | 16 | 14 | 14 |
@@ -650,6 +651,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [G-Research/ahocorasick_rs](https://github.com/G-Research/ahocorasick_rs) | 221 | 2026-04-06T17:44:42Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [gmberton/MegaLoc](https://github.com/gmberton/MegaLoc) | 216 | 2026-03-30T06:44:23Z | Python | Model/data | 7 | 0 | 7 | 7 |
 | [uxlfoundation/oneAPI-spec](https://github.com/uxlfoundation/oneAPI-spec) | 213 | 2026-04-21T21:57:12Z | Python | Infrastructure/tooling | 9 | 5 | 9 | 9 |
+| [CVHub520/X-AnyLabeling-Server](https://github.com/CVHub520/X-AnyLabeling-Server) | 212 | 2026-04-25T07:23:35Z | Python | CLI | 19 | 0 | 19 | 19 |
 | [PKU-YuanGroup/ChronoMagic-Bench](https://github.com/PKU-YuanGroup/ChronoMagic-Bench) | 211 | 2026-04-14T03:26:11Z | Python | Unknown | 13 | 0 | 13 | 13 |
 | [ISEEKYAN/mbridge](https://github.com/ISEEKYAN/mbridge) | 209 | 2026-04-23T02:40:36Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [huggingface/optimum-habana](https://github.com/huggingface/optimum-habana) | 209 | 2026-04-16T14:31:47Z | Python | Infrastructure/tooling | 9 | 8 | 9 | 9 |

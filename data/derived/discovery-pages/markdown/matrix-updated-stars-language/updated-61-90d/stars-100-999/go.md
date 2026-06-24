@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 132
-- terms: 786
-- components: 982
-- concepts: 778
-- observations: 784
+- repos: 133
+- terms: 792
+- components: 986
+- concepts: 784
+- observations: 790
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [trzsz/tsshd](https://github.com/trzsz/tsshd) | 425 | 2026-04-25T07:36:53Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [go-git/go-billy](https://github.com/go-git/go-billy) | 397 | 2026-04-24T21:19:12Z | Go | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [ipfs/rainbow](https://github.com/ipfs/rainbow) | 168 | 2026-04-24T12:42:04Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [ipfs/boxo](https://github.com/ipfs/boxo) | 296 | 2026-04-24T12:34:04Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
@@ -213,6 +214,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hashicorp/errwrap](https://github.com/hashicorp/errwrap) | 449 | 2026-04-13T08:17:11Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [mailru/go-clickhouse](https://github.com/mailru/go-clickhouse) | 435 | 2026-04-08T20:00:57Z | Go | CLI | 3 | 4 | 3 | 3 |
 | [hashicorp/terraform-provider-scaffolding-framework](https://github.com/hashicorp/terraform-provider-scaffolding-framework) | 431 | 2026-04-21T10:54:10Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [trzsz/tsshd](https://github.com/trzsz/tsshd) | 425 | 2026-04-25T07:36:53Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [labring/aiproxy](https://github.com/labring/aiproxy) | 425 | 2026-04-22T14:33:45Z | Go | Infrastructure/tooling | 2 | 11 | 2 | 2 |
 | [dependabot/cli](https://github.com/dependabot/cli) | 420 | 2026-04-19T16:02:40Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [stefanlogue/meteor](https://github.com/stefanlogue/meteor) | 420 | 2026-04-03T09:38:42Z | Go | CLI | 7 | 9 | 7 | 7 |

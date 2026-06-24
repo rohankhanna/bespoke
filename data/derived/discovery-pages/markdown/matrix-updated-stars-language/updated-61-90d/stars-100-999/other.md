@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -14,7 +14,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 - repos: 445
 - terms: 2447
-- components: 3118
+- components: 3057
 - concepts: 2429
 - observations: 2434
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sbt/sbt-pgp](https://github.com/sbt/sbt-pgp) | 149 | 2026-04-25T07:21:45Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [tinted-theming/tinted-vim](https://github.com/tinted-theming/tinted-vim) | 161 | 2026-04-25T02:24:22Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [folke/neoconf.nvim](https://github.com/folke/neoconf.nvim) | 953 | 2026-04-25T01:40:08Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [PataphysicalSociety/soupault](https://github.com/PataphysicalSociety/soupault) | 427 | 2026-04-24T20:02:28Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
@@ -470,7 +471,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [melix/jmh-gradle-plugin](https://github.com/melix/jmh-gradle-plugin) | 716 | 2026-03-26T10:24:35Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [ocaml-community/utop](https://github.com/ocaml-community/utop) | 917 | 2026-03-26T09:45:29Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [kendryte/nncase](https://github.com/kendryte/nncase) | 877 | 2026-03-26T08:10:16Z | Other | Infrastructure/tooling | 10 | 17 | 10 | 10 |
-| [doolijb/serene-pub](https://github.com/doolijb/serene-pub) | 168 | 2026-03-26T06:04:30Z | Other | CLI | 1 | 64 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -826,7 +826,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [emacs-rustic/rustic](https://github.com/emacs-rustic/rustic) | 169 | 2026-04-07T17:12:35Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [RDFLib/OWL-RL](https://github.com/RDFLib/OWL-RL) | 169 | 2026-03-30T22:59:30Z | Other | Service/API | 4 | 0 | 4 | 4 |
 | [DNSCrypt/dnscrypt-protocol](https://github.com/DNSCrypt/dnscrypt-protocol) | 168 | 2026-03-29T07:27:53Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
-| [doolijb/serene-pub](https://github.com/doolijb/serene-pub) | 168 | 2026-03-26T06:04:30Z | Other | CLI | 1 | 64 | 1 | 1 |
 | [AdaCore/libadalang](https://github.com/AdaCore/libadalang) | 167 | 2026-04-22T12:04:33Z | Other | Library | 0 | 0 | 0 | 0 |
 | [JuliaDebug/JuliaInterpreter.jl](https://github.com/JuliaDebug/JuliaInterpreter.jl) | 167 | 2026-04-01T23:57:18Z | Other | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [gregorias/coerce.nvim](https://github.com/gregorias/coerce.nvim) | 166 | 2026-04-20T07:45:22Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
@@ -850,6 +849,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kwn/php-rdkafka-stubs](https://github.com/kwn/php-rdkafka-stubs) | 151 | 2026-04-01T18:48:51Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [ocurrent/ocurrent](https://github.com/ocurrent/ocurrent) | 151 | 2026-03-26T16:20:34Z | Other | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [cbl-dart/cbl-dart](https://github.com/cbl-dart/cbl-dart) | 150 | 2026-04-01T17:28:35Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [sbt/sbt-pgp](https://github.com/sbt/sbt-pgp) | 149 | 2026-04-25T07:21:45Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [bkoelman/CSharpGuidelinesAnalyzer](https://github.com/bkoelman/CSharpGuidelinesAnalyzer) | 149 | 2026-04-20T01:23:03Z | Other | Docs/knowledge | 3 | 0 | 3 | 3 |
 | [firebase/FirebaseUI-Flutter](https://github.com/firebase/FirebaseUI-Flutter) | 149 | 2026-04-17T00:13:42Z | Other | Infrastructure/tooling | 3 | 23 | 3 | 3 |
 | [nvim-neotest/neotest-jest](https://github.com/nvim-neotest/neotest-jest) | 149 | 2026-04-02T18:09:57Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |

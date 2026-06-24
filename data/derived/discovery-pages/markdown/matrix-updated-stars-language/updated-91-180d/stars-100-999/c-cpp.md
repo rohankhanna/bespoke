@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 117
-- terms: 499
+- repos: 118
+- terms: 504
 - components: 363
-- concepts: 505
-- observations: 507
+- concepts: 510
+- observations: 512
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CrystallineCore/Biscuit](https://github.com/CrystallineCore/Biscuit) | 289 | 2026-03-26T07:10:33Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [rusty1s/pytorch_cluster](https://github.com/rusty1s/pytorch_cluster) | 920 | 2026-03-26T04:45:29Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [AmusementClub/vs-mlrt](https://github.com/AmusementClub/vs-mlrt) | 440 | 2026-03-26T01:48:30Z | C/C++ | Infrastructure/tooling | 27 | 5 | 27 | 27 |
 | [NetEase-FuXi/EETQ](https://github.com/NetEase-FuXi/EETQ) | 206 | 2026-03-25T14:42:59Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -221,6 +222,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nagisa/rust_tracy_client](https://github.com/nagisa/rust_tracy_client) | 307 | 2026-01-05T01:09:49Z | C/C++ | CLI | 1 | 4 | 1 | 1 |
 | [intel/isa-l_crypto](https://github.com/intel/isa-l_crypto) | 295 | 2026-01-22T17:04:40Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [KamilSJaron/smudgeplot](https://github.com/KamilSJaron/smudgeplot) | 294 | 2026-02-25T09:45:40Z | C/C++ | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [CrystallineCore/Biscuit](https://github.com/CrystallineCore/Biscuit) | 289 | 2026-03-26T07:10:33Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [ashawkey/cubvh](https://github.com/ashawkey/cubvh) | 287 | 2026-01-27T14:20:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [usnistgov/trec_eval](https://github.com/usnistgov/trec_eval) | 279 | 2026-03-09T17:41:09Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [arduino-libraries/Ethernet](https://github.com/arduino-libraries/Ethernet) | 278 | 2026-03-16T17:29:15Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |

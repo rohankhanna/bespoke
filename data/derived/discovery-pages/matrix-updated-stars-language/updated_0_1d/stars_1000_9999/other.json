@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 131,
-    "observations": 132,
-    "repos": 12,
-    "terms": 131
+    "components": 166,
+    "concepts": 142,
+    "observations": 143,
+    "repos": 13,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "beam-community/elixir-companies",
+    "datalevin/datalevin",
     "dotnet/Silk.NET",
     "elixir-grpc/grpc",
     "firebase/flutterfire",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 238
-- terms: 405
-- components: 944
+- repos: 237
+- terms: 403
+- components: 938
 - concepts: 373
 - observations: 373
 
@@ -262,7 +262,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [devnen/chatterbox-v2](https://github.com/devnen/chatterbox-v2) | 0 | 2026-03-26T22:24:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval](https://github.com/danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval) | 0 | 2026-03-26T17:58:11Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -505,4 +504,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [devnen/chatterbox-v2](https://github.com/devnen/chatterbox-v2) | 0 | 2026-03-26T22:24:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval](https://github.com/danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval) | 0 | 2026-03-26T17:58:11Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |

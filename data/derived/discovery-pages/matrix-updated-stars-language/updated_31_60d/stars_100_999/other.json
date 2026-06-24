@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2020,
-    "concepts": 1426,
-    "observations": 1427,
-    "repos": 248,
-    "terms": 1418
+    "components": 2017,
+    "concepts": 1425,
+    "observations": 1426,
+    "repos": 247,
+    "terms": 1416
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
@@ -233,7 +233,6 @@
     "saem/vscode-nim",
     "sass/sass-spec",
     "sbt/sbt-ci-release",
-    "sbt/sbt-pgp",
     "scalameta/nvim-metals",
     "SciML/LabelledArrays.jl",
     "sclorg/postgresql-container",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6492,
-    "concepts": 4238,
-    "observations": 4251,
-    "repos": 1020,
-    "terms": 4213
+    "components": 6580,
+    "concepts": 4248,
+    "observations": 4261,
+    "repos": 1023,
+    "terms": 4223
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -274,6 +274,7 @@
     "creativescala/doodle",
     "crivotz/nv-ide",
     "cross-rs/cross-toolchains",
+    "CrystallineCore/Biscuit",
     "csslc/PiSA-SR",
     "csstools/postcss-normalize",
     "CSU-Radarmet/CSU_RadarTools",
@@ -314,6 +315,7 @@
     "domluna/JuliaFormatter.jl",
     "dongjae0107/ELite",
     "donut-party/system",
+    "doolijb/serene-pub",
     "dop251/goja_nodejs",
     "dotnet/source-build",
     "douglascrockford/JSMin",
@@ -671,6 +673,7 @@
     "MoonshotAI/checkpoint-engine",
     "mosaicml/examples",
     "Mountchicken/Resophy",
+    "mourner/flatqueue",
     "mourner/robust-predicates",
     "moyangzhan/langchain4j-aideepin-admin",
     "mozilla/dump_syms",
@@ -785,6 +788,7 @@
     "prisma/tiberius",
     "PrithivirajDamodaran/FlashRank",
     "proper-testing/proper",
+    "protocolbuffers/protobuf-javascript",
     "proxy-wasm/proxy-wasm-cpp-sdk",
     "proxy-wasm/proxy-wasm-go-sdk",
     "psf/pyperf",
@@ -912,7 +916,6 @@
     "SymbolicML/DynamicExpressions.jl",
     "tc39/proposal-source-phase-imports",
     "TeamMoeAI/MoeSR",
-    "TEN-framework/ten-turn-detection",
     "TencentCloudADP/youtu-tip",
     "TencentCloudADP/youtu-vl",
     "tensorflow/build",

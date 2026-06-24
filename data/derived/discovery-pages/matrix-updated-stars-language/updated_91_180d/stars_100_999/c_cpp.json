@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 363,
-    "concepts": 505,
-    "observations": 507,
-    "repos": 117,
-    "terms": 499
+    "concepts": 510,
+    "observations": 512,
+    "repos": 118,
+    "terms": 504
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "AmusementClub/vs-mlrt",
@@ -39,6 +39,7 @@
     "conor42/fast-lzma2",
     "CppCXY/EmmyLuaCodeStyle",
     "creachadair/imath",
+    "CrystallineCore/Biscuit",
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
     "deeptools/pyBigWig",

@@ -4,14 +4,14 @@
     "concepts": 9537,
     "observations": 9551,
     "repos": 2445,
-    "terms": 9405
+    "terms": 9407
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",

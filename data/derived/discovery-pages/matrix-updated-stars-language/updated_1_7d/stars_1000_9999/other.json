@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 141,
-    "concepts": 94,
-    "observations": 98,
-    "repos": 12,
-    "terms": 92
+    "components": 127,
+    "concepts": 83,
+    "observations": 87,
+    "repos": 11,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "babashka/babashka",
     "babashka/sci",
     "clj-kondo/clj-kondo",
-    "datalevin/datalevin",
     "dotnet/command-line-api",
     "dotnet/reactive",
     "licensee/licensed",

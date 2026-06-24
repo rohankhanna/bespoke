@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 272
-- components: 185
-- concepts: 277
-- observations: 278
+- repos: 37
+- terms: 271
+- components: 181
+- concepts: 276
+- observations: 277
 
 ## Static behavior
 
@@ -63,7 +63,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [akruphi/far2l](https://github.com/akruphi/far2l) | 21 | 2026-04-26T09:34:25Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [libbitcoin/libbitcoin-network](https://github.com/libbitcoin/libbitcoin-network) | 79 | 2026-04-26T04:40:35Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [skeeto/dcmake](https://github.com/skeeto/dcmake) | 68 | 2026-04-25T15:15:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [libbitcoin/libbitcoin-database](https://github.com/libbitcoin/libbitcoin-database) | 83 | 2026-04-25T06:18:46Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -79,7 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heiher/hev-task-system](https://github.com/heiher/hev-task-system) | 88 | 2026-05-02T09:10:32Z | C/C++ | Infrastructure/tooling | 12 | 2 | 12 | 12 |
 | [oneapi-src/unified-memory-framework](https://github.com/oneapi-src/unified-memory-framework) | 88 | 2026-05-01T05:41:34Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [gazebosim/gz-physics](https://github.com/gazebosim/gz-physics) | 87 | 2026-05-02T00:32:41Z | C/C++ | Infrastructure/tooling | 17 | 7 | 17 | 17 |
-| [libbitcoin/libbitcoin-database](https://github.com/libbitcoin/libbitcoin-database) | 83 | 2026-04-25T06:18:46Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [libbitcoin/libbitcoin-network](https://github.com/libbitcoin/libbitcoin-network) | 79 | 2026-04-26T04:40:35Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [erigontech/mdbx-go](https://github.com/erigontech/mdbx-go) | 76 | 2026-05-13T09:16:36Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [gazebosim/gz-rendering](https://github.com/gazebosim/gz-rendering) | 76 | 2026-05-01T13:14:18Z | C/C++ | Infrastructure/tooling | 18 | 7 | 19 | 19 |

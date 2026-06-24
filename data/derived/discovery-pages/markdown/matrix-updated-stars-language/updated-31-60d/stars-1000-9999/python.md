@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 215
-- terms: 1996
-- components: 1800
-- concepts: 2014
-- observations: 2020
+- repos: 214
+- terms: 1988
+- components: 1797
+- concepts: 2006
+- observations: 2012
 
 ## Static behavior
 
@@ -34,7 +34,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FunAudioLLM/SenseVoice](https://github.com/FunAudioLLM/SenseVoice) | 8201 | 2026-05-19T15:33:33Z | Python | Infrastructure/tooling | 9 | 0 | 9 | 9 |
 | [FunAudioLLM/Fun-ASR](https://github.com/FunAudioLLM/Fun-ASR) | 1163 | 2026-05-19T15:28:20Z | Python | Model/data | 8 | 0 | 8 | 8 |
 | [InternScience/GraphGen](https://github.com/InternScience/GraphGen) | 1043 | 2026-05-19T07:07:32Z | Python | Infrastructure/tooling | 18 | 7 | 18 | 18 |
-| [nomadkaraoke/python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator) | 1253 | 2026-05-18T23:24:52Z | Python | CLI | 8 | 15 | 8 | 8 |
+| [nomadkaraoke/python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator) | 1254 | 2026-05-18T23:24:52Z | Python | CLI | 8 | 15 | 8 | 8 |
 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 1091 | 2026-05-18T06:06:35Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [msiemens/tinydb](https://github.com/msiemens/tinydb) | 7512 | 2026-05-16T15:30:07Z | Python | Infrastructure/tooling | 3 | 6 | 4 | 4 |
 | [zai-org/GLM-V](https://github.com/zai-org/GLM-V) | 2342 | 2026-05-16T05:42:14Z | Python | Unknown | 3 | 0 | 3 | 3 |
@@ -240,7 +240,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-deepmind/mujoco_playground](https://github.com/google-deepmind/mujoco_playground) | 1913 | 2026-04-26T01:21:37Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [tdrussell/diffusion-pipe](https://github.com/tdrussell/diffusion-pipe) | 1929 | 2026-04-25T18:09:04Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [argosopentech/argos-translate](https://github.com/argosopentech/argos-translate) | 5932 | 2026-04-25T16:51:37Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) | 8486 | 2026-04-25T07:42:02Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -259,7 +258,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spyder-ide/spyder](https://github.com/spyder-ide/spyder) | 9207 | 2026-04-29T21:59:49Z | Python | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 | [CVHub520/X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling) | 8945 | 2026-04-29T15:50:57Z | Python | CLI | 18 | 0 | 18 | 18 |
 | [bridgecrewio/checkov](https://github.com/bridgecrewio/checkov) | 8677 | 2026-04-26T23:11:54Z | Python | Infrastructure/tooling | 17 | 25 | 17 | 17 |
-| [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) | 8486 | 2026-04-25T07:42:02Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [getmoto/moto](https://github.com/getmoto/moto) | 8452 | 2026-04-29T18:19:53Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | 8422 | 2026-04-30T13:48:53Z | Python | CLI | 8 | 15 | 8 | 8 |
 | [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC) | 8417 | 2026-05-08T08:25:30Z | Python | Infrastructure/tooling | 7 | 16 | 7 | 7 |
@@ -435,7 +433,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [miurahr/aqtinstall](https://github.com/miurahr/aqtinstall) | 1259 | 2026-04-26T22:52:21Z | Python | CLI | 11 | 8 | 11 | 11 |
 | [BoboTiG/python-mss](https://github.com/BoboTiG/python-mss) | 1258 | 2026-04-29T12:57:56Z | Python | CLI | 10 | 3 | 12 | 12 |
 | [meta-pytorch/data](https://github.com/meta-pytorch/data) | 1256 | 2026-05-03T11:47:48Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [nomadkaraoke/python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator) | 1253 | 2026-05-18T23:24:52Z | Python | CLI | 8 | 15 | 8 | 8 |
+| [nomadkaraoke/python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator) | 1254 | 2026-05-18T23:24:52Z | Python | CLI | 8 | 15 | 8 | 8 |
 | [amd/gaia](https://github.com/amd/gaia) | 1233 | 2026-04-30T00:02:42Z | Python | Infrastructure/tooling | 12 | 18 | 12 | 12 |
 | [open-edge-platform/training_extensions](https://github.com/open-edge-platform/training_extensions) | 1226 | 2026-04-29T18:56:26Z | Python | Infrastructure/tooling | 28 | 13 | 28 | 28 |
 | [google-deepmind/mujoco_warp](https://github.com/google-deepmind/mujoco_warp) | 1205 | 2026-04-29T20:31:05Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |

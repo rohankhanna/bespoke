@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 55853,
-    "concepts": 36275,
-    "observations": 36388,
+    "concepts": 36276,
+    "observations": 36389,
     "repos": 6117,
-    "terms": 36164
+    "terms": 36162
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",

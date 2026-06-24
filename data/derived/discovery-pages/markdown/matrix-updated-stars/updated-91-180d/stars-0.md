@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 113
-- terms: 168
-- components: 354
+- repos: 114
+- terms: 170
+- components: 360
 - concepts: 169
 - observations: 171
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Israel-Civilian-Readiness-Guide](https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide) | 0 | 2026-03-26T01:02:35Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [adammes/voyanode](https://github.com/AdamMes/voyanode) | 0 | 2026-03-25T19:51:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -143,6 +144,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Israel-Civilian-Readiness-Guide](https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide) | 0 | 2026-03-26T01:02:35Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [adammes/voyanode](https://github.com/AdamMes/voyanode) | 0 | 2026-03-25T19:51:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |

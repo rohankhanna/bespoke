@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 66
-- terms: 379
-- components: 1798
-- concepts: 379
-- observations: 381
+- repos: 65
+- terms: 372
+- components: 1745
+- concepts: 372
+- observations: 374
 
 ## Static behavior
 
@@ -91,7 +91,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete) | 93 | 2026-04-26T07:12:14Z | TypeScript | CLI | 7 | 41 | 7 | 7 |
 | [oclif/plugin-update](https://github.com/oclif/plugin-update) | 55 | 2026-04-26T07:11:21Z | TypeScript | CLI | 7 | 51 | 7 | 7 |
 | [oclif/plugin-help](https://github.com/oclif/plugin-help) | 24 | 2026-04-26T05:26:55Z | TypeScript | CLI | 7 | 32 | 7 | 7 |
-| [oclif/plugin-plugins](https://github.com/oclif/plugin-plugins) | 50 | 2026-04-25T06:45:53Z | TypeScript | CLI | 7 | 53 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -126,7 +125,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oclif/plugin-update](https://github.com/oclif/plugin-update) | 55 | 2026-04-26T07:11:21Z | TypeScript | CLI | 7 | 51 | 7 | 7 |
 | [OffchainLabs/arbitrum-chain-sdk](https://github.com/OffchainLabs/arbitrum-chain-sdk) | 54 | 2026-04-29T15:38:26Z | TypeScript | Infrastructure/tooling | 3 | 20 | 3 | 3 |
 | [rstackjs/rsbuild-plugin-tailwindcss](https://github.com/rstackjs/rsbuild-plugin-tailwindcss) | 53 | 2026-05-01T00:35:14Z | TypeScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
-| [oclif/plugin-plugins](https://github.com/oclif/plugin-plugins) | 50 | 2026-04-25T06:45:53Z | TypeScript | CLI | 7 | 53 | 7 | 7 |
 | [elastic/opentelemetry-demo](https://github.com/elastic/opentelemetry-demo) | 49 | 2026-04-28T13:43:33Z | TypeScript | Infrastructure/tooling | 4 | 18 | 4 | 5 |
 | [octokit/auth-action.js](https://github.com/octokit/auth-action.js) | 48 | 2026-04-29T13:02:23Z | TypeScript | Infrastructure/tooling | 7 | 20 | 7 | 7 |
 | [OffchainLabs/nitro-testnode](https://github.com/OffchainLabs/nitro-testnode) | 45 | 2026-04-29T21:46:26Z | TypeScript | Infrastructure/tooling | 0 | 3 | 0 | 0 |

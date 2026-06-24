@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 19
-- terms: 116
-- components: 149
-- concepts: 116
-- observations: 116
+- repos: 18
+- terms: 112
+- components: 128
+- concepts: 112
+- observations: 112
 
 ## Static behavior
 
@@ -26,7 +26,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-06-22T22:40:16Z | Other | Infrastructure/tooling | 15 | 10 | 15 | 15 |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-22T19:08:44Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-06-22T13:11:33Z | Go | CLI | 5 | 0 | 5 | 5 |
 | [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-06-22T08:28:34Z | Go | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [mozilla-ai/any-guardrail](https://github.com/mozilla-ai/any-guardrail) | 95 | 2026-06-22T08:06:39Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
@@ -53,7 +52,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [edge-classic/EDGE-classic](https://github.com/edge-classic/EDGE-classic) | 98 | 2026-06-21T18:05:49Z | C/C++ | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [mozilla-ai/any-guardrail](https://github.com/mozilla-ai/any-guardrail) | 95 | 2026-06-22T08:06:39Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [lablup/mlxcel](https://github.com/lablup/mlxcel) | 94 | 2026-06-22T05:38:10Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-22T19:08:44Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [Jaded-Encoding-Thaumaturgy/vs-jetpack](https://github.com/Jaded-Encoding-Thaumaturgy/vs-jetpack) | 68 | 2026-06-18T14:30:27Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-06-22T08:28:34Z | Go | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 62 | 2026-06-19T17:29:00Z | Python | Infrastructure/tooling | 13 | 18 | 13 | 13 |

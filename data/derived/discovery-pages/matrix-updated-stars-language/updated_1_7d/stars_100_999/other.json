@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 128,
-    "observations": 129,
+    "components": 118,
+    "concepts": 113,
+    "observations": 114,
     "repos": 14,
-    "terms": 128
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "Artoriuz/ArtCNN",
-    "astroautomata/SymbolicRegression.jl",
     "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
     "Deep-Symmetry/beat-link-trigger",
@@ -26,6 +25,7 @@
     "grpc/grpc-dart",
     "karafka/rdkafka-ruby",
     "redis/redis-om-dotnet",
+    "sbt/sbt-jmh",
     "the-database/mpv-AnimeJaNai",
     "the-database/VideoJaNai"
   ]

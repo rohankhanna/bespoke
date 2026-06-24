@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 79
-- components: 61
-- concepts: 81
-- observations: 81
+- repos: 20
+- terms: 86
+- components: 66
+- concepts: 90
+- observations: 90
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges) | 16475 | 2026-03-26T06:06:43Z | Other | Infrastructure/tooling | 7 | 5 | 9 | 9 |
 | [openai/CLIP](https://github.com/openai/CLIP) | 33281 | 2026-03-25T18:46:40Z | Other | CLI | 3 | 2 | 3 | 3 |
 | [google/dopamine](https://github.com/google/dopamine) | 10878 | 2026-03-24T18:11:40Z | Other | Framework | 2 | 0 | 2 | 2 |
 | [Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term) | 25493 | 2026-03-19T21:20:57Z | Other | CLI | 5 | 5 | 5 | 5 |
@@ -62,6 +63,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [QwenLM/Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) | 19447 | 2026-01-30T04:47:30Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser) | 17427 | 2026-02-26T13:20:22Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [NVlabs/instant-ngp](https://github.com/NVlabs/instant-ngp) | 17362 | 2026-02-02T12:32:34Z | Other | Infrastructure/tooling | 11 | 6 | 12 | 12 |
+| [Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges) | 16475 | 2026-03-26T06:06:43Z | Other | Infrastructure/tooling | 7 | 5 | 9 | 9 |
 | [CocoaPods/CocoaPods](https://github.com/CocoaPods/CocoaPods) | 14810 | 2026-03-09T01:04:51Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [datawhalechina/llm-universe](https://github.com/datawhalechina/llm-universe) | 12866 | 2026-02-24T14:33:21Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [twbs/bootstrap-sass](https://github.com/twbs/bootstrap-sass) | 12506 | 2026-01-03T08:04:35Z | Other | Unknown | 0 | 3 | 0 | 0 |

@@ -1,27 +1,28 @@
 {
   "counts": {
-    "components": 387,
-    "concepts": 172,
-    "observations": 172,
-    "repos": 26,
-    "terms": 172
+    "components": 383,
+    "concepts": 162,
+    "observations": 162,
+    "repos": 25,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
     "antvis/GPT-Vis",
-    "aristoteleo/PantheonOS",
+    "astroautomata/SymbolicRegression.jl",
     "bazel-contrib/rules_kotlin",
     "confluentinc/librdkafka",
     "devcontainers/devcontainers.github.io",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "facebookresearch/MHR",
+    "flagos-ai/FlagScale",
     "google-deepmind/xmanager",
     "hexabot-ai/Hexabot",
     "huggingface/hf-mcp-server",
@@ -33,10 +34,8 @@
     "redis/redis-om-spring",
     "ROCm/hipBLASLt",
     "rust-nvml/nvml-wrapper",
-    "sbt/sbt-jmh",
     "scverse/rapids-singlecell",
     "servo/stylo",
-    "spring-projects/spring-tools",
     "stx-labs/stacks.js",
     "w3c/trusted-types"
   ]

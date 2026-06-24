@@ -3,7 +3,7 @@
     "components": 3166,
     "concepts": 1398,
     "observations": 1398,
-    "repos": 418,
+    "repos": 417,
     "terms": 1425
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/pil2-proofman-js",
@@ -222,7 +222,6 @@
     "ethpandaops/checkpoint-sync-health-checks",
     "f3liz-casa/noraneko-runtime",
     "facebookexperimental/cxx",
-    "flagos-ai/FlagOS-Robo",
     "flagos-ai/flir",
     "flagos-ai/TransformerEngine-FL",
     "flathub/org.gnome.eog",

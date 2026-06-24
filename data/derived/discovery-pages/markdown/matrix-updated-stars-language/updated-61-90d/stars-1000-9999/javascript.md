@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -119,7 +119,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jsx-eslint/eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) | 9280 | 2026-04-01T20:54:24Z | JavaScript | Infrastructure/tooling | 12 | 60 | 12 | 12 |
 | [jshttp/mime-types](https://github.com/jshttp/mime-types) | 1462 | 2026-04-01T16:54:15Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [amqp-node/amqplib](https://github.com/amqp-node/amqplib) | 3834 | 2026-03-31T16:52:01Z | JavaScript | CLI | 7 | 8 | 7 | 7 |
-| [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5959 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5960 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [isaacs/minimatch](https://github.com/isaacs/minimatch) | 3500 | 2026-03-30T18:11:46Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [ethereum/devp2p](https://github.com/ethereum/devp2p) | 1114 | 2026-03-30T13:14:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [anvaka/panzoom](https://github.com/anvaka/panzoom) | 1971 | 2026-03-30T00:07:56Z | JavaScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
@@ -165,7 +165,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs/ipfs-desktop](https://github.com/ipfs/ipfs-desktop) | 6525 | 2026-04-24T00:23:14Z | JavaScript | Infrastructure/tooling | 15 | 54 | 15 | 15 |
 | [RichardLitt/standard-readme](https://github.com/RichardLitt/standard-readme) | 6291 | 2026-04-10T03:26:11Z | JavaScript | Unknown | 5 | 2 | 5 | 5 |
 | [DavidAnson/markdownlint](https://github.com/DavidAnson/markdownlint) | 6021 | 2026-04-20T02:23:53Z | JavaScript | Infrastructure/tooling | 7 | 44 | 8 | 8 |
-| [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5959 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5960 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [fullstorydev/grpcui](https://github.com/fullstorydev/grpcui) | 5880 | 2026-04-21T21:18:50Z | JavaScript | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [nodegit/nodegit](https://github.com/nodegit/nodegit) | 5749 | 2026-04-23T03:19:51Z | JavaScript | Infrastructure/tooling | 11 | 20 | 11 | 11 |
 | [BrowserWorks/waterfox](https://github.com/BrowserWorks/waterfox) | 5742 | 2026-04-21T23:11:39Z | JavaScript | Infrastructure/tooling | 10 | 33 | 10 | 10 |

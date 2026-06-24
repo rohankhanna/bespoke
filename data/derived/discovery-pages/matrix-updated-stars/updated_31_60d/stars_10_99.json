@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4828,
-    "concepts": 2489,
-    "observations": 2501,
-    "repos": 517,
-    "terms": 2470
+    "components": 4766,
+    "concepts": 2477,
+    "observations": 2489,
+    "repos": 514,
+    "terms": 2458
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "1-Platform/op-components",
@@ -53,7 +53,6 @@
     "apache/casbin-govaluate",
     "apache/casbin-rust-actix-casbin",
     "apache/datafusion-ballista-python",
-    "apache/datasketches-go",
     "apache/doris-opentelemetry-demo",
     "apache/ignite-website",
     "apify/actor-templates",
@@ -320,7 +319,6 @@
     "LedgerHQ/ragger",
     "leleliu008/ppkg",
     "lhj5426/YSG",
-    "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "lifegpc/msg-tool",
     "liuliu/s4nnc",
@@ -366,7 +364,6 @@
     "ocaml-tracing/ocaml-trace",
     "oclif/plugin-autocomplete",
     "oclif/plugin-help",
-    "oclif/plugin-plugins",
     "oclif/plugin-update",
     "oclif/test",
     "octokit/auth-action.js",

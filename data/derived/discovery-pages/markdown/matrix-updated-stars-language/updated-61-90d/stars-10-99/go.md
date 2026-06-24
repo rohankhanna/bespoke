@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 82
-- terms: 341
-- components: 511
-- concepts: 347
-- observations: 349
+- repos: 83
+- terms: 345
+- components: 516
+- concepts: 351
+- observations: 353
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [apache/datasketches-go](https://github.com/apache/datasketches-go) | 26 | 2026-04-25T06:17:17Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [sigstore/k8s-manifest-sigstore](https://github.com/sigstore/k8s-manifest-sigstore) | 87 | 2026-04-24T20:52:26Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [sigstore/helm-sigstore](https://github.com/sigstore/helm-sigstore) | 69 | 2026-04-24T20:09:45Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [aquasecurity/trivy-java-db](https://github.com/aquasecurity/trivy-java-db) | 41 | 2026-04-24T10:02:51Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -166,6 +167,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fgrehm/clotilde](https://github.com/fgrehm/clotilde) | 29 | 2026-04-13T07:30:54Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [yomidevs/yomitan-import](https://github.com/yomidevs/yomitan-import) | 29 | 2026-04-07T01:24:32Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [appleboy/drone-lambda](https://github.com/appleboy/drone-lambda) | 27 | 2026-04-18T03:56:18Z | Go | Infrastructure/tooling | 11 | 15 | 11 | 11 |
+| [apache/datasketches-go](https://github.com/apache/datasketches-go) | 26 | 2026-04-25T06:17:17Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [apache/dubbo-go-pixiu-samples](https://github.com/apache/dubbo-go-pixiu-samples) | 25 | 2026-04-12T11:38:11Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [cosmos/cosmos-db](https://github.com/cosmos/cosmos-db) | 25 | 2026-04-09T14:54:24Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [GFW-knocker/AndroidLibXrayLite](https://github.com/GFW-knocker/AndroidLibXrayLite) | 25 | 2026-03-31T17:44:00Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -105,7 +105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zippoxer/recall](https://github.com/zippoxer/recall) | 178 | 2026-01-14T07:49:57Z | Rust | CLI | 2 | 6 | 0 | 0 |
 | [Roblox/foreman](https://github.com/Roblox/foreman) | 244 | 2026-01-13T22:22:15Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [bluss/matrixmultiply](https://github.com/bluss/matrixmultiply) | 254 | 2026-01-07T11:47:49Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | 292 | 2025-12-26T14:39:57Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | 293 | 2025-12-26T14:39:57Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -150,7 +150,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dimforge/simba](https://github.com/dimforge/simba) | 335 | 2026-02-07T15:46:08Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [MatsDK/TauRPC](https://github.com/MatsDK/TauRPC) | 323 | 2026-02-12T17:38:40Z | Rust | Infrastructure/tooling | 3 | 19 | 3 | 3 |
 | [unicode-rs/unicode-width](https://github.com/unicode-rs/unicode-width) | 298 | 2026-02-19T16:40:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | 292 | 2025-12-26T14:39:57Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | 293 | 2025-12-26T14:39:57Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [Manishearth/triomphe](https://github.com/Manishearth/triomphe) | 289 | 2026-01-22T21:05:24Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [op-rs/kona](https://github.com/op-rs/kona) | 289 | 2026-01-16T16:44:30Z | Rust | Infrastructure/tooling | 15 | 23 | 15 | 15 |
 | [IWANABETHATGUY/tower-lsp-boilerplate](https://github.com/IWANABETHATGUY/tower-lsp-boilerplate) | 282 | 2026-03-04T13:35:04Z | Rust | Infrastructure/tooling | 0 | 19 | 0 | 0 |

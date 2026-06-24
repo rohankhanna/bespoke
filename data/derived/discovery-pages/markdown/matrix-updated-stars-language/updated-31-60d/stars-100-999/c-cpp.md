@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 132
-- terms: 799
-- components: 768
-- concepts: 801
-- observations: 802
+- repos: 131
+- terms: 798
+- components: 764
+- concepts: 800
+- observations: 801
 
 ## Static behavior
 
@@ -157,7 +157,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jcmvbkbc/gcc-xtensa](https://github.com/jcmvbkbc/gcc-xtensa) | 136 | 2026-04-25T10:34:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kleisauke/wasm-vips](https://github.com/kleisauke/wasm-vips) | 861 | 2026-04-25T09:12:46Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [VectorDB-NTU/RaBitQ-Library](https://github.com/VectorDB-NTU/RaBitQ-Library) | 198 | 2026-04-25T09:04:24Z | C/C++ | Library | 4 | 0 | 4 | 4 |
-| [libbitcoin/libbitcoin-node](https://github.com/libbitcoin/libbitcoin-node) | 119 | 2026-04-25T06:18:51Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -293,5 +292,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nix-community/nix-unit](https://github.com/nix-community/nix-unit) | 122 | 2026-05-01T19:56:01Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [kiron1/bazel-compile-commands](https://github.com/kiron1/bazel-compile-commands) | 120 | 2026-05-10T19:17:35Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [j20001970/GDMP](https://github.com/j20001970/GDMP) | 120 | 2026-05-01T03:49:38Z | C/C++ | Infrastructure/tooling | 13 | 3 | 13 | 13 |
-| [libbitcoin/libbitcoin-node](https://github.com/libbitcoin/libbitcoin-node) | 119 | 2026-04-25T06:18:51Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [atsushieno/aap-core](https://github.com/atsushieno/aap-core) | 116 | 2026-05-13T18:48:28Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |

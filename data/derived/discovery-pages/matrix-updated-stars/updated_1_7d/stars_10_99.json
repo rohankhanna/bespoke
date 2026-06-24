@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 116,
-    "observations": 116,
-    "repos": 19,
-    "terms": 116
+    "components": 128,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 18,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "andfoy/winpty-rs",
     "apostrophecms/starter-kit-astro-apollo",
@@ -27,7 +27,6 @@
     "lumen-oss/luarocks-tag-release",
     "mozilla-ai/any-guardrail",
     "mozilla-ai/otari",
-    "nuxt-modules/emotion",
     "nvim-mini/mini.deps",
     "tinted-theming/tinted-xresources",
     "wamp-proto/wamp-xbr",

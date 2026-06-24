@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 10,
-    "terms": 72
+    "components": 96,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 9,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "ash-rs/ash",
     "bionic-gpt/bionic-gpt",
     "dmtrKovalenko/fff",
     "evcxr/evcxr",
     "geiger-rs/cargo-geiger",
-    "godot-rust/gdext",
     "hermit-os/hermit-rs",
     "imgui-rs/imgui-rs",
     "safetensors/safetensors",

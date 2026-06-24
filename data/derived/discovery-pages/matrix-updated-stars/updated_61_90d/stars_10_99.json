@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 7580,
-    "concepts": 3597,
-    "observations": 3612,
-    "repos": 931,
-    "terms": 3656
+    "components": 7642,
+    "concepts": 3609,
+    "observations": 3624,
+    "repos": 934,
+    "terms": 3668
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -115,6 +115,7 @@
     "apache/arrow-java",
     "apache/arrow-testing",
     "apache/camel-quarkus-examples",
+    "apache/datasketches-go",
     "apache/datasketches-hive",
     "apache/datasketches-pig",
     "apache/dubbo-go-pixiu-samples",
@@ -614,6 +615,7 @@
     "Level/memory-level",
     "lewis6991/async.nvim",
     "liangshengyong/lanwan",
+    "libbitcoin/libbitcoin-database",
     "libp2p/test-plans",
     "libxsmm/tpp-pytorch-extension",
     "llamastack/llama-stack-client-typescript",
@@ -726,6 +728,7 @@
     "ocaml/platform-blog",
     "oceanbase/docker-images",
     "oclif/oclif.github.io",
+    "oclif/plugin-plugins",
     "octokit/app-permissions",
     "octokit/openapi",
     "octokit/openapi-types.ts",

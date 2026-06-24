@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1 to 9 stars · Rust
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -14,7 +14,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 - repos: 1
 - terms: 1
-- components: 20
+- components: 21
 - concepts: 1
 - observations: 1
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-06-23T09:59:04Z | Rust | Infrastructure/tooling | 1 | 20 | 1 | 1 |
+| [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-06-23T15:32:33Z | Rust | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-06-23T09:59:04Z | Rust | Infrastructure/tooling | 1 | 20 | 1 | 1 |
+| [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-06-23T15:32:33Z | Rust | Infrastructure/tooling | 1 | 21 | 1 | 1 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 2,
-    "terms": 10
+    "components": 65,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 3,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "karafka/example-apps",
-    "pivotal/credhub-release"
+    "pivotal/credhub-release",
+    "processing/processing-website"
   ]
 }

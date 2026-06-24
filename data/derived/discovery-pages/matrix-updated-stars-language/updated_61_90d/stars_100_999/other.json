@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 3118,
+    "components": 3057,
     "concepts": 2429,
     "observations": 2434,
     "repos": 445,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -158,7 +158,6 @@
     "dmtrKovalenko/zlob",
     "DNSCrypt/dnscrypt-protocol",
     "DomGries/InnoDependencyInstaller",
-    "doolijb/serene-pub",
     "dotnet/AspNetDocs",
     "dotnet/csharpstandard",
     "dotnet/designs",
@@ -401,6 +400,7 @@
     "saka1/simdjson_ruby",
     "salvadordf/WebView4Delphi",
     "samtools/hts-specs",
+    "sbt/sbt-pgp",
     "SciML/ColPrac",
     "SciML/SciMLStyle",
     "sebastienros/esprima-dotnet",

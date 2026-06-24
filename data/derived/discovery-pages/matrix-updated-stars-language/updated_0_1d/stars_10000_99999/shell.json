@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 9,
+    "components": 10,
     "concepts": 14,
     "observations": 14,
     "repos": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "spaceship-prompt/spaceship-prompt"
   ]

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 97
-- terms: 785
-- components: 848
-- concepts: 787
-- observations: 788
+- repos: 96
+- terms: 779
+- components: 844
+- concepts: 781
+- observations: 782
 
 ## Static behavior
 
@@ -122,7 +122,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [itzg/mc-monitor](https://github.com/itzg/mc-monitor) | 314 | 2026-04-26T18:03:36Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [2dust/AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite) | 427 | 2026-04-26T02:20:02Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [cloudfoundry/bosh-cli](https://github.com/cloudfoundry/bosh-cli) | 188 | 2026-04-25T10:06:16Z | Go | CLI | 1 | 4 | 1 | 1 |
-| [trzsz/tsshd](https://github.com/trzsz/tsshd) | 425 | 2026-04-25T07:36:53Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -175,7 +174,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pion/rtp](https://github.com/pion/rtp) | 466 | 2026-05-01T09:18:28Z | Go | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 | [hybridgroup/yzma](https://github.com/hybridgroup/yzma) | 444 | 2026-04-30T08:10:00Z | Go | Infrastructure/tooling | 15 | 3 | 15 | 15 |
 | [2dust/AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite) | 427 | 2026-04-26T02:20:02Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [trzsz/tsshd](https://github.com/trzsz/tsshd) | 425 | 2026-04-25T07:36:53Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [boj/redistore](https://github.com/boj/redistore) | 424 | 2026-04-27T10:57:49Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [ClickHouse/ch-go](https://github.com/ClickHouse/ch-go) | 421 | 2026-04-28T19:22:50Z | Go | CLI | 7 | 10 | 7 | 7 |
 | [CosmWasm/wasmd](https://github.com/CosmWasm/wasmd) | 412 | 2026-05-04T08:11:41Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |

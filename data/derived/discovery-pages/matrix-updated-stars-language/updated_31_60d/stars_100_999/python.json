@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 955,
-    "concepts": 952,
-    "observations": 956,
-    "repos": 164,
-    "terms": 948
+    "concepts": 933,
+    "observations": 937,
+    "repos": 163,
+    "terms": 929
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
@@ -58,7 +58,6 @@
     "conda/conda-build",
     "conda/conda-libmamba-solver",
     "cosmos/chain-registry",
-    "CVHub520/X-AnyLabeling-Server",
     "DanielLin94144/Full-Duplex-Bench",
     "Dao-AILab/quack",
     "Dao-AILab/sonic-moe",

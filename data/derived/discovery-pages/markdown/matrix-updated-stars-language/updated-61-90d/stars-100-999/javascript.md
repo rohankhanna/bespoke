@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 143
-- terms: 706
-- components: 2893
-- concepts: 676
-- observations: 685
+- repos: 141
+- terms: 696
+- components: 2869
+- concepts: 666
+- observations: 675
 
 ## Static behavior
 
@@ -167,8 +167,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [markdown-it/linkify-it](https://github.com/markdown-it/linkify-it) | 720 | 2026-03-26T14:27:31Z | JavaScript | Infrastructure/tooling | 0 | 18 | 0 | 0 |
 | [d3/d3-geo-polygon](https://github.com/d3/d3-geo-polygon) | 123 | 2026-03-26T11:02:59Z | JavaScript | CLI | 5 | 20 | 5 | 5 |
 | [Fil/d3-geo-voronoi](https://github.com/Fil/d3-geo-voronoi) | 274 | 2026-03-26T11:02:26Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
-| [protocolbuffers/protobuf-javascript](https://github.com/protocolbuffers/protobuf-javascript) | 460 | 2026-03-26T07:27:46Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
-| [mourner/flatqueue](https://github.com/mourner/flatqueue) | 144 | 2026-03-26T07:01:04Z | JavaScript | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -241,7 +239,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [testing-library/testing-library-docs](https://github.com/testing-library/testing-library-docs) | 476 | 2026-04-10T17:23:02Z | JavaScript | Library | 8 | 12 | 8 | 8 |
 | [terser/html-minifier-terser](https://github.com/terser/html-minifier-terser) | 465 | 2026-04-10T03:30:58Z | JavaScript | CLI | 10 | 24 | 10 | 10 |
 | [mourner/tinyqueue](https://github.com/mourner/tinyqueue) | 464 | 2026-04-05T21:05:19Z | JavaScript | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [protocolbuffers/protobuf-javascript](https://github.com/protocolbuffers/protobuf-javascript) | 460 | 2026-03-26T07:27:46Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [poolifier/poolifier](https://github.com/poolifier/poolifier) | 450 | 2026-04-23T01:39:48Z | JavaScript | Infrastructure/tooling | 14 | 42 | 14 | 14 |
 | [semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer) | 437 | 2026-04-20T09:20:32Z | JavaScript | Infrastructure/tooling | 9 | 25 | 9 | 10 |
 | [octokit/request-action](https://github.com/octokit/request-action) | 434 | 2026-04-15T01:43:12Z | JavaScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
@@ -300,7 +297,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fastify/example](https://github.com/fastify/example) | 150 | 2026-04-08T18:56:37Z | JavaScript | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [bmad-code-org/bmad-module-game-dev-studio](https://github.com/bmad-code-org/bmad-module-game-dev-studio) | 144 | 2026-04-15T02:37:49Z | JavaScript | Infrastructure/tooling | 4 | 36 | 4 | 4 |
 | [CyberAP/nanoid-dictionary](https://github.com/CyberAP/nanoid-dictionary) | 144 | 2026-03-29T10:37:22Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
-| [mourner/flatqueue](https://github.com/mourner/flatqueue) | 144 | 2026-03-26T07:01:04Z | JavaScript | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [fastify/create-fastify](https://github.com/fastify/create-fastify) | 142 | 2026-04-08T18:54:13Z | JavaScript | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [Taritsyn/BundleTransformer](https://github.com/Taritsyn/BundleTransformer) | 139 | 2026-04-21T09:26:36Z | JavaScript | Framework | 0 | 0 | 0 | 0 |
 | [rtfeldman/node-test-runner](https://github.com/rtfeldman/node-test-runner) | 139 | 2026-03-30T21:00:12Z | JavaScript | Infrastructure/tooling | 2 | 24 | 2 | 2 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2893,
-    "concepts": 676,
-    "observations": 685,
-    "repos": 143,
-    "terms": 706
+    "components": 2869,
+    "concepts": 666,
+    "observations": 675,
+    "repos": 141,
+    "terms": 696
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -112,7 +112,6 @@
     "marwin1991/profile-technology-icons",
     "Mathpix/mathpix-markdown-it",
     "mattgodbolt/jsbeeb",
-    "mourner/flatqueue",
     "mourner/kdbush",
     "mourner/tinyqueue",
     "muratcankoylan/ralph-wiggum-marketer",
@@ -132,7 +131,6 @@
     "postcss/sugarss",
     "previm/previm",
     "projectfluent/fluent.js",
-    "protocolbuffers/protobuf-javascript",
     "rtfeldman/node-test-runner",
     "semantic-release/changelog",
     "semantic-release/commit-analyzer",

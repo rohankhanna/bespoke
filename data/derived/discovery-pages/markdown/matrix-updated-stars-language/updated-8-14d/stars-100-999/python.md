@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -28,10 +28,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [unum-bio/USearchMolecules](https://github.com/unum-bio/USearchMolecules) | 103 | 2026-06-15T23:06:46Z | Python | Unknown | 11 | 0 | 11 | 11 |
 | [machinewrapped/llm-subtrans](https://github.com/machinewrapped/llm-subtrans) | 609 | 2026-06-14T16:54:29Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [xlite-dev/Awesome-DiT-Inference](https://github.com/xlite-dev/Awesome-DiT-Inference) | 570 | 2026-06-13T14:59:22Z | Python | Unknown | 10 | 0 | 10 | 10 |
+| [xlite-dev/Awesome-DiT-Inference](https://github.com/xlite-dev/Awesome-DiT-Inference) | 571 | 2026-06-13T14:59:22Z | Python | Unknown | 10 | 0 | 10 | 10 |
 | [adamchainz/blacken-docs](https://github.com/adamchainz/blacken-docs) | 681 | 2026-06-12T20:25:18Z | Python | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [google-deepmind/chex](https://github.com/google-deepmind/chex) | 946 | 2026-06-12T16:27:07Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [databrickslabs/ucx](https://github.com/databrickslabs/ucx) | 308 | 2026-06-12T13:19:03Z | Python | CLI | 10 | 9 | 10 | 10 |
+| [databrickslabs/ucx](https://github.com/databrickslabs/ucx) | 309 | 2026-06-12T13:19:03Z | Python | CLI | 10 | 9 | 10 | 10 |
 | [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 299 | 2026-06-12T09:41:52Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 
 ## Repos sorted by stars
@@ -41,7 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-deepmind/chex](https://github.com/google-deepmind/chex) | 946 | 2026-06-12T16:27:07Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [adamchainz/blacken-docs](https://github.com/adamchainz/blacken-docs) | 681 | 2026-06-12T20:25:18Z | Python | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [machinewrapped/llm-subtrans](https://github.com/machinewrapped/llm-subtrans) | 609 | 2026-06-14T16:54:29Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [xlite-dev/Awesome-DiT-Inference](https://github.com/xlite-dev/Awesome-DiT-Inference) | 570 | 2026-06-13T14:59:22Z | Python | Unknown | 10 | 0 | 10 | 10 |
-| [databrickslabs/ucx](https://github.com/databrickslabs/ucx) | 308 | 2026-06-12T13:19:03Z | Python | CLI | 10 | 9 | 10 | 10 |
+| [xlite-dev/Awesome-DiT-Inference](https://github.com/xlite-dev/Awesome-DiT-Inference) | 571 | 2026-06-13T14:59:22Z | Python | Unknown | 10 | 0 | 10 | 10 |
+| [databrickslabs/ucx](https://github.com/databrickslabs/ucx) | 309 | 2026-06-12T13:19:03Z | Python | CLI | 10 | 9 | 10 | 10 |
 | [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 299 | 2026-06-12T09:41:52Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [unum-bio/USearchMolecules](https://github.com/unum-bio/USearchMolecules) | 103 | 2026-06-15T23:06:46Z | Python | Unknown | 11 | 0 | 11 | 11 |

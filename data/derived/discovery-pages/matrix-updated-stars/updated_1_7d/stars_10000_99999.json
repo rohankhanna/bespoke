@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 503,
-    "concepts": 325,
-    "observations": 325,
-    "repos": 33,
-    "terms": 319
+    "components": 649,
+    "concepts": 370,
+    "observations": 370,
+    "repos": 35,
+    "terms": 366
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "apache/brpc",
     "browserslist/browserslist",
     "clsid2/mpc-hc",
-    "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
     "datalab-to/marker",
     "dense-analysis/ale",
@@ -24,11 +23,15 @@
     "fastapi/full-stack-fastapi-template",
     "gastownhall/gastown",
     "ggml-org/ggml",
+    "ggml-org/whisper.cpp",
     "github-linguist/linguist",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
+    "isl-org/Open3D",
+    "jestjs/jest",
     "lancedb/lancedb",
     "langchain-ai/langchainjs",
+    "moby/moby",
     "podman-container-tools/podman",
     "psf/black",
     "pydantic/pydantic",
@@ -39,7 +42,6 @@
     "run-llama/llama_index",
     "rust-lang/mdBook",
     "rust-lang/rust-analyzer",
-    "spaceship-prompt/spaceship-prompt",
     "TA-Lib/ta-lib-python",
     "tinygrad/tinygrad",
     "tracel-ai/burn",

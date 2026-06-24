@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 164
-- terms: 948
+- repos: 163
+- terms: 929
 - components: 955
-- concepts: 952
-- observations: 956
+- concepts: 933
+- observations: 937
 
 ## Static behavior
 
@@ -189,7 +189,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OSU-NLP-Group/GUI-Agents-Paper-List](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List) | 745 | 2026-04-25T17:49:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [py-cov-action/python-coverage-comment-action](https://github.com/py-cov-action/python-coverage-comment-action) | 139 | 2026-04-25T14:48:11Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [carla-simulator/scenario_runner](https://github.com/carla-simulator/scenario_runner) | 659 | 2026-04-25T13:24:18Z | Python | Infrastructure/tooling | 5 | 1 | 5 | 5 |
-| [CVHub520/X-AnyLabeling-Server](https://github.com/CVHub520/X-AnyLabeling-Server) | 212 | 2026-04-25T07:23:35Z | Python | CLI | 19 | 0 | 19 | 19 |
 
 ## Repos sorted by stars
 
@@ -315,7 +314,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [taylorwilsdon/open-webui-postgres-migration](https://github.com/taylorwilsdon/open-webui-postgres-migration) | 220 | 2026-04-28T14:58:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [gbionics/adam](https://github.com/gbionics/adam) | 219 | 2026-05-18T09:46:43Z | Python | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [RDFLib/pyLODE](https://github.com/RDFLib/pyLODE) | 214 | 2026-04-29T00:25:39Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [CVHub520/X-AnyLabeling-Server](https://github.com/CVHub520/X-AnyLabeling-Server) | 212 | 2026-04-25T07:23:35Z | Python | CLI | 19 | 0 | 19 | 19 |
 | [enjoy-digital/litescope](https://github.com/enjoy-digital/litescope) | 203 | 2026-04-30T09:01:34Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Blosc/python-blosc2](https://github.com/Blosc/python-blosc2) | 201 | 2026-05-03T07:40:35Z | Python | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [aboutcode-org/scancode.io](https://github.com/aboutcode-org/scancode.io) | 201 | 2026-04-30T14:22:25Z | Python | Infrastructure/tooling | 19 | 11 | 19 | 19 |

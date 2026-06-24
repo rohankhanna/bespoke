@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 12,
-    "terms": 43
+    "components": 131,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 11,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "aidenlab/juicebox.js",
@@ -22,7 +22,6 @@
     "mesh-iit/cad-libraries",
     "ocaml-tracing/ocaml-opentelemetry",
     "ogx-ai/ogx-client-typescript",
-    "processing/processing-website",
     "storybook-community/addon-queryparams",
     "symgraph/BinAssistMCP"
   ]

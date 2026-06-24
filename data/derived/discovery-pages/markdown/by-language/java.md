@@ -1,6 +1,6 @@
 # Java
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 ## Active filters
 
@@ -22,12 +22,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3798 | 2026-06-24T00:25:10Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 104 | 2026-06-23T21:28:20Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2380 | 2026-06-23T20:23:58Z | Java | CLI | 8 | 12 | 8 | 8 |
 | [grpc/grpc-java](https://github.com/grpc/grpc-java) | 12034 | 2026-06-23T15:15:36Z | Java | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1984 | 2026-06-23T14:57:50Z | Java | Infrastructure/tooling | 13 | 30 | 13 | 13 |
 | [redis/redis-om-spring](https://github.com/redis/redis-om-spring) | 654 | 2026-06-23T13:57:41Z | Java | Infrastructure/tooling | 8 | 23 | 8 | 8 |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3798 | 2026-06-23T11:54:22Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
-| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2379 | 2026-06-23T09:00:40Z | Java | CLI | 8 | 12 | 8 | 8 |
 | [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 970 | 2026-06-23T07:44:13Z | Java | CLI | 16 | 8 | 16 | 16 |
 | [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-06-22T16:31:36Z | Java | CLI | 8 | 14 | 8 | 8 |
 | [Deep-Symmetry/beat-link](https://github.com/Deep-Symmetry/beat-link) | 278 | 2026-06-22T04:17:58Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
@@ -773,7 +773,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [react-native-share/react-native-share](https://github.com/react-native-share/react-native-share) | 3879 | 2026-04-14T01:15:58Z | Java | Infrastructure/tooling | 10 | 51 | 10 | 10 |
 | [spotbugs/spotbugs](https://github.com/spotbugs/spotbugs) | 3865 | 2026-04-20T09:41:42Z | Java | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [RoaringBitmap/RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap) | 3853 | 2026-04-15T02:15:42Z | Java | Infrastructure/tooling | 14 | 11 | 14 | 15 |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3798 | 2026-06-23T11:54:22Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3798 | 2026-06-24T00:25:10Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw) | 3747 | 2026-03-02T01:13:06Z | Java | Infrastructure/tooling | 15 | 2 | 15 | 15 |
 | [FasterXML/jackson-databind](https://github.com/FasterXML/jackson-databind) | 3719 | 2026-04-28T20:50:36Z | Java | Infrastructure/tooling | 11 | 11 | 12 | 12 |
 | [PlexPt/chatgpt-java](https://github.com/PlexPt/chatgpt-java) | 3611 | 2025-11-29T16:41:52Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
@@ -805,7 +805,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [confluentinc/schema-registry](https://github.com/confluentinc/schema-registry) | 2428 | 2026-04-30T03:48:09Z | Java | Unknown | 10 | 0 | 12 | 12 |
 | [peergos/peergos](https://github.com/Peergos/Peergos) | 2393 | 2026-04-18T23:06:04Z | Java | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java) | 2390 | 2026-04-22T00:52:49Z | Java | Infrastructure/tooling | 10 | 14 | 10 | 10 |
-| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2379 | 2026-06-23T09:00:40Z | Java | CLI | 8 | 12 | 8 | 8 |
+| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2380 | 2026-06-23T20:23:58Z | Java | CLI | 8 | 12 | 8 | 8 |
 | [FasterXML/jackson-core](https://github.com/FasterXML/jackson-core) | 2361 | 2026-04-28T20:49:53Z | Java | Infrastructure/tooling | 10 | 11 | 11 | 11 |
 | [apache/incubator-seata-samples](https://github.com/apache/incubator-seata-samples) | 2357 | 2026-02-14T04:04:12Z | Java | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [HdrHistogram/HdrHistogram](https://github.com/HdrHistogram/HdrHistogram) | 2299 | 2024-06-27T13:01:32Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |

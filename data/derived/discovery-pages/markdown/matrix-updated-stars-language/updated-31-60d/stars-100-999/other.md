@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 248
-- terms: 1418
-- components: 2020
-- concepts: 1426
-- observations: 1427
+- repos: 247
+- terms: 1416
+- components: 2017
+- concepts: 1425
+- observations: 1426
 
 ## Static behavior
 
@@ -27,7 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [google/protobuf.dart](https://github.com/google/protobuf.dart) | 571 | 2026-05-21T11:19:02Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [dwyl/quotes](https://github.com/dwyl/quotes) | 343 | 2026-05-20T20:48:26Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
+| [dwyl/quotes](https://github.com/dwyl/quotes) | 343 | 2026-05-20T20:48:26Z | Other | Infrastructure/tooling | 4 | 12 | 5 | 5 |
 | [lambdalisue/vim-nerdfont](https://github.com/lambdalisue/vim-nerdfont) | 148 | 2026-05-20T04:00:41Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 6 |
 | [openbsd/ports](https://github.com/openbsd/ports) | 558 | 2026-05-19T18:49:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ErikSom/Clipper2-WASM](https://github.com/ErikSom/Clipper2-WASM) | 105 | 2026-05-18T18:09:17Z | Other | CLI | 5 | 0 | 5 | 5 |
@@ -273,7 +273,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [babashka/process](https://github.com/babashka/process) | 245 | 2026-04-25T12:44:39Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [amerkoleci/JoltPhysicsSharp](https://github.com/amerkoleci/JoltPhysicsSharp) | 380 | 2026-04-25T10:51:30Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [hackwaly/ocamlearlybird](https://github.com/hackwaly/ocamlearlybird) | 235 | 2026-04-25T08:25:57Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [sbt/sbt-pgp](https://github.com/sbt/sbt-pgp) | 149 | 2026-04-25T07:21:45Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -394,7 +393,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [status-im/status-app](https://github.com/status-im/status-app) | 357 | 2026-04-29T17:58:11Z | Other | CLI | 5 | 4 | 5 | 5 |
 | [openair-project/openair](https://github.com/openair-project/openair) | 353 | 2026-05-02T11:00:52Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [haskell/ghcup-hs](https://github.com/haskell/ghcup-hs) | 345 | 2026-05-01T15:49:20Z | Other | Infrastructure/tooling | 12 | 13 | 12 | 12 |
-| [dwyl/quotes](https://github.com/dwyl/quotes) | 343 | 2026-05-20T20:48:26Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
+| [dwyl/quotes](https://github.com/dwyl/quotes) | 343 | 2026-05-20T20:48:26Z | Other | Infrastructure/tooling | 4 | 12 | 5 | 5 |
 | [bitwuzla/bitwuzla](https://github.com/bitwuzla/bitwuzla) | 342 | 2026-04-29T19:36:44Z | Other | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [AdguardTeam/FiltersRegistry](https://github.com/AdguardTeam/FiltersRegistry) | 339 | 2026-05-04T17:41:50Z | Other | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [clojure-emacs/orchard](https://github.com/clojure-emacs/orchard) | 338 | 2026-04-29T10:04:05Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
@@ -493,7 +492,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cp2k/dbcsr](https://github.com/cp2k/dbcsr) | 153 | 2026-04-28T06:42:00Z | Other | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [github/pages-health-check](https://github.com/github/pages-health-check) | 153 | 2026-04-27T16:56:49Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [reactor/reactor-kotlin-extensions](https://github.com/reactor/reactor-kotlin-extensions) | 149 | 2026-04-29T04:39:25Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [sbt/sbt-pgp](https://github.com/sbt/sbt-pgp) | 149 | 2026-04-25T07:21:45Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [lambdalisue/vim-nerdfont](https://github.com/lambdalisue/vim-nerdfont) | 148 | 2026-05-20T04:00:41Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 6 |
 | [moyangzhan/langchain4j-aideepin-web](https://github.com/moyangzhan/langchain4j-aideepin-web) | 144 | 2026-04-30T12:34:36Z | Other | Infrastructure/tooling | 0 | 55 | 0 | 0 |
 | [JuliaLLVM/LLVM.jl](https://github.com/JuliaLLVM/LLVM.jl) | 142 | 2026-05-01T09:51:19Z | Other | Infrastructure/tooling | 10 | 14 | 10 | 10 |

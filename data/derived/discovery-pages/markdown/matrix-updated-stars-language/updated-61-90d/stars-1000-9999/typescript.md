@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -178,7 +178,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gajus/slonik](https://github.com/gajus/slonik) | 4900 | 2026-04-06T22:40:15Z | TypeScript | CLI | 5 | 11 | 5 | 5 |
 | [graffle-js/graffle](https://github.com/graffle-js/graffle) | 6116 | 2026-04-06T20:18:33Z | TypeScript | CLI | 8 | 66 | 8 | 8 |
 | [cawa-93/vite-electron-builder](https://github.com/cawa-93/vite-electron-builder) | 2980 | 2026-04-06T18:37:54Z | TypeScript | Infrastructure/tooling | 16 | 15 | 16 | 16 |
-| [remotion-dev/github-unwrapped](https://github.com/remotion-dev/github-unwrapped) | 1300 | 2026-04-06T07:28:43Z | TypeScript | Unknown | 5 | 50 | 5 | 5 |
+| [remotion-dev/github-unwrapped](https://github.com/remotion-dev/github-unwrapped) | 1301 | 2026-04-06T07:28:43Z | TypeScript | Unknown | 5 | 50 | 5 | 5 |
 | [microsoft/node-pty](https://github.com/microsoft/node-pty) | 1887 | 2026-04-06T07:22:39Z | TypeScript | CLI | 6 | 13 | 6 | 6 |
 | [allweonedev/presentation-ai](https://github.com/allweonedev/presentation-ai) | 2760 | 2026-04-04T10:21:47Z | TypeScript | Unknown | 10 | 185 | 10 | 10 |
 | [TypeStrong/ts-loader](https://github.com/TypeStrong/ts-loader) | 3480 | 2026-04-03T12:09:35Z | TypeScript | Infrastructure/tooling | 5 | 43 | 5 | 5 |
@@ -188,7 +188,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [butlerx/wetty](https://github.com/butlerx/wetty) | 5249 | 2026-04-02T08:58:14Z | TypeScript | CLI | 16 | 91 | 16 | 16 |
 | [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp) | 8586 | 2026-04-01T21:17:04Z | TypeScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
 | [glittercowboy/taches-cc-resources](https://github.com/glittercowboy/taches-cc-resources) | 1815 | 2026-04-01T15:10:58Z | TypeScript | Unknown | 6 | 0 | 6 | 6 |
-| [mattpocock/ts-reset](https://github.com/mattpocock/ts-reset) | 8533 | 2026-04-01T13:30:54Z | TypeScript | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [mattpocock/ts-reset](https://github.com/mattpocock/ts-reset) | 8535 | 2026-04-01T13:30:54Z | TypeScript | Infrastructure/tooling | 2 | 11 | 2 | 2 |
 | [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch) | 1179 | 2026-04-01T11:04:08Z | TypeScript | Infrastructure/tooling | 8 | 25 | 8 | 9 |
 | [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) | 1884 | 2026-04-01T04:52:27Z | TypeScript | Infrastructure/tooling | 13 | 46 | 13 | 13 |
 | [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | 4949 | 2026-03-31T04:12:28Z | TypeScript | Infrastructure/tooling | 8 | 2 | 9 | 9 |
@@ -210,7 +210,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | 8825 | 2026-04-14T19:03:50Z | TypeScript | CLI | 2 | 7 | 2 | 2 |
 | [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js) | 8655 | 2026-04-10T00:11:59Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |
 | [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp) | 8586 | 2026-04-01T21:17:04Z | TypeScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
-| [mattpocock/ts-reset](https://github.com/mattpocock/ts-reset) | 8533 | 2026-04-01T13:30:54Z | TypeScript | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [mattpocock/ts-reset](https://github.com/mattpocock/ts-reset) | 8535 | 2026-04-01T13:30:54Z | TypeScript | Infrastructure/tooling | 2 | 11 | 2 | 2 |
 | [VoltAgent/voltagent](https://github.com/VoltAgent/voltagent) | 8409 | 2026-04-22T20:30:45Z | TypeScript | Infrastructure/tooling | 13 | 39 | 13 | 13 |
 | [withastro/starlight](https://github.com/withastro/starlight) | 8328 | 2026-04-18T01:41:20Z | TypeScript | Infrastructure/tooling | 12 | 26 | 12 | 12 |
 | [yarnpkg/berry](https://github.com/yarnpkg/berry) | 8061 | 2026-04-23T09:32:36Z | TypeScript | Infrastructure/tooling | 11 | 26 | 11 | 11 |
@@ -355,7 +355,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docker/setup-buildx-action](https://github.com/docker/setup-buildx-action) | 1317 | 2026-04-23T04:42:12Z | TypeScript | Infrastructure/tooling | 12 | 33 | 12 | 12 |
 | [ipfs/helia](https://github.com/ipfs/helia) | 1315 | 2026-04-21T14:26:28Z | TypeScript | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [google-gemini/starter-applets](https://github.com/google-gemini/starter-applets) | 1313 | 2026-04-09T05:34:40Z | TypeScript | Template/starter | 3 | 0 | 3 | 3 |
-| [remotion-dev/github-unwrapped](https://github.com/remotion-dev/github-unwrapped) | 1300 | 2026-04-06T07:28:43Z | TypeScript | Unknown | 5 | 50 | 5 | 5 |
+| [remotion-dev/github-unwrapped](https://github.com/remotion-dev/github-unwrapped) | 1301 | 2026-04-06T07:28:43Z | TypeScript | Unknown | 5 | 50 | 5 | 5 |
 | [octokit/core.js](https://github.com/octokit/core.js) | 1271 | 2026-04-23T15:43:30Z | TypeScript | CLI | 7 | 33 | 7 | 7 |
 | [wighawag/hardhat-deploy](https://github.com/wighawag/hardhat-deploy) | 1262 | 2026-04-21T12:47:43Z | TypeScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [cloudflare/agents-starter](https://github.com/cloudflare/agents-starter) | 1240 | 2026-04-20T18:51:16Z | TypeScript | Infrastructure/tooling | 3 | 28 | 3 | 3 |

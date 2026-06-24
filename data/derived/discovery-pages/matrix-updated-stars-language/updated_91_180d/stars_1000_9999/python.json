@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 531,
-    "concepts": 1069,
-    "observations": 1069,
-    "repos": 194,
-    "terms": 1058
+    "components": 541,
+    "concepts": 1089,
+    "observations": 1089,
+    "repos": 196,
+    "terms": 1078
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -174,6 +174,7 @@
     "QwenLM/Qwen-Image",
     "randy3k/radian",
     "remsky/Kokoro-FastAPI",
+    "rusty1s/pytorch_scatter",
     "s3prl/s3prl",
     "SafeAILab/EAGLE",
     "ServiceNow/BrowserGym",
@@ -183,6 +184,7 @@
     "simonw/claude-code-transcripts",
     "simonw/sqlite-utils",
     "sirfz/tesserocr",
+    "snakers4/silero-vad",
     "Softcatala/whisper-ctranslate2",
     "SublimeLinter/SublimeLinter",
     "TencentCloudADP/youtu-agent",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 115,
-    "observations": 115,
-    "repos": 7,
-    "terms": 115
+    "components": 126,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 6,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "apache/casbin",
     "crossplane/crossplane",
     "gastownhall/beads",
-    "moby/moby",
     "mudler/LocalAI",
     "QuantumNous/new-api",
     "weaviate/weaviate"

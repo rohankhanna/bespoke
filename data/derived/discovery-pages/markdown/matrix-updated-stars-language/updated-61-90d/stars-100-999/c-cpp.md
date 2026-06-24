@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-24T05:54:35.907506+00:00`
+Generated at: `2026-06-24T07:54:10.644847+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 178
-- terms: 894
-- components: 806
-- concepts: 902
-- observations: 905
+- terms: 890
+- components: 810
+- concepts: 898
+- observations: 901
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [libbitcoin/libbitcoin-node](https://github.com/libbitcoin/libbitcoin-node) | 119 | 2026-04-25T06:18:51Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [rmagick/rmagick](https://github.com/rmagick/rmagick) | 729 | 2026-04-25T02:13:41Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [CloverLabsAI/camoufox](https://github.com/CloverLabsAI/camoufox) | 179 | 2026-04-24T22:51:14Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [KhronosGroup/VK-GL-CTS](https://github.com/KhronosGroup/VK-GL-CTS) | 619 | 2026-04-24T14:30:02Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
@@ -203,7 +204,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lastz/lastz](https://github.com/lastz/lastz) | 245 | 2026-03-27T12:20:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [vovkos/doxyrest](https://github.com/vovkos/doxyrest) | 310 | 2026-03-27T07:26:36Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [objectbox/objectbox-c](https://github.com/objectbox/objectbox-c) | 266 | 2026-03-26T12:57:52Z | C/C++ | Infrastructure/tooling | 10 | 1 | 10 | 10 |
-| [CrystallineCore/Biscuit](https://github.com/CrystallineCore/Biscuit) | 289 | 2026-03-26T07:10:33Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -315,7 +315,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vovkos/doxyrest](https://github.com/vovkos/doxyrest) | 310 | 2026-03-27T07:26:36Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [GNOME/gnome-terminal](https://github.com/GNOME/gnome-terminal) | 309 | 2026-04-06T08:14:47Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [KhronosGroup/OpenCL-ICD-Loader](https://github.com/KhronosGroup/OpenCL-ICD-Loader) | 297 | 2026-03-31T19:36:43Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [CrystallineCore/Biscuit](https://github.com/CrystallineCore/Biscuit) | 289 | 2026-03-26T07:10:33Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [DolbyLaboratories/dlb_mp4base](https://github.com/DolbyLaboratories/dlb_mp4base) | 280 | 2026-04-17T08:18:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [roboception/cvkit](https://github.com/roboception/cvkit) | 279 | 2026-04-10T14:29:40Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [bnprks/BPCells](https://github.com/bnprks/BPCells) | 278 | 2026-04-09T07:09:29Z | C/C++ | Infrastructure/tooling | 2 | 10 | 2 | 2 |
@@ -374,6 +373,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [highfive-devs/highfive](https://github.com/highfive-devs/highfive) | 121 | 2026-04-20T19:13:18Z | C/C++ | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [mitsuba-renderer/drjit-core](https://github.com/mitsuba-renderer/drjit-core) | 121 | 2026-04-18T07:51:49Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [facil-io/cstl](https://github.com/facil-io/cstl) | 120 | 2026-04-23T18:10:08Z | C/C++ | CLI | 17 | 3 | 19 | 19 |
+| [libbitcoin/libbitcoin-node](https://github.com/libbitcoin/libbitcoin-node) | 119 | 2026-04-25T06:18:51Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [ROCm/mori](https://github.com/ROCm/mori) | 116 | 2026-04-24T06:03:07Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [pauldmccarthy/indexed_gzip](https://github.com/pauldmccarthy/indexed_gzip) | 113 | 2026-04-13T10:00:24Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [flavorjones/ruby-c-extensions-explained](https://github.com/flavorjones/ruby-c-extensions-explained) | 112 | 2026-04-16T12:55:34Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |

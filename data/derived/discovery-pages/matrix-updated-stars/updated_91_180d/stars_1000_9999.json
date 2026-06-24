@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5574,
-    "concepts": 3914,
-    "observations": 3925,
-    "repos": 743,
-    "terms": 3908
+    "components": 5584,
+    "concepts": 3934,
+    "observations": 3945,
+    "repos": 745,
+    "terms": 3928
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T05:54:35.907506+00:00",
+  "generated_at": "2026-06-24T07:54:10.644847+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -619,6 +619,7 @@
     "rust-headless-chrome/rust-headless-chrome",
     "rust-lang/regex",
     "Rust-SDL2/rust-sdl2",
+    "rusty1s/pytorch_scatter",
     "s3prl/s3prl",
     "sachaos/viddy",
     "SafeAILab/EAGLE",
@@ -644,6 +645,7 @@
     "sirfz/tesserocr",
     "SmiteshP/nvim-navic",
     "smol-rs/smol",
+    "snakers4/silero-vad",
     "snarktank/antfarm",
     "Softcatala/whisper-ctranslate2",
     "sony/gobreaker",
