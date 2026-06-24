@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1838,
-    "concepts": 2048,
-    "observations": 2054,
-    "repos": 222,
-    "terms": 2030
+    "components": 1800,
+    "concepts": 2014,
+    "observations": 2020,
+    "repos": 215,
+    "terms": 1996
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "abhiTronix/vidgear",
@@ -107,7 +107,6 @@
     "kijai/ComfyUI-KJNodes",
     "kubeflow/pipelines",
     "kubeflow/spark-operator",
-    "lhotse-speech/lhotse",
     "librosa/librosa",
     "lightly-ai/lightly-train",
     "Lightricks/ComfyUI-LTXVideo",
@@ -118,15 +117,12 @@
     "magenta/ddsp",
     "mangiucugna/json_repair",
     "mapillary/OpenSfM",
-    "meituan-longcat/LongCat-Video",
     "mesonbuild/meson",
     "meta-pytorch/data",
     "meta-pytorch/torchrec",
     "MIC-DKFZ/nnUNet",
     "microsoft/agent-framework",
-    "microsoft/CameraTraps",
     "microsoft/Olive",
-    "microsoft/sample-app-aoai-chatGPT",
     "MicrosoftDocs/visualstudio-docs",
     "mikedh/trimesh",
     "mikel-brostrom/boxmot",
@@ -142,7 +138,6 @@
     "MyoHub/myosuite",
     "nagadomi/nunif",
     "neo4j/neo4j-python-driver",
-    "nerfstudio-project/gsplat",
     "newton-physics/newton",
     "nomadkaraoke/python-audio-separator",
     "NVIDIA/Isaac-GR00T",
@@ -150,7 +145,6 @@
     "NVIDIA/warp",
     "NVIDIAGameWorks/kaolin",
     "NVlabs/ProtoMotions",
-    "ogx-ai/llama-stack",
     "omry/omegaconf",
     "open-edge-platform/anomalib",
     "open-edge-platform/training_extensions",
@@ -176,7 +170,6 @@
     "pydata/xarray",
     "pylint-dev/pylint",
     "pymupdf/PyMuPDF",
-    "pymupdf/pymupdf4llm",
     "pypa/hatch",
     "pypi/warehouse",
     "pypy/pypy",
@@ -219,7 +212,6 @@
     "urwid/urwid",
     "uxlfoundation/scikit-learn-intelex",
     "Vector-Wangel/XLeRobot",
-    "vietanhdev/anylabeling",
     "vipshop/cache-dit",
     "viser-project/viser",
     "vladmandic/sdnext",
@@ -235,6 +227,7 @@
     "Xilinx/brevitas",
     "xorbitsai/inference",
     "zai-org/GLM-V",
-    "zarr-developers/zarr-python"
+    "zarr-developers/zarr-python",
+    "zyddnys/manga-image-translator"
   ]
 }

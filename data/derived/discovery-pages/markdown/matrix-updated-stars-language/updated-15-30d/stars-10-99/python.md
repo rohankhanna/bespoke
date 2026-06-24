@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework](https://github.com/cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework) | 92 | 2026-06-05T06:56:17Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
+| [cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework](https://github.com/cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework) | 93 | 2026-06-05T06:56:17Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [AMD-AGI/Nitro-T](https://github.com/AMD-AGI/Nitro-T) | 41 | 2026-06-04T05:52:55Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [mlcommons/logging](https://github.com/mlcommons/logging) | 42 | 2026-05-27T20:16:16Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 
@@ -34,6 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework](https://github.com/cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework) | 92 | 2026-06-05T06:56:17Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
+| [cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework](https://github.com/cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework) | 93 | 2026-06-05T06:56:17Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [mlcommons/logging](https://github.com/mlcommons/logging) | 42 | 2026-05-27T20:16:16Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [AMD-AGI/Nitro-T](https://github.com/AMD-AGI/Nitro-T) | 41 | 2026-06-04T05:52:55Z | Python | Model/data | 3 | 0 | 3 | 3 |

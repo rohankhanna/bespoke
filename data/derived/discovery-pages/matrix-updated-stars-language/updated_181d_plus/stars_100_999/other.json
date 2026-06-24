@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2410,
-    "concepts": 3211,
-    "observations": 3218,
-    "repos": 1003,
-    "terms": 3192
+    "components": 2412,
+    "concepts": 3221,
+    "observations": 3228,
+    "repos": 1006,
+    "terms": 3202
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -136,6 +136,7 @@
     "bensu/doo",
     "bepu/bepuphysics1",
     "beyondgrep/ack3",
+    "bfrg/vim-c-cpp-modern",
     "bhauman/cljs-test-display",
     "bigcode-project/bigcode-dataset",
     "bigscience-workshop/xmtf",
@@ -917,6 +918,7 @@
     "tc39/proposal-resizablearraybuffer",
     "tc39/proposal-weakrefs",
     "teelinsan/camoscio",
+    "Tencent-Hunyuan/flex-block-attn",
     "tendermint/spec",
     "Tengfei-Wang/HFGI",
     "teticio/audio-diffusion",
@@ -1001,6 +1003,7 @@
     "xolox/vim-session",
     "xserrat/docker-facebook-demucs",
     "xuorig/graphql-schema_comparator",
+    "yaml/yaml-test-suite",
     "yardenfren1996/B-LoRA",
     "yiyixuxu/denoising-diffusion-flax",
     "yonaskolb/Genesis",

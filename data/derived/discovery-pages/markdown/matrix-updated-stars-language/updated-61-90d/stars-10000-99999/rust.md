@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 50
-- terms: 471
-- components: 805
-- concepts: 477
-- observations: 478
+- repos: 52
+- terms: 486
+- components: 840
+- concepts: 492
+- observations: 493
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | 26143 | 2026-04-24T09:17:34Z | Rust | Infrastructure/tooling | 9 | 25 | 9 | 9 |
 | [microsoft/windows-rs](https://github.com/microsoft/windows-rs) | 12128 | 2026-04-24T04:33:01Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [nearai/ironclaw](https://github.com/nearai/ironclaw) | 11944 | 2026-04-23T21:55:32Z | Rust | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [FuelLabs/sway](https://github.com/FuelLabs/sway) | 61756 | 2026-04-23T20:47:02Z | Rust | Infrastructure/tooling | 9 | 20 | 9 | 9 |
@@ -90,6 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [starship/starship](https://github.com/starship/starship) | 56783 | 2026-04-22T20:12:05Z | Rust | Infrastructure/tooling | 17 | 22 | 19 | 19 |
 | [typst/typst](https://github.com/typst/typst) | 52949 | 2026-04-22T12:41:50Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [bevyengine/bevy](https://github.com/bevyengine/bevy) | 45691 | 2026-04-22T05:03:26Z | Rust | Infrastructure/tooling | 13 | 10 | 13 | 13 |
+| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [sharkdp/fd](https://github.com/sharkdp/fd) | 42640 | 2026-04-21T02:19:57Z | Rust | CLI | 9 | 7 | 9 | 9 |
 | [servo/servo](https://github.com/servo/servo) | 36515 | 2026-04-23T06:38:32Z | Rust | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | 35984 | 2026-04-13T19:40:38Z | Rust | CLI | 17 | 14 | 20 | 20 |
@@ -100,6 +103,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dandavison/delta](https://github.com/dandavison/delta) | 30316 | 2026-03-28T20:15:33Z | Rust | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 30261 | 2026-04-20T21:12:47Z | Rust | CLI | 1 | 7 | 1 | 1 |
 | [jdx/mise](https://github.com/jdx/mise) | 27007 | 2026-04-21T11:22:04Z | Rust | Infrastructure/tooling | 6 | 40 | 6 | 6 |
+| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | 26143 | 2026-04-24T09:17:34Z | Rust | Infrastructure/tooling | 9 | 25 | 9 | 9 |
 | [tokio-rs/axum](https://github.com/tokio-rs/axum) | 25671 | 2026-04-15T11:06:41Z | Rust | Infrastructure/tooling | 1 | 11 | 0 | 0 |
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | 25218 | 2026-04-22T21:19:10Z | Rust | CLI | 19 | 18 | 19 | 20 |
 | [Schniz/fnm](https://github.com/Schniz/fnm) | 25213 | 2026-04-19T02:31:39Z | Rust | Infrastructure/tooling | 9 | 46 | 9 | 9 |

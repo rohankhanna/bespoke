@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 428,
-    "concepts": 312,
-    "observations": 312,
-    "repos": 79,
-    "terms": 306
+    "components": 397,
+    "concepts": 294,
+    "observations": 294,
+    "repos": 74,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
     "Agnuxo1/CAJAL",
-    "AIM-Harvard/DINOv2-3D-Med",
     "All-Hands-AI/OpenHands-Cloud",
     "allenai/cached_path",
     "analogdevicesinc/ai8x-synthesis",
     "apify/actor-templates",
     "arcaputo3/mcp-server-whisper",
     "AstraZeneca/runnable",
-    "atlanhq/application-sdk",
     "autodeployai/pypmml",
     "autowarefoundation/autoware_launch",
     "awslabs/nx-neptune",
@@ -51,7 +49,6 @@
     "goombalab/raven",
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
-    "GreptimeTeam/demo-scene",
     "Hiroshiba/voicevox_engine",
     "HKU-BAL/ClairS-TO",
     "instadeepai/fastpbrl",
@@ -65,7 +62,6 @@
     "NoakLiu/FastCache-xDiT",
     "nod-ai/amd-shark-ai",
     "NVIDIA/multi-storage-client",
-    "oneapi-src/level-zero-spec",
     "open-edge-platform/physical-ai-studio",
     "pdm-project/tox-pdm",
     "petercorke/spatialmath-python",
@@ -82,7 +78,6 @@
     "scaleway/serverless-functions-python",
     "scipy/scipy.org",
     "sigstore/sigstore-conformance",
-    "sublimelsp/LSP-ruff",
     "sublimelsp/LSP-volar",
     "TaWald/nnUNet",
     "terrierteam/pyterrier_pisa",

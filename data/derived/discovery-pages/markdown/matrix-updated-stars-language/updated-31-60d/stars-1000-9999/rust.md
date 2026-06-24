@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 94
-- terms: 821
-- components: 1057
-- concepts: 827
-- observations: 829
+- repos: 91
+- terms: 792
+- components: 1026
+- concepts: 798
+- observations: 800
 
 ## Static behavior
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1111 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |
+| [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1113 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [nix-rust/nix](https://github.com/nix-rust/nix) | 3027 | 2026-05-13T01:15:18Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [Aleph-Alpha/ts-rs](https://github.com/Aleph-Alpha/ts-rs) | 1787 | 2026-05-12T11:49:04Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [reubeno/brush](https://github.com/reubeno/brush) | 1899 | 2026-05-11T10:13:13Z | Rust | Infrastructure/tooling | 8 | 25 | 11 | 11 |
@@ -117,9 +117,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-cross/cargo-zigbuild](https://github.com/rust-cross/cargo-zigbuild) | 2450 | 2026-04-26T02:45:49Z | Rust | Infrastructure/tooling | 5 | 24 | 5 | 5 |
 | [vulkano-rs/vulkano](https://github.com/vulkano-rs/vulkano) | 5057 | 2026-04-26T01:55:58Z | Rust | Infrastructure/tooling | 5 | 3 | 5 | 6 |
 | [Myriad-Dreamin/tinymist](https://github.com/Myriad-Dreamin/tinymist) | 3142 | 2026-04-26T00:25:23Z | Rust | Infrastructure/tooling | 10 | 27 | 10 | 10 |
-| [crev-dev/cargo-crev](https://github.com/crev-dev/cargo-crev) | 2298 | 2026-04-24T23:01:20Z | Rust | Infrastructure/tooling | 9 | 6 | 9 | 9 |
-| [jonhoo/fantoccini](https://github.com/jonhoo/fantoccini) | 1999 | 2026-04-24T17:02:02Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 7 |
-| [apache/datafusion-comet](https://github.com/apache/datafusion-comet) | 1171 | 2026-04-24T09:56:42Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -174,12 +171,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-cross/cargo-zigbuild](https://github.com/rust-cross/cargo-zigbuild) | 2450 | 2026-04-26T02:45:49Z | Rust | Infrastructure/tooling | 5 | 24 | 5 | 5 |
 | [cargo-generate/cargo-generate](https://github.com/cargo-generate/cargo-generate) | 2408 | 2026-05-05T00:00:30Z | Rust | Infrastructure/tooling | 15 | 19 | 15 | 15 |
 | [RustAudio/rodio](https://github.com/RustAudio/rodio) | 2333 | 2026-04-27T19:20:35Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [crev-dev/cargo-crev](https://github.com/crev-dev/cargo-crev) | 2298 | 2026-04-24T23:01:20Z | Rust | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [supabase/etl](https://github.com/supabase/etl) | 2236 | 2026-05-01T20:35:14Z | Rust | Infrastructure/tooling | 13 | 19 | 13 | 13 |
 | [pykeio/ort](https://github.com/pykeio/ort) | 2216 | 2026-04-28T19:46:26Z | Rust | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [floneum/floneum](https://github.com/floneum/floneum) | 2183 | 2026-04-30T02:45:59Z | Rust | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [fitzgen/bumpalo](https://github.com/fitzgen/bumpalo) | 2178 | 2026-04-27T19:27:50Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [jonhoo/fantoccini](https://github.com/jonhoo/fantoccini) | 1999 | 2026-04-24T17:02:02Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [latex-lsp/texlab](https://github.com/latex-lsp/texlab) | 1944 | 2026-04-27T01:33:44Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [reubeno/brush](https://github.com/reubeno/brush) | 1899 | 2026-05-11T10:13:13Z | Rust | Infrastructure/tooling | 8 | 25 | 11 | 11 |
 | [databendlabs/openraft](https://github.com/databendlabs/openraft) | 1896 | 2026-05-03T16:23:25Z | Rust | Infrastructure/tooling | 7 | 15 | 7 | 7 |
@@ -211,10 +206,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaLang/juliaup](https://github.com/JuliaLang/juliaup) | 1273 | 2026-05-06T17:35:01Z | Rust | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [ccbrown/iocraft](https://github.com/ccbrown/iocraft) | 1267 | 2026-04-28T02:55:26Z | Rust | CLI | 6 | 7 | 6 | 6 |
 | [fussybeaver/bollard](https://github.com/fussybeaver/bollard) | 1267 | 2026-04-26T19:51:14Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [apache/datafusion-comet](https://github.com/apache/datafusion-comet) | 1171 | 2026-04-24T09:56:42Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [CosmWasm/cosmwasm](https://github.com/CosmWasm/cosmwasm) | 1141 | 2026-05-04T08:34:25Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [chelsea0x3b/cudarc](https://github.com/chelsea0x3b/cudarc) | 1118 | 2026-04-27T13:30:01Z | Rust | Infrastructure/tooling | 11 | 3 | 11 | 11 |
-| [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1111 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |
+| [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1113 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [rust-lang/flate2-rs](https://github.com/rust-lang/flate2-rs) | 1100 | 2026-05-03T08:46:41Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [VOICEVOX/voicevox_core](https://github.com/VOICEVOX/voicevox_core) | 1097 | 2026-05-01T06:40:29Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [askama-rs/askama](https://github.com/askama-rs/askama) | 1068 | 2026-04-29T22:47:28Z | Rust | Infrastructure/tooling | 4 | 15 | 4 | 4 |

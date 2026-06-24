@@ -1,23 +1,25 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 6,
-    "terms": 37
+    "components": 112,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 8,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
+    "4catalyzer/javascript",
     "alloy-rs/evm",
-    "cloudfoundry/credhub-cli",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "lumen-oss/luarocks-tag-release",
-    "nuxt-modules/emotion",
-    "pivotal/credhub-release"
+    "karafka/example-apps",
+    "mongodb/winkerberos",
+    "pivotal/credhub-release",
+    "TrigenSoftware/simple-release",
+    "vaporif/parry-guard"
   ]
 }

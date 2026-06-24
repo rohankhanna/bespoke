@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 1,
-    "terms": 17
+    "components": 107,
+    "concepts": 33,
+    "observations": 34,
+    "repos": 2,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
+    "f/prompts.chat",
     "ohmyzsh/ohmyzsh"
   ]
 }

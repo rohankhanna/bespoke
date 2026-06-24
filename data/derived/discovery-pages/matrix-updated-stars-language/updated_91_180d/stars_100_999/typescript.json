@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2165,
-    "concepts": 410,
-    "observations": 411,
-    "repos": 77,
-    "terms": 420
+    "components": 2267,
+    "concepts": 419,
+    "observations": 420,
+    "repos": 81,
+    "terms": 429
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -28,6 +28,7 @@
     "antfu/eslint-plugin-antfu",
     "antfu/eslint-plugin-command",
     "antfu/vscode-icons-carbon",
+    "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
     "axel-op/googlejavaformat-action",
     "aymenfurter/ralph",
@@ -39,6 +40,7 @@
     "eckardt/cchistory",
     "enisdenjo/graphql-sse",
     "ethereum/staking-launchpad",
+    "fannheyward/create-coc-extension",
     "filllabs/dependi",
     "fnando/i18n",
     "gajus/eslint-plugin-sql",
@@ -56,6 +58,7 @@
     "kamranahmedse/claude-run",
     "kutsan/stylelint-config-clean-order",
     "kylebarron/arrow-js-ffi",
+    "latex-lsp/texlab-vscode",
     "LeDDGroup/typescript-transform-paths",
     "lobehub/lobe-charts",
     "lobehub/lobe-tts",
@@ -69,6 +72,7 @@
     "niieani/gpt-tokenizer",
     "nodejs/llparse",
     "Obsidian-TTRPG-Community/fantasy-statblocks",
+    "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
     "posthtml/posthtml-parser",
     "priceline/design-system",

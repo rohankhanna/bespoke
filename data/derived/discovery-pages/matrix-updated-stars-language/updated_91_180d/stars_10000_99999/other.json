@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 18,
-    "terms": 76
+    "components": 61,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 19,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "datawhalechina/happy-llm",
@@ -26,6 +26,7 @@
     "MatsuriDayo/NekoBoxForAndroid",
     "nikic/PHP-Parser",
     "NVlabs/instant-ngp",
+    "openai/CLIP",
     "QwenLM/Qwen3-VL",
     "ryanoasis/nerd-fonts",
     "Swordfish90/cool-retro-term",

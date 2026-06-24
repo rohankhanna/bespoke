@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4009,
-    "concepts": 882,
-    "observations": 884,
-    "repos": 118,
-    "terms": 873
+    "components": 4005,
+    "concepts": 864,
+    "observations": 866,
+    "repos": 117,
+    "terms": 855
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -28,7 +28,6 @@
     "appium/appium-xcuitest-driver",
     "appwrite/sdk-for-web",
     "astahmer/typed-openapi",
-    "aws-samples/swift-chat",
     "bitwarden/directory-connector",
     "Brendonovich/MacroGraph",
     "browserslist/browserslist-useragent-regexp",

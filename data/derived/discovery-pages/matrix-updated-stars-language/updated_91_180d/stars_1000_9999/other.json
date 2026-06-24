@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 680,
-    "concepts": 789,
-    "observations": 794,
-    "repos": 151,
-    "terms": 791
+    "components": 727,
+    "concepts": 835,
+    "observations": 840,
+    "repos": 158,
+    "terms": 837
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -36,7 +36,9 @@
     "black7375/Firefox-UI-Fix",
     "breezedeus/Pix2Text",
     "brianmario/charlock_holmes",
+    "camlworks/dream",
     "carrierwaveuploader/carrierwave",
+    "castwide/solargraph",
     "chrisbra/csv.vim",
     "clj-commons/manifold",
     "clojure/clojurescript",
@@ -44,6 +46,7 @@
     "clojure/test.check",
     "clux/muslrust",
     "cognitect/transit-format",
+    "CommunityToolkit/dotnet",
     "container-storage-interface/spec",
     "cpm-cmake/CPM.cmake",
     "dakrone/cheshire",
@@ -53,6 +56,7 @@
     "Deci-AI/super-gradients",
     "dempfi/ayu",
     "dimitri/el-get",
+    "dotnet/roslynator",
     "DotNetAnalyzers/StyleCopAnalyzers",
     "dspinellis/latex-advice",
     "elixir-lang/gen_stage",
@@ -63,6 +67,7 @@
     "excon/excon",
     "facebookresearch/co-tracker",
     "fairygui/FairyGUI-unity",
+    "FluxML/Zygote.jl",
     "flycheck/flycheck",
     "folke/lazydev.nvim",
     "folke/snacks.nvim",
@@ -86,6 +91,7 @@
     "haskell/stylish-haskell",
     "hecomi/uLipSync",
     "hoshsadiq/adblock-nocoin-list",
+    "hrsh7th/nvim-cmp",
     "IDEA-Research/Rex-Omni",
     "Intellindust-AI-Lab/DEIMv2",
     "javan/whenever",
@@ -151,6 +157,7 @@
     "stevearc/aerial.nvim",
     "stevearc/oil.nvim",
     "symfony/cache-contracts",
+    "tensorflow/tpu",
     "thu-ml/SageAttention",
     "timdorr/tesla-api",
     "touchlab/droidconkotlin",

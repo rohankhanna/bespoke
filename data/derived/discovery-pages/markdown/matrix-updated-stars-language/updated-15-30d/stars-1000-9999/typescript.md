@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2160 | 2026-06-05T07:02:10Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
+| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2161 | 2026-06-05T07:02:10Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [Urigo/graphql-cli](https://github.com/Urigo/graphql-cli) | 2019 | 2026-06-02T00:08:57Z | TypeScript | CLI | 7 | 25 | 7 | 7 |
 | [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2297 | 2026-05-29T06:05:41Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
 | [neavo/LinguaGacha](https://github.com/neavo/LinguaGacha) | 1974 | 2026-05-25T17:25:12Z | TypeScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
@@ -36,6 +36,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2297 | 2026-05-29T06:05:41Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
-| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2160 | 2026-06-05T07:02:10Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
+| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2161 | 2026-06-05T07:02:10Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [Urigo/graphql-cli](https://github.com/Urigo/graphql-cli) | 2019 | 2026-06-02T00:08:57Z | TypeScript | CLI | 7 | 25 | 7 | 7 |
 | [neavo/LinguaGacha](https://github.com/neavo/LinguaGacha) | 1974 | 2026-05-25T17:25:12Z | TypeScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |

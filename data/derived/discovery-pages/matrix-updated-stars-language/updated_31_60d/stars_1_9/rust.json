@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 120,
-    "observations": 121,
-    "repos": 28,
-    "terms": 119
+    "components": 152,
+    "concepts": 119,
+    "observations": 120,
+    "repos": 27,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
@@ -33,7 +33,6 @@
     "huggingface/fuser",
     "image-rs/image-extras",
     "influxdata/arrow-datafusion",
-    "juharris/optify",
     "ldclabs/ic-cose",
     "open-telemetry/opentelemetry-weaver-examples",
     "oxc-project/oxc-index-vec",

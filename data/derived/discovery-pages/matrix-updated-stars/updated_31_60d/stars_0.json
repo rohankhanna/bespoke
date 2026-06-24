@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 98,
-    "terms": 123
+    "components": 238,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 92,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -22,7 +22,6 @@
     "atsushieno/aap-lv2-string-machine",
     "buty4649/mruby-yyjson",
     "clearml/clearml-agent-bootstrap",
-    "conda-forge/xeus-cpp-feedstock",
     "csm-actions/demo-client",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
@@ -95,20 +94,15 @@
     "lakekeeper/lakekeeper-operator",
     "locize/locize-i18next-vue-example",
     "Luligu/matterbridge-eve-door",
-    "mukel/gptoss.java",
-    "mukel/nemotron3.java",
     "netdur/imaged-sdk-examples",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
     "OpenHands/incubator-program",
     "qiayuanl/unitree_buildfarm",
-    "regro/cf-graph-countyfair",
     "seanmacavaney/ir-datasets.com",
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
-    "stable-haskell/haskell-language-server",
     "starfishmod/bonjour-service",
-    "Strivin0311/strivin0311.github.io",
     "superfarther/K2V",
     "UnknownPlatypus/markup_fmt"
   ]

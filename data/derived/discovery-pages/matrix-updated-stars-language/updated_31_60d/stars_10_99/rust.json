@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 402,
-    "concepts": 309,
-    "observations": 310,
-    "repos": 59,
-    "terms": 307
+    "components": 360,
+    "concepts": 285,
+    "observations": 286,
+    "repos": 52,
+    "terms": 283
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
     "amazon-ion/ion-cli",
-    "ankane/delta-ruby",
-    "ankane/iceberg-ruby",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
     "apache/casbin-rust-actix-casbin",
@@ -32,13 +30,11 @@
     "bourumir-wyngs/serde-yaml-bw",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
-    "Dicklesworthstone/frankensearch",
     "eopb/cargo-override",
     "fallow-rs/oxc-coverage-instrument",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
     "g-plane/raffia",
-    "hermit-os/loader",
     "heroku/buildpacks-dotnet",
     "heroku/buildpacks-go",
     "heroku/buildpacks-jvm",
@@ -50,10 +46,8 @@
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
     "lifegpc/msg-tool",
-    "martinthomson/ohttp",
     "matter-labs/zksync-crypto",
     "mdn/rari",
-    "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
     "napi-rs/mimalloc-safe",
     "near/cargo-near-new-project-template",
@@ -62,7 +56,6 @@
     "plotters-rs/plotters-cairo",
     "plotters-rs/plotters-gtk-demo",
     "Ralith/lahar",
-    "rozbb/rust-hpke",
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",

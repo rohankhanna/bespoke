@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 103
-- terms: 1070
-- components: 1033
-- concepts: 1075
-- observations: 1081
+- repos: 93
+- terms: 975
+- components: 935
+- concepts: 980
+- observations: 985
 
 ## Static behavior
 
@@ -119,24 +119,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dghubble/gologin](https://github.com/dghubble/gologin) | 1953 | 2026-04-26T04:21:28Z | Go | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [argoproj/argo-events](https://github.com/argoproj/argo-events) | 2650 | 2026-04-25T12:34:05Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |
 | [prometheus-community/windows_exporter](https://github.com/prometheus-community/windows_exporter) | 3530 | 2026-04-25T08:09:18Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
-| [cloudflare/circl](https://github.com/cloudflare/circl) | 1655 | 2026-04-24T23:22:59Z | Go | Infrastructure/tooling | 17 | 8 | 17 | 18 |
-| [tilt-dev/tilt](https://github.com/tilt-dev/tilt) | 9667 | 2026-04-24T20:18:03Z | Go | Infrastructure/tooling | 2 | 0 | 2 | 2 |
-| [tidwall/tile38](https://github.com/tidwall/tile38) | 9627 | 2026-04-24T20:09:52Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [go-swagger/go-swagger](https://github.com/go-swagger/go-swagger) | 9973 | 2026-04-24T16:34:32Z | Go | Infrastructure/tooling | 11 | 14 | 11 | 11 |
-| [Kong/kubernetes-ingress-controller](https://github.com/Kong/kubernetes-ingress-controller) | 2380 | 2026-04-24T16:16:34Z | Go | Infrastructure/tooling | 17 | 15 | 17 | 17 |
-| [dominikh/go-tools](https://github.com/dominikh/go-tools) | 6765 | 2026-04-24T15:47:56Z | Go | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [ory/dockertest](https://github.com/ory/dockertest) | 4512 | 2026-04-24T14:04:12Z | Go | Infrastructure/tooling | 12 | 19 | 12 | 12 |
-| [kubernetes/ingress-gce](https://github.com/kubernetes/ingress-gce) | 1300 | 2026-04-24T12:09:58Z | Go | Infrastructure/tooling | 4 | 0 | 4 | 4 |
-| [cloudwego/kitex](https://github.com/cloudwego/kitex) | 7937 | 2026-04-24T10:13:06Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [akuity/kargo](https://github.com/akuity/kargo) | 3237 | 2026-04-24T09:10:35Z | Go | Infrastructure/tooling | 11 | 28 | 11 | 11 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [go-swagger/go-swagger](https://github.com/go-swagger/go-swagger) | 9973 | 2026-04-24T16:34:32Z | Go | Infrastructure/tooling | 11 | 14 | 11 | 11 |
-| [tilt-dev/tilt](https://github.com/tilt-dev/tilt) | 9667 | 2026-04-24T20:18:03Z | Go | Infrastructure/tooling | 2 | 0 | 2 | 2 |
-| [tidwall/tile38](https://github.com/tidwall/tile38) | 9627 | 2026-04-24T20:09:52Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [etcd-io/bbolt](https://github.com/etcd-io/bbolt) | 9505 | 2026-05-12T13:55:28Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [replicate/cog](https://github.com/replicate/cog) | 9407 | 2026-04-30T18:24:41Z | Go | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [bytedance/sonic](https://github.com/bytedance/sonic) | 9360 | 2026-04-27T09:59:59Z | Go | Infrastructure/tooling | 7 | 6 | 8 | 9 |
@@ -149,12 +136,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ko-build/ko](https://github.com/ko-build/ko) | 8417 | 2026-04-30T01:03:46Z | Go | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [evilmartians/lefthook](https://github.com/evilmartians/lefthook) | 8117 | 2026-04-27T07:12:55Z | Go | Infrastructure/tooling | 10 | 21 | 10 | 10 |
 | [fluxcd/flux2](https://github.com/fluxcd/flux2) | 8089 | 2026-05-01T01:05:02Z | Go | Infrastructure/tooling | 12 | 15 | 12 | 12 |
-| [cloudwego/kitex](https://github.com/cloudwego/kitex) | 7937 | 2026-04-24T10:13:06Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [kyverno/kyverno](https://github.com/kyverno/kyverno) | 7695 | 2026-05-01T07:28:17Z | Go | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [go-git/go-git](https://github.com/go-git/go-git) | 7430 | 2026-05-02T13:37:43Z | Go | CLI | 12 | 12 | 12 | 12 |
 | [cloudwego/hertz](https://github.com/cloudwego/hertz) | 7193 | 2026-04-29T06:28:52Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [cosmos/cosmos-sdk](https://github.com/cosmos/cosmos-sdk) | 6990 | 2026-05-04T01:23:56Z | Go | Infrastructure/tooling | 13 | 17 | 13 | 13 |
-| [dominikh/go-tools](https://github.com/dominikh/go-tools) | 6765 | 2026-04-24T15:47:56Z | Go | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [elazarl/goproxy](https://github.com/elazarl/goproxy) | 6671 | 2026-04-30T16:50:49Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [external-secrets/external-secrets](https://github.com/external-secrets/external-secrets) | 6577 | 2026-04-28T11:12:29Z | Go | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [opencost/opencost](https://github.com/opencost/opencost) | 6517 | 2026-04-29T19:35:16Z | Go | Infrastructure/tooling | 16 | 15 | 16 | 16 |
@@ -173,7 +158,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [helmfile/helmfile](https://github.com/helmfile/helmfile) | 5079 | 2026-04-30T16:30:43Z | Go | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [crazy-max/diun](https://github.com/crazy-max/diun) | 4629 | 2026-05-04T16:27:55Z | Go | Infrastructure/tooling | 24 | 21 | 24 | 24 |
 | [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | 4616 | 2026-04-29T18:45:33Z | Go | Infrastructure/tooling | 10 | 10 | 10 | 10 |
-| [ory/dockertest](https://github.com/ory/dockertest) | 4512 | 2026-04-24T14:04:12Z | Go | Infrastructure/tooling | 12 | 19 | 12 | 12 |
 | [beclab/Olares](https://github.com/beclab/Olares) | 4493 | 2026-05-01T01:21:34Z | Go | Infrastructure/tooling | 20 | 9 | 20 | 21 |
 | [open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper) | 4205 | 2026-04-28T21:06:23Z | Go | Infrastructure/tooling | 16 | 11 | 16 | 16 |
 | [kubernetes-sigs/cluster-api](https://github.com/kubernetes-sigs/cluster-api) | 4198 | 2026-04-30T20:11:24Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
@@ -188,7 +172,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [argoproj/argo-rollouts](https://github.com/argoproj/argo-rollouts) | 3457 | 2026-04-28T14:16:50Z | Go | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [kubernetes/kubectl](https://github.com/kubernetes/kubectl) | 3262 | 2026-04-29T20:40:16Z | Go | CLI | 2 | 0 | 2 | 2 |
 | [bnb-chain/bsc](https://github.com/bnb-chain/bsc) | 3250 | 2026-04-28T06:44:34Z | Go | CLI | 9 | 12 | 9 | 9 |
-| [akuity/kargo](https://github.com/akuity/kargo) | 3237 | 2026-04-24T09:10:35Z | Go | Infrastructure/tooling | 11 | 28 | 11 | 11 |
 | [C2SP/wycheproof](https://github.com/C2SP/wycheproof) | 3029 | 2026-04-28T17:44:14Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [apache/incubator-devlake](https://github.com/apache/incubator-devlake) | 2996 | 2026-04-29T12:35:02Z | Go | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [filecoin-project/lotus](https://github.com/filecoin-project/lotus) | 2992 | 2026-04-29T19:00:50Z | Go | Infrastructure/tooling | 8 | 4 | 8 | 8 |
@@ -201,7 +184,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh) | 2556 | 2026-04-26T07:16:01Z | Go | CLI | 9 | 4 | 9 | 9 |
 | [openshift/source-to-image](https://github.com/openshift/source-to-image) | 2537 | 2026-04-29T18:16:33Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [goreleaser/nfpm](https://github.com/goreleaser/nfpm) | 2537 | 2026-04-27T13:24:19Z | Go | Infrastructure/tooling | 18 | 20 | 18 | 18 |
-| [Kong/kubernetes-ingress-controller](https://github.com/Kong/kubernetes-ingress-controller) | 2380 | 2026-04-24T16:16:34Z | Go | Infrastructure/tooling | 17 | 15 | 17 | 17 |
 | [gookit/goutil](https://github.com/gookit/goutil) | 2347 | 2026-05-04T19:04:00Z | Go | CLI | 23 | 9 | 23 | 23 |
 | [onsi/gomega](https://github.com/onsi/gomega) | 2336 | 2026-04-29T01:02:39Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [spiffe/spire](https://github.com/spiffe/spire) | 2330 | 2026-04-29T16:04:22Z | Go | Infrastructure/tooling | 7 | 14 | 7 | 7 |
@@ -217,7 +199,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Consensys/gnark](https://github.com/Consensys/gnark) | 1707 | 2026-04-27T03:12:59Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 1681 | 2026-05-04T14:45:46Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [argoproj-labs/argocd-image-updater](https://github.com/argoproj-labs/argocd-image-updater) | 1660 | 2026-04-29T19:22:55Z | Go | Infrastructure/tooling | 11 | 12 | 11 | 11 |
-| [cloudflare/circl](https://github.com/cloudflare/circl) | 1655 | 2026-04-24T23:22:59Z | Go | Infrastructure/tooling | 17 | 8 | 17 | 18 |
 | [gookit/color](https://github.com/gookit/color) | 1584 | 2026-05-01T15:13:20Z | Go | CLI | 16 | 7 | 17 | 17 |
 | [envoyproxy/ai-gateway](https://github.com/envoyproxy/ai-gateway) | 1569 | 2026-04-29T13:15:14Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [azimjohn/jprq](https://github.com/azimjohn/jprq) | 1500 | 2026-04-29T11:16:05Z | Go | Infrastructure/tooling | 7 | 5 | 7 | 7 |
@@ -225,7 +206,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [go-spatial/tegola](https://github.com/go-spatial/tegola) | 1486 | 2026-04-27T20:01:29Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [Dicklesworthstone/beads_viewer](https://github.com/Dicklesworthstone/beads_viewer) | 1485 | 2026-04-29T01:16:43Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [pion/example-webrtc-applications](https://github.com/pion/example-webrtc-applications) | 1336 | 2026-05-01T18:44:58Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
-| [kubernetes/ingress-gce](https://github.com/kubernetes/ingress-gce) | 1300 | 2026-04-24T12:09:58Z | Go | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [btcsuite/btcwallet](https://github.com/btcsuite/btcwallet) | 1254 | 2026-04-29T12:53:59Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [auth0/go-jwt-middleware](https://github.com/auth0/go-jwt-middleware) | 1201 | 2026-04-29T15:36:48Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 7 |
 | [kubernetes-sigs/sig-storage-local-static-provisioner](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) | 1192 | 2026-04-28T03:22:47Z | Go | Infrastructure/tooling | 7 | 11 | 7 | 7 |

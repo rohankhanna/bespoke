@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 118
-- terms: 873
-- components: 4009
-- concepts: 882
-- observations: 884
+- repos: 117
+- terms: 855
+- components: 4005
+- concepts: 864
+- observations: 866
 
 ## Static behavior
 
@@ -143,7 +143,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/security-devops-action](https://github.com/microsoft/security-devops-action) | 153 | 2026-04-27T05:05:10Z | TypeScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
 | [julia-actions/setup-julia](https://github.com/julia-actions/setup-julia) | 107 | 2026-04-26T17:53:07Z | TypeScript | Infrastructure/tooling | 14 | 29 | 14 | 14 |
 | [tats-u/markdown-cjk-friendly](https://github.com/tats-u/markdown-cjk-friendly) | 130 | 2026-04-26T14:51:23Z | TypeScript | Infrastructure/tooling | 10 | 22 | 13 | 13 |
-| [aws-samples/swift-chat](https://github.com/aws-samples/swift-chat) | 797 | 2026-04-24T09:49:51Z | TypeScript | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 
 ## Repos sorted by stars
 
@@ -166,7 +165,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xdebug/vscode-php-debug](https://github.com/xdebug/vscode-php-debug) | 833 | 2026-05-08T21:37:05Z | TypeScript | Infrastructure/tooling | 6 | 46 | 6 | 6 |
 | [redhat-developer/vscode-yaml](https://github.com/redhat-developer/vscode-yaml) | 809 | 2026-04-29T14:28:27Z | TypeScript | Infrastructure/tooling | 3 | 52 | 4 | 4 |
 | [AgnosticUI/agnosticui](https://github.com/AgnosticUI/agnosticui) | 802 | 2026-05-02T14:09:38Z | TypeScript | CLI | 15 | 5 | 15 | 15 |
-| [aws-samples/swift-chat](https://github.com/aws-samples/swift-chat) | 797 | 2026-04-24T09:49:51Z | TypeScript | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 | [SkepticMystic/breadcrumbs](https://github.com/SkepticMystic/breadcrumbs) | 776 | 2026-05-02T17:09:23Z | TypeScript | Infrastructure/tooling | 5 | 41 | 5 | 5 |
 | [luciopaiva/heapify](https://github.com/luciopaiva/heapify) | 742 | 2026-04-27T09:01:14Z | TypeScript | Infrastructure/tooling | 9 | 14 | 9 | 9 |
 | [0no-co/wonka](https://github.com/0no-co/wonka) | 734 | 2026-05-19T09:40:43Z | TypeScript | Infrastructure/tooling | 7 | 38 | 7 | 7 |

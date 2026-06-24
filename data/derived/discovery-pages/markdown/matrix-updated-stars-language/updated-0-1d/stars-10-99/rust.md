@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Rust
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 0
-- components: 8
-- concepts: 0
-- observations: 0
+- repos: 2
+- terms: 5
+- components: 26
+- concepts: 5
+- observations: 5
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-22T09:19:08Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 44 | 2026-06-23T14:16:46Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-23T12:44:09Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-22T09:19:08Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-23T12:44:09Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 44 | 2026-06-23T14:16:46Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |

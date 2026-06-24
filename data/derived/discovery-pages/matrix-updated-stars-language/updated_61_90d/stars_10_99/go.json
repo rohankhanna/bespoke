@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 490,
-    "concepts": 337,
-    "observations": 339,
-    "repos": 80,
-    "terms": 331
+    "components": 511,
+    "concepts": 347,
+    "observations": 349,
+    "repos": 82,
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -24,12 +24,12 @@
     "apache/dubbo-go-pixiu-samples",
     "appleboy/drone-lambda",
     "apptainer/sif",
+    "aquasecurity/trivy-java-db",
     "aspect-build/aspect-gazelle",
     "Asterisk4Magisk/XrayHelper",
     "astro-han/diffpane",
     "aws-controllers-k8s/code-generator",
     "aws/amazon-network-policy-controller-k8s",
-    "aws/aws-ebpf-sdk-go",
     "aws/aws-network-policy-agent",
     "benchsci/rules_nodejs_gazelle",
     "blinklabs-io/bluefin",
@@ -84,6 +84,8 @@
     "openshift/ci-tools",
     "quicksilver-zone/quicksilver",
     "scaleway/serverless-examples",
+    "sigstore/helm-sigstore",
+    "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google",
     "tilt-dev/tilt-apiserver",

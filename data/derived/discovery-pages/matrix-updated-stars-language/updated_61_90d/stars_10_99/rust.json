@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 560,
-    "concepts": 319,
-    "observations": 321,
-    "repos": 84,
-    "terms": 333
+    "components": 576,
+    "concepts": 333,
+    "observations": 335,
+    "repos": 88,
+    "terms": 347
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -21,6 +21,8 @@
     "alixinne/glsl-lang",
     "andelf/axcli",
     "andelf/picc",
+    "ankane/delta-ruby",
+    "ankane/iceberg-ruby",
     "ankane/safetensors-ruby",
     "antonWetzel/prettypst",
     "apache/opendal-oli",
@@ -44,6 +46,7 @@
     "crate-ci/imperative",
     "datachainlab/lcp",
     "datafusion-contrib/datafusion-orc",
+    "Dicklesworthstone/frankensearch",
     "eth-act/ere",
     "eth-act/zkboost",
     "filecoin-project/actors-utils",
@@ -55,6 +58,7 @@
     "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
     "hecrj/iced_palace",
+    "hermit-os/loader",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "hpkewg/hpke-pq",
@@ -68,9 +72,10 @@
     "Layr-Labs/eigensdk-rs",
     "ldclabs/ic-oss",
     "ldclabs/ic-tee",
-    "libdeflater/libdeflater",
     "major7apps/pensyve",
+    "martinthomson/ohttp",
     "messense/py-promql-parser",
+    "mpizenberg/elm-test-rs",
     "multiformats/rust-cid",
     "near/cargo-near",
     "near/near-workspaces-rs",
@@ -82,9 +87,8 @@
     "phiat/claude-esp-rs",
     "psmux/omp-manager",
     "quininer/x11-clipboard",
-    "randombit/botan-rs",
+    "rozbb/rust-hpke",
     "rust-lang/josh-sync",
-    "sigp/rust-libp2p",
     "sophus-vision/sophus-rs",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",

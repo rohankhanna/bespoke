@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 63141,
+    "components": 63108,
     "concepts": 10947,
     "observations": 10983,
-    "repos": 1920,
-    "terms": 11245
+    "repos": 1919,
+    "terms": 11244
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -745,7 +745,6 @@
     "google/adk-web",
     "google/brotli",
     "google/gts",
-    "google/mysteryofthreebots",
     "google/neuroglancer",
     "googleapis/gaxios",
     "googleapis/google-api-nodejs-client",

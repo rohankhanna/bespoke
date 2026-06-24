@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
+- repos: 2
 - terms: 2
-- components: 60
+- components: 50
 - concepts: 2
 - observations: 2
 
@@ -26,7 +26,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-06-12T20:32:25Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [aidenlab/juicebox.js](https://github.com/aidenlab/juicebox.js) | 24 | 2026-06-10T19:58:54Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [storybook-community/addon-queryparams](https://github.com/storybook-community/addon-queryparams) | 12 | 2026-06-10T14:28:32Z | JavaScript | Infrastructure/tooling | 2 | 36 | 2 | 2 |
 
@@ -35,5 +34,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [aidenlab/juicebox.js](https://github.com/aidenlab/juicebox.js) | 24 | 2026-06-10T19:58:54Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
-| [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-06-12T20:32:25Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [storybook-community/addon-queryparams](https://github.com/storybook-community/addon-queryparams) | 12 | 2026-06-10T14:28:32Z | JavaScript | Infrastructure/tooling | 2 | 36 | 2 | 2 |

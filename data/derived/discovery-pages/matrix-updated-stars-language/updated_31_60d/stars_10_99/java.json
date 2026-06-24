@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 144,
-    "concepts": 139,
-    "observations": 140,
-    "repos": 32,
-    "terms": 138
+    "components": 115,
+    "concepts": 123,
+    "observations": 124,
+    "repos": 28,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "Accla/graphulo",
-    "apache/ignite-extensions",
     "BerkleyTechnologyServices/restdocs-spec",
     "BerkleyTechnologyServices/restdocs-spec-example",
     "confluentinc/common",
@@ -26,16 +25,13 @@
     "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
     "googleapis/sdk-platform-java",
-    "GoogleCloudPlatform/opentelemetry-operations-java",
     "heroku/heroku-jvm-application-deployer",
-    "hivemq/helm-charts",
     "jcefmaven/jcefsampleapp",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
-    "mukel/gemma4.java",
     "openjdk/jdk11u-dev",
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u",

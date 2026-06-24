@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 793,
-    "concepts": 821,
-    "observations": 822,
-    "repos": 139,
-    "terms": 819
+    "components": 768,
+    "concepts": 801,
+    "observations": 802,
+    "repos": 132,
+    "terms": 799
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
-    "AcademySoftwareFoundation/openfx",
     "Alpine-DAV/ascent",
     "alsa-project/alsa-lib",
     "altschuler/imgui-knobs",
@@ -38,9 +37,7 @@
     "Chuyu-Team/YY-Thunks",
     "ClickHouse/clickhouse-cpp",
     "cloudwu/soluna",
-    "CloverLabsAI/camoufox",
     "coin-or/CppAD",
-    "cygwin/cygwin",
     "davisp/jiffy",
     "ddemidov/amgcl",
     "DiligentGraphics/DiligentCore",
@@ -84,7 +81,6 @@
     "jrouwe/JoltPhysics.js",
     "k2-fsa/sherpa",
     "KDE/breeze-icons",
-    "KhronosGroup/VK-GL-CTS",
     "KhronosGroup/Vulkan-Loader",
     "KhronosGroup/Vulkan-ValidationLayers",
     "kiron1/bazel-compile-commands",
@@ -104,7 +100,6 @@
     "mapnik/node-mapnik",
     "Mercury13/unicodia",
     "microsoft/MIDI",
-    "microsoft/WindowsAppSDK-Samples",
     "mingw-w64/mingw-w64",
     "msoos/cryptominisat",
     "murat-dogan/node-datachannel",
@@ -125,8 +120,6 @@
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
     "RcppCore/Rcpp",
-    "realh/roxterm",
-    "rmagick/rmagick",
     "robotology/yarp",
     "ROCm/AMDMIGraphX",
     "ROCm/rccl",

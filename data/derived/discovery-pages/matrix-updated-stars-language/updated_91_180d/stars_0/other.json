@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 20,
-    "terms": 28
+    "components": 37,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 22,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
     "Bearer/homebrew-tap",
     "bookcars/bookcars.github.io",
     "charlesnicholson/docker-images",
     "danielrosehill/Failover-Internet-Israel-Notes",
+    "danielrosehill/HFC-Guidance-Flip-Book",
+    "danielrosehill/Israel-Civilian-Readiness-Guide",
     "danielrosehill/Israel-First-Aid",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "Hitesh-Aggarwal/dotfiles",

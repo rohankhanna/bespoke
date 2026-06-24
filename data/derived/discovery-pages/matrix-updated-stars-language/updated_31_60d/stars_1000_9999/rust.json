@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1057,
-    "concepts": 827,
-    "observations": 829,
-    "repos": 94,
-    "terms": 821
+    "components": 1026,
+    "concepts": 798,
+    "observations": 800,
+    "repos": 91,
+    "terms": 792
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "64bit/async-openai",
@@ -22,7 +22,6 @@
     "Aleph-Alpha/ts-rs",
     "apache/casbin-rs",
     "apache/datafusion",
-    "apache/datafusion-comet",
     "apache/iceberg-rust",
     "askama-rs/askama",
     "aws-cloudformation/cloudformation-guard",
@@ -36,7 +35,6 @@
     "cobalt-org/cobalt.rs",
     "cordx56/rustowl",
     "CosmWasm/cosmwasm",
-    "crev-dev/cargo-crev",
     "databendlabs/openraft",
     "delta-io/delta-rs",
     "Devolutions/IronRDP",
@@ -58,7 +56,6 @@
     "hoodie/notify-rust",
     "huggingface/text-embeddings-inference",
     "image-rs/image",
-    "jonhoo/fantoccini",
     "josh-project/josh",
     "JuliaLang/juliaup",
     "junhoyeo/tokscale",

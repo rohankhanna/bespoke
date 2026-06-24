@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9744,
-    "concepts": 11552,
-    "observations": 11580,
-    "repos": 2409,
-    "terms": 11458
+    "components": 9763,
+    "concepts": 11562,
+    "observations": 11590,
+    "repos": 2415,
+    "terms": 11466
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -145,6 +145,8 @@
     "andrewrk/libgroove",
     "andrewrk/node-groove",
     "andrewtrotman/JASSv2",
+    "ands/lightmapper",
+    "ands/seamoptimizer",
     "andy-thomason/Vookoo",
     "andykras/lz-string-cpp",
     "andyzeng/3dmatch-toolbox",
@@ -289,6 +291,8 @@
     "axxie/far2l-jumpword",
     "Azure-Samples/Cognitive-Services-Voice-Assistant",
     "BabylonJS/BabylonNative",
+    "badlogic/dosbox-x",
+    "badlogic/gdb-7.1a-djgpp",
     "bagder/fcpp",
     "baidu/braft",
     "baidu/Familia",
@@ -1229,6 +1233,7 @@
     "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
     "joto/gdalcpp",
     "jpcima/string-machine",
+    "jpcy/xatlas",
     "JPEWdev/icecream-sundae",
     "jpmens/jo",
     "jqlang/jq",
@@ -1435,6 +1440,7 @@
     "lltcggie/waifu2x-caffe",
     "llvm/torch-mlir",
     "localai-org/LocalVQE",
+    "localai-org/privacy-filter.cpp",
     "lockblox/multibase",
     "logicalclocks/rondb",
     "lonewolf-jp/convopeq",

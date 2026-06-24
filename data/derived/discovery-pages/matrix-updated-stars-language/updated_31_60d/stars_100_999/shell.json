@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 150,
-    "observations": 150,
-    "repos": 24,
-    "terms": 145
+    "components": 104,
+    "concepts": 148,
+    "observations": 148,
+    "repos": 23,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "amrsa1/Android-Emulator-image",
@@ -35,7 +35,6 @@
     "pion/awesome-pion",
     "rocker-org/rocker-versioned2",
     "sclorg/s2i-php-container",
-    "tinted-theming/schemes",
     "TypedDevs/bashunit",
     "ungoogled-software/ungoogled-chromium-archlinux"
   ]

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 594,
-    "concepts": 436,
-    "observations": 441,
-    "repos": 211,
+    "components": 596,
+    "concepts": 437,
+    "observations": 442,
+    "repos": 213,
     "terms": 430
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xPlaygrounds/rig-onchain-kit",
@@ -179,6 +179,8 @@
     "pisa-engine/ciff",
     "plotters-rs/plotters-canvas",
     "plotters-rs/plotters-minifb-demo",
+    "plotters-rs/plotters-piston",
+    "plotters-rs/plotters-wasm-demo",
     "progval/pythonvm-rust",
     "Prunoideae/web-rwkv-axum",
     "rkyv/bytecheck",

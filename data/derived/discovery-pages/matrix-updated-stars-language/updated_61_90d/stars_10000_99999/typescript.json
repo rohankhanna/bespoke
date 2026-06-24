@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6531,
-    "concepts": 691,
-    "observations": 698,
-    "repos": 76,
-    "terms": 704
+    "components": 6673,
+    "concepts": 743,
+    "observations": 750,
+    "repos": 81,
+    "terms": 756
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
@@ -32,6 +32,7 @@
     "cline/cline",
     "conventional-changelog/commitlint",
     "diegomura/react-pdf",
+    "discordjs/discord.js",
     "dotansimha/graphql-code-generator",
     "dzhng/deep-research",
     "elastic/kibana",
@@ -48,6 +49,7 @@
     "graphile/crystal",
     "graphql/graphiql",
     "graphql/graphql-js",
+    "gvergnaud/ts-pattern",
     "iOfficeAI/AionUi",
     "juice-shop/juice-shop",
     "jupyterlab/jupyterlab",
@@ -55,6 +57,7 @@
     "labring/FastGPT",
     "labring/sealos",
     "lerna/lerna",
+    "louislam/dockge",
     "microsoft/playwright",
     "microsoft/playwright-mcp",
     "mlc-ai/web-llm",
@@ -78,6 +81,7 @@
     "shikijs/shiki",
     "sindresorhus/got",
     "sindresorhus/ky",
+    "sindresorhus/type-fest",
     "slopus/happy",
     "tanweai/pua",
     "tobi/qmd",
@@ -88,6 +92,7 @@
     "vercel/swr",
     "Vinzent03/obsidian-git",
     "VSCodeVim/Vim",
+    "wojtekmaj/react-pdf",
     "xtermjs/xterm.js",
     "xyflow/xyflow"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 951,
-    "concepts": 762,
-    "observations": 768,
-    "repos": 129,
-    "terms": 770
+    "components": 982,
+    "concepts": 778,
+    "observations": 784,
+    "repos": 132,
+    "terms": 786
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "a2aproject/a2a-go",
@@ -48,6 +48,7 @@
     "charmbracelet/catwalk",
     "charmbracelet/colorprofile",
     "cloudflare/go",
+    "cloudfoundry/bosh-bootloader",
     "cloudfoundry/gosigar",
     "coder/code-marketplace",
     "coder/envbuilder",
@@ -68,6 +69,7 @@
     "foxj77/claudectx",
     "GFW-knocker/Xray-core",
     "go-chi/docgen",
+    "go-git/go-billy",
     "go-gl/glow",
     "go-openapi/swag",
     "go-viper/mapstructure",
@@ -86,8 +88,10 @@
     "hazelcast/hazelcast-go-client",
     "helm/chart-releaser",
     "imjasonh/kontain.me",
+    "ipfs/boxo",
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
+    "ipfs/rainbow",
     "jaegertracing/jaeger-idl",
     "JupiterRider/ffi",
     "knative/community",
@@ -114,7 +118,6 @@
     "microsoft/cognitive-services-speech-sdk-go",
     "microsoft/dcp",
     "microsoft/hcsshim",
-    "minio/directpv",
     "monitoring-mixins/mixtool",
     "moul/gotty-client",
     "notaryproject/notation",

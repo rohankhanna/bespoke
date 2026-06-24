@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 260
+- repos: 261
 - terms: 487
 - components: 128
 - concepts: 473
@@ -160,7 +160,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [taichi-dev/awesome-taichi](https://github.com/taichi-dev/awesome-taichi) | 677 | 2024-06-13T10:21:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [SkyworkAI/Skywork-MoE](https://github.com/SkyworkAI/Skywork-MoE) | 139 | 2024-06-12T03:42:15Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [github/MVG](https://github.com/github/MVG) | 408 | 2024-06-06T09:18:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 269 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
+| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 270 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
+| [microsoft/AEC-Challenge](https://github.com/microsoft/AEC-Challenge) | 488 | 2024-06-04T03:51:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PlexPt/chatgpt-corpus](https://github.com/PlexPt/chatgpt-corpus) | 960 | 2024-05-15T13:06:46Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [chainer-community/awesome-chainer](https://github.com/chainer-community/awesome-chainer) | 135 | 2024-05-11T07:48:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ichitenfont/inheritedglyphs](https://github.com/ichitenfont/inheritedglyphs) | 298 | 2024-05-08T21:13:28Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -342,6 +343,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [0russwest0/Awesome-Agent-RL](https://github.com/0russwest0/Awesome-Agent-RL) | 507 | 2025-10-11T02:18:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [BBuf/how-to-learn-deep-learning-framework](https://github.com/BBuf/how-to-learn-deep-learning-framework) | 498 | 2024-03-22T23:41:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [klaus2m5/6502_65c02_functional_tests](https://github.com/Klaus2m5/6502_65C02_functional_tests) | 490 | 2023-03-07T15:32:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [microsoft/AEC-Challenge](https://github.com/microsoft/AEC-Challenge) | 488 | 2024-06-04T03:51:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [multiformats/cid](https://github.com/multiformats/cid) | 487 | 2025-04-28T15:57:33Z | Unknown | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [EleutherAI/polyglot](https://github.com/EleutherAI/polyglot) | 486 | 2023-08-22T22:54:29Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [quchangle1/LLM-Tool-Survey](https://github.com/quchangle1/LLM-Tool-Survey) | 482 | 2025-08-09T02:24:38Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
@@ -427,8 +429,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hpatches/hpatches-dataset](https://github.com/hpatches/hpatches-dataset) | 275 | 2025-03-26T21:22:07Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [ibm-granite/granite-3.0-language-models](https://github.com/ibm-granite/granite-3.0-language-models) | 272 | 2025-06-25T20:35:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [destwang/CTCResources](https://github.com/destwang/CTCResources) | 271 | 2024-07-26T02:41:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 270 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [sclorg/django-ex](https://github.com/sclorg/django-ex) | 269 | 2025-10-09T12:15:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 269 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [AILab-CVC/TaleCrafter](https://github.com/AILab-CVC/TaleCrafter) | 267 | 2024-03-22T11:53:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [nicolas-chaulet/torch-points3d](https://github.com/nicolas-chaulet/torch-points3d) | 266 | 2021-12-10T20:17:18Z | Unknown | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [mayhemantt/mayhemantt](https://github.com/mayhemantt/mayhemantt) | 265 | 2023-03-02T09:36:20Z | Unknown | Unknown | 14 | 0 | 14 | 14 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 101
-- terms: 647
-- components: 3014
-- concepts: 650
-- observations: 650
+- repos: 105
+- terms: 678
+- components: 3105
+- concepts: 682
+- observations: 682
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [flow-typed/flow-typed](https://github.com/flow-typed/flow-typed) | 3761 | 2026-04-24T20:18:13Z | JavaScript | CLI | 5 | 4 | 5 | 5 |
+| [yahoo/serialize-javascript](https://github.com/yahoo/serialize-javascript) | 2922 | 2026-04-24T19:55:05Z | JavaScript | Infrastructure/tooling | 3 | 3 | 4 | 4 |
+| [i18next/i18next](https://github.com/i18next/i18next) | 8554 | 2026-04-24T19:19:28Z | JavaScript | Infrastructure/tooling | 7 | 38 | 7 | 7 |
+| [NickColley/jest-axe](https://github.com/NickColley/jest-axe) | 1107 | 2026-04-24T15:33:58Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
+| [release-it/release-it](https://github.com/release-it/release-it) | 8923 | 2026-04-24T09:07:00Z | JavaScript | CLI | 19 | 44 | 19 | 19 |
 | [ipfs/ipfs-desktop](https://github.com/ipfs/ipfs-desktop) | 6525 | 2026-04-24T00:23:14Z | JavaScript | Infrastructure/tooling | 15 | 54 | 15 | 15 |
 | [expressjs/body-parser](https://github.com/expressjs/body-parser) | 5501 | 2026-04-23T23:40:39Z | JavaScript | Infrastructure/tooling | 8 | 29 | 9 | 9 |
 | [conventional-changelog/standard-version](https://github.com/conventional-changelog/standard-version) | 7963 | 2026-04-23T15:39:15Z | JavaScript | CLI | 10 | 31 | 10 | 10 |
@@ -126,7 +131,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [engineer-man/piston](https://github.com/engineer-man/piston) | 2670 | 2026-03-26T20:36:13Z | JavaScript | Infrastructure/tooling | 7 | 8 | 8 | 8 |
 | [webpack/mini-css-extract-plugin](https://github.com/webpack/mini-css-extract-plugin) | 4662 | 2026-03-26T12:25:31Z | JavaScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [kangax/html-minifier](https://github.com/kangax/html-minifier) | 5058 | 2026-03-26T11:35:43Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
-| [babel/babel-loader](https://github.com/babel/babel-loader) | 4840 | 2026-03-25T22:10:23Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -140,6 +144,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jsx-eslint/eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) | 9280 | 2026-04-01T20:54:24Z | JavaScript | Infrastructure/tooling | 12 | 60 | 12 | 12 |
 | [kpdecker/jsdiff](https://github.com/kpdecker/jsdiff) | 9125 | 2026-04-13T12:42:24Z | JavaScript | Unknown | 0 | 26 | 0 | 0 |
 | [piebald-ai/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) | 9112 | 2026-04-17T23:32:30Z | JavaScript | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [release-it/release-it](https://github.com/release-it/release-it) | 8923 | 2026-04-24T09:07:00Z | JavaScript | CLI | 19 | 44 | 19 | 19 |
+| [i18next/i18next](https://github.com/i18next/i18next) | 8554 | 2026-04-24T19:19:28Z | JavaScript | Infrastructure/tooling | 7 | 38 | 7 | 7 |
 | [GoogleChrome/web-vitals](https://github.com/GoogleChrome/web-vitals) | 8483 | 2026-04-23T04:57:37Z | JavaScript | Infrastructure/tooling | 2 | 21 | 2 | 2 |
 | [grommet/grommet](https://github.com/grommet/grommet) | 8355 | 2026-04-22T15:23:34Z | JavaScript | Framework | 7 | 95 | 7 | 7 |
 | [conventional-changelog/standard-version](https://github.com/conventional-changelog/standard-version) | 7963 | 2026-04-23T15:39:15Z | JavaScript | CLI | 10 | 31 | 10 | 10 |
@@ -169,7 +175,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [npm/node-semver](https://github.com/npm/node-semver) | 5419 | 2026-04-16T17:02:20Z | JavaScript | CLI | 8 | 13 | 8 | 8 |
 | [kangax/html-minifier](https://github.com/kangax/html-minifier) | 5058 | 2026-03-26T11:35:43Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [json-schema-org/json-schema-spec](https://github.com/json-schema-org/json-schema-spec) | 4944 | 2026-04-22T18:02:10Z | JavaScript | Infrastructure/tooling | 5 | 25 | 7 | 7 |
-| [babel/babel-loader](https://github.com/babel/babel-loader) | 4840 | 2026-03-25T22:10:23Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
 | [webpack/mini-css-extract-plugin](https://github.com/webpack/mini-css-extract-plugin) | 4662 | 2026-03-26T12:25:31Z | JavaScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [amperser/proselint](https://github.com/amperser/proselint) | 4526 | 2026-04-21T16:37:31Z | JavaScript | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [thlorenz/doctoc](https://github.com/thlorenz/doctoc) | 4438 | 2026-04-21T18:51:47Z | JavaScript | Infrastructure/tooling | 2 | 9 | 2 | 2 |
@@ -180,6 +185,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webpack/sass-loader](https://github.com/webpack/sass-loader) | 3893 | 2026-04-15T11:37:33Z | JavaScript | Infrastructure/tooling | 9 | 55 | 9 | 9 |
 | [amqp-node/amqplib](https://github.com/amqp-node/amqplib) | 3834 | 2026-03-31T16:52:01Z | JavaScript | CLI | 7 | 8 | 7 | 7 |
 | [apache/cordova-android](https://github.com/apache/cordova-android) | 3779 | 2026-04-23T05:06:50Z | JavaScript | Infrastructure/tooling | 10 | 29 | 10 | 10 |
+| [flow-typed/flow-typed](https://github.com/flow-typed/flow-typed) | 3761 | 2026-04-24T20:18:13Z | JavaScript | CLI | 5 | 4 | 5 | 5 |
 | [gatsbyjs/gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog) | 3515 | 2026-04-15T12:34:37Z | JavaScript | Template/starter | 0 | 17 | 0 | 0 |
 | [isaacs/minimatch](https://github.com/isaacs/minimatch) | 3500 | 2026-03-30T18:11:46Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow) | 3387 | 2026-04-16T22:42:05Z | JavaScript | Infrastructure/tooling | 22 | 15 | 22 | 22 |
@@ -188,6 +194,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rgthree/rgthree-comfy](https://github.com/rgthree/rgthree-comfy) | 3027 | 2026-04-07T04:19:01Z | JavaScript | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [patorjk/figlet.js](https://github.com/patorjk/figlet.js) | 2961 | 2026-04-10T03:25:24Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [archiverjs/node-archiver](https://github.com/archiverjs/node-archiver) | 2952 | 2026-04-16T04:58:29Z | JavaScript | Infrastructure/tooling | 6 | 24 | 6 | 6 |
+| [yahoo/serialize-javascript](https://github.com/yahoo/serialize-javascript) | 2922 | 2026-04-24T19:55:05Z | JavaScript | Infrastructure/tooling | 3 | 3 | 4 | 4 |
 | [asciinema/asciinema-player](https://github.com/asciinema/asciinema-player) | 2879 | 2026-04-16T13:05:38Z | JavaScript | CLI | 7 | 25 | 7 | 7 |
 | [webpack/postcss-loader](https://github.com/webpack/postcss-loader) | 2844 | 2026-04-10T10:22:25Z | JavaScript | Infrastructure/tooling | 4 | 45 | 4 | 4 |
 | [tc39/test262](https://github.com/tc39/test262) | 2743 | 2026-04-21T16:48:03Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
@@ -229,6 +236,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mapbox/node-pre-gyp](https://github.com/mapbox/node-pre-gyp) | 1149 | 2026-04-21T18:33:11Z | JavaScript | Infrastructure/tooling | 4 | 26 | 4 | 4 |
 | [minio/minio-js](https://github.com/minio/minio-js) | 1135 | 2026-04-23T07:18:08Z | JavaScript | CLI | 6 | 60 | 6 | 6 |
 | [ethereum/devp2p](https://github.com/ethereum/devp2p) | 1114 | 2026-03-30T13:14:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [NickColley/jest-axe](https://github.com/NickColley/jest-axe) | 1107 | 2026-04-24T15:33:58Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [istanbuljs/istanbuljs](https://github.com/istanbuljs/istanbuljs) | 1096 | 2026-04-09T17:48:19Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [serverless-operations/serverless-step-functions](https://github.com/serverless-operations/serverless-step-functions) | 1045 | 2026-04-17T11:50:47Z | JavaScript | Infrastructure/tooling | 7 | 26 | 7 | 7 |
 | [igorshubovych/markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) | 1045 | 2026-04-13T19:28:14Z | JavaScript | CLI | 1 | 23 | 2 | 2 |

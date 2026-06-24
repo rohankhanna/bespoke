@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 21
-- components: 18
-- concepts: 21
-- observations: 21
+- repos: 3
+- terms: 35
+- components: 31
+- concepts: 35
+- observations: 35
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gitleaks/gitleaks-action](https://github.com/gitleaks/gitleaks-action) | 602 | 2026-06-10T00:12:05Z | JavaScript | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [beve-org/beve](https://github.com/beve-org/beve) | 122 | 2026-05-29T21:22:54Z | JavaScript | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [all-contributors/app](https://github.com/all-contributors/app) | 627 | 2026-05-27T06:49:39Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 
@@ -34,4 +35,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [all-contributors/app](https://github.com/all-contributors/app) | 627 | 2026-05-27T06:49:39Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
+| [gitleaks/gitleaks-action](https://github.com/gitleaks/gitleaks-action) | 602 | 2026-06-10T00:12:05Z | JavaScript | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [beve-org/beve](https://github.com/beve-org/beve) | 122 | 2026-05-29T21:22:54Z | JavaScript | Infrastructure/tooling | 9 | 2 | 9 | 9 |

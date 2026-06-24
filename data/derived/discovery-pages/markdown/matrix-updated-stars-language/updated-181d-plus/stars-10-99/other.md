@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -407,7 +407,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ohad/collie](https://github.com/ohad/collie) | 34 | 2024-07-26T13:31:23Z | Other | CLI | 1 | 3 | 1 | 1 |
 | [isl-org/open3d-cmake-external-project](https://github.com/isl-org/open3d-cmake-external-project) | 18 | 2024-07-25T22:59:51Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [travis-ci/gh](https://github.com/travis-ci/gh) | 67 | 2024-07-24T08:36:28Z | Other | CLI | 0 | 0 | 0 | 0 |
-| [shovel-org/Windows-Sysinternals-Bucket](https://github.com/shovel-org/Windows-Sysinternals-Bucket) | 43 | 2024-07-23T15:21:28Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [shovel-org/Windows-Sysinternals-Bucket](https://github.com/shovel-org/Windows-Sysinternals-Bucket) | 42 | 2024-07-23T15:21:28Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [Clemapfel/MousetrapMakie.jl](https://github.com/Clemapfel/MousetrapMakie.jl) | 13 | 2024-07-18T12:12:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [clojure/tools.analyzer.js](https://github.com/clojure/tools.analyzer.js) | 22 | 2024-07-15T18:02:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vis-nlp/ChartGemma](https://github.com/vis-nlp/ChartGemma) | 74 | 2024-07-14T21:29:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1300,7 +1300,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appwrite/playground-for-apple-swiftui](https://github.com/appwrite/playground-for-apple-swiftui) | 43 | 2025-07-26T16:57:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Deep-Symmetry/beat-carabiner](https://github.com/Deep-Symmetry/beat-carabiner) | 43 | 2025-07-22T04:27:45Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [lawrence-laz/neotest-zig](https://github.com/lawrence-laz/neotest-zig) | 43 | 2025-03-16T21:55:59Z | Other | Unknown | 3 | 0 | 3 | 3 |
-| [shovel-org/Windows-Sysinternals-Bucket](https://github.com/shovel-org/Windows-Sysinternals-Bucket) | 43 | 2024-07-23T15:21:28Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [jinganix/enif_protobuf](https://github.com/jinganix/enif_protobuf) | 43 | 2023-12-29T03:29:01Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [red-data-tools/numpy.rb](https://github.com/red-data-tools/numpy.rb) | 43 | 2023-11-26T16:42:50Z | Other | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [JuliaLogging/TerminalLoggers.jl](https://github.com/JuliaLogging/TerminalLoggers.jl) | 43 | 2023-04-24T20:55:34Z | Other | CLI | 5 | 7 | 5 | 5 |
@@ -1315,6 +1314,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adams85/bundling](https://github.com/adams85/bundling) | 42 | 2025-01-01T14:32:51Z | Other | Library | 0 | 0 | 0 | 0 |
 | [GEOSwift/GEOSwiftMapKit](https://github.com/GEOSwift/GEOSwiftMapKit) | 42 | 2024-10-16T13:54:46Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [sonodar/dify-aws-terraform](https://github.com/sonodar/dify-aws-terraform) | 42 | 2024-09-05T02:26:51Z | Other | Template/starter | 0 | 0 | 0 | 0 |
+| [shovel-org/Windows-Sysinternals-Bucket](https://github.com/shovel-org/Windows-Sysinternals-Bucket) | 42 | 2024-07-23T15:21:28Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [yatsuki/v2manager](https://github.com/yatsuki/v2manager) | 42 | 2022-02-23T11:25:13Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [privacycg/requestStorageAccessFor](https://github.com/privacycg/requestStorageAccessFor) | 41 | 2025-10-17T14:39:56Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [autofac/Autofac.Configuration](https://github.com/autofac/Autofac.Configuration) | 41 | 2025-09-26T20:19:26Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |

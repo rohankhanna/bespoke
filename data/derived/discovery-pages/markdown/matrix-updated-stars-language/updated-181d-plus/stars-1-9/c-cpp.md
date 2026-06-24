@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 102
-- terms: 144
-- components: 183
-- concepts: 145
-- observations: 145
+- repos: 103
+- terms: 147
+- components: 191
+- concepts: 148
+- observations: 148
 
 ## Static behavior
 
@@ -113,6 +113,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mah0x211/lua-libmdbx](https://github.com/mah0x211/lua-libmdbx) | 4 | 2023-01-31T06:17:38Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [amiart/qt-lzstring](https://github.com/amiart/qt-lzstring) | 7 | 2023-01-19T13:18:27Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [d99kris/doxygenmd](https://github.com/d99kris/doxygenmd) | 8 | 2023-01-15T08:24:42Z | C/C++ | Infrastructure/tooling | 4 | 1 | 5 | 5 |
+| [badlogic/dosbox-x](https://github.com/badlogic/dosbox-x) | 6 | 2022-12-30T09:18:52Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [MunifTanjim/llhttp.lua](https://github.com/MunifTanjim/llhttp.lua) | 6 | 2022-11-09T15:59:27Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [dgatwood/v8-libwebsocket-obs-websocket](https://github.com/dgatwood/v8-libwebsocket-obs-websocket) | 8 | 2022-07-12T03:36:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hayguen/pffft](https://github.com/hayguen/pffft) | 5 | 2022-04-10T13:50:14Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
@@ -165,6 +166,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MikeSteglich/Cmpl2](https://github.com/MikeSteglich/Cmpl2) | 6 | 2024-07-10T13:37:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kantv-ai/FFmpeg](https://github.com/kantv-ai/FFmpeg) | 6 | 2024-04-12T14:56:39Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [CameLLM/CameLLM-Llama](https://github.com/CameLLM/CameLLM-Llama) | 6 | 2023-05-26T05:57:30Z | C/C++ | Model/data | 2 | 0 | 2 | 2 |
+| [badlogic/dosbox-x](https://github.com/badlogic/dosbox-x) | 6 | 2022-12-30T09:18:52Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [MunifTanjim/llhttp.lua](https://github.com/MunifTanjim/llhttp.lua) | 6 | 2022-11-09T15:59:27Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [Izhido/test262_harness_cpp](https://github.com/Izhido/test262_harness_cpp) | 6 | 2021-07-05T06:25:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [TheTechnobear/EraeTouchLite](https://github.com/TheTechnobear/EraeTouchLite) | 5 | 2025-12-16T12:22:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

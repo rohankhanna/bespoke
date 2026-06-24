@@ -1,27 +1,26 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 11,
-    "terms": 47
+    "components": 70,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 10,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "CleverCloud/karpenter-provider-clever-cloud",
+    "cloudfoundry/credhub-acceptance-tests",
     "edward3h/docker-bds-integration-test",
     "Jaded-Encoding-Thaumaturgy/vs-wheels",
+    "kurrent-io/KurrentDB-Bridge-Client",
     "lxgw/B5XiZhi",
-    "mozilla-ai/otari-sdk-rust",
-    "mozilla-ai/otari-sdk-ts",
     "OpenHands/automation",
-    "oscard0m/ts-transformer-remove-named-export",
     "paperclipinc/karpenter-provider-hetzner",
     "Venly/web3-react-venly"
   ]

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28652,
-    "concepts": 15411,
-    "observations": 15463,
-    "repos": 5536,
-    "terms": 15405
+    "components": 28626,
+    "concepts": 15420,
+    "observations": 15472,
+    "repos": 5539,
+    "terms": 15414
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -888,6 +888,7 @@
     "BadBoiLabs/Cannon-rs",
     "badboy/iso8601",
     "badgen/badgen-icons",
+    "badlogic/gdb-7.1a-djgpp",
     "baerwang/openapi-rs",
     "bagxi/idrnd-anti-spoofing-challenge-solution",
     "BAI-LAB/Survey-on-AI-Memory",
@@ -2465,7 +2466,6 @@
     "google-marketing-solutions/web-vitals-gtm-template",
     "google-research-datasets/screen2words",
     "google-research-datasets/uibert",
-    "google-research-datasets/widget-caption",
     "google-research-datasets/WikipediaHomographData",
     "google-research/hit-gan",
     "google-research/human-scene-transformer",
@@ -2481,7 +2481,6 @@
     "google/hrx",
     "google/hrx-ruby",
     "google/litmus",
-    "google/mysteryofthreebots",
     "google/oss-policies-info",
     "google/safe-mmio",
     "google/serde_json5",
@@ -4093,6 +4092,7 @@
     "o3de/PhysX",
     "o3de/sig-simulation",
     "oak-security/resources",
+    "oakshy/RomanTex",
     "oap-project/oap-mllib",
     "obi1kenobi/cargo-semver-checks-action",
     "objectbox/objectbox-dart-performance",
@@ -4368,6 +4368,8 @@
     "plotters-rs/plotters-canvas",
     "plotters-rs/plotters-gtk-demo",
     "plotters-rs/plotters-minifb-demo",
+    "plotters-rs/plotters-piston",
+    "plotters-rs/plotters-wasm-demo",
     "PointCloudLibrary/PointCloudLibrary.github.io",
     "polimi-ispl/GAN-image-detection",
     "PoseLib/posebench",
@@ -5435,6 +5437,7 @@
     "xg-chu/GAGAvatar_track",
     "xg-chu/lightning_track",
     "xhluca/bm25-benchmarks",
+    "Xiaobin-Rong/TRT-SE",
     "xiaoxin-sky/lapce-vue",
     "xie-lab-ml/piecewise-sparse-attention",
     "Ximik/tex2svg",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 197,
-    "concepts": 332,
-    "observations": 332,
-    "repos": 291,
-    "terms": 332
+    "concepts": 334,
+    "observations": 334,
+    "repos": 292,
+    "terms": 334
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -22,6 +22,7 @@
     "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
     "adamharrison/straightforward-c-project-standard",
     "AdguardTeam/CoreLibs",
+    "Adlik/model_zoo",
     "adobe-research/Cross-lingual-Test-Dataset-XTD10",
     "adobe-type-tools/Adobe-GB1",
     "adobe-type-tools/Adobe-Japan1",
@@ -135,7 +136,6 @@
     "google-deepmind/boxoban-levels",
     "google-research-datasets/screen2words",
     "google-research-datasets/uibert",
-    "google-research-datasets/widget-caption",
     "google-research-datasets/WikipediaHomographData",
     "googlefonts/radiocanadadisplay",
     "gorilla/.github",
@@ -224,6 +224,7 @@
     "nv-dvl/SPAM",
     "nvm-sh/logos",
     "o3de/sig-simulation",
+    "oakshy/RomanTex",
     "octokit/auth-oauth-user-client.js",
     "octopus-network/ibc-spec-cn",
     "OffchainLabs/arbitrum",

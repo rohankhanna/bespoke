@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1297,
-    "concepts": 1396,
-    "observations": 1403,
-    "repos": 194,
-    "terms": 1387
+    "components": 1313,
+    "concepts": 1401,
+    "observations": 1408,
+    "repos": 193,
+    "terms": 1392
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -33,6 +33,7 @@
     "Blynk-Technologies/blynk-library",
     "boazsegev/facil.io",
     "boostorg/beast",
+    "boostorg/pfr",
     "cameron314/readerwriterqueue",
     "ccache/ccache",
     "cdown/clipmenu",
@@ -100,6 +101,7 @@
     "KhronosGroup/Vulkan-Headers",
     "KhronosGroup/Vulkan-Samples",
     "Kitware/CMake",
+    "kvcache-ai/Mooncake",
     "LeelaChessZero/lc0",
     "lh3/minimap2",
     "liballeg/allegro5",
@@ -112,8 +114,6 @@
     "libressl/portable",
     "libssh2/libssh2",
     "lightvector/KataGo",
-    "lltcggie/waifu2x-caffe",
-    "mackron/miniaudio",
     "madler/zlib",
     "mamba-org/mamba",
     "mapnik/mapnik",
@@ -141,7 +141,6 @@
     "nihui/opencv-mobile",
     "nihui/waifu2x-ncnn-vulkan",
     "nmslib/hnswlib",
-    "nodemcu/nodemcu-firmware",
     "Novum/vkQuake",
     "NVIDIA-Omniverse/PhysX",
     "NVIDIA/cccl",

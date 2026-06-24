@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3502,
-    "concepts": 1739,
-    "observations": 1742,
-    "repos": 344,
-    "terms": 1711
+    "components": 3507,
+    "concepts": 1760,
+    "observations": 1763,
+    "repos": 346,
+    "terms": 1730
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -298,6 +298,7 @@
     "ryanmcdermott/clean-code-javascript",
     "salesforce/LAVIS",
     "Sanster/IOPaint",
+    "sashabaranov/go-openai",
     "sczhou/CodeFormer",
     "sdras/awesome-actions",
     "SesameAILabs/csm",
@@ -315,6 +316,7 @@
     "svc-develop-team/so-vits-svc",
     "SYSTRAN/faster-whisper",
     "tatsu-lab/stanford_alpaca",
+    "Tencent-Hunyuan/Hunyuan3D-2",
     "Tencent-Hunyuan/HunyuanVideo",
     "Tencent/rapidjson",
     "TencentARC/GFPGAN",

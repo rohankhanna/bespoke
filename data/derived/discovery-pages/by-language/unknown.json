@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 1658,
-    "concepts": 3026,
-    "observations": 3030,
-    "repos": 1716,
-    "terms": 3035
+    "concepts": 3028,
+    "observations": 3032,
+    "repos": 1718,
+    "terms": 3037
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -401,6 +401,7 @@
     "CrazyBoyM/LLM-Chinese",
     "crev-dev/crev",
     "crewAIInc/skills",
+    "crossplane/release",
     "crownpku/Awesome-Chinese-NLP",
     "crytic/solc",
     "CSCSX/LeRobotTutorial-CN",
@@ -848,7 +849,6 @@
     "google-research-datasets/conceptual-12m",
     "google-research-datasets/screen2words",
     "google-research-datasets/uibert",
-    "google-research-datasets/widget-caption",
     "google-research-datasets/WikipediaHomographData",
     "google-research/reassessed-imagenet",
     "google-research/tuning_playbook",
@@ -1156,6 +1156,7 @@
     "mhn226/espnet",
     "michaelkleber/privacy-model",
     "micronaut-projects/micronaut-examples",
+    "microsoft/AEC-Challenge",
     "microsoft/api-guidelines",
     "microsoft/botframework-emulator-nightlies",
     "microsoft/containerregistry",
@@ -1278,6 +1279,7 @@
     "o3de/sig-simulation",
     "oak-security/audit-reports",
     "oak-security/resources",
+    "oakshy/RomanTex",
     "obahareth/base16-builder-ruby",
     "obsidianmd/obsidian-api",
     "obsidianmd/obsidian-releases",

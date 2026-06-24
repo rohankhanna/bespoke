@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 230,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 64,
-    "terms": 157
+    "components": 242,
+    "concepts": 144,
+    "observations": 144,
+    "repos": 65,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -42,13 +42,13 @@
     "conda-forge/threadpoolctl-feedstock",
     "CoolCat467/idlemypyextension",
     "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
-    "danielrosehill/claude-slash-commands",
     "danielrosehill/donetick-mcp",
     "danielrosehill/Geopol-Forecaster",
     "danielrosehill/LLM-Council-Template",
     "dora-rs/dora-benchmark",
     "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",
+    "flagos-ai/TransformerEngine-FL",
     "floxym/financial-chat",
     "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",
@@ -56,6 +56,7 @@
     "jupyter-xeus/xeus-python-shell",
     "justinchuby/lintrunner-adapters",
     "KabakaWilliam/trajectorykit",
+    "kalavai-net/kube-watcher",
     "kelp/webdown",
     "lace/proximity",
     "ldayton/parable",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 125
-- components: 133
-- concepts: 125
-- observations: 125
+- repos: 36
+- terms: 119
+- components: 125
+- concepts: 119
+- observations: 119
 
 ## Static behavior
 
@@ -62,8 +62,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tinted-theming/base16-waybar](https://github.com/tinted-theming/base16-waybar) | 2 | 2026-04-26T02:05:37Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [ros2-rust/rosidl_rust](https://github.com/ros2-rust/rosidl_rust) | 1 | 2026-04-25T15:33:13Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [v-iashin/v-iashin.github.io](https://github.com/v-iashin/v-iashin.github.io) | 5 | 2026-04-25T13:52:44Z | Other | Unknown | 3 | 0 | 3 | 3 |
-| [JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl](https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl) | 2 | 2026-04-24T22:43:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [cgrindel/rules_swiftformat](https://github.com/cgrindel/rules_swiftformat) | 8 | 2026-04-24T18:55:46Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -77,7 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [benjamimgois/pascube](https://github.com/benjamimgois/pascube) | 8 | 2026-04-29T23:42:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bennyyip/dot-vim](https://github.com/bennyyip/dot-vim) | 8 | 2026-04-29T05:56:28Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [0xble/dotagent.nvim](https://github.com/0xble/dotagent.nvim) | 8 | 2026-04-26T19:14:06Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [cgrindel/rules_swiftformat](https://github.com/cgrindel/rules_swiftformat) | 8 | 2026-04-24T18:55:46Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [holochain/holonix](https://github.com/holochain/holonix) | 7 | 2026-04-28T13:26:39Z | Other | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [php-rdkafka/php-rdkafka-doc](https://github.com/php-rdkafka/php-rdkafka-doc) | 7 | 2026-04-27T16:22:55Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [dotenvx/homebrew-brew](https://github.com/dotenvx/homebrew-brew) | 7 | 2026-04-27T15:52:07Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -99,7 +96,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appsignal/appsignal-elixir-plug](https://github.com/appsignal/appsignal-elixir-plug) | 2 | 2026-04-28T12:47:55Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [Blosc/blogsite](https://github.com/Blosc/blogsite) | 2 | 2026-04-28T09:24:57Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [tinted-theming/base16-waybar](https://github.com/tinted-theming/base16-waybar) | 2 | 2026-04-26T02:05:37Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl](https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl) | 2 | 2026-04-24T22:43:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Aayushm24/presidential-briefing](https://github.com/Aayushm24/presidential-briefing) | 1 | 2026-05-13T03:11:40Z | Other | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [atsushieno/aap-juce-simple-host](https://github.com/atsushieno/aap-juce-simple-host) | 1 | 2026-05-10T18:55:50Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [stable-haskell/cabal](https://github.com/stable-haskell/cabal) | 1 | 2026-04-30T10:12:27Z | Other | Infrastructure/tooling | 9 | 12 | 9 | 9 |

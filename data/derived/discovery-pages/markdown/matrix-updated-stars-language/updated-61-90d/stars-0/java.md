@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Java
 
-Generated at: `2026-06-01T08:21:18.254253+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 1
-- components: 2
-- concepts: 1
-- observations: 1
+- repos: 2
+- terms: 7
+- components: 0
+- concepts: 7
+- observations: 7
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [saalfeldlab/n5-blosc](https://github.com/saalfeldlab/n5-blosc) | 0 | 2026-03-03T14:43:43Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [mukel/gptoss.java](https://github.com/mukel/gptoss.java) | 0 | 2026-04-24T16:40:40Z | Java | Unknown | 7 | 0 | 7 | 7 |
+| [mukel/nemotron3.java](https://github.com/mukel/nemotron3.java) | 0 | 2026-04-24T16:39:34Z | Java | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [saalfeldlab/n5-blosc](https://github.com/saalfeldlab/n5-blosc) | 0 | 2026-03-03T14:43:43Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [mukel/gptoss.java](https://github.com/mukel/gptoss.java) | 0 | 2026-04-24T16:40:40Z | Java | Unknown | 7 | 0 | 7 | 7 |
+| [mukel/nemotron3.java](https://github.com/mukel/nemotron3.java) | 0 | 2026-04-24T16:39:34Z | Java | Unknown | 0 | 0 | 0 | 0 |

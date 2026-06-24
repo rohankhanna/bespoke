@@ -3,7 +3,7 @@
     "components": 7,
     "concepts": 5,
     "observations": 5,
-    "repos": 5,
+    "repos": 6,
     "terms": 5
   },
   "facet_version": 1,
@@ -11,10 +11,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "Comfy-Org/ComfyUI-Standalone-Environments",
     "donut-party/endpoint-test",
+    "elixir-makeup/makeup_c",
     "hermit-os/rust-std-hermit",
     "rocq-community/docker-base",
     "xuanji86/ainiee-translate-skill"

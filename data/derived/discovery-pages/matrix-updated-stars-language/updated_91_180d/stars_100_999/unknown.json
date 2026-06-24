@@ -3,7 +3,7 @@
     "components": 36,
     "concepts": 119,
     "observations": 120,
-    "repos": 45,
+    "repos": 46,
     "terms": 112
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "abubakarsiddik31/claude-skills-collection",
     "Alex313031/Thorium-Android",
+    "apple/device-management",
     "Biscuit-Theme/biscuit",
     "bluescan/proggyfonts",
     "Calcium-Ion/new-api-horizon",

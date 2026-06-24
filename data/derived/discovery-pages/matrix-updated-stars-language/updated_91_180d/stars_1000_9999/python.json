@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 519,
-    "concepts": 1023,
-    "observations": 1023,
-    "repos": 188,
-    "terms": 1013
+    "components": 531,
+    "concepts": 1069,
+    "observations": 1069,
+    "repos": 194,
+    "terms": 1058
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -79,6 +79,7 @@
     "facebookresearch/meshrcnn",
     "facebookresearch/pytorch3d",
     "facebookresearch/pytorchvideo",
+    "facebookresearch/sam-3d-body",
     "facebookresearch/SlowFast",
     "Farama-Foundation/Metaworld",
     "FlagOpen/RoboBrain2.5",
@@ -110,6 +111,7 @@
     "KaiyangZhou/deep-person-reid",
     "keleshev/schema",
     "KellerJordan/Muon",
+    "kijai/ComfyUI-Hunyuan3DWrapper",
     "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
     "layumi/Person_reID_baseline_pytorch",
@@ -126,8 +128,11 @@
     "miolini/autoresearch-macos",
     "mjpost/sacrebleu",
     "ModelTC/LightX2V-Qwen-Image-Lightning",
+    "mosaicml/composer",
+    "mosaicml/llm-foundry",
     "mosaicml/streaming",
     "mozillazg/pinyin-data",
+    "MrForExample/ComfyUI-3D-Pack",
     "myhub/tr",
     "NixOS/nixops",
     "novnc/websockify",
@@ -183,6 +188,7 @@
     "TencentCloudADP/youtu-agent",
     "tensorflow/agents",
     "the-moonwitch/Cozette",
+    "The-OpenROAD-Project/OpenLane",
     "themix-project/themix-gui",
     "thewh1teagle/kokoro-onnx",
     "thu-ml/RoboticsDiffusionTransformer",
@@ -190,8 +196,8 @@
     "trevin-creator/autoresearch-mlx",
     "turboderp-org/exllamav2",
     "uber/petastorm",
+    "ufoym/deepo",
     "Vchitect/VBench",
-    "ViTAE-Transformer/ViTPose",
     "waymo-research/waymo-open-dataset",
     "weaviate/elysia",
     "webdataset/webdataset",

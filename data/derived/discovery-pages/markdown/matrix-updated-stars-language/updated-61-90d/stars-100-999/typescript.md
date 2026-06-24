@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 144
-- terms: 835
-- components: 4041
-- concepts: 774
-- observations: 774
+- repos: 141
+- terms: 844
+- components: 3943
+- concepts: 783
+- observations: 783
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [aws-samples/swift-chat](https://github.com/aws-samples/swift-chat) | 797 | 2026-04-24T09:49:51Z | TypeScript | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 | [docker/bake-action](https://github.com/docker/bake-action) | 292 | 2026-04-24T07:46:59Z | TypeScript | Infrastructure/tooling | 12 | 30 | 12 | 12 |
 | [azat-io/eslint-plugin-de-morgan](https://github.com/azat-io/eslint-plugin-de-morgan) | 313 | 2026-04-24T06:06:04Z | TypeScript | Infrastructure/tooling | 6 | 32 | 6 | 6 |
 | [Kong/kong-manager](https://github.com/Kong/kong-manager) | 432 | 2026-04-24T02:57:52Z | TypeScript | Infrastructure/tooling | 9 | 59 | 9 | 9 |
@@ -166,10 +167,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [carbon-design-system/carbon-pictograms-svelte](https://github.com/carbon-design-system/carbon-pictograms-svelte) | 135 | 2026-03-26T19:03:45Z | TypeScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [carbon-design-system/carbon-icons-svelte](https://github.com/carbon-design-system/carbon-icons-svelte) | 452 | 2026-03-26T19:03:05Z | TypeScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [ruvnet/agentic-flow](https://github.com/ruvnet/agentic-flow) | 617 | 2026-03-26T08:37:31Z | TypeScript | Infrastructure/tooling | 13 | 84 | 13 | 13 |
-| [fannheyward/create-coc-extension](https://github.com/fannheyward/create-coc-extension) | 216 | 2026-03-26T00:40:11Z | TypeScript | CLI | 1 | 13 | 1 | 1 |
-| [aquasecurity/trivy-vscode-extension](https://github.com/aquasecurity/trivy-vscode-extension) | 174 | 2026-03-25T23:31:23Z | TypeScript | Infrastructure/tooling | 4 | 49 | 4 | 4 |
-| [PanAeon/vscode-tmgrammar-test](https://github.com/PanAeon/vscode-tmgrammar-test) | 115 | 2026-03-25T23:11:39Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
-| [latex-lsp/texlab-vscode](https://github.com/latex-lsp/texlab-vscode) | 101 | 2026-03-25T22:49:37Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -185,6 +182,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [neolabhq/context-engineering-kit](https://github.com/NeoLabHQ/context-engineering-kit) | 830 | 2026-04-16T22:42:59Z | TypeScript | CLI | 0 | 0 | 0 | 0 |
 | [AmElmo/proofshot](https://github.com/AmElmo/proofshot) | 801 | 2026-04-14T04:20:49Z | TypeScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [clangd/vscode-clangd](https://github.com/clangd/vscode-clangd) | 798 | 2026-04-15T13:22:48Z | TypeScript | Infrastructure/tooling | 4 | 20 | 4 | 4 |
+| [aws-samples/swift-chat](https://github.com/aws-samples/swift-chat) | 797 | 2026-04-24T09:49:51Z | TypeScript | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 | [anthropics/claude-code-base-action](https://github.com/anthropics/claude-code-base-action) | 797 | 2026-04-20T22:18:57Z | TypeScript | Unknown | 0 | 8 | 0 | 0 |
 | [webextension-toolbox/webextension-toolbox](https://github.com/webextension-toolbox/webextension-toolbox) | 784 | 2026-04-15T18:55:44Z | TypeScript | CLI | 17 | 47 | 17 | 17 |
 | [babel/website](https://github.com/babel/website) | 774 | 2026-04-21T18:19:40Z | TypeScript | Web app | 4 | 45 | 4 | 4 |
@@ -279,7 +277,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DeterminateSystems/nix-installer-action](https://github.com/DeterminateSystems/nix-installer-action) | 231 | 2026-04-23T06:41:58Z | TypeScript | Infrastructure/tooling | 3 | 23 | 3 | 3 |
 | [sass/embedded-host-node](https://github.com/sass/embedded-host-node) | 223 | 2026-04-20T20:48:36Z | TypeScript | Infrastructure/tooling | 1 | 37 | 1 | 1 |
 | [fastify/demo](https://github.com/fastify/demo) | 219 | 2026-04-12T12:33:31Z | TypeScript | Infrastructure/tooling | 8 | 37 | 8 | 8 |
-| [fannheyward/create-coc-extension](https://github.com/fannheyward/create-coc-extension) | 216 | 2026-03-26T00:40:11Z | TypeScript | CLI | 1 | 13 | 1 | 1 |
 | [Obsidian-TTRPG-Community/initiative-tracker](https://github.com/Obsidian-TTRPG-Community/initiative-tracker) | 213 | 2026-04-12T22:27:18Z | TypeScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
 | [graalvm/setup-graalvm](https://github.com/graalvm/setup-graalvm) | 212 | 2026-04-02T07:02:26Z | TypeScript | Infrastructure/tooling | 12 | 41 | 12 | 12 |
 | [juliangruber/brace-expansion](https://github.com/juliangruber/brace-expansion) | 207 | 2026-04-11T13:26:33Z | TypeScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
@@ -294,7 +291,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Autodesk/synthesis](https://github.com/Autodesk/synthesis) | 178 | 2026-04-07T19:18:12Z | TypeScript | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [safe-global/safe-deployments](https://github.com/safe-global/safe-deployments) | 177 | 2026-04-21T12:57:36Z | TypeScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
 | [Shougo/dpp.vim](https://github.com/Shougo/dpp.vim) | 175 | 2026-04-18T01:34:23Z | TypeScript | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [aquasecurity/trivy-vscode-extension](https://github.com/aquasecurity/trivy-vscode-extension) | 174 | 2026-03-25T23:31:23Z | TypeScript | Infrastructure/tooling | 4 | 49 | 4 | 4 |
 | [Azure/cli](https://github.com/Azure/cli) | 163 | 2026-04-23T02:25:17Z | TypeScript | CLI | 7 | 16 | 7 | 7 |
 | [connectrpc/examples-es](https://github.com/connectrpc/examples-es) | 160 | 2026-04-20T19:16:30Z | TypeScript | Infrastructure/tooling | 19 | 5 | 19 | 19 |
 | [AbianS/docker-db-manager](https://github.com/AbianS/docker-db-manager) | 160 | 2026-04-12T18:29:18Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
@@ -311,11 +307,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [typed-ember/glint](https://github.com/typed-ember/glint) | 116 | 2026-04-13T15:57:04Z | TypeScript | Infrastructure/tooling | 3 | 36 | 3 | 3 |
 | [sveltejs/svelte-eslint-parser](https://github.com/sveltejs/svelte-eslint-parser) | 115 | 2026-04-23T16:51:48Z | TypeScript | Infrastructure/tooling | 12 | 69 | 12 | 12 |
 | [iFaxity/vite-plugin-istanbul](https://github.com/iFaxity/vite-plugin-istanbul) | 115 | 2026-04-20T20:30:51Z | TypeScript | Infrastructure/tooling | 9 | 26 | 9 | 9 |
-| [PanAeon/vscode-tmgrammar-test](https://github.com/PanAeon/vscode-tmgrammar-test) | 115 | 2026-03-25T23:11:39Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [NVIDIA/OpenShell-Community](https://github.com/NVIDIA/OpenShell-Community) | 112 | 2026-04-11T23:00:46Z | TypeScript | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [maplibre/ngx-maplibre-gl](https://github.com/maplibre/ngx-maplibre-gl) | 111 | 2026-04-17T00:17:07Z | TypeScript | Infrastructure/tooling | 6 | 62 | 6 | 6 |
 | [daeh/zotero-citation-tally](https://github.com/daeh/zotero-citation-tally) | 110 | 2026-04-14T04:19:21Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
 | [TabbyML/pochi](https://github.com/TabbyML/pochi) | 106 | 2026-04-23T12:10:55Z | TypeScript | Infrastructure/tooling | 7 | 23 | 7 | 7 |
 | [43081j/picoquery](https://github.com/43081j/picoquery) | 104 | 2026-04-01T22:49:06Z | TypeScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [elizaos/elizaos.github.io](https://github.com/elizaOS/elizaos.github.io) | 103 | 2026-04-20T23:31:16Z | TypeScript | Infrastructure/tooling | 6 | 76 | 0 | 0 |
-| [latex-lsp/texlab-vscode](https://github.com/latex-lsp/texlab-vscode) | 101 | 2026-03-25T22:49:37Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |

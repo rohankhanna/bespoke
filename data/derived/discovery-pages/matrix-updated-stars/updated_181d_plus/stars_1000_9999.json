@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10760,
-    "concepts": 9503,
-    "observations": 9517,
-    "repos": 2441,
-    "terms": 9373
+    "components": 10758,
+    "concepts": 9537,
+    "observations": 9551,
+    "repos": 2445,
+    "terms": 9405
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -145,6 +145,7 @@
     "andialbrecht/sqlparse",
     "andrewrk/groovebasin",
     "andrewrk/poop",
+    "ands/lightmapper",
     "andyzeng/tsdf-fusion-python",
     "anmonteiro/lumo",
     "anse-app/anse",
@@ -251,6 +252,7 @@
     "baaivision/Painter",
     "babel/babel-eslint",
     "babel/minify",
+    "BachiLi/redner",
     "backup/backup",
     "baichuan-inc/Baichuan-13B",
     "baichuan-inc/Baichuan-7B",
@@ -596,6 +598,7 @@
     "dragnet-org/dragnet",
     "dragonflyoss/dragonfly-archived",
     "drduh/pwd.sh",
+    "drknzz/GitHub-Achievements",
     "dtolnay/case-studies",
     "dtolnay/serde-yaml",
     "Duxiaoman-DI/XuanYuan",
@@ -1145,6 +1148,7 @@
     "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
     "jose-elias-alvarez/null-ls.nvim",
     "JoshClose/CsvHelper",
+    "jpcy/xatlas",
     "jpillora/cloud-torrent",
     "jpmens/jo",
     "jquery-archive/jquery-mobile",
@@ -1268,7 +1272,6 @@
     "libgit2/objective-git",
     "libimobiledevice/libimobiledevice",
     "libimobiledevice/usbmuxd",
-    "libsndfile/libsndfile",
     "lifeiteng/vall-e",
     "Lifelong-Robot-Learning/LIBERO",
     "Lightning-AI/deep-learning-project-template",
@@ -2305,6 +2308,7 @@
     "vislyhq/stretch",
     "Visual-Agent/DeepEyes",
     "vit-vit/CTPL",
+    "ViTAE-Transformer/ViTPose",
     "vitalets/github-trending-repos",
     "vitalets/react-native-extended-stylesheet",
     "vmihailenco/msgpack",

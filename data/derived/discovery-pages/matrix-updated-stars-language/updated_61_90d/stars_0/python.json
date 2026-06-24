@@ -3,7 +3,7 @@
     "components": 47,
     "concepts": 43,
     "observations": 43,
-    "repos": 27,
+    "repos": 26,
     "terms": 50
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
-    "adammes/voyanode",
     "bunburysniper/bleunova-ai-agent",
     "cdeust/cortex-know-when-to-stop-training-model",
     "conda-forge/conda-forge-feedstock-ops",

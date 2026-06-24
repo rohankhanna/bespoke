@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 76,
+    "components": 82,
     "concepts": 42,
     "observations": 42,
-    "repos": 39,
+    "repos": 42,
     "terms": 42
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
     "aaron-he-zhu/cite-domain-rating",
     "aaronrsun/spec-kit-checkpoint",
+    "ada-url/url-various-datasets",
     "adobe-type-tools/Adobe-Manga1",
     "adonisjs/.github",
     "aifoundry-org/et-man",
@@ -32,12 +33,14 @@
     "cncf/k8s-conformance-archive",
     "conda-forge/modin-feedstock",
     "danielrosehill/claude-agent-workspace-generator",
+    "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/Claude-Development-Agents",
     "danielrosehill/Claude-Dork",
     "danielrosehill/Digital-Evidence-Toolkit",
     "danielrosehill/Hebrew-TTS-Providers",
     "gakonst/foundry",
     "hchiam/learning-gh",
+    "hchiam/learning-template",
     "hesreallyhim/inkverse-fork",
     "jsdom/.github",
     "kornia/data",

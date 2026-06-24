@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 25,
+    "components": 34,
     "concepts": 27,
     "observations": 27,
     "repos": 3,
@@ -12,10 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "ldproxy/ldproxy",
+    "redis/redis-om-spring",
     "spring-projects/spring-tools"
   ]
 }

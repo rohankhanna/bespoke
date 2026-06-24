@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 336,
-    "concepts": 372,
-    "observations": 372,
-    "repos": 49,
-    "terms": 370
+    "components": 331,
+    "concepts": 366,
+    "observations": 366,
+    "repos": 47,
+    "terms": 364
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "allegro/hermes",
     "apache/commons-jexl",
@@ -30,7 +30,6 @@
     "FasterXML/jackson-dataformats-text",
     "FasterXML/jackson-modules-base",
     "googleapis/java-bigtable-hbase",
-    "graalvm/graalvm-demos",
     "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
     "jcefmaven/jcefmaven",
@@ -57,7 +56,6 @@
     "saalfeldlab/n5",
     "samtools/htsjdk",
     "SAP/SapMachine",
-    "sevntu-checkstyle/sevntu.checkstyle",
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",
     "Waffle/waffle",

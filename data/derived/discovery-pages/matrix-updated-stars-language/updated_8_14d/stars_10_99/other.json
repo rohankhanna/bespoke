@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 18,
-    "observations": 18,
+    "components": 74,
+    "concepts": 16,
+    "observations": 16,
     "repos": 4,
-    "terms": 18
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "corgi-emacs/corgi-packages",
-    "geocompx/docker",
-    "ocaml-tracing/ocaml-opentelemetry"
+    "ocaml-tracing/ocaml-opentelemetry",
+    "processing/processing-website"
   ]
 }

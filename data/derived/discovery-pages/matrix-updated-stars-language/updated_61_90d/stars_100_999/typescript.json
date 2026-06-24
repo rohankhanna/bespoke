@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4041,
-    "concepts": 774,
-    "observations": 774,
-    "repos": 144,
-    "terms": 835
+    "components": 3943,
+    "concepts": 783,
+    "observations": 783,
+    "repos": 141,
+    "terms": 844
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -27,13 +27,13 @@
     "anthropics/claude-code-base-action",
     "appium/appium-adb",
     "appwrite/sdk-for-node",
-    "aquasecurity/trivy-vscode-extension",
     "astral-sh/ruff-action",
     "atomicmemory/llm-wiki-compiler",
     "Autodesk/synthesis",
     "avli/clojureVSCode",
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
+    "aws-samples/swift-chat",
     "aws/aws-iot-device-sdk-js-v2",
     "azat-io/eslint-plugin-de-morgan",
     "Azure/cli",
@@ -65,7 +65,6 @@
     "elm-tooling/elm-language-server",
     "evmts/tevm-monorepo",
     "fannheyward/coc-sql",
-    "fannheyward/create-coc-extension",
     "fastify/demo",
     "giselles-ai/giselle",
     "github/local-action",
@@ -90,7 +89,6 @@
     "Kong/kong-manager",
     "krassowski/jupyterlab-lsp",
     "kysely-org/kysely-ctl",
-    "latex-lsp/texlab-vscode",
     "lerna-lite/lerna-lite",
     "lewislulu/llm-wiki-skill",
     "lobehub/lobe-chat-plugins",
@@ -132,7 +130,6 @@
     "optuna/optuna-dashboard",
     "ory/hydra-login-consent-node",
     "ory/kratos-selfservice-ui-node",
-    "PanAeon/vscode-tmgrammar-test",
     "redhat-developer/vscode-xml",
     "retracedhq/retraced",
     "ruvnet/agentic-flow",

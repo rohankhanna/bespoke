@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 33,
-    "terms": 45
+    "components": 71,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 34,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "acevif/swiftformat-nix",
@@ -28,8 +28,6 @@
     "danielrosehill/Geopol-Forecast-Council",
     "danielrosehill/Github-Ideas-And-FRs",
     "danielrosehill/Github-Repo-Org-Question",
-    "danielrosehill/HFC-Guidance-Flip-Book",
-    "danielrosehill/Israel-Civilian-Readiness-Guide",
     "danielrosehill/Live-Typing-UX-Research",
     "firestryk/chatgpt-website.github.io",
     "genuslovoacalixtusiii510/ytp-2026",
@@ -42,10 +40,13 @@
     "JuliaBinaryWrappers/libpng_jll.jl",
     "JuliaBinaryWrappers/Libuuid_jll.jl",
     "markoswire/remember-me.ai",
+    "regro/cf-graph-countyfair",
     "robertabao/grok-nvim",
     "saharmor/saharmor.github.io",
     "shoggo-ai/seniorvigil",
+    "stable-haskell/haskell-language-server",
     "stefanlogue/scoops",
+    "Strivin0311/strivin0311.github.io",
     "wblondel/blog"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
+- repos: 1
 - terms: 4
-- components: 8
+- components: 6
 - concepts: 4
 - observations: 4
 
@@ -27,11 +27,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [eclipse-lemminx/lemminx](https://github.com/eclipse-lemminx/lemminx) | 357 | 2026-06-10T12:39:35Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [eclipse-buildship/buildship](https://github.com/eclipse-buildship/buildship) | 549 | 2026-06-09T11:35:22Z | Java | CLI | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [eclipse-buildship/buildship](https://github.com/eclipse-buildship/buildship) | 549 | 2026-06-09T11:35:22Z | Java | CLI | 0 | 2 | 0 | 0 |
 | [eclipse-lemminx/lemminx](https://github.com/eclipse-lemminx/lemminx) | 357 | 2026-06-10T12:39:35Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |

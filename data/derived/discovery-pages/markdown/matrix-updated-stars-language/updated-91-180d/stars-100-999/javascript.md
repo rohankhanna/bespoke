@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 196
-- components: 931
-- concepts: 197
-- observations: 198
+- repos: 62
+- terms: 216
+- components: 1016
+- concepts: 217
+- observations: 218
 
 ## Static behavior
 
@@ -26,6 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hudochenkov/stylelint-order](https://github.com/hudochenkov/stylelint-order) | 955 | 2026-03-25T21:59:42Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
+| [gruntjs/grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) | 790 | 2026-03-25T21:51:57Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
+| [gruntjs/grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin) | 421 | 2026-03-25T21:29:22Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
+| [dwyl/learn-postgresql](https://github.com/dwyl/learn-postgresql) | 335 | 2026-03-25T18:41:04Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
+| [actions/deploy-pages](https://github.com/actions/deploy-pages) | 899 | 2026-03-25T17:24:12Z | JavaScript | Infrastructure/tooling | 13 | 23 | 13 | 13 |
+| [avwo/whistle-client](https://github.com/avwo/whistle-client) | 977 | 2026-03-25T14:43:41Z | JavaScript | CLI | 0 | 15 | 0 | 0 |
 | [AghayeCoder/tx-ui](https://github.com/AghayeCoder/tx-ui) | 452 | 2026-03-25T03:53:46Z | JavaScript | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [ankane/ahoy.js](https://github.com/ankane/ahoy.js) | 509 | 2026-03-25T00:35:41Z | JavaScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [oblador/react-native-vector-image](https://github.com/oblador/react-native-vector-image) | 361 | 2026-03-24T20:21:25Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
@@ -87,10 +93,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [avwo/whistle-client](https://github.com/avwo/whistle-client) | 977 | 2026-03-25T14:43:41Z | JavaScript | CLI | 0 | 15 | 0 | 0 |
+| [hudochenkov/stylelint-order](https://github.com/hudochenkov/stylelint-order) | 955 | 2026-03-25T21:59:42Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [cmake-js/cmake-js](https://github.com/cmake-js/cmake-js) | 950 | 2026-03-09T22:39:46Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [adriantoine/enzyme-to-json](https://github.com/adriantoine/enzyme-to-json) | 940 | 2026-01-27T09:53:57Z | JavaScript | Unknown | 9 | 28 | 9 | 9 |
+| [actions/deploy-pages](https://github.com/actions/deploy-pages) | 899 | 2026-03-25T17:24:12Z | JavaScript | Infrastructure/tooling | 13 | 23 | 13 | 13 |
 | [omnidan/redux-ignore](https://github.com/omnidan/redux-ignore) | 840 | 2026-01-02T10:44:29Z | JavaScript | Unknown | 0 | 16 | 0 | 0 |
 | [agenda/agendash](https://github.com/agenda/agendash) | 811 | 2026-01-28T16:53:42Z | JavaScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
+| [gruntjs/grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) | 790 | 2026-03-25T21:51:57Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [npm/rfcs](https://github.com/npm/rfcs) | 767 | 2026-03-24T15:01:35Z | JavaScript | CLI | 11 | 7 | 11 | 11 |
 | [igvteam/igv.js](https://github.com/igvteam/igv.js) | 719 | 2026-03-20T00:51:27Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [adobe-photoshop/generator-core](https://github.com/adobe-photoshop/generator-core) | 699 | 2026-02-22T20:45:54Z | JavaScript | Library | 0 | 9 | 0 | 0 |
@@ -106,6 +116,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prebuild/prebuild](https://github.com/prebuild/prebuild) | 444 | 2026-02-07T12:12:56Z | JavaScript | CLI | 4 | 25 | 4 | 4 |
 | [sindresorhus/env-paths](https://github.com/sindresorhus/env-paths) | 440 | 2026-01-24T14:29:07Z | JavaScript | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [mapbox/cheap-ruler](https://github.com/mapbox/cheap-ruler) | 427 | 2026-03-23T09:11:39Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [gruntjs/grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin) | 421 | 2026-03-25T21:29:22Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [codota/tabnine-nvim](https://github.com/codota/tabnine-nvim) | 415 | 2026-02-25T20:33:40Z | JavaScript | CLI | 3 | 6 | 3 | 3 |
 | [TeamMoeAI/MoeSR](https://github.com/TeamMoeAI/MoeSR) | 412 | 2026-03-09T14:07:16Z | JavaScript | Unknown | 1 | 0 | 1 | 1 |
 | [kriszyp/cbor-x](https://github.com/kriszyp/cbor-x) | 380 | 2026-03-10T23:06:10Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
@@ -115,6 +126,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gherghett/Antigravity-Shit-Chat](https://github.com/gherghett/Antigravity-Shit-Chat) | 362 | 2026-01-18T09:44:30Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [oblador/react-native-vector-image](https://github.com/oblador/react-native-vector-image) | 361 | 2026-03-24T20:21:25Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [mourner/robust-predicates](https://github.com/mourner/robust-predicates) | 336 | 2026-03-22T10:28:25Z | JavaScript | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [dwyl/learn-postgresql](https://github.com/dwyl/learn-postgresql) | 335 | 2026-03-25T18:41:04Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [Calcium-Ion/neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool) | 328 | 2026-02-11T08:12:40Z | JavaScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [tonyganch/gonzales-pe](https://github.com/tonyganch/gonzales-pe) | 328 | 2026-01-17T11:05:58Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
 | [dominikg/tsconfck](https://github.com/dominikg/tsconfck) | 328 | 2026-01-02T12:16:54Z | JavaScript | Infrastructure/tooling | 2 | 24 | 2 | 2 |

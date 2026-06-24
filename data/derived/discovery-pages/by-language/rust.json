@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11856,
-    "concepts": 8090,
-    "observations": 8152,
-    "repos": 1749,
-    "terms": 8080
+    "components": 11859,
+    "concepts": 8091,
+    "observations": 8153,
+    "repos": 1751,
+    "terms": 8079
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -1292,6 +1292,8 @@
     "plotters-rs/plotters-canvas",
     "plotters-rs/plotters-gtk-demo",
     "plotters-rs/plotters-minifb-demo",
+    "plotters-rs/plotters-piston",
+    "plotters-rs/plotters-wasm-demo",
     "pola-rs/polars",
     "pop-os/cosmic-text",
     "posit-dev/air",

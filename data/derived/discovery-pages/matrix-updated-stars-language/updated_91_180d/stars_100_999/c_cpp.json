@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 352,
-    "concepts": 487,
-    "observations": 489,
-    "repos": 115,
-    "terms": 481
+    "components": 363,
+    "concepts": 505,
+    "observations": 507,
+    "repos": 117,
+    "terms": 499
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "adamritter/fastgron",
+    "AmusementClub/vs-mlrt",
     "anacrolix/go-libutp",
     "angr/vex",
     "apache/rocketmq-client-cpp",
@@ -27,7 +28,6 @@
     "ashawkey/cubvh",
     "AtomCrafty/UniversalInjectorFramework",
     "avaneev/lzav",
-    "avaneev/prvhash",
     "avaneev/r8brain-free-src",
     "aviggiano/redis-roaring",
     "bdwgc/libatomic_ops",
@@ -92,6 +92,7 @@
     "naelstrof/slop",
     "nagisa/rust_tracy_client",
     "NeighTools/UnityDoorstop",
+    "NetEase-FuXi/EETQ",
     "nihui/ncnn-android-nanodet",
     "nihui/ncnn-android-scrfd",
     "NiLuJe/kfmon",
@@ -108,6 +109,7 @@
     "refresh-bio/KMC",
     "rmsalinas/DBow3",
     "rust-fuzz/libfuzzer",
+    "rusty1s/pytorch_cluster",
     "sasha0552/nvidia-pstated",
     "sheredom/ubench.h",
     "Slamtec/rplidar_sdk",

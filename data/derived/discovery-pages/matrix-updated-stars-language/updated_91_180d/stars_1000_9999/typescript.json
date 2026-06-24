@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1957,
-    "concepts": 343,
-    "observations": 343,
-    "repos": 64,
-    "terms": 373
+    "components": 2097,
+    "concepts": 374,
+    "observations": 374,
+    "repos": 68,
+    "terms": 403
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -31,6 +31,8 @@
     "ekalinin/sitemap.js",
     "glimmerjs/glimmer-vm",
     "google/gts",
+    "gpac/mp4box.js",
+    "graphql-hive/graphql-config",
     "gustavoguichard/string-ts",
     "improbable-eng/ts-protoc-gen",
     "infinitered/nsfwjs",
@@ -42,6 +44,7 @@
     "josStorer/RWKV-Runner",
     "jupyter-widgets/ipyleaflet",
     "lobehub/lobe-chat-agents",
+    "markdoc/markdoc",
     "metatool-ai/metamcp",
     "microsoft/genaiscript",
     "msgpack/msgpack-javascript",
@@ -58,6 +61,7 @@
     "peers/peerjs-server",
     "posva/unplugin-vue-router",
     "react-native-netinfo/react-native-netinfo",
+    "REditorSupport/vscode-R",
     "ricky0123/vad",
     "RobinBlomberg/kysely-codegen",
     "snarktank/antfarm",

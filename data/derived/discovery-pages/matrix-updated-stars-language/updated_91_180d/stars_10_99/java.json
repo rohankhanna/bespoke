@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 101,
-    "observations": 102,
-    "repos": 24,
-    "terms": 99
+    "components": 96,
+    "concepts": 111,
+    "observations": 112,
+    "repos": 25,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "Accla/D4M.py",
     "Antibrumm/jackson-antpathfilter",
@@ -23,6 +23,7 @@
     "bobbylight/RSTAUI",
     "caprica/vlcj-examples",
     "clearml/clearml-pycharm-plugin",
+    "enola-dev/enola",
     "EXIficient/exificient-for-json",
     "filip26/iridium-cbor-ld",
     "google/tsunami-security-scanner-callback-server",

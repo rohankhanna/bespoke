@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 116,
-    "observations": 117,
+    "components": 69,
+    "concepts": 112,
+    "observations": 113,
     "repos": 13,
-    "terms": 116
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
+    "bencheeorg/benchee",
     "googleapis/google-api-php-client",
     "hacl-star/hacl-star",
     "jothepro/doxygen-awesome-css",
@@ -25,7 +26,6 @@
     "nvim-tree/nvim-web-devicons",
     "openai/openai-dotnet",
     "plotly/plotly.R",
-    "radian-software/straight.el",
-    "tModLoader/tModLoader"
+    "radian-software/straight.el"
   ]
 }

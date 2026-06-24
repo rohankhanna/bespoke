@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 497,
-    "observations": 498,
-    "repos": 90,
-    "terms": 489
+    "components": 368,
+    "concepts": 505,
+    "observations": 506,
+    "repos": 92,
+    "terms": 497
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -69,6 +69,7 @@
     "libimobiledevice/idevicerestore",
     "lieff/minimp3",
     "littlefs-project/littlefs",
+    "lltcggie/waifu2x-caffe",
     "martinus/unordered_dense",
     "memononen/nanovg",
     "microsoft/GSL",
@@ -77,6 +78,7 @@
     "mmorise/World",
     "mutouyun/cpp-ipc",
     "nmoehrle/mvs-texturing",
+    "nodemcu/nodemcu-firmware",
     "NVIDIA/gdrcopy",
     "onnx/onnx-tensorrt",
     "OpenNMT/CTranslate2",

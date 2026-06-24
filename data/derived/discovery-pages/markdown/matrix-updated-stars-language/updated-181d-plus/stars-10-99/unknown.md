@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 291
-- terms: 332
+- repos: 292
+- terms: 334
 - components: 197
-- concepts: 332
-- observations: 332
+- concepts: 334
+- observations: 334
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Adlik/model_zoo](https://github.com/Adlik/model_zoo) | 11 | 2025-12-26T01:36:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [getlantern/lantern-forum-cn](https://github.com/getlantern/lantern-forum-cn) | 22 | 2025-12-24T15:48:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PacificBiosciences/pbAA](https://github.com/PacificBiosciences/pbAA) | 27 | 2025-12-22T12:07:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [logseq/db-test](https://github.com/logseq/db-test) | 26 | 2025-12-19T16:58:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -77,6 +78,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [o3de/sig-simulation](https://github.com/o3de/sig-simulation) | 12 | 2025-07-10T14:54:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ChainAgnostic/varsig](https://github.com/ChainAgnostic/varsig) | 13 | 2025-07-09T19:14:36Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [NLPJCL/RAG-Retrieval](https://github.com/NLPJCL/RAG-Retrieval) | 22 | 2025-07-05T09:02:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [oakshy/RomanTex](https://github.com/oakshy/RomanTex) | 83 | 2025-07-03T09:25:30Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [OffchainLabs/arbitrum](https://github.com/OffchainLabs/arbitrum) | 76 | 2025-07-02T11:28:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Farama-Foundation/gym-docs](https://github.com/Farama-Foundation/gym-docs) | 43 | 2025-06-29T13:21:43Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [chrisleyva/todo-slash-command](https://github.com/chrisleyva/todo-slash-command) | 27 | 2025-06-25T23:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -316,7 +318,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-research-datasets/screen2words](https://github.com/google-research-datasets/screen2words) | 67 | 2021-07-27T01:10:07Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [martinmoene/catch-lest-other-comparison](https://github.com/martinmoene/catch-lest-other-comparison) | 30 | 2021-07-12T08:39:42Z | Unknown | Framework | 5 | 0 | 5 | 5 |
 | [v7labs/covid-19-xray-dataset](https://github.com/v7labs/covid-19-xray-dataset) | 85 | 2021-07-02T16:46:18Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
-| [google-research-datasets/widget-caption](https://github.com/google-research-datasets/widget-caption) | 23 | 2021-06-24T23:39:04Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -346,6 +347,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [v7labs/covid-19-xray-dataset](https://github.com/v7labs/covid-19-xray-dataset) | 85 | 2021-07-02T16:46:18Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
 | [dwyl/dev-setup](https://github.com/dwyl/dev-setup) | 84 | 2024-10-02T13:42:13Z | Unknown | Docs/knowledge | 3 | 0 | 3 | 3 |
 | [NiteshMethani/PlotQA](https://github.com/NiteshMethani/PlotQA) | 84 | 2023-06-20T14:34:12Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [oakshy/RomanTex](https://github.com/oakshy/RomanTex) | 83 | 2025-07-03T09:25:30Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [JasonJZLiu/FACTR_Hardware](https://github.com/JasonJZLiu/FACTR_Hardware) | 83 | 2025-06-15T22:24:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lxgw/FusionKai](https://github.com/lxgw/FusionKai) | 83 | 2024-05-13T03:30:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [google-deepmind/boxoban-levels](https://github.com/google-deepmind/boxoban-levels) | 83 | 2022-12-28T16:26:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -501,7 +503,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [informalsystems/tla-apalache-workshop](https://github.com/informalsystems/tla-apalache-workshop) | 23 | 2023-04-17T09:08:36Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [autowarefoundation/autoware_ai_documentation](https://github.com/autowarefoundation/autoware_ai_documentation) | 23 | 2022-08-31T15:06:00Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [thetutlage/meta](https://github.com/thetutlage/meta) | 23 | 2022-03-30T06:32:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [google-research-datasets/widget-caption](https://github.com/google-research-datasets/widget-caption) | 23 | 2021-06-24T23:39:04Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [getlantern/lantern-forum-cn](https://github.com/getlantern/lantern-forum-cn) | 22 | 2025-12-24T15:48:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [NLPJCL/RAG-Retrieval](https://github.com/NLPJCL/RAG-Retrieval) | 22 | 2025-07-05T09:02:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [xavysp/UDED](https://github.com/xavysp/UDED) | 22 | 2025-05-01T13:34:03Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
@@ -591,6 +592,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OpenPerceptionX/OpenLane](https://github.com/OpenPerceptionX/OpenLane) | 12 | 2023-02-07T09:41:19Z | Unknown | Model/data | 4 | 0 | 4 | 4 |
 | [ajjimeno/icdar-task-b](https://github.com/ajjimeno/icdar-task-b) | 12 | 2022-03-07T04:10:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [qri-io/rfcs](https://github.com/qri-io/rfcs) | 12 | 2021-11-23T21:41:49Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [Adlik/model_zoo](https://github.com/Adlik/model_zoo) | 11 | 2025-12-26T01:36:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [VectorSpaceLab/Vis-IR](https://github.com/VectorSpaceLab/Vis-IR) | 11 | 2025-11-10T07:30:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [xuankuzcr/FAST-Calib](https://github.com/xuankuzcr/FAST-Calib) | 11 | 2025-04-20T10:56:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mozilla-services/shavar-list-creation-config](https://github.com/mozilla-services/shavar-list-creation-config) | 11 | 2025-03-05T22:09:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Other
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 2
-- terms: 18
+- terms: 10
 - components: 12
-- concepts: 18
-- observations: 18
+- concepts: 10
+- observations: 10
 
 ## Static behavior
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-06-22T22:40:16Z | Other | Infrastructure/tooling | 15 | 10 | 15 | 15 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 38 | 2026-06-22T21:57:52Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-06-23T17:25:05Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 38 | 2026-06-23T11:03:47Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-06-22T22:40:16Z | Other | Infrastructure/tooling | 15 | 10 | 15 | 15 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 38 | 2026-06-22T21:57:52Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-06-23T17:25:05Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 38 | 2026-06-23T11:03:47Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |

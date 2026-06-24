@@ -3,7 +3,7 @@
     "components": 68,
     "concepts": 109,
     "observations": 109,
-    "repos": 30,
+    "repos": 31,
     "terms": 109
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
@@ -33,6 +33,7 @@
     "libp2p/libp2p",
     "libp2p/specs",
     "mapbox/awesome-vector-tiles",
+    "meituan-longcat/LongCat-Flash-Chat",
     "MicrosoftDocs/WSL",
     "pditommaso/awesome-pipeline",
     "QwenLM/Qwen3.6",

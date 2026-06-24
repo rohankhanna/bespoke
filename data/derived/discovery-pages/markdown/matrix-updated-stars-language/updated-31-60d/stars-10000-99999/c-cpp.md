@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 53
-- terms: 593
-- components: 483
-- concepts: 596
-- observations: 597
+- terms: 584
+- components: 491
+- concepts: 587
+- observations: 588
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71263 | 2026-05-23T23:00:18Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | 72446 | 2026-05-14T01:22:20Z | C/C++ | Infrastructure/tooling | 19 | 17 | 19 | 19 |
 | [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) | 12282 | 2026-05-10T14:01:13Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
@@ -78,7 +79,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swaywm/sway](https://github.com/swaywm/sway) | 16854 | 2026-04-26T14:35:50Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [asmvik/yabai](https://github.com/asmvik/yabai) | 28766 | 2026-04-26T13:41:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [davisking/dlib](https://github.com/davisking/dlib) | 14372 | 2026-04-25T16:13:49Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
-| [citusdata/citus](https://github.com/citusdata/citus) | 12444 | 2026-04-24T17:31:08Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 
 ## Repos sorted by stars
 
@@ -119,12 +119,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | 13350 | 2026-05-05T19:36:36Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [capnproto/capnproto](https://github.com/capnproto/capnproto) | 13009 | 2026-05-01T23:28:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [assimp/assimp](https://github.com/assimp/assimp) | 12905 | 2026-04-30T20:25:10Z | C/C++ | Infrastructure/tooling | 16 | 19 | 16 | 16 |
-| [citusdata/citus](https://github.com/citusdata/citus) | 12444 | 2026-04-24T17:31:08Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 | [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) | 12282 | 2026-05-10T14:01:13Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) | 12236 | 2026-04-28T13:16:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Z3Prover/z3](https://github.com/Z3Prover/z3) | 12216 | 2026-05-04T23:33:21Z | C/C++ | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | 11949 | 2026-04-28T15:37:43Z | C/C++ | CLI | 23 | 8 | 23 | 24 |
 | [lz4/lz4](https://github.com/lz4/lz4) | 11818 | 2026-05-01T21:40:21Z | C/C++ | Infrastructure/tooling | 9 | 9 | 9 | 9 |
+| [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 | [colmap/colmap](https://github.com/colmap/colmap) | 11567 | 2026-04-29T17:54:12Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [h2o/h2o](https://github.com/h2o/h2o) | 11448 | 2026-04-30T02:04:42Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl) | 10974 | 2026-05-01T15:28:24Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3104,
-    "concepts": 541,
-    "observations": 544,
-    "repos": 74,
-    "terms": 544
+    "components": 3128,
+    "concepts": 552,
+    "observations": 555,
+    "repos": 75,
+    "terms": 555
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -80,6 +80,7 @@
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",
     "tj/commander.js",
+    "validatorjs/validator.js",
     "vega/vega",
     "vercel-labs/agent-skills",
     "vuejs/vue-router",

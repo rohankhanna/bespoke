@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1787,
-    "concepts": 384,
-    "observations": 386,
+    "components": 1798,
+    "concepts": 379,
+    "observations": 381,
     "repos": 66,
-    "terms": 384
+    "terms": 379
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "1-Platform/op-components",
-    "52-entertainment/vite-plugin-oxlint",
     "addfox/addfox",
     "aggre/ullr",
     "Airfooox/cron-validate",
@@ -23,6 +22,7 @@
     "carbon-design-system/carbon-preprocess-svelte",
     "catppuccin/.github",
     "coasys/flux",
+    "countertype/clipper2-ts",
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
     "ecyrbe/zodios-express",
@@ -41,7 +41,6 @@
     "ipdxco/github-as-code",
     "ipfs/github-mgmt",
     "jakebailey/pyright-action",
-    "jakoch/install-vulkan-sdk-action",
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
@@ -75,6 +74,7 @@
     "sapphiredev/shapeshift",
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",
+    "skilld-dev/retriv",
     "suzuki-shunsuke/pinact-action",
     "swagger-api/apidom",
     "universal-ember/reactiveweb",

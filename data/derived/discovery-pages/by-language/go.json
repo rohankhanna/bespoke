@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10360,
-    "concepts": 10153,
-    "observations": 10185,
-    "repos": 1726,
-    "terms": 10103
+    "components": 10405,
+    "concepts": 10192,
+    "observations": 10224,
+    "repos": 1731,
+    "terms": 10142
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -542,6 +542,7 @@
     "crc-org/crc",
     "creasty/defaults",
     "cri-o/cri-o",
+    "crossplane/crossplane",
     "crossplane/tbs",
     "cruise-automation/isopod",
     "crytic/medusa",
@@ -1295,7 +1296,9 @@
     "Mrs4s/go-cqhttp",
     "Mrs4s/MiraiGo",
     "MShekow/directory-checksum",
+    "mudler/LocalAGI",
     "mudler/LocalAI",
+    "mudler/LocalRecall",
     "mudler/MCPs",
     "muesli/ansi",
     "muesli/duf",
@@ -1425,6 +1428,7 @@
     "pion/webrtc",
     "pires/go-proxyproto",
     "pkg/browser",
+    "pkoukk/tiktoken-go",
     "podman-container-tools/podman",
     "ppc64le-cloud/kubetest2-plugins",
     "pquerna/ffjson",
@@ -1503,6 +1507,7 @@
     "runpod/runpodctl",
     "russross/blackfriday",
     "SagerNet/sing-box",
+    "sashabaranov/go-openai",
     "scaleway/scaleway-cli",
     "scaleway/scaleway-sdk-go",
     "scaleway/serverless-examples",

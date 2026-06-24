@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 239,
-    "concepts": 118,
-    "observations": 118,
-    "repos": 134,
-    "terms": 118
+    "concepts": 121,
+    "observations": 121,
+    "repos": 135,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0x0ade/MonoMod-wip",
     "5sControl/.github",
@@ -60,6 +60,7 @@
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Context-Chunker-Assistant",
+    "danielrosehill/Data-Projects-Index",
     "danielrosehill/git-github-plugin",
     "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 57
-- terms: 301
-- components: 230
-- concepts: 290
-- observations: 294
+- repos: 55
+- terms: 296
+- components: 219
+- concepts: 285
+- observations: 289
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tinted-theming/schemes](https://github.com/tinted-theming/schemes) | 249 | 2026-04-24T14:36:45Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [bnb-chain/bsc-snapshots](https://github.com/bnb-chain/bsc-snapshots) | 271 | 2026-04-24T02:35:10Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [alexmyczko/fnt](https://github.com/alexmyczko/fnt) | 617 | 2026-04-24T00:11:26Z | Shell | CLI | 9 | 3 | 9 | 9 |
 | [alpinelinux/aports](https://github.com/alpinelinux/aports) | 708 | 2026-04-23T23:29:30Z | Shell | Library | 4 | 0 | 4 | 4 |
@@ -80,9 +81,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [helm/chart-testing-action](https://github.com/helm/chart-testing-action) | 291 | 2026-03-30T01:04:11Z | Shell | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [SWE-bench/experiments](https://github.com/SWE-bench/experiments) | 259 | 2026-03-29T17:52:22Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [mklement0/n-install](https://github.com/mklement0/n-install) | 842 | 2026-03-26T11:10:20Z | Shell | Unknown | 2 | 6 | 2 | 2 |
-| [github/super-linter](https://github.com/github/super-linter) | 146 | 2026-03-26T01:18:14Z | Shell | Infrastructure/tooling | 5 | 13 | 5 | 5 |
-| [mosaicml/examples](https://github.com/mosaicml/examples) | 468 | 2026-03-25T20:11:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [aws/aws-app-mesh-examples](https://github.com/aws/aws-app-mesh-examples) | 867 | 2026-03-25T18:30:07Z | Shell | Service/API | 2 | 0 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -92,7 +90,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cncf/k8s-conformance](https://github.com/cncf/k8s-conformance) | 926 | 2026-04-15T23:24:11Z | Shell | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [unixorn/zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) | 890 | 2026-04-20T17:04:01Z | Shell | Infrastructure/tooling | 14 | 4 | 14 | 14 |
 | [justchokingaround/lobster](https://github.com/justchokingaround/lobster) | 873 | 2026-04-22T11:16:58Z | Shell | Infrastructure/tooling | 14 | 5 | 16 | 18 |
-| [aws/aws-app-mesh-examples](https://github.com/aws/aws-app-mesh-examples) | 867 | 2026-03-25T18:30:07Z | Shell | Service/API | 2 | 0 | 2 | 2 |
 | [mklement0/n-install](https://github.com/mklement0/n-install) | 842 | 2026-03-26T11:10:20Z | Shell | Unknown | 2 | 6 | 2 | 2 |
 | [ericbuess/claude-code-docs](https://github.com/ericbuess/claude-code-docs) | 820 | 2026-04-19T12:07:03Z | Shell | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [heroku/heroku-buildpack-php](https://github.com/heroku/heroku-buildpack-php) | 816 | 2026-04-17T22:26:53Z | Shell | Infrastructure/tooling | 6 | 10 | 6 | 6 |
@@ -108,7 +105,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tonistiigi/xx](https://github.com/tonistiigi/xx) | 554 | 2026-04-23T01:14:22Z | Shell | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [actions/upload-pages-artifact](https://github.com/actions/upload-pages-artifact) | 477 | 2026-04-13T19:24:32Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [denysdovhan/dotfiles](https://github.com/denysdovhan/dotfiles) | 469 | 2026-04-21T16:23:35Z | Shell | Unknown | 6 | 0 | 7 | 7 |
-| [mosaicml/examples](https://github.com/mosaicml/examples) | 468 | 2026-03-25T20:11:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence) | 446 | 2026-04-15T19:19:28Z | Shell | Model/data | 7 | 0 | 7 | 7 |
 | [rz1989s/claude-code-statusline](https://github.com/rz1989s/claude-code-statusline) | 427 | 2026-04-17T17:11:17Z | Shell | CLI | 5 | 7 | 0 | 0 |
 | [dani-garcia/bw_web_builds](https://github.com/dani-garcia/bw_web_builds) | 366 | 2026-04-22T10:35:58Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -123,6 +119,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SWE-bench/experiments](https://github.com/SWE-bench/experiments) | 259 | 2026-03-29T17:52:22Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [rsmdt/the-startup](https://github.com/rsmdt/the-startup) | 255 | 2026-04-17T11:42:47Z | Shell | Infrastructure/tooling | 3 | 4 | 0 | 0 |
 | [heroku/heroku-buildpack-apt](https://github.com/heroku/heroku-buildpack-apt) | 250 | 2026-04-09T22:13:23Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [tinted-theming/schemes](https://github.com/tinted-theming/schemes) | 249 | 2026-04-24T14:36:45Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [mattmc3/zephyr](https://github.com/mattmc3/zephyr) | 229 | 2026-04-09T23:25:36Z | Shell | Framework | 3 | 0 | 3 | 3 |
 | [crazy-max/xgo](https://github.com/crazy-max/xgo) | 224 | 2026-04-08T23:42:23Z | Shell | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [EmbarkStudios/cargo-deny-action](https://github.com/EmbarkStudios/cargo-deny-action) | 179 | 2026-04-14T10:46:45Z | Shell | Infrastructure/tooling | 8 | 1 | 8 | 8 |
@@ -130,7 +127,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lemire/docker_programming_station](https://github.com/lemire/docker_programming_station) | 159 | 2026-04-22T19:21:56Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai) | 158 | 2026-04-04T13:11:31Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [arangrhie/T2T-Polish](https://github.com/arangrhie/T2T-Polish) | 152 | 2026-04-17T00:15:03Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [github/super-linter](https://github.com/github/super-linter) | 146 | 2026-03-26T01:18:14Z | Shell | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [jvm-repo-rebuild/reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central) | 141 | 2026-04-22T21:19:51Z | Shell | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [reviewdog/action-suggester](https://github.com/reviewdog/action-suggester) | 135 | 2026-04-21T20:05:30Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [sclorg/mysql-container](https://github.com/sclorg/mysql-container) | 132 | 2026-04-20T12:32:22Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |

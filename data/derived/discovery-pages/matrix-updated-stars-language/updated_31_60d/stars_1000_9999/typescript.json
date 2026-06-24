@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6391,
-    "concepts": 1286,
-    "observations": 1288,
-    "repos": 146,
-    "terms": 1278
+    "components": 6313,
+    "concepts": 1274,
+    "observations": 1276,
+    "repos": 144,
+    "terms": 1266
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -71,7 +71,6 @@
     "hannoeru/vite-plugin-pages",
     "hey-api/openapi-ts",
     "huggingface/huggingface.js",
-    "huozhi/bunchee",
     "iconify/iconify",
     "IgnisDa/ryot",
     "informalsystems/quint",
@@ -152,7 +151,6 @@
     "vitejs/vite-plugin-react",
     "VOICEVOX/voicevox",
     "vuejs/babel-plugin-jsx",
-    "vuejs/router",
     "web-infra-dev/rsbuild",
     "web-infra-dev/rsdoctor",
     "web-infra-dev/rspress",

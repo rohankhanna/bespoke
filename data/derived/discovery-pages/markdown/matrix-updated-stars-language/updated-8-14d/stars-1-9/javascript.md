@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
+- repos: 3
 - terms: 0
-- components: 12
+- components: 23
 - concepts: 0
 - observations: 0
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [oscard0m/ts-transformer-remove-named-export](https://github.com/oscard0m/ts-transformer-remove-named-export) | 1 | 2026-06-16T16:41:28Z | JavaScript | Unknown | 0 | 11 | 0 | 0 |
 | [aidenlab/juicebox-web](https://github.com/aidenlab/juicebox-web) | 3 | 2026-06-10T21:19:03Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
 | [apostrophecms/starter-kit-astro-essentials](https://github.com/apostrophecms/starter-kit-astro-essentials) | 7 | 2026-06-10T10:07:13Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 
@@ -35,3 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [apostrophecms/starter-kit-astro-essentials](https://github.com/apostrophecms/starter-kit-astro-essentials) | 7 | 2026-06-10T10:07:13Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [aidenlab/juicebox-web](https://github.com/aidenlab/juicebox-web) | 3 | 2026-06-10T21:19:03Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
+| [oscard0m/ts-transformer-remove-named-export](https://github.com/oscard0m/ts-transformer-remove-named-export) | 1 | 2026-06-16T16:41:28Z | JavaScript | Unknown | 0 | 11 | 0 | 0 |

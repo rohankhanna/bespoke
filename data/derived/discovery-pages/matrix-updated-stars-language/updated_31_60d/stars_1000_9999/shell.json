@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 158,
-    "observations": 158,
-    "repos": 21,
-    "terms": 155
+    "components": 122,
+    "concepts": 153,
+    "observations": 153,
+    "repos": 19,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "archlinuxcn/repo",
@@ -28,9 +28,7 @@
     "jkroepke/helm-secrets",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
-    "pypa/manylinux",
     "rbenv/ruby-build",
-    "rocker-org/rocker",
     "scop/bash-completion",
     "sublimehq/Packages",
     "YosysHQ/oss-cad-suite-build",

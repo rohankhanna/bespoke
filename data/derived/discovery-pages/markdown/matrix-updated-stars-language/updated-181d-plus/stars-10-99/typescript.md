@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 192
+- repos: 191
 - terms: 564
-- components: 4353
+- components: 4320
 - concepts: 553
 - observations: 554
 
@@ -217,7 +217,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [garyng/obsidian-temple](https://github.com/garyng/obsidian-temple) | 84 | 2021-08-23T19:28:46Z | TypeScript | Infrastructure/tooling | 3 | 34 | 3 | 3 |
 | [kadiryazici/vite-ssr-middleware](https://github.com/kadiryazici/vite-ssr-middleware) | 21 | 2021-08-21T04:11:48Z | TypeScript | Unknown | 0 | 3 | 0 | 0 |
 | [frandiox/reactesse-ssr-template](https://github.com/frandiox/reactesse-ssr-template) | 32 | 2021-08-02T21:18:19Z | TypeScript | Template/starter | 4 | 32 | 4 | 4 |
-| [google/mysteryofthreebots](https://github.com/google/mysteryofthreebots) | 45 | 2021-06-24T18:57:55Z | TypeScript | Unknown | 0 | 33 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -295,7 +294,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [piotrpalarz/vscode-gitignore-generator](https://github.com/piotrpalarz/vscode-gitignore-generator) | 45 | 2025-07-12T10:41:41Z | TypeScript | Service/API | 0 | 6 | 0 | 0 |
 | [posthtml/posthtml-render](https://github.com/posthtml/posthtml-render) | 45 | 2024-06-19T10:51:11Z | TypeScript | Infrastructure/tooling | 1 | 24 | 1 | 1 |
 | [DefinitelyTyped/dts-critic](https://github.com/DefinitelyTyped/dts-critic) | 45 | 2022-02-11T15:41:55Z | TypeScript | Infrastructure/tooling | 1 | 27 | 1 | 1 |
-| [google/mysteryofthreebots](https://github.com/google/mysteryofthreebots) | 45 | 2021-06-24T18:57:55Z | TypeScript | Unknown | 0 | 33 | 0 | 0 |
 | [BehindTheMath/KosherZmanim](https://github.com/BehindTheMath/KosherZmanim) | 44 | 2025-03-24T02:15:15Z | TypeScript | Infrastructure/tooling | 9 | 24 | 9 | 9 |
 | [rahsheen/expo-template-redux-typescript](https://github.com/rahsheen/expo-template-redux-typescript) | 44 | 2023-12-15T17:38:49Z | TypeScript | Template/starter | 4 | 18 | 4 | 4 |
 | [ItsWendell/emotion-native-extended](https://github.com/ItsWendell/emotion-native-extended) | 44 | 2023-01-06T03:30:28Z | TypeScript | Infrastructure/tooling | 12 | 31 | 12 | 12 |

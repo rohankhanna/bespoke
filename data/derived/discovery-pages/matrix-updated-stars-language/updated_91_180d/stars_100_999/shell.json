@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 149,
-    "observations": 150,
-    "repos": 33,
-    "terms": 148
+    "components": 74,
+    "concepts": 156,
+    "observations": 157,
+    "repos": 36,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
@@ -25,18 +25,21 @@
     "apollographql/supergraph-demo-fed2",
     "archlinux/archlinux-repro",
     "asdf-vm/asdf-nodejs",
+    "aws/aws-app-mesh-examples",
     "bitwarden/brand",
     "bluzername/claude-code-terminal-title",
     "docker-library/buildpack-deps",
     "docker-library/hello-world",
     "flinedev/contextkit",
     "get-gah/gah",
+    "github/super-linter",
     "helm/chart-releaser-action",
     "helm/kind-action",
     "heroku/heroku-buildpack-pgbouncer",
     "jandamm/zgenom",
     "lxgw/LxgwWenKai-Lite",
     "lynxthecat/adblock-lean",
+    "mosaicml/examples",
     "multiformats/multihash",
     "nico2sh/semtag",
     "nodejs/unofficial-builds",

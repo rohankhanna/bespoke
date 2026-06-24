@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 667,
-    "concepts": 467,
-    "observations": 469,
-    "repos": 174,
-    "terms": 462
+    "components": 683,
+    "concepts": 491,
+    "observations": 493,
+    "repos": 177,
+    "terms": 486
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -82,6 +82,7 @@
     "Embarcadero/PythonPackages4Delphi",
     "ethpandaops/optimism-package",
     "EvelynZhang-epiclab/DaTo",
+    "FluxML/fluxml.github.io",
     "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
     "FreneticLLC/FreneticUtilities",
@@ -145,10 +146,12 @@
     "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "notaryproject/notaryproject.dev",
+    "Nsidorenco/neotest-vstest",
     "oap-project/oap-mllib",
     "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",
     "ocurrent/opam-health-check",
+    "olimorris/neotest-phpunit",
     "onomojo/i18n-timezones",
     "opencontainers/.github",
     "oracle-quickstart/oci-o11y-solutions",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 18,
-    "observations": 18,
+    "components": 28,
+    "concepts": 11,
+    "observations": 11,
     "repos": 1,
-    "terms": 18
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
-    "JuliaPluto/Pluto.jl"
+    "callstack/react-native-builder-bob"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 886,
-    "concepts": 808,
-    "observations": 809,
-    "repos": 100,
-    "terms": 806
+    "components": 848,
+    "concepts": 787,
+    "observations": 788,
+    "repos": 97,
+    "terms": 785
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "aliyun/aliyun-cli",
@@ -35,7 +35,6 @@
     "celzero/firestack",
     "charmbracelet/x",
     "ClickHouse/ch-go",
-    "cloudfoundry/bosh-bootloader",
     "cloudfoundry/bosh-cli",
     "cloudfoundry/cf-deployment",
     "cloudfoundry/diego-release",
@@ -55,7 +54,6 @@
     "dydxprotocol/v4-chain",
     "energye/energy",
     "fnproject/cli",
-    "go-git/go-billy",
     "go-logr/zapr",
     "go-openapi/strfmt",
     "gofiber/contrib",
@@ -72,8 +70,6 @@
     "huaweicloud/huaweicloud-sdk-go-v3",
     "hybridgroup/yzma",
     "hypnoglow/helm-s3",
-    "ipfs/boxo",
-    "ipfs/rainbow",
     "istio/api",
     "istio/tools",
     "itzg/mc-monitor",
@@ -92,6 +88,7 @@
     "pion/mediadevices",
     "pion/rtp",
     "pion/stun",
+    "pkoukk/tiktoken-go",
     "pulumi/pulumi-aws",
     "pulumi/pulumi-azure",
     "pulumi/pulumi-azure-native",

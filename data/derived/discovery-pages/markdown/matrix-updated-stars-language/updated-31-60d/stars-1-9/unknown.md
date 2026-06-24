@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 34
-- terms: 32
-- components: 50
-- concepts: 32
-- observations: 32
+- repos: 33
+- terms: 31
+- components: 47
+- concepts: 31
+- observations: 31
 
 ## Static behavior
 
@@ -59,7 +59,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eddelbuettel/r2u-config](https://github.com/eddelbuettel/r2u-config) | 1 | 2026-04-25T16:38:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/captum-feedstock](https://github.com/conda-forge/captum-feedstock) | 1 | 2026-04-25T12:37:54Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/Subindices](https://github.com/danielrosehill/Subindices) | 2 | 2026-04-25T10:40:53Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [web-platform-tests/results-analysis-cache](https://github.com/web-platform-tests/results-analysis-cache) | 6 | 2026-04-24T12:14:55Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -71,7 +70,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [angular/angular-devkit-build-webpack-builds](https://github.com/angular/angular-devkit-build-webpack-builds) | 7 | 2026-05-01T17:59:59Z | Unknown | Web app | 0 | 4 | 0 | 0 |
 | [puppetlabs/.github](https://github.com/puppetlabs/.github) | 7 | 2026-04-29T03:05:54Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [hiyouga/llamafactory-community](https://github.com/hiyouga/llamafactory-community) | 7 | 2026-04-26T19:11:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [web-platform-tests/results-analysis-cache](https://github.com/web-platform-tests/results-analysis-cache) | 6 | 2026-04-24T12:14:55Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [conda-forge/python-build-feedstock](https://github.com/conda-forge/python-build-feedstock) | 5 | 2026-05-06T06:28:08Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [pot-app/.github](https://github.com/pot-app/.github) | 5 | 2026-05-04T08:33:56Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [stdlib-js/meetings](https://github.com/stdlib-js/meetings) | 5 | 2026-05-01T06:18:32Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |

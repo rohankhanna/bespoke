@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1295,
-    "concepts": 5751,
-    "observations": 5756,
-    "repos": 1915,
-    "terms": 5590
+    "components": 1297,
+    "concepts": 5767,
+    "observations": 5772,
+    "repos": 1918,
+    "terms": 5605
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -205,6 +205,7 @@
     "ashen-sensored/stable-diffusion-webui-two-shot",
     "ashleysommer/sanic-cors",
     "ashleysommer/sanic-restplus",
+    "ashvardanian/less_slow.py",
     "askbudi/roundtable",
     "ASLP-lab/OSUM",
     "assafelovic/gptr-mcp",
@@ -1308,6 +1309,7 @@
     "neelsjain/NEFTune",
     "neosr-project/neosr",
     "neulab/ExplainaBoard",
+    "NeuralCarver/Michelangelo",
     "neverbiasu/ComfyUI-BAGEL",
     "Newbeeer/diffusion_restart_sampling",
     "Newbeeer/pfgmpp",
@@ -1812,6 +1814,7 @@
     "xg-chu/GAGAvatar",
     "xg-chu/GPAvatar",
     "XiangLi1999/ContrastiveDecoding",
+    "Xiaobin-Rong/SEtrain",
     "xiaojunxu/SQLNet",
     "xindongzhang/ECBSR",
     "xingchensong/S3Tokenizer",

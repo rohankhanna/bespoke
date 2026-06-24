@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 60,
+    "components": 50,
     "concepts": 2,
     "observations": 2,
-    "repos": 3,
+    "repos": 2,
     "terms": 2
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
     "aidenlab/juicebox.js",
     "storybook-community/addon-queryparams"
   ]

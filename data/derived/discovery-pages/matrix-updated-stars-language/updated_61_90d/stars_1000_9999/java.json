@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 285,
-    "concepts": 321,
-    "observations": 323,
-    "repos": 41,
-    "terms": 321
+    "components": 298,
+    "concepts": 334,
+    "observations": 336,
+    "repos": 43,
+    "terms": 334
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -24,9 +24,11 @@
     "beehive-lab/TornadoVM",
     "besu-eth/besu",
     "bobbylight/RSyntaxTextArea",
+    "bonigarcia/webdrivermanager",
     "brianfrankcooper/YCSB",
     "codelibs/fess",
     "diffplug/spotless",
+    "FasterXML/jackson-annotations",
     "google/adk-java",
     "google/error-prone",
     "google/google-java-format",

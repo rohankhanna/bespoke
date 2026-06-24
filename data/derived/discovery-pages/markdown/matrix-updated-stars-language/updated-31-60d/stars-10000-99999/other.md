@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 80
-- terms: 844
-- components: 1028
-- concepts: 850
-- observations: 852
+- repos: 76
+- terms: 792
+- components: 985
+- concepts: 798
+- observations: 800
 
 ## Static behavior
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18375 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18374 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) | 12895 | 2026-05-19T08:08:12Z | Other | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) | 19057 | 2026-05-15T11:05:10Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 13641 | 2026-05-14T20:42:44Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
@@ -102,10 +102,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) | 10245 | 2026-04-27T04:28:55Z | Other | Infrastructure/tooling | 14 | 6 | 14 | 14 |
 | [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide) | 12298 | 2026-04-26T01:03:17Z | Other | Docs/knowledge | 9 | 0 | 9 | 9 |
 | [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture) | 18150 | 2026-04-25T13:35:06Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
-| [App-vNext/Polly](https://github.com/App-vNext/Polly) | 14158 | 2026-04-24T18:44:55Z | Other | Infrastructure/tooling | 17 | 22 | 17 | 17 |
-| [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) | 30196 | 2026-04-24T13:50:47Z | Other | Unknown | 12 | 0 | 12 | 12 |
-| [cython/cython](https://github.com/cython/cython) | 10702 | 2026-04-24T10:38:39Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
-| [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) | 10949 | 2026-04-24T09:09:41Z | Other | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -128,7 +124,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alpinejs/alpine](https://github.com/alpinejs/alpine) | 31504 | 2026-05-01T14:49:51Z | Other | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31026 | 2026-04-30T16:11:14Z | Other | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | 30929 | 2026-04-30T07:44:03Z | Other | Infrastructure/tooling | 12 | 16 | 12 | 12 |
-| [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) | 30196 | 2026-04-24T13:50:47Z | Other | Unknown | 12 | 0 | 12 | 12 |
 | [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | 26852 | 2026-04-27T19:45:54Z | Other | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [koreader/koreader](https://github.com/koreader/koreader) | 26537 | 2026-04-30T07:51:51Z | Other | Infrastructure/tooling | 18 | 5 | 18 | 18 |
 | [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs) | 24582 | 2026-04-27T04:56:26Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
@@ -145,7 +140,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gradle/gradle](https://github.com/gradle/gradle) | 18526 | 2026-04-30T09:14:26Z | Other | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [bitwarden/server](https://github.com/bitwarden/server) | 18510 | 2026-04-29T19:45:59Z | Other | Infrastructure/tooling | 17 | 24 | 17 | 17 |
 | [kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray) | 18448 | 2026-05-04T05:33:50Z | Other | Infrastructure/tooling | 9 | 7 | 9 | 9 |
-| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18375 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18374 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture) | 18150 | 2026-04-25T13:35:06Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [nim-lang/Nim](https://github.com/nim-lang/Nim) | 17956 | 2026-04-29T12:47:54Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) | 17949 | 2026-04-27T17:09:10Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
@@ -157,7 +152,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swiftlang/swift-evolution](https://github.com/swiftlang/swift-evolution) | 15828 | 2026-05-02T18:46:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [getlantern/lantern](https://github.com/getlantern/lantern) | 15479 | 2026-04-30T16:47:25Z | Other | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [getgrav/grav](https://github.com/getgrav/grav) | 15473 | 2026-04-30T21:52:31Z | Other | Infrastructure/tooling | 14 | 7 | 16 | 16 |
-| [App-vNext/Polly](https://github.com/App-vNext/Polly) | 14158 | 2026-04-24T18:44:55Z | Other | Infrastructure/tooling | 17 | 22 | 17 | 17 |
 | [phpstan/phpstan](https://github.com/phpstan/phpstan) | 13926 | 2026-05-03T17:44:47Z | Other | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) | 13738 | 2026-04-30T20:49:03Z | Other | Library | 3 | 0 | 3 | 3 |
 | [Blinue/Magpie](https://github.com/Blinue/Magpie) | 13695 | 2026-04-29T07:21:00Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
@@ -180,11 +174,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [autowarefoundation/autoware](https://github.com/autowarefoundation/autoware) | 11459 | 2026-04-30T14:15:52Z | Other | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [Heapy/awesome-kotlin](https://github.com/Heapy/awesome-kotlin) | 11360 | 2026-05-01T03:11:10Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [IBM/plex](https://github.com/IBM/plex) | 11339 | 2026-04-29T16:05:54Z | Other | Infrastructure/tooling | 4 | 31 | 4 | 4 |
-| [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) | 10949 | 2026-04-24T09:09:41Z | Other | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [aws/amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples) | 10912 | 2026-04-27T22:55:44Z | Other | Model/data | 10 | 0 | 10 | 10 |
 | [bitcoin/bips](https://github.com/bitcoin/bips) | 10744 | 2026-04-27T15:01:58Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mdn/content](https://github.com/mdn/content) | 10729 | 2026-05-01T09:53:19Z | Other | Infrastructure/tooling | 12 | 38 | 12 | 12 |
-| [cython/cython](https://github.com/cython/cython) | 10702 | 2026-04-24T10:38:39Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10373 | 2026-05-04T12:06:32Z | Other | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [bitnami/charts](https://github.com/bitnami/charts) | 10335 | 2026-05-02T01:39:09Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) | 10245 | 2026-04-27T04:28:55Z | Other | Infrastructure/tooling | 14 | 6 | 14 | 14 |

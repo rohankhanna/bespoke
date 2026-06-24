@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 24
-- terms: 117
-- components: 79
-- concepts: 123
-- observations: 123
+- repos: 25
+- terms: 129
+- components: 84
+- concepts: 135
+- observations: 135
 
 ## Static behavior
 
@@ -29,6 +29,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [containrrr/watchtower](https://github.com/containrrr/watchtower) | 24603 | 2025-12-17T14:44:11Z | Go | Infrastructure/tooling | 17 | 14 | 17 | 17 |
 | [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify) | 10616 | 2025-12-04T14:32:34Z | Go | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [earthly/earthly](https://github.com/earthly/earthly) | 12022 | 2025-10-23T20:10:46Z | Go | Infrastructure/tooling | 21 | 7 | 21 | 21 |
+| [sashabaranov/go-openai](https://github.com/sashabaranov/go-openai) | 10694 | 2025-10-21T19:27:34Z | Go | CLI | 12 | 5 | 12 | 12 |
 | [opencode-ai/opencode](https://github.com/opencode-ai/opencode) | 12093 | 2025-09-18T02:54:28Z | Go | CLI | 3 | 3 | 3 | 3 |
 | [gizak/termui](https://github.com/gizak/termui) | 13545 | 2025-07-10T06:33:40Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [GoogleContainerTools/kaniko](https://github.com/GoogleContainerTools/kaniko) | 15769 | 2025-06-03T14:36:10Z | Go | Infrastructure/tooling | 8 | 11 | 8 | 8 |
@@ -46,7 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [go-kit/kit](https://github.com/go-kit/kit) | 27450 | 2024-07-19T01:40:06Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [json-iterator/go](https://github.com/json-iterator/go) | 13908 | 2024-05-27T09:03:49Z | Go | Unknown | 5 | 0 | 7 | 7 |
 | [mailhog/MailHog](https://github.com/mailhog/MailHog) | 15939 | 2024-02-13T18:38:41Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [mislav/hub](https://github.com/mislav/hub) | 22948 | 2024-02-02T21:00:44Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [mislav/hub](https://github.com/mislav/hub) | 22947 | 2024-02-02T21:00:44Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [go-martini/martini](https://github.com/go-martini/martini) | 11614 | 2022-03-29T19:42:09Z | Go | Framework | 0 | 0 | 0 | 0 |
 | [helm/charts](https://github.com/helm/charts) | 15421 | 2022-02-20T14:09:39Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [dgrijalva/jwt-go](https://github.com/dgrijalva/jwt-go) | 10759 | 2021-11-04T09:15:13Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -59,7 +60,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [go-kit/kit](https://github.com/go-kit/kit) | 27450 | 2024-07-19T01:40:06Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [gorilla/websocket](https://github.com/gorilla/websocket) | 24674 | 2025-03-19T13:29:08Z | Go | Library | 5 | 0 | 5 | 5 |
 | [containrrr/watchtower](https://github.com/containrrr/watchtower) | 24603 | 2025-12-17T14:44:11Z | Go | Infrastructure/tooling | 17 | 14 | 17 | 17 |
-| [mislav/hub](https://github.com/mislav/hub) | 22948 | 2024-02-02T21:00:44Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [mislav/hub](https://github.com/mislav/hub) | 22947 | 2024-02-02T21:00:44Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [gorilla/mux](https://github.com/gorilla/mux) | 21849 | 2024-08-15T03:10:55Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [yudai/gotty](https://github.com/yudai/gotty) | 19451 | 2024-08-01T18:50:55Z | Go | CLI | 3 | 0 | 3 | 3 |
 | [matryer/xbar](https://github.com/matryer/xbar) | 18020 | 2024-09-10T10:18:51Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
@@ -77,5 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [go-martini/martini](https://github.com/go-martini/martini) | 11614 | 2022-03-29T19:42:09Z | Go | Framework | 0 | 0 | 0 | 0 |
 | [maaslalani/slides](https://github.com/maaslalani/slides) | 11455 | 2024-08-21T14:16:54Z | Go | CLI | 5 | 4 | 6 | 6 |
 | [dgrijalva/jwt-go](https://github.com/dgrijalva/jwt-go) | 10759 | 2021-11-04T09:15:13Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [sashabaranov/go-openai](https://github.com/sashabaranov/go-openai) | 10694 | 2025-10-21T19:27:34Z | Go | CLI | 12 | 5 | 12 | 12 |
 | [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify) | 10616 | 2025-12-04T14:32:34Z | Go | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [golang/protobuf](https://github.com/golang/protobuf) | 10064 | 2024-08-05T20:04:08Z | Go | Infrastructure/tooling | 4 | 2 | 4 | 4 |

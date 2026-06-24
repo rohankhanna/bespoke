@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 100
-- terms: 806
-- components: 886
-- concepts: 808
-- observations: 809
+- repos: 97
+- terms: 785
+- components: 848
+- concepts: 787
+- observations: 788
 
 ## Static behavior
 
@@ -27,6 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [betterleaks/betterleaks](https://github.com/betterleaks/betterleaks) | 965 | 2026-05-21T21:06:46Z | Go | Infrastructure/tooling | 13 | 7 | 13 | 13 |
+| [pkoukk/tiktoken-go](https://github.com/pkoukk/tiktoken-go) | 933 | 2026-05-12T07:45:32Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [kelos-dev/kelos](https://github.com/kelos-dev/kelos) | 164 | 2026-05-11T18:04:10Z | Go | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [andreykaipov/goobs](https://github.com/andreykaipov/goobs) | 177 | 2026-05-11T09:43:02Z | Go | CLI | 12 | 9 | 12 | 12 |
 | [energye/energy](https://github.com/energye/energy) | 588 | 2026-05-08T00:59:00Z | Go | Infrastructure/tooling | 16 | 5 | 16 | 16 |
@@ -122,10 +123,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [2dust/AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite) | 427 | 2026-04-26T02:20:02Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [cloudfoundry/bosh-cli](https://github.com/cloudfoundry/bosh-cli) | 188 | 2026-04-25T10:06:16Z | Go | CLI | 1 | 4 | 1 | 1 |
 | [trzsz/tsshd](https://github.com/trzsz/tsshd) | 425 | 2026-04-25T07:36:53Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [go-git/go-billy](https://github.com/go-git/go-billy) | 397 | 2026-04-24T21:19:12Z | Go | Infrastructure/tooling | 5 | 11 | 5 | 5 |
-| [ipfs/rainbow](https://github.com/ipfs/rainbow) | 168 | 2026-04-24T12:42:04Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
-| [ipfs/boxo](https://github.com/ipfs/boxo) | 296 | 2026-04-24T12:34:04Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [cloudfoundry/bosh-bootloader](https://github.com/cloudfoundry/bosh-bootloader) | 181 | 2026-04-24T09:30:47Z | Go | CLI | 3 | 3 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -138,6 +135,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [suzuki-shunsuke/pinact](https://github.com/suzuki-shunsuke/pinact) | 955 | 2026-04-30T22:08:09Z | Go | CLI | 8 | 8 | 8 | 8 |
 | [aliyun/aliyun-cli](https://github.com/aliyun/aliyun-cli) | 952 | 2026-04-29T08:10:52Z | Go | CLI | 12 | 7 | 12 | 12 |
 | [aws-cloudformation/rain](https://github.com/aws-cloudformation/rain) | 950 | 2026-04-28T20:35:33Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [pkoukk/tiktoken-go](https://github.com/pkoukk/tiktoken-go) | 933 | 2026-05-12T07:45:32Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [OffchainLabs/nitro](https://github.com/OffchainLabs/nitro) | 905 | 2026-04-29T08:59:17Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [mattn/go-isatty](https://github.com/mattn/go-isatty) | 903 | 2026-04-27T03:32:43Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [cometbft/cometbft](https://github.com/cometbft/cometbft) | 889 | 2026-04-30T12:01:42Z | Go | Infrastructure/tooling | 13 | 9 | 13 | 13 |
@@ -182,7 +180,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ClickHouse/ch-go](https://github.com/ClickHouse/ch-go) | 421 | 2026-04-28T19:22:50Z | Go | CLI | 7 | 10 | 7 | 7 |
 | [CosmWasm/wasmd](https://github.com/CosmWasm/wasmd) | 412 | 2026-05-04T08:11:41Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [apache/iceberg-go](https://github.com/apache/iceberg-go) | 405 | 2026-05-01T20:16:23Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
-| [go-git/go-billy](https://github.com/go-git/go-billy) | 397 | 2026-04-24T21:19:12Z | Go | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [runpod/runpodctl](https://github.com/runpod/runpodctl) | 393 | 2026-04-30T15:08:37Z | Go | CLI | 6 | 4 | 6 | 6 |
 | [web-infra-dev/rslint](https://github.com/web-infra-dev/rslint) | 389 | 2026-04-30T04:41:16Z | Go | Infrastructure/tooling | 11 | 20 | 11 | 11 |
 | [gookit/gcli](https://github.com/gookit/gcli) | 376 | 2026-05-07T06:42:47Z | Go | CLI | 15 | 8 | 15 | 15 |
@@ -196,7 +193,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudpilot-ai/karpenter-provider-gcp](https://github.com/cloudpilot-ai/karpenter-provider-gcp) | 303 | 2026-04-29T18:05:08Z | Go | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [seaweedfs/seaweedfs-operator](https://github.com/seaweedfs/seaweedfs-operator) | 297 | 2026-05-02T21:48:56Z | Go | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [gofiber/contrib](https://github.com/gofiber/contrib) | 296 | 2026-04-30T21:14:37Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [ipfs/boxo](https://github.com/ipfs/boxo) | 296 | 2026-04-24T12:34:04Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [charmbracelet/x](https://github.com/charmbracelet/x) | 290 | 2026-05-04T10:21:24Z | Go | CLI | 11 | 5 | 11 | 11 |
 | [toml-lang/toml-test](https://github.com/toml-lang/toml-test) | 261 | 2026-05-07T18:55:15Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [grafana/grafana-plugin-sdk-go](https://github.com/grafana/grafana-plugin-sdk-go) | 249 | 2026-05-01T13:43:43Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
@@ -212,9 +208,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gookit/cache](https://github.com/gookit/cache) | 198 | 2026-05-05T01:58:07Z | Go | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [cosmos/interchain-security](https://github.com/cosmos/interchain-security) | 191 | 2026-05-01T17:59:51Z | Go | Infrastructure/tooling | 14 | 16 | 14 | 14 |
 | [cloudfoundry/bosh-cli](https://github.com/cloudfoundry/bosh-cli) | 188 | 2026-04-25T10:06:16Z | Go | CLI | 1 | 4 | 1 | 1 |
-| [cloudfoundry/bosh-bootloader](https://github.com/cloudfoundry/bosh-bootloader) | 181 | 2026-04-24T09:30:47Z | Go | CLI | 3 | 3 | 3 | 3 |
 | [andreykaipov/goobs](https://github.com/andreykaipov/goobs) | 177 | 2026-05-11T09:43:02Z | Go | CLI | 12 | 9 | 12 | 12 |
-| [ipfs/rainbow](https://github.com/ipfs/rainbow) | 168 | 2026-04-24T12:42:04Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [kelos-dev/kelos](https://github.com/kelos-dev/kelos) | 164 | 2026-05-11T18:04:10Z | Go | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [celzero/firestack](https://github.com/celzero/firestack) | 162 | 2026-04-30T19:44:42Z | Go | Infrastructure/tooling | 10 | 25 | 10 | 10 |
 | [gookit/filter](https://github.com/gookit/filter) | 151 | 2026-05-06T03:19:00Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |

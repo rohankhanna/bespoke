@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 493
-- components: 683
-- concepts: 501
-- observations: 502
+- repos: 39
+- terms: 478
+- components: 648
+- concepts: 486
+- observations: 487
 
 ## Static behavior
 
@@ -65,8 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clap-rs/clap](https://github.com/clap-rs/clap) | 16346 | 2026-04-27T14:44:44Z | Rust | CLI | 14 | 11 | 14 | 14 |
 | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13110 | 2026-04-27T08:58:52Z | Rust | CLI | 10 | 14 | 10 | 10 |
 | [Automattic/harper](https://github.com/Automattic/harper) | 10405 | 2026-04-27T01:19:13Z | Rust | Infrastructure/tooling | 15 | 17 | 15 | 15 |
-| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | 26143 | 2026-04-24T09:17:34Z | Rust | Infrastructure/tooling | 9 | 25 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -77,7 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tw93/Pake](https://github.com/tw93/Pake) | 48393 | 2026-05-03T15:05:14Z | Rust | Infrastructure/tooling | 17 | 48 | 17 | 17 |
 | [astral-sh/ruff](https://github.com/astral-sh/ruff) | 47401 | 2026-05-06T18:10:34Z | Rust | Infrastructure/tooling | 14 | 40 | 14 | 14 |
 | [helix-editor/helix](https://github.com/helix-editor/helix) | 44167 | 2026-04-28T23:25:11Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
-| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 42572 | 2026-05-01T11:40:46Z | Rust | Infrastructure/tooling | 19 | 19 | 19 | 19 |
 | [nushell/nushell](https://github.com/nushell/nushell) | 39439 | 2026-05-13T17:01:05Z | Rust | Infrastructure/tooling | 9 | 16 | 10 | 10 |
 | [pola-rs/polars](https://github.com/pola-rs/polars) | 38348 | 2026-05-01T06:59:20Z | Rust | Infrastructure/tooling | 14 | 12 | 14 | 14 |
@@ -91,7 +88,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | 29699 | 2026-05-12T23:37:11Z | Rust | Infrastructure/tooling | 9 | 14 | 11 | 12 |
 | [emilk/egui](https://github.com/emilk/egui) | 28913 | 2026-04-30T13:29:25Z | Rust | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [jj-vcs/jj](https://github.com/jj-vcs/jj) | 28427 | 2026-04-29T16:29:51Z | Rust | Infrastructure/tooling | 5 | 21 | 5 | 5 |
-| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | 26143 | 2026-04-24T09:17:34Z | Rust | Infrastructure/tooling | 9 | 25 | 9 | 9 |
 | [wezterm/wezterm](https://github.com/wezterm/wezterm) | 25903 | 2026-05-01T01:05:12Z | Rust | CLI | 10 | 9 | 10 | 10 |
 | [biomejs/biome](https://github.com/biomejs/biome) | 24498 | 2026-04-29T21:00:08Z | Rust | CLI | 9 | 24 | 10 | 10 |
 | [facebook/flow](https://github.com/facebook/flow) | 22206 | 2026-05-01T09:05:10Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |

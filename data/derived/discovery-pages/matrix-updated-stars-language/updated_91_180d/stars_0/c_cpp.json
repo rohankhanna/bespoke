@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 13,
-    "terms": 20
+    "components": 49,
+    "concepts": 22,
+    "observations": 23,
+    "repos": 14,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "cloudaper/compact_enc_det_fork",
     "czk23/YiTu",
+    "datachainlab/cosmos-bsc-ibc-lcp",
     "DiligentGraphics/args",
     "DiligentGraphics/glfw",
     "DiligentGraphics/glslang",

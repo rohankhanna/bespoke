@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 71,
+    "components": 68,
     "concepts": 35,
     "observations": 35,
-    "repos": 15,
+    "repos": 14,
     "terms": 35
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "ainvaltin/nu_plugin_boltdb",
@@ -20,7 +20,6 @@
     "aldernero/debugui",
     "amoniacou/external-dns-digitalocean-webhook",
     "Amtrend/ssh-manager",
-    "datachainlab/ibc-parlia-relay",
     "DataDog/vault",
     "dubbo-go-pixiu/dubbo-go-pixiu",
     "ethpandaops/xatu-cbt",

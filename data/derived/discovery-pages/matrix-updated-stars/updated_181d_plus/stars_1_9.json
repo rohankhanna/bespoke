@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5601,
-    "concepts": 2019,
-    "observations": 2022,
-    "repos": 1424,
-    "terms": 2019
+    "components": 5609,
+    "concepts": 2022,
+    "observations": 2025,
+    "repos": 1426,
+    "terms": 2022
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -233,6 +233,7 @@
     "Azure-Samples/openai-chat-frontend-vanillajs",
     "Azure/actions-toolkit",
     "Azure/Azure-kusto-opentelemetry-demo",
+    "badlogic/dosbox-x",
     "baehyunsol/Quoridor-rs",
     "Barry0121/mlx_deepcache",
     "basf/neural-fingerprint-uncertainty",
@@ -1412,6 +1413,7 @@
     "xazukx/ts-rs",
     "XcodesOrg/homebrew-made",
     "Xiao0728/ColBERT-PRF-VirtualAppendix",
+    "Xiaobin-Rong/gtcrn_demo",
     "xinke-wang/EST-VQA",
     "xledger/pod_tsql_scriptdom",
     "XR-Robotics/XRoboToolkit-Native-Video-Viewer",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 91,
-    "observations": 91,
+    "components": 107,
+    "concepts": 115,
+    "observations": 115,
     "repos": 15,
-    "terms": 90
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "Aleksoid1978/VideoRenderer",
-    "AviSynth/AviSynthPlus",
     "CloudCompare/CloudCompare",
     "doctest/doctest",
-    "libbitcoin/libbitcoin-system",
+    "harfbuzz/harfbuzz",
+    "KhronosGroup/KTX-Software",
     "luau-lang/luau",
-    "PoseLib/PoseLib",
     "pytorch/gloo",
+    "qt/qtbase",
     "red-data-tools/pycall.rb",
     "snapcast/snapcast",
     "swiftlang/swift-llbuild",

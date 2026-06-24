@@ -3,7 +3,7 @@
     "components": 188,
     "concepts": 104,
     "observations": 104,
-    "repos": 21,
+    "repos": 22,
     "terms": 103
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "ankane/dist-c",
@@ -32,6 +32,7 @@
     "objectbox/objectbox-sync-examples",
     "openssh/openssh-portable-selfhosted",
     "rapidsai/rapids-logger",
+    "ROCm/rocJPEG",
     "stdlib-js/complex-float32-ctor",
     "stdlib-js/complex-float64-ctor",
     "stdlib-js/ndarray-ctor"

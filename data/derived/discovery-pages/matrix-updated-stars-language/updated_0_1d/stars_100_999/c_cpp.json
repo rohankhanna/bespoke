@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 3,
-    "terms": 18
+    "concepts": 13,
+    "observations": 13,
+    "repos": 2,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "confluentinc/librdkafka",
-    "ipsilon/evmone",
-    "localai-org/LocalVQE"
+    "ipsilon/evmone"
   ]
 }

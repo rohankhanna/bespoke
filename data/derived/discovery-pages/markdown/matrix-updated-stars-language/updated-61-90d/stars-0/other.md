@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Other
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 45
-- components: 55
-- concepts: 39
-- observations: 39
+- repos: 34
+- terms: 51
+- components: 71
+- concepts: 45
+- observations: 45
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
+| [Strivin0311/strivin0311.github.io](https://github.com/Strivin0311/strivin0311.github.io) | 0 | 2026-04-24T14:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/Claude-Local-Web-Capture-Plugin](https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin) | 0 | 2026-04-23T15:29:06Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -57,13 +60,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [b2agi/exist-is-charter_kr](https://github.com/b2agi/exist-is-charter_kr) | 0 | 2026-03-29T16:29:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [atsushieno/homebrew-oss](https://github.com/atsushieno/homebrew-oss) | 0 | 2026-03-27T06:19:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [saharmor/saharmor.github.io](https://github.com/saharmor/saharmor.github.io) | 0 | 2026-03-26T22:55:49Z | Other | Infrastructure/tooling | 1 | 9 | 1 | 1 |
-| [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Israel-Civilian-Readiness-Guide](https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide) | 0 | 2026-03-26T01:02:35Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
+| [Strivin0311/strivin0311.github.io](https://github.com/Strivin0311/strivin0311.github.io) | 0 | 2026-04-24T14:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/Claude-Local-Web-Capture-Plugin](https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin) | 0 | 2026-04-23T15:29:06Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -95,5 +99,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [b2agi/exist-is-charter_kr](https://github.com/b2agi/exist-is-charter_kr) | 0 | 2026-03-29T16:29:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [atsushieno/homebrew-oss](https://github.com/atsushieno/homebrew-oss) | 0 | 2026-03-27T06:19:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [saharmor/saharmor.github.io](https://github.com/saharmor/saharmor.github.io) | 0 | 2026-03-26T22:55:49Z | Other | Infrastructure/tooling | 1 | 9 | 1 | 1 |
-| [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Israel-Civilian-Readiness-Guide](https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide) | 0 | 2026-03-26T01:02:35Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |

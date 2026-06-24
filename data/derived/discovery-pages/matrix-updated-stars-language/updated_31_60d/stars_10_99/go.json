@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 252,
-    "concepts": 169,
-    "observations": 170,
-    "repos": 38,
-    "terms": 169
+    "components": 228,
+    "concepts": 158,
+    "observations": 159,
+    "repos": 35,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "ankitpokhrel/shopctl",
     "apache/casbin-govaluate",
     "apache/datasketches-go",
-    "aquasecurity/trivy-java-db",
     "bitrise-io/stepman",
     "bootmortis/sing-geosite",
     "cloudfoundry/bosh-backup-and-restore",
@@ -46,8 +45,6 @@
     "oracle/karpenter-provider-oci",
     "philips-labs/dct-notary-admin",
     "philips-labs/tabia",
-    "sigstore/helm-sigstore",
-    "sigstore/k8s-manifest-sigstore",
     "tendermint/tm-db",
     "transparency-dev/witness",
     "usbarmory/tamago-example",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 4
-- terms: 40
-- components: 34
-- concepts: 40
-- observations: 40
+- terms: 19
+- components: 20
+- concepts: 19
+- observations: 19
 
 ## Static behavior
 
@@ -26,16 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [qt/qtbase](https://github.com/qt/qtbase) | 3035 | 2026-06-23T05:51:42Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2650 | 2026-06-22T21:20:10Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5848 | 2026-06-22T10:31:30Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
-| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1282 | 2026-06-22T10:05:37Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |
+| [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1392 | 2026-06-23T18:52:15Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [PoseLib/PoseLib](https://github.com/PoseLib/PoseLib) | 1186 | 2026-06-23T15:17:17Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2651 | 2026-06-23T12:35:01Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [libsndfile/libsndfile](https://github.com/libsndfile/libsndfile) | 1707 | 2026-06-23T07:31:27Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5848 | 2026-06-22T10:31:30Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
-| [qt/qtbase](https://github.com/qt/qtbase) | 3035 | 2026-06-23T05:51:42Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2650 | 2026-06-22T21:20:10Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1282 | 2026-06-22T10:05:37Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |
+| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2651 | 2026-06-23T12:35:01Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [libsndfile/libsndfile](https://github.com/libsndfile/libsndfile) | 1707 | 2026-06-23T07:31:27Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1392 | 2026-06-23T18:52:15Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [PoseLib/PoseLib](https://github.com/PoseLib/PoseLib) | 1186 | 2026-06-23T15:17:17Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |

@@ -1,47 +1,47 @@
 # Discovery pages
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 This index is static. It links to precomputed facet pages and does not rely on client-side filtering or sorting.
 
 ## Counts
 
-- repos: 25389
+- repos: 25422
 - non-empty updated × stars pages: 55
 - non-empty updated × stars × language pages: 413
 
 ## Updated buckets
 
-- [Updated in the last 24 hours](./by-updated/updated-0-1d.md) — 152 repos
-- [Updated 1 to 7 days ago](./by-updated/updated-1-7d.md) — 176 repos
-- [Updated 8 to 14 days ago](./by-updated/updated-8-14d.md) — 90 repos
-- [Updated 15 to 30 days ago](./by-updated/updated-15-30d.md) — 105 repos
-- [Updated 31 to 60 days ago](./by-updated/updated-31-60d.md) — 3536 repos
-- [Updated 61 to 90 days ago](./by-updated/updated-61-90d.md) — 5649 repos
-- [Updated 91 to 180 days ago](./by-updated/updated-91-180d.md) — 2909 repos
-- [Updated more than 180 days ago](./by-updated/updated-181d-plus.md) — 12772 repos
+- [Updated in the last 24 hours](./by-updated/updated-0-1d.md) — 128 repos
+- [Updated 1 to 7 days ago](./by-updated/updated-1-7d.md) — 197 repos
+- [Updated 8 to 14 days ago](./by-updated/updated-8-14d.md) — 97 repos
+- [Updated 15 to 30 days ago](./by-updated/updated-15-30d.md) — 107 repos
+- [Updated 31 to 60 days ago](./by-updated/updated-31-60d.md) — 3371 repos
+- [Updated 61 to 90 days ago](./by-updated/updated-61-90d.md) — 5728 repos
+- [Updated 91 to 180 days ago](./by-updated/updated-91-180d.md) — 2997 repos
+- [Updated more than 180 days ago](./by-updated/updated-181d-plus.md) — 12797 repos
 
 ## Star buckets
 
 - [Unknown stars](./by-stars/stars-unknown.md) — 15 repos
-- [0 stars](./by-stars/stars-0.md) — 920 repos
-- [1 to 9 stars](./by-stars/stars-1-9.md) — 2397 repos
-- [10 to 99 stars](./by-stars/stars-10-99.md) — 5536 repos
-- [100 to 999 stars](./by-stars/stars-100-999.md) — 8631 repos
-- [1,000 to 9,999 stars](./by-stars/stars-1000-9999.md) — 6107 repos
-- [10,000 to 99,999 stars](./by-stars/stars-10000-99999.md) — 1722 repos
+- [0 stars](./by-stars/stars-0.md) — 919 repos
+- [1 to 9 stars](./by-stars/stars-1-9.md) — 2403 repos
+- [10 to 99 stars](./by-stars/stars-10-99.md) — 5539 repos
+- [100 to 999 stars](./by-stars/stars-100-999.md) — 8643 repos
+- [1,000 to 9,999 stars](./by-stars/stars-1000-9999.md) — 6117 repos
+- [10,000 to 99,999 stars](./by-stars/stars-10000-99999.md) — 1725 repos
 - [100,000 to 999,999 stars](./by-stars/stars-100000-999999.md) — 61 repos
 - [1,000,000+ stars](./by-stars/stars-1000000-plus.md) — 0 repos
 
 ## Language buckets
 
-- [Python](./by-language/python.md) — 6783 repos
-- [TypeScript](./by-language/typescript.md) — 1920 repos
+- [Python](./by-language/python.md) — 6799 repos
+- [TypeScript](./by-language/typescript.md) — 1919 repos
 - [JavaScript](./by-language/javascript.md) — 2081 repos
-- [Go](./by-language/go.md) — 1726 repos
-- [Rust](./by-language/rust.md) — 1749 repos
+- [Go](./by-language/go.md) — 1731 repos
+- [Rust](./by-language/rust.md) — 1751 repos
 - [Java](./by-language/java.md) — 644 repos
-- [C/C++](./by-language/c-cpp.md) — 2409 repos
+- [C/C++](./by-language/c-cpp.md) — 2415 repos
 - [Shell](./by-language/shell.md) — 717 repos
-- [Other](./by-language/other.md) — 5644 repos
-- [Unknown](./by-language/unknown.md) — 1716 repos
+- [Other](./by-language/other.md) — 5647 repos
+- [Unknown](./by-language/unknown.md) — 1718 repos

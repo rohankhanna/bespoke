@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 947,
-    "concepts": 214,
-    "observations": 215,
-    "repos": 28,
-    "terms": 251
+    "components": 1094,
+    "concepts": 227,
+    "observations": 228,
+    "repos": 29,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "airbnb/javascript",
@@ -34,6 +34,7 @@
     "nodejs/node",
     "nousresearch/hermes-agent",
     "obra/superpowers",
+    "open-webui/open-webui",
     "openclaw/openclaw",
     "Significant-Gravitas/AutoGPT",
     "sindresorhus/awesome",

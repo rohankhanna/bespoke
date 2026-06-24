@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1336,
-    "concepts": 1649,
-    "observations": 1651,
-    "repos": 440,
-    "terms": 1637
+    "concepts": 1676,
+    "observations": 1678,
+    "repos": 442,
+    "terms": 1664
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -49,6 +49,7 @@
     "avh4/elm-format",
     "awesome-NeRF/awesome-NeRF",
     "ayu-theme/ayu-vim",
+    "BachiLi/redner",
     "backup/backup",
     "baidu-research/warp-ctc",
     "balancap/SSD-Tensorflow",
@@ -107,6 +108,7 @@
     "doom-neovim/doom-nvim",
     "dotnet/machinelearning-samples",
     "dovecoteescapee/ByeDPIAndroid",
+    "drknzz/GitHub-Achievements",
     "dwmkerr/sharpshell",
     "dwyl/repo-badges",
     "easymotion/vim-easymotion",

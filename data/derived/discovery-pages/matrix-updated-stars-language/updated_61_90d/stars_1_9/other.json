@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 309,
-    "concepts": 160,
-    "observations": 160,
-    "repos": 76,
-    "terms": 160
+    "components": 311,
+    "concepts": 163,
+    "observations": 163,
+    "repos": 77,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
@@ -30,6 +30,7 @@
     "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",
     "celo-org/charts",
+    "cgrindel/rules_swiftformat",
     "Circuitscape/www.circuitscape.org",
     "cloudfoundry/cf-smoke-tests-release",
     "conda-forge/.cirun",
@@ -64,6 +65,7 @@
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
+    "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
     "JuliaCI/julia-buildkite",
     "KhronosGroup/KTX-Software-CTS",
     "knopp/native_toolchain_ninja",
@@ -88,7 +90,6 @@
     "tnc-ca-geo/animl-ml",
     "tweag/gazelle_haskell_modules",
     "vovkos/doxyrest_b",
-    "wavelens/gobgp.nix",
-    "WebAssembly/compact-import-section"
+    "wavelens/gobgp.nix"
   ]
 }

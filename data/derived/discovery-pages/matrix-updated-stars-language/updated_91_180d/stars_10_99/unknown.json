@@ -3,7 +3,7 @@
     "components": 52,
     "concepts": 90,
     "observations": 90,
-    "repos": 47,
+    "repos": 46,
     "terms": 95
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
-    "Adlik/model_zoo",
     "apache/.github",
     "aquasecurity/setup-trivy",
     "astroyat/lerobot-ros",

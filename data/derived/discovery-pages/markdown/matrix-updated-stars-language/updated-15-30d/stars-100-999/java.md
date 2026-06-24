@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-06-22T06:20:48.042315+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 48
-- components: 52
-- concepts: 48
-- observations: 48
+- repos: 1
+- terms: 0
+- components: 2
+- concepts: 0
+- observations: 0
 
 ## Static behavior
 
@@ -26,18 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-30T06:32:36Z | Java | CLI | 8 | 13 | 8 | 8 |
-| [redis/redis-om-spring](https://github.com/redis/redis-om-spring) | 652 | 2026-05-29T21:46:32Z | Java | Infrastructure/tooling | 8 | 18 | 8 | 8 |
-| [eclipse-tm4e/tm4e](https://github.com/eclipse-tm4e/tm4e) | 115 | 2026-05-29T19:59:40Z | Java | CLI | 10 | 12 | 10 | 10 |
-| [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 967 | 2026-05-29T18:34:39Z | Java | CLI | 16 | 7 | 16 | 16 |
-| [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 250 | 2026-05-28T22:55:49Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [eclipse-buildship/buildship](https://github.com/eclipse-buildship/buildship) | 549 | 2026-06-09T11:35:22Z | Java | CLI | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 967 | 2026-05-29T18:34:39Z | Java | CLI | 16 | 7 | 16 | 16 |
-| [redis/redis-om-spring](https://github.com/redis/redis-om-spring) | 652 | 2026-05-29T21:46:32Z | Java | Infrastructure/tooling | 8 | 18 | 8 | 8 |
-| [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 250 | 2026-05-28T22:55:49Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-30T06:32:36Z | Java | CLI | 8 | 13 | 8 | 8 |
-| [eclipse-tm4e/tm4e](https://github.com/eclipse-tm4e/tm4e) | 115 | 2026-05-29T19:59:40Z | Java | CLI | 10 | 12 | 10 | 10 |
+| [eclipse-buildship/buildship](https://github.com/eclipse-buildship/buildship) | 549 | 2026-06-09T11:35:22Z | Java | CLI | 0 | 2 | 0 | 0 |

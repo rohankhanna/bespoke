@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 467
-- terms: 576
+- repos: 468
+- terms: 580
 - components: 1401
-- concepts: 576
-- observations: 578
+- concepts: 580
+- observations: 582
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/N8N-Workflows-Index](https://github.com/danielrosehill/N8N-Workflows-Index) | 0 | 2025-12-25T17:16:48Z | Python | Unknown | 1 | 0 | 1 | 1 |
+| [danielrosehill/Data-Projects-Index](https://github.com/danielrosehill/Data-Projects-Index) | 0 | 2025-12-25T17:16:39Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [appscodelabs/liche](https://github.com/appscodelabs/liche) | 0 | 2025-12-25T06:55:19Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [Enselic/cargo-public-api](https://github.com/Enselic/cargo-public-api) | 0 | 2025-12-22T07:46:09Z | Unknown | CLI | 5 | 3 | 5 | 5 |
 | [danielrosehill/Claude-Model-Identifier](https://github.com/danielrosehill/Claude-Model-Identifier) | 0 | 2025-12-21T13:47:52Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
@@ -491,12 +493,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [interactive-instruments/ldproxy-community](https://github.com/interactive-instruments/ldproxy-community) | 0 | 2021-08-04T10:05:31Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [ipld/js-ipld-format-to-blockcodec](https://github.com/ipld/js-ipld-format-to-blockcodec) | 0 | 2021-07-28T10:34:43Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [simrat39/rust-tools-demos](https://github.com/simrat39/rust-tools-demos) | 0 | 2021-07-28T04:47:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [altgr/opam-publish](https://github.com/AltGr/opam-publish) | 0 | 2021-06-24T09:58:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/N8N-Workflows-Index](https://github.com/danielrosehill/N8N-Workflows-Index) | 0 | 2025-12-25T17:16:48Z | Python | Unknown | 1 | 0 | 1 | 1 |
+| [danielrosehill/Data-Projects-Index](https://github.com/danielrosehill/Data-Projects-Index) | 0 | 2025-12-25T17:16:39Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [appscodelabs/liche](https://github.com/appscodelabs/liche) | 0 | 2025-12-25T06:55:19Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [Enselic/cargo-public-api](https://github.com/Enselic/cargo-public-api) | 0 | 2025-12-22T07:46:09Z | Unknown | CLI | 5 | 3 | 5 | 5 |
 | [danielrosehill/Claude-Model-Identifier](https://github.com/danielrosehill/Claude-Model-Identifier) | 0 | 2025-12-21T13:47:52Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
@@ -963,4 +966,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [interactive-instruments/ldproxy-community](https://github.com/interactive-instruments/ldproxy-community) | 0 | 2021-08-04T10:05:31Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [ipld/js-ipld-format-to-blockcodec](https://github.com/ipld/js-ipld-format-to-blockcodec) | 0 | 2021-07-28T10:34:43Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [simrat39/rust-tools-demos](https://github.com/simrat39/rust-tools-demos) | 0 | 2021-07-28T04:47:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [altgr/opam-publish](https://github.com/AltGr/opam-publish) | 0 | 2021-06-24T09:58:55Z | Other | Unknown | 0 | 0 | 0 | 0 |

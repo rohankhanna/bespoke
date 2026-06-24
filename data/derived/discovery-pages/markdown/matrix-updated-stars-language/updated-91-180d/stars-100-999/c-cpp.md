@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 115
-- terms: 481
-- components: 352
-- concepts: 487
-- observations: 489
+- repos: 117
+- terms: 499
+- components: 363
+- concepts: 505
+- observations: 507
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rusty1s/pytorch_cluster](https://github.com/rusty1s/pytorch_cluster) | 920 | 2026-03-26T04:45:29Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
+| [AmusementClub/vs-mlrt](https://github.com/AmusementClub/vs-mlrt) | 440 | 2026-03-26T01:48:30Z | C/C++ | Infrastructure/tooling | 27 | 5 | 27 | 27 |
+| [NetEase-FuXi/EETQ](https://github.com/NetEase-FuXi/EETQ) | 206 | 2026-03-25T14:42:59Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [intel/gmmlib](https://github.com/intel/gmmlib) | 191 | 2026-03-25T05:04:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [littlefs-project/littlefs-fuse](https://github.com/littlefs-project/littlefs-fuse) | 215 | 2026-03-25T04:16:40Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [microsoft/xlang](https://github.com/microsoft/xlang) | 907 | 2026-03-25T00:58:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -140,7 +143,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [intel/torch-ccl](https://github.com/intel/torch-ccl) | 104 | 2025-12-31T04:43:22Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [lh3/yak](https://github.com/lh3/yak) | 169 | 2025-12-30T19:05:14Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [Improbable-AI/VisionProTeleop](https://github.com/Improbable-AI/VisionProTeleop) | 765 | 2025-12-28T02:18:18Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [avaneev/prvhash](https://github.com/avaneev/prvhash) | 326 | 2025-12-25T17:53:39Z | C/C++ | Unknown | 17 | 0 | 17 | 17 |
 
 ## Repos sorted by stars
 
@@ -152,6 +154,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [koide3/small_gicp](https://github.com/koide3/small_gicp) | 927 | 2026-02-10T15:23:51Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [devkitPro/libctru](https://github.com/devkitPro/libctru) | 925 | 2026-02-19T17:23:39Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [naelstrof/slop](https://github.com/naelstrof/slop) | 923 | 2026-02-01T16:57:19Z | C/C++ | CLI | 6 | 0 | 6 | 6 |
+| [rusty1s/pytorch_cluster](https://github.com/rusty1s/pytorch_cluster) | 920 | 2026-03-26T04:45:29Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [microsoft/xlang](https://github.com/microsoft/xlang) | 907 | 2026-03-25T00:58:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [swigger/wechat-ocr](https://github.com/swigger/wechat-ocr) | 902 | 2026-01-18T09:44:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [pganalyze/pg_query](https://github.com/pganalyze/pg_query) | 871 | 2026-01-27T06:11:35Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -195,6 +198,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JokerJohn/Cloud_Map_Evaluation](https://github.com/JokerJohn/Cloud_Map_Evaluation) | 458 | 2026-03-22T06:35:28Z | C/C++ | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [starwing/luautf8](https://github.com/starwing/luautf8) | 453 | 2026-02-26T16:04:24Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [bdwgc/libatomic_ops](https://github.com/bdwgc/libatomic_ops) | 447 | 2026-01-22T19:30:17Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [AmusementClub/vs-mlrt](https://github.com/AmusementClub/vs-mlrt) | 440 | 2026-03-26T01:48:30Z | C/C++ | Infrastructure/tooling | 27 | 5 | 27 | 27 |
 | [nihui/ncnn-android-nanodet](https://github.com/nihui/ncnn-android-nanodet) | 420 | 2026-01-14T06:55:36Z | C/C++ | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [google/kmsan](https://github.com/google/kmsan) | 418 | 2026-03-05T16:38:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [martinmoene/lest](https://github.com/martinmoene/lest) | 406 | 2026-02-16T15:21:24Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
@@ -208,7 +212,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conor42/fast-lzma2](https://github.com/conor42/fast-lzma2) | 336 | 2026-01-11T06:02:31Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [luvit/luvi](https://github.com/luvit/luvi) | 334 | 2026-03-19T22:40:29Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [refresh-bio/KMC](https://github.com/refresh-bio/KMC) | 332 | 2026-03-10T10:26:23Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [avaneev/prvhash](https://github.com/avaneev/prvhash) | 326 | 2025-12-25T17:53:39Z | C/C++ | Unknown | 17 | 0 | 17 | 17 |
 | [google/ruy](https://github.com/google/ruy) | 322 | 2026-02-17T01:04:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [arduino-libraries/Servo](https://github.com/arduino-libraries/Servo) | 320 | 2026-03-16T17:27:44Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [Ar-Ray-code/YOLOX-ROS](https://github.com/Ar-Ray-code/YOLOX-ROS) | 319 | 2026-01-03T08:26:22Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
@@ -232,6 +235,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [littlefs-project/littlefs-fuse](https://github.com/littlefs-project/littlefs-fuse) | 215 | 2026-03-25T04:16:40Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [smarco/WFA2-lib](https://github.com/smarco/WFA2-lib) | 213 | 2026-03-18T08:53:53Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ZDisket/TensorVox](https://github.com/ZDisket/TensorVox) | 213 | 2026-02-05T02:14:58Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
+| [NetEase-FuXi/EETQ](https://github.com/NetEase-FuXi/EETQ) | 206 | 2026-03-25T14:42:59Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [intel/gmmlib](https://github.com/intel/gmmlib) | 191 | 2026-03-25T05:04:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/TriangleMeshDistance](https://github.com/InteractiveComputerGraphics/TriangleMeshDistance) | 180 | 2026-02-14T17:36:17Z | C/C++ | Library | 9 | 0 | 9 | 9 |
 | [mongodb-js/kerberos](https://github.com/mongodb-js/kerberos) | 177 | 2026-03-01T15:05:18Z | C/C++ | Infrastructure/tooling | 11 | 32 | 11 | 12 |

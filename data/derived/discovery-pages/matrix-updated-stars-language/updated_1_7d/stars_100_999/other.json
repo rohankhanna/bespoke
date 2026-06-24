@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 10,
-    "terms": 78
+    "components": 126,
+    "concepts": 128,
+    "observations": 129,
+    "repos": 14,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
+    "apalache-mc/apalache",
     "Artoriuz/ArtCNN",
+    "astroautomata/SymbolicRegression.jl",
+    "ChristopherHX/runner.server",
+    "clj-commons/rewrite-clj",
     "Deep-Symmetry/beat-link-trigger",
-    "devcontainers/devcontainers.github.io",
     "emacs-eldev/eldev",
     "fsprojects/FSharp.Data.GraphQL",
     "fw-ai/cookbook",
+    "grpc/grpc-dart",
     "karafka/rdkafka-ruby",
-    "kurrent-io/KurrentDB-Client-Dotnet",
     "redis/redis-om-dotnet",
+    "the-database/mpv-AnimeJaNai",
     "the-database/VideoJaNai"
   ]
 }

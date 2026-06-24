@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 24
-- terms: 145
-- components: 106
-- concepts: 150
-- observations: 150
+- repos: 23
+- terms: 143
+- components: 104
+- concepts: 148
+- observations: 148
 
 ## Static behavior
 
@@ -38,7 +38,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [meyayl/docker-languagetool](https://github.com/meyayl/docker-languagetool) | 236 | 2026-05-01T02:27:22Z | Shell | Infrastructure/tooling | 2 | 11 | 2 | 2 |
 | [heroku/heroku-buildpack-java](https://github.com/heroku/heroku-buildpack-java) | 167 | 2026-05-01T00:54:31Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [itzg/docker-mc-backup](https://github.com/itzg/docker-mc-backup) | 495 | 2026-04-30T14:48:09Z | Shell | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [harbor-framework/terminal-bench-2](https://github.com/harbor-framework/terminal-bench-2) | 296 | 2026-04-30T05:53:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [harbor-framework/terminal-bench-2](https://github.com/harbor-framework/terminal-bench-2) | 298 | 2026-04-30T05:53:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [mozilla/addons](https://github.com/mozilla/addons) | 130 | 2026-04-29T22:03:46Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [cloudfoundry/bosh-deployment](https://github.com/cloudfoundry/bosh-deployment) | 140 | 2026-04-29T21:23:22Z | Shell | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [microcai/gentoo-zh](https://github.com/microcai/gentoo-zh) | 408 | 2026-04-29T16:52:42Z | Shell | Infrastructure/tooling | 5 | 3 | 5 | 5 |
@@ -49,7 +49,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pion/awesome-pion](https://github.com/pion/awesome-pion) | 915 | 2026-04-26T01:09:44Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [rocker-org/rocker-versioned2](https://github.com/rocker-org/rocker-versioned2) | 491 | 2026-04-25T11:26:36Z | Shell | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [lovell/sharp-libvips](https://github.com/lovell/sharp-libvips) | 207 | 2026-04-25T11:13:12Z | Shell | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [tinted-theming/schemes](https://github.com/tinted-theming/schemes) | 249 | 2026-04-24T14:36:45Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -66,9 +65,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TypedDevs/bashunit](https://github.com/TypedDevs/bashunit) | 410 | 2026-05-07T20:43:19Z | Shell | Infrastructure/tooling | 16 | 7 | 18 | 18 |
 | [microcai/gentoo-zh](https://github.com/microcai/gentoo-zh) | 408 | 2026-04-29T16:52:42Z | Shell | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [2KAbhishek/dots2k](https://github.com/2KAbhishek/dots2k) | 321 | 2026-04-28T06:06:35Z | Shell | CLI | 10 | 0 | 12 | 12 |
-| [harbor-framework/terminal-bench-2](https://github.com/harbor-framework/terminal-bench-2) | 296 | 2026-04-30T05:53:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [harbor-framework/terminal-bench-2](https://github.com/harbor-framework/terminal-bench-2) | 298 | 2026-04-30T05:53:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [heroku/base-images](https://github.com/heroku/base-images) | 272 | 2026-05-01T15:17:41Z | Shell | Infrastructure/tooling | 3 | 7 | 3 | 3 |
-| [tinted-theming/schemes](https://github.com/tinted-theming/schemes) | 249 | 2026-04-24T14:36:45Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [meyayl/docker-languagetool](https://github.com/meyayl/docker-languagetool) | 236 | 2026-05-01T02:27:22Z | Shell | Infrastructure/tooling | 2 | 11 | 2 | 2 |
 | [pacstall/pacstall-programs](https://github.com/pacstall/pacstall-programs) | 211 | 2026-04-28T02:56:58Z | Shell | Infrastructure/tooling | 11 | 7 | 12 | 12 |
 | [lovell/sharp-libvips](https://github.com/lovell/sharp-libvips) | 207 | 2026-04-25T11:13:12Z | Shell | Infrastructure/tooling | 1 | 6 | 1 | 1 |

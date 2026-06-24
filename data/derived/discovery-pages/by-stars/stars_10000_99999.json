@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33610,
-    "concepts": 15291,
-    "observations": 15348,
-    "repos": 1722,
-    "terms": 15245
+    "components": 33639,
+    "concepts": 15329,
+    "observations": 15386,
+    "repos": 1725,
+    "terms": 15276
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -358,6 +358,7 @@
     "coreybutler/nvm-windows",
     "coturn/coturn",
     "crewAIInc/crewAI",
+    "crossplane/crossplane",
     "crystal-lang/crystal",
     "css-modules/css-modules",
     "cumulo-autumn/StreamDiffusion",
@@ -1425,6 +1426,7 @@
     "sanic-org/sanic",
     "Sanster/IOPaint",
     "SaschaWillems/Vulkan",
+    "sashabaranov/go-openai",
     "sass/sass",
     "SBoudrias/Inquirer.js",
     "scalar/scalar",
@@ -1556,6 +1558,7 @@
     "tc39/proposals",
     "teamcapybara/capybara",
     "TEN-framework/ten-framework",
+    "Tencent-Hunyuan/Hunyuan3D-2",
     "Tencent-Hunyuan/HunyuanVideo",
     "Tencent/ncnn",
     "Tencent/rapidjson",

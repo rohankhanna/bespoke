@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 302
-- terms: 684
-- components: 580
-- concepts: 690
-- observations: 691
+- repos: 304
+- terms: 685
+- components: 583
+- concepts: 691
+- observations: 692
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [XR-Robotics/XRoboToolkit-PC-Service-Pybind](https://github.com/XR-Robotics/XRoboToolkit-PC-Service-Pybind) | 20 | 2025-12-25T23:10:52Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [lemire/fast_float](https://github.com/lemire/fast_float) | 12 | 2025-12-24T20:44:57Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [nativium/nativium](https://github.com/nativium/nativium) | 69 | 2025-12-23T03:52:23Z | C/C++ | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [DLR-TS/SUMOLibraries](https://github.com/DLR-TS/SUMOLibraries) | 27 | 2025-12-16T11:30:44Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
@@ -266,6 +267,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [larseggert/asciiTeX](https://github.com/larseggert/asciiTeX) | 13 | 2023-01-30T11:33:02Z | C/C++ | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [gerrymanoim/libpy_simdjson](https://github.com/gerrymanoim/libpy_simdjson) | 71 | 2023-01-13T00:10:34Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [electronicsguy/HTTPSRedirect](https://github.com/electronicsguy/HTTPSRedirect) | 70 | 2023-01-06T11:43:14Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [badlogic/gdb-7.1a-djgpp](https://github.com/badlogic/gdb-7.1a-djgpp) | 11 | 2022-12-30T15:06:34Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [sonicdoe/ced](https://github.com/sonicdoe/ced) | 18 | 2022-12-21T16:12:23Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [llnl/RAJA-project-template](https://github.com/llnl/RAJA-project-template) | 10 | 2022-12-20T16:28:10Z | C/C++ | Template/starter | 0 | 0 | 0 | 0 |
 | [ItsBrank/ReVorb](https://github.com/ItsBrank/ReVorb) | 45 | 2022-12-05T00:59:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -571,6 +573,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [antoonpurnal/clangover](https://github.com/antoonpurnal/clangover) | 21 | 2024-05-31T16:30:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ZQF-ReVN/RxMalie](https://github.com/ZQF-ReVN/RxMalie) | 21 | 2024-03-10T03:11:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [JohnnyMorganz/luau-analyze-rojo](https://github.com/JohnnyMorganz/luau-analyze-rojo) | 21 | 2022-06-11T19:55:27Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [XR-Robotics/XRoboToolkit-PC-Service-Pybind](https://github.com/XR-Robotics/XRoboToolkit-PC-Service-Pybind) | 20 | 2025-12-25T23:10:52Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [KratosMultiphysics/CoSimIO](https://github.com/KratosMultiphysics/CoSimIO) | 20 | 2025-10-29T15:00:55Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [escherba/python-metrohash](https://github.com/escherba/python-metrohash) | 20 | 2025-10-09T21:30:20Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [PacificBiosciences/pbbam](https://github.com/PacificBiosciences/pbbam) | 20 | 2023-08-14T07:15:37Z | C/C++ | Library | 0 | 0 | 0 | 0 |
@@ -622,6 +625,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [evanbiederstedt/edlibR](https://github.com/evanbiederstedt/edlibR) | 11 | 2025-07-20T23:10:14Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [qiayuanl/legged_template_controller](https://github.com/qiayuanl/legged_template_controller) | 11 | 2025-03-07T23:45:14Z | C/C++ | CLI | 1 | 2 | 1 | 1 |
 | [ianhbell/nanobind_json](https://github.com/ianhbell/nanobind_json) | 11 | 2024-11-04T14:19:05Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [badlogic/gdb-7.1a-djgpp](https://github.com/badlogic/gdb-7.1a-djgpp) | 11 | 2022-12-30T15:06:34Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [dwyl/flutter-counter-example](https://github.com/dwyl/flutter-counter-example) | 11 | 2022-12-02T10:23:00Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [Alpine-DAV/vtk-h](https://github.com/Alpine-DAV/vtk-h) | 11 | 2022-07-13T17:08:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [pplux/wgpu.hpp](https://github.com/pplux/wgpu.hpp) | 11 | 2022-03-04T15:29:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 155
-- components: 133
-- concepts: 158
-- observations: 158
+- repos: 19
+- terms: 150
+- components: 122
+- concepts: 153
+- observations: 153
 
 ## Static behavior
 
@@ -45,8 +45,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fluxcd/flux2-kustomize-helm-example](https://github.com/fluxcd/flux2-kustomize-helm-example) | 1259 | 2026-04-28T09:46:22Z | Shell | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [aaron-he-zhu/seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | 1568 | 2026-04-28T04:04:54Z | Shell | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [sublimehq/Packages](https://github.com/sublimehq/Packages) | 3005 | 2026-04-25T18:52:18Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [pypa/manylinux](https://github.com/pypa/manylinux) | 1738 | 2026-04-24T23:35:07Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
-| [rocker-org/rocker](https://github.com/rocker-org/rocker) | 1506 | 2026-04-24T21:53:09Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -65,10 +63,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [archlinuxcn/repo](https://github.com/archlinuxcn/repo) | 1827 | 2026-05-03T17:14:51Z | Shell | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [itzg/docker-minecraft-bedrock-server](https://github.com/itzg/docker-minecraft-bedrock-server) | 1771 | 2026-05-04T16:50:36Z | Shell | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [GrapheneOS/Vanadium](https://github.com/GrapheneOS/Vanadium) | 1768 | 2026-04-30T04:00:03Z | Shell | Unknown | 7 | 0 | 7 | 7 |
-| [pypa/manylinux](https://github.com/pypa/manylinux) | 1738 | 2026-04-24T23:35:07Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [aaron-he-zhu/seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | 1568 | 2026-04-28T04:04:54Z | Shell | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [confluentinc/demo-scene](https://github.com/confluentinc/demo-scene) | 1566 | 2026-04-28T13:54:41Z | Shell | Unknown | 10 | 0 | 10 | 10 |
-| [rocker-org/rocker](https://github.com/rocker-org/rocker) | 1506 | 2026-04-24T21:53:09Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [YosysHQ/oss-cad-suite-build](https://github.com/YosysHQ/oss-cad-suite-build) | 1453 | 2026-04-30T04:25:31Z | Shell | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [heroku/heroku-buildpack-nodejs](https://github.com/heroku/heroku-buildpack-nodejs) | 1340 | 2026-05-01T21:48:00Z | Shell | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [fluxcd/flux2-kustomize-helm-example](https://github.com/fluxcd/flux2-kustomize-helm-example) | 1259 | 2026-04-28T09:46:22Z | Shell | Infrastructure/tooling | 9 | 5 | 9 | 9 |

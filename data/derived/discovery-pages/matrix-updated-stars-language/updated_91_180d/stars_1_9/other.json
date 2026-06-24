@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 141,
-    "observations": 141,
-    "repos": 57,
-    "terms": 137
+    "components": 186,
+    "concepts": 144,
+    "observations": 144,
+    "repos": 58,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -69,6 +69,7 @@
     "version-fox/vfox-plugin-template",
     "vim-fuzzbox/fuzzbox-lsp.vim",
     "volodya-lombrozo/neotest-ruby-minitest",
+    "WebAssembly/compact-import-section",
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
     "zen-eth/multiformats-zig"
   ]

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 871
-- terms: 1545
-- components: 747
-- concepts: 1567
-- observations: 1569
+- repos: 874
+- terms: 1550
+- components: 755
+- concepts: 1572
+- observations: 1574
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ReneHollander/rep0st](https://github.com/ReneHollander/rep0st) | 37 | 2025-12-25T16:07:05Z | Python | Unknown | 0 | 8 | 0 | 0 |
+| [BoosterRobotics/booster_deploy](https://github.com/BoosterRobotics/booster_deploy) | 22 | 2025-12-25T11:27:47Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [SLDGroup/EffiDec3D](https://github.com/SLDGroup/EffiDec3D) | 38 | 2025-12-24T21:46:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [TencentYoutuResearch/APTBench](https://github.com/TencentYoutuResearch/APTBench) | 41 | 2025-12-23T07:23:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [brentyi/jax_dataclasses](https://github.com/brentyi/jax_dataclasses) | 75 | 2025-12-19T23:20:34Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
@@ -239,6 +241,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AlphaPav/mem-kk-logic](https://github.com/AlphaPav/mem-kk-logic) | 79 | 2025-03-29T08:56:21Z | Python | Model/data | 4 | 0 | 4 | 4 |
 | [argosopentech/argos-translate-gui](https://github.com/argosopentech/argos-translate-gui) | 92 | 2025-03-26T10:28:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [zzc-1998/Q-SiT](https://github.com/zzc-1998/Q-SiT) | 97 | 2025-03-25T12:47:33Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [Xiaobin-Rong/TRT-SE](https://github.com/Xiaobin-Rong/TRT-SE) | 85 | 2025-03-24T06:51:25Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [huggingface/tgi-gaudi](https://github.com/huggingface/tgi-gaudi) | 34 | 2025-03-20T09:22:50Z | Python | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [BAAI-DCAI/MMVU](https://github.com/BAAI-DCAI/MMVU) | 56 | 2025-03-19T04:39:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [SesameAILabs/silentcipher](https://github.com/SesameAILabs/silentcipher) | 19 | 2025-03-17T12:01:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -795,7 +798,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MetaVisionLab/DDG](https://github.com/MetaVisionLab/DDG) | 37 | 2022-06-09T01:37:25Z | Python | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [chomeyama/UnifiedSourceFilterGAN](https://github.com/chomeyama/UnifiedSourceFilterGAN) | 20 | 2022-06-05T17:13:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [lucidrains/tf-bind-transformer](https://github.com/lucidrains/tf-bind-transformer) | 88 | 2022-06-02T16:55:30Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [astra-vision/LMSCNet](https://github.com/astra-vision/LMSCNet) | 99 | 2022-06-02T13:31:34Z | Python | Unknown | 3 | 0 | 4 | 4 |
+| [astra-vision/LMSCNet](https://github.com/astra-vision/LMSCNet) | 99 | 2022-06-02T13:31:34Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [ffont/push2-python](https://github.com/ffont/push2-python) | 96 | 2022-06-01T10:14:08Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [alexrame/fishr](https://github.com/alexrame/fishr) | 89 | 2022-05-25T08:31:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [andy1621/nightcrawler](https://github.com/Andy1621/Nightcrawler) | 18 | 2022-05-25T05:08:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -858,7 +861,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CrispyConductor/tmux-copy-toolkit](https://github.com/CrispyConductor/tmux-copy-toolkit) | 70 | 2021-12-20T07:25:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danijar/crafter-baselines](https://github.com/danijar/crafter-baselines) | 30 | 2021-12-14T21:11:11Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Fodark/anonygan](https://github.com/Fodark/anonygan) | 14 | 2021-12-13T08:42:20Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [rehg-lab/lowshot-shapebias](https://github.com/rehg-lab/lowshot-shapebias) | 60 | 2021-12-08T15:10:51Z | Python | Unknown | 10 | 0 | 10 | 10 |
+| [rehg-lab/lowshot-shapebias](https://github.com/rehg-lab/lowshot-shapebias) | 60 | 2021-12-08T15:10:51Z | Python | Unknown | 9 | 0 | 10 | 10 |
 | [1adrianb/expert-binary-networks](https://github.com/1adrianb/expert-binary-networks) | 27 | 2021-12-03T00:25:23Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [kubeflow/xgboost-operator](https://github.com/kubeflow/xgboost-operator) | 77 | 2021-12-01T18:00:10Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [dzryk/clip-grams](https://github.com/dzryk/clip-grams) | 30 | 2021-11-25T17:41:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -911,7 +914,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NeuralVox/StyleTTS2](https://github.com/NeuralVox/StyleTTS2) | 99 | 2024-04-27T02:24:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [boschresearch/DroidCalib](https://github.com/boschresearch/DroidCalib) | 99 | 2024-01-16T16:23:44Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [IgorSusmelj/barlowtwins](https://github.com/IgorSusmelj/barlowtwins) | 99 | 2022-10-10T16:26:57Z | Python | Unknown | 1 | 0 | 1 | 1 |
-| [astra-vision/LMSCNet](https://github.com/astra-vision/LMSCNet) | 99 | 2022-06-02T13:31:34Z | Python | Unknown | 3 | 0 | 4 | 4 |
+| [astra-vision/LMSCNet](https://github.com/astra-vision/LMSCNet) | 99 | 2022-06-02T13:31:34Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [2U1/Phi3-Vision-Finetune](https://github.com/2U1/Phi3-Vision-Finetune) | 98 | 2025-10-02T05:55:32Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [AnswerDotAI/fastkmeans](https://github.com/AnswerDotAI/fastkmeans) | 98 | 2025-07-04T20:15:48Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [OpenVisualCloud/Ad-Insertion-Sample](https://github.com/OpenVisualCloud/Ad-Insertion-Sample) | 98 | 2024-12-16T18:26:22Z | Python | Service/API | 6 | 0 | 6 | 6 |
@@ -998,6 +1001,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [UnitedHuman/UnitedHuman](https://github.com/UnitedHuman/UnitedHuman) | 86 | 2024-01-02T04:42:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/TREC-2019-Deep-Learning](https://github.com/microsoft/TREC-2019-Deep-Learning) | 86 | 2023-06-12T18:21:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [reasoning-machines/CoCoGen](https://github.com/reasoning-machines/CoCoGen) | 86 | 2023-03-20T01:55:19Z | Python | Model/data | 5 | 0 | 5 | 5 |
+| [Xiaobin-Rong/TRT-SE](https://github.com/Xiaobin-Rong/TRT-SE) | 85 | 2025-03-24T06:51:25Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [deepbeepmeep/Cosmos1GP](https://github.com/deepbeepmeep/Cosmos1GP) | 85 | 2025-02-15T21:13:02Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [jenicek/asmk](https://github.com/jenicek/asmk) | 85 | 2023-01-15T18:55:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [awebson/prompt_semantics](https://github.com/awebson/prompt_semantics) | 85 | 2022-05-10T22:50:14Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -1199,7 +1203,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KT-Yeh/mihomo](https://github.com/KT-Yeh/mihomo) | 60 | 2024-02-27T13:53:34Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [klightz/PSF](https://github.com/klightz/PSF) | 60 | 2024-01-04T07:12:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Guangxuan-Xiao/GSM8K-eval](https://github.com/Guangxuan-Xiao/GSM8K-eval) | 60 | 2023-09-23T19:49:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [rehg-lab/lowshot-shapebias](https://github.com/rehg-lab/lowshot-shapebias) | 60 | 2021-12-08T15:10:51Z | Python | Unknown | 10 | 0 | 10 | 10 |
+| [rehg-lab/lowshot-shapebias](https://github.com/rehg-lab/lowshot-shapebias) | 60 | 2021-12-08T15:10:51Z | Python | Unknown | 9 | 0 | 10 | 10 |
 | [amirbarda/MagicClay](https://github.com/amirbarda/MagicClay) | 59 | 2024-10-24T19:37:44Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [HazyResearch/prefix-linear-attention](https://github.com/HazyResearch/prefix-linear-attention) | 59 | 2024-07-09T01:02:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [GaiZhenbiao/Phi3V-Finetuning](https://github.com/GaiZhenbiao/Phi3V-Finetuning) | 59 | 2024-06-17T09:13:35Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -1397,6 +1401,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [anindita127/Complextext2animation](https://github.com/anindita127/Complextext2animation) | 38 | 2023-04-20T00:24:32Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [GUOShuxuan/expandnets](https://github.com/GUOShuxuan/expandnets) | 38 | 2022-02-10T04:08:55Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [halimacc/pointnet3](https://github.com/halimacc/pointnet3) | 38 | 2021-10-26T03:28:20Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [ReneHollander/rep0st](https://github.com/ReneHollander/rep0st) | 37 | 2025-12-25T16:07:05Z | Python | Unknown | 0 | 8 | 0 | 0 |
 | [AlonzoLeeeooo/LCDG](https://github.com/AlonzoLeeeooo/LCDG) | 37 | 2025-12-11T07:09:28Z | Python | Docs/knowledge | 3 | 0 | 3 | 3 |
 | [wirasm/dylan](https://github.com/Wirasm/dylan) | 37 | 2025-11-09T18:47:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Chongjie-Si/AdaMuon](https://github.com/Chongjie-Si/AdaMuon) | 37 | 2025-08-27T07:43:57Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1579,6 +1584,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [neerajwagh/eeg-self-supervision](https://github.com/neerajwagh/eeg-self-supervision) | 23 | 2023-07-12T16:01:34Z | Python | Infrastructure/tooling | 19 | 0 | 19 | 19 |
 | [WeikaiTan/RandLA-Net](https://github.com/WeikaiTan/RandLA-Net) | 23 | 2023-03-28T17:24:40Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [petersn/autosat](https://github.com/petersn/autosat) | 23 | 2022-09-07T18:26:09Z | Python | Library | 0 | 0 | 0 | 0 |
+| [BoosterRobotics/booster_deploy](https://github.com/BoosterRobotics/booster_deploy) | 22 | 2025-12-25T11:27:47Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [InternScience/SeedBench](https://github.com/InternScience/SeedBench) | 22 | 2025-12-19T09:10:03Z | Python | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [superclaude-org/superqwen_framework](https://github.com/SuperClaude-Org/SuperQwen_Framework) | 22 | 2025-09-19T02:46:13Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [getbettr/octotail](https://github.com/getbettr/octotail) | 22 | 2025-07-19T18:21:47Z | Python | Infrastructure/tooling | 9 | 5 | 9 | 9 |

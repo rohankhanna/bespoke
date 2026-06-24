@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 360
-- components: 2082
-- concepts: 367
-- observations: 367
+- repos: 40
+- terms: 349
+- components: 2058
+- concepts: 356
+- observations: 356
 
 ## Static behavior
 
@@ -28,7 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [foliojs/pdfkit](https://github.com/foliojs/pdfkit) | 10654 | 2026-05-09T17:41:25Z | JavaScript | Infrastructure/tooling | 1 | 31 | 1 | 1 |
 | [lint-staged/lint-staged](https://github.com/lint-staged/lint-staged) | 14618 | 2026-05-09T09:45:14Z | JavaScript | Infrastructure/tooling | 12 | 37 | 12 | 12 |
-| [emotion-js/emotion](https://github.com/emotion-js/emotion) | 18018 | 2026-05-06T07:42:22Z | JavaScript | Infrastructure/tooling | 6 | 74 | 6 | 6 |
+| [emotion-js/emotion](https://github.com/emotion-js/emotion) | 18017 | 2026-05-06T07:42:22Z | JavaScript | Infrastructure/tooling | 6 | 74 | 6 | 6 |
 | [yokoffing/Betterfox](https://github.com/yokoffing/Betterfox) | 10377 | 2026-05-03T16:39:56Z | JavaScript | Unknown | 11 | 0 | 11 | 11 |
 | [4ian/GDevelop](https://github.com/4ian/GDevelop) | 22578 | 2026-05-03T14:32:10Z | JavaScript | Infrastructure/tooling | 19 | 7 | 23 | 23 |
 | [gorhill/uBlock](https://github.com/gorhill/uBlock) | 64347 | 2026-05-03T13:14:22Z | JavaScript | Infrastructure/tooling | 7 | 8 | 7 | 7 |
@@ -66,7 +66,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wix/Detox](https://github.com/wix/Detox) | 11901 | 2026-04-27T10:24:49Z | JavaScript | Infrastructure/tooling | 17 | 37 | 17 | 17 |
 | [nodemailer/nodemailer](https://github.com/nodemailer/nodemailer) | 17547 | 2026-04-27T10:23:39Z | JavaScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [huggingface/transformers.js](https://github.com/huggingface/transformers.js) | 15940 | 2026-04-27T08:11:22Z | JavaScript | Infrastructure/tooling | 8 | 8 | 8 | 8 |
-| [validatorjs/validator.js](https://github.com/validatorjs/validator.js) | 23751 | 2026-04-24T18:39:04Z | JavaScript | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -84,7 +83,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Automattic/mongoose](https://github.com/Automattic/mongoose) | 27476 | 2026-04-29T20:24:41Z | JavaScript | Infrastructure/tooling | 11 | 54 | 11 | 11 |
 | [eslint/eslint](https://github.com/eslint/eslint) | 27217 | 2026-05-03T08:41:29Z | JavaScript | Infrastructure/tooling | 13 | 103 | 13 | 13 |
 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 26631 | 2026-04-29T00:26:31Z | JavaScript | Infrastructure/tooling | 5 | 139 | 5 | 5 |
-| [validatorjs/validator.js](https://github.com/validatorjs/validator.js) | 23751 | 2026-04-24T18:39:04Z | JavaScript | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) | 23487 | 2026-04-29T04:32:24Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
 | [mochajs/mocha](https://github.com/mochajs/mocha) | 22884 | 2026-04-30T12:30:55Z | JavaScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
 | [4ian/GDevelop](https://github.com/4ian/GDevelop) | 22578 | 2026-05-03T14:32:10Z | JavaScript | Infrastructure/tooling | 19 | 7 | 23 | 23 |
@@ -94,7 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [11ty/eleventy](https://github.com/11ty/eleventy) | 19615 | 2026-05-01T23:08:30Z | JavaScript | Infrastructure/tooling | 9 | 73 | 9 | 9 |
 | [mdx-js/mdx](https://github.com/mdx-js/mdx) | 19467 | 2026-04-29T12:31:37Z | JavaScript | Infrastructure/tooling | 5 | 109 | 6 | 6 |
 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 18174 | 2026-04-29T20:22:34Z | JavaScript | Infrastructure/tooling | 8 | 111 | 8 | 8 |
-| [emotion-js/emotion](https://github.com/emotion-js/emotion) | 18018 | 2026-05-06T07:42:22Z | JavaScript | Infrastructure/tooling | 6 | 74 | 6 | 6 |
+| [emotion-js/emotion](https://github.com/emotion-js/emotion) | 18017 | 2026-05-06T07:42:22Z | JavaScript | Infrastructure/tooling | 6 | 74 | 6 | 6 |
 | [nodemailer/nodemailer](https://github.com/nodemailer/nodemailer) | 17547 | 2026-04-27T10:23:39Z | JavaScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [moment/luxon](https://github.com/moment/luxon) | 16385 | 2026-04-28T19:28:04Z | JavaScript | Infrastructure/tooling | 6 | 22 | 6 | 6 |
 | [huggingface/transformers.js](https://github.com/huggingface/transformers.js) | 15940 | 2026-04-27T08:11:22Z | JavaScript | Infrastructure/tooling | 8 | 8 | 8 | 8 |

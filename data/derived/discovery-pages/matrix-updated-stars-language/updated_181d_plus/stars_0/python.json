@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 180,
-    "concepts": 129,
-    "observations": 129,
-    "repos": 87,
-    "terms": 129
+    "concepts": 130,
+    "observations": 130,
+    "repos": 88,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "af-74413592/agentscope",
@@ -45,6 +45,7 @@
     "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
     "danielrosehill/Hebrew-Image-Generation-Eval",
     "danielrosehill/Local-ASR-STT-Benchmark",
+    "danielrosehill/N8N-Workflows-Index",
     "danielrosehill/OR-Models-With-Tools-0811",
     "danielrosehill/Remote-Jobs-Research-Agent",
     "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",

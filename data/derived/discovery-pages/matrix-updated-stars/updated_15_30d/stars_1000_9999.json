@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 514,
-    "concepts": 307,
-    "observations": 310,
-    "repos": 35,
-    "terms": 307
+    "components": 411,
+    "concepts": 256,
+    "observations": 258,
+    "repos": 34,
+    "terms": 256
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "alichherawalla/off-grid-mobile-ai",
+    "bencheeorg/benchee",
     "databendlabs/databend",
     "dkron-io/dkron",
-    "Farama-Foundation/Minigrid",
+    "facebookresearch/sam-3d-objects",
     "geotiffjs/geotiff.js",
     "google-deepmind/dm-haiku",
     "googleapis/google-api-php-client",
@@ -33,6 +34,7 @@
     "microsoft/TRELLIS.2",
     "mono/SkiaSharp",
     "neavo/LinguaGacha",
+    "Nevcairiel/LAVFilters",
     "nvim-tree/nvim-web-devicons",
     "openai/openai-dotnet",
     "plotly/plotly.R",
@@ -42,11 +44,8 @@
     "safe-fndn/safe-smart-account",
     "stdware/qwindowkit",
     "sveltejs/devalue",
-    "tModLoader/tModLoader",
     "Urigo/graphql-cli",
     "webinstall/webi-installers",
-    "yomidevs/yomitan",
-    "zhiyiYo/PyQt-Fluent-Widgets",
-    "zyddnys/manga-image-translator"
+    "zhiyiYo/PyQt-Fluent-Widgets"
   ]
 }

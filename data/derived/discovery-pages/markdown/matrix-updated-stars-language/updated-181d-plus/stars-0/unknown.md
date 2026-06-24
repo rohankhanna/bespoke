@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 134
-- terms: 118
+- repos: 135
+- terms: 121
 - components: 239
-- concepts: 118
-- observations: 118
+- concepts: 121
+- observations: 121
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Data-Projects-Index](https://github.com/danielrosehill/Data-Projects-Index) | 0 | 2025-12-25T17:16:39Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [Enselic/cargo-public-api](https://github.com/Enselic/cargo-public-api) | 0 | 2025-12-22T07:46:09Z | Unknown | CLI | 5 | 3 | 5 | 5 |
 | [danielrosehill/Claude-Model-Identifier](https://github.com/danielrosehill/Claude-Model-Identifier) | 0 | 2025-12-21T13:47:52Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Security-Checkup-Plugin](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin) | 0 | 2025-12-16T16:47:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -165,6 +166,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Data-Projects-Index](https://github.com/danielrosehill/Data-Projects-Index) | 0 | 2025-12-25T17:16:39Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [Enselic/cargo-public-api](https://github.com/Enselic/cargo-public-api) | 0 | 2025-12-22T07:46:09Z | Unknown | CLI | 5 | 3 | 5 | 5 |
 | [danielrosehill/Claude-Model-Identifier](https://github.com/danielrosehill/Claude-Model-Identifier) | 0 | 2025-12-21T13:47:52Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Security-Checkup-Plugin](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin) | 0 | 2025-12-16T16:47:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

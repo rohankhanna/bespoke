@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
-- terms: 110
-- components: 776
-- concepts: 101
-- observations: 101
+- repos: 37
+- terms: 117
+- components: 816
+- concepts: 108
+- observations: 108
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [oclif/plugin-commands](https://github.com/oclif/plugin-commands) | 9 | 2026-04-25T05:00:13Z | TypeScript | Infrastructure/tooling | 7 | 40 | 7 | 7 |
 | [rstackjs/rsbuild-plugin-i18next-extractor](https://github.com/rstackjs/rsbuild-plugin-i18next-extractor) | 5 | 2026-04-24T06:17:50Z | TypeScript | CLI | 2 | 14 | 2 | 2 |
 | [octokit/auth-unauthenticated.js](https://github.com/octokit/auth-unauthenticated.js) | 5 | 2026-04-23T15:10:13Z | TypeScript | Infrastructure/tooling | 7 | 21 | 7 | 7 |
 | [nicolo-ribaudo/engine262](https://github.com/nicolo-ribaudo/engine262) | 5 | 2026-04-22T10:09:55Z | TypeScript | Infrastructure/tooling | 2 | 42 | 2 | 2 |
@@ -67,6 +68,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [oclif/plugin-commands](https://github.com/oclif/plugin-commands) | 9 | 2026-04-25T05:00:13Z | TypeScript | Infrastructure/tooling | 7 | 40 | 7 | 7 |
 | [ipfs/helia-remote-pinning](https://github.com/ipfs/helia-remote-pinning) | 9 | 2026-04-19T07:11:02Z | TypeScript | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [analyticsinmotion/wake-word](https://github.com/analyticsinmotion/wake-word) | 7 | 2026-04-15T21:58:43Z | TypeScript | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [qcr/qcr.github.io](https://github.com/qcr/qcr.github.io) | 7 | 2026-04-15T14:42:26Z | TypeScript | Infrastructure/tooling | 3 | 47 | 3 | 3 |

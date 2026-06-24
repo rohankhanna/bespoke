@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 226,
-    "concepts": 170,
-    "observations": 171,
-    "repos": 60,
-    "terms": 168
+    "components": 252,
+    "concepts": 180,
+    "observations": 181,
+    "repos": 63,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "adamgreig/ecpdap",
@@ -55,6 +55,7 @@
     "jean-pierreBoth/probminhash",
     "jonas-k/coremidi-sys",
     "joseluisq/paket",
+    "libdeflater/libdeflater",
     "libp2p/if-watch",
     "lindera/lindera-tantivy",
     "loyd/fixnum",
@@ -64,11 +65,13 @@
     "OneSignal/serde-magnus",
     "penumbra-zone/jmt",
     "psmux/Tmux-Plugin-Panel",
+    "randombit/botan-rs",
     "raymondshe/matchengine-raft",
     "ros2-rust/examples",
     "rukai/winit_input_helper",
     "rust-lang/gccjit.rs",
     "sigp/ethereum_hashing",
+    "sigp/rust-libp2p",
     "spyoungtech/json-five-rs",
     "suo/lintrunner",
     "Turbo87/flat-projection-rs",

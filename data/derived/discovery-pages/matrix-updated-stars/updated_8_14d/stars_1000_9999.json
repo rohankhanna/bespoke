@@ -1,36 +1,41 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 142,
-    "observations": 142,
-    "repos": 19,
-    "terms": 142
+    "components": 310,
+    "concepts": 195,
+    "observations": 196,
+    "repos": 24,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
+    "apache/casbin-Casbin.NET",
+    "apache/casbin-jcasbin",
     "ashvardanian/NumKong",
+    "AviSynth/AviSynthPlus",
     "bazel-contrib/bazel-gazelle",
-    "bencheeorg/benchee",
-    "collabora/WhisperLive",
+    "benchmark-action/github-action-benchmark",
+    "callstack/react-native-builder-bob",
     "crate-ci/cargo-release",
+    "eclipse-paho/paho.mqtt.python",
     "gluonfield/enchanted",
     "gobackup/gobackup",
-    "huggingface/optimum-quanto",
     "intel/BigDL",
     "intelligent-machine-learning/dlrover",
+    "intentee/paddler",
     "meta-pytorch/tnt",
+    "microsoft/PhiCookBook",
     "NEKOparapa/AiNiee",
-    "Nevcairiel/LAVFilters",
     "olric-data/olric",
     "preservim/tagbar",
     "TheTom/turboquant_plus",
     "ultrajson/ultrajson",
-    "vale-cli/vale"
+    "vale-cli/vale",
+    "vercel/serve"
   ]
 }

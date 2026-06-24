@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 140,
-    "observations": 145,
-    "repos": 14,
-    "terms": 140
+    "components": 141,
+    "concepts": 94,
+    "observations": 98,
+    "repos": 12,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
-    "apache/casbin-Casbin.NET",
     "babashka/babashka",
     "babashka/sci",
-    "beam-community/elixir-companies",
     "clj-kondo/clj-kondo",
+    "datalevin/datalevin",
     "dotnet/command-line-api",
-    "dotnet/Silk.NET",
-    "elixir-grpc/grpc",
+    "dotnet/reactive",
     "licensee/licensed",
-    "microsoft/PhiCookBook",
-    "okd-project/okd",
     "psmux/psmux",
-    "TryGhost/node-sqlite3"
+    "seancorfield/honeysql",
+    "standardrb/standard",
+    "swiftlang/swift-syntax"
   ]
 }

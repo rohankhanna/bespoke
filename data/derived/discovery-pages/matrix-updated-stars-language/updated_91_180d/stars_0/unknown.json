@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 84,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 22,
-    "terms": 47
+    "concepts": 44,
+    "observations": 44,
+    "repos": 25,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "cachix/crossterm",
     "CADindustries/container",
     "cwfitzgerald/libtest-mimic",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Sysadmin",
-    "danielrosehill/Data-Projects-Index",
+    "danielrosehill/Geopolitical-And-OSINT-Index",
+    "danielrosehill/GitHub-Management-Tools-Index",
     "danielrosehill/Hebrew-Tech-Vocab",
+    "danielrosehill/Linux-Desktop-Tools-Index",
+    "danielrosehill/Networking-And-Infrastructure-Index",
     "DataDog/opa",
     "DiligentGraphics/json",
     "DiligentGraphics/NuklearUI",

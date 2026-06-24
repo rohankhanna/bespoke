@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 580,
-    "concepts": 690,
-    "observations": 691,
-    "repos": 302,
-    "terms": 684
+    "components": 583,
+    "concepts": 691,
+    "observations": 692,
+    "repos": 304,
+    "terms": 685
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -53,6 +53,7 @@
     "autowarefoundation/autoware_ai_simulation",
     "avaneev/gammaenv",
     "awslabs/bike-kem",
+    "badlogic/gdb-7.1a-djgpp",
     "baronfel/tree-sitter-fsharp",
     "BeMoreHumanOrg/bemorehuman",
     "BestBurning/platform_device_id",
@@ -307,6 +308,7 @@
     "weisslj/cpp-optparse",
     "xmfbit/warpctc-caffe",
     "XR-Robotics/XRoboToolkit-PC-Service",
+    "XR-Robotics/XRoboToolkit-PC-Service-Pybind",
     "xtensor-stack/xtensor-io",
     "xtensor-stack/xtensor-julia",
     "xtensor-stack/xtensor-r",

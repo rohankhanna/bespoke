@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 171
-- terms: 1186
-- components: 1627
-- concepts: 1175
-- observations: 1182
+- repos: 174
+- terms: 1215
+- components: 1658
+- concepts: 1204
+- observations: 1211
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [crev-dev/cargo-crev](https://github.com/crev-dev/cargo-crev) | 2298 | 2026-04-24T23:01:20Z | Rust | Infrastructure/tooling | 9 | 6 | 9 | 9 |
+| [jonhoo/fantoccini](https://github.com/jonhoo/fantoccini) | 1999 | 2026-04-24T17:02:02Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [apache/datafusion-comet](https://github.com/apache/datafusion-comet) | 1171 | 2026-04-24T09:56:42Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [smallcloudai/refact](https://github.com/smallcloudai/refact) | 3534 | 2026-04-24T09:01:24Z | Rust | Infrastructure/tooling | 16 | 17 | 16 | 16 |
 | [rizsotto/Bear](https://github.com/rizsotto/Bear) | 6294 | 2026-04-24T07:52:02Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [rust-lang/miri](https://github.com/rust-lang/miri) | 6045 | 2026-04-24T07:00:46Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -306,6 +309,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mthom/scryer-prolog](https://github.com/mthom/scryer-prolog) | 2390 | 2026-04-23T00:55:54Z | Rust | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [snapview/tungstenite-rs](https://github.com/snapview/tungstenite-rs) | 2338 | 2026-04-14T08:52:33Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [trishume/syntect](https://github.com/trishume/syntect) | 2320 | 2026-04-21T19:34:27Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [crev-dev/cargo-crev](https://github.com/crev-dev/cargo-crev) | 2298 | 2026-04-24T23:01:20Z | Rust | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [google/zerocopy](https://github.com/google/zerocopy) | 2276 | 2026-04-22T11:57:22Z | Rust | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [EmbarkStudios/cargo-deny](https://github.com/EmbarkStudios/cargo-deny) | 2273 | 2026-04-15T12:44:36Z | Rust | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [bluealloy/revm](https://github.com/bluealloy/revm) | 2176 | 2026-04-21T20:06:50Z | Rust | Infrastructure/tooling | 11 | 13 | 11 | 11 |
@@ -321,6 +325,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-lang/git2-rs](https://github.com/rust-lang/git2-rs) | 2036 | 2026-04-20T15:43:11Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [Keats/jsonwebtoken](https://github.com/Keats/jsonwebtoken) | 2033 | 2026-04-18T19:56:51Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [axodotdev/cargo-dist](https://github.com/axodotdev/cargo-dist) | 2007 | 2026-04-22T10:12:07Z | Rust | Infrastructure/tooling | 9 | 15 | 9 | 9 |
+| [jonhoo/fantoccini](https://github.com/jonhoo/fantoccini) | 1999 | 2026-04-24T17:02:02Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [not-fl3/miniquad](https://github.com/not-fl3/miniquad) | 1988 | 2026-04-13T15:24:02Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [Mooncake-Labs/pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) | 1957 | 2026-03-31T05:53:29Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [aws/amazon-q-developer-cli](https://github.com/aws/amazon-q-developer-cli) | 1945 | 2026-04-23T21:17:18Z | Rust | CLI | 12 | 14 | 13 | 14 |
@@ -362,6 +367,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kika/fixedsys](https://github.com/kika/fixedsys) | 1219 | 2026-04-23T02:40:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [uuid-rs/uuid](https://github.com/uuid-rs/uuid) | 1204 | 2026-04-16T04:54:44Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [cberner/fuser](https://github.com/cberner/fuser) | 1201 | 2026-04-13T17:36:50Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [apache/datafusion-comet](https://github.com/apache/datafusion-comet) | 1171 | 2026-04-24T09:56:42Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [dalek-cryptography/curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) | 1151 | 2026-04-20T06:03:49Z | Rust | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [rust-lang/docs.rs](https://github.com/rust-lang/docs.rs) | 1142 | 2026-04-21T18:00:25Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [emilk/eframe_template](https://github.com/emilk/eframe_template) | 1120 | 2026-03-27T10:42:35Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |

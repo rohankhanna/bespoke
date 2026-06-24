@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1153,
-    "concepts": 655,
-    "observations": 659,
-    "repos": 156,
-    "terms": 653
+    "components": 1122,
+    "concepts": 612,
+    "observations": 616,
+    "repos": 148,
+    "terms": 610
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abarisani/abarisani.github.io",
@@ -25,7 +25,6 @@
     "ameshkov/swift-psl",
     "angellist/boba",
     "angular/angular-devkit-build-angular-builds",
-    "ankane/blazer-dev",
     "apache/ignite-website",
     "apollographql/apollo-ios-dev",
     "arkime/arkimeweb",
@@ -44,7 +43,6 @@
     "buttondown/docs",
     "cderv/r-bucket",
     "cginternals/cpplocate",
-    "cjdoris/PreferenceTools.jl",
     "Cle2ment/CherryStudio_themes",
     "cloudfoundry/bosh-aws-cpi-release",
     "cloudfoundry/bosh-azure-cpi-release",
@@ -74,7 +72,6 @@
     "fern-api/docs-starter",
     "fogus/rv",
     "FreneticLLC/FreneticGameEngine",
-    "gazebosim/gz-cmake",
     "gazebosim/sdf_tutorials",
     "google/bazel-common",
     "googleapis/google-cloud-php-pubsub",
@@ -123,10 +120,8 @@
     "MSP-Greg/ruby-loco",
     "NVIDIA/DALI_extra",
     "ocaml-tracing/ocaml-trace",
-    "ocaml-tracing/ocaml-tracy",
     "oliyh/carve.el",
     "open-edge-platform/geti-instant-learn",
-    "optuna/optunahub-registry",
     "osrf/homebrew-simulation",
     "palladius/gemini-news-crawler",
     "ParisNeo/lollms",
@@ -158,16 +153,13 @@
     "sidlatau/neotest-dart",
     "sigstore/helm-charts",
     "siketyan/intellij-rustowl",
-    "squeak-smalltalk/squeak.org",
     "status-im/nim-protobuf-serialization",
     "status-im/nim-ssz-serialization",
     "tc39/proposal-amount",
     "TEN-framework/portal",
-    "theseyan/lmdbx-zig",
     "triton-inference-server/fil_backend",
     "tweag/gazelle_cabal",
     "UnknownPlatypus/djangofmt",
-    "VirtusLab/bazel-steward",
     "WebAssembly/shared-everything-threads",
     "yamachu/VoicevoxCoreSharp"
   ]

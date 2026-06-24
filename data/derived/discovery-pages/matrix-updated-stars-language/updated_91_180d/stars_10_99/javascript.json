@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 453,
-    "concepts": 110,
-    "observations": 111,
-    "repos": 37,
-    "terms": 110
+    "components": 508,
+    "concepts": 129,
+    "observations": 130,
+    "repos": 43,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",
     "ameshkov/safari-blocker",
+    "angular/domino",
     "apostrophecms/apostrophe-astro",
     "appwrite/playground-for-node",
     "breejs/api",
@@ -33,11 +34,16 @@
     "coderaiser/mock-import",
     "coderaiser/try-catch",
     "coderaiser/try-to-catch",
+    "csstree/stylelint-validator",
+    "eemeli/make-plural",
+    "eemeli/prettier-plugin-properties",
+    "Fil/d3-tricontour",
     "hchiam/learning-lighthouse-ci",
     "hudochenkov/stylelint-config-hudochenkov",
     "hyparam/hysnappy",
     "ipld/js-dag-pb",
     "josdejong/typed-function",
+    "kddnewton/prettier-plugin-ini",
     "kibertoad/toad-cache",
     "kunwar-shah/claudex",
     "L2jLiga/grunt-webfonts",

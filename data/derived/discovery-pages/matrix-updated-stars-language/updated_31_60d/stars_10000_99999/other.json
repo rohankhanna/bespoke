@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1028,
-    "concepts": 850,
-    "observations": 852,
-    "repos": 80,
-    "terms": 844
+    "components": 985,
+    "concepts": 798,
+    "observations": 800,
+    "repos": 76,
+    "terms": 792
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
     "adityatelange/hugo-PaperMod",
     "alpinejs/alpine",
     "apache/apisix",
-    "App-vNext/Polly",
     "ardalis/CleanArchitecture",
     "autowarefoundation/autoware",
     "aws/amazon-sagemaker-examples",
@@ -32,8 +31,6 @@
     "coil-kt/coil",
     "coollabsio/coolify",
     "crystal-lang/crystal",
-    "cython/cython",
-    "datawhalechina/self-llm",
     "Devolutions/UniGetUI",
     "doomemacs/doomemacs",
     "dotnet/aspnetcore",
@@ -81,7 +78,6 @@
     "sebastianbergmann/phpunit",
     "shadowsocks/shadowsocks-android",
     "Shopify/liquid",
-    "simplex-chat/simplex-chat",
     "square/moshi",
     "square/okhttp",
     "square/retrofit",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 74
-- terms: 544
-- components: 3104
-- concepts: 541
-- observations: 544
+- repos: 75
+- terms: 555
+- components: 3128
+- concepts: 552
+- observations: 555
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [validatorjs/validator.js](https://github.com/validatorjs/validator.js) | 23751 | 2026-04-24T18:39:04Z | JavaScript | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [electerm/electerm](https://github.com/electerm/electerm) | 13984 | 2026-04-24T08:57:01Z | JavaScript | CLI | 21 | 82 | 21 | 21 |
 | [protobufjs/protobuf.js](https://github.com/protobufjs/protobuf.js) | 10521 | 2026-04-24T06:50:48Z | JavaScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [zloirock/core-js](https://github.com/zloirock/core-js) | 25486 | 2026-04-23T21:57:30Z | JavaScript | Infrastructure/tooling | 11 | 53 | 11 | 11 |
@@ -135,6 +136,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zloirock/core-js](https://github.com/zloirock/core-js) | 25486 | 2026-04-23T21:57:30Z | JavaScript | Infrastructure/tooling | 11 | 53 | 11 | 11 |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 25372 | 2026-04-17T04:17:46Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 24968 | 2026-04-23T09:11:44Z | JavaScript | Infrastructure/tooling | 24 | 37 | 24 | 24 |
+| [validatorjs/validator.js](https://github.com/validatorjs/validator.js) | 23751 | 2026-04-24T18:39:04Z | JavaScript | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) | 23574 | 2026-04-20T09:18:33Z | JavaScript | Infrastructure/tooling | 14 | 56 | 14 | 15 |
 | [svg/svgo](https://github.com/svg/svgo) | 22440 | 2026-04-17T14:56:09Z | JavaScript | CLI | 7 | 39 | 7 | 7 |
 | [postcss/autoprefixer](https://github.com/postcss/autoprefixer) | 22312 | 2026-04-13T20:45:46Z | JavaScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |

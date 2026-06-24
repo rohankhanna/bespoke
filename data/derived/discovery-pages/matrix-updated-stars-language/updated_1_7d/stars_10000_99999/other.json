@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 40,
+    "components": 33,
     "concepts": 39,
     "observations": 39,
     "repos": 4,
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "dense-analysis/ale",
     "github-linguist/linguist",
     "lancedb/lancedb",
-    "mixmark-io/turndown"
+    "TA-Lib/ta-lib-python"
   ]
 }

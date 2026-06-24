@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4987,
-    "concepts": 1077,
-    "observations": 1081,
-    "repos": 94,
-    "terms": 1074
+    "components": 4845,
+    "concepts": 1025,
+    "observations": 1029,
+    "repos": 89,
+    "terms": 1022
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -39,7 +39,6 @@
     "continuedev/continue",
     "danny-avila/LibreChat",
     "DefinitelyTyped/DefinitelyTyped",
-    "discordjs/discord.js",
     "ecomfe/vue-echarts",
     "electron-react-boilerplate/electron-react-boilerplate",
     "electron-userland/electron-builder",
@@ -48,7 +47,6 @@
     "formatjs/formatjs",
     "fuma-nama/fumadocs",
     "GoogleChromeLabs/comlink",
-    "gvergnaud/ts-pattern",
     "invoke-ai/InvokeAI",
     "janhq/jan",
     "jhipster/generator-jhipster",
@@ -58,7 +56,6 @@
     "Kong/insomnia",
     "kysely-org/kysely",
     "lit/lit",
-    "louislam/dockge",
     "lucide-icons/lucide",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
@@ -90,7 +87,6 @@
     "remotion-dev/remotion",
     "RooCodeInc/Roo-Code",
     "scalar/scalar",
-    "sindresorhus/type-fest",
     "slidevjs/slidev",
     "solidjs/solid",
     "styled-components/styled-components",
@@ -106,7 +102,6 @@
     "web-infra-dev/midscene",
     "webpro-nl/knip",
     "windingwind/zotero-pdf-translate",
-    "withastro/astro",
-    "wojtekmaj/react-pdf"
+    "withastro/astro"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 72,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 17,
-    "terms": 49
+    "concepts": 55,
+    "observations": 55,
+    "repos": 18,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "actions-oss/act-cli",
     "alexellis/gha-bump",
@@ -26,6 +26,7 @@
     "gost-dom/shaman",
     "gost-dom/webref",
     "JLSchuler99/svc-router",
+    "justinfx/olric-nats-plugin",
     "karpeleslab/tpl",
     "leaktk/gitleaks",
     "OpenCIDN/httpmirror",

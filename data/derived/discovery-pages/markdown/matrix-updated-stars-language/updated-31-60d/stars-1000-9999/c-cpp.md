@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 151
-- terms: 1306
-- components: 1270
-- concepts: 1315
-- observations: 1315
+- repos: 150
+- terms: 1293
+- components: 1248
+- concepts: 1302
+- observations: 1302
 
 ## Static behavior
 
@@ -39,6 +39,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [floooh/sokol](https://github.com/floooh/sokol) | 9875 | 2026-05-14T10:52:14Z | C/C++ | Infrastructure/tooling | 2 | 16 | 2 | 2 |
 | [Nelarius/imnodes](https://github.com/Nelarius/imnodes) | 2444 | 2026-05-13T10:07:48Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [marzer/tomlplusplus](https://github.com/marzer/tomlplusplus) | 2050 | 2026-05-12T07:16:39Z | C/C++ | Infrastructure/tooling | 20 | 8 | 21 | 21 |
+| [mackron/miniaudio](https://github.com/mackron/miniaudio) | 6929 | 2026-05-10T19:36:49Z | C/C++ | Library | 15 | 0 | 15 | 15 |
 | [skeeto/w64devkit](https://github.com/skeeto/w64devkit) | 4468 | 2026-05-07T17:52:59Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [OSGeo/gdal](https://github.com/OSGeo/gdal) | 5895 | 2026-05-07T01:14:50Z | C/C++ | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) | 2789 | 2026-05-06T07:08:02Z | C/C++ | Infrastructure/tooling | 6 | 10 | 6 | 6 |
@@ -175,8 +176,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [elfmz/far2l](https://github.com/elfmz/far2l) | 2159 | 2026-04-26T09:30:23Z | C/C++ | CLI | 7 | 3 | 7 | 7 |
 | [zeux/pugixml](https://github.com/zeux/pugixml) | 4556 | 2026-04-25T21:59:01Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [tevador/RandomX](https://github.com/tevador/RandomX) | 1598 | 2026-04-25T08:48:19Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
-| [boostorg/pfr](https://github.com/boostorg/pfr) | 1478 | 2026-04-24T15:01:05Z | C/C++ | Infrastructure/tooling | 13 | 2 | 13 | 13 |
-| [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) | 5183 | 2026-04-24T12:14:21Z | C/C++ | Infrastructure/tooling | 15 | 20 | 15 | 15 |
 
 ## Repos sorted by stars
 
@@ -199,6 +198,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PixarAnimationStudios/OpenUSD](https://github.com/PixarAnimationStudios/OpenUSD) | 7228 | 2026-04-28T18:51:41Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [liuliu/ccv](https://github.com/liuliu/ccv) | 7216 | 2026-04-30T02:01:51Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [universal-ctags/ctags](https://github.com/universal-ctags/ctags) | 7169 | 2026-05-03T09:16:39Z | C/C++ | Infrastructure/tooling | 15 | 2 | 15 | 15 |
+| [mackron/miniaudio](https://github.com/mackron/miniaudio) | 6929 | 2026-05-10T19:36:49Z | C/C++ | Library | 15 | 0 | 15 | 15 |
 | [uxlfoundation/oneTBB](https://github.com/uxlfoundation/oneTBB) | 6635 | 2026-05-05T19:12:41Z | C/C++ | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [haproxy/haproxy](https://github.com/haproxy/haproxy) | 6510 | 2026-04-30T13:35:47Z | C/C++ | Infrastructure/tooling | 24 | 6 | 24 | 24 |
 | [doxygen/doxygen](https://github.com/doxygen/doxygen) | 6440 | 2026-05-01T18:27:56Z | C/C++ | Infrastructure/tooling | 5 | 12 | 5 | 5 |
@@ -214,7 +214,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swiftlang/swift-corelibs-foundation](https://github.com/swiftlang/swift-corelibs-foundation) | 5425 | 2026-05-04T23:10:42Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [zcash/zcash](https://github.com/zcash/zcash) | 5407 | 2026-04-30T17:51:22Z | C/C++ | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [facebookincubator/katran](https://github.com/facebookincubator/katran) | 5229 | 2026-05-02T16:37:28Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) | 5183 | 2026-04-24T12:14:21Z | C/C++ | Infrastructure/tooling | 15 | 20 | 15 | 15 |
 | [chrisant996/clink](https://github.com/chrisant996/clink) | 5171 | 2026-04-30T00:10:25Z | C/C++ | CLI | 1 | 0 | 1 | 1 |
 | [microsoft/SPTAG](https://github.com/microsoft/SPTAG) | 4985 | 2026-04-30T02:37:26Z | C/C++ | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [CrowCpp/Crow](https://github.com/CrowCpp/Crow) | 4814 | 2026-04-28T19:08:16Z | C/C++ | Infrastructure/tooling | 13 | 9 | 13 | 13 |
@@ -305,7 +304,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tevador/RandomX](https://github.com/tevador/RandomX) | 1598 | 2026-04-25T08:48:19Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [miniupnp/miniupnp](https://github.com/miniupnp/miniupnp) | 1586 | 2026-04-29T23:44:27Z | C/C++ | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [DrTimothyAldenDavis/SuiteSparse](https://github.com/DrTimothyAldenDavis/SuiteSparse) | 1487 | 2026-05-01T17:53:59Z | C/C++ | Infrastructure/tooling | 19 | 10 | 19 | 19 |
-| [boostorg/pfr](https://github.com/boostorg/pfr) | 1478 | 2026-04-24T15:01:05Z | C/C++ | Infrastructure/tooling | 13 | 2 | 13 | 13 |
 | [LibRaw/LibRaw](https://github.com/LibRaw/LibRaw) | 1474 | 2026-04-27T18:34:17Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [WarmUpTill/SceneSwitcher](https://github.com/WarmUpTill/SceneSwitcher) | 1464 | 2026-05-15T17:15:53Z | C/C++ | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) | 1444 | 2026-04-27T19:23:39Z | C/C++ | Infrastructure/tooling | 17 | 13 | 17 | 17 |

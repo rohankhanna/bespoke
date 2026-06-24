@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 120,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 48,
-    "terms": 119
+    "concepts": 115,
+    "observations": 115,
+    "repos": 49,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "agents-x-project/PyVision-RL-Eval",
@@ -35,6 +35,7 @@
     "cognizant-ai-lab/neuro-san-cc",
     "conda-forge/cupy-feedstock",
     "danielrosehill/Claude-LAN-Manager-0126",
+    "danielrosehill/claude-slash-commands",
     "danielrosehill/WhatsApp-Export-Unpacker",
     "datajuicer/data-juicer-sandbox",
     "day50-dev/mcp-search-and-run",

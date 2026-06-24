@@ -1,20 +1,18 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 3,
-    "terms": 12
+    "components": 20,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
-    "ADNTIO/crispy-bootloader-rp2040-rs",
-    "cloudfoundry/credhub-acceptance-tests",
-    "kurrent-io/KurrentDB-Bridge-Client"
+    "ADNTIO/crispy-bootloader-rp2040-rs"
   ]
 }

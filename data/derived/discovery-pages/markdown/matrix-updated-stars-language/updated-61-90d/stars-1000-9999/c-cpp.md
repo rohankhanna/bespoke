@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 194
-- terms: 1387
-- components: 1297
-- concepts: 1396
-- observations: 1403
+- repos: 193
+- terms: 1392
+- components: 1313
+- concepts: 1401
+- observations: 1408
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [boostorg/pfr](https://github.com/boostorg/pfr) | 1478 | 2026-04-24T15:01:05Z | C/C++ | Infrastructure/tooling | 13 | 2 | 13 | 13 |
+| [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) | 5183 | 2026-04-24T12:14:21Z | C/C++ | Infrastructure/tooling | 15 | 20 | 15 | 15 |
 | [mintty/mintty](https://github.com/mintty/mintty) | 1756 | 2026-04-24T08:31:50Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [pytorch/FBGEMM](https://github.com/pytorch/FBGEMM) | 1556 | 2026-04-24T08:11:25Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [facebook/igl](https://github.com/facebook/igl) | 3204 | 2026-04-24T07:43:28Z | C/C++ | Infrastructure/tooling | 2 | 8 | 2 | 2 |
@@ -125,7 +127,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fastfloat/fast_float](https://github.com/fastfloat/fast_float) | 2040 | 2026-04-20T00:10:00Z | C/C++ | Infrastructure/tooling | 18 | 12 | 18 | 18 |
 | [openssh/openssh-portable](https://github.com/openssh/openssh-portable) | 3800 | 2026-04-19T23:38:37Z | C/C++ | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [ohler55/oj](https://github.com/ohler55/oj) | 3205 | 2026-04-19T23:11:44Z | C/C++ | Infrastructure/tooling | 6 | 5 | 9 | 9 |
-| [mackron/miniaudio](https://github.com/mackron/miniaudio) | 6677 | 2026-04-19T20:05:52Z | C/C++ | Library | 15 | 0 | 15 | 15 |
 | [tsujan/Kvantum](https://github.com/tsujan/Kvantum) | 1943 | 2026-04-19T19:02:24Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ibireme/yyjson](https://github.com/ibireme/yyjson) | 3718 | 2026-04-19T17:25:30Z | C/C++ | Infrastructure/tooling | 10 | 10 | 11 | 11 |
 | [avahi/avahi](https://github.com/avahi/avahi) | 1490 | 2026-04-19T15:06:32Z | C/C++ | Infrastructure/tooling | 7 | 12 | 7 | 7 |
@@ -218,8 +219,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tinyobjloader/tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) | 3787 | 2026-03-27T19:49:36Z | C/C++ | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [bcrypt-ruby/bcrypt-ruby](https://github.com/bcrypt-ruby/bcrypt-ruby) | 1972 | 2026-03-27T19:38:11Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [ThrowTheSwitch/Unity](https://github.com/ThrowTheSwitch/Unity) | 5178 | 2026-03-27T16:52:34Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [nodemcu/nodemcu-firmware](https://github.com/nodemcu/nodemcu-firmware) | 7912 | 2026-03-25T20:29:18Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
-| [lltcggie/waifu2x-caffe](https://github.com/lltcggie/waifu2x-caffe) | 8221 | 2026-03-25T13:22:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -237,11 +236,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) | 8828 | 2026-04-23T23:35:03Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [sebastianstarke/AI4Animation](https://github.com/sebastianstarke/AI4Animation) | 8671 | 2026-04-17T17:03:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/cpprestsdk](https://github.com/microsoft/cpprestsdk) | 8264 | 2026-04-21T22:49:32Z | C/C++ | CLI | 10 | 0 | 10 | 10 |
-| [lltcggie/waifu2x-caffe](https://github.com/lltcggie/waifu2x-caffe) | 8221 | 2026-03-25T13:22:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [cloudflare/workerd](https://github.com/cloudflare/workerd) | 8174 | 2026-04-24T00:43:20Z | C/C++ | Infrastructure/tooling | 7 | 18 | 7 | 8 |
 | [mamba-org/mamba](https://github.com/mamba-org/mamba) | 7993 | 2026-04-21T13:16:41Z | C/C++ | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [WebAssembly/wabt](https://github.com/WebAssembly/wabt) | 7960 | 2026-04-08T17:19:43Z | C/C++ | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [nodemcu/nodemcu-firmware](https://github.com/nodemcu/nodemcu-firmware) | 7912 | 2026-03-25T20:29:18Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [Kitware/CMake](https://github.com/Kitware/CMake) | 7877 | 2026-04-23T13:33:08Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [fluent/fluent-bit](https://github.com/fluent/fluent-bit) | 7810 | 2026-04-23T18:38:25Z | C/C++ | Infrastructure/tooling | 16 | 27 | 16 | 16 |
 | [fontforge/fontforge](https://github.com/fontforge/fontforge) | 7667 | 2026-04-21T13:05:24Z | C/C++ | Infrastructure/tooling | 2 | 16 | 2 | 2 |
@@ -254,7 +251,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mcmilk/7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd) | 6872 | 2026-04-15T12:26:44Z | C/C++ | Infrastructure/tooling | 10 | 6 | 12 | 12 |
 | [madler/zlib](https://github.com/madler/zlib) | 6818 | 2026-03-27T22:39:38Z | C/C++ | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [microsoft/DirectX-Graphics-Samples](https://github.com/microsoft/DirectX-Graphics-Samples) | 6722 | 2026-04-10T19:40:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [mackron/miniaudio](https://github.com/mackron/miniaudio) | 6677 | 2026-04-19T20:05:52Z | C/C++ | Library | 15 | 0 | 15 | 15 |
 | [Mbed-TLS/mbedtls](https://github.com/Mbed-TLS/mbedtls) | 6610 | 2026-04-23T15:56:07Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [danmar/cppcheck](https://github.com/danmar/cppcheck) | 6599 | 2026-04-21T14:36:21Z | C/C++ | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [halide/Halide](https://github.com/halide/Halide) | 6521 | 2026-04-23T17:46:53Z | C/C++ | Infrastructure/tooling | 13 | 12 | 13 | 13 |
@@ -268,6 +264,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KhronosGroup/Vulkan-Samples](https://github.com/KhronosGroup/Vulkan-Samples) | 5225 | 2026-04-22T17:59:59Z | C/C++ | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [google/tcmalloc](https://github.com/google/tcmalloc) | 5209 | 2026-04-21T17:04:28Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [nmslib/hnswlib](https://github.com/nmslib/hnswlib) | 5195 | 2026-03-28T23:20:00Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) | 5183 | 2026-04-24T12:14:21Z | C/C++ | Infrastructure/tooling | 15 | 20 | 15 | 15 |
 | [rapidsai/cuml](https://github.com/rapidsai/cuml) | 5183 | 2026-04-23T18:33:29Z | C/C++ | Infrastructure/tooling | 10 | 24 | 10 | 10 |
 | [ThrowTheSwitch/Unity](https://github.com/ThrowTheSwitch/Unity) | 5178 | 2026-03-27T16:52:34Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [panda3d/panda3d](https://github.com/panda3d/panda3d) | 5116 | 2026-04-21T10:58:48Z | C/C++ | Infrastructure/tooling | 12 | 8 | 12 | 12 |
@@ -389,6 +386,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DLTcollab/sse2neon](https://github.com/DLTcollab/sse2neon) | 1502 | 2026-04-12T04:51:09Z | C/C++ | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [felt/tippecanoe](https://github.com/felt/tippecanoe) | 1493 | 2026-04-02T23:58:29Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [avahi/avahi](https://github.com/avahi/avahi) | 1490 | 2026-04-19T15:06:32Z | C/C++ | Infrastructure/tooling | 7 | 12 | 7 | 7 |
+| [boostorg/pfr](https://github.com/boostorg/pfr) | 1478 | 2026-04-24T15:01:05Z | C/C++ | Infrastructure/tooling | 13 | 2 | 13 | 13 |
 | [libressl/portable](https://github.com/libressl/portable) | 1470 | 2026-04-20T14:37:41Z | C/C++ | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [libgeos/geos](https://github.com/libgeos/geos) | 1458 | 2026-04-20T16:57:48Z | C/C++ | Infrastructure/tooling | 6 | 18 | 6 | 6 |
 | [riscv-software-src/opensbi](https://github.com/riscv-software-src/opensbi) | 1453 | 2026-04-08T12:38:50Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |

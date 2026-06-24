@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Python
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 62
-- components: 98
-- concepts: 62
-- observations: 62
+- repos: 5
+- terms: 30
+- components: 53
+- concepts: 30
+- observations: 30
 
 ## Static behavior
 
@@ -26,24 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [facebookresearch/MHR](https://github.com/facebookresearch/MHR) | 728 | 2026-06-23T19:10:13Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 912 | 2026-06-23T18:39:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 378 | 2026-06-23T15:29:09Z | Python | Infrastructure/tooling | 7 | 26 | 7 | 7 |
+| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 362 | 2026-06-23T08:40:54Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 449 | 2026-06-23T06:19:33Z | Python | Infrastructure/tooling | 15 | 15 | 15 | 15 |
-| [andfoy/pywinpty](https://github.com/andfoy/pywinpty) | 158 | 2026-06-23T02:22:19Z | Python | CLI | 16 | 4 | 16 | 16 |
-| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 361 | 2026-06-23T00:00:57Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [NCAS-CMS/pyfive](https://github.com/NCAS-CMS/pyfive) | 104 | 2026-06-22T21:30:54Z | Python | Infrastructure/tooling | 4 | 12 | 4 | 4 |
-| [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 563 | 2026-06-22T20:32:47Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
-| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 377 | 2026-06-22T17:53:14Z | Python | Infrastructure/tooling | 7 | 26 | 7 | 7 |
-| [tox-dev/filelock](https://github.com/tox-dev/filelock) | 961 | 2026-06-22T16:51:38Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 173 | 2026-06-22T14:17:03Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [tox-dev/filelock](https://github.com/tox-dev/filelock) | 961 | 2026-06-22T16:51:38Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 563 | 2026-06-22T20:32:47Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
+| [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 912 | 2026-06-23T18:39:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [facebookresearch/MHR](https://github.com/facebookresearch/MHR) | 728 | 2026-06-23T19:10:13Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 449 | 2026-06-23T06:19:33Z | Python | Infrastructure/tooling | 15 | 15 | 15 | 15 |
-| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 377 | 2026-06-22T17:53:14Z | Python | Infrastructure/tooling | 7 | 26 | 7 | 7 |
-| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 361 | 2026-06-23T00:00:57Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 173 | 2026-06-22T14:17:03Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [andfoy/pywinpty](https://github.com/andfoy/pywinpty) | 158 | 2026-06-23T02:22:19Z | Python | CLI | 16 | 4 | 16 | 16 |
-| [NCAS-CMS/pyfive](https://github.com/NCAS-CMS/pyfive) | 104 | 2026-06-22T21:30:54Z | Python | Infrastructure/tooling | 4 | 12 | 4 | 4 |
+| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 378 | 2026-06-23T15:29:09Z | Python | Infrastructure/tooling | 7 | 26 | 7 | 7 |
+| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 362 | 2026-06-23T08:40:54Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |

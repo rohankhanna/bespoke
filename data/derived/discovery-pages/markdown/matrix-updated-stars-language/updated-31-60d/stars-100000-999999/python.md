@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100,000 to 999,999 stars · Python
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 35
-- components: 159
-- concepts: 38
-- observations: 38
+- repos: 2
+- terms: 22
+- components: 12
+- concepts: 25
+- observations: 25
 
 ## Static behavior
 
@@ -28,7 +28,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | 160283 | 2026-05-05T21:41:15Z | Python | Infrastructure/tooling | 19 | 6 | 19 | 19 |
 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 295043 | 2026-04-27T15:58:22Z | Python | Infrastructure/tooling | 3 | 6 | 6 | 6 |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 134817 | 2026-04-24T10:07:14Z | Python | Infrastructure/tooling | 13 | 147 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -36,4 +35,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 295043 | 2026-04-27T15:58:22Z | Python | Infrastructure/tooling | 3 | 6 | 6 | 6 |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | 160283 | 2026-05-05T21:41:15Z | Python | Infrastructure/tooling | 19 | 6 | 19 | 19 |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 134817 | 2026-04-24T10:07:14Z | Python | Infrastructure/tooling | 13 | 147 | 13 | 13 |

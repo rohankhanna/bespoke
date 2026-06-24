@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1627,
-    "concepts": 1175,
-    "observations": 1182,
-    "repos": 171,
-    "terms": 1186
+    "components": 1658,
+    "concepts": 1204,
+    "observations": 1211,
+    "repos": 174,
+    "terms": 1215
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -24,6 +24,7 @@
     "alloy-rs/alloy",
     "aome510/spotify-player",
     "apache/arrow-rs",
+    "apache/datafusion-comet",
     "apache/iggy",
     "apache/opendal",
     "arxanas/git-branchless",
@@ -47,6 +48,7 @@
     "chronotope/chrono",
     "compio-rs/compio",
     "crate-ci/typos",
+    "crev-dev/cargo-crev",
     "cross-rs/cross",
     "crossterm-rs/crossterm",
     "dalek-cryptography/curve25519-dalek",
@@ -83,6 +85,7 @@
     "j178/prek",
     "jni-rs/jni-rs",
     "johnnymorganz/stylua",
+    "jonhoo/fantoccini",
     "jonhoo/inferno",
     "jsr-io/jsr",
     "kata-containers/kata-containers",

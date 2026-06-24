@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 3,
-    "terms": 25
+    "components": 31,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 5,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "babashka/nbb",
+    "Blaizzy/mlx-audio-swift",
     "dwyl/phoenix-ecto-encryption-example",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "rescript-lang/reanalyze"
   ]
 }

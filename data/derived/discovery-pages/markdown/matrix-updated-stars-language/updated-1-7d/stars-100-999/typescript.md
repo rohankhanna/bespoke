@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 7
-- components: 108
-- concepts: 7
-- observations: 7
+- repos: 6
+- terms: 35
+- components: 297
+- concepts: 35
+- observations: 35
 
 ## Static behavior
 
@@ -26,14 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [electron/packager](https://github.com/electron/packager) | 299 | 2026-06-22T23:44:07Z | TypeScript | CLI | 9 | 51 | 9 | 9 |
+| [wevm/abitype](https://github.com/wevm/abitype) | 546 | 2026-06-22T16:18:42Z | TypeScript | Infrastructure/tooling | 10 | 24 | 10 | 10 |
+| [actions/container-toolkit-action](https://github.com/actions/container-toolkit-action) | 164 | 2026-06-22T12:34:45Z | TypeScript | Infrastructure/tooling | 5 | 39 | 5 | 5 |
+| [OpenHands/agent-canvas](https://github.com/OpenHands/agent-canvas) | 103 | 2026-06-22T09:49:38Z | TypeScript | Infrastructure/tooling | 7 | 101 | 7 | 7 |
 | [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 136 | 2026-06-22T08:15:32Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
 | [Comfy-Org/Comfy-Desktop](https://github.com/Comfy-Org/Comfy-Desktop) | 149 | 2026-06-22T08:04:38Z | TypeScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
-| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 253 | 2026-06-19T22:50:08Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 253 | 2026-06-19T22:50:08Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
+| [wevm/abitype](https://github.com/wevm/abitype) | 546 | 2026-06-22T16:18:42Z | TypeScript | Infrastructure/tooling | 10 | 24 | 10 | 10 |
+| [electron/packager](https://github.com/electron/packager) | 299 | 2026-06-22T23:44:07Z | TypeScript | CLI | 9 | 51 | 9 | 9 |
+| [actions/container-toolkit-action](https://github.com/actions/container-toolkit-action) | 164 | 2026-06-22T12:34:45Z | TypeScript | Infrastructure/tooling | 5 | 39 | 5 | 5 |
 | [Comfy-Org/Comfy-Desktop](https://github.com/Comfy-Org/Comfy-Desktop) | 149 | 2026-06-22T08:04:38Z | TypeScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
 | [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 136 | 2026-06-22T08:15:32Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
+| [OpenHands/agent-canvas](https://github.com/OpenHands/agent-canvas) | 103 | 2026-06-22T09:49:38Z | TypeScript | Infrastructure/tooling | 7 | 101 | 7 | 7 |

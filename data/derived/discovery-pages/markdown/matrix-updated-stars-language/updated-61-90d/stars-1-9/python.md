@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 64
-- terms: 157
-- components: 230
-- concepts: 140
-- observations: 140
+- repos: 65
+- terms: 161
+- components: 242
+- concepts: 144
+- observations: 144
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kalavai-net/kube-watcher](https://github.com/kalavai-net/kube-watcher) | 5 | 2026-04-24T15:25:39Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [flagos-ai/TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL) | 4 | 2026-04-24T10:04:59Z | Python | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [danielrosehill/LLM-Council-Template](https://github.com/danielrosehill/LLM-Council-Template) | 2 | 2026-04-23T10:28:21Z | Python | Template/starter | 0 | 0 | 0 | 0 |
 | [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
@@ -89,7 +91,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ldayton/Tongues](https://github.com/ldayton/Tongues) | 1 | 2026-03-27T21:48:05Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [ldayton/parable](https://github.com/ldayton/Parable) | 9 | 2026-03-26T21:26:40Z | Python | Infrastructure/tooling | 4 | 6 | 5 | 5 |
 | [KabakaWilliam/trajectorykit](https://github.com/KabakaWilliam/trajectorykit) | 6 | 2026-03-26T21:03:40Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [danielrosehill/claude-slash-commands](https://github.com/danielrosehill/Claude-Slash-Commands) | 4 | 2026-03-25T16:19:14Z | Python | Unknown | 2 | 0 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -112,15 +113,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apptainer/apptainer-userdocs](https://github.com/apptainer/apptainer-userdocs) | 6 | 2026-04-15T17:13:20Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [justinchuby/lintrunner-adapters](https://github.com/justinchuby/lintrunner-adapters) | 6 | 2026-04-13T15:14:34Z | Python | CLI | 12 | 9 | 12 | 12 |
 | [KabakaWilliam/trajectorykit](https://github.com/KabakaWilliam/trajectorykit) | 6 | 2026-03-26T21:03:40Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [kalavai-net/kube-watcher](https://github.com/kalavai-net/kube-watcher) | 5 | 2026-04-24T15:25:39Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [pyrtlsdr/pyrtlsdrlib](https://github.com/pyrtlsdr/pyrtlsdrlib) | 5 | 2026-04-21T23:41:50Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [beneadie/DeepDog_1](https://github.com/beneadie/DeepDog_1) | 5 | 2026-04-20T01:52:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [floxym/financial-chat](https://github.com/Floxym/financial-chat) | 5 | 2026-04-19T13:20:11Z | Python | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [gibdd-dps/prizolov-agent-os](https://github.com/GIBDD-DPS/prizolov-agent-os) | 5 | 2026-04-18T09:26:30Z | Python | Infrastructure/tooling | 1 | 4 | 0 | 0 |
 | [kelp/webdown](https://github.com/kelp/webdown) | 5 | 2026-04-17T00:20:40Z | Python | CLI | 3 | 6 | 0 | 0 |
+| [flagos-ai/TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL) | 4 | 2026-04-24T10:04:59Z | Python | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [astropy/repo_stats](https://github.com/astropy/repo_stats) | 4 | 2026-04-22T08:14:18Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [TexasInstruments/edgeai-tidlrunner](https://github.com/TexasInstruments/edgeai-tidlrunner) | 4 | 2026-04-17T14:09:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [jupyter-xeus/xeus-python-shell](https://github.com/jupyter-xeus/xeus-python-shell) | 4 | 2026-04-13T13:45:53Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [danielrosehill/claude-slash-commands](https://github.com/danielrosehill/Claude-Slash-Commands) | 4 | 2026-03-25T16:19:14Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [dreamiurg/peakbagger-cli](https://github.com/dreamiurg/peakbagger-cli) | 3 | 2026-04-20T19:35:08Z | Python | CLI | 10 | 14 | 10 | 10 |
 | [frank-syncmarket/skills](https://github.com/frank-syncmarket/skills) | 3 | 2026-04-19T11:51:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [adaumann/speckit-preset-fiction-book-writing](https://github.com/adaumann/speckit-preset-fiction-book-writing) | 3 | 2026-04-18T19:32:51Z | Python | Template/starter | 0 | 0 | 0 | 0 |

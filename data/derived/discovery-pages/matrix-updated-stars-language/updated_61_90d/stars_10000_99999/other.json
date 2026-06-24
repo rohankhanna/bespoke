@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1204,
-    "concepts": 840,
-    "observations": 846,
-    "repos": 96,
-    "terms": 837
+    "components": 1245,
+    "concepts": 889,
+    "observations": 895,
+    "repos": 99,
+    "terms": 886
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "abpframework/abp",
     "adambard/learnxinyminutes-docs",
@@ -21,6 +21,7 @@
     "alexandresanlim/Badges4-README.md-Profile",
     "antlr/grammars-v4",
     "apache/spark",
+    "App-vNext/Polly",
     "AppFlowy-IO/AppFlowy",
     "apple/container",
     "AssemblyScript/assemblyscript",
@@ -29,7 +30,9 @@
     "cmderdev/cmder",
     "composer/composer",
     "Cysharp/UniTask",
+    "cython/cython",
     "dart-lang/sdk",
+    "datawhalechina/self-llm",
     "deepset-ai/haystack",
     "devicons/devicon",
     "dotnet/core",
@@ -90,7 +93,6 @@
     "NixOS/nixpkgs",
     "nvim-telescope/telescope.nvim",
     "nvim-treesitter/nvim-treesitter",
-    "openai/CLIP",
     "openai/openai-cookbook",
     "OpenZeppelin/openzeppelin-contracts",
     "oven-sh/bun",
@@ -102,6 +104,7 @@
     "Seldaek/monolog",
     "semgrep/semgrep",
     "shap/shap",
+    "simplex-chat/simplex-chat",
     "Solido/awesome-flutter",
     "tc39/ecma262",
     "teamcapybara/capybara",

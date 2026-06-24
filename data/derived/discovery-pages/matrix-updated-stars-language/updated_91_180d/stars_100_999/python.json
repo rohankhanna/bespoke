@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 591,
-    "concepts": 999,
-    "observations": 1000,
-    "repos": 252,
-    "terms": 990
+    "components": 597,
+    "concepts": 1017,
+    "observations": 1018,
+    "repos": 256,
+    "terms": 1007
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "0k/shyaml",
     "absadiki/pywhispercpp",
@@ -20,9 +20,11 @@
     "ACEnglish/truvari",
     "actionless/pikaur",
     "Advocate99/DiffGesture",
+    "AGI-Arena/MARS",
     "ai4co/rl4co",
     "aigc3d/LHM-plusplus",
     "Akajiaku11/Air-Quality-Prediction-Model",
+    "akoumjian/datefinder",
     "alex-petrenko/sample-factory",
     "alexei-led/aws-mcp-server",
     "alfworld/alfworld",
@@ -41,8 +43,8 @@
     "araffin/sbx",
     "argosopentech/argos-train",
     "arsenetar/send2trash",
-    "ashvardanian/less_slow.py",
     "ASLP-lab/Easy-Turn",
+    "astra-vision/MonoScene",
     "autonomousvision/carla_garage",
     "aws-cloudformation/aws-cloudformation-samples",
     "aws-samples/sample-agentic-ai-demos",
@@ -152,6 +154,7 @@
     "magic-wormhole/magic-wormhole-transit-relay",
     "MAGREF-Video/MAGREF",
     "marin-community/levanter",
+    "Max1Wz/H-GTCRN",
     "mcfletch/pyopengl",
     "meidachen/STPLS3D",
     "melMass/comfy_mtb",
@@ -257,6 +260,7 @@
     "WujiangXu/A-mem",
     "WujiangXu/A-mem-sys",
     "xArm-Developer/xArm-Python-SDK",
+    "Xiaobin-Rong/gtcrn",
     "yanring/Megatron-MoE-ModelZoo",
     "yaroslavyaroslav/OpenAI-sublime-text",
     "yashsinghcodes/wik",

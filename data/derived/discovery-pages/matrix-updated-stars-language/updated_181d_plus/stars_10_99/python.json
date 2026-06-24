@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 747,
-    "concepts": 1567,
-    "observations": 1569,
-    "repos": 871,
-    "terms": 1545
+    "components": 755,
+    "concepts": 1572,
+    "observations": 1574,
+    "repos": 874,
+    "terms": 1550
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -190,6 +190,7 @@
     "blue-pen5805/Stable-Diffusion-Webui-Civitai-Helper",
     "blurgyy/jaxngp",
     "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+    "BoosterRobotics/booster_deploy",
     "bootmortis/enamad-mirror",
     "boschresearch/DroidCalib",
     "boukhayma/face_normals",
@@ -718,6 +719,7 @@
     "reasoning-machines/CoCoGen",
     "redcaps-dataset/redcaps-downloader",
     "rehg-lab/lowshot-shapebias",
+    "ReneHollander/rep0st",
     "renqibing/MultiAgent4Collusion",
     "RickyL-2000/AlignSTS",
     "ritzz-ai/PACS",
@@ -855,6 +857,7 @@
     "xetdata/xetcache",
     "xg-chu/GAGAvatar_track",
     "xg-chu/lightning_track",
+    "Xiaobin-Rong/TRT-SE",
     "xvjiarui/GroupViT",
     "yale-nlp/MMVU",
     "yangjianxin1/unsloth",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Rust
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
+- repos: 16
 - terms: 28
 - components: 82
 - concepts: 28
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [beurdouche/nss-gk-api](https://github.com/beurdouche/nss-gk-api) | 0 | 2026-03-25T15:33:55Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [vaporif/rvx](https://github.com/vaporif/rvx) | 0 | 2026-03-20T18:15:45Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [hermit-os/async-executor](https://github.com/hermit-os/async-executor) | 0 | 2026-03-17T13:02:52Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [iambriccardo/gcp-bigquery-client](https://github.com/iambriccardo/gcp-bigquery-client) | 0 | 2026-03-16T15:32:50Z | Rust | CLI | 2 | 7 | 2 | 3 |
@@ -46,6 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [beurdouche/nss-gk-api](https://github.com/beurdouche/nss-gk-api) | 0 | 2026-03-25T15:33:55Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [vaporif/rvx](https://github.com/vaporif/rvx) | 0 | 2026-03-20T18:15:45Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [hermit-os/async-executor](https://github.com/hermit-os/async-executor) | 0 | 2026-03-17T13:02:52Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [iambriccardo/gcp-bigquery-client](https://github.com/iambriccardo/gcp-bigquery-client) | 0 | 2026-03-16T15:32:50Z | Rust | CLI | 2 | 7 | 2 | 3 |

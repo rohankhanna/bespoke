@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-06-19T08:22:44.138847+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 5
-- components: 7
-- concepts: 5
-- observations: 5
+- terms: 9
+- components: 0
+- concepts: 9
+- observations: 9
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [pyOpenSci/software-submission](https://github.com/pyOpenSci/software-submission) | 124 | 2026-05-21T05:42:32Z | Unknown | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [Alex313031/Thorium-MacOS](https://github.com/Alex313031/Thorium-MacOS) | 609 | 2026-06-10T02:15:23Z | Unknown | Unknown | 9 | 0 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [pyOpenSci/software-submission](https://github.com/pyOpenSci/software-submission) | 124 | 2026-05-21T05:42:32Z | Unknown | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [Alex313031/Thorium-MacOS](https://github.com/Alex313031/Thorium-MacOS) | 609 | 2026-06-10T02:15:23Z | Unknown | Unknown | 9 | 0 | 9 | 9 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 88,
-    "observations": 90,
-    "repos": 12,
-    "terms": 87
+    "components": 67,
+    "concepts": 125,
+    "observations": 127,
+    "repos": 13,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "arcee-ai/mergekit",
+    "bitsandbytes-foundation/bitsandbytes",
+    "Blaizzy/mlx-audio",
     "clearml/clearml",
-    "eclipse-paho/paho.mqtt.python",
     "google-deepmind/optax",
-    "JuergenFleiss/aTrain",
     "meta-pytorch/captum",
     "modelscope/FunClip",
     "modelscope/ms-agent",
     "opencv/opencv-python",
-    "redis/redis-om-python",
+    "PaddlePaddle/PaddleClas",
+    "roboflow/maestro",
     "webpy/webpy"
   ]
 }

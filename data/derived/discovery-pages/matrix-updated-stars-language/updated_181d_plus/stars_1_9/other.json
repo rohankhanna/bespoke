@@ -3,7 +3,7 @@
     "components": 1201,
     "concepts": 547,
     "observations": 547,
-    "repos": 358,
+    "repos": 359,
     "terms": 554
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -365,6 +365,7 @@
     "XanDrchris/DenseDiffusionColab",
     "XcodesOrg/homebrew-made",
     "Xiao0728/ColBERT-PRF-VirtualAppendix",
+    "Xiaobin-Rong/gtcrn_demo",
     "xledger/pod_tsql_scriptdom",
     "XR-Robotics/XRoboToolkit-RobotVision-PC",
     "xuebinqin/xuebinqin.github.io",

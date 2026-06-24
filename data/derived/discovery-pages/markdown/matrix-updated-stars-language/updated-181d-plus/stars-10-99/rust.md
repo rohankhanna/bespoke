@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 211
+- repos: 213
 - terms: 430
-- components: 594
-- concepts: 436
-- observations: 441
+- components: 596
+- concepts: 437
+- observations: 442
 
 ## Static behavior
 
@@ -87,6 +87,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pangenome/vcfbub](https://github.com/pangenome/vcfbub) | 32 | 2025-06-12T15:11:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [dymat/rwkv-burn](https://github.com/dymat/rwkv-burn) | 14 | 2025-06-09T12:55:44Z | Rust | Framework | 0 | 0 | 0 | 0 |
 | [varjolintu/keepassxc-proxy-rust](https://github.com/varjolintu/keepassxc-proxy-rust) | 91 | 2025-05-30T07:10:19Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [plotters-rs/plotters-wasm-demo](https://github.com/plotters-rs/plotters-wasm-demo) | 61 | 2025-05-20T17:05:29Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [badboy/iso8601](https://github.com/badboy/iso8601) | 77 | 2025-05-15T21:04:57Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [intuis/mnyaoo32](https://github.com/intuis/mnyaoo32) | 34 | 2025-05-10T11:30:25Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [pinecone-io/assistant-mcp](https://github.com/pinecone-io/assistant-mcp) | 42 | 2025-04-17T10:32:57Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -176,7 +177,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rubik/hydroconf](https://github.com/rubik/hydroconf) | 52 | 2023-10-12T06:10:18Z | Rust | Unknown | 2 | 0 | 3 | 3 |
 | [dapplion/beacon-metrics-gazer](https://github.com/dapplion/beacon-metrics-gazer) | 11 | 2023-10-10T20:01:00Z | Rust | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [domoritz/arrow-wasm](https://github.com/domoritz/arrow-wasm) | 90 | 2023-09-25T04:39:39Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
-| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 0 | 5 | 1 | 1 |
 | [KerfuffleV2/smolrsrwkv](https://github.com/KerfuffleV2/smolrsrwkv) | 94 | 2023-09-02T19:19:37Z | Rust | Model/data | 6 | 0 | 6 | 6 |
 | [AdnoC/sixel-rs](https://github.com/AdnoC/sixel-rs) | 40 | 2023-08-30T16:16:30Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ethDreamer/json_rpc_snoop](https://github.com/ethDreamer/json_rpc_snoop) | 31 | 2023-08-23T17:19:15Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -218,6 +219,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [casbin-rs/examples](https://github.com/casbin-rs/examples) | 19 | 2022-09-16T00:14:46Z | Rust | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [curldivergence/rusty-d3d12](https://github.com/curldivergence/rusty-d3d12) | 20 | 2022-08-31T17:16:52Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [expenses/mateversum](https://github.com/expenses/mateversum) | 25 | 2022-06-29T15:05:06Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [plotters-rs/plotters-piston](https://github.com/plotters-rs/plotters-piston) | 16 | 2022-06-27T23:50:47Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [bluss/bencher](https://github.com/bluss/bencher) | 92 | 2022-06-23T09:55:16Z | Rust | Library | 0 | 0 | 0 | 0 |
 | [kaj/warp-diesel-ructe-sample](https://github.com/kaj/warp-diesel-ructe-sample) | 50 | 2022-06-12T17:11:51Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [high-moctane/mocword](https://github.com/high-moctane/mocword) | 61 | 2022-05-02T06:22:58Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -283,6 +285,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [paritytech/cargo-unleash](https://github.com/paritytech/cargo-unleash) | 63 | 2023-03-06T22:13:07Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [LuisaGroup/luisa-compute-rs](https://github.com/LuisaGroup/luisa-compute-rs) | 62 | 2025-12-19T13:49:24Z | Rust | Infrastructure/tooling | 12 | 2 | 12 | 13 |
 | [holochain/devhub-dnas](https://github.com/holochain/devhub-dnas) | 62 | 2025-04-15T09:21:50Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [plotters-rs/plotters-wasm-demo](https://github.com/plotters-rs/plotters-wasm-demo) | 61 | 2025-05-20T17:05:29Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [high-moctane/mocword](https://github.com/high-moctane/mocword) | 61 | 2022-05-02T06:22:58Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [cout970/Elm-interpreter](https://github.com/cout970/Elm-interpreter) | 60 | 2023-03-17T12:00:37Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [webassemblylabs/wasm-workers-server](https://github.com/webassemblylabs/wasm-workers-server) | 59 | 2024-06-03T08:38:47Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
@@ -409,10 +412,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [not-fl3/quad-net](https://github.com/not-fl3/quad-net) | 17 | 2024-09-10T18:55:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [argmin-rs/modcholesky](https://github.com/argmin-rs/modcholesky) | 17 | 2024-08-31T14:23:52Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [celo-org/snark-setup](https://github.com/celo-org/snark-setup) | 17 | 2024-02-03T00:58:56Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 0 | 5 | 1 | 1 |
 | [Xuanwo/serde-bridge](https://github.com/Xuanwo/serde-bridge) | 16 | 2025-09-08T11:44:54Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [op-rs/maili](https://github.com/op-rs/maili) | 16 | 2025-02-21T23:30:18Z | Rust | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [digama0/frat](https://github.com/digama0/frat) | 16 | 2023-04-08T06:55:38Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [plotters-rs/plotters-piston](https://github.com/plotters-rs/plotters-piston) | 16 | 2022-06-27T23:50:47Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ChorusOne/celo-light-client](https://github.com/ChorusOne/celo-light-client) | 16 | 2022-02-04T15:46:19Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [sonhal/wasm-oauth-filter](https://github.com/sonhal/wasm-oauth-filter) | 16 | 2021-09-01T20:42:40Z | Rust | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [Arnavion/dbus-pure](https://github.com/Arnavion/dbus-pure) | 15 | 2025-06-30T01:39:39Z | Rust | CLI | 0 | 0 | 0 | 0 |

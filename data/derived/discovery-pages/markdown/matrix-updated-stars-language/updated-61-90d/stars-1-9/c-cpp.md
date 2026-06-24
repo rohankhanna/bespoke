@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-06-23T09:02:56.745192+00:00`
+Generated at: `2026-06-24T05:54:35.907506+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
+- repos: 22
 - terms: 103
 - components: 188
 - concepts: 104
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ROCm/rocJPEG](https://github.com/ROCm/rocJPEG) | 7 | 2026-04-24T17:32:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [compiler-research/CPyCppyy](https://github.com/compiler-research/CPyCppyy) | 2 | 2026-04-23T08:33:36Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [DavidKinder/inform](https://github.com/DavidKinder/inform) | 2 | 2026-04-23T06:35:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [stdlib-js/complex-float64-ctor](https://github.com/stdlib-js/complex-float64-ctor) | 1 | 2026-04-22T03:34:11Z | C/C++ | Infrastructure/tooling | 21 | 24 | 22 | 22 |
@@ -54,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [mypyc/librt](https://github.com/mypyc/librt) | 9 | 2026-04-09T15:44:14Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [mybigday/whisper.node](https://github.com/mybigday/whisper.node) | 8 | 2026-04-02T09:41:50Z | C/C++ | Infrastructure/tooling | 2 | 21 | 2 | 2 |
+| [ROCm/rocJPEG](https://github.com/ROCm/rocJPEG) | 7 | 2026-04-24T17:32:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [datalevin/dlmdb](https://github.com/datalevin/dlmdb) | 7 | 2026-04-04T03:48:00Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [decibri/decibri.cpp](https://github.com/decibri/decibri.cpp) | 6 | 2026-04-16T12:24:04Z | C/C++ | Web app | 7 | 3 | 7 | 7 |
 | [HyperLan-git/Synthmania](https://github.com/HyperLan-git/Synthmania) | 5 | 2026-04-16T13:32:41Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26642,
-    "concepts": 22973,
-    "observations": 23049,
-    "repos": 5644,
-    "terms": 22907
+    "components": 26646,
+    "concepts": 23007,
+    "observations": 23083,
+    "repos": 5647,
+    "terms": 22939
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-24T05:54:35.907506+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -328,7 +328,6 @@
     "altercation/solarized",
     "altercation/vim-colors-solarized",
     "alteryx/open_source_demos",
-    "altgr/opam-publish",
     "altivi/lz_string",
     "altoo-ag/akka-kryo-serialization",
     "am-kantox/md",
@@ -762,6 +761,7 @@
     "babashka/sci.configs",
     "babashka/scittle",
     "babbel/puma-plugin-telemetry",
+    "BachiLi/redner",
     "backdround/tabscope.nvim",
     "backup/backup",
     "badgen/badgen-icons",
@@ -906,6 +906,7 @@
     "bladeacer/obsi-snip-coll",
     "blaine/fantastty",
     "Blair-Johnson/batch-whisper",
+    "Blaizzy/mlx-audio-swift",
     "BLAKE3-team/BLAKE3",
     "BLAKE3-team/BLAKE3-specs",
     "blcuicall/CCL2022-CLTC",
@@ -1770,6 +1771,7 @@
     "DragonFlyBSD/DPorts",
     "dranov/raft-tla",
     "drduh/YubiKey-Guide",
+    "drknzz/GitHub-Achievements",
     "drmargarido/linters",
     "drmargarido/TodoTreeView",
     "drmingdrmer/xptemplate",
@@ -5575,6 +5577,7 @@
     "xcpretty/xcode-install",
     "xfthhxk/unminify",
     "Xiao0728/ColBERT-PRF-VirtualAppendix",
+    "Xiaobin-Rong/gtcrn_demo",
     "xie-lab-ml/piecewise-sparse-attention",
     "XingangPan/SCNN",
     "xinyu1205/recognize-anything",
