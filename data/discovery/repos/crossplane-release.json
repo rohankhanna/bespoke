@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossplane/release",
+      "target": "crossplane/docs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:11:03.209250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Crossplane release management things",
+    "fork": false,
+    "full_name": "crossplane/release",
+    "html_url": "https://github.com/crossplane/release",
+    "language": null,
+    "pushed_at": "2026-06-15T22:28:02Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-06-15T22:28:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crossplane/docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

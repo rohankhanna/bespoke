@@ -2676,6 +2676,9 @@
   "alignment-algorithm": [
     "alignment-algorithm"
   ],
+  "alignment-before-generation": [
+    "alignment-before-generation"
+  ],
   "alignment-path": [
     "alignment-path"
   ],
@@ -22381,6 +22384,9 @@
   ],
   "code-switch": [
     "code-switch"
+  ],
+  "code-template": [
+    "code-template"
   ],
   "code-to-image": [
     "code-to-image"
@@ -58071,6 +58077,9 @@
   "mica": [
     "mica"
   ],
+  "michelangelo": [
+    "michelangelo"
+  ],
   "micro": [
     "micro"
   ],
@@ -58971,6 +58980,15 @@
   "mlvu": [
     "mlvu"
   ],
+  "mlx-audio": [
+    "mlx-audio"
+  ],
+  "mlx-audio-swift": [
+    "mlx-audio-swift"
+  ],
+  "mlx-swift-audio": [
+    "mlx-swift-audio"
+  ],
   "mmap": [
     "mmap"
   ],
@@ -59621,6 +59639,9 @@
   ],
   "monte-carlo": [
     "monte-carlo"
+  ],
+  "monte-carlo-ray-tracing": [
+    "monte-carlo-ray-tracing"
   ],
   "monte-carlo-tree-search": [
     "monte-carlo-tree-search"

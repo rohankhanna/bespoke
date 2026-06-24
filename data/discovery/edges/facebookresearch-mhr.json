@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "prefix-dev/setup-pixi@5185adfbffb4bd703da3010310260805d89ebb11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "prefix-dev/setup-pixi@5185adfbffb4bd703da3010310260805d89ebb11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-24T00:42:42.423974+00:00",
+  "source_repo": "facebookresearch/MHR"
+}

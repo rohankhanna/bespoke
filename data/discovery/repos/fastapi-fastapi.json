@@ -136,7 +136,7 @@
       "source_file": ".github/workflows/guard-dependencies.yml"
     },
     {
-      "component": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
+      "component": "tiangolo/issue-manager@8505bda3fd28623a64d93935cbe13fa23f14fd8b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-manager.yml"
     }
@@ -370,7 +370,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-manager.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
+      "target": "tiangolo/issue-manager@8505bda3fd28623a64d93935cbe13fa23f14fd8b",
       "target_type": "component"
     },
     {
@@ -500,7 +500,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T14:21:18.745034+00:00",
+  "fetched_at": "2026-06-24T01:07:58.952447+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -540,7 +540,7 @@
     },
     {
       "path": ".github/workflows/issue-manager.yml",
-      "size": 2000
+      "size": 739
     }
   ],
   "related_repositories": [],
@@ -552,8 +552,8 @@
     "full_name": "fastapi/fastapi",
     "html_url": "https://github.com/fastapi/fastapi",
     "language": "Python",
-    "pushed_at": "2026-06-23T11:50:37Z",
-    "stargazers_count": 99575,
+    "pushed_at": "2026-06-23T23:16:31Z",
+    "stargazers_count": 99586,
     "topics": [
       "api",
       "async",
@@ -576,7 +576,7 @@
       "uvicorn",
       "web"
     ],
-    "updated_at": "2026-06-23T14:14:32Z"
+    "updated_at": "2026-06-24T01:04:01Z"
   },
   "repo_links": [
     {

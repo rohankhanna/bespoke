@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "kijai/ComfyUI-Hunyuan3DWrapper",
+      "target": "tencent/hunyuan3d-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-Hunyuan3DWrapper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-Hunyuan3DWrapper",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-Hunyuan3DWrapper",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-24T00:42:42.423974+00:00",
+  "source_repo": "kijai/ComfyUI-Hunyuan3DWrapper"
+}

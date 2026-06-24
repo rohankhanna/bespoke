@@ -1,0 +1,270 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/LocalAGI",
+      "target": "mudler/skillserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "build container images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mudler/LocalAGI",
+      "target": "Run Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:15:29.432403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36457
+    },
+    {
+      "path": "go.mod",
+      "size": 7536
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "size": 680
+    },
+    {
+      "path": ".github/workflows/image.yml",
+      "size": 5529
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LocalAGI is a powerful, self-hostable AI Agent platform designed for maximum privacy and flexibility. A complete drop-in replacement for OpenAI's Responses APIs with advanced agentic capabilities. No clouds.  Local AI that works on consumer-grade hardware (CPU and GPU).",
+    "fork": false,
+    "full_name": "mudler/LocalAGI",
+    "html_url": "https://github.com/mudler/LocalAGI",
+    "language": "Go",
+    "pushed_at": "2026-06-18T14:48:37Z",
+    "stargazers_count": 1844,
+    "topics": [],
+    "updated_at": "2026-06-23T16:41:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mudler/skillserver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "'build container images'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yml",
+      "term": "build container images"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run Tests"
+    }
+  ]
+}

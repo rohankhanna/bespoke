@@ -4104,11 +4104,35 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": null,
       "source_repo": "PlayVoice/whisper-vits-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-T"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

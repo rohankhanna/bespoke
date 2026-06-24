@@ -48,7 +48,7 @@
   "normalized_form": "codeowners",
   "observation_id": "53a416e5a1ec4048",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-24T00:42:42.423974+00:00",
   "observed_text": "Codeowners",
   "source_context_snippet": "Codeowners",
   "source_file": ".github/workflows/codeowners.yml",

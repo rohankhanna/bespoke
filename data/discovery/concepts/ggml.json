@@ -109,6 +109,18 @@
       "source_repo": "ggml-org/llama.cpp",
       "status": "candidate-context",
       "text": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "localai-org/privacy-filter.cpp",
+      "status": "candidate-context",
+      "text": "OpenAI's privacy filter NER model architecture implemented in a minimal C++/GGML runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localai-org/privacy-filter.cpp",
+      "status": "candidate-context",
+      "text": "Minimal [GGML](https://github.com/ggml-org/ggml) inference engine for the"
     }
   ],
   "candidate_glosses": [
@@ -165,6 +177,12 @@
       "source_repo": "ggml-org/llama.cpp",
       "status": "candidate",
       "text": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localai-org/privacy-filter.cpp",
+      "status": "candidate",
+      "text": "Minimal [GGML](https://github.com/ggml-org/ggml) inference engine for the"
     }
   ],
   "candidate_related_terms": [],
@@ -1228,11 +1246,29 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": null,
       "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "localai-org/privacy-filter.cpp"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

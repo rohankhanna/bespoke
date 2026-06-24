@@ -10303,11 +10303,47 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "machinewrapped/llm-subtrans"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

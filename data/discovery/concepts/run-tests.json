@@ -2015,6 +2015,30 @@
       "source_repo": "OpenHands/automation",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mudler/LocalAGI",
+      "status": "candidate-context",
+      "text": "LocalAGI is a powerful, self-hostable AI Agent platform designed for maximum privacy and flexibility. A complete drop-in replacement for OpenAI's Responses APIs with advanced agentic capabilities. No clouds.  Local AI that works on consumer-grade hardware (CPU and GPU)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/LocalAGI",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "status": "candidate-context",
+      "text": "A modular Swift SDK for audio processing with MLX on Apple Silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "status": "candidate-context",
+      "text": "Run Tests"
     }
   ],
   "candidate_glosses": [
@@ -3043,6 +3067,18 @@
       "source_repo": "OpenHands/automation",
       "status": "candidate",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/LocalAGI",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "status": "candidate",
+      "text": "Run Tests"
     }
   ],
   "candidate_related_terms": [
@@ -8414,11 +8450,41 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/github-action-run-tests.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mudler/LocalAGI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "Blaizzy/mlx-audio-swift"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

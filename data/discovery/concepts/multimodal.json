@@ -4078,11 +4078,29 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": null,
       "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/maestro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -548,6 +548,24 @@
       "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
       "status": "candidate-context",
       "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kijai/ComfyUI-Hunyuan3DWrapper",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "status": "candidate-context",
+      "text": "An extensive node suite that enables ComfyUI to process 3D inputs (Mesh & UV Texture, etc) using cutting edge algorithms (3DGS, NeRF, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
     }
   ],
   "candidate_glosses": [
@@ -872,6 +890,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kijai/ComfyUI-Hunyuan3DWrapper",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
       "status": "candidate",
       "text": "Publish to Comfy registry"
     }
@@ -2183,11 +2213,29 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aigc-apps/VideoX-Fun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-Hunyuan3DWrapper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

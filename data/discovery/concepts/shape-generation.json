@@ -19,6 +19,18 @@
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
       "status": "candidate-context",
       "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023] Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "status": "candidate-context",
+      "text": "[Zibo Zhao](https://github.com/Maikouuu),"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
       "status": "candidate",
       "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "status": "candidate",
+      "text": "[Zibo Zhao](https://github.com/Maikouuu),"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": null,
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo"
     }
   ],
   "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

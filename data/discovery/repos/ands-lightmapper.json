@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ands/lightmapper",
+      "target": "thekla/thekla_atlas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ands/lightmapper",
+      "target": "microsoft/uvatlas",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:19:39.709785+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C/C++ single-file library for drop-in lightmap baking. Just use your existing OpenGL renderer to bounce light!",
+    "fork": false,
+    "full_name": "ands/lightmapper",
+    "html_url": "https://github.com/ands/lightmapper",
+    "language": "C",
+    "pushed_at": "2023-03-24T08:48:21Z",
+    "stargazers_count": 1535,
+    "topics": [],
+    "updated_at": "2026-06-15T14:16:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/uvatlas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thekla/thekla_atlas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/init@v3",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1157,6 +1157,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "microsoft/TRELLIS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mingqiangWu/Fast-TRELLIS"
     }
   ]
 }

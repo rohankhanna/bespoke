@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T13:36:29.605385+00:00",
+  "fetched_at": "2026-06-24T00:56:50.458149+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -89,7 +89,7 @@
     "html_url": "https://github.com/openhackathons-org/gpubootcamp",
     "language": "Jupyter Notebook",
     "pushed_at": "2023-11-02T08:53:35Z",
-    "stargazers_count": 549,
+    "stargazers_count": 548,
     "topics": [
       "ai4hpc",
       "cuda",
@@ -104,7 +104,7 @@
       "openmp",
       "rapidsai"
     ],
-    "updated_at": "2026-06-22T11:51:12Z"
+    "updated_at": "2026-06-23T14:26:07Z"
   },
   "repo_links": [
     {

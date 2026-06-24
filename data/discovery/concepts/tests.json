@@ -28809,11 +28809,71 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dracory/hb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb_rails"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Shopify/erb_lint"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

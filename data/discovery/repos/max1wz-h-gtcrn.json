@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Max1Wz/H-GTCRN",
+      "target": "xiaobin-rong/setrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Max1Wz/H-GTCRN",
+      "target": "lcav/pyroomacoustics",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:15:22.625588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Lightweight Hybrid Dual Channel Speech Enhancement System under Low-SNR Conditions (Interspeech 2025)",
+    "fork": false,
+    "full_name": "Max1Wz/H-GTCRN",
+    "html_url": "https://github.com/Max1Wz/H-GTCRN",
+    "language": "Python",
+    "pushed_at": "2026-03-13T08:26:11Z",
+    "stargazers_count": 106,
+    "topics": [],
+    "updated_at": "2026-06-18T08:55:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lcav/pyroomacoustics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiaobin-rong/setrain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

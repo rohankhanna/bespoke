@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -471,6 +471,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "mozilla-ai/otari-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR"
     }
   ],
   "term": "Publish to PyPI"

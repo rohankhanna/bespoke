@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "pyvista/fast-simplification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "skoch9/meshplot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "alignment-before-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "michelangelo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "shape-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "text-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "transformers-models",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-24T00:42:42.423974+00:00",
+  "source_repo": "NeuralCarver/Michelangelo"
+}

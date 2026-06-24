@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "target": "speech-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "target": "streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-24T00:42:42.423974+00:00",
+  "source_repo": "Xiaobin-Rong/TRT-SE"
+}

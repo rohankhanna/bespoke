@@ -367,6 +367,18 @@
       "source_repo": "blender/blender",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BachiLi/redner",
+      "status": "candidate-context",
+      "text": "Differentiable rendering without approximation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BachiLi/redner",
+      "status": "candidate-context",
+      "text": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "blender/blender",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BachiLi/redner",
+      "status": "candidate",
+      "text": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -1318,11 +1336,17 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "BachiLi/redner"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

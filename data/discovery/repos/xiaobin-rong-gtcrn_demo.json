@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-24T01:15:23.281454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 76
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Audio examples of GTCRN",
+    "fork": false,
+    "full_name": "Xiaobin-Rong/gtcrn_demo",
+    "html_url": "https://github.com/Xiaobin-Rong/gtcrn_demo",
+    "language": "CSS",
+    "pushed_at": "2024-03-20T08:54:19Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-10-11T11:17:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

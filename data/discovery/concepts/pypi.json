@@ -5065,11 +5065,41 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": ".github/workflows/pypi-publish.yml",
       "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/chex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

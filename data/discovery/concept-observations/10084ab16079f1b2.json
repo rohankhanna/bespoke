@@ -84,7 +84,7 @@
   "normalized_form": "pytest",
   "observation_id": "10084ab16079f1b2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-24T00:42:42.423974+00:00",
   "observed_text": "pytest",
   "source_context_snippet": "pytest",
   "source_file": ".github/workflows/ci.yml",

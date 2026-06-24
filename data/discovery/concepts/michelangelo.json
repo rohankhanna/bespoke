@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "michelangelo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023] Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "status": "candidate-context",
+      "text": "[Zibo Zhao](https://github.com/Maikouuu),"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "status": "candidate",
+      "text": "[Zibo Zhao](https://github.com/Maikouuu),"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912914,
+      "status": "candidate",
+      "text": "artist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912913,
+      "status": "candidate",
+      "text": "sculptor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912912,
+      "status": "candidate",
+      "text": "painter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912911,
+      "status": "candidate",
+      "text": "architect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912910,
+      "status": "candidate",
+      "text": "master"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "michelangelo",
+  "concept_id": "michelangelo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo"
+    }
+  ],
+  "first_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "michelangelo",
+      "sense_id": "michelangelo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

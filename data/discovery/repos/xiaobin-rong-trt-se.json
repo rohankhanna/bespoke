@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "target": "speech-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "target": "streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:15:26.059748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6355
+    },
+    {
+      "path": "requirements.txt",
+      "size": 163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An example of a speech enhancement model deployed with TensorRT.",
+    "fork": false,
+    "full_name": "Xiaobin-Rong/TRT-SE",
+    "html_url": "https://github.com/Xiaobin-Rong/TRT-SE",
+    "language": "Python",
+    "pushed_at": "2025-03-24T06:51:25Z",
+    "stargazers_count": 85,
+    "topics": [
+      "deployment",
+      "real-time",
+      "speech-enhancement",
+      "streaming",
+      "tensorrt"
+    ],
+    "updated_at": "2026-06-11T07:18:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Chinese version of the document can be found in: [\u4f7f\u7528 TensorRT \u90e8\u7f72\u6df1\u5ea6\u5b66\u4e60\u8bed\u97f3\u589e\u5f3a\u6a21\u578b](./readme/README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "The Chinese version of the document can be found in: [\u4f7f\u7528 TensorRT \u90e8\u7f72\u6df1\u5ea6\u5b66\u4e60\u8bed\u97f3\u589e\u5f3a\u6a21\u578b](./readme/README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "The Chinese version of the document can be found in: [\u4f7f\u7528 TensorRT \u90e8\u7f72\u6df1\u5ea6\u5b66\u4e60\u8bed\u97f3\u589e\u5f3a\u6a21\u578b](./readme/README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-enhancement"
+    },
+    {
+      "context_snippet": "The Chinese version of the document can be found in: [\u4f7f\u7528 TensorRT \u90e8\u7f72\u6df1\u5ea6\u5b66\u4e60\u8bed\u97f3\u589e\u5f3a\u6a21\u578b](./readme/README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    },
+    {
+      "context_snippet": "The Chinese version of the document can be found in: [\u4f7f\u7528 TensorRT \u90e8\u7f72\u6df1\u5ea6\u5b66\u4e60\u8bed\u97f3\u589e\u5f3a\u6a21\u578b](./readme/README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    }
+  ]
+}

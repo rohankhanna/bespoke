@@ -79,7 +79,7 @@
   "normalized_form": "node.js-package",
   "observation_id": "8a6dd1f53c6c19f3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-24T00:42:42.423974+00:00",
   "observed_text": "Node.js Package",
   "source_context_snippet": "Node.js Package",
   "source_file": ".github/workflows/npm-publish.yml",

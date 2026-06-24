@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oakshy/RomanTex",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oakshy/RomanTex",
+      "target": "texture-generation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-24T00:42:42.423974+00:00",
+  "source_repo": "oakshy/RomanTex"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-24T01:19:40.380288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C/C++ single-file library that minimizes the hard transition errors of disjoint edges in lightmaps.",
+    "fork": false,
+    "full_name": "ands/seamoptimizer",
+    "html_url": "https://github.com/ands/seamoptimizer",
+    "language": "C",
+    "pushed_at": "2023-01-31T11:50:17Z",
+    "stargazers_count": 243,
+    "topics": [],
+    "updated_at": "2026-06-15T15:13:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

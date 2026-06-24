@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
+      "component": "msys2/setup-msys2@66cd2cce69caa17b53920067426061ca1de3a884",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/dist.yml"
     },
     {
-      "component": "pypa/cibuildwheel@f03ac7617d6cff873ccf24cc0d567ef5ba5a9e6d",
+      "component": "pypa/cibuildwheel@294735312765b09d24a2fbec22660ce817587d55",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dist.yml"
     },
@@ -201,7 +201,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
+      "target": "msys2/setup-msys2@66cd2cce69caa17b53920067426061ca1de3a884",
       "target_type": "component"
     },
     {
@@ -257,7 +257,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dist.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "pypa/cibuildwheel@f03ac7617d6cff873ccf24cc0d567ef5ba5a9e6d",
+      "target": "pypa/cibuildwheel@294735312765b09d24a2fbec22660ce817587d55",
       "target_type": "component"
     },
     {
@@ -387,7 +387,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T14:16:49.915455+00:00",
+  "fetched_at": "2026-06-24T00:58:56.586059+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -431,7 +431,7 @@
     "full_name": "mongodb/winkerberos",
     "html_url": "https://github.com/mongodb/winkerberos",
     "language": "C",
-    "pushed_at": "2026-06-23T13:05:18Z",
+    "pushed_at": "2026-06-23T16:24:24Z",
     "stargazers_count": 57,
     "topics": [
       "authentication",
@@ -441,7 +441,7 @@
       "python",
       "sspi"
     ],
-    "updated_at": "2026-06-16T17:04:02Z"
+    "updated_at": "2026-06-23T16:25:34Z"
   },
   "repo_links": [
     {

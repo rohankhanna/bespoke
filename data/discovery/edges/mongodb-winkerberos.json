@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
+      "target": "msys2/setup-msys2@66cd2cce69caa17b53920067426061ca1de3a884",
       "target_type": "component"
     },
     {
@@ -95,7 +95,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dist.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "pypa/cibuildwheel@f03ac7617d6cff873ccf24cc0d567ef5ba5a9e6d",
+      "target": "pypa/cibuildwheel@294735312765b09d24a2fbec22660ce817587d55",
       "target_type": "component"
     },
     {
@@ -225,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-23T13:14:02.543868+00:00",
+  "generated_at": "2026-06-24T00:42:42.423974+00:00",
   "source_repo": "mongodb/winkerberos"
 }

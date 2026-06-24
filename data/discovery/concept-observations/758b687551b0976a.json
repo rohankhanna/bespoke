@@ -84,7 +84,7 @@
   "normalized_form": "generate-legacy-ckpts",
   "observation_id": "758b687551b0976a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-24T00:42:42.423974+00:00",
   "observed_text": "Generate legacy ckpts",
   "source_context_snippet": "Generate legacy ckpts",
   "source_file": ".github/workflows/ci-checkpoints.yml",

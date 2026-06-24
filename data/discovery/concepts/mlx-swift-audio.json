@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mlx-swift-audio"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "status": "candidate-context",
+      "text": "A modular Swift SDK for audio processing with MLX on Apple Silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "status": "candidate-context",
+      "text": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "status": "candidate",
+      "text": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mlx-swift-audio",
+  "concept_id": "mlx-swift-audio",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "Blaizzy/mlx-audio-swift"
+    }
+  ],
+  "first_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mlx-swift-audio",
+      "sense_id": "mlx-swift-audio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modular Swift SDK for audio processing with MLX on Apple Silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mlx-audio",
+      "sense_id": "mlx-audio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mlx-audio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mlx-audio",
+  "observation_id": "dbcb65abe213e06c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-24T00:42:42.423974+00:00",
+  "observed_text": "mlx-audio",
+  "source_context_snippet": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+  "source_file": null,
+  "source_repo": "Blaizzy/mlx-audio-swift",
+  "source_repo_description": "A modular Swift SDK for audio processing with MLX on Apple Silicon"
+}

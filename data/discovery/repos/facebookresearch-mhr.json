@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@5185adfbffb4bd703da3010310260805d89ebb11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@5185adfbffb4bd703da3010310260805d89ebb11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@5185adfbffb4bd703da3010310260805d89ebb11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "prefix-dev/setup-pixi@5185adfbffb4bd703da3010310260805d89ebb11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "prefix-dev/setup-pixi@5185adfbffb4bd703da3010310260805d89ebb11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:19:36.682167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7401
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2035
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1299
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Momentum Human Rig is an anatomically-inspired parametric full-body digital human model developed at Meta. It includes: A parametric body skeletal model; A realistic 3D mesh skinned to the skeleton with levels of detail;A body blendshape and pose corrective model; A facial blendshape model.Its design is friendly for both CG and CV communities.",
+    "fork": false,
+    "full_name": "facebookresearch/MHR",
+    "html_url": "https://github.com/facebookresearch/MHR",
+    "language": "Python",
+    "pushed_at": "2026-06-23T19:10:13Z",
+    "stargazers_count": 728,
+    "topics": [],
+    "updated_at": "2026-06-23T14:23:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    }
+  ]
+}

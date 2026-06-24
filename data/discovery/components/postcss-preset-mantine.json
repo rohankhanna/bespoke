@@ -1,7 +1,7 @@
 {
   "component": "postcss-preset-mantine",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-06-23T07:25:49.577775+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

@@ -100,11 +100,17 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": ".github/workflows/build-gcc.yml",
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/build-gcc.yml",
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

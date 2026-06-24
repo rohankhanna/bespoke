@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "localai-org/privacy-filter.cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "localai-org/privacy-filter.cpp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "localai-org/privacy-filter.cpp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "localai-org/privacy-filter.cpp",
+      "target": "ggml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:15:21.024864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8703
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenAI's privacy filter NER model architecture implemented in a minimal C++/GGML runtime",
+    "fork": false,
+    "full_name": "localai-org/privacy-filter.cpp",
+    "html_url": "https://github.com/localai-org/privacy-filter.cpp",
+    "language": "C++",
+    "pushed_at": "2026-06-19T13:54:39Z",
+    "stargazers_count": 256,
+    "topics": [
+      "ggml",
+      "ner",
+      "pii"
+    ],
+    "updated_at": "2026-06-23T17:03:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Minimal [GGML](https://github.com/ggml-org/ggml) inference engine for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggml"
+    }
+  ]
+}

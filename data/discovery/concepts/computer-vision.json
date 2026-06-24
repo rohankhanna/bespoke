@@ -3409,6 +3409,18 @@
       "source_repo": "rehg-lab/lowshot-shapebias",
       "status": "candidate-context",
       "text": "![alt text](images/teaser.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BachiLi/redner",
+      "status": "candidate-context",
+      "text": "Differentiable rendering without approximation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BachiLi/redner",
+      "status": "candidate-context",
+      "text": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -5115,6 +5127,12 @@
       "source_repo": "rehg-lab/lowshot-shapebias",
       "status": "candidate",
       "text": "![alt text](images/teaser.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BachiLi/redner",
+      "status": "candidate",
+      "text": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -16000,11 +16018,77 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": null,
       "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "BachiLi/redner"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

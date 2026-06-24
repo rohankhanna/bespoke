@@ -15,13 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "requirements.txt",
-      "source_repo": "coaidev/blob-service",
-      "target": "coaidev/markitdown",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yaml",
       "source_repo": "coaidev/blob-service",
@@ -78,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-23T13:14:02.543868+00:00",
+  "generated_at": "2026-06-24T00:42:42.423974+00:00",
   "source_repo": "coaidev/blob-service"
 }

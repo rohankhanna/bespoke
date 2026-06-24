@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkoukk/tiktoken-go",
+      "target": "pkoukk/tiktoken-go-loader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkoukk/tiktoken-go",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkoukk/tiktoken-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkoukk/tiktoken-go",
+      "target": "gpt-35-turbo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkoukk/tiktoken-go",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkoukk/tiktoken-go",
+      "target": "tiktoken",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:15:32.007001+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9940
+    },
+    {
+      "path": "go.mod",
+      "size": 309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "go version of tiktoken",
+    "fork": false,
+    "full_name": "pkoukk/tiktoken-go",
+    "html_url": "https://github.com/pkoukk/tiktoken-go",
+    "language": "Go",
+    "pushed_at": "2026-05-12T07:45:32Z",
+    "stargazers_count": 933,
+    "topics": [
+      "chatgpt",
+      "go",
+      "golang",
+      "gpt-35-turbo",
+      "gpt-4",
+      "openai",
+      "tiktoken"
+    ],
+    "updated_at": "2026-06-23T10:19:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkoukk/tiktoken-go-loader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](./README_zh-hans.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](./README_zh-hans.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](./README_zh-hans.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-35-turbo"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](./README_zh-hans.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](./README_zh-hans.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiktoken"
+    }
+  ]
+}

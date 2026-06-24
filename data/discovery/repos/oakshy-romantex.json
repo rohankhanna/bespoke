@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oakshy/RomanTex",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oakshy/RomanTex",
+      "target": "texture-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:19:34.655461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RomanTex: Decoupling 3D-aware Rotary Positional Embedded Multi-Attention Network for Texture Synthesis",
+    "fork": false,
+    "full_name": "oakshy/RomanTex",
+    "html_url": "https://github.com/oakshy/RomanTex",
+    "language": null,
+    "pushed_at": "2025-07-03T09:25:30Z",
+    "stargazers_count": 83,
+    "topics": [
+      "3d-generation",
+      "texture-generation"
+    ],
+    "updated_at": "2026-05-13T10:31:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture-generation"
+    }
+  ]
+}

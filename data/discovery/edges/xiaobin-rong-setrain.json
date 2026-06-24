@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xiaobin-Rong/SEtrain",
+      "target": "tuzehai/sheffield_clarity_cec1_entry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/SEtrain",
+      "target": "code-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/SEtrain",
+      "target": "speech-enhancement",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-24T00:42:42.423974+00:00",
+  "source_repo": "Xiaobin-Rong/SEtrain"
+}

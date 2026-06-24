@@ -1019,6 +1019,18 @@
       "source_repo": "mozilla-ai/otari-cli",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/MHR",
+      "status": "candidate-context",
+      "text": "Momentum Human Rig is an anatomically-inspired parametric full-body digital human model developed at Meta. It includes: A parametric body skeletal model; A realistic 3D mesh skinned to the skeleton with levels of detail;A body blendshape and pose corrective model; A facial blendshape model.Its design is friendly for both CG and CV communities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/MHR",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -1529,6 +1541,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mozilla-ai/otari-cli",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/MHR",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -6530,11 +6548,35 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "nrl-ai/llama-assistant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

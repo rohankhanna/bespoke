@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BachiLi/redner",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BachiLi/redner",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BachiLi/redner",
+      "target": "differentiable-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BachiLi/redner",
+      "target": "monte-carlo-ray-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BachiLi/redner",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BachiLi/redner",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BachiLi/redner",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:19:41.101723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Differentiable rendering without approximation.",
+    "fork": false,
+    "full_name": "BachiLi/redner",
+    "html_url": "https://github.com/BachiLi/redner",
+    "language": "NASL",
+    "pushed_at": "2022-08-19T13:09:03Z",
+    "stargazers_count": 1439,
+    "topics": [
+      "computer-graphics",
+      "computer-vision",
+      "differentiable-rendering",
+      "monte-carlo-ray-tracing",
+      "pytorch",
+      "rendering",
+      "tensorflow"
+    ],
+    "updated_at": "2026-06-05T20:51:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentiable-rendering"
+    },
+    {
+      "context_snippet": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monte-carlo-ray-tracing"
+    },
+    {
+      "context_snippet": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

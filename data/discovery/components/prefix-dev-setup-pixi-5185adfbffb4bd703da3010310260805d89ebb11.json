@@ -1,0 +1,17 @@
+{
+  "component": "prefix-dev/setup-pixi@5185adfbffb4bd703da3010310260805d89ebb11",
+  "first_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebookresearch/MHR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/MHR"
+    }
+  ]
+}

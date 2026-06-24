@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "alignment-before-generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023] Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "status": "candidate-context",
+      "text": "[Zibo Zhao](https://github.com/Maikouuu),"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "status": "candidate",
+      "text": "[Zibo Zhao](https://github.com/Maikouuu),"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "alignment-before-generation",
+  "concept_id": "alignment-before-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo"
+    }
+  ],
+  "first_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "alignment-before-generation",
+      "sense_id": "alignment-before-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

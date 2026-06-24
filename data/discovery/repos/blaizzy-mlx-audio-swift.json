@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "target": "huggingface/swift-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "target": "mlx-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "target": "mlx-audio-swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "target": "mlx-swift-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "target": "speech-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:15:36.305457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10624
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 926
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A modular Swift SDK for audio processing with MLX on Apple Silicon",
+    "fork": false,
+    "full_name": "Blaizzy/mlx-audio-swift",
+    "html_url": "https://github.com/Blaizzy/mlx-audio-swift",
+    "language": "Swift",
+    "pushed_at": "2026-06-14T19:31:52Z",
+    "stargazers_count": 682,
+    "topics": [
+      "mlx",
+      "mlx-audio",
+      "mlx-audio-swift",
+      "mlx-swift-audio",
+      "speech-to-speech",
+      "speech-to-text",
+      "stt",
+      "text-to-speech",
+      "tts"
+    ],
+    "updated_at": "2026-06-21T07:11:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/swift-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlx-audio"
+    },
+    {
+      "context_snippet": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlx-audio-swift"
+    },
+    {
+      "context_snippet": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlx-swift-audio"
+    },
+    {
+      "context_snippet": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-speech"
+    },
+    {
+      "context_snippet": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

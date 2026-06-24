@@ -266,7 +266,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T14:23:25.605706+00:00",
+  "fetched_at": "2026-06-24T01:11:19.016343+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -319,9 +319,9 @@
     "html_url": "https://github.com/aws/karpenter-provider-aws",
     "language": "Go",
     "pushed_at": "2026-06-22T15:03:28Z",
-    "stargazers_count": 7661,
+    "stargazers_count": 7662,
     "topics": [],
-    "updated_at": "2026-06-21T02:58:05Z"
+    "updated_at": "2026-06-23T21:49:43Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "target": "deniskochetov/comfyui-3d-pack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "target": "aiuniai/unique3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "target": "c0nsumption/consume-comfyui-workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "target": "3dtopia/lgm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "target": "comfy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:19:29.482625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24935
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4397
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 447
+    },
+    {
+      "path": "requirements.txt",
+      "size": 841
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An extensive node suite that enables ComfyUI to process 3D inputs (Mesh & UV Texture, etc) using cutting edge algorithms (3DGS, NeRF, etc.)",
+    "fork": false,
+    "full_name": "MrForExample/ComfyUI-3D-Pack",
+    "html_url": "https://github.com/MrForExample/ComfyUI-3D-Pack",
+    "language": "Python",
+    "pushed_at": "2025-12-29T08:06:02Z",
+    "stargazers_count": 3784,
+    "topics": [
+      "comfy",
+      "comfyui",
+      "machine-learning"
+    ],
+    "updated_at": "2026-06-23T07:50:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3dtopia/lgm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aiuniai/unique3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c0nsumption/consume-comfyui-workflows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deniskochetov/comfyui-3d-pack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    },
+    {
+      "context_snippet": "**Make 3D assets generation in ComfyUI good and convenient as it generates image/video!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfy"
+    },
+    {
+      "context_snippet": "**Make 3D assets generation in ComfyUI good and convenient as it generates image/video!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "**Make 3D assets generation in ComfyUI good and convenient as it generates image/video!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

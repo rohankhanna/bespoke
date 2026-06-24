@@ -202,6 +202,7 @@
     "6249904ee897cc30",
     "7f80f404df3c0304",
     "9630d4cf5c4a3aa8",
+    "a3df9fc9f33e6666",
     "b39635452f4adbe0",
     "b6e3c40c298e0417",
     "c55412793f3aba8d",
@@ -3716,6 +3717,9 @@
   ],
   "alignment-algorithm": [
     "c9cda61487d3bb5e"
+  ],
+  "alignment-before-generation": [
+    "da46ee6ffca78db3"
   ],
   "alignment-path": [
     "b2ae56b23027657c"
@@ -19429,6 +19433,7 @@
   "build-container-images": [
     "09e61c9a6de775d7",
     "0d0524b830047b90",
+    "5bda64d060da0ccd",
     "d6424df4f0cb82aa"
   ],
   "build-container-template": [
@@ -25992,6 +25997,7 @@
     "3853263bcac78bba",
     "38c4f0fa20bdf368",
     "3cc82fe76ed058b4",
+    "3d128042f9139419",
     "3de702863f6590e6",
     "3fdec1c7f55ab298",
     "439325c7111966e1",
@@ -34962,6 +34968,9 @@
   "code-switch": [
     "e6e0990b44468997"
   ],
+  "code-template": [
+    "b366556ef52589f6"
+  ],
   "code-to-image": [
     "12690fd706510eab"
   ],
@@ -36066,6 +36075,7 @@
     "1131e4392a68c203",
     "11acb346bdef1ce6",
     "11e969b6b717af18",
+    "154ede12350c6951",
     "16c2af47d5e70409",
     "217c8159d4f10f22",
     "232f33396365f426",
@@ -36963,6 +36973,7 @@
   "comfy": [
     "aee74e708cdeda3a",
     "b378386be451cc0e",
+    "bc3587f51a4af3eb",
     "fe2f2e7b6e3d5648"
   ],
   "comfyui": [
@@ -36997,6 +37008,7 @@
     "a83d288a8e9a3bb1",
     "aa7463ad6867fdcf",
     "b51152561bdf2964",
+    "cea54e40b9223a35",
     "d402f59558133ecb",
     "d84db47ea1e8541a",
     "d982940e7c0289d5"
@@ -38763,6 +38775,7 @@
     "c2de47285c994013",
     "cad9fed84625f632",
     "cd5b018bf8616fd0",
+    "cf355f0f78525a85",
     "d3c043da82668769",
     "da58d4f43e55a93e",
     "e0e02fab588696bd",
@@ -38910,6 +38923,7 @@
     "5ae1bdca153c31ce",
     "5cc7761c909e654f",
     "5ce22c8547dd0347",
+    "5e7844394d8b1e28",
     "5eaa1c2a5729d2b6",
     "602e7aee6fa93a37",
     "63617224f1e0c5a5",
@@ -51017,6 +51031,7 @@
     "3138c400ce0ec2ae",
     "325c5c914ce3a7f0",
     "3b53aa73f2952758",
+    "42fea8c00bf8fb5a",
     "45eee3d588d89e65",
     "46b6943075af39e1",
     "472729108d73c12e",
@@ -52332,6 +52347,7 @@
   ],
   "differentiable-rendering": [
     "4db97ca5f8bc1490",
+    "51a9ea8bfd0563e9",
     "8b7f411e83ff7c4d",
     "a31177da6500597b",
     "b09d66b58377b39c",
@@ -69138,6 +69154,7 @@
   "ggml": [
     "1cd530803e9d50cd",
     "302b76c38e650907",
+    "867d4835d35af33e",
     "8b354594cb5bcb0e",
     "985d95450f13025b",
     "98d74d64b915b7fe",
@@ -71235,6 +71252,7 @@
     "3c40995c4c7232fc",
     "3c8e00546cff64df",
     "3c9c055e264f5156",
+    "3e3ad328bc1cfd4f",
     "3f02d3081679ab6c",
     "3f547caa27c58924",
     "3fa6b9c3f31ec339",
@@ -72156,6 +72174,7 @@
     "3dec82aa8d1167a1",
     "415332873d8b0dcb",
     "4197fad56ac665bd",
+    "42e7dd92f9ebe5f8",
     "4c8b21083c89acdd",
     "54aa5d46eb136cc9",
     "597f2e103923c0fe",
@@ -72425,6 +72444,7 @@
     "3da73d92c69a75ac"
   ],
   "gpt-35-turbo": [
+    "411aa78102c5b647",
     "4f93a58c1254d97c",
     "52298e260c63a571",
     "71cdbb35cac8678e",
@@ -72466,6 +72486,7 @@
     "e3bbfc985ebd1a4a",
     "e5b038a831ad71e5",
     "e5d88ad954ace464",
+    "ecca36c1fa56a5f9",
     "edfc9918d7f5342e",
     "f03361e4e4812264",
     "f4e026670130a6a0",
@@ -79970,6 +79991,7 @@
     "8d07fc27c2d44765",
     "9f11af6e3920cf10",
     "a14822ba8a46f642",
+    "a8e3b422f03245bd",
     "b48275da5c618488",
     "c573dc076af9e063",
     "c85a54749fc50e70",
@@ -95253,6 +95275,7 @@
     "1bee131820b004db",
     "1dcb2a3706b1652e",
     "1ebc9cda71a0f3fe",
+    "1f83b060f89f043d",
     "1fe2b12040f8b21d",
     "20bdd7cffd5ba829",
     "216956b78e0e815d",
@@ -99587,6 +99610,9 @@
   "mica": [
     "0e6ce00b57a57ee5"
   ],
+  "michelangelo": [
+    "3f6f84375f590065"
+  ],
   "micro": [
     "e201767c8aca49b2"
   ],
@@ -101021,6 +101047,15 @@
   "mlvu": [
     "969191d3ff122e15"
   ],
+  "mlx-audio": [
+    "dbcb65abe213e06c"
+  ],
+  "mlx-audio-swift": [
+    "6d60aad2ac456464"
+  ],
+  "mlx-swift-audio": [
+    "f55ab93afee775d6"
+  ],
   "mmap": [
     "44e2b16006aaabd1",
     "bc8844e8bcf9defc"
@@ -102059,6 +102094,9 @@
   ],
   "monte-carlo": [
     "e32c75851678dc02"
+  ],
+  "monte-carlo-ray-tracing": [
+    "12072d524b63e487"
   ],
   "monte-carlo-tree-search": [
     "33c4c07c24387459"
@@ -124210,6 +124248,7 @@
     "0150063ff5cfb7c8",
     "032e0f6da91303b1",
     "032f3f3dc10887a8",
+    "0979ad05e96dab0b",
     "132ba226cb5a03b6",
     "1707d293d162a712",
     "1bb4c17f6be9c50a",
@@ -124225,6 +124264,7 @@
     "4481488ebf09bc1d",
     "4caec3eb916cc987",
     "4da3122492fd4139",
+    "4e1b17cd66fefcf5",
     "5e56e15b34dd66f5",
     "5eb757da7698a40d",
     "631692edfc13c9bd",
@@ -124500,6 +124540,7 @@
     "db2cd380fc978113",
     "dd5ab8d143ea55eb",
     "e0fb603aabd85a8a",
+    "e5b6b805be9f57af",
     "e5c39a73af128247",
     "ec67be3970ddff28",
     "ee16bc90b7a689b5",
@@ -126998,6 +127039,7 @@
     "dc64961bb5d5b934",
     "dda6ebc0049f925d",
     "ddc41ea35ea3abd3",
+    "ddcb1041bc9fc9b2",
     "dec381a23d87e336",
     "df052242b1843ded",
     "df4eb4a5352188ac",
@@ -129525,6 +129567,7 @@
     "9c59d4d7900f391c",
     "9d7d6ca5a952e7b0",
     "a0b299a859212594",
+    "a35f1ecf760267ce",
     "a3aae47cfba905ef",
     "a6aa0cd3e14493ba",
     "ac3b1281f3399859",
@@ -134429,6 +134472,7 @@
     "cbb15a1fa331c43c",
     "d3b9147ddaff6e54",
     "ec7d60bfc1901348",
+    "ee87d673c3920dad",
     "f9870deee76b3bb0",
     "fd2eae44630226db"
   ],
@@ -138485,6 +138529,7 @@
     "1e9fcb7de4f2c234",
     "2032a92c3bd11824",
     "208a89effebc36e5",
+    "21057228c42c7fb7",
     "22c02c97d8c09729",
     "23dfd0a265d02499",
     "27012f498326418d",
@@ -138505,6 +138550,7 @@
     "382ae99e4cb3002b",
     "39181963828e3a38",
     "39b675f43161c95c",
+    "3b504955b86707a3",
     "3d699fd460f7002c",
     "3e4810fba7cd319e",
     "3ef53a2348d270ff",
@@ -144256,6 +144302,7 @@
     "1a9d117885cc252c"
   ],
   "shape-generation": [
+    "588ca08b6b2d87a4",
     "77556afd0d35b6cf"
   ],
   "shape-representation": [
@@ -147681,7 +147728,9 @@
   ],
   "speech-enhancement": [
     "082e819737ab5824",
+    "17a4f2cf1c97a127",
     "36d878df86b2c5b9",
+    "52663db3622e0182",
     "8b67958400041c03",
     "96824122eedf6c6a",
     "d14cfb7a6419b56e",
@@ -147872,6 +147921,7 @@
   "speech-to-speech": [
     "86fe69a5e82f3656",
     "91a7969ca9fd3ed1",
+    "d849fca6bfde02b2",
     "dfaf21a67481d0af"
   ],
   "speech-to-subtitles": [
@@ -147913,6 +147963,7 @@
     "e3bcb5ea5d3d571c",
     "e5ffe9a85bb429ca",
     "e9d0d70072a9b939",
+    "f9cb754ce174882b",
     "fe3a7d48875bfb55"
   ],
   "speech-to-text-translation": [
@@ -150447,6 +150498,7 @@
     "8ce54e6c8ca991a6",
     "8d38c383432abff9",
     "9e26d8af9e64bc9e",
+    "ab6d1521082b5cc4",
     "b2d1d1d6525bdb79",
     "c0f130ae00aa3798",
     "c1b0728d41d3201c",
@@ -154595,6 +154647,7 @@
     "41e49ff38e65abbe",
     "44bedd6193045655",
     "4622a0b9dd810f6e",
+    "48eb28a83c326fd5",
     "49f215e990202a74",
     "4a517bb9c9992788",
     "4a72fa202db3bdb5",
@@ -154777,6 +154830,7 @@
     "3f99a998526f95e4",
     "4a27e57bbcf0d840",
     "4a6b6e0862f0cadf",
+    "4cdb194fe3c91c32",
     "5b6ad6820e5c6068",
     "66cced4b499de33a",
     "7249fec9f3a669c6",
@@ -159504,6 +159558,7 @@
   "text-to-3d": [
     "03d7a8698c17aaf4",
     "1268e93e9a1148d4",
+    "76d4a5720d518810",
     "8333088072ee25de",
     "8cb3b156f96711c5",
     "b20bdf9c6164b3c6",
@@ -159647,6 +159702,7 @@
     "dd8dd765c356f1e0",
     "e630c4641d0fe60c",
     "ea816cdccff332e0",
+    "ed94b06338ce7bc2",
     "eebec1b41f87167e",
     "f255bfcd2ea4ed8b",
     "fc2c11d6abf8b12e"
@@ -159791,6 +159847,7 @@
     "e182ba75fc1d762b"
   ],
   "texture-generation": [
+    "4cec11a06db55252",
     "cefdd5dbfc05d647"
   ],
   "texture-mapping": [
@@ -160346,7 +160403,8 @@
     "79f3cbb12e44139c"
   ],
   "tiktoken": [
-    "5284b72a3abf0957"
+    "5284b72a3abf0957",
+    "6473d409095b1315"
   ],
   "tilde": [
     "44867bd147eacff9",
@@ -162048,6 +162106,7 @@
     "ff2dacaa91733842"
   ],
   "transformers-models": [
+    "7d2f8c33b57c3624",
     "cb942dc39409b0b0"
   ],
   "transformersjs": [

@@ -1,7 +1,7 @@
 {
   "component": "numeric-id-map",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

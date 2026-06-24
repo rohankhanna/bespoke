@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A training code template for DNN-based speech enhancement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A training code template is highly valuable for deep learning engineers as it can significantly enhance their work efficiency. Despite different programmers have varying coding styles, some are excellent while others may not be as good. My philosophy is to prioritize simplicity.\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A training code template is highly valuable for deep learning engineers as it can significantly enhance their work efficiency. Despite different programmers have varying coding styles, some are excellent while others may not be as good. My philosophy is to prioritize simplicity.\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-template",
+      "sense_id": "code-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-template",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-template",
+  "observation_id": "b366556ef52589f6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-24T00:42:42.423974+00:00",
+  "observed_text": "code-template",
+  "source_context_snippet": "A training code template is highly valuable for deep learning engineers as it can significantly enhance their work efficiency. Despite different programmers have varying coding styles, some are excellent while others may not be as good. My philosophy is to prioritize simplicity.\u2026",
+  "source_file": null,
+  "source_repo": "Xiaobin-Rong/SEtrain",
+  "source_repo_description": "A training code template for DNN-based speech enhancement."
+}

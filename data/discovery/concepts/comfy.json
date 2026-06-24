@@ -43,6 +43,18 @@
       "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "status": "candidate-context",
+      "text": "An extensive node suite that enables ComfyUI to process 3D inputs (Mesh & UV Texture, etc) using cutting edge algorithms (3DGS, NeRF, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "status": "candidate-context",
+      "text": "**Make 3D assets generation in ComfyUI good and convenient as it generates image/video!**"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrForExample/ComfyUI-3D-Pack",
+      "status": "candidate",
+      "text": "**Make 3D assets generation in ComfyUI good and convenient as it generates image/video!**"
     }
   ],
   "candidate_related_terms": [
@@ -664,11 +682,17 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": null,
       "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "MrForExample/ComfyUI-3D-Pack"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

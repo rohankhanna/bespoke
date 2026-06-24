@@ -469,6 +469,18 @@
       "source_repo": "Blaizzy/mlx-audio",
       "status": "candidate-context",
       "text": "<a href=\"https://trendshift.io/repositories/13625\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/13625\" alt=\"Blaizzy%2Fmlx-audio | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "status": "candidate-context",
+      "text": "A modular Swift SDK for audio processing with MLX on Apple Silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "status": "candidate-context",
+      "text": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -699,6 +711,12 @@
       "source_repo": "Blaizzy/mlx-audio",
       "status": "candidate",
       "text": "<a href=\"https://trendshift.io/repositories/13625\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/13625\" alt=\"Blaizzy%2Fmlx-audio | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blaizzy/mlx-audio-swift",
+      "status": "candidate",
+      "text": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -2722,11 +2740,41 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": null,
       "source_repo": "zh-plus/openlrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "Blaizzy/mlx-audio-swift"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

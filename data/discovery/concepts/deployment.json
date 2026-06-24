@@ -395,6 +395,18 @@
       "source_repo": "BrowserWorks/waterfox",
       "status": "candidate-context",
       "text": "\ud83d\ude80 Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "status": "candidate-context",
+      "text": "An example of a speech enhancement model deployed with TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "status": "candidate-context",
+      "text": "The Chinese version of the document can be found in: [\u4f7f\u7528 TensorRT \u90e8\u7f72\u6df1\u5ea6\u5b66\u4e60\u8bed\u97f3\u589e\u5f3a\u6a21\u578b](./readme/README_zh.md)"
     }
   ],
   "candidate_glosses": [
@@ -589,6 +601,12 @@
       "source_repo": "BrowserWorks/waterfox",
       "status": "candidate",
       "text": "\ud83d\ude80 Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiaobin-Rong/TRT-SE",
+      "status": "candidate",
+      "text": "The Chinese version of the document can be found in: [\u4f7f\u7528 TensorRT \u90e8\u7f72\u6df1\u5ea6\u5b66\u4e60\u8bed\u97f3\u589e\u5f3a\u6a21\u578b](./readme/README_zh.md)"
     }
   ],
   "candidate_related_terms": [
@@ -1309,11 +1327,17 @@
       "observed_at": "2026-06-23T18:51:00.487200+00:00",
       "source_file": null,
       "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-24T00:42:42.423974+00:00",
+      "source_file": null,
+      "source_repo": "Xiaobin-Rong/TRT-SE"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T18:51:00.487200+00:00",
+  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
   "lexical_providers": [
     "datamuse"
   ],

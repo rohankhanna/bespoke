@@ -115,7 +115,7 @@
   "normalized_form": "apply",
   "observation_id": "54a75f6017994020",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-24T00:42:42.423974+00:00",
   "observed_text": "Apply",
   "source_context_snippet": "Apply",
   "source_file": ".github/workflows/apply.yml",

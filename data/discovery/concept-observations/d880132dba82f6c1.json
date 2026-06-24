@@ -92,7 +92,7 @@
   "normalized_form": "artifact",
   "observation_id": "d880132dba82f6c1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-23T13:14:02.543868+00:00",
+  "observed_at": "2026-06-24T00:42:42.423974+00:00",
   "observed_text": "Artifact",
   "source_context_snippet": "Artifact",
   "source_file": ".github/workflows/artifact.yml",

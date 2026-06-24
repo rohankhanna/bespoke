@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "pyvista/fast-simplification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "skoch9/meshplot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "alignment-before-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "michelangelo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "shape-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "text-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeuralCarver/Michelangelo",
+      "target": "transformers-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-24T01:19:31.937049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6142
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2023] Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation",
+    "fork": false,
+    "full_name": "NeuralCarver/Michelangelo",
+    "html_url": "https://github.com/NeuralCarver/Michelangelo",
+    "language": "Python",
+    "pushed_at": "2024-04-10T18:02:18Z",
+    "stargazers_count": 484,
+    "topics": [
+      "alignment-before-generation",
+      "image-to-3d",
+      "michelangelo",
+      "shape-generation",
+      "text-to-3d",
+      "transformers-models"
+    ],
+    "updated_at": "2026-06-03T03:46:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyvista/fast-simplification",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skoch9/meshplot",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Zibo Zhao](https://github.com/Maikouuu),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment-before-generation"
+    },
+    {
+      "context_snippet": "[Zibo Zhao](https://github.com/Maikouuu),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "[Zibo Zhao](https://github.com/Maikouuu),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "michelangelo"
+    },
+    {
+      "context_snippet": "[Zibo Zhao](https://github.com/Maikouuu),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape-generation"
+    },
+    {
+      "context_snippet": "[Zibo Zhao](https://github.com/Maikouuu),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    },
+    {
+      "context_snippet": "[Zibo Zhao](https://github.com/Maikouuu),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers-models"
+    }
+  ]
+}
