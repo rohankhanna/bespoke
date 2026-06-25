@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 983,
-    "concepts": 796,
-    "observations": 797,
-    "repos": 89,
-    "terms": 790
+    "components": 1001,
+    "concepts": 809,
+    "observations": 810,
+    "repos": 90,
+    "terms": 803
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "64bit/async-openai",
@@ -65,6 +65,7 @@
     "lance-format/lance",
     "latex-lsp/texlab",
     "MaterializeInc/materialize",
+    "mayocream/koharu",
     "mozilla/cbindgen",
     "mozilla/uniffi-rs",
     "nats-io/nats.rs",

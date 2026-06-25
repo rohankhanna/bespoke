@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6797,
-    "concepts": 1293,
-    "observations": 1297,
-    "repos": 173,
-    "terms": 1400
+    "components": 6861,
+    "concepts": 1301,
+    "observations": 1305,
+    "repos": 175,
+    "terms": 1408
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -125,6 +125,7 @@
     "matt1398/claude-devtools",
     "mattpocock/ts-reset",
     "maxritter/pilot-shell",
+    "messageformat/messageformat",
     "microsoft/node-pty",
     "microsoft/playwright-cli",
     "microsoft/rnx-kit",
@@ -164,6 +165,7 @@
     "redhat-developer/yaml-language-server",
     "remotion-dev/github-unwrapped",
     "sirmalloc/ccstatusline",
+    "solidjs/solid-router",
     "solidjs/solid-start",
     "sql-formatter-org/sql-formatter",
     "statoscope/statoscope",

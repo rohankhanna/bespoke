@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 813,
-    "concepts": 344,
-    "observations": 346,
-    "repos": 50,
-    "terms": 344
+    "components": 835,
+    "concepts": 363,
+    "observations": 365,
+    "repos": 53,
+    "terms": 363
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "actions/container-toolkit-action",
@@ -37,6 +37,9 @@
     "electron/packager",
     "emacs-eldev/eldev",
     "facebookresearch/MHR",
+    "flagos-ai/FlagAttention",
+    "flagos-ai/FlagCX",
+    "flagos-ai/FlagScale",
     "fsprojects/FSharp.Data.GraphQL",
     "fw-ai/cookbook",
     "GDevelopApp/GDevelop-extensions",

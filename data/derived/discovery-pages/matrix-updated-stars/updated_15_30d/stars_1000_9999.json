@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 354,
-    "concepts": 248,
-    "observations": 250,
-    "repos": 33,
-    "terms": 248
+    "components": 336,
+    "concepts": 235,
+    "observations": 237,
+    "repos": 32,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "alichherawalla/off-grid-mobile-ai",
@@ -32,7 +32,6 @@
     "lightning/bolts",
     "litedb-org/LiteDB",
     "lucidrains/vector-quantize-pytorch",
-    "mayocream/koharu",
     "microsoft/TRELLIS.2",
     "mono/SkiaSharp",
     "Nevcairiel/LAVFilters",

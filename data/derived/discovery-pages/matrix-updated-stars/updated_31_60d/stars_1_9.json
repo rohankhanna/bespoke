@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1897,
-    "concepts": 1112,
-    "observations": 1116,
-    "repos": 216,
-    "terms": 1108
+    "components": 1861,
+    "concepts": 1105,
+    "observations": 1109,
+    "repos": 214,
+    "terms": 1101
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0xble/dotagent.nvim",
@@ -120,7 +120,6 @@
     "heroku/buildpacks-procfile",
     "Hiroshiba/voicevox_core",
     "hiyouga/llamafactory-community",
-    "HKUDS/.github",
     "holochain/holonix",
     "HuaweiCloudDeveloper/karpenter-provider-huawei",
     "Humans-of-Julia/BibInternal.jl",
@@ -162,7 +161,6 @@
     "multiformats/github-mgmt",
     "nafg/jewish-date",
     "NightWatcher314/homebrew-formula",
-    "oclif/plugin-search",
     "oclif/plugin-version",
     "octokit/auth-callback.js",
     "open-telemetry/opentelemetry-weaver-examples",

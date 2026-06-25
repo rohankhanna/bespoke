@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-25T05:54:30.678111+00:00`
+Generated at: `2026-06-25T07:47:47.540132+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 114
-- components: 192
-- concepts: 114
-- observations: 118
+- repos: 18
+- terms: 135
+- components: 207
+- concepts: 135
+- observations: 139
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1186 | 2026-06-24T06:54:45Z | Other | Infrastructure/tooling | 21 | 15 | 21 | 21 |
 | [beam-community/elixir-companies](https://github.com/beam-community/elixir-companies) | 1666 | 2026-06-23T18:03:31Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1398 | 2026-06-23T16:43:25Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9222 | 2026-06-23T14:57:17Z | Other | Infrastructure/tooling | 11 | 33 | 11 | 11 |
@@ -64,4 +65,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1398 | 2026-06-23T16:43:25Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [babashka/sci](https://github.com/babashka/sci) | 1364 | 2026-06-20T21:24:30Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [huggingface/swift-transformers](https://github.com/huggingface/swift-transformers) | 1341 | 2026-06-22T03:13:34Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1186 | 2026-06-24T06:54:45Z | Other | Infrastructure/tooling | 21 | 15 | 21 | 21 |
 | [licensee/licensed](https://github.com/licensee/licensed) | 1041 | 2026-06-22T08:11:32Z | Other | Infrastructure/tooling | 8 | 31 | 8 | 8 |

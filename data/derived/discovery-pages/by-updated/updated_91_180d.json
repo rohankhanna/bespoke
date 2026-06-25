@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 19141,
-    "concepts": 12260,
-    "observations": 12300,
-    "repos": 3080,
-    "terms": 12232
+    "components": 19156,
+    "concepts": 12272,
+    "observations": 12312,
+    "repos": 3086,
+    "terms": 12244
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0b01/tigris-and-euphrates",
@@ -387,6 +387,7 @@
     "atotto/clipboard",
     "ATProtoKit/MultiformatsKit",
     "atsushieno/cmidi2",
+    "atsushieno/homebrew-oss",
     "AudioKit/Cookbook",
     "augmnt/augments-mcp-server",
     "auto-complete/auto-complete",
@@ -900,6 +901,7 @@
     "databendlabs/opensrv",
     "databendlabs/watcher",
     "databricks/megablocks",
+    "databrickslabs/pylint-plugin",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "datachainlab/ethereum-ibc-relay-chain",
     "datachainlab/ethereum-ibc-relay-prover",
@@ -1272,6 +1274,7 @@
     "glimmerjs/glimmer-vm",
     "gmberton/CosPlace",
     "gmberton/deep-visual-geo-localization-benchmark",
+    "gmberton/gmberton.github.io",
     "gmberton/VPR-datasets-downloader",
     "go-chi/chi",
     "go-redis/redis_rate",
@@ -1579,6 +1582,7 @@
     "izelnakri/paper_trail",
     "j-bennet/wharfee",
     "j20001970/GDMP-demo",
+    "Jack-Works/react-refresh-transformer",
     "jackielii/qmk_firmware",
     "JacksonBurns/chemeleon",
     "jaegertracing/docker-protobuf",
@@ -2967,6 +2971,8 @@
     "void-linux/xbps",
     "volodya-lombrozo/neotest-ruby-minitest",
     "vorot93/libmdbx-rs",
+    "vovkos/doxyrest",
+    "vovkos/doxyrest_b",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "vuejs/vue-eslint-parser",

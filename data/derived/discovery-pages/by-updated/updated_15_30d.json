@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1179,
-    "concepts": 673,
-    "observations": 677,
+    "components": 1161,
+    "concepts": 671,
+    "observations": 675,
     "repos": 111,
-    "terms": 673
+    "terms": 671
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aden-hive/hive",
@@ -31,6 +31,7 @@
     "bazel-contrib/bazel-gazelle",
     "bencheeorg/benchee",
     "beve-org/beve",
+    "Billionmail/BillionMail",
     "BirolLab/LINKS",
     "celtera/libremidi",
     "clearml/clearml-agent",
@@ -82,7 +83,6 @@
     "lucidrains/vector-quantize-pytorch",
     "lumen-oss/nurr",
     "mayocream/candle",
-    "mayocream/koharu",
     "MetaCubeX/Yacd-meta",
     "microsoft/PowerToys",
     "microsoft/TRELLIS.2",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 738,
-    "concepts": 777,
-    "observations": 778,
-    "repos": 125,
-    "terms": 775
+    "components": 732,
+    "concepts": 774,
+    "observations": 775,
+    "repos": 124,
+    "terms": 772
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -83,7 +83,6 @@
     "kiron1/bazel-compile-commands",
     "kokkos/kokkos-kernels",
     "LedgerHQ/speculos",
-    "libbitcoin/libbitcoin-server",
     "libimobiledevice/libirecovery",
     "libnice/libnice",
     "libsdl-org/SDL_image",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2195,
-    "concepts": 2553,
-    "observations": 2560,
-    "repos": 350,
-    "terms": 2552
+    "components": 2198,
+    "concepts": 2560,
+    "observations": 2567,
+    "repos": 351,
+    "terms": 2559
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -317,6 +317,7 @@
     "shapely/shapely",
     "shenweichen/DeepCTR-Torch",
     "shenweichen/DeepMatch",
+    "shenweichen/GraphEmbedding",
     "sierra-research/tau2-bench",
     "SirVer/ultisnips",
     "sparckles/Robyn",

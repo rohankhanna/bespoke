@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 257,
-    "concepts": 295,
-    "observations": 297,
-    "repos": 20,
-    "terms": 295
+    "components": 247,
+    "concepts": 276,
+    "observations": 278,
+    "repos": 19,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "axolotl-ai-cloud/axolotl",
     "Comfy-Org/ComfyUI-Manager",
@@ -28,7 +28,6 @@
     "OpenHands/OpenHands",
     "psf/black",
     "pydantic/pydantic",
-    "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
     "TEN-framework/ten-framework",
     "ungoogled-software/ungoogled-chromium",

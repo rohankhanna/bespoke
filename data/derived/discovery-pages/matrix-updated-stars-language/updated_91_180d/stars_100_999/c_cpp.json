@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 364,
-    "concepts": 520,
-    "observations": 522,
-    "repos": 119,
-    "terms": 514
+    "components": 367,
+    "concepts": 527,
+    "observations": 529,
+    "repos": 120,
+    "terms": 521
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "AmusementClub/vs-mlrt",
@@ -127,6 +127,7 @@
     "ValveSoftware/Fossilize",
     "vcflib/vcflib",
     "veorq/SipHash",
+    "vovkos/doxyrest",
     "websockets/bufferutil",
     "xtensor-stack/xtensor-python",
     "xtensor-stack/xtl",

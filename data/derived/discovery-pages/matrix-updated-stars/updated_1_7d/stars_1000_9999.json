@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1357,
-    "concepts": 516,
-    "observations": 523,
-    "repos": 75,
-    "terms": 515
+    "components": 1610,
+    "concepts": 564,
+    "observations": 571,
+    "repos": 79,
+    "terms": 563
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "Aleksoid1978/VideoRenderer",
@@ -57,8 +57,10 @@
     "libsndfile/libsndfile",
     "licensee/licensed",
     "meta-pytorch/captum",
+    "microsoft/aspire-samples",
     "microsoft/vscode-js-debug",
     "modelscope/FunClip",
+    "module-federation/core",
     "mudler/LocalAGI",
     "nodenv/nodenv",
     "okd-project/okd",
@@ -70,6 +72,7 @@
     "qt/qtbase",
     "react-native-webview/react-native-webview",
     "red-data-tools/pycall.rb",
+    "redis/redis-om-python",
     "roboflow/maestro",
     "safetensors/safetensors",
     "seancorfield/honeysql",
@@ -80,6 +83,7 @@
     "tape-testing/tape",
     "TheTom/llama-cpp-turboquant",
     "TryGhost/node-sqlite3",
+    "typescript-language-server/typescript-language-server",
     "ufbx/ufbx",
     "vapoursynth/vapoursynth",
     "vuejs/devtools",

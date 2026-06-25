@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6944,
-    "concepts": 4413,
-    "observations": 4427,
-    "repos": 1055,
-    "terms": 4388
+    "components": 6947,
+    "concepts": 4420,
+    "observations": 4434,
+    "repos": 1056,
+    "terms": 4395
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -1011,6 +1011,7 @@
     "VisionLearningGroup/VisionLearningGroup.github.io",
     "Visual-Agent/DeepEyesV2",
     "vlaaad/reveal",
+    "vovkos/doxyrest",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "vuejs/vue-eslint-parser",

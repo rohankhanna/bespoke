@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 16502,
-    "concepts": 9432,
-    "observations": 9460,
-    "repos": 1050,
-    "terms": 9365
+    "components": 16449,
+    "concepts": 9421,
+    "observations": 9449,
+    "repos": 1047,
+    "terms": 9354
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "1andrevich/Re-filter-lists",
@@ -599,6 +599,7 @@
     "marzer/tomlplusplus",
     "MaterializeInc/materialize",
     "mathjax/MathJax-src",
+    "mayocream/koharu",
     "mdn/translated-content",
     "mdn/yari",
     "MeanderingProgrammer/render-markdown.nvim",
@@ -607,7 +608,6 @@
     "mermaid-js/mermaid-cli",
     "mermaid-js/mermaid-live-editor",
     "mesonbuild/meson",
-    "messageformat/messageformat",
     "meta-pytorch/data",
     "meta-pytorch/torchrec",
     "MetaCubeX/metacubexd",
@@ -877,7 +877,6 @@
     "SFML/imgui-sfml",
     "shareAI-lab/Kode-Agent",
     "shenweichen/DeepCTR",
-    "shenweichen/GraphEmbedding",
     "shibing624/MedicalGPT",
     "shivammehta25/Matcha-TTS",
     "Shopify/ruby-lsp",
@@ -893,7 +892,6 @@
     "smartstore/Smartstore",
     "smithy-lang/smithy",
     "solidjs-community/solid-primitives",
-    "solidjs/solid-router",
     "SonarSource/sonar-java",
     "sorbet/sorbet",
     "souzatharsis/podcastfy",
@@ -966,7 +964,6 @@
     "TorchIO-project/torchio",
     "tox-dev/pipdeptree",
     "truffleruby/truffleruby",
-    "trzsz/trzsz-ssh",
     "ts-safeql/safeql",
     "tuist/XcodeProj",
     "TypeScriptToLua/TypeScriptToLua",

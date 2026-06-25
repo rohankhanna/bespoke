@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1279,
+    "components": 1274,
     "concepts": 327,
     "observations": 327,
-    "repos": 88,
+    "repos": 87,
     "terms": 327
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
@@ -56,7 +56,6 @@
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
     "itsrishika/payment-bypass-bug-lab",
-    "Jack-Works/react-refresh-transformer",
     "jasmine/jasmine-browser-runner",
     "kellyselden/eslint-plugin-json-files",
     "Level/browser-level",

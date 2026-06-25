@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3176,
-    "concepts": 1404,
-    "observations": 1405,
+    "components": 3211,
+    "concepts": 1410,
+    "observations": 1411,
     "repos": 421,
-    "terms": 1432
+    "terms": 1438
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/pil2-proofman-js",
@@ -238,7 +238,6 @@
     "gbrobro119-star/darksword-kexploit",
     "gibdd-dps/prizolov-agent-os",
     "gkr-bot/gkr-bot",
-    "gmberton/gmberton.github.io",
     "goreleaser/.github",
     "goreleaser/sponsors",
     "gr2m/octokit-oauth-app-begin-example",
@@ -254,6 +253,7 @@
     "hchiam/learning-js",
     "helix-toolkit/helix-toolkit.github.io",
     "HKU-BAL/Clair-skills",
+    "HKUDS/.github",
     "hsivonen/chardetng_c",
     "huggingface/fuser",
     "huggingface/hf-csi-driver",
@@ -333,6 +333,7 @@
     "objectbox/objectbox-swift-spm",
     "objectbox/objectbox-sync-examples",
     "oclif/plugin-commands",
+    "oclif/plugin-search",
     "octokit/auth-unauthenticated.js",
     "octokit/openapi-webhooks",
     "onicai/IConfucius",
@@ -427,7 +428,6 @@
     "vegardit/vegardit-maven-parent",
     "verkyyi/tokenman",
     "vincent-k2026/codachi",
-    "vovkos/doxyrest_b",
     "walles/ftop",
     "wavelens/gobgp.nix",
     "web-platform-tests/results-analysis-cache",

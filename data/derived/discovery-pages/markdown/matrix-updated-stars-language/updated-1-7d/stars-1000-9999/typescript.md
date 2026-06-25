@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-06-25T05:54:30.678111+00:00`
+Generated at: `2026-06-25T07:47:47.540132+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 50
-- components: 483
-- concepts: 50
-- observations: 50
+- repos: 11
+- terms: 56
+- components: 533
+- concepts: 56
+- observations: 56
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2512 | 2026-06-24T05:55:17Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
 | [electron/rebuild](https://github.com/electron/rebuild) | 1118 | 2026-06-23T23:52:22Z | TypeScript | Infrastructure/tooling | 5 | 38 | 5 | 5 |
 | [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1292 | 2026-06-23T20:47:46Z | TypeScript | Infrastructure/tooling | 4 | 26 | 4 | 4 |
 | [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1951 | 2026-06-22T21:54:34Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |
@@ -48,6 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [shareAI-lab/Kode-CLI](https://github.com/shareAI-lab/Kode-CLI) | 5143 | 2026-06-22T12:46:31Z | TypeScript | CLI | 5 | 115 | 5 | 5 |
 | [vuejs/devtools](https://github.com/vuejs/devtools) | 2858 | 2026-06-18T20:12:00Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
 | [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2554 | 2026-06-21T04:26:51Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
+| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2512 | 2026-06-24T05:55:17Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
 | [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1951 | 2026-06-22T21:54:34Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |
 | [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1292 | 2026-06-23T20:47:46Z | TypeScript | Infrastructure/tooling | 4 | 26 | 4 | 4 |
 | [electron/rebuild](https://github.com/electron/rebuild) | 1118 | 2026-06-23T23:52:22Z | TypeScript | Infrastructure/tooling | 5 | 38 | 5 | 5 |

@@ -1,20 +1,19 @@
 {
   "counts": {
     "components": 358,
-    "concepts": 80,
-    "observations": 81,
-    "repos": 8,
-    "terms": 80
+    "concepts": 69,
+    "observations": 70,
+    "repos": 7,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "AndyMik90/Aperant",
-    "Billionmail/BillionMail",
     "chatboxai/chatbox",
     "datalab-to/surya",
     "gitleaks/gitleaks",

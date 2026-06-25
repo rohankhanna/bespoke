@@ -1,20 +1,21 @@
 {
   "counts": {
     "components": 205,
-    "concepts": 82,
-    "observations": 84,
-    "repos": 9,
-    "terms": 82
+    "concepts": 93,
+    "observations": 95,
+    "repos": 10,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
+    "Billionmail/BillionMail",
     "googleapis/google-api-nodejs-client",
     "Lightning-AI/pytorch-lightning",
     "nwjs/nw.js",

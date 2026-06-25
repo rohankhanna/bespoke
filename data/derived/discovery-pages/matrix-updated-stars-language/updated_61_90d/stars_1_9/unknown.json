@@ -3,7 +3,7 @@
     "components": 44,
     "concepts": 89,
     "observations": 89,
-    "repos": 68,
+    "repos": 69,
     "terms": 89
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -65,6 +65,7 @@
     "flinedev/marketplace",
     "gkr-bot/gkr-bot",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
+    "HKUDS/.github",
     "kyverno/community",
     "lab-cosmo/.github",
     "langchain-ai/.github",

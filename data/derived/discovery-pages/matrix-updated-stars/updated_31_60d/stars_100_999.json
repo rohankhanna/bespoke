@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11124,
-    "concepts": 6186,
-    "observations": 6201,
-    "repos": 966,
-    "terms": 6146
+    "components": 11110,
+    "concepts": 6177,
+    "observations": 6192,
+    "repos": 964,
+    "terms": 6137
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0no-co/wonka",
@@ -285,7 +285,6 @@
     "eblerjana/pangenie",
     "echonet/dynamic",
     "EdenEast/nyx",
-    "eitsupi/arf",
     "electerm/electerm-web",
     "electron-vite/vite-plugin-electron",
     "electron-vite/vite-plugin-electron-renderer",
@@ -556,7 +555,6 @@
     "LedgerHQ/speculos",
     "left-curve/left-curve",
     "LemmyNet/lemmy-js-client",
-    "libbitcoin/libbitcoin-server",
     "libbpf/blazesym",
     "libimobiledevice/libirecovery",
     "libnice/libnice",

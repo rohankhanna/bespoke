@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 400,
-    "concepts": 254,
-    "observations": 254,
-    "repos": 26,
-    "terms": 254
+    "components": 439,
+    "concepts": 308,
+    "observations": 308,
+    "repos": 28,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "apache/brpc",
@@ -32,8 +32,10 @@
     "mixmark-io/turndown",
     "podman-container-tools/podman",
     "pyg-team/pytorch_geometric",
+    "qubvel-org/segmentation_models.pytorch",
     "ratatui/ratatui",
     "rust-lang/mdBook",
+    "ruvnet/ruflo",
     "TA-Lib/ta-lib-python",
     "tinygrad/tinygrad",
     "tracel-ai/burn",

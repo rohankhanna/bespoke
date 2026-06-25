@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 2,
-    "terms": 3
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
-    "mozilla-ai/otari-anyguardrail-container",
     "rasahq/pytest-sanic"
   ]
 }

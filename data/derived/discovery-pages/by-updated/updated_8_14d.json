@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1063,
-    "concepts": 558,
-    "observations": 560,
+    "components": 1072,
+    "concepts": 550,
+    "observations": 552,
     "repos": 90,
-    "terms": 549
+    "terms": 541
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "abaplint/transpiler",
@@ -40,7 +40,6 @@
     "babashka/nbb",
     "bazel-contrib/rules_jvm_external",
     "benchmark-action/github-action-benchmark",
-    "Billionmail/BillionMail",
     "Blaizzy/mlx-audio-swift",
     "callstack/react-native-builder-bob",
     "chatboxai/chatbox",
@@ -74,6 +73,7 @@
     "mesh-iit/cad-libraries",
     "meta-pytorch/tnt",
     "microsoft/PhiCookBook",
+    "mozilla-ai/otari-anyguardrail-container",
     "mozilla-ai/otari-cli",
     "mozilla-ai/otari-sdk-go",
     "mozilla-ai/otari-sdk-python",

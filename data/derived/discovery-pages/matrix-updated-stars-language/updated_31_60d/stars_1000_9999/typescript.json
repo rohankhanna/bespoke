@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6287,
-    "concepts": 1253,
-    "observations": 1255,
-    "repos": 142,
-    "terms": 1245
+    "components": 6223,
+    "concepts": 1245,
+    "observations": 1247,
+    "repos": 140,
+    "terms": 1237
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -86,7 +86,6 @@
     "Koenkk/zigbee-herdsman-converters",
     "mathjax/MathJax-src",
     "mdn/yari",
-    "messageformat/messageformat",
     "microsoft/vscode-cmake-tools",
     "microsoft/vscode-python",
     "modelcontextprotocol/inspector",
@@ -122,7 +121,6 @@
     "SilentVoid13/Templater",
     "sinclairzx81/typebox",
     "solidjs-community/solid-primitives",
-    "solidjs/solid-router",
     "sparkjsdev/spark",
     "stackblitz-labs/pkg.pr.new",
     "standard/eslint-config-standard",

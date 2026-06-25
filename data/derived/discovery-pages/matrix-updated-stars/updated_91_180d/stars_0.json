@@ -3,7 +3,7 @@
     "components": 373,
     "concepts": 173,
     "observations": 175,
-    "repos": 116,
+    "repos": 117,
     "terms": 174
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -26,6 +26,7 @@
     "all-the-noises/data",
     "arckoor/botan-rs",
     "artsy/react-native-launch-arguments",
+    "atsushieno/homebrew-oss",
     "Bearer/homebrew-tap",
     "beurdouche/nss-gk-api",
     "bgw/bincode",

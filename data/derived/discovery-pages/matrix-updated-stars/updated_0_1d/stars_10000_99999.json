@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1276,
-    "concepts": 679,
-    "observations": 683,
-    "repos": 47,
-    "terms": 688
+    "components": 1237,
+    "concepts": 625,
+    "observations": 629,
+    "repos": 45,
+    "terms": 625
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "argotorg/solidity",
     "axolotl-ai-cloud/axolotl",
@@ -43,12 +43,10 @@
     "psf/black",
     "pydantic/pydantic",
     "QuantumNous/new-api",
-    "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
     "redis/go-redis",
     "run-llama/llama_index",
     "rust-lang/rust-analyzer",
-    "ruvnet/ruflo",
     "spaceship-prompt/spaceship-prompt",
     "storybookjs/storybook",
     "swiftlang/swift",

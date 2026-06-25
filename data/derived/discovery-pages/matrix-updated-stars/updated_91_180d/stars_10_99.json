@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3404,
-    "concepts": 1978,
-    "observations": 1985,
-    "repos": 688,
-    "terms": 1984
+    "components": 3415,
+    "concepts": 1982,
+    "observations": 1989,
+    "repos": 690,
+    "terms": 1988
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -241,6 +241,7 @@
     "dannyhw/react-native-storybook-starter",
     "dao-xyz/borsh-ts",
     "databendlabs/opensrv",
+    "databrickslabs/pylint-plugin",
     "datachainlab/ethereum-ibc-relay-chain",
     "datajuicer/data-juicer-hub",
     "DavidKinder/Git",
@@ -398,6 +399,7 @@
     "iterate-ch/docs",
     "ithiria894/awesome-claude-code-hooks",
     "j20001970/GDMP-demo",
+    "Jack-Works/react-refresh-transformer",
     "jaegertracing/docker-protobuf",
     "JaeZ1205/PS_NBI2k",
     "jakewvincent/texmagic.nvim",

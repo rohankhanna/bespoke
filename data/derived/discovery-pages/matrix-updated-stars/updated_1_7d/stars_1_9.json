@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 91,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 11,
-    "terms": 52
+    "components": 99,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 12,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
+    "abap2UI5-addons/layout-management",
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "CleverCloud/karpenter-provider-clever-cloud",
     "cloudfoundry/credhub-acceptance-tests",

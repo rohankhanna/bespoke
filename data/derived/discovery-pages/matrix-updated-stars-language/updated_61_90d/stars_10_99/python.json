@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 738,
-    "concepts": 545,
-    "observations": 547,
-    "repos": 145,
-    "terms": 563
+    "components": 732,
+    "concepts": 541,
+    "observations": 543,
+    "repos": 144,
+    "terms": 559
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "Accenture/Cymple",
@@ -67,7 +67,6 @@
     "crs4/rocrate-validator",
     "cswry/VOSR",
     "daltonmaag/vttLib",
-    "databrickslabs/pylint-plugin",
     "datajuicer/data-juicer-agents",
     "dathere/datapusher-plus",
     "DeterminateSystems/determinate-nix-action",

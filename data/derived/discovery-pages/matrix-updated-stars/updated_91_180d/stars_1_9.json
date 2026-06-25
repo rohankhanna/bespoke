@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1166,
-    "concepts": 735,
-    "observations": 737,
-    "repos": 300,
-    "terms": 730
+    "components": 1167,
+    "concepts": 736,
+    "observations": 738,
+    "repos": 302,
+    "terms": 731
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -167,6 +167,7 @@
     "gajus/eslint-plugin-slonik",
     "gakonst/foundry",
     "genius-harry/neural-chat",
+    "gmberton/gmberton.github.io",
     "gost-dom/shaman",
     "gost-dom/webref",
     "guoqingbao/flashattn.rs",
@@ -305,6 +306,7 @@
     "vim-fuzzbox/fuzzbox-lsp.vim",
     "vllm-project/media-kit",
     "volodya-lombrozo/neotest-ruby-minitest",
+    "vovkos/doxyrest_b",
     "WebAssembly/compact-import-section",
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
     "yamachu/VoicevoxCoreSwift",

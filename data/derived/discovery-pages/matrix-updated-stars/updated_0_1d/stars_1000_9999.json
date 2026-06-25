@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 894,
-    "concepts": 492,
-    "observations": 495,
-    "repos": 45,
-    "terms": 492
+    "components": 641,
+    "concepts": 444,
+    "observations": 447,
+    "repos": 41,
+    "terms": 444
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
     "aws/karpenter-provider-aws",
@@ -40,22 +40,18 @@
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "microsoft/aspire",
-    "microsoft/aspire-samples",
     "modelcontextprotocol/modelcontextprotocol",
     "modelscope/ms-agent",
-    "module-federation/core",
     "off-grid-ai/mobile",
     "ogx-ai/ogx",
     "podman-desktop/podman-desktop",
     "PrimeIntellect-ai/verifiers",
     "pyvista/pyvista",
-    "redis/redis-om-python",
     "rllm-org/rllm",
     "ROCm/ROCm",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "TrenchBroom/TrenchBroom",
-    "typescript-language-server/typescript-language-server",
     "vale-cli/vale",
     "web-platform-tests/wpt"
   ]

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 14990,
-    "concepts": 9067,
-    "observations": 9112,
-    "repos": 1734,
-    "terms": 9202
+    "components": 15001,
+    "concepts": 9069,
+    "observations": 9114,
+    "repos": 1735,
+    "terms": 9204
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -577,6 +577,7 @@
     "eddelbuettel/rcppsimdjson",
     "ehmicky/nve",
     "eigenwallet/core",
+    "eitsupi/arf",
     "ekalinin/github-markdown-toc.go",
     "eladnava/pikud-haoref-api",
     "elastic/docs",
@@ -1041,6 +1042,7 @@
     "Level/abstract-level",
     "lewislulu/llm-wiki-skill",
     "libbitcoin/libbitcoin-node",
+    "libbitcoin/libbitcoin-server",
     "libimobiledevice/libplist",
     "libLAS/libLAS",
     "libvips/build-win64-mxe",
@@ -1699,7 +1701,6 @@
     "vladimir-kotikov/clink-completions",
     "vllm-project/flash-attention",
     "volcengine/volcengine-python-sdk",
-    "vovkos/doxyrest",
     "voxel51/fiftyone-brain",
     "vuki656/package-info.nvim",
     "w3c/aria",

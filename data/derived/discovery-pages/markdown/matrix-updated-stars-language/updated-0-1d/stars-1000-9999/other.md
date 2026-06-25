@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-25T05:54:30.678111+00:00`
+Generated at: `2026-06-25T07:47:47.540132+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 117
-- components: 104
-- concepts: 117
-- observations: 118
+- repos: 8
+- terms: 96
+- components: 89
+- concepts: 96
+- observations: 97
 
 ## Static behavior
 
@@ -34,7 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1437 | 2026-06-24T15:59:56Z | Other | CLI | 11 | 14 | 11 | 11 |
 | [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5813 | 2026-06-24T13:36:14Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5095 | 2026-06-24T10:46:15Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
-| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1186 | 2026-06-24T06:54:45Z | Other | Infrastructure/tooling | 21 | 15 | 21 | 21 |
 
 ## Repos sorted by stars
 
@@ -48,4 +47,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1926 | 2026-06-24T21:36:19Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1437 | 2026-06-24T15:59:56Z | Other | CLI | 11 | 14 | 11 | 11 |
 | [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1233 | 2026-06-25T01:42:10Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1186 | 2026-06-24T06:54:45Z | Other | Infrastructure/tooling | 21 | 15 | 21 | 21 |

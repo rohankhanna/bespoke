@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4676,
-    "concepts": 2417,
-    "observations": 2429,
-    "repos": 500,
-    "terms": 2400
+    "components": 4584,
+    "concepts": 2403,
+    "observations": 2415,
+    "repos": 498,
+    "terms": 2386
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "1-Platform/op-components",
@@ -352,8 +352,6 @@
     "NVIDIA/multi-storage-client",
     "obsidianmd/eslint-plugin",
     "ocaml-tracing/ocaml-trace",
-    "oclif/plugin-autocomplete",
-    "oclif/plugin-update",
     "oclif/test",
     "octokit/auth-action.js",
     "octokit/auth-oauth-app.js",

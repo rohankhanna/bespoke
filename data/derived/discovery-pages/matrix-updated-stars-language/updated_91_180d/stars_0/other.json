@@ -3,7 +3,7 @@
     "components": 46,
     "concepts": 32,
     "observations": 32,
-    "repos": 23,
+    "repos": 24,
     "terms": 32
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
+    "atsushieno/homebrew-oss",
     "Bearer/homebrew-tap",
     "bookcars/bookcars.github.io",
     "charlesnicholson/docker-images",

@@ -3,7 +3,7 @@
     "components": 925,
     "concepts": 374,
     "observations": 374,
-    "repos": 237,
+    "repos": 236,
     "terms": 404
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T05:54:30.678111+00:00",
+  "generated_at": "2026-06-25T07:47:47.540132+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -37,7 +37,6 @@
     "arckoor/jsonwebtoken-botan",
     "arnaud-lb/php-rdkafka",
     "ashton/neotest-gleam-unitest",
-    "atsushieno/homebrew-oss",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "b2agi/exist-is-charter",
     "b2agi/exist-is-charter_kr",
