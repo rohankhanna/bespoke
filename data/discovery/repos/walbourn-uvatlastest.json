@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walbourn/uvatlastest",
+      "target": "uvatlas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:32.656226+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tests for UVAtlas",
+    "fork": false,
+    "full_name": "walbourn/uvatlastest",
+    "html_url": "https://github.com/walbourn/uvatlastest",
+    "language": "C++",
+    "pushed_at": "2025-11-01T20:41:05Z",
+    "stargazers_count": 8,
+    "topics": [
+      "uvatlas"
+    ],
+    "updated_at": "2025-10-30T00:27:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Copyright (c) Microsoft Corporation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uvatlas"
+    }
+  ]
+}

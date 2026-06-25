@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdbds/Hunyuan3D-2-for-windows",
+      "target": "zebinhe/materialmvp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdbds/Hunyuan3D-2-for-windows",
+      "target": "tencent/flashvdm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdbds/Hunyuan3D-2-for-windows",
+      "target": "yanwenkun/hunyuan3d-2-winportable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdbds/Hunyuan3D-2-for-windows",
+      "target": "wyysf-98/craftsman3d",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:07.998261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17679
+    },
+    {
+      "path": "requirements.txt",
+      "size": 422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models.",
+    "fork": true,
+    "full_name": "sdbds/Hunyuan3D-2-for-windows",
+    "html_url": "https://github.com/sdbds/Hunyuan3D-2-for-windows",
+    "language": "Python",
+    "pushed_at": "2025-04-22T12:05:10Z",
+    "stargazers_count": 214,
+    "topics": [],
+    "updated_at": "2026-06-22T20:43:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/flashvdm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wyysf-98/craftsman3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yanwenkun/hunyuan3d-2-winportable",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zebinhe/materialmvp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

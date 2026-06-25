@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Harbor is a framework for running agent evaluations and creating and using RL environments."
+      "text": "Framework for evaluating and improving agents "
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "pr-diff-links",
   "observation_id": "50e19f3437e6521b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T13:00:17.759930+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "PR Diff Links",
   "source_context_snippet": "PR Diff Links",
   "source_file": ".github/workflows/pr-diff-links.yml",
   "source_repo": "harbor-framework/harbor",
-  "source_repo_description": "Harbor is a framework for running agent evaluations and creating and using RL environments."
+  "source_repo_description": "Framework for evaluating and improving agents "
 }

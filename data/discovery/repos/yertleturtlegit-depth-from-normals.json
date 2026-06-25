@@ -1,0 +1,281 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "GuillaumeFalourd/git-commit-push@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/map_pipeline.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@v0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/map_pipeline.yml"
+    },
+    {
+      "component": "technote-space/toc-generator@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/map_pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/map_pipeline_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "GuillaumeFalourd/git-commit-push@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_check.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "Lint Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/map_pipeline.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/map_pipeline.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "ad-m/github-push-action@v0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/map_pipeline.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "technote-space/toc-generator@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/map_pipeline.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "Map Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/map_pipeline_check.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/map_pipeline_check.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "Map Pipeline Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "depth-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "height-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "heightmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "target": "normal-mapping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:15.808701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16662
+    },
+    {
+      "path": "requirements.txt",
+      "size": 124
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 489
+    },
+    {
+      "path": ".github/workflows/lint_check.yml",
+      "size": 337
+    },
+    {
+      "path": ".github/workflows/map_pipeline.yml",
+      "size": 1760
+    },
+    {
+      "path": ".github/workflows/map_pipeline_check.yml",
+      "size": 854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Estimates a depth mapping from a given normal mapping.",
+    "fork": false,
+    "full_name": "YertleTurtleGit/depth-from-normals",
+    "html_url": "https://github.com/YertleTurtleGit/depth-from-normals",
+    "language": "Python",
+    "pushed_at": "2025-12-10T13:16:00Z",
+    "stargazers_count": 95,
+    "topics": [
+      "depth-estimation",
+      "depth-mapping",
+      "height-estimation",
+      "heightmap",
+      "normal-mapping"
+    ],
+    "updated_at": "2026-05-07T10:28:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Lint Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_check.yml",
+      "term": "Lint Check"
+    },
+    {
+      "context_snippet": "Map Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/map_pipeline.yml",
+      "term": "Map Pipeline"
+    },
+    {
+      "context_snippet": "Map Pipeline Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/map_pipeline_check.yml",
+      "term": "Map Pipeline Check"
+    },
+    {
+      "context_snippet": "[![Map Pipeline](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml/badge.svg)](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "[![Map Pipeline](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml/badge.svg)](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-mapping"
+    },
+    {
+      "context_snippet": "[![Map Pipeline](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml/badge.svg)](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "height-estimation"
+    },
+    {
+      "context_snippet": "[![Map Pipeline](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml/badge.svg)](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heightmap"
+    },
+    {
+      "context_snippet": "[![Map Pipeline](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml/badge.svg)](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normal-mapping"
+    }
+  ]
+}

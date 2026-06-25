@@ -302,11 +302,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T13:22:01.583202+00:00",
+  "fetched_at": "2026-06-25T01:49:51.207220+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 5479
+      "size": 5579
     },
     {
       "path": "pyproject.toml",
@@ -346,14 +346,14 @@
     "full_name": "Farama-Foundation/Minigrid",
     "html_url": "https://github.com/Farama-Foundation/Minigrid",
     "language": "Python",
-    "pushed_at": "2026-06-24T11:30:21Z",
+    "pushed_at": "2026-06-24T15:41:04Z",
     "stargazers_count": 2469,
     "topics": [
       "gridworld-environment",
       "gymnasium",
       "gymnasium-environment"
     ],
-    "updated_at": "2026-06-24T11:30:21Z"
+    "updated_at": "2026-06-24T14:17:22Z"
   },
   "repo_links": [
     {
@@ -394,19 +394,19 @@
       "term": "Tests"
     },
     {
-      "context_snippet": "[![PyPI version](https://badge.fury.io/py/minigrid.svg)](https://badge.fury.io/py/minigrid)",
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/minigrid.svg)](https://badge.fury.io/py/minigrid)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gridworld-environment"
     },
     {
-      "context_snippet": "[![PyPI version](https://badge.fury.io/py/minigrid.svg)](https://badge.fury.io/py/minigrid)",
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/minigrid.svg)](https://badge.fury.io/py/minigrid)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gymnasium"
     },
     {
-      "context_snippet": "[![PyPI version](https://badge.fury.io/py/minigrid.svg)](https://badge.fury.io/py/minigrid)",
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/minigrid.svg)](https://badge.fury.io/py/minigrid)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gymnasium-environment"

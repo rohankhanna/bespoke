@@ -19,6 +19,12 @@
       "source_repo": "harbor-framework/harbor",
       "status": "candidate-context",
       "text": "PR Diff Links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harbor-framework/harbor",
+      "status": "candidate-context",
+      "text": "Framework for evaluating and improving agents "
     }
   ],
   "candidate_glosses": [
@@ -142,11 +148,17 @@
       "observed_at": "2026-06-24T13:00:17.759930+00:00",
       "source_file": ".github/workflows/pr-diff-links.yml",
       "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/pr-diff-links.yml",
+      "source_repo": "harbor-framework/harbor"
     }
   ],
   "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

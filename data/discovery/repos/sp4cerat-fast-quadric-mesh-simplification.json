@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp4cerat/Fast-Quadric-Mesh-Simplification",
+      "target": "neurolabusc/nii2mesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp4cerat/Fast-Quadric-Mesh-Simplification",
+      "target": "neurolabusc/niivue-simplify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp4cerat/Fast-Quadric-Mesh-Simplification",
+      "target": "ataber/mesh-simplify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp4cerat/Fast-Quadric-Mesh-Simplification",
+      "target": "myminifactory/fast-quadric-mesh-simplification",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:32.177008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3743
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mesh triangle reduction using quadrics",
+    "fork": false,
+    "full_name": "sp4cerat/Fast-Quadric-Mesh-Simplification",
+    "html_url": "https://github.com/sp4cerat/Fast-Quadric-Mesh-Simplification",
+    "language": "C",
+    "pushed_at": "2024-07-28T15:58:10Z",
+    "stargazers_count": 1741,
+    "topics": [],
+    "updated_at": "2026-06-22T05:08:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ataber/mesh-simplify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "myminifactory/fast-quadric-mesh-simplification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neurolabusc/nii2mesh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neurolabusc/niivue-simplify",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

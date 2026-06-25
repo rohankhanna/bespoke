@@ -84,7 +84,7 @@
   "normalized_form": "common-functional-tests---heterogeneous-training",
   "observation_id": "60f1eb555a5f6a4d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T18:42:53.825671+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "Common Functional Tests - Heterogeneous Training",
   "source_context_snippet": "Common Functional Tests - Heterogeneous Training",
   "source_file": ".github/workflows/functional_tests_hetero_train.yml",

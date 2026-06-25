@@ -1513,6 +1513,18 @@
       "source_repo": "zyddnys/manga-image-translator",
       "status": "candidate-context",
       "text": "Last Updated: 2025/05/10"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/exporters",
+      "status": "candidate-context",
+      "text": "Export Hugging Face models to Core ML and TensorFlow Lite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/exporters",
+      "status": "candidate-context",
+      "text": "<!---"
     }
   ],
   "candidate_glosses": [
@@ -2271,6 +2283,12 @@
       "source_repo": "zyddnys/manga-image-translator",
       "status": "candidate",
       "text": "Last Updated: 2025/05/10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/exporters",
+      "status": "candidate",
+      "text": "<!---"
     }
   ],
   "candidate_related_terms": [
@@ -7696,11 +7714,77 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": null,
       "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/exporters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

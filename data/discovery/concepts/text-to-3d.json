@@ -127,6 +127,30 @@
       "source_repo": "3DTopia/LGM",
       "status": "candidate-context",
       "text": "torch numpy tyro diffusers dearpygui einops accelerate gradio imageio imageio-ffmpeg lpips matplotlib packaging Pillow pygltflib rembg[gpu,cli] rich safetensors scikit-image scikit-learn scipy tqdm transformers trimesh kiui >= 0.2.3 xatlas roma plyfile"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "status": "candidate-context",
+      "text": "From Images to High-Fidelity 3D Assets with Production-Ready PBR Material"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "status": "candidate-context",
+      "text": "Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels with Hunyuan3D World Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "3DTopia/LGM",
       "status": "candidate",
       "text": "torch numpy tyro diffusers dearpygui einops accelerate gradio imageio imageio-ffmpeg lpips matplotlib packaging Pillow pygltflib rembg[gpu,cli] rich safetensors scikit-image scikit-learn scipy tqdm transformers trimesh kiui >= 0.2.3 xatlas roma plyfile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +298,23 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": null,
       "source_repo": "3DTopia/LGM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

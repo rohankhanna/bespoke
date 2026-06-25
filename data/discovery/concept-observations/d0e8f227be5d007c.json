@@ -84,7 +84,7 @@
   "normalized_form": "cleanup-issue-comment",
   "observation_id": "d0e8f227be5d007c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T13:00:17.759930+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "Cleanup issue comment",
   "source_context_snippet": "Cleanup issue comment",
   "source_file": ".github/workflows/issue-cleanup.yml",

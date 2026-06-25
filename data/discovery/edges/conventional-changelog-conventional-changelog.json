@@ -172,7 +172,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -186,7 +186,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "pnpm/action-setup@v5",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -207,14 +207,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "pnpm/action-setup@v5",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -235,7 +235,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -249,7 +249,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "pnpm/action-setup@v5",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -270,14 +270,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "pnpm/action-setup@v5",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -330,6 +330,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-24T07:22:11.002189+00:00",
+  "generated_at": "2026-06-25T00:47:33.944341+00:00",
   "source_repo": "conventional-changelog/conventional-changelog"
 }

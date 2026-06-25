@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check.yaml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/check.yaml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check.yaml"
     },
@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/check.yaml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check.yaml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/check.yaml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
@@ -95,7 +95,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check.yaml",
       "source_repo": "tox-dev/filelock",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -130,7 +130,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "tox-dev/filelock",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -183,7 +183,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T13:24:24.793822+00:00",
+  "fetched_at": "2026-06-25T01:51:46.167584+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -195,11 +195,11 @@
     },
     {
       "path": ".github/workflows/check.yaml",
-      "size": 5070
+      "size": 5082
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 5767
+      "size": 5775
     }
   ],
   "related_repositories": [],
@@ -211,14 +211,14 @@
     "full_name": "tox-dev/filelock",
     "html_url": "https://github.com/tox-dev/filelock",
     "language": "Python",
-    "pushed_at": "2026-06-24T11:42:36Z",
+    "pushed_at": "2026-06-24T14:11:22Z",
     "stargazers_count": 961,
     "topics": [
       "filelock",
       "hacktoberfest",
       "python"
     ],
-    "updated_at": "2026-06-24T07:37:26Z"
+    "updated_at": "2026-06-24T14:14:35Z"
   },
   "repo_links": [
     {

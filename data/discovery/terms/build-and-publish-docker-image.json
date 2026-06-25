@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -66,6 +66,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker-publish.yaml",
       "source_repo": "RVC-Boss/GPT-SoVITS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-package.yml",
+      "source_repo": "pyvista/pyvista"
     }
   ],
   "term": "Build and Publish Docker Image"

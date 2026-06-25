@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Publish package to PyPI"
+    "Publish package to PyPI",
+    "Publish package to PyPi"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "NeilGirdhar/tjax",
       "status": "candidate-context",
       "text": "Publish package to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "claritychallenge/clarity",
+      "status": "candidate-context",
+      "text": "Clarity Challenge toolkit - software for building Clarity Challenge systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "claritychallenge/clarity",
+      "status": "candidate-context",
+      "text": "Publish package to PyPi"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "NeilGirdhar/tjax",
       "status": "candidate",
       "text": "Publish package to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "claritychallenge/clarity",
+      "status": "candidate",
+      "text": "Publish package to PyPi"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "NeilGirdhar/tjax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "claritychallenge/clarity"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

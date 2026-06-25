@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpariente/pytorch_stoi",
+      "target": "mpariente/pystoi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mpariente/pytorch_stoi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mpariente/pytorch_stoi",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:01:15.271930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3034
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 585
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "STOI loss function in PyTorch",
+    "fork": false,
+    "full_name": "mpariente/pytorch_stoi",
+    "html_url": "https://github.com/mpariente/pytorch_stoi",
+    "language": "Python",
+    "pushed_at": "2024-09-30T15:21:16Z",
+    "stargazers_count": 106,
+    "topics": [],
+    "updated_at": "2026-06-23T08:43:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpariente/pystoi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

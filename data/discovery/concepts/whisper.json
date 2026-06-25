@@ -391,6 +391,18 @@
       "source_repo": "zh-plus/openlrc",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate-context",
+      "text": "On-device Speech AI for Apple Silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -591,6 +603,12 @@
       "source_repo": "zh-plus/openlrc",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2786,11 +2804,47 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "zh-plus/openlrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flowtyone/ComfyUI-Flowty-TripoSR",
+      "target": "vast-ai-research/triposr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:19.516342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1463
+    },
+    {
+      "path": "requirements.txt",
+      "size": 126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TripoSR custom node for comfyui",
+    "fork": false,
+    "full_name": "flowtyone/ComfyUI-Flowty-TripoSR",
+    "html_url": "https://github.com/flowtyone/ComfyUI-Flowty-TripoSR",
+    "language": "Python",
+    "pushed_at": "2024-06-16T00:53:22Z",
+    "stargazers_count": 541,
+    "topics": [],
+    "updated_at": "2026-06-21T09:17:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vast-ai-research/triposr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

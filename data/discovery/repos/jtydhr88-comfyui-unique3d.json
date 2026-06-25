@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-Unique3D",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-Unique3D",
+      "target": "jtydhr88/comfyui-layerdivider",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-Unique3D",
+      "target": "jtydhr88/comfyui-instantmesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-Unique3D",
+      "target": "jtydhr88/comfyui-imagemagick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jtydhr88/ComfyUI-Unique3D",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jtydhr88/ComfyUI-Unique3D",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jtydhr88/ComfyUI-Unique3D",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:13.016656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6115
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 576
+    },
+    {
+      "path": "requirements.txt",
+      "size": 92
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "ComfyUI Unique3D is custom nodes that running AiuniAI/Unique3D into ComfyUI",
+    "fork": false,
+    "full_name": "jtydhr88/ComfyUI-Unique3D",
+    "html_url": "https://github.com/jtydhr88/ComfyUI-Unique3D",
+    "language": "Python",
+    "pushed_at": "2024-10-18T10:37:10Z",
+    "stargazers_count": 225,
+    "topics": [],
+    "updated_at": "2026-03-12T08:08:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/comfyui-imagemagick",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/comfyui-instantmesh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/comfyui-layerdivider",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

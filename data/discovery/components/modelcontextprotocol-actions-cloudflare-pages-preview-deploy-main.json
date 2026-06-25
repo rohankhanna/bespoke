@@ -1,7 +1,7 @@
 {
   "component": "modelcontextprotocol/actions/cloudflare-pages-preview/deploy@main",
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

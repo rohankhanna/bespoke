@@ -1,0 +1,196 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "tencent-hunyuan/hunyuanworld-1.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "visualbruno/comfyui-hunyuan3d-2-1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "vr-jobs/hunyuan3d-2.1-unity-xr-pc-phone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "vast-ai-research/triposg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "3d-aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "hunyuan3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "shape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "shape-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "text-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "texture-genertaion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:08.649792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10159
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1066
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "From Images to High-Fidelity 3D Assets with Production-Ready PBR Material",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/Hunyuan3D-2.1",
+    "html_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
+    "language": "Python",
+    "pushed_at": "2025-10-17T10:10:07Z",
+    "stargazers_count": 3606,
+    "topics": [
+      "3d",
+      "3d-aigc",
+      "3d-generation",
+      "hunyuan3d",
+      "image-to-3d",
+      "shape",
+      "shape-generation",
+      "text-to-3d",
+      "texture-genertaion"
+    ],
+    "updated_at": "2026-06-24T07:38:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hunyuanworld-1.0",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vast-ai-research/triposg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "visualbruno/comfyui-hunyuan3d-2-1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vr-jobs/hunyuan3d-2.1-unity-xr-pc-phone",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-aigc"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan3d"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture-genertaion"
+    }
+  ]
+}

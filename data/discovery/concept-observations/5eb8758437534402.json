@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hugo theme made for documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://ci.thegeeklab.de/api/badges/thegeeklab/hugo-geekdoc/status.svg)](https://ci.thegeeklab.de/repos/thegeeklab/hugo-geekdoc)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://ci.thegeeklab.de/api/badges/thegeeklab/hugo-geekdoc/status.svg)](https://ci.thegeeklab.de/repos/thegeeklab/hugo-geekdoc)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19169560,
+      "status": "candidate",
+      "text": "victor hugo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19169560,
+      "status": "candidate",
+      "text": "victor marie hugo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19169559,
+      "status": "candidate",
+      "text": "oscar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19130724,
+      "status": "candidate",
+      "text": "byron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19096214,
+      "status": "candidate",
+      "text": "hogue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hugo",
+      "sense_id": "hugo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "victor marie hugo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "victor hugo"
+    }
+  ],
+  "concept_id": "hugo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hugo",
+  "observation_id": "5eb8758437534402",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_text": "hugo",
+  "source_context_snippet": "[![Build Status](https://ci.thegeeklab.de/api/badges/thegeeklab/hugo-geekdoc/status.svg)](https://ci.thegeeklab.de/repos/thegeeklab/hugo-geekdoc)",
+  "source_file": null,
+  "source_repo": "thegeeklab/hugo-geekdoc",
+  "source_repo_description": "Hugo theme made for documentation"
+}

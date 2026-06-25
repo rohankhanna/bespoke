@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/FlashVDM",
+      "target": "clay-3d/openclay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/FlashVDM",
+      "target": "seed3d/dora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/FlashVDM",
+      "target": "stepfun-ai/step1x-3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/FlashVDM",
+      "target": "nvlabs/partpacker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:11.998512+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unleashing Vecset Diffusion Model for Fast Shape Generation / within 1 Second (ICCV'25 Highlight)",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/FlashVDM",
+    "html_url": "https://github.com/Tencent-Hunyuan/FlashVDM",
+    "language": "Python",
+    "pushed_at": "2026-03-13T02:55:53Z",
+    "stargazers_count": 331,
+    "topics": [],
+    "updated_at": "2026-06-23T07:09:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clay-3d/openclay",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/partpacker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seed3d/dora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stepfun-ai/step1x-3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

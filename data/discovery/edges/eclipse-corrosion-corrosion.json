@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "eclipse-corrosion/corrosion",
-      "target": "actions/cache@v5",
+      "target": "actions/cache@v6",
       "target_type": "component"
     },
     {
@@ -85,6 +85,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-24T07:22:11.002189+00:00",
+  "generated_at": "2026-06-25T00:47:33.944341+00:00",
   "source_repo": "eclipse-corrosion/corrosion"
 }

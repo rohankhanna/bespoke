@@ -817,6 +817,18 @@
       "source_repo": "Blaizzy/mlx-audio-swift",
       "status": "candidate-context",
       "text": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate-context",
+      "text": "On-device Speech AI for Apple Silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1227,6 +1239,12 @@
       "source_repo": "Blaizzy/mlx-audio-swift",
       "status": "candidate",
       "text": "<a href=\"https://trendshift.io/repositories/20684\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20684\" alt=\"Blaizzy%2Fmlx-audio-swift | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2548,11 +2566,35 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": null,
       "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

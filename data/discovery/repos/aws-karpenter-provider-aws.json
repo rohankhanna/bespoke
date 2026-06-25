@@ -1,6 +1,11 @@
 {
   "components": [
     {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approval-comment.yaml"
+    },
+    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approval-comment.yaml"
@@ -103,6 +108,13 @@
       "source_repo": "aws/karpenter-provider-aws",
       "target": "aws/karpenter",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approval-comment.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
@@ -266,7 +278,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T18:53:20.939976+00:00",
+  "fetched_at": "2026-06-25T01:59:09.995710+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -278,7 +290,7 @@
     },
     {
       "path": ".github/workflows/approval-comment.yaml",
-      "size": 1216
+      "size": 1708
     },
     {
       "path": ".github/workflows/ci-test.yaml",
@@ -318,10 +330,10 @@
     "full_name": "aws/karpenter-provider-aws",
     "html_url": "https://github.com/aws/karpenter-provider-aws",
     "language": "Go",
-    "pushed_at": "2026-06-24T17:20:06Z",
+    "pushed_at": "2026-06-24T23:27:53Z",
     "stargazers_count": 7663,
     "topics": [],
-    "updated_at": "2026-06-24T17:34:19Z"
+    "updated_at": "2026-06-24T23:24:26Z"
   },
   "repo_links": [
     {

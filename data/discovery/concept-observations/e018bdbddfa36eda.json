@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto rerun outerloop failures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto rerun outerloop failures"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20349,
+      "status": "candidate",
+      "text": "balk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20349,
+      "status": "candidate",
+      "text": "beat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20349,
+      "status": "candidate",
+      "text": "beats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20349,
+      "status": "candidate",
+      "text": "cold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20349,
+      "status": "candidate",
+      "text": "dribble"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto rerun outerloop failures",
+      "sense_id": "auto-rerun-outerloop-failures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-rerun-outerloop-failures",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-rerun-outerloop-failures",
+  "observation_id": "e018bdbddfa36eda",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_text": "Auto rerun outerloop failures",
+  "source_context_snippet": "Auto rerun outerloop failures",
+  "source_file": ".github/workflows/auto-rerun-outerloop-failures.yml",
+  "source_repo": "microsoft/aspire",
+  "source_repo_description": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+}

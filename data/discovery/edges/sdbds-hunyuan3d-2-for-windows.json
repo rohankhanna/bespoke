@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdbds/Hunyuan3D-2-for-windows",
+      "target": "zebinhe/materialmvp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdbds/Hunyuan3D-2-for-windows",
+      "target": "tencent/flashvdm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdbds/Hunyuan3D-2-for-windows",
+      "target": "yanwenkun/hunyuan3d-2-winportable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdbds/Hunyuan3D-2-for-windows",
+      "target": "wyysf-98/craftsman3d",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-25T00:47:33.944341+00:00",
+  "source_repo": "sdbds/Hunyuan3D-2-for-windows"
+}

@@ -2,7 +2,7 @@
   "component": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {

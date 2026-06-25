@@ -786,6 +786,30 @@
       "source_repo": "sashabaranov/go-openai",
       "status": "candidate-context",
       "text": "Integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mudler/nib",
+      "status": "candidate-context",
+      "text": "A tiny, zero-dependency LLM agent harness that lives in your terminal. One static binary. No runtime, no daemon, no cloud. Local-LLM friendly. Summon it anywhere with Ctrl+Space."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/nib",
+      "status": "candidate-context",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate-context",
+      "text": "3D visualization and mesh analysis for science and engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate-context",
+      "text": "Integration Tests"
     }
   ],
   "candidate_glosses": [
@@ -1184,6 +1208,18 @@
       "source_repo": "sashabaranov/go-openai",
       "status": "candidate",
       "text": "Integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/nib",
+      "status": "candidate",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate",
+      "text": "Integration Tests"
     }
   ],
   "candidate_related_terms": [
@@ -3645,11 +3681,53 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": ".github/workflows/integration_tests.yml",
       "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "mudler/nib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "pyvista/pyvista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

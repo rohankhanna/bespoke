@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity_CC",
+      "target": "hearing-aids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity_CC",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity_CC",
+      "target": "speech-intelligibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity_CC",
+      "target": "speech-processing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-25T00:47:33.944341+00:00",
+  "source_repo": "claritychallenge/clarity_CC"
+}

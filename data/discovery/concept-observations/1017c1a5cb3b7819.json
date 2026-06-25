@@ -84,7 +84,7 @@
   "normalized_form": "test-internal",
   "observation_id": "1017c1a5cb3b7819",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T07:22:11.002189+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "Test Internal",
   "source_context_snippet": "Test Internal",
   "source_file": ".github/workflows/test-internal.yml",

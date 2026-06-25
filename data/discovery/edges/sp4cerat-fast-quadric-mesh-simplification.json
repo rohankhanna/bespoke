@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp4cerat/Fast-Quadric-Mesh-Simplification",
+      "target": "neurolabusc/nii2mesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp4cerat/Fast-Quadric-Mesh-Simplification",
+      "target": "neurolabusc/niivue-simplify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp4cerat/Fast-Quadric-Mesh-Simplification",
+      "target": "ataber/mesh-simplify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp4cerat/Fast-Quadric-Mesh-Simplification",
+      "target": "myminifactory/fast-quadric-mesh-simplification",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-25T00:47:33.944341+00:00",
+  "source_repo": "sp4cerat/Fast-Quadric-Mesh-Simplification"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-25T02:03:14.422160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1085
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Continuous Remeshing For Inverse Rendering",
+    "fork": false,
+    "full_name": "Profactor/continuous-remeshing",
+    "html_url": "https://github.com/Profactor/continuous-remeshing",
+    "language": "Python",
+    "pushed_at": "2022-10-28T15:24:33Z",
+    "stargazers_count": 525,
+    "topics": [],
+    "updated_at": "2026-06-02T03:29:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

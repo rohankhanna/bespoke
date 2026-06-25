@@ -153,7 +153,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T13:08:28.473364+00:00",
+  "fetched_at": "2026-06-25T01:03:52.319262+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -182,7 +182,7 @@
     "html_url": "https://github.com/statsd/statsd",
     "language": "JavaScript",
     "pushed_at": "2025-05-20T07:22:42Z",
-    "stargazers_count": 18049,
+    "stargazers_count": 18048,
     "topics": [
       "graphite",
       "javascript",
@@ -190,7 +190,7 @@
       "nodejs",
       "statsd"
     ],
-    "updated_at": "2026-06-23T07:31:26Z"
+    "updated_at": "2026-06-24T15:31:42Z"
   },
   "repo_links": [
     {

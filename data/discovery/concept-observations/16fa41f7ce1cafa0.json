@@ -84,7 +84,7 @@
   "normalized_form": "ci-measurements",
   "observation_id": "16fa41f7ce1cafa0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T07:22:11.002189+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "CI Measurements",
   "source_context_snippet": "CI Measurements",
   "source_file": ".github/workflows/ci-measurements.yml",

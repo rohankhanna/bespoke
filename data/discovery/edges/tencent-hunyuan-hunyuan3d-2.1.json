@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "tencent-hunyuan/hunyuanworld-1.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "visualbruno/comfyui-hunyuan3d-2-1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "vr-jobs/hunyuan3d-2.1-unity-xr-pc-phone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "vast-ai-research/triposg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "3d-aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "hunyuan3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "shape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "shape-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "text-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "target": "texture-genertaion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-25T00:47:33.944341+00:00",
+  "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1"
+}

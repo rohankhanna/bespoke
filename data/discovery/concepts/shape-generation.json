@@ -31,6 +31,18 @@
       "source_repo": "NeuralCarver/Michelangelo",
       "status": "candidate-context",
       "text": "[Zibo Zhao](https://github.com/Maikouuu),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "status": "candidate-context",
+      "text": "From Images to High-Fidelity 3D Assets with Production-Ready PBR Material"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "NeuralCarver/Michelangelo",
       "status": "candidate",
       "text": "[Zibo Zhao](https://github.com/Maikouuu),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": null,
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1"
     }
   ],
   "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

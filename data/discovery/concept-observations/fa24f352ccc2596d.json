@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Support for Clarity Enhancement and Prediction Challenges (obsolete - see README) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ":bangbang:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ":bangbang:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hearing-aids",
+      "sense_id": "hearing-aids#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hearing-aids",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hearing-aids",
+  "observation_id": "fa24f352ccc2596d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_text": "hearing-aids",
+  "source_context_snippet": ":bangbang:",
+  "source_file": null,
+  "source_repo": "claritychallenge/clarity_CC",
+  "source_repo_description": "Support for Clarity Enhancement and Prediction Challenges (obsolete - see README) "
+}

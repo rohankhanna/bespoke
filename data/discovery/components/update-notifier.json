@@ -1,7 +1,7 @@
 {
   "component": "update-notifier",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

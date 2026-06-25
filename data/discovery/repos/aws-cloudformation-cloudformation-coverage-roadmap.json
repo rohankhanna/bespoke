@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T13:09:31.961512+00:00",
+  "fetched_at": "2026-06-25T01:04:56.205589+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -47,7 +47,7 @@
     "html_url": "https://github.com/aws-cloudformation/cloudformation-coverage-roadmap",
     "language": null,
     "pushed_at": "2024-04-15T16:51:14Z",
-    "stargazers_count": 1145,
+    "stargazers_count": 1146,
     "topics": [
       "aws",
       "aws-cloudformation",
@@ -55,7 +55,7 @@
       "cloudformation",
       "roadmap"
     ],
-    "updated_at": "2026-06-16T08:01:04Z"
+    "updated_at": "2026-06-24T18:22:22Z"
   },
   "repo_links": [
     {

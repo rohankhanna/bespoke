@@ -84,7 +84,7 @@
   "normalized_form": "regex",
   "observation_id": "70ac3a212470d765",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-24T07:22:11.002189+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "regex",
   "source_context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
   "source_file": null,

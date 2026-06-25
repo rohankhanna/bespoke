@@ -118,7 +118,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T13:04:30.465179+00:00",
+  "fetched_at": "2026-06-25T01:00:06.324122+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -147,7 +147,7 @@
     "html_url": "https://github.com/OpenBMB/RepoAgent",
     "language": "Python",
     "pushed_at": "2024-12-23T11:48:52Z",
-    "stargazers_count": 997,
+    "stargazers_count": 996,
     "topics": [
       "agent",
       "chatglm",
@@ -163,7 +163,7 @@
       "rag",
       "repo-level-debugging"
     ],
-    "updated_at": "2026-06-22T16:57:51Z"
+    "updated_at": "2026-06-24T15:35:59Z"
   },
   "repo_links": [
     {

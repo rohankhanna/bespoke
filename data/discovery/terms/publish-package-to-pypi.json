@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "NeilGirdhar/tjax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "claritychallenge/clarity"
     }
   ],
   "term": "Publish package to PyPI"

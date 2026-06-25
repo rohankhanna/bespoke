@@ -154,7 +154,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T07:42:38.501320+00:00",
+  "fetched_at": "2026-06-25T02:18:26.055117+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -182,7 +182,7 @@
     "full_name": "karafka/example-apps",
     "html_url": "https://github.com/karafka/example-apps",
     "language": "Ruby",
-    "pushed_at": "2026-06-23T17:25:05Z",
+    "pushed_at": "2026-06-24T08:11:42Z",
     "stargazers_count": 58,
     "topics": [
       "kafka",
@@ -192,7 +192,7 @@
       "waterdrop",
       "zookeeper"
     ],
-    "updated_at": "2026-06-23T13:57:54Z"
+    "updated_at": "2026-06-24T08:11:45Z"
   },
   "repo_links": [
     {

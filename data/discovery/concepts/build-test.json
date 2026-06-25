@@ -807,6 +807,18 @@
       "source_repo": "ag2s20150909/TTS",
       "status": "candidate-context",
       "text": "Build Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mudler/nib",
+      "status": "candidate-context",
+      "text": "A tiny, zero-dependency LLM agent harness that lives in your terminal. One static binary. No runtime, no daemon, no cloud. Local-LLM friendly. Summon it anywhere with Ctrl+Space."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/nib",
+      "status": "candidate-context",
+      "text": "Build test"
     }
   ],
   "candidate_glosses": [
@@ -1217,6 +1229,12 @@
       "source_repo": "ag2s20150909/TTS",
       "status": "candidate",
       "text": "Build Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/nib",
+      "status": "candidate",
+      "text": "Build test"
     }
   ],
   "candidate_related_terms": [
@@ -5514,11 +5532,65 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "react/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mudler/nib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

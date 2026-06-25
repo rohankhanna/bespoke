@@ -979,6 +979,18 @@
       "source_repo": "catppuccin/atuin",
       "status": "candidate-context",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thegeeklab/hugo-geekdoc",
+      "status": "candidate-context",
+      "text": "Hugo theme made for documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thegeeklab/hugo-geekdoc",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://ci.thegeeklab.de/api/badges/thegeeklab/hugo-geekdoc/status.svg)](https://ci.thegeeklab.de/repos/thegeeklab/hugo-geekdoc)"
     }
   ],
   "candidate_glosses": [
@@ -1461,6 +1473,12 @@
       "source_repo": "catppuccin/atuin",
       "status": "candidate",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thegeeklab/hugo-geekdoc",
+      "status": "candidate",
+      "text": "[![Build Status](https://ci.thegeeklab.de/api/badges/thegeeklab/hugo-geekdoc/status.svg)](https://ci.thegeeklab.de/repos/thegeeklab/hugo-geekdoc)"
     }
   ],
   "candidate_related_terms": [
@@ -5572,11 +5590,65 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": null,
       "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "thegeeklab/hugo-geekdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "miguelsolorio/vscode-fluent-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

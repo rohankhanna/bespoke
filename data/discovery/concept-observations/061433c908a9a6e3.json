@@ -84,7 +84,7 @@
   "normalized_form": "publish-nightly-dev-releases",
   "observation_id": "061433c908a9a6e3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T13:00:17.759930+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "Publish nightly dev releases",
   "source_context_snippet": "Publish nightly dev releases",
   "source_file": ".github/workflows/nightly-dev-release.yml",

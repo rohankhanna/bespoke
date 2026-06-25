@@ -638,6 +638,18 @@
       "source_repo": "pe-trik/transformers",
       "status": "candidate-context",
       "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate-context",
+      "text": "3D visualization and mesh analysis for science and engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate-context",
+      "text": "Build Documentation"
     }
   ],
   "candidate_glosses": [
@@ -958,6 +970,12 @@
       "source_repo": "pe-trik/transformers",
       "status": "candidate",
       "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate",
+      "text": "Build Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -2909,11 +2927,35 @@
       "observed_at": "2026-06-24T13:00:17.759930+00:00",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pyvista/pyvista"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

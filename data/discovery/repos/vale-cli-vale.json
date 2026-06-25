@@ -273,7 +273,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T13:12:51.243109+00:00",
+  "fetched_at": "2026-06-25T01:08:00.739503+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -285,7 +285,7 @@
     },
     {
       "path": "go.mod",
-      "size": 2677
+      "size": 2761
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -313,14 +313,14 @@
     "full_name": "vale-cli/vale",
     "html_url": "https://github.com/vale-cli/vale",
     "language": "Go",
-    "pushed_at": "2026-06-24T13:03:12Z",
-    "stargazers_count": 5480,
+    "pushed_at": "2026-06-24T17:41:42Z",
+    "stargazers_count": 5481,
     "topics": [
       "linter",
       "linting",
       "vale"
     ],
-    "updated_at": "2026-06-24T13:03:34Z"
+    "updated_at": "2026-06-24T23:19:36Z"
   },
   "repo_links": [
     {

@@ -1,7 +1,7 @@
 {
   "component": "DeterminateSystems/determinate-nix-action@9adf02b41cfdac2632e1c16f0480ff5bf3b05dd6",
   "first_seen_at": "2026-06-22T19:14:07.629510+00:00",
-  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

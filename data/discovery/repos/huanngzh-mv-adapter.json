@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huanngzh/MV-Adapter",
+      "target": "huanngzh/comfyui-mvadapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huanngzh/MV-Adapter",
+      "target": "vast-ai-research/midi-3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huanngzh/MV-Adapter",
+      "target": "sanster/models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huanngzh/MV-Adapter",
+      "target": "huanngzh/bpy-renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huanngzh/MV-Adapter",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huanngzh/MV-Adapter",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huanngzh/MV-Adapter",
+      "target": "multiview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huanngzh/MV-Adapter",
+      "target": "multiview-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huanngzh/MV-Adapter",
+      "target": "texture-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:20.210080+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24520
+    },
+    {
+      "path": "requirements.txt",
+      "size": 340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2025] Official impl. of \"MV-Adapter: Multi-view Consistent Image Generation Made Easy\"",
+    "fork": false,
+    "full_name": "huanngzh/MV-Adapter",
+    "html_url": "https://github.com/huanngzh/MV-Adapter",
+    "language": "Python",
+    "pushed_at": "2025-06-26T12:38:14Z",
+    "stargazers_count": 1269,
+    "topics": [
+      "3d-generation",
+      "image-generation",
+      "multiview",
+      "multiview-generation",
+      "texture-generation"
+    ],
+    "updated_at": "2026-06-13T09:20:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huanngzh/bpy-renderer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huanngzh/comfyui-mvadapter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanster/models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vast-ai-research/midi-3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![teaser](assets/doc/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "![teaser](assets/doc/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "![teaser](assets/doc/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiview"
+    },
+    {
+      "context_snippet": "![teaser](assets/doc/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiview-generation"
+    },
+    {
+      "context_snippet": "![teaser](assets/doc/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture-generation"
+    }
+  ]
+}

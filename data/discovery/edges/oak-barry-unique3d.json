@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oak-barry/Unique3D",
+      "target": "profactor/continuous-remeshing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oak-barry/Unique3D",
+      "target": "yertleturtlegit/depth-from-normals",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-25T00:47:33.944341+00:00",
+  "source_repo": "oak-barry/Unique3D"
+}

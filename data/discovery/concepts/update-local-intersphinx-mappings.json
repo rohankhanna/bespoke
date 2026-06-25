@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Local Intersphinx Mappings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate-context",
+      "text": "3D visualization and mesh analysis for science and engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate-context",
+      "text": "Update Local Intersphinx Mappings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate",
+      "text": "Update Local Intersphinx Mappings"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22872,
+      "status": "candidate",
+      "text": "pinpoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22850,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22850,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22839,
+      "status": "candidate",
+      "text": "inset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22828,
+      "status": "candidate",
+      "text": "address"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Local Intersphinx Mappings",
+  "concept_id": "update-local-intersphinx-mappings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/intersphinx-update-pull-request.yml",
+      "source_repo": "pyvista/pyvista"
+    }
+  ],
+  "first_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Local Intersphinx Mappings",
+      "sense_id": "update-local-intersphinx-mappings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

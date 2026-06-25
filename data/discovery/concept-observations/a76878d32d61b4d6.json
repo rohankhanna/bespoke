@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Clarity Challenge toolkit - software for building Clarity Challenge systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046964,
+      "status": "candidate",
+      "text": "dispute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038042,
+      "status": "candidate",
+      "text": "take exception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035482,
+      "status": "candidate",
+      "text": "gainsay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "adversities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "adversity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "challenges",
+      "sense_id": "challenges#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "challenges",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "challenges",
+  "observation_id": "a76878d32d61b4d6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_text": "challenges",
+  "source_context_snippet": "<!-- markdownlint-disable MD041 -->",
+  "source_file": null,
+  "source_repo": "claritychallenge/clarity",
+  "source_repo_description": "Clarity Challenge toolkit - software for building Clarity Challenge systems"
+}

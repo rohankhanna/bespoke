@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-25T02:01:24.544371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 478
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mac app to demonstrate swift-transformers",
+    "fork": false,
+    "full_name": "huggingface/swift-chat",
+    "html_url": "https://github.com/huggingface/swift-chat",
+    "language": "Swift",
+    "pushed_at": "2024-07-29T17:03:06Z",
+    "stargazers_count": 597,
+    "topics": [],
+    "updated_at": "2026-06-11T12:46:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

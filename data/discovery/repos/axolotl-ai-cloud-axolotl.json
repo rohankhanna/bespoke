@@ -28,31 +28,6 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/base.yml"
-    },
-    {
-      "component": "docker/metadata-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/base.yml"
-    },
-    {
-      "component": "docker/login-action@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/base.yml"
-    },
-    {
-      "component": "docker/setup-buildx-action@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/base.yml"
-    },
-    {
-      "component": "docker/build-push-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/base.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
     {
@@ -102,56 +77,6 @@
     },
     {
       "component": "docker/login-action@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "docker/build-push-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "docker/metadata-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "docker/setup-buildx-action@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "docker/login-action@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "docker/build-push-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "docker/metadata-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "docker/login-action@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "docker/setup-buildx-action@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -600,7 +525,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T13:11:08.271615+00:00",
+  "fetched_at": "2026-06-25T01:06:27.993861+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -612,35 +537,35 @@
     },
     {
       "path": ".github/workflows/base.yml",
-      "size": 9294
+      "size": 5879
     },
     {
       "path": ".github/workflows/docs.yml",
-      "size": 1030
+      "size": 1197
     },
     {
       "path": ".github/workflows/lint.yml",
-      "size": 713
+      "size": 934
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 14933
+      "size": 10779
     },
     {
       "path": ".github/workflows/multi-gpu-e2e.yml",
-      "size": 2831
+      "size": 2832
     },
     {
       "path": ".github/workflows/nightlies.yml",
-      "size": 3747
+      "size": 4341
     },
     {
       "path": ".github/workflows/precommit-autoupdate.yml",
-      "size": 1113
+      "size": 1174
     },
     {
       "path": ".github/workflows/preview-docs.yml",
-      "size": 2377
+      "size": 2502
     }
   ],
   "related_repositories": [],
@@ -652,13 +577,13 @@
     "full_name": "axolotl-ai-cloud/axolotl",
     "html_url": "https://github.com/axolotl-ai-cloud/axolotl",
     "language": "Python",
-    "pushed_at": "2026-06-24T13:10:44Z",
-    "stargazers_count": 12084,
+    "pushed_at": "2026-06-24T14:15:14Z",
+    "stargazers_count": 12087,
     "topics": [
       "fine-tuning",
       "llm"
     ],
-    "updated_at": "2026-06-24T11:30:55Z"
+    "updated_at": "2026-06-24T23:26:18Z"
   },
   "repo_links": [],
   "terms": [

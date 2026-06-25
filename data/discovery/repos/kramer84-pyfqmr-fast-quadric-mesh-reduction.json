@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+      "target": "sp4cerat/fast-quadric-mesh-simplification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:26.271213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4244
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1374
+    },
+    {
+      "path": ".github/workflows/build-wheels.yml",
+      "size": 1978
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 968
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mesh triangle reduction using quadrics",
+    "fork": false,
+    "full_name": "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+    "html_url": "https://github.com/Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+    "language": "Python",
+    "pushed_at": "2026-03-08T23:08:46Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-06-05T08:13:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sp4cerat/fast-quadric-mesh-simplification",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

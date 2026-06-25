@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update whisper-kit-expo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate-context",
+      "text": "On-device Speech AI for Apple Silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate-context",
+      "text": "Update whisper-kit-expo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate",
+      "text": "Update whisper-kit-expo"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "amend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "completing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "completion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "debriefing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update whisper-kit-expo",
+  "concept_id": "update-whisper-kit-expo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/expo-update.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift"
+    }
+  ],
+  "first_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update whisper-kit-expo",
+      "sense_id": "update-whisper-kit-expo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

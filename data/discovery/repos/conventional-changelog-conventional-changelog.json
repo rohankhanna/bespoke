@@ -121,7 +121,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml"
     },
@@ -131,12 +131,12 @@
       "source_file": ".github/workflows/checks.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml"
     },
     {
-      "component": "pnpm/action-setup@v5",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml"
     },
@@ -146,12 +146,12 @@
       "source_file": ".github/workflows/checks.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml"
     },
     {
-      "component": "pnpm/action-setup@v5",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml"
     },
@@ -161,7 +161,7 @@
       "source_file": ".github/workflows/commit.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -171,7 +171,7 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -181,12 +181,12 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "pnpm/action-setup@v5",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -201,27 +201,12 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml"
     },
     {
-      "component": "pnpm/action-setup@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/tests.yaml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/tests.yaml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/tests.yaml"
-    },
-    {
-      "component": "pnpm/action-setup@v5",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml"
     },
@@ -231,12 +216,27 @@
       "source_file": ".github/workflows/tests.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml"
     },
     {
-      "component": "pnpm/action-setup@v5",
+      "component": "pnpm/action-setup@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml"
     },
@@ -251,12 +251,12 @@
       "source_file": ".github/workflows/tests.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml"
     },
     {
-      "component": "pnpm/action-setup@v5",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml"
     },
@@ -449,7 +449,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -463,7 +463,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "pnpm/action-setup@v5",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -484,14 +484,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "pnpm/action-setup@v5",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -512,7 +512,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -526,7 +526,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "pnpm/action-setup@v5",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -547,14 +547,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "pnpm/action-setup@v5",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -607,7 +607,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T07:38:23.900832+00:00",
+  "fetched_at": "2026-06-25T02:15:15.904151+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -643,7 +643,7 @@
     "full_name": "conventional-changelog/conventional-changelog",
     "html_url": "https://github.com/conventional-changelog/conventional-changelog",
     "language": "TypeScript",
-    "pushed_at": "2026-06-24T02:01:46Z",
+    "pushed_at": "2026-06-24T19:37:32Z",
     "stargazers_count": 8466,
     "topics": [
       "changelog",
@@ -653,7 +653,7 @@
       "metadata",
       "tag"
     ],
-    "updated_at": "2026-06-23T03:40:26Z"
+    "updated_at": "2026-06-24T19:36:31Z"
   },
   "repo_links": [],
   "terms": [

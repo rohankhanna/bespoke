@@ -48,7 +48,7 @@
   "normalized_form": "plugin-repo",
   "observation_id": "886ff0670277d946",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-23T18:51:00.487200+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "plugin-repo",
   "source_context_snippet": "The NURR hosts and automatically packages Luarocks releases for many Neovim plugins,",
   "source_file": null,

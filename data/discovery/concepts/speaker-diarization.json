@@ -169,6 +169,18 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate-context",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate-context",
+      "text": "On-device Speech AI for Apple Silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -255,6 +267,12 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -802,11 +820,23 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

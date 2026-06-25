@@ -6096,6 +6096,9 @@
   "auto request review": [
     "auto-request-review"
   ],
+  "auto rerun outerloop failures": [
+    "auto-rerun-outerloop-failures"
+  ],
   "auto rerun transient ci failures": [
     "auto-rerun-transient-ci-failures"
   ],
@@ -16511,6 +16514,9 @@
   "challenge tests": [
     "challenge-tests"
   ],
+  "challenges": [
+    "challenges"
+  ],
   "chance": [
     "chance"
   ],
@@ -17200,6 +17206,9 @@
   ],
   "check dependencies update": [
     "check-dependencies-update"
+  ],
+  "check dependency conflicts": [
+    "check-dependency-conflicts"
   ],
   "check dependency urls": [
     "check-dependency-urls"
@@ -20260,6 +20269,9 @@
   ],
   "clap": [
     "clap"
+  ],
+  "clarity tests": [
+    "clarity-tests"
   ],
   "clash": [
     "clash"
@@ -24988,6 +25000,9 @@
   ],
   "conv": [
     "conv"
+  ],
+  "conv-tasnet": [
+    "conv-tasnet"
   ],
   "convenience": [
     "convenience"
@@ -30533,6 +30548,9 @@
   "depth-map": [
     "depth-map"
   ],
+  "depth-mapping": [
+    "depth-mapping"
+  ],
   "depth-prediction": [
     "depth-prediction"
   ],
@@ -30949,6 +30967,9 @@
   ],
   "development freeze": [
     "development-freeze"
+  ],
+  "development tests": [
+    "development-tests"
   ],
   "development-board": [
     "development-board"
@@ -38191,11 +38212,17 @@
   "fingerprints-generator": [
     "fingerprints-generator"
   ],
+  "finite-element-analysis": [
+    "finite-element-analysis"
+  ],
   "finite-element-method": [
     "finite-element-method"
   ],
   "finite-element-methods": [
     "finite-element-methods"
+  ],
+  "finite-elements": [
+    "finite-elements"
   ],
   "finite-field-arithmetic": [
     "finite-field-arithmetic"
@@ -44985,6 +45012,9 @@
   "heapify": [
     "heapify"
   ],
+  "hearing-aids": [
+    "hearing-aids"
+  ],
   "heart": [
     "heart"
   ],
@@ -45026,6 +45056,12 @@
   ],
   "heif": [
     "heif"
+  ],
+  "height-estimation": [
+    "height-estimation"
+  ],
+  "heightmap": [
+    "heightmap"
   ],
   "helia": [
     "helia"
@@ -53461,6 +53497,9 @@
   "linkcheck": [
     "linkcheck"
   ],
+  "linkcheck - all files \ud83d\udd17": [
+    "linkcheck---all-files"
+  ],
   "linked-data": [
     "linked-data"
   ],
@@ -56634,6 +56673,12 @@
   "manylinux ci (pypi deploy)": [
     "manylinux-ci-pypi-deploy"
   ],
+  "map pipeline": [
+    "map-pipeline"
+  ],
+  "map pipeline check": [
+    "map-pipeline-check"
+  ],
   "map-building": [
     "map-building"
   ],
@@ -57905,6 +57950,9 @@
   ],
   "meshlab": [
     "meshlab"
+  ],
+  "meshviewer": [
+    "meshviewer"
   ],
   "meson": [
     "meson"
@@ -60709,6 +60757,12 @@
   "multivariate-statistics": [
     "multivariate-statistics"
   ],
+  "multiview": [
+    "multiview"
+  ],
+  "multiview-generation": [
+    "multiview-generation"
+  ],
   "munge pr": [
     "munge-pr"
   ],
@@ -61824,6 +61878,9 @@
   ],
   "neuroimaging": [
     "neuroimaging"
+  ],
+  "neuromorphic": [
+    "neuromorphic"
   ],
   "neuromorphic-audio-processing": [
     "neuromorphic-audio-processing"
@@ -63012,6 +63069,9 @@
   ],
   "normal-estimation": [
     "normal-estimation"
+  ],
+  "normal-mapping": [
+    "normal-mapping"
   ],
   "normalising-flows": [
     "normalising-flows"
@@ -67364,6 +67424,9 @@
   ],
   "permissions": [
     "permissions"
+  ],
+  "permutation-invariant-training": [
+    "permutation-invariant-training"
   ],
   "perplexity": [
     "perplexity"
@@ -73275,6 +73338,9 @@
   "py2exe": [
     "py2exe"
   ],
+  "pyannote": [
+    "pyannote"
+  ],
   "pyarrow": [
     "pyarrow"
   ],
@@ -74306,6 +74372,9 @@
   ],
   "qwen3-omni": [
     "qwen3-omni"
+  ],
+  "qwen3-tts": [
+    "qwen3-tts"
   ],
   "qwen3-vl": [
     "qwen3-vl"
@@ -76833,6 +76902,9 @@
   "release testing, hackage, cabal, linux": [
     "release-testing-hackage-cabal-linux"
   ],
+  "release tests": [
+    "release-tests"
+  ],
   "release tip": [
     "release-tip"
   ],
@@ -76880,6 +76952,9 @@
   ],
   "release to npm": [
     "release-to-npm"
+  ],
+  "release to orda": [
+    "release-to-orda"
   ],
   "release to pypi": [
     "release-to-pypi"
@@ -81078,6 +81153,9 @@
   "scene-flow": [
     "scene-flow"
   ],
+  "scene-generation": [
+    "scene-generation"
+  ],
   "scene-recognition": [
     "scene-recognition"
   ],
@@ -84971,6 +85049,9 @@
   "speaker-verification": [
     "speaker-verification"
   ],
+  "speakerkit": [
+    "speakerkit"
+  ],
   "spec": [
     "spec"
   ],
@@ -85114,6 +85195,9 @@
   ],
   "speech-enhancement": [
     "speech-enhancement"
+  ],
+  "speech-intelligibility": [
+    "speech-intelligibility"
   ],
   "speech-pretraining": [
     "speech-pretraining"
@@ -85270,6 +85354,9 @@
   ],
   "sphinx docs check": [
     "sphinx-docs-check"
+  ],
+  "sphinx docs to gh-pages": [
+    "sphinx-docs-to-gh-pages"
   ],
   "sphinx documentation": [
     "sphinx-documentation"
@@ -88835,6 +88922,9 @@
   "tasks modified": [
     "tasks-modified"
   ],
+  "tasnet": [
+    "tasnet"
+  ],
   "tasty": [
     "tasty"
   ],
@@ -91526,6 +91616,9 @@
   "texture-generation": [
     "texture-generation"
   ],
+  "texture-genertaion": [
+    "texture-genertaion"
+  ],
   "texture-mapping": [
     "texture-mapping"
   ],
@@ -93483,6 +93576,9 @@
   ],
   "tts-recipes": [
     "tts-recipes"
+  ],
+  "ttskit": [
+    "ttskit"
   ],
   "ttyd": [
     "ttyd"
@@ -95540,6 +95636,9 @@
   "update load-generator image": [
     "update-load-generator-image"
   ],
+  "update local intersphinx mappings": [
+    "update-local-intersphinx-mappings"
+  ],
   "update luau version": [
     "update-luau-version"
   ],
@@ -95968,6 +96067,9 @@
   ],
   "update wheels index pages": [
     "update-wheels-index-pages"
+  ],
+  "update whisper-kit-expo": [
+    "update-whisper-kit-expo"
   ],
   "update wiki docs": [
     "update-wiki-docs"
@@ -100517,6 +100619,9 @@
   ],
   "whispercpp-android-port": [
     "whispercpp-android-port"
+  ],
+  "whisperkit": [
+    "whisperkit"
   ],
   "whisperx": [
     "whisperx"

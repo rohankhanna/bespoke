@@ -211,6 +211,18 @@
       "source_repo": "jpcy/xatlas",
       "status": "candidate-context",
       "text": "[![Actions Status](https://github.com/jpcy/xatlas/workflows/build/badge.svg)](https://github.com/jpcy/xatlas/actions) [![Appveyor CI Build Status](https://ci.appveyor.com/api/projects/status/github/jpcy/xatlas?branch=master&svg=true)](https://ci.appveyor.com/project/jpcy/xatlas)\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate-context",
+      "text": "3D visualization and mesh analysis for science and engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "jpcy/xatlas",
       "status": "candidate",
       "text": "[![Actions Status](https://github.com/jpcy/xatlas/workflows/build/badge.svg)](https://github.com/jpcy/xatlas/actions) [![Appveyor CI Build Status](https://ci.appveyor.com/api/projects/status/github/jpcy/xatlas?branch=master&svg=true)](https://ci.appveyor.com/project/jpcy/xatlas)\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -502,11 +520,17 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": null,
       "source_repo": "jpcy/xatlas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "pyvista/pyvista"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

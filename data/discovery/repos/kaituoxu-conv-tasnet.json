@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "target": "facebookresearch/visdom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "target": "audio-separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "target": "conv-tasnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "target": "permutation-invariant-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "target": "source-separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "target": "speech-separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "target": "tasnet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:01:13.209984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2860
+    },
+    {
+      "path": "requirements.txt",
+      "size": 24
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch implementation of Conv-TasNet described in \"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\" with Permutation Invariant Training (PIT).",
+    "fork": false,
+    "full_name": "kaituoxu/Conv-TasNet",
+    "html_url": "https://github.com/kaituoxu/Conv-TasNet",
+    "language": "Python",
+    "pushed_at": "2023-04-06T07:59:54Z",
+    "stargazers_count": 772,
+    "topics": [
+      "audio-separation",
+      "conv-tasnet",
+      "permutation-invariant-training",
+      "pit",
+      "pytorch",
+      "source-separation",
+      "speech-separation",
+      "tasnet"
+    ],
+    "updated_at": "2026-06-23T07:41:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/visdom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A PyTorch implementation of Conv-TasNet described in [\"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\"](https://arxiv.org/abs/1809.07454).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-separation"
+    },
+    {
+      "context_snippet": "A PyTorch implementation of Conv-TasNet described in [\"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\"](https://arxiv.org/abs/1809.07454).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conv-tasnet"
+    },
+    {
+      "context_snippet": "A PyTorch implementation of Conv-TasNet described in [\"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\"](https://arxiv.org/abs/1809.07454).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "permutation-invariant-training"
+    },
+    {
+      "context_snippet": "A PyTorch implementation of Conv-TasNet described in [\"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\"](https://arxiv.org/abs/1809.07454).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "A PyTorch implementation of Conv-TasNet described in [\"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\"](https://arxiv.org/abs/1809.07454).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-separation"
+    },
+    {
+      "context_snippet": "A PyTorch implementation of Conv-TasNet described in [\"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\"](https://arxiv.org/abs/1809.07454).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-separation"
+    },
+    {
+      "context_snippet": "A PyTorch implementation of Conv-TasNet described in [\"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\"](https://arxiv.org/abs/1809.07454).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tasnet"
+    }
+  ]
+}

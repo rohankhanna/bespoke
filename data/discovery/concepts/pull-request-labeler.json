@@ -1078,6 +1078,18 @@
       "source_repo": "modelcontextprotocol/modelcontextprotocol",
       "status": "candidate-context",
       "text": "Pull Request Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate-context",
+      "text": "3D visualization and mesh analysis for science and engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -1620,6 +1632,12 @@
       "source_repo": "modelcontextprotocol/modelcontextprotocol",
       "status": "candidate",
       "text": "Pull Request Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_related_terms": [
@@ -2725,11 +2743,29 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "pyvista/pyvista"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

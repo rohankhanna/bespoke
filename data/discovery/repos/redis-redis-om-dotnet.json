@@ -141,7 +141,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T13:07:57.063666+00:00",
+  "fetched_at": "2026-06-25T01:03:24.049981+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -169,7 +169,7 @@
     "full_name": "redis/redis-om-dotnet",
     "html_url": "https://github.com/redis/redis-om-dotnet",
     "language": "C#",
-    "pushed_at": "2026-06-18T18:29:32Z",
+    "pushed_at": "2026-06-24T14:21:30Z",
     "stargazers_count": 523,
     "topics": [
       "dotnet",

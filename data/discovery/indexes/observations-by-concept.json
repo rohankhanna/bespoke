@@ -100,7 +100,8 @@
     "1c2217fb8c89783d",
     "31b3f0db94221501",
     "92b076664d588a62",
-    "a98e37ea08926f83"
+    "a98e37ea08926f83",
+    "c929d394b3ca9844"
   ],
   "3d-audio": [
     "6fa66d65daddb1da"
@@ -195,10 +196,12 @@
   ],
   "3d-generation": [
     "07400a2fa7338738",
+    "0c87cad67a8201e8",
     "11cf47893b5e534f",
     "2cbd9d1e817e10fe",
     "45d2153f921d7efc",
     "46558173c42a6176",
+    "4a4921a3a03227f2",
     "589feaa51044bac6",
     "6249904ee897cc30",
     "7f80f404df3c0304",
@@ -211,6 +214,7 @@
     "d20cf5212d4cb682",
     "d6a87c10561b769e",
     "daedff87e86d267d",
+    "e469973ce33c65b8",
     "e541c685b29040bb",
     "ea38c7537a981f65",
     "fdba6e224985e544"
@@ -3337,6 +3341,7 @@
     "9f137351a8b37311",
     "a4cb2ad43e2f377b",
     "a8c5364e62495320",
+    "ac137b6dc571a90a",
     "acd752257f65c1b4",
     "bc23c81ab1a59319",
     "bfeb59bbdf553c83",
@@ -8457,7 +8462,8 @@
     "09abe97b6d1e2e88"
   ],
   "audio-separation": [
-    "8c15e3dd87f98062"
+    "8c15e3dd87f98062",
+    "beda2180c87591b4"
   ],
   "audio-streaming": [
     "10072bbf904d320a"
@@ -9414,6 +9420,9 @@
   ],
   "auto-request-review": [
     "b690cdb2911d3a1a"
+  ],
+  "auto-rerun-outerloop-failures": [
+    "e018bdbddfa36eda"
   ],
   "auto-rerun-transient-ci-failures": [
     "25c67389e082656e"
@@ -17177,6 +17186,7 @@
     "b1f1a7ae2fb2972b",
     "b20cc3cacd12221b",
     "b2d6b0854d8d51f3",
+    "b2d859f4a66ff32e",
     "b2fcc932b8d5b608",
     "b35dfc418b934bf9",
     "b3a8d96b78036cf2",
@@ -17963,6 +17973,7 @@
   ],
   "build-and-publish-docker-image": [
     "03f0ac7d8ee4b8fb",
+    "07ccbc424c21a7a2",
     "13681f4daa8bd833",
     "28ee55ac27918c3d",
     "5242fe4460e794ef",
@@ -19984,6 +19995,7 @@
     "75098d9507ccaf6c",
     "75385e0f3063df0b",
     "753b11cc3802076f",
+    "75995f8ceffc1d4d",
     "7b74c9bfdb103e50",
     "9aa0f8ce3c89b5d9",
     "9ae03a34b808c5b5",
@@ -21902,6 +21914,7 @@
     "3dcf769280b79942",
     "4081c178b4b959b6",
     "4374dec1c68ba0dc",
+    "43bfcd413798cfb1",
     "445ee0ff5b9421b2",
     "451944a2fd9b0d8e",
     "4e3230b641908f5f",
@@ -23042,7 +23055,8 @@
   ],
   "bump-homebrew-formula": [
     "121f797b872a0403",
-    "74127152839b6c07"
+    "74127152839b6c07",
+    "ac8b702ed726c8a5"
   ],
   "bump-homebrew-greptime-version": [
     "3b21b7cdebd92670"
@@ -25387,6 +25401,9 @@
   "challenge-tests": [
     "9fd3d3178747174f"
   ],
+  "challenges": [
+    "a76878d32d61b4d6"
+  ],
   "chance": [
     "6bd62c9245570f02"
   ],
@@ -26681,6 +26698,9 @@
   ],
   "check-dependency-artifacts": [
     "8e86b3fbb690b88c"
+  ],
+  "check-dependency-conflicts": [
+    "6e6857a857728b36"
   ],
   "check-dependency-urls": [
     "42463a6146bc90f6"
@@ -30715,6 +30735,9 @@
     "626e361f4937d5b6",
     "630392c410ef56b0",
     "8aa2d35cfc8ef106"
+  ],
+  "clarity-tests": [
+    "2cef0b6be0a1db44"
   ],
   "clash": [
     "65903f1ec28d1b16",
@@ -40878,6 +40901,9 @@
   "conv": [
     "13a49759c810adc9"
   ],
+  "conv-tasnet": [
+    "42fd8bcf46a4f1a5"
+  ],
   "convenience": [
     "086df5c9580cff0c",
     "c0b47c34225a5f49",
@@ -41507,6 +41533,7 @@
     "304e7baabe5b4449",
     "408a1b40327cd9af",
     "745b1db724317854",
+    "76549c551f7f3814",
     "8539abc3e49228c8",
     "a41284e04c8a44af",
     "a42ebffc5ea58da0",
@@ -41522,7 +41549,8 @@
   ],
   "coremltools": [
     "0bcbadc58900332f",
-    "937b37df8e677b83"
+    "937b37df8e677b83",
+    "d40447b8c0d05f99"
   ],
   "corenlp": [
     "00b591427459fc29"
@@ -47799,6 +47827,7 @@
     "1cf4a4525b64be37",
     "1d3e354ada89c635",
     "1d6c2fba56526e4a",
+    "1dd7935e307989fd",
     "1e628d458c7b31e2",
     "1ee33139b4b29a46",
     "1f907e5138d7d2c4",
@@ -47959,6 +47988,7 @@
     "595a627274f92bb7",
     "5986e98da874c2a8",
     "599048e5dc57a77a",
+    "5a52027aef64fc12",
     "5a8bc78d59a4de70",
     "5af4d7e3df185fe1",
     "5b4dd3f354169ba6",
@@ -51158,6 +51188,7 @@
   ],
   "depth-estimation": [
     "1285dc371258f816",
+    "133267f7b0b29cb4",
     "1fd65377d98bc3b4",
     "3ec59d204f1fdde5",
     "4da832fb52b12250",
@@ -51179,6 +51210,9 @@
   ],
   "depth-map": [
     "db58f21cf00d2813"
+  ],
+  "depth-mapping": [
+    "f3bffbcccfa481ab"
   ],
   "depth-prediction": [
     "0fdde60e32e8f6ee",
@@ -51932,6 +51966,9 @@
   "development-freeze": [
     "8b99e812cfc74e55",
     "e981e15be5ef3a75"
+  ],
+  "development-tests": [
+    "0e230bdb098dc2ec"
   ],
   "development-tools": [
     "0db3b60098e94ec9",
@@ -54028,6 +54065,7 @@
     "672fce7d938b0749",
     "6740f92a5b3493b1",
     "67c59f5447d60fa7",
+    "67d56dc1cbc4e5fb",
     "68731c230d1d2246",
     "687b6853f748846e",
     "68b5f3dc4258085a",
@@ -55715,6 +55753,7 @@
     "aff2e16033288282",
     "b0fe86ab76ee32a0",
     "b2d88e09e9c85b81",
+    "b4240e58c9ac1611",
     "b7311d8ea5d204df",
     "b82f602b86e79b84",
     "b846d87d2c5b9493",
@@ -63804,11 +63843,17 @@
   "fingerprints-generator": [
     "fca95705e387d6a2"
   ],
+  "finite-element-analysis": [
+    "dcdd84e69d681ef5"
+  ],
   "finite-element-method": [
     "71b0332845524413"
   ],
   "finite-element-methods": [
     "4ba365aa1c8742b2"
+  ],
+  "finite-elements": [
+    "98af182fe1427637"
   ],
   "finite-field-arithmetic": [
     "befed7f492056989"
@@ -72228,6 +72273,7 @@
     "6825a6e71c35ac0c",
     "69ac6428fd90a6de",
     "6ff23032f6257209",
+    "72afe975d5f04bc9",
     "74f6666178097f4c",
     "76524fa94925a749",
     "7a2563a7f1de9064",
@@ -75096,6 +75142,7 @@
     "d21665641df395cf",
     "d23aa6ee100794b1",
     "d25bbb82af5e5fb6",
+    "d2ae8a78a076456a",
     "d2b210bc7b9e3b2b",
     "d3305e8c23804995",
     "d3aff137c65f480a",
@@ -76178,6 +76225,10 @@
   "heapify": [
     "8a75371efeccd955"
   ],
+  "hearing-aids": [
+    "b536d1091ac09e91",
+    "fa24f352ccc2596d"
+  ],
   "heart": [
     "7a7c4b355889e432"
   ],
@@ -76236,6 +76287,12 @@
   "heif": [
     "a345eae4b47336d8",
     "ebb97251e4468595"
+  ],
+  "height-estimation": [
+    "7f97a250d6456091"
+  ],
+  "heightmap": [
+    "4e9736ecd6d1b2a0"
   ],
   "helia": [
     "5b1e45c0abbe514d",
@@ -78071,6 +78128,7 @@
     "261655a6400130a2",
     "26e6ec40c4dd73a3",
     "4c625214ba0eccc4",
+    "5eb8758437534402",
     "7a28dcf5dddaab30",
     "8a3178dcb58e79f3",
     "976303e3133ffd9b",
@@ -78101,6 +78159,7 @@
   "hugo-theme": [
     "17958808a9c13a2a",
     "31ddababd27750a0",
+    "336d54e659c627c9",
     "88e0684debae0887",
     "8f996424cdc17d9f",
     "e09cc3b6fe7c2f73",
@@ -78303,6 +78362,8 @@
   "hunyuan3d": [
     "3b469bd89e10967a",
     "799e97952be7e04b",
+    "a3c648db93409455",
+    "c87df757f01e6fbc",
     "f3f0739f9f11f375"
   ],
   "husky": [
@@ -79640,6 +79701,7 @@
     "e2908a6df009407d",
     "e4fa48e4ce2a431f",
     "e68f670400a6bd6c",
+    "e86751a505b67511",
     "ee9616385fd4e63f",
     "f31a10a931e49fac",
     "fb5bd88bd175522e",
@@ -80032,6 +80094,7 @@
     "0a90713ef8ec80f9",
     "198c5d010ed1be8b",
     "25cd63e1ca3d945f",
+    "2d9007b127873c6d",
     "4159b22e736aa59a",
     "4e7a5a01646a5568",
     "5351b2e45eca124a",
@@ -80046,6 +80109,7 @@
     "c85a54749fc50e70",
     "c9e47bea8cb01d91",
     "e6781793115a2c58",
+    "e7808aad6a0dab38",
     "ffc783ba1274cb45"
   ],
   "image-to-ascii": [
@@ -80757,6 +80821,7 @@
     "cfe2aa7ab8b726e5",
     "d4ec32e78e3605e5",
     "d4ed36b765a812b4",
+    "d8fe890a3f395f43",
     "da8bc81d8e47a167",
     "deba6fd3c98988e9",
     "e029fcb72f5e0765",
@@ -81676,6 +81741,7 @@
     "17c8aa2d4c56e11c",
     "1ba305de8acde78a",
     "1f91e2c5105fb652",
+    "21c42242dd3cff14",
     "248aebf68d21ba5b",
     "2877d03da995ccd2",
     "2d827d0c1eb82552",
@@ -81736,6 +81802,7 @@
     "e9a0378d37add34e",
     "ea6baec470291532",
     "ed771c99c81a3703",
+    "fece46e64f297ca2",
     "ff7bc2a82f2e0d4e"
   ],
   "integration-tests-amd": [
@@ -90647,6 +90714,9 @@
     "698b155c81e35a79",
     "b52766af48cff672"
   ],
+  "linkcheck---all-files": [
+    "84a3c0ea7bb998a1"
+  ],
   "linked-data": [
     "32d1cb398d9fb120",
     "5be5007378839754",
@@ -90720,6 +90790,7 @@
     "02a0d1daf7613e01",
     "02d096468df792ca",
     "02e863eb44197b03",
+    "0344116e286cdee3",
     "040d811e2a988c90",
     "04da4b0e777de1f9",
     "051d9e01375e3342",
@@ -91358,6 +91429,7 @@
     "72ae4e1d44967cb5",
     "81e09c80cfb46125",
     "8d172a3676649fb4",
+    "e7d3fa7f9696dc49",
     "ea35dc82960ce61f"
   ],
   "lint-check-charts": [
@@ -95448,6 +95520,7 @@
     "5e5f64fcb7d96454",
     "5f2d9db5651deaec",
     "5fbdc1302086d412",
+    "5fc9398cd81c3cd1",
     "6069672418caa31f",
     "6155dcd012dc4470",
     "61b4662a30d7e241",
@@ -95520,6 +95593,7 @@
     "84b5520eb16387cd",
     "85286e71c8cf7662",
     "85299d0764bd62fe",
+    "8624e010fbb764da",
     "863fb245776df521",
     "865a3e4ef57d0bdd",
     "889adedef0aa814b",
@@ -95584,6 +95658,7 @@
     "a3c8217825682fd3",
     "a406b58bb88271b7",
     "a5091ac9d9fe65e5",
+    "a5542fba70cddc44",
     "a586700d05ea3905",
     "a5d3d3cfb6bb495e",
     "a64ffb82840808c1",
@@ -96079,6 +96154,7 @@
     "e925c27730772af0",
     "e990acbf597f3d67",
     "e9b25a33fb01873a",
+    "e9da3955d4aa66b7",
     "eab8f11d589ac132",
     "eb34fcd08e020834",
     "eb9e31a441c2d2be",
@@ -97270,6 +97346,12 @@
   ],
   "map-evaluation": [
     "6cd19a3505cfaff4"
+  ],
+  "map-pipeline": [
+    "abacc817ab9bed91"
+  ],
+  "map-pipeline-check": [
+    "83bc92a867ca9c57"
   ],
   "mapbox": [
     "5b10229b40ecfa93",
@@ -99255,6 +99337,7 @@
     "70689eccdd0c4855",
     "79fcc7fa880c1e84",
     "7c9bfd6831d260c4",
+    "7d992e82b5c3e5fe",
     "7f8ff2fb9f7ceba9",
     "881be865ff135b0b",
     "b621f7e43dcda2f5",
@@ -99280,6 +99363,7 @@
   ],
   "mesh-processing": [
     "063ddf1280a91392",
+    "8d8d902d52c90999",
     "c0fb44ad710aa7e5"
   ],
   "mesh-reconstruction": [
@@ -99298,6 +99382,9 @@
   ],
   "meshlab": [
     "f10f3835cb1c4421"
+  ],
+  "meshviewer": [
+    "659c5fabda16c67d"
   ],
   "meson": [
     "03f5dd6ad8dd9007",
@@ -101543,6 +101630,7 @@
     "218ff19e527a20ed",
     "29205cb3e44d3600",
     "b55af6c7feae2b19",
+    "ca8746777186d9df",
     "e089ab51ba718ea4",
     "f9519dc90e267818"
   ],
@@ -103709,6 +103797,12 @@
   ],
   "multivariate-statistics": [
     "b93c11f4084d1265"
+  ],
+  "multiview": [
+    "307be00298f41e19"
+  ],
+  "multiview-generation": [
+    "2f6fe13037167706"
   ],
   "munge-pr": [
     "7906f7955da6a641",
@@ -105971,6 +106065,7 @@
     "aa3840e10f7860dc",
     "ae2d9f7c98b97700",
     "b9e1dfa0900f941b",
+    "c0b5b9a67cb75107",
     "c98df17f02d505b0",
     "cf8de89379b0399c",
     "d6d3913cbbda92e7",
@@ -106096,10 +106191,14 @@
   "neuroimaging": [
     "f3198e8b75ff92ae"
   ],
+  "neuromorphic": [
+    "83f075276a293ce0"
+  ],
   "neuromorphic-audio-processing": [
     "c9e4be5baea016fc"
   ],
   "neuromorphic-computing": [
+    "7c6c88bd308e520f",
     "abbc71c363078943"
   ],
   "neuroregeneration": [
@@ -108461,6 +108560,9 @@
   ],
   "normal-estimation": [
     "20d06ee9f0f02230"
+  ],
+  "normal-mapping": [
+    "46f736bb6a347c3d"
   ],
   "normalising-flows": [
     "71cadcaecdf1312f"
@@ -115809,6 +115911,9 @@
     "be61a1f78ff882c5",
     "f2ca7e50699a165c"
   ],
+  "permutation-invariant-training": [
+    "c19b7fb9360f34a9"
+  ],
   "perplexity": [
     "12a5b03e766069b7"
   ],
@@ -117190,7 +117295,8 @@
     "ab31b186f7e7b621",
     "b6a9a969443fff26",
     "c29cd50d2450a822",
-    "de1edc28cc3901c3"
+    "de1edc28cc3901c3",
+    "f6ecdbdf81768535"
   ],
   "plpgsql": [
     "5763ebf2cb80e804",
@@ -123775,10 +123881,12 @@
     "72b0d96e13f6d155",
     "a59e2cbf92b921ef",
     "b7a03959a0ab1745",
+    "babbb07124cbeb41",
     "fc06d99a8e5473e6"
   ],
   "publish-package-to-pypi": [
-    "6a60fcb4b7853815"
+    "6a60fcb4b7853815",
+    "f87785237519fb55"
   ],
   "publish-package-to-pypi-and-testpypi": [
     "3e781b54135a5d00",
@@ -124350,9 +124458,11 @@
     "d80a48cebcfd5f94",
     "db81c032bfc72c69",
     "dda943205cacff9a",
+    "e2a5005b85dcba78",
     "e5edc366d1c15046",
     "e8083a724fabcce1",
     "e9e67d9fe3506d8d",
+    "f1c48a8dfb48bfcb",
     "f6c52f12f79be5d7",
     "f7b8cde0e5398911",
     "f89be83e8f43fb00",
@@ -125014,6 +125124,7 @@
     "02854169e94a0d2b",
     "03b4df420382639e",
     "03cbb2579f1eba1b",
+    "08905bbbe96de064",
     "093586b289e30e34",
     "0bd04fadcbfabcdd",
     "147cbf29bb7c40ee",
@@ -125642,6 +125753,9 @@
   ],
   "py2exe": [
     "4e4ae337c7018cbf"
+  ],
+  "pyannote": [
+    "7d0c5f78ee75b22b"
   ],
   "pyarrow": [
     "05e0083f65eb2411",
@@ -126964,6 +127078,7 @@
     "a6b26f0056b7b2be",
     "a6c815cee6f19bbf",
     "a73f8272653ee4d8",
+    "a7619a2303f0e9d5",
     "a77d837bda18e491",
     "a7f36b63d9b4e249",
     "a7f5f2a48b635539",
@@ -127048,6 +127163,7 @@
     "c7edad7e8c29fed0",
     "c986cbf61f5ebfab",
     "ca13c21b70b83a23",
+    "ca2ee46d1af5b597",
     "ca544a3b56f4c77b",
     "cabf96d803833140",
     "caf46cde62d56d08",
@@ -127089,6 +127205,7 @@
     "d847f7119966dab4",
     "d8f97f81dd422e25",
     "d910e514e5368946",
+    "d91fb7990bf56c5b",
     "d96d5b2f20080bc6",
     "d9afdb614af363c6",
     "db1c06292f5d4db5",
@@ -127994,6 +128111,9 @@
   ],
   "qwen3-omni": [
     "f749812320e21753"
+  ],
+  "qwen3-tts": [
+    "744be0e4f670bbbb"
   ],
   "qwen3-vl": [
     "27457374da4efadd",
@@ -131103,6 +131223,7 @@
     "1909717c6a17a3b3",
     "190f8b4374cf8ee2",
     "191030639291fdf9",
+    "19397ff6bf231de7",
     "194e47a849f8291d",
     "1967d2e1be6e58ca",
     "1974d95be028a4e1",
@@ -133983,6 +134104,9 @@
   "release-testing-hackage-cabal-linux": [
     "afe277776c5b8ad9"
   ],
+  "release-tests": [
+    "670f1e3e9f5b476c"
+  ],
   "release-tip": [
     "4dfdde38eb1fdb8e"
   ],
@@ -134039,6 +134163,9 @@
     "b0e600502de581c6",
     "b3bcdf7b022eb75f",
     "c4e4b66437c4bbf6"
+  ],
+  "release-to-orda": [
+    "4083458cf604226b"
   ],
   "release-to-pypi": [
     "0fda51d7742aec41",
@@ -137991,6 +138118,7 @@
     "bbe5ef41e60c6fe1"
   ],
   "run-cd": [
+    "d2f266373554ef5b",
     "f0f9d561b3de197f"
   ],
   "run-checks": [
@@ -138004,6 +138132,7 @@
     "71caccfaad31c8b2"
   ],
   "run-ci": [
+    "62038fd7004a0aa5",
     "753bab603540e080",
     "dc2d99af36419712",
     "f8e073259f817666"
@@ -141001,6 +141130,9 @@
   "scene-flow": [
     "731ec2774ad31d28"
   ],
+  "scene-generation": [
+    "b86bd8dbebbc6347"
+  ],
   "scene-recognition": [
     "9db65a21c61d27a3",
     "a6c650920d756211"
@@ -141313,6 +141445,7 @@
     "28061b170bf2b542",
     "39f1099dc53d9c6c",
     "4440988236ba514e",
+    "65ad9062e0913c9c",
     "7517b7672a398e11"
   ],
   "scientific-workflows": [
@@ -144355,7 +144488,8 @@
   "shape": [
     "594fdc1d6e48d207",
     "b541f7d98294df9b",
-    "e4c5f87de08eab0f"
+    "e4c5f87de08eab0f",
+    "f90fc3d51abbeaf1"
   ],
   "shape-bias": [
     "8620eac52b6ce744"
@@ -144370,6 +144504,7 @@
     "1a9d117885cc252c"
   ],
   "shape-generation": [
+    "3880255171edbc02",
     "588ca08b6b2d87a4",
     "77556afd0d35b6cf"
   ],
@@ -147104,6 +147239,7 @@
   "source-separation": [
     "00bbbc5401609942",
     "21b71727d7491af6",
+    "6a08fcc0fe36f65c",
     "bee264804d9ac495"
   ],
   "source-to-image": [
@@ -147486,6 +147622,7 @@
   ],
   "speaker-diarization": [
     "0de77cbb1ce42316",
+    "13dc7684ad55a9df",
     "1543b8a4266e71b8",
     "39b278b4062f4004",
     "711f2e079876febc",
@@ -147536,6 +147673,9 @@
     "d93523e98827b3d5",
     "dc72aeabfda381e1",
     "eb075c6dae2ed10b"
+  ],
+  "speakerkit": [
+    "16c3a6de28b96fec"
   ],
   "spec": [
     "4c18c11ce55cefde",
@@ -147801,8 +147941,12 @@
     "52663db3622e0182",
     "8b67958400041c03",
     "96824122eedf6c6a",
+    "cd7f504aae2e06d4",
     "d14cfb7a6419b56e",
     "e00ac2f6c9cef169"
+  ],
+  "speech-intelligibility": [
+    "b698a68e111fa075"
   ],
   "speech-pretraining": [
     "9997009f253b2337"
@@ -147821,6 +147965,7 @@
     "b651a5d02cc663e1",
     "d818176a14aa2008",
     "d8f7b62324c531fa",
+    "dfd79299dca58bb2",
     "eb8e4c38194dee28",
     "ece9179df6056a56"
   ],
@@ -147850,6 +147995,7 @@
     "48a1bc0bbb967bde",
     "497e67eaf543e42d",
     "4b72d7b677115f58",
+    "4c1c5c800a403f39",
     "4e94b4b7fe36f029",
     "507c1e8801c44a99",
     "51bb274bed8e95e1",
@@ -147903,6 +148049,7 @@
     "2bbc6265e04319c2",
     "50a3f3e3fdd89972",
     "901c8a2b06c6f670",
+    "bb9f89fbc6cc10eb",
     "d71aaf2679d6c280"
   ],
   "speech-synthesis": [
@@ -148000,6 +148147,7 @@
     "0be9718f1be2dbd4",
     "0e7b0d23a443c14e",
     "11914322cf53b112",
+    "19e1f7f46f05628d",
     "1b078b20082f10c7",
     "269e64c25db62c93",
     "29f036d46b2015b9",
@@ -148257,6 +148405,9 @@
   ],
   "sphinx-docs-check": [
     "75616cf0bc81834b"
+  ],
+  "sphinx-docs-to-gh-pages": [
+    "0af4b53fc251c3a3"
   ],
   "sphinx-documentation": [
     "ebd9cad7f0edfe62"
@@ -152124,6 +152275,7 @@
     "0f1c3539a95f4b33",
     "0f78e8dc7bc47796",
     "105f27d6f3328de9",
+    "1ac686ea85c8455a",
     "1b1030dbe96be5ff",
     "1c287f1e822ea6c4",
     "1df3fb8bb982fe7f",
@@ -154083,6 +154235,9 @@
   "tasks-modified": [
     "18e330960f6be910"
   ],
+  "tasnet": [
+    "e18a35bcf9fba456"
+  ],
   "tasty": [
     "2f424d9d28ccb099"
   ],
@@ -154739,6 +154894,7 @@
     "65a65bd343dd176c",
     "672ba8283400dc62",
     "6779ddb0ba7f9bcd",
+    "67c43e33ae387882",
     "690212f557471965",
     "6cabaf8f16f45a0c",
     "6ce9427ee719a1fa",
@@ -155834,6 +155990,7 @@
     "64e7f5c6087ae1f8",
     "655ab43227f9b11f",
     "657a51e8d1af745f",
+    "65fdfe8f423502b7",
     "661f4054b05c9717",
     "667b1b1bf11771e2",
     "66c6b05677a80f1f",
@@ -159634,7 +159791,9 @@
     "76d4a5720d518810",
     "8333088072ee25de",
     "8cb3b156f96711c5",
+    "96c802858eaf56ac",
     "b20bdf9c6164b3c6",
+    "c039a88892584d0f",
     "d1c5c5091128ba5e",
     "d760a6f7461fa213",
     "de34ab33123826e7",
@@ -159751,6 +159910,7 @@
     "8f92163d6da9bc11",
     "8fba75dfd3e66eb0",
     "93ad1210688fc0f5",
+    "9a2d8998462e6453",
     "9d7808e707903510",
     "a589262c11ae1e16",
     "a897e7eddc99f5e5",
@@ -159923,7 +160083,11 @@
   ],
   "texture-generation": [
     "4cec11a06db55252",
+    "b86f9f494489662b",
     "cefdd5dbfc05d647"
+  ],
+  "texture-genertaion": [
+    "e0a0fb81d1c94a1e"
   ],
   "texture-mapping": [
     "56f8b26deccdce88"
@@ -159999,6 +160163,7 @@
     "9533234ba351fbaa",
     "9ddac363a70980a6",
     "9e9f494fa8b431cd",
+    "d894bd131543b070",
     "e236e200e0098e78",
     "e67c499fdec11af5"
   ],
@@ -160150,6 +160315,7 @@
     "b1c25237204244e5",
     "b239fbb268cf61a4",
     "b57782dee7123629",
+    "b5cf3dc9fea8a97b",
     "bae737e2c34f2893",
     "bbe215b366089b1e",
     "c3f347f77712c2ee",
@@ -162000,6 +162166,7 @@
     "d3a7f3b30b49610d",
     "d41b94e125818297",
     "d931e263e9652773",
+    "de0df886a74fb644",
     "df3fcbeda3361b82",
     "e036ed51c4ac6c9c",
     "e0ca40deb60d5d4f",
@@ -162148,6 +162315,7 @@
     "b59cb1a35594a22c",
     "b7c4137288288a3e",
     "bb5f74e0ec7c3435",
+    "bbc48fc9e8b0c3f5",
     "bdda090fc6f1c994",
     "c0f215e0ab920de7",
     "c1942910c3718241",
@@ -163019,6 +163187,9 @@
   ],
   "tts-recipes": [
     "d3fd601f88532267"
+  ],
+  "ttskit": [
+    "a8dfb8094accda84"
   ],
   "ttyd": [
     "480adc51de2494ca"
@@ -164854,6 +165025,7 @@
     "50430054171c1527",
     "50c49eaee63effb4",
     "5229f436dc0889e9",
+    "539523946d2a5da5",
     "578beb644740ba3c",
     "5a5bbffb77f55042",
     "5ccece471f5757b4",
@@ -166072,6 +166244,9 @@
   "update-load-generator-image": [
     "3141c58cb7fb0306"
   ],
+  "update-local-intersphinx-mappings": [
+    "26e2182e4ee1a368"
+  ],
   "update-luau-version": [
     "e6a4478a177340bf"
   ],
@@ -166622,6 +166797,9 @@
   ],
   "update-wheels-index-pages": [
     "8b1adfabc16c204e"
+  ],
+  "update-whisper-kit-expo": [
+    "d7b872717d1daa8c"
   ],
   "update-wiki": [
     "48773b25c37139f5"
@@ -167380,7 +167558,8 @@
     "33b23cc45ecb320c"
   ],
   "uvatlas": [
-    "0ca7dea1b3abf8a8"
+    "0ca7dea1b3abf8a8",
+    "e11c394a1b90e582"
   ],
   "uvicorn": [
     "bf1f60fa9025146b"
@@ -170665,6 +170844,7 @@
     "d971d19256eef6bf",
     "db069e7f8c014720",
     "dcabdf3f69d378d7",
+    "de9757015e051125",
     "e0c3f83ed1c6848b",
     "e1ba7a7d14601c8e",
     "e1de44317b9d6678",
@@ -174101,6 +174281,7 @@
     "834b2203849baf56",
     "8a33535029df09a5",
     "946deecbe73bc777",
+    "96204b0e721808bc",
     "97876a053d981f7f",
     "9de5dae814bf2964",
     "9e0ab1f56a67b861",
@@ -174140,6 +174321,9 @@
   ],
   "whispercpp-android-port": [
     "d0befeb16714c285"
+  ],
+  "whisperkit": [
+    "2a1b5f6d823f533b"
   ],
   "whisperx": [
     "4fba7a5f949c3a8e"
@@ -175431,10 +175615,12 @@
     "94ee487625031d4e",
     "9a20e0c698f7402f",
     "a27cb7e09b78da2f",
-    "cb7bb0b597852636"
+    "cb7bb0b597852636",
+    "da0eeb88bebebbf8"
   ],
   "world-models": [
     "0e81c5a518354350",
+    "2fc3e3b4c82c7a40",
     "7a32f96393ac0cd2",
     "8663b5e31073d47b",
     "b5d04b3b895610e7",

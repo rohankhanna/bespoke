@@ -1,0 +1,422 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development-tests.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/expo-update.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/expo-update.yml"
+    },
+    {
+      "component": "mislav/bump-homebrew-formula-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew-update.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "argmaxinc/whisperkittools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development-tests.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/development-tests.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "Development Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/expo-update.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/expo-update.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/expo-update.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "Update whisper-kit-expo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew-update.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "mislav/bump-homebrew-formula-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew-update.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "Bump Homebrew Formula",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-tests.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "Release Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "pyannote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "qwen3-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "speaker-diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "speakerkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "ttskit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift",
+      "target": "whisperkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:01:19.010828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25760
+    },
+    {
+      "path": ".github/workflows/development-tests.yml",
+      "size": 2308
+    },
+    {
+      "path": ".github/workflows/expo-update.yml",
+      "size": 2169
+    },
+    {
+      "path": ".github/workflows/homebrew-update.yml",
+      "size": 290
+    },
+    {
+      "path": ".github/workflows/release-tests.yml",
+      "size": 1180
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 4384
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "On-device Speech AI for Apple Silicon",
+    "fork": false,
+    "full_name": "argmaxinc/argmax-oss-swift",
+    "html_url": "https://github.com/argmaxinc/argmax-oss-swift",
+    "language": "Swift",
+    "pushed_at": "2026-06-10T19:50:21Z",
+    "stargazers_count": 6228,
+    "topics": [
+      "inference",
+      "ios",
+      "macos",
+      "pyannote",
+      "qwen3-tts",
+      "speaker-diarization",
+      "speakerkit",
+      "speech-recognition",
+      "speech-to-text",
+      "swift",
+      "text-to-speech",
+      "transformers",
+      "ttskit",
+      "whisper",
+      "whisperkit"
+    ],
+    "updated_at": "2026-06-24T18:31:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "argmaxinc/whisperkittools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Development Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/development-tests.yml",
+      "term": "Development Tests"
+    },
+    {
+      "context_snippet": "Update whisper-kit-expo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/expo-update.yml",
+      "term": "Update whisper-kit-expo"
+    },
+    {
+      "context_snippet": "Bump Homebrew Formula",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew-update.yml",
+      "term": "Bump Homebrew Formula"
+    },
+    {
+      "context_snippet": "Release Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-tests.yml",
+      "term": "Release Tests"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyannote"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen3-tts"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-diarization"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speakerkit"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ttskit"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisperkit"
+    }
+  ]
+}

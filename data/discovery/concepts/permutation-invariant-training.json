@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "permutation-invariant-training"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Conv-TasNet described in \"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\" with Permutation Invariant Training (PIT)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Conv-TasNet described in [\"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\"](https://arxiv.org/abs/1809.07454)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaituoxu/Conv-TasNet",
+      "status": "candidate",
+      "text": "A PyTorch implementation of Conv-TasNet described in [\"TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation\"](https://arxiv.org/abs/1809.07454)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "permutation-invariant-training",
+  "concept_id": "permutation-invariant-training",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "kaituoxu/Conv-TasNet"
+    }
+  ],
+  "first_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "permutation-invariant-training",
+      "sense_id": "permutation-invariant-training#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

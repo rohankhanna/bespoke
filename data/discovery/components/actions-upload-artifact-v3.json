@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v3",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1562,6 +1562,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yaml",
       "source_repo": "dwmkerr/sharpshell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "lava-nc/lava-dl"
     }
   ]
 }

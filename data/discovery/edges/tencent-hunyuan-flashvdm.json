@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/FlashVDM",
+      "target": "clay-3d/openclay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/FlashVDM",
+      "target": "seed3d/dora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/FlashVDM",
+      "target": "stepfun-ai/step1x-3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/FlashVDM",
+      "target": "nvlabs/partpacker",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-25T00:47:33.944341+00:00",
+  "source_repo": "Tencent-Hunyuan/FlashVDM"
+}

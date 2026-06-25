@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Map Pipeline Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "status": "candidate-context",
+      "text": "Estimates a depth mapping from a given normal mapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "status": "candidate-context",
+      "text": "Map Pipeline Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "status": "candidate",
+      "text": "Map Pipeline Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20884,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19795,
+      "status": "candidate",
+      "text": "path"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19795,
+      "status": "candidate",
+      "text": "route"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19715,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19686,
+      "status": "candidate",
+      "text": "reserve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Map Pipeline Check",
+  "concept_id": "map-pipeline-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/map_pipeline_check.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals"
+    }
+  ],
+  "first_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Map Pipeline Check",
+      "sense_id": "map-pipeline-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sphinx_docs_to_gh_pages.yaml",
+      "source_repo": "claritychallenge/clarity"
+    }
+  ],
+  "term": "Sphinx docs to gh-pages"
+}

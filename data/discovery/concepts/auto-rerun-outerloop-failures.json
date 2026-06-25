@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto rerun outerloop failures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Auto rerun outerloop failures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate",
+      "text": "Auto rerun outerloop failures"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20349,
+      "status": "candidate",
+      "text": "balk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20349,
+      "status": "candidate",
+      "text": "beat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20349,
+      "status": "candidate",
+      "text": "beats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20349,
+      "status": "candidate",
+      "text": "cold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20349,
+      "status": "candidate",
+      "text": "dribble"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto rerun outerloop failures",
+  "concept_id": "auto-rerun-outerloop-failures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/auto-rerun-outerloop-failures.yml",
+      "source_repo": "microsoft/aspire"
+    }
+  ],
+  "first_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto rerun outerloop failures",
+      "sense_id": "auto-rerun-outerloop-failures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

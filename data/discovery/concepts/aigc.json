@@ -355,6 +355,18 @@
       "source_repo": "AiuniAI/Unique3D",
       "status": "candidate-context",
       "text": "**[\u4e2d\u6587\u7248\u672c](README_zh.md)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "status": "candidate-context",
+      "text": "Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels with Hunyuan3D World Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "AiuniAI/Unique3D",
       "status": "candidate",
       "text": "**[\u4e2d\u6587\u7248\u672c](README_zh.md)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -2146,11 +2164,35 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": null,
       "source_repo": "AiuniAI/Unique3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/ReCamMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

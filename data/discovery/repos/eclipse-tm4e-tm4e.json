@@ -21,12 +21,12 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -61,12 +61,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "actions/cache/restore@v5",
+      "component": "actions/cache/restore@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "actions/cache/restore@v5",
+      "component": "actions/cache/restore@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -91,12 +91,12 @@
       "source_file": ".github/workflows/licensecheck.yml"
     },
     {
-      "component": "actions/cache/restore@v5",
+      "component": "actions/cache/restore@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensecheck.yml"
     },
     {
-      "component": "actions/cache/restore@v5",
+      "component": "actions/cache/restore@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensecheck.yml"
     },
@@ -175,7 +175,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "actions/cache@v5",
+      "target": "actions/cache@v6",
       "target_type": "component"
     },
     {
@@ -231,7 +231,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "actions/cache/restore@v5",
+      "target": "actions/cache/restore@v6",
       "target_type": "component"
     },
     {
@@ -273,7 +273,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensecheck.yml",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "actions/cache/restore@v5",
+      "target": "actions/cache/restore@v6",
       "target_type": "component"
     },
     {
@@ -354,7 +354,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-23T14:39:19.314221+00:00",
+  "fetched_at": "2026-06-25T00:48:21.528786+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -394,7 +394,7 @@
     "full_name": "eclipse-tm4e/tm4e",
     "html_url": "https://github.com/eclipse-tm4e/tm4e",
     "language": "Java",
-    "pushed_at": "2026-06-19T20:16:32Z",
+    "pushed_at": "2026-06-24T12:44:59Z",
     "stargazers_count": 116,
     "topics": [
       "eclipse",
@@ -403,7 +403,7 @@
       "java",
       "textmate"
     ],
-    "updated_at": "2026-06-22T13:16:16Z"
+    "updated_at": "2026-06-24T12:44:57Z"
   },
   "repo_links": [
     {

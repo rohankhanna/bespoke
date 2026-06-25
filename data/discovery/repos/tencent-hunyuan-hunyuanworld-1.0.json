@@ -1,0 +1,192 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "tencent-hunyuan/hunyuanworld-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "imlixinyang/flashworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "tencent-hunyuan/hunyuanworld-voyager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "naver-ai/zim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "hunyuan3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "scene-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "text-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "world-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
+      "target": "world-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:10.281404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16516
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels with Hunyuan3D World Model",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HunyuanWorld-1.0",
+    "html_url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0",
+    "language": "Python",
+    "pushed_at": "2026-04-15T17:27:25Z",
+    "stargazers_count": 2859,
+    "topics": [
+      "3d",
+      "3d-generation",
+      "aigc",
+      "hunyuan3d",
+      "image-to-3d",
+      "scene-generation",
+      "text-to-3d",
+      "world-model",
+      "world-models"
+    ],
+    "updated_at": "2026-06-24T08:31:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imlixinyang/flashworld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naver-ai/zim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hunyuanworld-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hunyuanworld-voyager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan3d"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-generation"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-model"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-models"
+    }
+  ]
+}

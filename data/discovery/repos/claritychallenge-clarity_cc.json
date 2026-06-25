@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity_CC",
+      "target": "hearing-aids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity_CC",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity_CC",
+      "target": "speech-intelligibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity_CC",
+      "target": "speech-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:01:11.892834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 915
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Support for Clarity Enhancement and Prediction Challenges (obsolete - see README) ",
+    "fork": false,
+    "full_name": "claritychallenge/clarity_CC",
+    "html_url": "https://github.com/claritychallenge/clarity_CC",
+    "language": "Python",
+    "pushed_at": "2022-04-14T22:16:07Z",
+    "stargazers_count": 48,
+    "topics": [
+      "hearing-aids",
+      "machine-learning",
+      "speech-intelligibility",
+      "speech-processing"
+    ],
+    "updated_at": "2024-12-31T06:55:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ":bangbang:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hearing-aids"
+    },
+    {
+      "context_snippet": ":bangbang:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": ":bangbang:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-intelligibility"
+    },
+    {
+      "context_snippet": ":bangbang:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-processing"
+    }
+  ]
+}

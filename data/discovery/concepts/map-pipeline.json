@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Map Pipeline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "status": "candidate-context",
+      "text": "Estimates a depth mapping from a given normal mapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "status": "candidate-context",
+      "text": "Map Pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "status": "candidate",
+      "text": "Map Pipeline"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12138,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12138,
+      "status": "candidate",
+      "text": "path"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12138,
+      "status": "candidate",
+      "text": "plans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12138,
+      "status": "candidate",
+      "text": "road"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12138,
+      "status": "candidate",
+      "text": "route"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Map Pipeline",
+  "concept_id": "map-pipeline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": ".github/workflows/map_pipeline.yml",
+      "source_repo": "YertleTurtleGit/depth-from-normals"
+    }
+  ],
+  "first_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Map Pipeline",
+      "sense_id": "map-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1097,6 +1097,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "huggingface/swift-transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "argmaxinc/argmax-oss-swift"
     }
   ]
 }

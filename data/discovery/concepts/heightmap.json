@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "heightmap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "status": "candidate-context",
+      "text": "Estimates a depth mapping from a given normal mapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "status": "candidate-context",
+      "text": "[![Map Pipeline](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml/badge.svg)](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YertleTurtleGit/depth-from-normals",
+      "status": "candidate",
+      "text": "[![Map Pipeline](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml/badge.svg)](https://github.com/YertleTurtleGit/depth-from-normals/actions/workflows/map_pipeline.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021490,
+      "status": "candidate",
+      "text": "heatmap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021489,
+      "status": "candidate",
+      "text": "hexamap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021488,
+      "status": "candidate",
+      "text": "hologram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021487,
+      "status": "candidate",
+      "text": "hypsogram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021486,
+      "status": "candidate",
+      "text": "hachure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "heightmap",
+  "concept_id": "heightmap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "YertleTurtleGit/depth-from-normals"
+    }
+  ],
+  "first_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "heightmap",
+      "sense_id": "heightmap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

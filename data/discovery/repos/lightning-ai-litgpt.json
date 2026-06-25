@@ -61,6 +61,26 @@
       "source_file": ".github/workflows/publish-pkg.yml"
     },
     {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml"
+    },
+    {
+      "component": "AButler/upload-release-assets@34491005a5d7ec239a784e460807ce844fde7962",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml"
+    },
+    {
       "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish-pkg.yml"
@@ -176,6 +196,27 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish-pkg.yml",
       "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "AButler/upload-release-assets@34491005a5d7ec239a784e460807ce844fde7962",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml",
+      "source_repo": "Lightning-AI/litgpt",
       "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "target_type": "component"
     },
@@ -222,7 +263,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T13:16:51.061722+00:00",
+  "fetched_at": "2026-06-25T01:11:41.174163+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -230,7 +271,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 3783
+      "size": 3789
     },
     {
       "path": ".github/workflows/check-links.yml",
@@ -246,7 +287,7 @@
     },
     {
       "path": ".github/workflows/publish-pkg.yml",
-      "size": 1257
+      "size": 2246
     }
   ],
   "related_repositories": [],
@@ -258,8 +299,8 @@
     "full_name": "Lightning-AI/litgpt",
     "html_url": "https://github.com/Lightning-AI/litgpt",
     "language": "Python",
-    "pushed_at": "2026-06-24T08:18:00Z",
-    "stargazers_count": 13433,
+    "pushed_at": "2026-06-24T19:28:07Z",
+    "stargazers_count": 13436,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -269,7 +310,7 @@
       "llm-inference",
       "llms"
     ],
-    "updated_at": "2026-06-24T12:44:36Z"
+    "updated_at": "2026-06-24T20:39:43Z"
   },
   "repo_links": [
     {

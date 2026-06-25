@@ -502,11 +502,17 @@
       "observed_at": "2026-06-24T07:22:11.002189+00:00",
       "source_file": null,
       "source_repo": "graphql/graphql-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-playground"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T07:22:11.002189+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

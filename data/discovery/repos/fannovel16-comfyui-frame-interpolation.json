@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fannovel16/ComfyUI-Frame-Interpolation",
+      "target": "ltdrdata/comfyui-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fannovel16/ComfyUI-Frame-Interpolation",
+      "target": "kosinkadink/comfyui-advanced-controlnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fannovel16/ComfyUI-Frame-Interpolation",
+      "target": "98mxr/gmfss_fortuna",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fannovel16/ComfyUI-Frame-Interpolation",
+      "target": "98mxr/ifunet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Fannovel16/ComfyUI-Frame-Interpolation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Fannovel16/ComfyUI-Frame-Interpolation",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Fannovel16/ComfyUI-Frame-Interpolation",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:03:18.778520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7710
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 358
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A custom node set for Video Frame Interpolation in ComfyUI.",
+    "fork": false,
+    "full_name": "Fannovel16/ComfyUI-Frame-Interpolation",
+    "html_url": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
+    "language": "Python",
+    "pushed_at": "2026-03-29T02:54:30Z",
+    "stargazers_count": 1040,
+    "topics": [],
+    "updated_at": "2026-06-23T11:51:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "98mxr/gmfss_fortuna",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "98mxr/ifunet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kosinkadink/comfyui-advanced-controlnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltdrdata/comfyui-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

@@ -1548,7 +1548,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T18:51:00.474850+00:00",
+  "fetched_at": "2026-06-25T01:57:27.568718+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1589,7 +1589,7 @@
     "html_url": "https://github.com/Redocly/redoc",
     "language": "TypeScript",
     "pushed_at": "2026-05-29T11:12:07Z",
-    "stargazers_count": 25770,
+    "stargazers_count": 25771,
     "topics": [
       "api-documentation",
       "documentation-generator",
@@ -1603,7 +1603,7 @@
       "redoc",
       "swagger"
     ],
-    "updated_at": "2026-06-24T17:11:52Z"
+    "updated_at": "2026-06-24T23:19:07Z"
   },
   "repo_links": [],
   "terms": [

@@ -48,7 +48,7 @@
   "normalized_form": "sdist",
   "observation_id": "0914827abeb1c5e6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T07:22:11.002189+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "sdist",
   "source_context_snippet": "sdist",
   "source_file": ".github/workflows/sdist.yml",

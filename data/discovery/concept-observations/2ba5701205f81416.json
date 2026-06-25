@@ -84,7 +84,7 @@
   "normalized_form": "nix-build",
   "observation_id": "2ba5701205f81416",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T07:22:11.002189+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "nix build",
   "source_context_snippet": "nix build",
   "source_file": ".github/workflows/nix-build.yml",

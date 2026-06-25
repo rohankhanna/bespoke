@@ -394,7 +394,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T13:21:06.912132+00:00",
+  "fetched_at": "2026-06-25T01:49:16.662425+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -435,7 +435,7 @@
     "html_url": "https://github.com/gbionics/idyntree",
     "language": "C++",
     "pushed_at": "2026-03-27T16:33:58Z",
-    "stargazers_count": 230,
+    "stargazers_count": 231,
     "topics": [
       "cxx",
       "dynamics",
@@ -449,7 +449,7 @@
       "urdf",
       "urdf-parser"
     ],
-    "updated_at": "2026-03-27T16:34:03Z"
+    "updated_at": "2026-06-24T20:21:26Z"
   },
   "repo_links": [
     {

@@ -84,7 +84,7 @@
   "normalized_form": "npm-semantic-release",
   "observation_id": "c41d483c99b93abd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T18:42:53.825671+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "NPM Semantic Release",
   "source_context_snippet": "NPM Semantic Release",
   "source_file": ".github/workflows/npm-semantic-release.yml",

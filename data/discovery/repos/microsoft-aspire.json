@@ -416,6 +416,11 @@
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-rerun-outerloop-failures.yml"
+    },
+    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml"
@@ -494,31 +499,6 @@
       "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml"
-    },
-    {
-      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml"
     }
   ],
   "edges": [
@@ -643,6 +623,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-rerun-outerloop-failures.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-rerun-outerloop-failures.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Auto rerun outerloop failures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml",
       "source_repo": "microsoft/aspire",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -726,34 +720,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "Build CLI E2E Docker Image",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/aspire",
@@ -775,7 +741,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T19:10:44.500630+00:00",
+  "fetched_at": "2026-06-25T02:11:39.588597+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -798,8 +764,12 @@
       "size": 30133
     },
     {
+      "path": ".github/workflows/auto-rerun-outerloop-failures.yml",
+      "size": 2325
+    },
+    {
       "path": ".github/workflows/auto-rerun-transient-ci-failures.js",
-      "size": 53228
+      "size": 53312
     },
     {
       "path": ".github/workflows/auto-rerun-transient-ci-failures.yml",
@@ -812,10 +782,6 @@
     {
       "path": ".github/workflows/backport.yml",
       "size": 12220
-    },
-    {
-      "path": ".github/workflows/build-cli-e2e-image.yml",
-      "size": 6736
     }
   ],
   "related_repositories": [],
@@ -827,8 +793,8 @@
     "full_name": "microsoft/aspire",
     "html_url": "https://github.com/microsoft/aspire",
     "language": "C#",
-    "pushed_at": "2026-06-24T19:10:00Z",
-    "stargazers_count": 6115,
+    "pushed_at": "2026-06-25T01:33:36Z",
+    "stargazers_count": 6118,
     "topics": [
       "cloud",
       "dotnet",
@@ -836,7 +802,7 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-06-24T18:24:29Z"
+    "updated_at": "2026-06-24T23:19:12Z"
   },
   "repo_links": [],
   "terms": [
@@ -845,6 +811,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/agentics-maintenance.yml",
       "term": "Agentic Maintenance"
+    },
+    {
+      "context_snippet": "Auto rerun outerloop failures",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-rerun-outerloop-failures.yml",
+      "term": "Auto rerun outerloop failures"
     },
     {
       "context_snippet": "Auto rerun transient CI failures",
@@ -863,12 +835,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/backport.yml",
       "term": "Backport PR to branch"
-    },
-    {
-      "context_snippet": "Build CLI E2E Docker Image",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml",
-      "term": "Build CLI E2E Docker Image"
     },
     {
       "context_snippet": "[![CI](https://github.com/microsoft/aspire/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/microsoft/aspire/actions/workflows/ci.yml)",

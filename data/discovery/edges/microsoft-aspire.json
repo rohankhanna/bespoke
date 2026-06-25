@@ -121,6 +121,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-rerun-outerloop-failures.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-rerun-outerloop-failures.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Auto rerun outerloop failures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml",
       "source_repo": "microsoft/aspire",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -204,34 +218,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-cli-e2e-image.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "Build CLI E2E Docker Image",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/aspire",
@@ -253,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-24T18:42:53.825671+00:00",
+  "generated_at": "2026-06-25T00:47:33.944341+00:00",
   "source_repo": "microsoft/aspire"
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "3D visualization and mesh analysis for science and engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Local Intersphinx Mappings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Local Intersphinx Mappings"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22872,
+      "status": "candidate",
+      "text": "pinpoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22850,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22850,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22839,
+      "status": "candidate",
+      "text": "inset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22828,
+      "status": "candidate",
+      "text": "address"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Local Intersphinx Mappings",
+      "sense_id": "update-local-intersphinx-mappings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-local-intersphinx-mappings",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-local-intersphinx-mappings",
+  "observation_id": "26e2182e4ee1a368",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_text": "Update Local Intersphinx Mappings",
+  "source_context_snippet": "Update Local Intersphinx Mappings",
+  "source_file": ".github/workflows/intersphinx-update-pull-request.yml",
+  "source_repo": "pyvista/pyvista",
+  "source_repo_description": "3D visualization and mesh analysis for science and engineering"
+}

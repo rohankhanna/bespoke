@@ -84,7 +84,7 @@
   "normalized_form": "matter.js-controller-vs-chip-device-tests",
   "observation_id": "98f9686bdf765324",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T13:00:17.759930+00:00",
+  "observed_at": "2026-06-25T00:47:33.944341+00:00",
   "observed_text": "Matter.js Controller vs Chip Device Tests",
   "source_context_snippet": "Matter.js Controller vs Chip Device Tests",
   "source_file": ".github/workflows/chip-matterjs-tests.yml",

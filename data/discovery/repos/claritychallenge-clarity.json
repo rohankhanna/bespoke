@@ -1,0 +1,316 @@
+{
+  "components": [
+    {
+      "component": "figshare/github-upload-action@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ORDA.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.12.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "Roang-zero1/github-upload-release-artifacts-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx_docs_to_gh_pages.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx_docs_to_gh_pages.yaml"
+    },
+    {
+      "component": "ns-rse/action-sphinx-docs-to-gh-pages@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx_docs_to_gh_pages.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "claritychallenge/clarity",
+      "target": "pycqa/pylint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "claritychallenge/clarity",
+      "target": "butspeechfit/torch_msbg_mbstoi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ORDA.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "figshare/github-upload-action@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ORDA.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "Release to ORDA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "actions/setup-python@v5.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "pypa/gh-action-pypi-publish@v1.12.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "Roang-zero1/github-upload-release-artifacts-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "Publish package to PyPi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "actions/setup-python@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "Clarity Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx_docs_to_gh_pages.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx_docs_to_gh_pages.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "actions/setup-python@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx_docs_to_gh_pages.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "ns-rse/action-sphinx-docs-to-gh-pages@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx_docs_to_gh_pages.yaml",
+      "source_repo": "claritychallenge/clarity",
+      "target": "Sphinx docs to gh-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity",
+      "target": "challenges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity",
+      "target": "hearing-aids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "claritychallenge/clarity",
+      "target": "speech-enhancement",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-25T02:01:09.672502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8295
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4097
+    },
+    {
+      "path": ".github/workflows/ORDA.yaml",
+      "size": 914
+    },
+    {
+      "path": ".github/workflows/pypi.yaml",
+      "size": 1238
+    },
+    {
+      "path": ".github/workflows/run_tests.yml",
+      "size": 1264
+    },
+    {
+      "path": ".github/workflows/sphinx_docs_to_gh_pages.yaml",
+      "size": 1025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Clarity Challenge toolkit - software for building Clarity Challenge systems",
+    "fork": false,
+    "full_name": "claritychallenge/clarity",
+    "html_url": "https://github.com/claritychallenge/clarity",
+    "language": "Python",
+    "pushed_at": "2026-06-22T22:03:40Z",
+    "stargazers_count": 186,
+    "topics": [
+      "challenges",
+      "hearing-aids",
+      "machine-learning",
+      "speech-enhancement"
+    ],
+    "updated_at": "2026-06-01T14:15:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "butspeechfit/torch_msbg_mbstoi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pycqa/pylint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release to ORDA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ORDA.yaml",
+      "term": "Release to ORDA"
+    },
+    {
+      "context_snippet": "Publish package to PyPi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yaml",
+      "term": "Publish package to PyPi"
+    },
+    {
+      "context_snippet": "Clarity Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "term": "Clarity Tests"
+    },
+    {
+      "context_snippet": "Sphinx docs to gh-pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx_docs_to_gh_pages.yaml",
+      "term": "Sphinx docs to gh-pages"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "challenges"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hearing-aids"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-enhancement"
+    }
+  ]
+}

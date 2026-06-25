@@ -499,6 +499,18 @@
       "source_repo": "Xilinx/brevitas",
       "status": "candidate-context",
       "text": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lava-nc/lava-dl",
+      "status": "candidate-context",
+      "text": "Deep Learning library for Lava"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lava-nc/lava-dl",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates. Patches to this project are no longer accepted by Intel. If you have an ongoing need to use this project, are interested\u2026"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +759,12 @@
       "source_repo": "Xilinx/brevitas",
       "status": "candidate",
       "text": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lava-nc/lava-dl",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates. Patches to this project are no longer accepted by Intel. If you have an ongoing need to use this project, are interested\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -3472,11 +3490,47 @@
       "observed_at": "2026-06-24T13:00:17.759930+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "lava-nc/lava-dl"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T13:00:17.759930+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],

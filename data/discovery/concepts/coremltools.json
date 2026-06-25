@@ -31,6 +31,18 @@
       "source_repo": "john-rocky/CoreML-Models",
       "status": "candidate-context",
       "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/exporters",
+      "status": "candidate-context",
+      "text": "Export Hugging Face models to Core ML and TensorFlow Lite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/exporters",
+      "status": "candidate-context",
+      "text": "<!---"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "john-rocky/CoreML-Models",
       "status": "candidate",
       "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/exporters",
+      "status": "candidate",
+      "text": "<!---"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "john-rocky/CoreML-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T00:47:33.944341+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/exporters"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
   "lexical_providers": [
     "datamuse"
   ],
