@@ -141,7 +141,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:54:33.762161+00:00",
+  "fetched_at": "2026-06-25T13:43:24.266949+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -178,9 +178,9 @@
     "html_url": "https://github.com/rust-lang/mdBook",
     "language": "Rust",
     "pushed_at": "2026-06-23T00:29:53Z",
-    "stargazers_count": 21864,
+    "stargazers_count": 21865,
     "topics": [],
-    "updated_at": "2026-06-25T01:28:29Z"
+    "updated_at": "2026-06-25T06:58:16Z"
   },
   "repo_links": [],
   "terms": [

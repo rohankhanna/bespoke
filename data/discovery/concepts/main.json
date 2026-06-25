@@ -5231,11 +5231,29 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuaLS/LLS-Addons-Action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

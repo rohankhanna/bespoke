@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:56:43.179799+00:00",
+  "fetched_at": "2026-06-25T13:48:22.104377+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -82,7 +82,7 @@
     "html_url": "https://github.com/gluonfield/enchanted",
     "language": "Swift",
     "pushed_at": "2026-06-15T06:55:18Z",
-    "stargazers_count": 5965,
+    "stargazers_count": 5966,
     "topics": [
       "ios",
       "large-language-model",
@@ -94,7 +94,7 @@
       "ollama-app",
       "swift"
     ],
-    "updated_at": "2026-06-24T10:20:27Z"
+    "updated_at": "2026-06-25T03:29:58Z"
   },
   "repo_links": [
     {

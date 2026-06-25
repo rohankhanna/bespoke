@@ -229,7 +229,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:11:46.107877+00:00",
+  "fetched_at": "2026-06-25T13:24:37.324368+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -282,14 +282,14 @@
     "html_url": "https://github.com/fla-org/flash-linear-attention",
     "language": "Python",
     "pushed_at": "2026-06-24T16:14:24Z",
-    "stargazers_count": 5256,
+    "stargazers_count": 5259,
     "topics": [
       "large-language-models",
       "machine-learning-systems",
       "natural-language-processing",
       "sequence-modeling"
     ],
-    "updated_at": "2026-06-25T00:19:36Z"
+    "updated_at": "2026-06-25T07:24:44Z"
   },
   "repo_links": [],
   "terms": [

@@ -1316,7 +1316,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:52:36.751830+00:00",
+  "fetched_at": "2026-06-25T13:38:55.158273+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1361,7 +1361,7 @@
     "html_url": "https://github.com/ipfs/ipfs-companion",
     "language": "JavaScript",
     "pushed_at": "2026-05-08T21:52:05Z",
-    "stargazers_count": 2157,
+    "stargazers_count": 2156,
     "topics": [
       "chrome-extension",
       "dweb",
@@ -1374,7 +1374,7 @@
       "protocol",
       "webextension"
     ],
-    "updated_at": "2026-06-23T11:03:31Z"
+    "updated_at": "2026-06-25T09:59:15Z"
   },
   "repo_links": [
     {

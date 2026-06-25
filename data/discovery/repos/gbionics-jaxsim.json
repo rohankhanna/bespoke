@@ -329,7 +329,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:49:11.798949+00:00",
+  "fetched_at": "2026-06-25T13:31:39.307038+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -337,7 +337,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 6924
+      "size": 7119
     },
     {
       "path": ".github/workflows/ci_cd.yml",
@@ -365,7 +365,7 @@
     "full_name": "gbionics/jaxsim",
     "html_url": "https://github.com/gbionics/jaxsim",
     "language": "Python",
-    "pushed_at": "2026-06-03T12:41:23Z",
+    "pushed_at": "2026-06-25T12:45:25Z",
     "stargazers_count": 197,
     "topics": [
       "aba",
@@ -389,7 +389,7 @@
       "simulation",
       "simulation-modeling"
     ],
-    "updated_at": "2026-06-18T12:20:42Z"
+    "updated_at": "2026-06-25T12:45:29Z"
   },
   "repo_links": [
     {

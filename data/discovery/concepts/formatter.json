@@ -3727,11 +3727,23 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

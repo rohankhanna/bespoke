@@ -84,7 +84,7 @@
   "normalized_form": "notebook-tests",
   "observation_id": "0bce957a1980cc85",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-25T13:00:34.017104+00:00",
   "observed_text": "Notebook Tests",
   "source_context_snippet": "Notebook Tests",
   "source_file": ".github/workflows/notebook-tests.yml",

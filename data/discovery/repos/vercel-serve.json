@@ -473,7 +473,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:53:30.985893+00:00",
+  "fetched_at": "2026-06-25T13:40:57.310804+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -502,14 +502,14 @@
     "html_url": "https://github.com/vercel/serve",
     "language": "TypeScript",
     "pushed_at": "2026-06-16T17:41:56Z",
-    "stargazers_count": 9871,
+    "stargazers_count": 9870,
     "topics": [
       "cli",
       "command",
       "http",
       "node"
     ],
-    "updated_at": "2026-06-22T19:00:46Z"
+    "updated_at": "2026-06-25T10:53:33Z"
   },
   "repo_links": [],
   "terms": [

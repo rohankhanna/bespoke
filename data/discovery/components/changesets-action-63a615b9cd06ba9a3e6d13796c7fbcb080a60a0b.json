@@ -1,7 +1,7 @@
 {
   "component": "changesets/action@63a615b9cd06ba9a3e6d13796c7fbcb080a60a0b",
   "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

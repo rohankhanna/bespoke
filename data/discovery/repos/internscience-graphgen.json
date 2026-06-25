@@ -275,7 +275,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:13:03.957422+00:00",
+  "fetched_at": "2026-06-25T13:26:52.344108+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -328,7 +328,7 @@
     "html_url": "https://github.com/InternScience/GraphGen",
     "language": "Python",
     "pushed_at": "2026-05-19T07:07:32Z",
-    "stargazers_count": 1043,
+    "stargazers_count": 1044,
     "topics": [
       "ai4science",
       "data-generation",
@@ -347,7 +347,7 @@
       "sft-data",
       "xtuner"
     ],
-    "updated_at": "2026-06-21T09:12:48Z"
+    "updated_at": "2026-06-25T12:36:54Z"
   },
   "repo_links": [
     {

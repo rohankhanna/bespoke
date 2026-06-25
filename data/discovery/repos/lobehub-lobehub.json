@@ -4807,7 +4807,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T18:48:16.703413+00:00",
+  "fetched_at": "2026-06-25T13:46:42.867622+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4819,7 +4819,7 @@
     },
     {
       "path": "package.json",
-      "size": 23779
+      "size": 23743
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4835,19 +4835,19 @@
     },
     {
       "path": ".github/workflows/claude-auto-e2e-testing.yml",
-      "size": 4415
+      "size": 4404
     },
     {
       "path": ".github/workflows/claude-auto-testing.yml",
-      "size": 2387
+      "size": 2376
     },
     {
       "path": ".github/workflows/claude-dedupe-issues.yml",
-      "size": 1322
+      "size": 1311
     },
     {
       "path": ".github/workflows/claude-issue-triage.yml",
-      "size": 3411
+      "size": 3594
     }
   ],
   "related_repositories": [],
@@ -4859,8 +4859,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-06-24T18:22:39Z",
-    "stargazers_count": 79045,
+    "pushed_at": "2026-06-25T13:33:14Z",
+    "stargazers_count": 79083,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4878,7 +4878,7 @@
       "openai",
       "skills"
     ],
-    "updated_at": "2026-06-24T18:10:35Z"
+    "updated_at": "2026-06-25T13:34:05Z"
   },
   "repo_links": [
     {

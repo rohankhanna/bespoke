@@ -10,20 +10,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hexops-graveyard/dockerfile",
-      "target": "safe-waters/docker-lock",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "hexops-graveyard/dockerfile",
-      "target": "krallin/tini.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "hexops-graveyard/dockerfile",
       "target": "hexops/dockerfile",
@@ -58,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:52:24.952300+00:00",
+  "fetched_at": "2026-06-25T13:38:32.154887+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,7 +65,7 @@
     "html_url": "https://github.com/hexops-graveyard/dockerfile",
     "language": "Dockerfile",
     "pushed_at": "2021-08-08T04:42:37Z",
-    "stargazers_count": 4086,
+    "stargazers_count": 4085,
     "topics": [
       "containers",
       "dockerfile",
@@ -87,7 +73,7 @@
       "oci",
       "uids"
     ],
-    "updated_at": "2026-06-23T21:13:42Z"
+    "updated_at": "2026-06-25T06:55:39Z"
   },
   "repo_links": [
     {
@@ -97,17 +83,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "safe-waters/docker-lock",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "hexops/dockerfile",
-      "source_file": "Dockerfile"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "krallin/tini.",
       "source_file": "Dockerfile"
     }
   ],

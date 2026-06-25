@@ -84,7 +84,7 @@
   "normalized_form": "check-task-absolute-paths",
   "observation_id": "1682adac9fc45e71",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-25T13:00:34.017104+00:00",
   "observed_text": "Check Task Absolute Paths",
   "source_context_snippet": "Check Task Absolute Paths",
   "source_file": ".github/workflows/check-task-absolute-path.yml",

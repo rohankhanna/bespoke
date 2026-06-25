@@ -894,11 +894,17 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

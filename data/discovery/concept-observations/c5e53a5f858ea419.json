@@ -84,7 +84,7 @@
   "normalized_form": "build-source-release-draft",
   "observation_id": "c5e53a5f858ea419",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-25T13:00:34.017104+00:00",
   "observed_text": "Build Source Release Draft",
   "source_context_snippet": "Build Source Release Draft",
   "source_file": ".github/workflows/source-release-draft.yml",

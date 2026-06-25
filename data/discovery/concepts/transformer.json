@@ -7780,11 +7780,47 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-25T13:00:34.017104+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
   "lexical_providers": [
     "datamuse"
   ],
