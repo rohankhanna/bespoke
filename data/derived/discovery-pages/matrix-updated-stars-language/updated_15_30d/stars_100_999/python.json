@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 120,
-    "observations": 121,
-    "repos": 19,
-    "terms": 120
+    "components": 66,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 16,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "AMD-AGI/Nitro-1",
     "clearml/clearml-agent",
@@ -20,13 +20,10 @@
     "google-deepmind/dm_pix",
     "jawah/charset_normalizer",
     "lancedb/yoloexplorer",
-    "meta-pytorch/torchft",
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
-    "pypa/build",
     "readthedocs/commonmark.py",
     "ShadowLoveElysia/AiNiee-Next",
-    "SublimeText/AFileIcon",
     "the-database/traiNNer-redux",
     "thu-ml/DiT-Extrapolation",
     "thunlp/OPD",

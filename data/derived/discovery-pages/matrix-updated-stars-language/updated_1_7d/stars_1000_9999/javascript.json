@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 286,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 5,
-    "terms": 18
+    "components": 353,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 7,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "apollographql/eslint-plugin-graphql",
+    "endojs/endo",
     "ipfs/ipfs-webui",
+    "JuliaPluto/Pluto.jl",
     "paralleldrive/cuid",
     "tape-testing/tape",
     "WiseLibs/better-sqlite3"

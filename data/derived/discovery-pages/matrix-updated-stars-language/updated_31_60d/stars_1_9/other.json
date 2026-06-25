@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 119,
-    "observations": 119,
-    "repos": 36,
-    "terms": 119
+    "components": 123,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 34,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "Aayushm24/presidential-briefing",
@@ -25,6 +25,7 @@
     "bennyyip/dot-vim",
     "Blosc/blogsite",
     "cosmos/security",
+    "donut-party/endpoint-test",
     "dotenvx/homebrew-brew",
     "fern-api/docs",
     "fluent-vue/examples",
@@ -45,10 +46,7 @@
     "php-rdkafka/php-rdkafka-doc",
     "pixel-font-studio/fusion-bold-pixel-font",
     "rmsrosa/rmsrosa.github.io",
-    "ros2-rust/rosidl_rust",
     "stable-haskell/cabal",
-    "standardrb/standard-sorbet",
-    "tinted-theming/base16-waybar",
-    "v-iashin/v-iashin.github.io"
+    "standardrb/standard-sorbet"
   ]
 }

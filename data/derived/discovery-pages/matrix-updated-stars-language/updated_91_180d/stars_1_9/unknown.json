@@ -3,7 +3,7 @@
     "components": 82,
     "concepts": 42,
     "observations": 42,
-    "repos": 43,
+    "repos": 44,
     "terms": 42
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
     "aaron-he-zhu/cite-domain-rating",
     "aaronrsun/spec-kit-checkpoint",
     "ada-url/url-various-datasets",
+    "addfox/skills",
     "adobe-type-tools/Adobe-Manga1",
     "adonisjs/.github",
     "aifoundry-org/et-man",

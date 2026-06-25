@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 28,
-    "observations": 29,
+    "components": 29,
+    "concepts": 35,
+    "observations": 36,
     "repos": 3,
-    "terms": 28
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "attackgoat/vk-graph",
     "Avarok-Cybersecurity/atlas",
-    "GitoxideLabs/cargo-smart-release"
+    "rust-nvml/nvml-wrapper"
   ]
 }

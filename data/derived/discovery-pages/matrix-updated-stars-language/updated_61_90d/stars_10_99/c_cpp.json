@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 397,
-    "concepts": 325,
-    "observations": 325,
-    "repos": 72,
-    "terms": 325
+    "components": 399,
+    "concepts": 323,
+    "observations": 323,
+    "repos": 73,
+    "terms": 323
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "acts-project/traccc",
     "ad-si/FlatCV",
     "ada-url/ada-python",
-    "ada-url/goada",
     "AFD-Illinois/iharm3d",
     "AFD-Illinois/kharma",
     "agl/jbig2enc",
@@ -57,6 +56,7 @@
     "Level/classic-level",
     "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",
+    "libbitcoin/libbitcoin-network",
     "libxsmm/tpp-pytorch-extension",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
@@ -78,6 +78,7 @@
     "ROCm/ROCgdb",
     "ROCm/roctracer",
     "sgt0/vs-placebo",
+    "skeeto/dcmake",
     "theimpossibleastronaut/rmw",
     "triton-inference-server/openvino_backend",
     "uael/sv",

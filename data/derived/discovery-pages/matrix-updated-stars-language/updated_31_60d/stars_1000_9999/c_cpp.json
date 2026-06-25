@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1248,
-    "concepts": 1302,
-    "observations": 1302,
-    "repos": 150,
-    "terms": 1293
+    "components": 1239,
+    "concepts": 1298,
+    "observations": 1298,
+    "repos": 148,
+    "terms": 1289
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -144,7 +144,6 @@
     "stephenberry/glaze",
     "swiftlang/swift-corelibs-foundation",
     "Taywee/args",
-    "tevador/RandomX",
     "the-tcpdump-group/libpcap",
     "Themaister/Granite",
     "tianocore/edk2",
@@ -161,7 +160,6 @@
     "YosysHQ/nextpnr",
     "YosysHQ/yosys",
     "zcash/zcash",
-    "zeux/pugixml",
     "zeux/volk",
     "zlib-ng/minizip-ng"
   ]

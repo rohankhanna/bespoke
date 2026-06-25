@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 11,
-    "terms": 57
+    "components": 47,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 12,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "aliyun/aliyun-oss-java-sdk",
     "apache/incubator-seata-samples",
@@ -24,6 +24,7 @@
     "locationtech/jts",
     "msgpack/msgpack-java",
     "srikanth-lingala/zip4j",
+    "stleary/JSON-java",
     "xerial/snappy-java"
   ]
 }

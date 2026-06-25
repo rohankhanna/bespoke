@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6759,
-    "concepts": 1296,
-    "observations": 1300,
-    "repos": 172,
-    "terms": 1403
+    "components": 6797,
+    "concepts": 1293,
+    "observations": 1297,
+    "repos": 173,
+    "terms": 1400
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -32,7 +32,6 @@
     "anthropics/claude-code-action",
     "apache/apisix-dashboard",
     "archestra-ai/archestra",
-    "argos-ci/jest-puppeteer",
     "artifacthub/hub",
     "artsy/README",
     "astral-sh/ruff-vscode",
@@ -45,6 +44,7 @@
     "berty/berty",
     "blockprotocol/blockprotocol",
     "bluesky-social/atproto",
+    "breferrari/obsidian-mind",
     "bufbuild/protobuf-es",
     "butlerx/wetty",
     "capricorn86/happy-dom",
@@ -74,7 +74,6 @@
     "electron/windows-installer",
     "ElMassimo/iles",
     "emmetio/emmet",
-    "enisdenjo/graphql-ws",
     "EpicenterHQ/epicenter",
     "eslint-stylistic/eslint-stylistic",
     "ethereumjs/ethereumjs-monorepo",
@@ -133,6 +132,7 @@
     "microsoft/vscode-cpptools",
     "microsoft/vscode-eslint",
     "microsoft/vscode-languageserver-node",
+    "MiniMax-AI/cli",
     "mksglu/context-mode",
     "Mobile-Artificial-Intelligence/maid",
     "mutoe/vue3-realworld-example-app",
@@ -146,6 +146,7 @@
     "opactorai/claudable",
     "open-telemetry/opentelemetry-js",
     "OpenAPITools/openapi-generator-cli",
+    "ory/polis",
     "owloops/claude-powerline",
     "PAIR-code/lit",
     "panva/jose",

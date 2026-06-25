@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2097,
-    "concepts": 374,
-    "observations": 374,
-    "repos": 68,
-    "terms": 403
+    "components": 2147,
+    "concepts": 399,
+    "observations": 399,
+    "repos": 70,
+    "terms": 428
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -23,12 +23,14 @@
     "antfu-collective/vitesse-webext",
     "antfu/drauu",
     "antfu/vitesse-nuxt",
+    "argos-ci/jest-puppeteer",
     "arktypeio/arktype",
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
     "coaidev/coai",
     "cosmiconfig/cosmiconfig",
     "ekalinin/sitemap.js",
+    "enisdenjo/graphql-ws",
     "glimmerjs/glimmer-vm",
     "google/gts",
     "gpac/mp4box.js",

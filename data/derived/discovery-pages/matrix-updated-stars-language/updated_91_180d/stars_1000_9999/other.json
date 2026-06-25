@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 727,
+    "components": 725,
     "concepts": 835,
     "observations": 840,
     "repos": 158,
@@ -12,16 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
-    "Alexander-Miller/treemacs",
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
-    "ankane/dexter",
     "ankane/pgslice",
-    "ankane/pgsync",
     "ardalis/ApiEndpoints",
     "artempyanykh/marksman",
     "athityakumar/colorls",
@@ -49,6 +46,7 @@
     "CommunityToolkit/dotnet",
     "container-storage-interface/spec",
     "cpm-cmake/CPM.cmake",
+    "csstools/sanitize.css",
     "dakrone/cheshire",
     "dashbitco/mox",
     "datawhalechina/tiny-universe",
@@ -124,6 +122,7 @@
     "nanxiaobei/hugo-paper",
     "ndmitchell/hlint",
     "nesquena/rabl",
+    "nmattia/niv",
     "nvim-java/nvim-java",
     "omniauth/omniauth",
     "onnx/models",
@@ -169,6 +168,7 @@
     "Vigemus/iron.nvim",
     "vkhorikov/CSharpFunctionalExtensions",
     "weichsel/ZIPFoundation",
+    "whitequark/parser",
     "woct0rdho/triton-windows",
     "yonaskolb/Mint",
     "z-x-yang/Segment-and-Track-Anything"

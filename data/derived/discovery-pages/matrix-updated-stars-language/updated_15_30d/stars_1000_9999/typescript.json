@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 194,
+    "components": 149,
     "concepts": 29,
     "observations": 29,
     "repos": 4,
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "alichherawalla/off-grid-mobile-ai",
-    "neavo/LinguaGacha",
+    "huggingface/gsplat.js",
     "safe-fndn/safe-smart-account",
     "Urigo/graphql-cli"
   ]

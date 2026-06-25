@@ -1,28 +1,24 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 11,
-    "terms": 41
+    "components": 59,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 7,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
-    "aidenlab/juicebox.js",
     "corgi-emacs/corgi-packages",
-    "electron-userland/electron-windows-msix",
     "FerrisMind/candle-video",
     "kurrent-io/KurrentDB-Client-Rust",
     "mesh-iit/cad-libraries",
-    "ocaml-tracing/ocaml-opentelemetry",
     "ogx-ai/ogx-client-typescript",
-    "storybook-community/addon-queryparams",
     "symgraph/BinAssistMCP"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 955,
-    "concepts": 933,
-    "observations": 937,
-    "repos": 163,
-    "terms": 929
+    "components": 944,
+    "concepts": 914,
+    "observations": 918,
+    "repos": 159,
+    "terms": 910
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
@@ -48,7 +48,6 @@
     "bootmortis/iran-hosted-domains",
     "bytedance/Valley",
     "capitalone/datacompy",
-    "carla-simulator/scenario_runner",
     "casperdcl/git-fame",
     "castorini/rank_llm",
     "chengzhag/UCPE",
@@ -81,7 +80,6 @@
     "galaxyproject/planemo",
     "gbionics/adam",
     "GNOME/adwaita-icon-theme",
-    "google/cameratrapai",
     "google/fiddle",
     "google/orbax",
     "google/paxml",
@@ -132,14 +130,13 @@
     "onnx/turnkeyml",
     "open-telemetry/opentelemetry-cpp-contrib",
     "opendatacube/datacube-core",
-    "OSU-NLP-Group/GUI-Agents-Paper-List",
     "PacifAIst/Quansloth",
     "perrygeo/python-rasterstats",
     "PetervanLunteren/AddaxAI",
     "plotly/Kaleido",
     "Project-MONAI/model-zoo",
     "prometheus-community/ansible",
-    "py-cov-action/python-coverage-comment-action",
+    "pypa/build",
     "pypa/packaging",
     "pypa/setuptools-scm",
     "pypdfium2-team/pypdfium2",
@@ -152,13 +149,13 @@
     "satan53x/SExtractor",
     "scicode-bench/SciCode",
     "ScoopInstaller/Nirsoft",
-    "ServiceNow/WorkArena",
     "shawn0728/OpenSearch-VL",
     "sigsep/norbert",
     "sigstore/sigstore-python",
     "sp-nitech/diffsptk",
     "spack/spack-packages",
     "styler00dollar/VSGAN-tensorrt-docker",
+    "SublimeText/AFileIcon",
     "SvenskaSpel/locust-plugins",
     "svg-project/flash-kmeans",
     "taylorwilsdon/open-webui-postgres-migration",
@@ -175,7 +172,6 @@
     "Yuliang-Liu/MultimodalOCR",
     "zh-plus/openlrc",
     "zhiyiYo/Groove",
-    "ZhuoZhuoCrayon/throttled-py",
     "zopefoundation/RestrictedPython"
   ]
 }

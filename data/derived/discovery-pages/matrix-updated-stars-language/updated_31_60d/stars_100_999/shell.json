@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 148,
-    "observations": 148,
-    "repos": 23,
-    "terms": 143
+    "components": 85,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 20,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "amrsa1/Android-Emulator-image",
@@ -25,15 +25,12 @@
     "itzg/docker-mc-backup",
     "jcefmaven/jcefbuild",
     "jez/dotfiles",
-    "lovell/sharp-libvips",
     "meyayl/docker-languagetool",
     "microcai/gentoo-zh",
     "mozilla/addons",
     "nginx-le/nginx-le",
     "NVIDIA/enroot",
     "pacstall/pacstall-programs",
-    "pion/awesome-pion",
-    "rocker-org/rocker-versioned2",
     "sclorg/s2i-php-container",
     "TypedDevs/bashunit",
     "ungoogled-software/ungoogled-chromium-archlinux"

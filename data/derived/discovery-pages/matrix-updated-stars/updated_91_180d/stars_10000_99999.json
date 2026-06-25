@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1373,
-    "concepts": 874,
-    "observations": 878,
-    "repos": 147,
-    "terms": 878
+    "components": 1422,
+    "concepts": 893,
+    "observations": 897,
+    "repos": 153,
+    "terms": 896
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -46,6 +46,7 @@
     "drduh/macOS-Security-and-Privacy-Guide",
     "egoist/tsup",
     "ekzhang/bore",
+    "enaqx/awesome-react",
     "esp8266/Arduino",
     "facebookresearch/audiocraft",
     "facebookresearch/vggt",
@@ -79,6 +80,7 @@
     "jtoy/awesome-tensorflow",
     "junegunn/vim-plug",
     "karpathy/autoresearch",
+    "KittenML/KittenTTS",
     "KlingAIResearch/LivePortrait",
     "knownsec/404StarLink",
     "kubernetes/ingress-nginx",
@@ -93,9 +95,11 @@
     "lucidrains/denoising-diffusion-pytorch",
     "lxgw/LxgwWenKai",
     "macrozheng/mall",
+    "markdown-it/markdown-it",
     "mathjax/MathJax",
     "MatsuriDayo/NekoBoxForAndroid",
     "microsoft/AirSim",
+    "microsoft/playwright-python",
     "microsoft/unilm",
     "microsoft/vscode-extension-samples",
     "minio/minio",
@@ -107,6 +111,7 @@
     "nikic/PHP-Parser",
     "NVlabs/instant-ngp",
     "openai/CLIP",
+    "openai/gym",
     "PaddlePaddle/PaddleDetection",
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
@@ -124,6 +129,7 @@
     "RasaHQ/rasa",
     "rbenv/rbenv",
     "ReactiveX/RxAndroid",
+    "resemble-ai/chatterbox",
     "romkatv/powerlevel10k",
     "rubocop/ruby-style-guide",
     "ryanoasis/nerd-fonts",

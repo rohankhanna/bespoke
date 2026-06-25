@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 111,
-    "observations": 112,
-    "repos": 25,
-    "terms": 109
+    "components": 101,
+    "concepts": 120,
+    "observations": 121,
+    "repos": 26,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "Accla/D4M.py",
+    "akarnokd/RxJavaFiberInterop",
     "Antibrumm/jackson-antpathfilter",
     "apache/netbeans-nbpackage",
     "apache/seatunnel-tools",

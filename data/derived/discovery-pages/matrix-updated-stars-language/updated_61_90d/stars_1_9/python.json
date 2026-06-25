@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 242,
-    "concepts": 144,
-    "observations": 144,
-    "repos": 65,
-    "terms": 161
+    "components": 238,
+    "concepts": 139,
+    "observations": 139,
+    "repos": 64,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -55,11 +55,9 @@
     "Jango-AI-com/morning-cli",
     "jupyter-xeus/xeus-python-shell",
     "justinchuby/lintrunner-adapters",
-    "KabakaWilliam/trajectorykit",
     "kalavai-net/kube-watcher",
     "kelp/webdown",
     "lace/proximity",
-    "ldayton/parable",
     "ldayton/Tongues",
     "lxgw/LxgwWenKai-shared",
     "Mbed-TLS/mbedtls-framework",
@@ -76,6 +74,7 @@
     "runtimeverification/kup",
     "sunthinks/kvmind",
     "TexasInstruments/edgeai-tidlrunner",
+    "TJC-LP/sanzaru",
     "UnknownPlatypus/djangofmt-pre-commit",
     "verkyyi/tokenman",
     "xiaochu-1208/interview-assistant-cli"

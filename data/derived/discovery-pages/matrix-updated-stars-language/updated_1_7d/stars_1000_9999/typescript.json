@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 568,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 11,
-    "terms": 59
+    "components": 483,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 10,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
-    "apollographql/apollo-tooling",
+    "ebullient/obsidian-admonition",
     "electron/rebuild",
     "flightcontrolhq/superjson",
     "google-gemini/live-api-web-console",
-    "graphql-hive/graphql-inspector",
     "microsoft/vscode-js-debug",
     "react-native-webview/react-native-webview",
     "shareAI-lab/Kode-CLI",

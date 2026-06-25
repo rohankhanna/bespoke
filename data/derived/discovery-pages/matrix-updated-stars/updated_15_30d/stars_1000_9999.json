@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 411,
-    "concepts": 256,
-    "observations": 258,
-    "repos": 34,
-    "terms": 256
+    "components": 354,
+    "concepts": 248,
+    "observations": 250,
+    "repos": 33,
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "alichherawalla/off-grid-mobile-ai",
+    "argmaxinc/argmax-oss-swift",
+    "bazel-contrib/bazel-gazelle",
     "bencheeorg/benchee",
-    "databendlabs/databend",
     "dkron-io/dkron",
     "facebookresearch/sam-3d-objects",
     "geotiffjs/geotiff.js",
@@ -24,6 +25,7 @@
     "googleapis/google-api-php-client",
     "hacl-star/hacl-star",
     "huggingface/finetrainers",
+    "huggingface/gsplat.js",
     "jothepro/doxygen-awesome-css",
     "JuliaAI/MLJ.jl",
     "lambdalisue/vim-fern",
@@ -33,12 +35,9 @@
     "mayocream/koharu",
     "microsoft/TRELLIS.2",
     "mono/SkiaSharp",
-    "neavo/LinguaGacha",
     "Nevcairiel/LAVFilters",
     "nvim-tree/nvim-web-devicons",
-    "openai/openai-dotnet",
     "plotly/plotly.R",
-    "radian-software/straight.el",
     "riscv-collab/riscv-gnu-toolchain",
     "rust-ml/linfa",
     "safe-fndn/safe-smart-account",

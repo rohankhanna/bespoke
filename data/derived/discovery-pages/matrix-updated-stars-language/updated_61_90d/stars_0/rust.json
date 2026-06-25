@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 134,
+    "components": 130,
     "concepts": 36,
     "observations": 36,
-    "repos": 24,
+    "repos": 23,
     "terms": 44
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
-    "arckoor/botan-rs",
     "arckoor/jsonwebtoken",
     "arckoor/jsonwebtoken-botan",
     "databendlabs/databend-base",

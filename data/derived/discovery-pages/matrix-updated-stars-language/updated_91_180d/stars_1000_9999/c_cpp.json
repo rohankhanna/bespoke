@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 368,
-    "concepts": 505,
-    "observations": 506,
-    "repos": 92,
-    "terms": 497
+    "components": 366,
+    "concepts": 499,
+    "observations": 500,
+    "repos": 91,
+    "terms": 491
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -61,7 +61,6 @@
     "ioquake/ioq3",
     "jedisct1/minisign",
     "jkuhlmann/cgltf",
-    "jlblancoc/nanoflann",
     "JoeDog/siege",
     "json-c/json-c",
     "leethomason/tinyxml2",

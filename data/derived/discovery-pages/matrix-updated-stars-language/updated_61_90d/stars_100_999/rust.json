@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1174,
-    "concepts": 814,
-    "observations": 824,
-    "repos": 161,
-    "terms": 817
+    "components": 1142,
+    "concepts": 797,
+    "observations": 806,
+    "repos": 158,
+    "terms": 800
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -38,9 +38,9 @@
     "Azure/azure-sdk-for-rust",
     "Blockstream/electrs",
     "Boddlnagg/midir",
+    "brson/basic-http-server",
     "cachix/secretspec",
     "cargo-lambda/cargo-lambda",
-    "cedar-policy/cedar-examples",
     "ChainSafe/forest",
     "cloudflare/boring",
     "cometbft/tendermint-rs",
@@ -58,19 +58,16 @@
     "cyphar/libpathrs",
     "dalance/ptags",
     "denoland/deno_doc",
-    "dfrg/swash",
     "dimforge/parry",
     "DioxusLabs/docsite",
     "diwic/dbus-rs",
     "djc/tokio-retry",
     "djkoloski/rust_serialization_benchmark",
-    "DoumanAsh/xxhash-rust",
     "drahnr/cargo-spellcheck",
     "dtolnay/proc-macro2",
     "dtormoen/tsk-tsk",
     "eigenwallet/core",
     "EmbarkStudios/cargo-about",
-    "emilk/egui_plot",
     "enbop/fungi",
     "esp-rs/esp-idf-hal",
     "esp-rs/esp-idf-svc",

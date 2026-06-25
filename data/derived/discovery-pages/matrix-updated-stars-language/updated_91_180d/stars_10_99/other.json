@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 683,
-    "concepts": 491,
-    "observations": 493,
-    "repos": 177,
-    "terms": 486
+    "components": 695,
+    "concepts": 501,
+    "observations": 503,
+    "repos": 180,
+    "terms": 496
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -40,11 +40,13 @@
     "apache/netbeans-antora-site",
     "apache/pdfbox-docs",
     "apache/rocketmq-apis",
+    "appsignal/mono",
     "Arthur944/neotest-bun",
     "asg017/sqlite-hello",
     "auto-complete/fuzzy-el",
     "AvaotaSBC/AvaotaF1",
     "avelino/monotropic-theme-vscode",
+    "awslabs/aws-lc-verification",
     "ayrat555/cargo-mode",
     "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
@@ -102,6 +104,7 @@
     "informalsystems/choreo",
     "informalsystems/quint-llm-kit",
     "IQVIA-ML/LightGBM.jl",
+    "j20001970/GDMP-demo",
     "jaegertracing/docker-protobuf",
     "jakewvincent/texmagic.nvim",
     "JamieMair/MuJoCo.jl",

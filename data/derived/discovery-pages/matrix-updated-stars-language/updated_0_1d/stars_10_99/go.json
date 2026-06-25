@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 5,
-    "observations": 5,
+    "components": 3,
+    "concepts": 3,
+    "observations": 3,
     "repos": 1,
-    "terms": 5
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
-    "cloudfoundry/credhub-cli"
+    "mudler/nib"
   ]
 }

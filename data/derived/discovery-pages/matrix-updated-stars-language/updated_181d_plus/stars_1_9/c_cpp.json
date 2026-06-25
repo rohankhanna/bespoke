@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 148,
-    "observations": 148,
-    "repos": 103,
-    "terms": 147
+    "components": 196,
+    "concepts": 158,
+    "observations": 158,
+    "repos": 105,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
@@ -44,6 +44,7 @@
     "cginternals/khrbinding-generator",
     "Clemapfel/mousetrap",
     "Clemapfel/mousetrap_julia_binding",
+    "cloudaper/compact_enc_det",
     "cpmech/vismatrix",
     "cycleg/far-gvfs",
     "Cydral/BAREL",
@@ -115,6 +116,7 @@
     "usdot-fhwa-stol/carma-delphi-srr2-driver",
     "usdot-fhwa-stol/carma-ssc-interface-wrapper",
     "vpetrigo/median-filter",
+    "walbourn/uvatlastest",
     "wxinix/wxlib",
     "yoshoku/numo-tiny_linalg"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 400,
-    "concepts": 100,
-    "observations": 100,
-    "repos": 18,
-    "terms": 99
+    "components": 440,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 19,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "caolan/async",
     "carbon-app/carbon",
@@ -21,6 +21,7 @@
     "forwardemail/superagent",
     "gulpjs/gulp",
     "less/less.js",
+    "markdown-it/markdown-it",
     "mathjax/MathJax",
     "mozilla/readability",
     "pugjs/pug",

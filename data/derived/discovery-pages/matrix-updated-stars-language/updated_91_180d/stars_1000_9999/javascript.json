@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1080,
-    "concepts": 295,
-    "observations": 296,
-    "repos": 55,
-    "terms": 292
+    "components": 1189,
+    "concepts": 314,
+    "observations": 315,
+    "repos": 59,
+    "terms": 310
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "Adobe-CEP/Samples",
@@ -32,6 +32,7 @@
     "developit/microbundle",
     "dherault/serverless-offline",
     "dwyl/learn-json-web-tokens",
+    "engineer-man/piston",
     "facebook/fbjs",
     "fengari-lua/fengari",
     "file-icons/atom",
@@ -44,6 +45,7 @@
     "jasongin/nvs",
     "jimmywarting/StreamSaver.js",
     "jsx-eslint/eslint-plugin-jsx-a11y",
+    "kangax/html-minifier",
     "mapbox/delaunator",
     "microsoft/botframework-sdk",
     "microsoft/generative-ai-with-javascript",
@@ -65,9 +67,11 @@
     "sindresorhus/execa",
     "sindresorhus/trash-cli",
     "steipete/claude-code-mcp",
+    "styled-components/polished",
     "svg-sprite/svg-sprite",
     "treosh/lighthouse-ci-action",
     "TritonDataCenter/node-verror",
-    "typicode/mistcss"
+    "typicode/mistcss",
+    "webpack/mini-css-extract-plugin"
   ]
 }

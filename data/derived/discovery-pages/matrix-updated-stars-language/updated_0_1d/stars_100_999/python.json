@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 5,
-    "terms": 21
+    "components": 103,
+    "concepts": 63,
+    "observations": 64,
+    "repos": 9,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxdiffusion",
-    "facebookresearch/MHR",
+    "aristoteleo/PantheonOS",
+    "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
-    "google-deepmind/xmanager",
-    "scverse/rapids-singlecell"
+    "meta-pytorch/torchft",
+    "NCAS-CMS/pyfive",
+    "pyrtlsdr/pyrtlsdr",
+    "scverse/rapids-singlecell",
+    "tox-dev/filelock"
   ]
 }

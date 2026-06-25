@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 844,
-    "concepts": 781,
-    "observations": 782,
-    "repos": 96,
-    "terms": 779
+    "components": 832,
+    "concepts": 778,
+    "observations": 779,
+    "repos": 94,
+    "terms": 776
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
-    "2dust/AndroidLibXrayLite",
     "aliyun/aliyun-cli",
     "andreykaipov/goobs",
     "apache/dubbo-go-hessian2",
@@ -35,7 +34,6 @@
     "celzero/firestack",
     "charmbracelet/x",
     "ClickHouse/ch-go",
-    "cloudfoundry/bosh-cli",
     "cloudfoundry/cf-deployment",
     "cloudfoundry/diego-release",
     "cloudpilot-ai/karpenter-provider-gcp",

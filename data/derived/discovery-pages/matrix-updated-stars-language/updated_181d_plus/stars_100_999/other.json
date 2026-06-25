@@ -3,8 +3,8 @@
     "components": 2412,
     "concepts": 3221,
     "observations": 3228,
-    "repos": 1006,
-    "terms": 3201
+    "repos": 1007,
+    "terms": 3204
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -446,6 +446,7 @@
     "hrsh7th/vim-vsnip-integ",
     "huawei-noah/Speech-Backbones",
     "huggingface/community-events",
+    "huggingface/swift-chat",
     "hydescarf/Obsidian-Theme-Mado-Miniflow",
     "hyperledger-labs/yui-ibc-solidity",
     "hyperoslo/capistrano-foreman",

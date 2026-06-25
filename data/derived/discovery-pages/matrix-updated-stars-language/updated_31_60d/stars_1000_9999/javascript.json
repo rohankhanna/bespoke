@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2646,
-    "concepts": 490,
-    "observations": 491,
-    "repos": 64,
-    "terms": 488
+    "components": 2598,
+    "concepts": 489,
+    "observations": 490,
+    "repos": 63,
+    "terms": 487
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
@@ -67,7 +67,6 @@
     "swagger-api/swagger-editor",
     "tapjs/tapjs",
     "terser/terser",
-    "testem/testem",
     "uBlockOrigin/uBOL-home",
     "umijs/dumi",
     "unifiedjs/unified",

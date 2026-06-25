@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1147,
-    "concepts": 730,
-    "observations": 732,
-    "repos": 296,
-    "terms": 726
+    "components": 1166,
+    "concepts": 735,
+    "observations": 737,
+    "repos": 300,
+    "terms": 730
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -32,6 +32,7 @@
     "actions-oss/gh-rc",
     "ada-url/url-various-datasets",
     "Adam-Boesky/astro_SPLASH",
+    "addfox/skills",
     "adityasugandhi/skillsync-mcp",
     "adobe-type-tools/Adobe-Manga1",
     "adobe/spectrum-tokens",
@@ -103,7 +104,7 @@
     "CHERIoT-Platform/cheriot-pqc",
     "chronosphereio/calyptia-api",
     "clearbluejar/ghidra-python",
-    "cloudaper/compact_enc_det",
+    "cloudfoundry/bosh-aws-light-stemcell-builder",
     "cncf/k8s-conformance-archive",
     "codeGROOVE-dev/retry",
     "coderaiser/escover",
@@ -162,6 +163,7 @@
     "flagos-ai/vllm-FL",
     "flinedev/customstatusline",
     "flinedev/recall",
+    "forcedotcom/dev-config",
     "gajus/eslint-plugin-slonik",
     "gakonst/foundry",
     "genius-harry/neural-chat",
@@ -202,6 +204,7 @@
     "JuliaBinaryWrappers/Zlib_jll.jl",
     "Jumziey/neotest-nix-unit.nvim",
     "justinfx/olric-nats-plugin",
+    "KabakaWilliam/trajectorykit",
     "karpeleslab/tpl",
     "kornia/data",
     "lace/entente",
@@ -209,6 +212,7 @@
     "LaurenzV/sitro",
     "Layr-Labs/incredible-squaring-avs-rs",
     "ldayton/bash-oracle",
+    "ldayton/parable",
     "leaktk/gitleaks",
     "LedgerHQ/ledgercomm",
     "lionel-/biome",

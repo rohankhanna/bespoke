@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 311,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 77,
-    "terms": 163
+    "components": 315,
+    "concepts": 172,
+    "observations": 172,
+    "repos": 80,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
@@ -83,12 +83,15 @@
     "raku-community-modules/Terminal-WCWidth",
     "ROCm/hipBLAS-common",
     "rocq-community/docker-rocq",
+    "ros2-rust/rosidl_rust",
     "Shougo/dpp-ext-lazy",
     "standardrb/standard-custom",
     "tarikmanoar/tarikmanoar",
     "Tengfei-Wang/Tengfei-Wang.github.io",
+    "tinted-theming/base16-waybar",
     "tnc-ca-geo/animl-ml",
     "tweag/gazelle_haskell_modules",
+    "v-iashin/v-iashin.github.io",
     "vovkos/doxyrest_b",
     "wavelens/gobgp.nix"
   ]

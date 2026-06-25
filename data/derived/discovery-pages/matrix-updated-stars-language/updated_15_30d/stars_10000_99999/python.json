@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 58,
-    "observations": 59,
+    "components": 38,
+    "concepts": 48,
+    "observations": 49,
     "repos": 5,
-    "terms": 58
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "aden-hive/hive",
+    "Lightning-AI/pytorch-lightning",
     "oobabooga/textgen",
     "OpenMOSS/MOSS",
-    "PDFMathTranslate/PDFMathTranslate",
     "unifyai/ivy"
   ]
 }

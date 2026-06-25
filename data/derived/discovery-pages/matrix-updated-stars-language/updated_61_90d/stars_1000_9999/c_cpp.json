@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1313,
-    "concepts": 1401,
-    "observations": 1408,
-    "repos": 193,
-    "terms": 1392
+    "components": 1322,
+    "concepts": 1405,
+    "observations": 1412,
+    "repos": 195,
+    "terms": 1396
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -187,6 +187,7 @@
     "sveinbjornt/Platypus",
     "syoyo/tinygltf",
     "TA-Lib/ta-lib",
+    "tevador/RandomX",
     "ThrowTheSwitch/Unity",
     "tinyobjloader/tinyobjloader",
     "tsujan/Kvantum",
@@ -206,6 +207,7 @@
     "yaml/libyaml",
     "ycm-core/ycmd",
     "zeux/meshoptimizer",
+    "zeux/pugixml",
     "zlib-ng/zlib-ng"
   ]
 }

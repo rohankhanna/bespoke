@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1336,
-    "concepts": 1676,
-    "observations": 1678,
-    "repos": 442,
-    "terms": 1664
+    "components": 1345,
+    "concepts": 1682,
+    "observations": 1684,
+    "repos": 445,
+    "terms": 1670
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -29,6 +29,7 @@
     "airblade/vim-rooter",
     "akinsho/bufferline.nvim",
     "akinsho/toggleterm.nvim",
+    "Alexander-Miller/treemacs",
     "alexrozanski/LlamaChat",
     "alexrudall/ruby-openai",
     "AliSoftware/Reusable",
@@ -36,6 +37,8 @@
     "amazon-science/auto-cot",
     "anderscui/jieba.NET",
     "andrewrk/poop",
+    "ankane/dexter",
+    "ankane/pgsync",
     "anmonteiro/lumo",
     "AnubisNekhet/AnuPpuccin",
     "anuvyklack/hydra.nvim",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 11,
-    "terms": 133
+    "components": 47,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 6,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
-    "Dao-AILab/flash-attention",
+    "567-labs/instructor",
     "datalab-to/marker",
-    "huggingface/pytorch-image-models",
+    "deepspeedai/DeepSpeed",
     "huggingface/sentence-transformers",
-    "psf/black",
-    "pydantic/pydantic",
     "pyg-team/pytorch_geometric",
-    "qubvel-org/segmentation_models.pytorch",
-    "run-llama/llama_index",
-    "tinygrad/tinygrad",
-    "ungoogled-software/ungoogled-chromium"
+    "tinygrad/tinygrad"
   ]
 }

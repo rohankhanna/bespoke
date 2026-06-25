@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1797,
-    "concepts": 2006,
-    "observations": 2012,
-    "repos": 214,
-    "terms": 1988
+    "components": 1804,
+    "concepts": 2007,
+    "observations": 2013,
+    "repos": 211,
+    "terms": 1989
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "abhiTronix/vidgear",
@@ -29,7 +29,6 @@
     "AndyTheFactory/newspaper4k",
     "antoinelame/GazeTracking",
     "apify/agent-skills",
-    "argosopentech/argos-translate",
     "Arize-ai/phoenix",
     "astral-sh/python-build-standalone",
     "astronomer/dag-factory",
@@ -84,7 +83,6 @@
     "ggozad/oterm",
     "git-cola/git-cola",
     "google-deepmind/dm_control",
-    "google-deepmind/mujoco_playground",
     "google-deepmind/mujoco_warp",
     "google-deepmind/sonnet",
     "google/budoux",
@@ -107,6 +105,7 @@
     "kijai/ComfyUI-KJNodes",
     "kubeflow/pipelines",
     "kubeflow/spark-operator",
+    "LCAV/pyroomacoustics",
     "librosa/librosa",
     "lightly-ai/lightly-train",
     "Lightricks/ComfyUI-LTXVideo",
@@ -140,7 +139,6 @@
     "neo4j/neo4j-python-driver",
     "newton-physics/newton",
     "nomadkaraoke/python-audio-separator",
-    "NVIDIA/Isaac-GR00T",
     "NVIDIA/Model-Optimizer",
     "NVIDIA/warp",
     "NVIDIAGameWorks/kaolin",
@@ -202,7 +200,6 @@
     "strob/gentle",
     "sublimelsp/LSP",
     "Tavish9/any4lerobot",
-    "tdrussell/diffusion-pipe",
     "testcontainers/testcontainers-python",
     "theupdateframework/python-tuf",
     "TorchIO-project/torchio",

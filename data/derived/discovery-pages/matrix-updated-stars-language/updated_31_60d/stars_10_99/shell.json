@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 171,
-    "observations": 171,
-    "repos": 30,
-    "terms": 168
+    "components": 125,
+    "concepts": 162,
+    "observations": 162,
+    "repos": 29,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "apache/datafusion-ballista-python",
@@ -41,7 +41,6 @@
     "sclorg/s2i-ruby-container",
     "stefantalpalaru/gentoo-overlay",
     "taginfo/taginfo-projects",
-    "tinted-theming/tinted-shell",
     "tinted-theming/tinted-terminal",
     "VOICEVOX/onnxruntime-builder"
   ]

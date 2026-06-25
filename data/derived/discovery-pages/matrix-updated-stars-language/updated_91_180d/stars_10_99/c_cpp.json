@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 197,
-    "observations": 198,
+    "components": 180,
+    "concepts": 195,
+    "observations": 196,
     "repos": 70,
-    "terms": 197
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
+    "ada-url/goada",
     "adamyaxley/Unformat",
     "AFD-Illinois/ebhlight",
     "amerkoleci/Alimer.Bindings",
@@ -50,7 +51,6 @@
     "ilyabrilev/biosim4",
     "intel/intel-extension-for-openxla",
     "intel/metrics-discovery",
-    "jdlph/OpenDTA",
     "jokkebk/JUnzip",
     "JPEWdev/icecream-sundae",
     "jrsoftware/iscompress",

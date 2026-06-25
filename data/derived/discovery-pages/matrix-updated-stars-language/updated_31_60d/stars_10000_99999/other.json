@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 985,
-    "concepts": 798,
-    "observations": 800,
-    "repos": 76,
-    "terms": 792
+    "components": 976,
+    "concepts": 778,
+    "observations": 780,
+    "repos": 74,
+    "terms": 772
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
     "adityatelange/hugo-PaperMod",
     "alpinejs/alpine",
     "apache/apisix",
-    "ardalis/CleanArchitecture",
     "autowarefoundation/autoware",
     "aws/amazon-sagemaker-examples",
     "BasedHardware/omi",
@@ -35,7 +34,6 @@
     "doomemacs/doomemacs",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
-    "drduh/YubiKey-Guide",
     "exelban/stats",
     "getgrav/grav",
     "getlantern/lantern",

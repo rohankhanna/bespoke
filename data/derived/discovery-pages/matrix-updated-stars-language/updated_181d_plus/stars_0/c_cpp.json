@@ -3,7 +3,7 @@
     "components": 52,
     "concepts": 26,
     "observations": 27,
-    "repos": 20,
+    "repos": 21,
     "terms": 26
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "acts-project/opendatadetector",
     "boingoing/node-sass",
@@ -20,6 +20,7 @@
     "burntsushi/linux",
     "cginternals/glscbinding-poc",
     "chelini/libxsmm",
+    "cloudaper/compact_enc_det_fork",
     "DiligentGraphics/imgui",
     "eaplatanios/triton",
     "fonwin/libfon9",

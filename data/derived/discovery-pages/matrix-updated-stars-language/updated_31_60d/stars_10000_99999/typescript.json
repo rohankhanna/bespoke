@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4845,
+    "components": 4838,
     "concepts": 1025,
     "observations": 1029,
     "repos": 89,
-    "terms": 1022
+    "terms": 1023
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -39,6 +39,7 @@
     "continuedev/continue",
     "danny-avila/LibreChat",
     "DefinitelyTyped/DefinitelyTyped",
+    "dexie/Dexie.js",
     "ecomfe/vue-echarts",
     "electron-react-boilerplate/electron-react-boilerplate",
     "electron-userland/electron-builder",
@@ -76,7 +77,6 @@
     "pmndrs/zustand",
     "postcss/postcss",
     "prisma/prisma",
-    "privatenumber/tsx",
     "puppeteer/puppeteer",
     "QwikDev/qwik",
     "react-hook-form/react-hook-form",

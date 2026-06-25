@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 22,
-    "terms": 31
+    "components": 46,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 23,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
     "Bearer/homebrew-tap",
@@ -34,6 +34,7 @@
     "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-timezones-ex",
+    "saharmor/saharmor.github.io",
     "stable-haskell/stack",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking"
   ]

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 63108,
-    "concepts": 10948,
-    "observations": 10984,
-    "repos": 1919,
-    "terms": 11246
+    "components": 63128,
+    "concepts": 10949,
+    "observations": 10985,
+    "repos": 1920,
+    "terms": 11251
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -836,6 +836,7 @@
     "howdyai/botkit",
     "hsimpson/vscode-glsllint",
     "huangguang1999/ccstatusline-zh",
+    "huggingface/gsplat.js",
     "huggingface/hf-mcp-server",
     "huggingface/huggingface.js",
     "hughfenghen/bloom-shadow",

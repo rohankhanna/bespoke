@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11986,
-    "concepts": 5426,
-    "observations": 5436,
-    "repos": 2403,
-    "terms": 5436
+    "components": 11996,
+    "concepts": 5430,
+    "observations": 5440,
+    "repos": 2407,
+    "terms": 5440
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -903,6 +903,7 @@
     "Demetter/TSCUNet_Trainer",
     "demonatic/flash-attention",
     "denar90/lightouse-ci-netlify-preact",
+    "DenisKochetov/ComfyUI-3D-Pack",
     "DeprecatedGoModules/redigo",
     "derhuerst/tap-min",
     "DevExpress/testcafe-reporter-nunit",
@@ -1745,6 +1746,7 @@
     "mrsmkl/keep-awake-rs",
     "msqr1/kaldi-wasm2",
     "mtrbpr/lua-promql-parser",
+    "mudler/ced.cpp",
     "Muennighoff/sentence-transformers",
     "mukel/qwen35.java",
     "multiformats/github-mgmt",
@@ -1810,6 +1812,7 @@
     "nuprl/Ag-LiveCodeBench-X",
     "nvpro-samples/stb",
     "NZ99/self-attention-experiments-vision",
+    "oak-barry/Unique3D",
     "obahareth/base16-builder-ruby",
     "objectbox/objectbox-swift-generator",
     "objectbox/objectbox-swift-spm",
@@ -2352,6 +2355,7 @@
     "w3c/dpub-aam",
     "wa-lang/webgpu",
     "walbourn/directxtk12test",
+    "walbourn/uvatlastest",
     "walles/ftop",
     "walles/loadviz",
     "wangshuai09/stable-diffusion-webui",

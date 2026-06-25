@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 238,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 92,
-    "terms": 106
+    "concepts": 101,
+    "observations": 101,
+    "repos": 88,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -25,8 +25,6 @@
     "csm-actions/demo-client",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
-    "danielrosehill/AI-Memory-Layers",
-    "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/BUDGET.md",
@@ -61,7 +59,6 @@
     "danielrosehill/Claude-HP5200-Skill-plugin",
     "danielrosehill/Claude-Image-Annotation-Plugin",
     "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
-    "danielrosehill/Claude-Israel-Shopping-Plugin",
     "danielrosehill/Claude-Jewish-Utilities-Plugin",
     "danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin",
     "danielrosehill/Claude-Keyboard-Scanner",
@@ -75,7 +72,6 @@
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Jewish-Texts-Reference-Plugin",
     "danielrosehill/Repo-Starters-And-Templates-Index",
-    "danielrosehill/Responsible-Agent-Skill-Development",
     "drmingdrmer/databend-meta",
     "flagos-ai/verl-FL",
     "getlantern/guide",

@@ -3,7 +3,7 @@
     "components": 49,
     "concepts": 22,
     "observations": 23,
-    "repos": 14,
+    "repos": 13,
     "terms": 21
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0aids/imnodes",
-    "cloudaper/compact_enc_det_fork",
     "czk23/YiTu",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "DiligentGraphics/args",

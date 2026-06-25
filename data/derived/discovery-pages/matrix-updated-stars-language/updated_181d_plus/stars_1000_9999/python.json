@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1015,
-    "concepts": 3951,
-    "observations": 3953,
-    "repos": 1005,
-    "terms": 3880
+    "concepts": 3970,
+    "observations": 3972,
+    "repos": 1009,
+    "terms": 3899
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
+    "3DTopia/LGM",
     "3DTopia/OpenLRM",
     "425776024/nlpcda",
     "abertsch72/unlimiformer",
@@ -37,6 +38,7 @@
     "aiortc/aioquic",
     "airaria/TextBrewer",
     "airbnb/binaryalert",
+    "AiuniAI/Unique3D",
     "aiwaves-cn/agents",
     "ajbrock/BigGAN-PyTorch",
     "akamaster/pytorch_resnet_cifar10",
@@ -387,6 +389,7 @@
     "HRNet/HRNet-Image-Classification",
     "HRNet/HRNet-Semantic-Segmentation",
     "HuangJunJie2017/BEVDet",
+    "huanngzh/MV-Adapter",
     "huawei-noah/Efficient-AI-Backbones",
     "huawei-noah/Pretrained-Language-Model",
     "HuCaoFighting/Swin-Unet",
@@ -871,6 +874,7 @@
     "taoyds/spider",
     "tczhangzhi/pytorch-distributed",
     "Teemu/pytest-sugar",
+    "Tencent-Hunyuan/Hunyuan3D-2.1",
     "Tencent-Hunyuan/HunyuanCustom",
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
     "Tencent/MimicMotion",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10405,
-    "concepts": 10192,
-    "observations": 10224,
-    "repos": 1731,
-    "terms": 10142
+    "components": 10416,
+    "concepts": 10196,
+    "observations": 10228,
+    "repos": 1734,
+    "terms": 10146
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -1300,6 +1300,8 @@
     "mudler/LocalAI",
     "mudler/LocalRecall",
     "mudler/MCPs",
+    "mudler/nib",
+    "mudler/skillserver",
     "muesli/ansi",
     "muesli/duf",
     "muesli/reflow",
@@ -1429,6 +1431,7 @@
     "pires/go-proxyproto",
     "pkg/browser",
     "pkoukk/tiktoken-go",
+    "pkoukk/tiktoken-go-loader",
     "podman-container-tools/podman",
     "ppc64le-cloud/kubetest2-plugins",
     "pquerna/ffjson",

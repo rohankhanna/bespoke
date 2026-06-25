@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 755,
-    "concepts": 1572,
-    "observations": 1574,
-    "repos": 874,
-    "terms": 1548
+    "components": 766,
+    "concepts": 1588,
+    "observations": 1590,
+    "repos": 880,
+    "terms": 1566
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -173,6 +173,7 @@
     "bentoml/BentoChatTTS",
     "bentoml/BentoColPali",
     "bentoml/BentoCrewAI",
+    "bentoml/BentoLMDeploy",
     "BienLuky/CacheQuant",
     "BienLuky/EDA-DM",
     "bigpon/QPPWG",
@@ -247,6 +248,7 @@
     "citation-file-format/doi2cff",
     "cjpais/handy-cli",
     "ckan/ckan-service-provider",
+    "claritychallenge/clarity_CC",
     "clayrisser/sphinx-jekyll-builder",
     "clayrisser/sphinx-markdown-parser",
     "clearbluejar/ghidra-python-vscode-devcontainer-skeleton",
@@ -335,6 +337,7 @@
     "e-alizadeh/Zotero2MD",
     "eaeful/WechatOCR_umi_plugin",
     "easonnie/combine-FEVER-NSMN",
+    "EasternJournalist/pipeline",
     "eblerjana/genotyping-pipelines",
     "echo-yiyiyi/cube",
     "echo840/LIRA",
@@ -481,6 +484,7 @@
     "IntelPython/smp",
     "IntentDev/TopArray",
     "InternScience/AdaptiveDiffusion",
+    "InternScience/SciReason",
     "InternScience/SeedBench",
     "interstar/ThoughtStorms",
     "intuitive-robots/beso",
@@ -826,6 +830,7 @@
     "ttlns/undetected-playwright-python",
     "TTPlanetPig/Comfyui_TTP_CN_Preprocessor",
     "tuneflow/AudioLDM",
+    "TuZehai/Sheffield_Clarity_CEC1_Entry",
     "tyco986/AlphaPose_jittor",
     "TZW1998/ParaTAA-Diffusion",
     "UKPLab/useb",
@@ -863,6 +868,7 @@
     "yangjianxin1/unsloth",
     "yaohungt/Barlow-Twins-HSIC",
     "ye4241/midjourney-captcha-bot",
+    "YertleTurtleGit/depth-from-normals",
     "yeyupiaoling/PaddlePaddle-MobileFaceNets",
     "yifan123/reward-server",
     "ymoslem/MT-Evaluation",

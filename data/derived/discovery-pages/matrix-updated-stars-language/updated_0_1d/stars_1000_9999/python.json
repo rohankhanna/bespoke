@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 124,
-    "observations": 124,
-    "repos": 13,
-    "terms": 124
+    "components": 171,
+    "concepts": 166,
+    "observations": 167,
+    "repos": 15,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
-    "aws/serverless-application-model",
+    "clearml/clearml",
     "collabora/WhisperLive",
+    "eclipse-paho/paho.mqtt.python",
+    "Farama-Foundation/Minigrid",
     "fla-org/flash-linear-attention",
-    "google-deepmind/optax",
     "harbor-framework/harbor",
-    "huggingface/optimum-quanto",
-    "JuergenFleiss/aTrain",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
+    "modelscope/ms-agent",
     "ogx-ai/ogx",
     "PrimeIntellect-ai/verifiers",
+    "pyvista/pyvista",
+    "redis/redis-om-python",
     "rllm-org/rllm"
   ]
 }

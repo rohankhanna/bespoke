@@ -3,7 +3,7 @@
     "components": 239,
     "concepts": 121,
     "observations": 121,
-    "repos": 135,
+    "repos": 136,
     "terms": 121
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0x0ade/MonoMod-wip",
     "5sControl/.github",
@@ -48,6 +48,7 @@
     "cpettitt/dagre-d3",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/ai-human-attribution-adder",
+    "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/backup_internet_israel",

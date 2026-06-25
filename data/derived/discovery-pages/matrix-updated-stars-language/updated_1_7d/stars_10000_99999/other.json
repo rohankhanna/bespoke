@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 4,
-    "terms": 39
+    "components": 47,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 5,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "dense-analysis/ale",
     "github-linguist/linguist",
     "lancedb/lancedb",
+    "mixmark-io/turndown",
     "TA-Lib/ta-lib-python"
   ]
 }

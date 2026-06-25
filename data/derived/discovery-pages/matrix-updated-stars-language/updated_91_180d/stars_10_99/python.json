@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 355,
-    "concepts": 348,
-    "observations": 349,
-    "repos": 129,
-    "terms": 354
+    "components": 361,
+    "concepts": 349,
+    "observations": 350,
+    "repos": 131,
+    "terms": 355
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
+    "0xNyk/openclaw-to-hermes",
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
@@ -33,7 +34,7 @@
     "autokitteh/kittehub",
     "az1326/advisor-models",
     "bazelbuild/java_tools",
-    "bentoml/BentoLMDeploy",
+    "bentoml/openllm-models",
     "bigai-nlco/RuleReasoner",
     "biocypher/project-template",
     "BirolLab/tigmint",
@@ -58,7 +59,6 @@
     "cvat-ai/datumaro",
     "danielrosehill/Index",
     "danielward27/paramax",
-    "EasternJournalist/pipeline",
     "elm-fluent/elm-fluent",
     "Embarcadero/PythonEnvironments",
     "ENCODE-DCC/caper",
@@ -85,7 +85,6 @@
     "inducer/codepy",
     "inducer/genpy",
     "InteractiveComputerGraphics/blender-sequence-loader",
-    "InternScience/SciReason",
     "IQTLabs/snowglobe",
     "ironArray/Caterva2",
     "IST-DASLab/Quartet-II",
@@ -97,6 +96,7 @@
     "jin-s13/xtcocoapi",
     "jsonquerylang/jsonquery-python",
     "Justintime50/homebrew-releaser",
+    "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
     "layumi/3D-Magic-Mirror",
     "liran-funaro/sphinx-markdown-builder",
     "Lizw14/Super-CLEVR",
@@ -116,6 +116,7 @@
     "PoseLib/posebench",
     "python-pillow/pillow-perf",
     "rdb/panda3d-thirdparty",
+    "redis/redis-py-entraid",
     "richardodliu/OpenCodeEval",
     "rstudio/pins-python",
     "saltstack/libnacl",
@@ -136,6 +137,7 @@
     "TungChintao/SkiLa",
     "vinlyx/mgzip",
     "vis-nlp/ChartQAPro",
+    "VisionXLab/Rise-Video",
     "xplpc/xplpc",
     "xuanyuzhang21/RALI",
     "xuanyuzhang21/VQ-Insight",

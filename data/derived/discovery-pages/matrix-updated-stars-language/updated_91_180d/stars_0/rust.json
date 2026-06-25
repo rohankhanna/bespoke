@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 82,
+    "components": 86,
     "concepts": 28,
     "observations": 29,
-    "repos": 16,
+    "repos": 17,
     "terms": 28
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
+    "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
     "bgw/bincode",
     "databendlabs/iceberg-rust",

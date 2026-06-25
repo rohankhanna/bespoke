@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1122,
-    "concepts": 612,
-    "observations": 616,
-    "repos": 148,
-    "terms": 610
+    "components": 1120,
+    "concepts": 611,
+    "observations": 615,
+    "repos": 146,
+    "terms": 609
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abarisani/abarisani.github.io",
@@ -45,7 +45,6 @@
     "cginternals/cpplocate",
     "Cle2ment/CherryStudio_themes",
     "cloudfoundry/bosh-aws-cpi-release",
-    "cloudfoundry/bosh-azure-cpi-release",
     "cloudfoundry/capi-release",
     "cloudfoundry/uaa-release",
     "conservationtechlab/animl-r",
@@ -76,7 +75,6 @@
     "google/bazel-common",
     "googleapis/google-cloud-php-pubsub",
     "GregoryConrad/native_toolchain_rust",
-    "guoqingbao/attention.rs",
     "habamax/vim-habamax",
     "haskell-actions/hlint-scan",
     "haskell/ghcup-metadata",

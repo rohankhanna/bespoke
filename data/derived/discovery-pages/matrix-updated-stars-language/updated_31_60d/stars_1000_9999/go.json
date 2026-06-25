@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 935,
-    "concepts": 980,
-    "observations": 985,
-    "repos": 93,
-    "terms": 975
+    "components": 907,
+    "concepts": 950,
+    "observations": 955,
+    "repos": 90,
+    "terms": 945
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
     "apache/apisix-ingress-controller",
     "apache/incubator-devlake",
     "argoproj-labs/argocd-image-updater",
-    "argoproj/argo-events",
     "argoproj/argo-rollouts",
     "auth0/go-jwt-middleware",
     "aws/aws-sdk-go-v2",
@@ -37,7 +36,6 @@
     "Consensys/gnark",
     "cosmos/cosmos-sdk",
     "crazy-max/diun",
-    "dghubble/gologin",
     "Dicklesworthstone/beads_viewer",
     "DNSCrypt/dnscrypt-resolvers",
     "dundee/gdu",
@@ -92,7 +90,6 @@
     "ory/oathkeeper",
     "pion/example-webrtc-applications",
     "pion/turn",
-    "prometheus-community/windows_exporter",
     "prometheus/alertmanager",
     "redis/rueidis",
     "replicate/cog",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2267,
-    "concepts": 419,
-    "observations": 420,
-    "repos": 81,
-    "terms": 429
+    "components": 2384,
+    "concepts": 450,
+    "observations": 451,
+    "repos": 85,
+    "terms": 460
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -30,9 +30,12 @@
     "antfu/vscode-icons-carbon",
     "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
+    "avli/clojureVSCode",
     "axel-op/googlejavaformat-action",
     "aymenfurter/ralph",
     "bvaughn/react-window-infinite-loader",
+    "carbon-design-system/carbon-icons-svelte",
+    "carbon-design-system/carbon-pictograms-svelte",
     "castwide/vscode-solargraph",
     "cloydlau/json-editor-vue",
     "cocos/cocos-test-projects",
@@ -76,6 +79,7 @@
     "Piebald-AI/gemini-cli-desktop",
     "posthtml/posthtml-parser",
     "priceline/design-system",
+    "ruvnet/agentic-flow",
     "SassNinja/postcss-extract-media-query",
     "solidjs/templates",
     "sudocode-ai/sudocode",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11860,
+    "components": 11861,
     "concepts": 8091,
     "observations": 8153,
-    "repos": 1751,
+    "repos": 1752,
     "terms": 8081
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -284,6 +284,7 @@
     "brave/adblock-rust",
     "brendanzab/codespan",
     "browserslist/browserslist-rs",
+    "brson/basic-http-server",
     "bspeice/dtparse",
     "Builditluc/wiki-tui",
     "BurntSushi/aho-corasick",

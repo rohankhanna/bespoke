@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 764,
-    "concepts": 800,
-    "observations": 801,
-    "repos": 131,
-    "terms": 798
+    "components": 738,
+    "concepts": 777,
+    "observations": 778,
+    "repos": 125,
+    "terms": 775
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -38,7 +38,6 @@
     "ClickHouse/clickhouse-cpp",
     "cloudwu/soluna",
     "coin-or/CppAD",
-    "davisp/jiffy",
     "ddemidov/amgcl",
     "DiligentGraphics/DiligentCore",
     "DiligentGraphics/DiligentFX",
@@ -60,7 +59,6 @@
     "garglk/garglk",
     "gazebosim/sdformat",
     "gen2brain/malgo",
-    "gisbi-kim/removert",
     "go-skynet/go-llama.cpp",
     "googleapis/google-cloud-cpp",
     "GraphBLAS/LAGraph",
@@ -75,7 +73,6 @@
     "intel/ScalableVectorSearch",
     "istio/proxy",
     "j20001970/GDMP",
-    "jcmvbkbc/gcc-xtensa",
     "jellyfin/jellyfin-ffmpeg",
     "JokerJohn/DCReg",
     "jrouwe/JoltPhysics.js",
@@ -84,7 +81,6 @@
     "KhronosGroup/Vulkan-Loader",
     "KhronosGroup/Vulkan-ValidationLayers",
     "kiron1/bazel-compile-commands",
-    "kleisauke/wasm-vips",
     "kokkos/kokkos-kernels",
     "LedgerHQ/speculos",
     "libbitcoin/libbitcoin-server",
@@ -119,7 +115,6 @@
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
     "RcppCore/Rcpp",
-    "robotology/yarp",
     "ROCm/AMDMIGraphX",
     "ROCm/rccl",
     "ROCm/rocBLAS",
@@ -143,7 +138,6 @@
     "Unidata/netcdf-c",
     "uxlfoundation/oneDAL",
     "uxlfoundation/oneDPL",
-    "VectorDB-NTU/RaBitQ-Library",
     "yoshoku/llama_cpp.rb"
   ]
 }

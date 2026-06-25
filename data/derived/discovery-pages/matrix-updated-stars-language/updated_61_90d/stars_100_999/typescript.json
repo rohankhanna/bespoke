@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3943,
-    "concepts": 783,
-    "observations": 783,
-    "repos": 141,
-    "terms": 844
+    "components": 3826,
+    "concepts": 752,
+    "observations": 752,
+    "repos": 137,
+    "terms": 813
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -30,7 +30,6 @@
     "astral-sh/ruff-action",
     "atomicmemory/llm-wiki-compiler",
     "Autodesk/synthesis",
-    "avli/clojureVSCode",
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
     "aws-samples/swift-chat",
@@ -42,8 +41,6 @@
     "badlogic/pi-share-hf",
     "birdofpreyru/react-native-fs",
     "blrchen/chatgpt-lite",
-    "carbon-design-system/carbon-icons-svelte",
-    "carbon-design-system/carbon-pictograms-svelte",
     "carlrannaberg/claudekit",
     "Charlie85270/Dorothy",
     "charmbracelet/vhs-action",
@@ -132,7 +129,6 @@
     "ory/kratos-selfservice-ui-node",
     "redhat-developer/vscode-xml",
     "retracedhq/retraced",
-    "ruvnet/agentic-flow",
     "safe-global/safe-deployments",
     "sass/embedded-host-node",
     "shareai-lab/kode-agent-sdk",

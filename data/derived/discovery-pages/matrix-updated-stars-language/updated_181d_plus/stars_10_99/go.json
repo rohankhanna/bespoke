@@ -3,7 +3,7 @@
     "components": 443,
     "concepts": 464,
     "observations": 467,
-    "repos": 176,
+    "repos": 177,
     "terms": 460
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -153,6 +153,7 @@
     "osmosis-labs/cosmos-sdk",
     "panmari/cuckoofilter",
     "pinpox/base16-universal-manager",
+    "pkoukk/tiktoken-go-loader",
     "pulumi/halloumi",
     "qri-io/dataset",
     "qri-io/starpg",

@@ -3,7 +3,7 @@
     "components": 84,
     "concepts": 44,
     "observations": 44,
-    "repos": 25,
+    "repos": 24,
     "terms": 44
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "cachix/crossterm",
     "CADindustries/container",
     "cwfitzgerald/libtest-mimic",
     "danielrosehill/Agent-Deploy",
-    "danielrosehill/AI-Sysadmin",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",
     "danielrosehill/Hebrew-Tech-Vocab",

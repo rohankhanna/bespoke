@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1658,
-    "concepts": 1204,
-    "observations": 1211,
+    "components": 1689,
+    "concepts": 1194,
+    "observations": 1202,
     "repos": 174,
-    "terms": 1215
+    "terms": 1205
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -65,7 +65,6 @@
     "EricLBuehler/mistral.rs",
     "esp-rs/esp-hal",
     "eventual-inc/daft",
-    "extism/extism",
     "eyre-rs/eyre",
     "flamegraph-rs/flamegraph",
     "fltk-rs/fltk-rs",
@@ -93,9 +92,7 @@
     "Keats/tera",
     "kika/fixedsys",
     "killercup/cargo-edit",
-    "la10736/rstest",
     "lalrpop/lalrpop",
-    "LaurentMazare/tch-rs",
     "libp2p/rust-libp2p",
     "linebender/resvg",
     "liuchengxu/vim-clap",
@@ -117,6 +114,7 @@
     "mozilla/sccache",
     "mstange/samply",
     "mthom/scryer-prolog",
+    "Myriad-Dreamin/tinymist",
     "nabijaczleweli/cargo-update",
     "napi-rs/napi-rs",
     "napi-rs/node-rs",
@@ -145,6 +143,7 @@
     "rust-bitcoin/rust-bitcoin",
     "rust-cli/confy",
     "rust-cli/env_logger",
+    "rust-cross/cargo-zigbuild",
     "rust-lang/cc-rs",
     "rust-lang/crates.io",
     "rust-lang/docs.rs",
@@ -187,6 +186,7 @@
     "uuid-rs/uuid",
     "vadimcn/codelldb",
     "vladkens/macmon",
+    "vulkano-rs/vulkano",
     "WebAssembly/WASI"
   ]
 }

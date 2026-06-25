@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 360,
-    "concepts": 169,
-    "observations": 171,
-    "repos": 114,
-    "terms": 170
+    "components": 373,
+    "concepts": 173,
+    "observations": 175,
+    "repos": 116,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -24,6 +24,7 @@
     "aldernero/spider",
     "aleclarson/vite-multi-spa",
     "all-the-noises/data",
+    "arckoor/botan-rs",
     "artsy/react-native-launch-arguments",
     "Bearer/homebrew-tap",
     "beurdouche/nss-gk-api",
@@ -34,14 +35,13 @@
     "charlesnicholson/docker-images",
     "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
-    "cloudaper/compact_enc_det_fork",
     "cwfitzgerald/libtest-mimic",
     "czk23/YiTu",
     "danielJL-altius/israelgrocerymcp",
     "danielrosehill/Agent-Deploy",
-    "danielrosehill/AI-Sysadmin",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Failover-Internet-Israel-Notes",
+    "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",
     "danielrosehill/Hebrew-Tech-Vocab",
@@ -59,6 +59,7 @@
     "DataDog/opa",
     "datafuse-extras/tantivy",
     "datafuse-extras/tantivy-jieba",
+    "devnen/chatterbox-v2",
     "DiligentGraphics/args",
     "DiligentGraphics/glfw",
     "DiligentGraphics/glslang",
@@ -114,6 +115,7 @@
     "prestodb/presto-dev",
     "saalfeldlab/n5-blosc",
     "Saalvage/assimp",
+    "saharmor/saharmor.github.io",
     "samsja/dion",
     "sarlinpe/pybind11-stubgen",
     "sp1-patches/curve25519-dalek",

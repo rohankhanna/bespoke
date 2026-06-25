@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-24T07:54:10.644847+00:00`
+Generated at: `2026-06-25T05:54:30.678111+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 124
-- components: 138
-- concepts: 124
-- observations: 124
+- repos: 15
+- terms: 166
+- components: 171
+- concepts: 166
+- observations: 167
 
 ## Static behavior
 
@@ -26,34 +26,38 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4227 | 2026-06-24T00:42:14Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
-| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2666 | 2026-06-24T00:23:00Z | Python | CLI | 10 | 17 | 10 | 10 |
-| [google-deepmind/optax](https://github.com/google-deepmind/optax) | 2295 | 2026-06-23T23:26:11Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [aws/serverless-application-model](https://github.com/aws/serverless-application-model) | 9560 | 2026-06-23T23:13:12Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
-| [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5643 | 2026-06-23T22:31:00Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
-| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2625 | 2026-06-23T20:58:10Z | Python | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [huggingface/optimum-quanto](https://github.com/huggingface/optimum-quanto) | 1044 | 2026-06-23T17:54:31Z | Python | Infrastructure/tooling | 9 | 13 | 9 | 9 |
-| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8415 | 2026-06-23T17:17:33Z | Python | Infrastructure/tooling | 9 | 24 | 9 | 9 |
-| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5249 | 2026-06-23T17:10:20Z | Python | Infrastructure/tooling | 16 | 13 | 16 | 16 |
-| [collabora/WhisperLive](https://github.com/collabora/WhisperLive) | 4104 | 2026-06-23T14:52:02Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1131 | 2026-06-23T13:09:33Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
-| [JuergenFleiss/aTrain](https://github.com/JuergenFleiss/aTrain) | 1161 | 2026-06-23T12:58:56Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5776 | 2026-06-23T12:26:06Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2703 | 2026-06-25T01:46:10Z | Python | CLI | 10 | 17 | 10 | 10 |
+| [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5646 | 2026-06-24T23:23:23Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
+| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8416 | 2026-06-24T22:54:10Z | Python | Infrastructure/tooling | 9 | 24 | 9 | 9 |
+| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4231 | 2026-06-24T22:42:03Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
+| [pyvista/pyvista](https://github.com/pyvista/pyvista) | 3715 | 2026-06-24T21:06:27Z | Python | Infrastructure/tooling | 16 | 20 | 16 | 16 |
+| [eclipse-paho/paho.mqtt.python](https://github.com/eclipse-paho/paho.mqtt.python) | 2406 | 2026-06-24T20:49:05Z | Python | CLI | 7 | 9 | 7 | 7 |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2626 | 2026-06-24T20:39:45Z | Python | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5256 | 2026-06-24T16:14:24Z | Python | Infrastructure/tooling | 16 | 13 | 16 | 16 |
+| [Farama-Foundation/Minigrid](https://github.com/Farama-Foundation/Minigrid) | 2469 | 2026-06-24T15:41:04Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 11 |
+| [collabora/WhisperLive](https://github.com/collabora/WhisperLive) | 4106 | 2026-06-24T15:14:49Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [clearml/clearml](https://github.com/clearml/clearml) | 6743 | 2026-06-24T13:07:41Z | Python | Infrastructure/tooling | 16 | 4 | 16 | 16 |
+| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1133 | 2026-06-24T12:19:36Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5775 | 2026-06-24T12:19:33Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [modelscope/ms-agent](https://github.com/modelscope/ms-agent) | 4320 | 2026-06-24T09:13:14Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1312 | 2026-06-24T07:19:28Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [aws/serverless-application-model](https://github.com/aws/serverless-application-model) | 9560 | 2026-06-23T23:13:12Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
-| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8415 | 2026-06-23T17:17:33Z | Python | Infrastructure/tooling | 9 | 24 | 9 | 9 |
-| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5776 | 2026-06-23T12:26:06Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5643 | 2026-06-23T22:31:00Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
-| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5249 | 2026-06-23T17:10:20Z | Python | Infrastructure/tooling | 16 | 13 | 16 | 16 |
-| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4227 | 2026-06-24T00:42:14Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
-| [collabora/WhisperLive](https://github.com/collabora/WhisperLive) | 4104 | 2026-06-23T14:52:02Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2666 | 2026-06-24T00:23:00Z | Python | CLI | 10 | 17 | 10 | 10 |
-| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2625 | 2026-06-23T20:58:10Z | Python | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [google-deepmind/optax](https://github.com/google-deepmind/optax) | 2295 | 2026-06-23T23:26:11Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [JuergenFleiss/aTrain](https://github.com/JuergenFleiss/aTrain) | 1161 | 2026-06-23T12:58:56Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1131 | 2026-06-23T13:09:33Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
-| [huggingface/optimum-quanto](https://github.com/huggingface/optimum-quanto) | 1044 | 2026-06-23T17:54:31Z | Python | Infrastructure/tooling | 9 | 13 | 9 | 9 |
+| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8416 | 2026-06-24T22:54:10Z | Python | Infrastructure/tooling | 9 | 24 | 9 | 9 |
+| [clearml/clearml](https://github.com/clearml/clearml) | 6743 | 2026-06-24T13:07:41Z | Python | Infrastructure/tooling | 16 | 4 | 16 | 16 |
+| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5775 | 2026-06-24T12:19:33Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5646 | 2026-06-24T23:23:23Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
+| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5256 | 2026-06-24T16:14:24Z | Python | Infrastructure/tooling | 16 | 13 | 16 | 16 |
+| [modelscope/ms-agent](https://github.com/modelscope/ms-agent) | 4320 | 2026-06-24T09:13:14Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
+| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4231 | 2026-06-24T22:42:03Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
+| [collabora/WhisperLive](https://github.com/collabora/WhisperLive) | 4106 | 2026-06-24T15:14:49Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [pyvista/pyvista](https://github.com/pyvista/pyvista) | 3715 | 2026-06-24T21:06:27Z | Python | Infrastructure/tooling | 16 | 20 | 16 | 16 |
+| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2703 | 2026-06-25T01:46:10Z | Python | CLI | 10 | 17 | 10 | 10 |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2626 | 2026-06-24T20:39:45Z | Python | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [Farama-Foundation/Minigrid](https://github.com/Farama-Foundation/Minigrid) | 2469 | 2026-06-24T15:41:04Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 11 |
+| [eclipse-paho/paho.mqtt.python](https://github.com/eclipse-paho/paho.mqtt.python) | 2406 | 2026-06-24T20:49:05Z | Python | CLI | 7 | 9 | 7 | 7 |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1312 | 2026-06-24T07:19:28Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1133 | 2026-06-24T12:19:36Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |

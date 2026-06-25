@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 57,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 94,
-    "terms": 86
+    "concepts": 79,
+    "observations": 79,
+    "repos": 96,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -51,11 +51,13 @@
     "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Geopol-Projects",
+    "danielrosehill/AI-Memory-Layers",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Project-Spec-Pattern",
     "danielrosehill/AI-Projects-Index",
     "danielrosehill/AI-Resource-Maps",
+    "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",

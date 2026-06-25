@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 772,
-    "concepts": 789,
-    "observations": 791,
-    "repos": 69,
-    "terms": 783
+    "components": 725,
+    "concepts": 744,
+    "observations": 746,
+    "repos": 65,
+    "terms": 738
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
     "agno-agi/agno",
-    "Aider-AI/aider",
     "certbot/certbot",
     "crewAIInc/crewAI",
     "cvat-ai/cvat",
@@ -29,7 +28,6 @@
     "google/magika",
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
-    "HKUDS/RAG-Anything",
     "huggingface/datasets",
     "huggingface/lerobot",
     "huggingface/trl",
@@ -49,12 +47,12 @@
     "mlflow/mlflow",
     "modelscope/DiffSynth-Studio",
     "networkx/networkx",
-    "nodejs/node-gyp",
     "OpenBMB/MiniCPM-o",
     "opendatalab/MinerU",
     "optuna/optuna",
     "ostris/ai-toolkit",
     "pallets/click",
+    "PDFMathTranslate/PDFMathTranslate",
     "pipecat-ai/pipecat",
     "PrefectHQ/fastmcp",
     "psf/requests",
@@ -62,7 +60,6 @@
     "pypa/pipx",
     "python-pillow/Pillow",
     "python-poetry/poetry",
-    "python-telegram-bot/python-telegram-bot",
     "redis/redis-py",
     "roboflow/supervision",
     "RVC-Boss/GPT-SoVITS",
@@ -70,7 +67,6 @@
     "scipy/scipy",
     "scrapy/scrapy",
     "Skyvern-AI/skyvern",
-    "speechbrain/speechbrain",
     "state-spaces/mamba",
     "StevenBlack/hosts",
     "SWE-agent/SWE-agent",

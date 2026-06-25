@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 197,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 26,
-    "terms": 81
+    "components": 207,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 27,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-compiler",
     "3swordman/tree-sitter-toon",
@@ -30,6 +30,7 @@
     "cpojer/js-codemod",
     "danielrosehill/My-Network-MCP",
     "fishballapp/inquirer-cli",
+    "forcedotcom/dev-config",
     "hchiam/chat-app-fcc-react-redux",
     "hchiam/learning-eslint-google",
     "hchiam/learning-redux",

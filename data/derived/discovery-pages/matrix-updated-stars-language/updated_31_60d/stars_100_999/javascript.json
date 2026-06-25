@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1268,
-    "concepts": 259,
-    "observations": 261,
-    "repos": 54,
-    "terms": 255
+    "concepts": 256,
+    "observations": 258,
+    "repos": 52,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
@@ -33,7 +33,6 @@
     "firebase/snippets-web",
     "fontello/svg2ttf",
     "GDevelopApp/GDevelop-examples",
-    "GordonChen19/Prompt-Relay",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "j9t/html-minifier-next",
@@ -53,7 +52,6 @@
     "postcss/postcss-cli",
     "prisma/ecosystem-tests",
     "reviewdog/action-eslint",
-    "rooklift/ogatak",
     "ruby/setup-ruby",
     "rubyjs/mini_racer",
     "rvagg/github-webhook",

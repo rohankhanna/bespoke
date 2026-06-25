@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-24T07:54:10.644847+00:00`
+Generated at: `2026-06-25T05:54:30.678111+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 142
-- components: 166
-- concepts: 142
-- observations: 143
+- repos: 9
+- terms: 117
+- components: 104
+- concepts: 117
+- observations: 118
 
 ## Static behavior
 
@@ -26,34 +26,26 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 6110 | 2026-06-24T07:15:34Z | Other | Infrastructure/tooling | 10 | 18 | 10 | 10 |
+| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1233 | 2026-06-25T01:42:10Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 6118 | 2026-06-25T01:33:36Z | Other | Infrastructure/tooling | 11 | 18 | 11 | 11 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5956 | 2026-06-25T00:48:27Z | Other | Infrastructure/tooling | 24 | 17 | 24 | 24 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3671 | 2026-06-25T00:25:27Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1926 | 2026-06-24T21:36:19Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1437 | 2026-06-24T15:59:56Z | Other | CLI | 11 | 14 | 11 | 11 |
+| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5813 | 2026-06-24T13:36:14Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5095 | 2026-06-24T10:46:15Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
 | [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1186 | 2026-06-24T06:54:45Z | Other | Infrastructure/tooling | 21 | 15 | 21 | 21 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5953 | 2026-06-24T01:12:41Z | Other | Infrastructure/tooling | 24 | 17 | 24 | 24 |
-| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1234 | 2026-06-24T00:27:22Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5095 | 2026-06-23T23:44:45Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
-| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1437 | 2026-06-23T23:34:05Z | Other | CLI | 11 | 14 | 11 | 11 |
-| [beam-community/elixir-companies](https://github.com/beam-community/elixir-companies) | 1666 | 2026-06-23T18:03:31Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
-| [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1398 | 2026-06-23T16:43:25Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9221 | 2026-06-23T14:57:17Z | Other | Infrastructure/tooling | 11 | 33 | 11 | 11 |
-| [elixir-grpc/grpc](https://github.com/elixir-grpc/grpc) | 1517 | 2026-06-23T14:13:43Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5812 | 2026-06-23T11:45:03Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [okd-project/okd](https://github.com/okd-project/okd) | 2081 | 2026-06-23T10:34:21Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
-| [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6417 | 2026-06-23T09:13:07Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9221 | 2026-06-23T14:57:17Z | Other | Infrastructure/tooling | 11 | 33 | 11 | 11 |
-| [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6417 | 2026-06-23T09:13:07Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 6110 | 2026-06-24T07:15:34Z | Other | Infrastructure/tooling | 10 | 18 | 10 | 10 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5953 | 2026-06-24T01:12:41Z | Other | Infrastructure/tooling | 24 | 17 | 24 | 24 |
-| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5812 | 2026-06-23T11:45:03Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5095 | 2026-06-23T23:44:45Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
-| [okd-project/okd](https://github.com/okd-project/okd) | 2081 | 2026-06-23T10:34:21Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
-| [beam-community/elixir-companies](https://github.com/beam-community/elixir-companies) | 1666 | 2026-06-23T18:03:31Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
-| [elixir-grpc/grpc](https://github.com/elixir-grpc/grpc) | 1517 | 2026-06-23T14:13:43Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1437 | 2026-06-23T23:34:05Z | Other | CLI | 11 | 14 | 11 | 11 |
-| [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1398 | 2026-06-23T16:43:25Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1234 | 2026-06-24T00:27:22Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 6118 | 2026-06-25T01:33:36Z | Other | Infrastructure/tooling | 11 | 18 | 11 | 11 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5956 | 2026-06-25T00:48:27Z | Other | Infrastructure/tooling | 24 | 17 | 24 | 24 |
+| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5813 | 2026-06-24T13:36:14Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5095 | 2026-06-24T10:46:15Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3671 | 2026-06-25T00:25:27Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1926 | 2026-06-24T21:36:19Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1437 | 2026-06-24T15:59:56Z | Other | CLI | 11 | 14 | 11 | 11 |
+| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1233 | 2026-06-25T01:42:10Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1186 | 2026-06-24T06:54:45Z | Other | Infrastructure/tooling | 21 | 15 | 21 | 21 |

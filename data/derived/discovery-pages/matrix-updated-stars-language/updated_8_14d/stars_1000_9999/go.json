@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 4,
-    "terms": 33
+    "components": 31,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 3,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
-    "bazel-contrib/bazel-gazelle",
     "gobackup/gobackup",
-    "olric-data/olric",
-    "vale-cli/vale"
+    "nutsdb/nutsdb",
+    "olric-data/olric"
   ]
 }

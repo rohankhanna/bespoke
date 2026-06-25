@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2869,
-    "concepts": 666,
-    "observations": 675,
-    "repos": 141,
-    "terms": 696
+    "components": 2747,
+    "concepts": 651,
+    "observations": 660,
+    "repos": 137,
+    "terms": 681
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -35,7 +35,6 @@
     "bmad-code-org/bmad-module-game-dev-studio",
     "browserify/resolve",
     "browserslist/update-db",
-    "ButTaiwan/bpmfvs",
     "carbon-design-system/carbon-components-vue",
     "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
@@ -50,7 +49,6 @@
     "CVEProject/cve-services",
     "CyberAP/nanoid-dictionary",
     "d3/d3-format",
-    "d3/d3-geo-polygon",
     "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
     "devsnek/esvu",
@@ -71,14 +69,12 @@
     "fastify/fastify-autoload",
     "fastify/fastify-cli",
     "fastify/fastify-plugin",
-    "fgnass/domino",
-    "Fil/d3-geo-voronoi",
     "florajs/sql-parser",
     "fwcd/tree-sitter-kotlin",
     "gatsbyjs/gatsby-starter-hello-world",
-    "googleapis/nodejs-bigtable",
     "GoogleChromeLabs/wasm-feature-detect",
     "gopasspw/gopassbridge",
+    "GordonChen19/Prompt-Relay",
     "graphql/graphql-over-http",
     "graphql/graphql-wg",
     "gruntjs/grunt-contrib-connect",
@@ -108,7 +104,6 @@
     "mapbox/pbf",
     "mapbox/tilelive",
     "mapbox/vector-tile-js",
-    "markdown-it/linkify-it",
     "marwin1991/profile-technology-icons",
     "Mathpix/mathpix-markdown-it",
     "mattgodbolt/jsbeeb",
@@ -131,6 +126,7 @@
     "postcss/sugarss",
     "previm/previm",
     "projectfluent/fluent.js",
+    "rooklift/ogatak",
     "rtfeldman/node-test-runner",
     "semantic-release/changelog",
     "semantic-release/commit-analyzer",

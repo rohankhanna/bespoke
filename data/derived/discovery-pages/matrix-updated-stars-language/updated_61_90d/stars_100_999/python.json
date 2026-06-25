@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1843,
-    "concepts": 1837,
-    "observations": 1845,
-    "repos": 366,
-    "terms": 1850
+    "components": 1850,
+    "concepts": 1849,
+    "observations": 1857,
+    "repos": 367,
+    "terms": 1862
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -82,6 +82,7 @@
     "callowayproject/bump-my-version",
     "camel-ai/loong",
     "carla-simulator/ros-bridge",
+    "carla-simulator/scenario_runner",
     "CatharsisFonts/Cormorant",
     "CatharsisFonts/Ysabeau",
     "celery/billiard",
@@ -134,7 +135,6 @@
     "ethereum/execution-spec-tests",
     "EvolvingLMMs-Lab/EASI",
     "executablebooks/MyST-Parser",
-    "facebookincubator/ptr",
     "facebookresearch/atlas",
     "facebookresearch/optimizers",
     "facebookresearch/RAM",
@@ -161,6 +161,7 @@
     "google-deepmind/physics-IQ-benchmark",
     "google-research/android_world",
     "google/aqt",
+    "google/cameratrapai",
     "google/seqio",
     "googleads/google-ads-python",
     "googleapis/python-aiplatform",
@@ -236,7 +237,6 @@
     "microsoft/multilspy",
     "microsoft/RedStone",
     "microsoft/WindowsAgentArena",
-    "microsoft/XPretrain",
     "MinimalFuture/AgentMesh",
     "MiniMax-AI/VTP",
     "mit-ll-responsible-ai/hydra-zen",
@@ -271,9 +271,8 @@
     "OpenBMB/UltraEval-Audio",
     "OpenHands/OpenHands-CLI",
     "OpenHands/software-agent-sdk",
-    "openlawlibrary/pygls",
     "optuna/optuna-examples",
-    "OSGeo/PROJ-data",
+    "OSU-NLP-Group/GUI-Agents-Paper-List",
     "pandas-dev/pandas-stubs",
     "pappasam/jedi-language-server",
     "patrick-kidger/optimistix",
@@ -292,6 +291,7 @@
     "pnnx/pnnx",
     "pre-commit/mirrors-mypy",
     "Project-MONAI/VISTA",
+    "py-cov-action/python-coverage-comment-action",
     "pybind/cmake_example",
     "pybind/python_example",
     "pybind/scikit_build_example",
@@ -330,6 +330,7 @@
     "scrapinghub/article-extraction-benchmark",
     "searxng/searx-instances",
     "SemiAnalysisAI/InferenceX",
+    "ServiceNow/WorkArena",
     "seung-lab/cloud-volume",
     "Slicer/light-the-torch",
     "spesmilo/electrumx",
@@ -370,7 +371,6 @@
     "volcengine/volcengine-python-sdk",
     "voxel51/fiftyone-brain",
     "wuphilipp/gello_software",
-    "xavierpuigf/virtualhome",
     "Yelp/aactivator",
     "ymcui/Chinese-Mixtral",
     "ymcui/LERT",
@@ -379,6 +379,7 @@
     "zai-org/GLM-skills",
     "zai-org/z-ai-sdk-python",
     "zarr-developers/numcodecs",
-    "zhiqwang/yolort"
+    "zhiqwang/yolort",
+    "ZhuoZhuoCrayon/throttled-py"
   ]
 }

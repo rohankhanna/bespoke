@@ -1,27 +1,26 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 10,
-    "terms": 44
+    "components": 131,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 9,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
     "alloy-rs/evm",
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "apostrophecms/starter-kit-astro-apollo",
+    "crossplane/docs",
     "karafka/example-apps",
-    "mongodb/winkerberos",
-    "nuxt-modules/emotion",
+    "lumen-oss/luarocks-tag-release",
+    "mudler/nib",
     "pivotal/credhub-release",
     "processing/processing-website",
-    "TrigenSoftware/simple-release",
-    "vaporif/parry-guard"
+    "storybook-community/addon-queryparams"
   ]
 }

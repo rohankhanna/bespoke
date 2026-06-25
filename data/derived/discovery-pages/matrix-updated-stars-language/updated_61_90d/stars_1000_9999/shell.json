@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 212,
-    "observations": 214,
+    "components": 162,
+    "concepts": 214,
+    "observations": 216,
     "repos": 41,
-    "terms": 212
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
@@ -35,7 +35,6 @@
     "docker-library/golang",
     "docker-library/official-images",
     "docker-library/postgres",
-    "docker-library/wordpress",
     "dtcooper/raspotify",
     "frankbria/ralph-claude-code",
     "git-quick-stats/git-quick-stats",
@@ -51,6 +50,7 @@
     "rocker-org/rocker",
     "rvm/rvm",
     "spiffe/spiffe",
+    "sublimehq/Packages",
     "trailofbits/claude-code-config",
     "void-linux/void-packages",
     "zilliztech/attu",

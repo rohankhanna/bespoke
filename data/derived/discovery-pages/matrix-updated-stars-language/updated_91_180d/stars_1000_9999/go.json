@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 307,
-    "concepts": 312,
-    "observations": 312,
-    "repos": 65,
-    "terms": 307
+    "components": 338,
+    "concepts": 331,
+    "observations": 331,
+    "repos": 70,
+    "terms": 326
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -20,6 +20,7 @@
     "alexellis/k3sup",
     "ankitpokhrel/jira-cli",
     "apache/rocketmq-client-go",
+    "aquasecurity/starboard",
     "aquasecurity/tfsec",
     "atotto/clipboard",
     "avast/retry-go",
@@ -32,6 +33,7 @@
     "CloudyKit/jet",
     "coder/websocket",
     "coocood/freecache",
+    "cortesi/devd",
     "dagger/container-use",
     "darccio/mergo",
     "ddworken/hishtory",
@@ -50,6 +52,7 @@
     "golang/oauth2",
     "google/go-cmp",
     "google/go-jsonnet",
+    "google/starlark-go",
     "hashicorp/go-metrics",
     "hashicorp/memberlist",
     "instrumenta/kubeval",
@@ -57,6 +60,7 @@
     "jhump/protoreflect",
     "JohannesKaufmann/html-to-markdown",
     "jtblin/kube2iam",
+    "kubernetes-sigs/krew",
     "liquidmetal-dev/flintlock",
     "mailru/easyjson",
     "markbates/goth",
@@ -68,6 +72,7 @@
     "opencontainers/runtime-spec",
     "OwO-Network/DeepLX",
     "protocolbuffers/protobuf-go",
+    "qjfoidnh/BaiduPCS-Go",
     "refraction-networking/utls",
     "restic/rest-server",
     "rs/cors",

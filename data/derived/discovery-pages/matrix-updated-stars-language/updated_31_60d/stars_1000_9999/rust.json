@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1026,
-    "concepts": 798,
-    "observations": 800,
-    "repos": 91,
-    "terms": 792
+    "components": 983,
+    "concepts": 796,
+    "observations": 797,
+    "repos": 89,
+    "terms": 790
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "64bit/async-openai",
@@ -35,6 +35,7 @@
     "cobalt-org/cobalt.rs",
     "cordx56/rustowl",
     "CosmWasm/cosmwasm",
+    "databendlabs/databend",
     "databendlabs/openraft",
     "delta-io/delta-rs",
     "Devolutions/IronRDP",
@@ -66,7 +67,6 @@
     "MaterializeInc/materialize",
     "mozilla/cbindgen",
     "mozilla/uniffi-rs",
-    "Myriad-Dreamin/tinymist",
     "nats-io/nats.rs",
     "nix-rust/nix",
     "notify-rs/notify",
@@ -84,7 +84,6 @@
     "ros2-rust/ros2_rust",
     "rust-cli/config-rs",
     "rust-cli/human-panic",
-    "rust-cross/cargo-zigbuild",
     "Rust-GPU/rust-gpu",
     "rust-lang/flate2-rs",
     "rust-lang/libc",
@@ -102,7 +101,6 @@
     "time-rs/time",
     "unicode-org/icu4x",
     "VOICEVOX/voicevox_core",
-    "vulkano-rs/vulkano",
     "wasm-bindgen/wasm-bindgen",
     "wasm-bindgen/wasm-pack"
   ]

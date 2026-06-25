@@ -1,41 +1,45 @@
 {
   "counts": {
-    "components": 310,
-    "concepts": 195,
-    "observations": 196,
-    "repos": 24,
-    "terms": 194
+    "components": 413,
+    "concepts": 220,
+    "observations": 221,
+    "repos": 28,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "apache/casbin-Casbin.NET",
     "apache/casbin-jcasbin",
+    "apollographql/apollo-tooling",
+    "arcee-ai/mergekit",
     "ashvardanian/NumKong",
     "AviSynth/AviSynthPlus",
-    "bazel-contrib/bazel-gazelle",
     "benchmark-action/github-action-benchmark",
     "callstack/react-native-builder-bob",
     "crate-ci/cargo-release",
-    "eclipse-paho/paho.mqtt.python",
     "gluonfield/enchanted",
     "gobackup/gobackup",
+    "graphql-hive/graphql-inspector",
     "intel/BigDL",
     "intelligent-machine-learning/dlrover",
     "intentee/paddler",
+    "macfuse/macfuse",
     "meta-pytorch/tnt",
     "microsoft/PhiCookBook",
     "NEKOparapa/AiNiee",
+    "nutsdb/nutsdb",
     "olric-data/olric",
     "preservim/tagbar",
+    "pytorch/gloo",
+    "swiftlang/swift-llbuild",
     "TheTom/turboquant_plus",
     "ultrajson/ultrajson",
-    "vale-cli/vale",
     "vercel/serve"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 4,
-    "terms": 23
+    "components": 2,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 2,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
-    "apostrophecms/starter-kit-astro-apollo",
-    "lumen-oss/luarocks-tag-release",
     "nvim-mini/mini.deps",
     "tinted-theming/tinted-xresources"
   ]

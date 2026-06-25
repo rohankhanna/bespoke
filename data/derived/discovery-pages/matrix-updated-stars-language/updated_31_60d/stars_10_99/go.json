@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 223,
-    "concepts": 154,
-    "observations": 155,
+    "components": 228,
+    "concepts": 151,
+    "observations": 152,
     "repos": 34,
-    "terms": 154
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "ankitpokhrel/shopctl",
@@ -20,7 +20,6 @@
     "bitrise-io/stepman",
     "bootmortis/sing-geosite",
     "cloudfoundry/bosh-backup-and-restore",
-    "cloudfoundry/bpm-release",
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
     "cloudfoundry/cf-smoke-tests",
@@ -40,6 +39,7 @@
     "ipfs/ipfs-check",
     "Kong/kong-operator",
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
+    "mudler/skillserver",
     "openshift/kubernetes",
     "oracle/karpenter-provider-oci",
     "philips-labs/dct-notary-admin",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 16,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 13,
-    "terms": 85
+    "concepts": 75,
+    "observations": 75,
+    "repos": 12,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "ad-si/awesome-music-production",
-    "Efficient-ML/Awesome-Model-Quantization",
     "ephtracy/voxel-model",
     "github/rest-api-description",
     "GyanD/codexffmpeg",

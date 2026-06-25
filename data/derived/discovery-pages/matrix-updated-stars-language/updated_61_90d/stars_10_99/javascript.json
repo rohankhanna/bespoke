@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1288,
-    "concepts": 340,
-    "observations": 340,
-    "repos": 90,
-    "terms": 340
+    "components": 1279,
+    "concepts": 327,
+    "observations": 327,
+    "repos": 88,
+    "terms": 327
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
@@ -49,7 +49,6 @@
     "GuillaumeGomez/browser-UI-test",
     "haskell-actions/run-fourmolu",
     "hectorm/chafa-wasm",
-    "hipster-labs/jhipster-daily-builds",
     "i18next/i18next-chained-backend",
     "i18next/i18next-icu",
     "i18next/i18next-multiload-backend-adapter",
@@ -77,7 +76,6 @@
     "neverendingqs/serverless-dotenv-example",
     "newrelic/newrelic-node-apollo-server-plugin",
     "newrelic/newrelic-node-examples",
-    "nodejs/email",
     "npm/types",
     "nrwl/nx-ai-agents-config",
     "oclif/oclif.github.io",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6313,
-    "concepts": 1274,
-    "observations": 1276,
-    "repos": 144,
-    "terms": 1266
+    "components": 6287,
+    "concepts": 1253,
+    "observations": 1255,
+    "repos": 142,
+    "terms": 1245
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -36,7 +36,6 @@
     "Binaryify/OneDark-Pro",
     "boxlite-ai/boxlite",
     "bqplot/bqplot",
-    "breferrari/obsidian-mind",
     "BuilderIO/builder",
     "callstack/react-native-testing-library",
     "can1357/oh-my-pi",
@@ -90,10 +89,10 @@
     "messageformat/messageformat",
     "microsoft/vscode-cmake-tools",
     "microsoft/vscode-python",
-    "MiniMax-AI/cli",
     "modelcontextprotocol/inspector",
     "mui/mui-x",
     "nanostores/nanostores",
+    "neavo/LinguaGacha",
     "ng-packagr/ng-packagr",
     "ngxson/wllama",
     "nodejs/corepack",
@@ -104,7 +103,6 @@
     "open-telemetry/opentelemetry-demo",
     "openai/openai-agents-js",
     "openlit/openlit",
-    "ory/polis",
     "OutlineFoundation/outline-apps",
     "pdfme/pdfme",
     "posit-dev/positron",

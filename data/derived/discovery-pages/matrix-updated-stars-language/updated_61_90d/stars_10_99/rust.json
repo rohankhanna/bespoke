@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 576,
-    "concepts": 333,
-    "observations": 335,
-    "repos": 88,
-    "terms": 347
+    "components": 601,
+    "concepts": 345,
+    "observations": 347,
+    "repos": 90,
+    "terms": 359
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -47,6 +47,7 @@
     "datachainlab/lcp",
     "datafusion-contrib/datafusion-orc",
     "Dicklesworthstone/frankensearch",
+    "eopb/cargo-override",
     "eth-act/ere",
     "eth-act/zkboost",
     "filecoin-project/actors-utils",
@@ -76,13 +77,14 @@
     "martinthomson/ohttp",
     "messense/py-promql-parser",
     "mpizenberg/elm-test-rs",
+    "mrcjkb/vimcats",
     "multiformats/rust-cid",
+    "napi-rs/mimalloc-safe",
     "near/cargo-near",
     "near/near-workspaces-rs",
     "neysofu/reltester",
     "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
-    "oramasearch/llm_json",
     "paradigmxyz/stateless",
     "phiat/claude-esp-rs",
     "psmux/omp-manager",

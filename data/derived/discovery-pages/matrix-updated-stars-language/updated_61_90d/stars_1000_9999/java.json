@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 298,
-    "concepts": 334,
-    "observations": 336,
+    "components": 293,
+    "concepts": 327,
+    "observations": 329,
     "repos": 43,
-    "terms": 334
+    "terms": 328
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -39,6 +39,7 @@
     "http-kit/http-kit",
     "jboss-javassist/javassist",
     "JetBrains/intellij-sdk-code-samples",
+    "junit-team/junit4",
     "langchain4j/langchain4j-examples",
     "ninjaframework/ninja",
     "objectbox/objectbox-java",
@@ -55,7 +56,6 @@
     "spring-ai-alibaba/DataAgent",
     "spring-ai-alibaba/examples",
     "spring-projects/spring-ai-examples",
-    "spring-projects/spring-restdocs",
-    "stleary/JSON-java"
+    "spring-projects/spring-restdocs"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 83,
-    "observations": 87,
-    "repos": 11,
-    "terms": 81
+    "components": 192,
+    "concepts": 114,
+    "observations": 118,
+    "repos": 17,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "babashka/babashka",
     "babashka/sci",
+    "beam-community/elixir-companies",
     "clj-kondo/clj-kondo",
     "dotnet/command-line-api",
     "dotnet/reactive",
+    "elixir-grpc/grpc",
+    "firebase/flutterfire",
+    "googleapis/google-auth-library-php",
+    "huggingface/swift-transformers",
     "licensee/licensed",
+    "okd-project/okd",
     "psmux/psmux",
     "seancorfield/honeysql",
     "standardrb/standard",
-    "swiftlang/swift-syntax"
+    "TryGhost/node-sqlite3"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 11,
+    "components": 10,
     "concepts": 3,
     "observations": 3,
-    "repos": 4,
+    "repos": 3,
     "terms": 3
   },
   "facet_version": 1,
@@ -11,9 +11,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
-    "apostrophecms/astro-public-demo",
     "mozilla-ai/otari-cli",
     "mozilla-ai/otari-sdk-go",
     "mozilla-ai/otari-sdk-python"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1376,
-    "concepts": 885,
-    "observations": 886,
-    "repos": 242,
-    "terms": 889
+    "components": 1366,
+    "concepts": 876,
+    "observations": 877,
+    "repos": 241,
+    "terms": 880
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xrsydn/nix-hermes-agent",
@@ -43,7 +43,6 @@
     "apollographql/apollo-ios-codegen",
     "apollographql/apollo-ios-pagination",
     "appsignal/appsignal-elixir-phoenix",
-    "appsignal/mono",
     "appwrite/sdk-for-swift",
     "aquasecurity/trivy-checks",
     "Ascend/Ascend-CI",
@@ -55,7 +54,6 @@
     "awnist/cson-loader",
     "aws-otel/aws-otel.github.io",
     "aws/amazon-sagemaker-examples-community",
-    "awslabs/aws-lc-verification",
     "Azure-Samples/openai-chat-app-entra-auth-local",
     "Azure/bicep-extensibility",
     "b-data/jupyterlab-python-docker-stack",
@@ -78,6 +76,7 @@
     "cjdoris/PreferenceTools.jl",
     "ClementPinard/FlowNetTorch",
     "clojure/homebrew-tools",
+    "cloudfoundry/bosh-azure-cpi-release",
     "cloudfoundry/cf-uaac",
     "connectbot/termlib",
     "Const-me/ComLightInterop",
@@ -116,6 +115,7 @@
     "google/litmus",
     "googleapis/google-cloud-php-datastore",
     "gopasspw/gopass-summon-provider",
+    "guoqingbao/attention.rs",
     "habamax/.vim",
     "hadolint/language-docker",
     "harfbuzz/uharfbuzz",
@@ -136,7 +136,6 @@
     "inhere/php-sroute",
     "interstar/Patterning-Core",
     "ipfs/distributions",
-    "j20001970/GDMP-demo",
     "Jamir-boop/minimalisticfox",
     "janestreet/tracing",
     "JavaHello/spring-boot.nvim",

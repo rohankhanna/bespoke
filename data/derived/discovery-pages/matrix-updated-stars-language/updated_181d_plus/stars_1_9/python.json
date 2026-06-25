@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 498,
-    "concepts": 350,
-    "observations": 350,
-    "repos": 283,
-    "terms": 357
+    "components": 500,
+    "concepts": 351,
+    "observations": 351,
+    "repos": 285,
+    "terms": 358
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -124,6 +124,7 @@
     "darwinai/pl-covidnet",
     "darwinai/pl-covidnet-grad-cam",
     "Demetter/TSCUNet_Trainer",
+    "DenisKochetov/ComfyUI-3D-Pack",
     "di/packaging_legacy",
     "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
     "elementai/spider",
@@ -232,6 +233,7 @@
     "notofonts/noto-project-template",
     "nuprl/Ag-LiveCodeBench-X",
     "NZ99/self-attention-experiments-vision",
+    "oak-barry/Unique3D",
     "obsei/demo-workflow-action",
     "oleglpts/PriorityThreadPoolExecutor",
     "omegacen/pylint-sonarjson",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3105,
-    "concepts": 682,
-    "observations": 682,
-    "repos": 105,
-    "terms": 678
+    "components": 3044,
+    "concepts": 664,
+    "observations": 664,
+    "repos": 102,
+    "terms": 661
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -40,7 +40,6 @@
     "DevExpress/testcafe",
     "dooy/chatgpt-web-midjourney-proxy",
     "ecomfe/echarts-gl",
-    "engineer-man/piston",
     "eslint/js",
     "ethereum/devp2p",
     "expressjs/body-parser",
@@ -69,7 +68,6 @@
     "json-schema-org/json-schema-spec",
     "jspreadsheet/ce",
     "jsx-eslint/eslint-plugin-react",
-    "kangax/html-minifier",
     "kpdecker/jsdiff",
     "Level/level",
     "mantoni/eslint_d.js",
@@ -101,17 +99,16 @@
     "sindresorhus/globby",
     "sindresorhus/hyper-snazzy",
     "sindresorhus/np",
-    "styled-components/polished",
     "tc39/agendas",
     "tc39/test262",
     "tchx84/Flatseal",
+    "testem/testem",
     "thlorenz/doctoc",
     "tomas/needle",
     "tw-in-js/twind",
     "vizzuhq/vizzu-lib",
     "vueform/vueform",
     "webpack/css-loader",
-    "webpack/mini-css-extract-plugin",
     "webpack/postcss-loader",
     "webpack/sass-loader",
     "webtorrent/bittorrent-dht",

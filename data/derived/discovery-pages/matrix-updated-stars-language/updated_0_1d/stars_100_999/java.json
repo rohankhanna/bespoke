@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 2,
-    "terms": 11
+    "components": 52,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 6,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
+    "cloudfoundry/credhub",
+    "eclipse-corrosion/corrosion",
+    "eclipse-tm4e/tm4e",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "ldproxy/ldproxy",
-    "redis/redis-om-spring"
+    "spring-projects/spring-tools"
   ]
 }

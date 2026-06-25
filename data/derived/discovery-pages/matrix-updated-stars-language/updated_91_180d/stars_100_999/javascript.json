@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1040,
-    "concepts": 227,
-    "observations": 228,
-    "repos": 64,
-    "terms": 226
+    "components": 1162,
+    "concepts": 245,
+    "observations": 246,
+    "repos": 70,
+    "terms": 244
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "actions/deploy-pages",
     "adobe-photoshop/generator-core",
@@ -24,10 +24,12 @@
     "asdf-vm/actions",
     "AssemblyScript/wabt.js",
     "avwo/whistle-client",
+    "ButTaiwan/bpmfvs",
     "Calcium-Ion/neko-api-key-tool",
     "chaijs/deep-eql",
     "cmake-js/cmake-js",
     "codota/tabnine-nvim",
+    "d3/d3-geo-polygon",
     "dominikg/tsconfck",
     "dwyl/learn-postgresql",
     "dzeiocom/lucide-astro",
@@ -35,7 +37,10 @@
     "executablebooks/sphinx-copybutton",
     "faceyspacey/extract-css-chunks-webpack-plugin",
     "faceyspacey/universal-demo",
+    "fgnass/domino",
+    "Fil/d3-geo-voronoi",
     "gherghett/Antigravity-Shit-Chat",
+    "googleapis/nodejs-bigtable",
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
     "hudochenkov/stylelint-order",
@@ -49,6 +54,7 @@
     "Level/awesome",
     "mapbox/cheap-ruler",
     "Mario4272/ag_bridge",
+    "markdown-it/linkify-it",
     "microsoft/vscode-custom-data",
     "mourner/flatqueue",
     "mourner/robust-predicates",

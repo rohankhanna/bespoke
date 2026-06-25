@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 508,
-    "concepts": 129,
-    "observations": 130,
-    "repos": 43,
-    "terms": 129
+    "components": 517,
+    "concepts": 142,
+    "observations": 143,
+    "repos": 45,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
@@ -39,6 +39,7 @@
     "eemeli/prettier-plugin-properties",
     "Fil/d3-tricontour",
     "hchiam/learning-lighthouse-ci",
+    "hipster-labs/jhipster-daily-builds",
     "hudochenkov/stylelint-config-hudochenkov",
     "hyparam/hysnappy",
     "ipld/js-dag-pb",
@@ -49,6 +50,7 @@
     "L2jLiga/grunt-webfonts",
     "minikube-ci/examples",
     "mongodb-js/zstd",
+    "nodejs/email",
     "nodejs/Gzemnid",
     "npm/json-parse-even-better-errors",
     "OpenHands/openhands-chrome-extension",

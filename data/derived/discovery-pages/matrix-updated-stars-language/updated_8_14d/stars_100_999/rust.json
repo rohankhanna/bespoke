@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 1,
-    "terms": 3
+    "components": 45,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 2,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-24T07:54:10.644847+00:00",
+  "generated_at": "2026-06-25T05:54:30.678111+00:00",
   "repo_ids": [
-    "alloy-rs/svm-rs"
+    "alloy-rs/svm-rs",
+    "GitoxideLabs/cargo-smart-release"
   ]
 }
