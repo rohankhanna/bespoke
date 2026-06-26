@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models"
+      "text": "Real-time anime upscaling to 4K in mpv with lightweight super-resolution models"
     },
     {
       "source_kind": "source-snippet",
@@ -48,10 +48,10 @@
   "normalized_form": "tensorrt",
   "observation_id": "3f99a998526f95e4",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T07:29:07.348952+00:00",
   "observed_text": "tensorrt",
   "source_context_snippet": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)",
   "source_file": null,
   "source_repo": "the-database/mpv-AnimeJaNai",
-  "source_repo_description": "Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models"
+  "source_repo_description": "Real-time anime upscaling to 4K in mpv with lightweight super-resolution models"
 }

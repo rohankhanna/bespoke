@@ -1842,11 +1842,17 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -115,6 +115,12 @@
       "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
       "status": "candidate-context",
       "text": "[![Documentation](https://img.shields.io/badge/API%20Docs-purple)](https://jaded-encoding-thaumaturgy.github.io/vs-jetpack/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate-context",
+      "text": "Real-time anime upscaling to 4K in mpv with lightweight super-resolution models"
     }
   ],
   "candidate_glosses": [
@@ -310,11 +316,23 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "the-database/VideoJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "the-database/mpv-AnimeJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "the-database/VideoJaNai"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
   "lexical_providers": [
     "datamuse"
   ],

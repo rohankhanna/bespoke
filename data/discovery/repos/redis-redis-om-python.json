@@ -379,7 +379,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T13:09:27.549126+00:00",
+  "fetched_at": "2026-06-26T07:50:47.446335+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -427,7 +427,7 @@
     "full_name": "redis/redis-om-python",
     "html_url": "https://github.com/redis/redis-om-python",
     "language": "Python",
-    "pushed_at": "2026-06-25T07:20:03Z",
+    "pushed_at": "2026-06-26T07:26:11Z",
     "stargazers_count": 1312,
     "topics": [
       "asyncio",

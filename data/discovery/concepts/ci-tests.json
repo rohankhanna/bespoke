@@ -2040,11 +2040,17 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "chipsalliance/python-fpga-interchange"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/marker"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
   "lexical_providers": [
     "datamuse"
   ],

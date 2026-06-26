@@ -1024,11 +1024,17 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
   "lexical_providers": [
     "datamuse"
   ],

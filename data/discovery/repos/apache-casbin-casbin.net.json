@@ -263,7 +263,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T13:07:54.105575+00:00",
+  "fetched_at": "2026-06-26T07:48:57.170733+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -292,7 +292,7 @@
     "html_url": "https://github.com/apache/casbin-Casbin.NET",
     "language": "C#",
     "pushed_at": "2026-06-16T14:35:41Z",
-    "stargazers_count": 1326,
+    "stargazers_count": 1327,
     "topics": [
       "abac",
       "access-control",
@@ -305,7 +305,7 @@
       "permission",
       "rbac"
     ],
-    "updated_at": "2026-06-23T02:29:15Z"
+    "updated_at": "2026-06-25T19:45:25Z"
   },
   "repo_links": [
     {

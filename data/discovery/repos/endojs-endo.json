@@ -896,7 +896,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T13:06:12.489414+00:00",
+  "fetched_at": "2026-06-26T07:47:46.675933+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -912,7 +912,7 @@
     },
     {
       "path": ".github/workflows/browser-test.yml",
-      "size": 2354
+      "size": 2364
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -948,7 +948,7 @@
     "full_name": "endojs/endo",
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
-    "pushed_at": "2026-06-25T02:43:29Z",
+    "pushed_at": "2026-06-26T00:45:30Z",
     "stargazers_count": 1028,
     "topics": [
       "capabilities",
@@ -963,7 +963,7 @@
       "security",
       "supply-chain"
     ],
-    "updated_at": "2026-06-25T02:43:32Z"
+    "updated_at": "2026-06-25T18:28:29Z"
   },
   "repo_links": [
     {

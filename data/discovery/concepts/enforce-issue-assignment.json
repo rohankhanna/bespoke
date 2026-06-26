@@ -226,11 +226,17 @@
       "observed_at": "2026-06-25T13:00:34.017104+00:00",
       "source_file": ".github/workflows/enforce-issue-assignment.yml",
       "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": ".github/workflows/enforce-issue-assignment.yml",
+      "source_repo": "pydantic/pydantic"
     }
   ],
   "first_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
   "lexical_providers": [
     "datamuse"
   ],

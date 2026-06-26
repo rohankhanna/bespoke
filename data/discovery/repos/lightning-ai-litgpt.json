@@ -91,13 +91,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Lightning-AI/litgpt",
-      "target": "lightning-ai/lit-stablelm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Lightning-AI/litgpt",
       "target": "timdettmers/bitsandbytes",
       "target_type": "repository"
     },
@@ -263,11 +256,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T13:24:28.490435+00:00",
+  "fetched_at": "2026-06-26T08:06:18.001813+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 31080
+      "size": 31072
     },
     {
       "path": "pyproject.toml",
@@ -299,8 +292,8 @@
     "full_name": "Lightning-AI/litgpt",
     "html_url": "https://github.com/Lightning-AI/litgpt",
     "language": "Python",
-    "pushed_at": "2026-06-25T05:21:11Z",
-    "stargazers_count": 13439,
+    "pushed_at": "2026-06-26T01:48:30Z",
+    "stargazers_count": 13440,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -310,14 +303,9 @@
       "llm-inference",
       "llms"
     ],
-    "updated_at": "2026-06-25T11:28:38Z"
+    "updated_at": "2026-06-26T00:04:19Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lightning-ai/lit-stablelm",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "timdettmers/bitsandbytes",

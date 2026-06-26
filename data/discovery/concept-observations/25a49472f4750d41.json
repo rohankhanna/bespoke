@@ -84,7 +84,7 @@
   "normalized_form": "tests-linting",
   "observation_id": "25a49472f4750d41",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T07:29:07.348952+00:00",
   "observed_text": "Tests: linting",
   "source_context_snippet": "'Tests: linting'",
   "source_file": ".github/workflows/lint.yml",

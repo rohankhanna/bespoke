@@ -1310,7 +1310,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T13:12:46.484260+00:00",
+  "fetched_at": "2026-06-26T07:54:11.292882+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1346,7 +1346,7 @@
     },
     {
       "path": ".github/workflows/e2e-main.yaml",
-      "size": 17647
+      "size": 18778
     },
     {
       "path": ".github/workflows/managed-configuration-template.yaml",
@@ -1362,8 +1362,8 @@
     "full_name": "podman-desktop/podman-desktop",
     "html_url": "https://github.com/podman-desktop/podman-desktop",
     "language": "TypeScript",
-    "pushed_at": "2026-06-25T12:50:20Z",
-    "stargazers_count": 7752,
+    "pushed_at": "2026-06-26T07:09:34Z",
+    "stargazers_count": 7754,
     "topics": [
       "container",
       "containers",
@@ -1376,7 +1376,7 @@
       "tray-application",
       "ui"
     ],
-    "updated_at": "2026-06-25T12:50:26Z"
+    "updated_at": "2026-06-26T07:09:38Z"
   },
   "repo_links": [
     {

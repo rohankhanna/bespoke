@@ -476,7 +476,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:19:17.798327+00:00",
+  "fetched_at": "2026-06-26T07:35:39.053981+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -508,7 +508,7 @@
     "full_name": "all-contributors/allcontributors.org",
     "html_url": "https://github.com/all-contributors/allcontributors.org",
     "language": "MDX",
-    "pushed_at": "2026-06-18T08:15:50Z",
+    "pushed_at": "2026-06-25T05:33:19Z",
     "stargazers_count": 8064,
     "topics": [
       "acknowledgements",

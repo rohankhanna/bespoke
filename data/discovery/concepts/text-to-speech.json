@@ -2602,11 +2602,23 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
   "lexical_providers": [
     "datamuse"
   ],

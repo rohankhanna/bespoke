@@ -4444,11 +4444,17 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
   "lexical_providers": [
     "datamuse"
   ],

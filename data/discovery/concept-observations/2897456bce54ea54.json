@@ -84,7 +84,7 @@
   "normalized_form": "splatting",
   "observation_id": "2897456bce54ea54",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-25T13:00:34.017104+00:00",
+  "observed_at": "2026-06-26T07:29:07.348952+00:00",
   "observed_text": "splatting",
   "source_context_snippet": "The official Tensorflow 2 implementation of our high quality frame interpolation neural network. We present a unified single-network approach that doesn't use additional pre-trained networks, like optical flow or depth, and yet achieve state-of-the-art results. We use a multi-sc\u2026",
   "source_file": null,

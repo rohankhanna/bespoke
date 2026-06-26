@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T13:02:12.211291+00:00",
+  "fetched_at": "2026-06-26T07:43:38.954342+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,7 +75,7 @@
     "html_url": "https://github.com/litedb-org/LiteDB",
     "language": "C#",
     "pushed_at": "2026-06-08T16:18:50Z",
-    "stargazers_count": 9417,
+    "stargazers_count": 9418,
     "topics": [
       "database",
       "dotnet",
@@ -83,7 +83,7 @@
       "litedb",
       "nosql"
     ],
-    "updated_at": "2026-06-23T03:22:08Z"
+    "updated_at": "2026-06-26T05:34:24Z"
   },
   "repo_links": [
     {

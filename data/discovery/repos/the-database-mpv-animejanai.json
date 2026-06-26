@@ -243,7 +243,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:22:16.803293+00:00",
+  "fetched_at": "2026-06-26T07:42:21.765973+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -266,13 +266,13 @@
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models",
+    "description": "Real-time anime upscaling to 4K in mpv with lightweight super-resolution models",
     "fork": false,
     "full_name": "the-database/mpv-AnimeJaNai",
     "html_url": "https://github.com/the-database/mpv-AnimeJaNai",
     "language": "C#",
     "pushed_at": "2026-06-25T00:58:04Z",
-    "stargazers_count": 678,
+    "stargazers_count": 680,
     "topics": [
       "4k",
       "anime",
@@ -286,7 +286,7 @@
       "vapoursynth",
       "video"
     ],
-    "updated_at": "2026-06-24T22:59:22Z"
+    "updated_at": "2026-06-25T12:49:31Z"
   },
   "repo_links": [
     {

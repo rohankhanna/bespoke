@@ -196,11 +196,23 @@
       "observed_at": "2026-06-25T13:00:34.017104+00:00",
       "source_file": ".github/workflows/build-rpm.yml",
       "source_repo": "flagos-ai/FlagAttention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagCX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagAttention"
     }
   ],
   "first_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
   "lexical_providers": [
     "datamuse"
   ],

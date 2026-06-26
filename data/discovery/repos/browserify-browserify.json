@@ -770,7 +770,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:18:31.710429+00:00",
+  "fetched_at": "2026-06-26T07:33:19.969617+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -787,7 +787,7 @@
     "html_url": "https://github.com/browserify/browserify",
     "language": "JavaScript",
     "pushed_at": "2024-12-21T10:04:24Z",
-    "stargazers_count": 14707,
+    "stargazers_count": 14706,
     "topics": [
       "browser",
       "bundler",
@@ -796,7 +796,7 @@
       "module-bundler",
       "modules"
     ],
-    "updated_at": "2026-06-21T09:24:38Z"
+    "updated_at": "2026-06-26T06:59:58Z"
   },
   "repo_links": [],
   "terms": [

@@ -595,6 +595,12 @@
       "source_repo": "the-database/VideoJaNai",
       "status": "candidate-context",
       "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate-context",
+      "text": "Real-time anime upscaling to 4K in mpv with lightweight super-resolution models"
     }
   ],
   "candidate_glosses": [
@@ -2728,11 +2734,35 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "the-database/mpv-AnimeJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "the-database/VideoJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T07:29:07.348952+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
   "lexical_providers": [
     "datamuse"
   ],

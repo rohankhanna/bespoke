@@ -84,7 +84,7 @@
   "normalized_form": "claude-code-review",
   "observation_id": "1bb154f3126f4626",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T07:29:07.348952+00:00",
   "observed_text": "Claude Code Review",
   "source_context_snippet": "Claude Code Review",
   "source_file": ".github/workflows/claude-code-review.yml",

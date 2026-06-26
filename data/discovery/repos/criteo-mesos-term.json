@@ -742,7 +742,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:21:00.101182+00:00",
+  "fetched_at": "2026-06-26T07:39:50.982420+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -750,7 +750,7 @@
     },
     {
       "path": "package.json",
-      "size": 2340
+      "size": 2342
     },
     {
       "path": ".github/workflows/pull_request.yml",
@@ -770,7 +770,7 @@
     "full_name": "criteo/mesos-term",
     "html_url": "https://github.com/criteo/mesos-term",
     "language": "TypeScript",
-    "pushed_at": "2023-03-29T18:06:39Z",
+    "pushed_at": "2026-06-25T15:19:14Z",
     "stargazers_count": 19,
     "topics": [
       "browser",
@@ -787,7 +787,7 @@
       "ui",
       "web-debug"
     ],
-    "updated_at": "2023-07-16T05:57:41Z"
+    "updated_at": "2026-06-25T08:21:27Z"
   },
   "repo_links": [
     {

@@ -91,7 +91,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-06-25T02:21:57.524939+00:00",
+  "fetched_at": "2026-06-26T07:41:51.965807+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -99,7 +99,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 2227
+      "size": 2238
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -115,10 +115,10 @@
     "full_name": "JuergenFleiss/aTrain",
     "html_url": "https://github.com/JuergenFleiss/aTrain",
     "language": "Python",
-    "pushed_at": "2026-06-23T12:58:56Z",
-    "stargazers_count": 1162,
+    "pushed_at": "2026-06-25T12:11:06Z",
+    "stargazers_count": 1161,
     "topics": [],
-    "updated_at": "2026-06-24T09:38:36Z"
+    "updated_at": "2026-06-25T11:55:45Z"
   },
   "repo_links": [
     {

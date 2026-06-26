@@ -921,7 +921,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T13:13:45.950640+00:00",
+  "fetched_at": "2026-06-26T07:55:15.214591+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -933,7 +933,7 @@
     },
     {
       "path": ".github/workflows/apply-patches.yml",
-      "size": 3180
+      "size": 3172
     },
     {
       "path": ".github/workflows/archaeologist-dig.yml",
@@ -953,7 +953,7 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 17970
+      "size": 18035
     },
     {
       "path": ".github/workflows/check-nmv-version.yml",
@@ -973,8 +973,8 @@
     "full_name": "electron/electron",
     "html_url": "https://github.com/electron/electron",
     "language": "C++",
-    "pushed_at": "2026-06-25T13:01:28Z",
-    "stargazers_count": 121756,
+    "pushed_at": "2026-06-26T07:17:25Z",
+    "stargazers_count": 121773,
     "topics": [
       "c-plus-plus",
       "chrome",
@@ -986,7 +986,7 @@
       "v8",
       "works-with-codespaces"
     ],
-    "updated_at": "2026-06-25T12:23:52Z"
+    "updated_at": "2026-06-26T07:30:11Z"
   },
   "repo_links": [],
   "terms": [
