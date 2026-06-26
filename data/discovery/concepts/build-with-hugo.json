@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build with Hugo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex-shpak/hugo-book",
+      "status": "candidate-context",
+      "text": "Hugo documentation theme as simple as plain book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-shpak/hugo-book",
+      "status": "candidate-context",
+      "text": "Build with Hugo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-shpak/hugo-book",
+      "status": "candidate",
+      "text": "Build with Hugo"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11242,
+      "status": "candidate",
+      "text": "lane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11155,
+      "status": "candidate",
+      "text": "ninety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11155,
+      "status": "candidate",
+      "text": "pen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11086,
+      "status": "candidate",
+      "text": "ameche"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11086,
+      "status": "candidate",
+      "text": "three"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build with Hugo",
+  "concept_id": "build-with-hugo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "alex-shpak/hugo-book"
+    }
+  ],
+  "first_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build with Hugo",
+      "sense_id": "build-with-hugo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "A flexible tool for creating, organizing, and sharing visualizations of live, rich data. Supports Torch and Numpy"
+      "text": "A flexible tool for creating, organizing, and sharing visualizations of live, rich data. Supports Torch and Numpy https://visdom.dev"
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "issue-scripts",
   "observation_id": "2d804ccb4a268929",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
   "observed_text": "Issue Scripts",
   "source_context_snippet": "'Issue Scripts'",
   "source_file": ".github/workflows/issue-scripts.yml",
   "source_repo": "fossasia/visdom",
-  "source_repo_description": "A flexible tool for creating, organizing, and sharing visualizations of live, rich data. Supports Torch and Numpy"
+  "source_repo_description": "A flexible tool for creating, organizing, and sharing visualizations of live, rich data. Supports Torch and Numpy https://visdom.dev"
 }

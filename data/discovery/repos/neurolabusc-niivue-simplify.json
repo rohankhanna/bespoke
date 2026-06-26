@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "@niivue/niivue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jslint",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neurolabusc/niivue-simplify",
+      "target": "niivue/niivue-mesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neurolabusc/niivue-simplify",
+      "target": "@niivue/niivue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neurolabusc/niivue-simplify",
+      "target": "jslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neurolabusc/niivue-simplify",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "neurolabusc/niivue-simplify",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "neurolabusc/niivue-simplify",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "neurolabusc/niivue-simplify",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:59:19.959883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1967
+    },
+    {
+      "path": "package.json",
+      "size": 316
+    },
+    {
+      "path": ".github/workflows/ghpages.yml",
+      "size": 533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Comparison of mesh simplification methods.",
+    "fork": false,
+    "full_name": "neurolabusc/niivue-simplify",
+    "html_url": "https://github.com/neurolabusc/niivue-simplify",
+    "language": "JavaScript",
+    "pushed_at": "2024-07-24T15:01:54Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-08-21T01:09:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niivue/niivue-mesh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghpages.yml",
+      "term": "Build and Deploy"
+    }
+  ]
+}

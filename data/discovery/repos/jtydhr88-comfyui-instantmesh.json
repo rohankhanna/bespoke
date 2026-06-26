@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-InstantMesh",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-InstantMesh",
+      "target": "jtydhr88/comfyui-layerdivider",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-InstantMesh",
+      "target": "jtydhr88/comfyui-workflow-encrypt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-InstantMesh",
+      "target": "jtydhr88/sd-3dmodel-loader",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:20.111979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4515
+    },
+    {
+      "path": "requirements.txt",
+      "size": 30
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "ComfyUI InstantMesh is custom nodes that running InstantMesh into ComfyUI",
+    "fork": false,
+    "full_name": "jtydhr88/ComfyUI-InstantMesh",
+    "html_url": "https://github.com/jtydhr88/ComfyUI-InstantMesh",
+    "language": "Python",
+    "pushed_at": "2024-06-01T01:46:34Z",
+    "stargazers_count": 167,
+    "topics": [],
+    "updated_at": "2026-06-17T16:07:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/comfyui-layerdivider",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/comfyui-workflow-encrypt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/sd-3dmodel-loader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

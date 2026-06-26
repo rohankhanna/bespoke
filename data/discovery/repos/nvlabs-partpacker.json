@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/PartPacker",
+      "target": "seed3d/dora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/PartPacker",
+      "target": "tencent/hunyuan3d-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/PartPacker",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/PartPacker",
+      "target": "part-level",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:14.968629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4144
+    },
+    {
+      "path": "requirements.txt",
+      "size": 128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient Part-level 3D Object Generation via Dual Volume Packing",
+    "fork": false,
+    "full_name": "NVlabs/PartPacker",
+    "html_url": "https://github.com/NVlabs/PartPacker",
+    "language": "Python",
+    "pushed_at": "2025-06-26T06:12:24Z",
+    "stargazers_count": 821,
+    "topics": [
+      "image-to-3d",
+      "part-level"
+    ],
+    "updated_at": "2026-06-23T21:57:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seed3d/dora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuan3d-2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![teaser](assets/teaser.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "![teaser](assets/teaser.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "part-level"
+    }
+  ]
+}

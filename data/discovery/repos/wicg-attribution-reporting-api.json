@@ -84,7 +84,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:07:51.589855+00:00",
+  "fetched_at": "2026-06-26T01:05:24.369791+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,7 +101,7 @@
   ],
   "related_repositories": [],
   "repo": {
-    "archived": false,
+    "archived": true,
     "default_branch": "main",
     "description": "Attribution Reporting API",
     "fork": false,
@@ -111,7 +111,7 @@
     "pushed_at": "2026-05-11T19:13:32Z",
     "stargazers_count": 459,
     "topics": [],
-    "updated_at": "2026-06-19T04:29:55Z"
+    "updated_at": "2026-06-25T16:48:26Z"
   },
   "repo_links": [
     {

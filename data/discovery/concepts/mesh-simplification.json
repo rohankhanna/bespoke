@@ -19,6 +19,18 @@
       "source_repo": "SarahWeiii/pamo",
       "status": "candidate-context",
       "text": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neurolabusc/nii2mesh",
+      "status": "candidate-context",
+      "text": "Convert NIfTI volume to triangulated mesh using marching cubes "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neurolabusc/nii2mesh",
+      "status": "candidate-context",
+      "text": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "SarahWeiii/pamo",
       "status": "candidate",
       "text": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neurolabusc/nii2mesh",
+      "status": "candidate",
+      "text": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "SarahWeiii/pamo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "neurolabusc/nii2mesh"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -92,7 +92,7 @@
   "normalized_form": "benchmark",
   "observation_id": "2dae0c0b30c0a5bb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
   "observed_text": "Benchmark",
   "source_context_snippet": "Benchmark",
   "source_file": ".github/workflows/benchmark.yml",

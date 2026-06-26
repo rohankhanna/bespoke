@@ -6,12 +6,12 @@
       "source_file": ".github/workflows/README.md"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/asan.yaml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cpu.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/bazel_cpu.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda.yml"
     },
@@ -31,12 +31,12 @@
       "source_file": ".github/workflows/bazel_cuda.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda_b200_mosaic_presubmit.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda_b200_mosaic_presubmit.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/bazel_cuda_b200_mosaic_presubmit.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda_h100_b200.yml"
     },
@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/bazel_cuda_h100_b200.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda_h100_b200.yml"
     },
@@ -78,7 +78,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/asan.yaml",
       "source_repo": "jax-ml/jax",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -92,7 +92,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cpu.yml",
       "source_repo": "jax-ml/jax",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -113,7 +113,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda.yml",
       "source_repo": "jax-ml/jax",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -134,7 +134,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda_b200_mosaic_presubmit.yml",
       "source_repo": "jax-ml/jax",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -155,7 +155,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda_h100_b200.yml",
       "source_repo": "jax-ml/jax",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -180,7 +180,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:06:39.612331+00:00",
+  "fetched_at": "2026-06-26T01:03:46.158910+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -188,7 +188,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 4405
+      "size": 4452
     },
     {
       "path": ".github/workflows/README.md",
@@ -232,12 +232,12 @@
     "full_name": "jax-ml/jax",
     "html_url": "https://github.com/jax-ml/jax",
     "language": "Python",
-    "pushed_at": "2026-06-25T01:50:44Z",
-    "stargazers_count": 35902,
+    "pushed_at": "2026-06-26T01:01:15Z",
+    "stargazers_count": 35908,
     "topics": [
       "jax"
     ],
-    "updated_at": "2026-06-25T00:23:03Z"
+    "updated_at": "2026-06-26T00:20:30Z"
   },
   "repo_links": [],
   "terms": [

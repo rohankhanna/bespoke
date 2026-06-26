@@ -259,6 +259,78 @@
       "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
       "status": "candidate-context",
       "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6Portable package for running Hunyuan3D 2.0/2.1 on Windows. | \u6df7\u5143 3D 2.0/2.1 \u6574\u5408\u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "status": "candidate-context",
+      "text": "\"Build & Upload\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VAST-AI-Research/TripoSG",
+      "status": "candidate-context",
+      "text": "TripoSG: High-Fidelity 3D Shape Synthesis using Large-Scale Rectified Flow Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VAST-AI-Research/TripoSG",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "status": "candidate-context",
+      "text": "ComfyUI Wrapper for Hunyuan3D v2.1 - From Images to High-Fidelity 3D Assets with Production-Ready PBR Material"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "status": "candidate-context",
+      "text": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "status": "candidate-context",
+      "text": "[ICML 2026] WorldMirror: Fast and Universal 3D reconstruction model for versatile tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "status": "candidate-context",
+      "text": "Voyager is an interactive RGBD video generation model conditioned on camera input, and supports real-time 3D reconstruction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/PartPacker",
+      "status": "candidate-context",
+      "text": "Efficient Part-level 3D Object Generation via Dual Volume Packing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/PartPacker",
+      "status": "candidate-context",
+      "text": "![teaser](assets/teaser.gif)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +459,42 @@
       "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0",
       "status": "candidate",
       "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "status": "candidate",
+      "text": "\"Build & Upload\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VAST-AI-Research/TripoSG",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "status": "candidate",
+      "text": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/PartPacker",
+      "status": "candidate",
+      "text": "![teaser](assets/teaser.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -526,11 +634,47 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "Tencent-Hunyuan/HunyuanWorld-1.0"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/TripoSG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/PartPacker"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

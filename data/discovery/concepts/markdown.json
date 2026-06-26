@@ -1423,6 +1423,18 @@
       "source_repo": "npryce/adr-tools",
       "status": "candidate-context",
       "text": "ADR Tools"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex-shpak/hugo-book",
+      "status": "candidate-context",
+      "text": "Hugo documentation theme as simple as plain book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-shpak/hugo-book",
+      "status": "candidate-context",
+      "text": "[![Hugo](https://img.shields.io/badge/hugo-0.158-blue.svg)](https://gohugo.io)"
     }
   ],
   "candidate_glosses": [
@@ -2133,6 +2145,12 @@
       "source_repo": "npryce/adr-tools",
       "status": "candidate",
       "text": "ADR Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-shpak/hugo-book",
+      "status": "candidate",
+      "text": "[![Hugo](https://img.shields.io/badge/hugo-0.158-blue.svg)](https://gohugo.io)"
     }
   ],
   "candidate_related_terms": [
@@ -4858,11 +4876,29 @@
       "observed_at": "2026-06-25T13:00:34.017104+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "alex-shpak/hugo-book"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

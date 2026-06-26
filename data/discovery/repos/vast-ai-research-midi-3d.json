@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/MIDI-3D",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/MIDI-3D",
+      "target": "3d-scene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/MIDI-3D",
+      "target": "3d-scene-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:29.402272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7049
+    },
+    {
+      "path": "requirements.txt",
+      "size": 213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025] MIDI: Multi-Instance Diffusion for Single Image to 3D Scene Generation",
+    "fork": false,
+    "full_name": "VAST-AI-Research/MIDI-3D",
+    "html_url": "https://github.com/VAST-AI-Research/MIDI-3D",
+    "language": "Python",
+    "pushed_at": "2025-06-12T11:45:34Z",
+    "stargazers_count": 929,
+    "topics": [
+      "3d",
+      "3d-generation",
+      "3d-scene",
+      "3d-scene-generation"
+    ],
+    "updated_at": "2026-06-24T09:35:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![teaser](assets/doc/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "![teaser](assets/doc/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-scene"
+    },
+    {
+      "context_snippet": "![teaser](assets/doc/teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-scene-generation"
+    }
+  ]
+}

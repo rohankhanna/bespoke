@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "tencent/flashvdm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "seed3d/dora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "dreamtechai/direct3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "tencent/hunyuan3d-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "3d-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "3d-diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "generative-model",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-26T00:48:31.916635+00:00",
+  "source_repo": "HKUST-SAIL/CraftsMan3D"
+}

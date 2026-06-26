@@ -877,6 +877,18 @@
       "source_repo": "AutoJunjie/awesome-agent-harness",
       "status": "candidate-context",
       "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate-context",
+      "text": ":sunglasses: Curated list of awesome software for numerical analysis and scientific computing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
     }
   ],
   "candidate_glosses": [
@@ -1311,6 +1323,12 @@
       "source_repo": "AutoJunjie/awesome-agent-harness",
       "status": "candidate",
       "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate",
+      "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
     }
   ],
   "candidate_related_terms": [
@@ -1864,11 +1882,17 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "AutoJunjie/awesome-agent-harness"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "nschloe/awesome-scientific-computing"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

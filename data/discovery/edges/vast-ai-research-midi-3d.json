@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/MIDI-3D",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/MIDI-3D",
+      "target": "3d-scene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/MIDI-3D",
+      "target": "3d-scene-generation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-26T00:48:31.916635+00:00",
+  "source_repo": "VAST-AI-Research/MIDI-3D"
+}

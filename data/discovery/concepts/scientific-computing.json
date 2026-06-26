@@ -319,6 +319,18 @@
       "source_repo": "rust-ml/linfa",
       "status": "candidate-context",
       "text": "<img align=\"left\" src=\"./mascot.svg\" width=\"70px\" height=\"70px\" alt=\"Linfa mascot icon\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate-context",
+      "text": ":sunglasses: Curated list of awesome software for numerical analysis and scientific computing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "rust-ml/linfa",
       "status": "candidate",
       "text": "<img align=\"left\" src=\"./mascot.svg\" width=\"70px\" height=\"70px\" alt=\"Linfa mascot icon\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate",
+      "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
     }
   ],
   "candidate_related_terms": [],
@@ -1204,11 +1222,17 @@
       "observed_at": "2026-06-25T13:00:34.017104+00:00",
       "source_file": null,
       "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "nschloe/awesome-scientific-computing"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

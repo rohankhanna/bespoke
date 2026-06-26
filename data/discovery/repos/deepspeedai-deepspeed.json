@@ -64,16 +64,6 @@
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/formatting.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/hpu-gaudi2-nightly.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/hpu-gaudi2.yml"
     }
   ],
   "edges": [
@@ -211,34 +201,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/hpu-gaudi2-nightly.yml",
-      "source_repo": "deepspeedai/DeepSpeed",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/hpu-gaudi2-nightly.yml",
-      "source_repo": "deepspeedai/DeepSpeed",
-      "target": "hpu-gaudi2-nightly",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/hpu-gaudi2.yml",
-      "source_repo": "deepspeedai/DeepSpeed",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/hpu-gaudi2.yml",
-      "source_repo": "deepspeedai/DeepSpeed",
-      "target": "hpu-gaudi2",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "deepspeedai/DeepSpeed",
@@ -323,11 +285,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:04:40.983940+00:00",
+  "fetched_at": "2026-06-26T01:01:02.190609+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 32457
+    },
+    {
+      "path": ".github/workflows/TEST_SELECTION.md",
+      "size": 13479
+    },
+    {
+      "path": ".github/workflows/TEST_SELECTION_STATE.md",
+      "size": 6120
     },
     {
       "path": ".github/workflows/amd-mi200.yml",
@@ -356,14 +326,6 @@
     {
       "path": ".github/workflows/formatting.yml",
       "size": 945
-    },
-    {
-      "path": ".github/workflows/hpu-gaudi2-nightly.yml",
-      "size": 2663
-    },
-    {
-      "path": ".github/workflows/hpu-gaudi2.yml",
-      "size": 4962
     }
   ],
   "related_repositories": [],
@@ -375,8 +337,8 @@
     "full_name": "deepspeedai/DeepSpeed",
     "html_url": "https://github.com/deepspeedai/DeepSpeed",
     "language": "Python",
-    "pushed_at": "2026-06-24T00:28:03Z",
-    "stargazers_count": 42570,
+    "pushed_at": "2026-06-26T00:34:18Z",
+    "stargazers_count": 42577,
     "topics": [
       "billion-parameters",
       "compression",
@@ -392,7 +354,7 @@
       "trillion-parameters",
       "zero"
     ],
-    "updated_at": "2026-06-25T00:47:09Z"
+    "updated_at": "2026-06-26T00:34:21Z"
   },
   "repo_links": [
     {
@@ -448,18 +410,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/formatting.yml",
       "term": "Formatting"
-    },
-    {
-      "context_snippet": "hpu-gaudi2-nightly",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/hpu-gaudi2-nightly.yml",
-      "term": "hpu-gaudi2-nightly"
-    },
-    {
-      "context_snippet": "hpu-gaudi2",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/hpu-gaudi2.yml",
-      "term": "hpu-gaudi2"
     },
     {
       "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",

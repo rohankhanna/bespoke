@@ -156,167 +156,167 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmarks.yml"
     },
     {
-      "component": "andrewiggins/download-base-artifact@v3",
+      "component": "andrewiggins/download-base-artifact@53ea06f723a523ade534145b7ccc72c179fb96dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmarks.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmarks.yml"
     },
     {
-      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml"
     },
     {
-      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml"
     },
     {
-      "component": "coverallsapp/github-action@643bc377ffa44ace6394b2b5d0d3950076de9f63",
+      "component": "coverallsapp/github-action@5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml"
     },
     {
-      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "dorny/paths-filter@v3",
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-reporter.yml"
     },
     {
-      "component": "dorny/paths-filter@v3",
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-reporter.yml"
     },
     {
-      "component": "andrewiggins/tachometer-reporter-action@v2",
+      "component": "andrewiggins/tachometer-reporter-action@f4edc62a47169384c3f950a48f58000ce81cd07c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-reporter.yml"
     },
     {
-      "component": "dawidd6/action-download-artifact@v2",
+      "component": "dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-reporter.yml"
     },
     {
-      "component": "andrewiggins/tachometer-reporter-action@v2",
+      "component": "andrewiggins/tachometer-reporter-action@f4edc62a47169384c3f950a48f58000ce81cd07c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-reporter.yml"
     },
     {
-      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml"
     },
     {
-      "component": "pnpm/action-setup@v3",
+      "component": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/single-bench.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/single-bench.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/single-bench.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size.yml"
     },
     {
-      "component": "preactjs/compressed-size-action@v2",
+      "component": "preactjs/compressed-size-action@66325aad6443cb7cf89c4bfcd414aea2367cda94",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size.yml"
     }
@@ -550,21 +550,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "preactjs/preact",
-      "target": "andrewiggins/download-base-artifact@v3",
+      "target": "andrewiggins/download-base-artifact@53ea06f723a523ade534145b7ccc72c179fb96dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -578,28 +578,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "preactjs/preact",
-      "target": "coverallsapp/github-action@643bc377ffa44ace6394b2b5d0d3950076de9f63",
+      "target": "coverallsapp/github-action@5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -613,42 +613,42 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "preactjs/preact",
-      "target": "dorny/paths-filter@v3",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-reporter.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-reporter.yml",
       "source_repo": "preactjs/preact",
-      "target": "dorny/paths-filter@v3",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-reporter.yml",
       "source_repo": "preactjs/preact",
-      "target": "andrewiggins/tachometer-reporter-action@v2",
+      "target": "andrewiggins/tachometer-reporter-action@f4edc62a47169384c3f950a48f58000ce81cd07c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-reporter.yml",
       "source_repo": "preactjs/preact",
-      "target": "dawidd6/action-download-artifact@v2",
+      "target": "dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151",
       "target_type": "component"
     },
     {
@@ -662,28 +662,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -697,42 +697,42 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml",
       "source_repo": "preactjs/preact",
-      "target": "pnpm/action-setup@v3",
+      "target": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/run-bench.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -746,14 +746,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/single-bench.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/single-bench.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -767,21 +767,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size.yml",
       "source_repo": "preactjs/preact",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size.yml",
       "source_repo": "preactjs/preact",
-      "target": "preactjs/compressed-size-action@v2",
+      "target": "preactjs/compressed-size-action@66325aad6443cb7cf89c4bfcd414aea2367cda94",
       "target_type": "component"
     },
     {
@@ -827,7 +827,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:59:41.264323+00:00",
+  "fetched_at": "2026-06-26T00:52:48.106284+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -839,7 +839,7 @@
     },
     {
       "path": ".github/workflows/benchmarks.yml",
-      "size": 2144
+      "size": 2285
     },
     {
       "path": ".github/workflows/build-test.yml",
@@ -847,11 +847,11 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 1076
+      "size": 1170
     },
     {
       "path": ".github/workflows/pr-reporter.yml",
-      "size": 4081
+      "size": 4313
     },
     {
       "path": ".github/workflows/release.yml",
@@ -859,15 +859,15 @@
     },
     {
       "path": ".github/workflows/run-bench.yml",
-      "size": 4536
+      "size": 4865
     },
     {
       "path": ".github/workflows/single-bench.yml",
-      "size": 2565
+      "size": 2706
     },
     {
       "path": ".github/workflows/size.yml",
-      "size": 590
+      "size": 730
     }
   ],
   "related_repositories": [],
@@ -879,8 +879,8 @@
     "full_name": "preactjs/preact",
     "html_url": "https://github.com/preactjs/preact",
     "language": "JavaScript",
-    "pushed_at": "2026-06-15T06:18:42Z",
-    "stargazers_count": 38713,
+    "pushed_at": "2026-06-25T14:52:51Z",
+    "stargazers_count": 38716,
     "topics": [
       "components",
       "dom",
@@ -890,7 +890,7 @@
       "vdom",
       "virtual-dom"
     ],
-    "updated_at": "2026-06-24T21:33:16Z"
+    "updated_at": "2026-06-25T21:41:39Z"
   },
   "repo_links": [
     {

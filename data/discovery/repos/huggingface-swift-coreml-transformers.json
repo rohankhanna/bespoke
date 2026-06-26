@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-26T00:55:18.718217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Swift Core ML 3 implementations of GPT-2, DistilGPT-2, BERT, and DistilBERT for Question answering. Other Transformers coming soon!",
+    "fork": false,
+    "full_name": "huggingface/swift-coreml-transformers",
+    "html_url": "https://github.com/huggingface/swift-coreml-transformers",
+    "language": "Swift",
+    "pushed_at": "2023-11-24T19:48:07Z",
+    "stargazers_count": 1682,
+    "topics": [],
+    "updated_at": "2026-06-18T09:15:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

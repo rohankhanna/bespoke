@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v3",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -557,6 +557,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/windows-installers.yml",
       "source_repo": "joncampbell123/dosbox-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "fossasia/visdom"
     }
   ]
 }

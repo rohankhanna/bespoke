@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "tencent/flashvdm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "seed3d/dora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "dreamtechai/direct3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "tencent/hunyuan3d-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "3d-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "3d-diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "target": "generative-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:57:57.786513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13431
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CraftsMan: High-fidelity Mesh Generation with 3D Native Diffusion and Interactive Geometry Refiner",
+    "fork": false,
+    "full_name": "HKUST-SAIL/CraftsMan3D",
+    "html_url": "https://github.com/HKUST-SAIL/CraftsMan3D",
+    "language": "Python",
+    "pushed_at": "2025-06-26T14:18:40Z",
+    "stargazers_count": 823,
+    "topics": [
+      "3d-diffusion",
+      "3d-diffusion-models",
+      "3d-generation",
+      "generative-model"
+    ],
+    "updated_at": "2026-06-22T15:09:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dreamtechai/direct3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seed3d/dora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/flashvdm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuan3d-2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-diffusion"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-diffusion-models"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    }
+  ]
+}

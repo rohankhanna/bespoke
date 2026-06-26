@@ -243,7 +243,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
-      "target": "mudler/ced.cpp",
+      "target": "mudler/depth-anything.cpp",
       "target_type": "repository"
     },
     {
@@ -611,7 +611,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:01:03.468647+00:00",
+  "fetched_at": "2026-06-26T00:54:55.552256+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -623,7 +623,7 @@
     },
     {
       "path": "go.mod",
-      "size": 25841
+      "size": 25811
     },
     {
       "path": ".github/workflows/backend.yml",
@@ -635,7 +635,7 @@
     },
     {
       "path": ".github/workflows/backend_build_darwin.yml",
-      "size": 13434
+      "size": 13882
     },
     {
       "path": ".github/workflows/backend_merge.yml",
@@ -663,8 +663,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-06-24T23:49:48Z",
-    "stargazers_count": 47120,
+    "pushed_at": "2026-06-26T00:49:51Z",
+    "stargazers_count": 47143,
     "topics": [
       "agents",
       "ai",
@@ -685,7 +685,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-06-25T01:55:23Z"
+    "updated_at": "2026-06-25T23:54:00Z"
   },
   "repo_links": [
     {
@@ -705,7 +705,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mudler/ced.cpp",
+      "full_name": "mudler/depth-anything.cpp",
       "source_file": "README.md"
     }
   ],

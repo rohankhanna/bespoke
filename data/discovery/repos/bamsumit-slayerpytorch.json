@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-26T00:58:35.197273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3839
+    },
+    {
+      "path": "requirements.txt",
+      "size": 272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation of SLAYER for training Spiking Neural Networks",
+    "fork": false,
+    "full_name": "bamsumit/slayerPytorch",
+    "html_url": "https://github.com/bamsumit/slayerPytorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-06-10T20:30:37Z",
+    "stargazers_count": 326,
+    "topics": [],
+    "updated_at": "2026-05-03T22:02:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

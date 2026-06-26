@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aras-p/UnityGaussianSplatting",
+      "target": "gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aras-p/UnityGaussianSplatting",
+      "target": "unity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:30.261903+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Toy Gaussian Splatting visualization in Unity",
+    "fork": false,
+    "full_name": "aras-p/UnityGaussianSplatting",
+    "html_url": "https://github.com/aras-p/UnityGaussianSplatting",
+    "language": "C#",
+    "pushed_at": "2025-10-17T07:21:38Z",
+    "stargazers_count": 3343,
+    "topics": [
+      "gaussian-splatting",
+      "unity"
+    ],
+    "updated_at": "2026-06-25T06:26:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Toy Gaussian Splatting visualization in Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaussian-splatting"
+    },
+    {
+      "context_snippet": "Toy Gaussian Splatting visualization in Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kclip/lava-decolle",
+      "target": "nmi-lab/decolle-public",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:36.014217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kclip/lava-decolle",
+    "html_url": "https://github.com/kclip/lava-decolle",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-11-01T23:09:46Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2024-06-07T02:13:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nmi-lab/decolle-public",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

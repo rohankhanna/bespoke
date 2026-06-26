@@ -345,7 +345,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:09:12.525963+00:00",
+  "fetched_at": "2026-06-26T01:07:13.930423+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -353,11 +353,11 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 22798
+      "size": 22806
     },
     {
       "path": ".github/workflows/README.md",
-      "size": 4801
+      "size": 4977
     },
     {
       "path": ".github/workflows/backward-compat.yml",
@@ -381,7 +381,7 @@
     },
     {
       "path": ".github/workflows/commit-recordings.yml",
-      "size": 14289
+      "size": 17384
     },
     {
       "path": ".github/workflows/dependabot-constraints.yml",
@@ -397,10 +397,10 @@
     "full_name": "ogx-ai/ogx",
     "html_url": "https://github.com/ogx-ai/ogx",
     "language": "Python",
-    "pushed_at": "2026-06-24T22:54:10Z",
-    "stargazers_count": 8416,
+    "pushed_at": "2026-06-26T00:09:29Z",
+    "stargazers_count": 8415,
     "topics": [],
-    "updated_at": "2026-06-24T20:19:09Z"
+    "updated_at": "2026-06-26T00:07:03Z"
   },
   "repo_links": [],
   "terms": [

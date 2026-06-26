@@ -96,7 +96,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:13:53.421359+00:00",
+  "fetched_at": "2026-06-26T01:14:43.587539+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -121,13 +121,13 @@
     "html_url": "https://github.com/eclipse-lsp4j/lsp4j",
     "language": "Java",
     "pushed_at": "2026-06-19T19:52:52Z",
-    "stargazers_count": 720,
+    "stargazers_count": 721,
     "topics": [
       "eclipse",
       "java",
       "language-server-protocol"
     ],
-    "updated_at": "2026-06-13T02:20:55Z"
+    "updated_at": "2026-06-25T05:22:14Z"
   },
   "repo_links": [],
   "terms": [

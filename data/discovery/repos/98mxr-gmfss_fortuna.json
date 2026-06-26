@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "98mxr/GMFSS_Fortuna",
+      "target": "lisiyao21/animerun",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:22.764929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2364
+    },
+    {
+      "path": "requirements.txt",
+      "size": 155
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "All in one place",
+    "fork": false,
+    "full_name": "98mxr/GMFSS_Fortuna",
+    "html_url": "https://github.com/98mxr/GMFSS_Fortuna",
+    "language": "Python",
+    "pushed_at": "2026-01-27T09:33:14Z",
+    "stargazers_count": 78,
+    "topics": [],
+    "updated_at": "2026-05-28T12:40:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lisiyao21/animerun",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

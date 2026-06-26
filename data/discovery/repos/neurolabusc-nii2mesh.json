@@ -1,0 +1,178 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "alecjacobson/geometry-processing-smoothing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "fangq/iso2mesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "aot-ag/dicomtomesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "anniegbryant/subcortex_visualization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "marching-cubes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "medical-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "mesh-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "mesh-simplification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "mri-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "nifti-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neurolabusc/nii2mesh",
+      "target": "obj-format",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:59:17.850635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert NIfTI volume to triangulated mesh using marching cubes ",
+    "fork": false,
+    "full_name": "neurolabusc/nii2mesh",
+    "html_url": "https://github.com/neurolabusc/nii2mesh",
+    "language": "C",
+    "pushed_at": "2026-04-08T19:05:44Z",
+    "stargazers_count": 184,
+    "topics": [
+      "3d",
+      "marching-cubes",
+      "medical-imaging",
+      "mesh-generation",
+      "mesh-simplification",
+      "mri-images",
+      "nifti-format",
+      "obj-format"
+    ],
+    "updated_at": "2026-06-17T05:16:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alecjacobson/geometry-processing-smoothing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anniegbryant/subcortex_visualization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aot-ag/dicomtomesh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fangq/iso2mesh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "marching-cubes"
+    },
+    {
+      "context_snippet": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-imaging"
+    },
+    {
+      "context_snippet": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-generation"
+    },
+    {
+      "context_snippet": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-simplification"
+    },
+    {
+      "context_snippet": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mri-images"
+    },
+    {
+      "context_snippet": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nifti-format"
+    },
+    {
+      "context_snippet": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obj-format"
+    }
+  ]
+}

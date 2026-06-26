@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Toy Gaussian Splatting visualization in Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Toy Gaussian Splatting visualization in Unity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Toy Gaussian Splatting visualization in Unity"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gaussian-splatting",
+      "sense_id": "gaussian-splatting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gaussian-splatting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gaussian-splatting",
+  "observation_id": "e829a8c4dd463bd0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_text": "gaussian-splatting",
+  "source_context_snippet": "Toy Gaussian Splatting visualization in Unity",
+  "source_file": null,
+  "source_repo": "aras-p/UnityGaussianSplatting",
+  "source_repo_description": "Toy Gaussian Splatting visualization in Unity"
+}

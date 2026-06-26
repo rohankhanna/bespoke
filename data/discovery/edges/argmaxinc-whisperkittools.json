@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argmaxinc/whisperkittools",
+      "target": "argmaxinc/whisperkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argmaxinc/whisperkittools",
+      "target": "argmaxinc/whisperkitandroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argmaxinc/whisperkittools",
+      "target": "ggerganov/whisper.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/public-ci.yml",
+      "source_repo": "argmaxinc/whisperkittools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/public-ci.yml",
+      "source_repo": "argmaxinc/whisperkittools",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/public-ci.yml",
+      "source_repo": "argmaxinc/whisperkittools",
+      "target": "Unit and Functional Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-26T00:48:31.916635+00:00",
+  "source_repo": "argmaxinc/whisperkittools"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-26T00:58:15.790435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11609
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025] Official repository for \"Dora: Sampling and Benchmarking for 3D Shape Variational Auto-Encoders\"",
+    "fork": false,
+    "full_name": "Seed3D/Dora",
+    "html_url": "https://github.com/Seed3D/Dora",
+    "language": "Python",
+    "pushed_at": "2025-07-02T14:38:16Z",
+    "stargazers_count": 585,
+    "topics": [],
+    "updated_at": "2026-06-23T07:33:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

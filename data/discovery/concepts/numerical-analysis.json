@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "numerical-analysis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate-context",
+      "text": ":sunglasses: Curated list of awesome software for numerical analysis and scientific computing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate",
+      "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "numerical-analysis",
+  "concept_id": "numerical-analysis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "nschloe/awesome-scientific-computing"
+    }
+  ],
+  "first_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "numerical-analysis",
+      "sense_id": "numerical-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

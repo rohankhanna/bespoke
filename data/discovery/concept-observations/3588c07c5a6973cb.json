@@ -84,7 +84,7 @@
   "normalized_form": "common-functional-tests---cli",
   "observation_id": "3588c07c5a6973cb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
   "observed_text": "Common Functional Tests - CLI",
   "source_context_snippet": "Common Functional Tests - CLI",
   "source_file": ".github/workflows/functional_tests_cli.yml",

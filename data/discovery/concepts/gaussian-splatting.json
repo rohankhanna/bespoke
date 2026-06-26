@@ -127,6 +127,18 @@
       "source_repo": "3DTopia/LGM",
       "status": "candidate-context",
       "text": "torch numpy tyro diffusers dearpygui einops accelerate gradio imageio imageio-ffmpeg lpips matplotlib packaging Pillow pygltflib rembg[gpu,cli] rich safetensors scikit-image scikit-learn scipy tqdm transformers trimesh kiui >= 0.2.3 xatlas roma plyfile"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aras-p/UnityGaussianSplatting",
+      "status": "candidate-context",
+      "text": "Toy Gaussian Splatting visualization in Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aras-p/UnityGaussianSplatting",
+      "status": "candidate-context",
+      "text": "Toy Gaussian Splatting visualization in Unity"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "3DTopia/LGM",
       "status": "candidate",
       "text": "torch numpy tyro diffusers dearpygui einops accelerate gradio imageio imageio-ffmpeg lpips matplotlib packaging Pillow pygltflib rembg[gpu,cli] rich safetensors scikit-image scikit-learn scipy tqdm transformers trimesh kiui >= 0.2.3 xatlas roma plyfile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aras-p/UnityGaussianSplatting",
+      "status": "candidate",
+      "text": "Toy Gaussian Splatting visualization in Unity"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,17 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": null,
       "source_repo": "3DTopia/LGM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "aras-p/UnityGaussianSplatting"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

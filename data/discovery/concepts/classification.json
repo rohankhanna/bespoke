@@ -367,6 +367,18 @@
       "source_repo": "google-research/maxvit",
       "status": "candidate-context",
       "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RicherMans/CED",
+      "status": "candidate-context",
+      "text": "Source code for Consistent ensemble distillation for audio tagging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RicherMans/CED",
+      "status": "candidate-context",
+      "text": "This repo is the source for the ICASSP 2024 Paper [Consistent Ensemble Distillation for Audio Tagging](https://arxiv.org/abs/2308.11957)."
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "google-research/maxvit",
       "status": "candidate",
       "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RicherMans/CED",
+      "status": "candidate",
+      "text": "This repo is the source for the ICASSP 2024 Paper [Consistent Ensemble Distillation for Audio Tagging](https://arxiv.org/abs/2308.11957)."
     }
   ],
   "candidate_related_terms": [
@@ -1736,11 +1754,29 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "RicherMans/CED"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

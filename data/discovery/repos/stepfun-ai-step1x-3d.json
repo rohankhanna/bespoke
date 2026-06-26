@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stepfun-ai/Step1X-3D",
+      "target": "wyysf-98/craftsman3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stepfun-ai/Step1X-3D",
+      "target": "tencent/hunyuan3d-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stepfun-ai/Step1X-3D",
+      "target": "tencent/flashvdm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:16.694694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13455
+    },
+    {
+      "path": "requirements.txt",
+      "size": 996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Step1X-3D: Towards High-Fidelity and Controllable Generation of Textured 3D Assets",
+    "fork": false,
+    "full_name": "stepfun-ai/Step1X-3D",
+    "html_url": "https://github.com/stepfun-ai/Step1X-3D",
+    "language": "Python",
+    "pushed_at": "2025-09-08T22:32:12Z",
+    "stargazers_count": 874,
+    "topics": [],
+    "updated_at": "2026-06-16T01:57:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/flashvdm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuan3d-2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wyysf-98/craftsman3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

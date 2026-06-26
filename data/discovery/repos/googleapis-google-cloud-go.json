@@ -355,7 +355,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:59:17.235160+00:00",
+  "fetched_at": "2026-06-26T00:52:25.548155+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -407,7 +407,7 @@
     "full_name": "googleapis/google-cloud-go",
     "html_url": "https://github.com/googleapis/google-cloud-go",
     "language": "Go",
-    "pushed_at": "2026-06-25T00:37:02Z",
+    "pushed_at": "2026-06-25T22:53:12Z",
     "stargazers_count": 4463,
     "topics": [
       "cloud-bigquery",
@@ -418,7 +418,7 @@
       "golang",
       "google-cloud"
     ],
-    "updated_at": "2026-06-25T00:19:54Z"
+    "updated_at": "2026-06-25T17:23:57Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python tools for WhisperKit: Model conversion, optimization and evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Unit and Functional Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Unit and Functional Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37554,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37322,
+      "status": "candidate",
+      "text": "gestalt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28239,
+      "status": "candidate",
+      "text": "cell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28239,
+      "status": "candidate",
+      "text": "organ"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27891,
+      "status": "candidate",
+      "text": "nephron"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unit and Functional Tests",
+      "sense_id": "unit-and-functional-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unit-and-functional-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unit-and-functional-tests",
+  "observation_id": "fb7c007b96b43de4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_text": "Unit and Functional Tests",
+  "source_context_snippet": "Unit and Functional Tests",
+  "source_file": ".github/workflows/public-ci.yml",
+  "source_repo": "argmaxinc/whisperkittools",
+  "source_repo_description": "Python tools for WhisperKit: Model conversion, optimization and evaluation"
+}

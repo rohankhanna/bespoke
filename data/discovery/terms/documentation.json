@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1146,6 +1146,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "thegeeklab/hugo-geekdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alex-shpak/hugo-book"
     }
   ],
   "term": "documentation"

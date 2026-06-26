@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "xresloader/upload-to-github-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "xresloader/upload-to-github-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "Build & Upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "3d-aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "hunyuan3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "shape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "shape-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "text-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "target": "texture-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:57:59.013937+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1066
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udce6Portable package for running Hunyuan3D 2.0/2.1 on Windows. | \u6df7\u5143 3D 2.0/2.1 \u6574\u5408\u5305",
+    "fork": false,
+    "full_name": "YanWenKun/Hunyuan3D-2-WinPortable",
+    "html_url": "https://github.com/YanWenKun/Hunyuan3D-2-WinPortable",
+    "language": "Batchfile",
+    "pushed_at": "2025-11-19T00:18:58Z",
+    "stargazers_count": 1267,
+    "topics": [
+      "3d",
+      "3d-aigc",
+      "3d-generation",
+      "diffusion-models",
+      "hunyuan3d",
+      "image-to-3d",
+      "shape",
+      "shape-generation",
+      "text-to-3d",
+      "texture-generation"
+    ],
+    "updated_at": "2026-06-25T13:03:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build & Upload\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build & Upload"
+    },
+    {
+      "context_snippet": "\"Build & Upload\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-aigc"
+    },
+    {
+      "context_snippet": "\"Build & Upload\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "\"Build & Upload\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "\"Build & Upload\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan3d"
+    },
+    {
+      "context_snippet": "\"Build & Upload\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "\"Build & Upload\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape"
+    },
+    {
+      "context_snippet": "\"Build & Upload\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape-generation"
+    },
+    {
+      "context_snippet": "\"Build & Upload\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    },
+    {
+      "context_snippet": "\"Build & Upload\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture-generation"
+    }
+  ]
+}

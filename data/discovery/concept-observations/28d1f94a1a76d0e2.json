@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hugo documentation theme as simple as plain book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build with Hugo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build with Hugo"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11242,
+      "status": "candidate",
+      "text": "lane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11155,
+      "status": "candidate",
+      "text": "ninety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11155,
+      "status": "candidate",
+      "text": "pen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11086,
+      "status": "candidate",
+      "text": "ameche"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11086,
+      "status": "candidate",
+      "text": "three"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build with Hugo",
+      "sense_id": "build-with-hugo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-with-hugo",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-with-hugo",
+  "observation_id": "28d1f94a1a76d0e2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_text": "Build with Hugo",
+  "source_context_snippet": "Build with Hugo",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "alex-shpak/hugo-book",
+  "source_repo_description": "Hugo documentation theme as simple as plain book"
+}

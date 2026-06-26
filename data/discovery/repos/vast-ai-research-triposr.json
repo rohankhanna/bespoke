@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/TripoSR",
+      "target": "tatsy/torchmcubes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "VAST-AI-Research/TripoSR",
+      "target": "tatsy/torchmcubes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:26.096977+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5419
+    },
+    {
+      "path": "requirements.txt",
+      "size": 203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TripoSR: Fast 3D Object Reconstruction from a Single Image",
+    "fork": false,
+    "full_name": "VAST-AI-Research/TripoSR",
+    "html_url": "https://github.com/VAST-AI-Research/TripoSR",
+    "language": "Python",
+    "pushed_at": "2026-06-04T07:11:09Z",
+    "stargazers_count": 6662,
+    "topics": [],
+    "updated_at": "2026-06-26T00:38:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tatsy/torchmcubes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tatsy/torchmcubes",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

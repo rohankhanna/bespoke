@@ -1,0 +1,37 @@
+{
+  "first_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/TripoSG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/MIDI-3D"
+    }
+  ],
+  "term": "3d-generation"
+}

@@ -1,0 +1,196 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "tencent-hunyuan/hy-world-2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "hengyiwang/spann3r",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "baegwangbin/dsine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "facebookresearch/fast3r",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "hunyuan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "hunyuan3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "scene-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "world-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "target": "world-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:10.790260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20576
+    },
+    {
+      "path": "requirements.txt",
+      "size": 368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2026] WorldMirror: Fast and Universal 3D reconstruction model for versatile tasks",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HunyuanWorld-Mirror",
+    "html_url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror",
+    "language": "Python",
+    "pushed_at": "2026-05-27T03:22:57Z",
+    "stargazers_count": 1143,
+    "topics": [
+      "3d",
+      "3d-reconstruction",
+      "aigc",
+      "hunyuan",
+      "hunyuan3d",
+      "image-to-3d",
+      "scene-generation",
+      "world-model",
+      "world-models"
+    ],
+    "updated_at": "2026-06-25T07:36:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baegwangbin/dsine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/fast3r",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hengyiwang/spann3r",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hy-world-2.0",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan3d"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-generation"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-model"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-models"
+    }
+  ]
+}

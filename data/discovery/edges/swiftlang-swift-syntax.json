@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "swiftlang/swift-syntax",
-      "target": "swiftlang/swift-syntax.git.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "swiftlang/swift-syntax",
       "target": "apple/swift-syntax",
       "target_type": "repository"
     },
@@ -32,7 +25,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish_release.yml",
       "source_repo": "swiftlang/swift-syntax",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -60,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "swiftlang/swift-syntax",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -71,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-25T00:47:33.944341+00:00",
+  "generated_at": "2026-06-26T00:48:31.916635+00:00",
   "source_repo": "swiftlang/swift-syntax"
 }

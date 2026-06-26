@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TripoSG: High-Fidelity 3D Shape Synthesis using Large-Scale Rectified Flow Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-to-3d",
+      "sense_id": "image-to-3d#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-to-3d",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-to-3d",
+  "observation_id": "39540c7f0da31ad9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_text": "image-to-3d",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "VAST-AI-Research/TripoSG",
+  "source_repo_description": "TripoSG: High-Fidelity 3D Shape Synthesis using Large-Scale Rectified Flow Models"
+}

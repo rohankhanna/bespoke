@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Efficient Part-level 3D Object Generation via Dual Volume Packing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![teaser](assets/teaser.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![teaser](assets/teaser.gif)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "part-level",
+      "sense_id": "part-level#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "part-level",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "part-level",
+  "observation_id": "b87291ddcac2e7ed",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_text": "part-level",
+  "source_context_snippet": "![teaser](assets/teaser.gif)",
+  "source_file": null,
+  "source_repo": "NVlabs/PartPacker",
+  "source_repo_description": "Efficient Part-level 3D Object Generation via Dual Volume Packing"
+}

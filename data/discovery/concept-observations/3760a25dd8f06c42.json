@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR 2025] MIDI: Multi-Instance Diffusion for Single Image to 3D Scene Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![teaser](assets/doc/teaser.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![teaser](assets/doc/teaser.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-scene",
+      "sense_id": "3d-scene#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-scene",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-scene",
+  "observation_id": "3760a25dd8f06c42",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_text": "3d-scene",
+  "source_context_snippet": "![teaser](assets/doc/teaser.png)",
+  "source_file": null,
+  "source_repo": "VAST-AI-Research/MIDI-3D",
+  "source_repo_description": "[CVPR 2025] MIDI: Multi-Instance Diffusion for Single Image to 3D Scene Generation"
+}

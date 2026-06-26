@@ -139,6 +139,18 @@
       "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
       "status": "candidate-context",
       "text": "Sound Field Analysis toolbox for Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RicherMans/CED",
+      "status": "candidate-context",
+      "text": "Source code for Consistent ensemble distillation for audio tagging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RicherMans/CED",
+      "status": "candidate-context",
+      "text": "This repo is the source for the ICASSP 2024 Paper [Consistent Ensemble Distillation for Audio Tagging](https://arxiv.org/abs/2308.11957)."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
       "status": "candidate",
       "text": "Sound Field Analysis toolbox for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RicherMans/CED",
+      "status": "candidate",
+      "text": "This repo is the source for the ICASSP 2024 Paper [Consistent Ensemble Distillation for Audio Tagging](https://arxiv.org/abs/2308.11957)."
     }
   ],
   "candidate_related_terms": [
@@ -796,11 +814,23 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "RicherMans/CED"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

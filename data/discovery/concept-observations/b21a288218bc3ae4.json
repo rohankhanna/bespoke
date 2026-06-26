@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udce6Portable package for running Hunyuan3D 2.0/2.1 on Windows. | \u6df7\u5143 3D 2.0/2.1 \u6574\u5408\u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Build & Upload\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Build & Upload\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-to-3d",
+      "sense_id": "text-to-3d#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "text-to-3d",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "text-to-3d",
+  "observation_id": "b21a288218bc3ae4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_text": "text-to-3d",
+  "source_context_snippet": "\"Build & Upload\"",
+  "source_file": null,
+  "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+  "source_repo_description": "\ud83d\udce6Portable package for running Hunyuan3D 2.0/2.1 on Windows. | \u6df7\u5143 3D 2.0/2.1 \u6574\u5408\u5305"
+}

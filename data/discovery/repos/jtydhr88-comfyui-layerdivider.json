@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-LayerDivider",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-LayerDivider",
+      "target": "jtydhr88/comfyui-workflow-encrypt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-LayerDivider",
+      "target": "jtydhr88/sd-3dmodel-loader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-LayerDivider",
+      "target": "jtydhr88/sd-canvas-editor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jtydhr88/ComfyUI-LayerDivider",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jtydhr88/ComfyUI-LayerDivider",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jtydhr88/ComfyUI-LayerDivider",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:21.663273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9595
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 603
+    },
+    {
+      "path": "requirements.txt",
+      "size": 68
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ComfyUI LayerDivider is custom nodes that generating layered psd files inside ComfyUI",
+    "fork": false,
+    "full_name": "jtydhr88/ComfyUI-LayerDivider",
+    "html_url": "https://github.com/jtydhr88/ComfyUI-LayerDivider",
+    "language": "Python",
+    "pushed_at": "2025-04-25T11:21:00Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-06-17T07:46:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/comfyui-workflow-encrypt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/sd-3dmodel-loader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/sd-canvas-editor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "deploy-hugo-site-to-github-pages",
   "observation_id": "84b85d48713b595b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
   "observed_text": "Deploy Hugo site to GitHub Pages",
   "source_context_snippet": "Deploy Hugo site to GitHub Pages",
   "source_file": ".github/workflows/deploy-blog.yml",

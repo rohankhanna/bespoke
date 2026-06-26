@@ -2686,6 +2686,18 @@
       "source_repo": "thegeeklab/hugo-geekdoc",
       "status": "candidate-context",
       "text": "[![Build Status](https://ci.thegeeklab.de/api/badges/thegeeklab/hugo-geekdoc/status.svg)](https://ci.thegeeklab.de/repos/thegeeklab/hugo-geekdoc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex-shpak/hugo-book",
+      "status": "candidate-context",
+      "text": "Hugo documentation theme as simple as plain book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-shpak/hugo-book",
+      "status": "candidate-context",
+      "text": "[![Hugo](https://img.shields.io/badge/hugo-0.158-blue.svg)](https://gohugo.io)"
     }
   ],
   "candidate_glosses": [
@@ -4062,6 +4074,12 @@
       "source_repo": "thegeeklab/hugo-geekdoc",
       "status": "candidate",
       "text": "[![Build Status](https://ci.thegeeklab.de/api/badges/thegeeklab/hugo-geekdoc/status.svg)](https://ci.thegeeklab.de/repos/thegeeklab/hugo-geekdoc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-shpak/hugo-book",
+      "status": "candidate",
+      "text": "[![Hugo](https://img.shields.io/badge/hugo-0.158-blue.svg)](https://gohugo.io)"
     }
   ],
   "candidate_related_terms": [
@@ -11586,11 +11604,47 @@
       "observed_at": "2026-06-25T13:00:34.017104+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "alex-shpak/hugo-book"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

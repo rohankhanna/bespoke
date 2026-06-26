@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hunyuan3dwrapper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "status": "candidate-context",
+      "text": "ComfyUI Wrapper for Hunyuan3D v2.1 - From Images to High-Fidelity 3D Assets with Production-Ready PBR Material"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "status": "candidate-context",
+      "text": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "status": "candidate",
+      "text": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hunyuan3dwrapper",
+  "concept_id": "hunyuan3dwrapper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1"
+    }
+  ],
+  "first_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hunyuan3dwrapper",
+      "sense_id": "hunyuan3dwrapper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

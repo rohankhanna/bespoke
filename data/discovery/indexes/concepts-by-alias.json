@@ -119,6 +119,12 @@
   "3d-detection": [
     "3d-detection"
   ],
+  "3d-diffusion": [
+    "3d-diffusion"
+  ],
+  "3d-diffusion-models": [
+    "3d-diffusion-models"
+  ],
   "3d-engine": [
     "3d-engine"
   ],
@@ -145,6 +151,9 @@
   ],
   "3d-gaussian-splatting": [
     "3d-gaussian-splatting"
+  ],
+  "3d-genai": [
+    "3d-genai"
   ],
   "3d-generation": [
     "3d-generation"
@@ -253,6 +262,12 @@
   ],
   "3d-representation-learning": [
     "3d-representation-learning"
+  ],
+  "3d-scene": [
+    "3d-scene"
+  ],
+  "3d-scene-generation": [
+    "3d-scene-generation"
   ],
   "3d-scene-reconstruction": [
     "3d-scene-reconstruction"
@@ -9551,6 +9566,9 @@
   "blender-addon": [
     "blender-addon"
   ],
+  "blender-python": [
+    "blender-python"
+  ],
   "blendmask": [
     "blendmask"
   ],
@@ -10833,6 +10851,9 @@
   ],
   "build & tests": [
     "build-tests"
+  ],
+  "build & upload": [
+    "build-upload"
   ],
   "build & upload pypi package": [
     "build-upload-pypi-package"
@@ -14082,6 +14103,9 @@
   ],
   "build with gnutls": [
     "build-with-gnutls"
+  ],
+  "build with hugo": [
+    "build-with-hugo"
   ],
   "build with kubernetes": [
     "build-with-kubernetes"
@@ -22090,6 +22114,9 @@
   ],
   "codacy coverage": [
     "codacy-coverage"
+  ],
+  "codacy coverage reporter": [
+    "codacy-coverage-reporter"
   ],
   "codacy security scan": [
     "codacy-security-scan"
@@ -46281,11 +46308,17 @@
   "hunter": [
     "hunter"
   ],
+  "hunyuan": [
+    "hunyuan"
+  ],
   "hunyuan-video": [
     "hunyuan-video"
   ],
   "hunyuan3d": [
     "hunyuan3d"
+  ],
+  "hunyuan3dwrapper": [
+    "hunyuan3dwrapper"
   ],
   "husky": [
     "husky"
@@ -56727,6 +56760,9 @@
   "maps": [
     "maps"
   ],
+  "marching-cubes": [
+    "marching-cubes"
+  ],
   "margin": [
     "margin"
   ],
@@ -60024,6 +60060,9 @@
   "mrbrains18": [
     "mrbrains18"
   ],
+  "mri-images": [
+    "mri-images"
+  ],
   "mri-ruby": [
     "mri-ruby"
   ],
@@ -62100,6 +62139,9 @@
   "nifti": [
     "nifti"
   ],
+  "nifti-format": [
+    "nifti-format"
+  ],
   "nightly": [
     "nightly"
   ],
@@ -63531,6 +63573,9 @@
   "numerical": [
     "numerical"
   ],
+  "numerical-analysis": [
+    "numerical-analysis"
+  ],
   "numerical-computing": [
     "numerical-computing"
   ],
@@ -63827,6 +63872,9 @@
   ],
   "obfuscation": [
     "obfuscation"
+  ],
+  "obj-format": [
+    "obj-format"
   ],
   "objaverse": [
     "objaverse"
@@ -66765,6 +66813,9 @@
   "parsing-library": [
     "parsing-library"
   ],
+  "part-level": [
+    "part-level"
+  ],
   "part-of-speech-tagger": [
     "part-of-speech-tagger"
   ],
@@ -66998,6 +67049,9 @@
   ],
   "pbr-shading": [
     "pbr-shading"
+  ],
+  "pbr-textures": [
+    "pbr-textures"
   ],
   "pcap": [
     "pcap"
@@ -94732,6 +94786,9 @@
   "unit & integration tests": [
     "unit-integration-tests"
   ],
+  "unit and functional tests": [
+    "unit-and-functional-tests"
+  ],
   "unit and integration tests": [
     "unit-and-integration-tests"
   ],
@@ -102378,6 +102435,9 @@
   ],
   "zero-shot-retrieval": [
     "zero-shot-retrieval"
+  ],
+  "zero-shot-segmentation": [
+    "zero-shot-segmentation"
   ],
   "zero-shot-transfer": [
     "zero-shot-transfer"

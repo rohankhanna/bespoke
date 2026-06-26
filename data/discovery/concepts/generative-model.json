@@ -427,6 +427,18 @@
       "source_repo": "liuyuan-pal/SyncDreamer",
       "status": "candidate-context",
       "text": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "status": "candidate-context",
+      "text": "CraftsMan: High-fidelity Mesh Generation with 3D Native Diffusion and Interactive Geometry Refiner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u7248](README_zh.md)"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +651,12 @@
       "source_repo": "liuyuan-pal/SyncDreamer",
       "status": "candidate",
       "text": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUST-SAIL/CraftsMan3D",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248](README_zh.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -2260,11 +2278,35 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

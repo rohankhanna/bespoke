@@ -43,6 +43,18 @@
       "source_repo": "nschloe/meshio",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate-context",
+      "text": ":sunglasses: Curated list of awesome software for numerical analysis and scientific computing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "nschloe/meshio",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/awesome-scientific-computing",
+      "status": "candidate",
+      "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
     }
   ],
   "candidate_related_terms": [
@@ -165,11 +183,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "nschloe/meshio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "nschloe/awesome-scientific-computing"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

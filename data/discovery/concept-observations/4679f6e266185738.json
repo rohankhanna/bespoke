@@ -84,7 +84,7 @@
   "normalized_form": "ci-apple",
   "observation_id": "4679f6e266185738",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
   "observed_text": "CI (apple)",
   "source_context_snippet": "CI (apple)",
   "source_file": ".github/workflows/build-apple.yml",

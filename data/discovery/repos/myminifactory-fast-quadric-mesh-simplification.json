@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-26T00:59:12.603126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WASM version of Fast Quadric Mesh Simplification",
+    "fork": true,
+    "full_name": "MyMiniFactory/Fast-Quadric-Mesh-Simplification",
+    "html_url": "https://github.com/MyMiniFactory/Fast-Quadric-Mesh-Simplification",
+    "language": "C++",
+    "pushed_at": "2022-02-19T17:17:41Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-06-10T16:44:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

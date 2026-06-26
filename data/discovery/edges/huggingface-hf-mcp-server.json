@@ -53,14 +53,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
+      "target": "pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271",
       "target_type": "component"
     },
     {
@@ -88,7 +88,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-prerelease.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -123,7 +123,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-release.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v6.0.3",
       "target_type": "component"
     },
     {
@@ -158,14 +158,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
+      "target": "pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271",
       "target_type": "component"
     },
     {
@@ -190,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-25T00:47:33.944341+00:00",
+  "generated_at": "2026-06-26T00:48:31.916635+00:00",
   "source_repo": "huggingface/hf-mcp-server"
 }

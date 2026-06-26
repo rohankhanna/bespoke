@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpariente/pystoi",
+      "target": "bastibe/transplant",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:55:13.382842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python implementation of the Short Term Objective Intelligibility measure ",
+    "fork": false,
+    "full_name": "mpariente/pystoi",
+    "html_url": "https://github.com/mpariente/pystoi",
+    "language": "MATLAB",
+    "pushed_at": "2023-12-29T16:47:47Z",
+    "stargazers_count": 359,
+    "topics": [],
+    "updated_at": "2026-06-08T06:32:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bastibe/transplant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

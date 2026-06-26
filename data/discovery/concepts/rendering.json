@@ -379,6 +379,18 @@
       "source_repo": "BachiLi/redner",
       "status": "candidate-context",
       "text": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huanngzh/bpy-renderer",
+      "status": "candidate-context",
+      "text": "Python package for rendering 3D scenes and animations using blender."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huanngzh/bpy-renderer",
+      "status": "candidate-context",
+      "text": "A go-to library for rendering 3D scenes and animations. Whether you're looking for a simple rendering script for making demos or producing multi-view image dataset for training, bpy-renderer is a modular toolbox that supports both."
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "BachiLi/redner",
       "status": "candidate",
       "text": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huanngzh/bpy-renderer",
+      "status": "candidate",
+      "text": "A go-to library for rendering 3D scenes and animations. Whether you're looking for a simple rendering script for making demos or producing multi-view image dataset for training, bpy-renderer is a modular toolbox that supports both."
     }
   ],
   "candidate_related_terms": [
@@ -1360,11 +1378,17 @@
       "observed_at": "2026-06-25T13:00:34.017104+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "huanngzh/bpy-renderer"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

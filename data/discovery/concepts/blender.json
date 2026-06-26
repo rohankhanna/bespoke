@@ -127,6 +127,18 @@
       "source_repo": "makehumancommunity/mpfb2",
       "status": "candidate-context",
       "text": "MPFB is a free and open source human generator for Blender. For documentation and FAQ, see"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huanngzh/bpy-renderer",
+      "status": "candidate-context",
+      "text": "Python package for rendering 3D scenes and animations using blender."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huanngzh/bpy-renderer",
+      "status": "candidate-context",
+      "text": "A go-to library for rendering 3D scenes and animations. Whether you're looking for a simple rendering script for making demos or producing multi-view image dataset for training, bpy-renderer is a modular toolbox that supports both."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "makehumancommunity/mpfb2",
       "status": "candidate",
       "text": "MPFB is a free and open source human generator for Blender. For documentation and FAQ, see"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huanngzh/bpy-renderer",
+      "status": "candidate",
+      "text": "A go-to library for rendering 3D scenes and animations. Whether you're looking for a simple rendering script for making demos or producing multi-view image dataset for training, bpy-renderer is a modular toolbox that supports both."
     }
   ],
   "candidate_related_terms": [
@@ -804,11 +822,23 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "huanngzh/bpy-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -357,7 +357,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:11:42.600622+00:00",
+  "fetched_at": "2026-06-26T01:11:20.195003+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -377,7 +377,7 @@
     },
     {
       "path": ".github/workflows/labeler-predict-pulls.yml",
-      "size": 2809
+      "size": 5850
     },
     {
       "path": ".github/workflows/labeler-promote.yml",
@@ -401,7 +401,7 @@
     "full_name": "microsoft/aspire-samples",
     "html_url": "https://github.com/microsoft/aspire-samples",
     "language": "C#",
-    "pushed_at": "2026-06-24T06:54:45Z",
+    "pushed_at": "2026-06-25T19:16:18Z",
     "stargazers_count": 1186,
     "topics": [
       "apphost",
@@ -424,7 +424,7 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-06-24T06:54:48Z"
+    "updated_at": "2026-06-25T19:16:29Z"
   },
   "repo_links": [
     {

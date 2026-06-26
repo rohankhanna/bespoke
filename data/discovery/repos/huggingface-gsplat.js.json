@@ -111,13 +111,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "huggingface/gsplat.js",
-      "target": "aras-p/unitygaussiansplatting",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "huggingface/gsplat.js",
       "target": "dylanebert/splat.js",
@@ -271,7 +264,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-06-25T02:03:22.062819+00:00",
+  "fetched_at": "2026-06-26T00:58:34.239498+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -300,16 +293,11 @@
     "html_url": "https://github.com/huggingface/gsplat.js",
     "language": "TypeScript",
     "pushed_at": "2026-05-26T10:32:43Z",
-    "stargazers_count": 1642,
+    "stargazers_count": 1643,
     "topics": [],
-    "updated_at": "2026-06-25T00:03:22Z"
+    "updated_at": "2026-06-25T09:22:38Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aras-p/unitygaussiansplatting",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "dylanebert/gsplat.js",

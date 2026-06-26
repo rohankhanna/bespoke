@@ -100,6 +100,7 @@
     "1c2217fb8c89783d",
     "31b3f0db94221501",
     "92b076664d588a62",
+    "9c375d3cc54494dd",
     "a98e37ea08926f83",
     "c929d394b3ca9844"
   ],
@@ -146,6 +147,12 @@
     "3d2161e9b5e9df63",
     "84579dd25a589ab4",
     "e65f662756823cf1"
+  ],
+  "3d-diffusion": [
+    "8f6e0d4356a75af8"
+  ],
+  "3d-diffusion-models": [
+    "dbbad93aba9d1cdd"
   ],
   "3d-engine": [
     "571faa9fadffc575",
@@ -194,14 +201,21 @@
   "3d-gaussian-splatting": [
     "a8fca796b7170d74"
   ],
+  "3d-genai": [
+    "7c5dfe0f6115d467"
+  ],
   "3d-generation": [
     "07400a2fa7338738",
     "0c87cad67a8201e8",
     "11cf47893b5e534f",
     "2cbd9d1e817e10fe",
+    "3714fbb5ff63da0f",
     "45d2153f921d7efc",
     "46558173c42a6176",
+    "49edeca9d4a4df3f",
     "4a4921a3a03227f2",
+    "52e6a86737099b58",
+    "533fe5167edad2f5",
     "589feaa51044bac6",
     "6249904ee897cc30",
     "7f80f404df3c0304",
@@ -211,12 +225,14 @@
     "b6e3c40c298e0417",
     "c55412793f3aba8d",
     "c84c5b822e92ba78",
+    "cf1c325b093a86f8",
     "d20cf5212d4cb682",
     "d6a87c10561b769e",
     "daedff87e86d267d",
     "e469973ce33c65b8",
     "e541c685b29040bb",
     "ea38c7537a981f65",
+    "eda414f0411893d7",
     "fdba6e224985e544"
   ],
   "3d-genome": [
@@ -432,7 +448,9 @@
     "997bc4f345b44045",
     "a1bdd83619eb6b8e",
     "ad3b52a747525657",
+    "b2a0dbb133fa40c9",
     "c24ad6e8c5b8d6c7",
+    "c588dd6b68819e87",
     "cbd9b35ac3518129",
     "d58367b05a60350b",
     "d9679a4a87f066b0",
@@ -449,6 +467,12 @@
   ],
   "3d-representation-learning": [
     "704b4cba00bd00fe"
+  ],
+  "3d-scene": [
+    "3760a25dd8f06c42"
+  ],
+  "3d-scene-generation": [
+    "301cb31586af2dca"
   ],
   "3d-scene-reconstruction": [
     "d341184d9051a07c"
@@ -3328,6 +3352,7 @@
     "142652fc6a17c867",
     "176ff0daafb80300",
     "288e96e1c430d592",
+    "2c883df1c2977d5a",
     "2ddf192e88d30689",
     "340b9fdfdd150351",
     "385631a8dcd53b45",
@@ -3346,6 +3371,7 @@
     "bc23c81ab1a59319",
     "bfeb59bbdf553c83",
     "c627e2ad49a9bcd1",
+    "ce545e5f37a56caa",
     "d26ac98b27da3f3f",
     "d31e59c8f9e870ae",
     "d892aa70583237e2",
@@ -8228,6 +8254,7 @@
     "282cf5476007d441",
     "2bebcb53ba315e14",
     "2fbc3e57c9514f24",
+    "37e0754a90e978d4",
     "381b6246d53c2041",
     "383d6599e20e8f05",
     "391a555ff085ece5",
@@ -10686,6 +10713,7 @@
     "3e51b807d4096c6b",
     "433ea7f973a50286",
     "43e2a88ac2e601ef",
+    "47adfb29bc5f0141",
     "4a5d8546c5698069",
     "4aceea491083563b",
     "4f5a7f372434a844",
@@ -10774,6 +10802,7 @@
     "261b4396451d8eaf",
     "334faafe478772ff",
     "38d35ae927589740",
+    "3b77f07d37f9f97e",
     "3c03a5c12b4d3a73",
     "4c999a254815ae17",
     "4e23925adca36ff2",
@@ -14759,6 +14788,7 @@
   ],
   "blender": [
     "02267628c9c4fad1",
+    "06d3c92594277abc",
     "1d7b3493eab65f50",
     "4346d5a1b16afedc",
     "44ae56efb9c7e30b",
@@ -14772,6 +14802,9 @@
   "blender-addon": [
     "0670e18f921e6d18",
     "79296c0c806ff0db"
+  ],
+  "blender-python": [
+    "67f1644ac01f6a9d"
   ],
   "blendmask": [
     "b6fc8de6bd4a178e"
@@ -17669,6 +17702,7 @@
     "215d43b2c24a1a1a",
     "377773b0198f660e",
     "414abc9bc2277e33",
+    "45a8978a57ce409d",
     "5728546d581440e3",
     "5764410ffca10154",
     "5a39c2ceb1341976",
@@ -22260,6 +22294,9 @@
   "build-unsigned-artifacts": [
     "b2f0cc92dcba93a2"
   ],
+  "build-upload": [
+    "669edcbd1fd62d9a"
+  ],
   "build-upload-and-tag-buck2": [
     "52b452ff1209e1f1"
   ],
@@ -22656,6 +22693,9 @@
   ],
   "build-with-gnutls": [
     "5e7361df539cfa2f"
+  ],
+  "build-with-hugo": [
+    "28d1f94a1a76d0e2"
   ],
   "build-with-kubernetes": [
     "1955a3a7f2ef17a5"
@@ -30792,6 +30832,7 @@
     "464a726b6a5b6ae6",
     "4c40c7c2047c7fd1",
     "4e6f78595069cfd4",
+    "590da380cd19f7b5",
     "6016c8b99872e167",
     "6cefae865ff229f1",
     "6d4cb8e5e844361f",
@@ -34396,6 +34437,9 @@
     "c4c5349ce3e78fa2",
     "c62a8dc08a956646"
   ],
+  "codacy-coverage-reporter": [
+    "31df14f6538d9c96"
+  ],
   "codacy-security-scan": [
     "6ca62d9b5310db1a",
     "9bb377049858e366"
@@ -35670,6 +35714,7 @@
     "7f0a46c0f8e46487",
     "7f0b99551801da5d",
     "7f80f65aed670a63",
+    "7fa86d0cd0ee2728",
     "7fbd9c1de536da6b",
     "801e87fba70295de",
     "803a0d9cb5eaab98",
@@ -37038,6 +37083,7 @@
     "4c8923954b62283f",
     "518f1b3387ddef27",
     "59dc98c230a2fb21",
+    "5a5d0ee116b83f48",
     "5cb0187ff1647ff6",
     "64859c75d006d3a7",
     "73bd329347f3cacc",
@@ -47918,6 +47964,7 @@
     "3c55e2b73ae190a5",
     "3d00a8ac96df9192",
     "3d0396b23437e4f3",
+    "3d95999c613bda2d",
     "3db15d39148caa58",
     "3dfc026e37721679",
     "3eadf582f55c16c2",
@@ -50886,6 +50933,7 @@
     "6a87895681cab487",
     "6ac84611802ffbd5",
     "735fa5ac3f48c25f",
+    "8968fca005f6f780",
     "8970d074cf455265",
     "8ad1afb2c224fa7a",
     "8c7146acb06c5a09",
@@ -52631,6 +52679,7 @@
     "9eb8de41a2468498",
     "9fcb04854fc3a8e4",
     "a59f3312791720a0",
+    "a5b2e9d918bc288f",
     "ad3e13c2004dc862",
     "b026e3bd706f4791",
     "b9933e4652df25c5",
@@ -55620,6 +55669,7 @@
     "2650c9d54d8a63ed",
     "2655b064159f826e",
     "26f80d88f0c8bc6f",
+    "273a123d2778245f",
     "297b3075802c03bf",
     "29e32a173c9bd686",
     "2a4523959c633ad3",
@@ -59830,6 +59880,7 @@
   ],
   "engineering": [
     "01220d7c001106e2",
+    "2bd22b05d0983bef",
     "48d2bb16bbd59d53",
     "51967a15dd5dfe89",
     "b3d31419b583c5e0",
@@ -67429,6 +67480,7 @@
     "b2d150cbb2da67a7",
     "c4cae3e1cc1a6b96",
     "d6581885d8957e92",
+    "e829a8c4dd463bd0",
     "f348a076dfc67b89",
     "fbd9b35a37cb7d89"
   ],
@@ -68647,6 +68699,7 @@
     "6175c793cd0aec2c",
     "79239abb7d05e69c",
     "7fbb1ca002a93b61",
+    "80f4ee13c97a2c2f",
     "8179e904e10554eb",
     "81abe1e15a9e972b",
     "838ac3a97ac7e5e6",
@@ -78130,6 +78183,7 @@
     "4c625214ba0eccc4",
     "5eb8758437534402",
     "7a28dcf5dddaab30",
+    "7d0a64fd940c0514",
     "8a3178dcb58e79f3",
     "976303e3133ffd9b",
     "a2c47451793f5cae",
@@ -78160,6 +78214,7 @@
     "17958808a9c13a2a",
     "31ddababd27750a0",
     "336d54e659c627c9",
+    "5820b71bc74ac1b2",
     "88e0684debae0887",
     "8f996424cdc17d9f",
     "e09cc3b6fe7c2f73",
@@ -78350,6 +78405,9 @@
   "hunter": [
     "6e531dfac57264e2"
   ],
+  "hunyuan": [
+    "73e3f58db4f4267f"
+  ],
   "hunyuan-video": [
     "0bfb5163ad665db0",
     "2ea178f0ae01792f",
@@ -78360,11 +78418,18 @@
     "f30a539fd2fa40ac"
   ],
   "hunyuan3d": [
+    "334d93eb0be72962",
     "3b469bd89e10967a",
     "799e97952be7e04b",
+    "917913d8bad42760",
+    "9ccfb8ebcda6dbaa",
     "a3c648db93409455",
     "c87df757f01e6fbc",
-    "f3f0739f9f11f375"
+    "f3f0739f9f11f375",
+    "fafc69f9f4653267"
+  ],
+  "hunyuan3dwrapper": [
+    "d18d1f381b9bd2eb"
   ],
   "husky": [
     "a6cf2a9e32eb77f4"
@@ -80092,15 +80157,20 @@
   "image-to-3d": [
     "070d1bfd782ba869",
     "0a90713ef8ec80f9",
+    "178b9f8831dd467e",
     "198c5d010ed1be8b",
     "25cd63e1ca3d945f",
     "2d9007b127873c6d",
+    "39540c7f0da31ad9",
     "4159b22e736aa59a",
     "4e7a5a01646a5568",
     "5351b2e45eca124a",
+    "5bb6bb87860ae718",
     "6529fdb68cad76ea",
+    "6a49357a05a9185a",
     "831f3743563beb97",
     "8d07fc27c2d44765",
+    "8e8e8b0719d0176b",
     "9f11af6e3920cf10",
     "a14822ba8a46f642",
     "a8e3b422f03245bd",
@@ -80110,6 +80180,7 @@
     "c9e47bea8cb01d91",
     "e6781793115a2c58",
     "e7808aad6a0dab38",
+    "ec347bb67a9671ac",
     "ffc783ba1274cb45"
   ],
   "image-to-ascii": [
@@ -80150,7 +80221,8 @@
     "8b02c409e7512222",
     "a6be99851be01c6c",
     "ae8cf0a7b37cc82f",
-    "d7e78a5bc9bc4b47"
+    "d7e78a5bc9bc4b47",
+    "fc775ce89ee68e9b"
   ],
   "image-to-video-generation": [
     "0b4f4dfe0aa4f322",
@@ -97435,6 +97507,9 @@
     "d6f37df2e2e95d38",
     "f06760e3ffe679b0"
   ],
+  "marching-cubes": [
+    "18f7a091111ab23b"
+  ],
   "margin": [
     "d7aff53242adda86"
   ],
@@ -97677,6 +97752,7 @@
     "a262b2ef545b52c6",
     "a3df22949dc536ec",
     "a57b6ecc84472e9b",
+    "a951742d08ce466d",
     "ab43e2f0ed03126a",
     "aca668840486c0e5",
     "adcf45407e4c3b44",
@@ -98188,6 +98264,7 @@
     "5b01f650dc1d852f",
     "5c82684e7b43fa58",
     "5fb4394840a72fd0",
+    "714a2588ae438ffd",
     "79a0b1aee02572f8",
     "8bef90407090683e",
     "9af08983b4d77844",
@@ -98340,6 +98417,7 @@
     "70dcef91aeb53c14",
     "790f1137ab9c3bd9",
     "81f1dd88c1030ad9",
+    "a8e9b0750cbea3dd",
     "b48e4c6d014ba8f5",
     "e2072f0b40028dc8",
     "e623ddd783121253",
@@ -98896,6 +98974,7 @@
     "dc6dcbe77edb2c04"
   ],
   "medical-imaging": [
+    "2433b3f29d290a8a",
     "5099a38bd0fa4c03",
     "59d6caa9c7716b37",
     "8ccd3b07569cf358",
@@ -99353,6 +99432,7 @@
   "mesh-generation": [
     "22c46ca3256c2a6b",
     "4344c336ba3547e1",
+    "9f139cec4f1edd04",
     "c2da6b357b38bd54"
   ],
   "mesh-generator": [
@@ -99370,7 +99450,8 @@
     "a2799b3c4f28b8de"
   ],
   "mesh-simplification": [
-    "bec5e31a05578b26"
+    "bec5e31a05578b26",
+    "e7dc8d25969170d9"
   ],
   "meshes": [
     "5beadcf8af7bc09e",
@@ -102601,6 +102682,9 @@
   ],
   "mrbrains18": [
     "74102cb56090289a"
+  ],
+  "mri-images": [
+    "23aa361f5544a105"
   ],
   "mri-ruby": [
     "b4a895ba9cf2347f"
@@ -106048,6 +106132,7 @@
     "259ecea872ce9545",
     "2db90c706f334dcb",
     "2fbbc23299a27528",
+    "3d2627f9b11f3e3f",
     "3f77351ca66d8684",
     "42e7e7edb3e5c11c",
     "475b111bdfe0c2aa",
@@ -106192,6 +106277,7 @@
     "f3198e8b75ff92ae"
   ],
   "neuromorphic": [
+    "46be7efe13d2d408",
     "83f075276a293ce0"
   ],
   "neuromorphic-audio-processing": [
@@ -106199,13 +106285,15 @@
   ],
   "neuromorphic-computing": [
     "7c6c88bd308e520f",
-    "abbc71c363078943"
+    "abbc71c363078943",
+    "d31bd4363862780f"
   ],
   "neuroregeneration": [
     "0de79f0efeda7bfe"
   ],
   "neuroscience": [
     "05f6fdf5523fc344",
+    "3736aa5c40d104ef",
     "f283abd5783567ed"
   ],
   "never": [
@@ -106486,6 +106574,9 @@
   ],
   "nifti": [
     "96ef61e2cf8eeb6e"
+  ],
+  "nifti-format": [
+    "6c1014672d732611"
   ],
   "nightly": [
     "00f9d7cbd0034c68",
@@ -109237,6 +109328,9 @@
     "9be72c432e7b2d9d",
     "c65d8cbd033074f2"
   ],
+  "numerical-analysis": [
+    "d77df1eea2198f2b"
+  ],
   "numerical-computing": [
     "8b47b0801b5d9f15"
   ],
@@ -109895,6 +109989,9 @@
     "23e9ed20282f0dcb",
     "2de92b1144746c0c",
     "51960dd7e34b6cf3"
+  ],
+  "obj-format": [
+    "37473efafe2cb329"
   ],
   "objaverse": [
     "90c1332d6717d623",
@@ -114993,6 +115090,9 @@
   "parsing-library": [
     "5b83718f7375022f"
   ],
+  "part-level": [
+    "b87291ddcac2e7ed"
+  ],
   "part-of-speech-tagger": [
     "217e45c93538cb83",
     "bb26dff453c1147b"
@@ -115293,6 +115393,9 @@
   ],
   "pbr-shading": [
     "f1ab275e6647b5d4"
+  ],
+  "pbr-textures": [
+    "e0d861a2c30342c2"
   ],
   "pcap": [
     "087f9293ffe7f8c2",
@@ -116390,6 +116493,7 @@
     "83efbe3152c3247e",
     "8432efc74dc8ce7b",
     "885fbb9a52581681",
+    "a7b967e9066e5a22",
     "ade6b98a5067e2d2",
     "c1b26643b49bc01c",
     "c8144d3b041724d6",
@@ -124436,8 +124540,10 @@
     "66fa99f1860fb69d",
     "68a745dcff08f11e",
     "6fe84ee42a750753",
+    "7a966a9705fca008",
     "82ce609fb209a83d",
     "83e9ef615eb3ebb4",
+    "858c9c10f83c82f9",
     "8b7cc505be3fcaf8",
     "917153556199b473",
     "9b13b3985587f4c7",
@@ -124449,6 +124555,7 @@
     "a85c615ca5d0ba3c",
     "ac45a9fafb9f6f7a",
     "af051adb461be461",
+    "b30b6ba68adb943f",
     "b6a54079bde50e7c",
     "b76e6dfa276f66a2",
     "bd6bb3fe2ebddfa9",
@@ -132439,6 +132546,7 @@
     "e473fbcffa6d1e74",
     "e47effd2075db1ea",
     "e4ea390bcba3e77d",
+    "e5271302829aec04",
     "e54cb791c753c5d8",
     "e55f570fe92f3646",
     "e5c3aeb46c1c63f8",
@@ -134653,6 +134761,7 @@
     "95d705407eadc652",
     "9828b2e407375586",
     "9c01648c9189f738",
+    "9f96ffa97c2b44b8",
     "a27f341e8e0d1f5d",
     "a5c14adb6c5341a7",
     "a9f3df98bae1b8f1",
@@ -137613,6 +137722,7 @@
     "1bb38a5f2b47f010",
     "1d7bd662ceb23bfa",
     "1e54832b677a699c",
+    "1ef60eb216f3888e",
     "1fa0c45e1e40e6fb",
     "21c2f940163abb45",
     "23509bd77775f484",
@@ -138118,6 +138228,7 @@
     "bbe5ef41e60c6fe1"
   ],
   "run-cd": [
+    "3665c893c59e2881",
     "d2f266373554ef5b",
     "f0f9d561b3de197f"
   ],
@@ -138132,6 +138243,7 @@
     "71caccfaad31c8b2"
   ],
   "run-ci": [
+    "36ef815ed1db47f3",
     "62038fd7004a0aa5",
     "753bab603540e080",
     "dc2d99af36419712",
@@ -141131,6 +141243,8 @@
     "731ec2774ad31d28"
   ],
   "scene-generation": [
+    "138c1ee0d7d62503",
+    "4e306183c28fd9ff",
     "b86bd8dbebbc6347"
   ],
   "scene-recognition": [
@@ -141399,6 +141513,7 @@
     "17059e14c52e455d",
     "2a3e721f17a7a7bf",
     "2d7f77f4ee2ccaca",
+    "43a18f703b0cae2d",
     "4b088a375a721c28",
     "4c9b9d86544bb158",
     "5024dc0fbca2b367",
@@ -142806,6 +142921,7 @@
   "segment-anything": [
     "0ff7b993128244d9",
     "1097b02a844d25c8",
+    "127a7090df4fcac1",
     "3c3e27c9a3f1aee6",
     "3f88019f1d485740",
     "5540f52d51936aae",
@@ -142880,6 +142996,7 @@
     "da92491eaf9d7343",
     "de7814749d2c20b5",
     "e39a3faabdbd67f9",
+    "e83b90fa090fec34",
     "ed42848b0993dd37",
     "f0ef48cabd6948c9",
     "fb386c11c5895a54",
@@ -144487,6 +144604,8 @@
   ],
   "shape": [
     "594fdc1d6e48d207",
+    "5d81c5d150058fdb",
+    "61faea7398466f47",
     "b541f7d98294df9b",
     "e4c5f87de08eab0f",
     "f90fc3d51abbeaf1"
@@ -144504,6 +144623,8 @@
     "1a9d117885cc252c"
   ],
   "shape-generation": [
+    "151a1283d9254bcb",
+    "344500338c19dc4a",
     "3880255171edbc02",
     "588ca08b6b2d87a4",
     "77556afd0d35b6cf"
@@ -147154,6 +147275,7 @@
     "4564425ea73d2d82",
     "5b7f3097b4700e5a",
     "727161f4611e251c",
+    "7331fa61f705f36d",
     "7fad4751ce758e10",
     "8e01e3d20dc7e306",
     "c925a2e07e1bcc92"
@@ -153912,7 +154034,8 @@
     "93acba096b2a68b6"
   ],
   "tagging": [
-    "0df77915f87391a7"
+    "0df77915f87391a7",
+    "c26635baaab41700"
   ],
   "taghelper": [
     "6494f6a6ca438136"
@@ -159164,6 +159287,7 @@
     "c48c9b56592d6677",
     "c56fcf0b2cd63626",
     "c67ce5fc365c37a7",
+    "c6c21ba3a13a085b",
     "c70769a9fcb58cb3",
     "c7383e892def0bf2",
     "c79fe020a840e129",
@@ -159793,6 +159917,7 @@
     "8cb3b156f96711c5",
     "96c802858eaf56ac",
     "b20bdf9c6164b3c6",
+    "b21a288218bc3ae4",
     "c039a88892584d0f",
     "d1c5c5091128ba5e",
     "d760a6f7461fa213",
@@ -160083,7 +160208,10 @@
   ],
   "texture-generation": [
     "4cec11a06db55252",
+    "62bfc909c91369e5",
+    "a50a9b270dbc91fc",
     "b86f9f494489662b",
+    "bf7dd9ff6109da71",
     "cefdd5dbfc05d647"
   ],
   "texture-genertaion": [
@@ -164886,6 +165014,9 @@
     "a2f968e2260ae4fb",
     "e19c99627b3ccbd3"
   ],
+  "unit-and-functional-tests": [
+    "fb7c007b96b43de4"
+  ],
   "unit-and-integration-tests": [
     "1b38f0eed9b0ee95",
     "83b8771c1f773deb"
@@ -165242,6 +165373,7 @@
     "b62d645281442c2a",
     "bc43a1748f391618",
     "dd58fdb050cb615c",
+    "ef73b787a648466d",
     "f00798e2d5a89fad",
     "f2342a3d8be6f75d"
   ],
@@ -175611,6 +175743,8 @@
   ],
   "world-model": [
     "07d028f04f9fd41b",
+    "3dff14051df623b0",
+    "62d7b2cfdb091071",
     "749ee4f61b823cdc",
     "94ee487625031d4e",
     "9a20e0c698f7402f",
@@ -175621,11 +175755,13 @@
   "world-models": [
     "0e81c5a518354350",
     "2fc3e3b4c82c7a40",
+    "39bbca26279826e0",
     "7a32f96393ac0cd2",
     "8663b5e31073d47b",
     "b5d04b3b895610e7",
     "b5f5f4548167796f",
-    "cea31bda3ba65c66"
+    "cea31bda3ba65c66",
+    "de3c57202f933b75"
   ],
   "world-of-warcraft": [
     "f4f59bf6cefb9e1d"
@@ -176946,6 +177082,9 @@
     "1c6dcb208f4d3791",
     "9157a5ea46a57427",
     "9567e57fcce98b62"
+  ],
+  "zero-shot-segmentation": [
+    "f5b01a5d421d02ba"
   ],
   "zero-shot-transfer": [
     "ac01624de57d770e",

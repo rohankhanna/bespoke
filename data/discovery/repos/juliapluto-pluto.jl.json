@@ -458,7 +458,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:08:21.230315+00:00",
+  "fetched_at": "2026-06-26T01:06:03.208853+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -510,7 +510,7 @@
     "full_name": "JuliaPluto/Pluto.jl",
     "html_url": "https://github.com/JuliaPluto/Pluto.jl",
     "language": "JavaScript",
-    "pushed_at": "2026-06-23T20:13:14Z",
+    "pushed_at": "2026-06-25T13:42:06Z",
     "stargazers_count": 5346,
     "topics": [
       "designed-for-teachers",
@@ -523,7 +523,7 @@
       "reactive",
       "visualization"
     ],
-    "updated_at": "2026-06-23T20:09:34Z"
+    "updated_at": "2026-06-25T13:38:34Z"
   },
   "repo_links": [
     {

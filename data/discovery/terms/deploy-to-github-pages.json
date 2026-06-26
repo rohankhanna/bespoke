@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -256,6 +256,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pages.yaml",
       "source_repo": "d8ahazard/sd_dreambooth_extension"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "alex-shpak/hugo-book"
     }
   ],
   "term": "Deploy to GitHub Pages"

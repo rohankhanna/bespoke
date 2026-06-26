@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:57:42.506372+00:00",
+  "fetched_at": "2026-06-26T00:50:02.686580+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,13 +65,13 @@
     "html_url": "https://github.com/zai-org/CodeGeeX",
     "language": "Python",
     "pushed_at": "2024-08-13T05:59:38Z",
-    "stargazers_count": 8792,
+    "stargazers_count": 8793,
     "topics": [
       "code-generation",
       "pretrained-models",
       "tools"
     ],
-    "updated_at": "2026-06-24T02:21:30Z"
+    "updated_at": "2026-06-25T16:57:13Z"
   },
   "repo_links": [
     {

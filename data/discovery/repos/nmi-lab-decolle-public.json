@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-26T00:58:36.735436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1522
+    },
+    {
+      "path": "requirements.txt",
+      "size": 247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "nmi-lab/decolle-public",
+    "html_url": "https://github.com/nmi-lab/decolle-public",
+    "language": "Python",
+    "pushed_at": "2022-07-02T17:04:36Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-05-28T06:15:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

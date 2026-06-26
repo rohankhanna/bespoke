@@ -84,7 +84,7 @@
   "normalized_form": "clojure-ci",
   "observation_id": "6482efaf2e3b7047",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-24T18:42:53.825671+00:00",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
   "observed_text": "Clojure CI",
   "source_context_snippet": "Clojure CI",
   "source_file": ".github/workflows/workflow.yml",

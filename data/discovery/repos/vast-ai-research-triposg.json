@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/TripoSG",
+      "target": "tencent/hunyuandit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/TripoSG",
+      "target": "tencent/flashvdm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/TripoSG",
+      "target": "3d-genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/TripoSG",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/TripoSG",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VAST-AI-Research/TripoSG",
+      "target": "image-to-3d",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:02.874416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5676
+    },
+    {
+      "path": "requirements.txt",
+      "size": 171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TripoSG: High-Fidelity 3D Shape Synthesis using Large-Scale Rectified Flow Models",
+    "fork": false,
+    "full_name": "VAST-AI-Research/TripoSG",
+    "html_url": "https://github.com/VAST-AI-Research/TripoSG",
+    "language": "Python",
+    "pushed_at": "2025-04-18T06:58:52Z",
+    "stargazers_count": 1708,
+    "topics": [
+      "3d-genai",
+      "3d-generation",
+      "3d-reconstruction",
+      "image-to-3d"
+    ],
+    "updated_at": "2026-06-25T02:28:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/flashvdm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuandit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-genai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    }
+  ]
+}

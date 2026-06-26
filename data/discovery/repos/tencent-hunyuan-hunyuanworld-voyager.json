@@ -1,0 +1,172 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "target": "tencent-hunyuan/hy-world-2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "target": "tencent-hunyuan/hy-worldplay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "target": "hunyuan3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "target": "image-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "target": "scene-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "target": "world-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "target": "world-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:12.819884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14669
+    },
+    {
+      "path": "requirements.txt",
+      "size": 325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Voyager is an interactive RGBD video generation model conditioned on camera input, and supports real-time 3D reconstruction.",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+    "html_url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager",
+    "language": "Python",
+    "pushed_at": "2026-04-15T17:30:08Z",
+    "stargazers_count": 1570,
+    "topics": [
+      "3d",
+      "3d-generation",
+      "aigc",
+      "hunyuan3d",
+      "image-to-3d",
+      "image-to-video",
+      "scene-generation",
+      "world-model",
+      "world-models"
+    ],
+    "updated_at": "2026-06-19T23:29:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hy-world-2.0",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hy-worldplay",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan3d"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-generation"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-model"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-models"
+    }
+  ]
+}

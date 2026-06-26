@@ -130,13 +130,6 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "fossasia/visdom",
-      "target": "react-devtools",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "fossasia/visdom",
       "target": "react-dom",
       "target_type": "component"
     },
@@ -152,6 +145,13 @@
       "source_file": "package.json",
       "source_repo": "fossasia/visdom",
       "target": "react-modal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fossasia/visdom",
+      "target": "react-scroll-to-bottom",
       "target_type": "component"
     },
     {
@@ -333,6 +333,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "fossasia/visdom",
+      "target": "react-devtools",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fossasia/visdom",
       "target": "webpack",
       "target_type": "component"
     },
@@ -354,7 +361,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-scripts.yml",
       "source_repo": "fossasia/visdom",
-      "target": "actions/github-script@v3",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
@@ -368,42 +375,42 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/process-changes.yml",
       "source_repo": "fossasia/visdom",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/process-changes.yml",
       "source_repo": "fossasia/visdom",
-      "target": "actions/setup-node@v3",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/process-changes.yml",
       "source_repo": "fossasia/visdom",
-      "target": "psf/black@26.3.0",
+      "target": "psf/black@26.5.1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/process-changes.yml",
       "source_repo": "fossasia/visdom",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/process-changes.yml",
       "source_repo": "fossasia/visdom",
-      "target": "cypress-io/github-action@v4",
+      "target": "cypress-io/github-action@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/process-changes.yml",
       "source_repo": "fossasia/visdom",
-      "target": "actions/download-artifact@v7",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
@@ -417,21 +424,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "fossasia/visdom",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "fossasia/visdom",
-      "target": "softprops/action-gh-release@v1",
+      "target": "softprops/action-gh-release@v3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "fossasia/visdom",
-      "target": "actions/setup-python@v4",
+      "target": "actions/setup-python@v6",
       "target_type": "component"
     },
     {
@@ -452,14 +459,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-js-build-files.yml",
       "source_repo": "fossasia/visdom",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-js-build-files.yml",
       "source_repo": "fossasia/visdom",
-      "target": "actions/setup-node@v3",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -470,6 +477,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-06-26T00:48:31.916635+00:00",
   "source_repo": "fossasia/visdom"
 }

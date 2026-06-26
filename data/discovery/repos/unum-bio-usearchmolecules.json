@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:13:17.869479+00:00",
+  "fetched_at": "2026-06-26T01:13:36.340560+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -118,7 +118,7 @@
     "html_url": "https://github.com/unum-bio/USearchMolecules",
     "language": "Python",
     "pushed_at": "2026-06-15T23:06:46Z",
-    "stargazers_count": 103,
+    "stargazers_count": 104,
     "topics": [
       "aws-s3",
       "bioinformatics",
@@ -132,7 +132,7 @@
       "vector-search",
       "vector-search-engine"
     ],
-    "updated_at": "2026-06-19T02:23:46Z"
+    "updated_at": "2026-06-25T11:37:23Z"
   },
   "repo_links": [
     {

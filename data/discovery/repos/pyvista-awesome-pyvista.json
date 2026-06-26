@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesome_bot.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesome_bot.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyvista/awesome-pyvista",
+      "target": "bzrudski/vectorose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyvista/awesome-pyvista",
+      "target": "adtzlr/felupe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyvista/awesome-pyvista",
+      "target": "ansys/pymapdl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyvista/awesome-pyvista",
+      "target": "bjlittle/geovista",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesome_bot.yaml",
+      "source_repo": "pyvista/awesome-pyvista",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesome_bot.yaml",
+      "source_repo": "pyvista/awesome-pyvista",
+      "target": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/awesome_bot.yaml",
+      "source_repo": "pyvista/awesome-pyvista",
+      "target": "Ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:59:06.454354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8024
+    },
+    {
+      "path": ".github/workflows/awesome_bot.yaml",
+      "size": 628
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of awesome stuff related to PyVista \ud83d\ude0e",
+    "fork": false,
+    "full_name": "pyvista/awesome-pyvista",
+    "html_url": "https://github.com/pyvista/awesome-pyvista",
+    "language": "Python",
+    "pushed_at": "2026-06-25T22:26:39Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-06-25T22:26:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adtzlr/felupe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ansys/pymapdl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bjlittle/geovista",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bzrudski/vectorose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/awesome_bot.yaml",
+      "term": "Ruby"
+    }
+  ]
+}

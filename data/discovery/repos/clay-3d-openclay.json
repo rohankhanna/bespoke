@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-26T00:58:14.318213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLAY: A Controllable Large-scale Generative Model for Creating High-quality 3D Assets",
+    "fork": false,
+    "full_name": "CLAY-3D/OpenCLAY",
+    "html_url": "https://github.com/CLAY-3D/OpenCLAY",
+    "language": null,
+    "pushed_at": "2024-06-21T04:49:30Z",
+    "stargazers_count": 981,
+    "topics": [],
+    "updated_at": "2026-06-24T07:52:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

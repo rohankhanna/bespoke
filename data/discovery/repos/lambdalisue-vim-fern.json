@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:12:50.527091+00:00",
+  "fetched_at": "2026-06-26T01:13:02.154038+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -233,7 +233,7 @@
     "html_url": "https://github.com/lambdalisue/vim-fern",
     "language": "Vim Script",
     "pushed_at": "2026-06-01T09:50:57Z",
-    "stargazers_count": 1352,
+    "stargazers_count": 1353,
     "topics": [
       "async",
       "cross-platform",
@@ -248,7 +248,7 @@
       "vim",
       "windows"
     ],
-    "updated_at": "2026-06-22T15:14:45Z"
+    "updated_at": "2026-06-25T11:28:18Z"
   },
   "repo_links": [
     {

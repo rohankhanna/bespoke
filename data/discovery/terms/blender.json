@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -51,6 +51,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "makehumancommunity/mpfb2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "huanngzh/bpy-renderer"
     }
   ],
   "term": "blender"

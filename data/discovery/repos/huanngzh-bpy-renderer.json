@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huanngzh/bpy-renderer",
+      "target": "blender",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huanngzh/bpy-renderer",
+      "target": "blender-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huanngzh/bpy-renderer",
+      "target": "rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:26.787691+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2464
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python package for rendering 3D scenes and animations using blender.",
+    "fork": false,
+    "full_name": "huanngzh/bpy-renderer",
+    "html_url": "https://github.com/huanngzh/bpy-renderer",
+    "language": "Python",
+    "pushed_at": "2025-08-24T15:37:14Z",
+    "stargazers_count": 222,
+    "topics": [
+      "blender",
+      "blender-python",
+      "rendering"
+    ],
+    "updated_at": "2026-06-17T08:14:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A go-to library for rendering 3D scenes and animations. Whether you're looking for a simple rendering script for making demos or producing multi-view image dataset for training, bpy-renderer is a modular toolbox that supports both.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blender"
+    },
+    {
+      "context_snippet": "A go-to library for rendering 3D scenes and animations. Whether you're looking for a simple rendering script for making demos or producing multi-view image dataset for training, bpy-renderer is a modular toolbox that supports both.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blender-python"
+    },
+    {
+      "context_snippet": "A go-to library for rendering 3D scenes and animations. Whether you're looking for a simple rendering script for making demos or producing multi-view image dataset for training, bpy-renderer is a modular toolbox that supports both.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    }
+  ]
+}

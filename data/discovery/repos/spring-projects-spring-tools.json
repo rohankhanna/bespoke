@@ -68,13 +68,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "spring-projects/spring-tools",
-      "target": "spring-projects/spring-tools4",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/aggregate-distro-update-sites.yml",
       "source_repo": "spring-projects/spring-tools",
@@ -271,7 +264,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:14:06.197707+00:00",
+  "fetched_at": "2026-06-26T01:15:06.968472+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -336,13 +329,7 @@
     ],
     "updated_at": "2026-06-25T01:12:14Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "spring-projects/spring-tools4",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Aggregate Distro Update Sites",

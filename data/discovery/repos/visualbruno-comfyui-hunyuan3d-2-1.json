@@ -1,0 +1,160 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "target": "mworchel/xatlas-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "target": "hunyuan3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "target": "hunyuan3dwrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "target": "shape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "target": "shape-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "target": "texture-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:04.303221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5212
+    },
+    {
+      "path": "requirements.txt",
+      "size": 204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI Wrapper for Hunyuan3D v2.1 - From Images to High-Fidelity 3D Assets with Production-Ready PBR Material",
+    "fork": false,
+    "full_name": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+    "html_url": "https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1",
+    "language": "Python",
+    "pushed_at": "2026-02-27T22:39:37Z",
+    "stargazers_count": 338,
+    "topics": [
+      "3d",
+      "3d-generation",
+      "comfyui",
+      "hunyuan3d",
+      "hunyuan3dwrapper",
+      "image-to-3d",
+      "shape",
+      "shape-generation",
+      "texture-generation"
+    ],
+    "updated_at": "2026-06-25T10:50:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mworchel/xatlas-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan3d"
+    },
+    {
+      "context_snippet": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan3dwrapper"
+    },
+    {
+      "context_snippet": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape"
+    },
+    {
+      "context_snippet": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape-generation"
+    },
+    {
+      "context_snippet": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture-generation"
+    }
+  ]
+}

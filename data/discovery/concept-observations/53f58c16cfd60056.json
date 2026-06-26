@@ -84,7 +84,7 @@
   "normalized_form": "publish-tree-sitter-parsers",
   "observation_id": "53f58c16cfd60056",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
   "observed_text": "Publish tree-sitter parsers",
   "source_context_snippet": "Publish tree-sitter parsers",
   "source_file": ".github/workflows/publish-ts-parsers.yml",

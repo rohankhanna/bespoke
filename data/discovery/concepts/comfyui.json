@@ -433,6 +433,18 @@
       "source_repo": "MrForExample/ComfyUI-3D-Pack",
       "status": "candidate-context",
       "text": "**Make 3D assets generation in ComfyUI good and convenient as it generates image/video!**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "status": "candidate-context",
+      "text": "ComfyUI Wrapper for Hunyuan3D v2.1 - From Images to High-Fidelity 3D Assets with Production-Ready PBR Material"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "status": "candidate-context",
+      "text": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping."
     }
   ],
   "candidate_glosses": [
@@ -645,6 +657,12 @@
       "source_repo": "MrForExample/ComfyUI-3D-Pack",
       "status": "candidate",
       "text": "**Make 3D assets generation in ComfyUI good and convenient as it generates image/video!**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "status": "candidate",
+      "text": "> **ComfyUI integration** for Tencent's powerful **Hunyuan3D-2.1** model. Supports textured 3D generation with optional high-quality UV mapping."
     }
   ],
   "candidate_related_terms": [],
@@ -2506,11 +2524,35 @@
       "observed_at": "2026-06-25T13:00:34.017104+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "visualbruno/ComfyUI-Hunyuan3d-2-1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

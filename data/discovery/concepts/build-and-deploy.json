@@ -454,6 +454,18 @@
       "source_repo": "easylist/easylist",
       "status": "candidate-context",
       "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neurolabusc/niivue-simplify",
+      "status": "candidate-context",
+      "text": "Comparison of mesh simplification methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neurolabusc/niivue-simplify",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
     }
   ],
   "candidate_glosses": [
@@ -676,6 +688,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "easylist/easylist",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neurolabusc/niivue-simplify",
       "status": "candidate",
       "text": "Build and Deploy"
     }
@@ -1441,11 +1459,17 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": ".github/workflows/build_and_deploy.yml",
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "neurolabusc/niivue-simplify"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

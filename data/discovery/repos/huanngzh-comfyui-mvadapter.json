@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "huanngzh/ComfyUI-MVAdapter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "huanngzh/ComfyUI-MVAdapter",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "huanngzh/ComfyUI-MVAdapter",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:28.277773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3784
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 820
+    },
+    {
+      "path": "requirements.txt",
+      "size": 215
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 647
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Custom nodes for using MV-Adapter in ComfyUI.",
+    "fork": false,
+    "full_name": "huanngzh/ComfyUI-MVAdapter",
+    "html_url": "https://github.com/huanngzh/ComfyUI-MVAdapter",
+    "language": "Python",
+    "pushed_at": "2025-06-26T07:01:15Z",
+    "stargazers_count": 471,
+    "topics": [],
+    "updated_at": "2026-06-02T17:19:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

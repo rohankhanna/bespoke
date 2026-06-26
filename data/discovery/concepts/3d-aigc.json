@@ -79,6 +79,18 @@
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6Portable package for running Hunyuan3D 2.0/2.1 on Windows. | \u6df7\u5143 3D 2.0/2.1 \u6574\u5408\u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "status": "candidate-context",
+      "text": "\"Build & Upload\""
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "status": "candidate",
+      "text": "\"Build & Upload\""
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2.1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

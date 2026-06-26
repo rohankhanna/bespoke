@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "component": "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml"
     },
@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/backport.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml"
     },
@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/changelog.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yaml"
     },
@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/checks.yaml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml"
     },
@@ -76,7 +76,7 @@
       "source_file": ".github/workflows/codeql-analysis.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/primer-test.yaml"
     },
@@ -96,7 +96,7 @@
       "source_file": ".github/workflows/primer-test.yaml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/primer_comment.yaml"
     },
@@ -126,7 +126,7 @@
       "source_file": ".github/workflows/primer_comment.yaml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/primer_run_main.yaml"
     },
@@ -166,7 +166,7 @@
       "source_file": ".github/workflows/primer_run_main.yaml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/primer_run_pr.yaml"
     },
@@ -235,7 +235,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.rst",
       "source_repo": "pylint-dev/pylint",
-      "target": "facebook/pyre-check",
+      "target": "pylint-dev/pylint-django",
       "target_type": "repository"
     },
     {
@@ -249,7 +249,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "pylint-dev/pylint",
-      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target": "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1",
       "target_type": "component"
     },
     {
@@ -270,7 +270,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "pylint-dev/pylint",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -298,7 +298,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yaml",
       "source_repo": "pylint-dev/pylint",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -333,7 +333,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "pylint-dev/pylint",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -368,7 +368,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/primer-test.yaml",
       "source_repo": "pylint-dev/pylint",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -403,7 +403,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/primer_comment.yaml",
       "source_repo": "pylint-dev/pylint",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -438,7 +438,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/primer_run_main.yaml",
       "source_repo": "pylint-dev/pylint",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -473,7 +473,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/primer_run_pr.yaml",
       "source_repo": "pylint-dev/pylint",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -561,7 +561,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:12:46.908032+00:00",
+  "fetched_at": "2026-06-26T00:55:06.792264+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -569,7 +569,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 9870
+      "size": 9861
     },
     {
       "path": ".github/workflows/backport.yml",
@@ -581,7 +581,7 @@
     },
     {
       "path": ".github/workflows/checks.yaml",
-      "size": 4947
+      "size": 5217
     },
     {
       "path": ".github/workflows/codeql-analysis.yml",
@@ -613,8 +613,8 @@
     "full_name": "pylint-dev/pylint",
     "html_url": "https://github.com/pylint-dev/pylint",
     "language": "Python",
-    "pushed_at": "2026-04-28T05:05:48Z",
-    "stargazers_count": 5675,
+    "pushed_at": "2026-06-22T22:16:12Z",
+    "stargazers_count": 5693,
     "topics": [
       "closember",
       "code-quality",
@@ -624,7 +624,7 @@
       "static-analysis",
       "static-code-analysis"
     ],
-    "updated_at": "2026-04-29T23:14:07Z"
+    "updated_at": "2026-06-25T03:37:56Z"
   },
   "repo_links": [
     {
@@ -639,12 +639,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "facebook/pyre-check",
+      "full_name": "myint/autoflake",
       "source_file": "README.rst"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "myint/autoflake",
+      "full_name": "pylint-dev/pylint-django",
       "source_file": "README.rst"
     }
   ],

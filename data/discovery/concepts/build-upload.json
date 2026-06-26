@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build & Upload"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6Portable package for running Hunyuan3D 2.0/2.1 on Windows. | \u6df7\u5143 3D 2.0/2.1 \u6574\u5408\u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "status": "candidate-context",
+      "text": "\"Build & Upload\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable",
+      "status": "candidate",
+      "text": "\"Build & Upload\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14498,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14498,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14498,
+      "status": "candidate",
+      "text": "photo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14498,
+      "status": "candidate",
+      "text": "pic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14498,
+      "status": "candidate",
+      "text": "scan"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & Upload",
+  "concept_id": "build-upload",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable"
+    }
+  ],
+  "first_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Upload",
+      "sense_id": "build-upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

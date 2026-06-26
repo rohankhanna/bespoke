@@ -1,0 +1,12 @@
+{
+  "component": "lava-nc/ci-setup-composite-action@v1.5.10_py3.10",
+  "first_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lava-nc/lava"
+    }
+  ]
+}

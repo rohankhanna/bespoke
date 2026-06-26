@@ -1,7 +1,7 @@
 {
   "component": "spring-io/spring-release-actions/announce-on-gchat@a1f321783a0769dd2aea4fad6c2ae2f95a52b885",
   "first_seen_at": "2026-05-26T00:44:06.917625+00:00",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

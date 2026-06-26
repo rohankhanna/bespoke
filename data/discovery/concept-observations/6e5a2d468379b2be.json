@@ -120,7 +120,7 @@
   "normalized_form": "promote",
   "observation_id": "6e5a2d468379b2be",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T00:48:31.916635+00:00",
   "observed_text": "Promote",
   "source_context_snippet": "Promote",
   "source_file": ".github/workflows/promote.yml",

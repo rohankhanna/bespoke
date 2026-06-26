@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RicherMans/CED",
+      "target": "richermans/sat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RicherMans/CED",
+      "target": "richermans/hear_ced",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RicherMans/CED",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RicherMans/CED",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RicherMans/CED",
+      "target": "sound",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RicherMans/CED",
+      "target": "tagging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:55:00.248672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11025
+    },
+    {
+      "path": "requirements.txt",
+      "size": 272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Source code for Consistent ensemble distillation for audio tagging",
+    "fork": false,
+    "full_name": "RicherMans/CED",
+    "html_url": "https://github.com/RicherMans/CED",
+    "language": "Python",
+    "pushed_at": "2026-03-20T08:31:13Z",
+    "stargazers_count": 73,
+    "topics": [
+      "audio",
+      "classification",
+      "sound",
+      "tagging"
+    ],
+    "updated_at": "2026-06-21T09:59:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "richermans/hear_ced",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "richermans/sat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo is the source for the ICASSP 2024 Paper [Consistent Ensemble Distillation for Audio Tagging](https://arxiv.org/abs/2308.11957).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "This repo is the source for the ICASSP 2024 Paper [Consistent Ensemble Distillation for Audio Tagging](https://arxiv.org/abs/2308.11957).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "This repo is the source for the ICASSP 2024 Paper [Consistent Ensemble Distillation for Audio Tagging](https://arxiv.org/abs/2308.11957).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sound"
+    },
+    {
+      "context_snippet": "This repo is the source for the ICASSP 2024 Paper [Consistent Ensemble Distillation for Audio Tagging](https://arxiv.org/abs/2308.11957).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tagging"
+    }
+  ]
+}

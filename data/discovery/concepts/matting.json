@@ -127,6 +127,18 @@
       "source_repo": "xlite-dev/RVM-Inference",
       "status": "candidate-context",
       "text": "<div align='left'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "naver-ai/ZIM",
+      "status": "candidate-context",
+      "text": "[ICCV 2025, Highlight] ZIM: Zero-Shot Image Matting for Anything"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naver-ai/ZIM",
+      "status": "candidate-context",
+      "text": "[Beomyoung Kim](https://beomyoung-kim.github.io/), Chanyong Shin, [Joonhyun Jeong](https://bestdeveloper691.github.io/), Hyungsik Jung, Se-Yun Lee, Sewhan Chun, [Dong-Hyun Hwang](https://hwangdonghyun.github.io/), Joonsang Yu<br>"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "xlite-dev/RVM-Inference",
       "status": "candidate",
       "text": "<div align='left'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naver-ai/ZIM",
+      "status": "candidate",
+      "text": "[Beomyoung Kim](https://beomyoung-kim.github.io/), Chanyong Shin, [Joonhyun Jeong](https://bestdeveloper691.github.io/), Hyungsik Jung, Se-Yun Lee, Sewhan Chun, [Dong-Hyun Hwang](https://hwangdonghyun.github.io/), Joonsang Yu<br>"
     }
   ],
   "candidate_related_terms": [
@@ -1686,11 +1704,29 @@
       "observed_at": "2026-06-25T13:00:34.017104+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "naver-ai/ZIM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T00:48:31.916635+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/RVM-Inference"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T13:00:34.017104+00:00",
+  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "lexical_providers": [
     "datamuse"
   ],

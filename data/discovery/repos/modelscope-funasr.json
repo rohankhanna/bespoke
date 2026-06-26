@@ -241,7 +241,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T01:59:47.794049+00:00",
+  "fetched_at": "2026-06-26T00:53:07.647251+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -273,8 +273,8 @@
     "full_name": "modelscope/FunASR",
     "html_url": "https://github.com/modelscope/FunASR",
     "language": "Python",
-    "pushed_at": "2026-06-24T12:23:35Z",
-    "stargazers_count": 18531,
+    "pushed_at": "2026-06-25T13:19:08Z",
+    "stargazers_count": 18570,
     "topics": [
       "asr",
       "audio",
@@ -297,7 +297,7 @@
       "voice-activity-detection",
       "whisper-alternative"
     ],
-    "updated_at": "2026-06-25T01:30:05Z"
+    "updated_at": "2026-06-26T00:43:38Z"
   },
   "repo_links": [],
   "terms": [

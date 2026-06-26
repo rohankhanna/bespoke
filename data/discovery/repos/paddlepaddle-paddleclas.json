@@ -144,7 +144,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:06:00.826071+00:00",
+  "fetched_at": "2026-06-26T01:02:53.290033+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -172,7 +172,7 @@
     "full_name": "PaddlePaddle/PaddleClas",
     "html_url": "https://github.com/PaddlePaddle/PaddleClas",
     "language": "Python",
-    "pushed_at": "2026-06-23T03:33:25Z",
+    "pushed_at": "2026-06-25T08:24:46Z",
     "stargazers_count": 5817,
     "topics": [
       "autoaugment",

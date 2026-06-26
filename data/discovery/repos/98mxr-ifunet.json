@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "98mxr/IFUNet",
+      "target": "hzwer/arxiv2021-rife",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-26T00:58:23.904255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RIFE with IFUNet, FusionNet and RefineNet",
+    "fork": false,
+    "full_name": "98mxr/IFUNet",
+    "html_url": "https://github.com/98mxr/IFUNet",
+    "language": "Python",
+    "pushed_at": "2022-06-30T05:27:44Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-04-08T01:05:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hzwer/arxiv2021-rife",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}
