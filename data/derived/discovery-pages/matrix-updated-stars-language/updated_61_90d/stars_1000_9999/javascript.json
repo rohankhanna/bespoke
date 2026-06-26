@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3044,
-    "concepts": 664,
-    "observations": 664,
-    "repos": 102,
-    "terms": 661
+    "components": 3049,
+    "concepts": 668,
+    "observations": 668,
+    "repos": 101,
+    "terms": 665
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -34,7 +34,6 @@
     "codemirror/dev",
     "coderaiser/cloudcmd",
     "conventional-changelog/standard-version",
-    "danmactough/node-feedparser",
     "DavidAnson/markdownlint",
     "dequelabs/axe-core",
     "DevExpress/testcafe",
@@ -51,7 +50,7 @@
     "gautamkrishnar/blog-post-workflow",
     "gautamkrishnar/motrix-webextension",
     "google/closure-compiler",
-    "GoogleChrome/lighthouse-ci",
+    "google/docsy",
     "GoogleChrome/web-vitals",
     "GoogleChromeLabs/browser-fs-access",
     "GoogleChromeLabs/ProjectVisBug",
@@ -96,7 +95,6 @@
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
     "serverless-operations/serverless-step-functions",
-    "sindresorhus/globby",
     "sindresorhus/hyper-snazzy",
     "sindresorhus/np",
     "tc39/agendas",
@@ -111,6 +109,7 @@
     "webpack/css-loader",
     "webpack/postcss-loader",
     "webpack/sass-loader",
+    "webpack/webpack-dev-server",
     "webtorrent/bittorrent-dht",
     "webtorrent/webtorrent-cli",
     "yahoo/serialize-javascript",

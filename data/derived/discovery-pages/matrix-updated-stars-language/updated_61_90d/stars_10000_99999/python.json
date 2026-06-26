@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1886,
-    "concepts": 1571,
-    "observations": 1575,
-    "repos": 162,
-    "terms": 1597
+    "components": 1850,
+    "concepts": 1597,
+    "observations": 1602,
+    "repos": 163,
+    "terms": 1623
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -73,8 +73,8 @@
     "Farama-Foundation/Gymnasium",
     "fishaudio/fish-speech",
     "FlagOpen/FlagEmbedding",
-    "fossasia/visdom",
     "GaiZhenbiao/ChuanhuChatGPT",
+    "Genesis-Embodied-AI/Genesis",
     "getsentry/sentry",
     "getzep/graphiti",
     "giampaolo/psutil",
@@ -104,6 +104,7 @@
     "langchain-ai/deepagents",
     "langchain-ai/langgraph",
     "letta-ai/letta",
+    "LibreTranslate/LibreTranslate",
     "m-bain/whisperX",
     "magic-wormhole/magic-wormhole",
     "ManimCommunity/manim",
@@ -125,11 +126,9 @@
     "onnx/onnx",
     "onyx-dot-app/onyx",
     "openai/evals",
-    "openai/gpt-oss",
     "openai/openai-agents-python",
     "openai/openai-python",
     "openai/swarm",
-    "openai/tiktoken",
     "openai/whisper",
     "OpenBMB/ChatDev",
     "oraios/serena",
@@ -140,6 +139,7 @@
     "plotly/dash",
     "plotly/plotly.py",
     "pre-commit/pre-commit",
+    "PrefectHQ/fastmcp",
     "pydantic/pydantic-ai",
     "pyinstaller/pyinstaller",
     "pyodide/pyodide",
@@ -161,6 +161,7 @@
     "spotify/luigi",
     "squidfunk/mkdocs-material",
     "stanfordnlp/dspy",
+    "state-spaces/mamba",
     "streamlit/streamlit",
     "subframe7536/maple-font",
     "tensorflow/models",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6714,
-    "concepts": 751,
-    "observations": 758,
-    "repos": 82,
-    "terms": 764
+    "components": 6834,
+    "concepts": 771,
+    "observations": 778,
+    "repos": 85,
+    "terms": 784
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
+    "accomplish-ai/accomplish",
     "actions/starter-workflows",
+    "adonisjs/core",
     "airbnb/visx",
     "alibaba/ice",
     "ant-design/ant-design-mobile",
@@ -67,6 +69,7 @@
     "nvidia/nemoclaw",
     "openai/openai-node",
     "pnpm/pnpm",
+    "postcss/postcss",
     "privatenumber/tsx",
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",

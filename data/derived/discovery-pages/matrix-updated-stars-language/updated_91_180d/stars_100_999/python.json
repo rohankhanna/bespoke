@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 613,
-    "concepts": 1023,
-    "observations": 1024,
-    "repos": 259,
-    "terms": 1013
+    "components": 620,
+    "concepts": 1032,
+    "observations": 1033,
+    "repos": 262,
+    "terms": 1024
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0k/shyaml",
     "absadiki/pywhispercpp",
@@ -23,7 +23,7 @@
     "AGI-Arena/MARS",
     "ai4co/rl4co",
     "aigc3d/LHM-plusplus",
-    "Akajiaku11/Air-Quality-Prediction-Model",
+    "akin-ozer/cc-devops-skills",
     "akoumjian/datefinder",
     "alex-petrenko/sample-factory",
     "alexei-led/aws-mcp-server",
@@ -41,11 +41,11 @@
     "amd/Quark",
     "angr/angrop",
     "araffin/sbx",
+    "argmaxinc/whisperkittools",
     "argosopentech/argos-train",
     "arsenetar/send2trash",
     "ASLP-lab/Easy-Turn",
     "astra-vision/MonoScene",
-    "autonomousvision/carla_garage",
     "aws-cloudformation/aws-cloudformation-samples",
     "aws-samples/sample-agentic-ai-demos",
     "aws-samples/sample-bedrock-deep-researcher",
@@ -127,6 +127,7 @@
     "hustvl/DiffusionDriveV2",
     "hustvl/Senna",
     "ielab/llm-rankers",
+    "imlixinyang/FlashWorld",
     "inducer/cgen",
     "infinigence/FUSCO",
     "intel/ai-reference-models",
@@ -231,6 +232,7 @@
     "SLDGroup/EMCAD",
     "sony/ctm",
     "speechbrain/benchmarks",
+    "Stanford-TML/robot_keyframe_kit",
     "strands-agents/agent-builder",
     "strands-agents/mcp-server",
     "superclaude-org/supergemini_framework",
@@ -252,6 +254,7 @@
     "vietanhdev/samexporter",
     "virtuald/pyhcl",
     "Visual-Agent/DeepEyesV2",
+    "visualbruno/ComfyUI-Hunyuan3d-2-1",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "walles/px",

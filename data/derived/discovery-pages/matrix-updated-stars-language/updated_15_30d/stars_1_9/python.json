@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "concepts": 60,
+    "observations": 60,
+    "repos": 9,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
+    "Archerkattri/fast-trellis2",
+    "Archerkattri/faster-trellis",
+    "Archerkattri/hermit-trellis2",
+    "Archerkattri/hermit-trellis2-plus-plus",
+    "Archerkattri/hunyuan2-plus",
+    "Archerkattri/hunyuan2-plus-plus",
+    "Archerkattri/sam3d-plus",
+    "Archerkattri/sam3d-plus-plus",
     "xuanji86/ainiee-translate-skill"
   ]
 }

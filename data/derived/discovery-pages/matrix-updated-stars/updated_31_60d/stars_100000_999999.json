@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 263,
-    "concepts": 143,
-    "observations": 144,
-    "repos": 12,
-    "terms": 140
+    "components": 272,
+    "concepts": 163,
+    "observations": 164,
+    "repos": 13,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "anomalyco/opencode",
@@ -22,6 +22,7 @@
     "godotengine/godot",
     "huggingface/transformers",
     "microsoft/generative-ai-for-beginners",
+    "microsoft/PowerToys",
     "rust-lang/rust",
     "twbs/bootstrap",
     "vinta/awesome-python"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 367,
-    "concepts": 353,
-    "observations": 354,
-    "repos": 132,
-    "terms": 359
+    "components": 383,
+    "concepts": 361,
+    "observations": 362,
+    "repos": 136,
+    "terms": 367
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "2U1/Gemma3-Finetune",
+    "98mxr/GMFSS_Fortuna",
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
     "abduznik/git-alchemist",
@@ -65,6 +66,8 @@
     "ENCODE-DCC/caper",
     "enjoy-digital/liteiclink",
     "enjoy-digital/litex_hw_ci",
+    "explosion/spacy-alignments",
+    "explosion/weasel",
     "FindDefinition/cumm",
     "fla-org/flash-bidirectional-linear-attention",
     "foldl/AlphaGeometryRE",
@@ -119,6 +122,7 @@
     "rdb/panda3d-thirdparty",
     "redis/redis-py-entraid",
     "richardodliu/OpenCodeEval",
+    "RicherMans/CED",
     "rstudio/pins-python",
     "saltstack/libnacl",
     "scaleway/serverless-gateway",

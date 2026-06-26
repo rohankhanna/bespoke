@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1464,
-    "concepts": 198,
-    "observations": 199,
-    "repos": 120,
-    "terms": 197
+    "components": 1469,
+    "concepts": 199,
+    "observations": 200,
+    "repos": 121,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -112,6 +112,7 @@
     "micromatch/expand-braces",
     "minihack-editor/minihack-editor.github.io",
     "modelscope/Trinity-Studio",
+    "neurolabusc/niivue-simplify",
     "nothingislost/pickr",
     "openxrlab/xrviewer",
     "pajaydev/lasso-unpack",

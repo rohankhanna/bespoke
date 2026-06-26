@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 753,
-    "concepts": 1324,
-    "observations": 1327,
-    "repos": 402,
-    "terms": 1304
+    "components": 755,
+    "concepts": 1325,
+    "observations": 1328,
+    "repos": 403,
+    "terms": 1305
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -187,6 +187,7 @@
     "huawei-noah/bolt",
     "igrr/mkspiffs",
     "ikatyang/tree-sitter-markdown",
+    "Improbable-AI/VisionProTeleop",
     "incluit/OpenVino-For-SmartCity",
     "ingonyama-zk/icicle",
     "inikep/lizard",

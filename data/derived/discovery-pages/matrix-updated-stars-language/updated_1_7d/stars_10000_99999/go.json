@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 3,
-    "terms": 36
+    "components": 97,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 5,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "apache/casbin",
+    "gastownhall/beads",
     "gastownhall/gastown",
+    "moby/moby",
     "podman-container-tools/podman"
   ]
 }

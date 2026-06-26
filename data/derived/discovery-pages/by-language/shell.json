@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1930,
+    "components": 1931,
     "concepts": 2862,
     "observations": 2881,
     "repos": 717,
-    "terms": 2799
+    "terms": 2791
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",

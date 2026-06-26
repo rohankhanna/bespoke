@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 41,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 18,
-    "terms": 30
+    "concepts": 24,
+    "observations": 24,
+    "repos": 17,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "abbhisap/LLM-Council-SAP",
@@ -22,7 +22,6 @@
     "danielJL-altius/israelgrocerymcp",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
-    "danielrosehill/Quick-RMBG",
     "devnen/chatterbox-v2",
     "maeste/a2a-tck",
     "marin-community/harbor",

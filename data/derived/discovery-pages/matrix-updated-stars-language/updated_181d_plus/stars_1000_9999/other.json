@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1345,
-    "concepts": 1682,
-    "observations": 1684,
-    "repos": 445,
-    "terms": 1670
+    "components": 1347,
+    "concepts": 1694,
+    "observations": 1696,
+    "repos": 448,
+    "terms": 1682
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -42,6 +42,7 @@
     "anmonteiro/lumo",
     "AnubisNekhet/AnuPpuccin",
     "anuvyklack/hydra.nvim",
+    "aras-p/UnityGaussianSplatting",
     "ardalis/GuardClauses",
     "Armour/vue-typescript-admin-template",
     "artsy/eidolon",
@@ -180,6 +181,7 @@
     "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/nvim-compe",
     "huggingface/swift-coreml-diffusers",
+    "huggingface/swift-coreml-transformers",
     "Hzzone/pytorch-openpose",
     "ibm-aur-nlp/PubLayNet",
     "IDEA-Research/Grounded-SAM-2",
@@ -453,6 +455,7 @@
     "yang-song/score_sde",
     "yang-song/score_sde_pytorch",
     "YangLing0818/RPG-DiffusionMaster",
+    "YanWenKun/Hunyuan3D-2-WinPortable",
     "yformer/EfficientSAM",
     "Yggdroot/indentLine",
     "yitu-opensource/T2T-ViT",

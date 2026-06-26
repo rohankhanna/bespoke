@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1689,
-    "concepts": 1194,
-    "observations": 1202,
-    "repos": 174,
-    "terms": 1205
+    "components": 1736,
+    "concepts": 1228,
+    "observations": 1236,
+    "repos": 179,
+    "terms": 1239
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
+    "64bit/async-openai",
     "abraxas-365/langchain-rust",
     "actix/actix",
     "ai-dynamo/dynamo",
@@ -37,6 +38,7 @@
     "bitshifter/glam-rs",
     "blacknon/hwatch",
     "bluealloy/revm",
+    "boa-dev/boa",
     "BoundaryML/baml",
     "BurntSushi/aho-corasick",
     "BurntSushi/quickcheck",
@@ -60,7 +62,6 @@
     "dtolnay/syn",
     "EmbarkStudios/cargo-deny",
     "EmbarkStudios/puffin",
-    "emilk/eframe_template",
     "enigo-rs/enigo",
     "EricLBuehler/mistral.rs",
     "esp-rs/esp-hal",
@@ -69,6 +70,7 @@
     "flamegraph-rs/flamegraph",
     "fltk-rs/fltk-rs",
     "freenet/freenet-core",
+    "fussybeaver/bollard",
     "gfx-rs/wgpu-native",
     "ggez/ggez",
     "google/zerocopy",
@@ -93,6 +95,7 @@
     "kika/fixedsys",
     "killercup/cargo-edit",
     "lalrpop/lalrpop",
+    "latex-lsp/texlab",
     "libp2p/rust-libp2p",
     "linebender/resvg",
     "liuchengxu/vim-clap",
@@ -124,6 +127,8 @@
     "not-fl3/macroquad",
     "not-fl3/miniquad",
     "nvidia/openshell",
+    "obi1kenobi/cargo-semver-checks",
+    "obi1kenobi/trustfall",
     "open-telemetry/opentelemetry-rust",
     "openai/harmony",
     "paradigmxyz/reth",

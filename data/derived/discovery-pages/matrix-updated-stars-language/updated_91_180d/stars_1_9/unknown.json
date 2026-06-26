@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 82,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 44,
-    "terms": 42
+    "concepts": 46,
+    "observations": 46,
+    "repos": 48,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -33,12 +33,14 @@
     "buttercannfly/AIPex",
     "cncf/k8s-conformance-archive",
     "conda-forge/modin-feedstock",
+    "danielrosehill/Agents-Index",
     "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/Claude-Development-Agents",
     "danielrosehill/Claude-Dork",
     "danielrosehill/Digital-Evidence-Toolkit",
     "danielrosehill/Hebrew-TTS-Providers",
+    "danielrosehill/Homebox-Projects-Index",
     "flagos-ai/FlagOS-Robo",
     "gakonst/foundry",
     "hchiam/learning-gh",
@@ -46,6 +48,7 @@
     "hesreallyhim/inkverse-fork",
     "jsdom/.github",
     "kornia/data",
+    "langchain-ai/.github",
     "lionel-/biome",
     "newton-physics/newton-governance",
     "orlp/color-backtrace",
@@ -56,6 +59,7 @@
     "simonpoole/geocontext",
     "sp1-patches/curve25519-dalek-ng",
     "trufflesecurity/test_keys",
+    "vega/.github",
     "vercel-labs/include_dir",
     "vllm-project/media-kit"
   ]

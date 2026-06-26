@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5616,
-    "concepts": 2033,
-    "observations": 2036,
-    "repos": 1430,
-    "terms": 2033
+    "components": 5635,
+    "concepts": 2037,
+    "observations": 2040,
+    "repos": 1434,
+    "terms": 2037
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -881,6 +881,7 @@
     "kaorahi/visual_MCTS",
     "kaste/SublimeLinter-addon-goto-flash",
     "kaste/SublimeLinter-addon-toggler",
+    "kclip/lava-decolle",
     "keeeeenw/TinyLLaVA_Factory",
     "kellyselden/git-diff-apply",
     "keszybz/fedora-repro",
@@ -1044,6 +1045,7 @@
     "mrsmkl/keep-awake-rs",
     "msqr1/kaldi-wasm2",
     "mtrbpr/lua-promql-parser",
+    "mudler/k8s-mcp-server",
     "Muennighoff/sentence-transformers",
     "multipath/fairseq-stable",
     "MunifTanjim/llhttp.lua",
@@ -1068,6 +1070,7 @@
     "nelson-lang/nelson-minimalist-core",
     "neulab/explainaboard_client",
     "NeuralVox/OpenPhonemizer-GPL",
+    "neurolabusc/niivue-simplify",
     "nextjournal/nbb-test-runner",
     "nice-mee/WindowsAgentArena",
     "nick-triller/khcheck-external-secrets",
@@ -1386,6 +1389,7 @@
     "victoriacity/voxel-challenge",
     "videojs/admin",
     "vim-fall/deno-fall-custom",
+    "vim-fall/deno-fall-std",
     "viperjuice/flutter-structurizr",
     "viperproject/axiom-profiler-2",
     "vitchyr/doodad",

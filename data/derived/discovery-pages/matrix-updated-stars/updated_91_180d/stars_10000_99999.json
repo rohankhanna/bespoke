@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1422,
-    "concepts": 893,
-    "observations": 897,
-    "repos": 153,
-    "terms": 896
+    "components": 1454,
+    "concepts": 945,
+    "observations": 949,
+    "repos": 160,
+    "terms": 945
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -50,6 +50,7 @@
     "esp8266/Arduino",
     "facebookresearch/audiocraft",
     "facebookresearch/vggt",
+    "fatih/vim-go",
     "ffmpegwasm/ffmpeg.wasm",
     "floating-ui/floating-ui",
     "FortAwesome/Font-Awesome",
@@ -60,6 +61,7 @@
     "FunAudioLLM/CosyVoice",
     "git-up/GitUp",
     "github/copilot.vim",
+    "githubnext/monaspace",
     "go-chi/chi",
     "google-research/vision_transformer",
     "google/dopamine",
@@ -83,6 +85,7 @@
     "KittenML/KittenTTS",
     "KlingAIResearch/LivePortrait",
     "knownsec/404StarLink",
+    "Kong/kong",
     "kubernetes/ingress-nginx",
     "kyleneideck/backgroundmusic",
     "lc044/wechatmsg",
@@ -111,7 +114,9 @@
     "nikic/PHP-Parser",
     "NVlabs/instant-ngp",
     "openai/CLIP",
+    "openai/gpt-oss",
     "openai/gym",
+    "openai/tiktoken",
     "PaddlePaddle/PaddleDetection",
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
@@ -135,6 +140,7 @@
     "ryanoasis/nerd-fonts",
     "serde-rs/serde",
     "sharkdp/hyperfine",
+    "sindresorhus/pure",
     "sirupsen/logrus",
     "slatedocs/slate",
     "snarktank/ralph",
@@ -159,6 +165,7 @@
     "vibrantlabsai/ragas",
     "videojs/video.js",
     "vitejs/awesome-vite",
+    "vuejs/awesome-vue",
     "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2",
     "websockets/ws",

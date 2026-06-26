@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 223,
+    "components": 218,
     "concepts": 52,
     "observations": 52,
-    "repos": 14,
+    "repos": 13,
     "terms": 53
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "aaronlamz/navpress",
     "caprica/generator-vlcj",
     "danielrosehill/Claude-Israel-Shopping-Plugin",
-    "danielrosehill/Israel-Alert-Map",
     "fabon-f/temporal-polyfill-comparison",
     "gyf0311/lorekit",
     "i18next/i18next-subliminal",

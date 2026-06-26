@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 96,
-    "observations": 97,
-    "repos": 8,
-    "terms": 96
+    "components": 91,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 7,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "datalevin/datalevin",
-    "dotnet/Silk.NET",
-    "google-deepmind/tapnet",
     "kurrent-io/KurrentDB",
     "microsoft/aspire",
+    "microsoft/aspire-samples",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "web-platform-tests/wpt"

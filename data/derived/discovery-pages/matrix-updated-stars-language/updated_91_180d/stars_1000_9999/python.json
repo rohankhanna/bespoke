@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 560,
-    "concepts": 1110,
-    "observations": 1110,
-    "repos": 202,
-    "terms": 1099
+    "components": 578,
+    "concepts": 1151,
+    "observations": 1151,
+    "repos": 205,
+    "terms": 1140
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -70,9 +70,9 @@
     "django/asgiref",
     "DLYuanGod/TinyGPT-V",
     "dmayboroda/minima",
+    "docarray/docarray",
     "dolfies/discord.py-self",
     "dynaconf/dynaconf",
-    "ekalinin/nodeenv",
     "emilianavt/OpenSeeFace",
     "explosion/spacy-models",
     "facebookincubator/submitit",
@@ -100,6 +100,7 @@
     "huggingface/Math-Verify",
     "hustvl/VAD",
     "hyperopt/hyperopt",
+    "inducer/pycuda",
     "Instagram/LibCST",
     "intel/ipex-llm",
     "IntelLabs/fastRAG",
@@ -140,6 +141,7 @@
     "myhub/tr",
     "NixOS/nixops",
     "novnc/websockify",
+    "nschloe/awesome-scientific-computing",
     "nunchaku-ai/ComfyUI-nunchaku",
     "nunchaku-ai/nunchaku",
     "NVIDIA-AI-IOT/Lidar_AI_Solution",
@@ -194,6 +196,7 @@
     "SublimeLinter/SublimeLinter",
     "TencentCloudADP/youtu-agent",
     "tensorflow/agents",
+    "tensorflow/datasets",
     "the-moonwitch/Cozette",
     "The-OpenROAD-Project/OpenLane",
     "themix-project/themix-gui",

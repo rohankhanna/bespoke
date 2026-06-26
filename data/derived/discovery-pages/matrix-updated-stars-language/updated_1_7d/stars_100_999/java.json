@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 3,
-    "terms": 19
+    "components": 62,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 6,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "Deep-Symmetry/beat-link",
+    "eclipse-corrosion/corrosion",
     "eclipse-lsp4j/lsp4j",
-    "redis/redis-om-spring"
+    "eclipse-tm4e/tm4e",
+    "redis/redis-om-spring",
+    "spring-projects/spring-tools"
   ]
 }

@@ -3,14 +3,14 @@
     "components": 1658,
     "concepts": 3028,
     "observations": 3032,
-    "repos": 1719,
+    "repos": 1722,
     "terms": 3036
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -347,6 +347,7 @@
     "chromedp/cdproto",
     "cisagov/vulnrichment",
     "CjangCjengh/TTSModels",
+    "CLAY-3D/OpenCLAY",
     "clearml/clearml-fractional-gpu",
     "cloudflare/skills",
     "cloudrepo-io/founder-os",
@@ -1465,6 +1466,7 @@
     "saiarcot895/chromium-ubuntu-build",
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "SamurAIGPT/awesome-openclaw",
+    "Sanster/models",
     "sarulab-speech/jsut-label",
     "sbingler/Origin-Bound-Cookies",
     "scalar/starter",
@@ -1659,6 +1661,7 @@
     "vmanoj1996/mujoco-demo",
     "Vodes/muxtools-doc",
     "vorburger/Log4j_CVE-2021-44228",
+    "VR-Jobs/Hunyuan3D-2.1-Unity-XR-PC-Phone",
     "vuejs/awesome-vue",
     "vuejs/rfcs",
     "vuki656/vuki656",

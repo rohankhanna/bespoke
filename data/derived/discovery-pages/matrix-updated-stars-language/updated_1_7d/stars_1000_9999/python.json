@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 124,
-    "observations": 126,
-    "repos": 14,
-    "terms": 123
+    "components": 161,
+    "concepts": 187,
+    "observations": 190,
+    "repos": 20,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "Blaizzy/mlx-audio",
+    "clearml/clearml",
+    "collabora/WhisperLive",
+    "eclipse-paho/paho.mqtt.python",
+    "Farama-Foundation/Minigrid",
+    "fla-org/flash-linear-attention",
     "google-deepmind/optax",
     "huggingface/optimum-quanto",
+    "intelligent-machine-learning/dlrover",
     "JuergenFleiss/aTrain",
     "meta-pytorch/captum",
-    "modelscope/FunClip",
+    "modelscope/ms-agent",
     "opencv/opencv-python",
-    "PaddlePaddle/PaddleClas",
-    "redis/redis-om-python",
+    "pylint-dev/pylint",
+    "pyvista/pyvista",
     "roboflow/maestro",
     "webpy/webpy"
   ]

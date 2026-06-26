@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 1,
-    "terms": 11
+    "components": 118,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 3,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
-    "callstack/react-native-builder-bob"
+    "callstack/react-native-builder-bob",
+    "paralleldrive/cuid",
+    "tape-testing/tape"
   ]
 }

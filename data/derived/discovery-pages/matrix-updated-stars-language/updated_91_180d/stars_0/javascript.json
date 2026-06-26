@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 6,
+    "components": 11,
     "concepts": 12,
     "observations": 12,
-    "repos": 5,
+    "repos": 6,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
+    "danielrosehill/Israel-Alert-Map",
     "danielrosehill/Model-Scout-MCP",
     "frankkohlhepp/fancy-settings",
     "onomojo/i18n-country-translations-data",

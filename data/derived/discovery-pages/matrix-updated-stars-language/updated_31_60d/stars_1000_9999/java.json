@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 494,
-    "concepts": 615,
-    "observations": 615,
-    "repos": 56,
-    "terms": 611
+    "components": 491,
+    "concepts": 612,
+    "observations": 612,
+    "repos": 55,
+    "terms": 608
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "alibaba/spring-ai-alibaba",
@@ -27,7 +27,6 @@
     "apache/seatunnel",
     "apache/tomcat",
     "aws/aws-sdk-java-v2",
-    "castorini/anserini",
     "checkstyle/checkstyle",
     "ClickHouse/clickhouse-java",
     "cloudfoundry/uaa",

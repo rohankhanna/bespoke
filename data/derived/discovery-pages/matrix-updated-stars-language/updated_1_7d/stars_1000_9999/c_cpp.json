@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 13,
-    "terms": 80
+    "components": 106,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 15,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "Aleksoid1978/VideoRenderer",
     "CloudCompare/CloudCompare",
     "doctest/doctest",
     "joncampbell123/dosbox-x",
+    "KhronosGroup/KTX-Software",
+    "libbitcoin/libbitcoin-system",
     "libsndfile/libsndfile",
+    "luau-lang/luau",
     "PoseLib/PoseLib",
     "qt/qtbase",
     "red-data-tools/pycall.rb",
     "snapcast/snapcast",
     "TheTom/llama-cpp-turboquant",
     "ufbx/ufbx",
-    "vapoursynth/vapoursynth",
     "xtensor-stack/xtensor"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 31,
+    "components": 39,
     "concepts": 35,
     "observations": 35,
-    "repos": 3,
+    "repos": 4,
     "terms": 35
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "all-contributors/app",
     "beve-org/beve",
-    "gitleaks/gitleaks-action"
+    "gitleaks/gitleaks-action",
+    "GoogleCloudPlatform/google-cloud-node-todos"
   ]
 }

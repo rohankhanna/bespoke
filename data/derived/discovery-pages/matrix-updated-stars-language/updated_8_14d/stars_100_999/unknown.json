@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 9,
-    "observations": 9,
+    "components": 9,
+    "concepts": 5,
+    "observations": 5,
     "repos": 1,
-    "terms": 9
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-23T09:02:56.745192+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
-    "Alex313031/Thorium-MacOS"
+    "pyOpenSci/software-submission"
   ]
 }

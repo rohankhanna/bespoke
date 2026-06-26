@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 7,
-    "terms": 29
+    "components": 54,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 8,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
-    "abap2UI5-addons/sql-console",
+    "asdf-community/asdf-pdm",
     "corgi-emacs/corgi-packages",
     "FerrisMind/candle-video",
+    "Jaded-Encoding-Thaumaturgy/vs-jetpack",
     "kurrent-io/KurrentDB-Client-Rust",
     "mesh-iit/cad-libraries",
     "ogx-ai/ogx-client-typescript",

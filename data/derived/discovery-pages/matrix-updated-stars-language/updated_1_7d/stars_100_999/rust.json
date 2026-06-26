@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 35,
-    "observations": 36,
-    "repos": 3,
-    "terms": 35
+    "components": 35,
+    "concepts": 37,
+    "observations": 38,
+    "repos": 4,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "attackgoat/vk-graph",
     "Avarok-Cybersecurity/atlas",
-    "rust-nvml/nvml-wrapper"
+    "rust-nvml/nvml-wrapper",
+    "servo/stylo"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 2,
-    "terms": 6
+    "components": 7,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 1,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
-    "EmmyLuaLs/emmylua-analyzer-rust",
-    "servo/stylo"
+    "EmmyLuaLs/emmylua-analyzer-rust"
   ]
 }

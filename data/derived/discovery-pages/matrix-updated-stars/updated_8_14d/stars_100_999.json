@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 143,
-    "observations": 143,
-    "repos": 25,
-    "terms": 143
+    "components": 229,
+    "concepts": 164,
+    "observations": 164,
+    "repos": 28,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "adamchainz/blacken-docs",
@@ -23,15 +23,18 @@
     "ChiyukiGana/Quickinput",
     "databrickslabs/ucx",
     "dwyl/phoenix-ecto-encryption-example",
+    "emacs-eldev/eldev",
     "GitoxideLabs/cargo-smart-release",
     "google-deepmind/chex",
     "google-deepmind/reverb",
-    "GoogleCloudPlatform/google-cloud-node-todos",
     "googlefonts/roboto-3-classic",
     "haasn/libplacebo",
+    "hetznercloud/hcloud-cloud-controller-manager",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "machinewrapped/llm-subtrans",
     "mafintosh/streamx",
+    "mudler/LocalRecall",
+    "pyOpenSci/software-submission",
     "rescript-lang/reanalyze",
     "SpecterOps/AzureHound",
     "the-database/VideoJaNai",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1268,
-    "concepts": 256,
-    "observations": 258,
-    "repos": 52,
-    "terms": 252
+    "components": 1232,
+    "concepts": 242,
+    "observations": 244,
+    "repos": 48,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
@@ -24,7 +24,6 @@
     "Calcium-Ion/new-api-key-tool",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
-    "csstools/cssdb",
     "dydxprotocol/v4-clients",
     "electerm/electerm-web",
     "ember-cli/ember-cli-update",
@@ -32,7 +31,6 @@
     "facebook/Rapid",
     "firebase/snippets-web",
     "fontello/svg2ttf",
-    "GDevelopApp/GDevelop-examples",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "j9t/html-minifier-next",
@@ -41,7 +39,6 @@
     "Kilian/electron-to-chromium",
     "kriszyp/msgpackr",
     "lo-th/phy",
-    "matzkoh/prettier-plugin-packagejson",
     "mdn/data",
     "mdn/fred",
     "mdn/mdn-http-observatory",
@@ -53,7 +50,6 @@
     "prisma/ecosystem-tests",
     "reviewdog/action-eslint",
     "ruby/setup-ruby",
-    "rubyjs/mini_racer",
     "rvagg/github-webhook",
     "rvagg/github-webhook-handler",
     "stylelint/stylelint-config-recommended",

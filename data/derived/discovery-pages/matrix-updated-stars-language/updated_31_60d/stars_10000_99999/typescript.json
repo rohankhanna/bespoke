@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4838,
-    "concepts": 1025,
-    "observations": 1029,
-    "repos": 89,
-    "terms": 1023
+    "components": 4718,
+    "concepts": 1005,
+    "observations": 1009,
+    "repos": 86,
+    "terms": 1002
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
-    "accomplish-ai/accomplish",
-    "adonisjs/core",
     "aidenybai/react-scan",
     "ajv-validator/ajv",
     "angular/angular-cli",
@@ -75,7 +73,6 @@
     "paulmillr/chokidar",
     "pmndrs/react-three-fiber",
     "pmndrs/zustand",
-    "postcss/postcss",
     "prisma/prisma",
     "puppeteer/puppeteer",
     "QwikDev/qwik",

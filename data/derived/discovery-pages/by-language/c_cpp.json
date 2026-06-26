@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 9801,
-    "concepts": 11587,
-    "observations": 11615,
-    "repos": 2424,
-    "terms": 11495
+    "concepts": 11594,
+    "observations": 11622,
+    "repos": 2426,
+    "terms": 11500
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -1665,6 +1665,7 @@
     "mybigday/whisper.node",
     "mybigday/whisper.rn",
     "myfreeer/chrome-pak-customizer",
+    "MyMiniFactory/Fast-Quadric-Mesh-Simplification",
     "mypyc/librt",
     "mysql/mysql-workbench",
     "naelstrof/maim",
@@ -1686,6 +1687,7 @@
     "Netgear/wsdd2",
     "NetHack-LE/nle",
     "NetHack/NetHack",
+    "neurolabusc/nii2mesh",
     "Nevcairiel/LAVFilters",
     "newrelic/node-native-metrics",
     "nfrechette/acl",

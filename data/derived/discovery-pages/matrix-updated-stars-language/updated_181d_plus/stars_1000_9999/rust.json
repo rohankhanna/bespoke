@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 280,
-    "concepts": 292,
-    "observations": 298,
-    "repos": 64,
-    "terms": 290
+    "components": 287,
+    "concepts": 303,
+    "observations": 309,
+    "repos": 65,
+    "terms": 301
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "Aloxaf/silicon",
@@ -73,6 +73,7 @@
     "stepancheg/rust-protobuf",
     "tarkah/tickrs",
     "Tencent/tquic",
+    "vi/websocat",
     "vislyhq/stretch",
     "watchexec/cargo-watch",
     "wilsonzlin/minify-html",

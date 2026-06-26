@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 2,
-    "terms": 8
+    "components": 74,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 5,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
+    "crossplane/docs",
+    "karafka/example-apps",
     "nvim-mini/mini.deps",
+    "processing/processing-website",
     "tinted-theming/tinted-xresources"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 13,
-    "terms": 39
+    "components": 47,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 12,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "atsushieno/midicci",
     "chrishulbert/brickwarrior",
@@ -25,7 +25,6 @@
     "skeeto/aas-sign",
     "vincentlaucsb/classify_scalar",
     "vovkos/axl",
-    "walbourn/directxtk12test",
-    "yoshoku/numo-linalg-alt"
+    "walbourn/directxtk12test"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 42,
     "concepts": 39,
     "observations": 39,
-    "repos": 7,
+    "repos": 8,
     "terms": 39
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
+    "bamsumit/slayerPytorch",
     "Baron-von-Riedesel/HX",
     "Deep-Symmetry/dysentery",
     "elixir-protobuf/protobuf",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 3,
-    "terms": 34
+    "components": 39,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 4,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "gobackup/gobackup",
+    "mudler/LocalAGI",
     "nutsdb/nutsdb",
     "olric-data/olric"
   ]

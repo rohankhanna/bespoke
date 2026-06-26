@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4005,
-    "concepts": 864,
-    "observations": 866,
-    "repos": 117,
-    "terms": 855
+    "components": 3910,
+    "concepts": 826,
+    "observations": 828,
+    "repos": 113,
+    "terms": 820
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -67,7 +67,6 @@
     "ipfs/js-ipfsd-ctl",
     "jbaubree/vite-plugin-sitemap",
     "jsonwebtoken/jsonwebtoken.github.io",
-    "julia-actions/setup-julia",
     "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
     "Koenkk/zigbee-herdsman",
@@ -80,7 +79,6 @@
     "Luligu/matterbridge-zigbee2mqtt",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
-    "microsoft/security-devops-action",
     "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
@@ -108,7 +106,6 @@
     "rstackjs/storybook-rsbuild",
     "salesforcecli/cli",
     "sapphiredev/utilities",
-    "sergiodxa/remix-i18next",
     "serversideup/webext-bridge",
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
@@ -117,7 +114,6 @@
     "TanStack/devtools",
     "TanStack/pacer",
     "TanStack/store",
-    "tats-u/markdown-cjk-friendly",
     "tinylibs/tinyexec",
     "tlaplus/vscode-tlaplus",
     "un-ts/prettier",

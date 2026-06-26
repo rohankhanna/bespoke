@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 5,
-    "terms": 46
+    "components": 18,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 3,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "harfbuzz/harfbuzz",
-    "KhronosGroup/KTX-Software",
-    "libbitcoin/libbitcoin-system",
-    "luau-lang/luau",
+    "swiftlang/swift-llbuild",
     "TrenchBroom/TrenchBroom"
   ]
 }

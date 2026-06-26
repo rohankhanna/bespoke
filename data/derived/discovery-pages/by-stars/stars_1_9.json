@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11996,
-    "concepts": 5430,
-    "observations": 5440,
-    "repos": 2407,
-    "terms": 5440
+    "components": 12010,
+    "concepts": 5431,
+    "observations": 5441,
+    "repos": 2410,
+    "terms": 5441
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -1490,6 +1490,7 @@
     "karpeleslab/tpl",
     "kaste/SublimeLinter-addon-goto-flash",
     "kaste/SublimeLinter-addon-toggler",
+    "kclip/lava-decolle",
     "keeeeenw/TinyLLaVA_Factory",
     "kellyselden/boilerplate-update",
     "kellyselden/git-diff-apply",
@@ -1747,6 +1748,7 @@
     "msqr1/kaldi-wasm2",
     "mtrbpr/lua-promql-parser",
     "mudler/ced.cpp",
+    "mudler/k8s-mcp-server",
     "Muennighoff/sentence-transformers",
     "mukel/qwen35.java",
     "multiformats/github-mgmt",
@@ -1779,6 +1781,7 @@
     "netdur/hugind",
     "neulab/explainaboard_client",
     "NeuralVox/OpenPhonemizer-GPL",
+    "neurolabusc/niivue-simplify",
     "neuroverseos/neuroverseos-governance",
     "neuroverseos/neuroverseos-openclaw-governance",
     "newrelic/csec-node-agent",

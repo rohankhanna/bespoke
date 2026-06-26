@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2172,
-    "concepts": 2031,
-    "observations": 2037,
-    "repos": 865,
-    "terms": 2019
+    "components": 2182,
+    "concepts": 2033,
+    "observations": 2039,
+    "repos": 868,
+    "terms": 2021
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -354,6 +354,7 @@
     "ethansmith2000/ImprovedTokenMerge",
     "ethpandaops/ethereum-k8s-testnets",
     "eublefar/LLAMASharpUnityDemo",
+    "EvelynZhang-epiclab/DaTo",
     "evidentsystems/converge",
     "exosite/lua-yaml",
     "Expedit-LargeScale-Vision-Transformer/Expedit-SAM",
@@ -499,6 +500,7 @@
     "JuliaDocs/FranklinTemplates.jl",
     "JuliaEditorSupport/julia-ts-mode",
     "JuliaGraphics/ColorTypes.jl",
+    "JuliaGtk/Gtk4Makie.jl",
     "JuliaImages/juliaimages.github.io",
     "JuliaIO/MsgPack.jl",
     "JuliaLang/SoftGlobalScope.jl",
@@ -631,6 +633,7 @@
     "nalimilan/FreqTables.jl",
     "naudio/Vorbis",
     "necludov/jam",
+    "nelson-lang/nelson-website",
     "nelsonic/nelsonic.github.io",
     "NickDarvey/whisper",
     "NielsRogge/tutorials",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 14,
-    "terms": 20
+    "components": 21,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 15,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-confluence",
     "conda-forge/blis-feedstock",
@@ -27,6 +27,7 @@
     "DeepWok/mase-docker",
     "edward3h/bedrock-viz-from-backups",
     "gerardtschanz/revenue-os",
+    "kyverno/.github",
     "nodenv/node-build-prerelease"
   ]
 }

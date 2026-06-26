@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 413,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 9,
-    "terms": 52
+    "components": 437,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 10,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "actions/container-toolkit-action",
     "antvis/GPT-Vis",
     "Comfy-Org/Comfy-Desktop",
     "electron/packager",
-    "huggingface/hf-mcp-server",
+    "hexabot-ai/Hexabot",
+    "mightyiam/eslint-config-love",
     "OpenHands/agent-canvas",
     "safe-fndn/safe-singleton-factory",
     "stx-labs/stacks.js",

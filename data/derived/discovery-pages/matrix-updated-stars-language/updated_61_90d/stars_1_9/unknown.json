@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 44,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 69,
-    "terms": 89
+    "concepts": 85,
+    "observations": 85,
+    "repos": 66,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -33,7 +33,6 @@
     "csm-actions/docs",
     "D1DX/morning-skill",
     "danielrosehill/Agent-Handover-Demo",
-    "danielrosehill/Agents-Index",
     "danielrosehill/AI-Decision-Eval-Projects",
     "danielrosehill/AI-Harnesses",
     "danielrosehill/AI-Synthesised-Perspectives",
@@ -50,7 +49,6 @@
     "danielrosehill/Claude-Purchasing-Plugin",
     "danielrosehill/Docs-And-Notes-Index",
     "danielrosehill/Experiments-And-Evaluations-Index",
-    "danielrosehill/Homebox-Projects-Index",
     "danielrosehill/MCP-Projects-Index",
     "danielrosehill/Open-Claw-Stack",
     "danielrosehill/Prompt-Libraries-Index",
@@ -65,10 +63,10 @@
     "flinedev/marketplace",
     "gkr-bot/gkr-bot",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
+    "hiyouga/llamafactory-community",
     "HKUDS/.github",
     "kyverno/community",
     "lab-cosmo/.github",
-    "langchain-ai/.github",
     "leeyeel/gltfOverview-Chinese",
     "llvm/torch-mlir-release",
     "nodejs/web-team",
@@ -81,7 +79,6 @@
     "ScoopInstaller/.github",
     "sigstore/architecture-docs",
     "sp1-patches/bn",
-    "vega/.github",
     "web-platform-tests/results-analysis-cache"
   ]
 }

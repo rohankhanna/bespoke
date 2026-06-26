@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 367,
-    "concepts": 527,
-    "observations": 529,
-    "repos": 120,
-    "terms": 521
+    "components": 391,
+    "concepts": 551,
+    "observations": 553,
+    "repos": 125,
+    "terms": 545
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "AmusementClub/vs-mlrt",
@@ -51,15 +51,18 @@
     "eliemichel/LearnWebGPU",
     "embeddedartistry/libc",
     "embeddedartistry/libmemory",
+    "eyalz800/zpp_bits",
     "frankmorgner/vsmartcard",
     "freebsd/atf",
+    "fujitsu/xbyak_aarch64",
+    "gbionics/idyntree",
     "google/effcee",
     "google/kmsan",
     "google/ruy",
     "haosulab/SAPIEN",
+    "haxenme/nme",
     "hhyyrylainen/GodotPckTool",
     "Imagick/imagick",
-    "Improbable-AI/VisionProTeleop",
     "intel/gmmlib",
     "intel/isa-l_crypto",
     "intel/torch-ccl",
@@ -76,6 +79,7 @@
     "KhronosGroup/OpenGL-Registry",
     "koide3/small_gicp",
     "Kong/ngx_wasm_module",
+    "lastz/lastz",
     "lexxmark/winflexbison",
     "lh3/yak",
     "libxsmm/libxsmm",
@@ -86,6 +90,7 @@
     "marbl/canu",
     "martinmoene/lest",
     "mengyao/Complete-Striped-Smith-Waterman-Library",
+    "microsoft/jericho",
     "microsoft/xlang",
     "mit-han-lab/Block-Sparse-Attention",
     "mlc-ai/tokenizers-cpp",

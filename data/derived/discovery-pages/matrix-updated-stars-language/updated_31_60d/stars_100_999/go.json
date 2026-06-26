@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 832,
-    "concepts": 778,
-    "observations": 779,
-    "repos": 94,
-    "terms": 776
+    "components": 808,
+    "concepts": 742,
+    "observations": 743,
+    "repos": 90,
+    "terms": 740
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "andreykaipov/goobs",
@@ -40,7 +40,6 @@
     "cloudwego/eino-examples",
     "cloudwego/eino-ext",
     "cometbft/cometbft",
-    "Consensys/gnark-crypto",
     "controlplaneio-fluxcd/flux-operator",
     "cosmos/evm",
     "cosmos/gaia",
@@ -70,13 +69,11 @@
     "hypnoglow/helm-s3",
     "istio/api",
     "istio/tools",
-    "itzg/mc-monitor",
     "itzg/mc-router",
     "kelos-dev/kelos",
     "kubernetes-sigs/dra-driver-nvidia-gpu",
     "kubernetes-sigs/karpenter-provider-cluster-api",
     "kubernetes-sigs/lws",
-    "mattn/go-isatty",
     "OffchainLabs/nitro",
     "operator-framework/operator-registry",
     "oracle/oci-go-sdk",
@@ -98,7 +95,6 @@
     "seaweedfs/seaweedfs-operator",
     "sergelogvinov/karpenter-provider-proxmox",
     "sergelogvinov/proxmox-cloud-controller-manager",
-    "sigstore/fulcio",
     "suzuki-shunsuke/ghalint",
     "suzuki-shunsuke/ghtkn",
     "suzuki-shunsuke/pinact",

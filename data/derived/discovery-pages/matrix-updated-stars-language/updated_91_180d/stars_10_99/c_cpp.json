@@ -3,7 +3,7 @@
     "components": 180,
     "concepts": 195,
     "observations": 196,
-    "repos": 70,
+    "repos": 71,
     "terms": 195
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
@@ -43,6 +43,7 @@
     "fmtlib/format-benchmark",
     "fonttools/unicodedata2",
     "FourierTransformer/lua-simdjson",
+    "galaxyproject/KegAlign",
     "gershnik/wsdd-native",
     "gozaltech/espeak-ng-sapi",
     "HolyBlackCat/box2cpp",

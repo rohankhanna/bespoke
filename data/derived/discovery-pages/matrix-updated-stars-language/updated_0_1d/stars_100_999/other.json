@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 7,
-    "terms": 60
+    "components": 8,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 1,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
-    "astroautomata/SymbolicRegression.jl",
-    "bazel-contrib/rules_kotlin",
-    "karafka/rdkafka-ruby",
-    "meshcat-dev/meshcat",
-    "redis/redis-om-dotnet",
-    "ROCm/hipBLASLt",
-    "the-database/mpv-AnimeJaNai"
+    "bazel-contrib/rules_kotlin"
   ]
 }

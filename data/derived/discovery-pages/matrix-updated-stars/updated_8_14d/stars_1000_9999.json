@@ -1,19 +1,21 @@
 {
   "counts": {
-    "components": 413,
-    "concepts": 220,
-    "observations": 221,
-    "repos": 28,
-    "terms": 220
+    "components": 577,
+    "concepts": 263,
+    "observations": 267,
+    "repos": 35,
+    "terms": 263
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
+    "alex-shpak/hugo-book",
+    "all-contributors/allcontributors.org",
     "apache/casbin-Casbin.NET",
     "apache/casbin-jcasbin",
     "apollographql/apollo-tooling",
@@ -23,23 +25,28 @@
     "benchmark-action/github-action-benchmark",
     "callstack/react-native-builder-bob",
     "crate-ci/cargo-release",
+    "flightcontrolhq/superjson",
     "gluonfield/enchanted",
     "gobackup/gobackup",
     "graphql-hive/graphql-inspector",
     "intel/BigDL",
-    "intelligent-machine-learning/dlrover",
     "intentee/paddler",
     "macfuse/macfuse",
     "meta-pytorch/tnt",
     "microsoft/PhiCookBook",
+    "mudler/LocalAGI",
     "NEKOparapa/AiNiee",
     "nutsdb/nutsdb",
     "olric-data/olric",
+    "paralleldrive/cuid",
     "preservim/tagbar",
+    "psmux/psmux",
     "pytorch/gloo",
-    "swiftlang/swift-llbuild",
+    "tape-testing/tape",
     "TheTom/turboquant_plus",
     "ultrajson/ultrajson",
-    "vercel/serve"
+    "vapoursynth/vapoursynth",
+    "vercel/serve",
+    "watchexec/watchexec"
   ]
 }

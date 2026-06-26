@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 6,
-    "terms": 42
+    "components": 15,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 8,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "CISOfy/lynis",
+    "githubnext/monaspace",
     "lxgw/LxgwWenKai",
     "rbenv/rbenv",
     "romkatv/powerlevel10k",
+    "sindresorhus/pure",
     "sorin-ionescu/prezto",
     "zsh-users/zsh-syntax-highlighting"
   ]

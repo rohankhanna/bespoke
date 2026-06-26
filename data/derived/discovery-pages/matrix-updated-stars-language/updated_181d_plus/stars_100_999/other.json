@@ -3,8 +3,8 @@
     "components": 2412,
     "concepts": 3221,
     "observations": 3228,
-    "repos": 1007,
-    "terms": 3204
+    "repos": 1008,
+    "terms": 3201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -684,6 +684,7 @@
     "mono/sdb",
     "MoyuruAizawa/Cropify",
     "mozilla/http-observatory-website",
+    "mpariente/pystoi",
     "mpickering/apply-refact",
     "msharp/elixir-statistics",
     "msz/hammox",

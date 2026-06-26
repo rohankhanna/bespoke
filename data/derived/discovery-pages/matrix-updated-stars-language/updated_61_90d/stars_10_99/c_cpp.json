@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 399,
-    "concepts": 323,
-    "observations": 323,
+    "components": 402,
+    "concepts": 326,
+    "observations": 326,
     "repos": 73,
-    "terms": 323
+    "terms": 326
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "acts-project/traccc",
@@ -23,6 +23,7 @@
     "agl/jbig2enc",
     "aifoundry-org/et-platform",
     "AIWintermuteAI/whispercpp",
+    "akruphi/far2l",
     "ankane/stl-cpp",
     "apache/pulsar-client-cpp",
     "barak/minidjvu",
@@ -42,7 +43,6 @@
     "fcambus/bdf2sfd",
     "flashlight/text",
     "flatpak/xdg-dbus-proxy",
-    "galaxyproject/KegAlign",
     "GaoYusong/llm.cpp",
     "gazebosim/gz-fuel-tools",
     "gazebosim/gz-transport",

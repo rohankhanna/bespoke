@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3826,
-    "concepts": 752,
-    "observations": 752,
-    "repos": 137,
-    "terms": 813
+    "components": 3921,
+    "concepts": 790,
+    "observations": 790,
+    "repos": 141,
+    "terms": 848
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -79,6 +79,7 @@
     "immersive-translate/zotero-immersivetranslate",
     "jgm/djot.js",
     "js-temporal/temporal-polyfill",
+    "julia-actions/setup-julia",
     "juliangruber/brace-expansion",
     "jupyterlab/extension-examples",
     "k-dense-ai/k-dense-byok",
@@ -101,6 +102,7 @@
     "microsoft/DefinitelyTyped-tools",
     "microsoft/playwright-vscode",
     "microsoft/react-native-gallery",
+    "microsoft/security-devops-action",
     "microsoft/TypeScript-DOM-lib-generator",
     "microsoft/vscode-css-languageservice",
     "microsoft/vscode-debugadapter-node",
@@ -131,6 +133,7 @@
     "retracedhq/retraced",
     "safe-global/safe-deployments",
     "sass/embedded-host-node",
+    "sergiodxa/remix-i18next",
     "shareai-lab/kode-agent-sdk",
     "Shougo/ddc.vim",
     "Shougo/ddu.vim",
@@ -143,6 +146,7 @@
     "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",
     "TabbyML/pochi",
+    "tats-u/markdown-cjk-friendly",
     "timkindberg/jest-when",
     "tombii/better-ccflare",
     "tony1223/better-agent-terminal",

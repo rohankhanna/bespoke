@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 170,
+    "components": 179,
     "concepts": 117,
     "observations": 117,
-    "repos": 70,
+    "repos": 71,
     "terms": 116
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -68,6 +68,7 @@
     "lesismal/arpcex",
     "mdigger/htmlx",
     "MicahParks/jcp",
+    "mudler/k8s-mcp-server",
     "nick-triller/khcheck-external-secrets",
     "norwoodj/hashbash-backend-go",
     "olric-data/olric-consul-plugin",

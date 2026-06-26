@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 5,
-    "terms": 50
+    "components": 49,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 4,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "aws/karpenter-provider-aws",
     "crc-org/crc",
     "googleapis/google-cloud-go",
-    "kubernetes-sigs/karpenter",
-    "vale-cli/vale"
+    "kubernetes-sigs/karpenter"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 7,
-    "terms": 42
+    "components": 7,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 5,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
-    "2U1/Qwen-VL-Series-Finetune",
     "facebookresearch/sam-3d-objects",
     "google-deepmind/dm-haiku",
-    "huggingface/finetrainers",
     "lucidrains/vector-quantize-pytorch",
     "microsoft/TRELLIS.2",
-    "zhiyiYo/PyQt-Fluent-Widgets"
+    "VAST-AI-Research/TripoSR"
   ]
 }

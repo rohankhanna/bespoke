@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 840,
-    "concepts": 492,
-    "observations": 493,
-    "repos": 52,
-    "terms": 486
+    "components": 857,
+    "concepts": 507,
+    "observations": 508,
+    "repos": 53,
+    "terms": 501
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -21,6 +21,7 @@
     "asciinema/asciinema",
     "ast-grep/ast-grep",
     "astral-sh/uv",
+    "Automattic/harper",
     "bevyengine/bevy",
     "BloopAI/vibe-kanban",
     "casey/just",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1162,
-    "concepts": 245,
-    "observations": 246,
-    "repos": 70,
-    "terms": 244
+    "components": 1189,
+    "concepts": 247,
+    "observations": 248,
+    "repos": 72,
+    "terms": 246
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "actions/deploy-pages",
     "adobe-photoshop/generator-core",
@@ -41,6 +41,7 @@
     "Fil/d3-geo-voronoi",
     "gherghett/Antigravity-Shit-Chat",
     "googleapis/nodejs-bigtable",
+    "GoogleChromeLabs/wasm-feature-detect",
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
     "hudochenkov/stylelint-order",
@@ -83,6 +84,7 @@
     "thejoshwolfe/yazl",
     "tonyganch/gonzales-pe",
     "usnistgov/jsfive",
+    "w3c/webidl2.js",
     "watson/bonjour"
   ]
 }

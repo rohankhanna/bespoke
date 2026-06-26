@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2598,
-    "concepts": 489,
-    "observations": 490,
-    "repos": 63,
-    "terms": 487
+    "components": 2543,
+    "concepts": 483,
+    "observations": 484,
+    "repos": 62,
+    "terms": 481
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
@@ -22,10 +22,10 @@
     "carbon-design-system/carbon",
     "chaijs/chai",
     "dotenvx/dotenvx",
+    "geotiffjs/geotiff.js",
     "ghostery/ghostery-extension",
     "gildas-lormeau/zip.js",
     "GladysAssistant/Gladys",
-    "google/docsy",
     "GoogleChromeLabs/clooney",
     "GoogleCloudPlatform/nodejs-docs-samples",
     "heshengtao/super-agent-party",
@@ -74,7 +74,6 @@
     "WebKit/WebKit",
     "webpack/webpack-cli",
     "webpack/webpack-dev-middleware",
-    "webpack/webpack-dev-server",
     "xiangyuecn/Recorder",
     "yomidevs/yomitan"
   ]

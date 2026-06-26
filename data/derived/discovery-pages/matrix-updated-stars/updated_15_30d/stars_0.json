@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 3,
-    "terms": 5
+    "components": 18,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 4,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "apostrophecms/astro-public-demo",
     "conda-forge/numba-feedstock",
-    "mayocream/candle"
+    "mayocream/candle",
+    "mozilla-ai/otari-cli"
   ]
 }

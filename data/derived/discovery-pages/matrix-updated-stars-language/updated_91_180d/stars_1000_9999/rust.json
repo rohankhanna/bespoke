@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 359,
-    "concepts": 282,
-    "observations": 286,
+    "components": 360,
+    "concepts": 273,
+    "observations": 277,
     "repos": 54,
-    "terms": 280
+    "terms": 271
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
@@ -29,6 +29,7 @@
     "dtolnay/proc-macro-workshop",
     "dtolnay/quote",
     "dtolnay/thiserror",
+    "emilk/eframe_template",
     "extism/extism",
     "fschutt/printpdf",
     "godot-rust/gdnative",
@@ -65,7 +66,6 @@
     "tokio-rs/loom",
     "tokio-rs/prost",
     "tower-rs/tower",
-    "vi/websocat",
     "visioncortex/vtracer",
     "zkcrypto/bellman"
   ]

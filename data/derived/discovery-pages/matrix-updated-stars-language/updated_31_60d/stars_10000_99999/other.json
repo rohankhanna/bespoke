@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 976,
-    "concepts": 778,
-    "observations": 780,
-    "repos": 74,
-    "terms": 772
+    "components": 965,
+    "concepts": 757,
+    "observations": 759,
+    "repos": 72,
+    "terms": 751
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -53,7 +53,6 @@
     "kubernetes-sigs/kubespray",
     "logseq/logseq",
     "MagicStack/uvloop",
-    "mason-org/mason.nvim",
     "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
     "mdn/content",
     "meta-llama/llama-cookbook",
@@ -83,7 +82,6 @@
     "swagger-api/swagger-codegen",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
-    "syl20bnr/spacemacs",
     "symfony/symfony",
     "tiann/KernelSU",
     "vim-airline/vim-airline",

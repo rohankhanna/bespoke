@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39467,
-    "concepts": 8826,
-    "observations": 8853,
-    "repos": 2081,
-    "terms": 8817
+    "components": 39485,
+    "concepts": 8827,
+    "observations": 8854,
+    "repos": 2082,
+    "terms": 8815
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -1448,6 +1448,7 @@
     "NeilFraser/JS-Interpreter",
     "nelsonic/autocomplete",
     "neostandard/neostandard",
+    "neurolabusc/niivue-simplify",
     "neverendingqs/serverless-dotenv-example",
     "neverendingqs/serverless-dotenv-plugin",
     "newrelic/csec-node-agent",

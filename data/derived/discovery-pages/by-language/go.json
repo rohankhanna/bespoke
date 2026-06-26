@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10416,
+    "components": 10425,
     "concepts": 10196,
     "observations": 10228,
-    "repos": 1734,
+    "repos": 1735,
     "terms": 10146
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -1296,6 +1296,7 @@
     "Mrs4s/go-cqhttp",
     "Mrs4s/MiraiGo",
     "MShekow/directory-checksum",
+    "mudler/k8s-mcp-server",
     "mudler/LocalAGI",
     "mudler/LocalAI",
     "mudler/LocalRecall",

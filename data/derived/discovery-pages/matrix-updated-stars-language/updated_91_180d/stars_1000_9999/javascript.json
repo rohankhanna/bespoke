@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1189,
-    "concepts": 314,
-    "observations": 315,
-    "repos": 59,
-    "terms": 310
+    "components": 1274,
+    "concepts": 321,
+    "observations": 322,
+    "repos": 61,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "Adobe-CEP/Samples",
@@ -29,13 +29,14 @@
     "cristianbote/goober",
     "crossbario/autobahn-js",
     "csstree/csstree",
+    "danmactough/node-feedparser",
     "developit/microbundle",
     "dherault/serverless-offline",
     "dwyl/learn-json-web-tokens",
     "engineer-man/piston",
     "facebook/fbjs",
     "fengari-lua/fengari",
-    "file-icons/atom",
+    "GoogleChrome/lighthouse-ci",
     "gradio-app/fastrtc",
     "grpc/grpc-web",
     "guybedford/es-module-shims",
@@ -65,6 +66,7 @@
     "rollup/plugins",
     "sindresorhus/clipboardy",
     "sindresorhus/execa",
+    "sindresorhus/globby",
     "sindresorhus/trash-cli",
     "steipete/claude-code-mcp",
     "styled-components/polished",

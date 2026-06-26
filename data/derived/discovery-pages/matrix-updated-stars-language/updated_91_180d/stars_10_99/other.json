@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 695,
-    "concepts": 501,
-    "observations": 503,
-    "repos": 180,
-    "terms": 496
+    "components": 688,
+    "concepts": 502,
+    "observations": 504,
+    "repos": 178,
+    "terms": 497
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -83,7 +83,6 @@
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
     "ethpandaops/optimism-package",
-    "EvelynZhang-epiclab/DaTo",
     "FluxML/fluxml.github.io",
     "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
@@ -118,7 +117,6 @@
     "js-temporal/proposal-temporal-v2",
     "JuliaGraphics/Cairo.jl",
     "JuliaGtk/Gtk4.jl",
-    "JuliaGtk/Gtk4Makie.jl",
     "JuliaPackaging/PkgServer.jl",
     "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",
@@ -144,11 +142,11 @@
     "mit-plv/bbv",
     "Mobile-Artificial-Intelligence/maise",
     "mvz/non-digest-assets",
-    "nelson-lang/nelson-website",
     "newtheatre/history-project",
     "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "notaryproject/notaryproject.dev",
+    "notomo/vusted",
     "Nsidorenco/neotest-vstest",
     "oap-project/oap-mllib",
     "ocaml-opam/opam-publish",

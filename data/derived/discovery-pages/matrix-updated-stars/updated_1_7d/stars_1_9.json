@@ -1,29 +1,28 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 12,
-    "terms": 59
+    "components": 82,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 11,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "ADNTIO/crispy-bootloader-rp2040-rs",
-    "CleverCloud/karpenter-provider-clever-cloud",
     "cloudfoundry/credhub-acceptance-tests",
+    "datalevin/dlmdb",
     "edward3h/docker-bds-integration-test",
     "Jaded-Encoding-Thaumaturgy/vs-wheels",
     "kurrent-io/KurrentDB-Bridge-Client",
     "lxgw/B5XiZhi",
     "mudler/ced.cpp",
     "OpenHands/automation",
-    "paperclipinc/karpenter-provider-hetzner",
-    "Venly/web3-react-venly"
+    "paperclipinc/karpenter-provider-hetzner"
   ]
 }

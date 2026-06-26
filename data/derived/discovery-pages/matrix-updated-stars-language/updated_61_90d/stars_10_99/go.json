@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 519,
-    "concepts": 355,
-    "observations": 357,
-    "repos": 84,
-    "terms": 349
+    "components": 517,
+    "concepts": 344,
+    "observations": 346,
+    "repos": 83,
+    "terms": 340
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -34,8 +34,8 @@
     "aws/aws-network-policy-agent",
     "benchsci/rules_nodejs_gazelle",
     "blinklabs-io/bluefin",
+    "bootmortis/sing-geosite",
     "celo-org/op-geth",
-    "chrislusf/seaweedfs",
     "cloudfoundry/bbs",
     "cloudfoundry/bpm-release",
     "cloudwego/kitex-benchmark",
@@ -51,7 +51,6 @@
     "darkweak/storages",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
-    "depado/bfchroma",
     "depado/smallblog",
     "dlclark/regexp2cg",
     "ebitengine/debugui",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 51,
-    "terms": 128
+    "components": 149,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 53,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "agents-x-project/PyVision-RL-Eval",
@@ -22,6 +22,7 @@
     "alexpolonsky/agent-skill-libby-book-monitor",
     "alexpolonsky/agent-skill-ontopo",
     "ansible-community/collection_bot",
+    "astroyat/lerobot",
     "b-data/docker-deployment-jupyter",
     "babakatwork/loopy_agent",
     "BioContainers/singularity-build-bot",
@@ -49,6 +50,7 @@
     "lace/entente",
     "lace/hobart",
     "ldayton/parable",
+    "ldayton/Tongues",
     "LedgerHQ/ledgercomm",
     "llm-in-sandbox/llm-in-sandbox-rl",
     "Mercury13/unicodia-sesh",

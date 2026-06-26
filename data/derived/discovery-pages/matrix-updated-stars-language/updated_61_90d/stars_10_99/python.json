@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 732,
-    "concepts": 541,
-    "observations": 543,
-    "repos": 144,
+    "components": 719,
+    "concepts": 543,
+    "observations": 545,
+    "repos": 143,
     "terms": 559
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "Accenture/Cymple",
@@ -40,6 +40,7 @@
     "Ascend/TransferQueue",
     "AstarVienna/ScopeSim",
     "atlanhq/application-sdk",
+    "autodeployai/pypmml",
     "autonomousvision/plant2",
     "autowarefoundation/autoware-github-actions",
     "aws-controllers-k8s/test-infra",
@@ -75,8 +76,6 @@
     "enjoy-digital/litex-acorn-baseboard",
     "enzet/Roentgen",
     "ethstaker/ethstaker-deposit-cli",
-    "explosion/spacy-alignments",
-    "explosion/weasel",
     "facebookresearch/mosaic",
     "GaloisInc/BLST-Verification",
     "googleapis/python-pubsublite",

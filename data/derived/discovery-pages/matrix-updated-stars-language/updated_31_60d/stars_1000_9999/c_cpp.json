@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1239,
-    "concepts": 1298,
-    "observations": 1298,
-    "repos": 148,
-    "terms": 1289
+    "components": 1202,
+    "concepts": 1242,
+    "observations": 1242,
+    "repos": 142,
+    "terms": 1233
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -46,7 +46,6 @@
     "DrTimothyAldenDavis/SuiteSparse",
     "eclipse-cyclonedds/cyclonedds",
     "eclipse-sumo/sumo",
-    "elfmz/far2l",
     "facebook/fbthrift",
     "facebook/mvfst",
     "facebook/proxygen",
@@ -76,7 +75,6 @@
     "iree-org/iree",
     "ispc/ispc",
     "jd-opensource/xllm",
-    "jeremycw/httpserver.h",
     "KhronosGroup/Vulkan-Hpp",
     "kismetwireless/kismet",
     "kokkos/kokkos",
@@ -87,7 +85,6 @@
     "libexpat/libexpat",
     "libfuse/libfuse",
     "LibRaw/LibRaw",
-    "libusb/hidapi",
     "libusb/libusb",
     "liuliu/ccv",
     "llvm/torch-mlir",
@@ -111,7 +108,6 @@
     "Nelarius/imnodes",
     "NetHack/NetHack",
     "nix-community/nixd",
-    "nodejs/node-addon-api",
     "NVIDIA/DALI",
     "obsproject/obs-websocket",
     "onnxsim/onnxsim",
@@ -123,7 +119,6 @@
     "optiscaler/OptiScaler",
     "oracle/graaljs",
     "OSGeo/gdal",
-    "paullouisageneau/libdatachannel",
     "php-rdkafka/php-rdkafka",
     "PixarAnimationStudios/OpenUSD",
     "PortAudio/portaudio",
@@ -136,7 +131,6 @@
     "sail-sg/envpool",
     "samtools/samtools",
     "SchedMD/slurm",
-    "SFML/imgui-sfml",
     "skeeto/w64devkit",
     "sorbet/sorbet",
     "sparkle-project/Sparkle",

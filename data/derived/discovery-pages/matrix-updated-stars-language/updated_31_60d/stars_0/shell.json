@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 6,
-    "terms": 7
+    "components": 2,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 5,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "clearml/clearml-agent-bootstrap",
     "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Claude-Filesystem-Organiser-Plugin",
     "danielrosehill/Claude-Image-Annotation-Plugin",
-    "kalavai-net/kalavai-templates",
-    "kyverno/.github"
+    "kalavai-net/kalavai-templates"
   ]
 }

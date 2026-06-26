@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 120,
-    "observations": 121,
-    "repos": 12,
-    "terms": 120
+    "components": 44,
+    "concepts": 96,
+    "observations": 97,
+    "repos": 10,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "argmaxinc/argmax-oss-swift",
     "bencheeorg/benchee",
@@ -23,8 +23,6 @@
     "lambdalisue/vim-fern",
     "lightning/bolts",
     "litedb-org/LiteDB",
-    "mono/SkiaSharp",
-    "nvim-tree/nvim-web-devicons",
     "plotly/plotly.R"
   ]
 }

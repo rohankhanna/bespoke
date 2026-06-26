@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 725,
-    "concepts": 835,
-    "observations": 840,
-    "repos": 158,
-    "terms": 837
+    "components": 745,
+    "concepts": 868,
+    "observations": 873,
+    "repos": 163,
+    "terms": 874
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
+    "alexreisner/geocoder",
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
     "ankane/pgslice",
@@ -87,6 +88,7 @@
     "guard/listen",
     "haml/haml",
     "haskell/stylish-haskell",
+    "heartcombo/has_scope",
     "hecomi/uLipSync",
     "hoshsadiq/adblock-nocoin-list",
     "hrsh7th/nvim-cmp",
@@ -143,16 +145,19 @@
     "reagent-project/reagent",
     "rjpcomputing/luaforwindows",
     "rmcelreath/rethinking",
+    "roboflow/notebooks",
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "ruby-i18n/i18n",
     "salesforce/BLIP",
     "sbt/sbt-native-packager",
+    "scikit-learn-contrib/hdbscan",
     "ScoopInstaller/Install",
     "sindresorhus/Gifski",
     "SmiteshP/nvim-navic",
     "SpinalHDL/VexRiscv",
     "steipete/imsg",
+    "steipete/peekaboo",
     "stevearc/aerial.nvim",
     "stevearc/oil.nvim",
     "symfony/cache-contracts",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 979,
-    "concepts": 769,
-    "observations": 775,
-    "repos": 133,
-    "terms": 777
+    "components": 1003,
+    "concepts": 805,
+    "observations": 811,
+    "repos": 137,
+    "terms": 813
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -54,6 +54,7 @@
     "coder/code-marketplace",
     "coder/envbuilder",
     "connectrpc/validate-go",
+    "Consensys/gnark-crypto",
     "cosmos/iavl",
     "crytic/medusa",
     "darkweak/souin",
@@ -93,6 +94,7 @@
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
     "ipfs/rainbow",
+    "itzg/mc-monitor",
     "jaegertracing/jaeger-idl",
     "JupiterRider/ffi",
     "knative/community",
@@ -115,6 +117,7 @@
     "linxGnu/grocksdb",
     "mailru/go-clickhouse",
     "maragudk/gomponents-starter-kit",
+    "mattn/go-isatty",
     "mattn/go-runewidth",
     "microsoft/cognitive-services-speech-sdk-go",
     "microsoft/dcp",
@@ -136,6 +139,7 @@
     "secretflow/kuscia",
     "sethvargo/ratchet",
     "siderolabs/talos-cloud-controller-manager",
+    "sigstore/fulcio",
     "skenetechnologies/skene",
     "slsa-framework/slsa-github-generator",
     "snowflakedb/gosnowflake",

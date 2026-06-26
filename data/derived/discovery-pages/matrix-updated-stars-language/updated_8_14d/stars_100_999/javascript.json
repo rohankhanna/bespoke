@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 21,
+    "components": 13,
     "concepts": 2,
     "observations": 2,
-    "repos": 2,
+    "repos": 1,
     "terms": 2
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
-    "GoogleCloudPlatform/google-cloud-node-todos",
     "mafintosh/streamx"
   ]
 }

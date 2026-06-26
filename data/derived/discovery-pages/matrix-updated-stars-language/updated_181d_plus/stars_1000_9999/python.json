@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1015,
-    "concepts": 3970,
-    "observations": 3972,
-    "repos": 1009,
-    "terms": 3899
+    "components": 1022,
+    "concepts": 3978,
+    "observations": 3980,
+    "repos": 1011,
+    "terms": 3903
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/LGM",
@@ -247,6 +247,7 @@
     "Duxiaoman-DI/XuanYuan",
     "dylanaraps/pywal",
     "edc/bass",
+    "ekalinin/nodeenv",
     "EleutherAI/gpt-neo",
     "EleutherAI/math-lm",
     "EleutherAI/the-pile",
@@ -944,6 +945,7 @@
     "UX-Decoder/Semantic-SAM",
     "V2AI/Det3D",
     "VainF/pytorch-msssim",
+    "VAST-AI-Research/TripoSG",
     "Vchitect/Latte",
     "vchoutas/smplify-x",
     "vchoutas/smplx",

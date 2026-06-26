@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 485,
-    "concepts": 579,
-    "observations": 580,
-    "repos": 52,
-    "terms": 576
+    "concepts": 577,
+    "observations": 578,
+    "repos": 50,
+    "terms": 574
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/thrift",
-    "asmvik/yabai",
     "assimp/assimp",
     "baldurk/renderdoc",
     "blender/blender",
@@ -61,7 +60,6 @@
     "qmk/qmk_firmware",
     "SerenityOS/serenity",
     "simdjson/simdjson",
-    "swaywm/sway",
     "v8/v8",
     "winsiderss/systeminformer",
     "yhirose/cpp-httplib",

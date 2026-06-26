@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 259,
-    "observations": 260,
-    "repos": 69,
-    "terms": 258
+    "components": 80,
+    "concepts": 260,
+    "observations": 261,
+    "repos": 70,
+    "terms": 259
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -33,6 +33,7 @@
     "AutoJunjie/awesome-agent-harness",
     "bitrise-io/bitrise-steplib",
     "bloomberg/clang-p2996",
+    "chromedp/cdproto",
     "cisagov/vulnrichment",
     "cloudflare/skills",
     "cncf/artwork",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 729,
-    "concepts": 665,
-    "observations": 667,
-    "repos": 48,
-    "terms": 665
+    "components": 703,
+    "concepts": 639,
+    "observations": 641,
+    "repos": 46,
+    "terms": 639
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "a-h/templ",
     "anchore/grype",
-    "apernet/hysteria",
     "argoproj/argo-workflows",
     "authelia/authelia",
     "bufbuild/buf",
@@ -57,7 +56,6 @@
     "restic/restic",
     "rqlite/rqlite",
     "SagerNet/sing-box",
-    "schollz/croc",
     "seaweedfs/seaweedfs",
     "v2fly/v2ray-core",
     "VictoriaMetrics/VictoriaMetrics",

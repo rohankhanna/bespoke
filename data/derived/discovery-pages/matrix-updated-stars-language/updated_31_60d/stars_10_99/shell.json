@@ -3,7 +3,7 @@
     "components": 125,
     "concepts": 162,
     "observations": 162,
-    "repos": 29,
+    "repos": 28,
     "terms": 161
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "apache/datafusion-ballista-python",
@@ -33,7 +33,6 @@
     "microsoft/openjdk-docker",
     "PF4Public/gentoo-overlay",
     "pkgxdev/mash",
-    "postmodern/ruby-versions",
     "quarkusio/quarkus-ecosystem-ci",
     "reviewdog/action-depup",
     "rocq-prover/docker-opam-action",

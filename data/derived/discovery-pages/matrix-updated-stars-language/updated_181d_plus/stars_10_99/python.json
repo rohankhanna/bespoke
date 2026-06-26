@@ -3,8 +3,8 @@
     "components": 766,
     "concepts": 1588,
     "observations": 1590,
-    "repos": 880,
-    "terms": 1566
+    "repos": 884,
+    "terms": 1564
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -29,6 +29,7 @@
     "3type/glyphs-han",
     "66RING/CritiPrefill",
     "6gsn/marine",
+    "98mxr/IFUNet",
     "a-antoniades/swe-search",
     "a-lucic/focus",
     "A-suozhang/MixDQ",
@@ -203,6 +204,7 @@
     "brentyi/jax_dataclasses",
     "BrixIA/Brixia-score-COVID-19",
     "BUPT-PRIV/MAE-priv",
+    "BUTSpeechFIT/torch_msbg_mbstoi",
     "bwt-dev/bwt-electrum-plugin",
     "byrnereese/linkchecker-mkdocs",
     "bytedance/EchoVideo",
@@ -521,6 +523,7 @@
     "josejg/instruction_following_eval",
     "jt-zhang/Sparse_Attention_API",
     "jtkelm2/stable-diffusion-webui-1",
+    "jtydhr88/ComfyUI-ImageMagick",
     "junjiehe96/AnyStory",
     "jupyterlab/extension-cookiecutter-js",
     "jupyterlab/mimerender-cookiecutter-ts",
@@ -650,6 +653,7 @@
     "nix-community/nixops-gce",
     "nix-community/nixops-libvirtd",
     "nix-community/nixops-vbox",
+    "nmi-lab/decolle-public",
     "nomfoundation/font",
     "Norod/U-2-Net-StyleTransfer",
     "notmahi/miniBET",

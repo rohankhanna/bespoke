@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 14,
-    "terms": 101
+    "components": 145,
+    "concepts": 132,
+    "observations": 133,
+    "repos": 19,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "andfoy/pywinpty",
+    "aristoteleo/PantheonOS",
     "BBC-Esq/Faster-Whisper-Transcriber",
     "claritychallenge/clarity",
-    "Comfy-Org/comfy-cli",
     "eclipse-paho/paho.mqtt.testing",
     "facebookresearch/MHR",
     "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
     "google-deepmind/xmanager",
     "googlefonts/ufo2ft",
+    "Jamorim-esss/pytest-rich",
     "jupyter-server/jupyter_server",
+    "meta-pytorch/torchft",
+    "NCAS-CMS/pyfive",
     "NVIDIA-NeMo/Automodel",
-    "PyCQA/eradicate"
+    "PyCQA/eradicate",
+    "pyrtlsdr/pyrtlsdr",
+    "tox-dev/filelock"
   ]
 }

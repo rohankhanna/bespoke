@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 1,
-    "terms": 4
+    "components": 16,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 2,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
-    "datalab-to/surya"
+    "datalab-to/surya",
+    "pyg-team/pytorch_geometric"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 187,
-    "concepts": 145,
-    "observations": 145,
-    "repos": 60,
-    "terms": 141
+    "concepts": 148,
+    "observations": 148,
+    "repos": 61,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -52,6 +52,7 @@
     "Melandel/workflow",
     "nikitabobko/homebrew-tap",
     "objectbox/objectbox-swift-generator",
+    "objectbox/objectbox-swift-spm",
     "open-rpc/markdown-gen",
     "parruda/ruby_llm",
     "ptsochantaris/trailer-json",

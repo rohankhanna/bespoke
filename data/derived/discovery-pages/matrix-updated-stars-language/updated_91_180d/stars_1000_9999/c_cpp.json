@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 366,
-    "concepts": 499,
-    "observations": 500,
-    "repos": 91,
-    "terms": 491
+    "components": 406,
+    "concepts": 522,
+    "observations": 523,
+    "repos": 95,
+    "terms": 514
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -26,8 +26,8 @@
     "arrayfire/arrayfire",
     "ashvardanian/StringZilla",
     "bblanchon/ArduinoJson",
+    "bcrypt-ruby/bcrypt-ruby",
     "brandur/redis-cell",
-    "brianmario/yajl-ruby",
     "bshoshany/thread-pool",
     "bugaevc/wl-clipboard",
     "Chlumsky/msdf-atlas-gen",
@@ -69,10 +69,12 @@
     "lieff/minimp3",
     "littlefs-project/littlefs",
     "lltcggie/waifu2x-caffe",
+    "madler/zlib",
     "martinus/unordered_dense",
     "memononen/nanovg",
     "microsoft/GSL",
     "microsoft/onnxruntime-inference-examples",
+    "microsoft/snmalloc",
     "mitsuba-renderer/nanogui",
     "mmorise/World",
     "mutouyun/cpp-ipc",
@@ -96,6 +98,8 @@
     "TechEmpower/FrameworkBenchmarks",
     "TEN-framework/ten-vad",
     "TheAssassin/AppImageLauncher",
+    "ThrowTheSwitch/Unity",
+    "tinyobjloader/tinyobjloader",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",
     "ulfjack/ryu",

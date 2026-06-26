@@ -1,26 +1,22 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 9,
-    "terms": 38
+    "components": 14,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 5,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
-    "alloy-rs/evm",
     "apostrophecms/starter-kit-astro-apollo",
-    "crossplane/docs",
-    "karafka/example-apps",
+    "continuumio/blz",
     "lumen-oss/luarocks-tag-release",
-    "mudler/nib",
     "pivotal/credhub-release",
-    "processing/processing-website",
-    "storybook-community/addon-queryparams"
+    "pyvista/awesome-pyvista"
   ]
 }

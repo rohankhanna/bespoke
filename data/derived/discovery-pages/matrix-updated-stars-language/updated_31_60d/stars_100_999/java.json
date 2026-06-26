@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 331,
-    "concepts": 366,
-    "observations": 366,
-    "repos": 47,
-    "terms": 364
+    "components": 317,
+    "concepts": 359,
+    "observations": 359,
+    "repos": 44,
+    "terms": 357
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "allegro/hermes",
-    "apache/commons-jexl",
     "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
@@ -34,9 +33,7 @@
     "ihmcrobotics/ihmc-open-robotics-software",
     "jcefmaven/jcefmaven",
     "jdereg/json-io",
-    "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
-    "jpmml/jpmml-xgboost",
     "kirill-grouchnikov/radiance",
     "KosherJava/zmanim",
     "mapsforge/vtm",

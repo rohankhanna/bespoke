@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1001,
-    "concepts": 809,
-    "observations": 810,
-    "repos": 90,
-    "terms": 803
+    "components": 946,
+    "concepts": 773,
+    "observations": 774,
+    "repos": 84,
+    "terms": 767
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-26T05:57:33.413318+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
-    "64bit/async-openai",
     "AccessKit/accesskit",
     "actix/examples",
     "agentclientprotocol/agent-client-protocol",
@@ -25,7 +24,6 @@
     "apache/iceberg-rust",
     "askama-rs/askama",
     "aws-cloudformation/cloudformation-guard",
-    "boa-dev/boa",
     "brave/adblock-rust",
     "cachix/devenv",
     "cargo-bins/cargo-binstall",
@@ -48,7 +46,6 @@
     "facebook/sapling",
     "fitzgen/bumpalo",
     "floneum/floneum",
-    "fussybeaver/bollard",
     "georust/geo",
     "graphql-rust/juniper",
     "GreptimeTeam/greptimedb",
@@ -63,7 +60,6 @@
     "kivikakk/comrak",
     "lakekeeper/lakekeeper",
     "lance-format/lance",
-    "latex-lsp/texlab",
     "MaterializeInc/materialize",
     "mayocream/koharu",
     "mozilla/cbindgen",
@@ -71,8 +67,6 @@
     "nats-io/nats.rs",
     "nix-rust/nix",
     "notify-rs/notify",
-    "obi1kenobi/cargo-semver-checks",
-    "obi1kenobi/trustfall",
     "pkgxdev/pkgx",
     "prefix-dev/pixi",
     "prisma/prisma-engines",
