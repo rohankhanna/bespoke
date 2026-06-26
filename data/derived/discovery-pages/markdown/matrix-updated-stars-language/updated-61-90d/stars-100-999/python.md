@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 371
-- terms: 1893
-- components: 1862
-- concepts: 1882
-- observations: 1890
+- repos: 372
+- terms: 1894
+- components: 1870
+- concepts: 1883
+- observations: 1891
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [i2rt-robotics/i2rt](https://github.com/i2rt-robotics/i2rt) | 102 | 2026-04-27T07:18:34Z | Python | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [HKU-BAL/Clair3](https://github.com/HKU-BAL/Clair3) | 359 | 2026-04-27T05:14:02Z | Python | Infrastructure/tooling | 11 | 0 | 11 | 11 |
 | [kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | 323 | 2026-04-27T05:10:07Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [bootmortis/iran-hosted-domains](https://github.com/bootmortis/iran-hosted-domains) | 980 | 2026-04-27T01:19:12Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -338,7 +339,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) | 350 | 2026-04-08T06:26:13Z | Python | CLI | 7 | 18 | 7 | 7 |
 | [zai-org/z-ai-sdk-python](https://github.com/zai-org/z-ai-sdk-python) | 100 | 2026-04-08T02:41:37Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [facebookresearch/atlas](https://github.com/facebookresearch/atlas) | 558 | 2026-04-08T02:41:33Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [amazon-science/esci-data](https://github.com/amazon-science/esci-data) | 369 | 2026-04-08T02:22:35Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [amazon-science/esci-data](https://github.com/amazon-science/esci-data) | 370 | 2026-04-08T02:22:35Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [TextArena/UnstableBaselines](https://github.com/TextArena/UnstableBaselines) | 120 | 2026-04-07T15:46:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [wuphilipp/gello_software](https://github.com/wuphilipp/gello_software) | 467 | 2026-04-07T12:03:44Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [swc-17/SparseDriveV2](https://github.com/swc-17/SparseDriveV2) | 131 | 2026-04-07T04:25:17Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -587,7 +588,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [angr/pyvex](https://github.com/angr/pyvex) | 375 | 2026-04-21T17:54:02Z | Python | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [conda/grayskull](https://github.com/conda/grayskull) | 375 | 2026-04-20T16:35:20Z | Python | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [multiformats/multicodec](https://github.com/multiformats/multicodec) | 371 | 2026-04-17T07:53:50Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [amazon-science/esci-data](https://github.com/amazon-science/esci-data) | 369 | 2026-04-08T02:22:35Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [amazon-science/esci-data](https://github.com/amazon-science/esci-data) | 370 | 2026-04-08T02:22:35Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [CUNY-CL/wikipron](https://github.com/CUNY-CL/wikipron) | 367 | 2026-04-21T23:25:28Z | Python | Unknown | 8 | 0 | 9 | 9 |
 | [likaixin2000/ScreenSpot-Pro-GUI-Grounding](https://github.com/likaixin2000/ScreenSpot-Pro-GUI-Grounding) | 366 | 2026-04-14T02:31:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [scrapinghub/article-extraction-benchmark](https://github.com/scrapinghub/article-extraction-benchmark) | 365 | 2026-04-23T01:01:42Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -770,6 +771,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [EvolvingLMMs-Lab/EASI](https://github.com/EvolvingLMMs-Lab/EASI) | 104 | 2026-04-14T04:05:01Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [flageval-baai/FlagEvalMM](https://github.com/flageval-baai/FlagEvalMM) | 103 | 2026-04-21T07:40:02Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [inclusionAI/AWorld-RL](https://github.com/inclusionAI/AWorld-RL) | 103 | 2026-04-16T03:28:08Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [i2rt-robotics/i2rt](https://github.com/i2rt-robotics/i2rt) | 102 | 2026-04-27T07:18:34Z | Python | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [BlinkDL/Albatross](https://github.com/BlinkDL/Albatross) | 101 | 2026-04-18T10:07:08Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [godotengine/godot-builds](https://github.com/godotengine/godot-builds) | 100 | 2026-04-24T18:24:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [zai-org/z-ai-sdk-python](https://github.com/zai-org/z-ai-sdk-python) | 100 | 2026-04-08T02:41:37Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |

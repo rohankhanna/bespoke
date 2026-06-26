@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 196
-- terms: 1429
-- components: 1317
-- concepts: 1438
-- observations: 1445
+- repos: 198
+- terms: 1445
+- components: 1329
+- concepts: 1454
+- observations: 1461
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) | 3871 | 2026-04-27T08:04:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [LuisaGroup/LuisaCompute](https://github.com/LuisaGroup/LuisaCompute) | 1002 | 2026-04-27T07:28:31Z | C/C++ | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 | [SFML/imgui-sfml](https://github.com/SFML/imgui-sfml) | 1347 | 2026-04-27T04:25:01Z | C/C++ | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [nodejs/node-addon-api](https://github.com/nodejs/node-addon-api) | 2386 | 2026-04-27T00:25:11Z | C/C++ | Infrastructure/tooling | 10 | 18 | 10 | 10 |
 | [libusb/hidapi](https://github.com/libusb/hidapi) | 2196 | 2026-04-26T22:28:12Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
@@ -297,6 +299,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Blynk-Technologies/blynk-library](https://github.com/Blynk-Technologies/blynk-library) | 3965 | 2026-04-23T20:49:57Z | C/C++ | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [mapnik/mapnik](https://github.com/mapnik/mapnik) | 3929 | 2026-04-14T10:41:05Z | C/C++ | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [containers/crun](https://github.com/containers/crun) | 3879 | 2026-04-17T20:12:35Z | C/C++ | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) | 3871 | 2026-04-27T08:04:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [OHF-Voice/piper1-gpl](https://github.com/OHF-Voice/piper1-gpl) | 3869 | 2026-04-07T12:06:54Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [openssh/openssh-portable](https://github.com/openssh/openssh-portable) | 3800 | 2026-04-19T23:38:37Z | C/C++ | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [citusdata/pg_cron](https://github.com/citusdata/pg_cron) | 3759 | 2026-04-21T13:26:06Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
@@ -423,3 +426,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KhronosGroup/Vulkan-Headers](https://github.com/KhronosGroup/Vulkan-Headers) | 1032 | 2026-04-20T15:53:31Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [SarahWeiii/CoACD](https://github.com/SarahWeiii/CoACD) | 1010 | 2026-04-10T23:10:19Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [WebAssembly/wasi-libc](https://github.com/WebAssembly/wasi-libc) | 1004 | 2026-04-23T17:02:18Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [LuisaGroup/LuisaCompute](https://github.com/LuisaGroup/LuisaCompute) | 1002 | 2026-04-27T07:28:31Z | C/C++ | Infrastructure/tooling | 16 | 12 | 16 | 16 |

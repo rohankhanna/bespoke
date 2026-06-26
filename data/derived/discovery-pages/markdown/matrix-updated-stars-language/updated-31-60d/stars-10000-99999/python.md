@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 35180 | 2026-05-25T19:00:26Z | Python | CLI | 20 | 21 | 20 | 20 |
+| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 35202 | 2026-05-25T19:00:26Z | Python | CLI | 20 | 21 | 20 | 20 |
 | [python-poetry/poetry](https://github.com/python-poetry/poetry) | 34288 | 2026-05-24T15:43:42Z | Python | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | 12387 | 2026-05-09T02:45:17Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [ludwig-ai/ludwig](https://github.com/ludwig-ai/ludwig) | 11689 | 2026-05-07T06:14:36Z | Python | Infrastructure/tooling | 23 | 14 | 23 | 23 |
@@ -105,7 +105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | 43366 | 2026-05-02T01:30:25Z | Python | Infrastructure/tooling | 10 | 21 | 10 | 10 |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 39796 | 2026-04-30T00:14:58Z | Python | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | 38265 | 2026-04-30T22:52:08Z | Python | Infrastructure/tooling | 23 | 10 | 23 | 23 |
-| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 35180 | 2026-05-25T19:00:26Z | Python | CLI | 20 | 21 | 20 | 20 |
+| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 35202 | 2026-05-25T19:00:26Z | Python | CLI | 20 | 21 | 20 | 20 |
 | [python-poetry/poetry](https://github.com/python-poetry/poetry) | 34288 | 2026-05-24T15:43:42Z | Python | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 34042 | 2026-05-06T07:46:10Z | Python | CLI | 5 | 9 | 5 | 5 |
 | [certbot/certbot](https://github.com/certbot/certbot) | 33020 | 2026-05-01T22:47:36Z | Python | CLI | 14 | 4 | 14 | 14 |

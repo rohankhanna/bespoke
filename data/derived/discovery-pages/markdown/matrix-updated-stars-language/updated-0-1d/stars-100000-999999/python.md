@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100,000 to 999,999 stars · Python
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 25
-- components: 29
-- concepts: 25
-- observations: 25
+- repos: 3
+- terms: 46
+- components: 45
+- concepts: 46
+- observations: 46
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 140242 | 2026-06-26T07:14:49Z | Python | Infrastructure/tooling | 21 | 16 | 21 | 21 |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 118331 | 2026-06-25T22:25:53Z | Python | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 150071 | 2026-06-25T13:37:42Z | Python | Infrastructure/tooling | 12 | 19 | 12 | 12 |
 
@@ -34,4 +35,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 150071 | 2026-06-25T13:37:42Z | Python | Infrastructure/tooling | 12 | 19 | 12 | 12 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 140242 | 2026-06-26T07:14:49Z | Python | Infrastructure/tooling | 21 | 16 | 21 | 21 |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 118331 | 2026-06-25T22:25:53Z | Python | Infrastructure/tooling | 13 | 10 | 13 | 13 |

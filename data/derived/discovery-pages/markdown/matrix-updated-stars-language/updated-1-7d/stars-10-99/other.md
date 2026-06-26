@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 23
-- components: 74
-- concepts: 23
-- observations: 23
+- repos: 4
+- terms: 16
+- components: 64
+- concepts: 16
+- observations: 16
 
 ## Static behavior
 
@@ -28,7 +28,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [processing/processing-website](https://github.com/processing/processing-website) | 88 | 2026-06-24T21:03:27Z | Other | Infrastructure/tooling | 2 | 53 | 2 | 2 |
 | [crossplane/docs](https://github.com/crossplane/docs) | 59 | 2026-06-24T18:35:08Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-06-24T08:11:42Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) | 99 | 2026-06-21T12:53:02Z | Other | Library | 3 | 0 | 3 | 3 |
 | [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-06-21T02:47:41Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 
@@ -39,5 +38,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) | 99 | 2026-06-21T12:53:02Z | Other | Library | 3 | 0 | 3 | 3 |
 | [processing/processing-website](https://github.com/processing/processing-website) | 88 | 2026-06-24T21:03:27Z | Other | Infrastructure/tooling | 2 | 53 | 2 | 2 |
 | [crossplane/docs](https://github.com/crossplane/docs) | 59 | 2026-06-24T18:35:08Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-06-24T08:11:42Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-06-21T02:47:41Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 206
-- terms: 1051
-- components: 1810
-- concepts: 1055
-- observations: 1059
+- repos: 204
+- terms: 1024
+- components: 1770
+- concepts: 1028
+- observations: 1032
 
 ## Static behavior
 
@@ -229,8 +229,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [moznion/sbt-spotless](https://github.com/moznion/sbt-spotless) | 6 | 2026-04-27T09:04:12Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [danielrosehill/Resources-Lists-Index](https://github.com/danielrosehill/Resources-Lists-Index) | 1 | 2026-04-27T08:40:03Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [celo-org/blind-threshold-bls-wasm](https://github.com/celo-org/blind-threshold-bls-wasm) | 9 | 2026-04-27T08:32:49Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [j9t/minifier-benchmarks](https://github.com/j9t/minifier-benchmarks) | 4 | 2026-04-27T06:53:01Z | JavaScript | Web app | 9 | 16 | 9 | 9 |
-| [j9t/compressorjs-next](https://github.com/j9t/compressorjs-next) | 3 | 2026-04-27T06:52:55Z | JavaScript | CLI | 18 | 24 | 18 | 18 |
 
 ## Repos sorted by stars
 
@@ -335,7 +333,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Humans-of-Julia/BibInternal.jl](https://github.com/Humans-of-Julia/BibInternal.jl) | 4 | 2026-04-27T23:33:07Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [haskell-actions/hlint-run](https://github.com/haskell-actions/hlint-run) | 4 | 2026-04-27T13:47:10Z | TypeScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
-| [j9t/minifier-benchmarks](https://github.com/j9t/minifier-benchmarks) | 4 | 2026-04-27T06:53:01Z | JavaScript | Web app | 9 | 16 | 9 | 9 |
 | [apache/casbin-fasthttp-auth](https://github.com/apache/casbin-fasthttp-auth) | 3 | 2026-05-15T19:08:31Z | Go | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [apache/casbin-casbin.io](https://github.com/apache/casbin-casbin.io) | 3 | 2026-05-15T19:06:31Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [Luligu/matterbridge-eve-energy](https://github.com/Luligu/matterbridge-eve-energy) | 3 | 2026-05-11T05:38:29Z | JavaScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
@@ -361,7 +358,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [8hobbies/vite-plugin-year](https://github.com/8hobbies/vite-plugin-year) | 3 | 2026-04-28T14:48:15Z | TypeScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [thetutlage/static](https://github.com/thetutlage/static) | 3 | 2026-04-28T12:16:02Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [danielrosehill/Claude-Ideation-Planning-Plugin](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) | 3 | 2026-04-28T11:54:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [j9t/compressorjs-next](https://github.com/j9t/compressorjs-next) | 3 | 2026-04-27T06:52:55Z | JavaScript | CLI | 18 | 24 | 18 | 18 |
 | [donut-party/endpoint-test](https://github.com/donut-party/endpoint-test) | 2 | 2026-05-26T03:07:33Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [HuaweiCloudDeveloper/karpenter-provider-huawei](https://github.com/HuaweiCloudDeveloper/karpenter-provider-huawei) | 2 | 2026-05-20T13:23:02Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [SeedScientist/K2V](https://github.com/SeedScientist/K2V) | 2 | 2026-05-19T07:09:55Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |

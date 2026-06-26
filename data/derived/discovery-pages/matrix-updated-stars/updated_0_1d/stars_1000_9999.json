@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 858,
-    "concepts": 415,
-    "observations": 416,
-    "repos": 37,
-    "terms": 414
+    "components": 1029,
+    "concepts": 449,
+    "observations": 449,
+    "repos": 43,
+    "terms": 448
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
-    "apache/datafusion-ballista",
     "aws-cloudformation/cfn-lint",
     "aws/karpenter-provider-aws",
     "conventional-changelog/conventional-changelog",
@@ -21,13 +20,18 @@
     "datalevin/datalevin",
     "eclipse-jdtls/eclipse.jdt.ls",
     "eclipse-openvsx/openvsx",
+    "eclipse-paho/paho.mqtt.python",
+    "endojs/endo",
+    "fla-org/flash-linear-attention",
     "googleapis/google-cloud-go",
     "harbor-framework/harbor",
     "harfbuzz/harfbuzz",
     "helidon-io/helidon",
+    "JuergenFleiss/aTrain",
     "JuliaPluto/Pluto.jl",
     "kubernetes-sigs/karpenter",
     "kurrent-io/KurrentDB",
+    "libbitcoin/libbitcoin-system",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "microsoft/aspire",
@@ -43,10 +47,12 @@
     "redis/redis-om-python",
     "rllm-org/rllm",
     "ROCm/ROCm",
+    "shareAI-lab/Kode-CLI",
     "swiftlang/llvm-project",
     "swiftlang/swift-llbuild",
     "swiftlang/swift-syntax",
     "TrenchBroom/TrenchBroom",
+    "TryGhost/node-sqlite3",
     "typescript-language-server/typescript-language-server",
     "vuejs/devtools",
     "web-platform-tests/wpt"

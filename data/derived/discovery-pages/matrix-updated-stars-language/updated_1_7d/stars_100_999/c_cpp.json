@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 25,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 7,
-    "terms": 36
+    "concepts": 31,
+    "observations": 31,
+    "repos": 6,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "confluentinc/librdkafka",
     "flagos-ai/FlagCX",
-    "ipsilon/evmone",
     "localai-org/LocalVQE",
     "localai-org/privacy-filter.cpp",
     "ROCm/hipBLAS",

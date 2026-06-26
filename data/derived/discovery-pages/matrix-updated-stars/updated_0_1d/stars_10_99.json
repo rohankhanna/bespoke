@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 5,
-    "terms": 19
+    "components": 77,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 6,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "apostrophecms/starter-kit-astro-apollo",
-    "continuumio/blz",
+    "criteo/mesos-term",
+    "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
     "pivotal/credhub-release",
     "pyvista/awesome-pyvista"

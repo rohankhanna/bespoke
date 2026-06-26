@@ -1,6 +1,6 @@
 # Shell
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 ## Active filters
 
@@ -23,13 +23,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6648 | 2026-06-25T13:26:18Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 188256 | 2026-06-25T10:23:42Z | Shell | CLI | 17 | 19 | 17 | 17 |
-| [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) | 20525 | 2026-06-24T12:52:20Z | Shell | CLI | 14 | 10 | 14 | 14 |
-| [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2384 | 2026-06-22T12:00:07Z | Shell | Infrastructure/tooling | 8 | 18 | 9 | 9 |
-| [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 35 | 2026-06-21T09:15:13Z | Shell | Unknown | 4 | 0 | 4 | 4 |
+| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 188256 | 2026-06-25T10:23:42Z | Shell | CLI | 16 | 19 | 17 | 17 |
+| [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) | 20525 | 2026-06-24T12:52:20Z | Shell | CLI | 11 | 10 | 14 | 14 |
+| [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2384 | 2026-06-22T12:00:07Z | Shell | Infrastructure/tooling | 9 | 18 | 9 | 9 |
+| [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 34 | 2026-06-21T09:15:13Z | Shell | Unknown | 4 | 0 | 4 | 4 |
 | [edward3h/docker-bds-integration-test](https://github.com/edward3h/docker-bds-integration-test) | 1 | 2026-06-20T15:45:13Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [asdf-community/asdf-pdm](https://github.com/asdf-community/asdf-pdm) | 10 | 2026-06-18T21:35:00Z | Shell | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 93922 | 2026-06-15T03:56:24Z | Shell | Infrastructure/tooling | 15 | 16 | 17 | 17 |
+| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 93943 | 2026-06-15T03:56:24Z | Shell | Infrastructure/tooling | 17 | 16 | 17 | 17 |
 | [conda-forge/numba-feedstock](https://github.com/conda-forge/numba-feedstock) | 0 | 2026-06-06T05:35:57Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 529 | 2026-06-05T17:59:43Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [hermit-os/rust-std-hermit](https://github.com/hermit-os/rust-std-hermit) | 9 | 2026-06-01T20:07:04Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -276,7 +276,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spiffe/spiffe](https://github.com/spiffe/spiffe) | 1746 | 2026-04-13T17:10:08Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [astro-han/claude-pace](https://github.com/Astro-Han/claude-pace) | 117 | 2026-04-13T07:49:49Z | Shell | CLI | 2 | 2 | 0 | 0 |
 | [2KAbhishek/mac2k](https://github.com/2KAbhishek/mac2k) | 36 | 2026-04-12T20:26:13Z | Shell | CLI | 6 | 0 | 6 | 6 |
-| [tj/n](https://github.com/tj/n) | 19516 | 2026-04-12T09:32:18Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tj/n](https://github.com/tj/n) | 19517 | 2026-04-12T09:32:18Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [marcindulak/ralph-wiggum-bdd](https://github.com/marcindulak/ralph-wiggum-bdd) | 9 | 2026-04-12T07:50:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills) | 63 | 2026-04-12T03:05:07Z | Shell | Unknown | 19 | 0 | 19 | 19 |
 | [containers/toolbox](https://github.com/containers/toolbox) | 3316 | 2026-04-11T13:21:28Z | Shell | CLI | 4 | 3 | 4 | 4 |
@@ -484,7 +484,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coin-or-tools/ThirdParty-HSL](https://github.com/coin-or-tools/ThirdParty-HSL) | 39 | 2025-09-10T07:37:35Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [pyenv/pyenv-installer](https://github.com/pyenv/pyenv-installer) | 4114 | 2025-09-05T19:23:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [codota/TabNine](https://github.com/codota/TabNine) | 10800 | 2025-09-04T10:40:43Z | Shell | Unknown | 12 | 0 | 13 | 13 |
-| [aidenlab/juicer](https://github.com/aidenlab/juicer) | 486 | 2025-08-31T02:59:38Z | Shell | CLI | 3 | 0 | 5 | 5 |
+| [aidenlab/juicer](https://github.com/aidenlab/juicer) | 486 | 2025-08-31T02:59:38Z | Shell | CLI | 5 | 0 | 5 | 5 |
 | [Berrysoft/fish-msys2](https://github.com/Berrysoft/fish-msys2) | 15 | 2025-08-15T13:41:10Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [icanhasjonas/run-claude-docker](https://github.com/icanhasjonas/run-claude-docker) | 79 | 2025-08-14T21:01:05Z | Shell | Unknown | 1 | 0 | 0 | 0 |
 | [marlonrichert/zsh-snap](https://github.com/marlonrichert/zsh-snap) | 1507 | 2025-08-06T07:48:52Z | Shell | Unknown | 6 | 0 | 7 | 7 |
@@ -709,7 +709,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fastai/docker-containers](https://github.com/fastai/docker-containers) | 183 | 2022-04-22T17:29:38Z | Shell | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [google/gfbuild-SPIRV-Tools](https://github.com/google/gfbuild-SPIRV-Tools) | 11 | 2022-04-20T05:38:57Z | Shell | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [sclorg/mongodb-container](https://github.com/sclorg/mongodb-container) | 50 | 2022-04-19T10:06:06Z | Shell | Unknown | 9 | 0 | 9 | 9 |
-| [sentriz/fish-pipenv](https://github.com/sentriz/fish-pipenv) | 196 | 2022-04-19T01:25:42Z | Shell | Unknown | 4 | 0 | 4 | 4 |
+| [sentriz/fish-pipenv](https://github.com/sentriz/fish-pipenv) | 196 | 2022-04-19T01:25:42Z | Shell | Unknown | 3 | 0 | 4 | 4 |
 | [rigellute/scoop-bucket](https://github.com/Rigellute/scoop-bucket) | 7 | 2022-04-08T14:58:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [antfu/dotfiles](https://github.com/antfu/dotfiles) | 287 | 2022-04-04T20:47:25Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [stephenmathieson/git-standup](https://github.com/stephenmathieson/git-standup) | 24 | 2022-03-31T22:07:01Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -729,7 +729,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [karalabe/xgo](https://github.com/karalabe/xgo) | 2148 | 2021-12-14T12:33:19Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs/infra](https://github.com/ipfs/infra) | 133 | 2021-11-23T22:01:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [eclipse-embed-cdt/org.eclipse.epp.packages](https://github.com/eclipse-embed-cdt/org.eclipse.epp.packages) | 105 | 2021-11-07T14:13:19Z | Shell | CLI | 3 | 0 | 3 | 3 |
-| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [cowboy/dotfiles](https://github.com/cowboy/dotfiles) | 1601 | 2021-09-17T03:43:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [mskims/redux-saga-in-korean](https://github.com/mskims/redux-saga-in-korean) | 71 | 2021-09-04T05:11:17Z | Shell | Unknown | 4 | 4 | 4 | 4 |
 | [google-research-datasets/conceptual-captions](https://github.com/google-research-datasets/conceptual-captions) | 563 | 2021-08-21T16:18:14Z | Shell | Model/data | 0 | 0 | 0 | 0 |
@@ -744,11 +744,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 188256 | 2026-06-25T10:23:42Z | Shell | CLI | 17 | 19 | 17 | 17 |
+| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 188256 | 2026-06-25T10:23:42Z | Shell | CLI | 16 | 19 | 17 | 17 |
 | [obra/superpowers](https://github.com/obra/superpowers) | 159514 | 2026-04-16T19:50:46Z | Shell | Framework | 0 | 0 | 0 | 0 |
 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | 115768 | 2026-04-18T01:34:30Z | Shell | CLI | 9 | 5 | 0 | 0 |
 | [d3/d3](https://github.com/d3/d3) | 112819 | 2025-12-02T17:48:19Z | Shell | Infrastructure/tooling | 6 | 45 | 6 | 6 |
-| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 93922 | 2026-06-15T03:56:24Z | Shell | Infrastructure/tooling | 15 | 16 | 17 | 17 |
+| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 93943 | 2026-06-15T03:56:24Z | Shell | Infrastructure/tooling | 17 | 16 | 17 | 17 |
 | [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) | 53847 | 2026-03-14T06:07:30Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [dockur/windows](https://github.com/dockur/windows) | 51107 | 2026-04-01T21:07:16Z | Shell | Infrastructure/tooling | 14 | 20 | 14 | 14 |
 | [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) | 46459 | 2026-05-02T09:22:53Z | Shell | CLI | 21 | 11 | 23 | 23 |
@@ -763,8 +763,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a2aproject/A2A](https://github.com/a2aproject/A2A) | 23402 | 2026-04-23T14:31:17Z | Shell | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) | 22552 | 2026-02-08T16:50:52Z | Shell | Infrastructure/tooling | 4 | 2 | 5 | 5 |
 | [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) | 20747 | 2026-04-29T19:34:17Z | Shell | Infrastructure/tooling | 11 | 8 | 11 | 11 |
-| [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) | 20525 | 2026-06-24T12:52:20Z | Shell | CLI | 14 | 10 | 14 | 14 |
-| [tj/n](https://github.com/tj/n) | 19516 | 2026-04-12T09:32:18Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) | 20525 | 2026-06-24T12:52:20Z | Shell | CLI | 11 | 10 | 14 | 14 |
+| [tj/n](https://github.com/tj/n) | 19517 | 2026-04-12T09:32:18Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 19400 | 2026-04-13T20:01:47Z | Shell | CLI | 4 | 0 | 4 | 4 |
 | [githubnext/monaspace](https://github.com/githubnext/monaspace) | 19063 | 2026-03-27T23:10:14Z | Shell | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) | 17618 | 2026-04-20T17:02:39Z | Shell | Infrastructure/tooling | 15 | 4 | 15 | 15 |
@@ -860,7 +860,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docker-library/postgres](https://github.com/docker-library/postgres) | 2470 | 2026-04-21T22:02:34Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [crosstool-ng/crosstool-ng](https://github.com/crosstool-ng/crosstool-ng) | 2452 | 2026-04-14T00:29:11Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [lukechilds/zsh-nvm](https://github.com/lukechilds/zsh-nvm) | 2403 | 2024-07-03T04:34:11Z | Shell | Unknown | 8 | 0 | 8 | 8 |
-| [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2384 | 2026-06-22T12:00:07Z | Shell | Infrastructure/tooling | 8 | 18 | 9 | 9 |
+| [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2384 | 2026-06-22T12:00:07Z | Shell | Infrastructure/tooling | 9 | 18 | 9 | 9 |
 | [ahmetb/cloud-run-faq](https://github.com/ahmetb/cloud-run-faq) | 2341 | 2025-06-03T20:21:05Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [redis/redis-doc](https://github.com/redis/redis-doc) | 2310 | 2025-06-23T17:08:09Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [blader/claudeception](https://github.com/blader/Claudeception) | 2279 | 2026-02-21T05:10:15Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -994,7 +994,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [itzg/docker-mc-backup](https://github.com/itzg/docker-mc-backup) | 495 | 2026-04-30T14:48:09Z | Shell | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [mattmc3/zsh_unplugged](https://github.com/mattmc3/zsh_unplugged) | 492 | 2025-10-09T12:31:07Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [rocker-org/rocker-versioned2](https://github.com/rocker-org/rocker-versioned2) | 491 | 2026-04-25T11:26:36Z | Shell | Infrastructure/tooling | 9 | 12 | 9 | 9 |
-| [aidenlab/juicer](https://github.com/aidenlab/juicer) | 486 | 2025-08-31T02:59:38Z | Shell | CLI | 3 | 0 | 5 | 5 |
+| [aidenlab/juicer](https://github.com/aidenlab/juicer) | 486 | 2025-08-31T02:59:38Z | Shell | CLI | 5 | 0 | 5 | 5 |
 | [romkatv/zsh-defer](https://github.com/romkatv/zsh-defer) | 484 | 2024-02-10T06:30:37Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [actions/upload-pages-artifact](https://github.com/actions/upload-pages-artifact) | 477 | 2026-04-13T19:24:32Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [squeaky-pl/portable-pypy](https://github.com/squeaky-pl/portable-pypy) | 477 | 2026-02-02T09:36:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -1080,7 +1080,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pacstall/pacstall-programs](https://github.com/pacstall/pacstall-programs) | 211 | 2026-04-28T02:56:58Z | Shell | Infrastructure/tooling | 11 | 7 | 12 | 12 |
 | [belak/zsh-utils](https://github.com/belak/zsh-utils) | 209 | 2025-10-15T18:38:08Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [lovell/sharp-libvips](https://github.com/lovell/sharp-libvips) | 207 | 2026-04-25T11:13:12Z | Shell | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [sentriz/fish-pipenv](https://github.com/sentriz/fish-pipenv) | 196 | 2022-04-19T01:25:42Z | Shell | Unknown | 4 | 0 | 4 | 4 |
+| [sentriz/fish-pipenv](https://github.com/sentriz/fish-pipenv) | 196 | 2022-04-19T01:25:42Z | Shell | Unknown | 3 | 0 | 4 | 4 |
 | [tinted-theming/tinted-iterm2](https://github.com/tinted-theming/tinted-iterm2) | 195 | 2025-03-28T10:26:23Z | Shell | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [acmesh-official/get.acme.sh](https://github.com/acmesh-official/get.acme.sh) | 186 | 2024-05-08T16:12:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [fastai/docker-containers](https://github.com/fastai/docker-containers) | 183 | 2022-04-22T17:29:38Z | Shell | Infrastructure/tooling | 7 | 1 | 7 | 7 |
@@ -1231,11 +1231,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hashnuke/heroku-buildpack-elixir-otp-builds](https://github.com/HashNuke/heroku-buildpack-elixir-otp-builds) | 37 | 2021-07-23T14:41:51Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [NixOS/org](https://github.com/NixOS/org) | 36 | 2026-04-20T14:22:24Z | Shell | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [2KAbhishek/mac2k](https://github.com/2KAbhishek/mac2k) | 36 | 2026-04-12T20:26:13Z | Shell | CLI | 6 | 0 | 6 | 6 |
-| [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 35 | 2026-06-21T09:15:13Z | Shell | Unknown | 4 | 0 | 4 | 4 |
 | [helidon-io/helidon-examples](https://github.com/helidon-io/helidon-examples) | 35 | 2026-04-27T15:59:53Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [bitnami/vulndb](https://github.com/bitnami/vulndb) | 35 | 2026-04-23T18:12:49Z | Shell | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [conda-forge/poppler-feedstock](https://github.com/conda-forge/poppler-feedstock) | 35 | 2026-04-08T15:38:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ChainSafe/lodestar-quickstart](https://github.com/ChainSafe/lodestar-quickstart) | 35 | 2025-10-15T14:25:09Z | Shell | CLI | 0 | 0 | 0 | 0 |
+| [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 34 | 2026-06-21T09:15:13Z | Shell | Unknown | 4 | 0 | 4 | 4 |
 | [Shougo/dein-installer.vim](https://github.com/Shougo/dein-installer.vim) | 34 | 2024-04-12T12:18:20Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [higlass/higlass-docker](https://github.com/higlass/higlass-docker) | 34 | 2022-05-31T05:07:50Z | Shell | CLI | 5 | 1 | 5 | 5 |
 | [leleliu008/ppkg](https://github.com/leleliu008/ppkg) | 33 | 2026-05-04T08:15:44Z | Shell | CLI | 9 | 5 | 10 | 10 |
@@ -1350,7 +1350,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [to4iki/ai-project-rules](https://github.com/to4iki/ai-project-rules) | 7 | 2025-04-24T16:18:24Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/git-sync](https://github.com/2KAbhishek/git-sync) | 7 | 2024-12-15T06:10:05Z | Shell | Unknown | 6 | 0 | 6 | 6 |
 | [rigellute/scoop-bucket](https://github.com/Rigellute/scoop-bucket) | 7 | 2022-04-08T14:58:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [eddelbuettel/github-actions](https://github.com/eddelbuettel/github-actions) | 6 | 2026-03-10T13:45:21Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [christgau/wsdd-gentoo](https://github.com/christgau/wsdd-gentoo) | 6 | 2025-05-12T19:13:29Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [containerd/project-checks](https://github.com/containerd/project-checks) | 6 | 2025-03-04T14:18:11Z | Shell | Unknown | 0 | 0 | 0 | 0 |

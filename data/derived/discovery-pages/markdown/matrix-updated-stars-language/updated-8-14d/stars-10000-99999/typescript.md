@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 20
-- components: 269
-- concepts: 20
-- observations: 20
+- repos: 2
+- terms: 12
+- components: 25
+- concepts: 12
+- observations: 12
 
 ## Static behavior
 
@@ -26,14 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83660 | 2026-06-15T22:54:31Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14374 | 2026-06-14T08:27:00Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
-| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 40624 | 2026-06-12T08:17:17Z | TypeScript | CLI | 8 | 244 | 8 | 8 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83663 | 2026-06-15T22:54:31Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14377 | 2026-06-14T08:27:00Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83660 | 2026-06-15T22:54:31Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 40624 | 2026-06-12T08:17:17Z | TypeScript | CLI | 8 | 244 | 8 | 8 |
-| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14374 | 2026-06-14T08:27:00Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83663 | 2026-06-15T22:54:31Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14377 | 2026-06-14T08:27:00Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |

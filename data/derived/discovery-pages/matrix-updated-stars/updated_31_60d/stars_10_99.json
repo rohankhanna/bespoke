@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4500,
-    "concepts": 2356,
-    "observations": 2368,
-    "repos": 484,
-    "terms": 2341
+    "components": 4435,
+    "concepts": 2339,
+    "observations": 2351,
+    "repos": 477,
+    "terms": 2325
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "1-Platform/op-components",
@@ -25,7 +25,6 @@
     "Accla/d4m",
     "Accla/graphulo",
     "addfox/addfox",
-    "AdguardTeam/FiltersCompiler",
     "AdguardTeam/SafariConverterLib",
     "agentclientprotocol/kotlin-sdk",
     "aggre/ullr",
@@ -114,7 +113,6 @@
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-deployment-concourse-tasks",
     "cloudfoundry/cf-networking-release",
-    "cloudfoundry/cf-smoke-tests",
     "cloudfoundry/community",
     "cloudfoundry/uaa-release",
     "coasys/ad4m",
@@ -152,7 +150,6 @@
     "dwyl/elixir-auth-github-demo",
     "dwyl/learn-tailwind",
     "dwyl/phoenix-liveview-todo-list-tutorial",
-    "eclipse-shellwax/shellwax",
     "ecyrbe/zodios-express",
     "edward3h/minecraft-webhook",
     "eea/eea.rancher.catalog",
@@ -260,7 +257,6 @@
     "ipdxco/github-as-code",
     "ipfs/github-mgmt",
     "ipfs/ipfs-check",
-    "j9t/obsohtml",
     "Jaded-Encoding-Thaumaturgy/JET-guide",
     "jakebailey/pyright-action",
     "jbaubree/sitemap-ts",
@@ -354,7 +350,6 @@
     "octokit/oauth-authorization-url.js",
     "OffchainLabs/arbitrum-chain-sdk",
     "OffchainLabs/nitro-testnode",
-    "oliyh/carve.el",
     "oneapi-src/unified-memory-framework",
     "open-edge-platform/geti-instant-learn",
     "open-edge-platform/physical-ai-studio",
@@ -471,7 +466,6 @@
     "transparency-dev/witness",
     "triton-inference-server/fil_backend",
     "tweag/gazelle_cabal",
-    "typst/typst-assets",
     "tyrypyrking/egui-ash",
     "universal-ctags/ctags-nightly-build",
     "universal-ember/reactiveweb",
@@ -493,7 +487,6 @@
     "xhluca/bm25-benchmarks",
     "xjb714/xjb",
     "xuegao-tzx/Fllama",
-    "yamachu/VoicevoxCoreSharp",
     "yulewang97/ERDiff",
     "zen-xu/pytest-modern",
     "zig-wasm/wasmer-zig-api"

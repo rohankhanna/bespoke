@@ -3,14 +3,14 @@
     "components": 18302,
     "concepts": 27536,
     "observations": 27588,
-    "repos": 6851,
-    "terms": 27303
+    "repos": 6850,
+    "terms": 27288
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1245,7 +1245,6 @@
     "carolineec/informative-drawings",
     "caronc/apprise",
     "caronc/apprise-api",
-    "carpedm20/multi-speaker-tacotron-tensorflow",
     "CarperAI/autocrit",
     "CarperAI/cheese",
     "CarperAI/trlx",

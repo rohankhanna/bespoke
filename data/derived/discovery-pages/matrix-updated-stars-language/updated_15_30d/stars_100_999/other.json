@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 8,
-    "terms": 39
+    "components": 55,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 9,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
+    "babashka/nbb",
     "bamsumit/slayerPytorch",
     "Baron-von-Riedesel/HX",
     "Deep-Symmetry/dysentery",

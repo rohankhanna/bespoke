@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 331
-- components: 296
-- concepts: 330
-- observations: 332
+- repos: 45
+- terms: 338
+- components: 322
+- concepts: 337
+- observations: 339
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jhipster/prettier-java](https://github.com/jhipster/prettier-java) | 1203 | 2026-04-27T06:46:51Z | Java | Infrastructure/tooling | 7 | 26 | 7 | 7 |
 | [castorini/anserini](https://github.com/castorini/anserini) | 1109 | 2026-04-26T19:36:54Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [junit-team/junit4](https://github.com/junit-team/junit4) | 8534 | 2026-04-25T11:30:38Z | Java | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [FasterXML/jackson-annotations](https://github.com/FasterXML/jackson-annotations) | 1062 | 2026-04-24T20:16:38Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -114,6 +115,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spring-projects/spring-ai-examples](https://github.com/spring-projects/spring-ai-examples) | 1269 | 2026-03-29T18:49:14Z | Java | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [JetBrains/intellij-sdk-code-samples](https://github.com/JetBrains/intellij-sdk-code-samples) | 1237 | 2026-04-17T09:02:25Z | Java | Library | 9 | 0 | 9 | 9 |
 | [bobbylight/RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea) | 1236 | 2026-03-30T19:36:23Z | Java | Infrastructure/tooling | 5 | 8 | 5 | 5 |
+| [jhipster/prettier-java](https://github.com/jhipster/prettier-java) | 1203 | 2026-04-27T06:46:51Z | Java | Infrastructure/tooling | 7 | 26 | 7 | 7 |
 | [spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs) | 1182 | 2026-04-08T17:02:53Z | Java | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [castorini/anserini](https://github.com/castorini/anserini) | 1109 | 2026-04-26T19:36:54Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [codelibs/fess](https://github.com/codelibs/fess) | 1107 | 2026-04-21T13:20:34Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |

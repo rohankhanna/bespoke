@@ -1,30 +1,36 @@
 {
   "counts": {
-    "components": 216,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 14,
-    "terms": 104
+    "components": 359,
+    "concepts": 158,
+    "observations": 159,
+    "repos": 20,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
+    "antvis/GPT-Vis",
+    "aristoteleo/PantheonOS",
     "bazel-contrib/rules_kotlin",
     "cloudfoundry/credhub",
-    "Comfy-Org/comfy-cli",
     "digitalocean/openapi",
+    "eclipse-paho/paho.mqtt.testing",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
-    "EmmyLuaLs/emmylua-analyzer-rust",
+    "electron/packager",
     "gbionics/jaxsim",
     "huggingface/hf-mcp-server",
+    "ipsilon/evmone",
+    "karafka/rdkafka-ruby",
     "ldproxy/ldproxy",
     "matter-js/matter.js",
+    "meta-pytorch/torchft",
+    "mightyiam/eslint-config-love",
     "scverse/rapids-singlecell",
     "unplugin/unplugin-imagemin"
   ]

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 141
-- terms: 848
-- components: 3921
-- concepts: 790
-- observations: 790
+- repos: 142
+- terms: 856
+- components: 3963
+- concepts: 798
+- observations: 798
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [forcedotcom/code-analyzer](https://github.com/forcedotcom/code-analyzer) | 237 | 2026-04-27T08:10:52Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 8 |
 | [sergiodxa/remix-i18next](https://github.com/sergiodxa/remix-i18next) | 719 | 2026-04-27T05:42:39Z | TypeScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |
 | [microsoft/security-devops-action](https://github.com/microsoft/security-devops-action) | 153 | 2026-04-27T05:05:10Z | TypeScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
 | [julia-actions/setup-julia](https://github.com/julia-actions/setup-julia) | 107 | 2026-04-26T17:53:07Z | TypeScript | Infrastructure/tooling | 14 | 29 | 14 | 14 |
@@ -272,6 +273,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [matepek/vscode-catch2-test-adapter](https://github.com/matepek/vscode-catch2-test-adapter) | 248 | 2026-04-14T05:43:01Z | TypeScript | Infrastructure/tooling | 12 | 39 | 12 | 12 |
 | [astral-sh/ruff-action](https://github.com/astral-sh/ruff-action) | 243 | 2026-04-23T10:55:59Z | TypeScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [aws/aws-iot-device-sdk-js-v2](https://github.com/aws/aws-iot-device-sdk-js-v2) | 238 | 2026-04-21T18:26:28Z | TypeScript | CLI | 6 | 27 | 6 | 6 |
+| [forcedotcom/code-analyzer](https://github.com/forcedotcom/code-analyzer) | 237 | 2026-04-27T08:10:52Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 8 |
 | [elm-tooling/elm-language-client-vscode](https://github.com/elm-tooling/elm-language-client-vscode) | 237 | 2026-04-13T04:57:01Z | TypeScript | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [DeterminateSystems/nix-installer-action](https://github.com/DeterminateSystems/nix-installer-action) | 231 | 2026-04-23T06:41:58Z | TypeScript | Infrastructure/tooling | 3 | 23 | 3 | 3 |
 | [sass/embedded-host-node](https://github.com/sass/embedded-host-node) | 223 | 2026-04-20T20:48:36Z | TypeScript | Infrastructure/tooling | 1 | 37 | 1 | 1 |

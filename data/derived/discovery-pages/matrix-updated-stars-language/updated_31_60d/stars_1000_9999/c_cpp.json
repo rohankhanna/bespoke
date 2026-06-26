@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1202,
-    "concepts": 1242,
-    "observations": 1242,
-    "repos": 142,
-    "terms": 1233
+    "components": 1190,
+    "concepts": 1226,
+    "observations": 1226,
+    "repos": 140,
+    "terms": 1217
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -32,7 +32,6 @@
     "brave/brave-core",
     "BYVoid/OpenCC",
     "cdcseacave/openMVS",
-    "CedricGuillemet/ImGuizmo",
     "celluloid-player/celluloid",
     "chrisant996/clink",
     "chromiumembedded/cef",
@@ -89,7 +88,6 @@
     "liuliu/ccv",
     "llvm/torch-mlir",
     "luben/zstd-jni",
-    "LuisaGroup/LuisaCompute",
     "mackron/miniaudio",
     "marzer/tomlplusplus",
     "meetecho/janus-gateway",

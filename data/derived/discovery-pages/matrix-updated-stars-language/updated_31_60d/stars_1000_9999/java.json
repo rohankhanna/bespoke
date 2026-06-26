@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 491,
-    "concepts": 612,
-    "observations": 612,
-    "repos": 55,
-    "terms": 608
+    "components": 465,
+    "concepts": 605,
+    "observations": 605,
+    "repos": 54,
+    "terms": 601
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "alibaba/spring-ai-alibaba",
@@ -46,7 +46,6 @@
     "iterate-ch/cyberduck",
     "java-native-access/jna",
     "JetBrains/JetBrainsRuntime",
-    "jhipster/prettier-java",
     "jline/jline3",
     "JodaOrg/joda-time",
     "junit-team/junit-examples",

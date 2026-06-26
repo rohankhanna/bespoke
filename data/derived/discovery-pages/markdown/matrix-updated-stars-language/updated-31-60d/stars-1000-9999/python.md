@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 201
-- terms: 1901
-- components: 1707
-- concepts: 1918
-- observations: 1924
+- repos: 199
+- terms: 1870
+- components: 1683
+- concepts: 1886
+- observations: 1892
 
 ## Static behavior
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Tencent-Hunyuan/HunyuanWorld-Mirror](https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror) | 1143 | 2026-05-27T03:22:57Z | Python | Model/data | 8 | 0 | 8 | 8 |
+| [Tencent-Hunyuan/HunyuanWorld-Mirror](https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror) | 1143 | 2026-05-27T03:22:57Z | Python | Model/data | 7 | 0 | 8 | 8 |
 | [2U1/Qwen-VL-Series-Finetune](https://github.com/2U1/Qwen-VL-Series-Finetune) | 1921 | 2026-05-26T15:38:26Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | 7909 | 2026-05-26T14:45:12Z | Python | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [huggingface/finetrainers](https://github.com/huggingface/finetrainers) | 1358 | 2026-05-26T10:33:13Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
@@ -37,7 +37,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [strob/gentle](https://github.com/strob/gentle) | 1699 | 2026-05-19T17:59:52Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [FunAudioLLM/SenseVoice](https://github.com/FunAudioLLM/SenseVoice) | 8201 | 2026-05-19T15:33:33Z | Python | Infrastructure/tooling | 9 | 0 | 9 | 9 |
 | [FunAudioLLM/Fun-ASR](https://github.com/FunAudioLLM/Fun-ASR) | 1163 | 2026-05-19T15:28:20Z | Python | Model/data | 8 | 0 | 8 | 8 |
-| [InternScience/GraphGen](https://github.com/InternScience/GraphGen) | 1044 | 2026-05-19T07:07:32Z | Python | Infrastructure/tooling | 18 | 7 | 18 | 18 |
+| [InternScience/GraphGen](https://github.com/InternScience/GraphGen) | 1046 | 2026-05-19T07:07:32Z | Python | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 | [nomadkaraoke/python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator) | 1255 | 2026-05-18T23:24:52Z | Python | CLI | 8 | 15 | 8 | 8 |
 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 1091 | 2026-05-18T06:06:35Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [LCAV/pyroomacoustics](https://github.com/LCAV/pyroomacoustics) | 1884 | 2026-05-17T00:41:40Z | Python | Infrastructure/tooling | 9 | 14 | 9 | 9 |
@@ -225,8 +225,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ibis-project/ibis](https://github.com/ibis-project/ibis) | 6521 | 2026-04-27T13:06:05Z | Python | CLI | 23 | 15 | 23 | 24 |
 | [diafygi/acme-tiny](https://github.com/diafygi/acme-tiny) | 4767 | 2026-04-27T12:52:29Z | Python | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [aws-samples/aws-cdk-examples](https://github.com/aws-samples/aws-cdk-examples) | 5589 | 2026-04-27T08:27:46Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [hacs/integration](https://github.com/hacs/integration) | 7314 | 2026-04-27T06:19:18Z | Python | Infrastructure/tooling | 13 | 14 | 13 | 13 |
-| [RDFLib/rdflib](https://github.com/RDFLib/rdflib) | 2436 | 2026-04-27T06:03:14Z | Python | Infrastructure/tooling | 17 | 10 | 19 | 19 |
 
 ## Repos sorted by stars
 
@@ -260,7 +258,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) | 7647 | 2026-04-27T15:41:11Z | Python | Infrastructure/tooling | 13 | 12 | 13 | 13 |
 | [msiemens/tinydb](https://github.com/msiemens/tinydb) | 7512 | 2026-05-16T15:30:07Z | Python | Infrastructure/tooling | 3 | 6 | 4 | 4 |
 | [conda/conda](https://github.com/conda/conda) | 7390 | 2026-04-29T19:37:19Z | Python | Infrastructure/tooling | 10 | 15 | 10 | 10 |
-| [hacs/integration](https://github.com/hacs/integration) | 7314 | 2026-04-27T06:19:18Z | Python | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [pypa/hatch](https://github.com/pypa/hatch) | 7153 | 2026-04-30T01:17:15Z | Python | CLI | 13 | 16 | 13 | 13 |
 | [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | 7077 | 2026-04-29T18:10:21Z | Python | Infrastructure/tooling | 11 | 19 | 11 | 11 |
 | [isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab) | 7055 | 2026-04-30T09:03:36Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
@@ -347,7 +344,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [viser-project/viser](https://github.com/viser-project/viser) | 2531 | 2026-05-02T00:29:25Z | Python | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [rasterio/rasterio](https://github.com/rasterio/rasterio) | 2520 | 2026-05-01T14:46:11Z | Python | CLI | 9 | 8 | 9 | 9 |
 | [git-cola/git-cola](https://github.com/git-cola/git-cola) | 2519 | 2026-04-28T07:20:04Z | Python | Infrastructure/tooling | 13 | 4 | 13 | 13 |
-| [RDFLib/rdflib](https://github.com/RDFLib/rdflib) | 2436 | 2026-04-27T06:03:14Z | Python | Infrastructure/tooling | 17 | 10 | 19 | 19 |
 | [coin-or/pulp](https://github.com/coin-or/pulp) | 2434 | 2026-04-29T13:15:06Z | Python | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [open-telemetry/opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) | 2417 | 2026-04-29T16:27:22Z | Python | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [pydata/numexpr](https://github.com/pydata/numexpr) | 2415 | 2026-04-27T19:34:35Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -419,13 +415,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vipshop/cache-dit](https://github.com/vipshop/cache-dit) | 1155 | 2026-04-29T06:50:28Z | Python | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs) | 1152 | 2026-04-29T22:08:50Z | Python | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [1andrevich/Re-filter-lists](https://github.com/1andrevich/Re-filter-lists) | 1145 | 2026-05-01T01:12:57Z | Python | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [Tencent-Hunyuan/HunyuanWorld-Mirror](https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror) | 1143 | 2026-05-27T03:22:57Z | Python | Model/data | 8 | 0 | 8 | 8 |
+| [Tencent-Hunyuan/HunyuanWorld-Mirror](https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror) | 1143 | 2026-05-27T03:22:57Z | Python | Model/data | 7 | 0 | 8 | 8 |
 | [confluentinc/cp-all-in-one](https://github.com/confluentinc/cp-all-in-one) | 1142 | 2026-04-27T13:56:18Z | Python | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [BrianPugh/cyclopts](https://github.com/BrianPugh/cyclopts) | 1140 | 2026-04-29T21:01:50Z | Python | CLI | 4 | 6 | 5 | 5 |
 | [AndyTheFactory/newspaper4k](https://github.com/AndyTheFactory/newspaper4k) | 1092 | 2026-04-29T07:30:31Z | Python | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 1091 | 2026-05-18T06:06:35Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [blackjax-devs/blackjax](https://github.com/blackjax-devs/blackjax) | 1061 | 2026-04-29T15:24:44Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 10 |
-| [InternScience/GraphGen](https://github.com/InternScience/GraphGen) | 1044 | 2026-05-19T07:07:32Z | Python | Infrastructure/tooling | 18 | 7 | 18 | 18 |
+| [InternScience/GraphGen](https://github.com/InternScience/GraphGen) | 1046 | 2026-05-19T07:07:32Z | Python | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 | [neo4j/neo4j-python-driver](https://github.com/neo4j/neo4j-python-driver) | 1043 | 2026-04-30T14:25:28Z | Python | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [brentyi/tyro](https://github.com/brentyi/tyro) | 1036 | 2026-04-29T10:14:41Z | Python | CLI | 9 | 4 | 9 | 9 |
 | [open-telemetry/opentelemetry-python-contrib](https://github.com/open-telemetry/opentelemetry-python-contrib) | 1035 | 2026-04-29T17:19:00Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |

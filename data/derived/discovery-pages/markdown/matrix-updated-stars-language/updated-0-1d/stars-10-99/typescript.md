@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-24T07:54:10.644847+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 8
-- components: 44
-- concepts: 8
-- observations: 8
+- repos: 1
+- terms: 13
+- components: 53
+- concepts: 13
+- observations: 13
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-23T17:09:32Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-23T16:41:43Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
+| [criteo/mesos-term](https://github.com/criteo/mesos-term) | 19 | 2026-06-25T15:19:14Z | TypeScript | CLI | 13 | 53 | 13 | 13 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-23T16:41:43Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-23T17:09:32Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |
+| [criteo/mesos-term](https://github.com/criteo/mesos-term) | 19 | 2026-06-25T15:19:14Z | TypeScript | CLI | 13 | 53 | 13 | 13 |

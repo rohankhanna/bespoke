@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 215
-- terms: 1703
-- components: 1746
-- concepts: 1701
-- observations: 1707
+- repos: 217
+- terms: 1719
+- components: 1778
+- concepts: 1717
+- observations: 1723
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [evilmartians/lefthook](https://github.com/evilmartians/lefthook) | 8117 | 2026-04-27T07:12:55Z | Go | Infrastructure/tooling | 10 | 21 | 10 | 10 |
+| [sigstore/gitsign](https://github.com/sigstore/gitsign) | 1082 | 2026-04-27T07:08:53Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [bfenetworks/bfe](https://github.com/bfenetworks/bfe) | 6241 | 2026-04-27T05:25:10Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [Consensys/gnark](https://github.com/Consensys/gnark) | 1707 | 2026-04-27T03:12:59Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh) | 2556 | 2026-04-26T07:16:01Z | Go | CLI | 9 | 4 | 9 | 9 |
@@ -275,6 +277,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alibaba/higress](https://github.com/alibaba/higress) | 8209 | 2026-04-21T06:50:24Z | Go | Infrastructure/tooling | 12 | 18 | 12 | 12 |
 | [lightningnetwork/lnd](https://github.com/lightningnetwork/lnd) | 8136 | 2026-04-23T00:33:32Z | Go | Infrastructure/tooling | 16 | 14 | 16 | 16 |
 | [allegro/bigcache](https://github.com/allegro/bigcache) | 8125 | 2026-04-24T08:45:32Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
+| [evilmartians/lefthook](https://github.com/evilmartians/lefthook) | 8117 | 2026-04-27T07:12:55Z | Go | Infrastructure/tooling | 10 | 21 | 10 | 10 |
 | [fatih/color](https://github.com/fatih/color) | 7946 | 2026-04-09T01:02:33Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [cloudwego/kitex](https://github.com/cloudwego/kitex) | 7937 | 2026-04-24T10:13:06Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [golang/tools](https://github.com/golang/tools) | 7931 | 2026-04-22T20:43:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -457,6 +460,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [opencontainers/distribution-spec](https://github.com/opencontainers/distribution-spec) | 1098 | 2026-04-13T19:41:31Z | Go | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [hashicorp/go-immutable-radix](https://github.com/hashicorp/go-immutable-radix) | 1095 | 2026-04-13T07:55:27Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hanselime/paqet](https://github.com/hanselime/paqet) | 1089 | 2026-04-18T04:54:55Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [sigstore/gitsign](https://github.com/sigstore/gitsign) | 1082 | 2026-04-27T07:08:53Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [walles/moor](https://github.com/walles/moor) | 1061 | 2026-04-16T15:01:51Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [trzsz/trzsz-go](https://github.com/trzsz/trzsz-go) | 1030 | 2026-04-10T16:50:38Z | Go | CLI | 6 | 4 | 6 | 6 |
 | [madneal/gshark](https://github.com/madneal/gshark) | 1024 | 2026-04-16T12:59:20Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 3,
-    "terms": 33
+    "components": 22,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 4,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "harfbuzz/harfbuzz",
+    "libbitcoin/libbitcoin-system",
     "swiftlang/swift-llbuild",
     "TrenchBroom/TrenchBroom"
   ]

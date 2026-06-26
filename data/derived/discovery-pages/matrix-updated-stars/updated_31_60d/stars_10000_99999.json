@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10527,
-    "concepts": 4891,
-    "observations": 4904,
-    "repos": 425,
-    "terms": 4855
+    "components": 10498,
+    "concepts": 4864,
+    "observations": 4877,
+    "repos": 422,
+    "terms": 4829
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "2dust/v2rayNG",
@@ -188,7 +188,6 @@
     "huggingface/datasets",
     "huggingface/lerobot",
     "huggingface/tokenizers",
-    "huggingface/transformers.js",
     "huggingface/trl",
     "IBM/plex",
     "iced-rs/iced",
@@ -206,7 +205,6 @@
     "JetBrains/compose-multiplatform",
     "jhipster/generator-jhipster",
     "jj-vcs/jj",
-    "joewalnes/websocketd",
     "jqlang/jq",
     "jquense/yup",
     "jrouwe/JoltPhysics",
@@ -389,7 +387,6 @@
     "surrealdb/surrealdb",
     "sveltejs/kit",
     "sveltejs/svelte",
-    "swagger-api/swagger-codegen",
     "swagger-api/swagger-ui",
     "swc-project/swc",
     "SWE-agent/SWE-agent",

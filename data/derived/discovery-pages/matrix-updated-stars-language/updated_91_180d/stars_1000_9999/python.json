@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 578,
-    "concepts": 1151,
-    "observations": 1151,
-    "repos": 205,
-    "terms": 1140
+    "components": 582,
+    "concepts": 1152,
+    "observations": 1152,
+    "repos": 206,
+    "terms": 1141
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -68,6 +68,7 @@
     "descriptinc/descript-audio-codec",
     "DigitalPhonetics/IMS-Toucan",
     "django/asgiref",
+    "django/channels",
     "DLYuanGod/TinyGPT-V",
     "dmayboroda/minima",
     "docarray/docarray",

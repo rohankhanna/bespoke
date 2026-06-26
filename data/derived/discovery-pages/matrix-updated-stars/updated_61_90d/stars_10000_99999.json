@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15864,
-    "concepts": 6640,
-    "observations": 6670,
-    "repos": 704,
-    "terms": 6653
+    "components": 15893,
+    "concepts": 6667,
+    "observations": 6697,
+    "repos": 707,
+    "terms": 6680
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -353,6 +353,7 @@
     "huggingface/open-r1",
     "huggingface/peft",
     "huggingface/smolagents",
+    "huggingface/transformers.js",
     "hyperium/hyper",
     "hyperium/tonic",
     "iamkun/dayjs",
@@ -381,6 +382,7 @@
     "JetBrains/kotlin",
     "jgm/pandoc",
     "Jguer/yay",
+    "joewalnes/websocketd",
     "jonas/tig",
     "jordansissel/fpm",
     "josdejong/jsoneditor",
@@ -640,6 +642,7 @@
     "subframe7536/maple-font",
     "super-linter/super-linter",
     "svg/svgo",
+    "swagger-api/swagger-codegen",
     "swaywm/sway",
     "syl20bnr/spacemacs",
     "syncthing/syncthing",

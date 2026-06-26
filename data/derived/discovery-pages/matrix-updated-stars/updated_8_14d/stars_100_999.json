@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 164,
-    "observations": 164,
+    "components": 219,
+    "concepts": 158,
+    "observations": 158,
     "repos": 28,
-    "terms": 164
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "adamchainz/blacken-docs",
     "alloy-rs/svm-rs",
     "appbaseio/reactivesearch-api",
-    "babashka/nbb",
     "bazel-contrib/rules_jvm_external",
     "Blaizzy/mlx-audio-swift",
     "ChiyukiGana/Quickinput",
@@ -34,6 +33,7 @@
     "machinewrapped/llm-subtrans",
     "mafintosh/streamx",
     "mudler/LocalRecall",
+    "PyCQA/eradicate",
     "pyOpenSci/software-submission",
     "rescript-lang/reanalyze",
     "SpecterOps/AzureHound",

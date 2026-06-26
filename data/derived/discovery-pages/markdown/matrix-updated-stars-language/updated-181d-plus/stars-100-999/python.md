@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,8 +12,8 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1943
-- terms: 5659
+- repos: 1942
+- terms: 5654
 - components: 1314
 - concepts: 5823
 - observations: 5828
@@ -73,7 +73,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [machow/quartodoc](https://github.com/machow/quartodoc) | 260 | 2025-12-08T22:46:07Z | Python | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [OpenBMB/VisRAG](https://github.com/OpenBMB/VisRAG) | 947 | 2025-12-07T07:45:09Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [acl-org/aclpubcheck](https://github.com/acl-org/aclpubcheck) | 952 | 2025-12-06T18:23:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [worldbench/Robo3D](https://github.com/worldbench/Robo3D) | 375 | 2025-12-06T11:05:24Z | Python | Unknown | 3 | 0 | 4 | 4 |
+| [worldbench/Robo3D](https://github.com/worldbench/Robo3D) | 375 | 2025-12-06T11:05:24Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [nrl-ai/llama-assistant](https://github.com/nrl-ai/llama-assistant) | 529 | 2025-12-06T10:15:48Z | Python | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [chengzhag/PanFusion](https://github.com/chengzhag/PanFusion) | 265 | 2025-12-06T07:44:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [InternScience/StructEqTable-Deploy](https://github.com/InternScience/StructEqTable-Deploy) | 277 | 2025-12-06T02:29:37Z | Python | Unknown | 2 | 0 | 3 | 3 |
@@ -149,7 +149,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [faroit/stempeg](https://github.com/faroit/stempeg) | 107 | 2025-10-31T10:22:12Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [autonomousvision/navsim](https://github.com/autonomousvision/navsim) | 966 | 2025-10-27T21:19:43Z | Python | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [FlagOpen/RoboBrain-X0](https://github.com/FlagOpen/RoboBrain-X0) | 114 | 2025-10-27T04:25:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [InternRobotics/Aether](https://github.com/InternRobotics/Aether) | 597 | 2025-10-26T10:10:32Z | Python | Model/data | 11 | 0 | 11 | 11 |
+| [InternRobotics/Aether](https://github.com/InternRobotics/Aether) | 597 | 2025-10-26T10:10:32Z | Python | Model/data | 9 | 0 | 11 | 11 |
 | [NVlabs/Eagle](https://github.com/NVlabs/Eagle) | 943 | 2025-10-25T08:11:22Z | Python | Model/data | 11 | 0 | 11 | 11 |
 | [robotpy/crossenv](https://github.com/robotpy/crossenv) | 130 | 2025-10-25T00:44:11Z | Python | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [aigc3d/LAM_Audio2Expression](https://github.com/aigc3d/LAM_Audio2Expression) | 200 | 2025-10-24T05:53:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -199,7 +199,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Kaliiiiiiiiii-Vinyzu/CDP-Patches](https://github.com/Kaliiiiiiiiii-Vinyzu/CDP-Patches) | 160 | 2025-09-28T08:30:24Z | Python | Infrastructure/tooling | 16 | 3 | 16 | 16 |
 | [pallets/markupsafe](https://github.com/pallets/markupsafe) | 685 | 2025-09-27T18:47:09Z | Python | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [Huage001/CLEAR](https://github.com/Huage001/CLEAR) | 215 | 2025-09-27T09:38:43Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [fkiliver/RPGMaker_LLM_Translator](https://github.com/fkiliver/RPGMaker_LLM_Translator) | 160 | 2025-09-27T08:48:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [fkiliver/RPGMaker_LLM_Translator](https://github.com/fkiliver/RPGMaker_LLM_Translator) | 161 | 2025-09-27T08:48:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [czg1225/AsyncDiff](https://github.com/czg1225/AsyncDiff) | 214 | 2025-09-27T03:22:47Z | Python | Model/data | 8 | 0 | 8 | 8 |
 | [czg1225/CoDe](https://github.com/czg1225/CoDe) | 109 | 2025-09-27T03:22:03Z | Python | Model/data | 4 | 0 | 4 | 4 |
 | [radames/Real-Time-Latent-Consistency-Model](https://github.com/radames/Real-Time-Latent-Consistency-Model) | 916 | 2025-09-27T00:20:14Z | Python | Infrastructure/tooling | 8 | 0 | 8 | 8 |
@@ -241,7 +241,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AILab-CVC/FreeNoise](https://github.com/AILab-CVC/FreeNoise) | 429 | 2025-08-25T12:27:22Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [FunAudioLLM/CV3-Eval](https://github.com/FunAudioLLM/CV3-Eval) | 181 | 2025-08-25T02:43:21Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [behavior-robot-suite/brs-algo](https://github.com/behavior-robot-suite/brs-algo) | 169 | 2025-08-24T21:42:57Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [huanngzh/bpy-renderer](https://github.com/huanngzh/bpy-renderer) | 222 | 2025-08-24T15:37:14Z | Python | Library | 3 | 0 | 3 | 3 |
+| [huanngzh/bpy-renderer](https://github.com/huanngzh/bpy-renderer) | 222 | 2025-08-24T15:37:14Z | Python | Library | 2 | 0 | 3 | 3 |
 | [Danau5tin/terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) | 373 | 2025-08-24T10:28:11Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [kdexd/virtex](https://github.com/kdexd/virtex) | 563 | 2025-08-22T23:25:46Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [ToTheBeginning/ComfyUI-DreamO](https://github.com/ToTheBeginning/ComfyUI-DreamO) | 179 | 2025-08-22T11:48:28Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -332,7 +332,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [HumanAIGC/lite-avatar](https://github.com/HumanAIGC/lite-avatar) | 443 | 2025-06-30T03:09:20Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [huggingface/diffusion-fast](https://github.com/huggingface/diffusion-fast) | 232 | 2025-06-28T05:30:12Z | Python | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [agentsea/surfkit](https://github.com/agentsea/surfkit) | 194 | 2025-06-26T22:58:18Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [HKUST-SAIL/CraftsMan3D](https://github.com/HKUST-SAIL/CraftsMan3D) | 823 | 2025-06-26T14:18:40Z | Python | Unknown | 4 | 0 | 4 | 4 |
+| [HKUST-SAIL/CraftsMan3D](https://github.com/HKUST-SAIL/CraftsMan3D) | 823 | 2025-06-26T14:18:40Z | Python | Unknown | 1 | 0 | 4 | 4 |
 | [huanngzh/ComfyUI-MVAdapter](https://github.com/huanngzh/ComfyUI-MVAdapter) | 471 | 2025-06-26T07:01:15Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [NVlabs/PartPacker](https://github.com/NVlabs/PartPacker) | 821 | 2025-06-26T06:12:24Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [EachSheep/ShortcutsBench](https://github.com/EachSheep/ShortcutsBench) | 112 | 2025-06-24T02:36:29Z | Python | Service/API | 5 | 0 | 5 | 5 |
@@ -347,7 +347,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [YanjieZe/Improved-3D-Diffusion-Policy](https://github.com/YanjieZe/Improved-3D-Diffusion-Policy) | 526 | 2025-06-16T06:52:49Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [MILVLG/prophet](https://github.com/MILVLG/prophet) | 278 | 2025-06-14T03:31:10Z | Python | Model/data | 7 | 0 | 7 | 7 |
 | [google/vroom](https://github.com/google/vroom) | 274 | 2025-06-12T15:30:34Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [VAST-AI-Research/MIDI-3D](https://github.com/VAST-AI-Research/MIDI-3D) | 929 | 2025-06-12T11:45:34Z | Python | Unknown | 3 | 0 | 3 | 3 |
+| [VAST-AI-Research/MIDI-3D](https://github.com/VAST-AI-Research/MIDI-3D) | 929 | 2025-06-12T11:45:34Z | Python | Unknown | 0 | 0 | 3 | 3 |
 | [LeCAR-Lab/HumanoidVerse](https://github.com/LeCAR-Lab/HumanoidVerse) | 447 | 2025-06-12T02:52:36Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [PJLab-ADG/PCSim](https://github.com/PJLab-ADG/PCSim) | 272 | 2025-06-12T02:39:50Z | Python | Library | 3 | 0 | 3 | 3 |
 | [ZhangXJ199/TinyLLaVA-Video](https://github.com/ZhangXJ199/TinyLLaVA-Video) | 111 | 2025-06-11T16:06:15Z | Python | Framework | 0 | 0 | 0 | 0 |
@@ -503,7 +503,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AgentOps-AI/Jaiqu](https://github.com/AgentOps-AI/Jaiqu) | 341 | 2025-03-14T23:48:21Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Shenyi-Z/ToCa](https://github.com/Shenyi-Z/ToCa) | 217 | 2025-03-14T09:09:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [PRIME-RL/ImplicitPRM](https://github.com/PRIME-RL/ImplicitPRM) | 172 | 2025-03-14T04:14:29Z | Python | Unknown | 1 | 0 | 1 | 1 |
-| [wemake-services/flake8-eradicate](https://github.com/wemake-services/flake8-eradicate) | 316 | 2025-03-14T02:08:22Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
+| [wemake-services/flake8-eradicate](https://github.com/wemake-services/flake8-eradicate) | 316 | 2025-03-14T02:08:22Z | Python | Infrastructure/tooling | 8 | 3 | 9 | 9 |
 | [aravindr93/mjrl](https://github.com/aravindr93/mjrl) | 458 | 2025-03-13T22:00:38Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [pengzhendong/streaming-sensevoice](https://github.com/pengzhendong/streaming-sensevoice) | 449 | 2025-03-13T10:43:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [xg-chu/GAGAvatar](https://github.com/xg-chu/GAGAvatar) | 583 | 2025-03-13T09:37:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -655,7 +655,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vikashplus/robohive](https://github.com/vikashplus/robohive) | 622 | 2024-11-26T04:10:28Z | Python | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [Adlith/MoE-Jetpack](https://github.com/Adlith/MoE-Jetpack) | 136 | 2024-11-23T02:25:59Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [AInseven/ComfyUI-fastblend](https://github.com/AInseven/ComfyUI-fastblend) | 231 | 2024-11-22T03:32:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [TiagoCortinhal/SalsaNext](https://github.com/TiagoCortinhal/SalsaNext) | 470 | 2024-11-20T20:13:02Z | Python | Infrastructure/tooling | 9 | 3 | 10 | 10 |
+| [TiagoCortinhal/SalsaNext](https://github.com/TiagoCortinhal/SalsaNext) | 470 | 2024-11-20T20:13:02Z | Python | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [TTPlanetPig/Comfyui_Object_Migration](https://github.com/TTPlanetPig/Comfyui_Object_Migration) | 783 | 2024-11-20T16:51:57Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [mallman/CoreMLaMa](https://github.com/mallman/CoreMLaMa) | 129 | 2024-11-19T18:03:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [wayveai/fiery](https://github.com/wayveai/fiery) | 606 | 2024-11-18T15:16:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1313,7 +1313,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Newbeeer/pfgmpp](https://github.com/Newbeeer/pfgmpp) | 384 | 2023-09-11T06:07:48Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [Executedone/Chinese-FastSpeech2](https://github.com/Executedone/Chinese-FastSpeech2) | 281 | 2023-09-10T03:05:15Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [dpfried/incoder](https://github.com/dpfried/incoder) | 313 | 2023-09-09T19:21:51Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [JIA-Lab-research/SparseTransformer](https://github.com/JIA-Lab-research/SparseTransformer) | 174 | 2023-09-06T07:16:14Z | Python | Unknown | 3 | 0 | 4 | 4 |
+| [JIA-Lab-research/SparseTransformer](https://github.com/JIA-Lab-research/SparseTransformer) | 174 | 2023-09-06T07:16:14Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [open-mmlab/mmfewshot](https://github.com/open-mmlab/mmfewshot) | 753 | 2023-09-05T13:13:14Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [Cogito2012/DEAR](https://github.com/Cogito2012/DEAR) | 132 | 2023-09-04T04:38:25Z | Python | Unknown | 8 | 0 | 8 | 8 |
 | [yzhangcs/parser](https://github.com/yzhangcs/parser) | 877 | 2023-09-03T15:25:43Z | Python | Infrastructure/tooling | 13 | 12 | 13 | 13 |
@@ -1423,7 +1423,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cocodataset/panopticapi](https://github.com/cocodataset/panopticapi) | 458 | 2023-06-09T09:14:02Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [megvii-research/TLC](https://github.com/megvii-research/TLC) | 253 | 2023-06-09T03:06:51Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [ddPn08/kohya-sd-scripts-webui](https://github.com/ddPn08/kohya-sd-scripts-webui) | 170 | 2023-06-08T23:46:03Z | Python | Unknown | 6 | 0 | 6 | 6 |
-| [JIA-Lab-research/SphereFormer](https://github.com/JIA-Lab-research/SphereFormer) | 366 | 2023-06-08T09:34:58Z | Python | Unknown | 6 | 0 | 8 | 8 |
+| [JIA-Lab-research/SphereFormer](https://github.com/JIA-Lab-research/SphereFormer) | 366 | 2023-06-08T09:34:58Z | Python | Unknown | 8 | 0 | 8 | 8 |
 | [aimansnigdha/Ambiguous-Medical-Image-Segmentation-using-Diffusion-Models](https://github.com/aimansnigdha/Ambiguous-Medical-Image-Segmentation-using-Diffusion-Models) | 215 | 2023-06-06T19:05:49Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [Newbeeer/Poisson_flow](https://github.com/Newbeeer/Poisson_flow) | 872 | 2023-06-06T15:52:42Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [JuliaWolleb/Diffusion-based-Segmentation](https://github.com/JuliaWolleb/Diffusion-based-Segmentation) | 317 | 2023-06-05T13:14:38Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -1431,8 +1431,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oobabooga/GPTQ-for-LLaMa](https://github.com/oobabooga/GPTQ-for-LLaMa) | 131 | 2023-06-03T13:54:49Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [zekunhao1995/DualSDF](https://github.com/zekunhao1995/DualSDF) | 141 | 2023-06-02T17:18:01Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [MASILab/3DUX-Net](https://github.com/MASILab/3DUX-Net) | 293 | 2023-06-01T19:27:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [JIA-Lab-research/FocalsConv](https://github.com/JIA-Lab-research/FocalsConv) | 393 | 2023-06-01T03:23:11Z | Python | Unknown | 4 | 0 | 5 | 5 |
-| [weaviate/semantic-search-through-wikipedia-with-weaviate](https://github.com/weaviate/semantic-search-through-wikipedia-with-weaviate) | 245 | 2023-05-31T17:25:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [JIA-Lab-research/FocalsConv](https://github.com/JIA-Lab-research/FocalsConv) | 393 | 2023-06-01T03:23:11Z | Python | Unknown | 5 | 0 | 5 | 5 |
+| [weaviate/semantic-search-through-wikipedia-with-weaviate](https://github.com/weaviate/semantic-search-through-wikipedia-with-weaviate) | 244 | 2023-05-31T17:25:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [azuritecoin/OnnxDiffusersUI](https://github.com/azuritecoin/OnnxDiffusersUI) | 190 | 2023-05-31T03:45:05Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [LAION-AI/CLIP-based-NSFW-Detector](https://github.com/LAION-AI/CLIP-based-NSFW-Detector) | 464 | 2023-05-30T21:06:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [OpenBMB/CPM-Live](https://github.com/OpenBMB/CPM-Live) | 501 | 2023-05-30T09:08:02Z | Python | Infrastructure/tooling | 9 | 2 | 9 | 9 |
@@ -1617,7 +1617,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clovaai/generative-evaluation-prdc](https://github.com/clovaai/generative-evaluation-prdc) | 272 | 2023-01-09T15:19:33Z | Python | Model/data | 13 | 0 | 13 | 13 |
 | [inspirai/TimeChamber](https://github.com/inspirai/TimeChamber) | 361 | 2023-01-09T04:57:12Z | Python | Framework | 5 | 0 | 5 | 5 |
 | [JIA-Lab-research/Stratified-Transformer](https://github.com/JIA-Lab-research/Stratified-Transformer) | 432 | 2023-01-07T14:19:05Z | Python | Unknown | 4 | 0 | 4 | 4 |
-| [blueaxis/Cloe](https://github.com/blueaxis/Cloe) | 150 | 2023-01-07T11:32:44Z | Python | Unknown | 3 | 0 | 4 | 4 |
+| [blueaxis/Cloe](https://github.com/blueaxis/Cloe) | 150 | 2023-01-07T11:32:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [aminrezaei0x443/memory-efficient-attention](https://github.com/AminRezaei0x443/memory-efficient-attention) | 184 | 2023-01-06T19:59:04Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [kuielab/mdx-net-submission](https://github.com/kuielab/mdx-net-submission) | 132 | 2023-01-06T05:55:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [JIA-Lab-research/spconv-plus](https://github.com/JIA-Lab-research/spconv-plus) | 164 | 2023-01-06T00:54:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1884,7 +1884,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AimeeLee77/wiki_zh_word2vec](https://github.com/AimeeLee77/wiki_zh_word2vec) | 524 | 2021-12-02T02:25:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [shawwn/openai-server](https://github.com/shawwn/openai-server) | 187 | 2021-11-30T22:46:56Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [researchmm/PEN-Net-for-Inpainting](https://github.com/researchmm/PEN-Net-for-Inpainting) | 361 | 2021-11-29T20:51:39Z | Python | Unknown | 4 | 0 | 4 | 4 |
-| [jeffffffli/res-loglikelihood-regression](https://github.com/jeffffffli/res-loglikelihood-regression) | 439 | 2021-11-25T03:47:29Z | Python | Unknown | 7 | 0 | 7 | 7 |
+| [jeffffffli/res-loglikelihood-regression](https://github.com/jeffffffli/res-loglikelihood-regression) | 439 | 2021-11-25T03:47:29Z | Python | Unknown | 5 | 0 | 7 | 7 |
 | [AlexiaJM/score_sde_fast_sampling](https://github.com/AlexiaJM/score_sde_fast_sampling) | 105 | 2021-11-20T21:59:57Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [CMU-Perceptual-Computing-Lab/openpose_train](https://github.com/CMU-Perceptual-Computing-Lab/openpose_train) | 613 | 2021-11-19T16:50:18Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [ThibaultGROUEIX/3D-CODED](https://github.com/ThibaultGROUEIX/3D-CODED) | 327 | 2021-11-18T16:26:14Z | Python | Unknown | 2 | 0 | 3 | 3 |
@@ -1968,7 +1968,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lioryariv/idr](https://github.com/lioryariv/idr) | 735 | 2021-07-05T08:32:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ChenRocks/UNITER](https://github.com/ChenRocks/UNITER) | 801 | 2021-06-30T21:46:55Z | Python | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [eldariont/svim](https://github.com/eldariont/svim) | 181 | 2021-06-29T11:30:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [carpedm20/multi-speaker-tacotron-tensorflow](https://github.com/carpedm20/multi-speaker-tacotron-tensorflow) | 630 | 2021-06-27T03:11:05Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -2025,7 +2024,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Lasagne/Recipes](https://github.com/Lasagne/Recipes) | 935 | 2022-10-15T18:54:49Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [kingbri1/flash-attention](https://github.com/kingbri1/flash-attention) | 933 | 2025-12-09T20:20:48Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [baal-org/baal](https://github.com/baal-org/baal) | 931 | 2025-12-03T21:18:11Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [VAST-AI-Research/MIDI-3D](https://github.com/VAST-AI-Research/MIDI-3D) | 929 | 2025-06-12T11:45:34Z | Python | Unknown | 3 | 0 | 3 | 3 |
+| [VAST-AI-Research/MIDI-3D](https://github.com/VAST-AI-Research/MIDI-3D) | 929 | 2025-06-12T11:45:34Z | Python | Unknown | 0 | 0 | 3 | 3 |
 | [dyhBUPT/StrongSORT](https://github.com/dyhBUPT/StrongSORT) | 929 | 2024-05-28T09:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hzwer/Practical-RIFE](https://github.com/hzwer/Practical-RIFE) | 927 | 2025-11-20T03:55:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [simonw/csvs-to-sqlite](https://github.com/simonw/csvs-to-sqlite) | 927 | 2025-04-10T17:00:54Z | Python | CLI | 7 | 3 | 7 | 7 |
@@ -2123,7 +2122,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bubbliiiing/yolov4-tiny-pytorch](https://github.com/bubbliiiing/yolov4-tiny-pytorch) | 828 | 2023-12-16T20:02:13Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [logpai/Drain3](https://github.com/logpai/Drain3) | 826 | 2025-02-04T02:49:05Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [Cloud-Architects/cloudiscovery](https://github.com/Cloud-Architects/cloudiscovery) | 825 | 2024-06-18T03:08:56Z | Python | CLI | 7 | 0 | 7 | 7 |
-| [HKUST-SAIL/CraftsMan3D](https://github.com/HKUST-SAIL/CraftsMan3D) | 823 | 2025-06-26T14:18:40Z | Python | Unknown | 4 | 0 | 4 | 4 |
+| [HKUST-SAIL/CraftsMan3D](https://github.com/HKUST-SAIL/CraftsMan3D) | 823 | 2025-06-26T14:18:40Z | Python | Unknown | 1 | 0 | 4 | 4 |
 | [haofanwang/Lora-for-Diffusers](https://github.com/haofanwang/Lora-for-Diffusers) | 823 | 2024-04-10T03:50:34Z | Python | Framework | 9 | 0 | 9 | 9 |
 | [snap-research/locomo](https://github.com/snap-research/locomo) | 822 | 2024-08-13T03:21:32Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [NVlabs/PartPacker](https://github.com/NVlabs/PartPacker) | 821 | 2025-06-26T06:12:24Z | Python | Unknown | 2 | 0 | 2 | 2 |
@@ -2365,7 +2364,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aharley/simple_bev](https://github.com/aharley/simple_bev) | 632 | 2023-08-28T03:07:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [kakaobrain/mindall-e](https://github.com/kakaobrain/mindall-e) | 632 | 2022-08-09T23:01:46Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [bowang-lab/MedSAM2](https://github.com/bowang-lab/MedSAM2) | 630 | 2025-07-11T22:49:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [carpedm20/multi-speaker-tacotron-tensorflow](https://github.com/carpedm20/multi-speaker-tacotron-tensorflow) | 630 | 2021-06-27T03:11:05Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [arielnlee/Platypus](https://github.com/arielnlee/Platypus) | 628 | 2024-02-04T09:50:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [wangjiangshan0725/RF-Solver-Edit](https://github.com/wangjiangshan0725/RF-Solver-Edit) | 627 | 2025-05-01T15:02:37Z | Python | Unknown | 8 | 0 | 8 | 8 |
 | [EPFL-VILAB/MultiMAE](https://github.com/EPFL-VILAB/MultiMAE) | 626 | 2022-12-13T12:47:30Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -2396,7 +2394,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sergeytulyakov/mocogan](https://github.com/sergeytulyakov/mocogan) | 602 | 2021-12-17T15:23:56Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [csslc/CCSR](https://github.com/csslc/CCSR) | 601 | 2025-07-17T14:53:44Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [aharley/pips](https://github.com/aharley/pips) | 599 | 2023-09-18T17:46:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [InternRobotics/Aether](https://github.com/InternRobotics/Aether) | 597 | 2025-10-26T10:10:32Z | Python | Model/data | 11 | 0 | 11 | 11 |
+| [InternRobotics/Aether](https://github.com/InternRobotics/Aether) | 597 | 2025-10-26T10:10:32Z | Python | Model/data | 9 | 0 | 11 | 11 |
 | [sail-sg/MDT](https://github.com/sail-sg/MDT) | 597 | 2024-04-23T18:53:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [p-lambda/wilds](https://github.com/p-lambda/wilds) | 597 | 2024-01-26T17:09:51Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [yeyupiaoling/AudioClassification-Pytorch](https://github.com/yeyupiaoling/AudioClassification-Pytorch) | 596 | 2025-12-17T13:09:08Z | Python | Model/data | 7 | 0 | 7 | 7 |
@@ -2615,7 +2613,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [huanngzh/ComfyUI-MVAdapter](https://github.com/huanngzh/ComfyUI-MVAdapter) | 471 | 2025-06-26T07:01:15Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [anyvoiceai/MassTTS](https://github.com/anyvoiceai/MassTTS) | 471 | 2024-01-05T11:06:08Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [deepbeepmeep/YuEGP](https://github.com/deepbeepmeep/YuEGP) | 470 | 2025-02-14T01:08:08Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [TiagoCortinhal/SalsaNext](https://github.com/TiagoCortinhal/SalsaNext) | 470 | 2024-11-20T20:13:02Z | Python | Infrastructure/tooling | 9 | 3 | 10 | 10 |
+| [TiagoCortinhal/SalsaNext](https://github.com/TiagoCortinhal/SalsaNext) | 470 | 2024-11-20T20:13:02Z | Python | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [YvanYin/VNL_Monocular_Depth_Prediction](https://github.com/YvanYin/VNL_Monocular_Depth_Prediction) | 470 | 2024-03-27T10:46:16Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [google/kernel-sanitizers](https://github.com/google/kernel-sanitizers) | 469 | 2025-04-14T20:48:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [mpc001/Visual_Speech_Recognition_for_Multiple_Languages](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages) | 469 | 2023-08-17T10:55:59Z | Python | Unknown | 2 | 0 | 2 | 2 |
@@ -2677,7 +2675,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cyrildiagne/screenpoint](https://github.com/cyrildiagne/screenpoint) | 441 | 2021-10-12T22:53:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [JingyunLiang/RVRT](https://github.com/JingyunLiang/RVRT) | 440 | 2022-10-10T09:22:49Z | Python | Docs/knowledge | 13 | 0 | 13 | 13 |
 | [autonomousvision/kitti360Scripts](https://github.com/autonomousvision/kitti360Scripts) | 439 | 2025-08-14T04:47:23Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [jeffffffli/res-loglikelihood-regression](https://github.com/jeffffffli/res-loglikelihood-regression) | 439 | 2021-11-25T03:47:29Z | Python | Unknown | 7 | 0 | 7 | 7 |
+| [jeffffffli/res-loglikelihood-regression](https://github.com/jeffffffli/res-loglikelihood-regression) | 439 | 2021-11-25T03:47:29Z | Python | Unknown | 5 | 0 | 7 | 7 |
 | [Mathux/ACTOR](https://github.com/Mathux/ACTOR) | 438 | 2022-01-21T09:15:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [KdaiP/StableTTS](https://github.com/KdaiP/StableTTS) | 437 | 2024-09-13T04:40:56Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [carolineec/informative-drawings](https://github.com/carolineec/informative-drawings) | 437 | 2024-09-01T02:51:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -2797,7 +2795,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [minar09/cp-vton-plus](https://github.com/minar09/cp-vton-plus) | 393 | 2025-05-08T08:14:15Z | Python | Unknown | 11 | 0 | 12 | 12 |
 | [csuhan/s2anet](https://github.com/csuhan/s2anet) | 393 | 2024-12-15T12:36:37Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [nico/demumble](https://github.com/nico/demumble) | 393 | 2024-08-06T02:00:21Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [JIA-Lab-research/FocalsConv](https://github.com/JIA-Lab-research/FocalsConv) | 393 | 2023-06-01T03:23:11Z | Python | Unknown | 4 | 0 | 5 | 5 |
+| [JIA-Lab-research/FocalsConv](https://github.com/JIA-Lab-research/FocalsConv) | 393 | 2023-06-01T03:23:11Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [jiawei-ren/BalancedMSE](https://github.com/jiawei-ren/BalancedMSE) | 393 | 2022-07-28T13:51:32Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [yet-another-account/openwebtext](https://github.com/yet-another-account/openwebtext) | 392 | 2024-03-26T15:33:13Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [universome/stylegan-v](https://github.com/universome/stylegan-v) | 392 | 2023-04-19T12:28:11Z | Python | Unknown | 5 | 0 | 5 | 5 |
@@ -2833,7 +2831,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cvlab-epfl/disk](https://github.com/cvlab-epfl/disk) | 376 | 2023-12-15T10:17:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [EdinburghNLP/XSum](https://github.com/EdinburghNLP/XSum) | 376 | 2023-06-20T05:34:06Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [jind11/MedQA](https://github.com/jind11/MedQA) | 376 | 2022-12-01T18:23:49Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [worldbench/Robo3D](https://github.com/worldbench/Robo3D) | 375 | 2025-12-06T11:05:24Z | Python | Unknown | 3 | 0 | 4 | 4 |
+| [worldbench/Robo3D](https://github.com/worldbench/Robo3D) | 375 | 2025-12-06T11:05:24Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [KellerJordan/cifar10-airbench](https://github.com/KellerJordan/cifar10-airbench) | 375 | 2025-11-15T22:31:56Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [LeapLabTHU/MLLA](https://github.com/LeapLabTHU/MLLA) | 375 | 2025-07-11T05:31:43Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [dingmyu/davit](https://github.com/dingmyu/davit) | 375 | 2024-02-13T09:59:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -2852,7 +2850,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OpenBMB/UltraFeedback](https://github.com/OpenBMB/UltraFeedback) | 367 | 2023-12-29T16:39:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [neulab/ExplainaBoard](https://github.com/neulab/ExplainaBoard) | 367 | 2023-03-10T13:39:00Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [wzhouxiff/RestoreFormer](https://github.com/wzhouxiff/RestoreFormer) | 366 | 2024-06-10T02:03:41Z | Python | Unknown | 4 | 0 | 4 | 4 |
-| [JIA-Lab-research/SphereFormer](https://github.com/JIA-Lab-research/SphereFormer) | 366 | 2023-06-08T09:34:58Z | Python | Unknown | 6 | 0 | 8 | 8 |
+| [JIA-Lab-research/SphereFormer](https://github.com/JIA-Lab-research/SphereFormer) | 366 | 2023-06-08T09:34:58Z | Python | Unknown | 8 | 0 | 8 | 8 |
 | [voletiv/mcvd-pytorch](https://github.com/voletiv/mcvd-pytorch) | 366 | 2022-09-22T21:30:01Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/UniVL](https://github.com/microsoft/UniVL) | 365 | 2024-07-25T11:07:33Z | Python | Model/data | 18 | 0 | 18 | 18 |
 | [AaronZ345/GTSinger](https://github.com/AaronZ345/GTSinger) | 364 | 2025-08-15T14:41:24Z | Python | Model/data | 9 | 0 | 9 | 9 |
@@ -2988,7 +2986,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hongsukchoi/TCMR_RELEASE](https://github.com/hongsukchoi/TCMR_RELEASE) | 317 | 2023-04-18T21:19:05Z | Python | Unknown | 3 | 0 | 6 | 6 |
 | [JizhiziLi/P3M](https://github.com/JizhiziLi/P3M) | 317 | 2023-04-13T04:03:00Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [AnonymouX47/term-image](https://github.com/AnonymouX47/term-image) | 316 | 2025-11-24T16:48:47Z | Python | CLI | 16 | 4 | 16 | 16 |
-| [wemake-services/flake8-eradicate](https://github.com/wemake-services/flake8-eradicate) | 316 | 2025-03-14T02:08:22Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
+| [wemake-services/flake8-eradicate](https://github.com/wemake-services/flake8-eradicate) | 316 | 2025-03-14T02:08:22Z | Python | Infrastructure/tooling | 8 | 3 | 9 | 9 |
 | [Beckschen/3D-TransUNet](https://github.com/Beckschen/3D-TransUNet) | 316 | 2024-07-26T22:38:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [facebookresearch/dropout](https://github.com/facebookresearch/dropout) | 316 | 2023-05-06T08:27:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [lzx551402/ASLFeat](https://github.com/lzx551402/ASLFeat) | 316 | 2023-04-12T14:36:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -3248,10 +3246,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [barisgecer/TBGAN](https://github.com/barisgecer/TBGAN) | 246 | 2021-10-28T11:05:41Z | Python | Unknown | 3 | 0 | 4 | 4 |
 | [dschep/lambda-decorators](https://github.com/dschep/lambda-decorators) | 245 | 2025-03-06T18:32:36Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [pyro-ppl/funsor](https://github.com/pyro-ppl/funsor) | 245 | 2023-08-31T18:37:21Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [weaviate/semantic-search-through-wikipedia-with-weaviate](https://github.com/weaviate/semantic-search-through-wikipedia-with-weaviate) | 245 | 2023-05-31T17:25:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [xuanyuzhou98/SqueezeSegV2](https://github.com/xuanyuzhou98/SqueezeSegV2) | 245 | 2023-03-24T22:28:00Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [timothybrooks/unprocessing](https://github.com/timothybrooks/unprocessing) | 245 | 2022-07-25T12:07:19Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aimhubio/aimlflow](https://github.com/aimhubio/aimlflow) | 244 | 2023-07-17T10:23:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [weaviate/semantic-search-through-wikipedia-with-weaviate](https://github.com/weaviate/semantic-search-through-wikipedia-with-weaviate) | 244 | 2023-05-31T17:25:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [baegwangbin/surface_normal_uncertainty](https://github.com/baegwangbin/surface_normal_uncertainty) | 244 | 2022-08-18T15:06:49Z | Python | Unknown | 8 | 0 | 9 | 9 |
 | [ritzz-ai/GUI-R1](https://github.com/ritzz-ai/GUI-R1) | 243 | 2025-05-05T14:44:21Z | Python | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [zengwang430521/TCFormer](https://github.com/zengwang430521/TCFormer) | 243 | 2024-08-03T03:48:43Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -3322,7 +3320,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marin-community/haliax](https://github.com/marin-community/haliax) | 223 | 2025-11-08T16:47:50Z | Python | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [huxiuhan/ComfyUI-InstantID](https://github.com/huxiuhan/ComfyUI-InstantID) | 223 | 2024-07-18T04:12:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [brentspell/hifi-gan-bwe](https://github.com/brentspell/hifi-gan-bwe) | 223 | 2023-10-20T20:10:03Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [huanngzh/bpy-renderer](https://github.com/huanngzh/bpy-renderer) | 222 | 2025-08-24T15:37:14Z | Python | Library | 3 | 0 | 3 | 3 |
+| [huanngzh/bpy-renderer](https://github.com/huanngzh/bpy-renderer) | 222 | 2025-08-24T15:37:14Z | Python | Library | 2 | 0 | 3 | 3 |
 | [rom1504/laion-prepro](https://github.com/rom1504/laion-prepro) | 222 | 2024-05-26T20:36:40Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [EuphoriaYan/zi2zi-pytorch](https://github.com/EuphoriaYan/zi2zi-pytorch) | 222 | 2024-04-07T07:27:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aim-uofa/GenPercept](https://github.com/aim-uofa/GenPercept) | 221 | 2025-01-24T06:32:19Z | Python | Model/data | 9 | 0 | 9 | 9 |
@@ -3500,7 +3498,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SwinTransformer/MIM-Depth-Estimation](https://github.com/SwinTransformer/MIM-Depth-Estimation) | 175 | 2023-03-27T05:03:49Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [if-ai/ComfyUI-IF_MemoAvatar](https://github.com/if-ai/ComfyUI-IF_MemoAvatar) | 174 | 2025-03-09T09:28:07Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [clovaai/rebias](https://github.com/clovaai/rebias) | 174 | 2024-07-25T10:17:00Z | Python | Unknown | 9 | 0 | 9 | 9 |
-| [JIA-Lab-research/SparseTransformer](https://github.com/JIA-Lab-research/SparseTransformer) | 174 | 2023-09-06T07:16:14Z | Python | Unknown | 3 | 0 | 4 | 4 |
+| [JIA-Lab-research/SparseTransformer](https://github.com/JIA-Lab-research/SparseTransformer) | 174 | 2023-09-06T07:16:14Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [xinjli/transphone](https://github.com/xinjli/transphone) | 174 | 2023-06-09T20:47:17Z | Python | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [bojone/t5_in_bert4keras](https://github.com/bojone/t5_in_bert4keras) | 174 | 2022-03-04T08:52:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [italojs/facial-landmarks-recognition](https://github.com/italojs/facial-landmarks-recognition) | 173 | 2025-04-08T14:17:43Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -3574,13 +3572,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ExponentialML/ComfyUI_ELLA](https://github.com/ExponentialML/ComfyUI_ELLA) | 162 | 2024-04-27T19:12:14Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [THUIR/T2Ranking](https://github.com/THUIR/T2Ranking) | 162 | 2023-07-03T08:47:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ashleysommer/sanic-cors](https://github.com/ashleysommer/sanic-cors) | 162 | 2023-01-30T14:51:08Z | Python | Unknown | 4 | 0 | 7 | 7 |
+| [fkiliver/RPGMaker_LLM_Translator](https://github.com/fkiliver/RPGMaker_LLM_Translator) | 161 | 2025-09-27T08:48:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hongsukchoi/3DCrowdNet_RELEASE](https://github.com/hongsukchoi/3DCrowdNet_RELEASE) | 161 | 2024-07-08T07:08:49Z | Python | Unknown | 4 | 0 | 6 | 6 |
 | [continue-revolution/sd-forge-animatediff](https://github.com/continue-revolution/sd-forge-animatediff) | 161 | 2024-03-21T08:40:48Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [DaDaMrX/ReaLiSe](https://github.com/DaDaMrX/ReaLiSe) | 161 | 2023-09-21T03:39:28Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [clayrisser/sphinx-markdown-builder](https://github.com/clayrisser/sphinx-markdown-builder) | 161 | 2023-06-24T21:25:39Z | Python | Unknown | 6 | 0 | 7 | 7 |
 | [xuannianz/DifferentiableBinarization](https://github.com/xuannianz/DifferentiableBinarization) | 161 | 2022-11-22T04:38:57Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [Kaliiiiiiiiii-Vinyzu/CDP-Patches](https://github.com/Kaliiiiiiiiii-Vinyzu/CDP-Patches) | 160 | 2025-09-28T08:30:24Z | Python | Infrastructure/tooling | 16 | 3 | 16 | 16 |
-| [fkiliver/RPGMaker_LLM_Translator](https://github.com/fkiliver/RPGMaker_LLM_Translator) | 160 | 2025-09-27T08:48:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [declare-lab/jamify](https://github.com/declare-lab/jamify) | 160 | 2025-08-07T09:01:15Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [McGill-NLP/weblinx](https://github.com/McGill-NLP/weblinx) | 160 | 2025-02-11T22:11:50Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [feizc/DiS](https://github.com/feizc/DiS) | 160 | 2024-03-07T08:46:00Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -3629,7 +3627,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chenyangMl/llama2.c-zh](https://github.com/chenyangMl/llama2.c-zh) | 150 | 2024-02-27T14:46:11Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [bubbliiiing/efficientnet-yolo3-pytorch](https://github.com/bubbliiiing/efficientnet-yolo3-pytorch) | 150 | 2023-10-03T22:49:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [YuanGongND/psla](https://github.com/YuanGongND/psla) | 150 | 2023-07-13T09:11:43Z | Python | Unknown | 3 | 0 | 3 | 3 |
-| [blueaxis/Cloe](https://github.com/blueaxis/Cloe) | 150 | 2023-01-07T11:32:44Z | Python | Unknown | 3 | 0 | 4 | 4 |
+| [blueaxis/Cloe](https://github.com/blueaxis/Cloe) | 150 | 2023-01-07T11:32:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [stefanha/git-publish](https://github.com/stefanha/git-publish) | 149 | 2025-09-18T13:23:53Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mulanai/MuLan](https://github.com/mulanai/MuLan) | 149 | 2025-01-24T05:20:42Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [yl4579/PitchExtractor](https://github.com/yl4579/PitchExtractor) | 149 | 2022-08-22T18:26:22Z | Python | Unknown | 3 | 0 | 3 | 3 |

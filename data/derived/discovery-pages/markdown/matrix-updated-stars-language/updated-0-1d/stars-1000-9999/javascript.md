@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 32
-- components: 185
-- concepts: 32
-- observations: 32
+- repos: 3
+- terms: 50
+- components: 240
+- concepts: 50
+- observations: 50
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [endojs/endo](https://github.com/endojs/endo) | 1028 | 2026-06-26T00:45:30Z | JavaScript | Infrastructure/tooling | 18 | 55 | 18 | 18 |
 | [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5346 | 2026-06-25T13:42:06Z | JavaScript | Infrastructure/tooling | 19 | 12 | 19 | 19 |
 | [module-federation/core](https://github.com/module-federation/core) | 2558 | 2026-06-25T10:04:40Z | JavaScript | Infrastructure/tooling | 13 | 173 | 13 | 13 |
 
@@ -35,3 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5346 | 2026-06-25T13:42:06Z | JavaScript | Infrastructure/tooling | 19 | 12 | 19 | 19 |
 | [module-federation/core](https://github.com/module-federation/core) | 2558 | 2026-06-25T10:04:40Z | JavaScript | Infrastructure/tooling | 13 | 173 | 13 | 13 |
+| [endojs/endo](https://github.com/endojs/endo) | 1028 | 2026-06-26T00:45:30Z | JavaScript | Infrastructure/tooling | 18 | 55 | 18 | 18 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 412,
-    "concepts": 128,
-    "observations": 130,
-    "repos": 27,
-    "terms": 128
+    "components": 368,
+    "concepts": 121,
+    "observations": 123,
+    "repos": 25,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
-    "AdguardTeam/FiltersCompiler",
     "alangdm/helium-animated-pages",
     "apache/doris-opentelemetry-demo",
     "apollographql/connectors-community",
@@ -29,7 +28,6 @@
     "hyparam/squirreling",
     "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
-    "j9t/obsohtml",
     "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",

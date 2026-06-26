@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5998,
-    "concepts": 1207,
-    "observations": 1209,
-    "repos": 136,
-    "terms": 1199
+    "components": 5975,
+    "concepts": 1199,
+    "observations": 1201,
+    "repos": 135,
+    "terms": 1191
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -40,7 +40,6 @@
     "callstack/react-native-testing-library",
     "can1357/oh-my-pi",
     "carbon-design-system/carbon-components-svelte",
-    "Chevrotain/chevrotain",
     "chhoumann/quickadd",
     "ChromeDevTools/devtools-protocol",
     "cloudflare/workers-sdk",

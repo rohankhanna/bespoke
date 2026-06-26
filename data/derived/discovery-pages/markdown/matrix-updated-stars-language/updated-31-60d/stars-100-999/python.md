@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 154
-- terms: 880
-- components: 934
-- concepts: 884
-- observations: 888
+- repos: 153
+- terms: 879
+- components: 926
+- concepts: 883
+- observations: 887
 
 ## Static behavior
 
@@ -179,7 +179,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/airflow-client-python](https://github.com/apache/airflow-client-python) | 459 | 2026-04-27T12:30:04Z | Python | CLI | 5 | 4 | 5 | 5 |
 | [Kludex/python-multipart](https://github.com/Kludex/python-multipart) | 489 | 2026-04-27T10:51:04Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [googlefonts/googlefonts-project-template](https://github.com/googlefonts/googlefonts-project-template) | 185 | 2026-04-27T10:25:48Z | Python | Infrastructure/tooling | 1 | 8 | 1 | 1 |
-| [i2rt-robotics/i2rt](https://github.com/i2rt-robotics/i2rt) | 102 | 2026-04-27T07:18:34Z | Python | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -337,5 +336,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [galaxyproject/planemo](https://github.com/galaxyproject/planemo) | 107 | 2026-04-28T06:09:18Z | Python | CLI | 5 | 6 | 5 | 5 |
 | [kubeflow/sdk](https://github.com/kubeflow/sdk) | 105 | 2026-04-29T20:43:32Z | Python | Infrastructure/tooling | 18 | 12 | 18 | 18 |
 | [GStreamer/cerbero](https://github.com/GStreamer/cerbero) | 103 | 2026-05-14T09:29:47Z | Python | Library | 0 | 0 | 0 | 0 |
-| [i2rt-robotics/i2rt](https://github.com/i2rt-robotics/i2rt) | 102 | 2026-04-27T07:18:34Z | Python | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [nod-ai/AMD-SHARK-ModelDev](https://github.com/nod-ai/AMD-SHARK-ModelDev) | 100 | 2026-05-08T16:45:50Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |

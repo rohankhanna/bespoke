@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 205
-- terms: 1140
-- components: 578
-- concepts: 1151
-- observations: 1151
+- repos: 206
+- terms: 1141
+- components: 582
+- concepts: 1152
+- observations: 1152
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [django/channels](https://github.com/django/channels) | 6342 | 2026-03-28T06:36:00Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [tensorflow/datasets](https://github.com/tensorflow/datasets) | 4558 | 2026-03-27T23:40:01Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [inducer/pycuda](https://github.com/inducer/pycuda) | 2039 | 2026-03-27T19:17:38Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [docarray/docarray](https://github.com/docarray/docarray) | 3122 | 2026-03-27T16:19:09Z | Python | Infrastructure/tooling | 22 | 18 | 22 | 22 |
@@ -52,7 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dolfies/discord.py-self](https://github.com/dolfies/discord.py-self) | 1135 | 2026-03-23T08:14:58Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | 6150 | 2026-03-23T06:17:21Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [pytest-dev/pytest-cov](https://github.com/pytest-dev/pytest-cov) | 2031 | 2026-03-21T20:11:13Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [TencentCloudADP/youtu-agent](https://github.com/TencentCloudADP/youtu-agent) | 4575 | 2026-03-21T07:18:28Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [TencentCloudADP/youtu-agent](https://github.com/TencentCloudADP/youtu-agent) | 4576 | 2026-03-21T07:18:28Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [explosion/spacy-models](https://github.com/explosion/spacy-models) | 1860 | 2026-03-20T10:26:17Z | Python | Library | 7 | 0 | 7 | 7 |
 | [jiaaro/pydub](https://github.com/jiaaro/pydub) | 9757 | 2026-03-19T21:32:30Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [AgentOps-AI/agentops](https://github.com/AgentOps-AI/agentops) | 5512 | 2026-03-19T18:37:57Z | Python | Infrastructure/tooling | 18 | 12 | 18 | 18 |
@@ -60,7 +61,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sierra-research/tau-bench](https://github.com/sierra-research/tau-bench) | 1187 | 2026-03-18T17:36:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d) | 9862 | 2026-03-18T17:12:51Z | Python | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [shareai-lab/claw0](https://github.com/shareAI-lab/claw0) | 2231 | 2026-03-18T10:58:44Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | 3073 | 2026-03-18T08:33:07Z | Python | Unknown | 5 | 0 | 5 | 5 |
+| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | 3075 | 2026-03-18T08:33:07Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [open-mmlab/mmaction2](https://github.com/open-mmlab/mmaction2) | 4997 | 2026-03-18T04:04:49Z | Python | Infrastructure/tooling | 15 | 5 | 15 | 15 |
 | [bambinos/bambi](https://github.com/bambinos/bambi) | 1256 | 2026-03-17T22:41:59Z | Python | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [miolini/autoresearch-macos](https://github.com/miolini/autoresearch-macos) | 2011 | 2026-03-17T22:39:09Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -258,6 +259,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 6962 | 2026-03-13T13:46:54Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer) | 6512 | 2026-01-14T15:00:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [open-mmlab/mmcv](https://github.com/open-mmlab/mmcv) | 6438 | 2026-01-29T17:08:43Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [django/channels](https://github.com/django/channels) | 6342 | 2026-03-28T06:36:00Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) | 6335 | 2026-02-22T13:18:05Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [ufoym/deepo](https://github.com/ufoym/deepo) | 6278 | 2026-03-25T15:09:36Z | Python | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | 6150 | 2026-03-23T06:17:21Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -277,7 +279,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [remsky/Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) | 4807 | 2026-01-04T07:52:12Z | Python | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [qix-/better-exceptions](https://github.com/Qix-/better-exceptions) | 4729 | 2026-02-25T14:28:08Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [offu/WeRoBot](https://github.com/offu/WeRoBot) | 4666 | 2026-01-13T10:35:47Z | Python | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [TencentCloudADP/youtu-agent](https://github.com/TencentCloudADP/youtu-agent) | 4575 | 2026-03-21T07:18:28Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [TencentCloudADP/youtu-agent](https://github.com/TencentCloudADP/youtu-agent) | 4576 | 2026-03-21T07:18:28Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [turboderp-org/exllamav2](https://github.com/turboderp-org/exllamav2) | 4567 | 2026-03-04T13:12:20Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [tensorflow/datasets](https://github.com/tensorflow/datasets) | 4558 | 2026-03-27T23:40:01Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [cvg/LightGlue](https://github.com/cvg/LightGlue) | 4502 | 2026-02-18T12:45:19Z | Python | Infrastructure/tooling | 5 | 2 | 5 | 5 |
@@ -313,7 +315,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docarray/docarray](https://github.com/docarray/docarray) | 3122 | 2026-03-27T16:19:09Z | Python | Infrastructure/tooling | 22 | 18 | 22 | 22 |
 | [webdataset/webdataset](https://github.com/webdataset/webdataset) | 3122 | 2026-02-09T14:48:08Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [NVIDIA/ChatRTX](https://github.com/NVIDIA/ChatRTX) | 3121 | 2026-01-21T07:16:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | 3073 | 2026-03-18T08:33:07Z | Python | Unknown | 5 | 0 | 5 | 5 |
+| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | 3075 | 2026-03-18T08:33:07Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) | 3036 | 2026-03-14T21:20:37Z | Python | CLI | 12 | 11 | 12 | 12 |
 | [chflame163/ComfyUI_LayerStyle](https://github.com/chflame163/ComfyUI_LayerStyle) | 3009 | 2026-01-30T06:31:48Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [tensorflow/agents](https://github.com/tensorflow/agents) | 3007 | 2026-01-16T22:49:15Z | Python | Library | 7 | 0 | 7 | 7 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 10,
-    "terms": 113
+    "components": 134,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 13,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
+    "eclipse-paho/paho.mqtt.python",
+    "fla-org/flash-linear-attention",
     "harbor-framework/harbor",
+    "JuergenFleiss/aTrain",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "modelscope/FunClip",

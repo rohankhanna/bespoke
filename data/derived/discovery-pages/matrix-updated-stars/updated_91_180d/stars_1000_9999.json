@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5985,
-    "concepts": 4146,
-    "observations": 4157,
-    "repos": 780,
-    "terms": 4142
+    "components": 5989,
+    "concepts": 4147,
+    "observations": 4158,
+    "repos": 781,
+    "terms": 4143
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -217,6 +217,7 @@
     "DigitalPhonetics/IMS-Toucan",
     "dimitri/el-get",
     "django/asgiref",
+    "django/channels",
     "DLYuanGod/TinyGPT-V",
     "dmayboroda/minima",
     "docarray/docarray",

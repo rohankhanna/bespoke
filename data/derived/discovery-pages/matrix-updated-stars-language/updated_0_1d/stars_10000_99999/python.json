@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 230,
-    "concepts": 202,
-    "observations": 203,
-    "repos": 14,
-    "terms": 202
+    "components": 291,
+    "concepts": 240,
+    "observations": 241,
+    "repos": 17,
+    "terms": 237
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
+    "axolotl-ai-cloud/axolotl",
     "Dao-AILab/flash-attention",
     "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
     "fossasia/visdom",
     "hiyouga/LlamaFactory",
+    "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "jax-ml/jax",
+    "Lightning-AI/litgpt",
     "modelscope/FunASR",
-    "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
     "OpenHands/OpenHands",
+    "pydantic/pydantic",
     "qubvel-org/segmentation_models.pytorch",
     "TEN-framework/ten-framework",
     "verl-project/verl"

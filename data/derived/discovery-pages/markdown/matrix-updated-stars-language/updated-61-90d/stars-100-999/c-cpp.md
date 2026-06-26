@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -192,7 +192,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [g-truc/gli](https://github.com/g-truc/gli) | 588 | 2026-04-05T09:51:25Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [tpoechtrager/apple-libtapi](https://github.com/tpoechtrager/apple-libtapi) | 102 | 2026-04-05T08:33:49Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [afbjorklund/lima-gui](https://github.com/afbjorklund/lima-gui) | 238 | 2026-04-04T07:58:23Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [mikolmogorov/Flye](https://github.com/mikolmogorov/Flye) | 940 | 2026-04-03T20:56:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [mikolmogorov/Flye](https://github.com/mikolmogorov/Flye) | 941 | 2026-04-03T20:56:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ptsochantaris/emeltal](https://github.com/ptsochantaris/emeltal) | 188 | 2026-04-03T17:09:24Z | C/C++ | Model/data | 9 | 0 | 9 | 9 |
 | [tpoechtrager/cctools-port](https://github.com/tpoechtrager/cctools-port) | 791 | 2026-04-03T15:20:57Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mybigday/whisper.rn](https://github.com/mybigday/whisper.rn) | 763 | 2026-04-03T10:12:17Z | C/C++ | Infrastructure/tooling | 5 | 27 | 5 | 5 |
@@ -231,7 +231,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/WindowsAppSDK-Samples](https://github.com/microsoft/WindowsAppSDK-Samples) | 960 | 2026-04-24T09:10:47Z | C/C++ | Library | 7 | 0 | 7 | 7 |
 | [jupyter-xeus/xeus](https://github.com/jupyter-xeus/xeus) | 960 | 2026-04-16T08:08:08Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [ghostty-org/ghostling](https://github.com/ghostty-org/ghostling) | 957 | 2026-04-06T20:06:21Z | C/C++ | CLI | 1 | 4 | 1 | 1 |
-| [mikolmogorov/Flye](https://github.com/mikolmogorov/Flye) | 940 | 2026-04-03T20:56:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [mikolmogorov/Flye](https://github.com/mikolmogorov/Flye) | 941 | 2026-04-03T20:56:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [luvit/luv](https://github.com/luvit/luv) | 928 | 2026-04-18T22:36:34Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [microsoft/UVAtlas](https://github.com/microsoft/UVAtlas) | 924 | 2026-04-22T19:30:49Z | C/C++ | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [mybigday/llama.rn](https://github.com/mybigday/llama.rn) | 917 | 2026-04-17T11:15:40Z | C/C++ | Infrastructure/tooling | 8 | 32 | 8 | 8 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 21
-- components: 154
-- concepts: 21
-- observations: 22
+- repos: 3
+- terms: 29
+- components: 398
+- concepts: 29
+- observations: 30
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 40624 | 2026-06-12T08:17:17Z | TypeScript | CLI | 8 | 244 | 8 | 8 |
 | [Redocly/redoc](https://github.com/Redocly/redoc) | 25775 | 2026-05-29T11:12:07Z | TypeScript | Infrastructure/tooling | 16 | 107 | 16 | 17 |
 | [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12188 | 2026-05-28T21:29:54Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 
@@ -33,5 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 40624 | 2026-06-12T08:17:17Z | TypeScript | CLI | 8 | 244 | 8 | 8 |
 | [Redocly/redoc](https://github.com/Redocly/redoc) | 25775 | 2026-05-29T11:12:07Z | TypeScript | Infrastructure/tooling | 16 | 107 | 16 | 17 |
 | [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12188 | 2026-05-28T21:29:54Z | TypeScript | CLI | 5 | 47 | 5 | 5 |

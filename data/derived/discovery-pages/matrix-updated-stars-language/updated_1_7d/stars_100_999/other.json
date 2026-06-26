@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 130,
-    "observations": 131,
-    "repos": 17,
-    "terms": 129
+    "components": 165,
+    "concepts": 120,
+    "observations": 121,
+    "repos": 16,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "Artoriuz/ArtCNN",
@@ -24,7 +24,6 @@
     "fsprojects/FSharp.Data.GraphQL",
     "fw-ai/cookbook",
     "grpc/grpc-dart",
-    "karafka/rdkafka-ruby",
     "meshcat-dev/meshcat",
     "redis/redis-om-dotnet",
     "ROCm/hipBLASLt",

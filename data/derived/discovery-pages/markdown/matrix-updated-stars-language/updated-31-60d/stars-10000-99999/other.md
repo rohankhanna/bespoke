@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 72
-- terms: 751
-- components: 965
-- concepts: 757
-- observations: 759
+- repos: 71
+- terms: 737
+- components: 948
+- concepts: 743
+- observations: 745
 
 ## Static behavior
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18380 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18379 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) | 12895 | 2026-05-19T08:08:12Z | Other | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) | 19057 | 2026-05-15T11:05:10Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 13641 | 2026-05-14T20:42:44Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
@@ -97,7 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bitcoin/bips](https://github.com/bitcoin/bips) | 10744 | 2026-04-27T15:01:58Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [square/okhttp](https://github.com/square/okhttp) | 46944 | 2026-04-27T14:09:04Z | Other | CLI | 8 | 12 | 8 | 8 |
 | [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) | 24038 | 2026-04-27T14:01:34Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [swagger-api/swagger-codegen](https://github.com/swagger-api/swagger-codegen) | 17736 | 2026-04-27T07:15:19Z | Other | CLI | 14 | 17 | 14 | 14 |
 
 ## Repos sorted by stars
 
@@ -135,10 +134,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gradle/gradle](https://github.com/gradle/gradle) | 18526 | 2026-04-30T09:14:26Z | Other | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [bitwarden/server](https://github.com/bitwarden/server) | 18510 | 2026-04-29T19:45:59Z | Other | Infrastructure/tooling | 17 | 24 | 17 | 17 |
 | [kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray) | 18448 | 2026-05-04T05:33:50Z | Other | Infrastructure/tooling | 9 | 7 | 9 | 9 |
-| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18380 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18379 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [nim-lang/Nim](https://github.com/nim-lang/Nim) | 17956 | 2026-04-29T12:47:54Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) | 17949 | 2026-04-27T17:09:10Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [swagger-api/swagger-codegen](https://github.com/swagger-api/swagger-codegen) | 17736 | 2026-04-27T07:15:19Z | Other | CLI | 14 | 17 | 14 | 14 |
 | [apache/apisix](https://github.com/apache/apisix) | 16521 | 2026-04-29T15:10:06Z | Other | Infrastructure/tooling | 26 | 8 | 26 | 26 |
 | [tiann/KernelSU](https://github.com/tiann/KernelSU) | 16218 | 2026-05-02T11:33:51Z | Other | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [MaterialDesignInXAML/MaterialDesignInXamlToolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit) | 16130 | 2026-05-01T07:31:54Z | Other | Infrastructure/tooling | 18 | 7 | 18 | 18 |

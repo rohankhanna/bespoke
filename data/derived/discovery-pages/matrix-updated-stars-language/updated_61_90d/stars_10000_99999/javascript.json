@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3088,
-    "concepts": 550,
-    "observations": 553,
-    "repos": 74,
-    "terms": 554
+    "components": 3096,
+    "concepts": 558,
+    "observations": 561,
+    "repos": 75,
+    "terms": 562
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -43,6 +43,7 @@
     "hapijs/hapi",
     "hapijs/joi",
     "http-party/http-server",
+    "huggingface/transformers.js",
     "iamkun/dayjs",
     "immerjs/immer",
     "infernojs/inferno",

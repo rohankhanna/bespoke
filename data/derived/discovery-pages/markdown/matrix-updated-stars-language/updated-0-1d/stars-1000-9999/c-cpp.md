@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 33
-- components: 18
-- concepts: 33
-- observations: 33
+- repos: 4
+- terms: 35
+- components: 22
+- concepts: 35
+- observations: 35
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1392 | 2026-06-25T23:54:48Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2653 | 2026-06-25T20:51:03Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5862 | 2026-06-25T14:17:57Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 | [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1277 | 2026-06-25T11:14:58Z | C/C++ | Library | 5 | 0 | 5 | 5 |
@@ -36,4 +37,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5862 | 2026-06-25T14:17:57Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 | [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2653 | 2026-06-25T20:51:03Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1392 | 2026-06-25T23:54:48Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1277 | 2026-06-25T11:14:58Z | C/C++ | Library | 5 | 0 | 5 | 5 |

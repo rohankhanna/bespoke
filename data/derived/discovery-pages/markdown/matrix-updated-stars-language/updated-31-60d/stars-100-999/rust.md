@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 89
-- terms: 614
-- components: 872
-- concepts: 618
-- observations: 622
+- repos: 86
+- terms: 604
+- components: 856
+- concepts: 608
+- observations: 612
 
 ## Static behavior
 
@@ -112,9 +112,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mongodb/bson-rust](https://github.com/mongodb/bson-rust) | 457 | 2026-04-27T11:18:46Z | Rust | Infrastructure/tooling | 7 | 3 | 8 | 8 |
 | [testcontainers/testcontainers-rs-modules-community](https://github.com/testcontainers/testcontainers-rs-modules-community) | 165 | 2026-04-27T11:05:00Z | Rust | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [Yatekii/imgui-wgpu-rs](https://github.com/Yatekii/imgui-wgpu-rs) | 290 | 2026-04-27T09:27:29Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [udoprog/genco](https://github.com/udoprog/genco) | 206 | 2026-04-27T07:29:12Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [rust-lang/compiler-builtins](https://github.com/rust-lang/compiler-builtins) | 490 | 2026-04-27T07:22:11Z | Rust | Infrastructure/tooling | 2 | 9 | 2 | 2 |
-| [JanLikar/cargo-clone](https://github.com/JanLikar/cargo-clone) | 109 | 2026-04-27T07:08:33Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -157,7 +154,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-random/getrandom](https://github.com/rust-random/getrandom) | 541 | 2026-04-27T19:58:06Z | Rust | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [ZcashFoundation/zebra](https://github.com/ZcashFoundation/zebra) | 537 | 2026-05-01T23:35:21Z | Rust | Infrastructure/tooling | 11 | 20 | 11 | 11 |
 | [near/near-sdk-rs](https://github.com/near/near-sdk-rs) | 507 | 2026-05-01T19:40:00Z | Rust | Infrastructure/tooling | 12 | 14 | 12 | 12 |
-| [rust-lang/compiler-builtins](https://github.com/rust-lang/compiler-builtins) | 490 | 2026-04-27T07:22:11Z | Rust | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [huggingface/xet-core](https://github.com/huggingface/xet-core) | 477 | 2026-05-01T14:43:08Z | Rust | CLI | 9 | 10 | 9 | 9 |
 | [istio/ztunnel](https://github.com/istio/ztunnel) | 460 | 2026-04-30T22:19:13Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [mongodb/bson-rust](https://github.com/mongodb/bson-rust) | 457 | 2026-04-27T11:18:46Z | Rust | Infrastructure/tooling | 7 | 3 | 8 | 8 |
@@ -188,7 +184,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vectordotdev/vrl](https://github.com/vectordotdev/vrl) | 229 | 2026-05-01T04:28:19Z | Rust | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [evaera/moonwave](https://github.com/evaera/moonwave) | 227 | 2026-04-29T23:12:38Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [google/mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers) | 212 | 2026-05-01T11:07:54Z | Rust | Infrastructure/tooling | 8 | 5 | 8 | 8 |
-| [udoprog/genco](https://github.com/udoprog/genco) | 206 | 2026-04-27T07:29:12Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [deven96/ahnlich](https://github.com/deven96/ahnlich) | 188 | 2026-04-27T18:54:15Z | Rust | CLI | 21 | 19 | 22 | 22 |
 | [akiomik/mado](https://github.com/akiomik/mado) | 187 | 2026-04-29T10:32:23Z | Rust | Infrastructure/tooling | 9 | 12 | 10 | 10 |
 | [0xPolygonHermez/zisk](https://github.com/0xPolygonHermez/zisk) | 185 | 2026-04-29T14:38:12Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
@@ -206,6 +201,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [matter-labs/zksync-airbender](https://github.com/matter-labs/zksync-airbender) | 124 | 2026-04-29T17:51:09Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [agentclientprotocol/rust-sdk](https://github.com/agentclientprotocol/rust-sdk) | 121 | 2026-05-05T20:19:54Z | Rust | CLI | 3 | 11 | 3 | 3 |
 | [g-plane/malva](https://github.com/g-plane/malva) | 118 | 2026-05-12T03:20:35Z | Rust | Infrastructure/tooling | 9 | 5 | 9 | 9 |
-| [JanLikar/cargo-clone](https://github.com/JanLikar/cargo-clone) | 109 | 2026-04-27T07:08:33Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [filecoin-project/filecoin-ffi](https://github.com/filecoin-project/filecoin-ffi) | 102 | 2026-04-28T05:07:50Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [cosmos/solidity-ibc-eureka](https://github.com/cosmos/solidity-ibc-eureka) | 101 | 2026-05-02T10:33:10Z | Rust | Infrastructure/tooling | 7 | 14 | 7 | 7 |

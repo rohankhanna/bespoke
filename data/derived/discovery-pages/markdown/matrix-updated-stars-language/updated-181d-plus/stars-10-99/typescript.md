@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 191
-- terms: 564
-- components: 4320
-- concepts: 553
-- observations: 554
+- repos: 190
+- terms: 551
+- components: 4267
+- concepts: 540
+- observations: 541
 
 ## Static behavior
 
@@ -174,7 +174,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chenghonour/formulago-ui](https://github.com/chenghonour/formulago-ui) | 10 | 2023-04-30T07:58:12Z | TypeScript | Infrastructure/tooling | 0 | 110 | 0 | 0 |
 | [MMesch/labextension_tutorial](https://github.com/MMesch/labextension_tutorial) | 38 | 2023-04-25T07:55:57Z | TypeScript | Unknown | 5 | 0 | 5 | 5 |
 | [plone/plone.restapi-angular](https://github.com/plone/plone.restapi-angular) | 12 | 2023-04-18T06:40:54Z | TypeScript | Web app | 0 | 34 | 0 | 0 |
-| [criteo/mesos-term](https://github.com/criteo/mesos-term) | 19 | 2023-03-29T18:06:39Z | TypeScript | CLI | 13 | 53 | 13 | 13 |
 | [aws-samples/smithy-server-generator-typescript-sample](https://github.com/aws-samples/smithy-server-generator-typescript-sample) | 18 | 2023-03-29T14:31:25Z | TypeScript | Unknown | 0 | 2 | 0 | 0 |
 | [principalstudio/html-webpack-inject-preload](https://github.com/principalstudio/html-webpack-inject-preload) | 31 | 2023-03-28T03:07:26Z | TypeScript | Web app | 0 | 14 | 0 | 0 |
 | [alixdehghani/echarts-for-angular](https://github.com/alixdehghani/echarts-for-angular) | 13 | 2023-03-21T16:24:00Z | TypeScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
@@ -363,7 +362,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ember-polyfills/ember-cached-decorator-polyfill](https://github.com/ember-polyfills/ember-cached-decorator-polyfill) | 20 | 2023-07-26T20:29:49Z | TypeScript | Infrastructure/tooling | 9 | 56 | 9 | 9 |
 | [weaviate/recipes-ts](https://github.com/weaviate/recipes-ts) | 19 | 2025-10-17T09:35:55Z | TypeScript | Unknown | 6 | 14 | 6 | 6 |
 | [Applelo/vite-plugin-inject-preload](https://github.com/Applelo/vite-plugin-inject-preload) | 19 | 2023-09-04T15:52:56Z | TypeScript | Infrastructure/tooling | 4 | 15 | 4 | 4 |
-| [criteo/mesos-term](https://github.com/criteo/mesos-term) | 19 | 2023-03-29T18:06:39Z | TypeScript | CLI | 13 | 53 | 13 | 13 |
 | [darwinai/covidnet_ui](https://github.com/darwinai/covidnet_ui) | 19 | 2023-01-27T03:11:09Z | TypeScript | CLI | 3 | 73 | 3 | 3 |
 | [ipfs/helia-http-gateway](https://github.com/ipfs/helia-http-gateway) | 18 | 2025-11-18T03:11:50Z | TypeScript | Infrastructure/tooling | 9 | 66 | 9 | 9 |
 | [danielnappa/tweakgc-cli](https://github.com/DanielNappa/tweakgc-cli) | 18 | 2025-10-11T13:36:17Z | TypeScript | CLI | 0 | 35 | 0 | 0 |

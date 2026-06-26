@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1227,
-    "concepts": 617,
-    "observations": 617,
-    "repos": 68,
-    "terms": 618
+    "components": 1267,
+    "concepts": 644,
+    "observations": 644,
+    "repos": 70,
+    "terms": 645
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -49,8 +49,10 @@
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
+    "j9t/compressorjs-next",
     "j9t/htaccess-punk",
     "j9t/image-guard",
+    "j9t/minifier-benchmarks",
     "kellyselden/boilerplate-update",
     "ksxnodemodules/static-type-assert",
     "Level/read-stream",

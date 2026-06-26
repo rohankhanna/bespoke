@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1008
-- terms: 3201
+- terms: 3204
 - components: 2412
 - concepts: 3221
 - observations: 3228
@@ -573,7 +573,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dvschultz/stylegan2-ada-pytorch](https://github.com/dvschultz/stylegan2-ada-pytorch) | 254 | 2024-05-10T18:13:35Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [nathom/filetype.nvim](https://github.com/nathom/filetype.nvim) | 548 | 2024-05-06T20:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/cuNSearch](https://github.com/InteractiveComputerGraphics/cuNSearch) | 108 | 2024-05-05T09:22:46Z | Other | Library | 2 | 0 | 2 | 2 |
-| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 6 | 0 | 7 | 7 |
+| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 7 | 0 | 7 | 7 |
 | [madskristensen/BundlerMinifier](https://github.com/madskristensen/BundlerMinifier) | 626 | 2024-05-03T10:21:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [weaviate-tutorials/awesome-moviate](https://github.com/weaviate-tutorials/awesome-moviate) | 101 | 2024-05-02T13:14:19Z | Other | Unknown | 0 | 9 | 0 | 0 |
 | [gevtushenko/llm.c](https://github.com/gevtushenko/llm.c) | 113 | 2024-05-01T00:46:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -745,7 +745,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [raoyongming/DynamicViT](https://github.com/raoyongming/DynamicViT) | 659 | 2023-07-11T03:03:13Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [anuvyklack/windows.nvim](https://github.com/anuvyklack/windows.nvim) | 641 | 2023-07-08T11:07:37Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [tiagofumo/vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) | 790 | 2023-07-07T03:26:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [VITA-Group/SLaK](https://github.com/VITA-Group/SLaK) | 283 | 2023-07-05T07:21:04Z | Other | Unknown | 8 | 0 | 9 | 9 |
+| [VITA-Group/SLaK](https://github.com/VITA-Group/SLaK) | 283 | 2023-07-05T07:21:04Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [AlanLee1996/wenda-webui](https://github.com/AlanLee1996/wenda-webui) | 439 | 2023-07-04T06:38:21Z | Other | Web app | 0 | 22 | 0 | 0 |
 | [SeanNaren/warp-ctc](https://github.com/SeanNaren/warp-ctc) | 762 | 2023-07-02T07:31:58Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [haydengunraj/COVIDNet-CT](https://github.com/haydengunraj/COVIDNet-CT) | 127 | 2023-07-02T01:13:22Z | Other | Model/data | 9 | 0 | 9 | 9 |
@@ -826,7 +826,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GoogleCloudPlatform/elixir-samples](https://github.com/GoogleCloudPlatform/elixir-samples) | 295 | 2023-02-14T09:33:34Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [bkamins/Julia-DataFrames-Tutorial](https://github.com/bkamins/Julia-DataFrames-Tutorial) | 537 | 2023-02-13T12:01:36Z | Other | Library | 3 | 0 | 3 | 3 |
 | [antoinemadec/FixCursorHold.nvim](https://github.com/antoinemadec/FixCursorHold.nvim) | 295 | 2023-02-13T11:23:07Z | Other | Unknown | 2 | 0 | 2 | 2 |
-| [webview2/EdgeSharp](https://github.com/webview2/EdgeSharp) | 286 | 2023-02-12T21:08:22Z | Other | Unknown | 14 | 0 | 15 | 15 |
+| [webview2/EdgeSharp](https://github.com/webview2/EdgeSharp) | 286 | 2023-02-12T21:08:22Z | Other | Unknown | 15 | 0 | 15 | 15 |
 | [AlexGraikos/diffusion_priors](https://github.com/AlexGraikos/diffusion_priors) | 211 | 2023-02-09T17:44:23Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [peteanderson80/Up-Down-Captioner](https://github.com/peteanderson80/Up-Down-Captioner) | 249 | 2023-02-03T03:44:28Z | Other | Model/data | 4 | 0 | 4 | 4 |
 | [dwyl/flutter-todo-list-tutorial](https://github.com/dwyl/flutter-todo-list-tutorial) | 109 | 2023-02-02T16:17:24Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
@@ -1554,7 +1554,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [astoff/digestif](https://github.com/astoff/digestif) | 303 | 2025-12-02T12:20:15Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [feiyun0112/machinelearning-samples.zh-cn](https://github.com/feiyun0112/machinelearning-samples.zh-cn) | 302 | 2023-04-29T23:39:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bottlenoselabs/c2cs](https://github.com/bottlenoselabs/c2cs) | 300 | 2025-09-08T18:34:25Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 6 | 0 | 7 | 7 |
+| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 7 | 0 | 7 | 7 |
 | [adobe-type-tools/cmap-resources](https://github.com/adobe-type-tools/cmap-resources) | 300 | 2023-11-15T12:47:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AIGAnimation/CAMDM](https://github.com/AIGAnimation/CAMDM) | 299 | 2025-09-25T12:51:01Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [mikewest/http-state-tokens](https://github.com/mikewest/http-state-tokens) | 299 | 2022-09-07T15:51:27Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1578,12 +1578,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Alloyed/lua-lsp](https://github.com/Alloyed/lua-lsp) | 291 | 2025-08-12T02:08:10Z | Other | Service/API | 3 | 0 | 3 | 3 |
 | [LintaoAmons/bookmarks.nvim](https://github.com/LintaoAmons/bookmarks.nvim) | 289 | 2025-10-24T04:37:59Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [joshwlewis/unitwise](https://github.com/joshwlewis/unitwise) | 286 | 2025-11-27T14:41:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [webview2/EdgeSharp](https://github.com/webview2/EdgeSharp) | 286 | 2023-02-12T21:08:22Z | Other | Unknown | 14 | 0 | 15 | 15 |
+| [webview2/EdgeSharp](https://github.com/webview2/EdgeSharp) | 286 | 2023-02-12T21:08:22Z | Other | Unknown | 15 | 0 | 15 | 15 |
 | [clojure-goes-fast/clj-java-decompiler](https://github.com/clojure-goes-fast/clj-java-decompiler) | 285 | 2025-09-29T07:13:38Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [tc39/proposal-json-modules](https://github.com/tc39/proposal-json-modules) | 284 | 2025-09-04T09:21:14Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [JuliaPy/SymPy.jl](https://github.com/JuliaPy/SymPy.jl) | 284 | 2025-02-19T17:36:53Z | Other | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [carla-simulator/carla-autoware](https://github.com/carla-simulator/carla-autoware) | 284 | 2024-06-10T02:52:38Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [VITA-Group/SLaK](https://github.com/VITA-Group/SLaK) | 283 | 2023-07-05T07:21:04Z | Other | Unknown | 8 | 0 | 9 | 9 |
+| [VITA-Group/SLaK](https://github.com/VITA-Group/SLaK) | 283 | 2023-07-05T07:21:04Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [BotBuilderCommunity/botbuilder-community-dotnet](https://github.com/BotBuilderCommunity/botbuilder-community-dotnet) | 282 | 2024-07-18T06:24:16Z | Other | Library | 7 | 0 | 7 | 7 |
 | [taoensso/telemere](https://github.com/taoensso/telemere) | 281 | 2025-12-16T09:19:58Z | Other | Infrastructure/tooling | 15 | 5 | 15 | 15 |
 | [ocaml-wasm/wasm_of_ocaml](https://github.com/ocaml-wasm/wasm_of_ocaml) | 281 | 2025-11-24T16:58:25Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |

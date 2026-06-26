@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1810,
-    "concepts": 1055,
-    "observations": 1059,
-    "repos": 206,
-    "terms": 1051
+    "components": 1770,
+    "concepts": 1028,
+    "observations": 1032,
+    "repos": 204,
+    "terms": 1024
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "1mb-dev/natcheck",
@@ -128,8 +128,6 @@
     "ipfs-shipyard/github-mgmt",
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",
-    "j9t/compressorjs-next",
-    "j9t/minifier-benchmarks",
     "JeremyAnsel/SharpAssimp",
     "jfmengels/elm-review-config",
     "jk10001/aquainsightai",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3910,
-    "concepts": 826,
-    "observations": 828,
-    "repos": 113,
-    "terms": 820
+    "components": 3868,
+    "concepts": 818,
+    "observations": 820,
+    "repos": 112,
+    "terms": 812
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -49,7 +49,6 @@
     "flathub-infra/website",
     "fluent-vue/fluent-vue",
     "folke/esbuild-runner",
-    "forcedotcom/code-analyzer",
     "foundry-rs/foundry-toolchain",
     "fsouza/prettierd",
     "ftonato/nope-validator",

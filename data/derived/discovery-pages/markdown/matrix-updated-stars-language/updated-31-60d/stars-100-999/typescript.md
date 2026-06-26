@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 113
-- terms: 820
-- components: 3910
-- concepts: 826
-- observations: 828
+- repos: 112
+- terms: 812
+- components: 3868
+- concepts: 818
+- observations: 820
 
 ## Static behavior
 
@@ -138,7 +138,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fsouza/prettierd](https://github.com/fsouza/prettierd) | 987 | 2026-04-27T18:22:27Z | TypeScript | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [oxc-project/eslint-plugin-oxlint](https://github.com/oxc-project/eslint-plugin-oxlint) | 440 | 2026-04-27T14:52:41Z | TypeScript | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [luciopaiva/heapify](https://github.com/luciopaiva/heapify) | 742 | 2026-04-27T09:01:14Z | TypeScript | Infrastructure/tooling | 9 | 14 | 9 | 9 |
-| [forcedotcom/code-analyzer](https://github.com/forcedotcom/code-analyzer) | 237 | 2026-04-27T08:10:52Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -224,7 +223,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [intlify/bundle-tools](https://github.com/intlify/bundle-tools) | 267 | 2026-04-29T12:15:58Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [un-ts/synckit](https://github.com/un-ts/synckit) | 266 | 2026-04-30T12:03:59Z | TypeScript | Infrastructure/tooling | 12 | 47 | 12 | 12 |
 | [privatenumber/get-tsconfig](https://github.com/privatenumber/get-tsconfig) | 248 | 2026-04-30T03:22:12Z | TypeScript | Infrastructure/tooling | 7 | 18 | 7 | 7 |
-| [forcedotcom/code-analyzer](https://github.com/forcedotcom/code-analyzer) | 237 | 2026-04-27T08:10:52Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 8 |
 | [inversify/monorepo](https://github.com/inversify/monorepo) | 232 | 2026-05-06T17:33:12Z | TypeScript | Infrastructure/tooling | 11 | 24 | 13 | 13 |
 | [decentralized-identity/did-resolver](https://github.com/decentralized-identity/did-resolver) | 230 | 2026-04-29T11:13:27Z | TypeScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [apify/apify-cli](https://github.com/apify/apify-cli) | 216 | 2026-05-11T16:51:23Z | TypeScript | Infrastructure/tooling | 14 | 98 | 14 | 14 |

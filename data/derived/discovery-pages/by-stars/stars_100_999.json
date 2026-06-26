@@ -3,14 +3,14 @@
     "components": 50975,
     "concepts": 35300,
     "observations": 35405,
-    "repos": 8684,
-    "terms": 35142
+    "repos": 8683,
+    "terms": 35139
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -1589,7 +1589,6 @@
     "CarlVerret/csFastFloat",
     "caro401/royal-velvet",
     "carolineec/informative-drawings",
-    "carpedm20/multi-speaker-tacotron-tensorflow",
     "CarperAI/cheese",
     "carrierwaveuploader/carrierwave-mongoid",
     "carrot2/carrot2",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 448
-- terms: 1682
+- terms: 1680
 - components: 1347
 - concepts: 1694
 - observations: 1696
@@ -53,7 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lmbelo/python4delphi](https://github.com/lmbelo/python4delphi) | 1047 | 2025-11-26T11:54:48Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [mislav/will_paginate](https://github.com/mislav/will_paginate) | 5696 | 2025-11-24T13:36:25Z | Other | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [vitalets/github-trending-repos](https://github.com/vitalets/github-trending-repos) | 2927 | 2025-11-23T14:16:02Z | Other | Unknown | 3 | 21 | 3 | 3 |
-| [YanWenKun/Hunyuan3D-2-WinPortable](https://github.com/YanWenKun/Hunyuan3D-2-WinPortable) | 1267 | 2025-11-19T00:18:58Z | Other | Infrastructure/tooling | 10 | 2 | 10 | 10 |
+| [YanWenKun/Hunyuan3D-2-WinPortable](https://github.com/YanWenKun/Hunyuan3D-2-WinPortable) | 1267 | 2025-11-19T00:18:58Z | Other | Infrastructure/tooling | 8 | 2 | 10 | 10 |
 | [collectiveidea/audited](https://github.com/collectiveidea/audited) | 3492 | 2025-11-18T19:05:29Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [petertriho/nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) | 1040 | 2025-11-17T11:06:08Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [jashkenas/docco](https://github.com/jashkenas/docco) | 3571 | 2025-11-17T10:31:55Z | Other | Web app | 0 | 5 | 0 | 0 |
@@ -858,7 +858,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [snap-research/articulated-animation](https://github.com/snap-research/articulated-animation) | 1277 | 2025-06-01T00:59:56Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [hrsh7th/nvim-compe](https://github.com/hrsh7th/nvim-compe) | 1277 | 2021-10-02T15:28:26Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [airblade/vim-rooter](https://github.com/airblade/vim-rooter) | 1274 | 2024-09-25T08:48:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [YanWenKun/Hunyuan3D-2-WinPortable](https://github.com/YanWenKun/Hunyuan3D-2-WinPortable) | 1267 | 2025-11-19T00:18:58Z | Other | Infrastructure/tooling | 10 | 2 | 10 | 10 |
+| [YanWenKun/Hunyuan3D-2-WinPortable](https://github.com/YanWenKun/Hunyuan3D-2-WinPortable) | 1267 | 2025-11-19T00:18:58Z | Other | Infrastructure/tooling | 8 | 2 | 10 | 10 |
 | [datitran/raccoon_dataset](https://github.com/datitran/raccoon_dataset) | 1267 | 2021-10-12T12:49:25Z | Other | Model/data | 2 | 0 | 2 | 2 |
 | [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) | 1262 | 2025-05-23T00:48:55Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [Samsung/netcoredbg](https://github.com/Samsung/netcoredbg) | 1261 | 2025-12-12T11:36:24Z | Other | CLI | 3 | 0 | 3 | 3 |

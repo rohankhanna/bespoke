@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 136
-- terms: 1199
-- components: 5998
-- concepts: 1207
-- observations: 1209
+- repos: 135
+- terms: 1191
+- components: 5975
+- concepts: 1199
+- observations: 1201
 
 ## Static behavior
 
@@ -94,7 +94,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mui/mui-x](https://github.com/mui/mui-x) | 5693 | 2026-04-30T19:23:59Z | TypeScript | Infrastructure/tooling | 15 | 88 | 15 | 15 |
 | [wundergraph/cosmo](https://github.com/wundergraph/cosmo) | 1202 | 2026-04-30T18:22:46Z | TypeScript | Infrastructure/tooling | 14 | 26 | 14 | 14 |
 | [openlit/openlit](https://github.com/openlit/openlit) | 2409 | 2026-04-30T17:37:10Z | TypeScript | CLI | 27 | 25 | 27 | 27 |
-| [Uniswap/v3-core](https://github.com/Uniswap/v3-core) | 5007 | 2026-04-30T16:18:51Z | TypeScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
+| [Uniswap/v3-core](https://github.com/Uniswap/v3-core) | 5009 | 2026-04-30T16:18:51Z | TypeScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
 | [google/neuroglancer](https://github.com/google/neuroglancer) | 1316 | 2026-04-30T15:14:24Z | TypeScript | Infrastructure/tooling | 5 | 69 | 5 | 5 |
 | [angular-eslint/angular-eslint](https://github.com/angular-eslint/angular-eslint) | 1782 | 2026-04-30T14:58:39Z | TypeScript | Infrastructure/tooling | 9 | 58 | 9 | 9 |
 | [jest-community/jest-extended](https://github.com/jest-community/jest-extended) | 2352 | 2026-04-30T14:46:47Z | TypeScript | Infrastructure/tooling | 6 | 29 | 6 | 6 |
@@ -161,7 +161,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AnotiaWang/deep-research-web-ui](https://github.com/AnotiaWang/deep-research-web-ui) | 2181 | 2026-04-28T06:43:29Z | TypeScript | Infrastructure/tooling | 5 | 42 | 5 | 5 |
 | [callstack/react-native-testing-library](https://github.com/callstack/react-native-testing-library) | 3364 | 2026-04-27T17:03:02Z | TypeScript | Infrastructure/tooling | 8 | 39 | 8 | 8 |
 | [ts-safeql/safeql](https://github.com/ts-safeql/safeql) | 1545 | 2026-04-27T09:32:36Z | TypeScript | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [Chevrotain/chevrotain](https://github.com/Chevrotain/chevrotain) | 2771 | 2026-04-27T06:14:51Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -196,7 +195,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [unjs/ofetch](https://github.com/unjs/ofetch) | 5252 | 2026-04-29T17:31:59Z | TypeScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [firebase/firebase-js-sdk](https://github.com/firebase/firebase-js-sdk) | 5111 | 2026-05-01T22:28:01Z | TypeScript | Infrastructure/tooling | 16 | 105 | 16 | 16 |
 | [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | 5027 | 2026-05-11T14:27:33Z | TypeScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
-| [Uniswap/v3-core](https://github.com/Uniswap/v3-core) | 5007 | 2026-04-30T16:18:51Z | TypeScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
+| [Uniswap/v3-core](https://github.com/Uniswap/v3-core) | 5009 | 2026-04-30T16:18:51Z | TypeScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
 | [SilentVoid13/Templater](https://github.com/SilentVoid13/Templater) | 4883 | 2026-05-02T19:34:44Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
 | [dbeaver/cloudbeaver](https://github.com/dbeaver/cloudbeaver) | 4840 | 2026-04-29T16:55:07Z | TypeScript | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [hey-api/openapi-ts](https://github.com/hey-api/openapi-ts) | 4581 | 2026-04-30T12:56:20Z | TypeScript | Infrastructure/tooling | 19 | 40 | 19 | 19 |
@@ -236,7 +235,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [azat-io/eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist) | 2861 | 2026-05-02T09:19:08Z | TypeScript | Infrastructure/tooling | 8 | 75 | 8 | 8 |
 | [aws/jsii](https://github.com/aws/jsii) | 2852 | 2026-04-29T21:24:50Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | 2827 | 2026-04-29T22:23:22Z | TypeScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
-| [Chevrotain/chevrotain](https://github.com/Chevrotain/chevrotain) | 2771 | 2026-04-27T06:14:51Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |
 | [intlify/vue-i18n](https://github.com/intlify/vue-i18n) | 2683 | 2026-05-01T19:00:21Z | TypeScript | Infrastructure/tooling | 12 | 69 | 12 | 12 |
 | [handsontable/hyperformula](https://github.com/handsontable/hyperformula) | 2663 | 2026-04-29T12:28:43Z | TypeScript | CLI | 17 | 82 | 17 | 17 |
 | [standard/eslint-config-standard](https://github.com/standard/eslint-config-standard) | 2655 | 2026-04-29T09:52:43Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |

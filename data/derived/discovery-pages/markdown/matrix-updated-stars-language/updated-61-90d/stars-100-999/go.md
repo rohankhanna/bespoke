@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 137
-- terms: 813
-- components: 1003
-- concepts: 805
-- observations: 811
+- repos: 138
+- terms: 824
+- components: 1016
+- concepts: 816
+- observations: 822
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hypnoglow/helm-s3](https://github.com/hypnoglow/helm-s3) | 610 | 2026-04-27T08:00:53Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [mattn/go-isatty](https://github.com/mattn/go-isatty) | 903 | 2026-04-27T03:32:43Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [Consensys/gnark-crypto](https://github.com/Consensys/gnark-crypto) | 593 | 2026-04-27T03:13:01Z | Go | Infrastructure/tooling | 17 | 5 | 17 | 17 |
 | [sigstore/fulcio](https://github.com/sigstore/fulcio) | 832 | 2026-04-27T02:33:12Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
@@ -193,6 +194,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [broderick-westrope/tetrigo](https://github.com/Broderick-Westrope/tetrigo) | 653 | 2026-04-05T21:51:57Z | Go | CLI | 7 | 4 | 7 | 7 |
 | [googleapis/go-genproto](https://github.com/googleapis/go-genproto) | 619 | 2026-04-20T18:46:27Z | Go | CLI | 1 | 5 | 1 | 1 |
 | [celo-org/celo-blockchain](https://github.com/celo-org/celo-blockchain) | 619 | 2026-04-17T17:06:08Z | Go | Infrastructure/tooling | 9 | 19 | 9 | 9 |
+| [hypnoglow/helm-s3](https://github.com/hypnoglow/helm-s3) | 610 | 2026-04-27T08:00:53Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [pires/go-proxyproto](https://github.com/pires/go-proxyproto) | 609 | 2026-04-15T19:24:27Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [AliyunContainerService/terway](https://github.com/AliyunContainerService/terway) | 601 | 2026-04-21T09:54:18Z | Go | Infrastructure/tooling | 5 | 16 | 5 | 5 |
 | [kubernetes/sample-apiserver](https://github.com/kubernetes/sample-apiserver) | 599 | 2026-04-23T11:46:16Z | Go | Service/API | 1 | 0 | 1 | 1 |

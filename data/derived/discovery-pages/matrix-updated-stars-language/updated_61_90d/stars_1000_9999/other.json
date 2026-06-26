@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2539,
-    "concepts": 2407,
-    "observations": 2418,
-    "repos": 359,
-    "terms": 2393
+    "components": 2590,
+    "concepts": 2445,
+    "observations": 2456,
+    "repos": 362,
+    "terms": 2431
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -69,6 +69,7 @@
     "BLAKE3-team/BLAKE3",
     "blockscout/blockscout",
     "boostorg/boost",
+    "box-project/box",
     "brainlid/langchain",
     "briansmith/ring",
     "BuddiesOfBudgie/budgie-desktop",
@@ -194,6 +195,7 @@
     "jeremyevans/roda",
     "jeremyevans/sequel",
     "jgm/djot",
+    "JLLeitschuh/ktlint-gradle",
     "john-rocky/CoreML-Models",
     "johnbean393/Sidekick",
     "jpsim/SourceKitten",
@@ -313,6 +315,7 @@
     "rom1504/clip-retrieval",
     "rstudio/cheatsheets",
     "ruby/debug",
+    "ruby/rake",
     "ruby/rbs",
     "RubyMoney/money",
     "rust-lang/rfcs",

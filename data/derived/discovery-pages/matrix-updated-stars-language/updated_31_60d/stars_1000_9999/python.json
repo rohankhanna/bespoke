@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1707,
-    "concepts": 1918,
-    "observations": 1924,
-    "repos": 201,
-    "terms": 1901
+    "components": 1683,
+    "concepts": 1886,
+    "observations": 1892,
+    "repos": 199,
+    "terms": 1870
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "2U1/Qwen-VL-Series-Finetune",
@@ -86,7 +86,6 @@
     "google/budoux",
     "gpustack/gpustack",
     "h5py/h5py",
-    "hacs/integration",
     "hao-ai-lab/FastVideo",
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
@@ -170,7 +169,6 @@
     "pytorch/rl",
     "pytorch/tensordict",
     "rasterio/rasterio",
-    "RDFLib/rdflib",
     "readthedocs/readthedocs.org",
     "RLinf/RLinf",
     "roboflow/inference",

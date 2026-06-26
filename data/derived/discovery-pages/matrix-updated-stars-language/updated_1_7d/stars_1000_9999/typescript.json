@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 420,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 8,
-    "terms": 43
+    "components": 305,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 7,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "ebullient/obsidian-admonition",
     "electron/rebuild",
     "google-gemini/live-api-web-console",
     "microsoft/vscode-js-debug",
     "react-native-webview/react-native-webview",
-    "shareAI-lab/Kode-CLI",
     "TanStack/form",
     "vuejs/language-tools"
   ]

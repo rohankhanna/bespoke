@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1862,
-    "concepts": 1882,
-    "observations": 1890,
-    "repos": 371,
-    "terms": 1893
+    "components": 1870,
+    "concepts": 1883,
+    "observations": 1891,
+    "repos": 372,
+    "terms": 1894
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -187,6 +187,7 @@
     "hustvl/RAD",
     "hynek/argon2-cffi",
     "HyperionGray/python-chrome-devtools-protocol",
+    "i2rt-robotics/i2rt",
     "inclusionAI/AWorld-RL",
     "inducer/loopy",
     "inducer/pymbolic",

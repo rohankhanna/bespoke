@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 86
-- terms: 1002
+- terms: 1003
 - components: 4718
 - concepts: 1005
 - observations: 1009
@@ -35,7 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) | 19233 | 2026-05-13T00:33:12Z | TypeScript | CLI | 15 | 26 | 15 | 15 |
 | [RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code) | 24031 | 2026-05-12T22:04:34Z | TypeScript | Infrastructure/tooling | 8 | 30 | 8 | 8 |
 | [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit) | 17110 | 2026-05-12T13:30:37Z | TypeScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
-| [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14747 | 2026-05-12T07:38:47Z | TypeScript | Infrastructure/tooling | 3 | 48 | 4 | 4 |
+| [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14748 | 2026-05-12T07:38:47Z | TypeScript | Infrastructure/tooling | 4 | 48 | 4 | 4 |
 | [mobxjs/mobx](https://github.com/mobxjs/mobx) | 28183 | 2026-05-06T13:32:59Z | TypeScript | Infrastructure/tooling | 6 | 43 | 6 | 6 |
 | [vitejs/vite](https://github.com/vitejs/vite) | 80403 | 2026-05-05T14:41:42Z | TypeScript | Infrastructure/tooling | 10 | 41 | 10 | 10 |
 | [vuejs/core](https://github.com/vuejs/core) | 53603 | 2026-05-05T13:16:09Z | TypeScript | Infrastructure/tooling | 6 | 63 | 6 | 6 |
@@ -181,7 +181,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | 15127 | 2026-05-13T19:16:47Z | TypeScript | Infrastructure/tooling | 8 | 53 | 8 | 8 |
 | [faker-js/faker](https://github.com/faker-js/faker) | 15031 | 2026-05-02T21:49:18Z | TypeScript | Infrastructure/tooling | 11 | 42 | 11 | 11 |
 | [scalar/scalar](https://github.com/scalar/scalar) | 14880 | 2026-04-30T01:41:39Z | TypeScript | CLI | 15 | 58 | 15 | 15 |
-| [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14747 | 2026-05-12T07:38:47Z | TypeScript | Infrastructure/tooling | 3 | 48 | 4 | 4 |
+| [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14748 | 2026-05-12T07:38:47Z | TypeScript | Infrastructure/tooling | 4 | 48 | 4 | 4 |
 | [formatjs/formatjs](https://github.com/formatjs/formatjs) | 14706 | 2026-04-29T23:38:08Z | TypeScript | Infrastructure/tooling | 15 | 169 | 15 | 15 |
 | [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) | 14538 | 2026-04-28T21:15:36Z | TypeScript | Infrastructure/tooling | 23 | 40 | 23 | 23 |
 | [reduxjs/redux-devtools](https://github.com/reduxjs/redux-devtools) | 14353 | 2026-05-02T13:16:44Z | TypeScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 224
-- terms: 1326
-- components: 1915
-- concepts: 1333
-- observations: 1334
+- repos: 222
+- terms: 1318
+- components: 1906
+- concepts: 1325
+- observations: 1326
 
 ## Static behavior
 
@@ -248,15 +248,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ocamllabs/vscode-ocaml-platform](https://github.com/ocamllabs/vscode-ocaml-platform) | 384 | 2026-04-27T13:50:43Z | Other | Infrastructure/tooling | 6 | 24 | 6 | 6 |
 | [esp-rs/esp-idf-template](https://github.com/esp-rs/esp-idf-template) | 642 | 2026-04-27T11:49:52Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [SciML/LabelledArrays.jl](https://github.com/SciML/LabelledArrays.jl) | 123 | 2026-04-27T11:46:05Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
-| [melange-re/melange](https://github.com/melange-re/melange) | 972 | 2026-04-27T07:27:53Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
-| [apache/apisix-helm-chart](https://github.com/apache/apisix-helm-chart) | 282 | 2026-04-27T07:26:50Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [heroku/heroku-buildpack-python](https://github.com/heroku/heroku-buildpack-python) | 991 | 2026-05-01T17:56:44Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [melange-re/melange](https://github.com/melange-re/melange) | 972 | 2026-04-27T07:27:53Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [mrkkrp/megaparsec](https://github.com/mrkkrp/megaparsec) | 968 | 2026-04-27T19:52:52Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [cucumber/aruba](https://github.com/cucumber/aruba) | 963 | 2026-05-02T09:24:48Z | Other | Infrastructure/tooling | 6 | 5 | 7 | 7 |
 | [microsoft/vstest](https://github.com/microsoft/vstest) | 960 | 2026-05-01T05:01:22Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
@@ -391,7 +388,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AXERA-TECH/ax-samples](https://github.com/AXERA-TECH/ax-samples) | 290 | 2026-04-29T04:34:15Z | Other | Infrastructure/tooling | 11 | 1 | 11 | 11 |
 | [aws/aws-tools-for-powershell](https://github.com/aws/aws-tools-for-powershell) | 285 | 2026-04-29T20:48:18Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [kwent/pgbouncerhero](https://github.com/kwent/pgbouncerhero) | 283 | 2026-04-28T00:36:37Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
-| [apache/apisix-helm-chart](https://github.com/apache/apisix-helm-chart) | 282 | 2026-04-27T07:26:50Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [jump-dev/NLopt.jl](https://github.com/jump-dev/NLopt.jl) | 280 | 2026-05-05T08:06:18Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [espressif/llvm-project](https://github.com/espressif/llvm-project) | 276 | 2026-04-29T21:41:07Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [test-unit/test-unit](https://github.com/test-unit/test-unit) | 275 | 2026-04-30T21:11:17Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |

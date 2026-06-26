@@ -3,15 +3,15 @@
     "components": 16059,
     "concepts": 14625,
     "observations": 14653,
-    "repos": 4774,
-    "terms": 14400
+    "repos": 4773,
+    "terms": 14399
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -867,7 +867,6 @@
     "carla-simulator/leaderboard",
     "CarlVerret/csFastFloat",
     "carolineec/informative-drawings",
-    "carpedm20/multi-speaker-tacotron-tensorflow",
     "CarperAI/cheese",
     "carrierwaveuploader/carrierwave-mongoid",
     "carrot2/elasticsearch-carrot2",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 91,
+    "components": 103,
     "concepts": 88,
     "observations": 88,
-    "repos": 7,
+    "repos": 8,
     "terms": 88
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "datalevin/datalevin",
     "kurrent-io/KurrentDB",
@@ -20,6 +20,7 @@
     "microsoft/aspire-samples",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
+    "TryGhost/node-sqlite3",
     "web-platform-tests/wpt"
   ]
 }

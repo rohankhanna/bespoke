@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2260,
-    "concepts": 2636,
-    "observations": 2643,
-    "repos": 361,
-    "terms": 2633
+    "components": 2280,
+    "concepts": 2667,
+    "observations": 2674,
+    "repos": 362,
+    "terms": 2661
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -94,7 +94,6 @@
     "datadog/guarddog",
     "deepspeedai/DeepSpeedExamples",
     "devnen/Chatterbox-TTS-Server",
-    "django/channels",
     "django/daphne",
     "DLR-RM/rl-baselines3-zoo",
     "drivendataorg/cookiecutter-data-science",
@@ -142,6 +141,7 @@
     "GoogleCloudPlatform/agent-starter-pack",
     "graphql-python/gql",
     "guaguastandup/zotero-pdf2zh",
+    "hacs/integration",
     "haosulab/ManiSkill",
     "hhatto/autopep8",
     "HIPS/autograd",
@@ -313,6 +313,7 @@
     "RapidAI/RapidOCR",
     "rapidfuzz/RapidFuzz",
     "raspberrypi/documentation",
+    "RDFLib/rdflib",
     "RoboTwin-Platform/RoboTwin",
     "ronf/asyncssh",
     "rthalley/dnspython",

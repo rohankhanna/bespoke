@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 7,
-    "terms": 38
+    "components": 34,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 8,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "databrickslabs/ucx",
     "google-deepmind/chex",
     "googlefonts/roboto-3-classic",
     "machinewrapped/llm-subtrans",
+    "PyCQA/eradicate",
     "unum-bio/USearchMolecules",
     "xlite-dev/Awesome-DiT-Inference"
   ]

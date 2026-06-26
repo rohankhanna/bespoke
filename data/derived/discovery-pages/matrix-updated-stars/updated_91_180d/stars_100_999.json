@@ -4,14 +4,14 @@
     "concepts": 4473,
     "observations": 4487,
     "repos": 1074,
-    "terms": 4449
+    "terms": 4448
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",

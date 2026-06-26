@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 19492,
-    "concepts": 12525,
-    "observations": 12565,
-    "repos": 3142,
+    "components": 19496,
+    "concepts": 12526,
+    "observations": 12566,
+    "repos": 3143,
     "terms": 12497
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0b01/tigris-and-euphrates",
@@ -980,6 +980,7 @@
     "dimforge/simba",
     "dimitri/el-get",
     "django/asgiref",
+    "django/channels",
     "djcopley/ShellOracle",
     "djezzzl/factory_trace",
     "dkubb/adamantium",

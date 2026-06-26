@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1101,
-    "concepts": 598,
-    "observations": 602,
-    "repos": 139,
-    "terms": 596
+    "components": 1093,
+    "concepts": 594,
+    "observations": 598,
+    "repos": 137,
+    "terms": 592
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abarisani/abarisani.github.io",
@@ -114,7 +114,6 @@
     "MSP-Greg/ruby-loco",
     "NVIDIA/DALI_extra",
     "ocaml-tracing/ocaml-trace",
-    "oliyh/carve.el",
     "open-edge-platform/geti-instant-learn",
     "osrf/homebrew-simulation",
     "palladius/gemini-news-crawler",
@@ -151,7 +150,6 @@
     "triton-inference-server/fil_backend",
     "tweag/gazelle_cabal",
     "UnknownPlatypus/djangofmt",
-    "WebAssembly/shared-everything-threads",
-    "yamachu/VoicevoxCoreSharp"
+    "WebAssembly/shared-everything-threads"
   ]
 }

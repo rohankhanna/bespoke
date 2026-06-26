@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1052,
-    "concepts": 631,
-    "observations": 635,
-    "repos": 111,
-    "terms": 622
+    "components": 1299,
+    "concepts": 649,
+    "observations": 653,
+    "repos": 113,
+    "terms": 639
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "aden-hive/hive",
@@ -20,7 +20,6 @@
     "aidenlab/juicebox.js",
     "Alex313031/Thorium-MacOS",
     "alichherawalla/off-grid-mobile-ai",
-    "all-contributors/app",
     "AMD-AGI/Nitro-1",
     "AMD-AGI/Nitro-T",
     "anthropics/claude-cookbooks",
@@ -36,6 +35,7 @@
     "Archerkattri/sam3d-plus",
     "Archerkattri/sam3d-plus-plus",
     "argmaxinc/argmax-oss-swift",
+    "babashka/nbb",
     "bamsumit/slayerPytorch",
     "Baron-von-Riedesel/HX",
     "bazel-contrib/bazel-gazelle",
@@ -44,6 +44,7 @@
     "Billionmail/BillionMail",
     "BirolLab/LINKS",
     "celtera/libremidi",
+    "chatboxai/chatbox",
     "clearml/clearml-agent",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "Comfy-Org/ComfyUI-Standalone-Environments",
@@ -71,6 +72,7 @@
     "GoogleCloudPlatform/google-cloud-node-todos",
     "hacl-star/hacl-star",
     "hermit-os/rust-std-hermit",
+    "intel/BigDL",
     "jawah/charset_normalizer",
     "joshsymonds/cc-tools",
     "jothepro/doxygen-awesome-css",

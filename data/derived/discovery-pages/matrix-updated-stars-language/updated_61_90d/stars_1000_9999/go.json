@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1746,
-    "concepts": 1701,
-    "observations": 1707,
-    "repos": 215,
-    "terms": 1703
+    "components": 1778,
+    "concepts": 1717,
+    "observations": 1723,
+    "repos": 217,
+    "terms": 1719
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -99,6 +99,7 @@
     "eryajf/chatgpt-dingtalk",
     "ethereum-optimism/optimism",
     "ethersphere/bee",
+    "evilmartians/lefthook",
     "expr-lang/expr",
     "fatih/color",
     "flannel-io/flannel",
@@ -201,6 +202,7 @@
     "runfinch/finch",
     "schachmat/wego",
     "sigstore/cosign",
+    "sigstore/gitsign",
     "sigstore/rekor",
     "smallnest/rpcx",
     "smtg-ai/claude-squad",

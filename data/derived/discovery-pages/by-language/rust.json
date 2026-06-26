@@ -4,13 +4,13 @@
     "concepts": 8091,
     "observations": 8153,
     "repos": 1752,
-    "terms": 8080
+    "terms": 8079
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",

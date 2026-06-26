@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 243,
-    "concepts": 175,
-    "observations": 177,
-    "repos": 26,
-    "terms": 175
+    "components": 249,
+    "concepts": 190,
+    "observations": 192,
+    "repos": 27,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "alichherawalla/off-grid-mobile-ai",
     "argmaxinc/argmax-oss-swift",
@@ -22,6 +22,7 @@
     "google-deepmind/dm-haiku",
     "googleapis/google-api-php-client",
     "hacl-star/hacl-star",
+    "intel/BigDL",
     "jothepro/doxygen-awesome-css",
     "JuliaAI/MLJ.jl",
     "lambdalisue/vim-fern",

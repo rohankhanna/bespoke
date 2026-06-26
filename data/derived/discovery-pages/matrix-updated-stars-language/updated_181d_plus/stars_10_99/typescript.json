@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4320,
-    "concepts": 553,
-    "observations": 554,
-    "repos": 191,
-    "terms": 564
+    "components": 4267,
+    "concepts": 540,
+    "observations": 541,
+    "repos": 190,
+    "terms": 551
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -60,7 +60,6 @@
     "chenghonour/formulago-ui",
     "codota/tabnine-atom",
     "CosmWasm/testnets",
-    "criteo/mesos-term",
     "Cryptonomic/T2",
     "Cryptonomic/Tezori",
     "csstree/vscode-plugin",

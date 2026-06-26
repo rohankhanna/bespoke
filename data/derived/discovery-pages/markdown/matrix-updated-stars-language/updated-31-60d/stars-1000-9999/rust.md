@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -28,7 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [mayocream/koharu](https://github.com/mayocream/koharu) | 4471 | 2026-05-26T06:52:17Z | Rust | Infrastructure/tooling | 13 | 18 | 13 | 13 |
 | [databendlabs/databend](https://github.com/databendlabs/databend) | 9298 | 2026-05-25T09:40:05Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
-| [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1114 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |
+| [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1115 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [nix-rust/nix](https://github.com/nix-rust/nix) | 3027 | 2026-05-13T01:15:18Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [Aleph-Alpha/ts-rs](https://github.com/Aleph-Alpha/ts-rs) | 1787 | 2026-05-12T11:49:04Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [reubeno/brush](https://github.com/reubeno/brush) | 1899 | 2026-05-11T10:13:13Z | Rust | Infrastructure/tooling | 8 | 25 | 11 | 11 |
@@ -194,7 +194,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ccbrown/iocraft](https://github.com/ccbrown/iocraft) | 1267 | 2026-04-28T02:55:26Z | Rust | CLI | 6 | 7 | 6 | 6 |
 | [CosmWasm/cosmwasm](https://github.com/CosmWasm/cosmwasm) | 1141 | 2026-05-04T08:34:25Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [chelsea0x3b/cudarc](https://github.com/chelsea0x3b/cudarc) | 1118 | 2026-04-27T13:30:01Z | Rust | Infrastructure/tooling | 11 | 3 | 11 | 11 |
-| [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1114 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |
+| [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1115 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [rust-lang/flate2-rs](https://github.com/rust-lang/flate2-rs) | 1100 | 2026-05-03T08:46:41Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [VOICEVOX/voicevox_core](https://github.com/VOICEVOX/voicevox_core) | 1097 | 2026-05-01T06:40:29Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [askama-rs/askama](https://github.com/askama-rs/askama) | 1068 | 2026-04-29T22:47:28Z | Rust | Infrastructure/tooling | 4 | 15 | 4 | 4 |

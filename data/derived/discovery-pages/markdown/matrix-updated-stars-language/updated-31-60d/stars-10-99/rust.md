@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-06-26T05:57:33.413318+00:00`
+Generated at: `2026-06-26T08:20:01.953396+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 47
-- terms: 258
-- components: 320
-- concepts: 260
-- observations: 261
+- repos: 46
+- terms: 257
+- components: 317
+- concepts: 259
+- observations: 260
 
 ## Static behavior
 
@@ -72,7 +72,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heroku/buildpacks-go](https://github.com/heroku/buildpacks-go) | 14 | 2026-04-27T12:34:44Z | Rust | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [heroku/buildpacks-dotnet](https://github.com/heroku/buildpacks-dotnet) | 13 | 2026-04-27T12:26:52Z | Rust | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [urschrei/rdp](https://github.com/urschrei/rdp) | 26 | 2026-04-27T09:11:15Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [typst/typst-assets](https://github.com/typst/typst-assets) | 13 | 2026-04-27T08:00:35Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -123,5 +122,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heroku/buildpacks-go](https://github.com/heroku/buildpacks-go) | 14 | 2026-04-27T12:34:44Z | Rust | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [astral-sh/pubgrub](https://github.com/astral-sh/pubgrub) | 13 | 2026-04-28T00:24:40Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [heroku/buildpacks-dotnet](https://github.com/heroku/buildpacks-dotnet) | 13 | 2026-04-27T12:26:52Z | Rust | Infrastructure/tooling | 11 | 9 | 11 | 11 |
-| [typst/typst-assets](https://github.com/typst/typst-assets) | 13 | 2026-04-27T08:00:35Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [heroku/buildpacks-jvm](https://github.com/heroku/buildpacks-jvm) | 12 | 2026-05-01T11:34:29Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |

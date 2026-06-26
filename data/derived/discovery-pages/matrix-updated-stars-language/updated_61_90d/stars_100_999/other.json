@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3102,
-    "concepts": 2491,
-    "observations": 2496,
-    "repos": 453,
-    "terms": 2508
+    "components": 3111,
+    "concepts": 2499,
+    "observations": 2504,
+    "repos": 455,
+    "terms": 2516
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -54,6 +54,7 @@
     "ankane/transformers-ruby",
     "ankane/vega-ruby",
     "ankane/xgboost-ruby",
+    "apache/apisix-helm-chart",
     "apache/arrow-adbc",
     "apache/arrow-go",
     "apache/dubbo-website",
@@ -308,6 +309,7 @@
     "MasterJ93/ATProtoKit",
     "matthewjberger/scoop-nerd-fonts",
     "Mc-Zen/tidy",
+    "melange-re/melange",
     "metauto-ai/agent-as-a-judge",
     "metosin/schema-tools",
     "microsoft/AZD-for-beginners",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 816,
-    "concepts": 460,
-    "observations": 463,
-    "repos": 35,
-    "terms": 458
+    "components": 776,
+    "concepts": 433,
+    "observations": 436,
+    "repos": 33,
+    "terms": 431
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T05:57:33.413318+00:00",
+  "generated_at": "2026-06-26T08:20:01.953396+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
@@ -21,8 +21,6 @@
     "dwyl/phoenix-papertrail-demo",
     "fontsource/download-stat-aggregator",
     "ioBroker/plugin-sentry",
-    "j9t/compressorjs-next",
-    "j9t/minifier-benchmarks",
     "kkomelin/isomorphic-dompurify-playgrounds",
     "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
