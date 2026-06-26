@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "pyvista/pyvista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica"
     }
   ],
   "term": "plotting"

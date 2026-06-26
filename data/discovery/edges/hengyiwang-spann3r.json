@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HengyiWang/spann3r",
+      "target": "nianticlabs/map-free-reloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HengyiWang/spann3r",
+      "target": "spla-tam/splatam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HengyiWang/spann3r",
+      "target": "dazinovic/neural-rgbd-surface-reconstruction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HengyiWang/spann3r",
+      "target": "nianticlabs/simplerecon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HengyiWang/spann3r",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-26T12:57:23.248127+00:00",
+  "source_repo": "HengyiWang/spann3r"
+}

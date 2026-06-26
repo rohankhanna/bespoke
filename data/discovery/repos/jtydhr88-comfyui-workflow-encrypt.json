@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
+      "target": "jtydhr88/sd-3dmodel-loader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
+      "target": "jtydhr88/sd-canvas-editor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
+      "target": "jtydhr88/sd-webui-3d-editor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:31.042744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3020
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 409
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Encrypt your comfyui workflow with key",
+    "fork": false,
+    "full_name": "jtydhr88/ComfyUI-Workflow-Encrypt",
+    "html_url": "https://github.com/jtydhr88/ComfyUI-Workflow-Encrypt",
+    "language": "Python",
+    "pushed_at": "2024-07-31T13:45:53Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-06-16T09:51:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/sd-3dmodel-loader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/sd-canvas-editor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtydhr88/sd-webui-3d-editor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

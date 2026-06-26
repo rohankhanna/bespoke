@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RicherMans/SAT",
+      "target": "fschmid56/efficientat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:18:35.865012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12152
+    },
+    {
+      "path": "requirements.txt",
+      "size": 171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Streaming Audiotransformers for online Audio tagging",
+    "fork": false,
+    "full_name": "RicherMans/SAT",
+    "html_url": "https://github.com/RicherMans/SAT",
+    "language": "Python",
+    "pushed_at": "2024-06-14T01:21:33Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-06-18T07:22:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fschmid56/efficientat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

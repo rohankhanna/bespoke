@@ -16,7 +16,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-06-25T13:35:51.238006+00:00",
+  "fetched_at": "2026-06-26T13:02:28.833428+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -37,9 +37,9 @@
     "html_url": "https://github.com/quickwit-oss/tantivy-cli",
     "language": "Rust",
     "pushed_at": "2026-03-31T09:18:32Z",
-    "stargazers_count": 395,
+    "stargazers_count": 396,
     "topics": [],
-    "updated_at": "2026-06-25T11:33:29Z"
+    "updated_at": "2026-06-25T18:52:26Z"
   },
   "repo_links": [
     {

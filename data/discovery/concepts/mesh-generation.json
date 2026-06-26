@@ -55,6 +55,30 @@
       "source_repo": "neurolabusc/nii2mesh",
       "status": "candidate-context",
       "text": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eidelen/DicomToMesh",
+      "status": "candidate-context",
+      "text": "A command line tool to transform a DICOM volume into a 3d surface mesh (obj, stl or ply). Several mesh processing routines can be enabled, such as mesh reduction, smoothing or cleaning. Works on Linux, OSX and Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eidelen/DicomToMesh",
+      "status": "candidate-context",
+      "text": "![VTK9 + Dicom build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9Dicom.yml/badge.svg) ![GUI Qt5 build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9DicomGUI.yml/badge.svg) ![PPA Installations Ubuntu status](https://github.com\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate-context",
+      "text": "Iso2Mesh - a 3D surface and volumetric mesh generator for MATLAB/Octave"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate-context",
+      "text": "| | |"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "neurolabusc/nii2mesh",
       "status": "candidate",
       "text": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eidelen/DicomToMesh",
+      "status": "candidate",
+      "text": "![VTK9 + Dicom build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9Dicom.yml/badge.svg) ![GUI Qt5 build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9DicomGUI.yml/badge.svg) ![PPA Installations Ubuntu status](https://github.com\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate",
+      "text": "| | |"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "neurolabusc/nii2mesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

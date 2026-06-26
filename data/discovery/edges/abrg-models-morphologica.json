@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "abrg-models/morphologica_template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "abrg-models/stalefish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "abrg-models/barrelemerge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "graphitemaster/incbin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-13.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-mac-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-13.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Mac OS 13",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-14.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-mac-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-14.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Mac OS 14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-15.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-mac-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-15.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Mac OS 15",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-template.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-template.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Mac Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang16.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-clang16.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Ubu 24 clang16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang17.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-clang17.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Ubu 24 clang17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang18.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-clang18.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Ubu 24 clang18",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-gcc12.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-gcc12.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Ubu 24 gcc12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-gcc14.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-gcc14.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Ubu 24 gcc14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "cplusplus-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "graphics-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "matplotlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-26T12:57:23.248127+00:00",
+  "source_repo": "ABRG-Models/morphologica"
+}

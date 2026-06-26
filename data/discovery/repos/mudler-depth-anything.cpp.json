@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/depth-anything.cpp",
+      "target": "bytedance-seed/depth-anything-3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "mudler/depth-anything.cpp",
+      "target": "bytedance-seed/depth-anything-3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:18:34.227711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15294
+    },
+    {
+      "path": "requirements.txt",
+      "size": 725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A from-scratch C++17/ggml port of Depth Anything 3 (ByteDance)",
+    "fork": false,
+    "full_name": "mudler/depth-anything.cpp",
+    "html_url": "https://github.com/mudler/depth-anything.cpp",
+    "language": "C++",
+    "pushed_at": "2026-06-20T09:23:38Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-06-26T09:30:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance-seed/depth-anything-3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance-seed/depth-anything-3",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

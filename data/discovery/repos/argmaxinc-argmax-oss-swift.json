@@ -43,13 +43,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "argmaxinc/argmax-oss-swift",
-      "target": "argmaxinc/whisperkittools",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/development-tests.yml",
       "source_repo": "argmaxinc/argmax-oss-swift",
@@ -239,11 +232,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:01:19.010828+00:00",
+  "fetched_at": "2026-06-26T13:19:18.074377+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 25760
+      "size": 26621
     },
     {
       "path": ".github/workflows/development-tests.yml",
@@ -275,8 +268,8 @@
     "full_name": "argmaxinc/argmax-oss-swift",
     "html_url": "https://github.com/argmaxinc/argmax-oss-swift",
     "language": "Swift",
-    "pushed_at": "2026-06-10T19:50:21Z",
-    "stargazers_count": 6228,
+    "pushed_at": "2026-06-25T22:45:00Z",
+    "stargazers_count": 6235,
     "topics": [
       "inference",
       "ios",
@@ -294,15 +287,9 @@
       "whisper",
       "whisperkit"
     ],
-    "updated_at": "2026-06-24T18:31:29Z"
+    "updated_at": "2026-06-26T11:31:54Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "argmaxinc/whisperkittools",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Development Tests",

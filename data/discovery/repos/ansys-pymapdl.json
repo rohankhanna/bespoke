@@ -1,0 +1,831 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approver.yml"
+    },
+    {
+      "component": "hmarr/auto-approve-action@f0939ea97e9205ef24d872e76833fa908a770363",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approver.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache_cleaner.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-assignees@a5b84af721c4a621eb9c7a4a95ec20a90d0b88e9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/doc-deploy-changelog@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/check-pr-title@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/doc-style@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/build-wheelhouse@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/check-vulnerabilities@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/check-actions-security@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/doc-deploy-pr@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/build-library@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/release-github@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/doc-deploy-stable@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/doc-deploy-dev@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jayqi/failed-build-issue-action@1a893bbf43ef1c2a8705e2b115cd4f0fe3c5649b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "ansys/actions/hk-package-clean-untagged@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_clean_untagged.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "micnncim/action-label-syncer@3abd5ab72fda571e69fffd97bd4e0033dd5f495c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "ansys/actions/doc-changelog@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "jayqi/failed-build-issue-action@1a893bbf43ef1c2a8705e2b115cd4f0fe3c5649b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkchecker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/pymapdl-reader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/pymapdl-corba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approver.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approver.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "hmarr/auto-approve-action@f0939ea97e9205ef24d872e76833fa908a770363",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approver.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "Approve PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache_cleaner.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache_cleaner.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "Cleanup caches \ud83e\uddf9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions-ecosystem/action-add-assignees@a5b84af721c4a621eb9c7a4a95ec20a90d0b88e9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/doc-deploy-changelog@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/check-pr-title@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/doc-style@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/build-wheelhouse@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/check-vulnerabilities@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/check-actions-security@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/doc-deploy-pr@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/build-library@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/release-github@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/doc-deploy-stable@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/doc-deploy-dev@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "jayqi/failed-build-issue-action@1a893bbf43ef1c2a8705e2b115cd4f0fe3c5649b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "Documentation Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_clean_untagged.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/hk-package-clean-untagged@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_clean_untagged.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "Docker images - Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "micnncim/action-label-syncer@3abd5ab72fda571e69fffd97bd4e0033dd5f495c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys/actions/doc-changelog@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkchecker.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "jayqi/failed-build-issue-action@1a893bbf43ef1c2a8705e2b115cd4f0fe3c5649b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkchecker.yml",
+      "source_repo": "ansys/pymapdl",
+      "target": "LinkCheck - All files \ud83d\udd17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl",
+      "target": "ansys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl",
+      "target": "apdl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl",
+      "target": "engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl",
+      "target": "finite-elements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl",
+      "target": "numerical-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl",
+      "target": "post-treatment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl",
+      "target": "pre-treatment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl",
+      "target": "structural-mechanics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:23:18.222717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8785
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 12093
+    },
+    {
+      "path": ".github/workflows/approver.yml",
+      "size": 3748
+    },
+    {
+      "path": ".github/workflows/cache_cleaner.yml",
+      "size": 2475
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 23492
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 3782
+    },
+    {
+      "path": ".github/workflows/doc-build.yml",
+      "size": 10373
+    },
+    {
+      "path": ".github/workflows/docker_clean_untagged.yml",
+      "size": 794
+    },
+    {
+      "path": ".github/workflows/label.yml",
+      "size": 5275
+    },
+    {
+      "path": ".github/workflows/linkchecker.yml",
+      "size": 1347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Python client library for Ansys MAPDL",
+    "fork": false,
+    "full_name": "ansys/pymapdl",
+    "html_url": "https://github.com/ansys/pymapdl",
+    "language": "Python",
+    "pushed_at": "2026-06-26T00:07:01Z",
+    "stargazers_count": 498,
+    "topics": [
+      "ansys",
+      "apdl",
+      "engineering",
+      "finite-elements",
+      "mesh",
+      "numerical-simulation",
+      "post-treatment",
+      "pre-treatment",
+      "python",
+      "structural-mechanics"
+    ],
+    "updated_at": "2026-06-25T10:03:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ansys/pymapdl-corba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ansys/pymapdl-reader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Approve PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approver.yml",
+      "term": "Approve PRs"
+    },
+    {
+      "context_snippet": "Cleanup caches \ud83e\uddf9",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache_cleaner.yml",
+      "term": "Cleanup caches \ud83e\uddf9"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "\"Documentation Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "term": "Documentation Build"
+    },
+    {
+      "context_snippet": "Docker images - Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_clean_untagged.yml",
+      "term": "Docker images - Cleanup"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "LinkCheck - All files \ud83d\udd17",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkchecker.yml",
+      "term": "LinkCheck - All files \ud83d\udd17"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansys"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apdl"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "engineering"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finite-elements"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerical-simulation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-treatment"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-treatment"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structural-mechanics"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tatsy/torchmcubes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tatsy/torchmcubes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tatsy/torchmcubes",
+      "target": "Build (CPU)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:36.898361+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2195
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1674
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Marching cubes implementation for PyTorch environment.",
+    "fork": false,
+    "full_name": "tatsy/torchmcubes",
+    "html_url": "https://github.com/tatsy/torchmcubes",
+    "language": "Cuda",
+    "pushed_at": "2024-12-26T05:44:55Z",
+    "stargazers_count": 229,
+    "topics": [],
+    "updated_at": "2026-06-24T11:58:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build (CPU)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build (CPU)"
+    }
+  ]
+}

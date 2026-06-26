@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-26T13:18:34.837363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hear evaluation for CED models.",
+    "fork": false,
+    "full_name": "RicherMans/HEAR_CED",
+    "html_url": "https://github.com/RicherMans/HEAR_CED",
+    "language": "Python",
+    "pushed_at": "2024-03-13T05:07:25Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-06-11T01:43:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

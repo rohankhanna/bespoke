@@ -1,0 +1,12 @@
+{
+  "component": "cvxpy/actions/.github/workflows/benchmarks.yml@main",
+  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "cvxpy/cvxpy"
+    }
+  ]
+}

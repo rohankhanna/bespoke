@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Approve PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansys/pymapdl",
+      "status": "candidate-context",
+      "text": "A Python client library for Ansys MAPDL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pymapdl",
+      "status": "candidate-context",
+      "text": "Approve PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pymapdl",
+      "status": "candidate",
+      "text": "Approve PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "aip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "delibate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "nip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "summarize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "advisory"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Approve PRs",
+  "concept_id": "approve-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/approver.yml",
+      "source_repo": "ansys/pymapdl"
+    }
+  ],
+  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Approve PRs",
+      "sense_id": "approve-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

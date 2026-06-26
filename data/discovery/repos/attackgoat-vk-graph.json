@@ -258,11 +258,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T02:08:54.754689+00:00",
+  "fetched_at": "2026-06-26T13:32:17.897619+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 7562
+      "size": 7560
     },
     {
       "path": "Cargo.toml",
@@ -294,7 +294,7 @@
     "full_name": "attackgoat/vk-graph",
     "html_url": "https://github.com/attackgoat/vk-graph",
     "language": "Rust",
-    "pushed_at": "2026-06-19T09:20:46Z",
+    "pushed_at": "2026-06-25T12:47:26Z",
     "stargazers_count": 337,
     "topics": [
       "3d",
@@ -305,7 +305,7 @@
       "rust",
       "vulkan"
     ],
-    "updated_at": "2026-06-18T12:43:46Z"
+    "updated_at": "2026-06-25T12:47:28Z"
   },
   "repo_links": [],
   "terms": [

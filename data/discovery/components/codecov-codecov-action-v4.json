@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@v4",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1222,6 +1222,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "matplotlib/cmocean"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/felupe"
     }
   ]
 }

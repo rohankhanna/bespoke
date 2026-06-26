@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argmaxinc/WhisperKitAndroid",
+      "target": "argmaxinc/whisperkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "argmaxinc/WhisperKitAndroid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "argmaxinc/WhisperKitAndroid",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "argmaxinc/WhisperKitAndroid",
+      "target": "PR Checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:19:23.495243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10145
+    },
+    {
+      "path": ".github/workflows/pr-checks.yml",
+      "size": 2082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "On-device Speech Recognition for Android",
+    "fork": false,
+    "full_name": "argmaxinc/WhisperKitAndroid",
+    "html_url": "https://github.com/argmaxinc/WhisperKitAndroid",
+    "language": "Kotlin",
+    "pushed_at": "2026-01-24T05:12:18Z",
+    "stargazers_count": 211,
+    "topics": [],
+    "updated_at": "2026-06-13T03:22:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "argmaxinc/whisperkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "term": "PR Checks"
+    }
+  ]
+}

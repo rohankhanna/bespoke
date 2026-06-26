@@ -1,7 +1,22 @@
 {
   "components": [
     {
+      "component": "@dr.pogodin/react-native-fs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@gorhom/bottom-sheet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@kesha-antonov/react-native-background-downloader",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@modelcontextprotocol/sdk",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -81,6 +96,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "js-sha256",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "llama.rn",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -111,7 +131,22 @@
       "source_file": "package.json"
     },
     {
+      "component": "react-compiler-runtime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "react-native",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-audio-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-calendar-events",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -121,12 +156,27 @@
       "source_file": "package.json"
     },
     {
-      "component": "react-native-fs",
+      "component": "react-native-edge-to-edge",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-executorch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-executorch-bare-resource-fetcher",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
     {
       "component": "react-native-gesture-handler",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-get-random-values",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -141,12 +191,32 @@
       "source_file": "package.json"
     },
     {
+      "component": "react-native-inappbrowser-reborn",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-keyboard-controller",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "react-native-keychain",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
     {
       "component": "react-native-linear-gradient",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-purchases",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-purchases-ui",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -172,6 +242,11 @@
     },
     {
       "component": "react-native-svg",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-url-polyfill",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -302,6 +377,11 @@
     },
     {
       "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -462,7 +542,28 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "off-grid-ai/mobile",
+      "target": "@dr.pogodin/react-native-fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
       "target": "@gorhom/bottom-sheet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "@kesha-antonov/react-native-background-downloader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "@modelcontextprotocol/sdk",
       "target_type": "component"
     },
     {
@@ -574,6 +675,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "off-grid-ai/mobile",
+      "target": "js-sha256",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
       "target": "llama.rn",
       "target_type": "component"
     },
@@ -616,7 +724,28 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "off-grid-ai/mobile",
+      "target": "react-compiler-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
       "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "react-native-audio-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "react-native-calendar-events",
       "target_type": "component"
     },
     {
@@ -630,7 +759,21 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "off-grid-ai/mobile",
-      "target": "react-native-fs",
+      "target": "react-native-edge-to-edge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "react-native-executorch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "react-native-executorch-bare-resource-fetcher",
       "target_type": "component"
     },
     {
@@ -638,6 +781,13 @@
       "source_file": "package.json",
       "source_repo": "off-grid-ai/mobile",
       "target": "react-native-gesture-handler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "react-native-get-random-values",
       "target_type": "component"
     },
     {
@@ -658,6 +808,20 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "off-grid-ai/mobile",
+      "target": "react-native-inappbrowser-reborn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "react-native-keyboard-controller",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
       "target": "react-native-keychain",
       "target_type": "component"
     },
@@ -666,6 +830,20 @@
       "source_file": "package.json",
       "source_repo": "off-grid-ai/mobile",
       "target": "react-native-linear-gradient",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "react-native-purchases",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "react-native-purchases-ui",
       "target_type": "component"
     },
     {
@@ -701,6 +879,13 @@
       "source_file": "package.json",
       "source_repo": "off-grid-ai/mobile",
       "target": "react-native-svg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "react-native-url-polyfill",
       "target_type": "component"
     },
     {
@@ -883,6 +1068,13 @@
       "source_file": "package.json",
       "source_repo": "off-grid-ai/mobile",
       "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile",
+      "target": "react-dom",
       "target_type": "component"
     },
     {
@@ -1110,7 +1302,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T00:57:49.086610+00:00",
+  "fetched_at": "2026-06-26T13:21:58.252101+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1118,7 +1310,7 @@
     },
     {
       "path": "package.json",
-      "size": 3838
+      "size": 4728
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -1142,8 +1334,8 @@
     "full_name": "off-grid-ai/mobile",
     "html_url": "https://github.com/off-grid-ai/mobile",
     "language": "TypeScript",
-    "pushed_at": "2026-06-25T16:38:54Z",
-    "stargazers_count": 2567,
+    "pushed_at": "2026-06-26T12:37:44Z",
+    "stargazers_count": 2569,
     "topics": [
       "edge-ai",
       "gguf",
@@ -1159,7 +1351,7 @@
       "tool-calling",
       "whisper-android"
     ],
-    "updated_at": "2026-06-25T20:25:09Z"
+    "updated_at": "2026-06-26T12:37:08Z"
   },
   "repo_links": [
     {

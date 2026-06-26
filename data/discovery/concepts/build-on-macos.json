@@ -407,11 +407,17 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": ".github/workflows/ci-macos.yml",
       "source_repo": "apache/brpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "apache/brpc"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

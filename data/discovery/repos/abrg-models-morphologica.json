@@ -1,0 +1,497 @@
+{
+  "components": [
+    {
+      "component": "ABRG-Models/morphologica/.github/workflows/cmake-mac-template.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-13.yml"
+    },
+    {
+      "component": "ABRG-Models/morphologica/.github/workflows/cmake-mac-template.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-14.yml"
+    },
+    {
+      "component": "ABRG-Models/morphologica/.github/workflows/cmake-mac-template.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-15.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-template.yml"
+    },
+    {
+      "component": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang16.yml"
+    },
+    {
+      "component": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang17.yml"
+    },
+    {
+      "component": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang18.yml"
+    },
+    {
+      "component": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-gcc12.yml"
+    },
+    {
+      "component": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-gcc14.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "abrg-models/morphologica_template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "abrg-models/stalefish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "abrg-models/barrelemerge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "graphitemaster/incbin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-13.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-mac-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-13.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Mac OS 13",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-14.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-mac-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-14.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Mac OS 14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-15.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-mac-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-15.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Mac OS 15",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-mac-template.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-template.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Mac Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang16.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-clang16.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Ubu 24 clang16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang17.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-clang17.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Ubu 24 clang17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang18.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-clang18.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Ubu 24 clang18",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-gcc12.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-gcc12.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Ubu 24 gcc12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-gcc14.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-gcc14.yml",
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "Ubu 24 gcc14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "cplusplus-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "graphics-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "matplotlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:46.619167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15670
+    },
+    {
+      "path": ".github/workflows/cmake-mac-13.yml",
+      "size": 693
+    },
+    {
+      "path": ".github/workflows/cmake-mac-14.yml",
+      "size": 524
+    },
+    {
+      "path": ".github/workflows/cmake-mac-15.yml",
+      "size": 524
+    },
+    {
+      "path": ".github/workflows/cmake-mac-template.yml",
+      "size": 2834
+    },
+    {
+      "path": ".github/workflows/cmake-ubu24-clang16.yml",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/cmake-ubu24-clang17.yml",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/cmake-ubu24-clang18.yml",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/cmake-ubu24-gcc12.yml",
+      "size": 563
+    },
+    {
+      "path": ".github/workflows/cmake-ubu24-gcc14.yml",
+      "size": 563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "C++ header-only graphing and data visualization with Modern OpenGL",
+    "fork": false,
+    "full_name": "ABRG-Models/morphologica",
+    "html_url": "https://github.com/ABRG-Models/morphologica",
+    "language": "C++",
+    "pushed_at": "2025-06-26T09:18:00Z",
+    "stargazers_count": 309,
+    "topics": [
+      "2d",
+      "3d",
+      "cplusplus",
+      "cplusplus-17",
+      "data-visualization",
+      "graphics",
+      "graphics-engine",
+      "graphs",
+      "matplotlib",
+      "opengl",
+      "plotting",
+      "simulation",
+      "visualization"
+    ],
+    "updated_at": "2026-06-15T09:51:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abrg-models/barrelemerge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abrg-models/morphologica_template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abrg-models/stalefish",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphitemaster/incbin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mac OS 13",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-13.yml",
+      "term": "Mac OS 13"
+    },
+    {
+      "context_snippet": "Mac OS 14",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-14.yml",
+      "term": "Mac OS 14"
+    },
+    {
+      "context_snippet": "Mac OS 15",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-15.yml",
+      "term": "Mac OS 15"
+    },
+    {
+      "context_snippet": "Mac Template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-mac-template.yml",
+      "term": "Mac Template"
+    },
+    {
+      "context_snippet": "Ubu 24 clang16",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-clang16.yml",
+      "term": "Ubu 24 clang16"
+    },
+    {
+      "context_snippet": "Ubu 24 clang17",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-clang17.yml",
+      "term": "Ubu 24 clang17"
+    },
+    {
+      "context_snippet": "Ubu 24 clang18",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-clang18.yml",
+      "term": "Ubu 24 clang18"
+    },
+    {
+      "context_snippet": "Ubu 24 gcc12",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-gcc12.yml",
+      "term": "Ubu 24 gcc12"
+    },
+    {
+      "context_snippet": "Ubu 24 gcc14",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-ubu24-gcc14.yml",
+      "term": "Ubu 24 gcc14"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus-17"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-engine"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphs"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matplotlib"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotting"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

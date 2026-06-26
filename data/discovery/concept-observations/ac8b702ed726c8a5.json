@@ -84,7 +84,7 @@
   "normalized_form": "bump-homebrew-formula",
   "observation_id": "ac8b702ed726c8a5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
   "observed_text": "Bump Homebrew Formula",
   "source_context_snippet": "Bump Homebrew Formula",
   "source_file": ".github/workflows/homebrew-update.yml",

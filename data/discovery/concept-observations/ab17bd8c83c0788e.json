@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python package for producing spherical histograms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20009025,
+      "status": "candidate",
+      "text": "record"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19995782,
+      "status": "candidate",
+      "text": "history"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19982229,
+      "status": "candidate",
+      "text": "equalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029948,
+      "status": "candidate",
+      "text": "distribution graph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029947,
+      "status": "candidate",
+      "text": "bar chart"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "histogram",
+      "sense_id": "histogram#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "histogram",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "histogram",
+  "observation_id": "ab17bd8c83c0788e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
+  "observed_text": "histogram",
+  "source_context_snippet": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)",
+  "source_file": null,
+  "source_repo": "bzrudski/vectorose",
+  "source_repo_description": "Python package for producing spherical histograms"
+}

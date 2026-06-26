@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -91,6 +91,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "pyvista/pyvista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mworchel/xatlas-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "atteneder/glTFast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh"
     }
   ],
   "term": "mesh"

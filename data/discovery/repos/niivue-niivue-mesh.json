@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "@niivue/niimath",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@niivue/niivue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jslint",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niivue/niivue-mesh",
+      "target": "niivue/ct2print",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niivue/niivue-mesh",
+      "target": "twinklebear/webgl-marching-cubes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niivue/niivue-mesh",
+      "target": "timknip/mesh-decimate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "niivue/niivue-mesh",
+      "target": "@niivue/niimath",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "niivue/niivue-mesh",
+      "target": "@niivue/niivue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "niivue/niivue-mesh",
+      "target": "jslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "niivue/niivue-mesh",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "niivue/niivue-mesh",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "niivue/niivue-mesh",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "niivue/niivue-mesh",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:23:57.257684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3075
+    },
+    {
+      "path": "package.json",
+      "size": 349
+    },
+    {
+      "path": ".github/workflows/ghpages.yml",
+      "size": 503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A basic example of converting a voxel-based image to a simplified mesh",
+    "fork": false,
+    "full_name": "niivue/niivue-mesh",
+    "html_url": "https://github.com/niivue/niivue-mesh",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-26T08:18:06Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-03-11T10:35:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niivue/ct2print",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timknip/mesh-decimate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twinklebear/webgl-marching-cubes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghpages.yml",
+      "term": "Build and Deploy"
+    }
+  ]
+}

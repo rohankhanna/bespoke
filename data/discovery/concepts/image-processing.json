@@ -835,6 +835,18 @@
       "source_repo": "frederik-uni/manga-image-translator-rust",
       "status": "candidate-context",
       "text": "* [Docs/Install Guide](https://frederik-uni.github.io/manga-image-translator-rust/index.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate-context",
+      "text": "Iso2Mesh - a 3D surface and volumetric mesh generator for MATLAB/Octave"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate-context",
+      "text": "| | |"
     }
   ],
   "candidate_glosses": [
@@ -1251,6 +1263,12 @@
       "source_repo": "frederik-uni/manga-image-translator-rust",
       "status": "candidate",
       "text": "* [Docs/Install Guide](https://frederik-uni.github.io/manga-image-translator-rust/index.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate",
+      "text": "| | |"
     }
   ],
   "candidate_related_terms": [],
@@ -3676,11 +3694,23 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoyi-duan/WorldScore",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoyi-duan/WorldScore",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoyi-duan/WorldScore",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoyi-duan/WorldScore",
+      "target": "world-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:15.453124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation for WorldScore: A Unified Evaluation Benchmark for World Generation",
+    "fork": false,
+    "full_name": "haoyi-duan/WorldScore",
+    "html_url": "https://github.com/haoyi-duan/WorldScore",
+    "language": "Python",
+    "pushed_at": "2025-12-09T21:15:09Z",
+    "stargazers_count": 289,
+    "topics": [
+      "benchmark",
+      "computer-vision",
+      "world-generation"
+    ],
+    "updated_at": "2026-06-23T11:14:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 10px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 10px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 10px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-generation"
+    }
+  ]
+}

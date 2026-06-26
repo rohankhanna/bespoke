@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-26T13:23:35.474367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "R package with just the cmocean palettes",
+    "fork": false,
+    "full_name": "aitap/cmocean",
+    "html_url": "https://github.com/aitap/cmocean",
+    "language": "R",
+    "pushed_at": "2025-07-27T21:04:10Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-07-27T21:04:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

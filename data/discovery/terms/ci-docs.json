@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci-docs.yml",
       "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "bjlittle/geovista"
     }
   ],
   "term": "CI Docs"

@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "matlab-actions/setup-matlab@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "matlab-actions/setup-matlab@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "matlab-actions/setup-matlab@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "matlab-actions/setup-matlab@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "matlab-actions/setup-matlab@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "chebfun/chebfun",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "chebfun/chebfun",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "chebfun/chebfun",
+      "target": "misc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml",
+      "source_repo": "chebfun/chebfun",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml",
+      "source_repo": "chebfun/chebfun",
+      "target": "matlab-actions/setup-matlab@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml",
+      "source_repo": "chebfun/chebfun",
+      "target": "matlab-actions/run-command@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab.yml",
+      "source_repo": "chebfun/chebfun",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/matlab.yml",
+      "source_repo": "chebfun/chebfun",
+      "target": "Matlab tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:23:01.326255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3172
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 1000
+    },
+    {
+      "path": ".github/workflows/matlab.yml",
+      "size": 3036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chebfun:  numerical computing with functions.",
+    "fork": false,
+    "full_name": "chebfun/chebfun",
+    "html_url": "https://github.com/chebfun/chebfun",
+    "language": "MATLAB",
+    "pushed_at": "2026-06-23T16:12:49Z",
+    "stargazers_count": 674,
+    "topics": [],
+    "updated_at": "2026-06-17T14:29:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "misc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "misc"
+    },
+    {
+      "context_snippet": "Matlab tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/matlab.yml",
+      "term": "Matlab tests"
+    }
+  ]
+}

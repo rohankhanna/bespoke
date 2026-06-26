@@ -120,7 +120,7 @@
   "normalized_form": "swift",
   "observation_id": "40ec1e9b361c2d71",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
   "observed_text": "Swift",
   "source_context_snippet": "Swift",
   "source_file": ".github/workflows/swift.yml",

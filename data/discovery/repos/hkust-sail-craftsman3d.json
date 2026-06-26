@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "HKUST-SAIL/CraftsMan3D",
-      "target": "seed3d/dora",
+      "target": "wyysf-98/craftsman",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "HKUST-SAIL/CraftsMan3D",
-      "target": "dreamtechai/direct3d",
+      "target": "thu-ml/crm",
       "target_type": "repository"
     },
     {
@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T00:57:57.786513+00:00",
+  "fetched_at": "2026-06-26T13:22:27.787110+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -87,22 +87,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dreamtechai/direct3d",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "seed3d/dora",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "tencent/flashvdm",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tencent/hunyuan3d-2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thu-ml/crm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wyysf-98/craftsman",
       "source_file": "README.md"
     }
   ],

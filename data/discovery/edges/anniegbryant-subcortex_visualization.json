@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anniegbryant/subcortex_visualization",
+      "target": "ggseg/ggseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anniegbryant/subcortex_visualization",
+      "target": "ggseg/python-ggseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anniegbryant/subcortex_visualization",
+      "target": "mica-mni/enigma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anniegbryant/subcortex_visualization",
+      "target": "neurolabusc/surf-ice",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-26T12:57:23.248127+00:00",
+  "source_repo": "anniegbryant/subcortex_visualization"
+}

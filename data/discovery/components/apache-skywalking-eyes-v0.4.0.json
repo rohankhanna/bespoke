@@ -1,7 +1,7 @@
 {
   "component": "apache/skywalking-eyes@v0.4.0",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

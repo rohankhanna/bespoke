@@ -4,20 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
-      "target": "tencent-hunyuan/hunyuanworld-1.0",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
-      "target": "tencent-hunyuan/hunyuan3d-2.1",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
       "target": "tencent/flashvdm",
       "target_type": "repository"
     },
@@ -25,7 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
-      "target": "sdbds/hunyuan3d-2-for-windows",
+      "target": "wyysf-98/craftsman3d",
       "target_type": "repository"
     },
     {
@@ -92,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-24T18:42:53.825671+00:00",
+  "generated_at": "2026-06-26T12:57:23.248127+00:00",
   "source_repo": "Tencent-Hunyuan/Hunyuan3D-2"
 }

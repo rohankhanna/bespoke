@@ -11,14 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "HKUST-SAIL/CraftsMan3D",
-      "target": "seed3d/dora",
+      "target": "wyysf-98/craftsman",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "HKUST-SAIL/CraftsMan3D",
-      "target": "dreamtechai/direct3d",
+      "target": "thu-ml/crm",
       "target_type": "repository"
     },
     {
@@ -57,6 +57,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-26T00:48:31.916635+00:00",
+  "generated_at": "2026-06-26T12:57:23.248127+00:00",
   "source_repo": "HKUST-SAIL/CraftsMan3D"
 }

@@ -84,7 +84,7 @@
   "normalized_form": "pr-diff-links",
   "observation_id": "50e19f3437e6521b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T13:00:34.017104+00:00",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
   "observed_text": "PR Diff Links",
   "source_context_snippet": "PR Diff Links",
   "source_file": ".github/workflows/pr-diff-links.yml",

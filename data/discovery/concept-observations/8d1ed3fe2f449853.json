@@ -84,7 +84,7 @@
   "normalized_form": "cut-spec-release",
   "observation_id": "8d1ed3fe2f449853",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
   "observed_text": "Cut spec release",
   "source_context_snippet": "Cut spec release",
   "source_file": ".github/workflows/cut-release.yml",

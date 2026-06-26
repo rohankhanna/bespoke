@@ -4873,11 +4873,17 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "preservim/tagbar"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

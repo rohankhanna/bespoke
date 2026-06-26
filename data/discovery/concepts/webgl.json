@@ -235,6 +235,18 @@
       "source_repo": "mapillary/mapillary-js",
       "status": "candidate-context",
       "text": "[![GitHub workflow](https://github.com/mapillary/mapillary-js/workflows/Build/badge.svg)](https://github.com/mapillary/mapillary-js/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate-context",
+      "text": "Efficient glTF 3D import / export package for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate-context",
+      "text": "[![openupm](https://img.shields.io/npm/v/com.atteneder.gltfast?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.atteneder.gltfast/)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "mapillary/mapillary-js",
       "status": "candidate",
       "text": "[![GitHub workflow](https://github.com/mapillary/mapillary-js/workflows/Build/badge.svg)](https://github.com/mapillary/mapillary-js/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate",
+      "text": "[![openupm](https://img.shields.io/npm/v/com.atteneder.gltfast?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.atteneder.gltfast/)"
     }
   ],
   "candidate_related_terms": [],
@@ -1918,11 +1936,23 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "atteneder/glTFast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

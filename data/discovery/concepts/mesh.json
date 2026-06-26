@@ -223,6 +223,66 @@
       "source_repo": "pyvista/pyvista",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mworchel/xatlas-python",
+      "status": "candidate-context",
+      "text": "Python bindings for xatlas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mworchel/xatlas-python",
+      "status": "candidate-context",
+      "text": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate-context",
+      "text": "Efficient glTF 3D import / export package for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate-context",
+      "text": "[![openupm](https://img.shields.io/npm/v/com.atteneder.gltfast?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.atteneder.gltfast/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansys/pymapdl",
+      "status": "candidate-context",
+      "text": "A Python client library for Ansys MAPDL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pymapdl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bjlittle/geovista",
+      "status": "candidate-context",
+      "text": "Cartographic rendering and mesh analytics powered by PyVista \ud83c\udf0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjlittle/geovista",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eidelen/DicomToMesh",
+      "status": "candidate-context",
+      "text": "A command line tool to transform a DICOM volume into a 3d surface mesh (obj, stl or ply). Several mesh processing routines can be enabled, such as mesh reduction, smoothing or cleaning. Works on Linux, OSX and Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eidelen/DicomToMesh",
+      "status": "candidate-context",
+      "text": "![VTK9 + Dicom build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9Dicom.yml/badge.svg) ![GUI Qt5 build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9DicomGUI.yml/badge.svg) ![PPA Installations Ubuntu status](https://github.com\u2026"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +393,36 @@
       "source_repo": "pyvista/pyvista",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mworchel/xatlas-python",
+      "status": "candidate",
+      "text": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate",
+      "text": "[![openupm](https://img.shields.io/npm/v/com.atteneder.gltfast?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.atteneder.gltfast/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pymapdl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjlittle/geovista",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eidelen/DicomToMesh",
+      "status": "candidate",
+      "text": "![VTK9 + Dicom build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9Dicom.yml/badge.svg) ![GUI Qt5 build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9DicomGUI.yml/badge.svg) ![PPA Installations Ubuntu status](https://github.com\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -526,11 +616,41 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "pyvista/pyvista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "mworchel/xatlas-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "atteneder/glTFast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "ansys/pymapdl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

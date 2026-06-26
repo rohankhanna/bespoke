@@ -55,6 +55,18 @@
       "source_repo": "SkyworkAI/SkyReels-A2",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xyfJASON/ctrlora",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] Codebase for \"CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xyfJASON/ctrlora",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "SkyworkAI/SkyReels-A2",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xyfJASON/ctrlora",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "SkyworkAI/SkyReels-A2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "xyfJASON/ctrlora"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1474,6 +1474,18 @@
       "source_repo": "cginternals/glbinding",
       "status": "candidate-context",
       "text": "[//]: # (Comment)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate-context",
+      "text": "The public CGAL repository, see the README below"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate-context",
+      "text": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)"
     }
   ],
   "candidate_glosses": [
@@ -2208,6 +2220,12 @@
       "source_repo": "cginternals/glbinding",
       "status": "candidate",
       "text": "[//]: # (Comment)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate",
+      "text": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)"
     }
   ],
   "candidate_related_terms": [
@@ -4450,11 +4468,23 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "CGAL/cgal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

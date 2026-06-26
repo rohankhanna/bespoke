@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "world-generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haoyi-duan/WorldScore",
+      "status": "candidate-context",
+      "text": "Official implementation for WorldScore: A Unified Evaluation Benchmark for World Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haoyi-duan/WorldScore",
+      "status": "candidate-context",
+      "text": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 10px;\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haoyi-duan/WorldScore",
+      "status": "candidate",
+      "text": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 10px;\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "world-generation",
+  "concept_id": "world-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "haoyi-duan/WorldScore"
+    }
+  ],
+  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "world-generation",
+      "sense_id": "world-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

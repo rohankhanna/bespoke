@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "draco"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate-context",
+      "text": "Efficient glTF 3D import / export package for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate-context",
+      "text": "[![openupm](https://img.shields.io/npm/v/com.atteneder.gltfast?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.atteneder.gltfast/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate",
+      "text": "[![openupm](https://img.shields.io/npm/v/com.atteneder.gltfast?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.atteneder.gltfast/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19629746,
+      "status": "candidate",
+      "text": "genus draco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19629745,
+      "status": "candidate",
+      "text": "dragon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003126,
+      "status": "candidate",
+      "text": "drago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003124,
+      "status": "candidate",
+      "text": "dragoon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003123,
+      "status": "candidate",
+      "text": "drake"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "genus draco"
+    }
+  ],
+  "canonical_name": "draco",
+  "concept_id": "draco",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "atteneder/glTFast"
+    }
+  ],
+  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "draco",
+      "sense_id": "draco#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

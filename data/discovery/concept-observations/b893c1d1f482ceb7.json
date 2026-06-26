@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The public CGAL repository, see the README below"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CMake Testsuite"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CMake Testsuite"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CMake Testsuite",
+      "sense_id": "cmake-testsuite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cmake-testsuite",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cmake-testsuite",
+  "observation_id": "b893c1d1f482ceb7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
+  "observed_text": "CMake Testsuite",
+  "source_context_snippet": "CMake Testsuite",
+  "source_file": ".github/workflows/cmake-all.yml",
+  "source_repo": "CGAL/cgal",
+  "source_repo_description": "The public CGAL repository, see the README below"
+}

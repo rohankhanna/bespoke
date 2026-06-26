@@ -5501,6 +5501,18 @@
       "source_repo": "pkoukk/tiktoken-go",
       "status": "candidate-context",
       "text": "[\u7b80\u4f53\u4e2d\u6587](./README_zh-hans.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reza-gholizade/k8s-mcp-server",
+      "status": "candidate-context",
+      "text": "Manage Your Kubernetes Cluster with k8s mcp-server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reza-gholizade/k8s-mcp-server",
+      "status": "candidate-context",
+      "text": "A Kubernetes Model Context Protocol (MCP) server that provides tools for interacting with Kubernetes clusters through a standardized interface."
     }
   ],
   "candidate_glosses": [
@@ -8257,6 +8269,12 @@
       "source_repo": "pkoukk/tiktoken-go",
       "status": "candidate",
       "text": "[\u7b80\u4f53\u4e2d\u6587](./README_zh-hans.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reza-gholizade/k8s-mcp-server",
+      "status": "candidate",
+      "text": "A Kubernetes Model Context Protocol (MCP) server that provides tools for interacting with Kubernetes clusters through a standardized interface."
     }
   ],
   "candidate_related_terms": [],
@@ -17240,11 +17258,35 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "reza-gholizade/k8s-mcp-server"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -415,6 +415,18 @@
       "source_repo": "abistarun/resseract-lite",
       "status": "candidate-context",
       "text": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ABRG-Models/morphologica",
+      "status": "candidate-context",
+      "text": "C++ header-only graphing and data visualization with Modern OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/morphologica",
+      "status": "candidate-context",
+      "text": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths."
     }
   ],
   "candidate_glosses": [
@@ -621,6 +633,12 @@
       "source_repo": "abistarun/resseract-lite",
       "status": "candidate",
       "text": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/morphologica",
+      "status": "candidate",
+      "text": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths."
     }
   ],
   "candidate_related_terms": [],
@@ -2122,11 +2140,23 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python bindings for xatlas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020884,
+      "status": "candidate",
+      "text": "param"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020883,
+      "status": "candidate",
+      "text": "superparameterization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020882,
+      "status": "candidate",
+      "text": "argumentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020881,
+      "status": "candidate",
+      "text": "metaparameter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020880,
+      "status": "candidate",
+      "text": "parametric equation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parametrization",
+      "sense_id": "parametrization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "parametrization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "parametrization",
+  "observation_id": "674f07a94b910a9b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
+  "observed_text": "parametrization",
+  "source_context_snippet": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes.",
+  "source_file": null,
+  "source_repo": "mworchel/xatlas-python",
+  "source_repo_description": "Python bindings for xatlas"
+}

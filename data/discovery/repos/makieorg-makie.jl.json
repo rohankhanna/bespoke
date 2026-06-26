@@ -98,6 +98,26 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_formatting.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_formatting.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_formatting.yml"
+    },
+    {
+      "component": "fredrikekre/runic-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_glmakie.yml"
     },
     {
@@ -318,6 +338,41 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_formatting.yml",
+      "source_repo": "MakieOrg/Makie.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_formatting.yml",
+      "source_repo": "MakieOrg/Makie.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_formatting.yml",
+      "source_repo": "MakieOrg/Makie.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_formatting.yml",
+      "source_repo": "MakieOrg/Makie.jl",
+      "target": "fredrikekre/runic-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_formatting.yml",
+      "source_repo": "MakieOrg/Makie.jl",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_glmakie.yml",
       "source_repo": "MakieOrg/Makie.jl",
       "target": "actions/checkout@v6",
@@ -401,7 +456,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:52:58.897929+00:00",
+  "fetched_at": "2026-06-26T13:23:39.018327+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -436,6 +491,10 @@
       "size": 1322
     },
     {
+      "path": ".github/workflows/_formatting.yml",
+      "size": 351
+    },
+    {
       "path": ".github/workflows/_glmakie.yml",
       "size": 1878
     }
@@ -449,8 +508,8 @@
     "full_name": "MakieOrg/Makie.jl",
     "html_url": "https://github.com/MakieOrg/Makie.jl",
     "language": "Julia",
-    "pushed_at": "2026-05-03T00:11:40Z",
-    "stargazers_count": 2751,
+    "pushed_at": "2026-06-26T06:05:33Z",
+    "stargazers_count": 2781,
     "topics": [
       "gpu",
       "graphics",
@@ -459,7 +518,7 @@
       "plotting",
       "visualization"
     ],
-    "updated_at": "2026-04-30T20:00:58Z"
+    "updated_at": "2026-06-26T07:37:38Z"
   },
   "repo_links": [
     {
@@ -510,6 +569,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/_docs.yml",
       "term": "Docs"
+    },
+    {
+      "context_snippet": "Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_formatting.yml",
+      "term": "Formatting"
     },
     {
       "context_snippet": "GLMakie",

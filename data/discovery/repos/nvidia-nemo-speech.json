@@ -1,0 +1,586 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bump_mcore_tag.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_bump_yamlfile.yml@v0.27.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bump_mcore_tag.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.63.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-approve-test-queue.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-approve-test-queue.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-speech.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-speech.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-speech.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-speech.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-speech.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-speech.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.89.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_container.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "~Build container template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bump_mcore_tag.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bump_mcore_tag.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_bump_yamlfile.yml@v0.27.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_bump_mcore_tag.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "~Bump Megatron Tag template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.63.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-approve-test-queue.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-approve-test-queue.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-approve-test-queue.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "Approve Test Queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-speech.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main-speech.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "NeMo E2E Speech Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "NeMo Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.89.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "CICD NeMo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-answer.yml",
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "Claude Answer Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "speaker-diariazation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "speaker-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/Speech",
+      "target": "speech-translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:01:29.487260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10911
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 15144
+    },
+    {
+      "path": ".github/workflows/_build_container.yml",
+      "size": 3923
+    },
+    {
+      "path": ".github/workflows/_bump_mcore_tag.yml",
+      "size": 1826
+    },
+    {
+      "path": ".github/workflows/cherry-pick-release-commit.yml",
+      "size": 352
+    },
+    {
+      "path": ".github/workflows/cicd-approve-test-queue.yml",
+      "size": 10015
+    },
+    {
+      "path": ".github/workflows/cicd-main-speech.yml",
+      "size": 24883
+    },
+    {
+      "path": ".github/workflows/cicd-main-unit-tests.yml",
+      "size": 4113
+    },
+    {
+      "path": ".github/workflows/cicd-main.yml",
+      "size": 14320
+    },
+    {
+      "path": ".github/workflows/claude-answer.yml",
+      "size": 2042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+    "fork": false,
+    "full_name": "NVIDIA-NeMo/Speech",
+    "html_url": "https://github.com/NVIDIA-NeMo/Speech",
+    "language": "Python",
+    "pushed_at": "2026-06-26T00:30:25Z",
+    "stargazers_count": 17564,
+    "topics": [
+      "asr",
+      "deeplearning",
+      "generative-ai",
+      "machine-translation",
+      "neural-networks",
+      "speaker-diariazation",
+      "speaker-recognition",
+      "speech-synthesis",
+      "speech-translation",
+      "tts"
+    ],
+    "updated_at": "2026-06-26T08:31:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "~Build container template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_container.yml",
+      "term": "~Build container template"
+    },
+    {
+      "context_snippet": "~Bump Megatron Tag template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_bump_mcore_tag.yml",
+      "term": "~Bump Megatron Tag template"
+    },
+    {
+      "context_snippet": "Approve Test Queue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-approve-test-queue.yml",
+      "term": "Approve Test Queue"
+    },
+    {
+      "context_snippet": "NeMo E2E Speech Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main-speech.yml",
+      "term": "NeMo E2E Speech Tests"
+    },
+    {
+      "context_snippet": "NeMo Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml",
+      "term": "NeMo Unit Tests"
+    },
+    {
+      "context_snippet": "CICD NeMo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "term": "CICD NeMo"
+    },
+    {
+      "context_snippet": "Claude Answer Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-answer.yml",
+      "term": "Claude Answer Issue"
+    },
+    {
+      "context_snippet": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-diariazation"
+    },
+    {
+      "context_snippet": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-recognition"
+    },
+    {
+      "context_snippet": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-translation"
+    }
+  ]
+}

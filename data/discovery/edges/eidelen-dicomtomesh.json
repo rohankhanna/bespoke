@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "aot-ag/dicomtomesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "dgobbi/vtk-dicom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cppVTK9Dicom.yml",
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cppVTK9Dicom.yml",
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "VTK9 C++ CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cppVTK9DicomGUI.yml",
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cppVTK9DicomGUI.yml",
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "GUI Qt5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ppaUbuntuLatest.yml",
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ppaUbuntuLatest.yml",
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "PPA Installation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "3d-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "ct-scans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "dicom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "mesh-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "mesh-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "surface-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "threshold",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh",
+      "target": "visualisation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-26T12:57:23.248127+00:00",
+  "source_repo": "eidelen/DicomToMesh"
+}

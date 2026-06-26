@@ -211,6 +211,18 @@
       "source_repo": "lace/hyla",
       "status": "candidate-context",
       "text": "[![version](https://img.shields.io/npm/v/hyla?style=flat-square)][npm]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate-context",
+      "text": "The public CGAL repository, see the README below"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate-context",
+      "text": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "lace/hyla",
       "status": "candidate",
       "text": "[![version](https://img.shields.io/npm/v/hyla?style=flat-square)][npm]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate",
+      "text": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +442,17 @@
       "observed_at": "2026-05-06T07:04:23.568635+00:00",
       "source_file": null,
       "source_repo": "lace/hyla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "CGAL/cgal"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

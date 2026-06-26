@@ -3058,6 +3058,18 @@
       "source_repo": "richiejp/VoxInput",
       "status": "candidate-context",
       "text": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate-context",
+      "text": "Efficient glTF 3D import / export package for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate-context",
+      "text": "[![openupm](https://img.shields.io/npm/v/com.atteneder.gltfast?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.atteneder.gltfast/)"
     }
   ],
   "candidate_glosses": [
@@ -4602,6 +4614,12 @@
       "source_repo": "richiejp/VoxInput",
       "status": "candidate",
       "text": "Transcribe input from your microphone and turn it into key presses on a virtual keyboard. This allows you to use speech-to-text on any application or window system in Linux and macOS. On Linux you can even use it on the system console."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate",
+      "text": "[![openupm](https://img.shields.io/npm/v/com.atteneder.gltfast?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.atteneder.gltfast/)"
     }
   ],
   "candidate_related_terms": [
@@ -12169,11 +12187,41 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "atteneder/glTFast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

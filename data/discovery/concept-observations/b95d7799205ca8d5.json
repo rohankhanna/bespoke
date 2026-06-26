@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cartographic rendering and mesh analytics powered by PyVista \ud83c\udf0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ci-first-contribution"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ci-first-contribution"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ci-first-contribution",
+      "sense_id": "ci-first-contribution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-first-contribution",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-first-contribution",
+  "observation_id": "b95d7799205ca8d5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
+  "observed_text": "ci-first-contribution",
+  "source_context_snippet": "ci-first-contribution",
+  "source_file": ".github/workflows/ci-first-contribution.yml",
+  "source_repo": "bjlittle/geovista",
+  "source_repo_description": "Cartographic rendering and mesh analytics powered by PyVista \ud83c\udf0d"
+}

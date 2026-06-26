@@ -44,6 +44,18 @@
       "source_repo": "facebookresearch/habitat-lab",
       "status": "candidate-context",
       "text": "Install and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mworchel/xatlas-python",
+      "status": "candidate-context",
+      "text": "Python bindings for xatlas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mworchel/xatlas-python",
+      "status": "candidate-context",
+      "text": "Install and Test"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "facebookresearch/habitat-lab",
       "status": "candidate",
       "text": "Install and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mworchel/xatlas-python",
+      "status": "candidate",
+      "text": "Install and Test"
     }
   ],
   "candidate_related_terms": [
@@ -131,11 +149,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/install_and_test.yml",
       "source_repo": "facebookresearch/habitat-lab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/install-and-test.yml",
+      "source_repo": "mworchel/xatlas-python"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

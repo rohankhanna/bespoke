@@ -482,7 +482,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T00:53:54.933988+00:00",
+  "fetched_at": "2026-06-26T13:17:20.841872+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -503,13 +503,13 @@
     "html_url": "https://github.com/antfu-collective/vitesse-webext",
     "language": "TypeScript",
     "pushed_at": "2026-03-03T12:41:03Z",
-    "stargazers_count": 3374,
+    "stargazers_count": 3375,
     "topics": [
       "vite",
       "vue3",
       "webextension"
     ],
-    "updated_at": "2026-06-20T02:12:50Z"
+    "updated_at": "2026-06-26T07:35:47Z"
   },
   "repo_links": [
     {

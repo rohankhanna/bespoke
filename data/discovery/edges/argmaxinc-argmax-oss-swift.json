@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "argmaxinc/argmax-oss-swift",
-      "target": "argmaxinc/whisperkittools",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/development-tests.yml",
       "source_repo": "argmaxinc/argmax-oss-swift",
@@ -197,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-25T00:47:33.944341+00:00",
+  "generated_at": "2026-06-26T12:57:23.248127+00:00",
   "source_repo": "argmaxinc/argmax-oss-swift"
 }

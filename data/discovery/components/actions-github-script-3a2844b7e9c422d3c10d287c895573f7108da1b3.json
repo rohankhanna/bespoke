@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1017,6 +1017,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/approver.yml",
+      "source_repo": "ansys/pymapdl"
     }
   ]
 }

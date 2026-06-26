@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "directional-statistics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bzrudski/vectorose",
+      "status": "candidate-context",
+      "text": "Python package for producing spherical histograms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bzrudski/vectorose",
+      "status": "candidate-context",
+      "text": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bzrudski/vectorose",
+      "status": "candidate",
+      "text": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "directional-statistics",
+  "concept_id": "directional-statistics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose"
+    }
+  ],
+  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "directional-statistics",
+      "sense_id": "directional-statistics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

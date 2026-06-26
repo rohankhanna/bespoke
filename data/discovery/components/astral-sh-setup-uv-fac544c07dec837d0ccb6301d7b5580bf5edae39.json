@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-update-changelog.yml",
       "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily_fuzz.yaml",
+      "source_repo": "astral-sh/ruff"
     }
   ]
 }

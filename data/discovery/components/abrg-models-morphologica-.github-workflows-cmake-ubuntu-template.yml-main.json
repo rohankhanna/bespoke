@@ -1,0 +1,32 @@
+{
+  "component": "ABRG-Models/morphologica/.github/workflows/cmake-ubuntu-template.yml@main",
+  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang16.yml",
+      "source_repo": "ABRG-Models/morphologica"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang17.yml",
+      "source_repo": "ABRG-Models/morphologica"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-clang18.yml",
+      "source_repo": "ABRG-Models/morphologica"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-gcc12.yml",
+      "source_repo": "ABRG-Models/morphologica"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-ubu24-gcc14.yml",
+      "source_repo": "ABRG-Models/morphologica"
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "components": [
+    {
+      "component": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-auto-approve.yml"
+    },
+    {
+      "component": "hmarr/auto-approve-action@f0939ea97e9205ef24d872e76833fa908a770363",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-auto-approve.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-auto-approve.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changelog.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changelog.yml"
+    },
+    {
+      "component": "snnaplab/get-labels-action@f426df40304808ace3b5282d4f036515f7609576",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changelog.yml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changelog.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-citation.yml"
+    },
+    {
+      "component": "citation-file-format/cffconvert-github-action@4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-citation.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml"
+    },
+    {
+      "component": "pyvista/setup-headless-display-action@5bc8de3bc71fcda7a96439571287a554901541a0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@5185adfbffb4bd703da3010310260805d89ebb11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml"
+    },
+    {
+      "component": "plbstl/first-contribution@2c36bdb58684587f60549a69aaa3ec00b9d5f4fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-first-contribution.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-joss.yml"
+    },
+    {
+      "component": "openjournals/openjournals-draft-action@85a18372e48f551d8af9ddb7a747de685fbbb01c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-joss.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-joss.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-label.yml"
+    },
+    {
+      "component": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-label.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linkcheck.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linkcheck.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linkcheck.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linkcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjlittle/geovista",
+      "target": "softwareunderground/awesome-open-geoscience",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjlittle/geovista",
+      "target": "conda-forge/geovista-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjlittle/geovista",
+      "target": "noaa-emc/ww3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjlittle/geovista",
+      "target": "pyvista/pyvista-xarray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-auto-approve.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-auto-approve.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "hmarr/auto-approve-action@f0939ea97e9205ef24d872e76833fa908a770363",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-auto-approve.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "ci-auto-approve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changelog.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changelog.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changelog.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "snnaplab/get-labels-action@f426df40304808ace3b5282d4f036515f7609576",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changelog.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-changelog.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "ci-changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-citation.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-citation.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "citation-file-format/cffconvert-github-action@4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-citation.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "ci-citation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "pyvista/setup-headless-display-action@5bc8de3bc71fcda7a96439571287a554901541a0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "prefix-dev/setup-pixi@5185adfbffb4bd703da3010310260805d89ebb11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "ci-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-first-contribution.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "plbstl/first-contribution@2c36bdb58684587f60549a69aaa3ec00b9d5f4fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-first-contribution.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "ci-first-contribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-joss.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-joss.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "openjournals/openjournals-draft-action@85a18372e48f551d8af9ddb7a747de685fbbb01c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-joss.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-joss.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "ci-joss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-label.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-label.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-label.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "ci-label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linkcheck.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linkcheck.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linkcheck.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linkcheck.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linkcheck.yml",
+      "source_repo": "bjlittle/geovista",
+      "target": "ci-linkcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista",
+      "target": "cartography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista",
+      "target": "curvilinear",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista",
+      "target": "earth-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista",
+      "target": "grid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista",
+      "target": "pyvista",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista",
+      "target": "rectilinear",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista",
+      "target": "ugrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista",
+      "target": "unstructured",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:23:27.227114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33835
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 19375
+    },
+    {
+      "path": ".github/workflows/ci-auto-approve.yml",
+      "size": 3071
+    },
+    {
+      "path": ".github/workflows/ci-changelog.yml",
+      "size": 1711
+    },
+    {
+      "path": ".github/workflows/ci-citation.yml",
+      "size": 739
+    },
+    {
+      "path": ".github/workflows/ci-docs.yml",
+      "size": 2020
+    },
+    {
+      "path": ".github/workflows/ci-first-contribution.yml",
+      "size": 1852
+    },
+    {
+      "path": ".github/workflows/ci-joss.yml",
+      "size": 1372
+    },
+    {
+      "path": ".github/workflows/ci-label.yml",
+      "size": 4836
+    },
+    {
+      "path": ".github/workflows/ci-linkcheck.yml",
+      "size": 2114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cartographic rendering and mesh analytics powered by PyVista \ud83c\udf0d",
+    "fork": false,
+    "full_name": "bjlittle/geovista",
+    "html_url": "https://github.com/bjlittle/geovista",
+    "language": "Python",
+    "pushed_at": "2026-06-25T14:21:43Z",
+    "stargazers_count": 229,
+    "topics": [
+      "cartography",
+      "curvilinear",
+      "earth-science",
+      "grid",
+      "mesh",
+      "python",
+      "pyvista",
+      "rectilinear",
+      "ugrid",
+      "unstructured",
+      "vtk"
+    ],
+    "updated_at": "2026-06-26T09:30:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/geovista-feedstock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "noaa-emc/ww3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyvista/pyvista-xarray",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "softwareunderground/awesome-open-geoscience",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ci-auto-approve",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-auto-approve.yml",
+      "term": "ci-auto-approve"
+    },
+    {
+      "context_snippet": "ci-changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-changelog.yml",
+      "term": "ci-changelog"
+    },
+    {
+      "context_snippet": "ci-citation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-citation.yml",
+      "term": "ci-citation"
+    },
+    {
+      "context_snippet": "ci-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "term": "ci-docs"
+    },
+    {
+      "context_snippet": "ci-first-contribution",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-first-contribution.yml",
+      "term": "ci-first-contribution"
+    },
+    {
+      "context_snippet": "ci-joss",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-joss.yml",
+      "term": "ci-joss"
+    },
+    {
+      "context_snippet": "ci-label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-label.yml",
+      "term": "ci-label"
+    },
+    {
+      "context_snippet": "ci-linkcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linkcheck.yml",
+      "term": "ci-linkcheck"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cartography"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curvilinear"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "earth-science"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grid"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyvista"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rectilinear"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ugrid"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unstructured"
+    }
+  ]
+}

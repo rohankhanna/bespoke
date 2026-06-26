@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HengyiWang/spann3r",
+      "target": "nianticlabs/map-free-reloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HengyiWang/spann3r",
+      "target": "spla-tam/splatam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HengyiWang/spann3r",
+      "target": "dazinovic/neural-rgbd-surface-reconstruction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HengyiWang/spann3r",
+      "target": "nianticlabs/simplerecon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HengyiWang/spann3r",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:22.526316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6334
+    },
+    {
+      "path": "requirements.txt",
+      "size": 275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[3DV'25 Award Candidate] 3D Reconstruction with Spatial Memory",
+    "fork": false,
+    "full_name": "HengyiWang/spann3r",
+    "html_url": "https://github.com/HengyiWang/spann3r",
+    "language": "Python",
+    "pushed_at": "2025-02-25T01:13:37Z",
+    "stargazers_count": 1137,
+    "topics": [
+      "3d-reconstruction"
+    ],
+    "updated_at": "2026-06-22T08:08:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dazinovic/neural-rgbd-surface-reconstruction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nianticlabs/map-free-reloc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nianticlabs/simplerecon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spla-tam/splatam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> 3D Reconstruction with Spatial Memory <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    }
+  ]
+}

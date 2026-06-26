@@ -166,6 +166,18 @@
       "source_repo": "petercorke/robotics-toolbox-matlab",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate-context",
+      "text": "Iso2Mesh - a 3D surface and volumetric mesh generator for MATLAB/Octave"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate-context",
+      "text": "| | |"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "petercorke/robotics-toolbox-matlab",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate",
+      "text": "| | |"
     }
   ],
   "candidate_related_terms": [
@@ -787,11 +805,23 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "layumi/Pedestrian_Alignment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

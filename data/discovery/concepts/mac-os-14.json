@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mac OS 14"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ABRG-Models/morphologica",
+      "status": "candidate-context",
+      "text": "C++ header-only graphing and data visualization with Modern OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/morphologica",
+      "status": "candidate-context",
+      "text": "Mac OS 14"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/morphologica",
+      "status": "candidate",
+      "text": "Mac OS 14"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26414,
+      "status": "candidate",
+      "text": "arduino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26414,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26414,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26414,
+      "status": "candidate",
+      "text": "ical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17621,
+      "status": "candidate",
+      "text": "break"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mac OS 14",
+  "concept_id": "mac-os-14",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/cmake-mac-14.yml",
+      "source_repo": "ABRG-Models/morphologica"
+    }
+  ],
+  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mac OS 14",
+      "sense_id": "mac-os-14#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

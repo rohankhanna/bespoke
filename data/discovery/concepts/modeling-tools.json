@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "modeling-tools"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate-context",
+      "text": "Iso2Mesh - a 3D surface and volumetric mesh generator for MATLAB/Octave"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate-context",
+      "text": "| | |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fangq/iso2mesh",
+      "status": "candidate",
+      "text": "| | |"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "modeling-tools",
+  "concept_id": "modeling-tools",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh"
+    }
+  ],
+  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "modeling-tools",
+      "sense_id": "modeling-tools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

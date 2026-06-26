@@ -143,6 +143,9 @@
   "3d-facial-animation": [
     "3d-facial-animation"
   ],
+  "3d-from-images": [
+    "3d-from-images"
+  ],
   "3d-game": [
     "3d-game"
   ],
@@ -3435,6 +3438,9 @@
   "animtion": [
     "animtion"
   ],
+  "anisotropy": [
+    "anisotropy"
+  ],
   "anki": [
     "anki"
   ],
@@ -3579,6 +3585,9 @@
   ],
   "answers": [
     "answers"
+  ],
+  "ansys": [
+    "ansys"
   ],
   "ant-design": [
     "ant-design"
@@ -3793,6 +3802,9 @@
   ],
   "apalache": [
     "apalache"
+  ],
+  "apdl": [
+    "apdl"
   ],
   "apeworx": [
     "apeworx"
@@ -4316,6 +4328,9 @@
   "approve pending workflows": [
     "approve-pending-workflows"
   ],
+  "approve prs": [
+    "approve-prs"
+  ],
   "approve pull request": [
     "approve-pull-request"
   ],
@@ -4801,6 +4816,9 @@
   ],
   "arousal": [
     "arousal"
+  ],
+  "arrange": [
+    "arrange"
   ],
   "array": [
     "array"
@@ -5411,6 +5429,9 @@
   ],
   "atlan": [
     "atlan"
+  ],
+  "atlas": [
+    "atlas"
   ],
   "atlas ci public": [
     "atlas-ci-public"
@@ -10875,6 +10896,9 @@
   ],
   "build (ci)": [
     "build-ci"
+  ],
+  "build (cpu)": [
+    "build-cpu"
   ],
   "build (cross-compile)": [
     "build-cross-compile"
@@ -16478,6 +16502,9 @@
   "cfn-python-lint": [
     "cfn-python-lint"
   ],
+  "cgal": [
+    "cgal"
+  ],
   "cget": [
     "cget"
   ],
@@ -19634,6 +19661,9 @@
   "ci-android": [
     "ci-android"
   ],
+  "ci-auto-approve": [
+    "ci-auto-approve"
+  ],
   "ci-badger-bank-tests": [
     "ci-badger-bank-tests"
   ],
@@ -19652,6 +19682,9 @@
   "ci-cd-base": [
     "ci-cd-base"
   ],
+  "ci-changelog": [
+    "ci-changelog"
+  ],
   "ci-changie": [
     "ci-changie"
   ],
@@ -19663,6 +19696,9 @@
   ],
   "ci-checks": [
     "ci-checks"
+  ],
+  "ci-citation": [
+    "ci-citation"
   ],
   "ci-code": [
     "ci-code"
@@ -19718,6 +19754,9 @@
   "ci-external-deps": [
     "ci-external-deps"
   ],
+  "ci-first-contribution": [
+    "ci-first-contribution"
+  ],
   "ci-framework": [
     "ci-framework"
   ],
@@ -19753,6 +19792,15 @@
   ],
   "ci-javascript-samples": [
     "ci-javascript-samples"
+  ],
+  "ci-joss": [
+    "ci-joss"
+  ],
+  "ci-label": [
+    "ci-label"
+  ],
+  "ci-linkcheck": [
+    "ci-linkcheck"
   ],
   "ci-lint": [
     "ci-lint"
@@ -20740,6 +20788,9 @@
   ],
   "cleanup caches on closed prs": [
     "cleanup-caches-on-closed-prs"
+  ],
+  "cleanup caches \ud83e\uddf9": [
+    "cleanup-caches"
   ],
   "cleanup dataproc resources": [
     "cleanup-dataproc-resources"
@@ -21866,8 +21917,14 @@
   "cmake test": [
     "cmake-test"
   ],
+  "cmake test merge branch": [
+    "cmake-test-merge-branch"
+  ],
   "cmake tests": [
     "cmake-tests"
+  ],
+  "cmake testsuite": [
+    "cmake-testsuite"
   ],
   "cmake-cache": [
     "cmake-cache"
@@ -23735,6 +23792,9 @@
   "compile c files": [
     "compile-c-files"
   ],
+  "compile cgal lab": [
+    "compile-cgal-lab"
+  ],
   "compile check": [
     "compile-check"
   ],
@@ -25147,6 +25207,9 @@
   ],
   "convex-hull": [
     "convex-hull"
+  ],
+  "convex-optimization": [
+    "convex-optimization"
   ],
   "convexhull": [
     "convexhull"
@@ -27020,6 +27083,9 @@
   "csv-reader": [
     "csv-reader"
   ],
+  "ct-scans": [
+    "ct-scans"
+  ],
   "ct-segmentation": [
     "ct-segmentation"
   ],
@@ -27242,6 +27308,9 @@
   "curves": [
     "curves"
   ],
+  "curvilinear": [
+    "curvilinear"
+  ],
   "cusolver": [
     "cusolver"
   ],
@@ -27442,6 +27511,9 @@
   ],
   "cvusa-dataset": [
     "cvusa-dataset"
+  ],
+  "cvxpy": [
+    "cvxpy"
   ],
   "cwl-workflow": [
     "cwl-workflow"
@@ -31202,6 +31274,9 @@
   "dichotomous-image-segmentation": [
     "dichotomous-image-segmentation"
   ],
+  "dicom": [
+    "dicom"
+  ],
   "dictation": [
     "dictation"
   ],
@@ -31444,6 +31519,9 @@
   ],
   "directed-graphs": [
     "directed-graphs"
+  ],
+  "directional-statistics": [
+    "directional-statistics"
   ],
   "directml": [
     "directml"
@@ -32339,6 +32417,9 @@
   "docker images": [
     "docker-images"
   ],
+  "docker images - cleanup": [
+    "docker-images---cleanup"
+  ],
   "docker images build and publish": [
     "docker-images-build-and-publish"
   ],
@@ -33005,6 +33086,9 @@
   "documentation preview cleanup": [
     "documentation-preview-cleanup"
   ],
+  "documentation removal": [
+    "documentation-removal"
+  ],
   "documentation sync": [
     "documentation-sync"
   ],
@@ -33484,6 +33568,9 @@
   ],
   "dpub-aria ed": [
     "dpub-aria-ed"
+  ],
+  "draco": [
+    "draco"
   ],
   "draco unity library ci": [
     "draco-unity-library-ci"
@@ -44205,6 +44292,9 @@
   "guava": [
     "guava"
   ],
+  "gui qt5": [
+    "gui-qt5"
+  ],
   "gui-agent": [
     "gui-agent"
   ],
@@ -46314,6 +46404,9 @@
   "hunyuan-video": [
     "hunyuan-video"
   ],
+  "hunyuan-world": [
+    "hunyuan-world"
+  ],
   "hunyuan3d": [
     "hunyuan3d"
   ],
@@ -46394,6 +46487,9 @@
   ],
   "hyperedge": [
     "hyperedge"
+  ],
+  "hyperelasticity": [
+    "hyperelasticity"
   ],
   "hyperledger": [
     "hyperledger"
@@ -48996,6 +49092,9 @@
   "iso-prolog-standard": [
     "iso-prolog-standard"
   ],
+  "iso2mesh ci": [
+    "iso2mesh-ci"
+  ],
   "iso3166": [
     "iso3166"
   ],
@@ -50636,6 +50735,9 @@
   ],
   "k510": [
     "k510"
+  ],
+  "k8s-mcp-server": [
+    "k8s-mcp-server"
   ],
   "k8s-sig-api-machinery": [
     "k8s-sig-api-machinery"
@@ -55745,6 +55847,15 @@
   "mac os": [
     "mac-os"
   ],
+  "mac os 13": [
+    "mac-os-13"
+  ],
+  "mac os 14": [
+    "mac-os-14"
+  ],
+  "mac os 15": [
+    "mac-os-15"
+  ],
   "mac os ci": [
     "mac-os-ci"
   ],
@@ -55756,6 +55867,9 @@
   ],
   "mac specific commands": [
     "mac-specific-commands"
+  ],
+  "mac template": [
+    "mac-template"
   ],
   "mac tests": [
     "mac-tests"
@@ -57138,6 +57252,9 @@
   "mathematical-morphology": [
     "mathematical-morphology"
   ],
+  "mathematical-optimization": [
+    "mathematical-optimization"
+  ],
   "mathematical-programming": [
     "mathematical-programming"
   ],
@@ -57161,6 +57278,9 @@
   ],
   "matlab": [
     "matlab"
+  ],
+  "matlab tests": [
+    "matlab-tests"
   ],
   "matlab tests workflow": [
     "matlab-tests-workflow"
@@ -59480,6 +59600,9 @@
   ],
   "modeling-tool": [
     "modeling-tool"
+  ],
+  "modeling-tools": [
+    "modeling-tools"
   ],
   "modelling": [
     "modelling"
@@ -63591,6 +63714,9 @@
   "numerical-optimization": [
     "numerical-optimization"
   ],
+  "numerical-simulation": [
+    "numerical-simulation"
+  ],
   "numerics": [
     "numerics"
   ],
@@ -65637,6 +65763,9 @@
   "optimization-free": [
     "optimization-free"
   ],
+  "optimization-modeling": [
+    "optimization-modeling"
+  ],
   "optimization-problem": [
     "optimization-problem"
   ],
@@ -66716,6 +66845,9 @@
   ],
   "parameters": [
     "parameters"
+  ],
+  "parametrization": [
+    "parametrization"
   ],
   "paraphrase-identification": [
     "paraphrase-identification"
@@ -69225,6 +69357,9 @@
   "post-training-quantization": [
     "post-training-quantization"
   ],
+  "post-treatment": [
+    "post-treatment"
+  ],
   "post-weekly-release": [
     "post-weekly-release"
   ],
@@ -69401,6 +69536,9 @@
   ],
   "pp-yolo": [
     "pp-yolo"
+  ],
+  "ppa installation": [
+    "ppa-installation"
   ],
   "ppc64le": [
     "ppc64le"
@@ -70124,6 +70262,9 @@
   ],
   "pre-training": [
     "pre-training"
+  ],
+  "pre-treatment": [
+    "pre-treatment"
   ],
   "preact": [
     "preact"
@@ -73962,6 +74103,9 @@
   "pyusb": [
     "pyusb"
   ],
+  "pyvista": [
+    "pyvista"
+  ],
   "pywinpty": [
     "pywinpty"
   ],
@@ -75533,6 +75677,9 @@
   ],
   "rectified-flow-matching": [
     "rectified-flow-matching"
+  ],
+  "rectilinear": [
+    "rectilinear"
   ],
   "recurrent": [
     "recurrent"
@@ -84541,6 +84688,12 @@
   "solid-js": [
     "solid-js"
   ],
+  "solid-mechanics": [
+    "solid-mechanics"
+  ],
+  "solid-mechanics-codes": [
+    "solid-mechanics-codes"
+  ],
   "solid-query": [
     "solid-query"
   ],
@@ -85388,11 +85541,20 @@
   "sph-fluids": [
     "sph-fluids"
   ],
+  "sphere": [
+    "sphere"
+  ],
   "sphereface": [
     "sphereface"
   ],
   "spherical-harmonics": [
     "spherical-harmonics"
+  ],
+  "spherical-histogram": [
+    "spherical-histogram"
+  ],
+  "spherical-histograms": [
+    "spherical-histograms"
   ],
   "spherical-microphone-array": [
     "spherical-microphone-array"
@@ -86953,6 +87115,9 @@
   ],
   "structs": [
     "structs"
+  ],
+  "structural-mechanics": [
+    "structural-mechanics"
   ],
   "structural-search": [
     "structural-search"
@@ -89254,6 +89419,9 @@
   ],
   "template-language": [
     "template-language"
+  ],
+  "template-library": [
+    "template-library"
   ],
   "template-metaprogramming": [
     "template-metaprogramming"
@@ -91993,6 +92161,9 @@
   "threeten": [
     "threeten"
   ],
+  "threshold": [
+    "threshold"
+  ],
   "thresholding": [
     "thresholding"
   ],
@@ -94237,6 +94408,21 @@
   "ubsan-unit-tests": [
     "ubsan-unit-tests"
   ],
+  "ubu 24 clang16": [
+    "ubu-24-clang16"
+  ],
+  "ubu 24 clang17": [
+    "ubu-24-clang17"
+  ],
+  "ubu 24 clang18": [
+    "ubu-24-clang18"
+  ],
+  "ubu 24 gcc12": [
+    "ubu-24-gcc12"
+  ],
+  "ubu 24 gcc14": [
+    "ubu-24-gcc14"
+  ],
   "ubuntu": [
     "ubuntu"
   ],
@@ -94399,6 +94585,9 @@
   "uglifyjs": [
     "uglifyjs"
   ],
+  "ugrid": [
+    "ugrid"
+  ],
   "ui tests": [
     "ui-tests"
   ],
@@ -94530,6 +94719,9 @@
   ],
   "umass-amherst": [
     "umass-amherst"
+  ],
+  "umat": [
+    "umat"
   ],
   "umbrel": [
     "umbrel"
@@ -95086,6 +95278,9 @@
   "unstable": [
     "unstable"
   ],
+  "unstructured": [
+    "unstructured"
+  ],
   "unstructured-data": [
     "unstructured-data"
   ],
@@ -95122,6 +95317,9 @@
   ],
   "unwrapped": [
     "unwrapped"
+  ],
+  "unwrapping": [
+    "unwrapping"
   ],
   "unzip": [
     "unzip"
@@ -99023,6 +99221,9 @@
   "voronoi": [
     "voronoi"
   ],
+  "voronoi-diagram": [
+    "voronoi-diagram"
+  ],
   "vot2020": [
     "vot2020"
   ],
@@ -99205,6 +99406,9 @@
   ],
   "vterm": [
     "vterm"
+  ],
+  "vtk9 c++ ci": [
+    "vtk9-c-ci"
   ],
   "vtodo": [
     "vtodo"
@@ -101520,6 +101724,9 @@
   "world-engine": [
     "world-engine"
   ],
+  "world-generation": [
+    "world-generation"
+  ],
   "world-model": [
     "world-model"
   ],
@@ -101534,6 +101741,9 @@
   ],
   "worldline build": [
     "worldline-build"
+  ],
+  "worldmodel": [
+    "worldmodel"
   ],
   "would": [
     "en-modal_or_auxiliary-would"
@@ -101723,6 +101933,9 @@
   ],
   "xarray": [
     "xarray"
+  ],
+  "xatlas": [
+    "xatlas"
   ],
   "xbar": [
     "xbar"

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "voronoi-diagram"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate-context",
+      "text": "The public CGAL repository, see the README below"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate-context",
+      "text": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate",
+      "text": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "voronoi-diagram",
+  "concept_id": "voronoi-diagram",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "CGAL/cgal"
+    }
+  ],
+  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "voronoi-diagram",
+      "sense_id": "voronoi-diagram#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

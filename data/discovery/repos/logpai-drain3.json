@@ -107,7 +107,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T13:34:38.610467+00:00",
+  "fetched_at": "2026-06-26T13:01:35.685497+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -132,7 +132,7 @@
     "html_url": "https://github.com/logpai/Drain3",
     "language": "Python",
     "pushed_at": "2025-02-04T02:49:05Z",
-    "stargazers_count": 826,
+    "stargazers_count": 827,
     "topics": [
       "aiops",
       "anomaly-detection",
@@ -144,7 +144,7 @@
       "observability",
       "template-mining"
     ],
-    "updated_at": "2026-06-24T14:22:34Z"
+    "updated_at": "2026-06-25T17:59:25Z"
   },
   "repo_links": [
     {

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -286,6 +286,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "tinygrad/tinygrad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "cvxpy/cvxpy"
     }
   ],
   "term": "Benchmarks"

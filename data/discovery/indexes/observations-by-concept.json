@@ -191,6 +191,9 @@
   "3d-facial-animation": [
     "588adfdc4cc269ec"
   ],
+  "3d-from-images": [
+    "47f079fec75f41f1"
+  ],
   "3d-game": [
     "b9510c5eb2008bc1"
   ],
@@ -339,7 +342,8 @@
     "2526682da2aad47a",
     "3d24f50064a48218",
     "5a6f47ac9bac55db",
-    "5d8be3532d234a83"
+    "5d8be3532d234a83",
+    "880309d7c2a11de6"
   ],
   "3d-model": [
     "607f0bbacc38c374",
@@ -438,6 +442,7 @@
     "76c6f73e11b62ae1",
     "77072a2acaf45984",
     "7810da97ad5e521a",
+    "795dbe8ac2cdf9b0",
     "7de47fb739a87a3b",
     "83c7a1ed1b906fdc",
     "83db89aa42ba8a15",
@@ -446,6 +451,7 @@
     "970ee160613ce545",
     "97f8a576aabc4089",
     "997bc4f345b44045",
+    "9fbda50b3dcc927d",
     "a1bdd83619eb6b8e",
     "ad3b52a747525657",
     "b2a0dbb133fa40c9",
@@ -3685,6 +3691,7 @@
     "5f6fe6a6b89a0174",
     "7d0909796e317206",
     "83f5b8dc15289e5f",
+    "853d3fdbf3e7498f",
     "9370b376c57d43e7",
     "9b631b8ccb793477",
     "a6460404fd672233",
@@ -4400,6 +4407,7 @@
     "1cd0895c65621746",
     "1dacd9300dfcde2c",
     "1f53f186ac8ae2f2",
+    "2082cddcba611710",
     "2136dd72481a01dc",
     "21785268e18fe646",
     "2320736aaa2cc14d",
@@ -4972,6 +4980,9 @@
   "animtion": [
     "1b29fe41d36c0ec8"
   ],
+  "anisotropy": [
+    "789318beb688471c"
+  ],
   "anki": [
     "435c65c8014018c6",
     "6c35209ec07b3e14"
@@ -5172,6 +5183,9 @@
   ],
   "answers": [
     "1d7633985fa3406b"
+  ],
+  "ansys": [
+    "8fd4f0f85015c275"
   ],
   "ant-design": [
     "220e74305ccea267",
@@ -5492,6 +5506,9 @@
     "933af27c5e6726c9",
     "9c7d70ae05d883ca",
     "a513dfd93eff37fa"
+  ],
+  "apdl": [
+    "0c0ed6762e6f449b"
   ],
   "apeworx": [
     "6c328b0748108252"
@@ -6181,6 +6198,9 @@
   "approve-pending-workflows": [
     "212062f645cd69d9"
   ],
+  "approve-prs": [
+    "8cc306c824691b94"
+  ],
   "approve-pull-request": [
     "7cebe96952239963"
   ],
@@ -6201,6 +6221,7 @@
     "4a86a5a14c67eedf",
     "83f3535ef5a5b227",
     "878f2978b6824f27",
+    "88dc535ee4c3b510",
     "ce86bef35d30b2ed"
   ],
   "approve-workflow-runs": [
@@ -6876,6 +6897,9 @@
   "arousal": [
     "61395a0a0fd49bfd",
     "e94fd7de050f6030"
+  ],
+  "arrange": [
+    "82a98ed62194ce70"
   ],
   "array": [
     "0749bc1d0d6f867c",
@@ -8004,6 +8028,9 @@
   ],
   "atlan": [
     "7728ab98453a1660"
+  ],
+  "atlas": [
+    "9bb1440b6e05c00f"
   ],
   "atlas-ci-public": [
     "ede53191a09beaf4"
@@ -13138,6 +13165,7 @@
     "78e32abdb06a1718",
     "797ed80b801070c8",
     "799f232398ab9c57",
+    "7a1444680df2ff29",
     "7a91164852f7f677",
     "7abfce03d3274cdf",
     "7bb144be17ede16a",
@@ -13489,6 +13517,7 @@
     "123d36723acfbc53",
     "143c904f1bc804d9",
     "14c7e65cf248002d",
+    "17ae7de6877dfa92",
     "1b2e927165735f50",
     "25fbe9bbcec78a6c",
     "261ad27ec21a04b0",
@@ -15415,7 +15444,8 @@
     "471dc6c677fe36c5",
     "8abdc7ea9599667b",
     "8ce3350dc59afcc1",
-    "93c68437f23b0e83"
+    "93c68437f23b0e83",
+    "dd7f61d3c711346d"
   ],
   "boost": [
     "0e944804e45bf26a",
@@ -16503,6 +16533,7 @@
     "06f7948511b9b0bb",
     "0730f2212891dda6",
     "0769c215c8cc7fae",
+    "07871f01e78525a6",
     "07d656d2226945a6",
     "0815c805039b00f3",
     "0880c9b8ca233498",
@@ -17386,6 +17417,7 @@
     "dc2cc6ec75c2a7d1",
     "dcc4100748f4467d",
     "dd079072149a17fa",
+    "dd212390bf6f118f",
     "dd446a7348944007",
     "dd9c64b285b829e1",
     "dda8972f61bd568f",
@@ -17697,6 +17729,7 @@
   ],
   "build-and-deploy": [
     "01fe9f2bf8e735c7",
+    "07f6e50640552103",
     "0e379ed5499b88b1",
     "20d85d4760164056",
     "215d43b2c24a1a1a",
@@ -19496,6 +19529,7 @@
   ],
   "build-container-template": [
     "1d16ccac4ae1adeb",
+    "b1131a706d183de8",
     "c70bcf772d9e97d5"
   ],
   "build-container-tools": [
@@ -19521,6 +19555,9 @@
   ],
   "build-contributor-pr": [
     "32167fa2925abba3"
+  ],
+  "build-cpu": [
+    "f83e7058c38bc9d8"
   ],
   "build-cpu-and-macos": [
     "4f90c1e2bf94b6de"
@@ -20012,6 +20049,7 @@
     "00d244ff7fc40bc5",
     "13197969b2f0840e",
     "1a226e9a3e5e7c95",
+    "1d9fb39dc6ccc942",
     "1fe9c39e7907703f",
     "25430fe049f15aa0",
     "27184aeacc2bb213",
@@ -22695,7 +22733,8 @@
     "5e7361df539cfa2f"
   ],
   "build-with-hugo": [
-    "28d1f94a1a76d0e2"
+    "28d1f94a1a76d0e2",
+    "85f2e80187ce255e"
   ],
   "build-with-kubernetes": [
     "1955a3a7f2ef17a5"
@@ -23130,6 +23169,7 @@
     "ce1abb393286fad2"
   ],
   "bump-megatron-tag-template": [
+    "83b388f278e9a46f",
     "ff74c44c0a617e4d"
   ],
   "bump-milvus-version": [
@@ -23635,6 +23675,7 @@
     "5ff5fddba4467dea",
     "604c001be7d1b366",
     "607f77e181085b11",
+    "61afbf23b078fe1c",
     "622c9867e76fcc93",
     "636004d0906fa750",
     "647ee03530556090",
@@ -24752,7 +24793,8 @@
   "cartography": [
     "27d342b1af58e2e4",
     "46d958d3011f7aeb",
-    "806b3cb1c833bdb3"
+    "806b3cb1c833bdb3",
+    "ff1ff3dcc7189086"
   ],
   "casadi": [
     "4fcc71db7ca9a1c0",
@@ -25366,6 +25408,9 @@
   ],
   "cfn-python-lint": [
     "9143a83a0ade4b04"
+  ],
+  "cgal": [
+    "0a9004aecd6509b3"
   ],
   "cget": [
     "5ce90df923af1fd5",
@@ -29021,6 +29066,9 @@
     "4679f6e266185738",
     "53714c50dc1d0625"
   ],
+  "ci-auto-approve": [
+    "097a0a960d05ec26"
+  ],
   "ci-badger-bank-tests": [
     "2cfce83e46508e6c"
   ],
@@ -29138,6 +29186,7 @@
     "74a1aa968106880c",
     "8b5e9b89426aa405",
     "a1f77ab3f85e4fd5",
+    "a9e5c33d19260651",
     "afe7832ed88b1c2c",
     "d45501f474241925",
     "da6bfeaaa483f90c",
@@ -29150,6 +29199,9 @@
   "ci-cd-base": [
     "cf4b58e20d4f9b98",
     "ea4124b142d2b1aa"
+  ],
+  "ci-changelog": [
+    "1beb5aab29e52252"
   ],
   "ci-changie": [
     "2d8998af6e5ed5a3",
@@ -29191,6 +29243,9 @@
     "c0ec9961763bcaa2",
     "c54a6563b091bf8f",
     "e6a6ba2b8aac183a"
+  ],
+  "ci-citation": [
+    "1b9c6674f23e9b75"
   ],
   "ci-clang": [
     "491d70352b4fbb9a"
@@ -29323,6 +29378,7 @@
     "8971b1906abb6c52",
     "95e448f3fda08565",
     "a504323f454752db",
+    "bd50448fdd42ad82",
     "db0811f561c4e90d",
     "dfbcf6cea45993d7",
     "ee1da6acacb143f6"
@@ -29363,6 +29419,9 @@
   ],
   "ci-failure-issues": [
     "cdb6436d350debc6"
+  ],
+  "ci-first-contribution": [
+    "b95d7799205ca8d5"
   ],
   "ci-flang": [
     "f4f19fe259e91dbc"
@@ -29522,6 +29581,9 @@
     "5d11624df1222f4e",
     "fecc98afc2a0f8b1"
   ],
+  "ci-joss": [
+    "256dee74781cdaf3"
+  ],
   "ci-jruby": [
     "1b18dffc019956f5",
     "321591c84b552053",
@@ -29545,6 +29607,9 @@
   "ci-kube-all": [
     "6f644b9147f77af7"
   ],
+  "ci-label": [
+    "bc895eb5c8240bd1"
+  ],
   "ci-latest-z3": [
     "d903c3cd458f742a"
   ],
@@ -29553,6 +29618,9 @@
   ],
   "ci-libgccjit-12": [
     "fe7ae4a810522ed6"
+  ],
+  "ci-linkcheck": [
+    "c4f6ede3e3f552f9"
   ],
   "ci-lint": [
     "29949766d3ec2090",
@@ -30078,6 +30146,7 @@
     "b5adc4878416e6d6"
   ],
   "ci-win": [
+    "2b689dde987c13bb",
     "6a6aae58c73ae4fd"
   ],
   "ci-windows": [
@@ -30180,6 +30249,7 @@
   "cicd-nemo": [
     "36f52000617d66ec",
     "70be22b599085204",
+    "bed8184db6a122cb",
     "e2b890aa65e5833d",
     "eac0a73778e4e971"
   ],
@@ -30923,6 +30993,7 @@
     "e51c89d8ff0f02b7"
   ],
   "claude-answer-issue": [
+    "99a6a4870a201c86",
     "b9bb2fcebc6779ff"
   ],
   "claude-api": [
@@ -31143,6 +31214,7 @@
     "de64efa544255ca7",
     "e025031044704c6e",
     "e08bfa2817a23685",
+    "e0a29fd4d615e8b8",
     "e1adb08b946b3fb7",
     "e28c6e039ee17953",
     "e53ae17beb3b93a6",
@@ -31236,6 +31308,7 @@
     "11e8badc1329df69",
     "1a32ebe4ff1dd31a",
     "1bb154f3126f4626",
+    "2323862d7e71a869",
     "28bb65655d5ead9a",
     "2e5ebed8d82b9213",
     "311deb7ed10831c7",
@@ -31659,6 +31732,7 @@
     "fc1105b675ac098a"
   ],
   "cleanup-caches": [
+    "02fa571e38071d97",
     "17343d4be6fce993",
     "60c9591744a4b37b",
     "6ff1bba9c6a7736e",
@@ -34109,9 +34183,15 @@
   "cmake-test": [
     "859e57618354895d"
   ],
+  "cmake-test-merge-branch": [
+    "8de9aefa86b5923f"
+  ],
   "cmake-tests": [
     "c58a2e612d214e5f",
     "eacf493f54972386"
+  ],
+  "cmake-testsuite": [
+    "b893c1d1f482ceb7"
   ],
   "cmake-toolchain": [
     "f3dfa2e5e1b9d2bc"
@@ -35142,6 +35222,7 @@
     "a5a0457d42fac1bc",
     "a96b6cab42b02cca",
     "ae1c32f45d1e3696",
+    "b1ef3ff6172227d2",
     "b987debb26b0fccb",
     "bf6b8b367418de04",
     "ce2ee70217216f8e",
@@ -36177,6 +36258,7 @@
     "42f8ad309ae3f4ff",
     "462c434660adbeda",
     "471cf513328ea6d6",
+    "483d1afc7f106307",
     "49ce97855fff49bb",
     "4b83fea55ae9a47e",
     "4b92c2b39f042152",
@@ -38165,6 +38247,9 @@
   "compile-c-files": [
     "012cd6c57ed079c3"
   ],
+  "compile-cgal-lab": [
+    "69f1e6b817b11c47"
+  ],
   "compile-check": [
     "a9cfaee236b223cf"
   ],
@@ -38741,6 +38826,7 @@
     "58870e7be2af1b77",
     "619ddf80b9b6bb43",
     "6efdfa47bc841616",
+    "729aa1606132b126",
     "744af8d704e2f5b9",
     "74599545a03dca57",
     "91ebc4771d9cebf2",
@@ -38867,6 +38953,7 @@
     "cd5b018bf8616fd0",
     "cf355f0f78525a85",
     "d3c043da82668769",
+    "d4291172d4db6433",
     "da58d4f43e55a93e",
     "e0e02fab588696bd",
     "e536d374fdc4a167",
@@ -38922,6 +39009,7 @@
     "0b23d2f10a8d4ec5",
     "0e53e582d62a9df4",
     "0f76e436ddf803e6",
+    "11d2b8e3a4270813",
     "1213140fed4237f1",
     "14e49b122f1e4471",
     "14f22a4ca59bc658",
@@ -39137,6 +39225,7 @@
     "d592f4a561106195",
     "d66833af54f4b8cb",
     "d680224d2ad19979",
+    "d70d76b508b62680",
     "d7d8cf5b223703a7",
     "d825f810633053c3",
     "d85b71ce63468c33",
@@ -40913,6 +41002,7 @@
   "controllable-generation": [
     "0575862b1e01e5ea",
     "225cd5ad67409362",
+    "40485602ba3d2b3e",
     "97cc4af97b933ee2",
     "d42afa806bd1e74b"
   ],
@@ -40933,6 +41023,7 @@
   ],
   "controlnet": [
     "11081a2ba841a3fa",
+    "5372f1f9b842e116",
     "79fa6d91b698b9e3",
     "98538faeadd099b2",
     "d87aa7b22b240b1c",
@@ -41158,6 +41249,9 @@
   "convex-hull": [
     "07aa66a2726a7096",
     "cbb2bf6d53c48469"
+  ],
+  "convex-optimization": [
+    "857f7e56c1c60537"
   ],
   "convexhull": [
     "5e7f3bcbf118c124"
@@ -42202,6 +42296,7 @@
     "1e6c7dddb5aeb7b2",
     "21bc8b5f9ae8b996",
     "235d2ce43f9b0b6e",
+    "277137ec2f3261be",
     "2d9e6966ad7e250f",
     "3390317cef6db8d8",
     "343d800f1324319a",
@@ -42236,6 +42331,7 @@
     "5f4801ae70a6003f"
   ],
   "cplusplus-17": [
+    "620e12cdcd5a4113",
     "7c442b27adfe9ef8",
     "c461eb19b36be463",
     "fa3aad12b0b71009"
@@ -44334,6 +44430,9 @@
   "csv-reader": [
     "605bf01bce0a3412"
   ],
+  "ct-scans": [
+    "52a19576e7450d54"
+  ],
   "ct-segmentation": [
     "73c0a15158772f28"
   ],
@@ -44785,6 +44884,9 @@
   "curves": [
     "5009bdf2cba91099"
   ],
+  "curvilinear": [
+    "78d04da886f9aba1"
+  ],
   "cusolver": [
     "870df9a5e8939bc5"
   ],
@@ -45052,7 +45154,8 @@
   ],
   "cvpr2024": [
     "a16bea440c75167e",
-    "c0422303b8316465"
+    "c0422303b8316465",
+    "eb502afab48c50d9"
   ],
   "cvpr2025": [
     "17d953563dce50ba",
@@ -45078,6 +45181,9 @@
     "0e98b642f5443445",
     "d75fb5fbbd05fa0b",
     "e3962805b3e1a437"
+  ],
+  "cvxpy": [
+    "a4b88901149e8347"
   ],
   "cwl-workflow": [
     "cd69cc6a0eeeb9f4"
@@ -46473,7 +46579,8 @@
     "c9ebe9e24bfe2489",
     "df40d080b70a94a5",
     "e15d39c3b9f97dc7",
-    "ee746417fdfa3c4d"
+    "ee746417fdfa3c4d",
+    "f9be6bfaf414aa95"
   ],
   "data-viz": [
     "64cbff1abcee5184",
@@ -48063,6 +48170,7 @@
     "63fb226529fce698",
     "64072ec93dcb9432",
     "64b52ade0c2a223b",
+    "657bfd200d73c930",
     "658a9947f49c776e",
     "659b4a0704f9c1cf",
     "6602fb80bb24b5a1",
@@ -48728,6 +48836,7 @@
     "a712ab549d1cdb83",
     "b2cdd7bc89fb9f92",
     "c63404b20e932987",
+    "c9764d2e67352b54",
     "ced050f22bd63474",
     "d1d070a0079d1d27",
     "e0df48fe23f1bc53",
@@ -52374,6 +52483,9 @@
     "d8b8fcd6324b3e05",
     "f4f35977f1a2ed6d"
   ],
+  "dicom": [
+    "aa021f6e4d2a0f42"
+  ],
   "dictation": [
     "4db76d08427de58f"
   ],
@@ -52900,6 +53012,9 @@
   ],
   "directed-graphs": [
     "2b47b00e52ab2f4c"
+  ],
+  "directional-statistics": [
+    "8ebaf2593787bf6f"
   ],
   "directml": [
     "02d98fbafa102bde",
@@ -54778,6 +54893,9 @@
     "d21c00e880a9a461",
     "f969b951aa3ba4d7"
   ],
+  "docker-images---cleanup": [
+    "bd98e482a49a0862"
+  ],
   "docker-images-build-and-publish": [
     "4bb08dd2c4cff988"
   ],
@@ -55874,7 +55992,8 @@
   "documentation-build": [
     "3bbcf6eb2752f357",
     "97a0e580f9ecfe73",
-    "bde578e8c1b827ab"
+    "bde578e8c1b827ab",
+    "d1f2038a91b6c959"
   ],
   "documentation-build-and-deploy": [
     "00170f2084b24785",
@@ -55947,6 +56066,9 @@
   "documentation-preview-cleanup": [
     "3157e675a1e9f250",
     "f46f4dc6811e21c4"
+  ],
+  "documentation-removal": [
+    "2153cbd1b3fc42e0"
   ],
   "documentation-site": [
     "091bb678167f1cb1",
@@ -56705,6 +56827,9 @@
   ],
   "dpub-aria-ed": [
     "c21f05a65ad3f215"
+  ],
+  "draco": [
+    "de5d16ab4df5f4f2"
   ],
   "draco-ci": [
     "58b39917f815ad53",
@@ -57744,7 +57869,8 @@
     "fcb97480547f210d"
   ],
   "earth-science": [
-    "378cfbb0bec553ba"
+    "378cfbb0bec553ba",
+    "6e17812c522322ad"
   ],
   "earthly-build": [
     "6816c04c917e9ff1"
@@ -59883,6 +60009,7 @@
     "2bd22b05d0983bef",
     "48d2bb16bbd59d53",
     "51967a15dd5dfe89",
+    "a28d129bda201320",
     "b3d31419b583c5e0",
     "ec20f1f551dc51d1"
   ],
@@ -63895,16 +64022,20 @@
     "fca95705e387d6a2"
   ],
   "finite-element-analysis": [
+    "285aed78005ec62b",
     "dcdd84e69d681ef5"
   ],
   "finite-element-method": [
     "71b0332845524413"
   ],
   "finite-element-methods": [
-    "4ba365aa1c8742b2"
+    "4ba365aa1c8742b2",
+    "ff4fc5ae0bb109c1"
   ],
   "finite-elements": [
-    "98af182fe1427637"
+    "6929240c523d007a",
+    "98af182fe1427637",
+    "f0054396a08fff65"
   ],
   "finite-field-arithmetic": [
     "befed7f492056989"
@@ -68627,6 +68758,7 @@
     "798aa5a9012ab2a3",
     "85e261c71f2a3dda",
     "870aa252b1e090b7",
+    "8f22efb9ac034073",
     "93ae99a65de5f0fd",
     "9991b2c87a2df122",
     "a196e57614377bf6",
@@ -69032,6 +69164,7 @@
     "7d9f232ee540a8b3",
     "8e5cb336a7e1963f",
     "8f92520f878cc020",
+    "921118303863154a",
     "92e63ad3b4b4769e",
     "a11f545d6191382c",
     "acbdff7065d57289",
@@ -69054,6 +69187,7 @@
     "404daf41adc27cd1",
     "540ebf79e0925ca3",
     "570228c55991a70f",
+    "5da1cf4c4c153b9d",
     "61838dfbc411fb9b",
     "ad21512844989101",
     "c484cb0e413966ec",
@@ -70743,6 +70877,7 @@
     "c5f3834629199453",
     "cb93a2bde6796154",
     "e9dc910ab042f62d",
+    "ed6a2abcee92046d",
     "fd2422e27f317c45"
   ],
   "gltf-loader": [
@@ -71607,6 +71742,7 @@
     "b93eb10d29131705",
     "ba3269e1c71142ca",
     "ba41b689b435e51c",
+    "ba9af043e14bb719",
     "baef210ac2d032ab",
     "bb0f8ffd3d2491ca",
     "bbcd8d32def09dc8",
@@ -73548,6 +73684,7 @@
     "117530b0e89fdbb0",
     "122405cf46b462b0",
     "12a8aeb30b9ad2ee",
+    "135bc6e79bfe793a",
     "1df51be6f505ae4f",
     "2b9802224cc4ce2b",
     "31dd50f96d9972c9",
@@ -73565,6 +73702,7 @@
     "5e1bf118af1cc5b1",
     "62a046df4db32c83",
     "67679647ba135d7e",
+    "69162be4d5e94767",
     "6c6127b240760754",
     "7201e9da6fe41f80",
     "7879410a1cf249b7",
@@ -73623,6 +73761,7 @@
     "7c5a06dc11891b6a"
   ],
   "graphics-engine": [
+    "231d5afb4aae234e",
     "3499bd5393b4f85e",
     "9d5adf2dbe527021",
     "d094d8faf429c166"
@@ -73831,6 +73970,7 @@
     "1d1ed6d99d0cec99",
     "609f965fa3835da3",
     "6b2d9e0686fc612f",
+    "9f58af8a19c69986",
     "c92f67415e8ad103",
     "ec86adc4c6371a1b"
   ],
@@ -73950,6 +74090,7 @@
     "aecd2108d57c2ea3",
     "bc5486e5f1b9ccc9",
     "c1eb619e6060f196",
+    "d2f3d22854b4d238",
     "fdbe466d4b88ce55"
   ],
   "grid-search": [
@@ -74319,6 +74460,9 @@
   ],
   "gui-operator": [
     "0464363ddc900039"
+  ],
+  "gui-qt5": [
+    "501ba0310d37a1b0"
   ],
   "gui-script": [
     "2373df24c0911513"
@@ -77028,6 +77172,7 @@
     "5727ad19b3758449"
   ],
   "histogram": [
+    "ab17bd8c83c0788e",
     "dd3b232e5ef83905"
   ],
   "history": [
@@ -78406,6 +78551,7 @@
     "6e531dfac57264e2"
   ],
   "hunyuan": [
+    "4e86a4e47f5e760b",
     "73e3f58db4f4267f"
   ],
   "hunyuan-video": [
@@ -78417,6 +78563,9 @@
     "d1d89deb86dcacad",
     "f30a539fd2fa40ac"
   ],
+  "hunyuan-world": [
+    "9d17decb00eaf70e"
+  ],
   "hunyuan3d": [
     "334d93eb0be72962",
     "3b469bd89e10967a",
@@ -78424,6 +78573,7 @@
     "917913d8bad42760",
     "9ccfb8ebcda6dbaa",
     "a3c648db93409455",
+    "c2b392326d009437",
     "c87df757f01e6fbc",
     "f3f0739f9f11f375",
     "fafc69f9f4653267"
@@ -78525,6 +78675,9 @@
   ],
   "hyperedge": [
     "e3cf90965a5ac397"
+  ],
+  "hyperelasticity": [
+    "642a1618d3f884e1"
   ],
   "hyperledger": [
     "a1cf6fe314fe06f2",
@@ -79939,6 +80092,7 @@
     "e4ee1a3b005622cd",
     "e7443b2f7d99150c",
     "e7a6e53c22dc27d4",
+    "edec5f7215dbf52d",
     "f1daab6cd432e9e0",
     "f3d127170a4a99f1",
     "f865fb8c7f2373c5",
@@ -80161,6 +80315,7 @@
     "198c5d010ed1be8b",
     "25cd63e1ca3d945f",
     "2d9007b127873c6d",
+    "38441bacd7b58adf",
     "39540c7f0da31ad9",
     "4159b22e736aa59a",
     "4e7a5a01646a5568",
@@ -80187,6 +80342,7 @@
     "68ac459c23157f75"
   ],
   "image-to-image": [
+    "1f0ef3579ef909ba",
     "70a978062f5730e8"
   ],
   "image-to-image-translation": [
@@ -81120,6 +81276,7 @@
     "4b37d1d3c0263dea",
     "5150a3cdd8bd3b51",
     "54a7607547073cad",
+    "5ebbc5df7e543b86",
     "634acc766da0bd85",
     "720054a683031a40",
     "bab5d8a321a0e8ff",
@@ -81386,6 +81543,7 @@
   "install-and-test": [
     "94cb4e07fd303e0f",
     "97205a0f80a6f39d",
+    "b2aee6edf7c1b353",
     "b3886bc5b10233cc"
   ],
   "install-and-test-ava": [
@@ -82900,6 +83058,9 @@
   "iso-prolog-standard": [
     "69ace2093d0f6a01",
     "80b1add83a091ffd"
+  ],
+  "iso2mesh-ci": [
+    "cb1a3b35626e8582"
   ],
   "iso3166": [
     "617629cc52737527"
@@ -85872,6 +86033,9 @@
   "k510": [
     "b71866600b3f8d84"
   ],
+  "k8s-mcp-server": [
+    "9d57c38932f16743"
+  ],
   "k8s-sig-api-machinery": [
     "78703cd23a36fb7d",
     "9ee4cbb1de74c24e",
@@ -87423,6 +87587,7 @@
     "c19aaa159ec0c651",
     "c1da5222c86065af",
     "c2efac92da62d79b",
+    "c40ad81021b8c325",
     "c54e4f765aae7a00",
     "c59531ed65f1e574",
     "c59ab8f2f695136a",
@@ -89929,6 +90094,7 @@
     "5382c0573a08a625",
     "563ff43006be8470",
     "5a0a076e93bf3a96",
+    "5e66ae90854c4316",
     "5ebc957896dd0776",
     "5f4c21bb0bc91b8e",
     "63b98b7873b54236",
@@ -90787,7 +90953,8 @@
     "b52766af48cff672"
   ],
   "linkcheck---all-files": [
-    "84a3c0ea7bb998a1"
+    "84a3c0ea7bb998a1",
+    "d15b9787fde75c28"
   ],
   "linked-data": [
     "32d1cb398d9fb120",
@@ -92311,6 +92478,7 @@
     "40536ee0e09a3caa",
     "405a4dfc5d9b5917",
     "42c08d2c6fff3435",
+    "42ea03f35766ffbf",
     "43dfb73aab147cdd",
     "45b2681a605f8ae6",
     "45fb17c245d46983",
@@ -94693,6 +94861,7 @@
     "8d712595acc91820",
     "90371cb50520f2d5",
     "90f782bc9c2e7c09",
+    "97582bc4277b1428",
     "9f3edc07d6fdeb56",
     "c2109cd02da02c37",
     "e22ccdeb45d6f64c",
@@ -95351,6 +95520,15 @@
   "mac-os": [
     "bee94f4e3d0c35da"
   ],
+  "mac-os-13": [
+    "b911c5d644407a8c"
+  ],
+  "mac-os-14": [
+    "a390120ac300b03e"
+  ],
+  "mac-os-15": [
+    "d9336e3fb31577db"
+  ],
   "mac-os-ci": [
     "8d3e31ebfe71f877"
   ],
@@ -95366,6 +95544,9 @@
   ],
   "mac-specific-commands": [
     "83673f5cf336a7ac"
+  ],
+  "mac-template": [
+    "d5fa0e30b74f880c"
   ],
   "mac-terminal": [
     "61453c6eb35d8c25"
@@ -95957,6 +96138,7 @@
     "442334d7fc602a39",
     "4cc5829fcf9e1cfe",
     "527b52f394fbef1d",
+    "5329067813f2349e",
     "555c01307726bbdd",
     "56daed53a5269d2c",
     "5bce31d33ef5d679",
@@ -96197,6 +96379,7 @@
     "d00c4e7ca654bff0",
     "d049da75baaaeb3e",
     "d15b4909e1e71515",
+    "d297946ae97733d7",
     "d2f30b386c2415cf",
     "d2f57aeae31884c7",
     "d55540f972bd0c9f",
@@ -98247,6 +98430,9 @@
   "mathematical-morphology": [
     "758f61c2ad06d55e"
   ],
+  "mathematical-optimization": [
+    "1693174749e08973"
+  ],
   "mathematical-programming": [
     "03a974b810ec3902"
   ],
@@ -98307,11 +98493,15 @@
     "9ab1b9370ca9c03d",
     "a239be0cc451ad91",
     "a51f3ee508f63334",
+    "bed9041595539563",
     "cac1bc537c1b0bb8",
     "ccd29ffbdbe8dcd6"
   ],
   "matlab-formatter": [
     "9073c841016ac142"
+  ],
+  "matlab-tests": [
+    "851c892f7fa8002a"
   ],
   "matlab-tests-workflow": [
     "fdc1f660f5d90f89"
@@ -98322,6 +98512,7 @@
   ],
   "matplotlib": [
     "022446d9a5a94057",
+    "0f47d16773af6b42",
     "6f73ac7cbd93872f",
     "ad84d2d01b92421e",
     "d90ffbf918cc637b"
@@ -98728,6 +98919,7 @@
     "c8a627cd24411b1a",
     "cc759779d31152c1",
     "cfa092b1f2a80eb8",
+    "d26ef10e30ed99a2",
     "db1d3a7a8fc5f9fb",
     "e39eac71b156115d",
     "e46a52c7dd66f920",
@@ -98958,6 +99150,7 @@
   "medical-image-processing": [
     "3a0397c1f58aa59f",
     "626ea4e47247480d",
+    "711e79987e9e1b28",
     "c91678c31370a32b",
     "ca513e5b4aa7630f",
     "e346ce677820dc7b"
@@ -99408,20 +99601,25 @@
     "0c6495a38a62a69c",
     "210812d659e62dbb",
     "24f57533c4764a62",
+    "35ca0007ec0fdfd5",
     "5defb7bba3b2a72e",
     "65da42392e90f3ef",
     "6957fdf814a68331",
+    "697c702af59ef211",
     "6ae498182ed92f7d",
     "6e95a6b2797f5749",
     "70689eccdd0c4855",
+    "7233970d6a18fb42",
     "79fcc7fa880c1e84",
     "7c9bfd6831d260c4",
     "7d992e82b5c3e5fe",
     "7f8ff2fb9f7ceba9",
     "881be865ff135b0b",
+    "ada203eea4d22752",
     "b621f7e43dcda2f5",
     "d31a179fbc3570d3",
-    "e37708d1fb82ce60"
+    "e37708d1fb82ce60",
+    "ed9a19cb0db6303d"
   ],
   "mesh-boolean": [
     "7a7343557974e478"
@@ -99432,8 +99630,10 @@
   "mesh-generation": [
     "22c46ca3256c2a6b",
     "4344c336ba3547e1",
+    "7edf24554fab683c",
     "9f139cec4f1edd04",
-    "c2da6b357b38bd54"
+    "c2da6b357b38bd54",
+    "ef040a030eff65e7"
   ],
   "mesh-generator": [
     "1957efe4a8260b85"
@@ -99443,6 +99643,8 @@
   ],
   "mesh-processing": [
     "063ddf1280a91392",
+    "0d2e7eee56ab63d5",
+    "23e6dcab2df36f21",
     "8d8d902d52c90999",
     "c0fb44ad710aa7e5"
   ],
@@ -99454,6 +99656,7 @@
     "e7dc8d25969170d9"
   ],
   "meshes": [
+    "50bc4f2780d16604",
     "5beadcf8af7bc09e",
     "5e7569c50b8ac016",
     "f2ac8605e4353356"
@@ -100893,6 +101096,7 @@
     "9f1da3c3bc595e52"
   ],
   "misc": [
+    "6be2881cec1539d5",
     "7c8e334237fbfda6",
     "94919d081c183301",
     "df8aafc4257ce7c0"
@@ -101840,10 +102044,14 @@
     "b96ef33073e7c10d"
   ],
   "modeling-language": [
-    "9f47900beb111787"
+    "9f47900beb111787",
+    "e25a5c70f0dc5c52"
   ],
   "modeling-tool": [
     "894f146d8848bae9"
+  ],
+  "modeling-tools": [
+    "5a7a38e1e4846f09"
   ],
   "modelling": [
     "dce430d02fda27fb"
@@ -104935,9 +105143,11 @@
     "ea768ff108487db0"
   ],
   "nemo-e2e-speech-tests": [
-    "7ba93f7684441fc5"
+    "7ba93f7684441fc5",
+    "d335c91ff15dec91"
   ],
   "nemo-unit-tests": [
+    "ad0a31c199206cba",
     "e4aa834c5e310788"
   ],
   "neo4j": [
@@ -106131,6 +106341,7 @@
     "20298fc23e7fa5c9",
     "259ecea872ce9545",
     "2db90c706f334dcb",
+    "2eb621fd2460db24",
     "2fbbc23299a27528",
     "3d2627f9b11f3e3f",
     "3f77351ca66d8684",
@@ -109348,7 +109559,11 @@
   ],
   "numerical-optimization": [
     "67188c3bafde55a9",
+    "70efeae0c50c55ee",
     "a2f0cf9d0770868c"
+  ],
+  "numerical-simulation": [
+    "c87980ffbb8d7708"
   ],
   "numerics": [
     "969ce512b4eed602"
@@ -111737,6 +111952,7 @@
     "138e185617bc5bfe",
     "157d9ed2519481be",
     "1596b4caa01cd622",
+    "1d4d88b2d63707f4",
     "2294ed36402d3682",
     "230746e6625af34b",
     "231cd0422d744692",
@@ -112393,6 +112609,7 @@
     "16550cfd1c452b0b",
     "179132da5cc03b56",
     "18f966adac386e50",
+    "23a75e0394c2a612",
     "28aa92af05e6fff1",
     "29eb4c889b3f1d4a",
     "2a5f4c53528f08b7",
@@ -113236,6 +113453,7 @@
     "512b04b1aa9ced52",
     "517fdd84a7c6f9a1",
     "5924d3ffd1130fae",
+    "5a8e67100a4c2a25",
     "6b6231ecd5c19579",
     "6e0296ee50037205",
     "70b9530181b49af6",
@@ -113269,6 +113487,9 @@
   ],
   "optimization-free": [
     "067bf5cf60267d1f"
+  ],
+  "optimization-modeling": [
+    "cc3e4a720df1cc4c"
   ],
   "optimization-problem": [
     "be2d2b09d60c4832"
@@ -113491,7 +113712,8 @@
     "c40c502755592f09"
   ],
   "orientation": [
-    "babd59d214bf3ef7"
+    "babd59d214bf3ef7",
+    "e9cd91079b3ce154"
   ],
   "oriented-bounding-box": [
     "324e3d552b08caec"
@@ -114835,6 +115057,9 @@
     "45a323a34a24836a",
     "c550b3d1b9525727"
   ],
+  "parametrization": [
+    "674f07a94b910a9b"
+  ],
   "paraphrase-identification": [
     "fac3098c120fe207"
   ],
@@ -115101,6 +115326,7 @@
     "39b021354a260bfd"
   ],
   "partial-differential-equations": [
+    "6d5f5ca6949ec6a4",
     "995180209202f9a4",
     "cc34d03bcb3418bc"
   ],
@@ -117387,6 +117613,7 @@
     "0da178f6d7c7cf9f",
     "118238c280cc5958",
     "14a2732b0a525e18",
+    "308b05fd539797c7",
     "601971de1228d44b",
     "6cdc6d5a5e6084be",
     "6fbb296fe331f1bc",
@@ -117877,6 +118104,7 @@
     "2dc3faac09b2266e",
     "37967c1f85921bd4",
     "3905f5062e3d63fa",
+    "3c521922583593c5",
     "43ef76d41e04bc85",
     "47302d4eea0b0d8b",
     "4a1a3d0cb8f15194",
@@ -118099,6 +118327,7 @@
   ],
   "polygon": [
     "024236d1e7084002",
+    "0ef875e71996d2f2",
     "501e95a6f14cdd12",
     "b31193bff05743b6",
     "ee41777f0dadc700"
@@ -118680,6 +118909,9 @@
     "c9dbad3424336b03",
     "d503b85ef7b61c55"
   ],
+  "post-treatment": [
+    "a36a32ca2ec9cadb"
+  ],
   "post-weekly-release": [
     "fcda7435f9302f46"
   ],
@@ -119011,6 +119243,9 @@
   "pp-yolo": [
     "b686dcb3e2559e7c"
   ],
+  "ppa-installation": [
+    "65e1255d26ab37ec"
+  ],
   "ppc64le": [
     "3b84702021a7af72"
   ],
@@ -119222,6 +119457,7 @@
     "9aa93081fc0128c5",
     "a5ceec545f285877",
     "b1a0d5819fcffcf6",
+    "b519f27698ef9fb2",
     "b9281a2a10814f91",
     "ba092497117ac05e",
     "beaf039a5e71ead2",
@@ -120202,6 +120438,9 @@
     "c95b7af7623844d3",
     "d0c264b43fc07fb5",
     "f0455f4af4df4165"
+  ],
+  "pre-treatment": [
+    "1aca48674c7f2d91"
   ],
   "preact": [
     "43081469d95bc9a3",
@@ -124524,6 +124763,7 @@
     "1f45be8423d8996d",
     "22bc7dc0bbf1f262",
     "25059bc751bbff95",
+    "2551fb6312e21505",
     "292bce5ec1fd03a7",
     "2a0d33c0a7f8595a",
     "3dca55c12024152c",
@@ -125309,6 +125549,7 @@
     "dac3e3d1f17e5cd5",
     "dd83438794ffe681",
     "e0196403de661598",
+    "e1ea60b1f676b479",
     "e2eaa4a4e246845e",
     "e4e793c614a02121",
     "ec914234c49b305e",
@@ -127508,6 +127749,9 @@
   "pyusb": [
     "b319f70468b7c69e",
     "ffa703abb49af5df"
+  ],
+  "pyvista": [
+    "7d315c65431c3d98"
   ],
   "pywinpty": [
     "d6a7216a0eb810f0"
@@ -130242,6 +130486,9 @@
   "rectified-flow-matching": [
     "d68e3bf0d10050c0"
   ],
+  "rectilinear": [
+    "855cf8ad0c75d83e"
+  ],
   "recurrent": [
     "d567f5a5d0bbc75c"
   ],
@@ -131900,6 +132147,7 @@
     "784a4be26fbcdde4",
     "785a026d1d0d48af",
     "7876d321e6a6dd5b",
+    "78825ae32b33ad3c",
     "789c4483ba037406",
     "78cb1ceb8f2e328e",
     "78d5cb296019bcdd",
@@ -136071,6 +136319,7 @@
   ],
   "reuse-compliance-check": [
     "4352e24728d6b3cb",
+    "70d2db7e8f3a824c",
     "83e24ff3d1c233b9",
     "884e0893feb720a9",
     "a1341fffbbc1f596",
@@ -141514,6 +141763,7 @@
     "2a3e721f17a7a7bf",
     "2d7f77f4ee2ccaca",
     "43a18f703b0cae2d",
+    "483e3e6f94737e62",
     "4b088a375a721c28",
     "4c9b9d86544bb158",
     "5024dc0fbca2b367",
@@ -145433,6 +145683,7 @@
     "4b4d7111607fb799",
     "55d3e3b72ea8b8eb",
     "5cfa20dad272b3e9",
+    "5e4246f97d6f2728",
     "69566124cd9d611c",
     "6a4ba39a1646e48f",
     "7297350b3527d1ee",
@@ -147006,6 +147257,12 @@
     "215a69d6ef5a777b",
     "50115db4f27fc409"
   ],
+  "solid-mechanics": [
+    "e7c3d6974e9838c7"
+  ],
+  "solid-mechanics-codes": [
+    "7068b7555b65c834"
+  ],
   "solid-query": [
     "396778f3583bf24a"
   ],
@@ -147740,7 +147997,8 @@
     "fb0b761af1281d3b"
   ],
   "speaker-diariazation": [
-    "c7f406ee7fc1883c"
+    "c7f406ee7fc1883c",
+    "e6c6f410a982f27f"
   ],
   "speaker-diarization": [
     "0de77cbb1ce42316",
@@ -147776,6 +148034,7 @@
   "speaker-recognition": [
     "005e2f42a2be4b41",
     "12e2ac89f20d69df",
+    "162295a219d2dacf",
     "397b91262f97b865",
     "4435d3abd2bc69d7",
     "6aee6d61dc641b1a",
@@ -148214,6 +148473,7 @@
     "9a88364dabfbdac5",
     "9ba977627e2a338e",
     "9c02016868d43f44",
+    "9e31a50bfb7b893f",
     "a3c3c81152b48093",
     "a58e003e2defe776",
     "aecc8421fb0e3ce0",
@@ -148314,6 +148574,7 @@
     "5ee2843d2ea9ae21",
     "60c24d143f2493e1",
     "62980daca5902be2",
+    "6623b172e7f0b88f",
     "6a8e7a4ca00ca1a2",
     "77f1b0a6e78e9d99",
     "b9af8e43948ae7b1",
@@ -148479,11 +148740,20 @@
   "sph-fluids": [
     "d122d70481d4244c"
   ],
+  "sphere": [
+    "e7d3893d56461ea4"
+  ],
   "sphereface": [
     "90b2359f24a42605"
   ],
   "spherical-harmonics": [
     "9b5915bdcf45cb81"
+  ],
+  "spherical-histogram": [
+    "8222456fbd30817d"
+  ],
+  "spherical-histograms": [
+    "3272800a798763f8"
   ],
   "spherical-microphone-array": [
     "53f8d74151c59533"
@@ -150269,6 +150539,7 @@
     "08e8df608f7fadf3",
     "0c79a77809a9a120",
     "1275116002d5b675",
+    "12a75b166feabcda",
     "168f3298269292c0",
     "271d108047ff516e",
     "35a624688841c6ed",
@@ -151060,6 +151331,9 @@
   ],
   "structs": [
     "2aaa95ac39f56e7c"
+  ],
+  "structural-mechanics": [
+    "c37106847a327ac8"
   ],
   "structural-search": [
     "11a4bf991385e9c1"
@@ -151971,16 +152245,20 @@
     "56900d91511ed11b"
   ],
   "surface-normal": [
+    "034705f6b54c01db",
     "549df1e7f830ec92"
   ],
   "surface-normals": [
+    "399962420fc071da",
     "a176e1d26cdff3f3",
     "b723b4110ce0248c"
   ],
   "surface-normals-estimation": [
+    "0256d87169a3215e",
     "d8cdb695f666dde9"
   ],
   "surface-reconstruction": [
+    "5a8624b25c0266c4",
     "88724a1118b4d3b5",
     "a53c005ac79ba8b4",
     "ed294ac24d6070f8"
@@ -154754,6 +155032,9 @@
   "template-language": [
     "3dc867a8bd631176",
     "4e33afe632b08e60"
+  ],
+  "template-library": [
+    "7b33123283ab8284"
   ],
   "template-metaprogramming": [
     "41c1a196abff2474"
@@ -160189,6 +160470,7 @@
     "2b280134ade46546"
   ],
   "texture": [
+    "32c4aa7d979a7e0b",
     "4265ee1419557179",
     "4778e805b77147e8",
     "916ad8ee4273757a",
@@ -160659,6 +160941,9 @@
   ],
   "threeten": [
     "48673c97a5138596"
+  ],
+  "threshold": [
+    "64de2f432b9cb388"
   ],
   "thresholding": [
     "22522b6929fbd0ab"
@@ -162851,6 +163136,7 @@
     "28915f423cc57906",
     "9e37980cabbfee82",
     "a51ef06a126e878f",
+    "d7e1ffe950b03ef1",
     "fa8c9ba200781c92"
   ],
   "tricks": [
@@ -164278,6 +164564,21 @@
   "ubsan-unit-tests": [
     "3afac33244ef1f2c"
   ],
+  "ubu-24-clang16": [
+    "9c605f90836ba7f0"
+  ],
+  "ubu-24-clang17": [
+    "6eeb64a55da76181"
+  ],
+  "ubu-24-clang18": [
+    "a393d06e4e1380fe"
+  ],
+  "ubu-24-gcc12": [
+    "eab38bde07e983a5"
+  ],
+  "ubu-24-gcc14": [
+    "ad0b8e233a86a50b"
+  ],
   "ubuntu": [
     "001511928e65bcce",
     "018a6f2d02aaedd5",
@@ -164501,6 +164802,9 @@
     "3e3f1ad997ec79a7",
     "64255232d1632fa7"
   ],
+  "ugrid": [
+    "2b1977c0e03e6e6c"
+  ],
   "ui-components": [
     "2a61a2895315d3ee",
     "321e507ce3f131a8",
@@ -164678,6 +164982,9 @@
   ],
   "umass-amherst": [
     "fd3728aef7a06937"
+  ],
+  "umat": [
+    "443c4516e4409d93"
   ],
   "umbrel": [
     "4b471a08292d4972"
@@ -165356,6 +165663,7 @@
     "14d64c27b66213b9",
     "17ec876c08a79348",
     "1e0c991412272997",
+    "32647d580878fb92",
     "34b39625c8fe9927",
     "36f0415dc9c0406d",
     "39fc9773291e3a84",
@@ -165410,6 +165718,7 @@
     "706a2facac4f6558",
     "a7aeb8cad0f222ea",
     "df9a2cab4320960a",
+    "e62706af6ea4f766",
     "fd117705e4e4d8d7",
     "fd420862090759c8"
   ],
@@ -165593,6 +165902,9 @@
     "0f8e0825433fd6c3",
     "10f65a967b400d3a"
   ],
+  "unstructured": [
+    "f13ffd3e6e667062"
+  ],
   "unstructured-data": [
     "c45380f17a4d5545",
     "ca43938ef087efd4"
@@ -165645,6 +165957,9 @@
   "unwrapped": [
     "09d567a15c344a2c",
     "c85d9379ddd36611"
+  ],
+  "unwrapping": [
+    "3d59d42ec955148d"
   ],
   "unzip": [
     "3fae06330c75d7be",
@@ -168710,6 +169025,7 @@
   ],
   "vectors": [
     "2352dac3af73a05b",
+    "24b742b454c63f33",
     "4d0d02435c844608",
     "dd0c7092a12403d2"
   ],
@@ -170898,6 +171214,7 @@
     "2bf8f3ff5e09cab1"
   ],
   "visualisation": [
+    "0687f3bc10d28499",
     "0a55e41e908212e7",
     "10bba892b75aea97",
     "4d79e888820cbafe",
@@ -170928,6 +171245,7 @@
     "35223c581bcdedee",
     "3553c86ffe4f088d",
     "3a82e82a6e0bf31c",
+    "3ef21f3678f608f7",
     "3facf5f0a7e6941f",
     "40cfaaa4de487529",
     "4162a2f2fe2f8e01",
@@ -170955,6 +171273,7 @@
     "a136313aa7fa85a0",
     "a14265b3cb66b233",
     "a94d8310f3861cf9",
+    "aa4f5bb77b047f22",
     "aabe50607df545f0",
     "ab0f4a737868919e",
     "ab728b1ff2a8ca24",
@@ -171611,6 +171930,9 @@
     "4a8f96a53e6ae32e",
     "732aa0507df41782"
   ],
+  "voronoi-diagram": [
+    "be576017534ab187"
+  ],
   "vot2020": [
     "017e2f2915300da8"
   ],
@@ -171946,6 +172268,9 @@
   ],
   "vterm": [
     "b70b0817eb791a42"
+  ],
+  "vtk9-c-ci": [
+    "db343df9b6234e8a"
   ],
   "vtodo": [
     "c616c3de9362cac3"
@@ -173495,6 +173820,7 @@
     "9358abfbc79428b4",
     "9ad1985beab0be18",
     "a51772b8045d831e",
+    "c2a1dc936b629911",
     "cd36ca6ab8f6b6dd",
     "d08dc7458c9a137a",
     "e9833574e80ea429",
@@ -174361,6 +174687,7 @@
     "6bbe8e76670a9906",
     "6e56f08e631e9e9e",
     "8c70814a14563cb6",
+    "94081593c3de1c19",
     "aa677117bdea47b3",
     "c1c17547de2a5159",
     "e1e73c6220138e56",
@@ -174752,6 +175079,7 @@
     "0a7fb1ab6a5f5f89",
     "0a86a86f8f28ab91",
     "0ab0396a27517354",
+    "0b207567e80bbc43",
     "0bea5bba32f8f4fa",
     "0d4ace2c2e1277e5",
     "0e77ba247030de16",
@@ -175741,8 +176069,12 @@
   "world-engine": [
     "55cfefd564093535"
   ],
+  "world-generation": [
+    "8b02772516c66b29"
+  ],
   "world-model": [
     "07d028f04f9fd41b",
+    "1c8b2f086816e14a",
     "3dff14051df623b0",
     "62d7b2cfdb091071",
     "749ee4f61b823cdc",
@@ -175761,7 +176093,8 @@
     "b5d04b3b895610e7",
     "b5f5f4548167796f",
     "cea31bda3ba65c66",
-    "de3c57202f933b75"
+    "de3c57202f933b75",
+    "eef16db73e04f8ea"
   ],
   "world-of-warcraft": [
     "f4f59bf6cefb9e1d"
@@ -175771,6 +176104,9 @@
   ],
   "worldline-build": [
     "d7cfff1c49eaa1cf"
+  ],
+  "worldmodel": [
+    "496653c2d304a5a8"
   ],
   "wp-cli": [
     "1e7b3f63bc4e1dfa",
@@ -176016,6 +176352,9 @@
     "74cdf8a25768e649",
     "7af006cdf0d8d538",
     "ca0a937b7b05a2ac"
+  ],
+  "xatlas": [
+    "3cddde276e0d96ec"
   ],
   "xbar": [
     "1be84a1c28237f0a",

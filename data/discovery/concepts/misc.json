@@ -44,6 +44,18 @@
       "source_repo": "ClickHouse/clickhouse-js",
       "status": "candidate-context",
       "text": "'misc'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chebfun/chebfun",
+      "status": "candidate-context",
+      "text": "Chebfun:  numerical computing with functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chebfun/chebfun",
+      "status": "candidate-context",
+      "text": "misc"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "ClickHouse/clickhouse-js",
       "status": "candidate",
       "text": "'misc'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chebfun/chebfun",
+      "status": "candidate",
+      "text": "misc"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/clean-up.yml",
       "source_repo": "ClickHouse/clickhouse-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "chebfun/chebfun"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

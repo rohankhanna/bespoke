@@ -638,6 +638,18 @@
       "source_repo": "huanngzh/ComfyUI-MVAdapter",
       "status": "candidate-context",
       "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
+      "status": "candidate-context",
+      "text": "Encrypt your comfyui workflow with key"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
     }
   ],
   "candidate_glosses": [
@@ -1010,6 +1022,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "huanngzh/ComfyUI-MVAdapter",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
       "status": "candidate",
       "text": "Publish to Comfy registry"
     }
@@ -2417,11 +2435,29 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aigc-apps/VideoX-Fun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

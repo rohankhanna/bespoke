@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jump-dev/JuMP.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxpy/cvxpy"
     }
   ],
   "term": "modeling-language"

@@ -1,0 +1,12 @@
+{
+  "component": "plbstl/first-contribution@2c36bdb58684587f60549a69aaa3ec00b9d5f4fe",
+  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-first-contribution.yml",
+      "source_repo": "bjlittle/geovista"
+    }
+  ]
+}

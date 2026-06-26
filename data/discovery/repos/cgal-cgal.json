@@ -1,0 +1,545 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Remove_labels.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Remove_labels.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/list_workflow_last_run.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "fsfe/reuse-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "fsfe/reuse-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "fsfe/reuse-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "fsfe/reuse-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Remove_labels.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_doc.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "Build Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "CMake Test Merge Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-all.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-all.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "CMake Testsuite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_doc.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "Documentation Removal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "Compile CGAL Lab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/list_workflow_last_run.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "fsfe/reuse-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "CGAL/cgal",
+      "target": "REUSE Compliance Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "arrange",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "boolean-operations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "cgal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "computational-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "geometry-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "mesh-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "meshes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "polygon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "template-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "triangulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CGAL/cgal",
+      "target": "voronoi-diagram",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:53.108716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2148
+    },
+    {
+      "path": ".github/workflows/Remove_labels.yml",
+      "size": 1095
+    },
+    {
+      "path": ".github/workflows/build_doc.yml",
+      "size": 9709
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/cmake-all.yml",
+      "size": 1167
+    },
+    {
+      "path": ".github/workflows/delete_doc.yml",
+      "size": 1295
+    },
+    {
+      "path": ".github/workflows/demo.yml",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/list_workflow_last_run.css",
+      "size": 572
+    },
+    {
+      "path": ".github/workflows/list_workflow_last_run.yml",
+      "size": 1791
+    },
+    {
+      "path": ".github/workflows/reuse.yml",
+      "size": 1084
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The public CGAL repository, see the README below",
+    "fork": false,
+    "full_name": "CGAL/cgal",
+    "html_url": "https://github.com/CGAL/cgal",
+    "language": "C++",
+    "pushed_at": "2026-06-25T19:55:50Z",
+    "stargazers_count": 5954,
+    "topics": [
+      "algorithms",
+      "arrange",
+      "boolean-operations",
+      "c-plus-plus",
+      "cgal",
+      "computational-geometry",
+      "cpp",
+      "geometry",
+      "geometry-processing",
+      "library",
+      "mesh-processing",
+      "meshes",
+      "point-cloud",
+      "polygon",
+      "template-library",
+      "triangulation",
+      "voronoi-diagram"
+    ],
+    "updated_at": "2026-06-25T19:55:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_doc.yml",
+      "term": "Build Documentation"
+    },
+    {
+      "context_snippet": "CMake Test Merge Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "CMake Test Merge Branch"
+    },
+    {
+      "context_snippet": "CMake Testsuite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-all.yml",
+      "term": "CMake Testsuite"
+    },
+    {
+      "context_snippet": "Documentation Removal",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_doc.yml",
+      "term": "Documentation Removal"
+    },
+    {
+      "context_snippet": "Compile CGAL Lab",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/demo.yml",
+      "term": "Compile CGAL Lab"
+    },
+    {
+      "context_snippet": "REUSE Compliance Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "term": "REUSE Compliance Check"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithms"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arrange"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boolean-operations"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cgal"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-geometry"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry-processing"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-processing"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meshes"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-library"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triangulation"
+    },
+    {
+      "context_snippet": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voronoi-diagram"
+    }
+  ]
+}

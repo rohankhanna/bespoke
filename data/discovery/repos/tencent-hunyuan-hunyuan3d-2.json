@@ -5,20 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
-      "target": "tencent-hunyuan/hunyuanworld-1.0",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
-      "target": "tencent-hunyuan/hunyuan3d-2.1",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
       "target": "tencent/flashvdm",
       "target_type": "repository"
     },
@@ -26,7 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/Hunyuan3D-2",
-      "target": "sdbds/hunyuan3d-2-for-windows",
+      "target": "wyysf-98/craftsman3d",
       "target_type": "repository"
     },
     {
@@ -93,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-24T18:58:47.682970+00:00",
+  "fetched_at": "2026-06-26T13:22:06.512420+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,7 +100,7 @@
     "html_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
     "language": "Python",
     "pushed_at": "2025-10-28T09:58:12Z",
-    "stargazers_count": 14028,
+    "stargazers_count": 14043,
     "topics": [
       "3d",
       "3d-aigc",
@@ -127,27 +113,17 @@
       "text-to-3d",
       "texture-generation"
     ],
-    "updated_at": "2026-06-24T12:53:20Z"
+    "updated_at": "2026-06-26T08:54:20Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sdbds/hunyuan3d-2-for-windows",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tencent-hunyuan/hunyuan3d-2.1",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tencent-hunyuan/hunyuanworld-1.0",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "tencent/flashvdm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wyysf-98/craftsman3d",
       "source_file": "README.md"
     }
   ],

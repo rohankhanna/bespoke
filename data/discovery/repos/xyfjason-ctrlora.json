@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xyfJASON/ctrlora",
+      "target": "salesforce/unicontrol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xyfJASON/ctrlora",
+      "target": "controllable-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xyfJASON/ctrlora",
+      "target": "controlnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xyfJASON/ctrlora",
+      "target": "image-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xyfJASON/ctrlora",
+      "target": "lora",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:35.220536+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14501
+    },
+    {
+      "path": "requirements.txt",
+      "size": 586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] Codebase for \"CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation\"",
+    "fork": false,
+    "full_name": "xyfJASON/ctrlora",
+    "html_url": "https://github.com/xyfJASON/ctrlora",
+    "language": "Python",
+    "pushed_at": "2026-03-06T02:37:32Z",
+    "stargazers_count": 268,
+    "topics": [
+      "controllable-generation",
+      "controlnet",
+      "image-to-image",
+      "lora"
+    ],
+    "updated_at": "2026-06-18T23:09:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/unicontrol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controllable-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controlnet"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-image"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    }
+  ]
+}

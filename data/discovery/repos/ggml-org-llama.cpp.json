@@ -495,7 +495,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T00:51:35.366289+00:00",
+  "fetched_at": "2026-06-26T13:14:56.552836+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -535,7 +535,7 @@
     },
     {
       "path": ".github/workflows/build-cache.yml",
-      "size": 4304
+      "size": 4308
     }
   ],
   "related_repositories": [],
@@ -547,12 +547,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-06-25T22:49:13Z",
-    "stargazers_count": 118149,
+    "pushed_at": "2026-06-26T13:04:53Z",
+    "stargazers_count": 118235,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-06-26T00:50:23Z"
+    "updated_at": "2026-06-26T13:12:18Z"
   },
   "repo_links": [
     {

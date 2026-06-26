@@ -1,0 +1,372 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "pyvista/setup-headless-display-action@v3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "python-semantic-release/python-semantic-release@v8.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "python-semantic-release/publish-action@v9.21.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-win.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-win.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-win.yml"
+    },
+    {
+      "component": "pyvista/setup-headless-display-action@v3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-win.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bzrudski/vectorose",
+      "target": "py-pkgs/py-pkgs-cookiecutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "pyvista/setup-headless-display-action@v3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "python-semantic-release/python-semantic-release@v8.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "python-semantic-release/publish-action@v9.21.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-win.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-win.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-win.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-win.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "pyvista/setup-headless-display-action@v3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-win.yml",
+      "source_repo": "bzrudski/vectorose",
+      "target": "ci-win",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose",
+      "target": "anisotropy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose",
+      "target": "directional-statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose",
+      "target": "histogram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose",
+      "target": "orientation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose",
+      "target": "sphere",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose",
+      "target": "spherical-histogram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose",
+      "target": "spherical-histograms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose",
+      "target": "statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose",
+      "target": "vectors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:23:32.503044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11519
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1894
+    },
+    {
+      "path": ".github/workflows/ci-cd.yml",
+      "size": 3130
+    },
+    {
+      "path": ".github/workflows/ci-win.yml",
+      "size": 1038
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python package for producing spherical histograms",
+    "fork": false,
+    "full_name": "bzrudski/vectorose",
+    "html_url": "https://github.com/bzrudski/vectorose",
+    "language": "Python",
+    "pushed_at": "2026-06-22T22:02:59Z",
+    "stargazers_count": 12,
+    "topics": [
+      "anisotropy",
+      "directional-statistics",
+      "histogram",
+      "orientation",
+      "sphere",
+      "spherical-histogram",
+      "spherical-histograms",
+      "statistics",
+      "vectors"
+    ],
+    "updated_at": "2026-06-19T00:55:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "py-pkgs/py-pkgs-cookiecutter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ci-cd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "term": "ci-cd"
+    },
+    {
+      "context_snippet": "ci-win",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-win.yml",
+      "term": "ci-win"
+    },
+    {
+      "context_snippet": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anisotropy"
+    },
+    {
+      "context_snippet": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directional-statistics"
+    },
+    {
+      "context_snippet": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "histogram"
+    },
+    {
+      "context_snippet": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orientation"
+    },
+    {
+      "context_snippet": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sphere"
+    },
+    {
+      "context_snippet": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spherical-histogram"
+    },
+    {
+      "context_snippet": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spherical-histograms"
+    },
+    {
+      "context_snippet": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    },
+    {
+      "context_snippet": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vectors"
+    }
+  ]
+}

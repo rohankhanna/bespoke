@@ -19,6 +19,18 @@
       "source_repo": "HakamShams/Focal_TSMP",
       "status": "candidate-context",
       "text": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bjlittle/geovista",
+      "status": "candidate-context",
+      "text": "Cartographic rendering and mesh analytics powered by PyVista \ud83c\udf0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjlittle/geovista",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "HakamShams/Focal_TSMP",
       "status": "candidate",
       "text": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjlittle/geovista",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "HakamShams/Focal_TSMP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "bjlittle/geovista"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

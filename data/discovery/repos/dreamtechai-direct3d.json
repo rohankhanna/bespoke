@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-26T13:22:02.120077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4221
+    },
+    {
+      "path": "requirements.txt",
+      "size": 88
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024] Direct3D: Scalable Image-to-3D Generation via 3D Latent Diffusion Transformer",
+    "fork": false,
+    "full_name": "DreamTechAI/Direct3D",
+    "html_url": "https://github.com/DreamTechAI/Direct3D",
+    "language": "Python",
+    "pushed_at": "2025-02-11T04:02:12Z",
+    "stargazers_count": 232,
+    "topics": [],
+    "updated_at": "2026-06-20T03:27:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

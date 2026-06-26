@@ -1090,6 +1090,18 @@
       "source_repo": "pyvista/pyvista",
       "status": "candidate-context",
       "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansys/pymapdl",
+      "status": "candidate-context",
+      "text": "A Python client library for Ansys MAPDL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pymapdl",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -1636,6 +1648,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pyvista/pyvista",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pymapdl",
       "status": "candidate",
       "text": "\"Pull Request Labeler\""
     }
@@ -2773,11 +2791,23 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pymapdl"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

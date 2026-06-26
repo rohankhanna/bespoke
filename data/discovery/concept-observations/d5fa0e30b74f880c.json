@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ header-only graphing and data visualization with Modern OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mac Template"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mac Template"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "aide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "apple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "bud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "cheese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "coat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mac Template",
+      "sense_id": "mac-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mac-template",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mac-template",
+  "observation_id": "d5fa0e30b74f880c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
+  "observed_text": "Mac Template",
+  "source_context_snippet": "Mac Template",
+  "source_file": ".github/workflows/cmake-mac-template.yml",
+  "source_repo": "ABRG-Models/morphologica",
+  "source_repo_description": "C++ header-only graphing and data visualization with Modern OpenGL"
+}

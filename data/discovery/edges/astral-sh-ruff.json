@@ -11,7 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "great-expectations/great_expectations",
+      "target": "hwchase17/langchain",
       "target_type": "repository"
     },
     {
@@ -32,7 +32,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -74,35 +74,35 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target": "docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target": "docker/metadata-action@80c7e94dd9b9319bd5eb7a0e0fe9291e23a2a2e9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target": "docker/build-push-action@f9f3042f7e2789586610d6e8b85c8f03e5195baf",
       "target_type": "component"
     },
     {
@@ -130,7 +130,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-wasm.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -165,7 +165,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "astral-sh/ruff",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
       "target_type": "component"
     },
     {
@@ -186,14 +193,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "taiki-e/install-action@1329c298aa20c3257846c9b2e0e55967df3e3c37",
+      "target": "taiki-e/install-action@15449e3094499af05d8d964a1c884208e4b8b595",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -221,7 +228,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "cargo-bins/cargo-binstall@dc19f1e48450eefe5a29b8da6c6b00a87d730b37",
+      "target": "cargo-bins/cargo-binstall@30b5ca8b54e1dcffd9548bc87ede1531310fdc67",
       "target_type": "component"
     },
     {
@@ -263,7 +270,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
+      "target": "CodSpeedHQ/action@c145068895e045cc725ee76fcd2307624b65c3af",
       "target_type": "component"
     },
     {
@@ -277,14 +284,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily_fuzz.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily_fuzz.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -319,7 +326,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/memory_report.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -428,6 +435,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-06T18:41:14.951242+00:00",
+  "generated_at": "2026-06-26T12:57:23.248127+00:00",
   "source_repo": "astral-sh/ruff"
 }

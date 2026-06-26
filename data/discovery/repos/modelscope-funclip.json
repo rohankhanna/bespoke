@@ -142,7 +142,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T00:53:13.515420+00:00",
+  "fetched_at": "2026-06-26T13:16:33.211557+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -163,7 +163,7 @@
     "html_url": "https://github.com/modelscope/FunClip",
     "language": "Python",
     "pushed_at": "2026-06-25T13:30:01Z",
-    "stargazers_count": 5860,
+    "stargazers_count": 5861,
     "topics": [
       "ai-tools",
       "ai-video-editing",
@@ -186,7 +186,7 @@
       "video-subtitles",
       "whisper-alternative"
     ],
-    "updated_at": "2026-06-25T20:40:20Z"
+    "updated_at": "2026-06-26T08:36:54Z"
   },
   "repo_links": [
     {

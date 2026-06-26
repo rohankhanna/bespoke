@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anniegbryant/subcortex_visualization",
+      "target": "ggseg/ggseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anniegbryant/subcortex_visualization",
+      "target": "ggseg/python-ggseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anniegbryant/subcortex_visualization",
+      "target": "mica-mni/enigma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anniegbryant/subcortex_visualization",
+      "target": "neurolabusc/surf-ice",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:23:46.231350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15269
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1141
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A toolbox for custom data visualization in the subcortex and cerebellum",
+    "fork": false,
+    "full_name": "anniegbryant/subcortex_visualization",
+    "html_url": "https://github.com/anniegbryant/subcortex_visualization",
+    "language": "HTML",
+    "pushed_at": "2026-05-25T09:13:25Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-06-20T14:24:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggseg/ggseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggseg/python-ggseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mica-mni/enigma",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neurolabusc/surf-ice",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

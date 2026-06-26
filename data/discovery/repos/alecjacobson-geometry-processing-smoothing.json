@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-26T13:23:43.201236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Smoothing assignment for Geometry Processing course",
+    "fork": false,
+    "full_name": "alecjacobson/geometry-processing-smoothing",
+    "html_url": "https://github.com/alecjacobson/geometry-processing-smoothing",
+    "language": "C++",
+    "pushed_at": "2022-10-21T18:23:04Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-03-13T08:18:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/setup-matlab@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/setup-matlab@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fangq/iso2mesh",
+      "target": "fieldtrip/fieldtrip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fangq/iso2mesh",
+      "target": "andypotatohy/roast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fangq/iso2mesh",
+      "target": "bunpc/atlasviewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fangq/iso2mesh",
+      "target": "gilbo/cork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml",
+      "source_repo": "fangq/iso2mesh",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml",
+      "source_repo": "fangq/iso2mesh",
+      "target": "matlab-actions/setup-matlab@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_test.yml",
+      "source_repo": "fangq/iso2mesh",
+      "target": "matlab-actions/run-command@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_test.yml",
+      "source_repo": "fangq/iso2mesh",
+      "target": "Iso2Mesh CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh",
+      "target": "medical-image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh",
+      "target": "mesh-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh",
+      "target": "modeling-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fangq/iso2mesh",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:23:53.709374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13755
+    },
+    {
+      "path": "README.txt",
+      "size": 13488
+    },
+    {
+      "path": ".github/workflows/run_test.yml",
+      "size": 6089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Iso2Mesh - a 3D surface and volumetric mesh generator for MATLAB/Octave",
+    "fork": false,
+    "full_name": "fangq/iso2mesh",
+    "html_url": "https://github.com/fangq/iso2mesh",
+    "language": "MATLAB",
+    "pushed_at": "2026-06-11T19:44:09Z",
+    "stargazers_count": 213,
+    "topics": [
+      "computer-graphics",
+      "image-processing",
+      "matlab",
+      "medical-image-processing",
+      "mesh-generation",
+      "modeling-tools",
+      "visualization"
+    ],
+    "updated_at": "2026-06-17T19:18:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andypotatohy/roast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bunpc/atlasviewer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fieldtrip/fieldtrip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gilbo/cork",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Iso2Mesh CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_test.yml",
+      "term": "Iso2Mesh CI"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-processing"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-generation"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modeling-tools"
+    },
+    {
+      "context_snippet": "| | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "source_repo": "lace/vg",
       "status": "candidate-context",
       "text": "vg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bzrudski/vectorose",
+      "status": "candidate-context",
+      "text": "Python package for producing spherical histograms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bzrudski/vectorose",
+      "status": "candidate-context",
+      "text": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "lace/vg",
       "status": "candidate",
       "text": "vg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bzrudski/vectorose",
+      "status": "candidate",
+      "text": "![VectoRose: visualise and analyse 3D directed data](https://github.com/bzrudski/vectorose/blob/main/resources/splash/splash.png?raw=true)"
     }
   ],
   "candidate_related_terms": [
@@ -544,11 +562,17 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "bzrudski/vectorose"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "release-desktop",
   "observation_id": "70fefc3c441096a8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-25T00:47:33.944341+00:00",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
   "observed_text": "Release Desktop",
   "source_context_snippet": "Release Desktop",
   "source_file": ".github/workflows/release.yml",

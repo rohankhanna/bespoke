@@ -331,6 +331,18 @@
       "source_repo": "nschloe/awesome-scientific-computing",
       "status": "candidate-context",
       "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adtzlr/felupe",
+      "status": "candidate-context",
+      "text": "Open finite element infrastructure for nonlinear computational mechanics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/felupe",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "nschloe/awesome-scientific-computing",
       "status": "candidate",
       "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/felupe",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1234,11 +1252,17 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "adtzlr/felupe"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

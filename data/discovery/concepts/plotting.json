@@ -211,6 +211,18 @@
       "source_repo": "pyvista/pyvista",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ABRG-Models/morphologica",
+      "status": "candidate-context",
+      "text": "C++ header-only graphing and data visualization with Modern OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/morphologica",
+      "status": "candidate-context",
+      "text": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths."
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "pyvista/pyvista",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/morphologica",
+      "status": "candidate",
+      "text": "New development is now at https://github.com/sebsjames/mathplot and the maths code from morphologica has been split out into https://github.com/sebsjames/maths."
     }
   ],
   "candidate_related_terms": [
@@ -502,11 +520,23 @@
       "observed_at": "2026-06-25T00:47:33.944341+00:00",
       "source_file": null,
       "source_repo": "plotters-rs/plotters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "ABRG-Models/morphologica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "MakieOrg/Makie.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -697,6 +697,18 @@
       "source_repo": "harbor-framework/harbor",
       "status": "candidate-context",
       "text": "Framework for evaluating and improving agents "
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvxpy/cvxpy",
+      "status": "candidate-context",
+      "text": "A Python-embedded modeling language for convex optimization problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvxpy/cvxpy",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
     }
   ],
   "candidate_glosses": [
@@ -1057,6 +1069,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Venly/web3-react-venly",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvxpy/cvxpy",
       "status": "candidate",
       "text": "Claude Code Review"
     }
@@ -4312,11 +4330,41 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "cvxpy/cvxpy"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

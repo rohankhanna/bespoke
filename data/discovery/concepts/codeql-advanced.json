@@ -811,6 +811,18 @@
       "source_repo": "mingqiangWu/Fast-TRELLIS",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansys/pymapdl",
+      "status": "candidate-context",
+      "text": "A Python client library for Ansys MAPDL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pymapdl",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
   "candidate_glosses": [
@@ -1213,6 +1225,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mingqiangWu/Fast-TRELLIS",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pymapdl",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
     }
@@ -2530,11 +2548,23 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ansys/pymapdl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ruvnet/ruflo"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

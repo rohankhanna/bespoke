@@ -84,7 +84,7 @@
   "normalized_form": "librarian-tidy",
   "observation_id": "0601e9dddc95b503",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
   "observed_text": "librarian tidy",
   "source_context_snippet": "librarian tidy",
   "source_file": ".github/workflows/librarian_tidy.yml",

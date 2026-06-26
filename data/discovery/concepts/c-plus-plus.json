@@ -1411,6 +1411,18 @@
       "source_repo": "qt/qtbase",
       "status": "candidate-context",
       "text": "Smoke build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate-context",
+      "text": "The public CGAL repository, see the README below"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate-context",
+      "text": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)"
     }
   ],
   "candidate_glosses": [
@@ -2115,6 +2127,12 @@
       "source_repo": "qt/qtbase",
       "status": "candidate",
       "text": "Smoke build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CGAL/cgal",
+      "status": "candidate",
+      "text": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -5848,11 +5866,41 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "CGAL/cgal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

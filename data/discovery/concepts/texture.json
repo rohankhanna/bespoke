@@ -55,6 +55,18 @@
       "source_repo": "barisgecer/GANFit",
       "status": "candidate-context",
       "text": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mworchel/xatlas-python",
+      "status": "candidate-context",
+      "text": "Python bindings for xatlas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mworchel/xatlas-python",
+      "status": "candidate-context",
+      "text": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "barisgecer/GANFit",
       "status": "candidate",
       "text": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mworchel/xatlas-python",
+      "status": "candidate",
+      "text": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes."
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "AcademySoftwareFoundation/OpenImageIO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "mworchel/xatlas-python"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

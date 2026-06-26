@@ -1298,7 +1298,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T13:39:56.124049+00:00",
+  "fetched_at": "2026-06-26T13:05:28.975953+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1351,7 +1351,7 @@
     "html_url": "https://github.com/jestjs/jest",
     "language": "TypeScript",
     "pushed_at": "2026-06-25T01:13:17Z",
-    "stargazers_count": 45458,
+    "stargazers_count": 45457,
     "topics": [
       "easy",
       "expectation",
@@ -1363,7 +1363,7 @@
       "snapshot",
       "testing"
     ],
-    "updated_at": "2026-06-24T21:48:29Z"
+    "updated_at": "2026-06-26T09:57:20Z"
   },
   "repo_links": [
     {

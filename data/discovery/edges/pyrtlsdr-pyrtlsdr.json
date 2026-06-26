@@ -32,7 +32,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dist-test.yml",
       "source_repo": "pyrtlsdr/pyrtlsdr",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -74,10 +74,10 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "pyrtlsdr/pyrtlsdr",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-06-25T13:00:34.017104+00:00",
+  "generated_at": "2026-06-26T12:57:23.248127+00:00",
   "source_repo": "pyrtlsdr/pyrtlsdr"
 }

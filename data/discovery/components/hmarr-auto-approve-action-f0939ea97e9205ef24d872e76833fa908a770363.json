@@ -1,7 +1,7 @@
 {
   "component": "hmarr/auto-approve-action@f0939ea97e9205ef24d872e76833fa908a770363",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-approve-run.yml",
       "source_repo": "yomidevs/yomitan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/approver.yml",
+      "source_repo": "ansys/pymapdl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-auto-approve.yml",
+      "source_repo": "bjlittle/geovista"
     }
   ]
 }

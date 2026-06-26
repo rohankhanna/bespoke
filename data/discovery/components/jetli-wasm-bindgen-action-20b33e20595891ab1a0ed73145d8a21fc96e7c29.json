@@ -1,7 +1,7 @@
 {
   "component": "jetli/wasm-bindgen-action@20b33e20595891ab1a0ed73145d8a21fc96e7c29",
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

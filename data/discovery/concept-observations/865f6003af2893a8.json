@@ -84,7 +84,7 @@
   "normalized_form": "kubernetes",
   "observation_id": "865f6003af2893a8",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
   "observed_text": "kubernetes",
   "source_context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/3260/badge)](https://www.bestpractices.dev/projects/3260) ![CI](https://github.com/crossplane/crossplane/workflows/CI/badge.svg) [![Go Report Card](https://goreportcard.com/badge/github.com/crossplane/crossplane)]\u2026",
   "source_file": null,

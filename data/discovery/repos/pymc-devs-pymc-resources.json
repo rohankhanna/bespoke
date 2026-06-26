@@ -81,7 +81,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T01:02:31.765722+00:00",
+  "fetched_at": "2026-06-26T13:27:32.998693+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -106,14 +106,14 @@
     "html_url": "https://github.com/pymc-devs/pymc-resources",
     "language": "Jupyter Notebook",
     "pushed_at": "2024-12-23T21:26:01Z",
-    "stargazers_count": 2096,
+    "stargazers_count": 2097,
     "topics": [
       "bayesian-inference",
       "bayesian-statistics",
       "data-analysis",
       "data-science"
     ],
-    "updated_at": "2026-06-16T08:36:59Z"
+    "updated_at": "2026-06-26T02:47:51Z"
   },
   "repo_links": [
     {

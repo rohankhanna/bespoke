@@ -84,7 +84,7 @@
   "normalized_form": "upload-to-pypi",
   "observation_id": "7be85104f6a81c19",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-06-26T12:57:23.248127+00:00",
   "observed_text": "Upload to PyPI",
   "source_context_snippet": "Upload to PyPI",
   "source_file": ".github/workflows/upload-to-pypi.yml",

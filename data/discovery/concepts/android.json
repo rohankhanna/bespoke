@@ -2344,6 +2344,18 @@
       "source_repo": "mono/SkiaSharp",
       "status": "candidate-context",
       "text": "[![SkiaSharp](https://img.shields.io/nuget/vpre/SkiaSharp.svg?cacheSeconds=3600&label=SkiaSharp%20nuget)](https://www.nuget.org/packages/SkiaSharp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate-context",
+      "text": "Efficient glTF 3D import / export package for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate-context",
+      "text": "[![openupm](https://img.shields.io/npm/v/com.atteneder.gltfast?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.atteneder.gltfast/)"
     }
   ],
   "candidate_glosses": [
@@ -3534,6 +3546,12 @@
       "source_repo": "mono/SkiaSharp",
       "status": "candidate",
       "text": "[![SkiaSharp](https://img.shields.io/nuget/vpre/SkiaSharp.svg?cacheSeconds=3600&label=SkiaSharp%20nuget)](https://www.nuget.org/packages/SkiaSharp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atteneder/glTFast",
+      "status": "candidate",
+      "text": "[![openupm](https://img.shields.io/npm/v/com.atteneder.gltfast?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.atteneder.gltfast/)"
     }
   ],
   "candidate_related_terms": [
@@ -7756,11 +7774,29 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": ".github/workflows/android-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "atteneder/glTFast"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

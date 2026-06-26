@@ -1,0 +1,261 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-and-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.23.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-and-test.yml",
+      "source_repo": "mworchel/xatlas-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-and-test.yml",
+      "source_repo": "mworchel/xatlas-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install-and-test.yml",
+      "source_repo": "mworchel/xatlas-python",
+      "target": "Install and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "mworchel/xatlas-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "mworchel/xatlas-python",
+      "target": "pypa/cibuildwheel@v2.23.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "mworchel/xatlas-python",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "mworchel/xatlas-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "mworchel/xatlas-python",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "mworchel/xatlas-python",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "mworchel/xatlas-python",
+      "target": "Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mworchel/xatlas-python",
+      "target": "atlas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mworchel/xatlas-python",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mworchel/xatlas-python",
+      "target": "parametrization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mworchel/xatlas-python",
+      "target": "texture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mworchel/xatlas-python",
+      "target": "unwrapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mworchel/xatlas-python",
+      "target": "xatlas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:09.713643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3507
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1474
+    },
+    {
+      "path": ".github/workflows/install-and-test.yml",
+      "size": 688
+    },
+    {
+      "path": ".github/workflows/wheels.yml",
+      "size": 1708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python bindings for xatlas",
+    "fork": false,
+    "full_name": "mworchel/xatlas-python",
+    "html_url": "https://github.com/mworchel/xatlas-python",
+    "language": "C++",
+    "pushed_at": "2025-07-04T16:26:13Z",
+    "stargazers_count": 209,
+    "topics": [
+      "atlas",
+      "mesh",
+      "parametrization",
+      "python",
+      "texture",
+      "unwrapping",
+      "uv",
+      "xatlas"
+    ],
+    "updated_at": "2026-06-22T12:15:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Install and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install-and-test.yml",
+      "term": "Install and Test"
+    },
+    {
+      "context_snippet": "Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "term": "Wheels"
+    },
+    {
+      "context_snippet": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atlas"
+    },
+    {
+      "context_snippet": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    },
+    {
+      "context_snippet": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parametrization"
+    },
+    {
+      "context_snippet": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture"
+    },
+    {
+      "context_snippet": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unwrapping"
+    },
+    {
+      "context_snippet": "(Unofficial) Python bindings for [xatlas](https://github.com/jpcy/xatlas), a library that generates texture coordinates for triangle meshes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xatlas"
+    }
+  ]
+}

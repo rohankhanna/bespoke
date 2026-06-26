@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HY-WorldPlay",
+      "target": "hunyuan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HY-WorldPlay",
+      "target": "hunyuan-world",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HY-WorldPlay",
+      "target": "hunyuan3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HY-WorldPlay",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HY-WorldPlay",
+      "target": "world-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HY-WorldPlay",
+      "target": "world-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:25.258409+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20978
+    },
+    {
+      "path": "requirements.txt",
+      "size": 447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HY-World 1.5: A Systematic Framework for Interactive World Modeling with Real-Time Latency and Geometric Consistency",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HY-WorldPlay",
+    "html_url": "https://github.com/Tencent-Hunyuan/HY-WorldPlay",
+    "language": "Python",
+    "pushed_at": "2026-06-10T07:10:23Z",
+    "stargazers_count": 1532,
+    "topics": [
+      "3d",
+      "hunyuan",
+      "hunyuan-world",
+      "hunyuan3d",
+      "image-to-3d",
+      "world-model",
+      "world-models"
+    ],
+    "updated_at": "2026-06-26T03:46:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan-world"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan3d"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-models"
+    }
+  ]
+}

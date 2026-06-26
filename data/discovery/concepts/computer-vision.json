@@ -3421,6 +3421,30 @@
       "source_repo": "BachiLi/redner",
       "status": "candidate-context",
       "text": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haoyi-duan/WorldScore",
+      "status": "candidate-context",
+      "text": "Official implementation for WorldScore: A Unified Evaluation Benchmark for World Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haoyi-duan/WorldScore",
+      "status": "candidate-context",
+      "text": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 10px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baegwangbin/DSINE",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Oral] Rethinking Inductive Biases for Surface Normal Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baegwangbin/DSINE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -5133,6 +5157,18 @@
       "source_repo": "BachiLi/redner",
       "status": "candidate",
       "text": "![](https://people.csail.mit.edu/tzumao/diffrt/teaser.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haoyi-duan/WorldScore",
+      "status": "candidate",
+      "text": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 10px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baegwangbin/DSINE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -16522,11 +16558,71 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "haoyi-duan/WorldScore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "baegwangbin/DSINE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

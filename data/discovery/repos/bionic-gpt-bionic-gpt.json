@@ -205,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-25T13:49:13.060237+00:00",
+  "fetched_at": "2026-06-26T13:12:23.024094+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -250,7 +250,7 @@
     "html_url": "https://github.com/bionic-gpt/bionic-gpt",
     "language": "Rust",
     "pushed_at": "2026-06-20T10:02:30Z",
-    "stargazers_count": 2333,
+    "stargazers_count": 2334,
     "topics": [
       "architecture",
       "full-stack",
@@ -258,7 +258,7 @@
       "llms",
       "rust"
     ],
-    "updated_at": "2026-06-18T16:14:09Z"
+    "updated_at": "2026-06-26T09:21:03Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "alex-shpak/hugo-book-starter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "alex-shpak/hugo-book-starter",
+      "target": "peaceiris/actions-hugo@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "alex-shpak/hugo-book-starter",
+      "target": "Build with Hugo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:15:14.738038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 643
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Hugo starter to write documentation sites with Hugo-Book theme.",
+    "fork": false,
+    "full_name": "alex-shpak/hugo-book-starter",
+    "html_url": "https://github.com/alex-shpak/hugo-book-starter",
+    "language": "SCSS",
+    "pushed_at": "2026-05-22T20:39:12Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-22T20:39:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build with Hugo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build with Hugo"
+    }
+  ]
+}

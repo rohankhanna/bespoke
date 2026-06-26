@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HY-World-2.0",
+      "target": "fuchengsu/worldstereo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HY-World-2.0",
+      "target": "tencent-hunyuan/hy-worldplay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HY-World-2.0",
+      "target": "tencent-hunyuan/hunyuanimage-3.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HY-World-2.0",
+      "target": "worldmodel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:24.297858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22902
+    },
+    {
+      "path": "requirements.txt",
+      "size": 656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HY-World-2.0",
+    "html_url": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+    "language": "Python",
+    "pushed_at": "2026-05-27T07:25:04Z",
+    "stargazers_count": 2286,
+    "topics": [
+      "3d",
+      "ai",
+      "worldmodel"
+    ],
+    "updated_at": "2026-06-26T08:49:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fuchengsu/worldstereo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hunyuanimage-3.0",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hy-worldplay",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1>HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "worldmodel"
+    }
+  ]
+}

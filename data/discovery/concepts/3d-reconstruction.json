@@ -589,6 +589,30 @@
       "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
       "status": "candidate-context",
       "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baegwangbin/DSINE",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Oral] Rethinking Inductive Biases for Surface Normal Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baegwangbin/DSINE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HengyiWang/spann3r",
+      "status": "candidate-context",
+      "text": "[3DV'25 Award Candidate] 3D Reconstruction with Spatial Memory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HengyiWang/spann3r",
+      "status": "candidate-context",
+      "text": "> 3D Reconstruction with Spatial Memory <br />"
     }
   ],
   "candidate_glosses": [
@@ -885,6 +909,18 @@
       "source_repo": "Tencent-Hunyuan/HunyuanWorld-Mirror",
       "status": "candidate",
       "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baegwangbin/DSINE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HengyiWang/spann3r",
+      "status": "candidate",
+      "text": "> 3D Reconstruction with Spatial Memory <br />"
     }
   ],
   "candidate_related_terms": [],
@@ -1648,11 +1684,23 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "baegwangbin/DSINE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-26T12:57:23.248127+00:00",
+      "source_file": null,
+      "source_repo": "HengyiWang/spann3r"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "lexical_providers": [
     "datamuse"
   ],

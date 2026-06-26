@@ -5,32 +5,32 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/FlashVDM",
-      "target": "clay-3d/openclay",
+      "target": "tencent/hunyuan3d-2",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/FlashVDM",
-      "target": "seed3d/dora",
+      "target": "tencent-hunyuan/hunyuan3d-omni",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/FlashVDM",
-      "target": "stepfun-ai/step1x-3d",
+      "target": "vast-ai-research/holopart",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/FlashVDM",
-      "target": "nvlabs/partpacker",
+      "target": "vast-ai-research/detailgen3d",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-06-26T00:57:55.630167+00:00",
+  "fetched_at": "2026-06-26T13:22:04.739847+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,22 +54,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "clay-3d/openclay",
+      "full_name": "tencent-hunyuan/hunyuan3d-omni",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nvlabs/partpacker",
+      "full_name": "tencent/hunyuan3d-2",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "seed3d/dora",
+      "full_name": "vast-ai-research/detailgen3d",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "stepfun-ai/step1x-3d",
+      "full_name": "vast-ai-research/holopart",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/DSINE",
+      "target": "3d-from-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/DSINE",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/DSINE",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/DSINE",
+      "target": "cvpr2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/DSINE",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/DSINE",
+      "target": "surface-normal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/DSINE",
+      "target": "surface-normals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/DSINE",
+      "target": "surface-normals-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-26T13:22:17.514017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024 Oral] Rethinking Inductive Biases for Surface Normal Estimation",
+    "fork": false,
+    "full_name": "baegwangbin/DSINE",
+    "html_url": "https://github.com/baegwangbin/DSINE",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-07-10T12:49:09Z",
+    "stargazers_count": 916,
+    "topics": [
+      "3d-from-images",
+      "3d-reconstruction",
+      "computer-vision",
+      "cvpr2024",
+      "deep-learning",
+      "surface-normal",
+      "surface-normals",
+      "surface-normals-estimation"
+    ],
+    "updated_at": "2026-06-26T09:10:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-from-images"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2024"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface-normal"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface-normals"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface-normals-estimation"
+    }
+  ]
+}
