@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 360
-- terms: 554
+- repos: 364
+- terms: 557
 - components: 1201
-- concepts: 547
-- observations: 547
+- concepts: 550
+- observations: 550
 
 ## Static behavior
 
@@ -75,6 +75,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ldclabs/anda-app](https://github.com/ldclabs/anda-app) | 6 | 2025-10-05T03:11:27Z | Other | CLI | 2 | 51 | 2 | 2 |
 | [cdeust/ai-prd-builder](https://github.com/cdeust/ai-prd-builder) | 2 | 2025-10-04T11:17:25Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [git-friendly/homebrew-git-friendly](https://github.com/git-friendly/homebrew-git-friendly) | 3 | 2025-10-02T12:50:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [klabhub/EFMouse](https://github.com/klabhub/EFMouse) | 3 | 2025-09-30T17:07:04Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [clojure/clr.tools.deps](https://github.com/clojure/clr.tools.deps) | 1 | 2025-09-30T01:09:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ronghanghu/cc_torch](https://github.com/ronghanghu/cc_torch) | 5 | 2025-09-29T21:38:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [LucasGinard/AireLibre-Android](https://github.com/LucasGinard/AireLibre-Android) | 9 | 2025-09-14T22:18:33Z | Other | Infrastructure/tooling | 9 | 7 | 9 | 9 |
@@ -92,6 +93,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [meelgroup/frat-xor](https://github.com/meelgroup/frat-xor) | 1 | 2025-08-13T18:51:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Overv/daux.io](https://github.com/Overv/daux.io) | 5 | 2025-08-02T10:15:03Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Azure-Samples/openai-chat-frontend-vanillajs](https://github.com/Azure-Samples/openai-chat-frontend-vanillajs) | 8 | 2025-08-01T18:53:47Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [aitap/cmocean](https://github.com/aitap/cmocean) | 6 | 2025-07-27T21:04:10Z | Other | Library | 0 | 0 | 0 | 0 |
 | [CrackAndDie/Hypocrite.Services](https://github.com/CrackAndDie/Hypocrite.Services) | 7 | 2025-07-17T11:55:04Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [PragTob/elixir_playground](https://github.com/PragTob/elixir_playground) | 2 | 2025-07-17T06:48:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [haskell/ghcup-docker](https://github.com/haskell/ghcup-docker) | 2 | 2025-07-15T10:58:18Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -231,6 +233,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CVEProject/quality-workgroup](https://github.com/CVEProject/quality-workgroup) | 9 | 2024-02-01T23:11:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kodyfanz/ethereum_yellowpaper_vn](https://github.com/kodyfanz/ethereum_yellowpaper_vn) | 4 | 2024-01-31T09:23:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [apache/netbeans-mavenutils-archetypes](https://github.com/apache/netbeans-mavenutils-archetypes) | 1 | 2024-01-29T04:37:15Z | Other | Unknown | 1 | 0 | 1 | 1 |
+| [ABRG-Models/Stalefish](https://github.com/ABRG-Models/Stalefish) | 7 | 2024-01-23T15:19:04Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [quil/sketchbook-template](https://github.com/quil/sketchbook-template) | 1 | 2024-01-22T04:50:47Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [travis-ci/travis-packer-build](https://github.com/travis-ci/travis-packer-build) | 3 | 2024-01-02T14:48:05Z | Other | Library | 0 | 0 | 0 | 0 |
 | [afulgens/base16-consolez](https://github.com/AFulgens/base16-consolez) | 3 | 2024-01-02T12:40:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -385,6 +388,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kahgeh/ls-crates.nvim](https://github.com/kahgeh/ls-crates.nvim) | 2 | 2021-07-31T13:44:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [BepInEx/BepInEx.MDML.Loader](https://github.com/BepInEx/BepInEx.MDML.Loader) | 5 | 2021-07-26T11:58:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JolifantoBambla/shadercl](https://github.com/JolifantoBambla/shadercl) | 7 | 2021-07-21T08:29:11Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
+| [neurolabusc/python27-for-lazarus](https://github.com/neurolabusc/Python27-for-Lazarus) | 2 | 2021-07-17T12:45:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kristijanhusak/completion-tags](https://github.com/kristijanhusak/completion-tags) | 6 | 2021-06-28T17:15:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
@@ -462,6 +466,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xuebinqin/xuebinqin.github.io](https://github.com/xuebinqin/xuebinqin.github.io) | 7 | 2024-04-28T15:55:46Z | Other | Unknown | 0 | 11 | 0 | 0 |
 | [AndyTheFactory/article-extraction-dataset](https://github.com/AndyTheFactory/article-extraction-dataset) | 7 | 2024-03-26T21:59:02Z | Other | Model/data | 18 | 0 | 19 | 19 |
 | [JuliaReducePkg/ReduceLinAlg.jl](https://github.com/JuliaReducePkg/ReduceLinAlg.jl) | 7 | 2024-02-16T10:39:22Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [ABRG-Models/Stalefish](https://github.com/ABRG-Models/Stalefish) | 7 | 2024-01-23T15:19:04Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [darcythomas/zxcvbn.net](https://github.com/darcythomas/zxcvbn.net) | 7 | 2023-08-08T01:06:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [milly/runtray-ps](https://github.com/Milly/runtray-ps) | 7 | 2023-07-19T14:39:24Z | Other | CLI | 3 | 2 | 3 | 3 |
 | [JuliaStrings/LibTeXPrintf.jl](https://github.com/JuliaStrings/LibTeXPrintf.jl) | 7 | 2023-06-08T05:24:40Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
@@ -488,6 +493,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aeulker/Claude-Code-Cheat-Sheet](https://github.com/aeulker/Claude-Code-Cheat-Sheet) | 6 | 2025-10-05T18:58:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ldclabs/anda-app](https://github.com/ldclabs/anda-app) | 6 | 2025-10-05T03:11:27Z | Other | CLI | 2 | 51 | 2 | 2 |
 | [appbaseio/flutter-searchbox](https://github.com/appbaseio/flutter-searchbox) | 6 | 2025-08-27T06:07:48Z | Other | Library | 7 | 0 | 7 | 7 |
+| [aitap/cmocean](https://github.com/aitap/cmocean) | 6 | 2025-07-27T21:04:10Z | Other | Library | 0 | 0 | 0 | 0 |
 | [4e554c4c/base16-halloy](https://github.com/4e554c4c/base16-halloy) | 6 | 2025-06-21T12:42:21Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [chhackett/vty-windows](https://github.com/chhackett/vty-windows) | 6 | 2025-06-01T13:27:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [viperjuice/flutter-structurizr](https://github.com/ViperJuice/Flutter-Structurizr) | 6 | 2025-05-22T23:41:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -614,6 +620,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jverzani/SymPyCore.jl](https://github.com/jverzani/SymPyCore.jl) | 3 | 2025-11-03T18:22:57Z | Other | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [gadjalin/glf90w](https://github.com/gadjalin/glf90w) | 3 | 2025-10-09T13:59:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [git-friendly/homebrew-git-friendly](https://github.com/git-friendly/homebrew-git-friendly) | 3 | 2025-10-02T12:50:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [klabhub/EFMouse](https://github.com/klabhub/EFMouse) | 3 | 2025-09-30T17:07:04Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [aarondl/authboss-renderer](https://github.com/aarondl/authboss-renderer) | 3 | 2025-06-26T06:09:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rexthinker/rexthinker.github.io](https://github.com/rexthinker/rexthinker.github.io) | 3 | 2025-06-05T07:39:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs-shipyard/ansible-ipfs](https://github.com/ipfs-shipyard/ansible-ipfs) | 3 | 2025-05-01T08:39:26Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -698,6 +705,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [3ddelano/discord_gd_examples](https://github.com/3ddelano/discord_gd_examples) | 2 | 2021-11-08T05:34:47Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [hchiam/learning-alpine](https://github.com/hchiam/learning-alpine) | 2 | 2021-09-19T22:21:48Z | Other | Unknown | 0 | 5 | 0 | 0 |
 | [kahgeh/ls-crates.nvim](https://github.com/kahgeh/ls-crates.nvim) | 2 | 2021-07-31T13:44:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [neurolabusc/python27-for-lazarus](https://github.com/neurolabusc/Python27-for-Lazarus) | 2 | 2021-07-17T12:45:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaAI/LearnDataFrontEnds.jl](https://github.com/JuliaAI/LearnDataFrontEnds.jl) | 1 | 2025-12-20T18:29:50Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [saddam213/OnnxStack](https://github.com/saddam213/OnnxStack) | 1 | 2025-12-09T20:35:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [slunsford/coffee-analytics](https://github.com/slunsford/coffee-analytics) | 1 | 2025-11-27T01:50:12Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |

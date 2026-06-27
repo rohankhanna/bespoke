@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 852,
-    "concepts": 115,
-    "observations": 115,
-    "repos": 38,
-    "terms": 124
+    "components": 867,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 40,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
@@ -30,6 +30,8 @@
     "dylibso/xtp-cpp-bindgen",
     "ember-cli/ember-addon-blueprint",
     "enxs969/skiller",
+    "haskell-actions/hlint-run",
+    "haskell-actions/hlint-setup",
     "hchiam/how-draggable",
     "ipfs/helia-remote-pinning",
     "kimosahy/railroaded",

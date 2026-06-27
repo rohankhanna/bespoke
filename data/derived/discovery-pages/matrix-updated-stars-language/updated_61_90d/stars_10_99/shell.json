@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 214,
-    "observations": 217,
-    "repos": 46,
-    "terms": 212
+    "components": 206,
+    "concepts": 218,
+    "observations": 221,
+    "repos": 48,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -36,7 +36,6 @@
     "coin-or-tools/ThirdParty-Mumps",
     "conda-forge/pinocchio-feedstock",
     "conda-forge/poppler-feedstock",
-    "conda-forge/spacy-feedstock",
     "confluentinc/cp-demo",
     "containers/automation",
     "containers/automation_images",
@@ -44,16 +43,19 @@
     "cri-o/packaging",
     "dependabot/smoke-tests",
     "Digidai/product-manager-skills",
+    "dotenvx/dotenvx.sh",
     "envoyproxy/examples",
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "GoogleCloudPlatform/blueprints",
+    "helidon-io/helidon-examples",
     "iterate-ch/profiles",
     "milvus-io/milvus-proto",
     "NixOS/org",
     "nodenv/nodenv-package-rehash",
     "oceanbase/docker-images",
     "oneclick/rubyinstaller2-packages",
+    "pkgxdev/mash",
     "postmodern/ruby-versions",
     "reviewdog/action-black",
     "reviewdog/action-hadolint",

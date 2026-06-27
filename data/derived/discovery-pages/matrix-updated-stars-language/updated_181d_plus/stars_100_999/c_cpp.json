@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 755,
-    "concepts": 1325,
-    "observations": 1328,
-    "repos": 403,
-    "terms": 1304
+    "components": 775,
+    "concepts": 1359,
+    "observations": 1362,
+    "repos": 407,
+    "terms": 1339
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -21,6 +21,7 @@
     "abellgithub/delaunator-cpp",
     "Ableton/push2-display-with-juce",
     "abolz/Drachennest",
+    "ABRG-Models/morphologica",
     "adafruit/Adafruit_ADXL345",
     "adafruit/Adafruit_BME280_Library",
     "adafruit/Adafruit_BNO055",
@@ -224,6 +225,7 @@
     "kafeiyin00/WHU-HelmetDataset",
     "karimnaaji/voxelizer",
     "kaylorchen/rk3588-yolo-demo",
+    "KCL-BMEIS/niftyreg",
     "keenan-burnett/yeti_radar_odometry",
     "kendryte/k230_canmv",
     "kendryte/k230_sdk",
@@ -296,6 +298,7 @@
     "mmwillet/TTS.cpp",
     "MorganRO8/Lucys_Labyrinth",
     "MPEGGroup/mpeg-pcc-tmc13",
+    "mworchel/xatlas-python",
     "neovim/libvterm",
     "Netgear/wsdd2",
     "nfrechette/acl-ue4-plugin",
@@ -358,6 +361,7 @@
     "s3team/Squirrel",
     "sadaszewski/concaveman-cpp",
     "samylee/Towards-Realtime-MOT-Cpp",
+    "scepter914/DepthAnything-ROS",
     "serde-rs/json-benchmark",
     "sergei-mironov/xkb-switch",
     "shadowsocks/badvpn",

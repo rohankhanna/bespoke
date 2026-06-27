@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 29,
-    "observations": 29,
+    "components": 97,
+    "concepts": 32,
+    "observations": 32,
     "repos": 5,
-    "terms": 29
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "avocadowastaken/prettier-plugin-prisma",
-    "aws-cloudformation/cfn-lint-visual-studio-code",
     "browserslist/caniuse-lite",
+    "digitalocean/openapi",
     "GDevelopApp/GDevelop-extensions",
     "w3c/trusted-types"
   ]

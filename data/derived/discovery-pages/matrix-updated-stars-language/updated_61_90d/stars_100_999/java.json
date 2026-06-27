@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 288,
-    "observations": 288,
-    "repos": 41,
-    "terms": 288
+    "components": 255,
+    "concepts": 312,
+    "observations": 312,
+    "repos": 44,
+    "terms": 312
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
+    "allegro/hermes",
     "apache/camel-examples",
     "apache/commons-jexl",
     "apache/datasketches-java",
@@ -44,10 +45,12 @@
     "microsoft/Generative-AI-for-beginners-java",
     "microsoft/java-debug",
     "microsoft/semantic-kernel-java",
+    "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "objectbox/objectbox-examples",
+    "revelc/formatter-maven-plugin",
     "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",
     "spring-ai-alibaba/Lynxe",

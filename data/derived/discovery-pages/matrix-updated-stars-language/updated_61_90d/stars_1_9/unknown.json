@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 66,
-    "terms": 85
+    "components": 47,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 70,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -25,8 +25,10 @@
     "AlmaLinux/osv-database",
     "bell-sw/osv-database",
     "cachix/iocraft",
+    "calda/SwiftFormat-nightly",
     "canonical/ubuntu-desktop-provision-screenshots",
     "conda-forge/captum-feedstock",
+    "conda-forge/geovista-feedstock",
     "conda-forge/python-zlib-ng-feedstock",
     "conda-forge/scikit-optimize-feedstock",
     "conda-forge/ultralytics-feedstock",
@@ -52,9 +54,11 @@
     "danielrosehill/MCP-Projects-Index",
     "danielrosehill/Open-Claw-Stack",
     "danielrosehill/Prompt-Libraries-Index",
+    "danielrosehill/Resources-Lists-Index",
     "danielrosehill/Subindices",
     "danielrosehill/Useful-AI-Agent-Skills",
     "datachainlab/yui-relayer-build",
+    "dmBots/DM-J4310-2EC",
     "dpc/crev-proofs",
     "eddelbuettel/r2u-config",
     "eslint/.github",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 4,
-    "terms": 11
+    "components": 34,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 3,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "alloy-rs/evm",
-    "andfoy/winpty-rs",
     "lablup/mlxcel",
     "vaporif/parry-guard"
   ]

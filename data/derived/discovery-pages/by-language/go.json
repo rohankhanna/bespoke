@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10425,
-    "concepts": 10196,
-    "observations": 10228,
-    "repos": 1735,
-    "terms": 10146
+    "components": 10434,
+    "concepts": 10200,
+    "observations": 10232,
+    "repos": 1736,
+    "terms": 10150
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -1489,6 +1489,7 @@
     "restic/restic",
     "retracedhq/retraced-go",
     "reviewdog/reviewdog",
+    "reza-gholizade/k8s-mcp-server",
     "rhysd/actionlint",
     "richiejp/VoxInput",
     "riyaz-ali/sqlite",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3868,
-    "concepts": 818,
-    "observations": 820,
-    "repos": 112,
-    "terms": 812
+    "components": 3801,
+    "concepts": 785,
+    "observations": 787,
+    "repos": 107,
+    "terms": 779
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -26,7 +26,6 @@
     "apify/mcpc",
     "apollographql/federation",
     "appium/appium-xcuitest-driver",
-    "appwrite/sdk-for-web",
     "astahmer/typed-openapi",
     "bitwarden/directory-connector",
     "Brendonovich/MacroGraph",
@@ -50,7 +49,6 @@
     "fluent-vue/fluent-vue",
     "folke/esbuild-runner",
     "foundry-rs/foundry-toolchain",
-    "fsouza/prettierd",
     "ftonato/nope-validator",
     "fullcalendar/temporal-polyfill",
     "glassflow/clickhouse-etl",
@@ -72,7 +70,6 @@
     "lambdalisue/vim-gin",
     "LemmyNet/lemmy-js-client",
     "LuaLS/vscode-lua",
-    "luciopaiva/heapify",
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
@@ -82,7 +79,6 @@
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mswjs/interceptors",
-    "nene/prettier-plugin-sql-cst",
     "nene/sql-parser-cst",
     "Nerivec/zigbee2mqtt-windfront",
     "nonara/ts-patch",
@@ -94,7 +90,6 @@
     "octokit/auth-app.js",
     "octokit/graphql.js",
     "ory/docs",
-    "oxc-project/eslint-plugin-oxlint",
     "P4sca1/cron-schedule",
     "privatenumber/get-tsconfig",
     "radashi-org/radashi",

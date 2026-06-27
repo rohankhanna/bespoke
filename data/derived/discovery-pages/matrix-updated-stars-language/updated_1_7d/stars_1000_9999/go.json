@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 3,
-    "terms": 10
+    "components": 28,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 4,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "bazel-contrib/rules_go",
+    "crc-org/crc",
     "googleapis/google-api-go-client",
     "vale-cli/vale"
   ]

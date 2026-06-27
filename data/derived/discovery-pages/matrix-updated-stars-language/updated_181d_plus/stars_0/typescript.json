@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 341,
+    "components": 353,
     "concepts": 51,
     "observations": 51,
-    "repos": 19,
+    "repos": 20,
     "terms": 51
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "alexgorbatchev/typescript-transform-react-jsx-source",
     "cryptonomic/conseiljs-ledgersigner",
     "danielrosehill/Github-Gist-MCP-Minimal",
+    "erosmontin/OpenMedView",
     "featherbread/hypcast-v1",
     "flageval-baai/LRM-Eval",
     "forcedotcom/change-case-management",

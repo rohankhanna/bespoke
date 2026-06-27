@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 2,
-    "observations": 2,
+    "components": 10,
+    "concepts": 0,
+    "observations": 0,
     "repos": 1,
-    "terms": 2
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
-    "storybook-community/addon-queryparams"
+    "4catalyzer/javascript"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 620,
-    "concepts": 1032,
-    "observations": 1033,
-    "repos": 262,
-    "terms": 1023
+    "components": 629,
+    "concepts": 1073,
+    "observations": 1074,
+    "repos": 267,
+    "terms": 1064
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0k/shyaml",
     "absadiki/pywhispercpp",
@@ -83,6 +83,8 @@
     "dask/fastparquet",
     "dbeley/awesome-lemmy",
     "deepbeepmeep/mmgp",
+    "devnen/Dia-TTS-Server",
+    "devnen/Kitten-TTS-Server",
     "djcopley/ShellOracle",
     "dongjae0107/ELite",
     "drivendataorg/zamba",
@@ -99,8 +101,10 @@
     "GANWANSHUI/GaussianOcc",
     "gatecat/prjoxide",
     "Gen-Verse/Open-AgentRL",
+    "GerdsenAI/GerdsenAI-Depth-Anything-3-ROS2-Wrapper",
     "GewelsJI/VPS",
     "GFW-knocker/gfw_resist_tcp_proxy",
+    "ggsegverse/python-ggseg",
     "githubharald/CTCDecoder",
     "gmberton/CosPlace",
     "gmberton/deep-visual-geo-localization-benchmark",
@@ -124,7 +128,6 @@
     "huawei-noah/noah-research",
     "huggingface/flux-fast",
     "hukkin/mdformat",
-    "hustvl/DiffusionDriveV2",
     "hustvl/Senna",
     "ielab/llm-rankers",
     "imlixinyang/FlashWorld",
@@ -177,6 +180,7 @@
     "naver/multi-hmr",
     "neavo/KeywordGacha",
     "NeuralVox/OpenPhonemizer",
+    "nianticlabs/map-free-reloc",
     "nicklashansen/dreamer4",
     "nicklashansen/newt",
     "nii-yamagishilab/project-NN-Pytorch-scripts",
@@ -267,6 +271,7 @@
     "xArm-Developer/xArm-Python-SDK",
     "xavierpuigf/virtualhome",
     "Xiaobin-Rong/gtcrn",
+    "xyfJASON/ctrlora",
     "yanring/Megatron-MoE-ModelZoo",
     "yaroslavyaroslav/OpenAI-sublime-text",
     "yashsinghcodes/wik",

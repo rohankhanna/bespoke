@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 26
-- components: 76
-- concepts: 26
-- observations: 26
+- repos: 5
+- terms: 37
+- components: 109
+- concepts: 37
+- observations: 37
 
 ## Static behavior
 
@@ -26,7 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [watchexec/watchexec](https://github.com/watchexec/watchexec) | 7030 | 2026-06-19T02:40:09Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [safetensors/safetensors](https://github.com/safetensors/safetensors) | 3790 | 2026-06-19T23:41:12Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
+| [geiger-rs/cargo-geiger](https://github.com/geiger-rs/cargo-geiger) | 1625 | 2026-06-19T09:32:15Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [watchexec/watchexec](https://github.com/watchexec/watchexec) | 7032 | 2026-06-19T02:40:09Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [intentee/paddler](https://github.com/intentee/paddler) | 1607 | 2026-06-16T14:38:34Z | Rust | Infrastructure/tooling | 7 | 45 | 7 | 7 |
 | [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-06-15T15:27:14Z | Rust | Infrastructure/tooling | 9 | 23 | 9 | 9 |
 
@@ -34,6 +36,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [watchexec/watchexec](https://github.com/watchexec/watchexec) | 7030 | 2026-06-19T02:40:09Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [watchexec/watchexec](https://github.com/watchexec/watchexec) | 7032 | 2026-06-19T02:40:09Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [safetensors/safetensors](https://github.com/safetensors/safetensors) | 3790 | 2026-06-19T23:41:12Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
+| [geiger-rs/cargo-geiger](https://github.com/geiger-rs/cargo-geiger) | 1625 | 2026-06-19T09:32:15Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [intentee/paddler](https://github.com/intentee/paddler) | 1607 | 2026-06-16T14:38:34Z | Rust | Infrastructure/tooling | 7 | 45 | 7 | 7 |
 | [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-06-15T15:27:14Z | Rust | Infrastructure/tooling | 9 | 23 | 9 | 9 |

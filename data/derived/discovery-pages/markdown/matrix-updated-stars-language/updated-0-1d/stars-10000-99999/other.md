@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 27
-- components: 59
-- concepts: 27
-- observations: 27
+- repos: 4
+- terms: 41
+- components: 78
+- concepts: 41
+- observations: 41
 
 ## Static behavior
 
@@ -26,14 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/swift](https://github.com/swiftlang/swift) | 70117 | 2026-06-26T00:21:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32746 | 2026-06-25T19:24:43Z | Other | Infrastructure/tooling | 19 | 50 | 19 | 19 |
-| [triton-lang/triton](https://github.com/triton-lang/triton) | 19520 | 2026-06-25T12:09:06Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [upptime/upptime](https://github.com/upptime/upptime) | 17071 | 2026-06-27T04:00:26Z | Other | Infrastructure/tooling | 14 | 19 | 14 | 14 |
+| [swiftlang/swift](https://github.com/swiftlang/swift) | 70107 | 2026-06-27T02:21:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [triton-lang/triton](https://github.com/triton-lang/triton) | 19525 | 2026-06-27T02:13:04Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32760 | 2026-06-26T19:29:42Z | Other | Infrastructure/tooling | 19 | 50 | 19 | 19 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/swift](https://github.com/swiftlang/swift) | 70117 | 2026-06-26T00:21:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32746 | 2026-06-25T19:24:43Z | Other | Infrastructure/tooling | 19 | 50 | 19 | 19 |
-| [triton-lang/triton](https://github.com/triton-lang/triton) | 19520 | 2026-06-25T12:09:06Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [swiftlang/swift](https://github.com/swiftlang/swift) | 70107 | 2026-06-27T02:21:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32760 | 2026-06-26T19:29:42Z | Other | Infrastructure/tooling | 19 | 50 | 19 | 19 |
+| [triton-lang/triton](https://github.com/triton-lang/triton) | 19525 | 2026-06-27T02:13:04Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [upptime/upptime](https://github.com/upptime/upptime) | 17071 | 2026-06-27T04:00:26Z | Other | Infrastructure/tooling | 14 | 19 | 14 | 14 |

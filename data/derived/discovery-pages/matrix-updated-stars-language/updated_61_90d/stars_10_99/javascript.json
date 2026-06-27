@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1332,
-    "concepts": 339,
-    "observations": 339,
-    "repos": 90,
-    "terms": 339
+    "components": 1385,
+    "concepts": 361,
+    "observations": 361,
+    "repos": 93,
+    "terms": 361
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "AdguardTeam/FiltersCompiler",
@@ -54,12 +54,12 @@
     "i18next/i18next-icu",
     "i18next/i18next-multiload-backend-adapter",
     "i18next/i18next-resources-to-backend",
+    "ionide/tree-sitter-fsharp",
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
     "itsrishika/payment-bypass-bug-lab",
     "j9t/obsohtml",
     "jasmine/jasmine-browser-runner",
-    "kellyselden/eslint-plugin-json-files",
     "Level/browser-level",
     "Level/memory-level",
     "locize/i18next-locize-backend",
@@ -87,6 +87,7 @@
     "peergos/web-ui",
     "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
+    "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",
@@ -96,6 +97,7 @@
     "Taritsyn/DartSassHost",
     "tc39/proposal-iterator-includes",
     "tnc-ca-geo/animl-frontend",
+    "tracked-tools/tracked-toolbox",
     "TrigenSoftware/simple-release-action",
     "ultralytics/llm",
     "validator/gulp-html",
@@ -103,6 +105,7 @@
     "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",
     "wemake-services/wemake-frontend-styleguide",
-    "winstonjs/winston-transport"
+    "winstonjs/winston-transport",
+    "wyyazlz/sheetnext"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 138,
     "concepts": 187,
     "observations": 187,
-    "repos": 205,
+    "repos": 206,
     "terms": 185
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -172,6 +172,7 @@
     "rose-pine/.github",
     "s3bk/pdf_fonts",
     "sagiegurari/cargo-make-tasks",
+    "saratheriver/enigma-extra",
     "scicode-bench/submissions",
     "scottemmons/decision-transformer",
     "seebye/urwid-ueberzogen",

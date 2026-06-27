@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 868
-- terms: 2021
-- components: 2182
-- concepts: 2033
-- observations: 2039
+- repos: 872
+- terms: 2023
+- components: 2186
+- concepts: 2035
+- observations: 2041
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gregorias/toggle.nvim](https://github.com/gregorias/toggle.nvim) | 56 | 2025-12-28T09:37:29Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [EvelynZhang-epiclab/DaTo](https://github.com/EvelynZhang-epiclab/DaTo) | 10 | 2025-12-28T04:36:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaGtk/Gtk4Makie.jl](https://github.com/JuliaGtk/Gtk4Makie.jl) | 31 | 2025-12-28T02:27:13Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [nelson-lang/nelson-website](https://github.com/nelson-lang/nelson-website) | 12 | 2025-12-27T16:43:08Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -132,6 +133,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [felixqueisler/Obsidian-FileLink-Styling](https://github.com/felixqueisler/Obsidian-FileLink-Styling) | 28 | 2025-09-26T12:44:54Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [lobehub/lobe-assets](https://github.com/lobehub/lobe-assets) | 28 | 2025-09-25T10:01:12Z | Other | Infrastructure/tooling | 9 | 25 | 9 | 9 |
 | [aspect-build/rules_buildx](https://github.com/aspect-build/rules_buildx) | 17 | 2025-09-25T03:35:41Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [andypotatohy/roast](https://github.com/andypotatohy/roast) | 57 | 2025-09-24T19:56:27Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [HabanaAI/Gaudi-tutorials](https://github.com/HabanaAI/Gaudi-tutorials) | 63 | 2025-09-18T19:23:24Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [DoodleBears/split-lang](https://github.com/DoodleBears/split-lang) | 74 | 2025-09-18T03:16:32Z | Other | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [atwam/money-historical-bank](https://github.com/atwam/money-historical-bank) | 36 | 2025-09-17T18:58:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -284,6 +286,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LintaoAmons/VimEverywhere](https://github.com/LintaoAmons/VimEverywhere) | 58 | 2025-02-23T02:17:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/ai-powered-notes-winui3-sample](https://github.com/microsoft/ai-powered-notes-winui3-sample) | 97 | 2025-02-22T05:28:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [auriml/Rx-thorax-automatic-captioning](https://github.com/auriml/Rx-thorax-automatic-captioning) | 53 | 2025-02-21T15:59:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [BUNPC/AtlasViewer](https://github.com/BUNPC/AtlasViewer) | 46 | 2025-02-21T13:43:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jverzani/SymPyPythonCall.jl](https://github.com/jverzani/SymPyPythonCall.jl) | 12 | 2025-02-19T20:04:01Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [apache/dubbo-erlang](https://github.com/apache/dubbo-erlang) | 49 | 2025-02-19T11:14:15Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [taikinman/langrila](https://github.com/taikinman/langrila) | 66 | 2025-02-19T05:11:59Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -750,6 +753,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cleanunicorn/mockprovider](https://github.com/cleanunicorn/mockprovider) | 62 | 2022-08-04T13:14:29Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [ag1988/dss](https://github.com/ag1988/dss) | 67 | 2022-08-02T07:35:03Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [murmour/mparser](https://github.com/murmour/mparser) | 69 | 2022-08-01T05:34:47Z | Other | Library | 0 | 0 | 0 | 0 |
+| [rordenlab/i2nii](https://github.com/rordenlab/i2nii) | 14 | 2022-07-30T00:24:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ivyl/vim-bling](https://github.com/ivyl/vim-bling) | 48 | 2022-07-27T20:53:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ethpandaops/ethereum-k8s-testnets](https://github.com/ethpandaops/ethereum-k8s-testnets) | 27 | 2022-07-26T14:25:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [n-shift/crates.nvim](https://github.com/n-shift/crates.nvim) | 12 | 2022-07-21T17:34:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1172,10 +1176,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a115/exmatrix](https://github.com/a115/exmatrix) | 58 | 2023-04-09T20:33:23Z | Other | Library | 0 | 0 | 0 | 0 |
 | [bshepherdson/athens-export](https://github.com/bshepherdson/athens-export) | 58 | 2022-11-16T23:31:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [guyuchao/PyramidCSA](https://github.com/guyuchao/PyramidCSA) | 58 | 2021-11-09T11:52:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [andypotatohy/roast](https://github.com/andypotatohy/roast) | 57 | 2025-09-24T19:56:27Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [baidut/paq2piq](https://github.com/baidut/paq2piq) | 57 | 2024-10-25T18:42:58Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [federicotdn/flymake-shellcheck](https://github.com/federicotdn/flymake-shellcheck) | 57 | 2024-06-26T21:22:42Z | Other | Unknown | 3 | 0 | 5 | 5 |
 | [fumiama/MoeGoe-Android](https://github.com/fumiama/MoeGoe-Android) | 57 | 2022-08-20T07:18:31Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [kristijanhusak/vim-dirvish-git](https://github.com/kristijanhusak/vim-dirvish-git) | 57 | 2022-05-21T04:42:46Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [gregorias/toggle.nvim](https://github.com/gregorias/toggle.nvim) | 56 | 2025-12-28T09:37:29Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [probe-lab/network-measurements](https://github.com/probe-lab/network-measurements) | 56 | 2025-12-12T06:36:51Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [globalize/globalize-versioning](https://github.com/globalize/globalize-versioning) | 56 | 2025-07-30T09:26:16Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [amebalabs/SwiftKey](https://github.com/amebalabs/SwiftKey) | 56 | 2025-06-30T21:06:43Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
@@ -1272,6 +1278,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [geez0x1/CompliantJointToolbox](https://github.com/geez0x1/CompliantJointToolbox) | 47 | 2022-04-21T14:14:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Lyceum/MuJoCo.jl](https://github.com/Lyceum/MuJoCo.jl) | 47 | 2021-10-18T17:24:09Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [status-im/nim-toml-serialization](https://github.com/status-im/nim-toml-serialization) | 46 | 2025-11-21T22:59:17Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [BUNPC/AtlasViewer](https://github.com/BUNPC/AtlasViewer) | 46 | 2025-02-21T13:43:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [psibi/dhall-mode](https://github.com/psibi/dhall-mode) | 46 | 2025-01-05T14:18:48Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [cefsharp/CefSharp.Wpf.HwndHost](https://github.com/cefsharp/CefSharp.Wpf.HwndHost) | 46 | 2024-12-23T02:12:29Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [aroemers/sibiro](https://github.com/aroemers/sibiro) | 46 | 2024-05-24T19:40:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1669,6 +1676,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [speshak/vim-cfn](https://github.com/speshak/vim-cfn) | 14 | 2023-12-15T08:34:16Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [terasakisatoshi/MathSeminar.jl](https://github.com/terasakisatoshi/MathSeminar.jl) | 14 | 2023-07-04T11:16:24Z | Other | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [liquidz/iced-nrepl](https://github.com/liquidz/iced-nrepl) | 14 | 2023-05-07T20:20:55Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [rordenlab/i2nii](https://github.com/rordenlab/i2nii) | 14 | 2022-07-30T00:24:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [sayakpaul/BiT-jax2tf](https://github.com/sayakpaul/BiT-jax2tf) | 14 | 2021-12-21T04:26:49Z | Other | Model/data | 3 | 0 | 3 | 3 |
 | [PingoLH/CatConv2d](https://github.com/PingoLH/CatConv2d) | 14 | 2021-08-17T02:07:06Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bhftbootcamp/YYJSON.jl](https://github.com/bhftbootcamp/YYJSON.jl) | 13 | 2025-11-24T05:19:37Z | Other | Infrastructure/tooling | 4 | 12 | 5 | 5 |

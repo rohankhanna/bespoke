@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 246
-- terms: 872
+- repos: 247
+- terms: 878
 - components: 4303
-- concepts: 878
-- observations: 879
+- concepts: 884
+- observations: 885
 
 ## Static behavior
 
@@ -53,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eigilnikolajsen/commit-mono](https://github.com/eigilnikolajsen/commit-mono) | 2022 | 2025-09-24T12:10:17Z | JavaScript | Unknown | 6 | 1 | 6 | 6 |
 | [vshymanskyy/StandWithUkraine](https://github.com/vshymanskyy/StandWithUkraine) | 1535 | 2025-09-19T16:56:37Z | JavaScript | Unknown | 6 | 0 | 6 | 6 |
 | [inkle/inky](https://github.com/inkle/inky) | 2656 | 2025-09-15T11:42:20Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [eliahuhorwitz/Academic-project-page-template](https://github.com/eliahuhorwitz/Academic-project-page-template) | 5025 | 2025-09-04T19:11:15Z | JavaScript | Template/starter | 6 | 0 | 6 | 6 |
 | [lukeed/sirv](https://github.com/lukeed/sirv) | 1167 | 2025-09-03T22:05:10Z | JavaScript | CLI | 0 | 9 | 0 | 0 |
 | [appbaseio/reactivesearch](https://github.com/appbaseio/reactivesearch) | 4922 | 2025-08-29T01:34:02Z | JavaScript | Infrastructure/tooling | 18 | 21 | 18 | 18 |
 | [mozilla/source-map](https://github.com/mozilla/source-map) | 3718 | 2025-08-19T09:36:56Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
@@ -335,6 +336,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [get-alex/alex](https://github.com/get-alex/alex) | 5089 | 2024-11-27T17:45:46Z | JavaScript | Infrastructure/tooling | 5 | 38 | 5 | 5 |
 | [btford/write-good](https://github.com/btford/write-good) | 5070 | 2025-03-10T04:04:12Z | JavaScript | Infrastructure/tooling | 0 | 15 | 0 | 0 |
 | [olado/doT](https://github.com/olado/doT) | 5049 | 2023-11-02T13:32:48Z | JavaScript | Web app | 0 | 10 | 0 | 0 |
+| [eliahuhorwitz/Academic-project-page-template](https://github.com/eliahuhorwitz/Academic-project-page-template) | 5025 | 2025-09-04T19:11:15Z | JavaScript | Template/starter | 6 | 0 | 6 | 6 |
 | [OpenBMB/AgentVerse](https://github.com/OpenBMB/AgentVerse) | 5022 | 2024-09-09T05:47:44Z | JavaScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [jnordberg/gif.js](https://github.com/jnordberg/gif.js) | 4963 | 2023-10-06T08:25:46Z | JavaScript | Library | 0 | 4 | 0 | 0 |
 | [appbaseio/reactivesearch](https://github.com/appbaseio/reactivesearch) | 4922 | 2025-08-29T01:34:02Z | JavaScript | Infrastructure/tooling | 18 | 21 | 18 | 18 |

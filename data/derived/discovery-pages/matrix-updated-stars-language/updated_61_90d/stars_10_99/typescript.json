@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2450,
-    "concepts": 383,
-    "observations": 386,
-    "repos": 88,
-    "terms": 415
+    "components": 2531,
+    "concepts": 422,
+    "observations": 425,
+    "repos": 92,
+    "terms": 454
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
+    "addfox/addfox",
     "adyscorpius/logseq-jira",
     "agents-squads/squads-cli",
     "almogdepaz/wolfpack",
@@ -35,6 +36,7 @@
     "buttondown/cli",
     "cahamilton/stylelint-config-property-sort-order-smacss",
     "cargo-bins/release-pr",
+    "catppuccin/.github",
     "celo-org/developer-tooling",
     "celo-org/social-connect",
     "codemirror/language",
@@ -78,6 +80,7 @@
     "microsoft/vscode-js-debug-companion",
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
+    "NullVoxPopuli/ember-deep-tracked",
     "obi1kenobi/cargo-semver-checks-action",
     "oclif/plugin-autocomplete",
     "oclif/plugin-help",
@@ -97,6 +100,7 @@
     "Shougo/dpp-ext-installer",
     "slopus/slopus.github.io",
     "solidjs-community/storybook",
+    "swagger-api/apidom",
     "vaultwarden/vw_web_builds",
     "wighawag/rocketh",
     "ylsssq926/relic.skill",

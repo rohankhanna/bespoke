@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 618,
-    "concepts": 358,
-    "observations": 360,
-    "repos": 93,
-    "terms": 372
+    "components": 647,
+    "concepts": 387,
+    "observations": 389,
+    "repos": 97,
+    "terms": 401
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -29,6 +29,7 @@
     "arkworks-rs/spongefish",
     "arkworks-rs/std",
     "ashvardanian/NumWars",
+    "astral-sh/pubgrub",
     "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",
     "bitcoindevkit/bdk_wallet",
@@ -61,6 +62,8 @@
     "hagan/claudia-statusline",
     "hecrj/iced_palace",
     "hermit-os/loader",
+    "heroku/buildpacks-dotnet",
+    "heroku/buildpacks-go",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "hpkewg/hpke-pq",
@@ -103,6 +106,7 @@
     "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
     "typst/typst-assets",
+    "urschrei/rdp",
     "watchexec/clearscreen",
     "watchexec/process-wrap",
     "Xuanwo/serde-env",

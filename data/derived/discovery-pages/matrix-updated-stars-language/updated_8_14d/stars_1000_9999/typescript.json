@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 30,
-    "observations": 31,
-    "repos": 6,
-    "terms": 29
+    "components": 250,
+    "concepts": 40,
+    "observations": 41,
+    "repos": 7,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "apollographql/apollo-tooling",
     "benchmark-action/github-action-benchmark",
     "flightcontrolhq/superjson",
     "graphql-hive/graphql-inspector",
+    "TanStack/form",
     "vercel/serve"
   ]
 }

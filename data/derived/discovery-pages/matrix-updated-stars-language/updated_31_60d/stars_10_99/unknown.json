@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 18,
-    "terms": 57
+    "components": 66,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 17,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
-    "BioContainers/multi-package-containers",
     "cbuijs/hagezi",
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",

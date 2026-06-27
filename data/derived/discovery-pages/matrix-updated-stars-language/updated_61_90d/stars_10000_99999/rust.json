@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 857,
-    "concepts": 507,
-    "observations": 508,
-    "repos": 53,
-    "terms": 501
+    "components": 901,
+    "concepts": 545,
+    "observations": 546,
+    "repos": 56,
+    "terms": 539
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -26,7 +26,8 @@
     "BloopAI/vibe-kanban",
     "casey/just",
     "cjpais/Handy",
-    "dandavison/delta",
+    "clap-rs/clap",
+    "ClementTsang/bottom",
     "dani-garcia/vaultwarden",
     "diem/diem",
     "diesel-rs/diesel",
@@ -41,6 +42,7 @@
     "gleam-lang/gleam",
     "googleworkspace/cli",
     "huggingface/candle",
+    "huggingface/tokenizers",
     "hyperium/hyper",
     "hyperium/tonic",
     "jdx/mise",
@@ -52,6 +54,7 @@
     "orhun/git-cliff",
     "rayon-rs/rayon",
     "rust-lang/cargo",
+    "rust-lang/rust-clippy",
     "Schniz/fnm",
     "seanmonstar/reqwest",
     "seanmonstar/warp",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 4303,
-    "concepts": 878,
-    "observations": 879,
-    "repos": 246,
-    "terms": 872
+    "concepts": 884,
+    "observations": 885,
+    "repos": 247,
+    "terms": 878
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -77,6 +77,7 @@
     "ecomfe/echarts-wordcloud",
     "eigilnikolajsen/commit-mono",
     "ElemeFE/element-react",
+    "eliahuhorwitz/Academic-project-page-template",
     "eligrey/Blob.js",
     "ember-animation/liquid-fire",
     "EmilTholin/svelte-routing",

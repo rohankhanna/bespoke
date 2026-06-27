@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 387
-- terms: 1066
-- components: 4797
+- repos: 389
+- terms: 1067
+- components: 4844
 - concepts: 1079
 - observations: 1079
 
@@ -244,6 +244,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [standard/standardx](https://github.com/standard/standardx) | 150 | 2023-09-16T07:30:44Z | JavaScript | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [standard/ts-standard](https://github.com/standard/ts-standard) | 495 | 2023-09-16T07:30:11Z | JavaScript | Infrastructure/tooling | 9 | 22 | 9 | 9 |
 | [standard/eslint-config-standard-jsx](https://github.com/standard/eslint-config-standard-jsx) | 105 | 2023-09-16T07:25:37Z | JavaScript | Infrastructure/tooling | 9 | 9 | 9 | 9 |
+| [jtydhr88/sd-3dmodel-loader](https://github.com/jtydhr88/sd-3dmodel-loader) | 248 | 2023-09-12T01:35:02Z | JavaScript | Web app | 0 | 29 | 0 | 0 |
 | [egoist/vue-emotion](https://github.com/egoist/vue-emotion) | 223 | 2023-09-06T16:58:24Z | JavaScript | Unknown | 2 | 16 | 2 | 2 |
 | [ACloudGuru/serverless-plugin-aws-alerts](https://github.com/ACloudGuru/serverless-plugin-aws-alerts) | 523 | 2023-09-05T19:44:34Z | JavaScript | Infrastructure/tooling | 5 | 21 | 5 | 5 |
 | [knpwrs/ms.macro](https://github.com/knpwrs/ms.macro) | 201 | 2023-08-30T09:11:05Z | JavaScript | Web app | 0 | 16 | 0 | 0 |
@@ -251,6 +252,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [colxi/midi-parser-js](https://github.com/colxi/midi-parser-js) | 240 | 2023-08-12T11:28:44Z | JavaScript | Web app | 5 | 0 | 5 | 5 |
 | [TooTallNate/ref](https://github.com/TooTallNate/ref) | 457 | 2023-08-08T20:19:08Z | JavaScript | Unknown | 0 | 9 | 0 | 0 |
 | [beaucarnes/fcc-project-tutorials](https://github.com/beaucarnes/fcc-project-tutorials) | 299 | 2023-08-06T07:08:50Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [jtydhr88/sd-webui-3d-editor](https://github.com/jtydhr88/sd-webui-3d-editor) | 144 | 2023-07-31T00:06:25Z | JavaScript | Web app | 0 | 18 | 0 | 0 |
 | [novnc/websockify-js](https://github.com/novnc/websockify-js) | 274 | 2023-07-30T07:06:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [fireship-io/webrtc-firebase-demo](https://github.com/fireship-io/webrtc-firebase-demo) | 591 | 2023-07-27T06:27:24Z | JavaScript | Web app | 0 | 2 | 0 | 0 |
 | [babel/preset-modules](https://github.com/babel/preset-modules) | 741 | 2023-07-21T17:36:41Z | JavaScript | Infrastructure/tooling | 2 | 36 | 2 | 2 |
@@ -275,7 +277,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dangreenisrael/eslint-plugin-jest-formatting](https://github.com/dangreenisrael/eslint-plugin-jest-formatting) | 157 | 2023-05-21T17:46:55Z | JavaScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [micromatch/anymatch](https://github.com/micromatch/anymatch) | 401 | 2023-05-18T16:52:59Z | JavaScript | Unknown | 10 | 4 | 10 | 10 |
 | [jpedroschmitz/gatsby-starter-rocketdocs](https://github.com/jpedroschmitz/gatsby-starter-rocketdocs) | 218 | 2023-05-15T17:20:06Z | JavaScript | Template/starter | 5 | 11 | 5 | 5 |
-| [dethcrypto/eth-sdk](https://github.com/dethcrypto/eth-sdk) | 430 | 2023-05-14T09:39:49Z | JavaScript | Infrastructure/tooling | 5 | 33 | 5 | 5 |
+| [dethcrypto/eth-sdk](https://github.com/dethcrypto/eth-sdk) | 429 | 2023-05-14T09:39:49Z | JavaScript | Infrastructure/tooling | 5 | 33 | 5 | 5 |
 | [insodoc/insomnia-documenter](https://github.com/insodoc/insomnia-documenter) | 500 | 2023-05-12T21:40:34Z | JavaScript | Infrastructure/tooling | 7 | 35 | 7 | 7 |
 | [numirias/paxmod](https://github.com/numirias/paxmod) | 268 | 2023-05-05T08:07:04Z | JavaScript | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [6/stopwords-json](https://github.com/6/stopwords-json) | 430 | 2023-05-04T08:13:42Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
@@ -373,7 +375,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CyanoHao/Resource-Han-Rounded](https://github.com/CyanoHao/Resource-Han-Rounded) | 526 | 2022-05-06T23:25:13Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [bhauman/flappy-bird-demo](https://github.com/bhauman/flappy-bird-demo) | 148 | 2022-05-05T16:42:36Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [gotwarlost/istanbul-middleware](https://github.com/gotwarlost/istanbul-middleware) | 188 | 2022-05-05T00:41:47Z | JavaScript | Service/API | 0 | 9 | 0 | 0 |
-| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 3 | 9 | 4 | 4 |
+| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 4 | 9 | 4 | 4 |
 | [alferov/awesome-gulp](https://github.com/alferov/awesome-gulp) | 625 | 2022-04-12T16:51:43Z | JavaScript | Template/starter | 4 | 17 | 4 | 4 |
 | [Raynos/http-framework](https://github.com/Raynos/http-framework) | 521 | 2022-04-12T07:16:37Z | JavaScript | Web app | 0 | 30 | 0 | 0 |
 | [axeldelafosse/expo-next-monorepo-example](https://github.com/axeldelafosse/expo-next-monorepo-example) | 286 | 2022-04-04T22:31:31Z | JavaScript | Unknown | 6 | 1 | 6 | 6 |
@@ -553,8 +555,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zalo/mujoco_wasm](https://github.com/zalo/mujoco_wasm) | 440 | 2025-11-08T02:39:51Z | JavaScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [SafetyCulture/grpc-web-devtools](https://github.com/SafetyCulture/grpc-web-devtools) | 440 | 2025-07-25T00:08:46Z | JavaScript | Web app | 4 | 11 | 4 | 4 |
 | [antelle/argon2-browser](https://github.com/antelle/argon2-browser) | 434 | 2023-03-24T03:35:15Z | JavaScript | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [dethcrypto/eth-sdk](https://github.com/dethcrypto/eth-sdk) | 430 | 2023-05-14T09:39:49Z | JavaScript | Infrastructure/tooling | 5 | 33 | 5 | 5 |
 | [6/stopwords-json](https://github.com/6/stopwords-json) | 430 | 2023-05-04T08:13:42Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
+| [dethcrypto/eth-sdk](https://github.com/dethcrypto/eth-sdk) | 429 | 2023-05-14T09:39:49Z | JavaScript | Infrastructure/tooling | 5 | 33 | 5 | 5 |
 | [d3/d3-color](https://github.com/d3/d3-color) | 428 | 2024-02-03T19:16:02Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [mklabs/tiny-lr](https://github.com/mklabs/tiny-lr) | 426 | 2022-12-06T22:38:30Z | JavaScript | Unknown | 0 | 20 | 0 | 0 |
 | [standard/snazzy](https://github.com/standard/snazzy) | 421 | 2023-09-16T07:31:18Z | JavaScript | Infrastructure/tooling | 10 | 9 | 10 | 10 |
@@ -651,6 +653,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [micromatch/braces](https://github.com/micromatch/braces) | 249 | 2025-01-19T20:06:12Z | JavaScript | Infrastructure/tooling | 15 | 7 | 15 | 15 |
 | [vipermind/flake-idgen](https://github.com/vipermind/flake-idgen) | 249 | 2023-01-09T05:43:17Z | JavaScript | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [nodejs/abi-stable-node](https://github.com/nodejs/abi-stable-node) | 248 | 2025-12-05T15:13:25Z | JavaScript | Service/API | 2 | 0 | 2 | 2 |
+| [jtydhr88/sd-3dmodel-loader](https://github.com/jtydhr88/sd-3dmodel-loader) | 248 | 2023-09-12T01:35:02Z | JavaScript | Web app | 0 | 29 | 0 | 0 |
 | [sindresorhus/junk](https://github.com/sindresorhus/junk) | 246 | 2023-04-19T13:59:54Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [ipfs-examples/js-ipfs-examples](https://github.com/ipfs-examples/js-ipfs-examples) | 244 | 2023-03-06T12:43:52Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [mistic100/tinygradient](https://github.com/mistic100/tinygradient) | 242 | 2025-02-18T18:14:47Z | JavaScript | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -704,7 +707,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [newrelic/opensource-website](https://github.com/newrelic/opensource-website) | 180 | 2024-09-11T23:39:34Z | JavaScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
 | [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 180 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [mzgoddard/preact-render-spy](https://github.com/mzgoddard/preact-render-spy) | 178 | 2023-01-12T09:51:40Z | JavaScript | Unknown | 4 | 16 | 4 | 4 |
-| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 3 | 9 | 4 | 4 |
+| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 4 | 9 | 4 | 4 |
 | [paulirish/devtools-timeline-model](https://github.com/paulirish/devtools-timeline-model) | 176 | 2022-11-02T10:27:41Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
 | [bartolli/claude-code-typescript-hooks](https://github.com/bartolli/claude-code-typescript-hooks) | 175 | 2025-08-26T17:11:20Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [scarf-sh/scarf-js](https://github.com/scarf-sh/scarf-js) | 174 | 2024-11-22T17:04:13Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
@@ -741,6 +744,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [udacity/ud989-retain](https://github.com/udacity/ud989-retain) | 145 | 2022-07-06T20:40:05Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [mifi/stacktracify](https://github.com/mifi/stacktracify) | 144 | 2024-11-25T08:55:25Z | JavaScript | CLI | 6 | 5 | 6 | 6 |
 | [felixge/node-combined-stream](https://github.com/felixge/node-combined-stream) | 144 | 2023-11-09T07:47:17Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
+| [jtydhr88/sd-webui-3d-editor](https://github.com/jtydhr88/sd-webui-3d-editor) | 144 | 2023-07-31T00:06:25Z | JavaScript | Web app | 0 | 18 | 0 | 0 |
 | [phusion/node-sha3](https://github.com/phusion/node-sha3) | 140 | 2023-01-06T01:36:44Z | JavaScript | Unknown | 4 | 11 | 4 | 4 |
 | [dylanblokhuis/svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons) | 139 | 2024-10-31T09:35:10Z | JavaScript | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [jonidelv/generator-create-redux-app](https://github.com/jonidelv/generator-create-redux-app) | 139 | 2023-01-06T01:44:36Z | JavaScript | Unknown | 7 | 12 | 7 | 7 |

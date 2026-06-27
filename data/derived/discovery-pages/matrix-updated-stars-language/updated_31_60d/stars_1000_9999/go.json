@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 860,
-    "concepts": 911,
-    "observations": 916,
-    "repos": 85,
-    "terms": 906
+    "components": 805,
+    "concepts": 846,
+    "observations": 849,
+    "repos": 79,
+    "terms": 842
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
-    "apache/apisix-ingress-controller",
     "apache/incubator-devlake",
     "argoproj-labs/argocd-image-updater",
     "argoproj/argo-rollouts",
@@ -27,7 +26,6 @@
     "bnb-chain/bsc",
     "btcsuite/btcwallet",
     "buger/jsonparser",
-    "bytedance/sonic",
     "C2SP/wycheproof",
     "cloudflare/pint",
     "cloudwego/hertz",
@@ -50,11 +48,9 @@
     "go-flutter-desktop/hover",
     "go-git/go-git",
     "go-ini/ini",
-    "go-spatial/tegola",
     "gookit/color",
     "gookit/goutil",
     "gookit/validate",
-    "goreleaser/nfpm",
     "hashicorp/terraform-provider-helm",
     "helmfile/helmfile",
     "ko-build/ko",
@@ -63,8 +59,6 @@
     "kubeovn/kube-ovn",
     "kubernetes-sigs/cluster-api",
     "kubernetes-sigs/gateway-api",
-    "kubernetes-sigs/node-feature-discovery",
-    "kubernetes-sigs/sig-storage-local-static-provisioner",
     "kubernetes/kubectl",
     "kyverno/kyverno",
     "letsencrypt/boulder",

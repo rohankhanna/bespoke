@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 14,
-    "terms": 94
+    "components": 103,
+    "concepts": 129,
+    "observations": 129,
+    "repos": 16,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
-    "Aleksoid1978/VideoRenderer",
+    "CGAL/cgal",
     "CloudCompare/CloudCompare",
+    "cvxpy/cvxpy",
     "doctest/doctest",
     "joncampbell123/dosbox-x",
     "KhronosGroup/KTX-Software",
+    "libbitcoin/libbitcoin-system",
     "libsndfile/libsndfile",
-    "luau-lang/luau",
     "PoseLib/PoseLib",
     "qt/qtbase",
     "red-data-tools/pycall.rb",
+    "rordenlab/dcm2niix",
     "snapcast/snapcast",
+    "swiftlang/swift-llbuild",
     "TheTom/llama-cpp-turboquant",
-    "ufbx/ufbx",
-    "xtensor-stack/xtensor"
+    "ufbx/ufbx"
   ]
 }

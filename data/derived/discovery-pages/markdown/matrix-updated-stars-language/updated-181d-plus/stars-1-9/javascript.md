@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 121
-- terms: 198
-- components: 1469
-- concepts: 199
-- observations: 200
+- repos: 122
+- terms: 202
+- components: 1486
+- concepts: 203
+- observations: 204
 
 ## Static behavior
 
@@ -45,6 +45,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [firefox-devtools/remote-settings-mdn-browser-compat-data](https://github.com/firefox-devtools/remote-settings-mdn-browser-compat-data) | 2 | 2025-06-13T14:50:23Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [modelscope/Trinity-Studio](https://github.com/modelscope/Trinity-Studio) | 8 | 2025-05-26T06:41:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [ehmicky/global-cache-dir](https://github.com/ehmicky/global-cache-dir) | 6 | 2025-05-25T23:03:22Z | JavaScript | Infrastructure/tooling | 16 | 7 | 16 | 16 |
+| [niivue/ct2print](https://github.com/niivue/ct2print) | 4 | 2025-05-06T11:44:50Z | JavaScript | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [hchiam/learning-reactjs](https://github.com/hchiam/learning-reactjs) | 1 | 2025-05-04T21:03:59Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [ipfs-shipyard/contributors-hex-grid](https://github.com/ipfs-shipyard/contributors-hex-grid) | 3 | 2025-05-01T08:39:27Z | JavaScript | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [ipfs-examples/example-template](https://github.com/ipfs-examples/example-template) | 3 | 2025-05-01T08:39:10Z | JavaScript | Infrastructure/tooling | 2 | 9 | 2 | 2 |
@@ -67,6 +68,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/learning-tauri](https://github.com/hchiam/learning-tauri) | 1 | 2024-09-15T23:02:00Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [affinitic/volto-icon-selector-widget](https://github.com/affinitic/volto-icon-selector-widget) | 3 | 2024-08-28T09:34:03Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [hchiam/generator-hchiam-learning](https://github.com/hchiam/generator-hchiam-learning) | 1 | 2024-08-28T04:16:17Z | JavaScript | Infrastructure/tooling | 1 | 16 | 1 | 1 |
+| [niivue/niivue-mesh](https://github.com/niivue/niivue-mesh) | 5 | 2024-08-26T08:18:06Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [ipdxco/awesome-github-as-code-users](https://github.com/ipdxco/awesome-github-as-code-users) | 2 | 2024-08-20T13:51:04Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [andenacitelli/openapi-endpoint-trimmer](https://github.com/andenacitelli/openapi-endpoint-trimmer) | 9 | 2024-07-29T13:19:51Z | JavaScript | Infrastructure/tooling | 1 | 31 | 1 | 1 |
 | [neurolabusc/niivue-simplify](https://github.com/neurolabusc/niivue-simplify) | 7 | 2024-07-24T15:01:54Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -146,7 +148,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IndexXuan/vue-enterprise-boilerplate](https://github.com/IndexXuan/vue-enterprise-boilerplate) | 7 | 2021-08-09T08:12:03Z | JavaScript | CLI | 0 | 47 | 0 | 0 |
 | [1000ch/atom-csso](https://github.com/1000ch/atom-csso) | 2 | 2021-08-02T20:40:13Z | JavaScript | Unknown | 3 | 3 | 3 | 3 |
 | [atom-community/autocomplete-plus](https://github.com/atom-community/autocomplete-plus) | 2 | 2021-07-21T23:48:09Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
-| [hchiam/learning-nextjs](https://github.com/hchiam/learning-nextjs) | 1 | 2021-06-27T22:52:13Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -194,6 +195,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pepsryuu/create-nollup-app](https://github.com/PepsRyuu/create-nollup-app) | 6 | 2021-09-10T16:29:25Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [libp2p/js-libp2p-example-auto-tls](https://github.com/libp2p/js-libp2p-example-auto-tls) | 5 | 2025-09-30T08:40:10Z | JavaScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [hardfist/purge-tailwind-plugin](https://github.com/hardfist/purge-tailwind-plugin) | 5 | 2024-11-02T13:45:17Z | JavaScript | Web app | 0 | 8 | 0 | 0 |
+| [niivue/niivue-mesh](https://github.com/niivue/niivue-mesh) | 5 | 2024-08-26T08:18:06Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [shanewholloway/js-cbor-codec](https://github.com/shanewholloway/js-cbor-codec) | 5 | 2024-06-17T05:54:40Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [pulsar-cooperative/linter-shellcheck-pulsar](https://github.com/pulsar-cooperative/linter-shellcheck-pulsar) | 5 | 2023-12-31T00:08:25Z | JavaScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [coderaiser/speca](https://github.com/coderaiser/speca) | 5 | 2023-12-13T09:19:06Z | JavaScript | Infrastructure/tooling | 2 | 23 | 2 | 2 |
@@ -203,6 +205,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gajus/conventional-changelog-lint-config-canonical](https://github.com/gajus/conventional-changelog-lint-config-canonical) | 5 | 2022-10-31T00:32:37Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [mapbox/mason-js](https://github.com/mapbox/mason-js) | 5 | 2022-05-19T19:09:21Z | JavaScript | CLI | 0 | 15 | 0 | 0 |
 | [lydell/next-minimal-routes](https://github.com/lydell/next-minimal-routes) | 5 | 2022-01-11T07:48:36Z | JavaScript | Unknown | 0 | 25 | 0 | 0 |
+| [niivue/ct2print](https://github.com/niivue/ct2print) | 4 | 2025-05-06T11:44:50Z | JavaScript | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [hbenl/vscode-mocha-docker-example](https://github.com/hbenl/vscode-mocha-docker-example) | 4 | 2024-06-17T18:38:34Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [horseee/Diffusion_DeepCache](https://github.com/horseee/Diffusion_DeepCache) | 4 | 2023-12-29T14:00:29Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [allen-hsu/wdyr-flipper](https://github.com/allen-hsu/wdyr-flipper) | 4 | 2023-10-30T03:30:55Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -272,4 +275,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [denar90/lightouse-ci-netlify-preact](https://github.com/denar90/lightouse-ci-netlify-preact) | 1 | 2022-12-12T21:47:57Z | JavaScript | Infrastructure/tooling | 1 | 25 | 1 | 1 |
 | [pixielabs/cavy-tester](https://github.com/pixielabs/cavy-tester) | 1 | 2021-10-03T20:39:55Z | JavaScript | Unknown | 4 | 18 | 4 | 4 |
 | [hchiam/learning-js-design-patterns](https://github.com/hchiam/learning-js-design-patterns) | 1 | 2021-08-10T01:59:00Z | JavaScript | Unknown | 1 | 0 | 1 | 1 |
-| [hchiam/learning-nextjs](https://github.com/hchiam/learning-nextjs) | 1 | 2021-06-27T22:52:13Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

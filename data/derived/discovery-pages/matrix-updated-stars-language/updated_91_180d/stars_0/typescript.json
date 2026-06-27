@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
+    "components": 62,
     "concepts": 13,
     "observations": 13,
-    "repos": 6,
-    "terms": 13
+    "repos": 7,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "adipalko/hatraot",
     "aleclarson/vite-multi-spa",
+    "neuroverseos/negotiator",
     "onomojo/i18n-country-translations-js",
     "onomojo/i18n-timezones-js",
     "sujithpvarghese/bedrock-full-reconciliation"

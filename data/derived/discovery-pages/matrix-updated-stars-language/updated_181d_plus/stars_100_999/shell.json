@@ -3,8 +3,8 @@
     "components": 78,
     "concepts": 235,
     "observations": 237,
-    "repos": 97,
-    "terms": 227
+    "repos": 98,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "10up/actions-wordpress",
     "27medkamal/tmux-session-wizard",
@@ -84,6 +84,7 @@
     "Magisk-Modules-Repo/v2ray",
     "marbl/merqury",
     "mattmc3/zsh_unplugged",
+    "miykael/3dprintyourbrain",
     "mpv-player/mpv-build",
     "nightrome/cocostuff",
     "pmer/tla-bin",

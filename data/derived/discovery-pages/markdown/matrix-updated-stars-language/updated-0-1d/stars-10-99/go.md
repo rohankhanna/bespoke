@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Go
 
-Generated at: `2026-06-25T07:47:47.540132+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 3
-- components: 3
-- concepts: 3
-- observations: 3
+- terms: 1
+- components: 5
+- concepts: 1
+- observations: 1
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mudler/nib](https://github.com/mudler/nib) | 28 | 2026-06-24T13:37:00Z | Go | CLI | 3 | 3 | 3 | 3 |
+| [compozy/kb](https://github.com/compozy/kb) | 83 | 2026-06-27T03:31:48Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mudler/nib](https://github.com/mudler/nib) | 28 | 2026-06-24T13:37:00Z | Go | CLI | 3 | 3 | 3 | 3 |
+| [compozy/kb](https://github.com/compozy/kb) | 83 | 2026-06-27T03:31:48Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |

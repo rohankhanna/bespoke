@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2971,
+    "components": 2983,
     "concepts": 1239,
     "observations": 1243,
-    "repos": 919,
+    "repos": 926,
     "terms": 1270
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -51,6 +51,7 @@
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "abiondevelopment/external-dns-webhook-abion",
     "abraxas-365/claudio-screenshot",
+    "ABRG-Models/morphologica_template",
     "aburousan/azaz",
     "acevif/swiftformat-nix",
     "acts-project/opendatadetector",
@@ -83,6 +84,7 @@
     "alex-petrenko/sf_assets",
     "alexcrichton/cc-rs",
     "alexgorbatchev/typescript-transform-react-jsx-source",
+    "alexrich021/fusibile",
     "aliyun-sls/opentelemetry-demo",
     "all-the-noises/data",
     "AlmaLinux/errata2osv",
@@ -116,6 +118,7 @@
     "atsushieno/homebrew-oss",
     "autodistill/autodistill-azure-vision",
     "autofac/.github",
+    "avery-water/twice_exceptionality_repository",
     "avsm/ocaml-uri",
     "awohletz/electron-prisma-trpc-example-releases",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
@@ -227,6 +230,8 @@
     "csm-actions/demo-client",
     "Culmus/hebrew-fonts",
     "curiousnoob/lerna-release-workflow",
+    "cvxpy/examples",
+    "cvxpy/org",
     "cwfitzgerald/libtest-mimic",
     "CyberHoward/cw-plus-plus",
     "czk23/YiTu",
@@ -486,6 +491,7 @@
     "eric-mitchell/higher",
     "eric-mitchell/transformers",
     "erick2418/vue-axios-vuex-jwt",
+    "erosmontin/OpenMedView",
     "EspressoSystems/commit",
     "espressosystems/espresso-systems-common",
     "EspressoSystems/jellyfish-compat",
@@ -582,6 +588,7 @@
     "illusionfield/fourseven-scss",
     "imandra-ai/tldrs",
     "imgui-rs/imgui-gfx-renderer",
+    "imlixinyang/FlashWorld-Project-Page",
     "informalsystems/tower-abci",
     "interactive-instruments/ldproxy-community",
     "interstar/Patterning-Quil",

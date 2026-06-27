@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 5
-- components: 0
-- concepts: 5
-- observations: 5
+- repos: 3
+- terms: 26
+- components: 16
+- concepts: 26
+- observations: 26
 
 ## Static behavior
 
@@ -26,10 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 976 | 2026-06-26T07:22:04Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 994 | 2026-06-26T19:18:21Z | C/C++ | Library | 8 | 0 | 8 | 8 |
+| [gbionics/idyntree](https://github.com/gbionics/idyntree) | 231 | 2026-06-26T14:03:10Z | C/C++ | Infrastructure/tooling | 13 | 16 | 13 | 13 |
+| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 976 | 2026-06-26T10:54:07Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 976 | 2026-06-26T07:22:04Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 994 | 2026-06-26T19:18:21Z | C/C++ | Library | 8 | 0 | 8 | 8 |
+| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 976 | 2026-06-26T10:54:07Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [gbionics/idyntree](https://github.com/gbionics/idyntree) | 231 | 2026-06-26T14:03:10Z | C/C++ | Infrastructure/tooling | 13 | 16 | 13 | 13 |

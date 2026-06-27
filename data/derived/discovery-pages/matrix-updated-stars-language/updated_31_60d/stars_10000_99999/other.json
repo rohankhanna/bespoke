@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 948,
-    "concepts": 743,
-    "observations": 745,
-    "repos": 71,
-    "terms": 737
+    "components": 918,
+    "concepts": 698,
+    "observations": 700,
+    "repos": 63,
+    "terms": 692
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -20,9 +20,7 @@
     "alpinejs/alpine",
     "apache/apisix",
     "autowarefoundation/autoware",
-    "aws/amazon-sagemaker-examples",
     "BasedHardware/omi",
-    "bitcoin/bips",
     "bitnami/charts",
     "bitwarden/server",
     "Blinue/Magpie",
@@ -31,7 +29,6 @@
     "coollabsio/coolify",
     "crystal-lang/crystal",
     "Devolutions/UniGetUI",
-    "doomemacs/doomemacs",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
     "exelban/stats",
@@ -62,7 +59,6 @@
     "mozilla-mobile/firefox-ios",
     "MudBlazor/MudBlazor",
     "neovim/nvim-lspconfig",
-    "NickeManarin/ScreenToGif",
     "nim-lang/Nim",
     "OAI/OpenAPI-Specification",
     "phoenixframework/phoenix",
@@ -71,19 +67,15 @@
     "rapid7/metasploit-framework",
     "rubocop/rubocop",
     "ruby/ruby",
-    "ScoopInstaller/Scoop",
     "sebastianbergmann/phpunit",
     "shadowsocks/shadowsocks-android",
     "Shopify/liquid",
     "square/moshi",
-    "square/okhttp",
-    "square/retrofit",
     "SubtitleEdit/subtitleedit",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
     "symfony/symfony",
     "tiann/KernelSU",
-    "vim-airline/vim-airline",
     "xmake-io/xmake"
   ]
 }

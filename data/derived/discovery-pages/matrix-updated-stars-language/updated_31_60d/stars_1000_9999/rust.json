@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 946,
-    "concepts": 773,
-    "observations": 774,
-    "repos": 84,
-    "terms": 767
+    "components": 888,
+    "concepts": 714,
+    "observations": 714,
+    "repos": 75,
+    "terms": 709
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "AccessKit/accesskit",
@@ -28,9 +28,6 @@
     "cachix/devenv",
     "cargo-bins/cargo-binstall",
     "cargo-generate/cargo-generate",
-    "ccbrown/iocraft",
-    "chelsea0x3b/cudarc",
-    "cobalt-org/cobalt.rs",
     "cordx56/rustowl",
     "CosmWasm/cosmwasm",
     "databendlabs/databend",
@@ -40,11 +37,9 @@
     "dimforge/kiss3d",
     "dora-rs/dora",
     "erebe/wstunnel",
-    "eycorsican/leaf",
     "facebook/buck2",
     "facebook/pyrefly",
     "facebook/sapling",
-    "fitzgen/bumpalo",
     "floneum/floneum",
     "georust/geo",
     "graphql-rust/juniper",
@@ -57,7 +52,6 @@
     "josh-project/josh",
     "JuliaLang/juliaup",
     "junhoyeo/tokscale",
-    "kivikakk/comrak",
     "lakekeeper/lakekeeper",
     "lance-format/lance",
     "MaterializeInc/materialize",
@@ -67,7 +61,6 @@
     "nats-io/nats.rs",
     "nix-rust/nix",
     "notify-rs/notify",
-    "pkgxdev/pkgx",
     "prefix-dev/pixi",
     "prisma/prisma-engines",
     "pykeio/ort",
@@ -87,8 +80,6 @@
     "rust-lang/rustup",
     "rust-openssl/rust-openssl",
     "RustAudio/cpal",
-    "RustAudio/rodio",
-    "skim-rs/skim",
     "Splode/pomotroid",
     "squidowl/halloy",
     "supabase/etl",

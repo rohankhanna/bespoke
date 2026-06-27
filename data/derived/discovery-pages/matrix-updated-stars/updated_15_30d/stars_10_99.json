@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 15,
-    "terms": 72
+    "components": 168,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 17,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "aidenlab/hic-straw",
@@ -23,10 +23,12 @@
     "electron-userland/electron-windows-msix",
     "f3liz-casa/noraneko",
     "FAIR-IMPACT/MOD",
+    "FerrisMind/candle-video",
     "geocompx/docker",
+    "ika-rwth-aachen/docker-run",
     "joshsymonds/cc-tools",
     "lumen-oss/nurr",
-    "mlcommons/logging",
-    "ocaml-tracing/ocaml-opentelemetry"
+    "ocaml-tracing/ocaml-opentelemetry",
+    "tee-ar-ex/trx-python"
   ]
 }

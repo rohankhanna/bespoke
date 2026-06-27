@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 485,
-    "concepts": 577,
-    "observations": 578,
-    "repos": 50,
-    "terms": 574
+    "components": 482,
+    "concepts": 563,
+    "observations": 564,
+    "repos": 49,
+    "terms": 560
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/thrift",
@@ -23,7 +23,6 @@
     "cameron314/concurrentqueue",
     "capnproto/capnproto",
     "carla-simulator/carla",
-    "catchorg/Catch2",
     "colmap/colmap",
     "coturn/coturn",
     "DayBreak-u/chineseocr_lite",

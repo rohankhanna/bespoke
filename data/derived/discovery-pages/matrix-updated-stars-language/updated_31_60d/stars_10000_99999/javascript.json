@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2050,
-    "concepts": 353,
-    "observations": 353,
-    "repos": 40,
-    "terms": 346
+    "components": 1632,
+    "concepts": 298,
+    "observations": 298,
+    "repos": 35,
+    "terms": 291
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
     "acornjs/acorn",
     "addyosmani/critical",
-    "ampproject/amphtml",
     "Automattic/mongoose",
     "CesiumGS/cesium",
     "easydiffusion/easydiffusion",
@@ -38,11 +37,9 @@
     "lutzroeder/netron",
     "MagicMirrorOrg/MagicMirror",
     "mdx-js/mdx",
-    "microsoft/monaco-editor",
     "mochajs/mocha",
     "moment/luxon",
     "mozilla/pdf.js",
-    "nodemailer/nodemailer",
     "novnc/noVNC",
     "nwjs/nw.js",
     "plotly/plotly.js",
@@ -50,9 +47,7 @@
     "stylelint/stylelint",
     "sveltejs/kit",
     "sveltejs/svelte",
-    "swagger-api/swagger-ui",
     "Unitech/pm2",
-    "wix/Detox",
     "yokoffing/Betterfox"
   ]
 }

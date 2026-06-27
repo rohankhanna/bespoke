@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 317,
-    "concepts": 359,
-    "observations": 359,
-    "repos": 44,
-    "terms": 357
+    "components": 265,
+    "concepts": 335,
+    "observations": 335,
+    "repos": 41,
+    "terms": 333
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
-    "allegro/hermes",
     "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
@@ -40,7 +39,6 @@
     "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
     "microsoft/LangChain4j-for-Beginners",
-    "microsoft/vscode-java-test",
     "openjdk/jdk11u",
     "openjdk/jdk17u",
     "operator-framework/java-operator-sdk",
@@ -49,7 +47,6 @@
     "quarkiverse/quarkus-langchain4j",
     "quarkiverse/quarkus-operator-sdk",
     "reactor/reactor-addons",
-    "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
     "samtools/htsjdk",
     "SAP/SapMachine",

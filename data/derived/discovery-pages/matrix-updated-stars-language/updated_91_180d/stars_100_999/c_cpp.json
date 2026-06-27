@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 391,
-    "concepts": 551,
-    "observations": 553,
-    "repos": 125,
-    "terms": 545
+    "components": 385,
+    "concepts": 578,
+    "observations": 580,
+    "repos": 129,
+    "terms": 572
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "AmusementClub/vs-mlrt",
@@ -35,6 +35,7 @@
     "bnosac/audio.whisper",
     "btzy/nativefiledialog-extended",
     "CGCL-codes/YiTu",
+    "charlesnicholson/nanoprintf",
     "chfast/intx",
     "conor42/fast-lzma2",
     "CppCXY/EmmyLuaCodeStyle",
@@ -45,9 +46,11 @@
     "deeptools/pyBigWig",
     "derickr/timelib",
     "devkitPro/libctru",
+    "dgobbi/vtk-dicom",
     "douglascrockford/JSMin",
     "eclipse-cyclonedds/cyclonedds-cxx",
     "eddelbuettel/rinside",
+    "eidelen/DicomToMesh",
     "eliemichel/LearnWebGPU",
     "embeddedartistry/libc",
     "embeddedartistry/libmemory",
@@ -55,7 +58,6 @@
     "frankmorgner/vsmartcard",
     "freebsd/atf",
     "fujitsu/xbyak_aarch64",
-    "gbionics/idyntree",
     "google/effcee",
     "google/kmsan",
     "google/ruy",
@@ -99,6 +101,7 @@
     "nagisa/rust_tracy_client",
     "NeighTools/UnityDoorstop",
     "NetEase-FuXi/EETQ",
+    "nhielost/obs-midi-mg",
     "nihui/ncnn-android-nanodet",
     "nihui/ncnn-android-scrfd",
     "NiLuJe/kfmon",
@@ -115,6 +118,7 @@
     "raysan5/raylib-games",
     "refresh-bio/KMC",
     "rmsalinas/DBow3",
+    "ros-perception/vision_opencv",
     "rust-fuzz/libfuzzer",
     "rusty1s/pytorch_cluster",
     "sasha0552/nvidia-pstated",

@@ -3,7 +3,7 @@
     "components": 52,
     "concepts": 26,
     "observations": 27,
-    "repos": 21,
+    "repos": 23,
     "terms": 26
   },
   "facet_version": 1,
@@ -12,9 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
+    "ABRG-Models/morphologica_template",
     "acts-project/opendatadetector",
+    "alexrich021/fusibile",
     "boingoing/node-sass",
     "build2-packaging/nlohmann-json",
     "burntsushi/linux",

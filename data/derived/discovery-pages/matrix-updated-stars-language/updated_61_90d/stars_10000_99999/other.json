@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1258,
-    "concepts": 900,
-    "observations": 906,
-    "repos": 101,
-    "terms": 899
+    "components": 1288,
+    "concepts": 945,
+    "observations": 951,
+    "repos": 109,
+    "terms": 944
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "abpframework/abp",
     "adambard/learnxinyminutes-docs",
@@ -27,7 +27,9 @@
     "ardalis/CleanArchitecture",
     "AssemblyScript/assemblyscript",
     "AudioKit/AudioKit",
+    "aws/amazon-sagemaker-examples",
     "Azure/azure-quickstart-templates",
+    "bitcoin/bips",
     "cmderdev/cmder",
     "composer/composer",
     "Cysharp/UniTask",
@@ -36,6 +38,7 @@
     "datawhalechina/self-llm",
     "deepset-ai/haystack",
     "devicons/devicon",
+    "doomemacs/doomemacs",
     "dotnet/core",
     "dotnet/csharplang",
     "dotnet/efcore",
@@ -88,6 +91,7 @@
     "microsoft/vcpkg",
     "mikepenz/MaterialDrawer",
     "neovim/neovim",
+    "NickeManarin/ScreenToGif",
     "NielsRogge/Transformers-Tutorials",
     "nikitabobko/AeroSpace",
     "NixOS/nixpkgs",
@@ -101,11 +105,14 @@
     "reasonml/reason",
     "saadeghi/daisyui",
     "SaschaWillems/Vulkan",
+    "ScoopInstaller/Scoop",
     "Seldaek/monolog",
     "semgrep/semgrep",
     "shap/shap",
     "simplex-chat/simplex-chat",
     "Solido/awesome-flutter",
+    "square/okhttp",
+    "square/retrofit",
     "swagger-api/swagger-codegen",
     "syl20bnr/spacemacs",
     "tc39/ecma262",
@@ -113,6 +120,7 @@
     "tmuxinator/tmuxinator",
     "tonsky/FiraCode",
     "topjohnwu/Magisk",
+    "vim-airline/vim-airline",
     "vim/vim",
     "winsw/winsw"
   ]

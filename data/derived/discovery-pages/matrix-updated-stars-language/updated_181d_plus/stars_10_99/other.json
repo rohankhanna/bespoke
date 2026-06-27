@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2182,
-    "concepts": 2033,
-    "observations": 2039,
-    "repos": 868,
-    "terms": 2021
+    "components": 2186,
+    "concepts": 2035,
+    "observations": 2041,
+    "repos": 872,
+    "terms": 2023
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -93,6 +93,7 @@
     "andrewmcodes/standardrb-action",
     "andy-bell101/neotest-java",
     "andyferris/AcceleratedArrays.jl",
+    "andypotatohy/roast",
     "anguslees/kustomize-libsonnet",
     "Anime4KWebBoost/Anime4K-Web-Demo",
     "ankit1910/paper_trail-globalid",
@@ -200,6 +201,7 @@
     "bsless/clj-decompiler.el",
     "BuddiesOfBudgie/budgie-backgrounds",
     "buildbot/botherders",
+    "BUNPC/AtlasViewer",
     "bunysae/abap_db_preparator",
     "byroneverson/Mia",
     "caffo/monotropic-theme",
@@ -413,6 +415,7 @@
     "gpuweb/admin",
     "grailbio/rules_r",
     "greglook/clj-arrangement",
+    "gregorias/toggle.nvim",
     "gtolias/asmk",
     "gumob/PunycodeSwift",
     "gumob/TLDExtractSwift",
@@ -739,6 +742,7 @@
     "Rohan2002/IFEval",
     "RollaProject/solidity-datetime",
     "ron-rs/ron.vim",
+    "rordenlab/i2nii",
     "RSTLess-research/Fauno-Italian-LLM",
     "ruby-numo/numo-gnuplot",
     "ruby-numo/numo-gsl",

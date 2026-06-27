@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7126,
-    "concepts": 1348,
-    "observations": 1352,
-    "repos": 181,
-    "terms": 1455
+    "components": 7135,
+    "concepts": 1357,
+    "observations": 1361,
+    "repos": 182,
+    "terms": 1464
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -47,6 +47,7 @@
     "breferrari/obsidian-mind",
     "bufbuild/protobuf-es",
     "butlerx/wetty",
+    "callstack/react-native-testing-library",
     "capricorn86/happy-dom",
     "cawa-93/vite-electron-builder",
     "ChainSafe/lodestar",
@@ -171,7 +172,6 @@
     "sirmalloc/ccstatusline",
     "solidjs/solid-router",
     "solidjs/solid-start",
-    "sql-formatter-org/sql-formatter",
     "statoscope/statoscope",
     "streamich/memfs",
     "stripe/ai",
@@ -183,6 +183,7 @@
     "thomasloven/lovelace-card-mod",
     "thx/resvg-js",
     "TooTallNate/proxy-agents",
+    "ts-safeql/safeql",
     "TypeStrong/ts-loader",
     "vega/vega-lite",
     "vercel/next-learn",

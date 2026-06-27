@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 3,
-    "terms": 26
+    "components": 109,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 5,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "crate-ci/cargo-release",
+    "geiger-rs/cargo-geiger",
     "intentee/paddler",
+    "safetensors/safetensors",
     "watchexec/watchexec"
   ]
 }

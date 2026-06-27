@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 12,
     "observations": 12,
-    "repos": 6,
+    "repos": 7,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "danielrosehill/Israel-Alert-Map",
     "danielrosehill/Model-Scout-MCP",
     "frankkohlhepp/fancy-settings",
+    "imlixinyang/FlashWorld-Project-Page",
     "onomojo/i18n-country-translations-data",
     "onomojo/i18n-timezones-data"
   ]

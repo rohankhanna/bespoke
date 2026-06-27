@@ -76,13 +76,14 @@
       "size": 140
     }
   ],
+  "metadata_refreshed_at": "2026-06-27T06:00:31.632016+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Convert source DICOM, PAR REC or NIFTI image data to BIDS directory layout",
     "fork": false,
-    "full_name": "AdebayoBraimah/convert_source",
+    "full_name": "adebayobraimah/convert_source",
     "html_url": "https://github.com/AdebayoBraimah/convert_source",
     "language": "Python",
     "pushed_at": "2021-08-07T16:07:53Z",

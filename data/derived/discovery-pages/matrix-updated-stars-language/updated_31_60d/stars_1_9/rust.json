@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 115,
-    "observations": 115,
-    "repos": 25,
-    "terms": 114
+    "components": 125,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 23,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
@@ -29,11 +29,9 @@
     "heroku/buildpacks-php",
     "heroku/buildpacks-procfile",
     "Hiroshiba/voicevox_core",
-    "image-rs/image-extras",
     "influxdata/arrow-datafusion",
     "ldclabs/ic-cose",
     "open-telemetry/opentelemetry-weaver-examples",
-    "oxc-project/oxc-index-vec",
     "snowflakedb/universal-driver",
     "sp1-patches/RustCrypto-hashes",
     "tirithen/clipper2c-sys",

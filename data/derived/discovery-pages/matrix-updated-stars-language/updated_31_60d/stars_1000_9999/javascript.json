@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2543,
-    "concepts": 483,
-    "observations": 484,
-    "repos": 62,
-    "terms": 481
+    "components": 2177,
+    "concepts": 406,
+    "observations": 407,
+    "repos": 54,
+    "terms": 404
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
@@ -21,7 +21,6 @@
     "appium/appium-inspector",
     "carbon-design-system/carbon",
     "chaijs/chai",
-    "dotenvx/dotenvx",
     "geotiffjs/geotiff.js",
     "ghostery/ghostery-extension",
     "gildas-lormeau/zip.js",
@@ -29,20 +28,14 @@
     "GoogleChromeLabs/clooney",
     "GoogleCloudPlatform/nodejs-docs-samples",
     "heshengtao/super-agent-party",
-    "i18next/react-i18next",
-    "import-js/eslint-plugin-import",
-    "ipfs/ipfs-companion",
-    "isomorphic-git/isomorphic-git",
     "jakerella/jquery-mockjax",
     "jasonlong/isometric-contributions",
     "jellyfin/jellyfin-web",
     "jquery/jquery-color",
     "keepassxreboot/keepassxc-browser",
     "KhronosGroup/Vulkan-Docs",
-    "krausest/js-framework-benchmark",
     "LavaMoat/LavaMoat",
     "leezng/vue-json-pretty",
-    "ljharb/qs",
     "mapbox/geobuf",
     "mapbox/pixelmatch",
     "mermaid-js/mermaid-cli",
@@ -57,11 +50,11 @@
     "openwrt/luci",
     "parallel-js/parallel.js",
     "pillarjs/iconv-lite",
-    "postcss/postcss-import",
     "ranisalt/node-argon2",
     "RisingStack/react-easy-state",
     "stdlib-js/stdlib",
     "stylelint/stylelint-config-standard",
+    "sveltejs/devalue",
     "sveltejs/vite-plugin-svelte",
     "sverweij/dependency-cruiser",
     "swagger-api/swagger-editor",
@@ -74,7 +67,6 @@
     "WebKit/WebKit",
     "webpack/webpack-cli",
     "webpack/webpack-dev-middleware",
-    "xiangyuecn/Recorder",
     "yomidevs/yomitan"
   ]
 }

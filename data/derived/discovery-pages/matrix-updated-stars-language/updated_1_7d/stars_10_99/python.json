@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 6,
-    "terms": 47
+    "components": 58,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 9,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
+    "ansys/pymapdl-reader",
+    "bzrudski/vectorose",
+    "cvxpy/benchmarks",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "intel-staging/text-generation-webui",
     "lhj5426/X-AnyLabeling",
     "mozilla-ai/any-guardrail",
-    "mozilla-ai/otari",
-    "wamp-proto/wamp-xbr"
+    "prospector-dev/requirements-detector",
+    "pyvista/awesome-pyvista"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 583,
-    "concepts": 697,
-    "observations": 698,
-    "repos": 306,
-    "terms": 691
+    "components": 584,
+    "concepts": 707,
+    "observations": 708,
+    "repos": 313,
+    "terms": 701
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -28,6 +28,7 @@
     "adisbladis/lix-unit",
     "aidenlab/straw",
     "AkarinVS/L-SMASH-Works",
+    "alecjacobson/geometry-processing-smoothing",
     "alexmyczko/ree",
     "alfredbaudisch/raylib-cimgui",
     "Alpine-DAV/vtk-h",
@@ -35,6 +36,7 @@
     "analogdevicesinc/MAX78xxx-RefDes",
     "andrewtrotman/JASSv2",
     "andykras/lz-string-cpp",
+    "angeladai/spsg",
     "antoonpurnal/clangover",
     "apache/datasketches-postgresql",
     "apnadkarni/tcl-cmark",
@@ -59,6 +61,7 @@
     "BestBurning/platform_device_id",
     "bioinfologics/w2rap-contigger",
     "BirolLab/btl_bloomfilter",
+    "bitshifter/radixsort",
     "bitwizeshift/BackportCpp",
     "bitwizeshift/string_view-standalone",
     "blackhole89/autopen",
@@ -161,6 +164,7 @@
     "ianhbell/nanobind_json",
     "ibireme/c_numconv_benchmark",
     "IDLabMedia/image-lens-reproject",
+    "ika-rwth-aachen/ros2-moge-trt",
     "ingonyama-zk/icicle-gnark",
     "intelligent-machine-learning/tfplus",
     "Irrational-Encoding-Wizardry/descale",
@@ -202,6 +206,7 @@
     "ksnip/kColorPicker",
     "kwilczynski/ruby-magic",
     "larseggert/asciiTeX",
+    "lassoan/SlicerSwissSkullStripper",
     "lemire/fast_float",
     "leofansq/SCF-Net",
     "libbitcoin/secp256k1",
@@ -209,6 +214,7 @@
     "libxsmm/libxsmm-dnn",
     "linebender/resvg-test-suite",
     "littlefs-project/ramrsbd",
+    "liu115/renderpy",
     "llandsmeer/inkvt",
     "llnl/Adiak",
     "llnl/RAJA-project-template",
@@ -237,6 +243,7 @@
     "nativium/nativium",
     "newrelic/node-native-metrics",
     "NicoG60/OscMackieControl",
+    "niessner/mLib",
     "NIFTI-Imaging/nifti_clib",
     "nmoehrle/rayint",
     "novnc/websockify-other",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 383,
-    "concepts": 361,
-    "observations": 362,
-    "repos": 136,
-    "terms": 367
+    "components": 393,
+    "concepts": 380,
+    "observations": 381,
+    "repos": 137,
+    "terms": 386
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "2U1/Gemma3-Finetune",
@@ -20,6 +20,8 @@
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
     "abduznik/git-alchemist",
+    "adtzlr/hyperelastic",
+    "adtzlr/tensortrax",
     "agents-x-project/PyVision-RL",
     "ai4colonoscopy/PraNet-V2",
     "alexmojaki/pure_eval",
@@ -81,7 +83,6 @@
     "HabanaAI/DeepSpeed",
     "Han-Cao/collapse-bubble",
     "haydn-jones/SOAP_JAX",
-    "heimoshuiyu/whisper-fastapi",
     "HuajianUP/360Loc",
     "huggingface/image_gen_aux",
     "icppWorld/icgpt",

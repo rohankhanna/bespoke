@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · C/C++
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
+- repos: 23
 - terms: 26
 - components: 52
 - concepts: 26
@@ -37,6 +37,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [build2-packaging/nlohmann-json](https://github.com/build2-packaging/nlohmann-json) | 0 | 2025-07-01T17:26:50Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [sa501428/EigenVector](https://github.com/sa501428/EigenVector) | 0 | 2025-05-29T19:13:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [spacemeshos/app-spacemesh](https://github.com/spacemeshos/app-spacemesh) | 0 | 2025-04-23T15:52:48Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [ABRG-Models/morphologica_template](https://github.com/ABRG-Models/morphologica_template) | 0 | 2025-04-02T09:34:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ShenhanQian/nvdiffrast](https://github.com/ShenhanQian/nvdiffrast) | 0 | 2024-10-06T14:16:56Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [eaplatanios/triton](https://github.com/eaplatanios/triton) | 0 | 2024-08-01T01:35:50Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 7 |
 | [cginternals/glscbinding-poc](https://github.com/cginternals/glscbinding-poc) | 0 | 2024-02-28T09:36:16Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
@@ -45,6 +46,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chelini/libxsmm](https://github.com/chelini/libxsmm) | 0 | 2022-07-22T08:12:34Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [tipi-deps/example-mapmap_cpu](https://github.com/tipi-deps/example-mapmap_cpu) | 0 | 2022-05-27T15:34:51Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [boingoing/node-sass](https://github.com/boingoing/node-sass) | 0 | 2022-02-19T07:43:10Z | C/C++ | Unknown | 0 | 27 | 0 | 0 |
+| [alexrich021/fusibile](https://github.com/alexrich021/fusibile) | 0 | 2021-12-02T01:37:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mikesteglich/coliop](https://github.com/MikeSteglich/Coliop) | 0 | 2021-09-09T16:48:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [acts-project/opendatadetector](https://github.com/acts-project/OpenDataDetector) | 0 | 2021-08-30T13:31:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
@@ -63,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [build2-packaging/nlohmann-json](https://github.com/build2-packaging/nlohmann-json) | 0 | 2025-07-01T17:26:50Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [sa501428/EigenVector](https://github.com/sa501428/EigenVector) | 0 | 2025-05-29T19:13:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [spacemeshos/app-spacemesh](https://github.com/spacemeshos/app-spacemesh) | 0 | 2025-04-23T15:52:48Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [ABRG-Models/morphologica_template](https://github.com/ABRG-Models/morphologica_template) | 0 | 2025-04-02T09:34:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ShenhanQian/nvdiffrast](https://github.com/ShenhanQian/nvdiffrast) | 0 | 2024-10-06T14:16:56Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [eaplatanios/triton](https://github.com/eaplatanios/triton) | 0 | 2024-08-01T01:35:50Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 7 |
 | [cginternals/glscbinding-poc](https://github.com/cginternals/glscbinding-poc) | 0 | 2024-02-28T09:36:16Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
@@ -71,5 +74,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chelini/libxsmm](https://github.com/chelini/libxsmm) | 0 | 2022-07-22T08:12:34Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [tipi-deps/example-mapmap_cpu](https://github.com/tipi-deps/example-mapmap_cpu) | 0 | 2022-05-27T15:34:51Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [boingoing/node-sass](https://github.com/boingoing/node-sass) | 0 | 2022-02-19T07:43:10Z | C/C++ | Unknown | 0 | 27 | 0 | 0 |
+| [alexrich021/fusibile](https://github.com/alexrich021/fusibile) | 0 | 2021-12-02T01:37:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mikesteglich/coliop](https://github.com/MikeSteglich/Coliop) | 0 | 2021-09-09T16:48:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [acts-project/opendatadetector](https://github.com/acts-project/OpenDataDetector) | 0 | 2021-08-30T13:31:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 110
-- components: 131
-- concepts: 110
-- observations: 110
+- repos: 22
+- terms: 194
+- components: 202
+- concepts: 194
+- observations: 195
 
 ## Static behavior
 
@@ -26,40 +26,52 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 859 | 2026-06-25T06:52:15Z | Python | CLI | 11 | 10 | 11 | 11 |
+| [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 521 | 2026-06-26T02:57:47Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [ansys/pymapdl](https://github.com/ansys/pymapdl) | 498 | 2026-06-26T00:07:01Z | Python | CLI | 16 | 31 | 16 | 16 |
+| [meta-pytorch/torchft](https://github.com/meta-pytorch/torchft) | 514 | 2026-06-25T22:50:17Z | Python | Infrastructure/tooling | 14 | 6 | 14 | 15 |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 690 | 2026-06-25T22:44:58Z | Python | Infrastructure/tooling | 1 | 13 | 1 | 1 |
+| [bjlittle/geovista](https://github.com/bjlittle/geovista) | 229 | 2026-06-25T14:21:43Z | Python | Infrastructure/tooling | 17 | 16 | 17 | 17 |
+| [gbionics/jaxsim](https://github.com/gbionics/jaxsim) | 197 | 2026-06-25T12:45:25Z | Python | Infrastructure/tooling | 18 | 13 | 18 | 18 |
+| [ashawkey/kiuikit](https://github.com/ashawkey/kiuikit) | 323 | 2026-06-25T09:09:44Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 860 | 2026-06-25T06:52:15Z | Python | CLI | 11 | 10 | 11 | 11 |
 | [Jamorim-esss/pytest-rich](https://github.com/Jamorim-esss/pytest-rich) | 255 | 2026-06-25T03:03:17Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 521 | 2026-06-25T02:34:53Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [NCAS-CMS/pyfive](https://github.com/NCAS-CMS/pyfive) | 104 | 2026-06-24T15:49:53Z | Python | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [tox-dev/filelock](https://github.com/tox-dev/filelock) | 961 | 2026-06-24T14:11:22Z | Python | Infrastructure/tooling | 4 | 8 | 4 | 4 |
-| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 690 | 2026-06-24T12:37:45Z | Python | Infrastructure/tooling | 1 | 12 | 1 | 1 |
+| [aramis-lab/clinica](https://github.com/aramis-lab/clinica) | 284 | 2026-06-24T10:01:22Z | Python | CLI | 17 | 6 | 17 | 17 |
 | [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 299 | 2026-06-24T06:59:05Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [PyCQA/autoflake](https://github.com/PyCQA/autoflake) | 956 | 2026-06-24T05:52:18Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [facebookresearch/MHR](https://github.com/facebookresearch/MHR) | 728 | 2026-06-23T19:10:13Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 912 | 2026-06-23T18:39:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [andfoy/pywinpty](https://github.com/andfoy/pywinpty) | 158 | 2026-06-23T02:22:19Z | Python | CLI | 16 | 4 | 16 | 16 |
 | [claritychallenge/clarity](https://github.com/claritychallenge/clarity) | 186 | 2026-06-22T22:03:40Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [pylint-dev/pylint-django](https://github.com/pylint-dev/pylint-django) | 622 | 2026-06-22T21:45:01Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 563 | 2026-06-22T20:32:47Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
-| [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 173 | 2026-06-22T14:17:03Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 174 | 2026-06-22T14:17:03Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [adtzlr/felupe](https://github.com/adtzlr/felupe) | 176 | 2026-06-22T10:12:42Z | Python | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [BBC-Esq/Faster-Whisper-Transcriber](https://github.com/BBC-Esq/Faster-Whisper-Transcriber) | 201 | 2026-06-21T21:45:37Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [NVIDIA-NeMo/Automodel](https://github.com/NVIDIA-NeMo/Automodel) | 610 | 2026-06-21T19:56:57Z | Python | Infrastructure/tooling | 21 | 20 | 21 | 21 |
-| [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 740 | 2026-06-19T22:04:42Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [tox-dev/filelock](https://github.com/tox-dev/filelock) | 961 | 2026-06-24T14:11:22Z | Python | Infrastructure/tooling | 4 | 8 | 4 | 4 |
-| [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 912 | 2026-06-23T18:39:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 859 | 2026-06-25T06:52:15Z | Python | CLI | 11 | 10 | 11 | 11 |
-| [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 740 | 2026-06-19T22:04:42Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [PyCQA/autoflake](https://github.com/PyCQA/autoflake) | 956 | 2026-06-24T05:52:18Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
+| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 860 | 2026-06-25T06:52:15Z | Python | CLI | 11 | 10 | 11 | 11 |
 | [facebookresearch/MHR](https://github.com/facebookresearch/MHR) | 728 | 2026-06-23T19:10:13Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 690 | 2026-06-24T12:37:45Z | Python | Infrastructure/tooling | 1 | 12 | 1 | 1 |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 690 | 2026-06-25T22:44:58Z | Python | Infrastructure/tooling | 1 | 13 | 1 | 1 |
+| [pylint-dev/pylint-django](https://github.com/pylint-dev/pylint-django) | 622 | 2026-06-22T21:45:01Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [NVIDIA-NeMo/Automodel](https://github.com/NVIDIA-NeMo/Automodel) | 610 | 2026-06-21T19:56:57Z | Python | Infrastructure/tooling | 21 | 20 | 21 | 21 |
 | [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 563 | 2026-06-22T20:32:47Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
-| [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 521 | 2026-06-25T02:34:53Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 521 | 2026-06-26T02:57:47Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [meta-pytorch/torchft](https://github.com/meta-pytorch/torchft) | 514 | 2026-06-25T22:50:17Z | Python | Infrastructure/tooling | 14 | 6 | 14 | 15 |
+| [ansys/pymapdl](https://github.com/ansys/pymapdl) | 498 | 2026-06-26T00:07:01Z | Python | CLI | 16 | 31 | 16 | 16 |
+| [ashawkey/kiuikit](https://github.com/ashawkey/kiuikit) | 323 | 2026-06-25T09:09:44Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 299 | 2026-06-24T06:59:05Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [aramis-lab/clinica](https://github.com/aramis-lab/clinica) | 284 | 2026-06-24T10:01:22Z | Python | CLI | 17 | 6 | 17 | 17 |
 | [Jamorim-esss/pytest-rich](https://github.com/Jamorim-esss/pytest-rich) | 255 | 2026-06-25T03:03:17Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [bjlittle/geovista](https://github.com/bjlittle/geovista) | 229 | 2026-06-25T14:21:43Z | Python | Infrastructure/tooling | 17 | 16 | 17 | 17 |
 | [BBC-Esq/Faster-Whisper-Transcriber](https://github.com/BBC-Esq/Faster-Whisper-Transcriber) | 201 | 2026-06-21T21:45:37Z | Python | Unknown | 7 | 0 | 7 | 7 |
+| [gbionics/jaxsim](https://github.com/gbionics/jaxsim) | 197 | 2026-06-25T12:45:25Z | Python | Infrastructure/tooling | 18 | 13 | 18 | 18 |
 | [claritychallenge/clarity](https://github.com/claritychallenge/clarity) | 186 | 2026-06-22T22:03:40Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 173 | 2026-06-22T14:17:03Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [adtzlr/felupe](https://github.com/adtzlr/felupe) | 176 | 2026-06-22T10:12:42Z | Python | Infrastructure/tooling | 12 | 5 | 12 | 12 |
+| [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 174 | 2026-06-22T14:17:03Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [andfoy/pywinpty](https://github.com/andfoy/pywinpty) | 158 | 2026-06-23T02:22:19Z | Python | CLI | 16 | 4 | 16 | 16 |
-| [NCAS-CMS/pyfive](https://github.com/NCAS-CMS/pyfive) | 104 | 2026-06-24T15:49:53Z | Python | Infrastructure/tooling | 4 | 13 | 4 | 4 |

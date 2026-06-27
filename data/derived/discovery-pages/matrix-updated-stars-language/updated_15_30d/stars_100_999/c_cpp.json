@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 4,
-    "terms": 29
+    "components": 39,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 7,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "appelmar/gdalcubes",
     "celtera/libremidi",
+    "ChiyukiGana/Quickinput",
+    "haasn/libplacebo",
     "kantv-ai/kantv",
+    "mudler/locate-anything.cpp",
     "pyvista/fast-simplification"
   ]
 }

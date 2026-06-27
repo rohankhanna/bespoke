@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2384,
-    "concepts": 450,
-    "observations": 451,
-    "repos": 85,
-    "terms": 460
+    "components": 2459,
+    "concepts": 454,
+    "observations": 455,
+    "repos": 88,
+    "terms": 470
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -22,6 +22,7 @@
     "aelassas/bookcars",
     "agentscope-ai/agentscope-studio",
     "akshaykmr/teletype",
+    "amariichi/VideoDepthViewer3D",
     "antfu-collective/bumpp",
     "antfu-collective/eslint-vitest-rule-tester",
     "antfu/changelogithub",
@@ -31,6 +32,7 @@
     "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
     "avli/clojureVSCode",
+    "aws-samples/dify-self-hosted-on-aws",
     "axel-op/googlejavaformat-action",
     "aymenfurter/ralph",
     "bvaughn/react-window-infinite-loader",
@@ -64,6 +66,7 @@
     "latex-lsp/texlab-vscode",
     "LeDDGroup/typescript-transform-paths",
     "lobehub/lobe-charts",
+    "lobehub/lobe-midjourney-webui",
     "lobehub/lobe-tts",
     "lostintangent/gistpad-mcp",
     "Lusito/webextension-polyfill-ts",

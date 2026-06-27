@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4797,
+    "components": 4844,
     "concepts": 1079,
     "observations": 1079,
-    "repos": 387,
-    "terms": 1066
+    "repos": 389,
+    "terms": 1067
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -219,6 +219,8 @@
     "jpedroschmitz/gatsby-starter-rocketdocs",
     "jpedroschmitz/rocketdocs",
     "JS-DevTools/version-bump-prompt",
+    "jtydhr88/sd-3dmodel-loader",
+    "jtydhr88/sd-webui-3d-editor",
     "JunoLab/atom-julia-client",
     "Jupyter-contrib/jupyter_nbextensions_configurator",
     "jupyter-widgets/pythreejs",

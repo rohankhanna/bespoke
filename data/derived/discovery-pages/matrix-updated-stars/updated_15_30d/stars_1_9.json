@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 16,
-    "terms": 63
+    "components": 19,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 18,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "aidenlab/juicebox-web",
     "Archerkattri/fast-trellis2",
@@ -27,7 +27,9 @@
     "elixir-makeup/makeup_c",
     "git-up/libgit2",
     "hermit-os/rust-std-hermit",
+    "psmux/scoop-psmux",
     "rocq-community/docker-base",
+    "Vodes/muxtools-doc",
     "xuanji86/ainiee-translate-skill"
   ]
 }

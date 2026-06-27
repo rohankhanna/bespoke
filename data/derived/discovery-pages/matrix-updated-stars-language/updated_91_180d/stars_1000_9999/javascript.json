@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1274,
-    "concepts": 321,
-    "observations": 322,
-    "repos": 61,
-    "terms": 317
+    "components": 1336,
+    "concepts": 339,
+    "observations": 340,
+    "repos": 62,
+    "terms": 335
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "Adobe-CEP/Samples",
@@ -32,6 +32,7 @@
     "danmactough/node-feedparser",
     "developit/microbundle",
     "dherault/serverless-offline",
+    "dooy/chatgpt-web-midjourney-proxy",
     "dwyl/learn-json-web-tokens",
     "engineer-man/piston",
     "facebook/fbjs",

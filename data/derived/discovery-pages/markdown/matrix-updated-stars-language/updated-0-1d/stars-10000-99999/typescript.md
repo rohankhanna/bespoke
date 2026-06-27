@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 140
-- components: 565
-- concepts: 131
-- observations: 133
+- repos: 7
+- terms: 147
+- components: 599
+- concepts: 138
+- observations: 140
 
 ## Static behavior
 
@@ -26,20 +26,22 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27693 | 2026-06-26T00:34:01Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90435 | 2026-06-26T00:17:04Z | TypeScript | Infrastructure/tooling | 22 | 28 | 22 | 24 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18856 | 2026-06-26T00:03:39Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 61467 | 2026-06-25T23:59:24Z | TypeScript | Infrastructure/tooling | 44 | 29 | 35 | 35 |
-| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43881 | 2026-06-25T16:30:46Z | TypeScript | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 79083 | 2026-06-25T13:33:14Z | TypeScript | Infrastructure/tooling | 15 | 391 | 15 | 15 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 79142 | 2026-06-27T05:06:00Z | TypeScript | Infrastructure/tooling | 15 | 391 | 15 | 15 |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 61649 | 2026-06-27T00:34:48Z | TypeScript | Infrastructure/tooling | 44 | 29 | 35 | 35 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90446 | 2026-06-26T23:02:21Z | TypeScript | Infrastructure/tooling | 22 | 28 | 22 | 24 |
+| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43898 | 2026-06-26T15:57:24Z | TypeScript | Infrastructure/tooling | 24 | 13 | 24 | 24 |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17855 | 2026-06-26T08:25:02Z | TypeScript | Infrastructure/tooling | 7 | 34 | 7 | 7 |
+| [unocss/unocss](https://github.com/unocss/unocss) | 18855 | 2026-06-26T08:06:32Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27695 | 2026-06-26T07:19:49Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90435 | 2026-06-26T00:17:04Z | TypeScript | Infrastructure/tooling | 22 | 28 | 22 | 24 |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 79083 | 2026-06-25T13:33:14Z | TypeScript | Infrastructure/tooling | 15 | 391 | 15 | 15 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 61467 | 2026-06-25T23:59:24Z | TypeScript | Infrastructure/tooling | 44 | 29 | 35 | 35 |
-| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43881 | 2026-06-25T16:30:46Z | TypeScript | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27693 | 2026-06-26T00:34:01Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18856 | 2026-06-26T00:03:39Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90446 | 2026-06-26T23:02:21Z | TypeScript | Infrastructure/tooling | 22 | 28 | 22 | 24 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 79142 | 2026-06-27T05:06:00Z | TypeScript | Infrastructure/tooling | 15 | 391 | 15 | 15 |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 61649 | 2026-06-27T00:34:48Z | TypeScript | Infrastructure/tooling | 44 | 29 | 35 | 35 |
+| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43898 | 2026-06-26T15:57:24Z | TypeScript | Infrastructure/tooling | 24 | 13 | 24 | 24 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27695 | 2026-06-26T07:19:49Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
+| [unocss/unocss](https://github.com/unocss/unocss) | 18855 | 2026-06-26T08:06:32Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17855 | 2026-06-26T08:25:02Z | TypeScript | Infrastructure/tooling | 7 | 34 | 7 | 7 |

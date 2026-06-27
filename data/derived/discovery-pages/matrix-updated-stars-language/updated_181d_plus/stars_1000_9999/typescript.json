@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2818,
-    "concepts": 485,
-    "observations": 486,
-    "repos": 99,
-    "terms": 494
+    "components": 2823,
+    "concepts": 488,
+    "observations": 489,
+    "repos": 100,
+    "terms": 497
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "101arrowz/fflate",
@@ -95,6 +95,7 @@
     "semperai/amica",
     "serafimcloud/21st",
     "sindresorhus/modern-normalize",
+    "Stability-AI/StableStudio",
     "streamich/libreact",
     "sveltejs/sapper",
     "sveltejs/svelte-preprocess",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 63131,
-    "concepts": 10949,
-    "observations": 10985,
-    "repos": 1920,
-    "terms": 11250
+    "components": 63243,
+    "concepts": 10974,
+    "observations": 11010,
+    "repos": 1926,
+    "terms": 11276
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -128,6 +128,7 @@
     "allweonedev/presentation-ai",
     "almogdepaz/wolfpack",
     "alonronin/react-tailwind-rsbuild-boilerplate",
+    "amariichi/VideoDepthViewer3D",
     "AmElmo/proofshot",
     "AmesingFlank/taichi.js",
     "amilajack/ast-metadata-inferer",
@@ -624,6 +625,7 @@
     "enxs969/skiller",
     "EpicenterHQ/epicenter",
     "ErKeLost/squoosh-node-latest",
+    "erosmontin/OpenMedView",
     "es-git/es-git",
     "esbuild-kit/cjs-loader",
     "esbuild-kit/esm-loader",
@@ -675,6 +677,7 @@
     "fjc0k/yapi-to-typescript",
     "flageval-baai/LRM-Eval",
     "flathub-infra/website",
+    "flatironinstitute/neurosift",
     "flightcontrolhq/superjson",
     "floating-ui/floating-ui",
     "Floorp-Projects/Floorp",
@@ -699,6 +702,7 @@
     "frandiox/vitesse-ssr-template",
     "frandiox/vitessedge-template",
     "Freed-Wu/coc-write-good",
+    "freesurfer/freebrowse",
     "frenic/csstype",
     "FrontLabsOfficial/vue-tiny-validate",
     "fsouza/prettierd",
@@ -1288,6 +1292,7 @@
     "ngyewch/smile-js",
     "nicolo-ribaudo/engine262",
     "niieani/gpt-tokenizer",
+    "niivue/niivue",
     "NilsJPWerner/autoDocstring",
     "nitrojs/nitro",
     "nizos/tdd-guard",
@@ -1650,6 +1655,7 @@
     "sparkjsdev/spark",
     "sql-formatter-org/sql-formatter",
     "sql-formatter-org/sql-formatter-vscode",
+    "Stability-AI/StableStudio",
     "stackblitz-labs/pkg.pr.new",
     "stacks-archive/gaia",
     "stainless-api/tsc-multi",

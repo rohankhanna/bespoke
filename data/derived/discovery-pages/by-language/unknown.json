@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1658,
-    "concepts": 3028,
-    "observations": 3032,
-    "repos": 1722,
-    "terms": 3036
+    "components": 1660,
+    "concepts": 3048,
+    "observations": 3052,
+    "repos": 1726,
+    "terms": 3056
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -376,6 +376,7 @@
     "conda-forge/cfep",
     "conda-forge/conda-lock-feedstock",
     "conda-forge/equinox-feedstock",
+    "conda-forge/geovista-feedstock",
     "conda-forge/modin-feedstock",
     "conda-forge/pyfive-feedstock",
     "conda-forge/python-build-feedstock",
@@ -419,6 +420,7 @@
     "Culmus/hebrew-fonts",
     "CVEProject/automation-working-group",
     "CVEProject/cvelistV5",
+    "cvxpy/org",
     "cwfitzgerald/libtest-mimic",
     "cyberark/community",
     "D1DX/morning-skill",
@@ -1467,6 +1469,7 @@
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "SamurAIGPT/awesome-openclaw",
     "Sanster/models",
+    "saratheriver/enigma-extra",
     "sarulab-speech/jsut-label",
     "sbingler/Origin-Bound-Cookies",
     "scalar/starter",
@@ -1519,6 +1522,7 @@
     "slatedocs/slate",
     "smithy-lang/awesome-smithy",
     "snwfdhmp/awesome-ralph",
+    "softwareunderground/awesome-open-geoscience",
     "sokra/triomphe",
     "SourceScan/verification-guide",
     "sp1-patches/bn",

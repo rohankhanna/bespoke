@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 6,
-    "terms": 18
+    "components": 29,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 4,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "drmingdrmer/databend-meta",
-    "hyper-mcp-rs/context7-plugin",
-    "hyper-mcp-rs/defuddle-plugin",
     "lakekeeper/iceberg-rust",
     "squidowl/iced",
     "UnknownPlatypus/markup_fmt"

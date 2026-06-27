@@ -1,47 +1,45 @@
 {
   "counts": {
-    "components": 482,
-    "concepts": 342,
-    "observations": 343,
-    "repos": 30,
-    "terms": 337
+    "components": 476,
+    "concepts": 306,
+    "observations": 306,
+    "repos": 28,
+    "terms": 306
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "apache/brpc",
     "apache/casbin",
+    "argotorg/solidity",
     "browserslist/browserslist",
-    "Comfy-Org/ComfyUI-Manager",
     "datalab-to/marker",
     "dense-analysis/ale",
     "DioxusLabs/dioxus",
+    "fossasia/visdom",
     "gastownhall/gastown",
-    "ggml-org/whisper.cpp",
-    "isl-org/Open3D",
+    "git-lfs/git-lfs",
+    "huggingface/pytorch-image-models",
     "jestjs/jest",
     "lancedb/lancedb",
-    "langchain-ai/langchainjs",
+    "Lightning-AI/litgpt",
     "mixmark-io/turndown",
-    "modelscope/ms-swift",
+    "modelscope/FunASR",
     "mozilla-ai/llamafile",
+    "NVIDIA-NeMo/NeMo",
     "podman-container-tools/podman",
     "psf/black",
     "ratatui/ratatui",
-    "run-llama/llama_index",
+    "redis/go-redis",
     "rust-lang/mdBook",
-    "spaceship-prompt/spaceship-prompt",
     "TA-Lib/ta-lib-python",
+    "TEN-framework/ten-framework",
     "tinygrad/tinygrad",
-    "tracel-ai/burn",
-    "ungoogled-software/ungoogled-chromium",
-    "upptime/upptime",
-    "vercel-labs/skills",
-    "zhayujie/CowAgent"
+    "vega/altair"
   ]
 }

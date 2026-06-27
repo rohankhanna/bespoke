@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 431
-- components: 776
-- concepts: 433
-- observations: 436
+- repos: 32
+- terms: 430
+- components: 773
+- concepts: 432
+- observations: 435
 
 ## Static behavior
 
@@ -58,14 +58,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/array-int32](https://github.com/stdlib-js/array-int32) | 2 | 2026-04-29T03:46:02Z | JavaScript | Infrastructure/tooling | 21 | 28 | 21 | 21 |
 | [stdlib-js/array-uint8](https://github.com/stdlib-js/array-uint8) | 2 | 2026-04-29T03:43:51Z | JavaScript | Infrastructure/tooling | 23 | 28 | 23 | 23 |
 | [thetutlage/static](https://github.com/thetutlage/static) | 3 | 2026-04-28T12:16:02Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
-| [celo-org/blind-threshold-bls-wasm](https://github.com/celo-org/blind-threshold-bls-wasm) | 9 | 2026-04-27T08:32:49Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [alphagov/stylelint-config-gds](https://github.com/alphagov/stylelint-config-gds) | 9 | 2026-05-04T04:53:06Z | JavaScript | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [celo-org/blind-threshold-bls-wasm](https://github.com/celo-org/blind-threshold-bls-wasm) | 9 | 2026-04-27T08:32:49Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [Luligu/matterbridge-somfy-tahoma](https://github.com/Luligu/matterbridge-somfy-tahoma) | 8 | 2026-05-12T12:04:28Z | JavaScript | Infrastructure/tooling | 16 | 30 | 16 | 16 |
 | [rvagg/js-bitcoin-block](https://github.com/rvagg/js-bitcoin-block) | 8 | 2026-04-29T12:25:40Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [ioBroker/plugin-sentry](https://github.com/ioBroker/plugin-sentry) | 7 | 2026-05-08T01:12:00Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 7 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 699,
-    "concepts": 634,
-    "observations": 636,
-    "repos": 45,
-    "terms": 634
+    "components": 667,
+    "concepts": 614,
+    "observations": 616,
+    "repos": 43,
+    "terms": 614
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
-    "a-h/templ",
     "anchore/grype",
     "argoproj/argo-workflows",
     "authelia/authelia",
@@ -30,7 +29,6 @@
     "DNSCrypt/dnscrypt-proxy",
     "etcd-io/etcd",
     "flipped-aurora/gin-vue-admin",
-    "getsops/sops",
     "go-gitea/gitea",
     "go-playground/validator",
     "go-sql-driver/mysql",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 465,
-    "concepts": 605,
-    "observations": 605,
-    "repos": 54,
-    "terms": 601
+    "components": 444,
+    "concepts": 553,
+    "observations": 553,
+    "repos": 50,
+    "terms": 549
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "alibaba/spring-ai-alibaba",
@@ -30,17 +30,13 @@
     "checkstyle/checkstyle",
     "ClickHouse/clickhouse-java",
     "cloudfoundry/uaa",
-    "confluentinc/examples",
     "confluentinc/schema-registry",
     "dlew/joda-time-android",
     "dropwizard/dropwizard",
-    "dylibso/chicory",
     "FasterXML/jackson-core",
     "FasterXML/jackson-databind",
     "firebase/firebase-android-sdk",
-    "flyway/flyway",
     "google/conscrypt",
-    "google/tsunami-security-scanner-plugins",
     "googleapis/google-cloud-java",
     "hazelcast/hazelcast",
     "iterate-ch/cyberduck",

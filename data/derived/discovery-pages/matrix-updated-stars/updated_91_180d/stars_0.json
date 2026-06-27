@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 389,
+    "components": 398,
     "concepts": 190,
     "observations": 192,
-    "repos": 124,
-    "terms": 191
+    "repos": 126,
+    "terms": 192
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -86,6 +86,7 @@
     "hermit-os/tokio",
     "Hitesh-Aggarwal/dotfiles",
     "iambriccardo/gcp-bigquery-client",
+    "imlixinyang/FlashWorld-Project-Page",
     "jackielii/qmk_firmware",
     "jrsoftware/is7z",
     "JuliaBinaryWrappers/FreeType2_jll.jl",
@@ -105,6 +106,7 @@
     "musicman3/cruder",
     "musicman3/r2-d2",
     "Nambers/ssrJSON-benchmark",
+    "neuroverseos/negotiator",
     "nibir1/vaultsim",
     "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-data",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1094,
-    "concepts": 227,
-    "observations": 228,
-    "repos": 29,
-    "terms": 264
+    "components": 1110,
+    "concepts": 242,
+    "observations": 243,
+    "repos": 31,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "airbnb/javascript",
@@ -22,6 +22,7 @@
     "denoland/deno",
     "facebook/react",
     "facebook/react-native",
+    "fatedier/frp",
     "flutter/flutter",
     "golang/go",
     "google-gemini/gemini-cli",
@@ -41,6 +42,7 @@
     "tauri-apps/tauri",
     "tensorflow/tensorflow",
     "torvalds/linux",
+    "vinta/awesome-python",
     "yt-dlp/yt-dlp"
   ]
 }

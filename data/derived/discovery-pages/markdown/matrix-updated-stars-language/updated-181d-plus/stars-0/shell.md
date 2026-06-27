@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Shell
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
+- repos: 11
 - terms: 17
 - components: 27
 - concepts: 17
@@ -35,6 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flathub/io.github.TTimo.GtkRadiant](https://github.com/flathub/io.github.TTimo.GtkRadiant) | 0 | 2024-01-22T03:20:08Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [0ghny/asdf-tlsgcli](https://github.com/0ghny/asdf-tlsgcli) | 0 | 2023-05-28T17:19:02Z | Shell | CLI | 2 | 4 | 2 | 2 |
 | [yatsuki/v2ray-release](https://github.com/yatsuki/v2ray-release) | 0 | 2022-02-23T12:27:28Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [avery-water/twice_exceptionality_repository](https://github.com/avery-water/twice_exceptionality_repository) | 0 | 2022-01-23T23:30:22Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [cgrindel/bazel_shlib](https://github.com/cgrindel/bazel_shlib) | 0 | 2022-01-03T22:57:06Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 
 ## Repos sorted by stars
@@ -50,4 +51,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flathub/io.github.TTimo.GtkRadiant](https://github.com/flathub/io.github.TTimo.GtkRadiant) | 0 | 2024-01-22T03:20:08Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [0ghny/asdf-tlsgcli](https://github.com/0ghny/asdf-tlsgcli) | 0 | 2023-05-28T17:19:02Z | Shell | CLI | 2 | 4 | 2 | 2 |
 | [yatsuki/v2ray-release](https://github.com/yatsuki/v2ray-release) | 0 | 2022-02-23T12:27:28Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [avery-water/twice_exceptionality_repository](https://github.com/avery-water/twice_exceptionality_repository) | 0 | 2022-01-23T23:30:22Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [cgrindel/bazel_shlib](https://github.com/cgrindel/bazel_shlib) | 0 | 2022-01-03T22:57:06Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars
 
-Generated at: `2026-06-26T08:20:01.953396+00:00`
+Generated at: `2026-06-27T06:01:54.861996+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 471
+- repos: 475
 - terms: 584
-- components: 1401
+- components: 1413
 - concepts: 584
 - observations: 586
 
@@ -138,6 +138,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mignonjia/lmgame_train_reorg](https://github.com/mignonjia/lmgame_train_reorg) | 0 | 2025-08-07T20:33:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [haxelime/lime](https://github.com/haxelime/lime) | 0 | 2025-08-06T21:54:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [apache/sling-org-apache-sling-feature-modelconverter](https://github.com/apache/sling-org-apache-sling-feature-modelconverter) | 0 | 2025-08-06T12:35:20Z | Java | Model/data | 4 | 0 | 4 | 4 |
+| [erosmontin/OpenMedView](https://github.com/erosmontin/OpenMedView) | 0 | 2025-08-04T16:05:44Z | TypeScript | Unknown | 0 | 12 | 0 | 0 |
 | [DiligentGraphics/imgui](https://github.com/DiligentGraphics/imgui) | 0 | 2025-08-04T03:41:22Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [meinac/oj-introspect](https://github.com/meinac/oj-introspect) | 0 | 2025-07-30T11:37:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/serfig](https://github.com/datafuse-extras/serfig) | 0 | 2025-07-28T05:58:30Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -197,6 +198,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/FriBidi_jll.jl](https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl) | 0 | 2025-04-04T22:49:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Remote-Jobs-Research-Agent](https://github.com/danielrosehill/Remote-Jobs-Research-Agent) | 0 | 2025-04-04T17:10:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [cmacdonald/colbert](https://github.com/cmacdonald/ColBERT) | 0 | 2025-04-03T17:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [ABRG-Models/morphologica_template](https://github.com/ABRG-Models/morphologica_template) | 0 | 2025-04-02T09:34:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [abiondevelopment/external-dns-webhook-abion](https://github.com/abiondevelopment/external-dns-webhook-abion) | 0 | 2025-03-31T11:40:01Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/snappy_jll.jl](https://github.com/JuliaBinaryWrappers/snappy_jll.jl) | 0 | 2025-03-27T23:51:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [assignUser/delocate](https://github.com/assignUser/delocate) | 0 | 2025-03-26T02:20:32Z | Unknown | Infrastructure/tooling | 0 | 9 | 0 | 0 |
@@ -464,6 +466,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agorshk/daal4py](https://github.com/agorshk/daal4py) | 0 | 2022-02-16T20:17:04Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [edstoica/stylegan3](https://github.com/edstoica/stylegan3) | 0 | 2022-02-07T21:03:47Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [coderaiser/c8-reproduce](https://github.com/coderaiser/c8-reproduce) | 0 | 2022-01-30T16:17:42Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
+| [avery-water/twice_exceptionality_repository](https://github.com/avery-water/twice_exceptionality_repository) | 0 | 2022-01-23T23:30:22Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [chriskiehl/gooeyimages](https://github.com/chriskiehl/GooeyImages) | 0 | 2022-01-23T22:51:03Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [mickaelrigault/pymage](https://github.com/MickaelRigault/pymage) | 0 | 2022-01-23T13:55:40Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [shesek/rust-jsonrpc](https://github.com/shesek/rust-jsonrpc) | 0 | 2022-01-20T03:09:06Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -474,6 +477,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/vite-project-example-minimal](https://github.com/hchiam/vite-project-example-minimal) | 0 | 2021-12-26T21:15:54Z | Other | Unknown | 0 | 1 | 0 | 0 |
 | [curiousnoob/lerna-release-workflow](https://github.com/curiousNoob/lerna-release-workflow) | 0 | 2021-12-18T11:09:17Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cccs-jc/sql-formatter](https://github.com/cccs-jc/sql-formatter) | 0 | 2021-12-07T19:56:57Z | JavaScript | Unknown | 0 | 21 | 0 | 0 |
+| [alexrich021/fusibile](https://github.com/alexrich021/fusibile) | 0 | 2021-12-02T01:37:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [doc-doc/hcrn-bert](https://github.com/doc-doc/HCRN-BERT) | 0 | 2021-11-16T14:20:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [datachainlab/base64](https://github.com/datachainlab/base64) | 0 | 2021-10-28T00:36:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Megvii-BaseDetection/storage](https://github.com/Megvii-BaseDetection/storage) | 0 | 2021-10-27T05:39:48Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
@@ -614,6 +618,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mignonjia/lmgame_train_reorg](https://github.com/mignonjia/lmgame_train_reorg) | 0 | 2025-08-07T20:33:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [haxelime/lime](https://github.com/haxelime/lime) | 0 | 2025-08-06T21:54:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [apache/sling-org-apache-sling-feature-modelconverter](https://github.com/apache/sling-org-apache-sling-feature-modelconverter) | 0 | 2025-08-06T12:35:20Z | Java | Model/data | 4 | 0 | 4 | 4 |
+| [erosmontin/OpenMedView](https://github.com/erosmontin/OpenMedView) | 0 | 2025-08-04T16:05:44Z | TypeScript | Unknown | 0 | 12 | 0 | 0 |
 | [DiligentGraphics/imgui](https://github.com/DiligentGraphics/imgui) | 0 | 2025-08-04T03:41:22Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [meinac/oj-introspect](https://github.com/meinac/oj-introspect) | 0 | 2025-07-30T11:37:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/serfig](https://github.com/datafuse-extras/serfig) | 0 | 2025-07-28T05:58:30Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -673,6 +678,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/FriBidi_jll.jl](https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl) | 0 | 2025-04-04T22:49:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Remote-Jobs-Research-Agent](https://github.com/danielrosehill/Remote-Jobs-Research-Agent) | 0 | 2025-04-04T17:10:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [cmacdonald/colbert](https://github.com/cmacdonald/ColBERT) | 0 | 2025-04-03T17:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [ABRG-Models/morphologica_template](https://github.com/ABRG-Models/morphologica_template) | 0 | 2025-04-02T09:34:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [abiondevelopment/external-dns-webhook-abion](https://github.com/abiondevelopment/external-dns-webhook-abion) | 0 | 2025-03-31T11:40:01Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/snappy_jll.jl](https://github.com/JuliaBinaryWrappers/snappy_jll.jl) | 0 | 2025-03-27T23:51:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [assignUser/delocate](https://github.com/assignUser/delocate) | 0 | 2025-03-26T02:20:32Z | Unknown | Infrastructure/tooling | 0 | 9 | 0 | 0 |
@@ -940,6 +946,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agorshk/daal4py](https://github.com/agorshk/daal4py) | 0 | 2022-02-16T20:17:04Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [edstoica/stylegan3](https://github.com/edstoica/stylegan3) | 0 | 2022-02-07T21:03:47Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [coderaiser/c8-reproduce](https://github.com/coderaiser/c8-reproduce) | 0 | 2022-01-30T16:17:42Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
+| [avery-water/twice_exceptionality_repository](https://github.com/avery-water/twice_exceptionality_repository) | 0 | 2022-01-23T23:30:22Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [chriskiehl/gooeyimages](https://github.com/chriskiehl/GooeyImages) | 0 | 2022-01-23T22:51:03Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [mickaelrigault/pymage](https://github.com/MickaelRigault/pymage) | 0 | 2022-01-23T13:55:40Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [shesek/rust-jsonrpc](https://github.com/shesek/rust-jsonrpc) | 0 | 2022-01-20T03:09:06Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -950,6 +957,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/vite-project-example-minimal](https://github.com/hchiam/vite-project-example-minimal) | 0 | 2021-12-26T21:15:54Z | Other | Unknown | 0 | 1 | 0 | 0 |
 | [curiousnoob/lerna-release-workflow](https://github.com/curiousNoob/lerna-release-workflow) | 0 | 2021-12-18T11:09:17Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cccs-jc/sql-formatter](https://github.com/cccs-jc/sql-formatter) | 0 | 2021-12-07T19:56:57Z | JavaScript | Unknown | 0 | 21 | 0 | 0 |
+| [alexrich021/fusibile](https://github.com/alexrich021/fusibile) | 0 | 2021-12-02T01:37:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [doc-doc/hcrn-bert](https://github.com/doc-doc/HCRN-BERT) | 0 | 2021-11-16T14:20:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [datachainlab/base64](https://github.com/datachainlab/base64) | 0 | 2021-10-28T00:36:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Megvii-BaseDetection/storage](https://github.com/Megvii-BaseDetection/storage) | 0 | 2021-10-27T05:39:48Z | Unknown | Model/data | 0 | 0 | 0 | 0 |

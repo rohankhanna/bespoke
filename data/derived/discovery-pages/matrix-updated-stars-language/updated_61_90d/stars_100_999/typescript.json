@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3963,
-    "concepts": 798,
-    "observations": 798,
-    "repos": 142,
-    "terms": 856
+    "components": 3959,
+    "concepts": 827,
+    "observations": 827,
+    "repos": 145,
+    "terms": 879
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -27,11 +27,11 @@
     "anthropics/claude-code-base-action",
     "appium/appium-adb",
     "appwrite/sdk-for-node",
+    "appwrite/sdk-for-web",
     "astral-sh/ruff-action",
     "atomicmemory/llm-wiki-compiler",
     "Autodesk/synthesis",
     "aws-actions/aws-secretsmanager-get-secrets",
-    "aws-samples/dify-self-hosted-on-aws",
     "aws-samples/swift-chat",
     "aws/aws-iot-device-sdk-js-v2",
     "azat-io/eslint-plugin-de-morgan",
@@ -64,6 +64,7 @@
     "fannheyward/coc-sql",
     "fastify/demo",
     "forcedotcom/code-analyzer",
+    "fsouza/prettierd",
     "giselles-ai/giselle",
     "github/local-action",
     "google/adk-web",
@@ -91,9 +92,9 @@
     "lerna-lite/lerna-lite",
     "lewislulu/llm-wiki-skill",
     "lobehub/lobe-chat-plugins",
-    "lobehub/lobe-midjourney-webui",
     "logux/client",
     "lucasastorian/llmwiki",
+    "luciopaiva/heapify",
     "maltsev/htmlnano",
     "mapillary/mapillary-js",
     "maplibre/ngx-maplibre-gl",
@@ -112,6 +113,7 @@
     "mskelton/eslint-plugin-playwright",
     "napi-rs/package-template",
     "nashaofu/screenshots",
+    "nene/prettier-plugin-sql-cst",
     "neoclide/coc-java",
     "neolabhq/context-engineering-kit",
     "nothingislost/obsidian-hover-editor",
@@ -130,6 +132,7 @@
     "optuna/optuna-dashboard",
     "ory/hydra-login-consent-node",
     "ory/kratos-selfservice-ui-node",
+    "oxc-project/eslint-plugin-oxlint",
     "redhat-developer/vscode-xml",
     "retracedhq/retraced",
     "safe-global/safe-deployments",

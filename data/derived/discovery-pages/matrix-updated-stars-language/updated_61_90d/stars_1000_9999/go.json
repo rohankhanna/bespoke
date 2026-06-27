@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1778,
-    "concepts": 1717,
-    "observations": 1723,
-    "repos": 217,
-    "terms": 1719
+    "components": 1819,
+    "concepts": 1780,
+    "observations": 1788,
+    "repos": 221,
+    "terms": 1776
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -24,6 +24,7 @@
     "alibaba/higress",
     "allegro/bigcache",
     "anacrolix/torrent",
+    "apache/apisix-ingress-controller",
     "apache/dubbo-admin",
     "apache/dubbo-go",
     "apache/incubator-seata-go",
@@ -56,9 +57,9 @@
     "bufbuild/protovalidate",
     "burke/zeus",
     "BurntSushi/toml",
+    "bytedance/sonic",
     "caddyserver/certmagic",
     "candid82/joker",
-    "cenkalti/backoff",
     "chainguard-dev/apko",
     "charmbracelet/bubbles",
     "charmbracelet/freeze",
@@ -109,6 +110,7 @@
     "gin-gonic/examples",
     "go-flutter-desktop/go-flutter",
     "go-logr/logr",
+    "go-spatial/tegola",
     "go-swagger/go-swagger",
     "goccy/go-yaml",
     "gokcehan/lf",
@@ -125,6 +127,7 @@
     "GoogleCloudPlatform/berglas",
     "GoogleContainerTools/container-structure-test",
     "gopasspw/gopass",
+    "goreleaser/nfpm",
     "gotestyourself/gotestsum",
     "grafana/alloy",
     "grpc-ecosystem/grpc-health-probe",
@@ -155,7 +158,9 @@
     "kubernetes-sigs/external-dns",
     "kubernetes-sigs/kubebuilder",
     "kubernetes-sigs/metrics-server",
+    "kubernetes-sigs/node-feature-discovery",
     "kubernetes-sigs/prometheus-adapter",
+    "kubernetes-sigs/sig-storage-local-static-provisioner",
     "kubernetes/autoscaler",
     "kubernetes/client-go",
     "kubernetes/enhancements",
@@ -205,7 +210,6 @@
     "sigstore/gitsign",
     "sigstore/rekor",
     "smallnest/rpcx",
-    "smtg-ai/claude-squad",
     "SpecterOps/BloodHound",
     "StackExchange/dnscontrol",
     "stripe/smokescreen",

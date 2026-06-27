@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 582,
-    "concepts": 1152,
-    "observations": 1152,
-    "repos": 206,
-    "terms": 1141
+    "concepts": 1133,
+    "observations": 1133,
+    "repos": 208,
+    "terms": 1122
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -45,6 +45,7 @@
     "breezedeus/CnOCR",
     "brycedrennan/imaginAIry",
     "buriy/python-readability",
+    "ByteDance-Seed/Depth-Anything-3",
     "ByteDance-Seed/SeedVR",
     "bytetriper/RAE",
     "chatopera/Synonyms",
@@ -74,7 +75,6 @@
     "docarray/docarray",
     "dolfies/discord.py-self",
     "dynaconf/dynaconf",
-    "emilianavt/OpenSeeFace",
     "explosion/spacy-models",
     "facebookincubator/submitit",
     "facebookresearch/fvcore",
@@ -84,6 +84,7 @@
     "facebookresearch/pytorchvideo",
     "facebookresearch/sam-3d-body",
     "facebookresearch/SlowFast",
+    "Fannovel16/ComfyUI-Frame-Interpolation",
     "Farama-Foundation/Metaworld",
     "FlagOpen/RoboBrain2.5",
     "google-deepmind/alphageometry",
@@ -140,7 +141,6 @@
     "mozillazg/pinyin-data",
     "MrForExample/ComfyUI-3D-Pack",
     "myhub/tr",
-    "NixOS/nixops",
     "novnc/websockify",
     "nschloe/awesome-scientific-computing",
     "nunchaku-ai/ComfyUI-nunchaku",
@@ -162,6 +162,7 @@
     "PaddlePaddle/PaddleSeg",
     "PaddlePaddle/PaddleSlim",
     "palantir/python-language-server",
+    "Parskatt/RoMa",
     "paulocoutinhox/pdfium-lib",
     "pdfminer/pdfminer.six",
     "pfnet/pfrl",
@@ -195,6 +196,7 @@
     "snakers4/silero-vad",
     "Softcatala/whisper-ctranslate2",
     "SublimeLinter/SublimeLinter",
+    "tabatkins/railroad-diagrams",
     "TencentCloudADP/youtu-agent",
     "tensorflow/agents",
     "tensorflow/datasets",

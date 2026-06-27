@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 63,
-    "observations": 63,
+    "components": 54,
+    "concepts": 62,
+    "observations": 62,
     "repos": 20,
-    "terms": 64
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "Aedelon/claude-code-blueprint",
     "alchemiststudiosDOTai/harness-engineering",
     "coin-or/coinbrew",
+    "conda-forge/spacy-feedstock",
     "containers/image_build",
     "erikw/tmux-dark-notify",
     "graphql/composite-schemas-spec",
@@ -32,7 +33,6 @@
     "nodenv/nodenv-update",
     "quicwg/qlog",
     "robertguss/claude-code-toolkit",
-    "rubyjs/libv8-node",
     "SonarSource/sonar-developer-toolset"
   ]
 }

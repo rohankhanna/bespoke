@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 795,
-    "concepts": 731,
-    "observations": 732,
-    "repos": 89,
-    "terms": 729
+    "components": 747,
+    "concepts": 683,
+    "observations": 684,
+    "repos": 82,
+    "terms": 681
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "andreykaipov/goobs",
     "apache/dubbo-go-hessian2",
     "apache/iceberg-go",
-    "apache/pulsar-client-go",
     "aquasecurity/trivy-db",
     "argoproj-labs/argocd-agent",
     "argoproj-labs/argocd-operator",
@@ -28,8 +27,6 @@
     "Azure/azure-storage-fuse",
     "Azure/karpenter-provider-azure",
     "betterleaks/betterleaks",
-    "bitrise-io/bitrise",
-    "boj/redistore",
     "buildpacks/lifecycle",
     "celzero/firestack",
     "charmbracelet/x",
@@ -46,12 +43,10 @@
     "cosmos/ibc-go",
     "cosmos/interchain-security",
     "CosmWasm/wasmd",
-    "CosmWasm/wasmvm",
     "dgraph-io/dgraph-benchmarks",
     "dydxprotocol/v4-chain",
     "energye/energy",
     "fnproject/cli",
-    "go-logr/zapr",
     "go-openapi/strfmt",
     "gofiber/contrib",
     "gofrs/flock",
@@ -79,7 +74,6 @@
     "osmosis-labs/osmosis",
     "pion/ice",
     "pion/interceptor",
-    "pion/mediadevices",
     "pion/rtp",
     "pion/stun",
     "pkoukk/tiktoken-go",
@@ -98,7 +92,6 @@
     "suzuki-shunsuke/ghtkn",
     "suzuki-shunsuke/pinact",
     "sylabs/singularity",
-    "theupdateframework/go-tuf",
     "toml-lang/toml-test",
     "usbarmory/go-boot",
     "web-infra-dev/rslint",

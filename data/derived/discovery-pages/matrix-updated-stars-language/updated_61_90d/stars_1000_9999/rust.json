@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1736,
-    "concepts": 1228,
-    "observations": 1236,
-    "repos": 179,
-    "terms": 1239
+    "components": 1794,
+    "concepts": 1287,
+    "observations": 1296,
+    "repos": 188,
+    "terms": 1297
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -46,8 +46,11 @@
     "bytedance/monoio",
     "Canop/bacon",
     "cberner/fuser",
+    "ccbrown/iocraft",
     "cedar-policy/cedar",
+    "chelsea0x3b/cudarc",
     "chronotope/chrono",
+    "cobalt-org/cobalt.rs",
     "compio-rs/compio",
     "crate-ci/typos",
     "crev-dev/cargo-crev",
@@ -66,7 +69,9 @@
     "EricLBuehler/mistral.rs",
     "esp-rs/esp-hal",
     "eventual-inc/daft",
+    "eycorsican/leaf",
     "eyre-rs/eyre",
+    "fitzgen/bumpalo",
     "flamegraph-rs/flamegraph",
     "fltk-rs/fltk-rs",
     "freenet/freenet-core",
@@ -94,6 +99,7 @@
     "Keats/tera",
     "kika/fixedsys",
     "killercup/cargo-edit",
+    "kivikakk/comrak",
     "lalrpop/lalrpop",
     "latex-lsp/texlab",
     "libp2p/rust-libp2p",
@@ -134,6 +140,7 @@
     "paradigmxyz/reth",
     "pdeljanov/Symphonia",
     "pgcentralfoundation/pgrx",
+    "pkgxdev/pkgx",
     "plotters-rs/plotters",
     "pop-os/cosmic-text",
     "proptest-rs/proptest",
@@ -160,6 +167,7 @@
     "rust-postgres/rust-postgres",
     "rust-windowing/glutin",
     "rust-windowing/winit",
+    "RustAudio/rodio",
     "rustls/rustls",
     "rustsec/rustsec",
     "ruvnet/ruvector",
@@ -171,6 +179,7 @@
     "servo/pathfinder",
     "sharkdp/pastel",
     "sigp/lighthouse",
+    "skim-rs/skim",
     "smallcloudai/refact",
     "snapview/tokio-tungstenite",
     "snapview/tungstenite-rs",

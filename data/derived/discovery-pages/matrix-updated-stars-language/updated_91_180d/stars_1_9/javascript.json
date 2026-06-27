@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 209,
-    "concepts": 91,
-    "observations": 91,
-    "repos": 28,
-    "terms": 91
+    "components": 273,
+    "concepts": 152,
+    "observations": 152,
+    "repos": 31,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-compiler",
     "3swordman/tree-sitter-toon",
@@ -41,6 +41,9 @@
     "lukasz-wronski/Antigravity-Shit-Chat",
     "qiuyu96/CoDeF",
     "REditorSupport/vscode-R-syntax",
+    "stdlib-js/array-buffer",
+    "stdlib-js/array-dtypes",
+    "stdlib-js/array-typed-dtypes",
     "tc39/proposal-intl-keep-trailing-zeros"
   ]
 }

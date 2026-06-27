@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 3,
-    "terms": 27
+    "components": 78,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 4,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "swiftlang/swift",
     "triton-lang/triton",
+    "upptime/upptime",
     "vbenjs/vue-vben-admin"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 387,
-    "concepts": 138,
-    "observations": 138,
-    "repos": 21,
-    "terms": 138
+    "components": 372,
+    "concepts": 136,
+    "observations": 136,
+    "repos": 19,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "8hobbies/vite-plugin-year",
@@ -24,8 +24,6 @@
     "ecyrbe/zodios-plugins",
     "filecoin-project/github-mgmt",
     "fluent-vue/unplugin-fluent-vue",
-    "haskell-actions/hlint-run",
-    "haskell-actions/hlint-setup",
     "ipfs-shipyard/github-mgmt",
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",

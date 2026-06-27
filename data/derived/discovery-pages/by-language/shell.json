@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1931,
-    "concepts": 2862,
-    "observations": 2881,
-    "repos": 717,
-    "terms": 2791
+    "components": 1939,
+    "concepts": 2868,
+    "observations": 2887,
+    "repos": 721,
+    "terms": 2805
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -122,6 +122,7 @@
     "astrofra/demo-marine-melodies",
     "aurutils/aurutils",
     "automazeio/ccpm",
+    "avery-water/twice_exceptionality_repository",
     "aws-samples/sample-vllm-on-eks-with-dlc",
     "aws/aws-app-mesh-examples",
     "aws/containers-roadmap",
@@ -397,6 +398,7 @@
     "hyperupcall/autoenv",
     "icanhasjonas/run-claude-docker",
     "ihmcrobotics/repository-group",
+    "ika-rwth-aachen/docker-ros",
     "ilikenwf/apt-fast",
     "infusion/udf_infusion",
     "ipfs/community",
@@ -502,6 +504,7 @@
     "microsoft/vscode-dev-containers",
     "milvus-io/milvus-proto",
     "mislav/dotfiles",
+    "miykael/3dprintyourbrain",
     "mklement0/n-install",
     "mlocati/docker-php-extension-installer",
     "MoonshotAI/zsh-kimi-cli",
@@ -558,6 +561,7 @@
     "Petit-Abba/Magisk-Modules-Template-ge20.4",
     "PF4Public/gentoo-overlay",
     "pgsty/pigsty",
+    "phusion/holy-build-box",
     "pion/awesome-pion",
     "pkgxdev/mash",
     "pmer/tla-bin",
@@ -688,7 +692,7 @@
     "transmissions11/dapptools-template",
     "trapd00r/LS_COLORS",
     "tremby/imgur.sh",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "tuvovan/Zero_DCE_TF",
     "twain47/Open-SVG-Map-Icons",
     "TypedDevs/bashunit",

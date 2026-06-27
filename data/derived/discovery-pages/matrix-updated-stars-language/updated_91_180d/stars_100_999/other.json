@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1407,
-    "concepts": 1085,
-    "observations": 1087,
-    "repos": 281,
-    "terms": 1078
+    "components": 1414,
+    "concepts": 1089,
+    "observations": 1091,
+    "repos": 284,
+    "terms": 1082
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -32,6 +32,7 @@
     "ankane/kms_encrypted",
     "antosha417/nvim-lsp-file-operations",
     "archguard/archguard",
+    "argmaxinc/WhisperKitAndroid",
     "arnetheduck/nim-results",
     "arnetheduck/nph",
     "aserafin/grape_logging",
@@ -198,13 +199,16 @@
     "mcabbott/AxisKeys.jl",
     "megvii-research/HiDiffusion",
     "melix/jmh-gradle-plugin",
+    "metauto-ai/agent-as-a-judge",
     "metosin/jsonista",
     "metosin/ring-swagger",
     "metosin/spec-tools",
+    "MICA-MNI/ENIGMA",
     "microsoft/botbuilder-dotnet",
     "microsoft/microsoft-performance-toolkit-sdk",
     "MiloszKrajewski/K4os.Compression.LZ4",
     "milvus-io/milvus-sdk-csharp",
+    "mirage/mirage-www",
     "moyangzhan/langchain4j-aideepin-admin",
     "nebula-plugins/nebula-release-plugin",
     "Nek5000/Nek5000",
@@ -244,7 +248,6 @@
     "rubocop/rubocop-performance",
     "saagarjha/unxip",
     "sandrohanea/whisper.net",
-    "SciML/SciMLTutorials.jl",
     "scribd/Weaver",
     "scssphp/scssphp",
     "sdbds/SageAttention-for-windows",
@@ -260,6 +263,7 @@
     "stellar/soroban-examples",
     "swansonk14/admet_ai",
     "SymbolicML/DynamicExpressions.jl",
+    "tanvirtin/vgit.nvim",
     "tarides/dune-release",
     "tc39/proposal-source-phase-imports",
     "tensorflow/mlir-hlo",
@@ -292,7 +296,6 @@
     "xbdcc/GrabRedEnvelope",
     "XingangPan/SCNN",
     "xoofx/CppAst.NET",
-    "ymoslem/OpenNMT-Tutorial",
     "yogthos/migratus",
     "yuange1024/ethereum_yellowpaper"
   ]

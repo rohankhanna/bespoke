@@ -1,24 +1,25 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 190,
-    "observations": 192,
-    "repos": 27,
-    "terms": 190
+    "components": 257,
+    "concepts": 200,
+    "observations": 202,
+    "repos": 29,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "alichherawalla/off-grid-mobile-ai",
-    "argmaxinc/argmax-oss-swift",
+    "ashvardanian/NumKong",
     "bazel-contrib/bazel-gazelle",
     "bencheeorg/benchee",
     "dkron-io/dkron",
     "facebookresearch/sam-3d-objects",
+    "gobackup/gobackup",
     "google-deepmind/dm-haiku",
     "googleapis/google-api-php-client",
     "hacl-star/hacl-star",
@@ -29,6 +30,7 @@
     "lightning/bolts",
     "litedb-org/LiteDB",
     "lucidrains/vector-quantize-pytorch",
+    "meta-pytorch/tnt",
     "microsoft/TRELLIS.2",
     "Nevcairiel/LAVFilters",
     "plotly/plotly.R",
@@ -36,9 +38,9 @@
     "rust-ml/linfa",
     "safe-fndn/safe-smart-account",
     "stdware/qwindowkit",
-    "sveltejs/devalue",
+    "Tencent-Hunyuan/HY-WorldPlay",
+    "TheTom/turboquant_plus",
     "Urigo/graphql-cli",
-    "VAST-AI-Research/TripoSR",
-    "webinstall/webi-installers"
+    "VAST-AI-Research/TripoSR"
   ]
 }

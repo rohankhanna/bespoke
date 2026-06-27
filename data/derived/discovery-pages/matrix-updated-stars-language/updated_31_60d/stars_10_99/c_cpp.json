@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 272,
-    "observations": 273,
+    "components": 183,
+    "concepts": 286,
+    "observations": 287,
     "repos": 35,
-    "terms": 267
+    "terms": 281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "analogdevicesinc/msdk",
@@ -43,9 +43,9 @@
     "llnl/camp",
     "microsoft/aitour-exploring-cutting-edge-models",
     "mono/skia",
+    "oberbichler/HyperJet",
     "oneapi-src/unified-memory-framework",
     "ROCm/rpp",
-    "walbourn/directxmathtest",
     "xjb714/xjb",
     "xuegao-tzx/Fllama",
     "zig-wasm/wasmer-zig-api"

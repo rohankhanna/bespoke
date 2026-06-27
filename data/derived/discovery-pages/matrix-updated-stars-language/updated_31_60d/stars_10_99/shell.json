@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 162,
-    "observations": 162,
-    "repos": 28,
-    "terms": 161
+    "components": 110,
+    "concepts": 157,
+    "observations": 157,
+    "repos": 25,
+    "terms": 156
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "apache/datafusion-ballista-python",
@@ -21,18 +21,15 @@
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
-    "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
     "fcshark-org/route-list",
     "gpac/testsuite",
-    "helidon-io/helidon-examples",
     "heroku/heroku-buildpack-dotnet",
     "heroku/heroku-buildpack-gradle",
     "heroku/heroku-buildpack-jvm-common",
     "leleliu008/ppkg",
     "microsoft/openjdk-docker",
     "PF4Public/gentoo-overlay",
-    "pkgxdev/mash",
     "quarkusio/quarkus-ecosystem-ci",
     "reviewdog/action-depup",
     "rocq-prover/docker-opam-action",

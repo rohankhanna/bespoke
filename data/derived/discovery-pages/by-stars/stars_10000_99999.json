@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33675,
-    "concepts": 15330,
-    "observations": 15387,
-    "repos": 1725,
-    "terms": 15279
+    "components": 33727,
+    "concepts": 15360,
+    "observations": 15417,
+    "repos": 1727,
+    "terms": 15319
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-27T06:01:54.861996+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -1142,6 +1142,7 @@
     "NixOS/nix",
     "NixOS/nixpkgs",
     "nlohmann/json",
+    "nltk/nltk",
     "nock/nock",
     "nodejs/node-gyp",
     "nodejs/node-v0.x-archive",
@@ -1160,6 +1161,7 @@
     "nuysoft/Mock",
     "nvbn/thefuck",
     "NVIDIA-NeMo/NeMo",
+    "NVIDIA-NeMo/Speech",
     "NVIDIA/DeepLearningExamples",
     "NVIDIA/Megatron-LM",
     "nvidia/nemoclaw",
