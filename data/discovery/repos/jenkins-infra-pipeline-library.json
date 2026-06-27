@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkins-infra/pipeline-library",
+      "target": "jenkins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkins-infra/pipeline-library",
+      "target": "jenkins-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkins-infra/pipeline-library",
+      "target": "library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T19:59:16.665287+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of custom steps and variables for our Jenkins instance(s)",
+    "fork": false,
+    "full_name": "jenkins-infra/pipeline-library",
+    "html_url": "https://github.com/jenkins-infra/pipeline-library",
+    "language": "Groovy",
+    "pushed_at": "2026-06-25T15:02:34Z",
+    "stargazers_count": 311,
+    "topics": [
+      "jenkins",
+      "jenkins-pipeline",
+      "library"
+    ],
+    "updated_at": "2026-06-25T15:02:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Collection of custom steps and variables for our Jenkins instance(s)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jenkins"
+    },
+    {
+      "context_snippet": "Collection of custom steps and variables for our Jenkins instance(s)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jenkins-pipeline"
+    },
+    {
+      "context_snippet": "Collection of custom steps and variables for our Jenkins instance(s)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    }
+  ]
+}

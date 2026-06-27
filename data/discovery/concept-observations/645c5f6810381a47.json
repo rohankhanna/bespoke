@@ -84,7 +84,7 @@
   "normalized_form": "ballista-rust",
   "observation_id": "645c5f6810381a47",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "Ballista Rust",
   "source_context_snippet": "Ballista Rust",
   "source_file": ".github/workflows/rust.yml",

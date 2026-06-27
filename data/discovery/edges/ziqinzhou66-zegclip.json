@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZiqinZhou66/ZegCLIP",
+      "target": "dingjiansw101/zegformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZiqinZhou66/ZegCLIP",
+      "target": "mendelxu/zsseg.baseline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZiqinZhou66/ZegCLIP",
+      "target": "raoyongming/denseclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZiqinZhou66/ZegCLIP",
+      "target": "kmnp/vpt",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-27T18:32:46.721236+00:00",
+  "source_repo": "ZiqinZhou66/ZegCLIP"
+}

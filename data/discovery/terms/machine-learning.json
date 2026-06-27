@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -2516,6 +2516,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "roboflow/rf-detr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "interpretml/gam-changer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "interpretml/interpret"
     }
   ],
   "term": "machine-learning"

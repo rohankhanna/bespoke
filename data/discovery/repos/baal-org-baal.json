@@ -131,15 +131,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T17:03:14.068241+00:00",
+  "fetched_at": "2026-06-27T19:37:29.806755+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 7740
-    },
-    {
-      "path": "Dockerfile",
-      "size": 1112
     },
     {
       "path": "pyproject.toml",

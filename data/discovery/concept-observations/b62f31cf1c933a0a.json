@@ -84,7 +84,7 @@
   "normalized_form": "nginx",
   "observation_id": "b62f31cf1c933a0a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "nginx",
   "source_context_snippet": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support.",
   "source_file": null,

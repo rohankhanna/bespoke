@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/UniMatch",
+      "target": "liheyoung/unimatch-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/UniMatch",
+      "target": "liheyoung/st-plusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/UniMatch",
+      "target": "zhenzhao/augseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/UniMatch",
+      "target": "zhenzhao/imas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/UniMatch",
+      "target": "fixmatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/UniMatch",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/UniMatch",
+      "target": "semi-supervised-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-27T18:32:46.721236+00:00",
+  "source_repo": "LiheYoung/UniMatch"
+}

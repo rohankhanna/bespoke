@@ -19,6 +19,18 @@
       "source_repo": "meta-pytorch/captum",
       "status": "candidate-context",
       "text": "![Captum Logo](./website/static/img/captum_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "interpretml/interpret",
+      "status": "candidate-context",
+      "text": "Fit interpretable models. Explain blackbox machine learning. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "interpretml/interpret",
+      "status": "candidate-context",
+      "text": "<a href=\"https://githubtocolab.com/interpretml/interpret/blob/main/docs/interpret/python/examples/interpretable-classification.ipynb\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "meta-pytorch/captum",
       "status": "candidate",
       "text": "![Captum Logo](./website/static/img/captum_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "interpretml/interpret",
+      "status": "candidate",
+      "text": "<a href=\"https://githubtocolab.com/interpretml/interpret/blob/main/docs/interpret/python/examples/interpretable-classification.ipynb\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -556,11 +574,23 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "interpretml/interpret"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

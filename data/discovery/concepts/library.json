@@ -1486,6 +1486,18 @@
       "source_repo": "CGAL/cgal",
       "status": "candidate-context",
       "text": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkins-infra/pipeline-library",
+      "status": "candidate-context",
+      "text": "Collection of custom steps and variables for our Jenkins instance(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkins-infra/pipeline-library",
+      "status": "candidate-context",
+      "text": "Collection of custom steps and variables for our Jenkins instance(s)"
     }
   ],
   "candidate_glosses": [
@@ -2226,6 +2238,12 @@
       "source_repo": "CGAL/cgal",
       "status": "candidate",
       "text": "![CGAL](Installation/doc_html/images/cgal_2013_grey.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkins-infra/pipeline-library",
+      "status": "candidate",
+      "text": "Collection of custom steps and variables for our Jenkins instance(s)"
     }
   ],
   "candidate_related_terms": [
@@ -4534,11 +4552,35 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jenkins-infra/pipeline-library"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pytorch implementation of the paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cross-domain-recognition",
+      "sense_id": "cross-domain-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cross-domain-recognition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cross-domain-recognition",
+  "observation_id": "308602be9f50896a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
+  "observed_text": "cross-domain-recognition",
+  "source_context_snippet": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\"",
+  "source_file": null,
+  "source_repo": "XiSHEN0220/WatermarkReco",
+  "source_repo_description": "Pytorch implementation of the paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
+}

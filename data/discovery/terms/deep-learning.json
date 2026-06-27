@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -3686,6 +3686,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "AaltoVision/DGC-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "SunghwanHong/Cost-Aggregation-transformers"
     }
   ],
   "term": "deep-learning"

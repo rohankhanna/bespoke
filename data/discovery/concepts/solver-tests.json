@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "solver-tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "A data structure for mathematical optimization problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "solver-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate",
+      "text": "solver-tests"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "solver-tests",
+  "concept_id": "solver-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/solver-tests.yml",
+      "source_repo": "jump-dev/MathOptInterface.jl"
+    }
+  ],
+  "first_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "solver-tests",
+      "sense_id": "solver-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

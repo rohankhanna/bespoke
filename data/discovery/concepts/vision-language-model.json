@@ -379,6 +379,18 @@
       "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anishmadan23/foundational_fsod",
+      "status": "candidate-context",
+      "text": "This repository contains the implementation for the paper \"Revisiting Few Shot Object Detection with Vision-Language Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anishmadan23/foundational_fsod",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2312.14494-b31b1b.svg)](https://arxiv.org/abs/2312.14494)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anishmadan23/foundational_fsod",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2312.14494-b31b1b.svg)](https://arxiv.org/abs/2312.14494)"
     }
   ],
   "candidate_related_terms": [],
@@ -2860,11 +2878,41 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/MGM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/MGM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "anishmadan23/foundational_fsod"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

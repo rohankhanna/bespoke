@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T20:01:30.886156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 860
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code from the paper \"DACS: Domain Adaptation via Cross-domain Mixed Sampling\"",
+    "fork": false,
+    "full_name": "vikolss/DACS",
+    "html_url": "https://github.com/vikolss/DACS",
+    "language": "Python",
+    "pushed_at": "2023-07-06T21:31:42Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-06-12T13:10:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

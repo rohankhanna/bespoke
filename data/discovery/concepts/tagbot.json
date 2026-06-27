@@ -2474,6 +2474,54 @@
       "source_repo": "JuliaParallel/Hwloc.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "A data structure for mathematical optimization problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "status": "candidate-context",
+      "text": "Objective-C embedded in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCollections/AbstractTrees.jl",
+      "status": "candidate-context",
+      "text": "Abstract julia interfaces for working with trees"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCollections/AbstractTrees.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sisl/D3Trees.jl",
+      "status": "candidate-context",
+      "text": "Flexible interactive visualization for large trees in Julia using D3.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sisl/D3Trees.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -3740,6 +3788,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaParallel/Hwloc.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCollections/AbstractTrees.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sisl/D3Trees.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -9431,11 +9503,89 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaParallel/Hwloc.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "jump-dev/MathOptInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaCollections/AbstractTrees.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Cairo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaStrings/LibTeXPrintf.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "sisl/D3Trees.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1097,6 +1097,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-windows.yml",
       "source_repo": "vercel/pkg-fetch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xiaohk/stickyland"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "xiaohk/stickyland"
     }
   ]
 }

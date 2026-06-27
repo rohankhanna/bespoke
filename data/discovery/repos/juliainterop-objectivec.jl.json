@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "codecov/codecov-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "target": "objective-c",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T18:35:29.978285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12769
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 603
+    },
+    {
+      "path": ".github/workflows/Test.yml",
+      "size": 1032
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Objective-C embedded in Julia",
+    "fork": false,
+    "full_name": "JuliaInterop/ObjectiveC.jl",
+    "html_url": "https://github.com/JuliaInterop/ObjectiveC.jl",
+    "language": "Julia",
+    "pushed_at": "2026-06-21T13:37:57Z",
+    "stargazers_count": 44,
+    "topics": [
+      "julia",
+      "objective-c"
+    ],
+    "updated_at": "2026-06-21T12:43:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "*Objective-C bridge for Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "*Objective-C bridge for Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    }
+  ]
+}

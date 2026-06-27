@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "bias"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "interpretml/interpret",
+      "status": "candidate-context",
+      "text": "Fit interpretable models. Explain blackbox machine learning. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "interpretml/interpret",
+      "status": "candidate-context",
+      "text": "<a href=\"https://githubtocolab.com/interpretml/interpret/blob/main/docs/interpret/python/examples/interpretable-classification.ipynb\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "interpretml/interpret",
+      "status": "candidate",
+      "text": "<a href=\"https://githubtocolab.com/interpretml/interpret/blob/main/docs/interpret/python/examples/interpretable-classification.ipynb\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040358,
+      "status": "candidate",
+      "text": "prejudice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034532,
+      "status": "candidate",
+      "text": "predetermine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998446,
+      "status": "candidate",
+      "text": "oblique"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931385,
+      "status": "candidate",
+      "text": "diagonal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045339,
+      "status": "candidate",
+      "text": "partiality"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34046,
+      "status": "candidate",
+      "text": "oblique"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "prejudice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1029,
+      "status": "candidate",
+      "text": "predetermine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "diagonal"
+    }
+  ],
+  "canonical_name": "bias",
+  "concept_id": "bias",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "interpretml/interpret"
+    }
+  ],
+  "first_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bias",
+      "sense_id": "bias#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

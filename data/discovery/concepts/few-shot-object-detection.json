@@ -19,6 +19,18 @@
       "source_repo": "ucbdrive/few-shot-object-detection",
       "status": "candidate-context",
       "text": "[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ucbdrive/few-shot-object-detection.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ucbdrive/few-shot-object-detection/context:python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anishmadan23/foundational_fsod",
+      "status": "candidate-context",
+      "text": "This repository contains the implementation for the paper \"Revisiting Few Shot Object Detection with Vision-Language Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anishmadan23/foundational_fsod",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2312.14494-b31b1b.svg)](https://arxiv.org/abs/2312.14494)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ucbdrive/few-shot-object-detection",
       "status": "candidate",
       "text": "[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ucbdrive/few-shot-object-detection.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ucbdrive/few-shot-object-detection/context:python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anishmadan23/foundational_fsod",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2312.14494-b31b1b.svg)](https://arxiv.org/abs/2312.14494)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ucbdrive/few-shot-object-detection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "anishmadan23/foundational_fsod"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

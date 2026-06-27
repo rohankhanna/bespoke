@@ -84,7 +84,7 @@
   "normalized_form": "push-to-luarocks",
   "observation_id": "0d5ab95a46480347",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "Push to Luarocks",
   "source_context_snippet": "Push to Luarocks",
   "source_file": ".github/workflows/luarocks.yml",

@@ -84,7 +84,7 @@
   "normalized_form": "cargo-audit",
   "observation_id": "41eacdbfd867beff",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "cargo audit",
   "source_context_snippet": "cargo audit",
   "source_file": ".github/workflows/rust-audit-check.yml",

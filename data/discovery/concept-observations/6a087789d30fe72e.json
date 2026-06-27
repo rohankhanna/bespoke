@@ -84,7 +84,7 @@
   "normalized_form": "build-base-grpc-images",
   "observation_id": "6a087789d30fe72e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "build base-grpc images",
   "source_context_snippet": "'build base-grpc images'",
   "source_file": ".github/workflows/base-images.yml",

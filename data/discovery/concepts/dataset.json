@@ -1227,6 +1227,18 @@
       "source_repo": "nianticlabs/map-free-reloc",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of the paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
     }
   ],
   "candidate_glosses": [
@@ -1841,6 +1853,12 @@
       "source_repo": "nianticlabs/map-free-reloc",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "status": "candidate",
+      "text": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
     }
   ],
   "candidate_related_terms": [
@@ -3432,11 +3450,29 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/WatermarkReco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "limenlp/verl"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

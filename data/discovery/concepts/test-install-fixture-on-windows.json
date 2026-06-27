@@ -382,11 +382,17 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

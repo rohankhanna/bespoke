@@ -41,12 +41,14 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "javascript-npm",
   "observation_id": "1adf66d2b150d0f1",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "javascript-npm",
   "source_context_snippet": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)",
   "source_file": null,

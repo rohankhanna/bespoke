@@ -4,31 +4,17 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PruneTruong/DenseMatching",
-      "target": "brdav/refign",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PruneTruong/DenseMatching",
-      "target": "prunetruong/glu-net",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PruneTruong/DenseMatching",
-      "target": "aaltovision/dgc-net",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PruneTruong/DenseMatching",
       "target": "ignacio-rocco/ncnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PruneTruong/DenseMatching",
+      "target": "sunghwanhong/cost-aggregation-transformers",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-06-27T07:14:56.321639+00:00",
+  "generated_at": "2026-06-27T18:32:46.721236+00:00",
   "source_repo": "PruneTruong/DenseMatching"
 }

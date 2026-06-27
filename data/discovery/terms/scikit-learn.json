@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -91,6 +91,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "aramis-lab/AD-ML"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "interpretml/interpret"
     }
   ],
   "term": "scikit-learn"

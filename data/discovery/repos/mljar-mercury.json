@@ -1,0 +1,447 @@
+{
+  "components": [
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-config-recommended",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-csstree-validator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "stylelint-config-recommended",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "stylelint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "stylelint-csstree-validator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "stylelint-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mljar/mercury",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mljar/mercury",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mljar/mercury",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mljar/mercury",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mljar/mercury",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "jupyter-lab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "jupyter-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "mercury",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "mljar-mercury",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "notebook-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "notebook-jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "notebook-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "notebook-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mljar/mercury",
+      "target": "notebooks-jupyter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T18:35:59.986057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8281
+    },
+    {
+      "path": "Dockerfile",
+      "size": 412
+    },
+    {
+      "path": "package.json",
+      "size": 6059
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2960
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The fastest way to turn a Jupyter notebook into a beautiful, shareable web app \u2014 no callbacks, no frontend, no rewrite.",
+    "fork": false,
+    "full_name": "mljar/mercury",
+    "html_url": "https://github.com/mljar/mercury",
+    "language": "Python",
+    "pushed_at": "2026-06-25T12:01:09Z",
+    "stargazers_count": 4335,
+    "topics": [
+      "data-science",
+      "data-visualization",
+      "jupyter",
+      "jupyter-lab",
+      "jupyter-notebook",
+      "mercury",
+      "mljar-mercury",
+      "notebook",
+      "notebook-application",
+      "notebook-jupyter",
+      "notebook-publish",
+      "notebook-web",
+      "notebooks-jupyter",
+      "python"
+    ],
+    "updated_at": "2026-06-25T12:54:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-lab"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-notebook"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mercury"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mljar-mercury"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebook"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebook-application"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebook-jupyter"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebook-publish"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebook-web"
+    },
+    {
+      "context_snippet": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebooks-jupyter"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unit test framework for Jenkins core and its plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/jenkins-test-harness.svg?label=release)](https://github.com/jenkinsci/jenkins-test-harness/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/jenkins-test-harness.svg?label=release)](https://github.com/jenkinsci/jenkins-test-harness/releases/latest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045312,
+      "status": "candidate",
+      "text": "breakwater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045309,
+      "status": "candidate",
+      "text": "groyne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044323,
+      "status": "candidate",
+      "text": "seawall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034670,
+      "status": "candidate",
+      "text": "bulwark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39834245,
+      "status": "candidate",
+      "text": "mole"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jetty",
+      "sense_id": "jetty#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58037,
+      "status": "candidate",
+      "text": "bulwark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12055,
+      "status": "candidate",
+      "text": "groin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11075,
+      "status": "candidate",
+      "text": "mole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7039,
+      "status": "candidate",
+      "text": "breakwater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5032,
+      "status": "candidate",
+      "text": "groyne"
+    }
+  ],
+  "concept_id": "jetty",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jetty",
+  "observation_id": "aefab53a7376a1f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
+  "observed_text": "jetty",
+  "source_context_snippet": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/jenkins-test-harness.svg?label=release)](https://github.com/jenkinsci/jenkins-test-harness/releases/latest)",
+  "source_file": null,
+  "source_repo": "jenkinsci/jenkins-test-harness",
+  "source_repo_description": "Unit test framework for Jenkins core and its plugins"
+}

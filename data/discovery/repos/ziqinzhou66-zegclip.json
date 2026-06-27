@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZiqinZhou66/ZegCLIP",
+      "target": "dingjiansw101/zegformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZiqinZhou66/ZegCLIP",
+      "target": "mendelxu/zsseg.baseline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZiqinZhou66/ZegCLIP",
+      "target": "raoyongming/denseclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZiqinZhou66/ZegCLIP",
+      "target": "kmnp/vpt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T20:01:28.224547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7374
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implement of CVPR2023 ZegCLIP: Towards Adapting CLIP for Zero-shot Semantic Segmentation",
+    "fork": false,
+    "full_name": "ZiqinZhou66/ZegCLIP",
+    "html_url": "https://github.com/ZiqinZhou66/ZegCLIP",
+    "language": "Python",
+    "pushed_at": "2023-08-27T13:27:38Z",
+    "stargazers_count": 259,
+    "topics": [],
+    "updated_at": "2026-06-26T17:58:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingjiansw101/zegformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kmnp/vpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mendelxu/zsseg.baseline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raoyongming/denseclip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

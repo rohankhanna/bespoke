@@ -113,7 +113,7 @@
   "normalized_form": "authorization",
   "observation_id": "b71c19f348431fb3",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "authorization",
   "source_context_snippet": "[![Build Status](https://dev.azure.com/Casbin/Casbin.NET/_apis/build/status/casbin.Casbin.NET?branchName=master)](https://dev.azure.com/Casbin/Casbin.NET/_build?definitionId=1)",
   "source_file": null,

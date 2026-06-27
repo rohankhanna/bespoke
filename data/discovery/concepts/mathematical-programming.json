@@ -19,6 +19,18 @@
       "source_repo": "jump-dev/JuMP.jl",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "A data structure for mathematical optimization problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "| **Documentation** | **Build Status** |"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jump-dev/JuMP.jl",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate",
+      "text": "| **Documentation** | **Build Status** |"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "jump-dev/JuMP.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jump-dev/MathOptInterface.jl"
     }
   ],
   "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

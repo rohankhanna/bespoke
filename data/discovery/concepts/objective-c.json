@@ -229,6 +229,18 @@
       "source_repo": "MosheBerman/KosherCocoa",
       "status": "candidate-context",
       "text": "KosherCocoa"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "status": "candidate-context",
+      "text": "Objective-C embedded in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "status": "candidate-context",
+      "text": "*Objective-C bridge for Julia*"
     }
   ],
   "candidate_glosses": [
@@ -339,6 +351,12 @@
       "source_repo": "MosheBerman/KosherCocoa",
       "status": "candidate",
       "text": "KosherCocoa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "status": "candidate",
+      "text": "*Objective-C bridge for Julia*"
     }
   ],
   "candidate_related_terms": [
@@ -502,11 +520,17 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": null,
       "source_repo": "MosheBerman/KosherCocoa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/ObjectiveC.jl"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -67,6 +67,18 @@
       "source_repo": "JuliaIO/FileIO.jl",
       "status": "candidate-context",
       "text": "Documenter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCollections/AbstractTrees.jl",
+      "status": "candidate-context",
+      "text": "Abstract julia interfaces for working with trees"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCollections/AbstractTrees.jl",
+      "status": "candidate-context",
+      "text": "Documenter"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaIO/FileIO.jl",
+      "status": "candidate",
+      "text": "Documenter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCollections/AbstractTrees.jl",
       "status": "candidate",
       "text": "Documenter"
     }
@@ -178,11 +196,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/Documenter.yml",
       "source_repo": "JuliaIO/FileIO.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/Documenter.yml",
+      "source_repo": "JuliaCollections/AbstractTrees.jl"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

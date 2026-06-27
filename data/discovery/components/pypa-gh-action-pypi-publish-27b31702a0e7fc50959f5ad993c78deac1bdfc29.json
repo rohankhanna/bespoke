@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -367,6 +367,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pypi-release.yml",
       "source_repo": "agilescientific/striplog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "XiSHEN0220/WatermarkReco"
     }
   ]
 }

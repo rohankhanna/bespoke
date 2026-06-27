@@ -79,6 +79,18 @@
       "source_repo": "jupyter-widgets/ipyleaflet",
       "status": "candidate-context",
       "text": "[![Documentation](http://readthedocs.org/projects/ipyleaflet/badge/?version=latest)](https://ipyleaflet.readthedocs.io/en/latest/?badge=latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xiaohk/stickyland",
+      "status": "candidate-context",
+      "text": "Break the linear presentation of Jupyter Notebooks with sticky cells!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiaohk/stickyland",
+      "status": "candidate-context",
+      "text": "<!-- [![Lite](https://gist.githubusercontent.com/xiaohk/9b9f7c8fa162b2c3bc3251a5c9a799b2/raw/c3438b4c49d89e4c367f581520ddd4cf8dac0f41/lite-badge-launch-small.svg)](https://xiaohk.github.io/stickyland/) -->"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "jupyter-widgets/ipyleaflet",
       "status": "candidate",
       "text": "[![Documentation](http://readthedocs.org/projects/ipyleaflet/badge/?version=latest)](https://ipyleaflet.readthedocs.io/en/latest/?badge=latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiaohk/stickyland",
+      "status": "candidate",
+      "text": "<!-- [![Lite](https://gist.githubusercontent.com/xiaohk/9b9f7c8fa162b2c3bc3251a5c9a799b2/raw/c3438b4c49d89e4c367f581520ddd4cf8dac0f41/lite-badge-launch-small.svg)](https://xiaohk.github.io/stickyland/) -->"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "jupyter-widgets/ipyleaflet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "xiaohk/stickyland"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

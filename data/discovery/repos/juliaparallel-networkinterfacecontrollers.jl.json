@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T18:35:32.745459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Extensions to Julia's LibUV to help with working with multiple NICs per node",
+    "fork": false,
+    "full_name": "JuliaParallel/NetworkInterfaceControllers.jl",
+    "html_url": "https://github.com/JuliaParallel/NetworkInterfaceControllers.jl",
+    "language": "Julia",
+    "pushed_at": "2026-03-23T16:14:22Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-03-23T16:14:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

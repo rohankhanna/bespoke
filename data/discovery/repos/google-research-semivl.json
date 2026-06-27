@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/semivl",
+      "target": "liheyoung/unimatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/semivl",
+      "target": "chongzhou96/maskclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/semivl",
+      "target": "ziqinzhou66/zegclip",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T18:35:11.126750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7009
+    },
+    {
+      "path": "requirements.txt",
+      "size": 882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV'24] Official Implementation of SemiVL: Semi-Supervised Semantic Segmentation with Vision-Language Guidance",
+    "fork": false,
+    "full_name": "google-research/semivl",
+    "html_url": "https://github.com/google-research/semivl",
+    "language": "Python",
+    "pushed_at": "2026-06-10T18:18:33Z",
+    "stargazers_count": 146,
+    "topics": [],
+    "updated_at": "2026-06-26T17:55:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chongzhou96/maskclip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liheyoung/unimatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ziqinzhou66/zegclip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

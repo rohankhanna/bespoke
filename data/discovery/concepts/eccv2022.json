@@ -67,6 +67,18 @@
       "source_repo": "nianticlabs/simplerecon",
       "status": "candidate-context",
       "text": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HeliosZhao/SHADE",
+      "status": "candidate-context",
+      "text": "Style-Hallucinated Dual Consistency Learning for Domain Generalized Semantic Segmentation. ECCV 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HeliosZhao/SHADE",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "nianticlabs/simplerecon",
       "status": "candidate",
       "text": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HeliosZhao/SHADE",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "nianticlabs/simplerecon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "HeliosZhao/SHADE"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

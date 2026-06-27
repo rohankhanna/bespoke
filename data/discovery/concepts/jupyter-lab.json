@@ -31,6 +31,18 @@
       "source_repo": "rgbkrk/chatlab",
       "status": "candidate-context",
       "text": "**Chat Experiments, Simplified**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mljar/mercury",
+      "status": "candidate-context",
+      "text": "The fastest way to turn a Jupyter notebook into a beautiful, shareable web app \u2014 no callbacks, no frontend, no rewrite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mljar/mercury",
+      "status": "candidate-context",
+      "text": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "rgbkrk/chatlab",
       "status": "candidate",
       "text": "**Chat Experiments, Simplified**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mljar/mercury",
+      "status": "candidate",
+      "text": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "rgbkrk/chatlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "mljar/mercury"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

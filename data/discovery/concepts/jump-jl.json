@@ -31,6 +31,18 @@
       "source_repo": "jump-dev/Clp.jl",
       "status": "candidate-context",
       "text": "![](https://www.coin-or.org/wordpress/wp-content/uploads/2014/08/COINOR.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "A data structure for mathematical optimization problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "| **Documentation** | **Build Status** |"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jump-dev/Clp.jl",
       "status": "candidate",
       "text": "![](https://www.coin-or.org/wordpress/wp-content/uploads/2014/08/COINOR.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate",
+      "text": "| **Documentation** | **Build Status** |"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "jump-dev/Clp.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jump-dev/MathOptInterface.jl"
     }
   ],
   "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

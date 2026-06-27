@@ -105,13 +105,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "roboflow/rf-detr",
-      "target": "roboflow/single_artifact_benchmarking",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-package.yml",
       "source_repo": "roboflow/rf-detr",
@@ -343,7 +336,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T17:35:25.124783+00:00",
+  "fetched_at": "2026-06-27T19:59:13.356335+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -412,11 +405,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "roboflow/rfdetr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "roboflow/single_artifact_benchmarking",
       "source_file": "README.md"
     }
   ],

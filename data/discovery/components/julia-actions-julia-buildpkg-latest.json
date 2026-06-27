@@ -1,7 +1,7 @@
 {
   "component": "julia-actions/julia-buildpkg@latest",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -442,6 +442,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "JuliaMath/IntelVectorMath.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "sisl/D3Trees.jl"
     }
   ]
 }

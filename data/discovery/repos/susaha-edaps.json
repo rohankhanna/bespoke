@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T20:01:30.293806+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27519
+    },
+    {
+      "path": "requirements.txt",
+      "size": 366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV23] EDAPS: Enhanced Domain-Adaptive Panoptic Segmentation",
+    "fork": false,
+    "full_name": "susaha/edaps",
+    "html_url": "https://github.com/susaha/edaps",
+    "language": "Python",
+    "pushed_at": "2024-04-12T14:41:06Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-03-09T08:39:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/solver-tests.yml",
+      "source_repo": "jump-dev/MathOptInterface.jl"
+    }
+  ],
+  "term": "solver-tests"
+}

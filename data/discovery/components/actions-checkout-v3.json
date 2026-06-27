@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -21807,6 +21807,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/R-CMD-check.yaml",
       "source_repo": "mathesong/kinfitr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "XiSHEN0220/WatermarkReco"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "julia-actions/cache@v3",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -507,6 +507,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/Load.yml",
       "source_repo": "JuliaGPU/Metal.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/MathOptInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/solver-tests.yml",
+      "source_repo": "jump-dev/MathOptInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaInterop/ObjectiveC.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaCollections/AbstractTrees.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Documenter.yml",
+      "source_repo": "JuliaCollections/AbstractTrees.jl"
     }
   ]
 }

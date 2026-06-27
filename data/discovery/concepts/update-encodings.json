@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Encodings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pillarjs/iconv-lite",
+      "status": "candidate-context",
+      "text": "Convert character encodings in pure javascript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pillarjs/iconv-lite",
+      "status": "candidate-context",
+      "text": "Update Encodings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pillarjs/iconv-lite",
+      "status": "candidate",
+      "text": "Update Encodings"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "compress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "compressing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "compression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "unicode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "coding"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Encodings",
+  "concept_id": "update-encodings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/generator.yml",
+      "source_repo": "pillarjs/iconv-lite"
+    }
+  ],
+  "first_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Encodings",
+      "sense_id": "update-encodings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

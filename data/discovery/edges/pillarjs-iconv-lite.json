@@ -15,13 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "pillarjs/iconv-lite",
-      "target": "safer-buffer",
-      "target_type": "component"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "pillarjs/iconv-lite",
@@ -53,13 +46,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "async",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "pillarjs/iconv-lite",
       "target": "bench-node",
       "target_type": "component"
     },
@@ -68,13 +54,6 @@
       "source_file": "package.json",
       "source_repo": "pillarjs/iconv-lite",
       "target": "eslint",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "pillarjs/iconv-lite",
-      "target": "errto",
       "target_type": "component"
     },
     {
@@ -116,14 +95,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "request",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "pillarjs/iconv-lite",
-      "target": "semver",
+      "target": "unorm",
       "target_type": "component"
     },
     {
@@ -134,17 +106,10 @@
       "target_type": "component"
     },
     {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "pillarjs/iconv-lite",
-      "target": "unorm",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -158,14 +123,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/upload-artifact@v6",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/download-artifact@v7",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
@@ -179,14 +144,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "github/codeql-action/init@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "target": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
@@ -200,7 +165,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "github/codeql-action/analyze@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "target": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
@@ -212,16 +177,30 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/iojs.yml",
+      "source_file": ".github/workflows/generator.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "gr2m/create-or-update-pull-request-action@v1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/iojs.yml",
+      "source_file": ".github/workflows/generator.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "iojs-ci",
+      "target": "Update Encodings",
       "target_type": "term"
     },
     {
@@ -246,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-27T12:41:13.509162+00:00",
+  "generated_at": "2026-06-27T18:32:46.721236+00:00",
   "source_repo": "pillarjs/iconv-lite"
 }

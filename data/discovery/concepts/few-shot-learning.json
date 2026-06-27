@@ -151,6 +151,18 @@
       "source_repo": "rehg-lab/lowshot-shapebias",
       "status": "candidate-context",
       "text": "![alt text](images/teaser.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anishmadan23/foundational_fsod",
+      "status": "candidate-context",
+      "text": "This repository contains the implementation for the paper \"Revisiting Few Shot Object Detection with Vision-Language Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anishmadan23/foundational_fsod",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2312.14494-b31b1b.svg)](https://arxiv.org/abs/2312.14494)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "rehg-lab/lowshot-shapebias",
       "status": "candidate",
       "text": "![alt text](images/teaser.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anishmadan23/foundational_fsod",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2312.14494-b31b1b.svg)](https://arxiv.org/abs/2312.14494)"
     }
   ],
   "candidate_related_terms": [],
@@ -1330,11 +1348,23 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "anishmadan23/foundational_fsod"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

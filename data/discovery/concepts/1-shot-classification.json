@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "1-shot-classification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of the paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "status": "candidate",
+      "text": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "1-shot-classification",
+  "concept_id": "1-shot-classification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/WatermarkReco"
+    }
+  ],
+  "first_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "1-shot-classification",
+      "sense_id": "1-shot-classification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

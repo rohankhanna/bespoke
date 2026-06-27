@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "notebook-web"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mljar/mercury",
+      "status": "candidate-context",
+      "text": "The fastest way to turn a Jupyter notebook into a beautiful, shareable web app \u2014 no callbacks, no frontend, no rewrite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mljar/mercury",
+      "status": "candidate-context",
+      "text": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mljar/mercury",
+      "status": "candidate",
+      "text": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "notebook-web",
+  "concept_id": "notebook-web",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "mljar/mercury"
+    }
+  ],
+  "first_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notebook-web",
+      "sense_id": "notebook-web#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

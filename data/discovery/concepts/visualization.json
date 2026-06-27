@@ -1027,6 +1027,18 @@
       "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
       "status": "candidate-context",
       "text": "ITK-Wasm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "interpretml/gam-changer",
+      "status": "candidate-context",
+      "text": "Editing machine learning models to reflect human knowledge and values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "interpretml/gam-changer",
+      "status": "candidate-context",
+      "text": "<h1>"
     }
   ],
   "candidate_glosses": [
@@ -1539,6 +1551,12 @@
       "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
       "status": "candidate",
       "text": "ITK-Wasm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "interpretml/gam-changer",
+      "status": "candidate",
+      "text": "<h1>"
     }
   ],
   "candidate_related_terms": [
@@ -3967,11 +3985,47 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "plotters-rs/plotters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "interpretml/gam-changer"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

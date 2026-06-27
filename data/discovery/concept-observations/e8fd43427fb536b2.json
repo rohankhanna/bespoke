@@ -84,7 +84,7 @@
   "normalized_form": "serverless",
   "observation_id": "e8fd43427fb536b2",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "serverless",
   "source_context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/3260/badge)](https://www.bestpractices.dev/projects/3260) ![CI](https://github.com/crossplane/crossplane/workflows/CI/badge.svg) [![Go Report Card](https://goreportcard.com/badge/github.com/crossplane/crossplane)]\u2026",
   "source_file": null,

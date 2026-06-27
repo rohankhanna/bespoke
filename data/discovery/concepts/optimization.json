@@ -619,6 +619,18 @@
       "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
       "status": "candidate-context",
       "text": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "A data structure for mathematical optimization problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "| **Documentation** | **Build Status** |"
     }
   ],
   "candidate_glosses": [
@@ -927,6 +939,12 @@
       "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
       "status": "candidate",
       "text": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate",
+      "text": "| **Documentation** | **Build Status** |"
     }
   ],
   "candidate_related_terms": [
@@ -3316,11 +3334,41 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jump-dev/MathOptInterface.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/prepack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

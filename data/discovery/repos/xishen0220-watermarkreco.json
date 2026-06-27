@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "target": "1-shot-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "target": "cross-domain-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/WatermarkReco",
+      "target": "image-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T18:35:18.217349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4350
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1084
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch implementation of the paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\"",
+    "fork": false,
+    "full_name": "XiSHEN0220/WatermarkReco",
+    "html_url": "https://github.com/XiSHEN0220/WatermarkReco",
+    "language": "Python",
+    "pushed_at": "2024-03-09T00:00:41Z",
+    "stargazers_count": 59,
+    "topics": [
+      "1-shot-classification",
+      "cross-domain-recognition",
+      "dataset",
+      "image-retrieval"
+    ],
+    "updated_at": "2024-04-05T09:22:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "1-shot-classification"
+    },
+    {
+      "context_snippet": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-domain-recognition"
+    },
+    {
+      "context_snippet": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    }
+  ]
+}

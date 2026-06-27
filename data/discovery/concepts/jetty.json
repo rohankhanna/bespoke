@@ -19,6 +19,18 @@
       "source_repo": "dropwizard/dropwizard",
       "status": "candidate-context",
       "text": "Dropwizard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jenkins-test-harness",
+      "status": "candidate-context",
+      "text": "Unit test framework for Jenkins core and its plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins-test-harness",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/jenkins-test-harness.svg?label=release)](https://github.com/jenkinsci/jenkins-test-harness/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dropwizard/dropwizard",
       "status": "candidate",
       "text": "Dropwizard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins-test-harness",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/jenkins-test-harness.svg?label=release)](https://github.com/jenkinsci/jenkins-test-harness/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/jenkins-test-harness"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

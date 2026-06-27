@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T16:33:54.918964+00:00",
+  "fetched_at": "2026-06-27T18:54:28.728262+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -103,7 +103,7 @@
     "html_url": "https://github.com/Billionmail/BillionMail",
     "language": "Go",
     "pushed_at": "2026-06-11T06:44:04Z",
-    "stargazers_count": 15211,
+    "stargazers_count": 15212,
     "topics": [
       "dovecot",
       "email",
@@ -117,7 +117,7 @@
       "server",
       "smtp"
     ],
-    "updated_at": "2026-06-27T15:30:55Z"
+    "updated_at": "2026-06-27T18:15:46Z"
   },
   "repo_links": [
     {

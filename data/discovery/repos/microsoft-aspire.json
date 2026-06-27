@@ -741,7 +741,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T16:23:43.151376+00:00",
+  "fetched_at": "2026-06-27T20:10:06.873341+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -793,7 +793,7 @@
     "full_name": "microsoft/aspire",
     "html_url": "https://github.com/microsoft/aspire",
     "language": "C#",
-    "pushed_at": "2026-06-27T11:31:55Z",
+    "pushed_at": "2026-06-27T16:53:58Z",
     "stargazers_count": 6124,
     "topics": [
       "cloud",

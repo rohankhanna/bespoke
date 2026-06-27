@@ -535,6 +535,30 @@
       "source_repo": "ipyflow/ipyflow",
       "status": "candidate-context",
       "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mljar/mercury",
+      "status": "candidate-context",
+      "text": "The fastest way to turn a Jupyter notebook into a beautiful, shareable web app \u2014 no callbacks, no frontend, no rewrite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mljar/mercury",
+      "status": "candidate-context",
+      "text": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xiaohk/stickyland",
+      "status": "candidate-context",
+      "text": "Break the linear presentation of Jupyter Notebooks with sticky cells!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiaohk/stickyland",
+      "status": "candidate-context",
+      "text": "<!-- [![Lite](https://gist.githubusercontent.com/xiaohk/9b9f7c8fa162b2c3bc3251a5c9a799b2/raw/c3438b4c49d89e4c367f581520ddd4cf8dac0f41/lite-badge-launch-small.svg)](https://xiaohk.github.io/stickyland/) -->"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +825,18 @@
       "source_repo": "ipyflow/ipyflow",
       "status": "candidate",
       "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mljar/mercury",
+      "status": "candidate",
+      "text": "_ __ ___ ___ _ __ ___ _ _ _ __ _ _"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiaohk/stickyland",
+      "status": "candidate",
+      "text": "<!-- [![Lite](https://gist.githubusercontent.com/xiaohk/9b9f7c8fa162b2c3bc3251a5c9a799b2/raw/c3438b4c49d89e4c367f581520ddd4cf8dac0f41/lite-badge-launch-small.svg)](https://xiaohk.github.io/stickyland/) -->"
     }
   ],
   "candidate_related_terms": [],
@@ -2572,11 +2608,41 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "ipyflow/ipyflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "mljar/mercury"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "xiaohk/stickyland"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/nbclassic"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

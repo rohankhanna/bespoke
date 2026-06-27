@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "jenkins-pipeline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkins-infra/pipeline-library",
+      "status": "candidate-context",
+      "text": "Collection of custom steps and variables for our Jenkins instance(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkins-infra/pipeline-library",
+      "status": "candidate-context",
+      "text": "Collection of custom steps and variables for our Jenkins instance(s)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkins-infra/pipeline-library",
+      "status": "candidate",
+      "text": "Collection of custom steps and variables for our Jenkins instance(s)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "jenkins-pipeline",
+  "concept_id": "jenkins-pipeline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jenkins-infra/pipeline-library"
+    }
+  ],
+  "first_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jenkins-pipeline",
+      "sense_id": "jenkins-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

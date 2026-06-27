@@ -3039,7 +3039,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T16:43:49.624630+00:00",
+  "fetched_at": "2026-06-27T19:00:01.276148+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
@@ -3091,8 +3091,8 @@
     "full_name": "vercel/next.js",
     "html_url": "https://github.com/vercel/next.js",
     "language": "JavaScript",
-    "pushed_at": "2026-06-27T16:06:33Z",
-    "stargazers_count": 140250,
+    "pushed_at": "2026-06-27T17:03:01Z",
+    "stargazers_count": 140246,
     "topics": [
       "blog",
       "browser",
@@ -3109,7 +3109,7 @@
       "universal",
       "vercel"
     ],
-    "updated_at": "2026-06-27T16:40:08Z"
+    "updated_at": "2026-06-27T18:56:15Z"
   },
   "repo_links": [],
   "terms": [

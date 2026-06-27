@@ -2,6 +2,9 @@
   "+m\u1401 includes": [
     "m-includes"
   ],
+  "1-shot-classification": [
+    "1-shot-classification"
+  ],
   "1-shot-segmentation": [
     "1-shot-segmentation"
   ],
@@ -8993,6 +8996,9 @@
   "bgfx-graphics-library": [
     "bgfx-graphics-library"
   ],
+  "bias": [
+    "bias"
+  ],
   "bias-generalisation": [
     "bias-generalisation"
   ],
@@ -9544,6 +9550,9 @@
   ],
   "black-formatter": [
     "black-formatter"
+  ],
+  "blackbox": [
+    "blackbox"
   ],
   "blackbox-exporter": [
     "blackbox-exporter"
@@ -26885,6 +26894,9 @@
   "cross-domain": [
     "cross-domain"
   ],
+  "cross-domain-recognition": [
+    "cross-domain-recognition"
+  ],
   "cross-encoder": [
     "cross-encoder"
   ],
@@ -37118,6 +37130,9 @@
   "explainable-ai": [
     "explainable-ai"
   ],
+  "explainable-ml": [
+    "explainable-ml"
+  ],
   "explainer": [
     "explainer"
   ],
@@ -38976,6 +38991,9 @@
   ],
   "fixed-width": [
     "fixed-width"
+  ],
+  "fixmatch": [
+    "fixmatch"
   ],
   "fixtures": [
     "fixtures"
@@ -46431,6 +46449,9 @@
   "htmlparser2": [
     "htmlparser2"
   ],
+  "htmlunit": [
+    "htmlunit"
+  ],
   "htmlwidgets": [
     "htmlwidgets"
   ],
@@ -49101,11 +49122,17 @@
   "interpolation": [
     "interpolation"
   ],
+  "interpret-ci": [
+    "interpret-ci"
+  ],
   "interpretability": [
     "interpretability"
   ],
   "interpretable-ai": [
     "interpretable-ai"
+  ],
+  "interpretable-machine-learning": [
+    "interpretable-machine-learning"
   ],
   "interpretable-ml": [
     "interpretable-ml"
@@ -49115,6 +49142,9 @@
   ],
   "interpreter test": [
     "interpreter-test"
+  ],
+  "interpretml": [
+    "interpretml"
   ],
   "interprocess-communication": [
     "interprocess-communication"
@@ -50387,6 +50417,9 @@
   ],
   "jenkins-api-plugin": [
     "jenkins-api-plugin"
+  ],
+  "jenkins-pipeline": [
+    "jenkins-pipeline"
   ],
   "jenkins-plugin": [
     "jenkins-plugin"
@@ -56183,6 +56216,9 @@
   "lv2-plugin": [
     "lv2-plugin"
   ],
+  "lvis": [
+    "lvis"
+  ],
   "lvlm": [
     "lvlm"
   ],
@@ -59663,6 +59699,9 @@
   ],
   "mlir": [
     "mlir"
+  ],
+  "mljar-mercury": [
+    "mljar-mercury"
   ],
   "mllm": [
     "mllm"
@@ -63856,8 +63895,17 @@
   "notebook tests": [
     "notebook-tests"
   ],
+  "notebook-application": [
+    "notebook-application"
+  ],
   "notebook-jupyter": [
     "notebook-jupyter"
+  ],
+  "notebook-publish": [
+    "notebook-publish"
+  ],
+  "notebook-web": [
+    "notebook-web"
   ],
   "notebooklm": [
     "notebooklm"
@@ -63870,6 +63918,9 @@
   ],
   "notebooks with irdb download": [
     "notebooks-with-irdb-download"
+  ],
+  "notebooks-jupyter": [
+    "notebooks-jupyter"
   ],
   "notes": [
     "notes"
@@ -64211,6 +64262,9 @@
   ],
   "nuget-packages-published": [
     "nuget-packages-published"
+  ],
+  "nuimages": [
+    "nuimages"
   ],
   "nuklear": [
     "nuklear"
@@ -83175,6 +83229,9 @@
   "semi-supervised-learning": [
     "semi-supervised-learning"
   ],
+  "semi-supervised-segmentation": [
+    "semi-supervised-segmentation"
+  ],
   "semidefinite-programming": [
     "semidefinite-programming"
   ],
@@ -85416,6 +85473,9 @@
   ],
   "solver": [
     "solver"
+  ],
+  "solver-tests": [
+    "solver-tests"
   ],
   "solvers": [
     "solvers"
@@ -96418,6 +96478,9 @@
   ],
   "update eksctl formula": [
     "update-eksctl-formula"
+  ],
+  "update encodings": [
+    "update-encodings"
   ],
   "update epics": [
     "update-epics"

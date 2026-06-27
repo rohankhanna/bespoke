@@ -1729,6 +1729,30 @@
       "source_repo": "JuliaGPU/Metal.jl",
       "status": "candidate-context",
       "text": "*Metal programming in Julia*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "A data structure for mathematical optimization problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "| **Documentation** | **Build Status** |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "status": "candidate-context",
+      "text": "Objective-C embedded in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "status": "candidate-context",
+      "text": "*Objective-C bridge for Julia*"
     }
   ],
   "candidate_glosses": [
@@ -2595,6 +2619,18 @@
       "source_repo": "JuliaGPU/Metal.jl",
       "status": "candidate",
       "text": "*Metal programming in Julia*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate",
+      "text": "| **Documentation** | **Build Status** |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/ObjectiveC.jl",
+      "status": "candidate",
+      "text": "*Objective-C bridge for Julia*"
     }
   ],
   "candidate_related_terms": [
@@ -7096,11 +7132,65 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "JuliaGPU/Metal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jump-dev/MathOptInterface.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/ObjectiveC.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -229,7 +229,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T17:06:21.882926+00:00",
+  "fetched_at": "2026-06-27T19:39:47.984356+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -281,7 +281,7 @@
     "full_name": "fla-org/flash-linear-attention",
     "html_url": "https://github.com/fla-org/flash-linear-attention",
     "language": "Python",
-    "pushed_at": "2026-06-27T16:36:48Z",
+    "pushed_at": "2026-06-27T17:24:57Z",
     "stargazers_count": 5272,
     "topics": [
       "large-language-models",

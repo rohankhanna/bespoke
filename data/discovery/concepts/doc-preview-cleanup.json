@@ -223,6 +223,18 @@
       "source_repo": "JuliaGPU/oneAPI.jl",
       "status": "candidate-context",
       "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "A data structure for mathematical optimization problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "Doc Preview Cleanup"
     }
   ],
   "candidate_glosses": [
@@ -331,6 +343,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
       "status": "candidate",
       "text": "Doc Preview Cleanup"
     }
@@ -490,11 +508,17 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": ".github/workflows/DocsCleanup.yml",
       "source_repo": "JuliaGPU/oneAPI.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/doc_cleanup.yml",
+      "source_repo": "jump-dev/MathOptInterface.jl"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

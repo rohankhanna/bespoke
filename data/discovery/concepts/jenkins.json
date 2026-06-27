@@ -79,6 +79,30 @@
       "source_repo": "jenkinsci/plugin-pom",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkins-infra/pipeline-library",
+      "status": "candidate-context",
+      "text": "Collection of custom steps and variables for our Jenkins instance(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkins-infra/pipeline-library",
+      "status": "candidate-context",
+      "text": "Collection of custom steps and variables for our Jenkins instance(s)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jenkins-test-harness",
+      "status": "candidate-context",
+      "text": "Unit test framework for Jenkins core and its plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins-test-harness",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/jenkins-test-harness.svg?label=release)](https://github.com/jenkinsci/jenkins-test-harness/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "jenkinsci/plugin-pom",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkins-infra/pipeline-library",
+      "status": "candidate",
+      "text": "Collection of custom steps and variables for our Jenkins instance(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins-test-harness",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/jenkins-test-harness.svg?label=release)](https://github.com/jenkinsci/jenkins-test-harness/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": null,
       "source_repo": "jenkinsci/plugin-pom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jenkins-infra/pipeline-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/jenkins-test-harness"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

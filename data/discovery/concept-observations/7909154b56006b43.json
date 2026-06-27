@@ -84,7 +84,7 @@
   "normalized_form": "chip-tool-tests",
   "observation_id": "7909154b56006b43",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "Chip Tool tests",
   "source_context_snippet": "Chip Tool tests",
   "source_file": ".github/workflows/chip-tool-tests.yml",

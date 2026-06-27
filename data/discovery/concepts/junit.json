@@ -85,6 +85,18 @@
       "source_repo": "rcasia/neotest-java",
       "status": "candidate-context",
       "text": "<section align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jenkins-test-harness",
+      "status": "candidate-context",
+      "text": "Unit test framework for Jenkins core and its plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins-test-harness",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/jenkins-test-harness.svg?label=release)](https://github.com/jenkinsci/jenkins-test-harness/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,12 @@
       "source_repo": "rcasia/neotest-java",
       "status": "candidate",
       "text": "<section align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins-test-harness",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/jenkins-test-harness.svg?label=release)](https://github.com/jenkinsci/jenkins-test-harness/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +232,17 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": null,
       "source_repo": "junit-team/junit-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/jenkins-test-harness"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -20,8 +20,15 @@
       "source_repo": "nvim-lua/completion-nvim",
       "target": "nvim-treesitter/completion-treesitter",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-lua/completion-nvim",
+      "target": "kristijanhusak/completion-tags",
+      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-06-27T12:41:13.509162+00:00",
+  "generated_at": "2026-06-27T18:32:46.721236+00:00",
   "source_repo": "nvim-lua/completion-nvim"
 }

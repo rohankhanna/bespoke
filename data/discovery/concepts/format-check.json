@@ -267,6 +267,18 @@
       "source_repo": "jump-dev/Clp.jl",
       "status": "candidate-context",
       "text": "format-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "A data structure for mathematical optimization problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
+      "status": "candidate-context",
+      "text": "format-check"
     }
   ],
   "candidate_glosses": [
@@ -399,6 +411,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jump-dev/Clp.jl",
+      "status": "candidate",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/MathOptInterface.jl",
       "status": "candidate",
       "text": "format-check"
     }
@@ -1428,11 +1446,23 @@
       "observed_at": "2026-06-27T12:41:13.509162+00:00",
       "source_file": ".github/workflows/format_check.yml",
       "source_repo": "jump-dev/Clp.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "jump-dev/MathOptInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T18:32:46.721236+00:00",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "lexical_providers": [
     "datamuse"
   ],

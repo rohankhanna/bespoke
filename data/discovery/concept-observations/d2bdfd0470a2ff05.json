@@ -84,7 +84,7 @@
   "normalized_form": "release-on-tag",
   "observation_id": "d2bdfd0470a2ff05",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "Release on tag",
   "source_context_snippet": "Release on tag",
   "source_file": ".github/workflows/release-on-tag.yml",

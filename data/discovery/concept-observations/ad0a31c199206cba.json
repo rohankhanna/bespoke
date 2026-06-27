@@ -84,7 +84,7 @@
   "normalized_form": "nemo-unit-tests",
   "observation_id": "ad0a31c199206cba",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "NeMo Unit Tests",
   "source_context_snippet": "NeMo Unit Tests",
   "source_file": ".github/workflows/cicd-main-unit-tests.yml",

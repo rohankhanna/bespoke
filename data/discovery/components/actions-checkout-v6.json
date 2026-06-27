@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -41292,6 +41292,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/hosting-issue-checker.yml",
       "source_repo": "jenkins-infra/repository-permissions-updater"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "interpretml/interpret"
     }
   ]
 }

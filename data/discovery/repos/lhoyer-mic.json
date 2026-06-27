@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lhoyer/MIC",
+      "target": "susaha/edaps",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T18:35:15.290367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR23] Official Implementation of MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation",
+    "fork": false,
+    "full_name": "lhoyer/MIC",
+    "html_url": "https://github.com/lhoyer/MIC",
+    "language": "Python",
+    "pushed_at": "2024-08-10T16:20:06Z",
+    "stargazers_count": 293,
+    "topics": [],
+    "updated_at": "2026-06-16T14:44:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "susaha/edaps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

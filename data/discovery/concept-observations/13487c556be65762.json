@@ -84,7 +84,7 @@
   "normalized_form": "msys2-build",
   "observation_id": "13487c556be65762",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-27T18:32:46.721236+00:00",
   "observed_text": "MSYS2 build",
   "source_context_snippet": "MSYS2 build",
   "source_file": ".github/workflows/mingw.yml",
