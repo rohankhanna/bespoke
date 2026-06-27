@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 56019,
-    "concepts": 36547,
-    "observations": 36660,
-    "repos": 6163,
-    "terms": 36430
+    "components": 56051,
+    "concepts": 36596,
+    "observations": 36709,
+    "repos": 6167,
+    "terms": 36478
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -383,6 +383,7 @@
     "antoinelame/GazeTracking",
     "antonbabenko/pre-commit-terraform",
     "antonbabenko/terraform-skill",
+    "ANTsX/ANTs",
     "antvis/mcp-server-chart",
     "AnubisNekhet/AnuPpuccin",
     "anuvyklack/hydra.nvim",
@@ -1601,6 +1602,7 @@
     "drivendataorg/cookiecutter-data-science",
     "drknzz/GitHub-Achievements",
     "dropwizard/dropwizard",
+    "drprojects/superpoint_transformer",
     "DrTimothyAldenDavis/SuiteSparse",
     "dspinellis/latex-advice",
     "dstackai/dstack",
@@ -2722,6 +2724,7 @@
     "innnky/so-vits-svc",
     "inokawa/virtua",
     "InsaneLife/ChineseNLPCorpus",
+    "InsightSoftwareConsortium/ITK",
     "insin/nwb",
     "Instagram/LibCST",
     "instantX-research/InstantStyle",
@@ -2856,6 +2859,7 @@
     "jeffffffli/HybrIK",
     "jekip/naive-ui-admin",
     "jellyfin/jellyfin-web",
+    "jenkinsci/docker",
     "jensimmons/cssremedy",
     "jeonsworld/ViT-pytorch",
     "jeremycw/httpserver.h",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 127,
-    "observations": 131,
-    "repos": 14,
-    "terms": 127
+    "components": 182,
+    "concepts": 167,
+    "observations": 171,
+    "repos": 17,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "argmaxinc/argmax-oss-swift",
@@ -26,6 +26,9 @@
     "google-deepmind/tapnet",
     "googleapis/google-auth-library-php",
     "huggingface/swift-transformers",
+    "jenkinsci/docker",
+    "MakieOrg/Makie.jl",
+    "microsoft/aspire-samples",
     "okd-project/okd",
     "standardrb/standard"
   ]

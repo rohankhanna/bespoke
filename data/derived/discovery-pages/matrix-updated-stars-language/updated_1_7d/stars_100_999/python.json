@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 202,
-    "concepts": 194,
-    "observations": 195,
-    "repos": 22,
-    "terms": 194
+    "components": 216,
+    "concepts": 217,
+    "observations": 218,
+    "repos": 24,
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
     "adtzlr/felupe",
     "andfoy/pywinpty",
     "ansys/pymapdl",
     "aramis-lab/clinica",
+    "aramis-lab/clinicadl",
     "ashawkey/kiuikit",
     "BBC-Esq/Faster-Whisper-Transcriber",
     "bjlittle/geovista",

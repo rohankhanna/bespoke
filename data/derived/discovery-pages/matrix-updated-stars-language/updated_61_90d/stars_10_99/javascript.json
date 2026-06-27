@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1385,
-    "concepts": 361,
-    "observations": 361,
-    "repos": 93,
-    "terms": 361
+    "components": 1413,
+    "concepts": 369,
+    "observations": 369,
+    "repos": 95,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "AdguardTeam/FiltersCompiler",
@@ -41,6 +41,7 @@
     "erichlof/TheSentinel-2nd-Look",
     "evenchange4/graphql.macro-example",
     "faressoft/inquirer-checkbox-plus-prompt",
+    "gacts/install-dnscontrol",
     "gatsbyjs/gatsby-starter-minimal",
     "GDevelopApp/GDevelop-tutorials",
     "gr2m/before-after-hook",
@@ -50,6 +51,7 @@
     "GuillaumeGomez/browser-UI-test",
     "haskell-actions/run-fourmolu",
     "hectorm/chafa-wasm",
+    "hyparam/hyparquet-writer",
     "i18next/i18next-chained-backend",
     "i18next/i18next-icu",
     "i18next/i18next-multiload-backend-adapter",

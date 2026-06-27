@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 5667,
-    "concepts": 2072,
-    "observations": 2075,
-    "repos": 1445,
-    "terms": 2072
+    "concepts": 2080,
+    "observations": 2083,
+    "repos": 1450,
+    "terms": 2080
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -410,6 +410,7 @@
     "cognizant-ai-lab/neuro-san-web-client",
     "coin-or-tools/BuildTools",
     "coin-or-tools/ThirdParty-ASL",
+    "Colin97/GLIP",
     "colstone/Multi-langs_Dictionary",
     "comit-network/monero-rs",
     "compio-rs/compio-logo",
@@ -664,6 +665,7 @@
     "getlantern/lantern-forum-ru",
     "getlantern/lantern-forum-ukraine",
     "ghchinoy/studio-scaffold",
+    "giordano/FujitsuBLAS.jl",
     "girishji/fFtT.vim",
     "git-friendly/homebrew-git-friendly",
     "glium/glium_derive",
@@ -1038,6 +1040,7 @@
     "mindreframer/sqlean",
     "MindWorkAI/ERI",
     "minihack-editor/minihack-editor.github.io",
+    "mintoolkit/examples",
     "mirage/coin",
     "mirahavel0309/asm",
     "mmark-md/flycheck-mmark",
@@ -1084,6 +1087,7 @@
     "nightmachinery/pyexfiltrator",
     "nightsnack/Allegro-VideoSys",
     "niivue/ct2print",
+    "niivue/fullstack-niivue-demo",
     "niivue/niivue-mesh",
     "niuiic/awesome-neovim-plugins",
     "niuiic/multiple-session.nvim",
@@ -1269,6 +1273,7 @@
     "saratheriver/enigma-extra",
     "Sbozzolo/libvterm-mirror",
     "scaleway/serverless-functions-node",
+    "scepter914/nuscenes_rosbag",
     "schedul-xor/nextzen2oscimv4",
     "scicode-bench/scicode-bench.github.io",
     "scicode-bench/submissions",
@@ -1370,7 +1375,7 @@
     "travis-infrastructure/packer-build",
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

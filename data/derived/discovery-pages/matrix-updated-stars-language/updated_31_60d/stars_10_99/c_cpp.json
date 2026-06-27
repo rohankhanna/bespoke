@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 286,
-    "observations": 287,
-    "repos": 35,
-    "terms": 281
+    "components": 182,
+    "concepts": 284,
+    "observations": 285,
+    "repos": 34,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "analogdevicesinc/msdk",
@@ -37,7 +37,6 @@
     "heiher/hev-socks5-core",
     "heiher/hev-task-system",
     "jwindgassen/UnrealYAML",
-    "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",
     "LedgerHQ/ledger-secure-sdk",
     "llnl/camp",

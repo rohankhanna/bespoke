@@ -3,7 +3,7 @@
     "components": 1201,
     "concepts": 550,
     "observations": 550,
-    "repos": 364,
+    "repos": 365,
     "terms": 557
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -169,6 +169,7 @@
     "geofabrik/osm-bright",
     "geoswift/geoswiftmapboxmaps",
     "getgrav/grav-plugin-error",
+    "giordano/FujitsuBLAS.jl",
     "girishji/fFtT.vim",
     "git-friendly/homebrew-git-friendly",
     "greglook/lein-cprint",

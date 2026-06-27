@@ -3,7 +3,7 @@
     "components": 1450,
     "concepts": 154,
     "observations": 154,
-    "repos": 86,
+    "repos": 87,
     "terms": 151
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
     "1000ch/vscode-csso",
@@ -78,6 +78,7 @@
     "mcous/testdouble-vitest",
     "mxcl/mash",
     "near/near-abi-js",
+    "niivue/fullstack-niivue-demo",
     "nomic-io/nomic-bitcoin-js",
     "offline-ai/ai-shell",
     "Pablerdo/hexaframe-dark",

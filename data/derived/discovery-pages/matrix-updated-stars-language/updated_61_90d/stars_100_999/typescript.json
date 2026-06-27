@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3959,
-    "concepts": 827,
-    "observations": 827,
-    "repos": 145,
-    "terms": 879
+    "components": 4008,
+    "concepts": 846,
+    "observations": 846,
+    "repos": 148,
+    "terms": 897
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -25,6 +25,7 @@
     "antfu/skills-npm",
     "antfu/starter-ts",
     "anthropics/claude-code-base-action",
+    "antvis/chart-visualization-skills",
     "appium/appium-adb",
     "appwrite/sdk-for-node",
     "appwrite/sdk-for-web",
@@ -50,6 +51,7 @@
     "curiousdannii/parchment",
     "cztomsik/ava",
     "daeh/zotero-citation-tally",
+    "daeh/zotero-markdb-connect",
     "decentralized-identity/did-jwt",
     "DeterminateSystems/nix-installer-action",
     "devcontainers/ci",
@@ -109,6 +111,7 @@
     "microsoft/vscode-css-languageservice",
     "microsoft/vscode-debugadapter-node",
     "microsoft/vscode-html-languageservice",
+    "microsoft/vscode-java-debug",
     "microsoft/vscode-json-languageservice",
     "mskelton/eslint-plugin-playwright",
     "napi-rs/package-template",

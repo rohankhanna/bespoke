@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 788,
-    "concepts": 600,
-    "observations": 602,
-    "repos": 157,
-    "terms": 614
+    "concepts": 615,
+    "observations": 617,
+    "repos": 158,
+    "terms": 629
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "a2aproject/a2a-tck",
@@ -93,6 +93,7 @@
     "harbor-framework/harbor-cookbook",
     "higlass/clodius",
     "HKU-BAL/Clair3-RNA",
+    "HKU-BAL/ClairS-TO",
     "hpcaitech/public_assets",
     "hsliuustc0106/vllm-omni-skills",
     "hynek/argon2-cffi-bindings",

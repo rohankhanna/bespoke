@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 63243,
-    "concepts": 10974,
-    "observations": 11010,
-    "repos": 1926,
-    "terms": 11276
+    "components": 63282,
+    "concepts": 10980,
+    "observations": 11016,
+    "repos": 1928,
+    "terms": 11282
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -1292,6 +1292,7 @@
     "ngyewch/smile-js",
     "nicolo-ribaudo/engine262",
     "niieani/gpt-tokenizer",
+    "niivue/fullstack-niivue-demo",
     "niivue/niivue",
     "NilsJPWerner/autoDocstring",
     "nitrojs/nitro",
@@ -1831,6 +1832,7 @@
     "vercel/modelfusion",
     "vercel/ms",
     "vercel/next-learn",
+    "vercel/pkg-fetch",
     "vercel/satori",
     "vercel/serve",
     "vercel/swr",

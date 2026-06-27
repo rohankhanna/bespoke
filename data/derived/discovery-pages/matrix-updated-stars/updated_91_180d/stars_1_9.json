@@ -3,7 +3,7 @@
     "components": 1248,
     "concepts": 817,
     "observations": 819,
-    "repos": 315,
+    "repos": 316,
     "terms": 812
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -285,6 +285,7 @@
     "sigp/xdelta3-rs",
     "sigstore/.github",
     "simonpoole/geocontext",
+    "SlicerRt/SlicerRtDoc",
     "sp1-patches/curve25519-dalek-ng",
     "sparklabutah/timewarp",
     "stdlib-js/array-buffer",

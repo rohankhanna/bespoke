@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9634,
-    "concepts": 4498,
-    "observations": 4512,
-    "repos": 386,
-    "terms": 4463
+    "components": 9609,
+    "concepts": 4468,
+    "observations": 4482,
+    "repos": 383,
+    "terms": 4433
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "2dust/v2rayNG",
@@ -161,7 +161,6 @@
     "h2o/h2o",
     "hadolint/hadolint",
     "hagezi/dns-blocklists",
-    "hajimehoshi/ebiten",
     "hashicorp/nomad",
     "Heapy/awesome-kotlin",
     "helix-editor/helix",
@@ -207,7 +206,6 @@
     "kubernetes-sigs/kubespray",
     "kvcache-ai/ktransformers",
     "kysely-org/kysely",
-    "langchain-ai/open_deep_research",
     "langchain4j/langchain4j",
     "languagetool-org/languagetool",
     "LemmyNet/lemmy",
@@ -215,7 +213,6 @@
     "libuv/libuv",
     "lightgbm-org/LightGBM",
     "lint-staged/lint-staged",
-    "locustio/locust",
     "logseq/logseq",
     "LostRuins/koboldcpp",
     "Loyalsoldier/v2ray-rules-dat",

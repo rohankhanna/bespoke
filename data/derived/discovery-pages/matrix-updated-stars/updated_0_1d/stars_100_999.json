@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 330,
-    "concepts": 219,
-    "observations": 219,
-    "repos": 29,
-    "terms": 219
+    "components": 348,
+    "concepts": 214,
+    "observations": 214,
+    "repos": 30,
+    "terms": 214
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
     "aristoteleo/PantheonOS",
@@ -32,7 +31,9 @@
     "hexabot-ai/Hexabot",
     "InsightSoftwareConsortium/ITK-Wasm",
     "ipsilon/evmone",
+    "JuliaLinearAlgebra/AppleAccelerate.jl",
     "ldproxy/ldproxy",
+    "manzt/anywidget",
     "matter-js/matter.js",
     "mightyiam/eslint-config-love",
     "NCAS-CMS/pyfive",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 27,
-    "observations": 27,
+    "components": 59,
+    "concepts": 32,
+    "observations": 33,
     "repos": 5,
-    "terms": 27
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
+    "apache/datafusion-ballista",
     "ash-rs/ash",
-    "bionic-gpt/bionic-gpt",
     "evcxr/evcxr",
     "godot-rust/gdext",
     "imgui-rs/imgui-rs"

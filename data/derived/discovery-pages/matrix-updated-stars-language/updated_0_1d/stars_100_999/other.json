@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 4,
-    "terms": 30
+    "components": 41,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 5,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "bazel-contrib/rules_kotlin",
     "clj-commons/rewrite-clj",
+    "JuliaLinearAlgebra/AppleAccelerate.jl",
     "ROCm/hipBLASLt",
     "the-database/mpv-AnimeJaNai"
   ]

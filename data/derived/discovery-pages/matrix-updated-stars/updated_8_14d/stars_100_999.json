@@ -1,20 +1,22 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 139,
-    "observations": 139,
-    "repos": 26,
-    "terms": 139
+    "components": 222,
+    "concepts": 152,
+    "observations": 152,
+    "repos": 29,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "alloy-rs/svm-rs",
+    "ANTsX/ANTsPy",
+    "ANTsX/ANTsPyNet",
     "appbaseio/reactivesearch-api",
     "bazel-contrib/rules_jvm_external",
     "Blaizzy/mlx-audio-swift",
@@ -34,6 +36,7 @@
     "PyCQA/eradicate",
     "pyOpenSci/software-submission",
     "rescript-lang/reanalyze",
+    "scientific-python/spin",
     "SpecterOps/AzureHound",
     "the-database/VideoJaNai",
     "unum-bio/USearchMolecules",

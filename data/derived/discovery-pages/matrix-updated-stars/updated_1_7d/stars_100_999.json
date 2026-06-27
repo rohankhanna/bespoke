@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 1013,
-    "concepts": 530,
-    "observations": 533,
-    "repos": 68,
-    "terms": 530
+    "components": 1056,
+    "concepts": 585,
+    "observations": 588,
+    "repos": 74,
+    "terms": 584
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
     "actions/container-toolkit-action",
     "adtzlr/felupe",
     "andfoy/pywinpty",
@@ -20,6 +21,7 @@
     "antvis/GPT-Vis",
     "apalache-mc/apalache",
     "aramis-lab/clinica",
+    "aramis-lab/clinicadl",
     "Artoriuz/ArtCNN",
     "ashawkey/kiuikit",
     "astroautomata/SymbolicRegression.jl",
@@ -56,11 +58,15 @@
     "grpc/grpc-dart",
     "huggingface/hf-mcp-server",
     "Jamorim-esss/pytest-rich",
+    "JuliaGPU/oneAPI.jl",
+    "JuliaLinearAlgebra/MKL.jl",
     "jupyter-server/jupyter_server",
     "karafka/rdkafka-ruby",
     "localai-org/LocalVQE",
     "meshcat-dev/meshcat",
     "meta-pytorch/torchft",
+    "mintoolkit/mint",
+    "mudler/parakeet.cpp",
     "NVIDIA-NeMo/Automodel",
     "OpenHands/agent-canvas",
     "PyCQA/autoflake",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10434,
-    "concepts": 10200,
-    "observations": 10232,
-    "repos": 1736,
-    "terms": 10150
+    "components": 10438,
+    "concepts": 10218,
+    "observations": 10250,
+    "repos": 1737,
+    "terms": 10168
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -1277,6 +1277,7 @@
     "minio/pkg",
     "minio/sha256-simd",
     "minio/simdjson-go",
+    "mintoolkit/mint",
     "mislav/hub",
     "mitchellh/mapstructure",
     "mlabouardy/swaggymnia",

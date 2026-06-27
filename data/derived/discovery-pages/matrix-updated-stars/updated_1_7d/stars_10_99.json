@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 385,
-    "concepts": 167,
-    "observations": 167,
+    "components": 401,
+    "concepts": 169,
+    "observations": 169,
     "repos": 34,
-    "terms": 167
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "ansys/pymapdl-reader",
@@ -36,8 +36,8 @@
     "lumen-oss/luarocks-tag-release",
     "mongodb/winkerberos",
     "mozilla-ai/any-guardrail",
-    "mudler/depth-anything.cpp",
     "mudler/nib",
+    "nipreps/petprep",
     "nvim-mini/mini.deps",
     "pivotal/credhub-release",
     "processing/processing-website",

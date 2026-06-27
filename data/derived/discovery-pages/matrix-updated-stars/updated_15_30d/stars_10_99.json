@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 168,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 17,
-    "terms": 78
+    "components": 190,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 19,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "aidenlab/hic-straw",
@@ -27,7 +27,9 @@
     "geocompx/docker",
     "ika-rwth-aachen/docker-run",
     "joshsymonds/cc-tools",
+    "JuliaLinearAlgebra/libblastrampoline",
     "lumen-oss/nurr",
+    "niivue/ipyniivue",
     "ocaml-tracing/ocaml-opentelemetry",
     "tee-ar-ex/trx-python"
   ]

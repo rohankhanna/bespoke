@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6118,
-    "concepts": 4155,
-    "observations": 4166,
-    "repos": 792,
-    "terms": 4156
+    "components": 6116,
+    "concepts": 4158,
+    "observations": 4169,
+    "repos": 791,
+    "terms": 4158
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -302,7 +302,6 @@
     "gobwas/ws",
     "goccy/go-json",
     "godot-rust/gdnative",
-    "golang-ui/nuklear",
     "golang/oauth2",
     "Gonzalo-D-Sales/obsidian-velocity",
     "google-deepmind/alphageometry",
@@ -449,6 +448,7 @@
     "lite-xl/lite-xl",
     "littlefs-project/littlefs",
     "liuchengxu/vim-which-key",
+    "lldap/lldap",
     "lltcggie/waifu2x-caffe",
     "lobehub/lobe-chat-agents",
     "locationtech/jts",
@@ -503,7 +503,6 @@
     "mozilla/webextension-polyfill",
     "mozillazg/go-pinyin",
     "mozillazg/pinyin-data",
-    "MrForExample/ComfyUI-3D-Pack",
     "mrsteele/dotenv-webpack",
     "msasanmh/DNSveil",
     "msgpack/msgpack-c",

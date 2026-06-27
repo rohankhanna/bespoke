@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 475,
-    "concepts": 283,
-    "observations": 283,
-    "repos": 53,
-    "terms": 283
+    "components": 487,
+    "concepts": 289,
+    "observations": 289,
+    "repos": 55,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "Ai00-X/ai00_server",
     "Alex313031/Thorium-MacOS",
     "AMD-AGI/Nitro-1",
+    "ANTsX/ANTsR",
     "appelmar/gdalcubes",
     "babashka/nbb",
     "bamsumit/slayerPytorch",
@@ -40,6 +41,7 @@
     "haasn/libplacebo",
     "ika-rwth-aachen/docker-ros",
     "jawah/charset_normalizer",
+    "joblib/loky",
     "JuliaGraphics/Luxor.jl",
     "kantv-ai/kantv",
     "Kosinkadink/ComfyUI-Advanced-ControlNet",
@@ -51,12 +53,12 @@
     "MetaCubeX/Yacd-meta",
     "mudler/locate-anything.cpp",
     "niivue/niivue",
-    "OpenHands/ToM-SWE",
     "PozzettiAndrea/ComfyUI-DepthAnythingV3",
     "preactjs/preact-devtools",
     "pyvista/fast-simplification",
     "pyvista/pyvista-xarray",
     "readthedocs/commonmark.py",
+    "ros-industrial/industrial_ci",
     "salesforce/UniControl",
     "skilld-dev/skilld",
     "tc39/proposal-decimal",

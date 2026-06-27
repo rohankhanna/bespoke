@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 265,
-    "concepts": 335,
-    "observations": 335,
-    "repos": 41,
-    "terms": 333
+    "components": 250,
+    "concepts": 314,
+    "observations": 314,
+    "repos": 40,
+    "terms": 312
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "apache/ignite-3",
     "apache/rocketmq-clients",
@@ -20,7 +20,6 @@
     "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
     "aws/smithy-go",
-    "bndtools/bnd",
     "confluentinc/kafka-streams-examples",
     "devoxx/DevoxxGenieIDEAPlugin",
     "FasterXML/jackson-dataformat-xml",

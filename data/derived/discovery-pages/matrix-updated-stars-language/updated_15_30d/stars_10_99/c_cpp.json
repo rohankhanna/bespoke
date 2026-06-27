@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 1,
-    "observations": 1,
+    "components": 4,
+    "concepts": 2,
+    "observations": 2,
     "repos": 1,
-    "terms": 1
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-25T07:47:47.540132+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
-    "mono/skia"
+    "JuliaLinearAlgebra/libblastrampoline"
   ]
 }

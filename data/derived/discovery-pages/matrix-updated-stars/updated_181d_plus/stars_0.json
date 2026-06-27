@@ -3,7 +3,7 @@
     "components": 1413,
     "concepts": 584,
     "observations": 586,
-    "repos": 475,
+    "repos": 477,
     "terms": 584
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -309,6 +309,7 @@
     "JuliaBinaryWrappers/GEOS_jll.jl",
     "JuliaBinaryWrappers/GTK4_jll.jl",
     "JuliaBinaryWrappers/HDF4_jll.jl",
+    "JuliaBinaryWrappers/LAPACK_jll.jl",
     "JuliaBinaryWrappers/libadwaita_jll.jl",
     "JuliaBinaryWrappers/Libffi_jll.jl",
     "JuliaBinaryWrappers/Libiconv_jll.jl",
@@ -316,6 +317,7 @@
     "JuliaBinaryWrappers/LLVMOpenMP_jll.jl",
     "JuliaBinaryWrappers/Lz4_jll.jl",
     "JuliaBinaryWrappers/pixi_jll.jl",
+    "JuliaBinaryWrappers/ReferenceBLAS_jll.jl",
     "JuliaBinaryWrappers/snappy_jll.jl",
     "JuliaBinaryWrappers/Thrift_jll.jl",
     "JuliaBinaryWrappers/yyjson_jll.jl",

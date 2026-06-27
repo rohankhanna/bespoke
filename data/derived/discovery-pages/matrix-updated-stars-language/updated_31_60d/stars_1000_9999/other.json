@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1810,
-    "concepts": 1590,
-    "observations": 1602,
-    "repos": 194,
-    "terms": 1580
+    "components": 1785,
+    "concepts": 1557,
+    "observations": 1569,
+    "repos": 190,
+    "terms": 1547
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
@@ -27,7 +27,6 @@
     "androidx/androidx",
     "andymass/vim-matchup",
     "apollographql/apollo-kotlin",
-    "ARM-software/abi-aa",
     "atteneder/glTFast",
     "aws/aws-sdk-ruby",
     "Azure/azure-powershell",
@@ -38,7 +37,6 @@
     "borglab/gtsam",
     "broadinstitute/cromwell",
     "CakeML/cakeml",
-    "CanHub/Android-Image-Cropper",
     "cashapp/turbine",
     "catppuccin/nvim",
     "celzero/rethink-app",
@@ -77,7 +75,6 @@
     "elm/compiler",
     "emacs-mirror/emacs",
     "facebook/pyre-check",
-    "fluentassertions/fluentassertions",
     "FluxML/Flux.jl",
     "foundry-rs/forge-std",
     "FStarLang/FStar",
@@ -144,7 +141,6 @@
     "NuGet/NuGetGallery",
     "nushell/awesome-nu",
     "nvim-flutter/flutter-tools.nvim",
-    "nvim-lualine/lualine.nvim",
     "nvim-mini/mini.nvim",
     "nvim-neotest/neotest",
     "nvim-tree/nvim-tree.lua",

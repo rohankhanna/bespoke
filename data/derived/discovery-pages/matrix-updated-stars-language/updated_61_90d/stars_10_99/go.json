@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 576,
-    "concepts": 371,
-    "observations": 373,
-    "repos": 88,
-    "terms": 367
+    "components": 584,
+    "concepts": 373,
+    "observations": 375,
+    "repos": 89,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "AbdelrhmanHamouda/locust-k8s-operator",
@@ -55,6 +55,7 @@
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
     "depado/smallblog",
+    "dianlight/gollama.cpp",
     "dlclark/regexp2cg",
     "ebitengine/debugui",
     "ethpandaops/xatu",

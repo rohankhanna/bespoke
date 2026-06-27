@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10826,
-    "concepts": 9681,
-    "observations": 9695,
-    "repos": 2477,
-    "terms": 9542
+    "components": 10828,
+    "concepts": 9685,
+    "observations": 9699,
+    "repos": 2479,
+    "terms": 9545
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -862,6 +862,7 @@
     "gobwas/glob",
     "godlygeek/tabular",
     "gogo/protobuf",
+    "golang-ui/nuklear",
     "golang/glog",
     "golang/mock",
     "golang/snappy",
@@ -1543,6 +1544,7 @@
     "mpeterv/luacheck",
     "mps-youtube/pafy",
     "mrash/fwknop",
+    "MrForExample/ComfyUI-3D-Pack",
     "MrGemy95/Tensorflow-Project-Template",
     "MrGiovanni/UNetPlusPlus",
     "mrjones2014/legendary.nvim",

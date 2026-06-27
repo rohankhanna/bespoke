@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 17,
-    "terms": 53
+    "components": 62,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 15,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
@@ -20,10 +20,8 @@
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
     "Jaded-Encoding-Thaumaturgy/JET-guide",
-    "jupyterlab/frontends-team-compass",
     "microsoft/microsoft-foundry-for-vscode",
     "NightWatcher314/zotero-pdf2zh-server",
-    "prefix-dev/rattler-build-action",
     "RiDDiX/home-assistant-addons",
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "sigstore/root-signing-staging",

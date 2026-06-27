@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 929,
+    "components": 933,
     "concepts": 1007,
     "observations": 1010,
-    "repos": 196,
+    "repos": 197,
     "terms": 999
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -131,6 +131,7 @@
     "mapbox/mapnik-vector-tile",
     "mapbox/protozero",
     "mapbox/variant",
+    "mapnik/node-mapnik",
     "marton78/pffft",
     "microsoft/Tutel",
     "microsoft/UVAtlas",

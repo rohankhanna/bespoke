@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3322,
-    "concepts": 1462,
-    "observations": 1463,
-    "repos": 443,
-    "terms": 1490
+    "components": 3365,
+    "concepts": 1468,
+    "observations": 1469,
+    "repos": 450,
+    "terms": 1496
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xble/dotagent.nvim",
@@ -62,6 +62,8 @@
     "andriykohut/pdm-readiness",
     "anexia/k8s-external-dns-webhook",
     "angular/dev-infra-private-ng-dev-builds",
+    "ankane/cbc-ruby",
+    "ankane/clp-ruby",
     "ankane/dist-c",
     "ankane/seaduck",
     "anojndr/grok-to-openai",
@@ -90,8 +92,11 @@
     "birdofpreyru/react-utils",
     "bitrise-io/bitrise-plugins-step",
     "bladeacer/obsi-snip-coll",
+    "Blosc/blogsite",
+    "bnb-chain/reth-bsc-triedb",
     "bndtools/workspace-templates",
     "bolasblack/BlogFront",
+    "breferrari/shardmind",
     "bryanh9111/engram",
     "cachix/iocraft",
     "caesar0301/soothe",
@@ -282,6 +287,7 @@
     "j9t/image-guard",
     "j9t/minifier-benchmarks",
     "Jango-AI-com/morning-cli",
+    "jfmengels/elm-review-config",
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
@@ -358,6 +364,7 @@
     "openssh/openssh-portable-selfhosted",
     "openwebdocs/mdn-bcd-results",
     "oxc-project/oxc-index-vec",
+    "ParisNeo/lollms_client",
     "penpoen/llm-sugarscape",
     "petmal/mindtrial",
     "php-rdkafka/php-rdkafka-doc",

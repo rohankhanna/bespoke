@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 372,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 19,
-    "terms": 136
+    "components": 342,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 18,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "8hobbies/vite-plugin-year",
     "anolilab/unplugin-favicons",
-    "breferrari/shardmind",
     "csm-actions/update-branch-action",
     "dreamscached/i18next-cli-plugin-svelte",
     "dydxprotocol/v4-localization",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 757,
-    "concepts": 520,
-    "observations": 524,
-    "repos": 73,
-    "terms": 518
+    "components": 734,
+    "concepts": 510,
+    "observations": 514,
+    "repos": 71,
+    "terms": 508
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
@@ -56,7 +56,6 @@
     "kpcyrd/rebuilderd",
     "ldclabs/anda",
     "left-curve/left-curve",
-    "libbpf/blazesym",
     "lindera/lindera",
     "matter-labs/zksync-airbender",
     "MercuryTechnologies/ghciwatch",
@@ -79,7 +78,6 @@
     "specta-rs/specta",
     "specta-rs/tauri-specta",
     "supabase/wrappers",
-    "tensorchord/VectorChord-bm25",
     "tinted-theming/tinty",
     "utilityai/llama-cpp-rs",
     "vectordotdev/vrl",

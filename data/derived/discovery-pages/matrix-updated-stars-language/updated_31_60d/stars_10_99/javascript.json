@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 297,
-    "concepts": 98,
-    "observations": 100,
-    "repos": 21,
-    "terms": 98
+    "components": 269,
+    "concepts": 90,
+    "observations": 92,
+    "repos": 19,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "alangdm/helium-animated-pages",
     "apache/doris-opentelemetry-demo",
@@ -21,10 +21,8 @@
     "coasys/ad4m",
     "ember-cli/ember-app-blueprint",
     "Eonic/ProteanCMS",
-    "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
     "hudochenkov/postcss-styled-syntax",
-    "hyparam/hyparquet-writer",
     "hyparam/squirreling",
     "ideditor/schema-builder",
     "julia-actions/cache",

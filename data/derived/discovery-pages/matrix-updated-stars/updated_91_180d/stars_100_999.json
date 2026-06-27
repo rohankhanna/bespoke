@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 7140,
-    "concepts": 4559,
-    "observations": 4573,
-    "repos": 1090,
-    "terms": 4540
+    "components": 7136,
+    "concepts": 4558,
+    "observations": 4572,
+    "repos": 1091,
+    "terms": 4538
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -325,6 +325,7 @@
     "dkubb/memoizable",
     "DL3DV-10K/Dataset",
     "dmitry-brazhenko/SharpToken",
+    "DNSCrypt/dnscrypt-protocol",
     "docker-library/buildpack-deps",
     "docker-library/faq",
     "docker-library/hello-world",
@@ -701,6 +702,7 @@
     "microsoft/foss-fund",
     "microsoft/jericho",
     "microsoft/microsoft-performance-toolkit-sdk",
+    "microsoft/P.808",
     "microsoft/vscode-custom-data",
     "microsoft/xlang",
     "microsoft/XPretrain",
@@ -817,7 +819,6 @@
     "PaddlePaddle/Paddle2ONNX",
     "PanAeon/vscode-tmgrammar-test",
     "ParRes/Kernels",
-    "PaulRBerg/foundry-template",
     "pbatard/UEFI-Shell",
     "pdf-rs/pdf_render",
     "peergos/nabu",

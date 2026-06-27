@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 133,
-    "observations": 134,
-    "repos": 52,
-    "terms": 132
+    "components": 126,
+    "concepts": 142,
+    "observations": 143,
+    "repos": 53,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
-    "aloncarmel/supermeskill",
     "AppImage/AppImageSpec",
     "askroundtable/expert-skills",
     "BAI-LAB/Survey-on-AI-Memory",
@@ -45,6 +44,7 @@
     "jakoch/rasterizers",
     "jakoch/vulkan-sdk-arm",
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+    "jupyterlab/frontends-team-compass",
     "kubernetes/steering",
     "mypyc/mypyc-benchmark-results",
     "ocaml/platform-blog",
@@ -52,6 +52,7 @@
     "openobserve/dashboards",
     "operator-framework/community",
     "pre-commit/mirrors-eslint",
+    "prefix-dev/rattler-build-action",
     "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",
     "rstackjs/rstack-design-resources",

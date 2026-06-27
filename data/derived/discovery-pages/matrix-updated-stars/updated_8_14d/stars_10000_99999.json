@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 102,
-    "observations": 103,
-    "repos": 11,
-    "terms": 102
+    "components": 126,
+    "concepts": 98,
+    "observations": 99,
+    "repos": 10,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "AndyMik90/Aperant",
     "clsid2/mpc-hc",
-    "datalab-to/surya",
     "github-linguist/linguist",
     "gitleaks/gitleaks",
     "Kludex/starlette",

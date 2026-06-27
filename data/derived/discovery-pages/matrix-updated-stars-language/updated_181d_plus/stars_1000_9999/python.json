@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1025,
-    "concepts": 4024,
-    "observations": 4026,
-    "repos": 1020,
-    "terms": 3946
+    "components": 1027,
+    "concepts": 4028,
+    "observations": 4030,
+    "repos": 1021,
+    "terms": 3949
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/LGM",
@@ -613,6 +613,7 @@
     "mooz/percol",
     "mozilla/http-observatory",
     "mps-youtube/pafy",
+    "MrForExample/ComfyUI-3D-Pack",
     "MrGemy95/Tensorflow-Project-Template",
     "MrGiovanni/UNetPlusPlus",
     "mseitzer/pytorch-fid",

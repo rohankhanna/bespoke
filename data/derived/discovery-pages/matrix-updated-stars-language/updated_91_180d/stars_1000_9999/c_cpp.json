@@ -3,7 +3,7 @@
     "components": 410,
     "concepts": 531,
     "observations": 532,
-    "repos": 98,
+    "repos": 97,
     "terms": 523
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -49,7 +49,6 @@
     "facebookresearch/habitat-sim",
     "flashlight/flashlight",
     "flashlight/wav2letter",
-    "golang-ui/nuklear",
     "google/re2",
     "google/snappy",
     "gperftools/gperftools",

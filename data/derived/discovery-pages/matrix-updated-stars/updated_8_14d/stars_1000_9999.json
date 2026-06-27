@@ -1,27 +1,27 @@
 {
   "counts": {
-    "components": 584,
-    "concepts": 241,
-    "observations": 242,
-    "repos": 34,
-    "terms": 240
+    "components": 588,
+    "concepts": 252,
+    "observations": 253,
+    "repos": 35,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "Aleksoid1978/VideoRenderer",
-    "alex-shpak/hugo-book",
     "apache/casbin-Casbin.NET",
     "apache/casbin-jcasbin",
     "apollographql/apollo-tooling",
     "arcee-ai/mergekit",
     "AviSynth/AviSynthPlus",
     "benchmark-action/github-action-benchmark",
+    "bionic-gpt/bionic-gpt",
     "Blaizzy/mlx-audio",
     "callstack/react-native-builder-bob",
     "crate-ci/cargo-release",
@@ -39,6 +39,7 @@
     "psmux/psmux",
     "pytorch/gloo",
     "safetensors/safetensors",
+    "snapcast/snapcast",
     "TanStack/form",
     "tape-testing/tape",
     "ultrajson/ultrajson",

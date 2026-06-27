@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1912,
-    "concepts": 1664,
-    "observations": 1669,
-    "repos": 169,
-    "terms": 1690
+    "components": 1928,
+    "concepts": 1678,
+    "observations": 1683,
+    "repos": 171,
+    "terms": 1704
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -103,8 +103,10 @@
     "langbot-app/LangBot",
     "langchain-ai/deepagents",
     "langchain-ai/langgraph",
+    "langchain-ai/open_deep_research",
     "letta-ai/letta",
     "LibreTranslate/LibreTranslate",
+    "locustio/locust",
     "m-bain/whisperX",
     "magic-wormhole/magic-wormhole",
     "ManimCommunity/manim",

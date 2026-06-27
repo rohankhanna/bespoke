@@ -1,45 +1,49 @@
 {
   "counts": {
-    "components": 476,
-    "concepts": 306,
-    "observations": 306,
-    "repos": 28,
-    "terms": 306
+    "components": 536,
+    "concepts": 394,
+    "observations": 394,
+    "repos": 32,
+    "terms": 394
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "apache/brpc",
     "apache/casbin",
     "argotorg/solidity",
-    "browserslist/browserslist",
     "datalab-to/marker",
     "dense-analysis/ale",
     "DioxusLabs/dioxus",
     "fossasia/visdom",
     "gastownhall/gastown",
     "git-lfs/git-lfs",
+    "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
-    "jestjs/jest",
+    "HumanSignal/label-studio",
     "lancedb/lancedb",
+    "langchain-ai/langchainjs",
     "Lightning-AI/litgpt",
     "mixmark-io/turndown",
     "modelscope/FunASR",
+    "modelscope/ms-swift",
     "mozilla-ai/llamafile",
     "NVIDIA-NeMo/NeMo",
     "podman-container-tools/podman",
     "psf/black",
+    "pydantic/pydantic",
+    "qubvel-org/segmentation_models.pytorch",
     "ratatui/ratatui",
     "redis/go-redis",
     "rust-lang/mdBook",
     "TA-Lib/ta-lib-python",
-    "TEN-framework/ten-framework",
     "tinygrad/tinygrad",
+    "unocss/unocss",
     "vega/altair"
   ]
 }

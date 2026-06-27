@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2983,
-    "concepts": 1239,
-    "observations": 1243,
-    "repos": 926,
-    "terms": 1270
+    "components": 2988,
+    "concepts": 1240,
+    "observations": 1244,
+    "repos": 929,
+    "terms": 1271
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -628,6 +628,7 @@
     "JuliaBinaryWrappers/GTK4_jll.jl",
     "JuliaBinaryWrappers/HDF4_jll.jl",
     "JuliaBinaryWrappers/JpegTurbo_jll.jl",
+    "JuliaBinaryWrappers/LAPACK_jll.jl",
     "JuliaBinaryWrappers/libadwaita_jll.jl",
     "JuliaBinaryWrappers/libaec_jll.jl",
     "JuliaBinaryWrappers/Libffi_jll.jl",
@@ -639,6 +640,7 @@
     "JuliaBinaryWrappers/LLVMOpenMP_jll.jl",
     "JuliaBinaryWrappers/Lz4_jll.jl",
     "JuliaBinaryWrappers/pixi_jll.jl",
+    "JuliaBinaryWrappers/ReferenceBLAS_jll.jl",
     "JuliaBinaryWrappers/snappy_jll.jl",
     "JuliaBinaryWrappers/Thrift_jll.jl",
     "JuliaBinaryWrappers/yyjson_jll.jl",
@@ -759,6 +761,7 @@
     "Nichaojun/Nichaojun.github.io",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
+    "niivue/jupyter-notebooks",
     "nim65s/git-archive-all",
     "ningsir/pytorch",
     "niveditarufus/suadd",

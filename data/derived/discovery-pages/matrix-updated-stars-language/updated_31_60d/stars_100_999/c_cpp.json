@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 619,
+    "components": 615,
     "concepts": 647,
     "observations": 648,
-    "repos": 108,
+    "repos": 107,
     "terms": 645
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "Alpine-DAV/ascent",
@@ -78,7 +78,6 @@
     "logicalclocks/rondb",
     "LunarG/gfxreconstruct",
     "LunarG/VulkanTools",
-    "mapnik/node-mapnik",
     "Mercury13/unicodia",
     "microsoft/MIDI",
     "mingw-w64/mingw-w64",

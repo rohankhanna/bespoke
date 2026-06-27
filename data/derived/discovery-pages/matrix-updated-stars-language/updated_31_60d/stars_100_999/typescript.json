@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3801,
-    "concepts": 785,
-    "observations": 787,
-    "repos": 107,
-    "terms": 779
+    "components": 3752,
+    "concepts": 766,
+    "observations": 768,
+    "repos": 104,
+    "terms": 761
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -21,7 +21,6 @@
     "Agoric/agoric-sdk",
     "ansible/vscode-ansible",
     "antfu/eslint-flat-config-utils",
-    "antvis/chart-visualization-skills",
     "apify/apify-cli",
     "apify/mcpc",
     "apollographql/federation",
@@ -36,7 +35,6 @@
     "ClickHouse/clickhouse-js",
     "cocos/cocos-docs",
     "cosmos/cosmjs",
-    "daeh/zotero-markdb-connect",
     "danielroe/beasties",
     "decentralized-identity/did-resolver",
     "dydxprotocol/v4-web",
@@ -75,7 +73,6 @@
     "Luligu/matterbridge-zigbee2mqtt",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
-    "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mswjs/interceptors",

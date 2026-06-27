@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 2,
-    "terms": 0
+    "components": 1,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 3,
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "corgi-emacs/corgi-packages",
-    "numpy/archive"
+    "numpy/archive",
+    "ros-infrastructure/ros-apt-source"
   ]
 }

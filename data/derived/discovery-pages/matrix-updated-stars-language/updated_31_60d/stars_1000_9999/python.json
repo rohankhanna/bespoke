@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1527,
-    "concepts": 1666,
-    "observations": 1670,
-    "repos": 175,
-    "terms": 1650
+    "components": 1510,
+    "concepts": 1637,
+    "observations": 1641,
+    "repos": 172,
+    "terms": 1621
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "2U1/Qwen-VL-Series-Finetune",
@@ -70,7 +70,6 @@
     "geopandas/geopandas",
     "getmoto/moto",
     "ggozad/oterm",
-    "git-cola/git-cola",
     "google-deepmind/dm_control",
     "google-deepmind/mujoco_warp",
     "google-deepmind/sonnet",
@@ -104,7 +103,6 @@
     "MicrosoftDocs/visualstudio-docs",
     "mikedh/trimesh",
     "mikel-brostrom/boxmot",
-    "ModelTC/LightX2V",
     "MoonshotAI/kimi-cli",
     "mozilla-ai/any-agent",
     "mozilla-ai/any-llm",
@@ -169,7 +167,6 @@
     "Tencent-Hunyuan/HunyuanWorld-Mirror",
     "Tencent-Hunyuan/HY-World-2.0",
     "testcontainers/testcontainers-python",
-    "theupdateframework/python-tuf",
     "TorchIO-project/torchio",
     "UKGovernmentBEIS/inspect_ai",
     "urwid/urwid",

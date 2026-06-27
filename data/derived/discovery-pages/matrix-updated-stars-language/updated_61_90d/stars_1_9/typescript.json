@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 867,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 40,
-    "terms": 126
+    "components": 897,
+    "concepts": 118,
+    "observations": 118,
+    "repos": 41,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
@@ -20,6 +20,7 @@
     "Badisi/wdio-harness",
     "birdofpreyru/react-starter",
     "birdofpreyru/react-utils",
+    "breferrari/shardmind",
     "celo-org/SocialConnect-Twitter",
     "celo-org/SocialConnect-Twitter-Server-Side",
     "curiousdannii/asyncglk",

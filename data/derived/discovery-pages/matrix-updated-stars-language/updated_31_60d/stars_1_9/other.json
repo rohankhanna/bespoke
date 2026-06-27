@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 25,
-    "terms": 85
+    "components": 75,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 24,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "aimeos/ai-monolog",
@@ -22,15 +22,14 @@
     "atsushieno/aap-juce-simple-host",
     "benjamimgois/pascube",
     "bennyyip/dot-vim",
-    "Blosc/blogsite",
     "cosmos/security",
     "donut-party/endpoint-test",
+    "FCP-INDI/fcp-indi.github.io",
     "fern-api/docs",
     "fluent-vue/examples",
     "googleapis/google-cloud-php-compute",
     "holochain/holonix",
     "JeremyAnsel/SharpAssimp",
-    "jfmengels/elm-review-config",
     "jk10001/aquainsightai",
     "JuliaCI/rootfs-images",
     "lintnet-modules/ghalint",

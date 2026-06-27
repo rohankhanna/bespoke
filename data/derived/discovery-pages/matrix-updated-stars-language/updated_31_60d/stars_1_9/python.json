@@ -3,7 +3,7 @@
     "components": 97,
     "concepts": 56,
     "observations": 56,
-    "repos": 19,
+    "repos": 18,
     "terms": 56
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "astral-sh/versions",
     "atlanhq/atlan-sample-apps",
@@ -26,7 +26,6 @@
     "meridianlabs-ai/inspect_harbor",
     "mingqiangWu/Fast-TRELLIS",
     "mozilla-ai/tinyagent",
-    "ParisNeo/lollms_client",
     "PrimeIntellect-ai/renderers",
     "SeedScientist/K2V",
     "triton-inference-server/TensorRT-LLM",

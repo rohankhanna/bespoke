@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5066,
-    "concepts": 797,
-    "observations": 799,
-    "repos": 213,
-    "terms": 808
+    "components": 5104,
+    "concepts": 803,
+    "observations": 805,
+    "repos": 214,
+    "terms": 814
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -209,6 +209,7 @@
     "underfin/vite-plugin-vue2",
     "uni-helper/uni-network",
     "vbenjs/vite-plugin-imagemin",
+    "vercel/pkg-fetch",
     "Vinzent03/obsidian-hotkeys-for-templates",
     "vuejs/rollup-plugin-vue",
     "wcandillon/remotion-fireship",

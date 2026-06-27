@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 357,
-    "concepts": 193,
-    "observations": 193,
-    "repos": 85,
-    "terms": 193
+    "components": 366,
+    "concepts": 195,
+    "observations": 195,
+    "repos": 89,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
@@ -20,6 +20,8 @@
     "actboy168/ltest",
     "ada-url/kotlin",
     "alstafeev/midscene-java",
+    "ankane/cbc-ruby",
+    "ankane/clp-ruby",
     "ankane/seaduck",
     "apache/netbeans-antora-ui",
     "azure/homebrew-bicep",
@@ -27,6 +29,7 @@
     "b-data/jupyterlab-mojo-docker-stack",
     "beeware/beeware-docs-tools",
     "bladeacer/obsi-snip-coll",
+    "Blosc/blogsite",
     "bolasblack/BlogFront",
     "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",
@@ -65,6 +68,7 @@
     "hchiam/hchiam.github.io",
     "helix-toolkit/helix-toolkit.github.io",
     "Humans-of-Julia/BibInternal.jl",
+    "jfmengels/elm-review-config",
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",

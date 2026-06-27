@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3274,
-    "concepts": 715,
-    "observations": 715,
-    "repos": 108,
-    "terms": 712
+    "components": 3356,
+    "concepts": 733,
+    "observations": 733,
+    "repos": 110,
+    "terms": 730
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
     "actions/javascript-action",
     "ai/size-limit",
+    "amannn/action-semantic-pull-request",
     "americanexpress/jest-image-snapshot",
     "amperser/proselint",
     "amqp-node/amqplib",
     "anvaka/panzoom",
     "apache/cordova-android",
     "apache/cordova-ios",
+    "appium/appium-inspector",
     "archiverjs/node-archiver",
     "asciinema/asciinema-player",
     "Automattic/juice",

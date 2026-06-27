@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2429,
-    "concepts": 3241,
-    "observations": 3248,
-    "repos": 1015,
-    "terms": 3222
+    "components": 2446,
+    "concepts": 3255,
+    "observations": 3262,
+    "repos": 1017,
+    "terms": 3236
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -537,6 +537,7 @@
     "JuliaPy/Conda.jl",
     "JuliaPy/Pandas.jl",
     "JuliaPy/SymPy.jl",
+    "JuliaSparse/Pardiso.jl",
     "JuliaStrings/LaTeXStrings.jl",
     "junegunn/vader.vim",
     "jupyterlab/extension-cookiecutter-ts",
@@ -771,6 +772,7 @@
     "oskarnp/odin-tracy",
     "osyo-manga/vim-anzu",
     "patterns-ai-core/langchainrb_rails",
+    "PaulRBerg/foundry-template",
     "peteanderson80/Up-Down-Captioner",
     "petercorke/RVC3-python",
     "petercorke/spatialmath-matlab",

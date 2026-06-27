@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 775,
-    "concepts": 1359,
-    "observations": 1362,
-    "repos": 407,
-    "terms": 1339
+    "components": 792,
+    "concepts": 1378,
+    "observations": 1381,
+    "repos": 410,
+    "terms": 1358
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -106,6 +106,7 @@
     "csukuangfj/kaldi-native-fbank",
     "danfis/libccd",
     "danielfrg/tsne",
+    "danini/graph-cut-ransac",
     "davidstutz/mesh-fusion",
     "DayBreak-u/yolo-face-with-landmark",
     "DeadSix27/waifu2x-converter-cpp",
@@ -354,6 +355,8 @@
     "robopeak/rplidar_ros",
     "Robotics-STAR-Lab/RACER",
     "robotology-legacy/gym-ignition",
+    "ros-industrial/industrial_core",
+    "ros-industrial/ros_canopen",
     "RPM-Robotics-Lab/file_player_mulran",
     "rrwick/Bandage",
     "rsummers11/CADLab",

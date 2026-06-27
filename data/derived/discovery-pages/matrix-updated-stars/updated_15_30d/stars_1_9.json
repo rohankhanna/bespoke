@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 18,
-    "terms": 65
+    "components": 25,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 20,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "aidenlab/juicebox-web",
     "Archerkattri/fast-trellis2",
@@ -25,8 +25,10 @@
     "Archerkattri/sam3d-plus-plus",
     "Comfy-Org/ComfyUI-Standalone-Environments",
     "elixir-makeup/makeup_c",
+    "freesurfer/petsurfer-bids",
     "git-up/libgit2",
     "hermit-os/rust-std-hermit",
+    "mathesong/bloodstream",
     "psmux/scoop-psmux",
     "rocq-community/docker-base",
     "Vodes/muxtools-doc",

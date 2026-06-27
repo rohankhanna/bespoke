@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 584,
-    "concepts": 707,
-    "observations": 708,
-    "repos": 313,
-    "terms": 701
+    "components": 587,
+    "concepts": 712,
+    "observations": 713,
+    "repos": 314,
+    "terms": 705
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -305,6 +305,7 @@
     "trufanov-nok/minidjvu-mod",
     "TTimo/bspc",
     "ucb-bar/libgloss-htif",
+    "UCL/PETPVC",
     "UCSC-nanopore-cgl/margin",
     "unevens/audio-dsp",
     "unevens/avec",

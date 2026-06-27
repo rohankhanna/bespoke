@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1294,
-    "concepts": 923,
-    "observations": 932,
-    "repos": 180,
-    "terms": 924
+    "components": 1317,
+    "concepts": 933,
+    "observations": 942,
+    "repos": 182,
+    "terms": 934
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -117,6 +117,7 @@
     "lambdaclass/ethrex",
     "LaurenzV/hayro",
     "LaurenzV/krilla",
+    "libbpf/blazesym",
     "lu-zero/cargo-c",
     "marshallpierce/rust-base64",
     "matrix-org/seshat",
@@ -179,6 +180,7 @@
     "tauri-apps/global-hotkey",
     "tauri-apps/muda",
     "tekumara/typos-lsp",
+    "tensorchord/VectorChord-bm25",
     "testcontainers/testcontainers-rs-modules-community",
     "tikv/jemallocator",
     "tracel-ai/models",

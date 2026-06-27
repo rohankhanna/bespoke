@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1998,
-    "concepts": 1991,
-    "observations": 2000,
-    "repos": 391,
-    "terms": 2000
+    "components": 2037,
+    "concepts": 2025,
+    "observations": 2034,
+    "repos": 398,
+    "terms": 2033
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -25,6 +25,7 @@
     "AgentR1/Claw-R1",
     "agentscope-ai/agentscope-runtime",
     "agentscope-ai/agentscope-samples",
+    "agentscope-ai/Trinity-RFT",
     "agiletec-inc/airis-mcp-gateway",
     "agiresearch/Cerebrum",
     "AgnostiqHQ/covalent",
@@ -133,6 +134,7 @@
     "dwolfhub/zxcvbn-python",
     "eclipse-cyclonedds/cyclonedds-python",
     "enjoy-digital/litedram",
+    "enjoy-digital/liteeth",
     "envoyproxy/envoy-perf",
     "eole-nlp/eole",
     "Epistimio/orion",
@@ -161,6 +163,7 @@
     "fumiama/Retrieval-based-Voice-Conversion-WebUI",
     "fzyzcjy/torch_memory_saver",
     "G-Research/ahocorasick_rs",
+    "galaxyproject/planemo",
     "gmberton/MegaLoc",
     "gmberton/VPR-methods-evaluation",
     "godotengine/godot-builds",
@@ -274,6 +277,7 @@
     "nanoporetech/medaka",
     "naver/kapture",
     "neggles/animatediff-cli",
+    "neo4j-examples/movies-python-bolt",
     "nodejs/gyp-next",
     "notofonts/notofonts.github.io",
     "notofonts/nototools",
@@ -290,6 +294,7 @@
     "open-thoughts/OpenThoughts-Agent",
     "OpenBMB/BMTrain",
     "OpenBMB/UltraEval-Audio",
+    "opendatacube/datacube-core",
     "OpenHands/OpenHands-CLI",
     "OpenHands/software-agent-sdk",
     "optuna/optuna-examples",
@@ -349,6 +354,7 @@
     "SandAI-org/MagiAttention",
     "scicode-bench/SciCode",
     "scikit-build/scikit-build-core",
+    "ScoopInstaller/Nirsoft",
     "scrapinghub/article-extraction-benchmark",
     "searxng/searx-instances",
     "SemiAnalysisAI/InferenceX",
@@ -399,6 +405,7 @@
     "ymcui/LERT",
     "YosysHQ/sby",
     "yoxu515/aot-benchmark",
+    "Yuliang-Liu/MultimodalOCR",
     "zai-org/GLM-skills",
     "zai-org/z-ai-sdk-python",
     "zarr-developers/numcodecs",

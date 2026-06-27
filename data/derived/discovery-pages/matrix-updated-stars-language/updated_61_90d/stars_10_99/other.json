@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1497,
-    "concepts": 944,
-    "observations": 945,
-    "repos": 263,
-    "terms": 948
+    "components": 1502,
+    "concepts": 943,
+    "observations": 944,
+    "repos": 267,
+    "terms": 947
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xrsydn/nix-hermes-agent",
@@ -22,6 +22,7 @@
     "AdaCore/gnatcoll-core",
     "AdaCore/langkit",
     "adams85/acornima",
+    "AdguardTeam/SafariConverterLib",
     "adrigzr/neotest-mocha",
     "ajevans99/swift-mcp-toolkit",
     "alexrudall/midjourney",
@@ -30,12 +31,14 @@
     "ankane/blazer-dev",
     "ankane/blazer-docker",
     "ankane/drill-ruby",
+    "ankane/glpk-ruby",
     "ankane/gslr",
     "ankane/libmf-ruby",
     "ankane/lightgbm-ruby",
     "ankane/neighbor-redis",
     "ankane/neighbor-s3",
     "ankane/nlopt-ruby",
+    "ankane/opt",
     "ankane/torchaudio-ruby",
     "ankane/trove",
     "apache/arrow-dotnet",
@@ -45,6 +48,7 @@
     "appsignal/appsignal-elixir-phoenix",
     "appwrite/sdk-for-swift",
     "aquasecurity/trivy-checks",
+    "arktekk/sbt-aether-deploy",
     "Ascend/Ascend-CI",
     "aspect-build/rules_cypress",
     "aspect-build/rules_esbuild",
@@ -81,7 +85,6 @@
     "cloudfoundry/cf-uaac",
     "connectbot/termlib",
     "Const-me/ComLightInterop",
-    "contributte/monolog",
     "curiosity-ai/hnsw-sharp",
     "dart-lang/core",
     "dart-lang/ecosystem",
@@ -137,6 +140,7 @@
     "ibmruntimes/zoslib",
     "IDAES/idaes-ext",
     "idris-community/idris2-nvim",
+    "ika-rwth-aachen/docker-ros-ml-images",
     "inhere/kite",
     "inhere/php-sroute",
     "interstar/Patterning-Core",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 4,
-    "terms": 40
+    "components": 59,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 6,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "aws/karpenter-provider-aws",
+    "crc-org/crc",
+    "googleapis/google-api-go-client",
     "googleapis/google-cloud-go",
     "kubernetes-sigs/karpenter",
     "olric-data/olric"

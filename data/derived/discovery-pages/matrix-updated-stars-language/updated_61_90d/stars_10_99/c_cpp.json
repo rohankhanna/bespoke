@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 402,
-    "concepts": 327,
-    "observations": 327,
-    "repos": 74,
-    "terms": 327
+    "components": 403,
+    "concepts": 329,
+    "observations": 329,
+    "repos": 75,
+    "terms": 329
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "acts-project/traccc",
@@ -52,6 +52,7 @@
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "jupyter-xeus/xeus-lua",
+    "kendryte/canmv_k230",
     "ksnip/kImageAnnotator",
     "Level/classic-level",
     "liangshengyong/lanwan",

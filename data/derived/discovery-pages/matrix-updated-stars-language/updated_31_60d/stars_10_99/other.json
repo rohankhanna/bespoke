@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 978,
-    "concepts": 529,
-    "observations": 533,
+    "components": 984,
+    "concepts": 534,
+    "observations": 538,
     "repos": 124,
-    "terms": 527
+    "terms": 532
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abarisani/abarisani.github.io",
     "Accla/d4m",
-    "AdguardTeam/SafariConverterLib",
     "agentclientprotocol/kotlin-sdk",
     "alphagov/govuk_publishing_components",
     "alphagov/rubocop-govuk",
@@ -25,10 +24,10 @@
     "angellist/boba",
     "angular/angular-devkit-build-angular-builds",
     "anniegbryant/subcortex_visualization",
+    "ANTsX/ANTsRNet",
     "apache/ignite-website",
     "apollographql/apollo-ios-dev",
     "arkime/arkimeweb",
-    "arktekk/sbt-aether-deploy",
     "ArmandPhilippot/coldark",
     "atsushieno/augene-ng",
     "atsushieno/compose-audio-controls",
@@ -88,6 +87,7 @@
     "JuliaCI/NanosoldierReports",
     "JuliaCon/www.juliacon.org",
     "JuliaGeo/GeometryOps.jl",
+    "JuliaLinearAlgebra/BLISBLAS.jl",
     "JuliaMath/FixedPointNumbers.jl",
     "JuliaSparse/SparseArrays.jl",
     "karafka/karafka-web",

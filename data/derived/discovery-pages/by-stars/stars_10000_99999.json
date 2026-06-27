@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33727,
-    "concepts": 15360,
-    "observations": 15417,
-    "repos": 1727,
-    "terms": 15319
+    "components": 33769,
+    "concepts": 15364,
+    "observations": 15421,
+    "repos": 1728,
+    "terms": 15323
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -1645,6 +1645,7 @@
     "vercel-labs/agent-browser",
     "vercel-labs/agent-skills",
     "vercel-labs/skills",
+    "vercel/pkg",
     "vercel/satori",
     "vercel/swr",
     "verl-project/verl",

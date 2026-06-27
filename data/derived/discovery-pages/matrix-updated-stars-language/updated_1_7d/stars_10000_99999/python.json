@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 146,
-    "observations": 146,
-    "repos": 11,
-    "terms": 146
+    "components": 225,
+    "concepts": 211,
+    "observations": 211,
+    "repos": 14,
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "datalab-to/marker",
     "fossasia/visdom",
+    "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "Lightning-AI/litgpt",
     "modelscope/FunASR",
+    "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
     "psf/black",
-    "TEN-framework/ten-framework",
+    "pydantic/pydantic",
+    "qubvel-org/segmentation_models.pytorch",
     "tinygrad/tinygrad",
     "vega/altair"
   ]

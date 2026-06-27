@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 704,
-    "concepts": 517,
-    "observations": 519,
-    "repos": 181,
-    "terms": 512
+    "components": 710,
+    "concepts": 529,
+    "observations": 531,
+    "repos": 183,
+    "terms": 524
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -33,6 +33,7 @@
     "AliRezaBeigy/paqetNG",
     "am-kantox/md",
     "andys8/git-brunch",
+    "ankane/highs-ruby",
     "ankane/ml-stack",
     "ankane/scs-ruby",
     "anmolitor/travelm-agency",
@@ -67,6 +68,7 @@
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "coin-or-tools/homebrew-coinor",
+    "contributte/monolog",
     "crazy-max/yasu",
     "DamageLabs/paper_trail_manager",
     "DavidKinder/Windows-Glulxe",

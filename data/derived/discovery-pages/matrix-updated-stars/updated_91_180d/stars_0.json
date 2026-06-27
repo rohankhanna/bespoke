@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 398,
-    "concepts": 190,
-    "observations": 192,
-    "repos": 126,
-    "terms": 192
+    "components": 403,
+    "concepts": 191,
+    "observations": 193,
+    "repos": 127,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -109,6 +109,7 @@
     "neuroverseos/negotiator",
     "nibir1/vaultsim",
     "Nichaojun/Nichaojun.github.io",
+    "niivue/jupyter-notebooks",
     "onomojo/i18n-country-translations-data",
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-country-translations-go",

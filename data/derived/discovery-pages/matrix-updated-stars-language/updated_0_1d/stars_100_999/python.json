@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 68,
-    "observations": 68,
+    "components": 103,
+    "concepts": 58,
+    "observations": 58,
     "repos": 9,
-    "terms": 68
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "AI-Hypercomputer/maxdiffusion",
     "aristoteleo/PantheonOS",
     "eclipse-paho/paho.mqtt.testing",
     "google-deepmind/chex",
     "google-deepmind/xmanager",
     "InsightSoftwareConsortium/ITK-Wasm",
+    "manzt/anywidget",
     "NCAS-CMS/pyfive",
     "scverse/rapids-singlecell"
   ]

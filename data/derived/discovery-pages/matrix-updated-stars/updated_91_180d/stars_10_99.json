@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3474,
-    "concepts": 2038,
-    "observations": 2045,
-    "repos": 700,
-    "terms": 2042
+    "components": 3480,
+    "concepts": 2070,
+    "observations": 2077,
+    "repos": 704,
+    "terms": 2074
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -74,6 +74,7 @@
     "AliRezaBeigy/paqetNG",
     "all-the-noises/eval-arena",
     "alloy-rs/op-alloy",
+    "aloncarmel/supermeskill",
     "am-kantox/md",
     "amaranth-lang/amaranth-stdio",
     "amerkoleci/Alimer.Bindings",
@@ -84,6 +85,7 @@
     "andys8/git-brunch",
     "angular/domino",
     "AniAggarwal/ecad",
+    "ankane/highs-ruby",
     "ankane/ml-stack",
     "ankane/scs-ruby",
     "anmolitor/travelm-agency",
@@ -230,6 +232,7 @@
     "connectrpc/connect-playwright-es",
     "containerd/release-tool",
     "containers/image_build",
+    "contributte/monolog",
     "corl-team/VL-DAC",
     "CosmWasm/cw-minus",
     "CosmWasm/cw-storage-plus",
@@ -706,6 +709,7 @@
     "Xuyuanp/yanil",
     "yamachu/VoicevoxEngineSharp",
     "Yepkit/ykush",
+    "yester31/Monocular_Depth_Estimation_TRT",
     "yuekaizhang/Fun-ASR-vllm",
     "yxlllc/RMVPE",
     "zeng3ld/claude-session-restore",

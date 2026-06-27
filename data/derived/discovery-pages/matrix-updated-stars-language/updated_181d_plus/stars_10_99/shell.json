@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 108,
-    "concepts": 226,
-    "observations": 226,
-    "repos": 89,
-    "terms": 221
+    "concepts": 239,
+    "observations": 239,
+    "repos": 91,
+    "terms": 234
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -77,6 +77,7 @@
     "manim-kindergarten/manim_action_renderer",
     "MoonshotAI/zsh-kimi-cli",
     "mskims/redux-saga-in-korean",
+    "nianticspatial/scr-priors",
     "nmattia/sorri",
     "northox/openbsd-apu2",
     "Oneflow-Inc/conda-env",
@@ -91,6 +92,7 @@
     "sharkdp/fd-benchmarks",
     "Shavian-info/interalia",
     "Shougo/dein-installer.vim",
+    "skjerns/3dprintedbrain_docker",
     "stephenmathieson/git-standup",
     "tidwall/pkg.sh",
     "timothycrosley/cookiecutter-python",

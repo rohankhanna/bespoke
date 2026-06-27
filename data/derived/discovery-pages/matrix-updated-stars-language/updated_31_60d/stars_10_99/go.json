@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 121,
-    "observations": 122,
-    "repos": 27,
-    "terms": 121
+    "components": 151,
+    "concepts": 119,
+    "observations": 120,
+    "repos": 26,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "ankitpokhrel/shopctl",
     "apache/casbin-govaluate",
@@ -22,7 +22,6 @@
     "cloudfoundry/cf-networking-release",
     "cosmos/ibc-apps",
     "DevExpGbb/gh-devlake",
-    "dianlight/gollama.cpp",
     "energye/cef",
     "energye/lcl",
     "energye/wv",

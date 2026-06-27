@@ -3,7 +3,7 @@
     "components": 45,
     "concepts": 34,
     "observations": 34,
-    "repos": 5,
+    "repos": 4,
     "terms": 34
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "continuumio/blz",
     "edge-classic/EDGE-classic",
     "mongodb/winkerberos",
-    "mudler/depth-anything.cpp",
     "zhouwg/ggml-hexagon"
   ]
 }

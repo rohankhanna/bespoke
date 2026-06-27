@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 16660,
-    "concepts": 6975,
-    "observations": 7005,
-    "repos": 738,
-    "terms": 6988
+    "components": 16685,
+    "concepts": 7005,
+    "observations": 7035,
+    "repos": 741,
+    "terms": 7018
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -341,6 +341,7 @@
     "guidance-ai/guidance",
     "gvergnaud/ts-pattern",
     "haiwen/seafile",
+    "hajimehoshi/ebiten",
     "handlebars-lang/handlebars.js",
     "hapijs/hapi",
     "hapijs/joi",
@@ -428,6 +429,7 @@
     "langbot-app/LangBot",
     "langchain-ai/deepagents",
     "langchain-ai/langgraph",
+    "langchain-ai/open_deep_research",
     "launchbadge/sqlx",
     "LazyVim/LazyVim",
     "Leaflet/Leaflet",
@@ -440,6 +442,7 @@
     "lima-vm/lima",
     "lit/lit",
     "llvm/llvm-project",
+    "locustio/locust",
     "lodash/lodash",
     "louislam/dockge",
     "lovell/sharp",

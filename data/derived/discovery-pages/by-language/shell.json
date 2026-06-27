@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1939,
-    "concepts": 2868,
-    "observations": 2887,
-    "repos": 721,
-    "terms": 2805
+    "components": 1942,
+    "concepts": 2893,
+    "observations": 2912,
+    "repos": 725,
+    "terms": 2830
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -503,6 +503,7 @@
     "microsoft/openjdk-docker",
     "microsoft/vscode-dev-containers",
     "milvus-io/milvus-proto",
+    "mintoolkit/examples",
     "mislav/dotfiles",
     "miykael/3dprintyourbrain",
     "mklement0/n-install",
@@ -519,6 +520,7 @@
     "multiformats/multihash",
     "nfnty/pkgbuilds",
     "nginx-le/nginx-le",
+    "nianticspatial/scr-priors",
     "nico2sh/semtag",
     "nightrome/cocostuff",
     "nix-community/nix-direnv",
@@ -611,6 +613,7 @@
     "romkatv/zsh-bench",
     "romkatv/zsh-defer",
     "rootless-containers/usernetes",
+    "ros-industrial/industrial_ci",
     "rose-pine/homebrew-tap",
     "rsmdt/the-startup",
     "rubyjs/libv8-node",
@@ -640,6 +643,7 @@
     "shawwn/llama-dl",
     "Shougo/dein-installer.vim",
     "sindresorhus/pure",
+    "skjerns/3dprintedbrain_docker",
     "sobolevn/misspell-fixer-action",
     "SonarSource/sonar-developer-toolset",
     "sorin-ionescu/prezto",
@@ -692,7 +696,7 @@
     "transmissions11/dapptools-template",
     "trapd00r/LS_COLORS",
     "tremby/imgur.sh",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "tuvovan/Zero_DCE_TF",
     "twain47/Open-SVG-Map-Icons",
     "TypedDevs/bashunit",

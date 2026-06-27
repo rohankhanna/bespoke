@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5927,
-    "concepts": 1186,
-    "observations": 1188,
-    "repos": 133,
-    "terms": 1178
+    "components": 5885,
+    "concepts": 1181,
+    "observations": 1183,
+    "repos": 132,
+    "terms": 1173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -20,7 +20,6 @@
     "amilajack/eslint-plugin-compat",
     "analogjs/analog",
     "angular-eslint/angular-eslint",
-    "AnotiaWang/deep-research-web-ui",
     "antvis/mcp-server-chart",
     "apify/fingerprint-suite",
     "apollographql/apollo-client-devtools",

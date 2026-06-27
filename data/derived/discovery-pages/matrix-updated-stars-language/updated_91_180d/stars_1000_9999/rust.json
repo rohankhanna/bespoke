@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 360,
-    "concepts": 273,
-    "observations": 277,
-    "repos": 54,
-    "terms": 271
+    "concepts": 280,
+    "observations": 284,
+    "repos": 55,
+    "terms": 278
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
@@ -45,6 +45,7 @@
     "LaurentMazare/tch-rs",
     "librespot-org/librespot",
     "linebender/tiny-skia",
+    "lldap/lldap",
     "Morganamilo/paru",
     "nagisa/rust_libloading",
     "parcel-bundler/lightningcss",

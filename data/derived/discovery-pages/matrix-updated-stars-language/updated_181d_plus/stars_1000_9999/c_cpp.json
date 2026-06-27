@@ -3,7 +3,7 @@
     "components": 416,
     "concepts": 883,
     "observations": 883,
-    "repos": 235,
+    "repos": 236,
     "terms": 872
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -85,6 +85,7 @@
     "gflags/gflags",
     "github/cmark-gfm",
     "gloxec/CrossC2",
+    "golang-ui/nuklear",
     "goldendict/goldendict",
     "google-deepmind/code_contests",
     "google-deepmind/lab",

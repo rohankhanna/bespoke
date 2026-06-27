@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 101,
-    "observations": 101,
+    "components": 81,
+    "concepts": 98,
+    "observations": 98,
     "repos": 19,
-    "terms": 101
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "AMD-AGI/Nitro-1",
@@ -21,9 +21,9 @@
     "google-deepmind/dm_pix",
     "grupo-avispa/depth_anything_v2_ros2",
     "jawah/charset_normalizer",
+    "joblib/loky",
     "Kosinkadink/ComfyUI-Advanced-ControlNet",
     "lancedb/yoloexplorer",
-    "OpenHands/ToM-SWE",
     "PozzettiAndrea/ComfyUI-DepthAnythingV3",
     "pyvista/pyvista-xarray",
     "readthedocs/commonmark.py",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1414,
-    "concepts": 1089,
-    "observations": 1091,
-    "repos": 284,
-    "terms": 1082
+    "components": 1410,
+    "concepts": 1088,
+    "observations": 1090,
+    "repos": 285,
+    "terms": 1081
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -114,6 +114,7 @@
     "dkubb/memoizable",
     "DL3DV-10K/Dataset",
     "dmitry-brazhenko/SharpToken",
+    "DNSCrypt/dnscrypt-protocol",
     "domluna/JuliaFormatter.jl",
     "donut-party/system",
     "doolijb/serene-pub",
@@ -206,6 +207,7 @@
     "MICA-MNI/ENIGMA",
     "microsoft/botbuilder-dotnet",
     "microsoft/microsoft-performance-toolkit-sdk",
+    "microsoft/P.808",
     "MiloszKrajewski/K4os.Compression.LZ4",
     "milvus-io/milvus-sdk-csharp",
     "mirage/mirage-www",
@@ -223,7 +225,6 @@
     "onomojo/i18n-country-translations",
     "OpenBMB/CPM.cu",
     "PacificBiosciences/pbmm2",
-    "PaulRBerg/foundry-template",
     "phodal/chapi",
     "plk/biber",
     "PMunch/nimlsp",

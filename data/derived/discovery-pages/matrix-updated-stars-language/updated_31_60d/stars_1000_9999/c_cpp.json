@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1090,
-    "concepts": 1118,
-    "observations": 1118,
-    "repos": 126,
-    "terms": 1110
+    "components": 1046,
+    "concepts": 1058,
+    "observations": 1058,
+    "repos": 121,
+    "terms": 1051
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -25,7 +25,6 @@
     "appium/WebDriverAgent",
     "arkime/arkime",
     "async-profiler/async-profiler",
-    "autowarefoundation/autoware_universe",
     "aws/aws-sdk-cpp",
     "bitcoin-core/secp256k1",
     "brave/brave-core",
@@ -96,14 +95,12 @@
     "mstorsjo/llvm-mingw",
     "Nelarius/imnodes",
     "NetHack/NetHack",
-    "nix-community/nixd",
     "NVIDIA/DALI",
     "obsproject/obs-websocket",
     "onnxsim/onnxsim",
     "open-telemetry/opentelemetry-go-instrumentation",
     "OpenMathLib/OpenBLAS",
     "opensim-org/opensim-core",
-    "openucx/ucx",
     "optiscaler/OptiScaler",
     "oracle/graaljs",
     "OSGeo/gdal",
@@ -115,7 +112,6 @@
     "RainerKuemmerle/g2o",
     "realsenseai/librealsense",
     "RobotLocomotion/drake",
-    "sail-sg/envpool",
     "samtools/samtools",
     "SchedMD/slurm",
     "skeeto/w64devkit",
@@ -128,7 +124,6 @@
     "Themaister/Granite",
     "tianocore/edk2",
     "unicode-org/icu",
-    "unitreerobotics/unitree_sdk2",
     "universal-ctags/ctags",
     "uxlfoundation/oneDNN",
     "uxlfoundation/oneTBB",

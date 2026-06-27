@@ -3,7 +3,7 @@
     "components": 515,
     "concepts": 379,
     "observations": 379,
-    "repos": 290,
+    "repos": 292,
     "terms": 386
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -108,6 +108,7 @@
     "cognitiveailab/kga2c-scienceworld",
     "cognitiveailab/t5-scienceworld",
     "cognizant-ai-lab/neuro-san-web-client",
+    "Colin97/GLIP",
     "Computer-use-agents/GUI-Docker-Env",
     "conda-incubator/conda-suggest",
     "Corpsecreate/neosr",
@@ -269,6 +270,7 @@
     "rhgrossman/pyctcdecode_demo",
     "RicherMans/HEAR_CED",
     "rochacbruno/dynaconf-mirror",
+    "scepter914/nuscenes_rosbag",
     "schedul-xor/nextzen2oscimv4",
     "scicode-bench/scicode-bench.github.io",
     "scottemmons/youngs-cql",

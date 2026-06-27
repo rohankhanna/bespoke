@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2731,
-    "concepts": 2560,
-    "observations": 2572,
-    "repos": 377,
-    "terms": 2545
+    "components": 2756,
+    "concepts": 2593,
+    "observations": 2605,
+    "repos": 381,
+    "terms": 2578
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -49,6 +49,7 @@
     "apple/swift-nio",
     "apple/swift-protobuf",
     "ardalis/Result",
+    "ARM-software/abi-aa",
     "artur-graniszewski/DLSS-Enabler",
     "arviz-devs/arviz",
     "automazeio/vibeproxy",
@@ -77,6 +78,7 @@
     "briansmith/ring",
     "BuddiesOfBudgie/budgie-desktop",
     "cake-build/cake",
+    "CanHub/Android-Image-Cropper",
     "carbon-design-system/carbon-charts",
     "CesiumGS/3d-tiles",
     "chef/bento",
@@ -154,6 +156,7 @@
     "fcambus/spleen",
     "ffi/ffi",
     "florisboard/florisboard",
+    "fluentassertions/fluentassertions",
     "fluentribbon/Fluent.Ribbon",
     "flutter/website",
     "flyerhzm/rails_best_practices",
@@ -276,6 +279,7 @@
     "NVIDIA/accelerated-computing-hub",
     "NVIDIA/nccl-tests",
     "nvim-lua/plenary.nvim",
+    "nvim-lualine/lualine.nvim",
     "nvim-neo-tree/neo-tree.nvim",
     "nvim-neorg/neorg",
     "nvim-treesitter/nvim-treesitter-textobjects",

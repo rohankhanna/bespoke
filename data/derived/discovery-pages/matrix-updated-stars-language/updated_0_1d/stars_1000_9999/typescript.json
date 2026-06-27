@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 514,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 8,
-    "terms": 69
+    "components": 384,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 6,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "conventional-changelog/conventional-changelog",
     "microsoft/vscode-js-debug",
     "modelcontextprotocol/modelcontextprotocol",
     "off-grid-ai/mobile",
     "podman-desktop/podman-desktop",
-    "shareAI-lab/Kode-CLI",
-    "typescript-language-server/typescript-language-server",
-    "vuejs/language-tools"
+    "typescript-language-server/typescript-language-server"
   ]
 }

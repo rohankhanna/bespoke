@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 6,
-    "terms": 41
+    "components": 34,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 7,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "cvxgrp/scs",
     "flagos-ai/FlagCX",
     "localai-org/LocalVQE",
+    "mudler/parakeet.cpp",
     "ROCm/hipBLAS",
     "SlicerRt/SlicerRT",
     "tree-sitter-grammars/tree-sitter-markdown"

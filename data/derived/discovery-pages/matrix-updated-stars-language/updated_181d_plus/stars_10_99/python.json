@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 795,
-    "concepts": 1627,
-    "observations": 1630,
-    "repos": 902,
-    "terms": 1605
+    "concepts": 1634,
+    "observations": 1637,
+    "repos": 906,
+    "terms": 1612
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -135,6 +135,8 @@
     "AppliedAcousticsChalmers/ReTiSAR",
     "AQA6666/SCP-116K-open",
     "aquaskyline/clair",
+    "aramis-lab/AD-DL",
+    "aramis-lab/AD-ML",
     "archinetai/a-unet",
     "argosopentech/argos-translate-gui",
     "ARISE-Initiative/robosuite_models",
@@ -296,6 +298,7 @@
     "DAMO-NLP-SG/CMM",
     "Danau5tin/tbench-agentic-data-pipeline",
     "dandavison/open-in-editor",
+    "DanielPollithy/pypcd",
     "danijar/crafter-baselines",
     "dask-contrib/dask-deltatable",
     "Dawn-LX/CausalCache-VDM",
@@ -569,6 +572,7 @@
     "kvablack/LLaVA-server",
     "kwea123/Unity_live_caption",
     "lainq/img",
+    "lassoan/SlicerHDBrainExtraction",
     "layumi/hmr",
     "layumi/HQ-Market",
     "layumi/U_turn",

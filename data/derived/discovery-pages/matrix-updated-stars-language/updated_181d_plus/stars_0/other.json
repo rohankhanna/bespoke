@@ -3,7 +3,7 @@
     "components": 202,
     "concepts": 117,
     "observations": 117,
-    "repos": 107,
+    "repos": 109,
     "terms": 117
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T06:01:54.861996+00:00",
+  "generated_at": "2026-06-27T10:09:45.922953+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -78,6 +78,7 @@
     "JuliaBinaryWrappers/GEOS_jll.jl",
     "JuliaBinaryWrappers/GTK4_jll.jl",
     "JuliaBinaryWrappers/HDF4_jll.jl",
+    "JuliaBinaryWrappers/LAPACK_jll.jl",
     "JuliaBinaryWrappers/libadwaita_jll.jl",
     "JuliaBinaryWrappers/Libffi_jll.jl",
     "JuliaBinaryWrappers/Libiconv_jll.jl",
@@ -85,6 +86,7 @@
     "JuliaBinaryWrappers/LLVMOpenMP_jll.jl",
     "JuliaBinaryWrappers/Lz4_jll.jl",
     "JuliaBinaryWrappers/pixi_jll.jl",
+    "JuliaBinaryWrappers/ReferenceBLAS_jll.jl",
     "JuliaBinaryWrappers/snappy_jll.jl",
     "JuliaBinaryWrappers/Thrift_jll.jl",
     "JuliaBinaryWrappers/yyjson_jll.jl",
