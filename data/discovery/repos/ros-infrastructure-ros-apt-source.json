@@ -1,0 +1,109 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-debs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-debs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-debs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-debs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-debs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-rpms.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-rpms.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-debs.yaml",
+      "source_repo": "ros-infrastructure/ros-apt-source",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-debs.yaml",
+      "source_repo": "ros-infrastructure/ros-apt-source",
+      "target": "Build Deb packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-rpms.yaml",
+      "source_repo": "ros-infrastructure/ros-apt-source",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-rpms.yaml",
+      "source_repo": "ros-infrastructure/ros-apt-source",
+      "target": "Build RPM packages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:45:44.209584+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-test-debs.yaml",
+      "size": 4290
+    },
+    {
+      "path": ".github/workflows/build-test-rpms.yaml",
+      "size": 1448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Public keyring for ROS (Robot Operative System) archives",
+    "fork": false,
+    "full_name": "ros-infrastructure/ros-apt-source",
+    "html_url": "https://github.com/ros-infrastructure/ros-apt-source",
+    "language": "Earthly",
+    "pushed_at": "2026-06-15T13:12:56Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-06-15T13:13:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Deb packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-debs.yaml",
+      "term": "Build Deb packages"
+    },
+    {
+      "context_snippet": "Build RPM packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-rpms.yaml",
+      "term": "Build RPM packages"
+    }
+  ]
+}

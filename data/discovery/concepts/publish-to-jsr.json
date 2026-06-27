@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Publish to JSR"
+    "Publish to JSR",
+    "Publish to jsr"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ai/nanoid",
       "status": "candidate-context",
       "text": "Publish to JSR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "manzt/anywidget",
+      "status": "candidate-context",
+      "text": "reusable widgets made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manzt/anywidget",
+      "status": "candidate-context",
+      "text": "Publish to jsr"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ai/nanoid",
       "status": "candidate",
       "text": "Publish to JSR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manzt/anywidget",
+      "status": "candidate",
+      "text": "Publish to jsr"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/jsr.yml",
       "source_repo": "ai/nanoid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "manzt/anywidget"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

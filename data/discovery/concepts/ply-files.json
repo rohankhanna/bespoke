@@ -19,6 +19,18 @@
       "source_repo": "dranjan/python-plyfile",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/dranjan/python-plyfile/actions/workflows/python-package.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "loicland/superpoint_graph",
+      "status": "candidate-context",
+      "text": "Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "loicland/superpoint_graph",
+      "status": "candidate-context",
+      "text": "This is the official PyTorch implementation of the papers:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dranjan/python-plyfile",
       "status": "candidate",
       "text": "![Build Status](https://github.com/dranjan/python-plyfile/actions/workflows/python-package.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "loicland/superpoint_graph",
+      "status": "candidate",
+      "text": "This is the official PyTorch implementation of the papers:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "dranjan/python-plyfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

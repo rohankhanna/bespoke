@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Deb packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros-infrastructure/ros-apt-source",
+      "status": "candidate-context",
+      "text": "Public keyring for ROS (Robot Operative System) archives"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-infrastructure/ros-apt-source",
+      "status": "candidate-context",
+      "text": "Build Deb packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-infrastructure/ros-apt-source",
+      "status": "candidate",
+      "text": "Build Deb packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21578,
+      "status": "candidate",
+      "text": "glean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21180,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18561,
+      "status": "candidate",
+      "text": "asset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13590,
+      "status": "candidate",
+      "text": "acne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13590,
+      "status": "candidate",
+      "text": "ball"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Deb packages",
+  "concept_id": "build-deb-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/build-test-debs.yaml",
+      "source_repo": "ros-infrastructure/ros-apt-source"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Deb packages",
+      "sense_id": "build-deb-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kashif-E/parakeet-ios-demo",
+      "target": "moonshine-ai/moonshine-swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kashif-E/parakeet-ios-demo",
+      "target": "moonshine-ai/moonshine",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-27T07:14:56.321639+00:00",
+  "source_repo": "Kashif-E/parakeet-ios-demo"
+}

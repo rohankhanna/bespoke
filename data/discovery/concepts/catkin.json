@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "catkin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros-industrial/industrial_ci",
+      "status": "candidate-context",
+      "text": "Easy continuous integration repository for ROS repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/industrial_ci",
+      "status": "candidate-context",
+      "text": "================"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/industrial_ci",
+      "status": "candidate",
+      "text": "================"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039943,
+      "status": "candidate",
+      "text": "ament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039309,
+      "status": "candidate",
+      "text": "pistillate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037896,
+      "status": "candidate",
+      "text": "staminate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040098,
+      "status": "candidate",
+      "text": "dichasium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040097,
+      "status": "candidate",
+      "text": "capitulum"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6029,
+      "status": "candidate",
+      "text": "ament"
+    }
+  ],
+  "canonical_name": "catkin",
+  "concept_id": "catkin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ros-industrial/industrial_ci"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "catkin",
+      "sense_id": "catkin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

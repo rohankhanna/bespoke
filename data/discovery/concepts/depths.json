@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "depths"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/manydepth",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Self-supervised depth estimation from short sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/manydepth",
+      "status": "candidate-context",
+      "text": "[Jamie Watson](https://scholar.google.com/citations?user=5pC7fw8AAAAJ&hl=en),"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/manydepth",
+      "status": "candidate",
+      "text": "[Jamie Watson](https://scholar.google.com/citations?user=5pC7fw8AAAAJ&hl=en),"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022832,
+      "status": "candidate",
+      "text": "profoundness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022773,
+      "status": "candidate",
+      "text": "profundity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004573,
+      "status": "candidate",
+      "text": "astuteness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023232,
+      "status": "candidate",
+      "text": "waters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986014,
+      "status": "candidate",
+      "text": "nadir"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "depths",
+  "concept_id": "depths",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/manydepth"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "depths",
+      "sense_id": "depths#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

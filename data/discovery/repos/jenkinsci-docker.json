@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "release-drafter/release-drafter@73b95fa1c286dfd6802a4f949b07dad6149f2b0f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli.yaml"
+    },
+    {
+      "component": "updatecli/updatecli-action@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/docker",
+      "target": "jenkinsci/plugin-installation-manager-tool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "jenkinsci/docker",
+      "target": "release-drafter/release-drafter@73b95fa1c286dfd6802a4f949b07dad6149f2b0f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "jenkinsci/docker",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli.yaml",
+      "source_repo": "jenkinsci/docker",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli.yaml",
+      "source_repo": "jenkinsci/docker",
+      "target": "updatecli/updatecli-action@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updatecli.yaml",
+      "source_repo": "jenkinsci/docker",
+      "target": "updatecli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/docker",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/docker",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/docker",
+      "target": "jenkins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:45:49.219068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19346
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 791
+    },
+    {
+      "path": ".github/workflows/updatecli.yaml",
+      "size": 1038
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker official jenkins repo",
+    "fork": false,
+    "full_name": "jenkinsci/docker",
+    "html_url": "https://github.com/jenkinsci/docker",
+    "language": "PowerShell",
+    "pushed_at": "2026-06-25T11:43:43Z",
+    "stargazers_count": 7537,
+    "topics": [
+      "docker",
+      "hacktoberfest",
+      "jenkins"
+    ],
+    "updated_at": "2026-06-27T06:19:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkinsci/plugin-installation-manager-tool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "updatecli",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updatecli.yaml",
+      "term": "updatecli"
+    },
+    {
+      "context_snippet": "[![Docker Stars](https://img.shields.io/docker/stars/jenkins/jenkins.svg)](https://hub.docker.com/r/jenkins/jenkins/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Docker Stars](https://img.shields.io/docker/stars/jenkins/jenkins.svg)](https://hub.docker.com/r/jenkins/jenkins/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Docker Stars](https://img.shields.io/docker/stars/jenkins/jenkins.svg)](https://hub.docker.com/r/jenkins/jenkins/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jenkins"
+    }
+  ]
+}

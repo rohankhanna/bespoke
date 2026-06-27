@@ -37,6 +37,18 @@
       "source_repo": "atong01/conditional-flow-matching",
       "status": "candidate-context",
       "text": "Code Quality Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drprojects/superpoint_transformer",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of Superpoint Transformer [ICCV'23], SuperCluster [3DV'24 Oral], and EZ-SP [ICRA'26]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drprojects/superpoint_transformer",
+      "status": "candidate-context",
+      "text": "Code Quality Main"
     }
   ],
   "candidate_glosses": [
@@ -55,6 +67,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "atong01/conditional-flow-matching",
+      "status": "candidate",
+      "text": "Code Quality Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drprojects/superpoint_transformer",
       "status": "candidate",
       "text": "Code Quality Main"
     }
@@ -118,11 +136,17 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": ".github/workflows/code-quality.yaml",
       "source_repo": "atong01/conditional-flow-matching"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "drprojects/superpoint_transformer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

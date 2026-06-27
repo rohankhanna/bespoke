@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FCP-INDI/fcp-indi.github.io",
+      "target": "closember",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FCP-INDI/fcp-indi.github.io",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FCP-INDI/fcp-indi.github.io",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:25:28.788115+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 145
+    },
+    {
+      "path": "requirements.txt",
+      "size": 365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "source",
+    "description": "Github Pages Repo for FCP-INDI",
+    "fork": false,
+    "full_name": "FCP-INDI/fcp-indi.github.io",
+    "html_url": "https://github.com/FCP-INDI/fcp-indi.github.io",
+    "language": "CSS",
+    "pushed_at": "2026-05-11T16:26:09Z",
+    "stargazers_count": 2,
+    "topics": [
+      "closember",
+      "documentation",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-05-11T16:30:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub Pages repo for FCP-INDI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "closember"
+    },
+    {
+      "context_snippet": "GitHub Pages repo for FCP-INDI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "GitHub Pages repo for FCP-INDI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "foxglove/nuscenes2bag",
+      "target": "danielpollithy/pypcd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:45:41.580047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1120
+    },
+    {
+      "path": "Dockerfile",
+      "size": 584
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Migrated to https://github.com/foxglove/nuscenes2mcap",
+    "fork": false,
+    "full_name": "foxglove/nuscenes2bag",
+    "html_url": "https://github.com/foxglove/nuscenes2bag",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-19T17:26:10Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2025-11-13T01:00:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielpollithy/pypcd",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

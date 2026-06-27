@@ -106,6 +106,18 @@
       "source_repo": "mapbox/mason",
       "status": "candidate-context",
       "text": "\u274c **UNMAINTAINED: this project is no longer maintained and no additional development is planned. Nor is any kind of deprecation planned. Rather this code is now frozen. If you are depending on this module in any of your applications, it is recommended you remove the dependency a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/pkg",
+      "status": "candidate-context",
+      "text": "Package your Node.js project into an executable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/pkg",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "mapbox/mason",
       "status": "candidate",
       "text": "\u274c **UNMAINTAINED: this project is no longer maintained and no additional development is planned. Nor is any kind of deprecation planned. Rather this code is now frozen. If you are depending on this module in any of your applications, it is recommended you remove the dependency a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/pkg",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -301,11 +319,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "mapbox/mason"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "vercel/pkg"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

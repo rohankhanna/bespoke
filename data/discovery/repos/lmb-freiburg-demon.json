@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmb-freiburg/demon",
+      "target": "lmb-freiburg/lmbspecialops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmb-freiburg/demon",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmb-freiburg/demon",
+      "target": "depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmb-freiburg/demon",
+      "target": "structure-from-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmb-freiburg/demon",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:23:48.525508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5119
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DeMoN: Depth and Motion Network",
+    "fork": false,
+    "full_name": "lmb-freiburg/demon",
+    "html_url": "https://github.com/lmb-freiburg/demon",
+    "language": "Python",
+    "pushed_at": "2022-04-02T06:05:36Z",
+    "stargazers_count": 587,
+    "topics": [
+      "cnn",
+      "cvpr",
+      "depth",
+      "structure-from-motion",
+      "tensorflow"
+    ],
+    "updated_at": "2026-06-25T22:50:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmb-freiburg/lmbspecialops",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structure-from-motion"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

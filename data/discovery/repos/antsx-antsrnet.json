@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ANTsX/ANTsRNet",
+      "target": "ntustison/antspynet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ANTsX/ANTsRNet",
+      "target": "stnava/itkr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ANTsX/ANTsRNet",
+      "target": "antsx/antsrcore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ANTsX/ANTsRNet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ANTsX/ANTsRNet",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ANTsX/ANTsRNet",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ANTsX/ANTsRNet",
+      "target": "R-CMD-check ANTsRNet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ANTsX/ANTsRNet",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ANTsX/ANTsRNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:50:21.144192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13301
+    },
+    {
+      "path": "requirements.txt",
+      "size": 86
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Medical image analysis framework merging ANTsR and deep learning",
+    "fork": false,
+    "full_name": "ANTsX/ANTsRNet",
+    "html_url": "https://github.com/ANTsX/ANTsRNet",
+    "language": "R",
+    "pushed_at": "2026-05-23T16:04:29Z",
+    "stargazers_count": 69,
+    "topics": [
+      "convolutional-neural-networks",
+      "deep-learning",
+      "r"
+    ],
+    "updated_at": "2026-05-29T09:46:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antsx/antsrcore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ntustison/antspynet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stnava/itkr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "R-CMD-check ANTsRNet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "R-CMD-check ANTsRNet"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    }
+  ]
+}

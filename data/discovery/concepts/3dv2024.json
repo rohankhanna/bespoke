@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "3dv2024"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drprojects/superpoint_transformer",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of Superpoint Transformer [ICCV'23], SuperCluster [3DV'24 Oral], and EZ-SP [ICRA'26]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drprojects/superpoint_transformer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drprojects/superpoint_transformer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "3dv2024",
+  "concept_id": "3dv2024",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "drprojects/superpoint_transformer"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3dv2024",
+      "sense_id": "3dv2024#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

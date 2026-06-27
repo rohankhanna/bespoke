@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "target": "ros-infrastructure/ros-apt-source",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:19:36.378367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33717
+    },
+    {
+      "path": "Dockerfile",
+      "size": 13413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Machine Learning-Enabled ROS Docker Images",
+    "fork": false,
+    "full_name": "ika-rwth-aachen/docker-ros-ml-images",
+    "html_url": "https://github.com/ika-rwth-aachen/docker-ros-ml-images",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-16T07:48:05Z",
+    "stargazers_count": 88,
+    "topics": [
+      "docker",
+      "pytorch",
+      "ros",
+      "ros2",
+      "tensorflow"
+    ],
+    "updated_at": "2026-05-27T16:23:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ros-infrastructure/ros-apt-source",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

@@ -4054,6 +4054,72 @@
       "source_repo": "ika-rwth-aachen/docker-run",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/ika-rwth-aachen/docker-run/raw/main/assets/logo.png\" height=130 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mudler/parakeet.cpp",
+      "status": "candidate-context",
+      "text": "Parakeet implementation in C++ with ggml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/parakeet.cpp",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "status": "candidate-context",
+      "text": "Machine Learning-Enabled ROS Docker Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mintoolkit/mint",
+      "status": "candidate-context",
+      "text": "minT(oolkit): Mint awesome, secure and production ready containers just the way you need them! Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mintoolkit/mint",
+      "status": "candidate-context",
+      "text": "<!-- ![SK](assets/images/dslim/logo.png) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skjerns/3dprintedbrain_docker",
+      "status": "candidate-context",
+      "text": "3D print your brain from a T1 MRI image using Docker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skjerns/3dprintedbrain_docker",
+      "status": "candidate-context",
+      "text": "<img title=\"\" src=\"md_assets/3a5b470407b7d8dcfb1e6cfee7a785ca425898a8.png\" alt=\"2021-09-11 10.44.37.jpg\" width=\"493\" data-align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/docker",
+      "status": "candidate-context",
+      "text": "Docker official jenkins repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/docker",
+      "status": "candidate-context",
+      "text": "[![Docker Stars](https://img.shields.io/docker/stars/jenkins/jenkins.svg)](https://hub.docker.com/r/jenkins/jenkins/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mintoolkit/examples",
+      "status": "candidate-context",
+      "text": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->"
     }
   ],
   "candidate_glosses": [
@@ -6102,6 +6168,42 @@
       "source_repo": "ika-rwth-aachen/docker-run",
       "status": "candidate",
       "text": "<img src=\"https://github.com/ika-rwth-aachen/docker-run/raw/main/assets/logo.png\" height=130 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/parakeet.cpp",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mintoolkit/mint",
+      "status": "candidate",
+      "text": "<!-- ![SK](assets/images/dslim/logo.png) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skjerns/3dprintedbrain_docker",
+      "status": "candidate",
+      "text": "<img title=\"\" src=\"md_assets/3a5b470407b7d8dcfb1e6cfee7a785ca425898a8.png\" alt=\"2021-09-11 10.44.37.jpg\" width=\"493\" data-align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/docker",
+      "status": "candidate",
+      "text": "[![Docker Stars](https://img.shields.io/docker/stars/jenkins/jenkins.svg)](https://hub.docker.com/r/jenkins/jenkins/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mintoolkit/examples",
+      "status": "candidate",
+      "text": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->"
     }
   ],
   "candidate_related_terms": [
@@ -18229,11 +18331,161 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "ika-rwth-aachen/docker-run"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "mudler/parakeet.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "skjerns/3dprintedbrain_docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "mintoolkit/examples"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

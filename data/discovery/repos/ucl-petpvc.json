@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "UCL/PETPVC",
+      "target": "insightsoftwareconsortium/itk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "UCL/PETPVC",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "UCL/PETPVC",
+      "target": "hendrikmuhs/ccache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "UCL/PETPVC",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "UCL/PETPVC",
+      "target": "Build and ctest CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UCL/PETPVC",
+      "target": "medical-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UCL/PETPVC",
+      "target": "partial-volume-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UCL/PETPVC",
+      "target": "pet-mr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UCL/PETPVC",
+      "target": "positron-emission-tomography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:24:47.615854+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5743
+    },
+    {
+      "path": "Dockerfile",
+      "size": 901
+    },
+    {
+      "path": ".github/workflows/build-test.yml",
+      "size": 5751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Partial Volume Correction in PET",
+    "fork": false,
+    "full_name": "UCL/PETPVC",
+    "html_url": "https://github.com/UCL/PETPVC",
+    "language": "C++",
+    "pushed_at": "2024-12-10T13:08:11Z",
+    "stargazers_count": 71,
+    "topics": [
+      "medical-imaging",
+      "partial-volume-correction",
+      "pet-mr",
+      "positron-emission-tomography",
+      "pvc"
+    ],
+    "updated_at": "2026-06-14T19:29:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "insightsoftwareconsortium/itk",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and ctest CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "term": "Build and ctest CI"
+    },
+    {
+      "context_snippet": "[![Build and ctest and recon_test_pack CI](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml/badge.svg)](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml)[![Build Status](https://dev.azure.com/petpvc/petpvc/_apis/build/status/UCL.PETPVC?branchName=mast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-imaging"
+    },
+    {
+      "context_snippet": "[![Build and ctest and recon_test_pack CI](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml/badge.svg)](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml)[![Build Status](https://dev.azure.com/petpvc/petpvc/_apis/build/status/UCL.PETPVC?branchName=mast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "partial-volume-correction"
+    },
+    {
+      "context_snippet": "[![Build and ctest and recon_test_pack CI](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml/badge.svg)](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml)[![Build Status](https://dev.azure.com/petpvc/petpvc/_apis/build/status/UCL.PETPVC?branchName=mast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pet-mr"
+    },
+    {
+      "context_snippet": "[![Build and ctest and recon_test_pack CI](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml/badge.svg)](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml)[![Build Status](https://dev.azure.com/petpvc/petpvc/_apis/build/status/UCL.PETPVC?branchName=mast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "positron-emission-tomography"
+    }
+  ]
+}

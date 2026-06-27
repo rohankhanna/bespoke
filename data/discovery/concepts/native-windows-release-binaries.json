@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Native Windows release binaries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate-context",
+      "text": "Advanced Normalization Tools (ANTs)  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate-context",
+      "text": "Native Windows release binaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate",
+      "text": "Native Windows release binaries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18210,
+      "status": "candidate",
+      "text": "wipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18191,
+      "status": "candidate",
+      "text": "daylight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "clerestory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17938,
+      "status": "candidate",
+      "text": "companion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17938,
+      "status": "candidate",
+      "text": "luft"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Native Windows release binaries",
+  "concept_id": "native-windows-release-binaries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/release-win-binaries.yml",
+      "source_repo": "ANTsX/ANTs"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Native Windows release binaries",
+      "sense_id": "native-windows-release-binaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

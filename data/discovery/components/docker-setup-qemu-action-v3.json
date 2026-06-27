@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1597,6 +1597,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-build-push.yaml",
       "source_repo": "reza-gholizade/k8s-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ros-industrial/industrial_ci"
     }
   ]
 }

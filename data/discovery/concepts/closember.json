@@ -151,6 +151,18 @@
       "source_repo": "FCP-INDI/C-PAC",
       "status": "candidate-context",
       "text": "<!-- Copyright (C) 2022 C-PAC Developers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FCP-INDI/fcp-indi.github.io",
+      "status": "candidate-context",
+      "text": "Github Pages Repo for FCP-INDI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FCP-INDI/fcp-indi.github.io",
+      "status": "candidate-context",
+      "text": "GitHub Pages repo for FCP-INDI"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "FCP-INDI/C-PAC",
       "status": "candidate",
       "text": "<!-- Copyright (C) 2022 C-PAC Developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FCP-INDI/fcp-indi.github.io",
+      "status": "candidate",
+      "text": "GitHub Pages repo for FCP-INDI"
     }
   ],
   "candidate_related_terms": [],
@@ -316,11 +334,17 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "FCP-INDI/C-PAC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "FCP-INDI/fcp-indi.github.io"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

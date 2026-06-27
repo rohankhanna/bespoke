@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official PyTorch implementation of the papers:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official PyTorch implementation of the papers:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ply-files",
+      "sense_id": "ply-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ply-files",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ply-files",
+  "observation_id": "59791809a0aefa9b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_text": "ply-files",
+  "source_context_snippet": "This is the official PyTorch implementation of the papers:",
+  "source_file": null,
+  "source_repo": "loicland/superpoint_graph",
+  "source_repo_description": "Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs"
+}

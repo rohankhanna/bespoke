@@ -91,6 +91,18 @@
       "source_repo": "grupo-avispa/depth_anything_v2_ros2",
       "status": "candidate-context",
       "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmb-freiburg/demon",
+      "status": "candidate-context",
+      "text": "DeMoN: Depth and Motion Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmb-freiburg/demon",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "grupo-avispa/depth_anything_v2_ros2",
       "status": "candidate",
       "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmb-freiburg/demon",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -260,11 +278,17 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "grupo-avispa/depth_anything_v2_ros2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "lmb-freiburg/demon"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,310 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "2dto3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "depth-anything-ac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "depth-anything-v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "depth-pro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "distill-any-depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "inference-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "meflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "memfof",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "metric3dv2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "moge-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "neuflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "raft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "streamvggt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "unidepthv2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "unik3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "target": "vggt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:19:49.760545+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Optimizing Monocular Depth Estimation with TensorRT: Model Conversion, Inference Acceleration, and 3D Reconstruction",
+    "fork": false,
+    "full_name": "yester31/Monocular_Depth_Estimation_TRT",
+    "html_url": "https://github.com/yester31/Monocular_Depth_Estimation_TRT",
+    "language": "Python",
+    "pushed_at": "2026-03-09T16:00:31Z",
+    "stargazers_count": 49,
+    "topics": [
+      "2dto3d",
+      "depth-anything-ac",
+      "depth-anything-v2",
+      "depth-estimation",
+      "depth-pro",
+      "distill-any-depth",
+      "inference-optimization",
+      "meflow",
+      "memfof",
+      "metric3dv2",
+      "moge-2",
+      "monocular-depth-estimation",
+      "neuflow",
+      "optimization",
+      "raft",
+      "streamvggt",
+      "tensorrt",
+      "unidepthv2",
+      "unik3d",
+      "vggt"
+    ],
+    "updated_at": "2026-05-20T08:03:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2dto3d"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-anything-ac"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-anything-v2"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-pro"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distill-any-depth"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-optimization"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meflow"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memfof"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metric3dv2"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moge-2"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuflow"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streamvggt"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unidepthv2"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unik3d"
+    },
+    {
+      "context_snippet": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vggt"
+    }
+  ]
+}

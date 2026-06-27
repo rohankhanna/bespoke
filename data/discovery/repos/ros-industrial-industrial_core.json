@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bionic.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bionic.yml"
+    },
+    {
+      "component": "ros-industrial/industrial_ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bionic.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_focal.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_focal.yml"
+    },
+    {
+      "component": "ros-industrial/industrial_ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_focal.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "ros-industrial/swri-ros-pkg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bionic.yml",
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bionic.yml",
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bionic.yml",
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "ros-industrial/industrial_ci@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bionic.yml",
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "CI - Ubuntu Bionic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_focal.yml",
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_focal.yml",
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_focal.yml",
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "ros-industrial/industrial_ci@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_focal.yml",
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "CI - Ubuntu Focal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "ros-industrial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ros-industrial/industrial_core",
+      "target": "simple-message",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:45:55.364727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5223
+    },
+    {
+      "path": ".github/workflows/ci_bionic.yml",
+      "size": 1356
+    },
+    {
+      "path": ".github/workflows/ci_focal.yml",
+      "size": 1380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "melodic-devel",
+    "description": "ROS-Industrial core communication packages (http://wiki.ros.org/industrial_core)",
+    "fork": false,
+    "full_name": "ros-industrial/industrial_core",
+    "html_url": "https://github.com/ros-industrial/industrial_core",
+    "language": "C++",
+    "pushed_at": "2024-02-02T21:35:07Z",
+    "stargazers_count": 168,
+    "topics": [
+      "ros-industrial",
+      "simple-message"
+    ],
+    "updated_at": "2026-05-08T04:52:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ros-industrial/swri-ros-pkg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI - Ubuntu Bionic",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bionic.yml",
+      "term": "CI - Ubuntu Bionic"
+    },
+    {
+      "context_snippet": "CI - Ubuntu Focal",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_focal.yml",
+      "term": "CI - Ubuntu Focal"
+    },
+    {
+      "context_snippet": "[![Build Status: Ubuntu Bionic (Actions)](https://github.com/ros-industrial/industrial_core/workflows/CI%20-%20Ubuntu%20Bionic/badge.svg?branch=melodic-devel)](https://github.com/ros-industrial/industrial_core/actions?query=workflow%3A%22CI+-+Ubuntu+Bionic%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros-industrial"
+    },
+    {
+      "context_snippet": "[![Build Status: Ubuntu Bionic (Actions)](https://github.com/ros-industrial/industrial_core/workflows/CI%20-%20Ubuntu%20Bionic/badge.svg?branch=melodic-devel)](https://github.com/ros-industrial/industrial_core/actions?query=workflow%3A%22CI+-+Ubuntu+Bionic%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simple-message"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "neuralradiance-fields"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/diffusionerf",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] DiffusioNeRF: Regularizing Neural Radiance Fields with Denoising Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/diffusionerf",
+      "status": "candidate-context",
+      "text": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/diffusionerf",
+      "status": "candidate",
+      "text": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "neuralradiance-fields",
+  "concept_id": "neuralradiance-fields",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neuralradiance-fields",
+      "sense_id": "neuralradiance-fields#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

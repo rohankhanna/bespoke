@@ -295,6 +295,54 @@
       "source_repo": "cp2k/dbcsr",
       "status": "candidate-context",
       "text": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLinearAlgebra/libblastrampoline",
+      "status": "candidate-context",
+      "text": "Using PLT trampolines to provide a BLAS and LAPACK demuxing library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/libblastrampoline",
+      "status": "candidate-context",
+      "text": "> All problems in computer science can be solved by another level of indirection"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLinearAlgebra/MKL.jl",
+      "status": "candidate-context",
+      "text": "Intel MKL linear algebra backend for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/MKL.jl",
+      "status": "candidate-context",
+      "text": "MKL.jl is a Julia package that allows users to use the Intel MKL library for Julia's underlying BLAS and LAPACK, instead of OpenBLAS, which Julia ships with by default. Julia includes [libblastrampoline](https://github.com/staticfloat/libblastrampoline), which enables picking a \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLinearAlgebra/BLISBLAS.jl",
+      "status": "candidate-context",
+      "text": "Access BLIS from Julia, with the ability to replace the built-in BLAS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/BLISBLAS.jl",
+      "status": "candidate-context",
+      "text": "BLISBLAS.jl is a Julia package that allows users to use the [BLIS](https://github.com/flame/blis) library for Julia's underlying BLAS. Note that BLIS only provides BLAS but not LAPACK (OpenBLAS will still be used for LAPACK functionality)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "status": "candidate-context",
+      "text": "Calling the PARDISO library from Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "status": "candidate-context",
+      "text": "[![CI Testing](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +489,30 @@
       "source_repo": "cp2k/dbcsr",
       "status": "candidate",
       "text": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/libblastrampoline",
+      "status": "candidate",
+      "text": "> All problems in computer science can be solved by another level of indirection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/MKL.jl",
+      "status": "candidate",
+      "text": "MKL.jl is a Julia package that allows users to use the Intel MKL library for Julia's underlying BLAS and LAPACK, instead of OpenBLAS, which Julia ships with by default. Julia includes [libblastrampoline](https://github.com/staticfloat/libblastrampoline), which enables picking a \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/BLISBLAS.jl",
+      "status": "candidate",
+      "text": "BLISBLAS.jl is a Julia package that allows users to use the [BLIS](https://github.com/flame/blis) library for Julia's underlying BLAS. Note that BLIS only provides BLAS but not LAPACK (OpenBLAS will still be used for LAPACK functionality)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "status": "candidate",
+      "text": "[![CI Testing](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -598,11 +670,35 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "cp2k/dbcsr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLinearAlgebra/libblastrampoline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLinearAlgebra/MKL.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLinearAlgebra/BLISBLAS.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaSparse/Pardiso.jl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

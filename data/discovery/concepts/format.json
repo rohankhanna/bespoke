@@ -737,6 +737,18 @@
       "source_repo": "oberbichler/HyperJet",
       "status": "candidate-context",
       "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate-context",
+      "text": "Julia support for the oneAPI programming toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate-context",
+      "text": "'Format'"
     }
   ],
   "candidate_glosses": [
@@ -1105,6 +1117,12 @@
       "source_repo": "oberbichler/HyperJet",
       "status": "candidate",
       "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate",
+      "text": "'Format'"
     }
   ],
   "candidate_related_terms": [
@@ -3481,11 +3499,41 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "oberbichler/HyperJet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/Format.yml",
+      "source_repo": "JuliaGPU/oneAPI.jl"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

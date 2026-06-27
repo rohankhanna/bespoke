@@ -103,6 +103,18 @@
       "source_repo": "thu-nics/MixDQ",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drprojects/superpoint_transformer",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of Superpoint Transformer [ICCV'23], SuperCluster [3DV'24 Oral], and EZ-SP [ICRA'26]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drprojects/superpoint_transformer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +163,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "thu-nics/MixDQ",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drprojects/superpoint_transformer",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -292,11 +310,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "thu-nics/MixDQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "drprojects/superpoint_transformer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

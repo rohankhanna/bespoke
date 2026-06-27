@@ -511,6 +511,18 @@
       "source_repo": "RuojinCai/ExtremeRotation_code",
       "status": "candidate-context",
       "text": "This repository contains a PyTorch implementation of the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticspatial/scr-priors",
+      "status": "candidate-context",
+      "text": "[ICCV 2025] Scene Coordinate Reconstruction Priors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticspatial/scr-priors",
+      "status": "candidate-context",
+      "text": "This repository contains code associated to the paper:"
     }
   ],
   "candidate_glosses": [
@@ -765,6 +777,12 @@
       "source_repo": "RuojinCai/ExtremeRotation_code",
       "status": "candidate",
       "text": "This repository contains a PyTorch implementation of the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticspatial/scr-priors",
+      "status": "candidate",
+      "text": "This repository contains code associated to the paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -2020,11 +2038,29 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "RuojinCai/ExtremeRotation_code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

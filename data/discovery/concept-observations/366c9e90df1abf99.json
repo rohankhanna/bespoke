@@ -43,7 +43,7 @@
   "normalized_form": "build-test-tidy-pr",
   "observation_id": "366c9e90df1abf99",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
   "observed_text": "build-test-tidy-pr",
   "source_context_snippet": "build-test-tidy-pr",
   "source_file": ".github/workflows/build-test-tidy-pr.yaml",

@@ -681,11 +681,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T05:56:09.426584+00:00",
+  "fetched_at": "2026-06-27T08:48:38.158146+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 34403
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1844
     },
     {
       "path": "package.json",
@@ -730,7 +734,7 @@
     "html_url": "https://github.com/dmtrKovalenko/fff",
     "language": "Rust",
     "pushed_at": "2026-06-27T05:36:33Z",
-    "stargazers_count": 9322,
+    "stargazers_count": 9327,
     "topics": [
       "bun",
       "fff",
@@ -744,7 +748,7 @@
       "python",
       "rust"
     ],
-    "updated_at": "2026-06-27T05:26:19Z"
+    "updated_at": "2026-06-27T08:16:03Z"
   },
   "repo_links": [
     {

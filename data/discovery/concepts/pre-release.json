@@ -249,6 +249,18 @@
       "source_repo": "pypa/build",
       "status": "candidate-context",
       "text": "Pre-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros-industrial/ros_canopen",
+      "status": "candidate-context",
+      "text": "CANopen driver framework for ROS (http://wiki.ros.org/ros_canopen)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/ros_canopen",
+      "status": "candidate-context",
+      "text": "Pre-release"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pypa/build",
+      "status": "candidate",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/ros_canopen",
       "status": "candidate",
       "text": "Pre-release"
     }
@@ -1980,11 +1998,35 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": ".github/workflows/prerelease.yml",
       "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ros-industrial/ros_canopen"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

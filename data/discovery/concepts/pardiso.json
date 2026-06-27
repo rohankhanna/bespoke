@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pardiso"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "status": "candidate-context",
+      "text": "Calling the PARDISO library from Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "status": "candidate-context",
+      "text": "[![CI Testing](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "status": "candidate",
+      "text": "[![CI Testing](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pardiso",
+  "concept_id": "pardiso",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaSparse/Pardiso.jl"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pardiso",
+      "sense_id": "pardiso#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

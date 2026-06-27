@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PruneTruong/DenseMatching",
+      "target": "brdav/refign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PruneTruong/DenseMatching",
+      "target": "prunetruong/glu-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PruneTruong/DenseMatching",
+      "target": "aaltovision/dgc-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PruneTruong/DenseMatching",
+      "target": "ignacio-rocco/ncnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:48:59.673377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 67151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dense matching library based on PyTorch",
+    "fork": false,
+    "full_name": "PruneTruong/DenseMatching",
+    "html_url": "https://github.com/PruneTruong/DenseMatching",
+    "language": "Python",
+    "pushed_at": "2023-04-20T09:59:04Z",
+    "stargazers_count": 754,
+    "topics": [],
+    "updated_at": "2026-06-08T10:49:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaltovision/dgc-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brdav/refign",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ignacio-rocco/ncnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prunetruong/glu-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A utility to fetch or build patched Node binaries used by `pkg` to generate executables. This repo hosts prebuilt binaries in Releases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Node binaries for Linux static"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Node binaries for Linux static"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30672,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17430,
+      "status": "candidate",
+      "text": "origin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17430,
+      "status": "candidate",
+      "text": "rivet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17430,
+      "status": "candidate",
+      "text": "standpoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17430,
+      "status": "candidate",
+      "text": "triangulation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Node binaries for Linux static",
+      "sense_id": "build-node-binaries-for-linux-static#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-node-binaries-for-linux-static",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-node-binaries-for-linux-static",
+  "observation_id": "25ef0f722d857d8b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_text": "Build Node binaries for Linux static",
+  "source_context_snippet": "Build Node binaries for Linux static",
+  "source_file": ".github/workflows/build-linuxstatic.yml",
+  "source_repo": "vercel/pkg-fetch",
+  "source_repo_description": "A utility to fetch or build patched Node binaries used by `pkg` to generate executables. This repo hosts prebuilt binaries in Releases."
+}

@@ -175,6 +175,30 @@
       "source_repo": "nianticlabs/ace",
       "status": "candidate-context",
       "text": "----------------------------------------------------------------------------------------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/manydepth",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Self-supervised depth estimation from short sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/manydepth",
+      "status": "candidate-context",
+      "text": "[Jamie Watson](https://scholar.google.com/citations?user=5pC7fw8AAAAJ&hl=en),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmb-freiburg/demon",
+      "status": "candidate-context",
+      "text": "DeMoN: Depth and Motion Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmb-freiburg/demon",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "nianticlabs/ace",
       "status": "candidate",
       "text": "----------------------------------------------------------------------------------------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/manydepth",
+      "status": "candidate",
+      "text": "[Jamie Watson](https://scholar.google.com/citations?user=5pC7fw8AAAAJ&hl=en),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmb-freiburg/demon",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -1386,11 +1422,35 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "nianticlabs/ace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/manydepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "lmb-freiburg/demon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

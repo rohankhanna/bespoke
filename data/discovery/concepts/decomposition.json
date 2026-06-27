@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "decomposition"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTsR",
+      "status": "candidate-context",
+      "text": "R interface to the ANTs biomedical image processing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsR",
+      "status": "candidate-context",
+      "text": "[![R-CMD-check](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsR",
+      "status": "candidate",
+      "text": "[![R-CMD-check](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39727889,
+      "status": "candidate",
+      "text": "putrefaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39722069,
+      "status": "candidate",
+      "text": "rot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39713380,
+      "status": "candidate",
+      "text": "disintegration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39712785,
+      "status": "candidate",
+      "text": "rotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39707455,
+      "status": "candidate",
+      "text": "decay"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29055,
+      "status": "candidate",
+      "text": "decay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16040,
+      "status": "candidate",
+      "text": "putrefaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10041,
+      "status": "candidate",
+      "text": "disintegration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4053,
+      "status": "candidate",
+      "text": "rot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2028,
+      "status": "candidate",
+      "text": "rotting"
+    }
+  ],
+  "canonical_name": "decomposition",
+  "concept_id": "decomposition",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ANTsX/ANTsR"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decomposition",
+      "sense_id": "decomposition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

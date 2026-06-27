@@ -373,6 +373,18 @@
       "source_repo": "PDFMathTranslate/PDFMathTranslate",
       "status": "candidate-context",
       "text": "FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim WORKDIR /app EXPOSE 7860 ENV PYTHONUNBUFFERED=1 # # Download all required fonts # ADD \"https://github.com/satbyy/go-noto-universal/releases/download/v7.0/GoNotoKurrent-Regular.ttf\" /app/ # ADD \"https://github.com/timelic/source-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/IntelVectorMath.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings for the Intel Vector Math Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/IntelVectorMath.jl",
+      "status": "candidate-context",
+      "text": "[pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/I/IntelVectorMath.svg"
     }
   ],
   "candidate_glosses": [
@@ -561,6 +573,12 @@
       "source_repo": "PDFMathTranslate/PDFMathTranslate",
       "status": "candidate",
       "text": "FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim WORKDIR /app EXPOSE 7860 ENV PYTHONUNBUFFERED=1 # # Download all required fonts # ADD \"https://github.com/satbyy/go-noto-universal/releases/download/v7.0/GoNotoKurrent-Regular.ttf\" /app/ # ADD \"https://github.com/timelic/source-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/IntelVectorMath.jl",
+      "status": "candidate",
+      "text": "[pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/I/IntelVectorMath.svg"
     }
   ],
   "candidate_related_terms": [
@@ -2161,11 +2179,35 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "petercorke/spatialmath-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/Search-o1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaMath/IntelVectorMath.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

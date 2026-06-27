@@ -1,0 +1,471 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-bats.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-bats.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-testing.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mintoolkit/mint",
+      "target": "mintoolkit/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mintoolkit/mint",
+      "target": "jenkinsci/docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mintoolkit/mint",
+      "target": "golang/lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-bats.yml",
+      "source_repo": "mintoolkit/mint",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-bats.yml",
+      "source_repo": "mintoolkit/mint",
+      "target": "actions/setup-go@v6.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acceptance-testing-bats.yml",
+      "source_repo": "mintoolkit/mint",
+      "target": "Acceptance testing (using bats tests)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml",
+      "source_repo": "mintoolkit/mint",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml",
+      "source_repo": "mintoolkit/mint",
+      "target": "actions/setup-go@v6.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml",
+      "source_repo": "mintoolkit/mint",
+      "target": "actions/upload-artifact@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-testing-e2e.yml",
+      "source_repo": "mintoolkit/mint",
+      "target": "actions/download-artifact@v8.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-testing.yml",
+      "source_repo": "mintoolkit/mint",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-testing.yml",
+      "source_repo": "mintoolkit/mint",
+      "target": "actions/setup-go@v6.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-testing.yml",
+      "source_repo": "mintoolkit/mint",
+      "target": "Unit testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "apparmor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "cont",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "containerd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "docker-slim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "minify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "minify-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "minimal-container-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "podman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "seccomp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "seccomp-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "slim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint",
+      "target": "slimtoolkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:19:40.456306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 116893
+    },
+    {
+      "path": "go.mod",
+      "size": 14037
+    },
+    {
+      "path": ".github/workflows/acceptance-testing-bats.yml",
+      "size": 747
+    },
+    {
+      "path": ".github/workflows/acceptance-testing-e2e.yml",
+      "size": 3700
+    },
+    {
+      "path": ".github/workflows/unit-testing.yml",
+      "size": 462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "minT(oolkit): Mint awesome, secure and production ready containers just the way you need them! Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)",
+    "fork": false,
+    "full_name": "mintoolkit/mint",
+    "html_url": "https://github.com/mintoolkit/mint",
+    "language": "Go",
+    "pushed_at": "2026-06-24T23:32:48Z",
+    "stargazers_count": 353,
+    "topics": [
+      "apparmor",
+      "cont",
+      "containerd",
+      "containers",
+      "docker",
+      "docker-slim",
+      "go",
+      "golang",
+      "hacktoberfest",
+      "minify",
+      "minify-images",
+      "minimal-container-images",
+      "podman",
+      "seccomp",
+      "seccomp-profile",
+      "slim",
+      "slimtoolkit"
+    ],
+    "updated_at": "2026-06-12T05:29:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang/lint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkinsci/docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mintoolkit/examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Acceptance testing (using bats tests)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acceptance-testing-bats.yml",
+      "term": "Acceptance testing (using bats tests)"
+    },
+    {
+      "context_snippet": "Unit testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-testing.yml",
+      "term": "Unit testing"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apparmor"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cont"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containerd"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-slim"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minify"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minify-images"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimal-container-images"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podman"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seccomp"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seccomp-profile"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slim"
+    },
+    {
+      "context_snippet": "<!-- ![SK](assets/images/dslim/logo.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slimtoolkit"
+    }
+  ]
+}

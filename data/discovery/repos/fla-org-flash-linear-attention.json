@@ -229,7 +229,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T04:34:29.901283+00:00",
+  "fetched_at": "2026-06-27T09:23:35.214298+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -237,7 +237,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 4985
+      "size": 4991
     },
     {
       "path": ".github/workflows/amd-mi300.yml",
@@ -281,15 +281,15 @@
     "full_name": "fla-org/flash-linear-attention",
     "html_url": "https://github.com/fla-org/flash-linear-attention",
     "language": "Python",
-    "pushed_at": "2026-06-26T02:55:43Z",
-    "stargazers_count": 5268,
+    "pushed_at": "2026-06-27T09:19:35Z",
+    "stargazers_count": 5270,
     "topics": [
       "large-language-models",
       "machine-learning-systems",
       "natural-language-processing",
       "sequence-modeling"
     ],
-    "updated_at": "2026-06-26T17:12:58Z"
+    "updated_at": "2026-06-27T08:52:51Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T08:25:16.242687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "niivue/fullstack-niivue-demo",
+    "html_url": "https://github.com/niivue/fullstack-niivue-demo",
+    "language": "TypeScript",
+    "pushed_at": "2025-12-10T09:44:02Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-01T06:18:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

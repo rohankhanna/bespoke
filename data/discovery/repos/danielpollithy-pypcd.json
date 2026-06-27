@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "DanielPollithy/pypcd",
+      "target": "audreyr/cookiecutter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:45:42.854394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fork of Dimatura's pypcd with merged pull requests and some extras",
+    "fork": true,
+    "full_name": "DanielPollithy/pypcd",
+    "html_url": "https://github.com/DanielPollithy/pypcd",
+    "language": "Python",
+    "pushed_at": "2022-07-04T00:11:54Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2024-09-22T05:54:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

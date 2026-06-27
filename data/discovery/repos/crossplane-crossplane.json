@@ -626,7 +626,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T05:11:43.199586+00:00",
+  "fetched_at": "2026-06-27T09:42:36.049607+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -678,7 +678,7 @@
     "full_name": "crossplane/crossplane",
     "html_url": "https://github.com/crossplane/crossplane",
     "language": "Go",
-    "pushed_at": "2026-06-26T19:54:06Z",
+    "pushed_at": "2026-06-27T09:11:47Z",
     "stargazers_count": 11811,
     "topics": [
       "cloud-computing",

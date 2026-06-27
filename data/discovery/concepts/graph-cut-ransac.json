@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "graph-cut-ransac"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danini/graph-cut-ransac",
+      "status": "candidate-context",
+      "text": "The Graph-Cut RANSAC algorithm proposed in paper: Daniel Barath and Jiri Matas; Graph-Cut RANSAC, Conference on Computer Vision and Pattern Recognition, 2018. It is available at http://openaccess.thecvf.com/content_cvpr_2018/papers/Barath_Graph-Cut_RANSAC_CVPR_2018_paper.pdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danini/graph-cut-ransac",
+      "status": "candidate-context",
+      "text": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danini/graph-cut-ransac",
+      "status": "candidate",
+      "text": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "graph-cut-ransac",
+  "concept_id": "graph-cut-ransac",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graph-cut-ransac",
+      "sense_id": "graph-cut-ransac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

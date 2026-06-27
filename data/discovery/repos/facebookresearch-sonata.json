@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T08:23:29.883671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'25\u00a0Highlight] Official repository of Sonata: Self-Supervised Learning of Reliable Point Representations",
+    "fork": false,
+    "full_name": "facebookresearch/sonata",
+    "html_url": "https://github.com/facebookresearch/sonata",
+    "language": "Python",
+    "pushed_at": "2025-06-04T20:37:05Z",
+    "stargazers_count": 754,
+    "topics": [],
+    "updated_at": "2026-06-21T12:44:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

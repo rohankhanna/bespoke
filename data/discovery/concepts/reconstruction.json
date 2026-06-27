@@ -91,6 +91,18 @@
       "source_repo": "thu-ml/CRM",
       "status": "candidate-context",
       "text": "Official implementation for *CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model*."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/diffusionerf",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] DiffusioNeRF: Regularizing Neural Radiance Fields with Denoising Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/diffusionerf",
+      "status": "candidate-context",
+      "text": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "thu-ml/CRM",
       "status": "candidate",
       "text": "Official implementation for *CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model*."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/diffusionerf",
+      "status": "candidate",
+      "text": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**"
     }
   ],
   "candidate_related_terms": [
@@ -1222,11 +1240,29 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "thu-ml/CRM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

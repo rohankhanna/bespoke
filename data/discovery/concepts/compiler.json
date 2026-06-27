@@ -889,6 +889,18 @@
       "source_repo": "AtomCrafty/yukatool2",
       "status": "candidate-context",
       "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/pkg",
+      "status": "candidate-context",
+      "text": "Package your Node.js project into an executable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/pkg",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -1335,6 +1347,12 @@
       "source_repo": "AtomCrafty/yukatool2",
       "status": "candidate",
       "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/pkg",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -2677,11 +2695,23 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "vercel/pkg"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

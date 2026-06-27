@@ -1,0 +1,12 @@
+{
+  "component": "release-drafter/release-drafter@73b95fa1c286dfd6802a4f949b07dad6149f2b0f",
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "jenkinsci/docker"
+    }
+  ]
+}

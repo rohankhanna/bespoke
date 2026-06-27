@@ -211,6 +211,18 @@
       "source_repo": "aramis-lab/clinica",
       "status": "candidate-context",
       "text": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aramis-lab/AD-ML",
+      "status": "candidate-context",
+      "text": "Framework for the reproducible classification of Alzheimer's disease using machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/AD-ML",
+      "status": "candidate-context",
+      "text": "This repository contains a software framework for **reproducible machine learning experiments on automatic classification of Alzheimer's disease (AD)** using multimodal MRI and PET data from three publicly available datasets [ADNI](http://adni.loni.usc.edu/), [AIBL](https://aibl\u2026"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "aramis-lab/clinica",
       "status": "candidate",
       "text": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/AD-ML",
+      "status": "candidate",
+      "text": "This repository contains a software framework for **reproducible machine learning experiments on automatic classification of Alzheimer's disease (AD)** using multimodal MRI and PET data from three publicly available datasets [ADNI](http://adni.loni.usc.edu/), [AIBL](https://aibl\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -478,11 +496,17 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "aramis-lab/clinica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "aramis-lab/AD-ML"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

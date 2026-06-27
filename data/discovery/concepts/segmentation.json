@@ -673,6 +673,30 @@
       "source_repo": "naver-ai/ZIM",
       "status": "candidate-context",
       "text": "[Beomyoung Kim](https://beomyoung-kim.github.io/), Chanyong Shin, [Joonhyun Jeong](https://bestdeveloper691.github.io/), Hyungsik Jung, Se-Yun Lee, Sewhan Chun, [Dong-Hyun Hwang](https://hwangdonghyun.github.io/), Joonsang Yu<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "loicland/superpoint_graph",
+      "status": "candidate-context",
+      "text": "Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "loicland/superpoint_graph",
+      "status": "candidate-context",
+      "text": "This is the official PyTorch implementation of the papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTsR",
+      "status": "candidate-context",
+      "text": "R interface to the ANTs biomedical image processing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsR",
+      "status": "candidate-context",
+      "text": "[![R-CMD-check](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -1011,6 +1035,18 @@
       "source_repo": "naver-ai/ZIM",
       "status": "candidate",
       "text": "[Beomyoung Kim](https://beomyoung-kim.github.io/), Chanyong Shin, [Joonhyun Jeong](https://bestdeveloper691.github.io/), Hyungsik Jung, Se-Yun Lee, Sewhan Chun, [Dong-Hyun Hwang](https://hwangdonghyun.github.io/), Joonsang Yu<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "loicland/superpoint_graph",
+      "status": "candidate",
+      "text": "This is the official PyTorch implementation of the papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsR",
+      "status": "candidate",
+      "text": "[![R-CMD-check](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -4462,11 +4498,59 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ANTsX/ANTsR"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

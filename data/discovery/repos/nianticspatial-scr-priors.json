@@ -1,0 +1,210 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "microsoft/scenelandmarklocalization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "nianticlabs/diffusionerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "camera-relocalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "iccv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "iccv2025",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "scene-coordinate-regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "structure-from-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors",
+      "target": "visual-relocalization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:23:40.148907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9966
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2025] Scene Coordinate Reconstruction Priors",
+    "fork": false,
+    "full_name": "nianticspatial/scr-priors",
+    "html_url": "https://github.com/nianticspatial/scr-priors",
+    "language": "Shell",
+    "pushed_at": "2025-11-10T09:41:59Z",
+    "stargazers_count": 22,
+    "topics": [
+      "3d-reconstruction",
+      "camera-relocalization",
+      "computer-vision",
+      "deep-learning",
+      "iccv",
+      "iccv2025",
+      "machine-learning",
+      "pose-estimation",
+      "scene-coordinate-regression",
+      "sfm",
+      "structure-from-motion",
+      "visual-relocalization"
+    ],
+    "updated_at": "2026-03-28T15:19:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/scenelandmarklocalization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nianticlabs/diffusionerf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera-relocalization"
+    },
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv"
+    },
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2025"
+    },
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-coordinate-regression"
+    },
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structure-from-motion"
+    },
+    {
+      "context_snippet": "This repository contains code associated to the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-relocalization"
+    }
+  ]
+}

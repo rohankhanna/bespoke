@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update E2E Snapshots (Linux)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niivue/ipyniivue",
+      "status": "candidate-context",
+      "text": "A WebGL-powered Jupyter Widget for Niivue based on anywidget"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/ipyniivue",
+      "status": "candidate-context",
+      "text": "Update E2E Snapshots (Linux)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/ipyniivue",
+      "status": "candidate",
+      "text": "Update E2E Snapshots (Linux)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11886,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "camera"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "dating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "dial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "engraving"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update E2E Snapshots (Linux)",
+  "concept_id": "update-e2e-snapshots-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/update-snapshots.yml",
+      "source_repo": "niivue/ipyniivue"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update E2E Snapshots (Linux)",
+      "sense_id": "update-e2e-snapshots-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -115,6 +115,54 @@
       "source_repo": "neuroneural/brainchop",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aramis-lab/clinicadl",
+      "status": "candidate-context",
+      "text": "Open-source Python library for reproducible deep learning in neuroimaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/clinicadl",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UCL/PETPVC",
+      "status": "candidate-context",
+      "text": "Partial Volume Correction in PET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UCL/PETPVC",
+      "status": "candidate-context",
+      "text": "[![Build and ctest and recon_test_pack CI](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml/badge.svg)](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml)[![Build Status](https://dev.azure.com/petpvc/petpvc/_apis/build/status/UCL.PETPVC?branchName=mast\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "status": "candidate-context",
+      "text": "Insight Toolkit (ITK) -- Official Repository.  ITK builds on a proven, spatially-oriented architecture for processing, segmentation, and registration of scientific images in two, three, or more dimensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "status": "candidate-context",
+      "text": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTsPy",
+      "status": "candidate-context",
+      "text": "A fast medical imaging analysis library in Python with algorithms for registration, segmentation, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsPy",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/antspyx)](https://pypi.org/project/antspyx/)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +219,30 @@
       "source_repo": "neuroneural/brainchop",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/clinicadl",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UCL/PETPVC",
+      "status": "candidate",
+      "text": "[![Build and ctest and recon_test_pack CI](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml/badge.svg)](https://github.com/UCL/PETPVC/actions/workflows/build-test.yml)[![Build Status](https://dev.azure.com/petpvc/petpvc/_apis/build/status/UCL.PETPVC?branchName=mast\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "status": "candidate",
+      "text": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsPy",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/antspyx)](https://pypi.org/project/antspyx/)"
     }
   ],
   "candidate_related_terms": [],
@@ -694,11 +766,41 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "neuroneural/brainchop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinicadl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "UCL/PETPVC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ANTsX/ANTsPy"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

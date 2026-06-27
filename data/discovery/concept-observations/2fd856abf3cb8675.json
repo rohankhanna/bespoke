@@ -43,7 +43,7 @@
   "normalized_form": "bump-new-version",
   "observation_id": "2fd856abf3cb8675",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
   "observed_text": "bump-new-version",
   "source_context_snippet": "bump-new-version",
   "source_file": ".github/workflows/bump-new-version.yaml",

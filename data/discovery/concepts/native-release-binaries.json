@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Native release binaries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate-context",
+      "text": "Advanced Normalization Tools (ANTs)  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate-context",
+      "text": "Native release binaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate",
+      "text": "Native release binaries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10317,
+      "status": "candidate",
+      "text": "pre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10317,
+      "status": "candidate",
+      "text": "stars"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9770,
+      "status": "candidate",
+      "text": "deposit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9770,
+      "status": "candidate",
+      "text": "quit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9770,
+      "status": "candidate",
+      "text": "received"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Native release binaries",
+  "concept_id": "native-release-binaries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "ANTsX/ANTs"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Native release binaries",
+      "sense_id": "native-release-binaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

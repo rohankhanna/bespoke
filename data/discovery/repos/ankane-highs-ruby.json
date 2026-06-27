@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/highs-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/highs-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/highs-ruby",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:49:14.578317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2538
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 731
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Linear optimization for Ruby",
+    "fork": false,
+    "full_name": "ankane/highs-ruby",
+    "html_url": "https://github.com/ankane/highs-ruby",
+    "language": "Ruby",
+    "pushed_at": "2026-03-26T22:43:21Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-05-24T23:23:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

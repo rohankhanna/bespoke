@@ -1621,6 +1621,66 @@
       "source_repo": "jump-dev/SCS.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/jump-dev/SCS.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/SCS.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLinearAlgebra/AppleAccelerate.jl",
+      "status": "candidate-context",
+      "text": "Julia interface to the macOS Accelerate framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/AppleAccelerate.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLinearAlgebra/MKL.jl",
+      "status": "candidate-context",
+      "text": "Intel MKL linear algebra backend for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/MKL.jl",
+      "status": "candidate-context",
+      "text": "MKL.jl is a Julia package that allows users to use the Intel MKL library for Julia's underlying BLAS and LAPACK, instead of OpenBLAS, which Julia ships with by default. Julia includes [libblastrampoline](https://github.com/staticfloat/libblastrampoline), which enables picking a \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLinearAlgebra/BLISBLAS.jl",
+      "status": "candidate-context",
+      "text": "Access BLIS from Julia, with the ability to replace the built-in BLAS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/BLISBLAS.jl",
+      "status": "candidate-context",
+      "text": "BLISBLAS.jl is a Julia package that allows users to use the [BLIS](https://github.com/flame/blis) library for Julia's underlying BLAS. Note that BLIS only provides BLAS but not LAPACK (OpenBLAS will still be used for LAPACK functionality)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate-context",
+      "text": "Julia support for the oneAPI programming toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate-context",
+      "text": "*Julia support for the oneAPI programming toolkit.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/IntelVectorMath.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings for the Intel Vector Math Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/IntelVectorMath.jl",
+      "status": "candidate-context",
+      "text": "[pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/I/IntelVectorMath.svg"
     }
   ],
   "candidate_glosses": [
@@ -2433,6 +2493,36 @@
       "source_repo": "jump-dev/SCS.jl",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/jump-dev/SCS.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/SCS.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/AppleAccelerate.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/MKL.jl",
+      "status": "candidate",
+      "text": "MKL.jl is a Julia package that allows users to use the Intel MKL library for Julia's underlying BLAS and LAPACK, instead of OpenBLAS, which Julia ships with by default. Julia includes [libblastrampoline](https://github.com/staticfloat/libblastrampoline), which enables picking a \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/BLISBLAS.jl",
+      "status": "candidate",
+      "text": "BLISBLAS.jl is a Julia package that allows users to use the [BLIS](https://github.com/flame/blis) library for Julia's underlying BLAS. Note that BLIS only provides BLAS but not LAPACK (OpenBLAS will still be used for LAPACK functionality)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate",
+      "text": "*Julia support for the oneAPI programming toolkit.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/IntelVectorMath.jl",
+      "status": "candidate",
+      "text": "[pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/I/IntelVectorMath.svg"
     }
   ],
   "candidate_related_terms": [
@@ -6772,11 +6862,89 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "jump-dev/SCS.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLinearAlgebra/AppleAccelerate.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLinearAlgebra/MKL.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLinearAlgebra/BLISBLAS.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGPU/oneAPI.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaMath/IntelVectorMath.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

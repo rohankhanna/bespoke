@@ -499,6 +499,30 @@
       "source_repo": "root-project/cling",
       "status": "candidate-context",
       "text": "Cling - The Interactive C++ Interpreter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niivue/ipyniivue",
+      "status": "candidate-context",
+      "text": "A WebGL-powered Jupyter Widget for Niivue based on anywidget"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/ipyniivue",
+      "status": "candidate-context",
+      "text": "[![PyPI Version](https://badge.fury.io/py/ipyniivue.svg)](https://badge.fury.io/py/ipyniivue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "manzt/anywidget",
+      "status": "candidate-context",
+      "text": "reusable widgets made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manzt/anywidget",
+      "status": "candidate-context",
+      "text": "<h1>"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +771,18 @@
       "source_repo": "root-project/cling",
       "status": "candidate",
       "text": "Cling - The Interactive C++ Interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/ipyniivue",
+      "status": "candidate",
+      "text": "[![PyPI Version](https://badge.fury.io/py/ipyniivue.svg)](https://badge.fury.io/py/ipyniivue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manzt/anywidget",
+      "status": "candidate",
+      "text": "<h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -2464,11 +2500,41 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "niivue/ipyniivue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "manzt/anywidget"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

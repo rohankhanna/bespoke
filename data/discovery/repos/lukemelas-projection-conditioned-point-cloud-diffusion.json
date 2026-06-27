@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T08:23:38.528055+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official code for \"Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction\" (CVPR 2023)",
+    "fork": false,
+    "full_name": "lukemelas/projection-conditioned-point-cloud-diffusion",
+    "html_url": "https://github.com/lukemelas/projection-conditioned-point-cloud-diffusion",
+    "language": "Python",
+    "pushed_at": "2025-09-23T02:18:59Z",
+    "stargazers_count": 215,
+    "topics": [],
+    "updated_at": "2026-04-20T06:49:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -190,6 +190,18 @@
       "source_repo": "ika-rwth-aachen/docker-ros",
       "status": "candidate-context",
       "text": "GitLab"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros-industrial/industrial_ci",
+      "status": "candidate-context",
+      "text": "Easy continuous integration repository for ROS repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/industrial_ci",
+      "status": "candidate-context",
+      "text": "================"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +294,12 @@
       "source_repo": "ika-rwth-aachen/docker-ros",
       "status": "candidate",
       "text": "GitLab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/industrial_ci",
+      "status": "candidate",
+      "text": "================"
     }
   ],
   "candidate_related_terms": [
@@ -415,11 +433,17 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": ".github/workflows/gitlab.yml",
       "source_repo": "ika-rwth-aachen/docker-ros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ros-industrial/industrial_ci"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

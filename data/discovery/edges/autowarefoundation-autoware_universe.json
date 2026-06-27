@@ -284,7 +284,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump-version-pr.yaml",
       "source_repo": "autowarefoundation/autoware_universe",
-      "target": "actions/create-github-app-token@v1",
+      "target": "actions/create-github-app-token@v2",
       "target_type": "component"
     },
     {
@@ -365,6 +365,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-06-27T07:14:56.321639+00:00",
   "source_repo": "autowarefoundation/autoware_universe"
 }

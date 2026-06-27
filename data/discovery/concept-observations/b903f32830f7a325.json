@@ -48,7 +48,7 @@
   "normalized_form": "automation-detection",
   "observation_id": "b903f32830f7a325",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
   "observed_text": "automation-detection",
   "source_context_snippet": "Detects or even **crashes** (\u274c) webdrivers such as:",
   "source_file": null,

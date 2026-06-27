@@ -387,13 +387,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/tests-pr.yml",
-      "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "PR Tests",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
@@ -422,7 +415,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T04:28:31.705396+00:00",
+  "fetched_at": "2026-06-27T09:14:30.765590+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -459,10 +452,6 @@
     {
       "path": ".github/workflows/tests-nightly.yml",
       "size": 3958
-    },
-    {
-      "path": ".github/workflows/tests-pr.yml",
-      "size": 3288
     }
   ],
   "related_repositories": [],
@@ -522,12 +511,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/tests-nightly.yml",
       "term": "Nightly Tests"
-    },
-    {
-      "context_snippet": "PR Tests",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/tests-pr.yml",
-      "term": "PR Tests"
     },
     {
       "context_snippet": "<p align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/175231607?s=200&v=4\" alt=\"\"></p>",

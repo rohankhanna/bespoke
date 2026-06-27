@@ -67,6 +67,18 @@
       "source_repo": "brandleyzhou/DIFFNet",
       "status": "candidate-context",
       "text": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/manydepth",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Self-supervised depth estimation from short sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/manydepth",
+      "status": "candidate-context",
+      "text": "[Jamie Watson](https://scholar.google.com/citations?user=5pC7fw8AAAAJ&hl=en),"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "brandleyzhou/DIFFNet",
       "status": "candidate",
       "text": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/manydepth",
+      "status": "candidate",
+      "text": "[Jamie Watson](https://scholar.google.com/citations?user=5pC7fw8AAAAJ&hl=en),"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "brandleyzhou/DIFFNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/manydepth"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

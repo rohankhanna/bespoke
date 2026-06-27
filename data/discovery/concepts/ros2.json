@@ -223,6 +223,18 @@
       "source_repo": "ika-rwth-aachen/ros2-moge-trt",
       "status": "candidate-context",
       "text": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "status": "candidate-context",
+      "text": "Machine Learning-Enabled ROS Docker Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -345,6 +357,12 @@
       "source_repo": "ika-rwth-aachen/ros2-moge-trt",
       "status": "candidate",
       "text": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -478,11 +496,23 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "ika-rwth-aachen/ros2-moge-trt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_universe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-ros-ml-images"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

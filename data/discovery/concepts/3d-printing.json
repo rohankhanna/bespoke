@@ -19,6 +19,18 @@
       "source_repo": "shunsukesaito/PIFu",
       "status": "candidate-context",
       "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1905.05172) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skjerns/3dprintedbrain_docker",
+      "status": "candidate-context",
+      "text": "3D print your brain from a T1 MRI image using Docker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skjerns/3dprintedbrain_docker",
+      "status": "candidate-context",
+      "text": "<img title=\"\" src=\"md_assets/3a5b470407b7d8dcfb1e6cfee7a785ca425898a8.png\" alt=\"2021-09-11 10.44.37.jpg\" width=\"493\" data-align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "shunsukesaito/PIFu",
       "status": "candidate",
       "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1905.05172) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skjerns/3dprintedbrain_docker",
+      "status": "candidate",
+      "text": "<img title=\"\" src=\"md_assets/3a5b470407b7d8dcfb1e6cfee7a785ca425898a8.png\" alt=\"2021-09-11 10.44.37.jpg\" width=\"493\" data-align=\"left\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "shunsukesaito/PIFu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "skjerns/3dprintedbrain_docker"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

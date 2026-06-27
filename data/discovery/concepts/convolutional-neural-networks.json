@@ -295,6 +295,42 @@
       "source_repo": "fschmid56/EfficientAT",
       "status": "candidate-context",
       "text": "In this repository, we publish the pre-trained models and the code described in the papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aramis-lab/AD-DL",
+      "status": "candidate-context",
+      "text": "Classification of Alzheimer's disease status with convolutional neural networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/AD-DL",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTsPyNet",
+      "status": "candidate-context",
+      "text": "Pre-trained models and utilities for deep learning on medical images in Python (Keras/TensorFlow)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsPyNet",
+      "status": "candidate-context",
+      "text": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/antspynet?label=pypi%20downloads)](https://pypi.org/project/antspynet/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTsRNet",
+      "status": "candidate-context",
+      "text": "Medical image analysis framework merging ANTsR and deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsRNet",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +477,24 @@
       "source_repo": "fschmid56/EfficientAT",
       "status": "candidate",
       "text": "In this repository, we publish the pre-trained models and the code described in the papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/AD-DL",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsPyNet",
+      "status": "candidate",
+      "text": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/antspynet?label=pypi%20downloads)](https://pypi.org/project/antspynet/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsRNet",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -1594,11 +1648,41 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "mgsalem/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "aramis-lab/AD-DL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ANTsX/ANTsPyNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ANTsX/ANTsRNet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

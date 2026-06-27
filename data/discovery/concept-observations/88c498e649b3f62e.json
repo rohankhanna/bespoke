@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Using PLT trampolines to provide a BLAS and LAPACK demuxing library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> All problems in computer science can be solved by another level of indirection"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> All problems in computer science can be solved by another level of indirection"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linear-algebra",
+      "sense_id": "linear-algebra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "linear-algebra",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "linear-algebra",
+  "observation_id": "88c498e649b3f62e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_text": "linear-algebra",
+  "source_context_snippet": "> All problems in computer science can be solved by another level of indirection",
+  "source_file": null,
+  "source_repo": "JuliaLinearAlgebra/libblastrampoline",
+  "source_repo_description": "Using PLT trampolines to provide a BLAS and LAPACK demuxing library."
+}

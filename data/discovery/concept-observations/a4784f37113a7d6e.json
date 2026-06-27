@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Framework for the reproducible classification of Alzheimer's disease using machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains a software framework for **reproducible machine learning experiments on automatic classification of Alzheimer's disease (AD)** using multimodal MRI and PET data from three publicly available datasets [ADNI](http://adni.loni.usc.edu/), [AIBL](https://aibl\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains a software framework for **reproducible machine learning experiments on automatic classification of Alzheimer's disease (AD)** using multimodal MRI and PET data from three publicly available datasets [ADNI](http://adni.loni.usc.edu/), [AIBL](https://aibl\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29819341,
+      "status": "candidate",
+      "text": "role"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008423,
+      "status": "candidate",
+      "text": "brain imaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008422,
+      "status": "candidate",
+      "text": "neuroimagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008421,
+      "status": "candidate",
+      "text": "neurography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008420,
+      "status": "candidate",
+      "text": "neuroimager"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neuroimaging",
+      "sense_id": "neuroimaging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neuroimaging",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neuroimaging",
+  "observation_id": "a4784f37113a7d6e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_text": "neuroimaging",
+  "source_context_snippet": "This repository contains a software framework for **reproducible machine learning experiments on automatic classification of Alzheimer's disease (AD)** using multimodal MRI and PET data from three publicly available datasets [ADNI](http://adni.loni.usc.edu/), [AIBL](https://aibl\u2026",
+  "source_file": null,
+  "source_repo": "aramis-lab/AD-ML",
+  "source_repo_description": "Framework for the reproducible classification of Alzheimer's disease using machine learning"
+}

@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/examples",
+      "target": "containerd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/examples",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/examples",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/examples",
+      "target": "docker-slim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/examples",
+      "target": "minify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/examples",
+      "target": "podman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/examples",
+      "target": "slim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mintoolkit/examples",
+      "target": "slimtoolkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:45:51.198681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "mintoolkit/examples",
+    "html_url": "https://github.com/mintoolkit/examples",
+    "language": "Shell",
+    "pushed_at": "2024-10-02T23:26:24Z",
+    "stargazers_count": 6,
+    "topics": [
+      "containerd",
+      "containers",
+      "docker",
+      "docker-slim",
+      "minify",
+      "podman",
+      "slim",
+      "slimtoolkit"
+    ],
+    "updated_at": "2026-03-26T13:00:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containerd"
+    },
+    {
+      "context_snippet": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-slim"
+    },
+    {
+      "context_snippet": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minify"
+    },
+    {
+      "context_snippet": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podman"
+    },
+    {
+      "context_snippet": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slim"
+    },
+    {
+      "context_snippet": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slimtoolkit"
+    }
+  ]
+}

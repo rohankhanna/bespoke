@@ -517,6 +517,18 @@
       "source_repo": "ika-rwth-aachen/ros2-moge-trt",
       "status": "candidate-context",
       "text": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "status": "candidate-context",
+      "text": "Optimizing Monocular Depth Estimation with TensorRT: Model Conversion, Inference Acceleration, and 3D Reconstruction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "status": "candidate-context",
+      "text": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026"
     }
   ],
   "candidate_glosses": [
@@ -771,6 +783,12 @@
       "source_repo": "ika-rwth-aachen/ros2-moge-trt",
       "status": "candidate",
       "text": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT",
+      "status": "candidate",
+      "text": "This project aims to optimize the inference performance of various monocular depth estimation models using NVIDIA's TensorRT. It provides a pipeline to convert pre-trained PyTorch models into ONNX format and then into TensorRT engines, allowing for a comparative analysis of infe\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1768,11 +1786,41 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "ika-rwth-aachen/ros2-moge-trt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "the-database/mpv-AnimeJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "the-database/VideoJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "yester31/Monocular_Depth_Estimation_TRT"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T09:48:49.080708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "3dv24",
+    "description": "Source code and data for papers \"Improved Scene Landmark Detection for Camera Localization\" (3DV 2024) and \"Learning to Detect Scene Landmarks for Camera Localization\" (CVPR 2024).",
+    "fork": false,
+    "full_name": "microsoft/SceneLandmarkLocalization",
+    "html_url": "https://github.com/microsoft/SceneLandmarkLocalization",
+    "language": "Python",
+    "pushed_at": "2024-02-26T18:47:18Z",
+    "stargazers_count": 193,
+    "topics": [],
+    "updated_at": "2026-06-14T05:41:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

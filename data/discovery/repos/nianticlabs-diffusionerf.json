@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf",
+      "target": "neuralradiance-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf",
+      "target": "radiance-field",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf",
+      "target": "reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf",
+      "target": "regularization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:48:49.941900+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2023] DiffusioNeRF: Regularizing Neural Radiance Fields with Denoising Diffusion Models",
+    "fork": false,
+    "full_name": "nianticlabs/diffusionerf",
+    "html_url": "https://github.com/nianticlabs/diffusionerf",
+    "language": "Python",
+    "pushed_at": "2023-11-23T09:38:20Z",
+    "stargazers_count": 308,
+    "topics": [
+      "deep-learning",
+      "diffusion",
+      "diffusion-models",
+      "nerf",
+      "neuralradiance-fields",
+      "radiance-field",
+      "reconstruction",
+      "regularization"
+    ],
+    "updated_at": "2026-04-10T04:53:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuralradiance-fields"
+    },
+    {
+      "context_snippet": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radiance-field"
+    },
+    {
+      "context_snippet": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reconstruction"
+    },
+    {
+      "context_snippet": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regularization"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "AdebayoBraimah/convert_source",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aramis-lab/clinicadl",
+      "status": "candidate-context",
+      "text": "Open-source Python library for reproducible deep learning in neuroimaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/clinicadl",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AdebayoBraimah/convert_source",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/clinicadl",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "AdebayoBraimah/convert_source"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinicadl"
     }
   ],
   "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "skjerns/3dprintedbrain_docker",
+      "target": "skjerns/3dprintyourbrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skjerns/3dprintedbrain_docker",
+      "target": "3d-printing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skjerns/3dprintedbrain_docker",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-27T07:14:56.321639+00:00",
+  "source_repo": "skjerns/3dprintedbrain_docker"
+}

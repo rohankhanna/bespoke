@@ -1,0 +1,233 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "loicland/superpoint_graph",
+      "target": "drprojects/superpoint_transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "loicland/superpoint_graph",
+      "target": "loicland/cut-pursuit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "loicland/superpoint_graph",
+      "target": "pytorch/tnt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "loicland/superpoint_graph",
+      "target": "rusty1s/pytorch_geometric",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "clustering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "large-scale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "partition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "ply-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "semantic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "loicland/superpoint_graph",
+      "target": "superpoint-graphs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:23:32.287908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "ssp+spg",
+    "description": "Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs",
+    "fork": false,
+    "full_name": "loicland/superpoint_graph",
+    "html_url": "https://github.com/loicland/superpoint_graph",
+    "language": "Python",
+    "pushed_at": "2023-07-19T20:50:48Z",
+    "stargazers_count": 804,
+    "topics": [
+      "clustering",
+      "large-scale",
+      "lidar",
+      "partition",
+      "ply-files",
+      "point-cloud",
+      "pytorch",
+      "segmentation",
+      "semantic",
+      "semantic-segmentation",
+      "superpoint-graphs"
+    ],
+    "updated_at": "2026-06-16T12:55:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drprojects/superpoint_transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "loicland/cut-pursuit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/tnt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rusty1s/pytorch_geometric",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clustering"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-scale"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "partition"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ply-files"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "superpoint-graphs"
+    }
+  ]
+}

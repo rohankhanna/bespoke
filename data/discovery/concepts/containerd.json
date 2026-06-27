@@ -115,6 +115,24 @@
       "source_repo": "rootless-containers/usernetes",
       "status": "candidate-context",
       "text": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mintoolkit/mint",
+      "status": "candidate-context",
+      "text": "minT(oolkit): Mint awesome, secure and production ready containers just the way you need them! Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mintoolkit/mint",
+      "status": "candidate-context",
+      "text": "<!-- ![SK](assets/images/dslim/logo.png) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mintoolkit/examples",
+      "status": "candidate-context",
+      "text": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +189,18 @@
       "source_repo": "rootless-containers/usernetes",
       "status": "candidate",
       "text": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mintoolkit/mint",
+      "status": "candidate",
+      "text": "<!-- ![SK](assets/images/dslim/logo.png) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mintoolkit/examples",
+      "status": "candidate",
+      "text": "<!-- ![DSLIM1](assets/images/dslim/DockerSlimLogo1Big.png) -->"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +262,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "rootless-containers/usernetes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "mintoolkit/mint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "mintoolkit/examples"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multiprocessing-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joblib/loky",
+      "status": "candidate-context",
+      "text": "Robust and reusable Executor for joblib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joblib/loky",
+      "status": "candidate-context",
+      "text": "<a href=\"https://loky.readthedocs.io\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joblib/loky",
+      "status": "candidate",
+      "text": "<a href=\"https://loky.readthedocs.io\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multiprocessing-library",
+  "concept_id": "multiprocessing-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "joblib/loky"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multiprocessing-library",
+      "sense_id": "multiprocessing-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

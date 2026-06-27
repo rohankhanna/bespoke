@@ -43,7 +43,7 @@
   "normalized_form": "bump-version-pr",
   "observation_id": "4c9ec91e1e355ea6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
   "observed_text": "bump-version-pr",
   "source_context_snippet": "bump-version-pr",
   "source_file": ".github/workflows/bump-version-pr.yaml",

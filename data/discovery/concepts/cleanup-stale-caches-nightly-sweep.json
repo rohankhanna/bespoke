@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cleanup stale caches (nightly sweep)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "status": "candidate-context",
+      "text": "Insight Toolkit (ITK) -- Official Repository.  ITK builds on a proven, spatially-oriented architecture for processing, segmentation, and registration of scientific images in two, three, or more dimensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "status": "candidate-context",
+      "text": "Cleanup stale caches (nightly sweep)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "status": "candidate",
+      "text": "Cleanup stale caches (nightly sweep)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "bucket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "flesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "kerosene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "pit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "tan"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cleanup stale caches (nightly sweep)",
+  "concept_id": "cleanup-stale-caches-nightly-sweep",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/cleanup-stale-caches-nightly.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup stale caches (nightly sweep)",
+      "sense_id": "cleanup-stale-caches-nightly-sweep#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

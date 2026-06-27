@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Advanced Normalization Tools (ANTs)  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Native release binaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Native release binaries"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10317,
+      "status": "candidate",
+      "text": "pre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10317,
+      "status": "candidate",
+      "text": "stars"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9770,
+      "status": "candidate",
+      "text": "deposit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9770,
+      "status": "candidate",
+      "text": "quit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9770,
+      "status": "candidate",
+      "text": "received"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Native release binaries",
+      "sense_id": "native-release-binaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "native-release-binaries",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "native-release-binaries",
+  "observation_id": "d4056cec50793756",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_text": "Native release binaries",
+  "source_context_snippet": "Native release binaries",
+  "source_file": ".github/workflows/release-binaries.yml",
+  "source_repo": "ANTsX/ANTs",
+  "source_repo_description": "Advanced Normalization Tools (ANTs)  "
+}

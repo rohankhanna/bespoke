@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "mkl-pardiso",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "pardiso",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "pardiso-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaSparse/Pardiso.jl",
+      "target": "sparse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:49:31.608620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14903
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1333
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Calling the PARDISO library from Julia",
+    "fork": false,
+    "full_name": "JuliaSparse/Pardiso.jl",
+    "html_url": "https://github.com/JuliaSparse/Pardiso.jl",
+    "language": "Julia",
+    "pushed_at": "2025-12-10T18:31:01Z",
+    "stargazers_count": 114,
+    "topics": [
+      "linear-algebra",
+      "mkl-pardiso",
+      "pardiso",
+      "pardiso-library",
+      "sparse"
+    ],
+    "updated_at": "2026-06-22T15:50:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "[![CI Testing](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": "[![CI Testing](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mkl-pardiso"
+    },
+    {
+      "context_snippet": "[![CI Testing](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pardiso"
+    },
+    {
+      "context_snippet": "[![CI Testing](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pardiso-library"
+    },
+    {
+      "context_snippet": "[![CI Testing](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaSparse/Pardiso.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse"
+    }
+  ]
+}

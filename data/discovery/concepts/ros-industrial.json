@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,30 @@
       "source_repo": "nobleo/rviz_satellite",
       "status": "candidate-context",
       "text": "ros-industrial"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros-industrial/industrial_core",
+      "status": "candidate-context",
+      "text": "ROS-Industrial core communication packages (http://wiki.ros.org/industrial_core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/industrial_core",
+      "status": "candidate-context",
+      "text": "[![Build Status: Ubuntu Bionic (Actions)](https://github.com/ros-industrial/industrial_core/workflows/CI%20-%20Ubuntu%20Bionic/badge.svg?branch=melodic-devel)](https://github.com/ros-industrial/industrial_core/actions?query=workflow%3A%22CI+-+Ubuntu+Bionic%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros-industrial/ros_canopen",
+      "status": "candidate-context",
+      "text": "CANopen driver framework for ROS (http://wiki.ros.org/ros_canopen)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/ros_canopen",
+      "status": "candidate-context",
+      "text": "ros_canopen"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +53,18 @@
       "source_repo": "nobleo/rviz_satellite",
       "status": "candidate",
       "text": "ros-industrial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/industrial_core",
+      "status": "candidate",
+      "text": "[![Build Status: Ubuntu Bionic (Actions)](https://github.com/ros-industrial/industrial_core/workflows/CI%20-%20Ubuntu%20Bionic/badge.svg?branch=melodic-devel)](https://github.com/ros-industrial/industrial_core/actions?query=workflow%3A%22CI+-+Ubuntu+Bionic%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/ros_canopen",
+      "status": "candidate",
+      "text": "ros_canopen"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +78,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/industrial_ci_action.yml",
       "source_repo": "nobleo/rviz_satellite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ros-industrial/industrial_core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ros-industrial/ros_canopen"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

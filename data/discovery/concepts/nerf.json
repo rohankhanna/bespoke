@@ -391,6 +391,18 @@
       "source_repo": "hku-mars/FAST-LIVO2",
       "status": "candidate-context",
       "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/diffusionerf",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] DiffusioNeRF: Regularizing Neural Radiance Fields with Denoising Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/diffusionerf",
+      "status": "candidate-context",
+      "text": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "hku-mars/FAST-LIVO2",
       "status": "candidate",
       "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/diffusionerf",
+      "status": "candidate",
+      "text": "**[Jamie Wynn](https://scholar.google.com/citations?user=ASP-uu4AAAAJ&hl=en&oi=ao) and [Daniyar Turmukhambetov](https://scholar.google.com/citations?user=ELFm0CgAAAAJ&hl=en&oi=ao) \u2013 CVPR 2023**"
     }
   ],
   "candidate_related_terms": [
@@ -850,11 +868,17 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/diffusionerf"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

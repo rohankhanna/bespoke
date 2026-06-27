@@ -223,6 +223,18 @@
       "source_repo": "cp2k/dbcsr",
       "status": "candidate-context",
       "text": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLinearAlgebra/libblastrampoline",
+      "status": "candidate-context",
+      "text": "Using PLT trampolines to provide a BLAS and LAPACK demuxing library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/libblastrampoline",
+      "status": "candidate-context",
+      "text": "> All problems in computer science can be solved by another level of indirection"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "cp2k/dbcsr",
       "status": "candidate",
       "text": "[![Build Status Linux](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml/badge.svg)](https://github.com/cp2k/dbcsr/actions/workflows/testing-linux.yml) [![Build Status MacOS](https://github.com/cp2k/dbcsr/actions/workflows/testing-macos.yml/badge.svg)](https://gi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLinearAlgebra/libblastrampoline",
+      "status": "candidate",
+      "text": "> All problems in computer science can be solved by another level of indirection"
     }
   ],
   "candidate_related_terms": [
@@ -1930,11 +1948,35 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLinearAlgebra/libblastrampoline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

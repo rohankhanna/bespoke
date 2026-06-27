@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/LAPACK_jll.jl",
+      "target": "juliabinarywrappers/libblastrampoline_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:49:20.214776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/LAPACK_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/LAPACK_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-11-07T19:43:39Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-11-07T19:43:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/libblastrampoline_jll.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

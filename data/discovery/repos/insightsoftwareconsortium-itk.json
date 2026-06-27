@@ -1,0 +1,483 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "lukka/get-cmake@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "actions/first-interaction@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first-interaction.yml"
+    },
+    {
+      "component": "srvaroa/labeler@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "insightsoftwareconsortium/insightsoftwareconsortium.org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "lukka/get-cmake@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "ITK.Arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-pr-caches.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "Cleanup PR caches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-stale-caches-nightly.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "Cleanup stale caches (nightly sweep)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "Copilot (Setup ITK DevEnv)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "ITK.Doxygen.Warnings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first-interaction.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "actions/first-interaction@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/first-interaction.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "First interaction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "srvaroa/labeler@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "Label PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "image-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "insight-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "medical-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "numfocus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "open-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "reproducible-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:49:59.689645+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9146
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9376
+    },
+    {
+      "path": ".github/workflows/arm.yml",
+      "size": 8227
+    },
+    {
+      "path": ".github/workflows/cleanup-pr-caches.yml",
+      "size": 2566
+    },
+    {
+      "path": ".github/workflows/cleanup-stale-caches-nightly.yml",
+      "size": 3704
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1193
+    },
+    {
+      "path": ".github/workflows/doxygen.yml",
+      "size": 3098
+    },
+    {
+      "path": ".github/workflows/first-interaction.yml",
+      "size": 1603
+    },
+    {
+      "path": ".github/workflows/itk_dict.txt",
+      "size": 12061
+    },
+    {
+      "path": ".github/workflows/label-pr.yml",
+      "size": 242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Insight Toolkit (ITK) -- Official Repository.  ITK builds on a proven, spatially-oriented architecture for processing, segmentation, and registration of scientific images in two, three, or more dimensions.",
+    "fork": false,
+    "full_name": "InsightSoftwareConsortium/ITK",
+    "html_url": "https://github.com/InsightSoftwareConsortium/ITK",
+    "language": "C++",
+    "pushed_at": "2026-06-27T01:03:17Z",
+    "stargazers_count": 1629,
+    "topics": [
+      "cpp",
+      "hacktoberfest",
+      "image-analysis",
+      "insight-toolkit",
+      "itk",
+      "medical-imaging",
+      "numfocus",
+      "open-science",
+      "open-source",
+      "python",
+      "reproducible-research",
+      "scientific-computing"
+    ],
+    "updated_at": "2026-06-26T22:50:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "insightsoftwareconsortium/insightsoftwareconsortium.org",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ITK.Arm64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm.yml",
+      "term": "ITK.Arm64"
+    },
+    {
+      "context_snippet": "Cleanup PR caches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-pr-caches.yml",
+      "term": "Cleanup PR caches"
+    },
+    {
+      "context_snippet": "Cleanup stale caches (nightly sweep)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-stale-caches-nightly.yml",
+      "term": "Cleanup stale caches (nightly sweep)"
+    },
+    {
+      "context_snippet": "Copilot (Setup ITK DevEnv)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot (Setup ITK DevEnv)"
+    },
+    {
+      "context_snippet": "ITK.Doxygen.Warnings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yml",
+      "term": "ITK.Doxygen.Warnings"
+    },
+    {
+      "context_snippet": "First interaction",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/first-interaction.yml",
+      "term": "First interaction"
+    },
+    {
+      "context_snippet": "Label PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-pr.yml",
+      "term": "Label PRs"
+    },
+    {
+      "context_snippet": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-analysis"
+    },
+    {
+      "context_snippet": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "insight-toolkit"
+    },
+    {
+      "context_snippet": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-imaging"
+    },
+    {
+      "context_snippet": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numfocus"
+    },
+    {
+      "context_snippet": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-science"
+    },
+    {
+      "context_snippet": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducible-research"
+    },
+    {
+      "context_snippet": "![ITK - The Insight Toolkit](https://raw.githubusercontent.com/InsightSoftwareConsortium/ITK/801370c025c7d296783481779a41c6d559c992c5/Documentation/Art/itkBannerSmall.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    }
+  ]
+}

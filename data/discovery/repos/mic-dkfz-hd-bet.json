@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T09:50:22.625823+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 737
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MRI brain extraction tool",
+    "fork": false,
+    "full_name": "MIC-DKFZ/HD-BET",
+    "html_url": "https://github.com/MIC-DKFZ/HD-BET",
+    "language": "Python",
+    "pushed_at": "2024-12-18T14:09:02Z",
+    "stargazers_count": 427,
+    "topics": [],
+    "updated_at": "2026-06-25T12:46:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

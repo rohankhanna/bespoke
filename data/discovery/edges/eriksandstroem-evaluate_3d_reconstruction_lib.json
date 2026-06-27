@@ -4,17 +4,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eriksandstroem/evaluate_3d_reconstruction_lib",
-      "target": "isl-org/tanksandtemples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "eriksandstroem/evaluate_3d_reconstruction_lib",
       "target": "tfy14esa/evaluate_3d_reconstruction_lib",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-06-27T00:46:07.279669+00:00",
+  "generated_at": "2026-06-27T07:14:56.321639+00:00",
   "source_repo": "eriksandstroem/evaluate_3d_reconstruction_lib"
 }

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "freesurfer/petsurfer-bids",
+      "target": "nipreps/petprep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "freesurfer/petsurfer-bids",
+      "target": "mathesong/bloodstream",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:25:15.376995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17145
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run petsurfer on BIDS datasets",
+    "fork": false,
+    "full_name": "freesurfer/petsurfer-bids",
+    "html_url": "https://github.com/freesurfer/petsurfer-bids",
+    "language": "HTML",
+    "pushed_at": "2026-06-11T21:09:05Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-06-11T21:09:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mathesong/bloodstream",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nipreps/petprep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

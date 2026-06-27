@@ -1,0 +1,355 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "TheMrMilchmann/setup-msvc-dev@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.16.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "benjaminjack/python_cpp_example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "TheMrMilchmann/setup-msvc-dev@v2.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "pypa/cibuildwheel@v2.16.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "Build and upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "docker/login-action@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "essential-matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "fundamental-matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "graph-cut-ransac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "homography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "pattern-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "ransac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "robust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac",
+      "target": "robust-estimators",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:48:53.730584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5802
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1150
+    },
+    {
+      "path": ".github/workflows/build-and-deploy.yml",
+      "size": 3647
+    },
+    {
+      "path": ".github/workflows/build-docker-image.yml",
+      "size": 1161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Graph-Cut RANSAC algorithm proposed in paper: Daniel Barath and Jiri Matas; Graph-Cut RANSAC, Conference on Computer Vision and Pattern Recognition, 2018. It is available at http://openaccess.thecvf.com/content_cvpr_2018/papers/Barath_Graph-Cut_RANSAC_CVPR_2018_paper.pdf",
+    "fork": false,
+    "full_name": "danini/graph-cut-ransac",
+    "html_url": "https://github.com/danini/graph-cut-ransac",
+    "language": "C++",
+    "pushed_at": "2025-11-04T22:09:19Z",
+    "stargazers_count": 469,
+    "topics": [
+      "computer-vision",
+      "essential-matrix",
+      "fundamental-matrix",
+      "graph-cut-ransac",
+      "homography",
+      "pattern-recognition",
+      "ransac",
+      "robust",
+      "robust-estimators"
+    ],
+    "updated_at": "2026-06-26T08:45:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benjaminjack/python_cpp_example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "term": "Build and upload"
+    },
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "essential-matrix"
+    },
+    {
+      "context_snippet": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fundamental-matrix"
+    },
+    {
+      "context_snippet": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-cut-ransac"
+    },
+    {
+      "context_snippet": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homography"
+    },
+    {
+      "context_snippet": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pattern-recognition"
+    },
+    {
+      "context_snippet": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ransac"
+    },
+    {
+      "context_snippet": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robust"
+    },
+    {
+      "context_snippet": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robust-estimators"
+    }
+  ]
+}

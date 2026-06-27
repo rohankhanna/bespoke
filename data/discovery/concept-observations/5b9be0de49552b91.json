@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "3D print your brain from a T1 MRI image using Docker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img title=\"\" src=\"md_assets/3a5b470407b7d8dcfb1e6cfee7a785ca425898a8.png\" alt=\"2021-09-11 10.44.37.jpg\" width=\"493\" data-align=\"left\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img title=\"\" src=\"md_assets/3a5b470407b7d8dcfb1e6cfee7a785ca425898a8.png\" alt=\"2021-09-11 10.44.37.jpg\" width=\"493\" data-align=\"left\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-printing",
+      "sense_id": "3d-printing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-printing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-printing",
+  "observation_id": "5b9be0de49552b91",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_text": "3d-printing",
+  "source_context_snippet": "<img title=\"\" src=\"md_assets/3a5b470407b7d8dcfb1e6cfee7a785ca425898a8.png\" alt=\"2021-09-11 10.44.37.jpg\" width=\"493\" data-align=\"left\">",
+  "source_file": null,
+  "source_repo": "skjerns/3dprintedbrain_docker",
+  "source_repo_description": "3D print your brain from a T1 MRI image using Docker."
+}

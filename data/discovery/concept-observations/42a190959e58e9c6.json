@@ -43,7 +43,7 @@
   "normalized_form": "build-and-test-differential",
   "observation_id": "42a190959e58e9c6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
   "observed_text": "build-and-test-differential",
   "source_context_snippet": "build-and-test-differential",
   "source_file": ".github/workflows/build-and-test-differential.yaml",

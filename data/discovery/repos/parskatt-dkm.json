@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Parskatt/DKM",
+      "target": "danini/graph-cut-ransac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Parskatt/DKM",
+      "target": "prunetruong/densematching",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Parskatt/DKM",
+      "target": "dense-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Parskatt/DKM",
+      "target": "feature-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Parskatt/DKM",
+      "target": "image-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Parskatt/DKM",
+      "target": "two-view-geometry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:23:43.910663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4349
+    },
+    {
+      "path": "requirements.txt",
+      "size": 94
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2023] DKM: Dense Kernelized Feature Matching for Geometry Estimation",
+    "fork": false,
+    "full_name": "Parskatt/DKM",
+    "html_url": "https://github.com/Parskatt/DKM",
+    "language": "Python",
+    "pushed_at": "2024-05-03T15:26:17Z",
+    "stargazers_count": 482,
+    "topics": [
+      "dense-matching",
+      "feature-matching",
+      "image-matching",
+      "two-view-geometry"
+    ],
+    "updated_at": "2026-06-27T06:41:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danini/graph-cut-ransac",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prunetruong/densematching",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dense-matching"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-matching"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matching"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "two-view-geometry"
+    }
+  ]
+}

@@ -43,7 +43,7 @@
   "normalized_form": "bump-repo-versions-build-depends",
   "observation_id": "5f6580a886559a84",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
   "observed_text": "bump-repo-versions-build-depends",
   "source_context_snippet": "bump-repo-versions-build-depends",
   "source_file": ".github/workflows/bump-repo-versions-build-depends.yaml",

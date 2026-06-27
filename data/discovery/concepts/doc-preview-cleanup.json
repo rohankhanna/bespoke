@@ -211,6 +211,18 @@
       "source_repo": "yeesian/ArchGDAL.jl",
       "status": "candidate-context",
       "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate-context",
+      "text": "Julia support for the oneAPI programming toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate-context",
+      "text": "Doc Preview Cleanup"
     }
   ],
   "candidate_glosses": [
@@ -313,6 +325,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "yeesian/ArchGDAL.jl",
+      "status": "candidate",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/oneAPI.jl",
       "status": "candidate",
       "text": "Doc Preview Cleanup"
     }
@@ -466,11 +484,17 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": ".github/workflows/DocCleanup.yml",
       "source_repo": "yeesian/ArchGDAL.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/DocsCleanup.yml",
+      "source_repo": "JuliaGPU/oneAPI.jl"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

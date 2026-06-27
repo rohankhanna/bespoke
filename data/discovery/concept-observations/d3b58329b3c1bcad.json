@@ -84,7 +84,7 @@
   "normalized_form": "extension-issue-to-pull-request-conversion",
   "observation_id": "d3b58329b3c1bcad",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_at": "2026-06-27T07:14:56.321639+00:00",
   "observed_text": "Extension issue to Pull Request conversion",
   "source_context_snippet": "Extension issue to Pull Request conversion",
   "source_file": ".github/workflows/auto-pr.yml",

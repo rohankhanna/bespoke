@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "robust"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danini/graph-cut-ransac",
+      "status": "candidate-context",
+      "text": "The Graph-Cut RANSAC algorithm proposed in paper: Daniel Barath and Jiri Matas; Graph-Cut RANSAC, Conference on Computer Vision and Pattern Recognition, 2018. It is available at http://openaccess.thecvf.com/content_cvpr_2018/papers/Barath_Graph-Cut_RANSAC_CVPR_2018_paper.pdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danini/graph-cut-ransac",
+      "status": "candidate-context",
+      "text": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danini/graph-cut-ransac",
+      "status": "candidate",
+      "text": "- I am happy to announce that Graph-Cut RANSAC had been included in OpenCV."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043677,
+      "status": "candidate",
+      "text": "strong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042951,
+      "status": "candidate",
+      "text": "sturdy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041767,
+      "status": "candidate",
+      "text": "hardy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041765,
+      "status": "candidate",
+      "text": "stalwart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040681,
+      "status": "candidate",
+      "text": "vigorous"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41035,
+      "status": "candidate",
+      "text": "vigorous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39039,
+      "status": "candidate",
+      "text": "stout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35050,
+      "status": "candidate",
+      "text": "strong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33055,
+      "status": "candidate",
+      "text": "rich"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31035,
+      "status": "candidate",
+      "text": "rugged"
+    }
+  ],
+  "canonical_name": "robust",
+  "concept_id": "robust",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "danini/graph-cut-ransac"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "robust",
+      "sense_id": "robust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

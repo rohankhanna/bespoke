@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aramis-lab/AD-DL",
+      "target": "aramis-lab/clinicadl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/AD-DL",
+      "target": "alzheimers-disease",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/AD-DL",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/AD-DL",
+      "target": "deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:24:39.748139+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1210
+    },
+    {
+      "path": "requirements.txt",
+      "size": 277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "initial",
+    "description": "Classification of Alzheimer's disease status with convolutional neural networks.",
+    "fork": false,
+    "full_name": "aramis-lab/AD-DL",
+    "html_url": "https://github.com/aramis-lab/AD-DL",
+    "language": "Python",
+    "pushed_at": "2021-07-22T14:44:21Z",
+    "stargazers_count": 64,
+    "topics": [
+      "alzheimers-disease",
+      "convolutional-neural-networks",
+      "deep-learning"
+    ],
+    "updated_at": "2026-04-19T19:37:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aramis-lab/clinicadl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alzheimers-disease"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    }
+  ]
+}

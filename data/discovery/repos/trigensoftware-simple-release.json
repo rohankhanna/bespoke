@@ -36,6 +36,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@typescript/native-preview",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -279,6 +284,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release",
       "target": "@typescript/native-preview",
       "target_type": "component"
     },
@@ -500,7 +512,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T04:29:17.090125+00:00",
+  "fetched_at": "2026-06-27T09:17:38.853313+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -508,7 +520,7 @@
     },
     {
       "path": "package.json",
-      "size": 1593
+      "size": 1624
     },
     {
       "path": ".github/workflows/checks.yml",
@@ -536,10 +548,10 @@
     "full_name": "TrigenSoftware/simple-release",
     "html_url": "https://github.com/TrigenSoftware/simple-release",
     "language": "TypeScript",
-    "pushed_at": "2026-06-27T01:47:25Z",
+    "pushed_at": "2026-06-27T08:47:42Z",
     "stargazers_count": 21,
     "topics": [],
-    "updated_at": "2026-06-26T23:32:15Z"
+    "updated_at": "2026-06-27T08:45:34Z"
   },
   "repo_links": [
     {

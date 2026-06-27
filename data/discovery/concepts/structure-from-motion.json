@@ -127,6 +127,30 @@
       "source_repo": "nianticlabs/acezero",
       "status": "candidate-context",
       "text": "This repository contains the code associated to the ACE0 paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticspatial/scr-priors",
+      "status": "candidate-context",
+      "text": "[ICCV 2025] Scene Coordinate Reconstruction Priors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticspatial/scr-priors",
+      "status": "candidate-context",
+      "text": "This repository contains code associated to the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmb-freiburg/demon",
+      "status": "candidate-context",
+      "text": "DeMoN: Depth and Motion Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmb-freiburg/demon",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "nianticlabs/acezero",
       "status": "candidate",
       "text": "This repository contains the code associated to the ACE0 paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticspatial/scr-priors",
+      "status": "candidate",
+      "text": "This repository contains code associated to the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmb-freiburg/demon",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,23 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "nianticlabs/acezero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "nianticspatial/scr-priors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "lmb-freiburg/demon"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

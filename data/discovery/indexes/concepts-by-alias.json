@@ -71,6 +71,9 @@
   "2d-virtual-try-on": [
     "2d-virtual-try-on"
   ],
+  "2dto3d": [
+    "2dto3d"
+  ],
   "2nix": [
     "2nix"
   ],
@@ -370,6 +373,9 @@
   ],
   "3dv2021": [
     "3dv2021"
+  ],
+  "3dv2024": [
+    "3dv2024"
   ],
   "3dvision": [
     "3dvision"
@@ -680,6 +686,9 @@
   "accelerate": [
     "accelerate"
   ],
+  "accelerate-framework": [
+    "accelerate-framework"
+  ],
   "accelerated-computing": [
     "accelerated-computing"
   ],
@@ -694,6 +703,9 @@
   ],
   "acceptance": [
     "acceptance"
+  ],
+  "acceptance testing (using bats tests)": [
+    "acceptance-testing-using-bats-tests"
   ],
   "acceptance tests": [
     "acceptance-tests"
@@ -2928,6 +2940,12 @@
   "alwinjohn": [
     "alwinjohn"
   ],
+  "alzheimer-disease": [
+    "alzheimer-disease"
+  ],
+  "alzheimers-disease": [
+    "alzheimers-disease"
+  ],
   "am": [
     "en-modal_or_auxiliary-am"
   ],
@@ -3718,6 +3736,9 @@
   "ants": [
     "ants"
   ],
+  "antspynet unit tests": [
+    "antspynet-unit-tests"
+  ],
   "antv": [
     "antv"
   ],
@@ -3754,6 +3775,9 @@
   ],
   "anyway": [
     "en-discourse_marker-anyway"
+  ],
+  "anywidget": [
+    "anywidget"
   ],
   "aot test": [
     "aot-test"
@@ -11113,6 +11137,9 @@
   "build all formats and release": [
     "build-all-formats-and-release"
   ],
+  "build all latest assets": [
+    "build-all-latest-assets"
+  ],
   "build all rapids repositories": [
     "build-all-rapids-repositories"
   ],
@@ -11151,6 +11178,9 @@
   ],
   "build and cross-compile": [
     "build-and-cross-compile"
+  ],
+  "build and ctest ci": [
+    "build-and-ctest-ci"
   ],
   "build and deloy documentation": [
     "build-and-deloy-documentation"
@@ -11932,6 +11962,9 @@
   "build and unit test": [
     "build-and-unit-test"
   ],
+  "build and upload": [
+    "build-and-upload"
+  ],
   "build and upload maxtext package": [
     "build-and-upload-maxtext-package"
   ],
@@ -12381,6 +12414,9 @@
   ],
   "build deb package": [
     "build-deb-package"
+  ],
+  "build deb packages": [
+    "build-deb-packages"
   ],
   "build debian cockpit matterbridge package": [
     "build-debian-cockpit-matterbridge-package"
@@ -13257,6 +13293,21 @@
   ],
   "build noble container": [
     "build-noble-container"
+  ],
+  "build node binaries for alpine": [
+    "build-node-binaries-for-alpine"
+  ],
+  "build node binaries for linux": [
+    "build-node-binaries-for-linux"
+  ],
+  "build node binaries for linux static": [
+    "build-node-binaries-for-linux-static"
+  ],
+  "build node binaries for macos": [
+    "build-node-binaries-for-macos"
+  ],
+  "build node binaries for windows": [
+    "build-node-binaries-for-windows"
   ],
   "build node.js": [
     "build-node.js"
@@ -15866,6 +15917,9 @@
   "canonize": [
     "canonize"
   ],
+  "canopen": [
+    "canopen"
+  ],
   "cantonese": [
     "cantonese"
   ],
@@ -16183,6 +16237,9 @@
   ],
   "catimg": [
     "catimg"
+  ],
+  "catkin": [
+    "catkin"
   ],
   "catppuccin": [
     "catppuccin"
@@ -19235,6 +19292,12 @@
   "ci - tests": [
     "ci---tests"
   ],
+  "ci - ubuntu bionic": [
+    "ci---ubuntu-bionic"
+  ],
+  "ci - ubuntu focal": [
+    "ci---ubuntu-focal"
+  ],
   "ci - unit": [
     "ci---unit"
   ],
@@ -19814,6 +19877,9 @@
   "ci-dgraph-tests": [
     "ci-dgraph-tests"
   ],
+  "ci-docker": [
+    "ci-docker"
+  ],
   "ci-docs": [
     "ci-docs"
   ],
@@ -19924,6 +19990,9 @@
   ],
   "ci-push": [
     "ci-push"
+  ],
+  "ci-pytest": [
+    "ci-pytest"
   ],
   "ci-release": [
     "ci-release"
@@ -20932,6 +21001,9 @@
   ],
   "cleanup stale branches": [
     "cleanup-stale-branches"
+  ],
+  "cleanup stale caches (nightly sweep)": [
+    "cleanup-stale-caches-nightly-sweep"
   ],
   "cleanup stale performance test data": [
     "cleanup-stale-performance-test-data"
@@ -24677,6 +24749,9 @@
   "consumer": [
     "consumer"
   ],
+  "cont": [
+    "cont"
+  ],
   "container": [
     "container"
   ],
@@ -25424,6 +25499,9 @@
   "copier-template": [
     "copier-template"
   ],
+  "copilot (setup itk devenv)": [
+    "copilot-setup-itk-devenv"
+  ],
   "copilot code review": [
     "copilot-code-review"
   ],
@@ -25723,6 +25801,9 @@
   ],
   "cost-volume-modulation": [
     "cost-volume-modulation"
+  ],
+  "cost-volumes": [
+    "cost-volumes"
   ],
   "cosyvoice": [
     "cosyvoice"
@@ -26857,6 +26938,9 @@
   ],
   "cross-platform builds": [
     "cross-platform-builds"
+  ],
+  "cross-platform release binaries": [
+    "cross-platform-release-binaries"
   ],
   "cross-platform sign and verify": [
     "cross-platform-sign-and-verify"
@@ -29099,6 +29183,9 @@
   "decompiler": [
     "decompiler"
   ],
+  "decomposition": [
+    "decomposition"
+  ],
   "decompress": [
     "decompress"
   ],
@@ -30773,6 +30860,12 @@
   "depth-anything": [
     "depth-anything"
   ],
+  "depth-anything-ac": [
+    "depth-anything-ac"
+  ],
+  "depth-anything-v2": [
+    "depth-anything-v2"
+  ],
   "depth-anything-v3": [
     "depth-anything-v3"
   ],
@@ -30794,8 +30887,14 @@
   "depth-prediction": [
     "depth-prediction"
   ],
+  "depth-pro": [
+    "depth-pro"
+  ],
   "depth-scaled-initialization": [
     "depth-scaled-initialization"
+  ],
+  "depths": [
+    "depths"
   ],
   "depup": [
     "depup"
@@ -31970,6 +32069,9 @@
   "distilhubert": [
     "distilhubert"
   ],
+  "distill-any-depth": [
+    "distill-any-depth"
+  ],
   "distillation": [
     "distillation"
   ],
@@ -32857,6 +32959,9 @@
   ],
   "docker-security": [
     "docker-security"
+  ],
+  "docker-slim": [
+    "docker-slim"
   ],
   "docker-stable": [
     "docker-stable"
@@ -36406,11 +36511,17 @@
   "essential files modified": [
     "essential-files-modified"
   ],
+  "essential-matrix": [
+    "essential-matrix"
+  ],
   "essl": [
     "essl"
   ],
   "estimate": [
     "estimate"
+  ],
+  "estimating-depths": [
+    "estimating-depths"
   ],
   "estimation": [
     "estimation"
@@ -38719,6 +38830,9 @@
   "first": [
     "en-discourse_marker-first"
   ],
+  "first interaction": [
+    "first-interaction"
+  ],
   "first-order-methods": [
     "first-order-methods"
   ],
@@ -40250,6 +40364,9 @@
   ],
   "fundamental": [
     "fundamental"
+  ],
+  "fundamental-matrix": [
+    "fundamental-matrix"
   ],
   "furniture-assembly": [
     "furniture-assembly"
@@ -44007,6 +44124,9 @@
   "graph-convolutional-networks": [
     "graph-convolutional-networks"
   ],
+  "graph-cut-ransac": [
+    "graph-cut-ransac"
+  ],
   "graph-database": [
     "graph-database"
   ],
@@ -45663,6 +45783,9 @@
   "hidraw": [
     "hidraw"
   ],
+  "hierarchical": [
+    "hierarchical"
+  ],
   "hierarchical-models": [
     "hierarchical-models"
   ],
@@ -46932,6 +47055,9 @@
   "iccv2023": [
     "iccv2023"
   ],
+  "iccv2025": [
+    "iccv2025"
+  ],
   "icdar": [
     "icdar"
   ],
@@ -47585,6 +47711,9 @@
   ],
   "image-rectification": [
     "image-rectification"
+  ],
+  "image-registration": [
+    "image-registration"
   ],
   "image-rescaling": [
     "image-rescaling"
@@ -49757,6 +49886,12 @@
   ],
   "itk-module": [
     "itk-module"
+  ],
+  "itk.arm64": [
+    "itk.arm64"
+  ],
+  "itk.doxygen.warnings": [
+    "itk.doxygen.warnings"
   ],
   "itoa": [
     "itoa"
@@ -57153,6 +57288,9 @@
   "mariadb builds": [
     "mariadb-builds"
   ],
+  "marimo": [
+    "marimo"
+  ],
   "mark and close stale issues": [
     "mark-and-close-stale-issues"
   ],
@@ -58035,6 +58173,9 @@
   "meetups": [
     "meetups"
   ],
+  "meflow": [
+    "meflow"
+  ],
   "megadetector": [
     "megadetector"
   ],
@@ -58109,6 +58250,9 @@
   ],
   "memex": [
     "memex"
+  ],
+  "memfof": [
+    "memfof"
   ],
   "memfs": [
     "memfs"
@@ -58550,6 +58694,9 @@
   ],
   "metric-learning": [
     "metric-learning"
+  ],
+  "metric3dv2": [
+    "metric3dv2"
   ],
   "metrics": [
     "metrics"
@@ -59049,6 +59196,9 @@
   "minimal tests": [
     "minimal-tests"
   ],
+  "minimal-container-images": [
+    "minimal-container-images"
+  ],
   "minimal-dep-check-ignore-this": [
     "minimal-dep-check-ignore-this"
   ],
@@ -59408,6 +59558,9 @@
   ],
   "mkl continuous build": [
     "mkl-continuous-build"
+  ],
+  "mkl-pardiso": [
+    "mkl-pardiso"
   ],
   "mksh": [
     "mksh"
@@ -61174,6 +61327,9 @@
   "multiprocessing": [
     "multiprocessing"
   ],
+  "multiprocessing-library": [
+    "multiprocessing-library"
+  ],
   "multiroom": [
     "multiroom"
   ],
@@ -61606,8 +61762,14 @@
   "native libraries (unix)": [
     "native-libraries-unix"
   ],
+  "native release binaries": [
+    "native-release-binaries"
+  ],
   "native tests stats upload": [
     "native-tests-stats-upload"
+  ],
+  "native windows release binaries": [
+    "native-windows-release-binaries"
   ],
   "native-app": [
     "native-app"
@@ -62221,6 +62383,9 @@
   "neu-ir": [
     "neu-ir"
   ],
+  "neuflow": [
+    "neuflow"
+  ],
   "neural-alignment": [
     "neural-alignment"
   ],
@@ -62304,6 +62469,9 @@
   ],
   "neural-vocoder": [
     "neural-vocoder"
+  ],
+  "neuralradiance-fields": [
+    "neuralradiance-fields"
   ],
   "neurips": [
     "neurips"
@@ -67188,6 +67356,12 @@
   "parcel": [
     "parcel"
   ],
+  "pardiso": [
+    "pardiso"
+  ],
+  "pardiso-library": [
+    "pardiso-library"
+  ],
   "parental-control": [
     "parental-control"
   ],
@@ -67302,6 +67476,9 @@
   "partial-order-alignment": [
     "partial-order-alignment"
   ],
+  "partial-volume-correction": [
+    "partial-volume-correction"
+  ],
   "participation": [
     "participation"
   ],
@@ -67319,6 +67496,9 @@
   ],
   "particles": [
     "particles"
+  ],
+  "partition": [
+    "partition"
   ],
   "partitioning": [
     "partitioning"
@@ -68045,6 +68225,9 @@
   ],
   "pester tests": [
     "pester-tests"
+  ],
+  "pet-mr": [
+    "pet-mr"
   ],
   "petal": [
     "petal"
@@ -69545,6 +69728,9 @@
   ],
   "positioning-engine": [
     "positioning-engine"
+  ],
+  "positron-emission-tomography": [
+    "positron-emission-tomography"
   ],
   "posix": [
     "posix"
@@ -74961,6 +75147,9 @@
   "r-cmd-check": [
     "r-cmd-check"
   ],
+  "r-cmd-check antsrnet": [
+    "r-cmd-check-antsrnet"
+  ],
   "r-cmd-check-extra": [
     "r-cmd-check-extra"
   ],
@@ -76649,6 +76838,9 @@
   ],
   "release (production)": [
     "release-production"
+  ],
+  "release (pypi + docker hub)": [
+    "release-pypi-docker-hub"
   ],
   "release (pypi + github)": [
     "release-pypi-github"
@@ -79527,8 +79719,14 @@
   "robox validate": [
     "robox-validate"
   ],
+  "robust": [
+    "robust"
+  ],
   "robust-arithmetic": [
     "robust-arithmetic"
+  ],
+  "robust-estimators": [
+    "robust-estimators"
   ],
   "robust-machine-learning": [
     "robust-machine-learning"
@@ -81725,6 +81923,9 @@
   ],
   "scene-classification": [
     "scene-classification"
+  ],
+  "scene-coordinate-regression": [
+    "scene-coordinate-regression"
   ],
   "scene-detection": [
     "scene-detection"
@@ -83960,6 +84161,9 @@
   "simple-icons": [
     "simple-icons"
   ],
+  "simple-message": [
+    "simple-message"
+  ],
   "simplefsdp 8 gpu integration test": [
     "simplefsdp-8-gpu-integration-test"
   ],
@@ -84455,6 +84659,9 @@
   ],
   "slime": [
     "slime"
+  ],
+  "slimtoolkit": [
+    "slimtoolkit"
   ],
   "slinc ci": [
     "slinc-ci"
@@ -87407,6 +87614,9 @@
   "streams-standard": [
     "streams-standard"
   ],
+  "streamvggt": [
+    "streamvggt"
+  ],
   "street-imagery": [
     "street-imagery"
   ],
@@ -88039,6 +88249,9 @@
   ],
   "superpoint": [
     "superpoint"
+  ],
+  "superpoint-graphs": [
+    "superpoint-graphs"
   ],
   "superpowers": [
     "superpowers"
@@ -91565,6 +91778,9 @@
   "test-n-build": [
     "test-n-build"
   ],
+  "test-nightly": [
+    "test-nightly"
+  ],
   "test-older-node": [
     "test-older-node"
   ],
@@ -94501,6 +94717,9 @@
   "two-tier": [
     "two-tier"
   ],
+  "two-view-geometry": [
+    "two-view-geometry"
+  ],
   "tx-ui": [
     "tx-ui"
   ],
@@ -95320,6 +95539,9 @@
   "unidata-netcdf": [
     "unidata-netcdf"
   ],
+  "unidepthv2": [
+    "unidepthv2"
+  ],
   "uniffi": [
     "uniffi"
   ],
@@ -95352,6 +95574,9 @@
   ],
   "unigram": [
     "unigram"
+  ],
+  "unik3d": [
+    "unik3d"
   ],
   "unikernel": [
     "unikernel"
@@ -96088,6 +96313,9 @@
   ],
   "update dspy docs": [
     "update-dspy-docs"
+  ],
+  "update e2e snapshots (linux)": [
+    "update-e2e-snapshots-linux"
   ],
   "update easylist assets (hourly)": [
     "update-easylist-assets-hourly"
@@ -96859,6 +97087,9 @@
   ],
   "updateapilist": [
     "updateapilist"
+  ],
+  "updatecli": [
+    "updatecli"
   ],
   "updatecli-compose": [
     "updatecli-compose"
@@ -98431,6 +98662,9 @@
   ],
   "vggsound": [
     "vggsound"
+  ],
+  "vggt": [
+    "vggt"
   ],
   "vgicp": [
     "vgicp"

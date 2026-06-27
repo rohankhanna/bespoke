@@ -79,6 +79,18 @@
       "source_repo": "fangq/iso2mesh",
       "status": "candidate-context",
       "text": "| | |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate-context",
+      "text": "Advanced Normalization Tools (ANTs)  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate-context",
+      "text": "[![ci-docker](https://github.com/ANTsX/ANTs/actions/workflows/ci-docker.yml/badge.svg)](https://github.com/ANTsX/ANTs/actions/workflows/ci-docker.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "fangq/iso2mesh",
       "status": "candidate",
       "text": "| | |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate",
+      "text": "[![ci-docker](https://github.com/ANTsX/ANTs/actions/workflows/ci-docker.yml/badge.svg)](https://github.com/ANTsX/ANTs/actions/workflows/ci-docker.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "fangq/iso2mesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ANTsX/ANTs"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

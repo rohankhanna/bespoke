@@ -692,6 +692,30 @@
       "source_repo": "flatironinstitute/neurosift",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niivue/jupyter-notebooks",
+      "status": "candidate-context",
+      "text": "Neuroimaging visualizations using ipyniivue inside jupyter notebooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/jupyter-notebooks",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nipreps/petprep",
+      "status": "candidate-context",
+      "text": "PETPrep: A Robust Preprocessing Pipeline for PET Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nipreps/petprep",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
   "candidate_glosses": [
@@ -1034,6 +1058,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "flatironinstitute/neurosift",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/jupyter-notebooks",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nipreps/petprep",
       "status": "candidate",
       "text": "Codespell"
     }
@@ -1427,11 +1463,23 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "flatironinstitute/neurosift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "niivue/jupyter-notebooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "nipreps/petprep"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

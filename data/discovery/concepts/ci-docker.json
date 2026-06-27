@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "ci-docker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate-context",
+      "text": "Advanced Normalization Tools (ANTs)  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate-context",
+      "text": "ci-docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTsPy",
+      "status": "candidate-context",
+      "text": "A fast medical imaging analysis library in Python with algorithms for registration, segmentation, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsPy",
+      "status": "candidate-context",
+      "text": "ci-docker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate",
+      "text": "ci-docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsPy",
+      "status": "candidate",
+      "text": "ci-docker"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ci-docker",
+  "concept_id": "ci-docker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/ci-docker.yml",
+      "source_repo": "ANTsX/ANTs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/ci-docker.yml",
+      "source_repo": "ANTsX/ANTsPy"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ci-docker",
+      "sense_id": "ci-docker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

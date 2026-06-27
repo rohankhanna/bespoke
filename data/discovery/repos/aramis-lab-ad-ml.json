@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/AD-ML",
+      "target": "alzheimer-disease",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/AD-ML",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/AD-ML",
+      "target": "neuroimaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/AD-ML",
+      "target": "scikit-learn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:24:41.213876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Framework for the reproducible classification of Alzheimer's disease using machine learning",
+    "fork": false,
+    "full_name": "aramis-lab/AD-ML",
+    "html_url": "https://github.com/aramis-lab/AD-ML",
+    "language": "Python",
+    "pushed_at": "2022-05-31T09:57:09Z",
+    "stargazers_count": 43,
+    "topics": [
+      "alzheimer-disease",
+      "machine-learning",
+      "neuroimaging",
+      "python",
+      "scikit-learn"
+    ],
+    "updated_at": "2026-03-04T03:16:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a software framework for **reproducible machine learning experiments on automatic classification of Alzheimer's disease (AD)** using multimodal MRI and PET data from three publicly available datasets [ADNI](http://adni.loni.usc.edu/), [AIBL](https://aibl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alzheimer-disease"
+    },
+    {
+      "context_snippet": "This repository contains a software framework for **reproducible machine learning experiments on automatic classification of Alzheimer's disease (AD)** using multimodal MRI and PET data from three publicly available datasets [ADNI](http://adni.loni.usc.edu/), [AIBL](https://aibl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository contains a software framework for **reproducible machine learning experiments on automatic classification of Alzheimer's disease (AD)** using multimodal MRI and PET data from three publicly available datasets [ADNI](http://adni.loni.usc.edu/), [AIBL](https://aibl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroimaging"
+    },
+    {
+      "context_snippet": "This repository contains a software framework for **reproducible machine learning experiments on automatic classification of Alzheimer's disease (AD)** using multimodal MRI and PET data from three publicly available datasets [ADNI](http://adni.loni.usc.edu/), [AIBL](https://aibl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "R-CMD-check ANTsRNet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTsRNet",
+      "status": "candidate-context",
+      "text": "Medical image analysis framework merging ANTsR and deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsRNet",
+      "status": "candidate-context",
+      "text": "R-CMD-check ANTsRNet"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsRNet",
+      "status": "candidate",
+      "text": "R-CMD-check ANTsRNet"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "R-CMD-check ANTsRNet",
+  "concept_id": "r-cmd-check-antsrnet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ANTsX/ANTsRNet"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "R-CMD-check ANTsRNet",
+      "sense_id": "r-cmd-check-antsrnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -335,7 +335,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T05:31:18.130805+00:00",
+  "fetched_at": "2026-06-27T08:39:54.349186+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -368,11 +368,11 @@
     "html_url": "https://github.com/ebullient/obsidian-admonition",
     "language": "TypeScript",
     "pushed_at": "2026-06-23T20:47:46Z",
-    "stargazers_count": 1292,
+    "stargazers_count": 1293,
     "topics": [
       "obsidian-plugin"
     ],
-    "updated_at": "2026-06-24T03:18:23Z"
+    "updated_at": "2026-06-27T05:32:41Z"
   },
   "repo_links": [
     {

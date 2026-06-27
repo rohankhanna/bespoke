@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ros-industrial/industrial_ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "ros-industrial/industrial_ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ros-industrial/ros_canopen",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ros-industrial/ros_canopen",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ros-industrial/ros_canopen",
+      "target": "ros-industrial/industrial_ci@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ros-industrial/ros_canopen",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ros-industrial/ros_canopen",
+      "target": "ros-industrial/industrial_ci@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ros-industrial/ros_canopen",
+      "target": "Pre-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ros-industrial/ros_canopen",
+      "target": "canopen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ros-industrial/ros_canopen",
+      "target": "driver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ros-industrial/ros_canopen",
+      "target": "ros-industrial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T09:45:58.062764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 668
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1313
+    },
+    {
+      "path": ".github/workflows/prerelease.yml",
+      "size": 387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "melodic-devel",
+    "description": "CANopen driver framework for ROS (http://wiki.ros.org/ros_canopen)",
+    "fork": false,
+    "full_name": "ros-industrial/ros_canopen",
+    "html_url": "https://github.com/ros-industrial/ros_canopen",
+    "language": "C++",
+    "pushed_at": "2025-04-14T22:45:53Z",
+    "stargazers_count": 374,
+    "topics": [
+      "canopen",
+      "driver",
+      "ros",
+      "ros-industrial"
+    ],
+    "updated_at": "2026-06-19T14:09:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pre-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease.yml",
+      "term": "Pre-release"
+    },
+    {
+      "context_snippet": "ros_canopen",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canopen"
+    },
+    {
+      "context_snippet": "ros_canopen",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "driver"
+    },
+    {
+      "context_snippet": "ros_canopen",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros-industrial"
+    }
+  ]
+}

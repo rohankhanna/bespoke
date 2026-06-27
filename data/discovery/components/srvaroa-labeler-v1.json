@@ -1,12 +1,17 @@
 {
   "component": "srvaroa/labeler@v1",
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "lancedb/lancedb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK"
     }
   ]
 }

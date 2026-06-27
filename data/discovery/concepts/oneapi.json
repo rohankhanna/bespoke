@@ -151,6 +151,18 @@
       "source_repo": "oneapi-src/level-zero",
       "status": "candidate-context",
       "text": "This repository contains the following components of oneAPI:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate-context",
+      "text": "Julia support for the oneAPI programming toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate-context",
+      "text": "*Julia support for the oneAPI programming toolkit.*"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "oneapi-src/level-zero",
       "status": "candidate",
       "text": "This repository contains the following components of oneAPI:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/oneAPI.jl",
+      "status": "candidate",
+      "text": "*Julia support for the oneAPI programming toolkit.*"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +382,17 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGPU/oneAPI.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

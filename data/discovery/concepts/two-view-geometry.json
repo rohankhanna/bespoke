@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "two-view-geometry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Parskatt/DKM",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] DKM: Dense Kernelized Feature Matching for Geometry Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Parskatt/DKM",
+      "status": "candidate-context",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Parskatt/DKM",
+      "status": "candidate",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "two-view-geometry",
+  "concept_id": "two-view-geometry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "Parskatt/DKM"
+    }
+  ],
+  "first_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "two-view-geometry",
+      "sense_id": "two-view-geometry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

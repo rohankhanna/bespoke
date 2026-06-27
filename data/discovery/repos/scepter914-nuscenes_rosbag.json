@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scepter914/nuscenes_rosbag",
+      "target": "foxglove/nuscenes2bag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "scepter914/nuscenes_rosbag",
+      "target": "danielpollithy/pypcd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T08:19:34.761473+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2298
+    },
+    {
+      "path": "Dockerfile",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "scepter914/nuscenes_rosbag",
+    "html_url": "https://github.com/scepter914/nuscenes_rosbag",
+    "language": "Python",
+    "pushed_at": "2024-12-25T02:29:48Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-01-20T14:14:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foxglove/nuscenes2bag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielpollithy/pypcd",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

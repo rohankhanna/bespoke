@@ -79,6 +79,18 @@
       "source_repo": "pion/mediadevices",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ros-industrial/ros_canopen",
+      "status": "candidate-context",
+      "text": "CANopen driver framework for ROS (http://wiki.ros.org/ros_canopen)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/ros_canopen",
+      "status": "candidate-context",
+      "text": "ros_canopen"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "pion/mediadevices",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ros-industrial/ros_canopen",
+      "status": "candidate",
+      "text": "ros_canopen"
     }
   ],
   "candidate_related_terms": [
@@ -211,11 +229,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "pion/mediadevices"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": null,
+      "source_repo": "ros-industrial/ros_canopen"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],

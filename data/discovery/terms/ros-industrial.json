@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/industrial_ci_action.yml",
       "source_repo": "nobleo/rviz_satellite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ros-industrial/industrial_core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ros-industrial/ros_canopen"
     }
   ],
   "term": "ros-industrial"

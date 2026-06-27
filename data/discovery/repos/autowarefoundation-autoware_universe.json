@@ -171,7 +171,7 @@
       "source_file": ".github/workflows/bump-version-pr.yaml"
     },
     {
-      "component": "actions/create-github-app-token@v1",
+      "component": "actions/create-github-app-token@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump-version-pr.yaml"
     },
@@ -471,7 +471,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump-version-pr.yaml",
       "source_repo": "autowarefoundation/autoware_universe",
-      "target": "actions/create-github-app-token@v1",
+      "target": "actions/create-github-app-token@v2",
       "target_type": "component"
     },
     {
@@ -552,7 +552,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:08:26.484642+00:00",
+  "fetched_at": "2026-06-27T08:19:28.077758+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -564,15 +564,15 @@
     },
     {
       "path": ".github/workflows/build-and-test-differential.yaml",
-      "size": 5059
+      "size": 5335
     },
     {
       "path": ".github/workflows/build-and-test-packages-above-differential.yaml",
-      "size": 4316
+      "size": 4592
     },
     {
       "path": ".github/workflows/build-and-test-reusable.yaml",
-      "size": 7443
+      "size": 7857
     },
     {
       "path": ".github/workflows/build-and-test.yaml",
@@ -592,7 +592,7 @@
     },
     {
       "path": ".github/workflows/bump-version-pr.yaml",
-      "size": 2297
+      "size": 8181
     }
   ],
   "related_repositories": [],
@@ -604,8 +604,8 @@
     "full_name": "autowarefoundation/autoware_universe",
     "html_url": "https://github.com/autowarefoundation/autoware_universe",
     "language": "C++",
-    "pushed_at": "2026-04-30T14:50:55Z",
-    "stargazers_count": 1610,
+    "pushed_at": "2026-06-27T00:49:45Z",
+    "stargazers_count": 1670,
     "topics": [
       "3d-map",
       "autonomous-driving",
@@ -617,7 +617,7 @@
       "ros2",
       "self-driving-car"
     ],
-    "updated_at": "2026-04-30T14:28:00Z"
+    "updated_at": "2026-06-27T07:57:32Z"
   },
   "repo_links": [],
   "terms": [

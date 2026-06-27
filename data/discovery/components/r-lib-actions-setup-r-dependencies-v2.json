@@ -1,7 +1,7 @@
 {
   "component": "r-lib/actions/setup-r-dependencies@v2",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -602,6 +602,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-codemeta.yaml",
       "source_repo": "ggsegverse/ggseg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "ANTsX/ANTsR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "mathesong/bloodstream"
     }
   ]
 }

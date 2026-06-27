@@ -1,12 +1,17 @@
 {
   "component": "softprops/action-gh-release@d4e8205d7e959a9107da6396278b2f1f07af0f9b",
   "first_seen_at": "2026-05-18T00:43:20.098172+00:00",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/push.yaml",
       "source_repo": "WarmUpTill/SceneSwitcher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "vercel/pkg-fetch"
     }
   ]
 }

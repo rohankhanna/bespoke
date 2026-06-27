@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/github-repo-stats.yml",
       "source_repo": "PetervanLunteren/AddaxAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github-repo-stats.yml",
+      "source_repo": "ANTsX/ANTs"
     }
   ],
   "term": "github-repo-stats"

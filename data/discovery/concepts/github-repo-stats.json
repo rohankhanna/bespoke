@@ -19,12 +19,30 @@
       "source_repo": "PetervanLunteren/AddaxAI",
       "status": "candidate-context",
       "text": "github-repo-stats"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate-context",
+      "text": "Advanced Normalization Tools (ANTs)  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTs",
+      "status": "candidate-context",
+      "text": "github-repo-stats"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "PetervanLunteren/AddaxAI",
+      "status": "candidate",
+      "text": "github-repo-stats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTs",
       "status": "candidate",
       "text": "github-repo-stats"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/github-repo-stats.yml",
       "source_repo": "PetervanLunteren/AddaxAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T07:14:56.321639+00:00",
+      "source_file": ".github/workflows/github-repo-stats.yml",
+      "source_repo": "ANTsX/ANTs"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
   "lexical_providers": [
     "datamuse"
   ],
