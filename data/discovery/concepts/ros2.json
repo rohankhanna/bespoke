@@ -187,6 +187,42 @@
       "source_repo": "ros2-rust/ros2_rust",
       "status": "candidate-context",
       "text": "ROS 2 for Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "status": "candidate-context",
+      "text": "ROS2 TensorRT Node for Monocular Metric Depth estimation and Point Cloud generation from camera images with Depth Anything V3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "status": "candidate-context",
+      "text": "ROS2 Wrapper for DepthAnything V2 model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "status": "candidate-context",
+      "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "status": "candidate-context",
+      "text": "Monocular Metric Depth estimation and Point Cloud generation from camera images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b"
     }
   ],
   "candidate_glosses": [
@@ -291,6 +327,24 @@
       "source_repo": "ros2-rust/ros2_rust",
       "status": "candidate",
       "text": "ROS 2 for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "status": "candidate",
+      "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b"
     }
   ],
   "candidate_related_terms": [],
@@ -406,11 +460,29 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "ros2-rust/ros2_rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -979,6 +979,54 @@
       "source_repo": "fangq/iso2mesh",
       "status": "candidate-context",
       "text": "| | |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/simplerecon",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] SimpleRecon: 3D Reconstruction Without 3D Convolutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/simplerecon",
+      "status": "candidate-context",
+      "text": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate-context",
+      "text": "The ENIGMA Toolbox is an open-source repository for accessing 100+ ENIGMA statistical maps, visualizing cortical and subcortical surface data, and relating neuroimaging findings to micro- and macroscale brain organization. \ud83e\udd20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate-context",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neurolabusc/surf-ice",
+      "status": "candidate-context",
+      "text": "GLSL surface rendering source code. Compiled versions available from NITRC. Loads 3DS, CTM, DXF, FreeSurfer, GII (GIfTI), GTS, LWO2, MS3D, MZ3, NV (BrainNetViewer), OBJ, OFF, PLY, STL, VTK. Tractography formats include BFloat, PDB, TCK, TRK, and VTK. Also NIfTI format voxelwise images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neurolabusc/surf-ice",
+      "status": "candidate-context",
+      "text": "Surf Ice is an open source surface render. It can be compiled for the Linux, Macintosh OSX, and Windows operating systems. For details and compiled versions visit the [NITRC wiki](https://www.nitrc.org/plugins/mwiki/index.php/surfice:MainPage). You can also get a compiled versio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate-context",
+      "text": "High performance spatial analysis in a web browser and across programming languages and hardware architectures "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate-context",
+      "text": "ITK-Wasm"
     }
   ],
   "candidate_glosses": [
@@ -1467,6 +1515,30 @@
       "source_repo": "fangq/iso2mesh",
       "status": "candidate",
       "text": "| | |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/simplerecon",
+      "status": "candidate",
+      "text": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neurolabusc/surf-ice",
+      "status": "candidate",
+      "text": "Surf Ice is an open source surface render. It can be compiled for the Linux, Macintosh OSX, and Windows operating systems. For details and compiled versions visit the [NITRC wiki](https://www.nitrc.org/plugins/mwiki/index.php/surfice:MainPage). You can also get a compiled versio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate",
+      "text": "ITK-Wasm"
     }
   ],
   "candidate_related_terms": [
@@ -3781,11 +3853,65 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "neurolabusc/surf-ice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

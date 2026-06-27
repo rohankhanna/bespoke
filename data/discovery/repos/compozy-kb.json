@@ -129,11 +129,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T07:54:33.534537+00:00",
+  "fetched_at": "2026-06-27T04:27:35.242804+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 22263
+      "size": 23888
     },
     {
       "path": "go.mod",
@@ -157,10 +157,10 @@
     "full_name": "compozy/kb",
     "html_url": "https://github.com/compozy/kb",
     "language": "Go",
-    "pushed_at": "2026-05-19T03:48:50Z",
-    "stargazers_count": 82,
+    "pushed_at": "2026-06-27T03:31:48Z",
+    "stargazers_count": 83,
     "topics": [],
-    "updated_at": "2026-06-26T00:02:06Z"
+    "updated_at": "2026-06-27T03:31:41Z"
   },
   "repo_links": [
     {

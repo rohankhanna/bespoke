@@ -294,7 +294,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T13:02:45.620723+00:00",
+  "fetched_at": "2026-06-27T05:00:32.552935+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -326,7 +326,7 @@
     "full_name": "aws-cloudformation/cfn-lint-visual-studio-code",
     "html_url": "https://github.com/aws-cloudformation/cfn-lint-visual-studio-code",
     "language": "JavaScript",
-    "pushed_at": "2026-06-26T09:06:39Z",
+    "pushed_at": "2026-06-27T00:42:22Z",
     "stargazers_count": 287,
     "topics": [
       "aws",

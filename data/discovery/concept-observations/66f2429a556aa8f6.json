@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Constitutive hyperelastic material formulations for FElupe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016593,
+      "status": "candidate",
+      "text": "organic law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014195,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003174,
+      "status": "candidate",
+      "text": "organisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001468,
+      "status": "candidate",
+      "text": "organization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991080,
+      "status": "candidate",
+      "text": "formation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "constitution",
+      "sense_id": "constitution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35066,
+      "status": "candidate",
+      "text": "composition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27045,
+      "status": "candidate",
+      "text": "organization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5048,
+      "status": "candidate",
+      "text": "formation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5022,
+      "status": "candidate",
+      "text": "organisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2028,
+      "status": "candidate",
+      "text": "makeup"
+    }
+  ],
+  "concept_id": "constitution",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "constitution",
+  "observation_id": "66f2429a556aa8f6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "constitution",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "adtzlr/hyperelastic",
+  "source_repo_description": "Constitutive hyperelastic material formulations for FElupe."
+}

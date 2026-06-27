@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@v10",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -677,6 +677,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue-close-require.yml",
       "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "aramis-lab/clinica"
     }
   ]
 }

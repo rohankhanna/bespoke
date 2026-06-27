@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "baegwangbin/DSINE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "spla-tam/SplaTAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey"
     }
   ],
   "term": "cvpr2024"

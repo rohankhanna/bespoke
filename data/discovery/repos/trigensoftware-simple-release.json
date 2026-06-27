@@ -21,12 +21,22 @@
       "source_file": "package.json"
     },
     {
-      "component": "@trigen/eslint-config",
+      "component": "@trigen/oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@trigen/oxlint-config",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
       "component": "@trigen/scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript/native-preview",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -51,12 +61,17 @@
       "source_file": "package.json"
     },
     {
-      "component": "eslint",
+      "component": "nano-staged",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
-      "component": "nano-staged",
+      "component": "oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint-tsgolint",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -86,7 +101,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml"
     },
@@ -96,12 +111,12 @@
       "source_file": ".github/workflows/checks.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml"
     },
@@ -111,12 +126,12 @@
       "source_file": ".github/workflows/checks.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml"
     },
@@ -126,17 +141,17 @@
       "source_file": ".github/workflows/commit.yml"
     },
     {
-      "component": "actions/github-script@v8",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -146,27 +161,12 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/tests.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/tests.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/tests.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
@@ -176,12 +176,27 @@
       "source_file": ".github/workflows/tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
@@ -243,7 +258,14 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "@trigen/eslint-config",
+      "target": "@trigen/oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release",
+      "target": "@trigen/oxlint-config",
       "target_type": "component"
     },
     {
@@ -251,6 +273,13 @@
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release",
       "target": "@trigen/scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release",
+      "target": "@typescript/native-preview",
       "target_type": "component"
     },
     {
@@ -285,14 +314,21 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "eslint",
+      "target": "nano-staged",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "nano-staged",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release",
+      "target": "oxlint-tsgolint",
       "target_type": "component"
     },
     {
@@ -334,7 +370,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -348,7 +384,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -369,14 +405,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -397,21 +433,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "actions/github-script@v8",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -432,14 +468,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -464,7 +500,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T07:57:11.825846+00:00",
+  "fetched_at": "2026-06-27T04:29:17.090125+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -472,7 +508,7 @@
     },
     {
       "path": "package.json",
-      "size": 1482
+      "size": 1593
     },
     {
       "path": ".github/workflows/checks.yml",
@@ -481,10 +517,6 @@
     {
       "path": ".github/workflows/commit.yml",
       "size": 577
-    },
-    {
-      "path": ".github/workflows/list-workspaces.js",
-      "size": 949
     },
     {
       "path": ".github/workflows/release.yml",
@@ -504,10 +536,10 @@
     "full_name": "TrigenSoftware/simple-release",
     "html_url": "https://github.com/TrigenSoftware/simple-release",
     "language": "TypeScript",
-    "pushed_at": "2026-06-24T00:53:51Z",
+    "pushed_at": "2026-06-27T01:47:25Z",
     "stargazers_count": 21,
     "topics": [],
-    "updated_at": "2026-06-08T22:11:51Z"
+    "updated_at": "2026-06-26T23:32:15Z"
   },
   "repo_links": [
     {

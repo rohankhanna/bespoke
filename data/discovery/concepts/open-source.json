@@ -1363,6 +1363,30 @@
       "source_repo": "adtzlr/felupe",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate-context",
+      "text": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate-context",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate-context",
+      "text": "The ENIGMA Toolbox is an open-source repository for accessing 100+ ENIGMA statistical maps, visualizing cortical and subcortical surface data, and relating neuroimaging findings to micro- and macroscale brain organization. \ud83e\udd20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate-context",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
     }
   ],
   "candidate_glosses": [
@@ -2025,6 +2049,18 @@
       "source_repo": "adtzlr/felupe",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
     }
   ],
   "candidate_related_terms": [
@@ -7636,11 +7672,77 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

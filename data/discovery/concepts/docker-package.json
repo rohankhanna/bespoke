@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate-context",
+      "text": "xarray DataArray accessors for PyVista"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate-context",
+      "text": "Docker Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate",
+      "text": "Docker Package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12992,
+      "status": "candidate",
+      "text": "davit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12992,
+      "status": "candidate",
+      "text": "longshoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12992,
+      "status": "candidate",
+      "text": "lumo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12992,
+      "status": "candidate",
+      "text": "lumps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12992,
+      "status": "candidate",
+      "text": "roustabout"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Package",
+  "concept_id": "docker-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "pyvista/pyvista-xarray"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Package",
+      "sense_id": "docker-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

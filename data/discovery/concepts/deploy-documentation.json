@@ -578,6 +578,18 @@
       "source_repo": "RiDDiX/home-assistant-matter-hub",
       "status": "candidate-context",
       "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate-context",
+      "text": "Generalized (hyper-) dual numbers in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -866,6 +878,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "RiDDiX/home-assistant-matter-hub",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itt-ustutt/num-dual",
       "status": "candidate",
       "text": "Deploy Documentation"
     }
@@ -2681,11 +2699,35 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "itt-ustutt/num-dual"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

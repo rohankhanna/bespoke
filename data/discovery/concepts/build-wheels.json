@@ -622,6 +622,18 @@
       "source_repo": "csukuangfj/kaldi-native-fbank",
       "status": "candidate-context",
       "text": "build-wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate-context",
+      "text": "Generalized (hyper-) dual numbers in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate-context",
+      "text": "Build Wheels"
     }
   ],
   "candidate_glosses": [
@@ -936,6 +948,12 @@
       "source_repo": "csukuangfj/kaldi-native-fbank",
       "status": "candidate",
       "text": "build-wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate",
+      "text": "Build Wheels"
     }
   ],
   "candidate_related_terms": [
@@ -2323,11 +2341,29 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "itt-ustutt/num-dual"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -278,7 +278,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T13:15:26.781512+00:00",
+  "fetched_at": "2026-06-27T05:11:51.473621+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -286,7 +286,7 @@
     },
     {
       "path": "go.mod",
-      "size": 6932
+      "size": 6962
     },
     {
       "path": ".github/workflows/approval-comment.yaml",
@@ -330,10 +330,10 @@
     "full_name": "aws/karpenter-provider-aws",
     "html_url": "https://github.com/aws/karpenter-provider-aws",
     "language": "Go",
-    "pushed_at": "2026-06-26T00:13:06Z",
-    "stargazers_count": 7664,
+    "pushed_at": "2026-06-26T21:52:16Z",
+    "stargazers_count": 7665,
     "topics": [],
-    "updated_at": "2026-06-26T00:13:10Z"
+    "updated_at": "2026-06-26T21:49:52Z"
   },
   "repo_links": [
     {

@@ -55,6 +55,18 @@
       "source_repo": "git-quick-stats/git-quick-stats",
       "status": "candidate-context",
       "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prospector-dev/prospector",
+      "status": "candidate-context",
+      "text": "Inspects Python source files and provides information about type and location of classes, methods etc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prospector-dev/prospector",
+      "status": "candidate-context",
+      "text": "prospector"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "git-quick-stats/git-quick-stats",
       "status": "candidate",
       "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prospector-dev/prospector",
+      "status": "candidate",
+      "text": "prospector"
     }
   ],
   "candidate_related_terms": [],
@@ -604,11 +622,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "prospector-dev/prospector"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

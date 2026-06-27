@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Convert source DICOM, PAR REC or NIFTI image data to BIDS directory layout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029172,
+      "status": "candidate",
+      "text": "changeover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028652,
+      "status": "candidate",
+      "text": "transition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019215,
+      "status": "candidate",
+      "text": "rebirth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030531,
+      "status": "candidate",
+      "text": "extra points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030531,
+      "status": "candidate",
+      "text": "point after"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conversion",
+      "sense_id": "conversion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13055,
+      "status": "candidate",
+      "text": "transition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12033,
+      "status": "candidate",
+      "text": "rebirth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7032,
+      "status": "candidate",
+      "text": "changeover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "spiritual rebirth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5,
+      "status": "candidate",
+      "text": "extra points"
+    }
+  ],
+  "concept_id": "conversion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conversion",
+  "observation_id": "2ea9e3201717625b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "conversion",
+  "source_context_snippet": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026",
+  "source_file": null,
+  "source_repo": "AdebayoBraimah/convert_source",
+  "source_repo_description": "Convert source DICOM, PAR REC or NIFTI image data to BIDS directory layout"
+}

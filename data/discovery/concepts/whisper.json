@@ -2888,11 +2888,47 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "argmaxinc/argmax-oss-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "zh-plus/openlrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "argmaxinc/argmax-oss-swift"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

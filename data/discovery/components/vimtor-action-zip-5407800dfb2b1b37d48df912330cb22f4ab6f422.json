@@ -1,0 +1,12 @@
+{
+  "component": "vimtor/action-zip@5407800dfb2b1b37d48df912330cb22f4ab6f422",
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-post"
+    }
+  ]
+}

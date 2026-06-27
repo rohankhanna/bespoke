@@ -191,7 +191,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T07:40:26.527026+00:00",
+  "fetched_at": "2026-06-27T04:18:58.939960+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -223,8 +223,8 @@
     "full_name": "ungoogled-software/ungoogled-chromium",
     "html_url": "https://github.com/ungoogled-software/ungoogled-chromium",
     "language": "Python",
-    "pushed_at": "2026-06-24T23:42:09Z",
-    "stargazers_count": 26969,
+    "pushed_at": "2026-06-26T17:17:08Z",
+    "stargazers_count": 26982,
     "topics": [
       "chromium",
       "control",
@@ -234,7 +234,7 @@
       "privacy",
       "transparency"
     ],
-    "updated_at": "2026-06-26T07:38:25Z"
+    "updated_at": "2026-06-27T04:10:51Z"
   },
   "repo_links": [
     {

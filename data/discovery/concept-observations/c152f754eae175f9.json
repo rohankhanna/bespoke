@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Algorithmic differentiation with hyper-dual numbers in C++ and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dual-numbers",
+      "sense_id": "dual-numbers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dual-numbers",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dual-numbers",
+  "observation_id": "c152f754eae175f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "dual-numbers",
+  "source_context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+  "source_file": null,
+  "source_repo": "oberbichler/HyperJet",
+  "source_repo_description": "Algorithmic differentiation with hyper-dual numbers in C++ and Python"
+}

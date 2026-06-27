@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace",
+      "target": "camera-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace",
+      "target": "compute-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace",
+      "target": "cvpr2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace",
+      "target": "dsac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace",
+      "target": "visual-localization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:17:42.665350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15556
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2023 - Highlight] Accelerated Coordinate Encoding (ACE): Learning to Relocalize in Minutes using RGB and Poses",
+    "fork": false,
+    "full_name": "nianticlabs/ace",
+    "html_url": "https://github.com/nianticlabs/ace",
+    "language": "Python",
+    "pushed_at": "2024-01-29T13:48:39Z",
+    "stargazers_count": 438,
+    "topics": [
+      "camera-localization",
+      "compute-vision",
+      "cvpr",
+      "cvpr2023",
+      "dsac",
+      "machine-learning",
+      "pose-estimation",
+      "visual-localization"
+    ],
+    "updated_at": "2026-06-25T12:55:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "----------------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera-localization"
+    },
+    {
+      "context_snippet": "----------------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compute-vision"
+    },
+    {
+      "context_snippet": "----------------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr"
+    },
+    {
+      "context_snippet": "----------------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2023"
+    },
+    {
+      "context_snippet": "----------------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dsac"
+    },
+    {
+      "context_snippet": "----------------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "----------------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "----------------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-localization"
+    }
+  ]
+}

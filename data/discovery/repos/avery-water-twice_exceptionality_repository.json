@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T05:19:18.565828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code within this repository is for a local, private dataset from The University of Iowa. It covers converting the dataset from dicom to nifti in BIDS format, creating masks from T1w scans, and setting up and running a VBM analysis in SPM12. ",
+    "fork": false,
+    "full_name": "avery-water/twice_exceptionality_repository",
+    "html_url": "https://github.com/avery-water/twice_exceptionality_repository",
+    "language": "Shell",
+    "pushed_at": "2022-01-23T23:30:22Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-01-23T23:30:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

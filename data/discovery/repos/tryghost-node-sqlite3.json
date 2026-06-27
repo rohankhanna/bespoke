@@ -178,7 +178,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-06-26T07:54:44.793483+00:00",
+  "fetched_at": "2026-06-27T04:27:41.124093+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -202,10 +202,10 @@
     "full_name": "TryGhost/node-sqlite3",
     "html_url": "https://github.com/TryGhost/node-sqlite3",
     "language": "PLpgSQL",
-    "pushed_at": "2026-06-25T16:54:11Z",
-    "stargazers_count": 6416,
+    "pushed_at": "2026-06-26T18:11:36Z",
+    "stargazers_count": 6415,
     "topics": [],
-    "updated_at": "2026-06-25T21:30:58Z"
+    "updated_at": "2026-06-27T02:55:14Z"
   },
   "repo_links": [
     {

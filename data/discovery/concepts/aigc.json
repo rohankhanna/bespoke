@@ -391,6 +391,30 @@
       "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
       "status": "candidate-context",
       "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/CRM",
+      "status": "candidate-context",
+      "text": "[ECCV 2024] Single Image to 3D Textured Mesh in 10 seconds with Convolutional Reconstruction Model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/CRM",
+      "status": "candidate-context",
+      "text": "Official implementation for *CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model*."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/UniControl",
+      "status": "candidate-context",
+      "text": "Unified Controllable Visual Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/UniControl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +609,18 @@
       "source_repo": "Tencent-Hunyuan/HunyuanWorld-Voyager",
       "status": "candidate",
       "text": "[\u4e2d\u6587\u9605\u8bfb](README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/CRM",
+      "status": "candidate",
+      "text": "Official implementation for *CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model*."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/UniControl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2272,11 +2308,41 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/ReCamMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/CRM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/UniControl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

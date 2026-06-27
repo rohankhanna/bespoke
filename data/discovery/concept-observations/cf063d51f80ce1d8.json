@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This project contains command line tools to perform rigid, affine and non-linear registration of nifti or analyse images as well as utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://github.com/KCL-BMEIS/niftyreg/blob/master/logo/nifty_reg_logo.png?raw=true\" alt=\"NiftyReg logo\" title=\"NiftyReg\" height=\"80\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/KCL-BMEIS/niftyreg/blob/master/logo/nifty_reg_logo.png?raw=true\" alt=\"NiftyReg logo\" title=\"NiftyReg\" height=\"80\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "medical-image-registration",
+      "sense_id": "medical-image-registration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "medical-image-registration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "medical-image-registration",
+  "observation_id": "cf063d51f80ce1d8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "medical-image-registration",
+  "source_context_snippet": "<img src=\"https://github.com/KCL-BMEIS/niftyreg/blob/master/logo/nifty_reg_logo.png?raw=true\" alt=\"NiftyReg logo\" title=\"NiftyReg\" height=\"80\">",
+  "source_file": null,
+  "source_repo": "KCL-BMEIS/niftyreg",
+  "source_repo_description": "This project contains command line tools to perform rigid, affine and non-linear registration of nifti or analyse images as well as utilities"
+}

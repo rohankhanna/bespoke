@@ -12,25 +12,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/FlashVDM",
-      "target": "tencent-hunyuan/hunyuan3d-omni",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/FlashVDM",
-      "target": "vast-ai-research/holopart",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/FlashVDM",
-      "target": "vast-ai-research/detailgen3d",
+      "target": "wyysf-98/craftsman3d",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-06-26T13:22:04.739847+00:00",
+  "fetched_at": "2026-06-27T05:17:24.112757+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,22 +40,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tencent-hunyuan/hunyuan3d-omni",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "tencent/hunyuan3d-2",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "vast-ai-research/detailgen3d",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vast-ai-research/holopart",
+      "full_name": "wyysf-98/craftsman3d",
       "source_file": "README.md"
     }
   ],

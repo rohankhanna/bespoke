@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "update-codemeta"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggsegverse/ggseg",
+      "status": "candidate-context",
+      "text": "Plotting tool for brain atlases, in ggplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggsegverse/ggseg",
+      "status": "candidate-context",
+      "text": "update-codemeta"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggsegverse/ggseg",
+      "status": "candidate",
+      "text": "update-codemeta"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "update-codemeta",
+  "concept_id": "update-codemeta",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/update-codemeta.yaml",
+      "source_repo": "ggsegverse/ggseg"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "update-codemeta",
+      "sense_id": "update-codemeta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

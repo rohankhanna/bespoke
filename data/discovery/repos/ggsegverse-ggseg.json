@@ -1,0 +1,558 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neuroconductor-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-readme.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-readme.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-readme.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-readme.yaml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-readme.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/platform-info@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-deps@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/run-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-r@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/platform-info@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-deps@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/run-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-codemeta.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-codemeta.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-codemeta.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-codemeta.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neuroconductor-release.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neuroconductor-release.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "Neuroconductor release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "JamesIves/github-pages-deploy-action@v4.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-readme.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-readme.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-readme.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-readme.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-readme.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "quarto-dev/quarto-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-hub/actions/setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-hub/actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-hub/actions/platform-info@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-hub/actions/setup-deps@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-hub/actions/run-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-hub/actions/setup-r@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "R-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "test-coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-codemeta.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-codemeta.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-codemeta.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-codemeta.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-codemeta.yaml",
+      "source_repo": "ggsegverse/ggseg",
+      "target": "update-codemeta",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:13:57.561664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4100
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "size": 1433
+    },
+    {
+      "path": ".github/workflows/code-quality.yaml",
+      "size": 2807
+    },
+    {
+      "path": ".github/workflows/neuroconductor-release.yaml",
+      "size": 645
+    },
+    {
+      "path": ".github/workflows/pkgdown.yaml",
+      "size": 1292
+    },
+    {
+      "path": ".github/workflows/render-readme.yaml",
+      "size": 1066
+    },
+    {
+      "path": ".github/workflows/rhub.yaml",
+      "size": 2951
+    },
+    {
+      "path": ".github/workflows/test-coverage.yaml",
+      "size": 2913
+    },
+    {
+      "path": ".github/workflows/update-codemeta.yaml",
+      "size": 1485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Plotting tool for brain atlases, in ggplot",
+    "fork": false,
+    "full_name": "ggsegverse/ggseg",
+    "html_url": "https://github.com/ggsegverse/ggseg",
+    "language": "R",
+    "pushed_at": "2026-06-25T14:19:36Z",
+    "stargazers_count": 264,
+    "topics": [],
+    "updated_at": "2026-06-23T05:10:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "code-quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yaml",
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "Neuroconductor release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neuroconductor-release.yaml",
+      "term": "Neuroconductor release"
+    },
+    {
+      "context_snippet": "R-hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "term": "R-hub"
+    },
+    {
+      "context_snippet": "test-coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "term": "test-coverage"
+    },
+    {
+      "context_snippet": "update-codemeta",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-codemeta.yaml",
+      "term": "update-codemeta"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lassoan/SlicerSwissSkullStripper",
+      "target": "lorensen/swissskullstripperextension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lassoan/SlicerSwissSkullStripper",
+      "target": "lassoan/slicerhdbrainextraction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lassoan/SlicerSwissSkullStripper",
+      "target": "3d-slicer-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:19:27.037400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "3D Slicer extension for removing the skull in MRI images using the \"Swiss Skull Stripper\" algorithm",
+    "fork": true,
+    "full_name": "lassoan/SlicerSwissSkullStripper",
+    "html_url": "https://github.com/lassoan/SlicerSwissSkullStripper",
+    "language": "C++",
+    "pushed_at": "2024-12-03T05:29:01Z",
+    "stargazers_count": 14,
+    "topics": [
+      "3d-slicer-extension"
+    ],
+    "updated_at": "2025-11-27T15:13:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lassoan/slicerhdbrainextraction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lorensen/swissskullstripperextension",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an extension for [3D Slicer](https://www.slicer.org) for skull stripping (i.e., removing all image content outside the brain) in MRI images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-slicer-extension"
+    }
+  ]
+}

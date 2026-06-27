@@ -4,21 +4,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-uv-cache.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-uv-cache.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "astral-sh/setup-uv@v6",
+      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-uv-cache.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/cache/save@v4",
+      "target": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
       "target_type": "component"
     },
     {
@@ -32,7 +32,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
@@ -46,14 +46,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "github/codeql-action/init@v4",
+      "target": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "github/codeql-action/analyze@v4",
+      "target": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
@@ -67,14 +67,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs-broken-links.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs-broken-links.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
       "target_type": "component"
     },
     {
@@ -88,21 +88,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/generate-tool-specs.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "tibdex/github-app-token@v2",
+      "target": "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/generate-tool-specs.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/generate-tool-specs.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "astral-sh/setup-uv@v6",
+      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
       "target_type": "component"
     },
     {
@@ -116,35 +116,35 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "dorny/paths-filter@v3",
+      "target": "dorny/paths-filter@d1c1ffe0248fe513906c8e24db8ea791d46f8590",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/cache/restore@v4",
+      "target": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "astral-sh/setup-uv@v6",
+      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/cache/save@v4",
+      "target": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
       "target_type": "component"
     },
     {
@@ -158,42 +158,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/setup-python@v5",
+      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "astral-sh/setup-uv@v4",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nightly.yml",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "astral-sh/setup-uv@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nightly.yml",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
       "target_type": "component"
     },
     {
@@ -207,7 +193,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-size.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "codelytv/pr-size-labeler@v1",
+      "target": "codelytv/pr-size-labeler@095a41fca88b8764fd9e008ad269bcdb82bb38b9",
       "target_type": "component"
     },
     {
@@ -221,7 +207,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-title.yml",
       "source_repo": "crewAIInc/crewAI",
-      "target": "amannn/action-semantic-pull-request@v5",
+      "target": "amannn/action-semantic-pull-request@e32d7e603df1aa1ba07e981f2a23455dee596825",
       "target_type": "component"
     },
     {
@@ -246,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-07T07:09:11.945528+00:00",
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
   "source_repo": "crewAIInc/crewAI"
 }

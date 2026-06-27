@@ -7501,6 +7501,78 @@
       "source_repo": "matplotlib/cmocean",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/altair",
+      "status": "candidate-context",
+      "text": "Declarative visualization library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/altair",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prospector-dev/prospector",
+      "status": "candidate-context",
+      "text": "Inspects Python source files and provides information about type and location of classes, methods etc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prospector-dev/prospector",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate-context",
+      "text": "xarray DataArray accessors for PyVista"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate-context",
+      "text": "Read and write subsurface data files describing surfaces, grids and horizons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KCL-BMEIS/niftyreg",
+      "status": "candidate-context",
+      "text": "This project contains command line tools to perform rigid, affine and non-linear registration of nifti or analyse images as well as utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KCL-BMEIS/niftyreg",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tee-ar-ex/trx-python",
+      "status": "candidate-context",
+      "text": "Python implementation of the TRX file format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tee-ar-ex/trx-python",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -11311,6 +11383,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "matplotlib/cmocean",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/altair",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prospector-dev/prospector",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KCL-BMEIS/niftyreg",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tee-ar-ex/trx-python",
       "status": "candidate",
       "text": "Tests"
     }
@@ -29577,11 +29685,239 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mds1/multicall3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "coasys/perspective-diff-sync"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache-tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aristoteleo/PantheonOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "mity/acutest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "wardencommunity/warden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dracory/hb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb_rails"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Shopify/erb_lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "prospector-dev/prospector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pyvista/pyvista-xarray"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "nvim-neotest/neotest-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TA-Lib/ta-lib-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "softwareunderground/gio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "KCL-BMEIS/niftyreg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tee-ar-ex/trx-python"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

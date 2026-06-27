@@ -1,0 +1,498 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_mkl.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_openmp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_spectral.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_spectral.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_cudss.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_cudss.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_mkl.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_openmp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvxgrp/scs",
+      "target": "jump-dev/scs.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvxgrp/scs",
+      "target": "ankane/scs-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_mkl.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_mkl.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "Build and Test MKL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_openmp.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_openmp.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "Build and Test OpenMP",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_spectral.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_spectral.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "Build and Test with Spectral Cones",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildpp.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_cudss.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_cudss.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "Jimver/cuda-toolkit@v0.2.30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_cudss.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "Build and Test cudss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_mkl.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_mkl.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "CMake MKL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_openmp.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_openmp.yml",
+      "source_repo": "cvxgrp/scs",
+      "target": "CMake OpenMP",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs",
+      "target": "cone-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs",
+      "target": "convex-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs",
+      "target": "first-order-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs",
+      "target": "linear-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs",
+      "target": "numerical-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs",
+      "target": "optimization-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs",
+      "target": "quadratic-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs",
+      "target": "semidefinite-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs",
+      "target": "solver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:31:22.895733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4080
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2646
+    },
+    {
+      "path": ".github/workflows/build_mkl.yml",
+      "size": 1690
+    },
+    {
+      "path": ".github/workflows/build_openmp.yml",
+      "size": 541
+    },
+    {
+      "path": ".github/workflows/build_spectral.yml",
+      "size": 1523
+    },
+    {
+      "path": ".github/workflows/buildpp.yml",
+      "size": 1130
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 1364
+    },
+    {
+      "path": ".github/workflows/cmake_cudss.yml",
+      "size": 982
+    },
+    {
+      "path": ".github/workflows/cmake_mkl.yml",
+      "size": 2322
+    },
+    {
+      "path": ".github/workflows/cmake_openmp.yml",
+      "size": 748
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Splitting Conic Solver",
+    "fork": false,
+    "full_name": "cvxgrp/scs",
+    "html_url": "https://github.com/cvxgrp/scs",
+    "language": "C",
+    "pushed_at": "2026-06-20T14:59:36Z",
+    "stargazers_count": 626,
+    "topics": [
+      "cone-programming",
+      "convex-optimization",
+      "first-order-methods",
+      "linear-programming",
+      "numerical-optimization",
+      "optimization",
+      "optimization-algorithms",
+      "quadratic-programming",
+      "semidefinite-programming",
+      "solver"
+    ],
+    "updated_at": "2026-06-24T00:22:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/scs-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jump-dev/scs.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Build and Test MKL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_mkl.yml",
+      "term": "Build and Test MKL"
+    },
+    {
+      "context_snippet": "Build and Test OpenMP",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_openmp.yml",
+      "term": "Build and Test OpenMP"
+    },
+    {
+      "context_snippet": "Build and Test with Spectral Cones",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_spectral.yml",
+      "term": "Build and Test with Spectral Cones"
+    },
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    },
+    {
+      "context_snippet": "Build and Test cudss",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_cudss.yml",
+      "term": "Build and Test cudss"
+    },
+    {
+      "context_snippet": "CMake MKL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_mkl.yml",
+      "term": "CMake MKL"
+    },
+    {
+      "context_snippet": "CMake OpenMP",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_openmp.yml",
+      "term": "CMake OpenMP"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" margin=0px>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cone-programming"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" margin=0px>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convex-optimization"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" margin=0px>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "first-order-methods"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" margin=0px>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-programming"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" margin=0px>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerical-optimization"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" margin=0px>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" margin=0px>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization-algorithms"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" margin=0px>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quadratic-programming"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" margin=0px>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semidefinite-programming"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" margin=0px>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solver"
+    }
+  ]
+}

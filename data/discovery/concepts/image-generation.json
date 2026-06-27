@@ -859,6 +859,18 @@
       "source_repo": "huanngzh/MV-Adapter",
       "status": "candidate-context",
       "text": "![teaser](assets/doc/teaser.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/HunyuanImage-3.0",
+      "status": "candidate-context",
+      "text": "HunyuanImage-3.0: A Powerful Native Multimodal Model for Image Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanImage-3.0",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u6587\u6863](./README_zh_CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -1287,6 +1299,12 @@
       "source_repo": "huanngzh/MV-Adapter",
       "status": "candidate",
       "text": "![teaser](assets/doc/teaser.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanImage-3.0",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u6587\u6863](./README_zh_CN.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -3430,11 +3448,47 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-T"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanImage-3.0"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

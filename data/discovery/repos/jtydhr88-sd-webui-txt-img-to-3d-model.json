@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T02:12:10.001425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2451
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A custom extension for sd-webui that allow you to generate 3D model from txt or image, basing on OpenAI Shap-E.",
+    "fork": false,
+    "full_name": "jtydhr88/sd-webui-txt-img-to-3d-model",
+    "html_url": "https://github.com/jtydhr88/sd-webui-txt-img-to-3d-model",
+    "language": "Python",
+    "pushed_at": "2023-07-29T13:32:31Z",
+    "stargazers_count": 274,
+    "topics": [],
+    "updated_at": "2026-03-15T11:01:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

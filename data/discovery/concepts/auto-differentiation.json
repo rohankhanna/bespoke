@@ -19,6 +19,18 @@
       "source_repo": "NVIDIA/MinkowskiEngine",
       "status": "candidate-context",
       "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate-context",
+      "text": "Algorithmic differentiation with hyper-dual numbers in C++ and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate-context",
+      "text": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "NVIDIA/MinkowskiEngine",
       "status": "candidate",
       "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate",
+      "text": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

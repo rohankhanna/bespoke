@@ -31,6 +31,18 @@
       "source_repo": "QingyongHu/SoTA-Point-Cloud",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate-context",
+      "text": "Brainchop: In-browser 3D MRI rendering and segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "QingyongHu/SoTA-Point-Cloud",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "QingyongHu/SoTA-Point-Cloud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "neuroneural/brainchop"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High performance spatial analysis in a web browser and across programming languages and hardware architectures "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "clang-format linter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "clang-format linter"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "clang-format linter",
+      "sense_id": "clang-format-linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clang-format-linter",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clang-format-linter",
+  "observation_id": "35103e290c3ccd6d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "clang-format linter",
+  "source_context_snippet": "clang-format linter",
+  "source_file": ".github/workflows/clang-format-linter.yml",
+  "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+  "source_repo_description": "High performance spatial analysis in a web browser and across programming languages and hardware architectures "
+}

@@ -650,6 +650,18 @@
       "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
       "status": "candidate-context",
       "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PozzettiAndrea/ComfyUI-DepthAnythingV3",
+      "status": "candidate-context",
+      "text": "ComfyUI support for DepthAnything V3 model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PozzettiAndrea/ComfyUI-DepthAnythingV3",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
     }
   ],
   "candidate_glosses": [
@@ -1028,6 +1040,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jtydhr88/ComfyUI-Workflow-Encrypt",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PozzettiAndrea/ComfyUI-DepthAnythingV3",
       "status": "candidate",
       "text": "Publish to Comfy registry"
     }
@@ -2453,11 +2471,29 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aigc-apps/VideoX-Fun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "PozzettiAndrea/ComfyUI-DepthAnythingV3"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "ros-tooling/action-ros-ci@0.4.5",
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2"
+    }
+  ]
+}

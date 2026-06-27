@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/HoloPart",
+      "target": "pointcept/sampart3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/HoloPart",
+      "target": "gtangg12/samesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/HoloPart",
+      "target": "tencent/hunyuandit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/HoloPart",
+      "target": "tencent/flashvdm",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
+  "source_repo": "VAST-AI-Research/HoloPart"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spatial Analysis of ISH Brain Slice Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031368,
+      "status": "candidate",
+      "text": "soma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995044,
+      "status": "candidate",
+      "text": "flesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945911,
+      "status": "candidate",
+      "text": "bod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938575,
+      "status": "candidate",
+      "text": "physique"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39890666,
+      "status": "candidate",
+      "text": "figure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "anatomy",
+      "sense_id": "anatomy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40046,
+      "status": "candidate",
+      "text": "soma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31055,
+      "status": "candidate",
+      "text": "shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29082,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29038,
+      "status": "candidate",
+      "text": "physique"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27050,
+      "status": "candidate",
+      "text": "build"
+    }
+  ],
+  "concept_id": "anatomy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "anatomy",
+  "observation_id": "633e09ba55426b88",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "anatomy",
+  "source_context_snippet": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)",
+  "source_file": null,
+  "source_repo": "ABRG-Models/Stalefish",
+  "source_repo_description": "Spatial Analysis of ISH Brain Slice Data"
+}

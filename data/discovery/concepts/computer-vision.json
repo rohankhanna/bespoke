@@ -3445,6 +3445,126 @@
       "source_repo": "baegwangbin/DSINE",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "status": "candidate-context",
+      "text": "Official implementation of the CVPR 2022 Paper \"Neural RGB-D Surface Reconstruction\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "status": "candidate-context",
+      "text": "> Neural RGB-D Surface Reconstruction <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/map-free-reloc",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] Map-free Visual Relocalization: Metric Pose Relative to a Single Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/map-free-reloc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/simplerecon",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] SimpleRecon: 3D Reconstruction Without 3D Convolutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/simplerecon",
+      "status": "candidate-context",
+      "text": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spla-tam/SplaTAM",
+      "status": "candidate-context",
+      "text": "SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM (CVPR 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spla-tam/SplaTAM",
+      "status": "candidate-context",
+      "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/mickey",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 - Oral] Matching 2D Images in 3D: Metric Relative Pose from Metric Correspondences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/mickey",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardaduz/deep-video-mvs",
+      "status": "candidate-context",
+      "text": "Code for \"DeepVideoMVS: Multi-View Stereo on Video with Recurrent Spatio-Temporal Fusion\" (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardaduz/deep-video-mvs",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niessner/mLib",
+      "status": "candidate-context",
+      "text": "Research Library used in the Visual Computing Lab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niessner/mLib",
+      "status": "candidate-context",
+      "text": "mLib is a library to support research projects, and has been used in a large number of publications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate-context",
+      "text": "[ECCV 2024 - Oral] ACE0 is a learning-based structure-from-motion approach that estimates camera parameters of sets of images by learning a multi-view consistent, implicit scene representation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate-context",
+      "text": "This repository contains the code associated to the ACE0 paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RuojinCai/ExtremeRotation_code",
+      "status": "candidate-context",
+      "text": "Extreme Rotation Estimation using Dense Correlation Volumes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RuojinCai/ExtremeRotation_code",
+      "status": "candidate-context",
+      "text": "This repository contains a PyTorch implementation of the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate-context",
+      "text": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><picture>"
     }
   ],
   "candidate_glosses": [
@@ -5169,6 +5289,66 @@
       "source_repo": "baegwangbin/DSINE",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "status": "candidate",
+      "text": "> Neural RGB-D Surface Reconstruction <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/map-free-reloc",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/simplerecon",
+      "status": "candidate",
+      "text": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spla-tam/SplaTAM",
+      "status": "candidate",
+      "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/mickey",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardaduz/deep-video-mvs",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niessner/mLib",
+      "status": "candidate",
+      "text": "mLib is a library to support research projects, and has been used in a large number of publications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate",
+      "text": "This repository contains the code associated to the ACE0 paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RuojinCai/ExtremeRotation_code",
+      "status": "candidate",
+      "text": "This repository contains a PyTorch implementation of the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate",
+      "text": "<div align=\"center\"><picture>"
     }
   ],
   "candidate_related_terms": [],
@@ -16618,11 +16798,191 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/ReCamMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/map-free-reloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "spla-tam/SplaTAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ardaduz/deep-video-mvs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "niessner/mLib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/acezero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "RuojinCai/ExtremeRotation_code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "MrNeRF/LichtFeld-Studio"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

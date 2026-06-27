@@ -2698,6 +2698,18 @@
       "source_repo": "alex-shpak/hugo-book",
       "status": "candidate-context",
       "text": "[![Hugo](https://img.shields.io/badge/hugo-0.158-blue.svg)](https://gohugo.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate-context",
+      "text": "High performance spatial analysis in a web browser and across programming languages and hardware architectures "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -4080,6 +4092,12 @@
       "source_repo": "alex-shpak/hugo-book",
       "status": "candidate",
       "text": "[![Hugo](https://img.shields.io/badge/hugo-0.158-blue.svg)](https://gohugo.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate",
+      "text": "Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -11694,11 +11712,89 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/Documentation.yml",
       "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -632,6 +632,66 @@
       "source_repo": "vapoursynth/vapoursynth",
       "status": "candidate-context",
       "text": "codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "The MATLAB toolbox for MEG, EEG and iEEG analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "dcm2nii DICOM to NIfTI converter: compiled versions available from NITRC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niivue/niivue",
+      "status": "candidate-context",
+      "text": "a WebGL2 based medical image viewer. Supports over 30 formats of volumes and meshes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/niivue",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joblib/joblib",
+      "status": "candidate-context",
+      "text": "Computing with Python functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joblib/joblib",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flatironinstitute/neurosift",
+      "status": "candidate-context",
+      "text": "Browser-based NWB visualization and DANDI exploration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatironinstitute/neurosift",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
   "candidate_glosses": [
@@ -946,6 +1006,36 @@
       "source_repo": "vapoursynth/vapoursynth",
       "status": "candidate",
       "text": "codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/niivue",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joblib/joblib",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatironinstitute/neurosift",
+      "status": "candidate",
+      "text": "Codespell"
     }
   ],
   "candidate_related_terms": [],
@@ -1307,11 +1397,41 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/_codespell.yml",
       "source_repo": "MakieOrg/Makie.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "fieldtrip/fieldtrip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "rordenlab/dcm2niix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "niivue/niivue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "joblib/joblib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "flatironinstitute/neurosift"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

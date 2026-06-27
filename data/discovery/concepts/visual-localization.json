@@ -79,6 +79,18 @@
       "source_repo": "amaralibey/gsv-cities",
       "status": "candidate-context",
       "text": "Official repo for *Neurocomputing 2022* paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/ace",
+      "status": "candidate-context",
+      "text": "[CVPR 2023 - Highlight] Accelerated Coordinate Encoding (ACE): Learning to Relocalize in Minutes using RGB and Poses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/ace",
+      "status": "candidate-context",
+      "text": "----------------------------------------------------------------------------------------"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "amaralibey/gsv-cities",
       "status": "candidate",
       "text": "Official repo for *Neurocomputing 2022* paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/ace",
+      "status": "candidate",
+      "text": "----------------------------------------------------------------------------------------"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "amaralibey/gsv-cities"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

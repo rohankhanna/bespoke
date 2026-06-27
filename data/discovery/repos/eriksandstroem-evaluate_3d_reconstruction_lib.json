@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eriksandstroem/evaluate_3d_reconstruction_lib",
+      "target": "isl-org/tanksandtemples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eriksandstroem/evaluate_3d_reconstruction_lib",
+      "target": "tfy14esa/evaluate_3d_reconstruction_lib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:18:07.737783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Given an input mesh, computes the F-score. This assumes that an appropriate path to the ground truth mesh is available.",
+    "fork": false,
+    "full_name": "eriksandstroem/evaluate_3d_reconstruction_lib",
+    "html_url": "https://github.com/eriksandstroem/evaluate_3d_reconstruction_lib",
+    "language": "Python",
+    "pushed_at": "2024-03-20T15:13:55Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-05-14T09:34:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isl-org/tanksandtemples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tfy14esa/evaluate_3d_reconstruction_lib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

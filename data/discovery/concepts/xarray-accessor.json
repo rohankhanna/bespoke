@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "xarray-accessor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate-context",
+      "text": "xarray DataArray accessors for PyVista"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pyvista-xarray.svg?logo=python&logoColor=white)](https://pypi.org/project/pyvista-xarray/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pyvista-xarray.svg?logo=python&logoColor=white)](https://pypi.org/project/pyvista-xarray/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "xarray-accessor",
+  "concept_id": "xarray-accessor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "pyvista/pyvista-xarray"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xarray-accessor",
+      "sense_id": "xarray-accessor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

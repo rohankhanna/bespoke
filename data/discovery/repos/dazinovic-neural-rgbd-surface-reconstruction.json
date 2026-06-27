@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "target": "angeladai/spsg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "target": "deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:11:43.485985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of the CVPR 2022 Paper \"Neural RGB-D Surface Reconstruction\"",
+    "fork": false,
+    "full_name": "dazinovic/neural-rgbd-surface-reconstruction",
+    "html_url": "https://github.com/dazinovic/neural-rgbd-surface-reconstruction",
+    "language": "Python",
+    "pushed_at": "2025-08-04T19:48:50Z",
+    "stargazers_count": 628,
+    "topics": [
+      "3d-reconstruction",
+      "computer-graphics",
+      "computer-vision",
+      "deep-learning"
+    ],
+    "updated_at": "2026-05-06T08:40:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "angeladai/spsg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Neural RGB-D Surface Reconstruction <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "> Neural RGB-D Surface Reconstruction <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "> Neural RGB-D Surface Reconstruction <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "> Neural RGB-D Surface Reconstruction <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ansys Lab"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansys/pydpf-core",
+      "status": "candidate-context",
+      "text": "Data Processing Framework - Python Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pydpf-core",
+      "status": "candidate-context",
+      "text": "Ansys Lab"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pydpf-core",
+      "status": "candidate",
+      "text": "Ansys Lab"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "laboratories"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "laboratory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "labrador"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "labs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "meth"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ansys Lab",
+  "concept_id": "ansys-lab",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ansys_lab.yml",
+      "source_repo": "ansys/pydpf-core"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ansys Lab",
+      "sense_id": "ansys-lab#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

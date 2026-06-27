@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "miykael/3dprintyourbrain",
+      "target": "skjerns/3dprintyourbrain",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:19:28.815308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "How to 3D print your brain from a T1 MRI image.",
+    "fork": false,
+    "full_name": "miykael/3dprintyourbrain",
+    "html_url": "https://github.com/miykael/3dprintyourbrain",
+    "language": "Shell",
+    "pushed_at": "2021-12-19T14:54:24Z",
+    "stargazers_count": 475,
+    "topics": [],
+    "updated_at": "2026-06-15T18:41:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skjerns/3dprintyourbrain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

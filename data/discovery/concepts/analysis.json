@@ -286,6 +286,30 @@
       "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
       "status": "candidate-context",
       "text": "Sound Field Analysis toolbox for Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate-context",
+      "text": "The ENIGMA Toolbox is an open-source repository for accessing 100+ ENIGMA statistical maps, visualizing cortical and subcortical surface data, and relating neuroimaging findings to micro- and macroscale brain organization. \ud83e\udd20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate-context",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "The MATLAB toolbox for MEG, EEG and iEEG analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)"
     }
   ],
   "candidate_glosses": [
@@ -426,6 +450,18 @@
       "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
       "status": "candidate",
       "text": "Sound Field Analysis toolbox for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate",
+      "text": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)"
     }
   ],
   "candidate_related_terms": [
@@ -1139,11 +1175,29 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

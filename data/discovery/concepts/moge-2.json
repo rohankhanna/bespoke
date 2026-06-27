@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "moge-2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "status": "candidate-context",
+      "text": "Monocular Metric Depth estimation and Point Cloud generation from camera images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "moge-2",
+  "concept_id": "moge-2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "moge-2",
+      "sense_id": "moge-2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

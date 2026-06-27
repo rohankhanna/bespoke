@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3707,6 +3707,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mpariente/pytorch_stoi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl-reader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tagged_release.yml",
+      "source_repo": "MICA-MNI/ENIGMA"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "agilescientific/striplog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "agilescientific/striplog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "agilescientific/striplog"
     }
   ]
 }

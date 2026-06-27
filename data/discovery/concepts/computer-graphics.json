@@ -493,6 +493,42 @@
       "source_repo": "fangq/iso2mesh",
       "status": "candidate-context",
       "text": "| | |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "status": "candidate-context",
+      "text": "Official implementation of the CVPR 2022 Paper \"Neural RGB-D Surface Reconstruction\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "status": "candidate-context",
+      "text": "> Neural RGB-D Surface Reconstruction <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niessner/mLib",
+      "status": "candidate-context",
+      "text": "Research Library used in the Visual Computing Lab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niessner/mLib",
+      "status": "candidate-context",
+      "text": "mLib is a library to support research projects, and has been used in a large number of publications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate-context",
+      "text": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><picture>"
     }
   ],
   "candidate_glosses": [
@@ -741,6 +777,24 @@
       "source_repo": "fangq/iso2mesh",
       "status": "candidate",
       "text": "| | |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "status": "candidate",
+      "text": "> Neural RGB-D Surface Reconstruction <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niessner/mLib",
+      "status": "candidate",
+      "text": "mLib is a library to support research projects, and has been used in a large number of publications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate",
+      "text": "<div align=\"center\"><picture>"
     }
   ],
   "candidate_related_terms": [],
@@ -1516,11 +1570,35 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "fangq/iso2mesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "niessner/mLib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "MrNeRF/LichtFeld-Studio"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

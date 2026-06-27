@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T05:17:55.913483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV'18] Recovering 3D Planes from a Single Image via Convolutional Neural Networks ",
+    "fork": false,
+    "full_name": "fuy34/planerecover",
+    "html_url": "https://github.com/fuy34/planerecover",
+    "language": "Python",
+    "pushed_at": "2022-05-05T04:14:26Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-05-09T16:58:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

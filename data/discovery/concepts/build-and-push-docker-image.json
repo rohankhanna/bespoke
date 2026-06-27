@@ -184,6 +184,18 @@
       "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
       "status": "candidate-context",
       "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flatironinstitute/neurosift",
+      "status": "candidate-context",
+      "text": "Browser-based NWB visualization and DANDI exploration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatironinstitute/neurosift",
+      "status": "candidate-context",
+      "text": "Build and Push Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -274,6 +286,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate",
+      "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatironinstitute/neurosift",
       "status": "candidate",
       "text": "Build and Push Docker Image"
     }
@@ -709,11 +727,23 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": ".github/workflows/docker-build.yml",
       "source_repo": "aristoteleo/PantheonOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "aristoteleo/PantheonOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "flatironinstitute/neurosift"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

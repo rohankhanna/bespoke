@@ -302,7 +302,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T13:00:20.275592+00:00",
+  "fetched_at": "2026-06-27T04:58:24.430092+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -347,13 +347,13 @@
     "html_url": "https://github.com/Farama-Foundation/Minigrid",
     "language": "Python",
     "pushed_at": "2026-06-24T15:41:04Z",
-    "stargazers_count": 2470,
+    "stargazers_count": 2472,
     "topics": [
       "gridworld-environment",
       "gymnasium",
       "gymnasium-environment"
     ],
-    "updated_at": "2026-06-25T18:43:29Z"
+    "updated_at": "2026-06-26T22:46:41Z"
   },
   "repo_links": [
     {

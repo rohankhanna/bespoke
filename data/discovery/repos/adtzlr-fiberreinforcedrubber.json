@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "target": "Codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "target": "cord-rubber-composite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "target": "damage-mechanisms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "target": "delamination",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "target": "fatigue-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "target": "finite-elements-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "target": "tomography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:12:35.852381+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5330
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1452
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Numeric simulation for a test specimen with a fiber-reinforced rubber composite",
+    "fork": false,
+    "full_name": "adtzlr/fiberreinforcedrubber",
+    "html_url": "https://github.com/adtzlr/fiberreinforcedrubber",
+    "language": "Python",
+    "pushed_at": "2024-04-02T15:30:18Z",
+    "stargazers_count": 2,
+    "topics": [
+      "cord-rubber-composite",
+      "damage-mechanisms",
+      "delamination",
+      "fatigue-testing",
+      "finite-elements-analysis",
+      "tomography"
+    ],
+    "updated_at": "2025-06-20T13:36:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Codecov",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Codecov"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cord-rubber-composite"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "damage-mechanisms"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delamination"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fatigue-testing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finite-elements-analysis"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tomography"
+    }
+  ]
+}

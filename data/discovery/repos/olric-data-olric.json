@@ -228,11 +228,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T07:50:35.525663+00:00",
+  "fetched_at": "2026-06-27T04:25:14.054916+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 65060
+      "size": 66809
     },
     {
       "path": "Dockerfile",
@@ -240,7 +240,7 @@
     },
     {
       "path": "go.mod",
-      "size": 1636
+      "size": 1596
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -264,7 +264,7 @@
     "full_name": "olric-data/olric",
     "html_url": "https://github.com/olric-data/olric",
     "language": "Go",
-    "pushed_at": "2026-06-12T14:10:55Z",
+    "pushed_at": "2026-06-26T12:21:12Z",
     "stargazers_count": 3470,
     "topics": [
       "cache",
@@ -279,7 +279,7 @@
       "nosql",
       "redis"
     ],
-    "updated_at": "2026-06-25T16:27:12Z"
+    "updated_at": "2026-06-26T12:21:17Z"
   },
   "repo_links": [
     {

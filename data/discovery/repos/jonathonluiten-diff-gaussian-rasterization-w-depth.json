@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T05:18:08.608453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JonathonLuiten/diff-gaussian-rasterization-w-depth",
+    "html_url": "https://github.com/JonathonLuiten/diff-gaussian-rasterization-w-depth",
+    "language": "Cuda",
+    "pushed_at": "2023-09-19T15:02:09Z",
+    "stargazers_count": 232,
+    "topics": [],
+    "updated_at": "2026-06-17T02:20:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pointcept/SAMPart3D",
+      "target": "chungmin99/garfield",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pointcept/SAMPart3D",
+      "target": "pointcept/pointtransformerv3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pointcept/SAMPart3D",
+      "target": "mhamilton723/featup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pointcept/SAMPart3D",
+      "target": "zyc00/partslip2",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
+  "source_repo": "Pointcept/SAMPart3D"
+}

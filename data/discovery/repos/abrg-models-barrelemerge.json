@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T02:12:19.177597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emergence of whisker barrels with modified Karbowski-Ermentrout-like axon branching population model",
+    "fork": false,
+    "full_name": "ABRG-Models/BarrelEmerge",
+    "html_url": "https://github.com/ABRG-Models/BarrelEmerge",
+    "language": "TeX",
+    "pushed_at": "2026-06-16T09:54:24Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-06-16T09:56:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

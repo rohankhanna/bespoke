@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T02:14:20.406905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MATLAB application for imaging and reconstruction of fNIRS data on atlas anatomy ",
+    "fork": false,
+    "full_name": "BUNPC/AtlasViewer",
+    "html_url": "https://github.com/BUNPC/AtlasViewer",
+    "language": "MATLAB",
+    "pushed_at": "2025-02-21T13:43:25Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-05-18T07:15:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

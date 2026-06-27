@@ -55,6 +55,18 @@
       "source_repo": "luping-liu/PNDM",
       "status": "candidate-context",
       "text": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate-context",
+      "text": "Generalized (hyper-) dual numbers in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate-context",
+      "text": "[![crate](https://img.shields.io/crates/v/num-dual.svg)](https://crates.io/crates/num-dual)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "luping-liu/PNDM",
       "status": "candidate",
       "text": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate",
+      "text": "[![crate](https://img.shields.io/crates/v/num-dual.svg)](https://crates.io/crates/num-dual)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "luping-liu/PNDM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "itt-ustutt/num-dual"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

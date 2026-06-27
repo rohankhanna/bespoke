@@ -322,6 +322,66 @@
       "source_repo": "adtzlr/felupe",
       "status": "candidate-context",
       "text": "Codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adtzlr/contique",
+      "status": "candidate-context",
+      "text": "Numeric continuation of equilibrium equations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/contique",
+      "status": "candidate-context",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "status": "candidate-context",
+      "text": "Numeric simulation for a test specimen with a fiber-reinforced rubber composite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "status": "candidate-context",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adtzlr/hyperelastic",
+      "status": "candidate-context",
+      "text": "Constitutive hyperelastic material formulations for FElupe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/hyperelastic",
+      "status": "candidate-context",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adtzlr/matadi",
+      "status": "candidate-context",
+      "text": "Material Definition with Automatic Differentiation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/matadi",
+      "status": "candidate-context",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adtzlr/tensortrax",
+      "status": "candidate-context",
+      "text": "Differentiable Tensors based on NumPy Arrays"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/tensortrax",
+      "status": "candidate-context",
+      "text": "Codecov"
     }
   ],
   "candidate_glosses": [
@@ -484,6 +544,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "adtzlr/felupe",
+      "status": "candidate",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/contique",
+      "status": "candidate",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/fiberreinforcedrubber",
+      "status": "candidate",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/hyperelastic",
+      "status": "candidate",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/matadi",
+      "status": "candidate",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/tensortrax",
       "status": "candidate",
       "text": "Codecov"
     }
@@ -667,11 +757,41 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/upload-codecov.yml",
       "source_repo": "adtzlr/felupe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/contique"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "adtzlr/fiberreinforcedrubber"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/hyperelastic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/matadi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/tensortrax"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

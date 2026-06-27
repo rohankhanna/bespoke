@@ -19,6 +19,18 @@
       "source_repo": "bjlittle/geovista",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate-context",
+      "text": "xarray DataArray accessors for PyVista"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pyvista-xarray.svg?logo=python&logoColor=white)](https://pypi.org/project/pyvista-xarray/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bjlittle/geovista",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pyvista-xarray.svg?logo=python&logoColor=white)](https://pypi.org/project/pyvista-xarray/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "bjlittle/geovista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "pyvista/pyvista-xarray"
     }
   ],
   "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

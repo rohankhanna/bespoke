@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "yester31/monocular_depth_estimation_trt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "moge-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "monocular-depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
+  "source_repo": "ika-rwth-aachen/ros2-moge-trt"
+}

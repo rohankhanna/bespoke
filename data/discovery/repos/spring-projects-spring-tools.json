@@ -264,7 +264,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T01:15:06.968472+00:00",
+  "fetched_at": "2026-06-27T05:35:46.073936+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -316,8 +316,8 @@
     "full_name": "spring-projects/spring-tools",
     "html_url": "https://github.com/spring-projects/spring-tools",
     "language": "Java",
-    "pushed_at": "2026-06-25T01:12:10Z",
-    "stargazers_count": 970,
+    "pushed_at": "2026-06-27T03:55:38Z",
+    "stargazers_count": 969,
     "topics": [
       "eclipse",
       "spring",
@@ -327,7 +327,7 @@
       "visual-studio-code",
       "vscode-extension"
     ],
-    "updated_at": "2026-06-25T01:12:14Z"
+    "updated_at": "2026-06-26T09:45:19Z"
   },
   "repo_links": [],
   "terms": [

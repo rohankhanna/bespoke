@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "bytedance/ImageDream",
+      "target": "kair-bair/nerfacc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "bytedance/ImageDream",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "bytedance/ImageDream",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "bytedance/ImageDream",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/ImageDream",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:31:11.655508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2678
+    },
+    {
+      "path": "requirements.txt",
+      "size": 686
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The code releasing for https://image-dream.github.io/",
+    "fork": false,
+    "full_name": "bytedance/ImageDream",
+    "html_url": "https://github.com/bytedance/ImageDream",
+    "language": "Python",
+    "pushed_at": "2024-01-27T19:33:26Z",
+    "stargazers_count": 800,
+    "topics": [
+      "research"
+    ],
+    "updated_at": "2026-06-21T12:54:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kair-bair/nerfacc",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Peng Wang, Yichun Shi",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

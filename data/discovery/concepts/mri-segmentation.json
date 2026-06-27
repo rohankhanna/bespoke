@@ -19,6 +19,18 @@
       "source_repo": "MIC-DKFZ/MedNeXt",
       "status": "candidate-context",
       "text": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate-context",
+      "text": "Brainchop: In-browser 3D MRI rendering and segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "MIC-DKFZ/MedNeXt",
       "status": "candidate",
       "text": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "MIC-DKFZ/MedNeXt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "neuroneural/brainchop"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

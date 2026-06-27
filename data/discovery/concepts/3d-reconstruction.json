@@ -613,6 +613,66 @@
       "source_repo": "HengyiWang/spann3r",
       "status": "candidate-context",
       "text": "> 3D Reconstruction with Spatial Memory <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "status": "candidate-context",
+      "text": "Official implementation of the CVPR 2022 Paper \"Neural RGB-D Surface Reconstruction\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "status": "candidate-context",
+      "text": "> Neural RGB-D Surface Reconstruction <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuchengSu/WorldStereo",
+      "status": "candidate-context",
+      "text": "[CVPR 2026] WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories (WorldExpand of HY-World 2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuchengSu/WorldStereo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradslam/gradslam",
+      "status": "candidate-context",
+      "text": "gradslam is an open source differentiable dense SLAM library for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradslam/gradslam",
+      "status": "candidate-context",
+      "text": "![](assets/gradslam-banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate-context",
+      "text": "[ECCV 2024 - Oral] ACE0 is a learning-based structure-from-motion approach that estimates camera parameters of sets of images by learning a multi-view consistent, implicit scene representation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate-context",
+      "text": "This repository contains the code associated to the ACE0 paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Parskatt/RoMa",
+      "status": "candidate-context",
+      "text": "[CVPR 2024] RoMa: Robust Dense Feature Matching; RoMa is the robust dense feature matcher capable of estimating pixel-dense warps and reliable certainties for almost any image pair."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Parskatt/RoMa",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -921,6 +981,36 @@
       "source_repo": "HengyiWang/spann3r",
       "status": "candidate",
       "text": "> 3D Reconstruction with Spatial Memory <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction",
+      "status": "candidate",
+      "text": "> Neural RGB-D Surface Reconstruction <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuchengSu/WorldStereo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradslam/gradslam",
+      "status": "candidate",
+      "text": "![](assets/gradslam-banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate",
+      "text": "This repository contains the code associated to the ACE0 paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Parskatt/RoMa",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1696,11 +1786,47 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "HengyiWang/spann3r"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "FuchengSu/WorldStereo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "gradslam/gradslam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/acezero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "Parskatt/RoMa"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

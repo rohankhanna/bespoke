@@ -163,6 +163,18 @@
       "source_repo": "academic/awesome-datascience",
       "status": "candidate-context",
       "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agilescientific/striplog",
+      "status": "candidate-context",
+      "text": "Lithology and stratigraphic logs for wells or outcrop. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agilescientific/striplog",
+      "status": "candidate-context",
+      "text": "[![Build and test](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml/badge.svg)](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "academic/awesome-datascience",
       "status": "candidate",
       "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agilescientific/striplog",
+      "status": "candidate",
+      "text": "[![Build and test](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml/badge.svg)](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -856,11 +874,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "agilescientific/striplog"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

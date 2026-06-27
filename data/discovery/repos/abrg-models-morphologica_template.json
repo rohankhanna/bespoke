@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T02:12:20.057663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "An example project that uses morphologica. Demonstrates how you incorporate morphologica into your own program.",
+    "fork": false,
+    "full_name": "ABRG-Models/morphologica_template",
+    "html_url": "https://github.com/ABRG-Models/morphologica_template",
+    "language": "C++",
+    "pushed_at": "2025-04-02T09:34:22Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-10T13:27:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "neurobiology"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ABRG-Models/Stalefish",
+      "status": "candidate-context",
+      "text": "Spatial Analysis of ISH Brain Slice Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/Stalefish",
+      "status": "candidate-context",
+      "text": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/Stalefish",
+      "status": "candidate",
+      "text": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023001,
+      "status": "candidate",
+      "text": "neurophysiology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023000,
+      "status": "candidate",
+      "text": "neuroscience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022999,
+      "status": "candidate",
+      "text": "neurobiochemistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022998,
+      "status": "candidate",
+      "text": "neurology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022997,
+      "status": "candidate",
+      "text": "neuroanatomy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "neurobiology",
+  "concept_id": "neurobiology",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ABRG-Models/Stalefish"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neurobiology",
+      "sense_id": "neurobiology#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

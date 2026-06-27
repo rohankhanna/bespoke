@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "bids"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "The MATLAB toolbox for MEG, EEG and iEEG analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdebayoBraimah/convert_source",
+      "status": "candidate-context",
+      "text": "Convert source DICOM, PAR REC or NIFTI image data to BIDS directory layout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdebayoBraimah/convert_source",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aramis-lab/pydra-dcm2bids",
+      "status": "candidate-context",
+      "text": "Pydra tasks for dcm2bids"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/pydra-dcm2bids",
+      "status": "candidate-context",
+      "text": "[![PyPI - Version][pypi-version]][pypi-project]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate",
+      "text": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdebayoBraimah/convert_source",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/pydra-dcm2bids",
+      "status": "candidate",
+      "text": "[![PyPI - Version][pypi-version]][pypi-project]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936961,
+      "status": "candidate",
+      "text": "dictation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29908061,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29883589,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29865976,
+      "status": "candidate",
+      "text": "offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29862751,
+      "status": "candidate",
+      "text": "invite"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bids",
+  "concept_id": "bids",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "aramis-lab/pydra-dcm2bids"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bids",
+      "sense_id": "bids#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

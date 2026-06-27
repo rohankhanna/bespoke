@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "gitlab"
+    "gitlab",
+    "GitLab"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -175,6 +178,18 @@
       "source_repo": "ImranR98/apps.obtainium.imranr.dev",
       "status": "candidate-context",
       "text": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "status": "candidate-context",
+      "text": "docker-ros automatically builds development and deployment Docker images for your ROS-based repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "status": "candidate-context",
+      "text": "GitLab"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +276,12 @@
       "source_repo": "ImranR98/apps.obtainium.imranr.dev",
       "status": "candidate",
       "text": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "status": "candidate",
+      "text": "GitLab"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +409,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ImranR98/apps.obtainium.imranr.dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/gitlab.yml",
+      "source_repo": "ika-rwth-aachen/docker-ros"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

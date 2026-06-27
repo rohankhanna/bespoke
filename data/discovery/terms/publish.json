@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -1836,6 +1836,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/cd-publish.yml",
       "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "softwareunderground/gio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aramis-lab/clinica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aramis-lab/pydra-dcm2bids"
     }
   ],
   "term": "publish"

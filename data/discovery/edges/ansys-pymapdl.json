@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ansys/pymapdl",
-      "target": "ansys/pymapdl-reader",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ansys/pymapdl",
-      "target": "ansys/pymapdl-corba",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approver.yml",
       "source_repo": "ansys/pymapdl",
@@ -393,6 +379,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-26T12:57:23.248127+00:00",
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
   "source_repo": "ansys/pymapdl"
 }

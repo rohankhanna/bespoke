@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nianticlabs/mickey",
+      "target": "nianticlabs/ace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nianticlabs/mickey",
+      "target": "nianticlabs/acezero",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nianticlabs/mickey",
+      "target": "parskatt/roma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nianticlabs/mickey",
+      "target": "ruojincai/extremerotation_code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey",
+      "target": "cvpr2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey",
+      "target": "dsac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey",
+      "target": "metric-correspondences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey",
+      "target": "mickey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey",
+      "target": "ransac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey",
+      "target": "ransac-algorithm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:30:48.553701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024 - Oral] Matching 2D Images in 3D: Metric Relative Pose from Metric Correspondences",
+    "fork": false,
+    "full_name": "nianticlabs/mickey",
+    "html_url": "https://github.com/nianticlabs/mickey",
+    "language": "Python",
+    "pushed_at": "2024-12-02T10:39:34Z",
+    "stargazers_count": 594,
+    "topics": [
+      "computer-vision",
+      "cvpr2024",
+      "dsac",
+      "metric-correspondences",
+      "mickey",
+      "pose-estimation",
+      "ransac",
+      "ransac-algorithm"
+    ],
+    "updated_at": "2026-05-20T11:15:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nianticlabs/ace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nianticlabs/acezero",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parskatt/roma",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruojincai/extremerotation_code",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div style=\"text-align: center;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2024"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dsac"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metric-correspondences"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mickey"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ransac"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ransac-algorithm"
+    }
+  ]
+}

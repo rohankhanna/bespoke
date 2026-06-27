@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GPL build & smoke"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rordenlab/niimath",
+      "status": "candidate-context",
+      "text": "niimath - a clone of fslmaths. Try the live demo:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/niimath",
+      "status": "candidate-context",
+      "text": "GPL build & smoke"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/niimath",
+      "status": "candidate",
+      "text": "GPL build & smoke"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "wordpress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9285,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9285,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9285,
+      "status": "candidate",
+      "text": "soot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9285,
+      "status": "candidate",
+      "text": "stack"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GPL build & smoke",
+  "concept_id": "gpl-build-smoke",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/gpl-build.yml",
+      "source_repo": "rordenlab/niimath"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GPL build & smoke",
+      "sense_id": "gpl-build-smoke#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

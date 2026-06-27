@@ -139,6 +139,66 @@
       "source_repo": "JuliaDiff/ForwardDiff.jl",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adtzlr/hyperelastic",
+      "status": "candidate-context",
+      "text": "Constitutive hyperelastic material formulations for FElupe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/hyperelastic",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adtzlr/matadi",
+      "status": "candidate-context",
+      "text": "Material Definition with Automatic Differentiation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/matadi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adtzlr/tensortrax",
+      "status": "candidate-context",
+      "text": "Differentiable Tensors based on NumPy Arrays"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/tensortrax",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate-context",
+      "text": "Generalized (hyper-) dual numbers in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate-context",
+      "text": "[![crate](https://img.shields.io/crates/v/num-dual.svg)](https://crates.io/crates/num-dual)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate-context",
+      "text": "Algorithmic differentiation with hyper-dual numbers in C++ and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate-context",
+      "text": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +267,36 @@
       "source_repo": "JuliaDiff/ForwardDiff.jl",
       "status": "candidate",
       "text": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/hyperelastic",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/matadi",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adtzlr/tensortrax",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itt-ustutt/num-dual",
+      "status": "candidate",
+      "text": "[![crate](https://img.shields.io/crates/v/num-dual.svg)](https://crates.io/crates/num-dual)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate",
+      "text": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)"
     }
   ],
   "candidate_related_terms": [],
@@ -1738,11 +1828,59 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "adtzlr/hyperelastic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "adtzlr/matadi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "adtzlr/tensortrax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "itt-ustutt/num-dual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

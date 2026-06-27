@@ -823,6 +823,18 @@
       "source_repo": "ansys/pymapdl",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KCL-BMEIS/niftyreg",
+      "status": "candidate-context",
+      "text": "This project contains command line tools to perform rigid, affine and non-linear registration of nifti or analyse images as well as utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KCL-BMEIS/niftyreg",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
   "candidate_glosses": [
@@ -1231,6 +1243,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ansys/pymapdl",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KCL-BMEIS/niftyreg",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
     }
@@ -2560,11 +2578,41 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crewAIInc/crewAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ansys/pymapdl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "KCL-BMEIS/niftyreg"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

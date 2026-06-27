@@ -1,0 +1,163 @@
+{
+  "aliases": [
+    "geology"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate-context",
+      "text": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate-context",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate-context",
+      "text": "Read and write subsurface data files describing surfaces, grids and horizons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/agilescientific/gio/actions/workflows/build-test.yml/badge.svg)](https://github.com/agilescientific/gio/actions/workflows/build-test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agilescientific/striplog",
+      "status": "candidate-context",
+      "text": "Lithology and stratigraphic logs for wells or outcrop. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agilescientific/striplog",
+      "status": "candidate-context",
+      "text": "[![Build and test](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml/badge.svg)](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/agilescientific/gio/actions/workflows/build-test.yml/badge.svg)](https://github.com/agilescientific/gio/actions/workflows/build-test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agilescientific/striplog",
+      "status": "candidate",
+      "text": "[![Build and test](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml/badge.svg)](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39880725,
+      "status": "candidate",
+      "text": "formation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026412,
+      "status": "candidate",
+      "text": "geological formation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026411,
+      "status": "candidate",
+      "text": "geological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026318,
+      "status": "candidate",
+      "text": "geologic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023666,
+      "status": "candidate",
+      "text": "geoscience"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5048,
+      "status": "candidate",
+      "text": "formation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "geological formation"
+    }
+  ],
+  "canonical_name": "geology",
+  "concept_id": "geology",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "softwareunderground/gio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "agilescientific/striplog"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geology",
+      "sense_id": "geology#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

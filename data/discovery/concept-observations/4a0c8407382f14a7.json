@@ -84,7 +84,7 @@
   "normalized_form": "force-pypi-release",
   "observation_id": "4a0c8407382f14a7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-07T00:37:24.413591+00:00",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
   "observed_text": "Force PyPI Release",
   "source_context_snippet": "Force PyPI Release",
   "source_file": ".github/workflows/force-pypi.yaml",

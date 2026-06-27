@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ROS2 Wrapper for DepthAnything V2 model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970117,
+      "status": "candidate",
+      "text": "percept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969518,
+      "status": "candidate",
+      "text": "perceiving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963614,
+      "status": "candidate",
+      "text": "sensing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970577,
+      "status": "candidate",
+      "text": "perceptual experience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970484,
+      "status": "candidate",
+      "text": "imagination"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "perception",
+      "sense_id": "perception#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7029,
+      "status": "candidate",
+      "text": "percept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3009,
+      "status": "candidate",
+      "text": "perceptual experience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1019,
+      "status": "candidate",
+      "text": "perceiving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "sensing"
+    }
+  ],
+  "concept_id": "perception",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "perception",
+  "observation_id": "6f09b93600ebeeb4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "perception",
+  "source_context_snippet": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)",
+  "source_file": null,
+  "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+  "source_repo_description": "ROS2 Wrapper for DepthAnything V2 model."
+}

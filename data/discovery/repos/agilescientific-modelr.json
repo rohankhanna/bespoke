@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "agilescientific/modelr",
+      "target": "agile-geoscience/modelr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:18:57.036195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Google charts like API for Geoscience",
+    "fork": false,
+    "full_name": "agilescientific/modelr",
+    "html_url": "https://github.com/agilescientific/modelr",
+    "language": "Python",
+    "pushed_at": "2024-03-17T10:37:45Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2024-12-05T02:39:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agile-geoscience/modelr",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

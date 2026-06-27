@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ROS2 Wrapper for DepthAnything V2 model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "metric-depth-estimation",
+      "sense_id": "metric-depth-estimation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "metric-depth-estimation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "metric-depth-estimation",
+  "observation_id": "7ecfbef727bcd630",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "metric-depth-estimation",
+  "source_context_snippet": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)",
+  "source_file": null,
+  "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+  "source_repo_description": "ROS2 Wrapper for DepthAnything V2 model."
+}

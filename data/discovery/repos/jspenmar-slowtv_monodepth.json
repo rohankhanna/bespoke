@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "target": "huangying-zhan/depth-vo-feat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "target": "fabiotosi92/monoresmatch-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "target": "brandleyzhou/diffnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "target": "aliyun/newcrfs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "target": "iccv2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:30:45.844461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for the ICCV2023 paper \"Kick Back & Relax: Learning to Reconstruct the World by Watching SlowTV\" ",
+    "fork": false,
+    "full_name": "jspenmar/slowtv_monodepth",
+    "html_url": "https://github.com/jspenmar/slowtv_monodepth",
+    "language": "Python",
+    "pushed_at": "2024-03-05T08:40:09Z",
+    "stargazers_count": 84,
+    "topics": [
+      "datasets",
+      "deep-learning",
+      "iccv2023",
+      "monocular-depth-estimation",
+      "self-supervised-learning"
+    ],
+    "updated_at": "2026-03-14T20:24:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliyun/newcrfs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brandleyzhou/diffnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fabiotosi92/monoresmatch-tensorflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huangying-zhan/depth-vo-feat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2023"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    }
+  ]
+}

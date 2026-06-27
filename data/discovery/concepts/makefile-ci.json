@@ -127,6 +127,18 @@
       "source_repo": "fletcher/MultiMarkdown-6",
       "status": "candidate-context",
       "text": "Makefile CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/zlib",
+      "status": "candidate-context",
+      "text": "Cloudflare fork of zlib with massive performance improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/zlib",
+      "status": "candidate-context",
+      "text": "Makefile CI"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +199,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fletcher/MultiMarkdown-6",
+      "status": "candidate",
+      "text": "Makefile CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/zlib",
       "status": "candidate",
       "text": "Makefile CI"
     }
@@ -292,11 +310,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "fletcher/MultiMarkdown-6"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "cloudflare/zlib"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scepter914/DepthAnything-ROS",
+      "target": "scepter914/nuscenes_rosbag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scepter914/DepthAnything-ROS",
+      "target": "autowarefoundation/autoware.universe",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
+  "source_repo": "scepter914/DepthAnything-ROS"
+}

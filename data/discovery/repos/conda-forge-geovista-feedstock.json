@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/geovista-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:12:51.813109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6259
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for geovista.",
+    "fork": false,
+    "full_name": "conda-forge/geovista-feedstock",
+    "html_url": "https://github.com/conda-forge/geovista-feedstock",
+    "language": null,
+    "pushed_at": "2026-04-24T12:59:27Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-24T12:59:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

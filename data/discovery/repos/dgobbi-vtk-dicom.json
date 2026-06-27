@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T02:14:17.228818+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A set of classes for using DICOM in VTK.",
+    "fork": false,
+    "full_name": "dgobbi/vtk-dicom",
+    "html_url": "https://github.com/dgobbi/vtk-dicom",
+    "language": "C++",
+    "pushed_at": "2026-02-08T20:44:36Z",
+    "stargazers_count": 286,
+    "topics": [],
+    "updated_at": "2026-05-08T07:21:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

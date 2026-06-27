@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brandleyzhou/DIFFNet",
+      "target": "nianticlabs/manydepth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brandleyzhou/DIFFNet",
+      "target": "bmvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brandleyzhou/DIFFNet",
+      "target": "cityscapes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brandleyzhou/DIFFNet",
+      "target": "kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brandleyzhou/DIFFNet",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brandleyzhou/DIFFNet",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brandleyzhou/DIFFNet",
+      "target": "self-supervised",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:17:38.231102+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[BMVC 2021] ''Self-Supervised Monocular Depth Estimation with Internal Feature Fusion''",
+    "fork": false,
+    "full_name": "brandleyzhou/DIFFNet",
+    "html_url": "https://github.com/brandleyzhou/DIFFNet",
+    "language": "Python",
+    "pushed_at": "2022-09-29T12:23:23Z",
+    "stargazers_count": 116,
+    "topics": [
+      "bmvc",
+      "cityscapes",
+      "kitti",
+      "monocular-depth-estimation",
+      "representation-learning",
+      "self-supervised"
+    ],
+    "updated_at": "2026-03-11T02:05:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nianticlabs/manydepth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bmvc"
+    },
+    {
+      "context_snippet": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cityscapes"
+    },
+    {
+      "context_snippet": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti"
+    },
+    {
+      "context_snippet": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised"
+    }
+  ]
+}

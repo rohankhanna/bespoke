@@ -391,6 +391,30 @@
       "source_repo": "bytedance/GiantMIDI-Piano",
       "status": "candidate-context",
       "text": "GiantMIDI-Piano [1] is a classical piano MIDI dataset contains 10,855 MIDI files of 2,786 composers. The curated subset by constraining composer surnames contains 7,236 MIDI files of 1,787 composers. GiantMIDI-Piano are transcribed from live recordings with a high-resolution pia\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/ImageDream",
+      "status": "candidate-context",
+      "text": "The code releasing for https://image-dream.github.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/ImageDream",
+      "status": "candidate-context",
+      "text": "Peng Wang, Yichun Shi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "dcm2nii DICOM to NIfTI converter: compiled versions available from NITRC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -597,6 +621,18 @@
       "source_repo": "bytedance/GiantMIDI-Piano",
       "status": "candidate",
       "text": "GiantMIDI-Piano [1] is a classical piano MIDI dataset contains 10,855 MIDI files of 2,786 composers. The curated subset by constraining composer surnames contains 7,236 MIDI files of 1,787 composers. GiantMIDI-Piano are transcribed from live recordings with a high-resolution pia\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/ImageDream",
+      "status": "candidate",
+      "text": "Peng Wang, Yichun Shi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1887,11 +1923,35 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/ImageDream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "rordenlab/dcm2niix"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

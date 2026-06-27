@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrich021/3dvnet",
+      "target": "alexrich021/fusibile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrich021/3dvnet",
+      "target": "yoyo000/fusibile",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:30:54.315782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for 3DV 2021 paper \"3DVNet: Multi-View Depth Prediction and Volumetric Refinement\"",
+    "fork": false,
+    "full_name": "alexrich021/3dvnet",
+    "html_url": "https://github.com/alexrich021/3dvnet",
+    "language": "Python",
+    "pushed_at": "2022-03-08T17:52:26Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2024-09-18T16:57:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexrich021/fusibile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yoyo000/fusibile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

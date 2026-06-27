@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Nik-V9/scannetpp",
+      "target": "liu115/renderpy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:31:06.967236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7111
+    },
+    {
+      "path": "requirements.txt",
+      "size": 200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Undistorted Depth Support for ScanNet++",
+    "fork": true,
+    "full_name": "Nik-V9/scannetpp",
+    "html_url": "https://github.com/Nik-V9/scannetpp",
+    "language": "Python",
+    "pushed_at": "2023-12-08T17:31:48Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-05-31T03:19:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liu115/renderpy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

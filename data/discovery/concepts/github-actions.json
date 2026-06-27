@@ -1151,6 +1151,18 @@
       "source_repo": "rocq-prover/docker-opam-action",
       "status": "candidate-context",
       "text": "[![reviewdog][reviewdog-badge]][reviewdog-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "status": "candidate-context",
+      "text": "docker-ros automatically builds development and deployment Docker images for your ROS-based repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/ika-rwth-aachen/docker-ros/raw/main/assets/logo.png\" height=130 align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -1729,6 +1741,12 @@
       "source_repo": "rocq-prover/docker-opam-action",
       "status": "candidate",
       "text": "[![reviewdog][reviewdog-badge]][reviewdog-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ika-rwth-aachen/docker-ros/raw/main/assets/logo.png\" height=130 align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -3704,11 +3722,29 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-ros"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

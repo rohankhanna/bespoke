@@ -138,7 +138,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T01:17:31.804745+00:00",
+  "fetched_at": "2026-06-27T04:10:35.044761+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -174,14 +174,14 @@
     "full_name": "bazel-contrib/rules_kotlin",
     "html_url": "https://github.com/bazel-contrib/rules_kotlin",
     "language": "Starlark",
-    "pushed_at": "2026-06-26T00:33:13Z",
+    "pushed_at": "2026-06-26T17:20:00Z",
     "stargazers_count": 364,
     "topics": [
       "bazel",
       "bazel-rules",
       "kotlin"
     ],
-    "updated_at": "2026-06-24T21:06:36Z"
+    "updated_at": "2026-06-26T17:20:05Z"
   },
   "repo_links": [
     {

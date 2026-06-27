@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T05:18:14.456580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple python rasterizer tool implemented by OpenGL and C++",
+    "fork": false,
+    "full_name": "liu115/renderpy",
+    "html_url": "https://github.com/liu115/renderpy",
+    "language": "C++",
+    "pushed_at": "2025-11-10T19:41:09Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-02-15T12:16:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

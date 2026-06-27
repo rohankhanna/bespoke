@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T02:12:23.028085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Include binary files in C/C++",
+    "fork": false,
+    "full_name": "graphitemaster/incbin",
+    "html_url": "https://github.com/graphitemaster/incbin",
+    "language": "C",
+    "pushed_at": "2025-05-26T23:47:50Z",
+    "stargazers_count": 1175,
+    "topics": [],
+    "updated_at": "2026-06-26T07:23:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

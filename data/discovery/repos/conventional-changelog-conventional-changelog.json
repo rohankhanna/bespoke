@@ -607,7 +607,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T01:17:07.867660+00:00",
+  "fetched_at": "2026-06-27T04:10:06.364420+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -643,8 +643,8 @@
     "full_name": "conventional-changelog/conventional-changelog",
     "html_url": "https://github.com/conventional-changelog/conventional-changelog",
     "language": "TypeScript",
-    "pushed_at": "2026-06-25T18:49:42Z",
-    "stargazers_count": 8465,
+    "pushed_at": "2026-06-26T19:37:30Z",
+    "stargazers_count": 8468,
     "topics": [
       "changelog",
       "git",
@@ -653,7 +653,7 @@
       "metadata",
       "tag"
     ],
-    "updated_at": "2026-06-25T18:49:17Z"
+    "updated_at": "2026-06-26T22:06:25Z"
   },
   "repo_links": [],
   "terms": [

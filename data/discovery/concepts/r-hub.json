@@ -139,6 +139,18 @@
       "source_repo": "eclarke/ggbeeswarm",
       "status": "candidate-context",
       "text": "R-hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggsegverse/ggseg",
+      "status": "candidate-context",
+      "text": "Plotting tool for brain atlases, in ggplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggsegverse/ggseg",
+      "status": "candidate-context",
+      "text": "R-hub"
     }
   ],
   "candidate_glosses": [
@@ -205,6 +217,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "eclarke/ggbeeswarm",
+      "status": "candidate",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggsegverse/ggseg",
       "status": "candidate",
       "text": "R-hub"
     }
@@ -772,11 +790,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/rhub.yaml",
       "source_repo": "appelmar/gdalcubes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "appelmar/gdalcubes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "ggsegverse/ggseg"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

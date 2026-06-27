@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "connectivity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "The MATLAB toolbox for MEG, EEG and iEEG analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate",
+      "text": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006258,
+      "status": "candidate",
+      "text": "connectedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006250,
+      "status": "candidate",
+      "text": "connection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006210,
+      "status": "candidate",
+      "text": "connexion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006172,
+      "status": "candidate",
+      "text": "interconnectedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005878,
+      "status": "candidate",
+      "text": "junction"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "connectivity",
+  "concept_id": "connectivity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "connectivity",
+      "sense_id": "connectivity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

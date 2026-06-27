@@ -946,6 +946,30 @@
       "source_repo": "stdware/qmsetup",
       "status": "candidate-context",
       "text": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvxgrp/scs",
+      "status": "candidate-context",
+      "text": "Splitting Conic Solver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvxgrp/scs",
+      "status": "candidate-context",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/zlib",
+      "status": "candidate-context",
+      "text": "Cloudflare fork of zlib with massive performance improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/zlib",
+      "status": "candidate-context",
+      "text": "CMake"
     }
   ],
   "candidate_glosses": [
@@ -1416,6 +1440,18 @@
       "source_repo": "stdware/qmsetup",
       "status": "candidate",
       "text": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvxgrp/scs",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/zlib",
+      "status": "candidate",
+      "text": "CMake"
     }
   ],
   "candidate_related_terms": [
@@ -4423,11 +4459,53 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "libsndfile/libsndfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-find-package"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "erwincoumans/tiny-differentiable-simulator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "libsndfile/libsndfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "cvxgrp/scs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "cloudflare/zlib"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

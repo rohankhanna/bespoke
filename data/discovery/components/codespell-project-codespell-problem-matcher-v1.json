@@ -1,7 +1,7 @@
 {
   "component": "codespell-project/codespell-problem-matcher@v1",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "OpenLightingProject/ola"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "fieldtrip/fieldtrip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "niivue/niivue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "joblib/joblib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "flatironinstitute/neurosift"
     }
   ]
 }

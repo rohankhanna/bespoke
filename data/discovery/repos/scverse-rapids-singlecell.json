@@ -299,7 +299,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T13:03:53.450213+00:00",
+  "fetched_at": "2026-06-27T05:01:30.215466+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -307,15 +307,15 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 5305
+      "size": 5770
     },
     {
       "path": ".github/workflows/docker.yml",
-      "size": 8139
+      "size": 8083
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 7022
+      "size": 11007
     },
     {
       "path": ".github/workflows/test-gpu.yml",
@@ -331,7 +331,7 @@
     "full_name": "scverse/rapids-singlecell",
     "html_url": "https://github.com/scverse/rapids-singlecell",
     "language": "Python",
-    "pushed_at": "2026-06-26T11:52:28Z",
+    "pushed_at": "2026-06-26T21:10:19Z",
     "stargazers_count": 378,
     "topics": [
       "anndata",
@@ -340,7 +340,7 @@
       "scverse",
       "single-cell"
     ],
-    "updated_at": "2026-06-23T12:13:16Z"
+    "updated_at": "2026-06-26T18:19:51Z"
   },
   "repo_links": [
     {

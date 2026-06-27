@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16",
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    }
+  ]
+}

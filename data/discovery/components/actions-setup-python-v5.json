@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -9187,6 +9187,146 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-win.yml",
       "source_repo": "bzrudski/vectorose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "adtzlr/contique"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/contique"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "adtzlr/hyperelastic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/hyperelastic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/matadi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyvista/pyvista-xarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pyvista/pyvista-xarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/synchronize-private.yml",
+      "source_repo": "fieldtrip/fieldtrip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nltk/nltk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "amariichi/VideoDepthViewer3D"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/tensortrax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "agilescientific/bruges"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "agilescientific/bruges"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "agilescientific/bruges"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rordenlab/dcm2niix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rordenlab/niimath"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "itt-ustutt/num-dual"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "itt-ustutt/num-dual"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "itt-ustutt/num-dual"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "aramis-lab/pydra-dcm2bids"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aramis-lab/pydra-dcm2bids"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "aramis-lab/pydra-dcm2bids"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "flatironinstitute/neurosift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-neurosift-package.yml",
+      "source_repo": "flatironinstitute/neurosift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeformat.yml",
+      "source_repo": "tee-ar-ex/trx-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "tee-ar-ex/trx-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml",
+      "source_repo": "tee-ar-ex/trx-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tee-ar-ex/trx-python"
     }
   ]
 }

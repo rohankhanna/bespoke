@@ -139,6 +139,18 @@
       "source_repo": "pytorch/ignite",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FCP-INDI/C-PAC",
+      "status": "candidate-context",
+      "text": "Configurable Pipeline for the Analysis of Connectomes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FCP-INDI/C-PAC",
+      "status": "candidate-context",
+      "text": "<!-- Copyright (C) 2022 C-PAC Developers"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "pytorch/ignite",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FCP-INDI/C-PAC",
+      "status": "candidate",
+      "text": "<!-- Copyright (C) 2022 C-PAC Developers"
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +310,17 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "FCP-INDI/C-PAC"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

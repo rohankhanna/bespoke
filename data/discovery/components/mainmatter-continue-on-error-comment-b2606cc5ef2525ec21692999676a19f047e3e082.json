@@ -1,0 +1,12 @@
+{
+  "component": "mainmatter/continue-on-error-comment@b2606cc5ef2525ec21692999676a19f047e3e082",
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml",
+      "source_repo": "ansys/pydpf-core"
+    }
+  ]
+}

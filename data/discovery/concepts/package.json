@@ -406,6 +406,18 @@
       "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
       "status": "candidate-context",
       "text": "Sound Field Analysis toolbox for Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyOpenSci/pyos-package-template",
+      "status": "candidate-context",
+      "text": "An opinionated Python package template for pure Python packaging. A package in under 5 minutes with: copier copy gh:pyopensci/pyos-package-template .  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyOpenSci/pyos-package-template",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_glosses": [
@@ -606,6 +618,12 @@
       "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
       "status": "candidate",
       "text": "Sound Field Analysis toolbox for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyOpenSci/pyos-package-template",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_related_terms": [
@@ -2922,11 +2940,41 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/package.yml",
       "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "pyOpenSci/pyos-package-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

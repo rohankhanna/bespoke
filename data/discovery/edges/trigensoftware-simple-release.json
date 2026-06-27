@@ -46,7 +46,14 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "@trigen/eslint-config",
+      "target": "@trigen/oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release",
+      "target": "@trigen/oxlint-config",
       "target_type": "component"
     },
     {
@@ -54,6 +61,13 @@
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release",
       "target": "@trigen/scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release",
+      "target": "@typescript/native-preview",
       "target_type": "component"
     },
     {
@@ -88,14 +102,21 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "eslint",
+      "target": "nano-staged",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "nano-staged",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release",
+      "target": "oxlint-tsgolint",
       "target_type": "component"
     },
     {
@@ -137,7 +158,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -151,7 +172,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -172,14 +193,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -200,21 +221,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "actions/github-script@v8",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -235,14 +256,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "TrigenSoftware/simple-release",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -267,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-26T07:29:07.348952+00:00",
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
   "source_repo": "TrigenSoftware/simple-release"
 }

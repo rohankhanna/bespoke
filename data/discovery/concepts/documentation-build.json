@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Documentation Build"
+    "Documentation Build",
+    "Documentation build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,18 @@
       "source_repo": "ansys/pymapdl",
       "status": "candidate-context",
       "text": "\"Documentation Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tee-ar-ex/trx-python",
+      "status": "candidate-context",
+      "text": "Python implementation of the TRX file format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tee-ar-ex/trx-python",
+      "status": "candidate-context",
+      "text": "Documentation build"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +94,12 @@
       "source_repo": "ansys/pymapdl",
       "status": "candidate",
       "text": "\"Documentation Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tee-ar-ex/trx-python",
+      "status": "candidate",
+      "text": "Documentation build"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +431,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/doc-build.yml",
       "source_repo": "ansys/pymapdl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "ansys/pymapdl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/docbuild.yml",
+      "source_repo": "tee-ar-ex/trx-python"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1579,6 +1579,18 @@
       "source_repo": "PacifAIst/Quansloth",
       "status": "candidate-context",
       "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate-context",
+      "text": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><picture>"
     }
   ],
   "candidate_glosses": [
@@ -2367,6 +2379,12 @@
       "source_repo": "PacifAIst/Quansloth",
       "status": "candidate",
       "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate",
+      "text": "<div align=\"center\"><picture>"
     }
   ],
   "candidate_related_terms": [
@@ -6724,11 +6742,59 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "ROCm/hipBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "koide3/fast_gicp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "MrNeRF/LichtFeld-Studio"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

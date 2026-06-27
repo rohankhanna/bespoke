@@ -451,6 +451,18 @@
       "source_repo": "qcr/qcr.github.io",
       "status": "candidate-context",
       "text": "[![QUT Centre for Robotics Open Source](https://github.com/qcr/qcr.github.io/raw/master/misc/badge.svg)](https://qcr.github.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate-context",
+      "text": "Official repository for the ICCV2023 paper \"Kick Back & Relax: Learning to Reconstruct the World by Watching SlowTV\" "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "qcr/qcr.github.io",
       "status": "candidate",
       "text": "[![QUT Centre for Robotics Open Source](https://github.com/qcr/qcr.github.io/raw/master/misc/badge.svg)](https://qcr.github.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -1420,11 +1438,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "jspenmar/slowtv_monodepth"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

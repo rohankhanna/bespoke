@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T02:14:34.226394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1164
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An example of marching cubes in WebGL, using Rust + WebASM to compute the isosurface",
+    "fork": false,
+    "full_name": "Twinklebear/webgl-marching-cubes",
+    "html_url": "https://github.com/Twinklebear/webgl-marching-cubes",
+    "language": "JavaScript",
+    "pushed_at": "2023-04-26T04:11:28Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-04-25T17:39:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

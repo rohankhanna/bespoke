@@ -1102,6 +1102,30 @@
       "source_repo": "ansys/pymapdl",
       "status": "candidate-context",
       "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nltk/nltk",
+      "status": "candidate-context",
+      "text": "NLTK Source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nltk/nltk",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansys/pydpf-core",
+      "status": "candidate-context",
+      "text": "Data Processing Framework - Python Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pydpf-core",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -1654,6 +1678,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ansys/pymapdl",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nltk/nltk",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pydpf-core",
       "status": "candidate",
       "text": "\"Pull Request Labeler\""
     }
@@ -2803,11 +2839,41 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/label.yml",
       "source_repo": "ansys/pymapdl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "nltk/nltk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pymapdl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pydpf-core"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

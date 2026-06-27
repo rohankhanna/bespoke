@@ -1316,7 +1316,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T13:04:45.713045+00:00",
+  "fetched_at": "2026-06-27T05:02:18.645225+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1360,7 +1360,7 @@
     "full_name": "ipfs/ipfs-companion",
     "html_url": "https://github.com/ipfs/ipfs-companion",
     "language": "JavaScript",
-    "pushed_at": "2026-05-08T21:52:05Z",
+    "pushed_at": "2026-06-27T01:42:39Z",
     "stargazers_count": 2156,
     "topics": [
       "chrome-extension",

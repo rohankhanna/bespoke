@@ -103,6 +103,18 @@
       "source_repo": "neurolabusc/nii2mesh",
       "status": "candidate-context",
       "text": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate-context",
+      "text": "Brainchop: In-browser 3D MRI rendering and segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "neurolabusc/nii2mesh",
       "status": "candidate",
       "text": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -664,11 +682,23 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "MrGiovanni/UNetPlusPlus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "neuroneural/brainchop"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

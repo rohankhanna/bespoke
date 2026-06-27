@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -177,6 +177,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_legacy-checkpoints.yml",
       "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-draft.yml",
+      "source_repo": "vega/altair"
     }
   ]
 }

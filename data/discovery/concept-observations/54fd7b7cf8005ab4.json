@@ -84,7 +84,7 @@
   "normalized_form": "ci---infrastructure-committee",
   "observation_id": "54fd7b7cf8005ab4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-26T00:48:31.916635+00:00",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
   "observed_text": "CI - Infrastructure Committee",
   "source_context_snippet": "CI - Infrastructure Committee",
   "source_file": ".github/workflows/continuous-integration-workflow-infra.yml",

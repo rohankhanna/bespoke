@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T03:33:05.895789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Electric field modeling in the mouse brain. ",
+    "fork": false,
+    "full_name": "klabhub/EFMouse",
+    "html_url": "https://github.com/klabhub/EFMouse",
+    "language": "MATLAB",
+    "pushed_at": "2025-09-30T17:07:04Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-21T15:27:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

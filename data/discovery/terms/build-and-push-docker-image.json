@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -86,6 +86,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "flatironinstitute/neurosift"
     }
   ],
   "term": "Build and Push Docker Image"

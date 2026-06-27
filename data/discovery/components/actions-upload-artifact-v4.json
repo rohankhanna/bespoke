@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -13377,6 +13377,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "mworchel/xatlas-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pyvista/pyvista-xarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GerdsenAI/GerdsenAI-Depth-Anything-3-ROS2-Wrapper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rordenlab/dcm2niix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rordenlab/dcm2niix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_desktop.yml",
+      "source_repo": "niivue/niivue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing_and_linting.yml",
+      "source_repo": "niivue/niivue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rordenlab/niimath"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gitlab.yml",
+      "source_repo": "ika-rwth-aachen/docker-ros"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "MrNeRF/LichtFeld-Studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "itt-ustutt/num-dual"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "itt-ustutt/num-dual"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "itt-ustutt/num-dual"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "oberbichler/HyperJet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "aramis-lab/pydra-dcm2bids"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "freesurfer/freebrowse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml",
+      "source_repo": "tee-ar-ex/trx-python"
     }
   ]
 }

@@ -19,6 +19,66 @@
       "source_repo": "HumanBrainProject/neuroglancer-scripts",
       "status": "candidate-context",
       "text": "neuroglancer-scripts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate-context",
+      "text": "The ENIGMA Toolbox is an open-source repository for accessing 100+ ENIGMA statistical maps, visualizing cortical and subcortical surface data, and relating neuroimaging findings to micro- and macroscale brain organization. \ud83e\udd20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate-context",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "The MATLAB toolbox for MEG, EEG and iEEG analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "dcm2nii DICOM to NIfTI converter: compiled versions available from NITRC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aramis-lab/clinica",
+      "status": "candidate-context",
+      "text": "Software platform for clinical neuroimaging studies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/clinica",
+      "status": "candidate-context",
+      "text": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate-context",
+      "text": "Brainchop: In-browser 3D MRI rendering and segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +87,36 @@
       "source_repo": "HumanBrainProject/neuroglancer-scripts",
       "status": "candidate",
       "text": "neuroglancer-scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate",
+      "text": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/clinica",
+      "status": "candidate",
+      "text": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +172,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "HumanBrainProject/neuroglancer-scripts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "rordenlab/dcm2niix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "neuroneural/brainchop"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

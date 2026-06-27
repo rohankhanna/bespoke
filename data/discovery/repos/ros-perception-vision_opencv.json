@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T05:14:39.900624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "rolling",
+    "description": null,
+    "fork": false,
+    "full_name": "ros-perception/vision_opencv",
+    "html_url": "https://github.com/ros-perception/vision_opencv",
+    "language": "C++",
+    "pushed_at": "2025-12-29T16:08:10Z",
+    "stargazers_count": 660,
+    "topics": [],
+    "updated_at": "2026-06-25T08:19:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

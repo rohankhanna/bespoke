@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High performance spatial analysis in a web browser and across programming languages and hardware architectures "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ITK-Wasm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ITK-Wasm"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945244,
+      "status": "candidate",
+      "text": "imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39896963,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39895695,
+      "status": "candidate",
+      "text": "tomography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947356,
+      "status": "candidate",
+      "text": "mental imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947355,
+      "status": "candidate",
+      "text": "photo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "imaging",
+      "sense_id": "imaging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11046,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10049,
+      "status": "candidate",
+      "text": "imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3013,
+      "status": "candidate",
+      "text": "mental imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40,
+      "status": "candidate",
+      "text": "tomography"
+    }
+  ],
+  "concept_id": "imaging",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "imaging",
+  "observation_id": "25a969f3d55fd6b2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "imaging",
+  "source_context_snippet": "ITK-Wasm",
+  "source_file": null,
+  "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+  "source_repo_description": "High performance spatial analysis in a web browser and across programming languages and hardware architectures "
+}

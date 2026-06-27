@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "FCP-INDI/C-PAC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/on_push.yml",
+      "source_repo": "FCP-INDI/C-PAC"
+    }
+  ],
+  "term": "Build and test C-PAC"
+}

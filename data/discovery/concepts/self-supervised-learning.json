@@ -367,6 +367,18 @@
       "source_repo": "bshall/knn-vc",
       "status": "candidate-context",
       "text": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate-context",
+      "text": "Official repository for the ICCV2023 paper \"Kick Back & Relax: Learning to Reconstruct the World by Watching SlowTV\" "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "bshall/knn-vc",
       "status": "candidate",
       "text": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [],
@@ -1282,11 +1300,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "jspenmar/slowtv_monodepth"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

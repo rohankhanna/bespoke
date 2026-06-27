@@ -86,6 +86,18 @@
       "source_repo": "OSGeo/gdal",
       "status": "candidate-context",
       "text": "Code Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/altair",
+      "status": "candidate-context",
+      "text": "Declarative visualization library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/altair",
+      "status": "candidate-context",
+      "text": "Code checks"
     }
   ],
   "candidate_glosses": [
@@ -130,6 +142,12 @@
       "source_repo": "OSGeo/gdal",
       "status": "candidate",
       "text": "Code Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/altair",
+      "status": "candidate",
+      "text": "Code checks"
     }
   ],
   "candidate_related_terms": [
@@ -215,11 +233,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/code_checks.yml",
       "source_repo": "OSGeo/gdal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/code-checks.yml",
+      "source_repo": "vega/altair"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

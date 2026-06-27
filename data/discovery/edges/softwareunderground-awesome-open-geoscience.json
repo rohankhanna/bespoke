@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "agile-geoscience/bruges",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "agile-geoscience/striplog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "agile-geoscience/modelr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "agile-geoscience/gio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_checker.yml",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_checker.yml",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "cheatsheet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "geochemistry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "geology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "geophysics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "geoscience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "geosciences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "geostatistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "groundwater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "modflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "open-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "open-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "reservoir-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "seismic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "target": "subsurface",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
+  "source_repo": "softwareunderground/awesome-open-geoscience"
+}

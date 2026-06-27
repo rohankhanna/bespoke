@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/planercnn",
+      "target": "multimodallearning/pytorch-mask-rcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/planercnn",
+      "target": "art-programmer/planenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/planercnn",
+      "target": "fuy34/planerecover",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:30:52.474254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9998
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PlaneRCNN detects and reconstructs piece-wise planar surfaces from a single RGB image",
+    "fork": false,
+    "full_name": "NVlabs/planercnn",
+    "html_url": "https://github.com/NVlabs/planercnn",
+    "language": "Python",
+    "pushed_at": "2022-10-09T13:44:59Z",
+    "stargazers_count": 609,
+    "topics": [],
+    "updated_at": "2026-06-12T19:17:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "art-programmer/planenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fuy34/planerecover",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multimodallearning/pytorch-mask-rcnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source",
+      "target": "bids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source",
+      "target": "brain-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source",
+      "target": "conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source",
+      "target": "data-sharing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source",
+      "target": "data-standards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source",
+      "target": "dicom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source",
+      "target": "imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source",
+      "target": "nifti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source",
+      "target": "parrec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:19:03.499343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2622
+    },
+    {
+      "path": "requirements.txt",
+      "size": 140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert source DICOM, PAR REC or NIFTI image data to BIDS directory layout",
+    "fork": false,
+    "full_name": "AdebayoBraimah/convert_source",
+    "html_url": "https://github.com/AdebayoBraimah/convert_source",
+    "language": "Python",
+    "pushed_at": "2021-08-07T16:07:53Z",
+    "stargazers_count": 1,
+    "topics": [
+      "bids",
+      "brain-imaging",
+      "conversion",
+      "data-sharing",
+      "data-standards",
+      "dicom",
+      "imaging",
+      "mri",
+      "nifti",
+      "par",
+      "parrec",
+      "pet",
+      "rec"
+    ],
+    "updated_at": "2021-08-07T16:07:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bids"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brain-imaging"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversion"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-sharing"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-standards"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dicom"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imaging"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nifti"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parrec"
+    }
+  ]
+}

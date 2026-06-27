@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T05:17:31.939596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7057
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official code for \"FeatUp: A Model-Agnostic Frameworkfor Features at Any Resolution\" ICLR 2024",
+    "fork": false,
+    "full_name": "mhamilton723/FeatUp",
+    "html_url": "https://github.com/mhamilton723/FeatUp",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-06-28T23:45:46Z",
+    "stargazers_count": 1650,
+    "topics": [],
+    "updated_at": "2026-06-26T02:34:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

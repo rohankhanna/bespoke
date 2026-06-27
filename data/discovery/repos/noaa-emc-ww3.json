@@ -1,0 +1,225 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnu.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnu.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regtest_gnu.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regtest_gnu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regtest_gnu.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regtest_gnu.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regtest_gnu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnu.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnu.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gnu.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "GNU Linux Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/intel.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "Intel Linux Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regtest_gnu.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regtest_gnu.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:12:54.712711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2144
+    },
+    {
+      "path": ".github/workflows/gnu.yml",
+      "size": 3614
+    },
+    {
+      "path": ".github/workflows/intel.yml",
+      "size": 4880
+    },
+    {
+      "path": ".github/workflows/io_gnu_yml.old",
+      "size": 4303
+    },
+    {
+      "path": ".github/workflows/regtest_gnu.yml",
+      "size": 4395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "WAVEWATCH III",
+    "fork": false,
+    "full_name": "NOAA-EMC/WW3",
+    "html_url": "https://github.com/NOAA-EMC/WW3",
+    "language": "Fortran",
+    "pushed_at": "2026-06-18T13:55:46Z",
+    "stargazers_count": 340,
+    "topics": [],
+    "updated_at": "2026-06-26T08:41:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GNU Linux Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gnu.yml",
+      "term": "GNU Linux Build"
+    },
+    {
+      "context_snippet": "Intel Linux Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/intel.yml",
+      "term": "Intel Linux Build"
+    }
+  ]
+}

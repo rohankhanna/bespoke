@@ -11,24 +11,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/FlashVDM",
-      "target": "tencent-hunyuan/hunyuan3d-omni",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/FlashVDM",
-      "target": "vast-ai-research/holopart",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/FlashVDM",
-      "target": "vast-ai-research/detailgen3d",
+      "target": "wyysf-98/craftsman3d",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-06-26T12:57:23.248127+00:00",
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
   "source_repo": "Tencent-Hunyuan/FlashVDM"
 }

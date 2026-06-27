@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "ika-rwth-aachen/docker-ros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "ika-rwth-aachen/docker-run",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "ika-rwth-aachen/ros2-moge-trt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "scepter914/depthanything-ros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "depth-anything-v3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "monocular-depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
+  "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt"
+}

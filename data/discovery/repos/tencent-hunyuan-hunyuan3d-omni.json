@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni",
+      "target": "wyysf-98/craftsman3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni",
+      "target": "3d-aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni",
+      "target": "hunyuan3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni",
+      "target": "shape",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:11:25.797473+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6466
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/Hunyuan3D-Omni",
+    "html_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-Omni",
+    "language": "Python",
+    "pushed_at": "2025-10-17T10:13:05Z",
+    "stargazers_count": 591,
+    "topics": [
+      "3d",
+      "3d-aigc",
+      "3d-generation",
+      "hunyuan3d",
+      "image-to-3d",
+      "multimodal",
+      "shape"
+    ],
+    "updated_at": "2026-06-26T02:56:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wyysf-98/craftsman3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-aigc"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan3d"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape"
+    }
+  ]
+}

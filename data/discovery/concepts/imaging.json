@@ -19,6 +19,30 @@
       "source_repo": "mv-lab/AISP",
       "status": "candidate-context",
       "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate-context",
+      "text": "High performance spatial analysis in a web browser and across programming languages and hardware architectures "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate-context",
+      "text": "ITK-Wasm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdebayoBraimah/convert_source",
+      "status": "candidate-context",
+      "text": "Convert source DICOM, PAR REC or NIFTI image data to BIDS directory layout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdebayoBraimah/convert_source",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "mv-lab/AISP",
       "status": "candidate",
       "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate",
+      "text": "ITK-Wasm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdebayoBraimah/convert_source",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +141,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mv-lab/AISP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

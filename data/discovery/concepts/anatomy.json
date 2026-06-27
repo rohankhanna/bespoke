@@ -19,6 +19,18 @@
       "source_repo": "brainglobe/brainrender",
       "status": "candidate-context",
       "text": "*A user-friendly python library to create high-quality, 3D neuro-anatomical renderings combining data from publicly available brain atlases with user-generated experimental data.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ABRG-Models/Stalefish",
+      "status": "candidate-context",
+      "text": "Spatial Analysis of ISH Brain Slice Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/Stalefish",
+      "status": "candidate-context",
+      "text": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "brainglobe/brainrender",
       "status": "candidate",
       "text": "*A user-friendly python library to create high-quality, 3D neuro-anatomical renderings combining data from publicly available brain atlases with user-generated experimental data.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/Stalefish",
+      "status": "candidate",
+      "text": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "brainglobe/brainrender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ABRG-Models/Stalefish"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

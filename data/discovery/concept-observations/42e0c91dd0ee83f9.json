@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048089,
+      "status": "candidate",
+      "text": "aquifer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048065,
+      "status": "candidate",
+      "text": "runoff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044687,
+      "status": "candidate",
+      "text": "subsurface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044461,
+      "status": "candidate",
+      "text": "underground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044227,
+      "status": "candidate",
+      "text": "subterranean"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "groundwater",
+      "sense_id": "groundwater#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "groundwater",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "groundwater",
+  "observation_id": "42e0c91dd0ee83f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "groundwater",
+  "source_context_snippet": "> Geoscience is [awesome](awesome.md).",
+  "source_file": null,
+  "source_repo": "softwareunderground/awesome-open-geoscience",
+  "source_repo_description": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+}

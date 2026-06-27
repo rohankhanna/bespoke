@@ -84,7 +84,7 @@
   "normalized_form": "semantic-release",
   "observation_id": "82081ac2bddb9281",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-26T07:29:07.348952+00:00",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
   "observed_text": "Semantic Release",
   "source_context_snippet": "Semantic Release",
   "source_file": ".github/workflows/source-snapshot.yml",

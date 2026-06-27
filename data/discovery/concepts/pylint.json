@@ -323,6 +323,18 @@
       "source_repo": "joeyballentine/traiNNer-redux",
       "status": "candidate-context",
       "text": "PyLint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkoutini/PaSST",
+      "status": "candidate-context",
+      "text": "Efficient Training of Audio Transformers with Patchout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkoutini/PaSST",
+      "status": "candidate-context",
+      "text": "Pylint"
     }
   ],
   "candidate_glosses": [
@@ -481,6 +493,12 @@
       "source_repo": "joeyballentine/traiNNer-redux",
       "status": "candidate",
       "text": "PyLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkoutini/PaSST",
+      "status": "candidate",
+      "text": "Pylint"
     }
   ],
   "candidate_related_terms": [
@@ -2666,11 +2684,41 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "InternScience/GraphGen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "kkoutini/PaSST"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

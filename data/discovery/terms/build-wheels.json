@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -261,6 +261,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build-wheels.yaml",
       "source_repo": "csukuangfj/kaldi-native-fbank"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "itt-ustutt/num-dual"
     }
   ],
   "term": "Build Wheels"

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T02:12:28.962136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "cvxpy/examples",
+    "html_url": "https://github.com/cvxpy/examples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-05-29T08:13:21Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-05-29T08:13:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

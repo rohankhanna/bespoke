@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "sigstore/gh-action-sigstore-python@v1.2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "kkoutini/passt_hear21",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "kkoutini/passt_hear21",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "kkoutini/passt_hear21",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "kkoutini/passt_hear21",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "kkoutini/passt_hear21",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "kkoutini/passt_hear21",
+      "target": "sigstore/gh-action-sigstore-python@v1.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkoutini/passt_hear21",
+      "target": "audio-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:14:48.699952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5243
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    },
+    {
+      "path": ".github/workflows/ci-cd.yml",
+      "size": 3184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Inference code for PaSST, using the HEAR API.",
+    "fork": false,
+    "full_name": "kkoutini/passt_hear21",
+    "html_url": "https://github.com/kkoutini/passt_hear21",
+    "language": "Python",
+    "pushed_at": "2024-01-02T11:28:53Z",
+    "stargazers_count": 35,
+    "topics": [
+      "audio-processing"
+    ],
+    "updated_at": "2026-05-15T23:04:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is an implementation for [Efficient Training of Audio Transformers with Patchout](https://arxiv.org/abs/2110.05069) for HEAR 2021 NeurIPS Challenge",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    }
+  ]
+}

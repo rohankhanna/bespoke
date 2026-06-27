@@ -18,6 +18,26 @@
     {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
     {
@@ -76,9 +96,19 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd",
+      "component": "cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@5f14fd08f7cf1cb1609c1e344975f152c7ee938d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
     }
   ],
   "edges": [
@@ -101,6 +131,20 @@
       "source_file": ".github/workflows/main.yml",
       "source_repo": "Kludex/starlette",
       "target": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Kludex/starlette",
+      "target": "cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Kludex/starlette",
+      "target": "marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0",
       "target_type": "component"
     },
     {
@@ -170,7 +214,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Kludex/starlette",
-      "target": "cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd",
+      "target": "cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0",
       "target_type": "component"
     },
     {
@@ -178,6 +222,27 @@
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Kludex/starlette",
       "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "Kludex/starlette",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "Kludex/starlette",
+      "target": "zizmorcore/zizmor-action@5f14fd08f7cf1cb1609c1e344975f152c7ee938d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "Kludex/starlette",
+      "target": "GitHub Actions Security Analysis",
       "target_type": "term"
     },
     {
@@ -209,23 +274,27 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-07T03:00:08.194157+00:00",
+  "fetched_at": "2026-06-27T02:07:22.226262+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 4778
+      "size": 4791
     },
     {
       "path": "pyproject.toml",
-      "size": 3547
+      "size": 3801
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 1314
+      "size": 2897
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 3152
+      "size": 3178
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "size": 590
     }
   ],
   "related_repositories": [],
@@ -237,8 +306,8 @@
     "full_name": "Kludex/starlette",
     "html_url": "https://github.com/Kludex/starlette",
     "language": "Python",
-    "pushed_at": "2026-05-03T06:45:09Z",
-    "stargazers_count": 12287,
+    "pushed_at": "2026-06-19T00:03:19Z",
+    "stargazers_count": 12436,
     "topics": [
       "asgi",
       "async",
@@ -246,7 +315,7 @@
       "python",
       "websockets"
     ],
-    "updated_at": "2026-05-06T11:46:34Z"
+    "updated_at": "2026-06-26T18:32:31Z"
   },
   "repo_links": [],
   "terms": [
@@ -261,6 +330,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish.yml",
       "term": "Publish"
+    },
+    {
+      "context_snippet": "GitHub Actions Security Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "term": "GitHub Actions Security Analysis"
     },
     {
       "context_snippet": "<p align=\"center\">",

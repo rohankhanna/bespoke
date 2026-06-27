@@ -4,7 +4,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/min-versions.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -32,7 +32,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -60,7 +60,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-skills.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -88,7 +88,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -113,6 +113,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-26T07:29:07.348952+00:00",
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
   "source_repo": "huggingface/sentence-transformers"
 }

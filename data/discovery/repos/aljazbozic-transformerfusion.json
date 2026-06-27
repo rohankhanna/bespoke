@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T03:30:55.145549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of NeurIPS'2021 paper TransformerFusion",
+    "fork": false,
+    "full_name": "AljazBozic/TransformerFusion",
+    "html_url": "https://github.com/AljazBozic/TransformerFusion",
+    "language": "Python",
+    "pushed_at": "2022-02-21T15:32:42Z",
+    "stargazers_count": 164,
+    "topics": [],
+    "updated_at": "2026-03-03T04:44:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

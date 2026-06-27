@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The MATLAB toolbox for MEG, EEG and iEEG analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Synchronize private files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Synchronize private files"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25923,
+      "status": "candidate",
+      "text": "credit bureau"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22624,
+      "status": "candidate",
+      "text": "sound camera"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22576,
+      "status": "candidate",
+      "text": "axis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22576,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22576,
+      "status": "candidate",
+      "text": "bits"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Synchronize private files",
+      "sense_id": "synchronize-private-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "synchronize-private-files",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "synchronize-private-files",
+  "observation_id": "73ebc3c1eb1a30bf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "Synchronize private files",
+  "source_context_snippet": "Synchronize private files",
+  "source_file": ".github/workflows/synchronize-private.yml",
+  "source_repo": "fieldtrip/fieldtrip",
+  "source_repo_description": "The MATLAB toolbox for MEG, EEG and iEEG analysis"
+}

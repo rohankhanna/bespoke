@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/MVDepthNet",
+      "target": "lmb-freiburg/demon",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:18:02.520200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository provides PyTorch implementation for 3DV 2018 paper \"MVDepthNet: real-time multiview depth estimation neural network\"",
+    "fork": false,
+    "full_name": "HKUST-Aerial-Robotics/MVDepthNet",
+    "html_url": "https://github.com/HKUST-Aerial-Robotics/MVDepthNet",
+    "language": "Python",
+    "pushed_at": "2021-11-03T01:33:09Z",
+    "stargazers_count": 319,
+    "topics": [],
+    "updated_at": "2026-05-05T00:06:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmb-freiburg/demon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

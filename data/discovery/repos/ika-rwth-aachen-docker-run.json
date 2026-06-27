@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/docker-run",
+      "target": "ika-rwth-aachen/docker-ros-ml-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ika-rwth-aachen/docker-run",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ika-rwth-aachen/docker-run",
+      "target": "actions/setup-python@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ika-rwth-aachen/docker-run",
+      "target": "pypa/gh-action-pypi-publish@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ika-rwth-aachen/docker-run",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-run",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:14:45.013828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6498
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "'docker run' and 'docker exec' with useful defaults",
+    "fork": false,
+    "full_name": "ika-rwth-aachen/docker-run",
+    "html_url": "https://github.com/ika-rwth-aachen/docker-run",
+    "language": "Python",
+    "pushed_at": "2026-06-10T05:24:25Z",
+    "stargazers_count": 51,
+    "topics": [
+      "docker"
+    ],
+    "updated_at": "2026-06-10T05:24:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ika-rwth-aachen/docker-ros-ml-images",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ika-rwth-aachen/docker-run/raw/main/assets/logo.png\" height=130 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    }
+  ]
+}

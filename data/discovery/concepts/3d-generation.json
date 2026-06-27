@@ -355,6 +355,18 @@
       "source_repo": "VAST-AI-Research/MIDI-3D",
       "status": "candidate-context",
       "text": "![teaser](assets/doc/teaser.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni",
+      "status": "candidate-context",
+      "text": "Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "VAST-AI-Research/MIDI-3D",
       "status": "candidate",
       "text": "![teaser](assets/doc/teaser.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -730,11 +748,29 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "HKUST-SAIL/CraftsMan3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-Omni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/Hunyuan3D-2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "HKUST-SAIL/CraftsMan3D"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

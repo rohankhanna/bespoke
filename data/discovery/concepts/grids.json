@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "grids"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate-context",
+      "text": "Read and write subsurface data files describing surfaces, grids and horizons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/agilescientific/gio/actions/workflows/build-test.yml/badge.svg)](https://github.com/agilescientific/gio/actions/workflows/build-test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/agilescientific/gio/actions/workflows/build-test.yml/badge.svg)](https://github.com/agilescientific/gio/actions/workflows/build-test.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9902281,
+      "status": "candidate",
+      "text": "gridiron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31467,
+      "status": "candidate",
+      "text": "control grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31467,
+      "status": "candidate",
+      "text": "power grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31467,
+      "status": "candidate",
+      "text": "power system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31467,
+      "status": "candidate",
+      "text": "reference grid"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "grids",
+  "concept_id": "grids",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "softwareunderground/gio"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grids",
+      "sense_id": "grids#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1031,6 +1031,30 @@
       "source_repo": "ErikSom/Clipper2-WASM",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/clipper2-wasm.svg)](https://badge.fury.io/js/clipper2-wasm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niivue/ct2print",
+      "status": "candidate-context",
+      "text": "ct2print for converting voxel images to mesh for 3D printing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/ct2print",
+      "status": "candidate-context",
+      "text": "A basic example of converting a voxel-based image to a simplified mesh. This interactive drag-and-drop web page allows you to create meshes that can be used with a 3D printer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate-context",
+      "text": "High performance spatial analysis in a web browser and across programming languages and hardware architectures "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate-context",
+      "text": "ITK-Wasm"
     }
   ],
   "candidate_glosses": [
@@ -1549,6 +1573,18 @@
       "source_repo": "ErikSom/Clipper2-WASM",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/clipper2-wasm.svg)](https://badge.fury.io/js/clipper2-wasm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/ct2print",
+      "status": "candidate",
+      "text": "A basic example of converting a voxel-based image to a simplified mesh. This interactive drag-and-drop web page allows you to create meshes that can be used with a 3D printer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm",
+      "status": "candidate",
+      "text": "ITK-Wasm"
     }
   ],
   "candidate_related_terms": [
@@ -4064,11 +4100,47 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "dart-archive/wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "niivue/ct2print"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

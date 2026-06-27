@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ROS2 TensorRT Node for Monocular Metric Depth estimation and Point Cloud generation from camera images with Depth Anything V3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "monocular-depth",
+      "sense_id": "monocular-depth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "monocular-depth",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "monocular-depth",
+  "observation_id": "e2b4dbea581ef869",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "monocular-depth",
+  "source_context_snippet": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235",
+  "source_file": null,
+  "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+  "source_repo_description": "ROS2 TensorRT Node for Monocular Metric Depth estimation and Point Cloud generation from camera images with Depth Anything V3"
+}

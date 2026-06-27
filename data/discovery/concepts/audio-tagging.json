@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "audio-tagging"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fschmid56/EfficientAT",
+      "status": "candidate-context",
+      "text": "This repository aims at providing efficient CNNs for Audio Tagging. We provide AudioSet pre-trained models ready for downstream training and extraction of audio embeddings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschmid56/EfficientAT",
+      "status": "candidate-context",
+      "text": "In this repository, we publish the pre-trained models and the code described in the papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkoutini/PaSST",
+      "status": "candidate-context",
+      "text": "Efficient Training of Audio Transformers with Patchout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkoutini/PaSST",
+      "status": "candidate-context",
+      "text": "This is the implementation for [Efficient Training of Audio Transformers with Patchout](https://arxiv.org/abs/2110.05069)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschmid56/EfficientAT",
+      "status": "candidate",
+      "text": "In this repository, we publish the pre-trained models and the code described in the papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkoutini/PaSST",
+      "status": "candidate",
+      "text": "This is the implementation for [Efficient Training of Audio Transformers with Patchout](https://arxiv.org/abs/2110.05069)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "audio-tagging",
+  "concept_id": "audio-tagging",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "fschmid56/EfficientAT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "kkoutini/PaSST"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "audio-tagging",
+      "sense_id": "audio-tagging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

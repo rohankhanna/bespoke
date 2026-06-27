@@ -1,0 +1,428 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/codespell-problem-matcher@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/suggest-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/suggest-tests.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/suggest-tests.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/suggest-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/synchronize-private.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/synchronize-private.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/synchronize-private.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "codespell-project/codespell-problem-matcher@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/suggest-tests.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/suggest-tests.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/suggest-tests.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "tj-actions/changed-files@v46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/suggest-tests.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "peter-evans/create-or-update-comment@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/suggest-tests.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "Suggest tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/synchronize-private.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/synchronize-private.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/synchronize-private.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/synchronize-private.yml",
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "Synchronize private files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "beamformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "bids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "brain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "connectivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "dipole",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "donders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "ecog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "fieldtrip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "ieeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "neuroimaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "neuroscience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "seeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip",
+      "target": "time-frequency",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:14:22.290294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5393
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 483
+    },
+    {
+      "path": ".github/workflows/suggest-tests.yml",
+      "size": 1739
+    },
+    {
+      "path": ".github/workflows/synchronize-private.yml",
+      "size": 1346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The MATLAB toolbox for MEG, EEG and iEEG analysis",
+    "fork": false,
+    "full_name": "fieldtrip/fieldtrip",
+    "html_url": "https://github.com/fieldtrip/fieldtrip",
+    "language": "MATLAB",
+    "pushed_at": "2026-06-24T21:45:48Z",
+    "stargazers_count": 976,
+    "topics": [
+      "analysis",
+      "beamformer",
+      "bids",
+      "brain",
+      "connectivity",
+      "dipole",
+      "donders",
+      "ecog",
+      "eeg",
+      "fieldtrip",
+      "ieeg",
+      "matlab",
+      "meg",
+      "neuroimaging",
+      "neuroscience",
+      "seeg",
+      "statistics",
+      "time-frequency"
+    ],
+    "updated_at": "2026-06-24T13:21:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": "Suggest tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/suggest-tests.yml",
+      "term": "Suggest tests"
+    },
+    {
+      "context_snippet": "Synchronize private files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/synchronize-private.yml",
+      "term": "Synchronize private files"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beamformer"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bids"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brain"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connectivity"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dipole"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "donders"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecog"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fieldtrip"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ieeg"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroimaging"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroscience"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seeg"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    },
+    {
+      "context_snippet": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-frequency"
+    }
+  ]
+}

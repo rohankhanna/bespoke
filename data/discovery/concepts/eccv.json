@@ -43,6 +43,18 @@
       "source_repo": "daveredrum/ScanRefer",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate-context",
+      "text": "[ECCV 2024 - Oral] ACE0 is a learning-based structure-from-motion approach that estimates camera parameters of sets of images by learning a multi-view consistent, implicit scene representation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate-context",
+      "text": "This repository contains the code associated to the ACE0 paper:"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "daveredrum/ScanRefer",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate",
+      "text": "This repository contains the code associated to the ACE0 paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "daveredrum/ScanRefer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/acezero"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

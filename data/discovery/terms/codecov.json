@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -136,6 +136,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/upload-codecov.yml",
       "source_repo": "adtzlr/felupe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/contique"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "adtzlr/fiberreinforcedrubber"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/hyperelastic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/matadi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/upload-codecov.yml",
+      "source_repo": "adtzlr/tensortrax"
     }
   ],
   "term": "codecov"

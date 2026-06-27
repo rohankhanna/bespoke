@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "ika-rwth-aachen/docker-ros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "ika-rwth-aachen/docker-run",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "ika-rwth-aachen/ros2-moge-trt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "scepter914/depthanything-ros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "depth-anything-v3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "monocular-depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:27:37.843529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ROS2 TensorRT Node for Monocular Metric Depth estimation and Point Cloud generation from camera images with Depth Anything V3",
+    "fork": false,
+    "full_name": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+    "html_url": "https://github.com/ika-rwth-aachen/ros2-depth-anything-v3-trt",
+    "language": "C++",
+    "pushed_at": "2026-06-15T13:02:05Z",
+    "stargazers_count": 487,
+    "topics": [
+      "depth-anything-v3",
+      "monocular-depth",
+      "monocular-depth-estimation",
+      "ros2",
+      "tensorrt"
+    ],
+    "updated_at": "2026-06-27T03:08:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ika-rwth-aachen/docker-ros",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ika-rwth-aachen/docker-run",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ika-rwth-aachen/ros2-moge-trt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scepter914/depthanything-ros",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-anything-v3"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    }
+  ]
+}

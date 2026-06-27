@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bag of really useful geoscience equations and stuff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Bruges](http://agile.geosci.ai/bruges.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Bruges](http://agile.geosci.ai/bruges.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008159,
+      "status": "candidate",
+      "text": "petrophysicist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008158,
+      "status": "candidate",
+      "text": "petrogeology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008157,
+      "status": "candidate",
+      "text": "petrology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008156,
+      "status": "candidate",
+      "text": "petrogeny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008155,
+      "status": "candidate",
+      "text": "petrochemistry"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "petrophysics",
+      "sense_id": "petrophysics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "petrophysics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "petrophysics",
+  "observation_id": "6af95a8f241869d9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "petrophysics",
+  "source_context_snippet": "![Bruges](http://agile.geosci.ai/bruges.png)",
+  "source_file": null,
+  "source_repo": "agilescientific/bruges",
+  "source_repo_description": "Bag of really useful geoscience equations and stuff"
+}

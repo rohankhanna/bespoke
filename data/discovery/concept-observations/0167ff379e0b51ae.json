@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Computing with Python functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "|PyPi| |CIStatus| |ReadTheDocs| |Codecov|"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "|PyPi| |CIStatus| |ReadTheDocs| |Codecov|"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parallel-computing",
+      "sense_id": "parallel-computing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "parallel-computing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "parallel-computing",
+  "observation_id": "0167ff379e0b51ae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "parallel-computing",
+  "source_context_snippet": "|PyPi| |CIStatus| |ReadTheDocs| |Codecov|",
+  "source_file": null,
+  "source_repo": "joblib/joblib",
+  "source_repo_description": "Computing with Python functions."
+}

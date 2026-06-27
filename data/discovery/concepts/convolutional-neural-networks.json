@@ -283,6 +283,18 @@
       "source_repo": "rehg-lab/lowshot-shapebias",
       "status": "candidate-context",
       "text": "![alt text](images/teaser.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fschmid56/EfficientAT",
+      "status": "candidate-context",
+      "text": "This repository aims at providing efficient CNNs for Audio Tagging. We provide AudioSet pre-trained models ready for downstream training and extraction of audio embeddings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschmid56/EfficientAT",
+      "status": "candidate-context",
+      "text": "In this repository, we publish the pre-trained models and the code described in the papers:"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "rehg-lab/lowshot-shapebias",
       "status": "candidate",
       "text": "![alt text](images/teaser.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschmid56/EfficientAT",
+      "status": "candidate",
+      "text": "In this repository, we publish the pre-trained models and the code described in the papers:"
     }
   ],
   "candidate_related_terms": [],
@@ -1558,11 +1576,29 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "mgsalem/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "fschmid56/EfficientAT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

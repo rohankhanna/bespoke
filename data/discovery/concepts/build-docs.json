@@ -646,6 +646,42 @@
       "source_repo": "ggozad/oterm",
       "status": "candidate-context",
       "text": "build-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agilescientific/bruges",
+      "status": "candidate-context",
+      "text": "Bag of really useful geoscience equations and stuff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agilescientific/bruges",
+      "status": "candidate-context",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate-context",
+      "text": "Read and write subsurface data files describing surfaces, grids and horizons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate-context",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agilescientific/striplog",
+      "status": "candidate-context",
+      "text": "Lithology and stratigraphic logs for wells or outcrop. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agilescientific/striplog",
+      "status": "candidate-context",
+      "text": "Build docs"
     }
   ],
   "candidate_glosses": [
@@ -972,6 +1008,24 @@
       "source_repo": "ggozad/oterm",
       "status": "candidate",
       "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agilescientific/bruges",
+      "status": "candidate",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/gio",
+      "status": "candidate",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agilescientific/striplog",
+      "status": "candidate",
+      "text": "Build docs"
     }
   ],
   "candidate_related_terms": [
@@ -3397,11 +3451,47 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "agilescientific/bruges"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "softwareunderground/gio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "agilescientific/striplog"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

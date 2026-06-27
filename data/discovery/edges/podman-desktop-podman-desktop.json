@@ -221,13 +221,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "electron-builder-notarize",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "podman-desktop/podman-desktop",
       "target": "eslint",
       "target_type": "component"
     },
@@ -778,6 +771,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-26T07:29:07.348952+00:00",
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
   "source_repo": "podman-desktop/podman-desktop"
 }

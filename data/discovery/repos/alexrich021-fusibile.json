@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrich021/fusibile",
+      "target": "yoyo000/fusibile",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:17:59.104850+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Depthmap fusion with depth and normal consistency check",
+    "fork": true,
+    "full_name": "alexrich021/fusibile",
+    "html_url": "https://github.com/alexrich021/fusibile",
+    "language": "C++",
+    "pushed_at": "2021-12-02T01:37:49Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-12-02T01:37:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yoyo000/fusibile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

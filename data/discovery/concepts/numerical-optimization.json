@@ -43,6 +43,30 @@
       "source_repo": "cvxpy/cvxpy",
       "status": "candidate-context",
       "text": "CVXPY"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bodono/scs-python",
+      "status": "candidate-context",
+      "text": "Python interface for SCS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bodono/scs-python",
+      "status": "candidate-context",
+      "text": "scs-python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvxgrp/scs",
+      "status": "candidate-context",
+      "text": "Splitting Conic Solver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvxgrp/scs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" margin=0px>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "cvxpy/cvxpy",
       "status": "candidate",
       "text": "CVXPY"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bodono/scs-python",
+      "status": "candidate",
+      "text": "scs-python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvxgrp/scs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" margin=0px>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "cvxpy/cvxpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "bodono/scs-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

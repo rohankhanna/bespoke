@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "claudebajada/process_brain_for_printing",
+      "target": "antsx/ants",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:19:25.462727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11997
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Python command-line tool to prepare, merge, and optionally color 3D brain surfaces for 3D printing, in both T1 and MNI spaces.",
+    "fork": false,
+    "full_name": "claudebajada/process_brain_for_printing",
+    "html_url": "https://github.com/claudebajada/process_brain_for_printing",
+    "language": "Python",
+    "pushed_at": "2026-03-14T15:32:59Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-14T15:23:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antsx/ants",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

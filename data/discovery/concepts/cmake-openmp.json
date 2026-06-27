@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "CMake OpenMP"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvxgrp/scs",
+      "status": "candidate-context",
+      "text": "Splitting Conic Solver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvxgrp/scs",
+      "status": "candidate-context",
+      "text": "CMake OpenMP"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvxgrp/scs",
+      "status": "candidate",
+      "text": "CMake OpenMP"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "CMake OpenMP",
+  "concept_id": "cmake-openmp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/cmake_openmp.yml",
+      "source_repo": "cvxgrp/scs"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CMake OpenMP",
+      "sense_id": "cmake-openmp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

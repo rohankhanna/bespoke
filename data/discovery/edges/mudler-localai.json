@@ -11,7 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
-      "target": "mudler/depth-anything.cpp",
+      "target": "mudler/parakeet.cpp",
       "target_type": "repository"
     },
     {
@@ -379,6 +379,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-26T12:57:23.248127+00:00",
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
   "source_repo": "mudler/LocalAI"
 }

@@ -569,7 +569,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T07:37:50.437115+00:00",
+  "fetched_at": "2026-06-27T04:17:22.540419+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -577,7 +577,7 @@
     },
     {
       "path": "package.json",
-      "size": 3007
+      "size": 3008
     },
     {
       "path": ".github/workflows/publish.yaml",
@@ -597,7 +597,7 @@
     "full_name": "mightyiam/eslint-config-love",
     "html_url": "https://github.com/mightyiam/eslint-config-love",
     "language": "TypeScript",
-    "pushed_at": "2026-06-26T05:02:28Z",
+    "pushed_at": "2026-06-26T22:26:35Z",
     "stargazers_count": 821,
     "topics": [
       "eslint",
@@ -605,7 +605,7 @@
       "javascript",
       "typescript"
     ],
-    "updated_at": "2026-06-26T05:02:31Z"
+    "updated_at": "2026-06-26T22:26:39Z"
   },
   "repo_links": [],
   "terms": [

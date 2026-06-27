@@ -1,7 +1,7 @@
 {
   "component": "nick-fields/retry@v4",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scheduled-assets-update.yml",
       "source_repo": "XTLS/Xray-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "InsightSoftwareConsortium/ITK-Wasm"
     }
   ]
 }

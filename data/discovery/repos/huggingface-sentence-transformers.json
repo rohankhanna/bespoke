@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/min-versions.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/min-versions.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/quality.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/quality.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-skills.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/sync-skills.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-skills.yml"
     },
@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/sync-skills.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
@@ -76,7 +76,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/min-versions.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -104,7 +104,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -132,7 +132,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-skills.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -160,7 +160,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -185,7 +185,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T08:10:28.236737+00:00",
+  "fetched_at": "2026-06-27T04:55:29.897237+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -209,7 +209,7 @@
     },
     {
       "path": ".github/workflows/tests.yml",
-      "size": 3494
+      "size": 3763
     }
   ],
   "related_repositories": [],
@@ -221,10 +221,10 @@
     "full_name": "huggingface/sentence-transformers",
     "html_url": "https://github.com/huggingface/sentence-transformers",
     "language": "Python",
-    "pushed_at": "2026-06-25T20:14:17Z",
-    "stargazers_count": 18852,
+    "pushed_at": "2026-06-26T15:15:53Z",
+    "stargazers_count": 18853,
     "topics": [],
-    "updated_at": "2026-06-26T06:15:59Z"
+    "updated_at": "2026-06-26T16:42:43Z"
   },
   "repo_links": [],
   "terms": [

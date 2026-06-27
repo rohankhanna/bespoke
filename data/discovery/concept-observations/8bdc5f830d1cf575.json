@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The ENIGMA Toolbox is an open-source repository for accessing 100+ ENIGMA statistical maps, visualizing cortical and subcortical surface data, and relating neuroimaging findings to micro- and macroscale brain organization. \ud83e\udd20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026484,
+      "status": "candidate",
+      "text": "depth psychology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024514,
+      "status": "candidate",
+      "text": "psychoanalysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042677,
+      "status": "candidate",
+      "text": "analytic thinking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042676,
+      "status": "candidate",
+      "text": "analyzed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042531,
+      "status": "candidate",
+      "text": "analyze"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "analysis",
+      "sense_id": "analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3045,
+      "status": "candidate",
+      "text": "psychoanalysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3021,
+      "status": "candidate",
+      "text": "depth psychology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "analytic thinking"
+    }
+  ],
+  "concept_id": "analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "analysis",
+  "observation_id": "8bdc5f830d1cf575",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "analysis",
+  "source_context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+  "source_file": null,
+  "source_repo": "MICA-MNI/ENIGMA",
+  "source_repo_description": "The ENIGMA Toolbox is an open-source repository for accessing 100+ ENIGMA statistical maps, visualizing cortical and subcortical surface data, and relating neuroimaging findings to micro- and macroscale brain organization. \ud83e\udd20"
+}

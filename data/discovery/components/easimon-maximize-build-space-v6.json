@@ -1,0 +1,17 @@
+{
+  "component": "easimon/maximize-build-space@v6",
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_C-PAC.yml",
+      "source_repo": "FCP-INDI/C-PAC"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "FCP-INDI/C-PAC"
+    }
+  ]
+}

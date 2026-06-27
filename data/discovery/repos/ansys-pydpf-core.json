@@ -1,0 +1,712 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansys_lab.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@aa2ab1243d6e0d5b405b973c89fa4d06a2d0fff7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansys_lab.yml"
+    },
+    {
+      "component": "ansys/actions/check-vulnerabilities@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/check-actions-security@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/code-style@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/doc-deploy-pr@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/doc-deploy-dev@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ansys/actions/code-style@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml"
+    },
+    {
+      "component": "ansys/actions/doc-style@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/install-dpf-server@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/check-licenses@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "pyvista/setup-headless-display-action@5bc8de3bc71fcda7a96439571287a554901541a0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "ts-graphviz/setup-graphviz@b1de5da23ed0a6d14e0aeee8ed52fdd87af2363c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/install-dpf-server@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/check-licenses@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/prepare_tests@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/kill-dpf-servers@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_docker.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_docker.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/install-dpf-docker@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_docker.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/check-licenses@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_docker.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/prepare_tests@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_docker.yml"
+    },
+    {
+      "component": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@18f1af5e3544586314bbe15c0273249c770b2daf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@18f1af5e3544586314bbe15c0273249c770b2daf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@18f1af5e3544586314bbe15c0273249c770b2daf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@18f1af5e3544586314bbe15c0273249c770b2daf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@18f1af5e3544586314bbe15c0273249c770b2daf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@18f1af5e3544586314bbe15c0273249c770b2daf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/install-dpf-server@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/check-licenses@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/prepare_tests@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/test_docstrings@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml"
+    },
+    {
+      "component": "mainmatter/continue-on-error-comment@b2606cc5ef2525ec21692999676a19f047e3e082",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml"
+    },
+    {
+      "component": "mainmatter/continue-on-error-comment@b2606cc5ef2525ec21692999676a19f047e3e082",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml"
+    },
+    {
+      "component": "ansys/pydpf-actions/kill-dpf-servers@195207a462b23da5645fde44ac685e81b29035a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-post",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansys_lab.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansys_lab.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "dsaltares/fetch-gh-release-asset@aa2ab1243d6e0d5b405b973c89fa4d06a2d0fff7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ansys_lab.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "Ansys Lab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/actions/check-vulnerabilities@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/actions/check-actions-security@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/actions/code-style@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/actions/doc-deploy-pr@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/actions/doc-deploy-dev@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/actions/code-style@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "CI Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/actions/doc-style@d946b24b9a765f4169bcc94afdb27bd1a0533741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/install-dpf-server@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/check-licenses@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "pyvista/setup-headless-display-action@5bc8de3bc71fcda7a96439571287a554901541a0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ts-graphviz/setup-graphviz@b1de5da23ed0a6d14e0aeee8ed52fdd87af2363c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/install-dpf-server@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/check-licenses@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/prepare_tests@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/kill-dpf-servers@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_docker.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_docker.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_docker.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/install-dpf-docker@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_docker.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/check-licenses@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_docker.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/prepare_tests@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions-ecosystem/action-add-labels@18f1af5e3544586314bbe15c0273249c770b2daf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/install-dpf-server@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/check-licenses@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/prepare_tests@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/test_docstrings@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "mainmatter/continue-on-error-comment@b2606cc5ef2525ec21692999676a19f047e3e082",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pydpf-post.yml",
+      "source_repo": "ansys/pydpf-core",
+      "target": "ansys/pydpf-actions/kill-dpf-servers@195207a462b23da5645fde44ac685e81b29035a4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:31:48.002842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9003
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5447
+    },
+    {
+      "path": ".github/workflows/ansys_lab.yml",
+      "size": 2978
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 10835
+    },
+    {
+      "path": ".github/workflows/ci_release.yml",
+      "size": 8593
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 7013
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "size": 4571
+    },
+    {
+      "path": ".github/workflows/examples_docker.yml",
+      "size": 4250
+    },
+    {
+      "path": ".github/workflows/label.yml",
+      "size": 3729
+    },
+    {
+      "path": ".github/workflows/pydpf-post.yml",
+      "size": 6274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data Processing Framework - Python Core",
+    "fork": false,
+    "full_name": "ansys/pydpf-core",
+    "html_url": "https://github.com/ansys/pydpf-core",
+    "language": "Python",
+    "pushed_at": "2026-06-26T13:00:40Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-06-26T13:01:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ansys/pydpf-post",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ansys Lab",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ansys_lab.yml",
+      "term": "Ansys Lab"
+    },
+    {
+      "context_snippet": "CI Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_release.yml",
+      "term": "CI Release"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "term": "Pull Request Labeler"
+    }
+  ]
+}

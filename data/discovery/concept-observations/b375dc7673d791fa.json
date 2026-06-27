@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Read and write subsurface data files describing surfaces, grids and horizons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Tests](https://github.com/agilescientific/gio/actions/workflows/build-test.yml/badge.svg)](https://github.com/agilescientific/gio/actions/workflows/build-test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/agilescientific/gio/actions/workflows/build-test.yml/badge.svg)](https://github.com/agilescientific/gio/actions/workflows/build-test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001592,
+      "status": "candidate",
+      "text": "geophysical science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002231,
+      "status": "candidate",
+      "text": "psychogeophysics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002230,
+      "status": "candidate",
+      "text": "physical geography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002229,
+      "status": "candidate",
+      "text": "physiography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002228,
+      "status": "candidate",
+      "text": "geonomy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geophysics",
+      "sense_id": "geophysics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "geophysical science"
+    }
+  ],
+  "concept_id": "geophysics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geophysics",
+  "observation_id": "b375dc7673d791fa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "geophysics",
+  "source_context_snippet": "[![Tests](https://github.com/agilescientific/gio/actions/workflows/build-test.yml/badge.svg)](https://github.com/agilescientific/gio/actions/workflows/build-test.yml)",
+  "source_file": null,
+  "source_repo": "softwareunderground/gio",
+  "source_repo_description": "Read and write subsurface data files describing surfaces, grids and horizons."
+}

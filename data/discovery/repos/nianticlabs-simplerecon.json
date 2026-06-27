@@ -1,0 +1,194 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "alexrich021/3dvnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "aljazbozic/transformerfusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "ardaduz/deep-video-mvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "cost-volume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "eccv2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "multi-view-stereo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "scannet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/simplerecon",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:11:50.916248+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022] SimpleRecon: 3D Reconstruction Without 3D Convolutions",
+    "fork": false,
+    "full_name": "nianticlabs/simplerecon",
+    "html_url": "https://github.com/nianticlabs/simplerecon",
+    "language": "Python",
+    "pushed_at": "2025-05-09T13:05:38Z",
+    "stargazers_count": 1428,
+    "topics": [
+      "computer-vision",
+      "cost-volume",
+      "depth",
+      "depth-estimation",
+      "eccv2022",
+      "multi-view-stereo",
+      "mvs",
+      "pytorch",
+      "scannet",
+      "visualization"
+    ],
+    "updated_at": "2026-06-22T15:05:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexrich021/3dvnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aljazbozic/transformerfusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ardaduz/deep-video-mvs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cost-volume"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv2022"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view-stereo"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scannet"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing MVS depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

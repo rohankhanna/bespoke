@@ -19,13 +19,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "HKUST-SAIL/CraftsMan3D",
-      "target": "thu-ml/crm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "HKUST-SAIL/CraftsMan3D",
       "target": "tencent/hunyuan3d-2",
       "target_type": "repository"
     },
@@ -58,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T13:22:27.787110+00:00",
+  "fetched_at": "2026-06-27T05:17:29.603315+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -93,11 +86,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "tencent/hunyuan3d-2",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "thu-ml/crm",
       "source_file": "README.md"
     },
     {

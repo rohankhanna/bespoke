@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pointcept/PointTransformerV3",
+      "target": "facebookresearch/sonata",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:17:33.213469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12530
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'24 Oral] Official repository of Point Transformer V3 (PTv3)",
+    "fork": false,
+    "full_name": "Pointcept/PointTransformerV3",
+    "html_url": "https://github.com/Pointcept/PointTransformerV3",
+    "language": "Python",
+    "pushed_at": "2025-10-24T07:27:41Z",
+    "stargazers_count": 1868,
+    "topics": [],
+    "updated_at": "2026-06-26T10:02:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/sonata",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

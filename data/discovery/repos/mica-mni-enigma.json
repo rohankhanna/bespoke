@@ -1,0 +1,257 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged_release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged_release.yml"
+    },
+    {
+      "component": "marvinpinto/action-automatic-releases@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "saratheriver/enigma-extra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged_release.yml",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged_release.yml",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged_release.yml",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "marvinpinto/action-automatic-releases@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "connectomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "enigma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "life-changing-magic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "multiscale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "multisite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "neuroimaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "straight-fire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA",
+      "target": "workflows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:14:03.701801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4180
+    },
+    {
+      "path": "requirements.txt",
+      "size": 123
+    },
+    {
+      "path": ".github/workflows/tagged_release.yml",
+      "size": 799
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The ENIGMA Toolbox is an open-source repository for accessing 100+ ENIGMA statistical maps, visualizing cortical and subcortical surface data, and relating neuroimaging findings to micro- and macroscale brain organization. \ud83e\udd20",
+    "fork": false,
+    "full_name": "MICA-MNI/ENIGMA",
+    "html_url": "https://github.com/MICA-MNI/ENIGMA",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-01-15T15:53:42Z",
+    "stargazers_count": 181,
+    "topics": [
+      "analysis",
+      "awesome",
+      "connectomics",
+      "enigma",
+      "life-changing-magic",
+      "mri",
+      "multiscale",
+      "multisite",
+      "neuroimaging",
+      "open-source",
+      "straight-fire",
+      "visualization",
+      "workflows"
+    ],
+    "updated_at": "2026-06-22T00:00:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saratheriver/enigma-extra",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connectomics"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enigma"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "life-changing-magic"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiscale"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multisite"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroimaging"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "straight-fire"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    },
+    {
+      "context_snippet": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflows"
+    }
+  ]
+}

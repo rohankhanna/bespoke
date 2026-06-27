@@ -19,6 +19,18 @@
       "source_repo": "chenjiandongx/pls",
       "status": "candidate-context",
       "text": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate-context",
+      "text": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate-context",
+      "text": "> Geoscience is [awesome](awesome.md)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "chenjiandongx/pls",
       "status": "candidate",
       "text": "> Impressive Linux commands cheat sheet cli. [Python \u7248\u672c](https://github.com/chenjiandongx/how)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate",
+      "text": "> Geoscience is [awesome](awesome.md)."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": null,
       "source_repo": "chenjiandongx/pls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience"
     }
   ],
   "first_seen_at": "2026-05-09T12:31:19.030154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

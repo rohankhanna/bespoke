@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/UniControl",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/UniControl",
+      "target": "generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/UniControl",
+      "target": "multi-modal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:12:11.034382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unified Controllable Visual Generation Model",
+    "fork": false,
+    "full_name": "salesforce/UniControl",
+    "html_url": "https://github.com/salesforce/UniControl",
+    "language": "Python",
+    "pushed_at": "2026-06-02T18:17:02Z",
+    "stargazers_count": 660,
+    "topics": [
+      "aigc",
+      "generation",
+      "multi-modal"
+    ],
+    "updated_at": "2026-06-02T18:17:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    }
+  ]
+}

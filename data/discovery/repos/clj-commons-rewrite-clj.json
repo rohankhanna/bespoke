@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/unit-test.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/unit-test.yml"
     }
@@ -234,7 +234,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/unit-test.yml",
       "source_repo": "clj-commons/rewrite-clj",
-      "target": "actions/cache@v5",
+      "target": "actions/cache@v6",
       "target_type": "component"
     },
     {
@@ -245,7 +245,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T01:09:48.502976+00:00",
+  "fetched_at": "2026-06-27T05:30:51.859160+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -281,10 +281,10 @@
     "full_name": "clj-commons/rewrite-clj",
     "html_url": "https://github.com/clj-commons/rewrite-clj",
     "language": "Clojure",
-    "pushed_at": "2026-06-22T15:30:26Z",
+    "pushed_at": "2026-06-26T14:06:21Z",
     "stargazers_count": 661,
     "topics": [],
-    "updated_at": "2026-06-22T15:30:43Z"
+    "updated_at": "2026-06-26T14:06:26Z"
   },
   "repo_links": [],
   "terms": [

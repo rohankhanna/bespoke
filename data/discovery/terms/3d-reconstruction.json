@@ -1,16 +1,36 @@
 {
-  "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "baegwangbin/DSINE"
+      "source_repo": "astra-vision/LMSCNet"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "HengyiWang/spann3r"
+      "source_repo": "dazinovic/neural-rgbd-surface-reconstruction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "FuchengSu/WorldStereo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradslam/gradslam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/acezero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Parskatt/RoMa"
     }
   ],
   "term": "3d-reconstruction"

@@ -1,0 +1,12 @@
+{
+  "component": "ansys/actions/doc-deploy-stable@v10.3.2",
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ansys/pymapdl-reader"
+    }
+  ]
+}

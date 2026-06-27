@@ -1,7 +1,8 @@
 {
   "aliases": [
     "CI & Release",
-    "ci-release"
+    "ci-release",
+    "CI Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -20,6 +21,30 @@
       "source_repo": "cloudnativelabs/kube-router",
       "status": "candidate-context",
       "text": "ci-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansys/pydpf-core",
+      "status": "candidate-context",
+      "text": "Data Processing Framework - Python Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pydpf-core",
+      "status": "candidate-context",
+      "text": "CI Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansys/pydpf-post",
+      "status": "candidate-context",
+      "text": "Data Processing Framework - Post Processing Module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pydpf-post",
+      "status": "candidate-context",
+      "text": "CI Release"
     }
   ],
   "candidate_glosses": [
@@ -28,9 +53,57 @@
       "source_repo": "cloudnativelabs/kube-router",
       "status": "candidate",
       "text": "ci-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pydpf-core",
+      "status": "candidate",
+      "text": "CI Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansys/pydpf-post",
+      "status": "candidate",
+      "text": "CI Release"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16314,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "aire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "madame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "nobel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "radon"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "CI & Release",
   "concept_id": "ci-release",
@@ -47,11 +120,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/ci-release.yml",
       "source_repo": "cloudnativelabs/kube-router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "ansys/pydpf-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ci_release.yml",
+      "source_repo": "ansys/pydpf-post"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

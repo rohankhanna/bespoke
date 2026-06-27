@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Software platform for clinical neuroimaging studies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fast Non Regression Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fast Non Regression Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33895,
+      "status": "candidate",
+      "text": "decline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32274,
+      "status": "candidate",
+      "text": "distil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32274,
+      "status": "candidate",
+      "text": "distill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32274,
+      "status": "candidate",
+      "text": "distilling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32274,
+      "status": "candidate",
+      "text": "flunk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fast Non Regression Tests",
+      "sense_id": "fast-non-regression-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fast-non-regression-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fast-non-regression-tests",
+  "observation_id": "37d83f6b34f67bf5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "Fast Non Regression Tests",
+  "source_context_snippet": "Fast Non Regression Tests",
+  "source_file": ".github/workflows/test_non_regression_fast.yml",
+  "source_repo": "aramis-lab/clinica",
+  "source_repo_description": "Software platform for clinical neuroimaging studies"
+}

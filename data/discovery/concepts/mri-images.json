@@ -19,6 +19,18 @@
       "source_repo": "neurolabusc/nii2mesh",
       "status": "candidate-context",
       "text": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "dcm2nii DICOM to NIfTI converter: compiled versions available from NITRC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "neurolabusc/nii2mesh",
       "status": "candidate",
       "text": "This tool converts a NIfTI 3D voxel image to a triangulated mesh. It can save meshes in in the GIfTI (.gii), mz3, obj, ply, FreeSurfer (.pial), stl, vtk, formats. You can use [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert DICOM images to NIfTI. The software is writ\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "neurolabusc/nii2mesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "rordenlab/dcm2niix"
     }
   ],
   "first_seen_at": "2026-06-26T00:48:31.916635+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

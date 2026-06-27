@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rordenlab/i2nii",
+      "target": "slicerrt/slicerrt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:32:57.345152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert various image formats to NIfTI.",
+    "fork": false,
+    "full_name": "rordenlab/i2nii",
+    "html_url": "https://github.com/rordenlab/i2nii",
+    "language": "Pascal",
+    "pushed_at": "2022-07-30T00:24:33Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-10-20T12:54:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slicerrt/slicerrt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

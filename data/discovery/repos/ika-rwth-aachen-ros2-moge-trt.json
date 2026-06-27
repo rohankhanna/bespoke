@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "yester31/monocular_depth_estimation_trt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "moge-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "monocular-depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:14:46.174413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9000
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Monocular Metric Depth estimation and Point Cloud generation from camera images.",
+    "fork": false,
+    "full_name": "ika-rwth-aachen/ros2-moge-trt",
+    "html_url": "https://github.com/ika-rwth-aachen/ros2-moge-trt",
+    "language": "C++",
+    "pushed_at": "2025-12-15T11:17:07Z",
+    "stargazers_count": 32,
+    "topics": [
+      "moge-2",
+      "monocular-depth",
+      "monocular-depth-estimation",
+      "ros2",
+      "tensorrt"
+    ],
+    "updated_at": "2026-06-09T23:39:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yester31/monocular_depth_estimation_trt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moge-2"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    }
+  ]
+}

@@ -43,6 +43,54 @@
       "source_repo": "lava-nc/lava",
       "status": "candidate-context",
       "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates. Patches to this project are no longer accepted by Intel. If you have an ongoing need to use this project, are interested\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ABRG-Models/Stalefish",
+      "status": "candidate-context",
+      "text": "Spatial Analysis of ISH Brain Slice Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/Stalefish",
+      "status": "candidate-context",
+      "text": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "The MATLAB toolbox for MEG, EEG and iEEG analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate-context",
+      "text": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "dcm2nii DICOM to NIfTI converter: compiled versions available from NITRC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aramis-lab/clinica",
+      "status": "candidate-context",
+      "text": "Software platform for clinical neuroimaging studies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/clinica",
+      "status": "candidate-context",
+      "text": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +111,30 @@
       "source_repo": "lava-nc/lava",
       "status": "candidate",
       "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates. Patches to this project are no longer accepted by Intel. If you have an ongoing need to use this project, are interested\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ABRG-Models/Stalefish",
+      "status": "candidate",
+      "text": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fieldtrip/fieldtrip",
+      "status": "candidate",
+      "text": "[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=fieldtrip/fieldtrip&file=README.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/clinica",
+      "status": "candidate",
+      "text": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +196,35 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "lava-nc/lava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ABRG-Models/Stalefish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "fieldtrip/fieldtrip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "rordenlab/dcm2niix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

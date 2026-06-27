@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtydhr88/sd-webui-StableStudio",
+      "target": "stability-ai/stablestudio",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:12:08.898245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A custom extension for AUTOMATIC1111/stable-diffusion-webui to extend rest APIs to do some local operations, using in StableStudio.",
+    "fork": false,
+    "full_name": "jtydhr88/sd-webui-StableStudio",
+    "html_url": "https://github.com/jtydhr88/sd-webui-StableStudio",
+    "language": "Python",
+    "pushed_at": "2023-05-24T16:51:44Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2025-11-19T11:34:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/stablestudio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

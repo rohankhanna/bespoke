@@ -19,12 +19,30 @@
       "source_repo": "NVIDIA/Model-Optimizer",
       "status": "candidate-context",
       "text": "PR Gate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PozzettiAndrea/ComfyUI-DepthAnythingV3",
+      "status": "candidate-context",
+      "text": "ComfyUI support for DepthAnything V3 model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PozzettiAndrea/ComfyUI-DepthAnythingV3",
+      "status": "candidate-context",
+      "text": "PR Gate"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate",
+      "text": "PR Gate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PozzettiAndrea/ComfyUI-DepthAnythingV3",
       "status": "candidate",
       "text": "PR Gate"
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/_pr_gate.yml",
       "source_repo": "NVIDIA/Model-Optimizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/pr-gate.yml",
+      "source_repo": "PozzettiAndrea/ComfyUI-DepthAnythingV3"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

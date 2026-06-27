@@ -478,6 +478,54 @@
       "source_repo": "niivue/niivue-mesh",
       "status": "candidate-context",
       "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niivue/ct2print",
+      "status": "candidate-context",
+      "text": "ct2print for converting voxel images to mesh for 3D printing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/ct2print",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niivue/brain2print",
+      "status": "candidate-context",
+      "text": "brain2print"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/brain2print",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niivue/niivue",
+      "status": "candidate-context",
+      "text": "a WebGL2 based medical image viewer. Supports over 30 formats of volumes and meshes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/niivue",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate-context",
+      "text": "Brainchop: In-browser 3D MRI rendering and segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neuroneural/brainchop",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
     }
   ],
   "candidate_glosses": [
@@ -712,6 +760,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "niivue/niivue-mesh",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/ct2print",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/brain2print",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niivue/niivue",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neuroneural/brainchop",
       "status": "candidate",
       "text": "Build and Deploy"
     }
@@ -1495,11 +1567,41 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/ghpages.yml",
       "source_repo": "niivue/niivue-mesh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "niivue/ct2print"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "niivue/brain2print"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "niivue/niivue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "neuroneural/brainchop"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

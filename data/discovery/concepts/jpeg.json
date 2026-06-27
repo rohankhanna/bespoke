@@ -201,6 +201,18 @@
       "source_repo": "h5wasm/h5wasm-plugins",
       "status": "candidate-context",
       "text": "jpeg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "dcm2nii DICOM to NIfTI converter: compiled versions available from NITRC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -299,6 +311,12 @@
       "source_repo": "h5wasm/h5wasm-plugins",
       "status": "candidate",
       "text": "jpeg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -940,11 +958,23 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "rordenlab/dcm2niix"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

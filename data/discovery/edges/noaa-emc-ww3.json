@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnu.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnu.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gnu.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "GNU Linux Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/intel.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "Intel Linux Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/io_gnu_yml.old",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regtest_gnu.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regtest_gnu.yml",
+      "source_repo": "NOAA-EMC/WW3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
+  "source_repo": "NOAA-EMC/WW3"
+}

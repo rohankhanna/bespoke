@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@v1.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ros-tooling/setup-ros@0.7.15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ros-tooling/action-ros-ci@0.4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "awalsh128/cache-apt-pkgs-action@v1.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "ros-tooling/setup-ros@0.7.15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "ros-tooling/action-ros-ci@0.4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "depth-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "metric-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "target": "ros2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:14:35.605284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4483
+    },
+    {
+      "path": "requirements.txt",
+      "size": 95
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ROS2 Wrapper for DepthAnything V2 model.",
+    "fork": false,
+    "full_name": "grupo-avispa/depth_anything_v2_ros2",
+    "html_url": "https://github.com/grupo-avispa/depth_anything_v2_ros2",
+    "language": "Python",
+    "pushed_at": "2026-06-09T12:18:23Z",
+    "stargazers_count": 153,
+    "topics": [
+      "depth",
+      "depth-anything",
+      "depth-estimation",
+      "metric-depth-estimation",
+      "monocular-depth-estimation",
+      "perception",
+      "ros",
+      "ros2"
+    ],
+    "updated_at": "2026-06-25T11:48:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth"
+    },
+    {
+      "context_snippet": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-anything"
+    },
+    {
+      "context_snippet": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metric-depth-estimation"
+    },
+    {
+      "context_snippet": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perception"
+    },
+    {
+      "context_snippet": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    }
+  ]
+}

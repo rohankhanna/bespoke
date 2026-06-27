@@ -239,6 +239,18 @@
       "source_repo": "HDFGroup/hdf4",
       "status": "candidate-context",
       "text": "clang-format Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate-context",
+      "text": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate-context",
+      "text": "Clang Format Check"
     }
   ],
   "candidate_glosses": [
@@ -361,6 +373,12 @@
       "source_repo": "HDFGroup/hdf4",
       "status": "candidate",
       "text": "clang-format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate",
+      "text": "Clang Format Check"
     }
   ],
   "candidate_related_terms": [
@@ -559,11 +577,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/clang-format-check.yml",
       "source_repo": "HDFGroup/hdf4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "MrNeRF/LichtFeld-Studio"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

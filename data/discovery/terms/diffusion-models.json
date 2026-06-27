@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -521,6 +521,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "YanWenKun/Hunyuan3D-2-WinPortable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/CRM"
     }
   ],
   "term": "diffusion-models"

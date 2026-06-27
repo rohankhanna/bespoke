@@ -202,6 +202,18 @@
       "source_repo": "mworchel/xatlas-python",
       "status": "candidate-context",
       "text": "Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate-context",
+      "text": "Algorithmic differentiation with hyper-dual numbers in C++ and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate-context",
+      "text": "Wheels"
     }
   ],
   "candidate_glosses": [
@@ -298,6 +310,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mworchel/xatlas-python",
+      "status": "candidate",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oberbichler/HyperJet",
       "status": "candidate",
       "text": "Wheels"
     }
@@ -865,11 +883,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "mworchel/xatlas-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "TA-Lib/ta-lib-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "oberbichler/HyperJet"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

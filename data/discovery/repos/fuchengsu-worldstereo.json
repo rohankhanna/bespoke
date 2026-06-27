@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FuchengSu/WorldStereo",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FuchengSu/WorldStereo",
+      "target": "videogeneration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:11:58.178886+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18152
+    },
+    {
+      "path": "requirements.txt",
+      "size": 614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2026] WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories (WorldExpand of HY-World 2.0)",
+    "fork": false,
+    "full_name": "FuchengSu/WorldStereo",
+    "html_url": "https://github.com/FuchengSu/WorldStereo",
+    "language": "Python",
+    "pushed_at": "2026-04-24T12:14:12Z",
+    "stargazers_count": 169,
+    "topics": [
+      "3d-reconstruction",
+      "videogeneration"
+    ],
+    "updated_at": "2026-06-25T10:43:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videogeneration"
+    }
+  ]
+}

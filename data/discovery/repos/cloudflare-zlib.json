@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "cloudflare/zlib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "cloudflare/zlib",
+      "target": "CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "cloudflare/zlib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "cloudflare/zlib",
+      "target": "Makefile CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cloudflare/zlib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cloudflare/zlib",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "cloudflare/zlib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "cloudflare/zlib",
+      "target": "Semgrep config",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:19:52.446824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 309
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 861
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 2087
+    },
+    {
+      "path": ".github/workflows/make.yml",
+      "size": 432
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/semgrep.yml",
+      "size": 591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gcc.amd64",
+    "description": "Cloudflare fork of zlib with massive performance improvements",
+    "fork": true,
+    "full_name": "cloudflare/zlib",
+    "html_url": "https://github.com/cloudflare/zlib",
+    "language": "C",
+    "pushed_at": "2026-04-24T00:35:22Z",
+    "stargazers_count": 705,
+    "topics": [],
+    "updated_at": "2026-05-30T15:43:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    },
+    {
+      "context_snippet": "Makefile CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "term": "Makefile CI"
+    },
+    {
+      "context_snippet": "Semgrep config",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "term": "Semgrep config"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -81,6 +81,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "holgern/scikit-optimize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica"
     }
   ],
   "term": "scikit-learn"

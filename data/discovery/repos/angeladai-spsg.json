@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "angeladai/spsg",
+      "target": "niessner/mlib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:30:38.719485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2953
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "angeladai/spsg",
+    "html_url": "https://github.com/angeladai/spsg",
+    "language": "C++",
+    "pushed_at": "2023-10-03T21:32:33Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2025-11-25T07:52:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niessner/mlib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

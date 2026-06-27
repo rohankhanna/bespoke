@@ -1,0 +1,532 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_converters.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_converters.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_instantiation.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_instantiation.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_non_regression_fast.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_non_regression_fast.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aramis-lab/clinica",
+      "target": "ucl/petpvc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aramis-lab/clinica",
+      "target": "aramis-lab/ad-ml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aramis-lab/clinica",
+      "target": "aramis-lab/clinicadl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aramis-lab/clinica",
+      "target": "aramis-lab/ad-dl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "Build and Deloy Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_converters.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_converters.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "Non Regression Tests - Converters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_instantiation.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_instantiation.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "Instantiation Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_non_regression_fast.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_non_regression_fast.yml",
+      "source_repo": "aramis-lab/clinica",
+      "target": "Fast Non Regression Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica",
+      "target": "ants",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica",
+      "target": "bids-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica",
+      "target": "brainweb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica",
+      "target": "freesurfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica",
+      "target": "mrtrix3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica",
+      "target": "neuroimaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica",
+      "target": "neuroscience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aramis-lab/clinica",
+      "target": "scikit-learn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:19:10.254650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8810
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2758
+    },
+    {
+      "path": ".github/workflows/build_and_deploy.yml",
+      "size": 1102
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 351
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 555
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 662
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 689
+    },
+    {
+      "path": ".github/workflows/test_converters.yml",
+      "size": 1771
+    },
+    {
+      "path": ".github/workflows/test_instantiation.yml",
+      "size": 1857
+    },
+    {
+      "path": ".github/workflows/test_non_regression_fast.yml",
+      "size": 1821
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Software platform for clinical neuroimaging studies",
+    "fork": false,
+    "full_name": "aramis-lab/clinica",
+    "html_url": "https://github.com/aramis-lab/clinica",
+    "language": "Python",
+    "pushed_at": "2026-06-24T10:01:22Z",
+    "stargazers_count": 284,
+    "topics": [
+      "ants",
+      "bids-format",
+      "brainweb",
+      "freesurfer",
+      "fsl",
+      "machine-learning",
+      "mrtrix3",
+      "neuroimaging",
+      "neuroscience",
+      "python",
+      "scikit-learn",
+      "spm"
+    ],
+    "updated_at": "2026-06-24T10:01:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aramis-lab/ad-dl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aramis-lab/ad-ml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aramis-lab/clinicadl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ucl/petpvc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Deloy Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "term": "Build and Deloy Documentation"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "'Close inactive issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "Non Regression Tests - Converters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_converters.yml",
+      "term": "Non Regression Tests - Converters"
+    },
+    {
+      "context_snippet": "Instantiation Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_instantiation.yml",
+      "term": "Instantiation Tests"
+    },
+    {
+      "context_snippet": "Fast Non Regression Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_non_regression_fast.yml",
+      "term": "Fast Non Regression Tests"
+    },
+    {
+      "context_snippet": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ants"
+    },
+    {
+      "context_snippet": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bids-format"
+    },
+    {
+      "context_snippet": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brainweb"
+    },
+    {
+      "context_snippet": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freesurfer"
+    },
+    {
+      "context_snippet": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mrtrix3"
+    },
+    {
+      "context_snippet": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroimaging"
+    },
+    {
+      "context_snippet": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroscience"
+    },
+    {
+      "context_snippet": "<!--(http://www.clinica.run/img/clinica_brainweb.png)-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    }
+  ]
+}

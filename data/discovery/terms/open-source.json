@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -591,6 +591,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "adtzlr/felupe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA"
     }
   ],
   "term": "Open Source"

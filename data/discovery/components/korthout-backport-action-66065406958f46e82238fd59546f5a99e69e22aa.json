@@ -1,7 +1,7 @@
 {
   "component": "korthout/backport-action@66065406958f46e82238fd59546f5a99e69e22aa",
   "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

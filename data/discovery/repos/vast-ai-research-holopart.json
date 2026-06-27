@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/HoloPart",
+      "target": "pointcept/sampart3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/HoloPart",
+      "target": "gtangg12/samesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/HoloPart",
+      "target": "tencent/hunyuandit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VAST-AI-Research/HoloPart",
+      "target": "tencent/flashvdm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:11:34.567951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3421
+    },
+    {
+      "path": "requirements.txt",
+      "size": 148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HoloPart: Generative 3D Part Amodal Segmentation",
+    "fork": false,
+    "full_name": "VAST-AI-Research/HoloPart",
+    "html_url": "https://github.com/VAST-AI-Research/HoloPart",
+    "language": "Python",
+    "pushed_at": "2025-04-11T02:58:53Z",
+    "stargazers_count": 658,
+    "topics": [],
+    "updated_at": "2026-06-19T11:30:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gtangg12/samesh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pointcept/sampart3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/flashvdm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuandit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

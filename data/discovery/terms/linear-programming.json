@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jump-dev/JuMP.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvxgrp/scs"
     }
   ],
   "term": "linear-programming"

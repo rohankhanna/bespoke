@@ -1,0 +1,424 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cpp.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.22.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cpp.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cpp.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-cpp.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "Test C++",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "pypa/cibuildwheel@v2.22.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "oberbichler/HyperJet",
+      "target": "Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "algorithmic-differentiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "auto-differentiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "autodiff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "autodifferentiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "automatic-differentiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "derivatives",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "differentiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "dual-numbers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "gradient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "hessian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "hyper-dual-numbers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oberbichler/HyperJet",
+      "target": "numerical-derivation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:18:41.398875+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7255
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1438
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 626
+    },
+    {
+      "path": ".github/workflows/test-cpp.yml",
+      "size": 1351
+    },
+    {
+      "path": ".github/workflows/test-python.yml",
+      "size": 1195
+    },
+    {
+      "path": ".github/workflows/wheels.yml",
+      "size": 2736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Algorithmic differentiation with hyper-dual numbers in C++ and Python",
+    "fork": false,
+    "full_name": "oberbichler/HyperJet",
+    "html_url": "https://github.com/oberbichler/HyperJet",
+    "language": "C++",
+    "pushed_at": "2026-05-17T13:46:16Z",
+    "stargazers_count": 17,
+    "topics": [
+      "algorithmic-differentiation",
+      "auto-differentiation",
+      "autodiff",
+      "autodifferentiation",
+      "automatic-differentiation",
+      "derivatives",
+      "differentiation",
+      "dual-numbers",
+      "gradient",
+      "hessian",
+      "hyper-dual-numbers",
+      "numerical-derivation"
+    ],
+    "updated_at": "2026-05-17T13:46:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Format"
+    },
+    {
+      "context_snippet": "Test C++",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-cpp.yml",
+      "term": "Test C++"
+    },
+    {
+      "context_snippet": "Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "term": "Wheels"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithmic-differentiation"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-differentiation"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autodiff"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autodifferentiation"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-differentiation"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "derivatives"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentiation"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dual-numbers"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradient"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hessian"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyper-dual-numbers"
+    },
+    {
+      "context_snippet": "![HyperJet](https://github.com/oberbichler/HyperJet/raw/main/docs/HyperJet.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerical-derivation"
+    }
+  ]
+}

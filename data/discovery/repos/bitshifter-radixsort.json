@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "bitshifter/radixsort",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "bitshifter/radixsort",
+      "target": "CMake on multiple platforms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:19:49.434928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1824
+    },
+    {
+      "path": ".github/workflows/cmake-multi-platform.yml",
+      "size": 3342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Radix sort implementations in C and C++",
+    "fork": false,
+    "full_name": "bitshifter/radixsort",
+    "html_url": "https://github.com/bitshifter/radixsort",
+    "language": "C++",
+    "pushed_at": "2025-07-07T09:07:54Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-12-26T10:25:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CMake on multiple platforms",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "term": "CMake on multiple platforms"
+    }
+  ]
+}

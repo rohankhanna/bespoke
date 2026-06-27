@@ -31,6 +31,18 @@
       "source_repo": "cvg/glue-factory",
       "status": "candidate-context",
       "text": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate-context",
+      "text": "Official repository for the ICCV2023 paper \"Kick Back & Relax: Learning to Reconstruct the World by Watching SlowTV\" "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "cvg/glue-factory",
       "status": "candidate",
       "text": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "cvg/glue-factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "jspenmar/slowtv_monodepth"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

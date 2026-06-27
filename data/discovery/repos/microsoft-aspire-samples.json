@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-dotnet@9a946fdbd5fb07b82b2f5a4466058b876ab72bb2",
+      "component": "actions/setup-dotnet@26b0ec14cb23fa6904739307f278c14f94c95bf1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -129,7 +129,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "microsoft/aspire-samples",
-      "target": "actions/setup-dotnet@9a946fdbd5fb07b82b2f5a4466058b876ab72bb2",
+      "target": "actions/setup-dotnet@26b0ec14cb23fa6904739307f278c14f94c95bf1",
       "target_type": "component"
     },
     {
@@ -357,7 +357,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T01:11:20.195003+00:00",
+  "fetched_at": "2026-06-27T05:32:21.116160+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -401,7 +401,7 @@
     "full_name": "microsoft/aspire-samples",
     "html_url": "https://github.com/microsoft/aspire-samples",
     "language": "C#",
-    "pushed_at": "2026-06-25T19:16:18Z",
+    "pushed_at": "2026-06-26T06:23:47Z",
     "stargazers_count": 1186,
     "topics": [
       "apphost",
@@ -424,7 +424,7 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-06-25T19:16:29Z"
+    "updated_at": "2026-06-26T06:23:50Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JonathonLuiten/Dynamic3DGaussians",
+      "target": "mrnerf/gaussian-splatting-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JonathonLuiten/Dynamic3DGaussians",
+      "target": "jonathonluiten/diff-gaussian-rasterization-w-depth",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:31:05.391018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JonathonLuiten/Dynamic3DGaussians",
+    "html_url": "https://github.com/JonathonLuiten/Dynamic3DGaussians",
+    "language": "Python",
+    "pushed_at": "2023-12-22T06:49:05Z",
+    "stargazers_count": 2282,
+    "topics": [],
+    "updated_at": "2026-06-24T09:29:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonathonluiten/diff-gaussian-rasterization-w-depth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrnerf/gaussian-splatting-cuda",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

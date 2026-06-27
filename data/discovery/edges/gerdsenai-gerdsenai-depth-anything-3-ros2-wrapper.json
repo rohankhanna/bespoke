@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GerdsenAI/GerdsenAI-Depth-Anything-3-ROS2-Wrapper",
+      "target": "grupo-avispa/depth_anything_v2_ros2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GerdsenAI/GerdsenAI-Depth-Anything-3-ROS2-Wrapper",
+      "target": "scepter914/depthanything-ros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "GerdsenAI/GerdsenAI-Depth-Anything-3-ROS2-Wrapper",
+      "target": "ros-perception/vision_opencv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GerdsenAI/GerdsenAI-Depth-Anything-3-ROS2-Wrapper",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GerdsenAI/GerdsenAI-Depth-Anything-3-ROS2-Wrapper",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GerdsenAI/GerdsenAI-Depth-Anything-3-ROS2-Wrapper",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
+  "source_repo": "GerdsenAI/GerdsenAI-Depth-Anything-3-ROS2-Wrapper"
+}

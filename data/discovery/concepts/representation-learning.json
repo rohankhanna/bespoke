@@ -259,6 +259,18 @@
       "source_repo": "KaiyangZhou/mixstyle-release",
       "status": "candidate-context",
       "text": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brandleyzhou/DIFFNet",
+      "status": "candidate-context",
+      "text": "[BMVC 2021] ''Self-Supervised Monocular Depth Estimation with Internal Feature Fusion''"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brandleyzhou/DIFFNet",
+      "status": "candidate-context",
+      "text": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "KaiyangZhou/mixstyle-release",
       "status": "candidate",
       "text": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brandleyzhou/DIFFNet",
+      "status": "candidate",
+      "text": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**"
     }
   ],
   "candidate_related_terms": [],
@@ -520,11 +538,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "KaiyangZhou/mixstyle-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "brandleyzhou/DIFFNet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

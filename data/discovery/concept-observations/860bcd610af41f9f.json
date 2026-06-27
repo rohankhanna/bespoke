@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31424,
+      "status": "candidate",
+      "text": "geology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31423,
+      "status": "candidate",
+      "text": "geophysics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31422,
+      "status": "candidate",
+      "text": "economic geology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31421,
+      "status": "candidate",
+      "text": "geochemistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31420,
+      "status": "candidate",
+      "text": "geomorphology"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geosciences",
+      "sense_id": "geosciences#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "geosciences",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geosciences",
+  "observation_id": "860bcd610af41f9f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "geosciences",
+  "source_context_snippet": "> Geoscience is [awesome](awesome.md).",
+  "source_file": null,
+  "source_repo": "softwareunderground/awesome-open-geoscience",
+  "source_repo_description": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+}

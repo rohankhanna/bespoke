@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR 2024 - Oral] Matching 2D Images in 3D: Metric Relative Pose from Metric Correspondences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div style=\"text-align: center;\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center;\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ransac-algorithm",
+      "sense_id": "ransac-algorithm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ransac-algorithm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ransac-algorithm",
+  "observation_id": "14acce150510400f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "ransac-algorithm",
+  "source_context_snippet": "<div style=\"text-align: center;\">",
+  "source_file": null,
+  "source_repo": "nianticlabs/mickey",
+  "source_repo_description": "[CVPR 2024 - Oral] Matching 2D Images in 3D: Metric Relative Pose from Metric Correspondences"
+}

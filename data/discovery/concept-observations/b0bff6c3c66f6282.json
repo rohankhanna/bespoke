@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open-source toolkit for radiation therapy research, an extension of 3D Slicer. Features include DICOM-RT import/export, dose volume histogram, dose accumulation, external beam planning (TPS), structure comparison and morphology, isodose line/surface generation, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SlicerRT is a radiation therapy toolkit for 3D Slicer, containing generic RT features for import/export, analysis, visualization, making 3D Slicer a powerful radiotherapy research platform. The SlicerRT extension incorporates components from [Plastimatch](Docs/user_guide/Plastim\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SlicerRT is a radiation therapy toolkit for 3D Slicer, containing generic RT features for import/export, analysis, visualization, making 3D Slicer a powerful radiotherapy research platform. The SlicerRT extension incorporates components from [Plastimatch](Docs/user_guide/Plastim\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-slicer-extension",
+      "sense_id": "3d-slicer-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-slicer-extension",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-slicer-extension",
+  "observation_id": "b0bff6c3c66f6282",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "3d-slicer-extension",
+  "source_context_snippet": "SlicerRT is a radiation therapy toolkit for 3D Slicer, containing generic RT features for import/export, analysis, visualization, making 3D Slicer a powerful radiotherapy research platform. The SlicerRT extension incorporates components from [Plastimatch](Docs/user_guide/Plastim\u2026",
+  "source_file": null,
+  "source_repo": "SlicerRt/SlicerRT",
+  "source_repo_description": "Open-source toolkit for radiation therapy research, an extension of 3D Slicer. Features include DICOM-RT import/export, dose volume histogram, dose accumulation, external beam planning (TPS), structure comparison and morphology, isodose line/surface generation, etc."
+}

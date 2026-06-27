@@ -451,6 +451,66 @@
       "source_repo": "KIT-ISAS/lili-om",
       "status": "candidate-context",
       "text": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/map-free-reloc",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] Map-free Visual Relocalization: Metric Pose Relative to a Single Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/map-free-reloc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/mickey",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 - Oral] Matching 2D Images in 3D: Metric Relative Pose from Metric Correspondences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/mickey",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/ace",
+      "status": "candidate-context",
+      "text": "[CVPR 2023 - Highlight] Accelerated Coordinate Encoding (ACE): Learning to Relocalize in Minutes using RGB and Poses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/ace",
+      "status": "candidate-context",
+      "text": "----------------------------------------------------------------------------------------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate-context",
+      "text": "[ECCV 2024 - Oral] ACE0 is a learning-based structure-from-motion approach that estimates camera parameters of sets of images by learning a multi-view consistent, implicit scene representation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate-context",
+      "text": "This repository contains the code associated to the ACE0 paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RuojinCai/ExtremeRotation_code",
+      "status": "candidate-context",
+      "text": "Extreme Rotation Estimation using Dense Correlation Volumes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RuojinCai/ExtremeRotation_code",
+      "status": "candidate-context",
+      "text": "This repository contains a PyTorch implementation of the paper:"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +735,36 @@
       "source_repo": "KIT-ISAS/lili-om",
       "status": "candidate",
       "text": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/map-free-reloc",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/mickey",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/ace",
+      "status": "candidate",
+      "text": "----------------------------------------------------------------------------------------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/acezero",
+      "status": "candidate",
+      "text": "This repository contains the code associated to the ACE0 paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RuojinCai/ExtremeRotation_code",
+      "status": "candidate",
+      "text": "This repository contains a PyTorch implementation of the paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -1888,11 +1978,53 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/map-free-reloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/acezero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "RuojinCai/ExtremeRotation_code"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

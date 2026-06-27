@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fast Non Regression Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aramis-lab/clinica",
+      "status": "candidate-context",
+      "text": "Software platform for clinical neuroimaging studies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/clinica",
+      "status": "candidate-context",
+      "text": "Fast Non Regression Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/clinica",
+      "status": "candidate",
+      "text": "Fast Non Regression Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33895,
+      "status": "candidate",
+      "text": "decline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32274,
+      "status": "candidate",
+      "text": "distil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32274,
+      "status": "candidate",
+      "text": "distill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32274,
+      "status": "candidate",
+      "text": "distilling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32274,
+      "status": "candidate",
+      "text": "flunk"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fast Non Regression Tests",
+  "concept_id": "fast-non-regression-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/test_non_regression_fast.yml",
+      "source_repo": "aramis-lab/clinica"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fast Non Regression Tests",
+      "sense_id": "fast-non-regression-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

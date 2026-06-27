@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "component": "actions/cache@2c8a9bd7457de244a408f35966fab2fb45fda9c8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -86,7 +86,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "component": "actions/cache@2c8a9bd7457de244a408f35966fab2fb45fda9c8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -131,7 +131,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "component": "actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -146,7 +146,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "component": "actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -221,7 +221,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/setup-dotnet@9a946fdbd5fb07b82b2f5a4466058b876ab72bb2",
+      "component": "actions/setup-dotnet@26b0ec14cb23fa6904739307f278c14f94c95bf1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -236,7 +236,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -251,7 +251,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -271,7 +271,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "component": "actions/cache@2c8a9bd7457de244a408f35966fab2fb45fda9c8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -296,7 +296,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "component": "actions/cache@2c8a9bd7457de244a408f35966fab2fb45fda9c8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -434,7 +434,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target": "actions/cache@2c8a9bd7457de244a408f35966fab2fb45fda9c8",
       "target_type": "component"
     },
     {
@@ -448,7 +448,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target": "actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16",
       "target_type": "component"
     },
     {
@@ -476,14 +476,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/setup-dotnet@9a946fdbd5fb07b82b2f5a4466058b876ab72bb2",
+      "target": "actions/setup-dotnet@26b0ec14cb23fa6904739307f278c14f94c95bf1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -536,7 +536,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T01:11:03.175200+00:00",
+  "fetched_at": "2026-06-27T05:32:03.679797+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -568,7 +568,7 @@
     "full_name": "licensee/licensed",
     "html_url": "https://github.com/licensee/licensed",
     "language": "Ruby",
-    "pushed_at": "2026-06-22T08:11:32Z",
+    "pushed_at": "2026-06-26T14:05:23Z",
     "stargazers_count": 1041,
     "topics": [
       "dependencies",
@@ -576,7 +576,7 @@
       "licensing",
       "open-source-licensing"
     ],
-    "updated_at": "2026-06-22T08:11:36Z"
+    "updated_at": "2026-06-26T14:05:29Z"
   },
   "repo_links": [
     {

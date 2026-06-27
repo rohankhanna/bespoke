@@ -43,6 +43,18 @@
       "source_repo": "spacewalk01/depth-anything-tensorrt",
       "status": "candidate-context",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "status": "candidate-context",
+      "text": "ROS2 Wrapper for DepthAnything V2 model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "status": "candidate-context",
+      "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "spacewalk01/depth-anything-tensorrt",
       "status": "candidate",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "status": "candidate",
+      "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "spacewalk01/depth-anything-tensorrt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

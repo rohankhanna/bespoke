@@ -913,6 +913,18 @@
       "source_repo": "nschloe/awesome-scientific-computing",
       "status": "candidate-context",
       "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate-context",
+      "text": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate-context",
+      "text": "> Geoscience is [awesome](awesome.md)."
     }
   ],
   "candidate_glosses": [
@@ -1365,6 +1377,12 @@
       "source_repo": "nschloe/awesome-scientific-computing",
       "status": "candidate",
       "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate",
+      "text": "> Geoscience is [awesome](awesome.md)."
     }
   ],
   "candidate_related_terms": [],
@@ -2380,11 +2398,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

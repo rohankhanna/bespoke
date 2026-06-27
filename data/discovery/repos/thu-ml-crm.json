@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thu-ml/CRM",
+      "target": "bytedance/imagedream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thu-ml/CRM",
+      "target": "ashawkey/kiuikit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/CRM",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/CRM",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/CRM",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/CRM",
+      "target": "multiview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/CRM",
+      "target": "reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:12:02.212453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4525
+    },
+    {
+      "path": "requirements.txt",
+      "size": 260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024] Single Image to 3D Textured Mesh in 10 seconds with Convolutional Reconstruction Model.",
+    "fork": false,
+    "full_name": "thu-ml/CRM",
+    "html_url": "https://github.com/thu-ml/CRM",
+    "language": "Python",
+    "pushed_at": "2024-11-28T09:04:06Z",
+    "stargazers_count": 688,
+    "topics": [
+      "3d",
+      "aigc",
+      "diffusion-models",
+      "generative-model",
+      "multiview",
+      "reconstruction"
+    ],
+    "updated_at": "2026-06-18T14:22:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashawkey/kiuikit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/imagedream",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official implementation for *CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model*.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "Official implementation for *CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model*.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "Official implementation for *CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model*.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "Official implementation for *CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model*.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiview"
+    },
+    {
+      "context_snippet": "Official implementation for *CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model*.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reconstruction"
+    }
+  ]
+}

@@ -889,6 +889,30 @@
       "source_repo": "nschloe/awesome-scientific-computing",
       "status": "candidate-context",
       "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate-context",
+      "text": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate-context",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate-context",
+      "text": "The ENIGMA Toolbox is an open-source repository for accessing 100+ ENIGMA statistical maps, visualizing cortical and subcortical surface data, and relating neuroimaging findings to micro- and macroscale brain organization. \ud83e\udd20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate-context",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
     }
   ],
   "candidate_glosses": [
@@ -1329,6 +1353,18 @@
       "source_repo": "nschloe/awesome-scientific-computing",
       "status": "candidate",
       "text": "[<img src=\"https://nschloe.github.io/awesome-scientific-computing/sunglasses.svg\" align=\"right\" width=\"30%\">](#readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softwareunderground/awesome-open-geoscience",
+      "status": "candidate",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MICA-MNI/ENIGMA",
+      "status": "candidate",
+      "text": ".. image:: https://api.codacy.com/project/badge/Grade/a793c78a53eb4435a4bb86d725c8f817"
     }
   ],
   "candidate_related_terms": [
@@ -1888,11 +1924,23 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "nschloe/awesome-scientific-computing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "softwareunderground/awesome-open-geoscience"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "MICA-MNI/ENIGMA"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

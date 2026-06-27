@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradslam/gradslam",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradslam/gradslam",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradslam/gradslam",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradslam/gradslam",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradslam/gradslam",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:31:03.184380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2942
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "gradslam is an open source differentiable dense SLAM library for PyTorch",
+    "fork": false,
+    "full_name": "gradslam/gradslam",
+    "html_url": "https://github.com/gradslam/gradslam",
+    "language": "Python",
+    "pushed_at": "2023-09-02T16:35:54Z",
+    "stargazers_count": 1420,
+    "topics": [
+      "3d-reconstruction",
+      "deep-learning",
+      "machine-learning",
+      "robotics",
+      "slam"
+    ],
+    "updated_at": "2026-06-13T14:10:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](assets/gradslam-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "![](assets/gradslam-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![](assets/gradslam-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![](assets/gradslam-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "![](assets/gradslam-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

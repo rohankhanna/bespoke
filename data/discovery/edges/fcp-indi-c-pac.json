@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "fcp-indi/fcp-indi.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_C-PAC.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "easimon/maximize-build-space@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_C-PAC.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_C-PAC.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "docker/setup-buildx-action@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_C-PAC.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_C-PAC.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "docker/build-push-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_C-PAC.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "Build C-PAC image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "docker/setup-buildx-action@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "docker/build-push-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "easimon/maximize-build-space@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "Build and test C-PAC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_images.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_images.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "Chizkiyahu/delete-untagged-ghcr-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_images.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "Delete development images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_to_Docker_Hub.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_to_Docker_Hub.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "Deploy to Docker Hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_push.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_push.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "tj-actions/changed-files@v41.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_push.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "Build and test C-PAC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test_full.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test_full.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression_test_full.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "Run Regression Full Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test_lite.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "guibranco/github-status-action-v2@v1.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test_lite.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "appleboy/ssh-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression_test_lite.yml",
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "Launch lite regression test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "closember",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FCP-INDI/C-PAC",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-27T00:46:07.279669+00:00",
+  "source_repo": "FCP-INDI/C-PAC"
+}

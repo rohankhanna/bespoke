@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spla-tam/SplaTAM",
+      "target": "nik-v9/scannetpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spla-tam/SplaTAM",
+      "target": "jonathonluiten/dynamic3dgaussians",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spla-tam/SplaTAM",
+      "target": "gradslam/gradslam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spla-tam/SplaTAM",
+      "target": "eriksandstroem/point-slam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spla-tam/SplaTAM",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spla-tam/SplaTAM",
+      "target": "cvpr2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spla-tam/SplaTAM",
+      "target": "gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spla-tam/SplaTAM",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spla-tam/SplaTAM",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:11:55.712530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12519
+    },
+    {
+      "path": "requirements.txt",
+      "size": 274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM (CVPR 2024)",
+    "fork": false,
+    "full_name": "spla-tam/SplaTAM",
+    "html_url": "https://github.com/spla-tam/SplaTAM",
+    "language": "Python",
+    "pushed_at": "2024-06-19T09:46:15Z",
+    "stargazers_count": 2144,
+    "topics": [
+      "computer-vision",
+      "cvpr2024",
+      "gaussian-splatting",
+      "robotics",
+      "slam"
+    ],
+    "updated_at": "2026-06-25T07:13:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eriksandstroem/point-slam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gradslam/gradslam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonathonluiten/dynamic3dgaussians",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nik-v9/scannetpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2024"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaussian-splatting"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

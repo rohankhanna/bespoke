@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prepare Release Draft"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/altair",
+      "status": "candidate-context",
+      "text": "Declarative visualization library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/altair",
+      "status": "candidate-context",
+      "text": "Prepare Release Draft"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/altair",
+      "status": "candidate",
+      "text": "Prepare Release Draft"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26229,
+      "status": "candidate",
+      "text": "draw up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18907,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17959,
+      "status": "candidate",
+      "text": "banked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17959,
+      "status": "candidate",
+      "text": "drafted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17959,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prepare Release Draft",
+  "concept_id": "prepare-release-draft",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/release-draft.yml",
+      "source_repo": "vega/altair"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prepare Release Draft",
+      "sense_id": "prepare-release-draft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -307,6 +307,18 @@
       "source_repo": "Blaizzy/mlx-audio",
       "status": "candidate-context",
       "text": "<a href=\"https://trendshift.io/repositories/13625\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/13625\" alt=\"Blaizzy%2Fmlx-audio | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkoutini/passt_hear21",
+      "status": "candidate-context",
+      "text": "Inference code for PaSST, using the HEAR API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkoutini/passt_hear21",
+      "status": "candidate-context",
+      "text": "This is an implementation for [Efficient Training of Audio Transformers with Patchout](https://arxiv.org/abs/2110.05069) for HEAR 2021 NeurIPS Challenge"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +471,12 @@
       "source_repo": "Blaizzy/mlx-audio",
       "status": "candidate",
       "text": "<a href=\"https://trendshift.io/repositories/13625\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/13625\" alt=\"Blaizzy%2Fmlx-audio | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkoutini/passt_hear21",
+      "status": "candidate",
+      "text": "This is an implementation for [Efficient Training of Audio Transformers with Patchout](https://arxiv.org/abs/2110.05069) for HEAR 2021 NeurIPS Challenge"
     }
   ],
   "candidate_related_terms": [],
@@ -1114,11 +1132,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "kkoutini/passt_hear21"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

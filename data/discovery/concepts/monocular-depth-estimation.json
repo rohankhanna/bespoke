@@ -199,6 +199,66 @@
       "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
       "status": "candidate-context",
       "text": "[NEW] Training codes have been uploaded!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "status": "candidate-context",
+      "text": "ROS2 TensorRT Node for Monocular Metric Depth estimation and Point Cloud generation from camera images with Depth Anything V3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate-context",
+      "text": "Official repository for the ICCV2023 paper \"Kick Back & Relax: Learning to Reconstruct the World by Watching SlowTV\" "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "status": "candidate-context",
+      "text": "ROS2 Wrapper for DepthAnything V2 model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "status": "candidate-context",
+      "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "status": "candidate-context",
+      "text": "Monocular Metric Depth estimation and Point Cloud generation from camera images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brandleyzhou/DIFFNet",
+      "status": "candidate-context",
+      "text": "[BMVC 2021] ''Self-Supervised Monocular Depth Estimation with Internal Feature Fusion''"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brandleyzhou/DIFFNet",
+      "status": "candidate-context",
+      "text": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
       "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
       "status": "candidate",
       "text": "[NEW] Training codes have been uploaded!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspenmar/slowtv_monodepth",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2",
+      "status": "candidate",
+      "text": "![ROS2](https://img.shields.io/badge/ros2-jazzy-blue?logo=ros&logoColor=white)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/dc4ed354-59e8-4627-8af0-457371a3895b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brandleyzhou/DIFFNet",
+      "status": "candidate",
+      "text": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**"
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +502,41 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "isl-org/MiDaS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "jspenmar/slowtv_monodepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "grupo-avispa/depth_anything_v2_ros2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-moge-trt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "brandleyzhou/DIFFNet"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

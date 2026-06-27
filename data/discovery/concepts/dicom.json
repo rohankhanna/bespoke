@@ -19,6 +19,42 @@
       "source_repo": "eidelen/DicomToMesh",
       "status": "candidate-context",
       "text": "![VTK9 + Dicom build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9Dicom.yml/badge.svg) ![GUI Qt5 build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9DicomGUI.yml/badge.svg) ![PPA Installations Ubuntu status](https://github.com\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "dcm2nii DICOM to NIfTI converter: compiled versions available from NITRC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdebayoBraimah/convert_source",
+      "status": "candidate-context",
+      "text": "Convert source DICOM, PAR REC or NIFTI image data to BIDS directory layout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdebayoBraimah/convert_source",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aramis-lab/pydra-dcm2bids",
+      "status": "candidate-context",
+      "text": "Pydra tasks for dcm2bids"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/pydra-dcm2bids",
+      "status": "candidate-context",
+      "text": "[![PyPI - Version][pypi-version]][pypi-project]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "eidelen/DicomToMesh",
       "status": "candidate",
       "text": "![VTK9 + Dicom build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9Dicom.yml/badge.svg) ![GUI Qt5 build status](https://github.com/eidelen/DicomToMesh/actions/workflows/cppVTK9DicomGUI.yml/badge.svg) ![PPA Installations Ubuntu status](https://github.com\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rordenlab/dcm2niix",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml/badge.svg)](https://github.com/rordenlab/dcm2niix/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdebayoBraimah/convert_source",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/AdebayoBraimah/convert_source.svg?style=svg)](https://app.circleci.com/pipelines/github/AdebayoBraimah/convert_source) [![Documentation Status](https://readthedocs.org/projects/convert-source/badge/?version=latest)](https://convert-source.rea\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aramis-lab/pydra-dcm2bids",
+      "status": "candidate",
+      "text": "[![PyPI - Version][pypi-version]][pypi-project]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,35 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "eidelen/DicomToMesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "eidelen/DicomToMesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "rordenlab/dcm2niix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "AdebayoBraimah/convert_source"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "aramis-lab/pydra-dcm2bids"
     }
   ],
   "first_seen_at": "2026-06-26T12:57:23.248127+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

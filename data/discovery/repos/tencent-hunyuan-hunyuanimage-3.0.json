@@ -1,0 +1,66 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanImage-3.0",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanImage-3.0",
+      "target": "native-multimodal-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:11:59.922777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26597
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2574
+    },
+    {
+      "path": "requirements.txt",
+      "size": 631
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HunyuanImage-3.0: A Powerful Native Multimodal Model for Image Generation",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HunyuanImage-3.0",
+    "html_url": "https://github.com/Tencent-Hunyuan/HunyuanImage-3.0",
+    "language": "Python",
+    "pushed_at": "2026-06-23T13:12:44Z",
+    "stargazers_count": 3152,
+    "topics": [
+      "image-generation",
+      "native-multimodal-model"
+    ],
+    "updated_at": "2026-06-26T08:47:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u6587\u6863](./README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u6587\u6863](./README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native-multimodal-model"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "amariichi/VideoDepthViewer3D",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "amariichi/VideoDepthViewer3D",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "amariichi/VideoDepthViewer3D",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "amariichi/VideoDepthViewer3D",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:27:31.331469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10102
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Real-time 3D video player powered by Depth Anything 3. Stream MP4s to WebXR/VR with metric depth estimation.",
+    "fork": false,
+    "full_name": "amariichi/VideoDepthViewer3D",
+    "html_url": "https://github.com/amariichi/VideoDepthViewer3D",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-24T13:28:21Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-06-25T07:48:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "magicleap/deltas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "aaltoml/gp-mvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "hkust-aerial-robotics/mvdepthnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "nvlabs/neuralrgbd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "cost-volume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "depth-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "multi-view-stereo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardaduz/deep-video-mvs",
+      "target": "plane-sweep",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:30:58.380218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10669
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for \"DeepVideoMVS: Multi-View Stereo on Video with Recurrent Spatio-Temporal Fusion\" (CVPR 2021)",
+    "fork": false,
+    "full_name": "ardaduz/deep-video-mvs",
+    "html_url": "https://github.com/ardaduz/deep-video-mvs",
+    "language": "Python",
+    "pushed_at": "2021-07-23T13:06:16Z",
+    "stargazers_count": 232,
+    "topics": [
+      "computer-vision",
+      "cost-volume",
+      "deep-learning",
+      "depth-estimation",
+      "depth-prediction",
+      "multi-view-stereo",
+      "plane-sweep"
+    ],
+    "updated_at": "2026-04-27T09:44:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaltoml/gp-mvs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkust-aerial-robotics/mvdepthnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magicleap/deltas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/neuralrgbd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cost-volume"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-prediction"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view-stereo"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plane-sweep"
+    }
+  ]
+}

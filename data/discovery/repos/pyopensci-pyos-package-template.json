@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyOpenSci/pyos-package-template",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyOpenSci/pyos-package-template",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyOpenSci/pyos-package-template",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pyOpenSci/pyos-package-template",
+      "target": "CI-CD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyOpenSci/pyos-package-template",
+      "target": "hatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyOpenSci/pyos-package-template",
+      "target": "package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T03:32:08.645385+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14397
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2874
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An opinionated Python package template for pure Python packaging. A package in under 5 minutes with: copier copy gh:pyopensci/pyos-package-template .  ",
+    "fork": false,
+    "full_name": "pyOpenSci/pyos-package-template",
+    "html_url": "https://github.com/pyOpenSci/pyos-package-template",
+    "language": "Jinja",
+    "pushed_at": "2026-04-07T16:26:01Z",
+    "stargazers_count": 30,
+    "topics": [
+      "hatch",
+      "package",
+      "python",
+      "uv"
+    ],
+    "updated_at": "2026-05-17T00:37:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI-CD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "CI-CD"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hatch"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package"
+    }
+  ]
+}

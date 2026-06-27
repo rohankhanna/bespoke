@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Browser-based NWB visualization and DANDI exploration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826039,
+      "status": "candidate",
+      "text": "doney"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826038,
+      "status": "candidate",
+      "text": "doni"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826037,
+      "status": "candidate",
+      "text": "dhony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826036,
+      "status": "candidate",
+      "text": "dingy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826035,
+      "status": "candidate",
+      "text": "dingey"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dandi",
+      "sense_id": "dandi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dandi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dandi",
+  "observation_id": "27b35f941cdd1099",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "dandi",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "flatironinstitute/neurosift",
+  "source_repo_description": "Browser-based NWB visualization and DANDI exploration"
+}

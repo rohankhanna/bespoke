@@ -19,6 +19,30 @@
       "source_repo": "bowang-lab/MedSAMSlicer",
       "status": "candidate-context",
       "text": "This is the official repository for 3D Slicer Plugin for MedSAM: Segment Anything in Medical Images."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SlicerRt/SlicerRT",
+      "status": "candidate-context",
+      "text": "Open-source toolkit for radiation therapy research, an extension of 3D Slicer. Features include DICOM-RT import/export, dose volume histogram, dose accumulation, external beam planning (TPS), structure comparison and morphology, isodose line/surface generation, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SlicerRt/SlicerRT",
+      "status": "candidate-context",
+      "text": "SlicerRT is a radiation therapy toolkit for 3D Slicer, containing generic RT features for import/export, analysis, visualization, making 3D Slicer a powerful radiotherapy research platform. The SlicerRT extension incorporates components from [Plastimatch](Docs/user_guide/Plastim\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lassoan/SlicerSwissSkullStripper",
+      "status": "candidate-context",
+      "text": "3D Slicer extension for removing the skull in MRI images using the \"Swiss Skull Stripper\" algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lassoan/SlicerSwissSkullStripper",
+      "status": "candidate-context",
+      "text": "This is an extension for [3D Slicer](https://www.slicer.org) for skull stripping (i.e., removing all image content outside the brain) in MRI images."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "bowang-lab/MedSAMSlicer",
       "status": "candidate",
       "text": "This is the official repository for 3D Slicer Plugin for MedSAM: Segment Anything in Medical Images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SlicerRt/SlicerRT",
+      "status": "candidate",
+      "text": "SlicerRT is a radiation therapy toolkit for 3D Slicer, containing generic RT features for import/export, analysis, visualization, making 3D Slicer a powerful radiotherapy research platform. The SlicerRT extension incorporates components from [Plastimatch](Docs/user_guide/Plastim\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lassoan/SlicerSwissSkullStripper",
+      "status": "candidate",
+      "text": "This is an extension for [3D Slicer](https://www.slicer.org) for skull stripping (i.e., removing all image content outside the brain) in MRI images."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "bowang-lab/MedSAMSlicer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "SlicerRt/SlicerRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "lassoan/SlicerSwissSkullStripper"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -319,6 +319,30 @@
       "source_repo": "HKUST-Aerial-Robotics/A-LOAM",
       "status": "candidate-context",
       "text": "A-LOAM is an Advanced implementation of LOAM (J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time), which uses Eigen and Ceres Solver to simplify code structure. This code is modified from LOAM and [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED). This co\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spla-tam/SplaTAM",
+      "status": "candidate-context",
+      "text": "SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM (CVPR 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spla-tam/SplaTAM",
+      "status": "candidate-context",
+      "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradslam/gradslam",
+      "status": "candidate-context",
+      "text": "gradslam is an open source differentiable dense SLAM library for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradslam/gradslam",
+      "status": "candidate-context",
+      "text": "![](assets/gradslam-banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +501,18 @@
       "source_repo": "HKUST-Aerial-Robotics/A-LOAM",
       "status": "candidate",
       "text": "A-LOAM is an Advanced implementation of LOAM (J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time), which uses Eigen and Ceres Solver to simplify code structure. This code is modified from LOAM and [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED). This co\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spla-tam/SplaTAM",
+      "status": "candidate",
+      "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradslam/gradslam",
+      "status": "candidate",
+      "text": "![](assets/gradslam-banner.png)"
     }
   ],
   "candidate_related_terms": [
@@ -712,11 +748,23 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "HKUST-Aerial-Robotics/A-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "spla-tam/SplaTAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "gradslam/gradslam"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

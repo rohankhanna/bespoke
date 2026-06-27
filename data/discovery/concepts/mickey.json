@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "mickey"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/mickey",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 - Oral] Matching 2D Images in 3D: Metric Relative Pose from Metric Correspondences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/mickey",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center;\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/mickey",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center;\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39061075,
+      "status": "candidate",
+      "text": "paddy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38007001,
+      "status": "candidate",
+      "text": "mick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29043568,
+      "status": "candidate",
+      "text": "potato"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28987165,
+      "status": "candidate",
+      "text": "mousing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28954559,
+      "status": "candidate",
+      "text": "golgi"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1033,
+      "status": "candidate",
+      "text": "mick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "paddy"
+    }
+  ],
+  "canonical_name": "mickey",
+  "concept_id": "mickey",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/mickey"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mickey",
+      "sense_id": "mickey#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

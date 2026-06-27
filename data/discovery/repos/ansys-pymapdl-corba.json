@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ansys/pymapdl-corba",
+      "target": "pyansys/pymapdl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ansys/pymapdl-corba",
+      "target": "pyansys/ansys_corba",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:18:46.279344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Python interface to ANSYS APDL CORBA server.",
+    "fork": false,
+    "full_name": "ansys/pymapdl-corba",
+    "html_url": "https://github.com/ansys/pymapdl-corba",
+    "language": "Python",
+    "pushed_at": "2022-03-17T20:21:44Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-03-20T03:20:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyansys/ansys_corba",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyansys/pymapdl",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

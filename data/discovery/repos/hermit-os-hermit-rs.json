@@ -205,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T01:13:47.854651+00:00",
+  "fetched_at": "2026-06-27T05:34:43.407200+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -233,7 +233,7 @@
     "full_name": "hermit-os/hermit-rs",
     "html_url": "https://github.com/hermit-os/hermit-rs",
     "language": "Rust",
-    "pushed_at": "2026-06-22T09:54:27Z",
+    "pushed_at": "2026-06-26T13:57:01Z",
     "stargazers_count": 1931,
     "topics": [
       "cloud-computing",

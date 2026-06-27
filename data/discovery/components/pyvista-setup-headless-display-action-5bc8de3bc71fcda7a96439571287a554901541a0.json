@@ -1,7 +1,7 @@
 {
   "component": "pyvista/setup-headless-display-action@5bc8de3bc71fcda7a96439571287a554901541a0",
   "first_seen_at": "2026-06-25T00:47:33.944341+00:00",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-docs.yml",
       "source_repo": "bjlittle/geovista"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ansys/pydpf-post"
     }
   ]
 }

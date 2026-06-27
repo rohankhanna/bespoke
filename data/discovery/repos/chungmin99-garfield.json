@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T05:17:31.129820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5309
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'24] Group Anything with Radiance Fields",
+    "fork": false,
+    "full_name": "chungmin99/garfield",
+    "html_url": "https://github.com/chungmin99/garfield",
+    "language": "Python",
+    "pushed_at": "2024-10-31T21:22:25Z",
+    "stargazers_count": 464,
+    "topics": [],
+    "updated_at": "2026-06-16T10:55:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

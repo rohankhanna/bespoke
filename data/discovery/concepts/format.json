@@ -725,6 +725,18 @@
       "source_repo": "mpaland/printf",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate-context",
+      "text": "Algorithmic differentiation with hyper-dual numbers in C++ and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate-context",
+      "text": "Format"
     }
   ],
   "candidate_glosses": [
@@ -1087,6 +1099,12 @@
       "source_repo": "mpaland/printf",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oberbichler/HyperJet",
+      "status": "candidate",
+      "text": "Format"
     }
   ],
   "candidate_related_terms": [
@@ -3433,11 +3451,41 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "oberbichler/HyperJet"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

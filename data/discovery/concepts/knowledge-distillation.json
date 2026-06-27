@@ -211,6 +211,18 @@
       "source_repo": "huawei-noah/Pretrained-Language-Model",
       "status": "candidate-context",
       "text": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fschmid56/EfficientAT",
+      "status": "candidate-context",
+      "text": "This repository aims at providing efficient CNNs for Audio Tagging. We provide AudioSet pre-trained models ready for downstream training and extraction of audio embeddings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschmid56/EfficientAT",
+      "status": "candidate-context",
+      "text": "In this repository, we publish the pre-trained models and the code described in the papers:"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "huawei-noah/Pretrained-Language-Model",
       "status": "candidate",
       "text": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschmid56/EfficientAT",
+      "status": "candidate",
+      "text": "In this repository, we publish the pre-trained models and the code described in the papers:"
     }
   ],
   "candidate_related_terms": [],
@@ -1402,11 +1420,29 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleClas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "fschmid56/EfficientAT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleClas"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

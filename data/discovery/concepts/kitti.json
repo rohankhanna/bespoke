@@ -103,6 +103,18 @@
       "source_repo": "gisbi-kim/mini-kitti-publisher",
       "status": "candidate-context",
       "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brandleyzhou/DIFFNet",
+      "status": "candidate-context",
+      "text": "[BMVC 2021] ''Self-Supervised Monocular Depth Estimation with Internal Feature Fusion''"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brandleyzhou/DIFFNet",
+      "status": "candidate-context",
+      "text": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "gisbi-kim/mini-kitti-publisher",
       "status": "candidate",
       "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brandleyzhou/DIFFNet",
+      "status": "candidate",
+      "text": "This repo is for **[Self-Supervised Monocular Depth Estimation with Internal Feature Fusion(arXiv)](https://arxiv.org/pdf/2110.09482.pdf), BMVC2021**"
     }
   ],
   "candidate_related_terms": [
@@ -1246,11 +1264,29 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "brandleyzhou/DIFFNet"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

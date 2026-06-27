@@ -264,6 +264,18 @@
       "source_repo": "universal-ctags/ctags",
       "status": "candidate-context",
       "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KCL-BMEIS/niftyreg",
+      "status": "candidate-context",
+      "text": "This project contains command line tools to perform rigid, affine and non-linear registration of nifti or analyse images as well as utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KCL-BMEIS/niftyreg",
+      "status": "candidate-context",
+      "text": "Code Analysis"
     }
   ],
   "candidate_glosses": [
@@ -386,6 +398,12 @@
       "source_repo": "universal-ctags/ctags",
       "status": "candidate",
       "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4355/badge.svg)](https://scan.coverity.com/projects/4355)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KCL-BMEIS/niftyreg",
+      "status": "candidate",
+      "text": "Code Analysis"
     }
   ],
   "candidate_related_terms": [
@@ -1047,11 +1065,23 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "KCL-BMEIS/niftyreg"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

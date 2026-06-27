@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliahuhorwitz/Academic-project-page-template",
+      "target": "academic-paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliahuhorwitz/Academic-project-page-template",
+      "target": "academic-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliahuhorwitz/Academic-project-page-template",
+      "target": "academic-website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliahuhorwitz/Academic-project-page-template",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliahuhorwitz/Academic-project-page-template",
+      "target": "phd-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliahuhorwitz/Academic-project-page-template",
+      "target": "project-page",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:11:40.649195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A project page template for academic papers. Demo at https://eliahuhorwitz.github.io/Academic-project-page-template/",
+    "fork": false,
+    "full_name": "eliahuhorwitz/Academic-project-page-template",
+    "html_url": "https://github.com/eliahuhorwitz/Academic-project-page-template",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-04T19:11:15Z",
+    "stargazers_count": 5025,
+    "topics": [
+      "academic-paper",
+      "academic-project",
+      "academic-website",
+      "paper",
+      "phd-project",
+      "project-page"
+    ],
+    "updated_at": "2026-06-26T00:45:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "academic-paper"
+    },
+    {
+      "context_snippet": "> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "academic-project"
+    },
+    {
+      "context_snippet": "> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "academic-website"
+    },
+    {
+      "context_snippet": "> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    },
+    {
+      "context_snippet": "> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phd-project"
+    },
+    {
+      "context_snippet": "> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-page"
+    }
+  ]
+}

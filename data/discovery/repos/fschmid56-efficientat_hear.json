@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T03:27:42.972323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evaluate EfficientAT models on the Holistic Evaluation of Audio Representations Benchmark.",
+    "fork": false,
+    "full_name": "fschmid56/EfficientAT_HEAR",
+    "html_url": "https://github.com/fschmid56/EfficientAT_HEAR",
+    "language": "Python",
+    "pushed_at": "2023-06-23T07:10:52Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-06-12T12:03:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

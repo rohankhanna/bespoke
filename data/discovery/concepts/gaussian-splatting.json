@@ -139,6 +139,30 @@
       "source_repo": "aras-p/UnityGaussianSplatting",
       "status": "candidate-context",
       "text": "Toy Gaussian Splatting visualization in Unity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spla-tam/SplaTAM",
+      "status": "candidate-context",
+      "text": "SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM (CVPR 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spla-tam/SplaTAM",
+      "status": "candidate-context",
+      "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate-context",
+      "text": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><picture>"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "aras-p/UnityGaussianSplatting",
       "status": "candidate",
       "text": "Toy Gaussian Splatting visualization in Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spla-tam/SplaTAM",
+      "status": "candidate",
+      "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrNeRF/LichtFeld-Studio",
+      "status": "candidate",
+      "text": "<div align=\"center\"><picture>"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +316,23 @@
       "observed_at": "2026-06-26T00:48:31.916635+00:00",
       "source_file": null,
       "source_repo": "aras-p/UnityGaussianSplatting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "spla-tam/SplaTAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "MrNeRF/LichtFeld-Studio"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T00:48:31.916635+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

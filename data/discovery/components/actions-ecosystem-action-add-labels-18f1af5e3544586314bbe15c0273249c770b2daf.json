@@ -1,7 +1,7 @@
 {
   "component": "actions-ecosystem/action-add-labels@18f1af5e3544586314bbe15c0273249c770b2daf",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-06-25T00:47:33.944341+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/label.yml",
       "source_repo": "pyvista/pyvista"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "ansys/pydpf-core"
     }
   ]
 }

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Geoscience is [awesome](awesome.md)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983022,
+      "status": "candidate",
+      "text": "underground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982947,
+      "status": "candidate",
+      "text": "belowground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982936,
+      "status": "candidate",
+      "text": "subterranean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980793,
+      "status": "candidate",
+      "text": "underwater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980234,
+      "status": "candidate",
+      "text": "undersea"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "subsurface",
+      "sense_id": "subsurface#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9034,
+      "status": "candidate",
+      "text": "subterranean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6042,
+      "status": "candidate",
+      "text": "submarine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5031,
+      "status": "candidate",
+      "text": "submerged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4037,
+      "status": "candidate",
+      "text": "underwater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4016,
+      "status": "candidate",
+      "text": "belowground"
+    }
+  ],
+  "concept_id": "subsurface",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "subsurface",
+  "observation_id": "bdbeb663aa8de814",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "subsurface",
+  "source_context_snippet": "> Geoscience is [awesome](awesome.md).",
+  "source_file": null,
+  "source_repo": "softwareunderground/awesome-open-geoscience",
+  "source_repo_description": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome"
+}

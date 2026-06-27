@@ -13,12 +13,30 @@
       "source_repo": "danielward27/flowjax",
       "status": "candidate-context",
       "text": "Publish to TestPyPI and PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tee-ar-ex/trx-python",
+      "status": "candidate-context",
+      "text": "Python implementation of the TRX file format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tee-ar-ex/trx-python",
+      "status": "candidate-context",
+      "text": "Publish to TestPyPI and PyPI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "danielward27/flowjax",
+      "status": "candidate",
+      "text": "Publish to TestPyPI and PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tee-ar-ex/trx-python",
       "status": "candidate",
       "text": "Publish to TestPyPI and PyPI"
     }
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "danielward27/flowjax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml",
+      "source_repo": "tee-ar-ex/trx-python"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

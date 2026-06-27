@@ -1,0 +1,193 @@
+{
+  "components": [
+    {
+      "component": "convictional/trigger-workflow-and-wait@v1.6.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitlab.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitlab.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "ika-rwth-aachen/docker-ros-ml-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "ika-rwth-aachen/docker-run",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "mintoolkit/mint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "ros-industrial/industrial_ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github.yml",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "convictional/trigger-workflow-and-wait@v1.6.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github.yml",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "GitHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitlab.yml",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitlab.yml",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitlab.yml",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "GitLab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "target": "gitlab-ci",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:14:42.623371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27242
+    },
+    {
+      "path": ".github/workflows/github.yml",
+      "size": 500
+    },
+    {
+      "path": ".github/workflows/gitlab.yml",
+      "size": 1564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "docker-ros automatically builds development and deployment Docker images for your ROS-based repositories",
+    "fork": false,
+    "full_name": "ika-rwth-aachen/docker-ros",
+    "html_url": "https://github.com/ika-rwth-aachen/docker-ros",
+    "language": "Shell",
+    "pushed_at": "2026-06-11T20:09:26Z",
+    "stargazers_count": 185,
+    "topics": [
+      "docker",
+      "github-actions",
+      "gitlab-ci",
+      "ros"
+    ],
+    "updated_at": "2026-06-24T08:13:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ika-rwth-aachen/docker-ros-ml-images",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ika-rwth-aachen/docker-run",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mintoolkit/mint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ros-industrial/industrial_ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GitHub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github.yml",
+      "term": "GitHub"
+    },
+    {
+      "context_snippet": "GitLab",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitlab.yml",
+      "term": "GitLab"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ika-rwth-aachen/docker-ros/raw/main/assets/logo.png\" height=130 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ika-rwth-aachen/docker-ros/raw/main/assets/logo.png\" height=130 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ika-rwth-aachen/docker-ros/raw/main/assets/logo.png\" height=130 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab-ci"
+    }
+  ]
+}

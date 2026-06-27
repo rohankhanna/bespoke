@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/Stalefish",
+      "target": "anatomy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/Stalefish",
+      "target": "neurobiology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ABRG-Models/Stalefish",
+      "target": "neuroscience",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:12:20.972985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spatial Analysis of ISH Brain Slice Data",
+    "fork": false,
+    "full_name": "ABRG-Models/Stalefish",
+    "html_url": "https://github.com/ABRG-Models/Stalefish",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-23T15:19:04Z",
+    "stargazers_count": 7,
+    "topics": [
+      "anatomy",
+      "neurobiology",
+      "neuroscience"
+    ],
+    "updated_at": "2023-12-05T16:40:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anatomy"
+    },
+    {
+      "context_snippet": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurobiology"
+    },
+    {
+      "context_snippet": "![A banner image of a set of sample boxes laid out on a ISH brain slice image](https://github.com/ABRG-Models/Stalefish/blob/master/misc/screenshots/sfbanner_widenarrow.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroscience"
+    }
+  ]
+}

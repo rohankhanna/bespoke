@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andypotatohy/roast",
+      "target": "kcl-bmeis/niftyreg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andypotatohy/roast",
+      "target": "klabhub/efmouse",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T02:14:19.254554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57924
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simulator for TES",
+    "fork": false,
+    "full_name": "andypotatohy/roast",
+    "html_url": "https://github.com/andypotatohy/roast",
+    "language": "MATLAB",
+    "pushed_at": "2025-09-24T19:56:27Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-05-17T15:00:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kcl-bmeis/niftyreg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "klabhub/efmouse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

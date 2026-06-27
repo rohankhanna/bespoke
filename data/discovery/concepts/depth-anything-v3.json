@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "depth-anything-v3"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "status": "candidate-context",
+      "text": "ROS2 TensorRT Node for Monocular Metric Depth estimation and Point Cloud generation from camera images with Depth Anything V3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/d119d3b8-bba1-43a3-9f86-75db24e01235"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "depth-anything-v3",
+  "concept_id": "depth-anything-v3",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "ika-rwth-aachen/ros2-depth-anything-v3-trt"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "depth-anything-v3",
+      "sense_id": "depth-anything-v3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

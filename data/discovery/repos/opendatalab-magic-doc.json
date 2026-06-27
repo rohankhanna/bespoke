@@ -1,11 +1,6 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
@@ -53,20 +48,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "opendatalab/magic-doc",
-      "target": "actions/checkout@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "opendatalab/magic-doc",
-      "target": "mineru",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "opendatalab/magic-doc",
       "target": "actions/checkout@v4",
@@ -101,7 +82,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-06-26T08:07:52.341412+00:00",
+  "fetched_at": "2026-06-27T04:53:55.705957+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -110,10 +91,6 @@
     {
       "path": "requirements.txt",
       "size": 690
-    },
-    {
-      "path": ".github/workflows/ci.yml",
-      "size": 2102
     },
     {
       "path": ".github/workflows/python-package.yml",
@@ -146,12 +123,5 @@
       "source_file": "README.md"
     }
   ],
-  "terms": [
-    {
-      "context_snippet": "mineru",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ci.yml",
-      "term": "mineru"
-    }
-  ]
+  "terms": []
 }

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T03:27:29.824441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Port of Nvidia LocateAnything-3B on ggml",
+    "fork": false,
+    "full_name": "mudler/locate-anything.cpp",
+    "html_url": "https://github.com/mudler/locate-anything.cpp",
+    "language": "C++",
+    "pushed_at": "2026-06-12T10:59:20Z",
+    "stargazers_count": 145,
+    "topics": [],
+    "updated_at": "2026-06-27T03:22:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niessner/mLib",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niessner/mLib",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niessner/mLib",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:17:35.585198+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1914
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Research Library used in the Visual Computing Lab",
+    "fork": false,
+    "full_name": "niessner/mLib",
+    "html_url": "https://github.com/niessner/mLib",
+    "language": "C++",
+    "pushed_at": "2022-10-11T12:57:30Z",
+    "stargazers_count": 92,
+    "topics": [
+      "computer-graphics",
+      "computer-vision",
+      "machine-learning"
+    ],
+    "updated_at": "2026-02-22T21:50:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "mLib is a library to support research projects, and has been used in a large number of publications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "mLib is a library to support research projects, and has been used in a large number of publications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "mLib is a library to support research projects, and has been used in a large number of publications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

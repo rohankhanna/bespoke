@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "seismology"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agilescientific/bruges",
+      "status": "candidate-context",
+      "text": "Bag of really useful geoscience equations and stuff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agilescientific/bruges",
+      "status": "candidate-context",
+      "text": "![Bruges](http://agile.geosci.ai/bruges.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agilescientific/bruges",
+      "status": "candidate",
+      "text": "![Bruges](http://agile.geosci.ai/bruges.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015806,
+      "status": "candidate",
+      "text": "seismic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015386,
+      "status": "candidate",
+      "text": "earthquake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19799178,
+      "status": "candidate",
+      "text": "quake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015843,
+      "status": "candidate",
+      "text": "earthquakes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015843,
+      "status": "candidate",
+      "text": "quakes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "seismology",
+  "concept_id": "seismology",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "agilescientific/bruges"
+    }
+  ],
+  "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "seismology",
+      "sense_id": "seismology#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "github"
+    "github",
+    "GitHub"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -993,6 +994,18 @@
       "source_repo": "drknzz/GitHub-Achievements",
       "status": "candidate-context",
       "text": "<!-- <div align=\"center\"> -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "status": "candidate-context",
+      "text": "docker-ros automatically builds development and deployment Docker images for your ROS-based repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "status": "candidate-context",
+      "text": "GitHub"
     }
   ],
   "candidate_glosses": [
@@ -1487,6 +1500,12 @@
       "source_repo": "drknzz/GitHub-Achievements",
       "status": "candidate",
       "text": "<!-- <div align=\"center\"> -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ika-rwth-aachen/docker-ros",
+      "status": "candidate",
+      "text": "GitHub"
     }
   ],
   "candidate_related_terms": [
@@ -3462,11 +3481,29 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/github-unwrapped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/github.yml",
+      "source_repo": "ika-rwth-aachen/docker-ros"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

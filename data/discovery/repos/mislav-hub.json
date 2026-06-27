@@ -110,7 +110,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-26T08:07:12.118465+00:00",
+  "fetched_at": "2026-06-27T04:34:57.313769+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -143,7 +143,7 @@
     "html_url": "https://github.com/mislav/hub",
     "language": "Go",
     "pushed_at": "2024-02-02T21:00:44Z",
-    "stargazers_count": 22948,
+    "stargazers_count": 22949,
     "topics": [
       "git",
       "github-api",
@@ -151,7 +151,7 @@
       "homebrew",
       "pull-request"
     ],
-    "updated_at": "2026-06-26T02:41:33Z"
+    "updated_at": "2026-06-26T14:12:55Z"
   },
   "repo_links": [
     {

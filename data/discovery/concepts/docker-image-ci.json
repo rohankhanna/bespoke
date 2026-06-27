@@ -265,6 +265,18 @@
       "source_repo": "Kaiede/docker-minecraft-bedrock-backup",
       "status": "candidate-context",
       "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phusion/holy-build-box",
+      "status": "candidate-context",
+      "text": "System for building cross-distribution Linux binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phusion/holy-build-box",
+      "status": "candidate-context",
+      "text": "Docker Image CI"
     }
   ],
   "candidate_glosses": [
@@ -397,6 +409,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Kaiede/docker-minecraft-bedrock-backup",
+      "status": "candidate",
+      "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phusion/holy-build-box",
       "status": "candidate",
       "text": "Docker Image CI"
     }
@@ -586,11 +604,17 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "Kaiede/docker-minecraft-bedrock-backup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/dockerimage-ci.yml",
+      "source_repo": "phusion/holy-build-box"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

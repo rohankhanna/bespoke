@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RuojinCai/ExtremeRotation_code",
+      "target": "yindaz/panobasic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RuojinCai/ExtremeRotation_code",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RuojinCai/ExtremeRotation_code",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RuojinCai/ExtremeRotation_code",
+      "target": "pose-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:17:52.715872+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7664
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extreme Rotation Estimation using Dense Correlation Volumes",
+    "fork": false,
+    "full_name": "RuojinCai/ExtremeRotation_code",
+    "html_url": "https://github.com/RuojinCai/ExtremeRotation_code",
+    "language": "Python",
+    "pushed_at": "2023-01-10T21:28:47Z",
+    "stargazers_count": 45,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "pose-estimation"
+    ],
+    "updated_at": "2026-06-07T20:57:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yindaz/panobasic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a PyTorch implementation of the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository contains a PyTorch implementation of the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains a PyTorch implementation of the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    }
+  ]
+}

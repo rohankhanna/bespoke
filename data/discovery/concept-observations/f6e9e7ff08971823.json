@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Splitting Conic Solver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Test with Spectral Cones"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Test with Spectral Cones"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18411,
+      "status": "candidate",
+      "text": "purity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18111,
+      "status": "candidate",
+      "text": "civilization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18111,
+      "status": "candidate",
+      "text": "spectrophone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18111,
+      "status": "candidate",
+      "text": "spectrum analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18080,
+      "status": "candidate",
+      "text": "control"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test with Spectral Cones",
+      "sense_id": "build-and-test-with-spectral-cones#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-test-with-spectral-cones",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-test-with-spectral-cones",
+  "observation_id": "f6e9e7ff08971823",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_text": "Build and Test with Spectral Cones",
+  "source_context_snippet": "Build and Test with Spectral Cones",
+  "source_file": ".github/workflows/build_spectral.yml",
+  "source_repo": "cvxgrp/scs",
+  "source_repo_description": "Splitting Conic Solver"
+}

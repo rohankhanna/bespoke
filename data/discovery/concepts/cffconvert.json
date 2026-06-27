@@ -103,6 +103,18 @@
       "source_repo": "citation-file-format/citation-file-format",
       "status": "candidate-context",
       "text": "cffconvert"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nltk/nltk",
+      "status": "candidate-context",
+      "text": "NLTK Source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nltk/nltk",
+      "status": "candidate-context",
+      "text": "cffconvert"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +163,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate",
+      "text": "cffconvert"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nltk/nltk",
       "status": "candidate",
       "text": "cffconvert"
     }
@@ -214,11 +232,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/cffconvert.yml",
       "source_repo": "citation-file-format/cffconvert"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "nltk/nltk"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

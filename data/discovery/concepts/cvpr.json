@@ -163,6 +163,18 @@
       "source_repo": "MCG-NJU/AdaMixer",
       "status": "candidate-context",
       "text": "> [**AdaMixer: A Fast-Converging Query-Based Object Detector**](https://arxiv.org/abs/2203.16507)<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/ace",
+      "status": "candidate-context",
+      "text": "[CVPR 2023 - Highlight] Accelerated Coordinate Encoding (ACE): Learning to Relocalize in Minutes using RGB and Poses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/ace",
+      "status": "candidate-context",
+      "text": "----------------------------------------------------------------------------------------"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "MCG-NJU/AdaMixer",
       "status": "candidate",
       "text": "> [**AdaMixer: A Fast-Converging Query-Based Object Detector**](https://arxiv.org/abs/2203.16507)<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/ace",
+      "status": "candidate",
+      "text": "----------------------------------------------------------------------------------------"
     }
   ],
   "candidate_related_terms": [
@@ -1350,11 +1368,29 @@
       "observed_at": "2026-06-26T12:57:23.248127+00:00",
       "source_file": null,
       "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/ace"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T12:57:23.248127+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
-  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jwodder/versioningit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyOpenSci/pyos-package-template"
     }
   ],
   "term": "hatch"

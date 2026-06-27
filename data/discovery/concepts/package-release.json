@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "\ud83d\ude80 Package Release"
+    "\ud83d\ude80 Package Release",
+    "Package Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "langchain-ai/langchain",
       "status": "candidate-context",
       "text": "The agent engineering platform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate-context",
+      "text": "xarray DataArray accessors for PyVista"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate-context",
+      "text": "Package Release"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +52,12 @@
       "source_repo": "langchain-ai/langchain",
       "status": "candidate",
       "text": "\"\ud83d\ude80 Package Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyvista/pyvista-xarray",
+      "status": "candidate",
+      "text": "Package Release"
     }
   ],
   "candidate_related_terms": [
@@ -592,11 +611,23 @@
       "observed_at": "2026-06-26T07:29:07.348952+00:00",
       "source_file": ".github/workflows/_release.yml",
       "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyvista/pyvista-xarray"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-26T07:29:07.348952+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

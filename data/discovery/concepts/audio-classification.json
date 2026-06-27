@@ -43,6 +43,18 @@
       "source_repo": "YuanGongND/ssast",
       "status": "candidate-context",
       "text": "- [News](#News)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkoutini/PaSST",
+      "status": "candidate-context",
+      "text": "Efficient Training of Audio Transformers with Patchout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkoutini/PaSST",
+      "status": "candidate-context",
+      "text": "This is the implementation for [Efficient Training of Audio Transformers with Patchout](https://arxiv.org/abs/2110.05069)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "YuanGongND/ssast",
       "status": "candidate",
       "text": "- [News](#News)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkoutini/PaSST",
+      "status": "candidate",
+      "text": "This is the implementation for [Efficient Training of Audio Transformers with Patchout](https://arxiv.org/abs/2110.05069)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "YuanGongND/ssast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T00:46:07.279669+00:00",
+      "source_file": null,
+      "source_repo": "kkoutini/PaSST"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "lexical_providers": [
     "datamuse"
   ],

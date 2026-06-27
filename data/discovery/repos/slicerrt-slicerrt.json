@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SlicerRt/SlicerRT",
+      "target": "slicerrt/slicerrtdoc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SlicerRt/SlicerRT",
+      "target": "3d-slicer-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T05:19:19.955076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open-source toolkit for radiation therapy research, an extension of 3D Slicer. Features include DICOM-RT import/export, dose volume histogram, dose accumulation, external beam planning (TPS), structure comparison and morphology, isodose line/surface generation, etc.",
+    "fork": false,
+    "full_name": "SlicerRt/SlicerRT",
+    "html_url": "https://github.com/SlicerRt/SlicerRT",
+    "language": "C++",
+    "pushed_at": "2026-06-23T11:12:22Z",
+    "stargazers_count": 152,
+    "topics": [
+      "3d-slicer-extension"
+    ],
+    "updated_at": "2026-06-23T11:12:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slicerrt/slicerrtdoc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "SlicerRT is a radiation therapy toolkit for 3D Slicer, containing generic RT features for import/export, analysis, visualization, making 3D Slicer a powerful radiotherapy research platform. The SlicerRT extension incorporates components from [Plastimatch](Docs/user_guide/Plastim\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-slicer-extension"
+    }
+  ]
+}

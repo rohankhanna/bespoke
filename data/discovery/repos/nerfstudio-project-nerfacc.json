@@ -182,7 +182,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T07:00:14.398603+00:00",
+  "fetched_at": "2026-06-27T05:18:16.832256+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -215,14 +215,14 @@
     "html_url": "https://github.com/nerfstudio-project/nerfacc",
     "language": "Python",
     "pushed_at": "2024-10-02T17:54:16Z",
-    "stargazers_count": 1458,
+    "stargazers_count": 1457,
     "topics": [
       "instant-ngp",
       "nerf",
       "pytorch",
       "rendering"
     ],
-    "updated_at": "2026-04-19T11:30:50Z"
+    "updated_at": "2026-06-03T05:23:11Z"
   },
   "repo_links": [],
   "terms": [
