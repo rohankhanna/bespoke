@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Hosting checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "status": "candidate-context",
+      "text": "Artifactory permissions synchronization tool and data set"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "status": "candidate-context",
+      "text": "Hosting checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "status": "candidate",
+      "text": "Hosting checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10718,
+      "status": "candidate",
+      "text": "lodging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10718,
+      "status": "candidate",
+      "text": "sleepover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10666,
+      "status": "candidate",
+      "text": "dress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10666,
+      "status": "candidate",
+      "text": "host"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "checking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Hosting checker",
+  "concept_id": "hosting-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/hosting-issue-checker.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hosting checker",
+      "sense_id": "hosting-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

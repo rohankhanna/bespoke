@@ -215,7 +215,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T09:59:04.203928+00:00",
+  "fetched_at": "2026-06-27T16:18:43.232572+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -240,7 +240,7 @@
     "html_url": "https://github.com/flightcontrolhq/superjson",
     "language": "TypeScript",
     "pushed_at": "2026-06-18T13:56:42Z",
-    "stargazers_count": 5263,
+    "stargazers_count": 5264,
     "topics": [
       "blitzjs",
       "hacktoberfest",
@@ -248,7 +248,7 @@
       "json",
       "superjson"
     ],
-    "updated_at": "2026-06-26T13:09:51Z"
+    "updated_at": "2026-06-27T11:51:51Z"
   },
   "repo_links": [
     {

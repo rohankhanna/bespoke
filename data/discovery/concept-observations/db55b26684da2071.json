@@ -84,7 +84,7 @@
   "normalized_form": "pr-risk",
   "observation_id": "db55b26684da2071",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "PR Risk",
   "source_context_snippet": "PR Risk",
   "source_file": ".github/workflows/pr-risk.yml",

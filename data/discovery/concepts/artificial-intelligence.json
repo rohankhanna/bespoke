@@ -1831,6 +1831,18 @@
       "source_repo": "kahne/SpeechTransProgress",
       "status": "candidate-context",
       "text": "End-to-End Speech Translation Progress"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "A reactive notebook for Python \u2014 run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2745,6 +2757,12 @@
       "source_repo": "kahne/SpeechTransProgress",
       "status": "candidate",
       "text": "End-to-End Speech Translation Progress"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -11218,11 +11236,107 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "hexabot-ai/Hexabot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

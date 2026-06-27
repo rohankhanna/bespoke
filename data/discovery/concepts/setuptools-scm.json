@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "setuptools-scm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "status": "candidate-context",
+      "text": "Ensure that the __version__ variable stays up-to-date with an editable install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/badge/github-maresb%2Fhatch--vcs--footgun--example-blue)](https://github.com/maresb/hatch-vcs-footgun-example)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/badge/github-maresb%2Fhatch--vcs--footgun--example-blue)](https://github.com/maresb/hatch-vcs-footgun-example)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "setuptools-scm",
+  "concept_id": "setuptools-scm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "maresb/hatch-vcs-footgun-example"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "setuptools-scm",
+      "sense_id": "setuptools-scm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T14:26:44.218954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5345
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast GPU graph components and partitioning algorithms for PyTorch",
+    "fork": false,
+    "full_name": "drprojects/torch-graph-components",
+    "html_url": "https://github.com/drprojects/torch-graph-components",
+    "language": "Python",
+    "pushed_at": "2026-04-21T16:37:44Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-06-25T18:44:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

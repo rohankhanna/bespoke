@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Close BOM update PR if passing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "status": "candidate-context",
+      "text": "Close BOM update PR if passing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "status": "candidate",
+      "text": "Close BOM update PR if passing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46352,
+      "status": "candidate",
+      "text": "fanned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46352,
+      "status": "candidate",
+      "text": "fanning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46266,
+      "status": "candidate",
+      "text": "sneak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46091,
+      "status": "candidate",
+      "text": "tick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44036,
+      "status": "candidate",
+      "text": "call"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close BOM update PR if passing",
+  "concept_id": "close-bom-update-pr-if-passing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/close-bom-if-passing.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close BOM update PR if passing",
+      "sense_id": "close-bom-update-pr-if-passing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

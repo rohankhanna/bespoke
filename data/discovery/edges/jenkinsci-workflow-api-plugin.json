@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-safe-deps.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "jenkins-infra/github-reusable-workflows/.github/workflows/auto-merge-safe-deps.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "jenkins-infra/github-reusable-workflows/.github/workflows/maven-cd.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-bom-if-passing.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "jenkins-infra/github-reusable-workflows/.github/workflows/close-bom-if-passing.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-bom-if-passing.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "Close BOM update PR if passing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "Jenkins Security Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "jenkins-api-plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-27T12:41:13.509162+00:00",
+  "source_repo": "jenkinsci/workflow-api-plugin"
+}

@@ -93,13 +93,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaLinearAlgebra/AppleAccelerate.jl",
-      "target": "julialinearalgebra/libblastrampoline",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "JuliaLinearAlgebra/AppleAccelerate.jl",
@@ -198,7 +191,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T08:24:04.846968+00:00",
+  "fetched_at": "2026-06-27T14:27:16.087796+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -232,13 +225,7 @@
     ],
     "updated_at": "2026-06-26T21:55:15Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "julialinearalgebra/libblastrampoline",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "TagBot",

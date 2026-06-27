@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -31,6 +31,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yml.backup",
       "source_repo": "unclecode/crawl4ai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example"
     }
   ],
   "term": "Release Pipeline"

@@ -805,6 +805,30 @@
       "source_repo": "betterleaks/betterleaks",
       "status": "candidate-context",
       "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "A reactive notebook for Python \u2014 run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipyflow/ipyflow",
+      "status": "candidate-context",
+      "text": "A reactive Python kernel for Jupyter notebooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipyflow/ipyflow",
+      "status": "candidate-context",
+      "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
     }
   ],
   "candidate_glosses": [
@@ -1209,6 +1233,18 @@
       "source_repo": "betterleaks/betterleaks",
       "status": "candidate",
       "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipyflow/ipyflow",
+      "status": "candidate",
+      "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -3094,11 +3130,41 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "ipyflow/ipyflow"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

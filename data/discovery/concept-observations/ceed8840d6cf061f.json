@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A reactive Python kernel for Jupyter notebooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004212,
+      "status": "candidate",
+      "text": "responsiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003840,
+      "status": "candidate",
+      "text": "reaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001655,
+      "status": "candidate",
+      "text": "resourcefulness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001469,
+      "status": "candidate",
+      "text": "response"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001392,
+      "status": "candidate",
+      "text": "adaptability"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reactivity",
+      "sense_id": "reactivity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2025,
+      "status": "candidate",
+      "text": "responsiveness"
+    }
+  ],
+  "concept_id": "reactivity",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reactivity",
+  "observation_id": "ceed8840d6cf061f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "reactivity",
+  "source_context_snippet": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>",
+  "source_file": null,
+  "source_repo": "ipyflow/ipyflow",
+  "source_repo_description": "A reactive Python kernel for Jupyter notebooks."
+}

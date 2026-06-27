@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -41237,6 +41237,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "manzt/anywidget"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-artifact.yml",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "coin-or/Clp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "coin-or/Clp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-msvs-ci.yml",
+      "source_repo": "coin-or/Clp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaGPU/GPUArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package-build.yml",
+      "source_repo": "ANTsX/ANTsRCore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-rtools-build.yml",
+      "source_repo": "ANTsX/ANTsRCore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sanitizers.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-checker.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hosting-issue-checker.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A PyTorch implementation of \"DGC-Net: Dense Geometric Correspondence Network\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a PyTorch implementation of our work [\"DGC-Net: Dense Geometric Correspondence Network\"](https://arxiv.org/abs/1810.08393)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of our work [\"DGC-Net: Dense Geometric Correspondence Network\"](https://arxiv.org/abs/1810.08393)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-matching",
+      "sense_id": "image-matching#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-matching",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-matching",
+  "observation_id": "72640da95eb86bab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "image-matching",
+  "source_context_snippet": "This is a PyTorch implementation of our work [\"DGC-Net: Dense Geometric Correspondence Network\"](https://arxiv.org/abs/1810.08393)",
+  "source_file": null,
+  "source_repo": "AaltoVision/DGC-Net",
+  "source_repo_description": "A PyTorch implementation of \"DGC-Net: Dense Geometric Correspondence Network\""
+}

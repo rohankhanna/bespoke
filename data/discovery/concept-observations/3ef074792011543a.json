@@ -84,7 +84,7 @@
   "normalized_form": "publish-release-to-pypi",
   "observation_id": "3ef074792011543a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "Publish Release to PyPI",
   "source_context_snippet": "Publish Release to PyPI",
   "source_file": ".github/workflows/publish-release.yml",

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CPU tests Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate-context",
+      "text": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate-context",
+      "text": "CPU tests Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate",
+      "text": "CPU tests Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22345,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22223,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22223,
+      "status": "candidate",
+      "text": "memory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22223,
+      "status": "candidate",
+      "text": "time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22180,
+      "status": "candidate",
+      "text": "application"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CPU tests Workflow",
+  "concept_id": "cpu-tests-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/ci-tests-cpu.yml",
+      "source_repo": "roboflow/rf-detr"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CPU tests Workflow",
+      "sense_id": "cpu-tests-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

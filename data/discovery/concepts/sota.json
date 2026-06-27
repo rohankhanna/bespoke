@@ -43,6 +43,18 @@
       "source_repo": "JDAI-CV/fast-reid",
       "status": "candidate-context",
       "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate-context",
+      "text": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "JDAI-CV/fast-reid",
       "status": "candidate",
       "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JDAI-CV/fast-reid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/rf-detr"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

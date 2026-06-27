@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -136,6 +136,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/R-CMD-check.yaml",
       "source_repo": "ANTsX/ANTsR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "ANTsX/ITKR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "mathesong/kinfitr"
     }
   ],
   "term": "R-CMD-check"

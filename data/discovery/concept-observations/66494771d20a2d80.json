@@ -84,7 +84,7 @@
   "normalized_form": "github-actions-security-analysis",
   "observation_id": "66494771d20a2d80",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "GitHub Actions Security Analysis",
   "source_context_snippet": "GitHub Actions Security Analysis",
   "source_file": ".github/workflows/zizmor.yml",

@@ -1,12 +1,17 @@
 {
   "component": "msys2/setup-msys2@66cd2cce69caa17b53920067426061ca1de3a884",
   "first_seen_at": "2026-06-24T00:42:42.423974+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "pypa/setuptools-scm"
     }
   ]
 }

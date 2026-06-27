@@ -741,7 +741,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T08:41:07.355760+00:00",
+  "fetched_at": "2026-06-27T16:23:43.151376+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -793,8 +793,8 @@
     "full_name": "microsoft/aspire",
     "html_url": "https://github.com/microsoft/aspire",
     "language": "C#",
-    "pushed_at": "2026-06-27T07:05:15Z",
-    "stargazers_count": 6123,
+    "pushed_at": "2026-06-27T11:31:55Z",
+    "stargazers_count": 6124,
     "topics": [
       "cloud",
       "dotnet",
@@ -802,7 +802,7 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-06-27T04:57:04Z"
+    "updated_at": "2026-06-27T10:05:57Z"
   },
   "repo_links": [],
   "terms": [

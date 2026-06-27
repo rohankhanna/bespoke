@@ -255,6 +255,18 @@
       "source_repo": "jump-dev/SCS.jl",
       "status": "candidate-context",
       "text": "format-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/Clp.jl",
+      "status": "candidate-context",
+      "text": "A Julia interface to the Coin-OR Linear Programming solver (CLP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/Clp.jl",
+      "status": "candidate-context",
+      "text": "format-check"
     }
   ],
   "candidate_glosses": [
@@ -381,6 +393,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jump-dev/SCS.jl",
+      "status": "candidate",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/Clp.jl",
       "status": "candidate",
       "text": "format-check"
     }
@@ -1392,11 +1410,29 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": ".github/workflows/check-format.yml",
       "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "jump-dev/Clp.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jep",
+      "target": "enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jep",
+      "target": "governance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jep",
+      "target": "jenkins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T17:35:34.951086+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Jenkins Enhancement Proposals",
+    "fork": false,
+    "full_name": "jenkinsci/jep",
+    "html_url": "https://github.com/jenkinsci/jep",
+    "language": "Shell",
+    "pushed_at": "2026-05-02T17:16:14Z",
+    "stargazers_count": 149,
+    "topics": [
+      "enhancement",
+      "governance",
+      "jenkins"
+    ],
+    "updated_at": "2026-05-05T11:32:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Jenkins Enhancement Proposals",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enhancement"
+    },
+    {
+      "context_snippet": "Jenkins Enhancement Proposals",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "governance"
+    },
+    {
+      "context_snippet": "Jenkins Enhancement Proposals",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jenkins"
+    }
+  ]
+}

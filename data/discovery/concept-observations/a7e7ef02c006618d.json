@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A reactive Python kernel for Jupyter notebooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003981,
+      "status": "candidate",
+      "text": "underlining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003976,
+      "status": "candidate",
+      "text": "underscoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003865,
+      "status": "candidate",
+      "text": "underline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29996368,
+      "status": "candidate",
+      "text": "citing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988681,
+      "status": "candidate",
+      "text": "labelling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "highlighting",
+      "sense_id": "highlighting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23038,
+      "status": "candidate",
+      "text": "highlight"
+    }
+  ],
+  "concept_id": "highlighting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "highlighting",
+  "observation_id": "a7e7ef02c006618d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "highlighting",
+  "source_context_snippet": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>",
+  "source_file": null,
+  "source_repo": "ipyflow/ipyflow",
+  "source_repo_description": "A reactive Python kernel for Jupyter notebooks."
+}

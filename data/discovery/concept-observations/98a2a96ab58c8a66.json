@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 Efficient implementations for emerging model architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "check-no-oj"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "check-no-oj"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "check-no-oj",
+      "sense_id": "check-no-oj#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-no-oj",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-no-oj",
+  "observation_id": "98a2a96ab58c8a66",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "check-no-oj",
+  "source_context_snippet": "check-no-oj",
+  "source_file": ".github/workflows/check-no-oj.yml",
+  "source_repo": "fla-org/flash-linear-attention",
+  "source_repo_description": "\ud83d\ude80 Efficient implementations for emerging model architectures"
+}

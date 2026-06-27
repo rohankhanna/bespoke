@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "metal-framework"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate-context",
+      "text": "Metal programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate-context",
+      "text": "*Metal programming in Julia*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate",
+      "text": "*Metal programming in Julia*"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "metal-framework",
+  "concept_id": "metal-framework",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "metal-framework",
+      "sense_id": "metal-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

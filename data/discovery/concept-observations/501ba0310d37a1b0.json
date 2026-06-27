@@ -84,7 +84,7 @@
   "normalized_form": "gui-qt5",
   "observation_id": "501ba0310d37a1b0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "GUI Qt5",
   "source_context_snippet": "GUI Qt5",
   "source_file": ".github/workflows/cppVTK9DicomGUI.yml",

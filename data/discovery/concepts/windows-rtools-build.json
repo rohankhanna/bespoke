@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows Rtools build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ANTsX/ANTsRCore",
+      "status": "candidate-context",
+      "text": "Rcpp bindings for the C++ ANTs library used by the ANTsR package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsRCore",
+      "status": "candidate-context",
+      "text": "Windows Rtools build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ANTsX/ANTsRCore",
+      "status": "candidate",
+      "text": "Windows Rtools build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11718,
+      "status": "candidate",
+      "text": "pane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11718,
+      "status": "candidate",
+      "text": "tile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11629,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11575,
+      "status": "candidate",
+      "text": "brick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10691,
+      "status": "candidate",
+      "text": "balcony"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows Rtools build",
+  "concept_id": "windows-rtools-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/windows-rtools-build.yml",
+      "source_repo": "ANTsX/ANTsRCore"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Rtools build",
+      "sense_id": "windows-rtools-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,363 @@
+{
+  "components": [
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Benchmark.yml"
+    },
+    {
+      "component": "EnricoMi/download-buildkite-artifact-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Benchmark.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Load.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Load.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Load.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Load.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "juliainterop/objectivec.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Benchmark.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Benchmark.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Benchmark.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "EnricoMi/download-buildkite-artifact-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Benchmark.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "benchmark-action/github-action-benchmark@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Benchmark.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Load.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Load.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Load.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Load.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Load.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "Load",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "apple-gpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "apple-silicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl",
+      "target": "metal-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T16:05:53.540849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4898
+    },
+    {
+      "path": ".github/workflows/Benchmark.yml",
+      "size": 1779
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1876
+    },
+    {
+      "path": ".github/workflows/Load.yml",
+      "size": 1174
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Metal programming in Julia",
+    "fork": false,
+    "full_name": "JuliaGPU/Metal.jl",
+    "html_url": "https://github.com/JuliaGPU/Metal.jl",
+    "language": "Julia",
+    "pushed_at": "2026-06-27T13:31:07Z",
+    "stargazers_count": 452,
+    "topics": [
+      "apple-gpu",
+      "apple-silicon",
+      "gpu",
+      "hacktoberfest",
+      "julia",
+      "mac",
+      "metal-framework"
+    ],
+    "updated_at": "2026-06-24T13:48:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliainterop/objectivec.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Benchmark.yml",
+      "term": "Benchmarks"
+    },
+    {
+      "context_snippet": "Load",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Load.yml",
+      "term": "Load"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "*Metal programming in Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple-gpu"
+    },
+    {
+      "context_snippet": "*Metal programming in Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple-silicon"
+    },
+    {
+      "context_snippet": "*Metal programming in Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "*Metal programming in Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "*Metal programming in Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal-framework"
+    }
+  ]
+}

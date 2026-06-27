@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83c\udff7\ufe0f Enforce Pull Request Label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "A reactive notebook for Python \u2014 run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "\ud83c\udff7\ufe0f Enforce Pull Request Label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate",
+      "text": "\ud83c\udff7\ufe0f Enforce Pull Request Label"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33456,
+      "status": "candidate",
+      "text": "peel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33370,
+      "status": "candidate",
+      "text": "peeling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28481,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28434,
+      "status": "candidate",
+      "text": "force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28434,
+      "status": "candidate",
+      "text": "forces"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83c\udff7\ufe0f Enforce Pull Request Label",
+  "concept_id": "enforce-pull-request-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "marimo-team/marimo"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83c\udff7\ufe0f Enforce Pull Request Label",
+      "sense_id": "enforce-pull-request-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

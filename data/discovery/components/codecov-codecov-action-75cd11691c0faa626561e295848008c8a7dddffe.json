@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "open-telemetry/weaver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-cpu.yml",
+      "source_repo": "roboflow/rf-detr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-gpu.yml",
+      "source_repo": "roboflow/rf-detr"
     }
   ]
 }

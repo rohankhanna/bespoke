@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Android (Maven Central)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moonshine-ai/moonshine",
+      "status": "candidate-context",
+      "text": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moonshine-ai/moonshine",
+      "status": "candidate-context",
+      "text": "Publish Android (Maven Central)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moonshine-ai/moonshine",
+      "status": "candidate",
+      "text": "Publish Android (Maven Central)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Android (Maven Central)",
+  "concept_id": "publish-android-maven-central",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/publish-android.yml",
+      "source_repo": "moonshine-ai/moonshine"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Android (Maven Central)",
+      "sense_id": "publish-android-maven-central#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

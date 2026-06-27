@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -822,6 +822,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "crewAIInc/crewAI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "roboflow/rf-detr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-docs.yml",
+      "source_repo": "roboflow/rf-detr"
     }
   ]
 }

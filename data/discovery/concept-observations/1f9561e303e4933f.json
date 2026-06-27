@@ -84,7 +84,7 @@
   "normalized_form": "transformer",
   "observation_id": "1f9561e303e4933f",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "transformer",
   "source_context_snippet": "[![CI](https://github.com/SYSTRAN/faster-whisper/workflows/CI/badge.svg)](https://github.com/SYSTRAN/faster-whisper/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/faster-whisper.svg)](https://badge.fury.io/py/faster-whisper)",
   "source_file": null,

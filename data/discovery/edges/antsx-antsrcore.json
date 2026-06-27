@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "stnava/itkr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-build.yml",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-build.yml",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-build.yml",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-build.yml",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-build.yml",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "pkg-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-rtools-build.yml",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-rtools-build.yml",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-rtools-build.yml",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-rtools-build.yml",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-rtools-build.yml",
+      "source_repo": "ANTsX/ANTsRCore",
+      "target": "Windows Rtools build",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-27T12:41:13.509162+00:00",
+  "source_repo": "ANTsX/ANTsRCore"
+}

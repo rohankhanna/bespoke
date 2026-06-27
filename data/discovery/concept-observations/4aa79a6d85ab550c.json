@@ -1,0 +1,52 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/workflow-api)](https://plugins.jenkins.io/workflow-api)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/workflow-api)](https://plugins.jenkins.io/workflow-api)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jenkins-api-plugin",
+      "sense_id": "jenkins-api-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jenkins-api-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jenkins-api-plugin",
+  "observation_id": "4aa79a6d85ab550c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "jenkins-api-plugin",
+  "source_context_snippet": "[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/workflow-api)](https://plugins.jenkins.io/workflow-api)",
+  "source_file": null,
+  "source_repo": "jenkinsci/workflow-api-plugin",
+  "source_repo_description": null
+}

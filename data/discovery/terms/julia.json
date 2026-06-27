@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -701,6 +701,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "JuliaMath/IntelVectorMath.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/GPUArrays.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "m-j-w/CpuId.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/Clp.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl"
     }
   ],
   "term": "julia"

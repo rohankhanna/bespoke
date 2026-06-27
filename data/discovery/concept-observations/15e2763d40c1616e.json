@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Parent POM for Jenkins Plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jenkins-plugin",
+      "sense_id": "jenkins-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jenkins-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jenkins-plugin",
+  "observation_id": "15e2763d40c1616e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "jenkins-plugin",
+  "source_context_snippet": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)",
+  "source_file": null,
+  "source_repo": "jenkinsci/plugin-pom",
+  "source_repo_description": "Parent POM for Jenkins Plugins"
+}

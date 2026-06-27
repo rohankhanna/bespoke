@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check_changelogs.yml",
       "source_repo": "zarr-developers/zarr-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "roboflow/rf-detr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-docs.yml",
+      "source_repo": "roboflow/rf-detr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-deps-resolution.yml",
+      "source_repo": "roboflow/rf-detr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-integrations.yml",
+      "source_repo": "roboflow/rf-detr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-cpu.yml",
+      "source_repo": "roboflow/rf-detr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-gpu.yml",
+      "source_repo": "roboflow/rf-detr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-typing.yml",
+      "source_repo": "roboflow/rf-detr"
     }
   ]
 }

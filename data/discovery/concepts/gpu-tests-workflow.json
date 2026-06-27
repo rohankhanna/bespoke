@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GPU tests Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate-context",
+      "text": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate-context",
+      "text": "GPU tests Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate",
+      "text": "GPU tests Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "backup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "police"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15054,
+      "status": "candidate",
+      "text": "magnate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "accurate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GPU tests Workflow",
+  "concept_id": "gpu-tests-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/ci-tests-gpu.yml",
+      "source_repo": "roboflow/rf-detr"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GPU tests Workflow",
+      "sense_id": "gpu-tests-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

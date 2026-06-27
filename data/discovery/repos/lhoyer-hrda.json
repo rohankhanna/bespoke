@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lhoyer/HRDA",
+      "target": "google-research/semivl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lhoyer/HRDA",
+      "target": "lhoyer/mic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lhoyer/HRDA",
+      "target": "lhoyer/daformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lhoyer/HRDA",
+      "target": "helioszhao/shade",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhoyer/HRDA",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhoyer/HRDA",
+      "target": "high-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhoyer/HRDA",
+      "target": "multi-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhoyer/HRDA",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhoyer/HRDA",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhoyer/HRDA",
+      "target": "unsupervised-domain-adaptation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T16:05:29.651257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18925
+    },
+    {
+      "path": "requirements.txt",
+      "size": 404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV22] Official Implementation of HRDA: Context-Aware High-Resolution Domain-Adaptive Semantic Segmentation",
+    "fork": false,
+    "full_name": "lhoyer/HRDA",
+    "html_url": "https://github.com/lhoyer/HRDA",
+    "language": "Python",
+    "pushed_at": "2024-08-10T16:20:36Z",
+    "stargazers_count": 266,
+    "topics": [
+      "attention",
+      "high-resolution",
+      "multi-resolution",
+      "semantic-segmentation",
+      "transformer",
+      "unsupervised-domain-adaptation"
+    ],
+    "updated_at": "2026-04-21T16:09:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/semivl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helioszhao/shade",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lhoyer/daformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lhoyer/mic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution"
+    },
+    {
+      "context_snippet": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-resolution"
+    },
+    {
+      "context_snippet": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-domain-adaptation"
+    }
+  ]
+}

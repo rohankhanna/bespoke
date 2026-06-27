@@ -146,7 +146,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T08:41:53.318442+00:00",
+  "fetched_at": "2026-06-27T16:24:32.743041+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -178,7 +178,7 @@
     "full_name": "lambdalisue/vim-nerdfont",
     "html_url": "https://github.com/lambdalisue/vim-nerdfont",
     "language": "Vim Script",
-    "pushed_at": "2026-05-20T04:00:41Z",
+    "pushed_at": "2026-06-27T14:44:47Z",
     "stargazers_count": 148,
     "topics": [
       "devicons",

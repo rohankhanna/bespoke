@@ -479,6 +479,18 @@
       "source_repo": "carla-simulator/scenario_runner",
       "status": "candidate-context",
       "text": "Static Code Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipyflow/ipyflow",
+      "status": "candidate-context",
+      "text": "A reactive Python kernel for Jupyter notebooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipyflow/ipyflow",
+      "status": "candidate-context",
+      "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
     }
   ],
   "candidate_glosses": [
@@ -715,6 +727,12 @@
       "source_repo": "carla-simulator/scenario_runner",
       "status": "candidate",
       "text": "Static Code Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipyflow/ipyflow",
+      "status": "candidate",
+      "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
     }
   ],
   "candidate_related_terms": [
@@ -1616,11 +1634,29 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "ipyflow/ipyflow"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

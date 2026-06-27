@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PruneTruong/GOCor",
+      "target": "prunetruong/pdcnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PruneTruong/GOCor",
+      "target": "ignacio-rocco/ncnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-27T16:05:38.846744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Pytorch implementation of 'GOCor: Bringing Globally Optimized Correspondence Volumes into Your Neural Network' (NeurIPS 2020)",
+    "fork": false,
+    "full_name": "PruneTruong/GOCor",
+    "html_url": "https://github.com/PruneTruong/GOCor",
+    "language": "Python",
+    "pushed_at": "2023-02-23T15:24:09Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2025-10-08T12:34:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ignacio-rocco/ncnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prunetruong/pdcnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

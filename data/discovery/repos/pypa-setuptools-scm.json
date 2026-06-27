@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/README.md"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/api-check.yml"
     },
@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/api-check.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/api-check.yml"
     },
@@ -51,7 +51,12 @@
       "source_file": ".github/workflows/create-release-tags.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
@@ -61,7 +66,7 @@
       "source_file": ".github/workflows/python-tests.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
@@ -71,17 +76,12 @@
       "source_file": ".github/workflows/python-tests.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
     {
-      "component": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/python-tests.yml"
-    },
-    {
-      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "component": "msys2/setup-msys2@66cd2cce69caa17b53920067426061ca1de3a884",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
@@ -92,11 +92,6 @@
     },
     {
       "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/python-tests.yml"
-    },
-    {
-      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
@@ -116,7 +111,7 @@
       "source_file": ".github/workflows/python-tests.yml"
     },
     {
-      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
@@ -126,7 +121,17 @@
       "source_file": ".github/workflows/python-tests.yml"
     },
     {
-      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "component": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
@@ -146,7 +151,7 @@
       "source_file": ".github/workflows/python-tests.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-proposal.yml"
     },
@@ -166,7 +171,7 @@
       "source_file": ".github/workflows/release-proposal.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reusable-towncrier-release.yml"
     },
@@ -176,12 +181,12 @@
       "source_file": ".github/workflows/reusable-towncrier-release.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reusable-towncrier-release.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reusable-towncrier-release.yml"
     },
@@ -191,7 +196,7 @@
       "source_file": ".github/workflows/reusable-towncrier-release.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reusable-towncrier-release.yml"
     },
@@ -241,7 +246,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/api-check.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -255,7 +260,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/api-check.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -297,7 +302,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "pypa/setuptools-scm",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -318,14 +330,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
+      "target": "msys2/setup-msys2@66cd2cce69caa17b53920067426061ca1de3a884",
       "target_type": "component"
     },
     {
@@ -346,14 +358,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-proposal.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -381,7 +393,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reusable-towncrier-release.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -395,7 +407,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reusable-towncrier-release.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -434,7 +446,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T15:32:13.667282+00:00",
+  "fetched_at": "2026-06-27T14:29:20.553638+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -442,7 +454,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 2739
+      "size": 2953
     },
     {
       "path": ".github/workflows/README.md",
@@ -462,7 +474,7 @@
     },
     {
       "path": ".github/workflows/python-tests.yml",
-      "size": 9998
+      "size": 12841
     },
     {
       "path": ".github/workflows/release-proposal.yml",
@@ -482,15 +494,15 @@
     "full_name": "pypa/setuptools-scm",
     "html_url": "https://github.com/pypa/setuptools-scm",
     "language": "Python",
-    "pushed_at": "2026-05-22T19:11:35Z",
-    "stargazers_count": 948,
+    "pushed_at": "2026-06-26T18:27:34Z",
+    "stargazers_count": 950,
     "topics": [
       "metadata",
       "packaging",
       "python",
       "version-control"
     ],
-    "updated_at": "2026-05-25T12:08:12Z"
+    "updated_at": "2026-06-25T05:17:24Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brdav/refign",
+      "target": "lightning-ai/lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brdav/refign",
+      "target": "lhoyer/hrda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brdav/refign",
+      "target": "xishen0220/ransac-flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brdav/refign",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brdav/refign",
+      "target": "domain-adaptation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brdav/refign",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-27T12:41:13.509162+00:00",
+  "source_repo": "brdav/refign"
+}

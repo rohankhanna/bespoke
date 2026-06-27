@@ -211,6 +211,18 @@
       "source_repo": "google-research/long-range-arena",
       "status": "candidate-context",
       "text": "Long-range arena is an effort toward systematic evaluation of efficient"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lhoyer/HRDA",
+      "status": "candidate-context",
+      "text": "[ECCV22] Official Implementation of HRDA: Context-Aware High-Resolution Domain-Adaptive Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhoyer/HRDA",
+      "status": "candidate-context",
+      "text": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "google-research/long-range-arena",
       "status": "candidate",
       "text": "Long-range arena is an effort toward systematic evaluation of efficient"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhoyer/HRDA",
+      "status": "candidate",
+      "text": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**"
     }
   ],
   "candidate_related_terms": [
@@ -981,11 +999,23 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "flagos-ai/FlagAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "flagos-ai/FlagAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "lhoyer/HRDA"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

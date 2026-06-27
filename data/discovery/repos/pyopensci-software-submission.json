@@ -136,7 +136,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T09:23:56.726214+00:00",
+  "fetched_at": "2026-06-27T17:06:47.371230+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -165,13 +165,13 @@
     "html_url": "https://github.com/pyOpenSci/software-submission",
     "language": null,
     "pushed_at": "2026-06-19T03:26:35Z",
-    "stargazers_count": 125,
+    "stargazers_count": 126,
     "topics": [
       "opensource",
       "peer-review",
       "python"
     ],
-    "updated_at": "2026-06-19T03:26:38Z"
+    "updated_at": "2026-06-27T16:25:37Z"
   },
   "repo_links": [
     {

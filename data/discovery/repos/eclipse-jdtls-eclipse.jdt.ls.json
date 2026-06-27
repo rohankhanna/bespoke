@@ -236,7 +236,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T08:45:18.056446+00:00",
+  "fetched_at": "2026-06-27T16:27:57.948105+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -272,7 +272,7 @@
     "full_name": "eclipse-jdtls/eclipse.jdt.ls",
     "html_url": "https://github.com/eclipse-jdtls/eclipse.jdt.ls",
     "language": "Java",
-    "pushed_at": "2026-06-26T20:42:19Z",
+    "pushed_at": "2026-06-27T08:51:10Z",
     "stargazers_count": 2383,
     "topics": [
       "eclipse",

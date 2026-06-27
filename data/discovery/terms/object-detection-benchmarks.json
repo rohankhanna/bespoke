@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/rf100-vl"
+    }
+  ],
+  "term": "object-detection-benchmarks"
+}

@@ -55,6 +55,18 @@
       "source_repo": "diffscope/diffscope-project",
       "status": "candidate-context",
       "text": "Dev Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "A reactive notebook for Python \u2014 run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "Dev Build"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "diffscope/diffscope-project",
+      "status": "candidate",
+      "text": "Dev Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
       "status": "candidate",
       "text": "Dev Build"
     }
@@ -166,11 +184,17 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": ".github/workflows/dev-build.yml",
       "source_repo": "diffscope/diffscope-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/dev_build.yaml",
+      "source_repo": "marimo-team/marimo"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

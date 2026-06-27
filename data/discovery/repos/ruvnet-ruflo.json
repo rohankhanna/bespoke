@@ -244,111 +244,6 @@
       "component": "actions/cache@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/federation-peer-rust.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/github-script@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml"
     }
   ],
   "edges": [
@@ -661,48 +556,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/download-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/integration-tests.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/github-script@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/integration-tests.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "\ud83d\udd17 Cross-Agent Integration Tests",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
@@ -808,11 +661,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T09:56:25.406505+00:00",
+  "fetched_at": "2026-06-27T16:14:58.765762+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 29630
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 319
     },
     {
       "path": "package.json",
@@ -845,10 +702,6 @@
     {
       "path": ".github/workflows/federation-peer-rust.yml",
       "size": 2616
-    },
-    {
-      "path": ".github/workflows/integration-tests.yml",
-      "size": 34129
     }
   ],
   "related_repositories": [],
@@ -860,8 +713,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-06-27T07:24:52Z",
-    "stargazers_count": 61681,
+    "pushed_at": "2026-06-27T15:56:06Z",
+    "stargazers_count": 61708,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -884,7 +737,7 @@
       "swarm-intelligence",
       "typescript"
     ],
-    "updated_at": "2026-06-27T09:47:24Z"
+    "updated_at": "2026-06-27T15:57:25Z"
   },
   "repo_links": [
     {
@@ -934,12 +787,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/federation-peer-rust.yml",
       "term": "federation-peer-rust"
-    },
-    {
-      "context_snippet": "\ud83d\udd17 Cross-Agent Integration Tests",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/integration-tests.yml",
-      "term": "\ud83d\udd17 Cross-Agent Integration Tests"
     },
     {
       "context_snippet": "<div align=\"center\">",

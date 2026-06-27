@@ -1573,6 +1573,18 @@
       "source_repo": "JuliaMath/IntelVectorMath.jl",
       "status": "candidate-context",
       "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaParallel/Hwloc.jl",
+      "status": "candidate-context",
+      "text": "A Julia API for hwloc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaParallel/Hwloc.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
     }
   ],
   "candidate_glosses": [
@@ -2371,6 +2383,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaMath/IntelVectorMath.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaParallel/Hwloc.jl",
       "status": "candidate",
       "text": "CompatHelper"
     }
@@ -6352,11 +6370,59 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaMath/IntelVectorMath.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaStrings/LibTeXPrintf.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaLinearAlgebra/BLISBLAS.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/Cairo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaParallel/Hwloc.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

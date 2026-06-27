@@ -1027,6 +1027,18 @@
       "source_repo": "agilescientific/striplog",
       "status": "candidate-context",
       "text": "[![Build and test](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml/badge.svg)](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "A reactive notebook for Python \u2014 run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1539,6 +1551,12 @@
       "source_repo": "agilescientific/striplog",
       "status": "candidate",
       "text": "[![Build and test](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml/badge.svg)](https://github.com/agile-geoscience/striplog/actions/workflows/run-tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -6388,11 +6406,77 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "aristoteleo/PantheonOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "agilescientific/striplog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

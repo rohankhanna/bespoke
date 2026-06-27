@@ -55,6 +55,18 @@
       "source_repo": "yomidevs/yomitan",
       "status": "candidate-context",
       "text": "[![Get Yomitan for Chrome](<https://img.shields.io/chrome-web-store/v/likgccmbimhjbgkjambclfkhldnlhbnn?logo=Google%20Chrome&style=for-the-badge&logoColor=lightblue&color=lightblue&label=get%20yomitan%20for%20chrome%20(stable)>)](https://chrome.google.com/webstore/detail/yomitan/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hbenbel/French-Dictionary",
+      "status": "candidate-context",
+      "text": "CSV files containing all french adjectives, adverbs, conjunctions, determiners, nouns, prepositions, pronouns, verbs and their gender, types and conjugations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hbenbel/French-Dictionary",
+      "status": "candidate-context",
+      "text": "pandas==1.4.1 tqdm==4.62.3"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "yomidevs/yomitan",
       "status": "candidate",
       "text": "[![Get Yomitan for Chrome](<https://img.shields.io/chrome-web-store/v/likgccmbimhjbgkjambclfkhldnlhbnn?logo=Google%20Chrome&style=for-the-badge&logoColor=lightblue&color=lightblue&label=get%20yomitan%20for%20chrome%20(stable)>)](https://chrome.google.com/webstore/detail/yomitan/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hbenbel/French-Dictionary",
+      "status": "candidate",
+      "text": "pandas==1.4.1 tqdm==4.62.3"
     }
   ],
   "candidate_related_terms": [
@@ -162,11 +180,17 @@
       "observed_at": "2026-05-25T18:41:09.248128+00:00",
       "source_file": null,
       "source_repo": "yomidevs/yomitan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "hbenbel/French-Dictionary"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

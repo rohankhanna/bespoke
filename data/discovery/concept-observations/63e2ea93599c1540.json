@@ -41,14 +41,12 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [
-    "datamuse"
-  ],
+  "lexical_providers": [],
   "lexical_status": "unresolved",
   "normalized_form": "edsr",
   "observation_id": "63e2ea93599c1540",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "edsr",
   "source_context_snippet": "<p align=\"center\">",
   "source_file": null,

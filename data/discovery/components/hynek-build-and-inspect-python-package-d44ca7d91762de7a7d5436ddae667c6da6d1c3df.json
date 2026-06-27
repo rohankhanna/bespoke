@@ -1,7 +1,7 @@
 {
   "component": "hynek/build-and-inspect-python-package@d44ca7d91762de7a7d5436ddae667c6da6d1c3df",
   "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
-  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

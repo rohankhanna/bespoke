@@ -103,6 +103,18 @@
       "source_repo": "Parskatt/DKM",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaltoVision/DGC-Net",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of \"DGC-Net: Dense Geometric Correspondence Network\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaltoVision/DGC-Net",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of our work [\"DGC-Net: Dense Geometric Correspondence Network\"](https://arxiv.org/abs/1810.08393)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "Parskatt/DKM",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaltoVision/DGC-Net",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of our work [\"DGC-Net: Dense Geometric Correspondence Network\"](https://arxiv.org/abs/1810.08393)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "Parskatt/DKM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "AaltoVision/DGC-Net"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

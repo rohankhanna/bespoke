@@ -115,6 +115,18 @@
       "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moonshine-ai/moonshine",
+      "status": "candidate-context",
+      "text": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moonshine-ai/moonshine",
+      "status": "candidate-context",
+      "text": "![Moonshine Voice Logo](images/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moonshine-ai/moonshine",
+      "status": "candidate",
+      "text": "![Moonshine Voice Logo](images/logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -862,11 +880,29 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "TEN-framework/ten-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/whisper-vits-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "moonshine-ai/moonshine"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

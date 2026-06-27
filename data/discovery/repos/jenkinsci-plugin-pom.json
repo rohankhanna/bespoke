@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "jenkins-infra/github-reusable-workflows/.github/workflows/maven-cd.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/plugin-pom",
+      "target": "jenkinsci/jenkins-test-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/plugin-pom",
+      "target": "jenkins-infra/pipeline-library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "jenkinsci/plugin-pom",
+      "target": "jenkins-infra/github-reusable-workflows/.github/workflows/maven-cd.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-pom",
+      "target": "jenkins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-pom",
+      "target": "jenkins-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-pom",
+      "target": "parent-pom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-pom",
+      "target": "tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T17:35:38.221559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9030
+    },
+    {
+      "path": ".github/workflows/cd.yaml",
+      "size": 1919
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parent POM for Jenkins Plugins",
+    "fork": false,
+    "full_name": "jenkinsci/plugin-pom",
+    "html_url": "https://github.com/jenkinsci/plugin-pom",
+    "language": "Java",
+    "pushed_at": "2026-06-24T02:16:35Z",
+    "stargazers_count": 75,
+    "topics": [
+      "jenkins",
+      "jenkins-plugin",
+      "parent-pom",
+      "tool"
+    ],
+    "updated_at": "2026-06-24T02:16:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkins-infra/pipeline-library",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkinsci/jenkins-test-harness",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jenkins"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jenkins-plugin"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parent-pom"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    }
+  ]
+}

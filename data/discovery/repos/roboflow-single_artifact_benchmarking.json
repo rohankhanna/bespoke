@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T17:35:30.746231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2613
+    },
+    {
+      "path": "requirements.txt",
+      "size": 160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "roboflow/single_artifact_benchmarking",
+    "html_url": "https://github.com/roboflow/single_artifact_benchmarking",
+    "language": "Python",
+    "pushed_at": "2026-06-11T00:23:31Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-06-15T08:50:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

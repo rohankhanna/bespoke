@@ -4262,6 +4262,9 @@
   "apple-documentation": [
     "apple-documentation"
   ],
+  "apple-gpu": [
+    "apple-gpu"
+  ],
   "apple-lossless": [
     "apple-lossless"
   ],
@@ -4906,6 +4909,9 @@
   ],
   "arrows": [
     "arrows"
+  ],
+  "art-image": [
+    "art-image"
   ],
   "artexplainer docker publisher": [
     "artexplainer-docker-publisher"
@@ -18401,6 +18407,9 @@
   "check-no-merge-label": [
     "check-no-merge-label"
   ],
+  "check-no-oj": [
+    "check-no-oj"
+  ],
   "check-no-warnings": [
     "check-no-warnings"
   ],
@@ -21484,6 +21493,9 @@
   ],
   "close as a support issue": [
     "close-as-a-support-issue"
+  ],
+  "close bom update pr if passing": [
+    "close-bom-update-pr-if-passing"
   ],
   "close dependabot prs": [
     "close-dependabot-prs"
@@ -26132,6 +26144,9 @@
   "cpu tests": [
     "cpu-tests"
   ],
+  "cpu tests workflow": [
+    "cpu-tests-workflow"
+  ],
   "cpu unit test": [
     "cpu-unit-test"
   ],
@@ -29962,6 +29977,9 @@
   ],
   "dependency notifier": [
     "dependency-notifier"
+  ],
+  "dependency resolution": [
+    "dependency-resolution"
   ],
   "dependency review": [
     "dependency-review"
@@ -34785,6 +34803,9 @@
   ],
   "eccv-2022": [
     "eccv-2022"
+  ],
+  "eccv202": [
+    "eccv202"
   ],
   "eccv2020": [
     "eccv2020"
@@ -43788,6 +43809,9 @@
   "gpu tests": [
     "gpu-tests"
   ],
+  "gpu tests workflow": [
+    "gpu-tests-workflow"
+  ],
   "gpu-acceleration": [
     "gpu-acceleration"
   ],
@@ -46169,6 +46193,15 @@
   ],
   "hosting": [
     "hosting"
+  ],
+  "hosting checker": [
+    "hosting-checker"
+  ],
+  "hosting hoster": [
+    "hosting-hoster"
+  ],
+  "hosting re-checker": [
+    "hosting-re-checker"
   ],
   "hosting-discussions": [
     "hosting-discussions"
@@ -48912,6 +48945,9 @@
   "intent": [
     "intent"
   ],
+  "intent-recognition": [
+    "intent-recognition"
+  ],
   "inter-branch merge workflow": [
     "inter-branch-merge-workflow"
   ],
@@ -49343,6 +49379,9 @@
   ],
   "ipvs": [
     "ipvs"
+  ],
+  "ipyflow": [
+    "ipyflow"
   ],
   "ipykernel tests": [
     "ipykernel-tests"
@@ -50345,6 +50384,9 @@
   ],
   "jenkins security scan": [
     "jenkins-security-scan"
+  ],
+  "jenkins-api-plugin": [
+    "jenkins-api-plugin"
   ],
   "jenkins-plugin": [
     "jenkins-plugin"
@@ -53956,6 +53998,9 @@
   "line-editor": [
     "line-editor"
   ],
+  "lineage": [
+    "lineage"
+  ],
   "linear-algebra": [
     "linear-algebra"
   ],
@@ -55243,6 +55288,9 @@
   ],
   "lnmp": [
     "lnmp"
+  ],
+  "load": [
+    "load"
   ],
   "load kurrentdb runtime configuration": [
     "load-kurrentdb-runtime-configuration"
@@ -58638,6 +58686,9 @@
   "metal": [
     "metal"
   ],
+  "metal-framework": [
+    "metal-framework"
+  ],
   "metalink": [
     "metalink"
   ],
@@ -60988,6 +61039,9 @@
   "multi-provider": [
     "multi-provider"
   ],
+  "multi-resolution": [
+    "multi-resolution"
+  ],
   "multi-resolution-streams": [
     "multi-resolution-streams"
   ],
@@ -61929,6 +61983,9 @@
   ],
   "nbpackage": [
     "nbpackage"
+  ],
+  "nbsafety": [
+    "nbsafety"
   ],
   "nbvcxz": [
     "nbvcxz"
@@ -64508,6 +64565,9 @@
   ],
   "object-detection": [
     "object-detection"
+  ],
+  "object-detection-benchmarks": [
+    "object-detection-benchmarks"
   ],
   "object-discovery": [
     "object-discovery"
@@ -67362,6 +67422,9 @@
   "pardiso-library": [
     "pardiso-library"
   ],
+  "parent-pom": [
+    "parent-pom"
+  ],
   "parental-control": [
     "parental-control"
   ],
@@ -67973,6 +68036,9 @@
   ],
   "perform initial repository setup": [
     "perform-initial-repository-setup"
+  ],
+  "perform pre-commit checks": [
+    "perform-pre-commit-checks"
   ],
   "performance": [
     "performance"
@@ -68828,6 +68894,9 @@
   ],
   "pkg pr new ci": [
     "pkg-pr-new-ci"
+  ],
+  "pkg-build": [
+    "pkg-build"
   ],
   "pkg-update": [
     "pkg-update"
@@ -69809,6 +69878,9 @@
   ],
   "post release": [
     "post-release"
+  ],
+  "post release to discord": [
+    "post-release-to-discord"
   ],
   "post rfc social update": [
     "post-rfc-social-update"
@@ -72350,6 +72422,9 @@
   ],
   "publish and sign container image": [
     "publish-and-sign-container-image"
+  ],
+  "publish android (maven central)": [
+    "publish-android-maven-central"
   ],
   "publish any commit": [
     "publish-any-commit"
@@ -79284,6 +79359,12 @@
   "rexnet": [
     "rexnet"
   ],
+  "rf-detr": [
+    "rf-detr"
+  ],
+  "rf100": [
+    "rf100"
+  ],
   "rfbnet": [
     "rfbnet"
   ],
@@ -83550,6 +83631,9 @@
   "setuptools compatibility reusable": [
     "setuptools-compatibility-reusable"
   ],
+  "setuptools-scm": [
+    "setuptools-scm"
+  ],
   "several": [
     "en-article_or_determiner-several",
     "en-pronoun-several",
@@ -84169,6 +84253,9 @@
   ],
   "simpleicons": [
     "simpleicons"
+  ],
+  "simpleitk": [
+    "simpleitk"
   ],
   "simpleview": [
     "simpleview"
@@ -95953,6 +96040,9 @@
   "unsupervised-anomaly-detection": [
     "unsupervised-anomaly-detection"
   ],
+  "unsupervised-domain-adaptation": [
+    "unsupervised-domain-adaptation"
+  ],
   "unsupervised-learning": [
     "unsupervised-learning"
   ],
@@ -101820,6 +101910,9 @@
   "windows binary package (alpha)": [
     "windows-binary-package-alpha"
   ],
+  "windows binary release": [
+    "windows-binary-release"
+  ],
   "windows binary test": [
     "windows-binary-test"
   ],
@@ -101912,6 +102005,9 @@
   ],
   "windows release arm64": [
     "windows-release-arm64"
+  ],
+  "windows rtools build": [
+    "windows-rtools-build"
   ],
   "windows service": [
     "windows-service"
@@ -103825,8 +103921,14 @@
   "\ud83c\udfd7\ufe0f build jellyfin-ffmpeg": [
     "build-jellyfin-ffmpeg"
   ],
+  "\ud83c\udff7\ufe0f enforce pull request label": [
+    "enforce-pull-request-label"
+  ],
   "\ud83c\udff7\ufe0f gemini automated issue triage": [
     "gemini-automated-issue-triage"
+  ],
+  "\ud83c\udff7\ufe0f pull request labeler": [
+    "pull-request-labeler"
   ],
   "\ud83c\udff7\ufe0f release to npm": [
     "release-to-npm"
@@ -104016,6 +104118,9 @@
   ],
   "\ud83d\udd17 gha": [
     "gha"
+  ],
+  "\ud83d\udd17 link check": [
+    "link-check"
   ],
   "\ud83d\udd17 static linking": [
     "static-linking"

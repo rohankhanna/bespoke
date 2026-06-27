@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Artifactory permissions synchronization tool and data set"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Hosting checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Hosting checker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10718,
+      "status": "candidate",
+      "text": "lodging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10718,
+      "status": "candidate",
+      "text": "sleepover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10666,
+      "status": "candidate",
+      "text": "dress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10666,
+      "status": "candidate",
+      "text": "host"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "checking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hosting checker",
+      "sense_id": "hosting-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hosting-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hosting-checker",
+  "observation_id": "ad9bf7801d210904",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "Hosting checker",
+  "source_context_snippet": "Hosting checker",
+  "source_file": ".github/workflows/hosting-issue-checker.yml",
+  "source_repo": "jenkins-infra/repository-permissions-updater",
+  "source_repo_description": "Artifactory permissions synchronization tool and data set"
+}

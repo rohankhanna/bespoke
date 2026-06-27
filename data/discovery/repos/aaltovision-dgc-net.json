@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaltoVision/DGC-Net",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaltoVision/DGC-Net",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaltoVision/DGC-Net",
+      "target": "image-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaltoVision/DGC-Net",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T14:26:46.232217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3546
+    },
+    {
+      "path": "requirements.txt",
+      "size": 68
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch implementation of \"DGC-Net: Dense Geometric Correspondence Network\"",
+    "fork": false,
+    "full_name": "AaltoVision/DGC-Net",
+    "html_url": "https://github.com/AaltoVision/DGC-Net",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-10-12T22:55:47Z",
+    "stargazers_count": 206,
+    "topics": [
+      "cnn",
+      "computer-vision",
+      "deep-learning",
+      "image-matching",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2026-06-03T09:39:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a PyTorch implementation of our work [\"DGC-Net: Dense Geometric Correspondence Network\"](https://arxiv.org/abs/1810.08393)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of our work [\"DGC-Net: Dense Geometric Correspondence Network\"](https://arxiv.org/abs/1810.08393)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of our work [\"DGC-Net: Dense Geometric Correspondence Network\"](https://arxiv.org/abs/1810.08393)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matching"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of our work [\"DGC-Net: Dense Geometric Correspondence Network\"](https://arxiv.org/abs/1810.08393)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

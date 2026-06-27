@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -196,6 +196,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "Avarok-Cybersecurity/atlas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "marimo-team/marimo"
     }
   ],
   "term": "CLA Assistant"

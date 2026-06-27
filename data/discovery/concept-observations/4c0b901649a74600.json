@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ensure that the __version__ variable stays up-to-date with an editable install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Perform pre-commit checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Perform pre-commit checks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12136,
+      "status": "candidate",
+      "text": "constraint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12035,
+      "status": "candidate",
+      "text": "stick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12035,
+      "status": "candidate",
+      "text": "sticks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11891,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11891,
+      "status": "candidate",
+      "text": "power"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Perform pre-commit checks",
+      "sense_id": "perform-pre-commit-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "perform-pre-commit-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "perform-pre-commit-checks",
+  "observation_id": "4c0b901649a74600",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "Perform pre-commit checks",
+  "source_context_snippet": "Perform pre-commit checks",
+  "source_file": ".github/workflows/pre-commit.yaml",
+  "source_repo": "maresb/hatch-vcs-footgun-example",
+  "source_repo_description": "Ensure that the __version__ variable stays up-to-date with an editable install"
+}

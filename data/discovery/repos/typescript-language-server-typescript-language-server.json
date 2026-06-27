@@ -196,7 +196,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -216,7 +216,7 @@
       "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
@@ -236,7 +236,7 @@
       "source_file": ".github/workflows/semantic-commits.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml"
     },
@@ -534,7 +534,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -562,7 +562,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -604,7 +604,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -657,7 +657,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T08:46:14.518210+00:00",
+  "fetched_at": "2026-06-27T16:28:48.811344+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -665,15 +665,15 @@
     },
     {
       "path": "package.json",
-      "size": 2467
+      "size": 2538
     },
     {
       "path": ".github/workflows/ci.yaml",
-      "size": 832
+      "size": 885
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 1155
+      "size": 1160
     },
     {
       "path": ".github/workflows/semantic-commits.yaml",
@@ -693,8 +693,8 @@
     "full_name": "typescript-language-server/typescript-language-server",
     "html_url": "https://github.com/typescript-language-server/typescript-language-server",
     "language": "TypeScript",
-    "pushed_at": "2026-06-26T20:16:09Z",
-    "stargazers_count": 2516,
+    "pushed_at": "2026-06-27T15:22:24Z",
+    "stargazers_count": 2517,
     "topics": [
       "hacktoberfest",
       "language-server",
@@ -702,7 +702,7 @@
       "lsp",
       "typescript"
     ],
-    "updated_at": "2026-06-27T01:29:37Z"
+    "updated_at": "2026-06-27T15:22:28Z"
   },
   "repo_links": [],
   "terms": [

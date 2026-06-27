@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "(ECCV 2020) RANSAC-Flow: generic two-stage image alignment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pytorch implementation of paper \"RANSAC-Flow: generic two-stage image alignment\" (ECCV 2020)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pytorch implementation of paper \"RANSAC-Flow: generic two-stage image alignment\" (ECCV 2020)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "art-image",
+      "sense_id": "art-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "art-image",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "art-image",
+  "observation_id": "c4e63d9d68fc0994",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "art-image",
+  "source_context_snippet": "Pytorch implementation of paper \"RANSAC-Flow: generic two-stage image alignment\" (ECCV 2020)",
+  "source_file": null,
+  "source_repo": "XiSHEN0220/RANSAC-Flow",
+  "source_repo_description": "(ECCV 2020) RANSAC-Flow: generic two-stage image alignment"
+}

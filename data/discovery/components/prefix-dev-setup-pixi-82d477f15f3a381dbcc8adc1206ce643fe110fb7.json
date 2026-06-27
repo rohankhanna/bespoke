@@ -1,0 +1,12 @@
+{
+  "component": "prefix-dev/setup-pixi@82d477f15f3a381dbcc8adc1206ce643fe110fb7",
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev_build.yaml",
+      "source_repo": "marimo-team/marimo"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "component": "jenkins-infra/github-reusable-workflows/.github/workflows/auto-merge-safe-deps.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-safe-deps.yml"
+    },
+    {
+      "component": "jenkins-infra/github-reusable-workflows/.github/workflows/maven-cd.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml"
+    },
+    {
+      "component": "jenkins-infra/github-reusable-workflows/.github/workflows/close-bom-if-passing.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-bom-if-passing.yml"
+    },
+    {
+      "component": "jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jenkins-security-scan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-safe-deps.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "jenkins-infra/github-reusable-workflows/.github/workflows/auto-merge-safe-deps.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "jenkins-infra/github-reusable-workflows/.github/workflows/maven-cd.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-bom-if-passing.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "jenkins-infra/github-reusable-workflows/.github/workflows/close-bom-if-passing.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-bom-if-passing.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "Close BOM update PR if passing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "Jenkins Security Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/workflow-api-plugin",
+      "target": "jenkins-api-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T17:35:41.816646+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 817
+    },
+    {
+      "path": ".github/workflows/auto-merge-safe-deps.yml",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/cd.yaml",
+      "size": 396
+    },
+    {
+      "path": ".github/workflows/close-bom-if-passing.yml",
+      "size": 260
+    },
+    {
+      "path": ".github/workflows/jenkins-security-scan.yml",
+      "size": 602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "jenkinsci/workflow-api-plugin",
+    "html_url": "https://github.com/jenkinsci/workflow-api-plugin",
+    "language": "Java",
+    "pushed_at": "2026-05-16T06:47:44Z",
+    "stargazers_count": 31,
+    "topics": [
+      "jenkins-api-plugin"
+    ],
+    "updated_at": "2026-06-01T18:28:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close BOM update PR if passing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-bom-if-passing.yml",
+      "term": "Close BOM update PR if passing"
+    },
+    {
+      "context_snippet": "Jenkins Security Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "term": "Jenkins Security Scan"
+    },
+    {
+      "context_snippet": "[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/workflow-api)](https://plugins.jenkins.io/workflow-api)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jenkins-api-plugin"
+    }
+  ]
+}

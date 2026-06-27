@@ -31,6 +31,18 @@
       "source_repo": "coin-or/CHiPPS-ALPS",
       "status": "candidate-context",
       "text": "Windows build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coin-or/Clp",
+      "status": "candidate-context",
+      "text": "COIN-OR Linear Programming Solver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/Clp",
+      "status": "candidate-context",
+      "text": "Windows build and test"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "coin-or/CHiPPS-ALPS",
+      "status": "candidate",
+      "text": "Windows build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/Clp",
       "status": "candidate",
       "text": "Windows build and test"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/windows-ci.yml",
       "source_repo": "coin-or/CHiPPS-ALPS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "coin-or/Clp"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

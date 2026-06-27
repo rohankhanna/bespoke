@@ -43,6 +43,18 @@
       "source_repo": "vztu/maxim-pytorch",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jep",
+      "status": "candidate-context",
+      "text": "Jenkins Enhancement Proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jep",
+      "status": "candidate-context",
+      "text": "Jenkins Enhancement Proposals"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "vztu/maxim-pytorch",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jep",
+      "status": "candidate",
+      "text": "Jenkins Enhancement Proposals"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-05-06T18:41:14.951242+00:00",
       "source_file": null,
       "source_repo": "vztu/maxim-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/jep"
     }
   ],
   "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

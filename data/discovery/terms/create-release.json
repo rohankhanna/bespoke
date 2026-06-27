@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -496,6 +496,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/create-release.yml",
       "source_repo": "fw-ai/cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coin-or/Clp"
     }
   ],
   "term": "Create Release"

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "jenkinsci/jep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "jenkinsci/plugin-pom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "jenkins-infra/repository-permissions-updater",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "jenkinsci/workflow-api-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "s4u/setup-maven-action@v1.20.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "release-drafter/release-drafter@v7",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-06-27T12:41:13.509162+00:00",
+  "source_repo": "jenkinsci/incrementals-tools"
+}

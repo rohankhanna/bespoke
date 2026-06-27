@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CSV files containing all french adjectives, adverbs, conjunctions, determiners, nouns, prepositions, pronouns, verbs and their gender, types and conjugations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pandas==1.4.1 tqdm==4.62.3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pandas==1.4.1 tqdm==4.62.3"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035280,
+      "status": "candidate",
+      "text": "gallic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037400,
+      "status": "candidate",
+      "text": "french people"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037400,
+      "status": "candidate",
+      "text": "the french"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037399,
+      "status": "candidate",
+      "text": "francophone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037321,
+      "status": "candidate",
+      "text": "francophonie"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "french",
+      "sense_id": "french#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4032,
+      "status": "candidate",
+      "text": "gallic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "french people"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "the french"
+    }
+  ],
+  "concept_id": "french",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "french",
+  "observation_id": "419f1762ba5a7960",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "french",
+  "source_context_snippet": "pandas==1.4.1 tqdm==4.62.3",
+  "source_file": null,
+  "source_repo": "hbenbel/French-Dictionary",
+  "source_repo_description": "CSV files containing all french adjectives, adverbs, conjunctions, determiners, nouns, prepositions, pronouns, verbs and their gender, types and conjugations"
+}

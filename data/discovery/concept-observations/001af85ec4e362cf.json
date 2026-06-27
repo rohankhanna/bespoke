@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A reactive notebook for Python \u2014 run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udd17 Link check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udd17 Link check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "bridled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "chaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "contact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "gap"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udd17 Link check",
+      "sense_id": "link-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "link-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "link-check",
+  "observation_id": "001af85ec4e362cf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "\ud83d\udd17 Link check",
+  "source_context_snippet": "\ud83d\udd17 Link check",
+  "source_file": ".github/workflows/link-check.yml",
+  "source_repo": "marimo-team/marimo",
+  "source_repo_description": "A reactive notebook for Python \u2014 run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor."
+}

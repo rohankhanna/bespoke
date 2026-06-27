@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Julia interface to the Coin-OR Linear Programming solver (CLP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://www.coin-or.org/wordpress/wp-content/uploads/2014/08/COINOR.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://www.coin-or.org/wordpress/wp-content/uploads/2014/08/COINOR.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jump-jl",
+      "sense_id": "jump-jl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jump-jl",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jump-jl",
+  "observation_id": "fdb71df904c3885a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "jump-jl",
+  "source_context_snippet": "![](https://www.coin-or.org/wordpress/wp-content/uploads/2014/08/COINOR.png)",
+  "source_file": null,
+  "source_repo": "jump-dev/Clp.jl",
+  "source_repo_description": "A Julia interface to the Coin-OR Linear Programming solver (CLP)"
+}

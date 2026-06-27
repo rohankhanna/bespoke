@@ -369,6 +369,30 @@
       "source_repo": "AtomCrafty/yukatool2",
       "status": "candidate-context",
       "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "status": "candidate-context",
+      "text": "Plugin Manager CLI tool for Jenkins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "status": "candidate-context",
+      "text": "Plugin Installation Manager Tool for Jenkins"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/plugin-pom",
+      "status": "candidate-context",
+      "text": "Parent POM for Jenkins Plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/plugin-pom",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -551,6 +575,18 @@
       "source_repo": "AtomCrafty/yukatool2",
       "status": "candidate",
       "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "status": "candidate",
+      "text": "Plugin Installation Manager Tool for Jenkins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/plugin-pom",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/jenkinsci/plugin-pom.svg?label=changelog)](https://github.com/jenkinsci/plugin-pom/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -1320,11 +1356,29 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-installation-manager-tool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-pom"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Load"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate-context",
+      "text": "Metal programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate-context",
+      "text": "Load"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate",
+      "text": "Load"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024715,
+      "status": "candidate",
+      "text": "burden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024601,
+      "status": "candidate",
+      "text": "laden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023626,
+      "status": "candidate",
+      "text": "incumbrance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022388,
+      "status": "candidate",
+      "text": "encumbrance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999849,
+      "status": "candidate",
+      "text": "lade"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43077,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24039,
+      "status": "candidate",
+      "text": "onus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19050,
+      "status": "candidate",
+      "text": "encumbrance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14035,
+      "status": "candidate",
+      "text": "laden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11025,
+      "status": "candidate",
+      "text": "incumbrance"
+    }
+  ],
+  "canonical_name": "Load",
+  "concept_id": "load",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/Load.yml",
+      "source_repo": "JuliaGPU/Metal.jl"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Load",
+      "sense_id": "load#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Moonshine Voice Logo](images/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Moonshine Voice Logo](images/logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "voice-recognition",
+      "sense_id": "voice-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "voice-recognition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "voice-recognition",
+  "observation_id": "cfea6bdab52c0e2b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "voice-recognition",
+  "source_context_snippet": "![Moonshine Voice Logo](images/logo.png)",
+  "source_file": null,
+  "source_repo": "moonshine-ai/moonshine",
+  "source_repo_description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces"
+}

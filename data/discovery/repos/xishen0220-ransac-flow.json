@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XiSHEN0220/RANSAC-Flow",
+      "target": "ignacio-rocco/ncnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XiSHEN0220/RANSAC-Flow",
+      "target": "ducha-aiki/pymagsac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XiSHEN0220/RANSAC-Flow",
+      "target": "xishen0220/artminer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XiSHEN0220/RANSAC-Flow",
+      "target": "xishen0220/watermarkreco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/RANSAC-Flow",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/RANSAC-Flow",
+      "target": "art-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/RANSAC-Flow",
+      "target": "eccv202",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/RANSAC-Flow",
+      "target": "image-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XiSHEN0220/RANSAC-Flow",
+      "target": "optical-flow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T16:05:34.341650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12462
+    },
+    {
+      "path": "Dockerfile",
+      "size": 537
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "(ECCV 2020) RANSAC-Flow: generic two-stage image alignment",
+    "fork": false,
+    "full_name": "XiSHEN0220/RANSAC-Flow",
+    "html_url": "https://github.com/XiSHEN0220/RANSAC-Flow",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-05-14T03:47:43Z",
+    "stargazers_count": 451,
+    "topics": [
+      "3d-reconstruction",
+      "art-image",
+      "eccv202",
+      "image-alignment",
+      "optical-flow"
+    ],
+    "updated_at": "2026-01-27T06:36:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ducha-aiki/pymagsac",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ignacio-rocco/ncnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xishen0220/artminer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xishen0220/watermarkreco",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pytorch implementation of paper \"RANSAC-Flow: generic two-stage image alignment\" (ECCV 2020)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "Pytorch implementation of paper \"RANSAC-Flow: generic two-stage image alignment\" (ECCV 2020)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "art-image"
+    },
+    {
+      "context_snippet": "Pytorch implementation of paper \"RANSAC-Flow: generic two-stage image alignment\" (ECCV 2020)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv202"
+    },
+    {
+      "context_snippet": "Pytorch implementation of paper \"RANSAC-Flow: generic two-stage image alignment\" (ECCV 2020)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-alignment"
+    },
+    {
+      "context_snippet": "Pytorch implementation of paper \"RANSAC-Flow: generic two-stage image alignment\" (ECCV 2020)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    }
+  ]
+}

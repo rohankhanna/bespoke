@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brdav/refign",
+      "target": "lightning-ai/lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brdav/refign",
+      "target": "lhoyer/hrda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brdav/refign",
+      "target": "xishen0220/ransac-flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brdav/refign",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brdav/refign",
+      "target": "domain-adaptation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brdav/refign",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T14:26:49.605599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15189
+    },
+    {
+      "path": "requirements.txt",
+      "size": 191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Refign: Align and Refine for Adaptation of Semantic Segmentation to Adverse Conditions [WACV 2023]",
+    "fork": false,
+    "full_name": "brdav/refign",
+    "html_url": "https://github.com/brdav/refign",
+    "language": "Python",
+    "pushed_at": "2023-08-09T15:14:45Z",
+    "stargazers_count": 86,
+    "topics": [
+      "computer-vision",
+      "domain-adaptation",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-05-13T07:07:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lhoyer/hrda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xishen0220/ransac-flow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domain-adaptation"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

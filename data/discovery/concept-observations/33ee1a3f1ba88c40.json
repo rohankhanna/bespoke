@@ -84,7 +84,7 @@
   "normalized_form": "claude-code",
   "observation_id": "33ee1a3f1ba88c40",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "Claude Code",
   "source_context_snippet": "Claude Code",
   "source_file": ".github/workflows/claude.yml",

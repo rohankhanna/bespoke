@@ -84,7 +84,7 @@
   "normalized_form": "browser-basic-launch-test",
   "observation_id": "b4e0c299a3713308",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "Browser basic launch test",
   "source_context_snippet": "Browser basic launch test",
   "source_file": ".github/workflows/TestFirefox.yml",

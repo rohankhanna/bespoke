@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A reactive Python kernel for Jupyter notebooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ipyflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ipyflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ipyflow",
+      "sense_id": "ipyflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ipyflow",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ipyflow",
+  "observation_id": "12dea8746caf38af",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "ipyflow",
+  "source_context_snippet": "ipyflow",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "ipyflow/ipyflow",
+  "source_repo_description": "A reactive Python kernel for Jupyter notebooks."
+}

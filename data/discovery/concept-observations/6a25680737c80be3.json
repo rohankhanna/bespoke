@@ -84,7 +84,7 @@
   "normalized_form": "julia",
   "observation_id": "6a25680737c80be3",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "julia",
   "source_context_snippet": "BLISBLAS.jl is a Julia package that allows users to use the [BLIS](https://github.com/flame/blis) library for Julia's underlying BLAS. Note that BLIS only provides BLAS but not LAPACK (OpenBLAS will still be used for LAPACK functionality).",
   "source_file": null,

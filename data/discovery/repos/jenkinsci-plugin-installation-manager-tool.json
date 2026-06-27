@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-artifact.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-artifact.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-artifact.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "jenkinsci/incrementals-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-artifact.yml",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-artifact.yml",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-artifact.yml",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release-artifact.yml",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "Publish artifact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "release-drafter/release-drafter@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "jenkins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "plugin-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "target": "tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T14:21:30.761781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21030
+    },
+    {
+      "path": ".github/workflows/publish-release-artifact.yml",
+      "size": 1923
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugin Manager CLI tool for Jenkins",
+    "fork": false,
+    "full_name": "jenkinsci/plugin-installation-manager-tool",
+    "html_url": "https://github.com/jenkinsci/plugin-installation-manager-tool",
+    "language": "Java",
+    "pushed_at": "2026-06-01T03:55:38Z",
+    "stargazers_count": 460,
+    "topics": [
+      "cli",
+      "hacktoberfest",
+      "jenkins",
+      "plugin-manager",
+      "tool"
+    ],
+    "updated_at": "2026-06-10T16:03:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkinsci/incrementals-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish artifact",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release-artifact.yml",
+      "term": "Publish artifact"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Plugin Installation Manager Tool for Jenkins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Plugin Installation Manager Tool for Jenkins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jenkins"
+    },
+    {
+      "context_snippet": "Plugin Installation Manager Tool for Jenkins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    },
+    {
+      "context_snippet": "Plugin Installation Manager Tool for Jenkins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    }
+  ]
+}

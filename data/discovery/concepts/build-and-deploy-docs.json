@@ -67,6 +67,18 @@
       "source_repo": "evandempsey/podcast-llm",
       "status": "candidate-context",
       "text": "Build and Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "A reactive notebook for Python \u2014 run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "Build and Deploy Docs"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "evandempsey/podcast-llm",
+      "status": "candidate",
+      "text": "Build and Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
       "status": "candidate",
       "text": "Build and Deploy Docs"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-21T07:28:23.617453+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "evandempsey/podcast-llm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "marimo-team/marimo"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

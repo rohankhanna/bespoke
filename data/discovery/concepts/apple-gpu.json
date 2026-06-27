@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "apple-gpu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate-context",
+      "text": "Metal programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate-context",
+      "text": "*Metal programming in Julia*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate",
+      "text": "*Metal programming in Julia*"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "apple-gpu",
+  "concept_id": "apple-gpu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apple-gpu",
+      "sense_id": "apple-gpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

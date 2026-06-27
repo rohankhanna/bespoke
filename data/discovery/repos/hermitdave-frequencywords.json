@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T16:01:36.387499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 913
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repository for Frequency Word List Generator and processed files",
+    "fork": false,
+    "full_name": "hermitdave/FrequencyWords",
+    "html_url": "https://github.com/hermitdave/FrequencyWords",
+    "language": "C#",
+    "pushed_at": "2022-02-07T10:32:14Z",
+    "stargazers_count": 1505,
+    "topics": [],
+    "updated_at": "2026-06-22T11:44:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

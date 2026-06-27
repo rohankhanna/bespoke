@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Post Release To Discord"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "A reactive notebook for Python \u2014 run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate-context",
+      "text": "Post Release To Discord"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marimo-team/marimo",
+      "status": "candidate",
+      "text": "Post Release To Discord"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27254,
+      "status": "candidate",
+      "text": "relieve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26454,
+      "status": "candidate",
+      "text": "relief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26454,
+      "status": "candidate",
+      "text": "relieved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19255,
+      "status": "candidate",
+      "text": "israel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19255,
+      "status": "candidate",
+      "text": "split"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Post Release To Discord",
+  "concept_id": "post-release-to-discord",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/discord-release.yml",
+      "source_repo": "marimo-team/marimo"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post Release To Discord",
+      "sense_id": "post-release-to-discord#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

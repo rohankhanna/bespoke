@@ -31,13 +31,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ANTsX/ANTsR",
-      "target": "antsx/antsrcore",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ANTsX/ANTsR",
       "target": "stnava/itkr",
       "target_type": "repository"
     },
@@ -52,7 +45,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "ANTsX/ANTsR",
-      "target": "antsx/antsrcore",
+      "target": "stnava/itkr",
       "target_type": "repository"
     },
     {
@@ -126,7 +119,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T09:50:17.836853+00:00",
+  "fetched_at": "2026-06-27T16:06:36.004467+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -165,11 +158,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "antsx/antsrcore",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "ntustison/antsrnetexamples",
       "source_file": "README.md"
     },
@@ -180,7 +168,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "antsx/antsrcore",
+      "full_name": "stnava/itkr",
       "source_file": "Dockerfile"
     }
   ],

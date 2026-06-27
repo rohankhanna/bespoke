@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "@emotion/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "@material-ui/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "@material-ui/icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "@material-ui/styles",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "gatsby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "gatsby-plugin-image",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "gatsby-plugin-manifest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "gatsby-plugin-material-ui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "gatsby-plugin-offline",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "gatsby-plugin-react-helmet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "gatsby-plugin-sharp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "gatsby-source-filesystem",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "gatsby-transformer-sharp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "prop-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "react-helmet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "typeface-roboto",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "insight-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "simpleitk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "target": "website",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-27T12:41:13.509162+00:00",
+  "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org"
+}

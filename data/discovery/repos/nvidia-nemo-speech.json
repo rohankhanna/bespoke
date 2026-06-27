@@ -416,7 +416,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T09:30:23.407407+00:00",
+  "fetched_at": "2026-06-27T17:15:04.446552+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -469,7 +469,7 @@
     "html_url": "https://github.com/NVIDIA-NeMo/Speech",
     "language": "Python",
     "pushed_at": "2026-06-26T21:54:23Z",
-    "stargazers_count": 17575,
+    "stargazers_count": 17581,
     "topics": [
       "asr",
       "deeplearning",
@@ -482,7 +482,7 @@
       "speech-translation",
       "tts"
     ],
-    "updated_at": "2026-06-27T09:26:05Z"
+    "updated_at": "2026-06-27T16:48:48Z"
   },
   "repo_links": [
     {

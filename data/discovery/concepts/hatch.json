@@ -31,6 +31,18 @@
       "source_repo": "pyOpenSci/pyos-package-template",
       "status": "candidate-context",
       "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "status": "candidate-context",
+      "text": "Ensure that the __version__ variable stays up-to-date with an editable install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/badge/github-maresb%2Fhatch--vcs--footgun--example-blue)](https://github.com/maresb/hatch-vcs-footgun-example)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "pyOpenSci/pyos-package-template",
       "status": "candidate",
       "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/badge/github-maresb%2Fhatch--vcs--footgun--example-blue)](https://github.com/maresb/hatch-vcs-footgun-example)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "pyOpenSci/pyos-package-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "maresb/hatch-vcs-footgun-example"
     }
   ],
   "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

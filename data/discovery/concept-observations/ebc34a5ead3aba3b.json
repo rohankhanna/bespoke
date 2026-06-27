@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Close BOM update PR if passing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Close BOM update PR if passing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46352,
+      "status": "candidate",
+      "text": "fanned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46352,
+      "status": "candidate",
+      "text": "fanning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46266,
+      "status": "candidate",
+      "text": "sneak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46091,
+      "status": "candidate",
+      "text": "tick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44036,
+      "status": "candidate",
+      "text": "call"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close BOM update PR if passing",
+      "sense_id": "close-bom-update-pr-if-passing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "close-bom-update-pr-if-passing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "close-bom-update-pr-if-passing",
+  "observation_id": "ebc34a5ead3aba3b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "Close BOM update PR if passing",
+  "source_context_snippet": "Close BOM update PR if passing",
+  "source_file": ".github/workflows/close-bom-if-passing.yml",
+  "source_repo": "jenkinsci/workflow-api-plugin",
+  "source_repo_description": null
+}

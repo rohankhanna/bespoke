@@ -31,6 +31,18 @@
       "source_repo": "mangiucugna/json_repair",
       "status": "candidate-context",
       "text": "Mypy Type Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate-context",
+      "text": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/rf-detr",
+      "status": "candidate-context",
+      "text": "Mypy Type Check"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mangiucugna/json_repair",
+      "status": "candidate",
+      "text": "Mypy Type Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/rf-detr",
       "status": "candidate",
       "text": "Mypy Type Check"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-24T00:44:26.398961+00:00",
       "source_file": ".github/workflows/mypy.yml",
       "source_repo": "mangiucugna/json_repair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/ci-typing.yml",
+      "source_repo": "roboflow/rf-detr"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

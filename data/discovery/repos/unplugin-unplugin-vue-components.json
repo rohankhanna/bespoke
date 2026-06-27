@@ -565,7 +565,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T09:44:05.645754+00:00",
+  "fetched_at": "2026-06-27T17:33:18.694011+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -598,7 +598,7 @@
     "html_url": "https://github.com/unplugin/unplugin-vue-components",
     "language": "TypeScript",
     "pushed_at": "2026-05-20T04:37:54Z",
-    "stargazers_count": 4290,
+    "stargazers_count": 4289,
     "topics": [
       "auto-import",
       "components",
@@ -608,7 +608,7 @@
       "vue3",
       "webpack"
     ],
-    "updated_at": "2026-06-26T06:28:01Z"
+    "updated_at": "2026-06-27T12:34:02Z"
   },
   "repo_links": [
     {

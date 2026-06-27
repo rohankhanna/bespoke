@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathesong/kinfitr",
+      "target": "mathesong/petfit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "mathesong/kinfitr",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "mathesong/kinfitr",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "mathesong/kinfitr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "mathesong/kinfitr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "mathesong/kinfitr",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "mathesong/kinfitr",
+      "target": "R-CMD-check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T14:28:29.298626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9816
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "size": 1512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "kinfitr: PET Kinetic Modelling Using R",
+    "fork": false,
+    "full_name": "mathesong/kinfitr",
+    "html_url": "https://github.com/mathesong/kinfitr",
+    "language": "R",
+    "pushed_at": "2026-06-15T20:59:58Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-06-13T13:30:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mathesong/petfit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "R-CMD-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "term": "R-CMD-check"
+    }
+  ]
+}

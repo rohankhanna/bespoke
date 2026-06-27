@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hbenbel/French-Dictionary",
+      "target": "dictionary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hbenbel/French-Dictionary",
+      "target": "french",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T16:01:34.283421+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 27
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CSV files containing all french adjectives, adverbs, conjunctions, determiners, nouns, prepositions, pronouns, verbs and their gender, types and conjugations",
+    "fork": false,
+    "full_name": "hbenbel/French-Dictionary",
+    "html_url": "https://github.com/hbenbel/French-Dictionary",
+    "language": "Python",
+    "pushed_at": "2023-12-12T14:05:36Z",
+    "stargazers_count": 160,
+    "topics": [
+      "dictionary",
+      "french"
+    ],
+    "updated_at": "2026-06-26T02:10:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pandas==1.4.1 tqdm==4.62.3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dictionary"
+    },
+    {
+      "context_snippet": "pandas==1.4.1 tqdm==4.62.3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "french"
+    }
+  ]
+}

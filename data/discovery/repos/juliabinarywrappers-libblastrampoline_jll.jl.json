@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-27T14:27:11.001183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/libblastrampoline_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/libblastrampoline_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-12-26T20:09:47Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-12-26T20:09:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

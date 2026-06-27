@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-android.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-android.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-android.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "moonshine-ai/moonshine-swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "cmusphinx/cmudict",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "hermitdave/frequencywords",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "hbenbel/french-dictionary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-android.yml",
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-android.yml",
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-android.yml",
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-android.yml",
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "Publish Android (Maven Central)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "intent-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moonshine-ai/moonshine",
+      "target": "voice-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T14:21:26.225239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 112320
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1110
+    },
+    {
+      "path": ".github/workflows/publish-android.yml",
+      "size": 1928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+    "fork": false,
+    "full_name": "moonshine-ai/moonshine",
+    "html_url": "https://github.com/moonshine-ai/moonshine",
+    "language": "C++",
+    "pushed_at": "2026-06-26T02:32:21Z",
+    "stargazers_count": 8555,
+    "topics": [
+      "intent-recognition",
+      "stt",
+      "tts",
+      "voice",
+      "voice-recognition"
+    ],
+    "updated_at": "2026-06-27T02:59:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmusphinx/cmudict",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hbenbel/french-dictionary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hermitdave/frequencywords",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moonshine-ai/moonshine-swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Android (Maven Central)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-android.yml",
+      "term": "Publish Android (Maven Central)"
+    },
+    {
+      "context_snippet": "![Moonshine Voice Logo](images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intent-recognition"
+    },
+    {
+      "context_snippet": "![Moonshine Voice Logo](images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice"
+    },
+    {
+      "context_snippet": "![Moonshine Voice Logo](images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-recognition"
+    }
+  ]
+}

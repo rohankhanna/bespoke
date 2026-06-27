@@ -387,6 +387,13 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-pr.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "PR Tests",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
@@ -415,7 +422,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T09:14:30.765590+00:00",
+  "fetched_at": "2026-06-27T16:58:16.214041+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -452,6 +459,10 @@
     {
       "path": ".github/workflows/tests-nightly.yml",
       "size": 3958
+    },
+    {
+      "path": ".github/workflows/tests-pr.yml",
+      "size": 3288
     }
   ],
   "related_repositories": [],
@@ -464,7 +475,7 @@
     "html_url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
     "language": "Python",
     "pushed_at": "2026-06-22T22:36:07Z",
-    "stargazers_count": 8293,
+    "stargazers_count": 8294,
     "topics": [
       "llm",
       "machine-learning",
@@ -472,7 +483,7 @@
       "qlora",
       "quantization"
     ],
-    "updated_at": "2026-06-27T02:27:21Z"
+    "updated_at": "2026-06-27T12:06:40Z"
   },
   "repo_links": [],
   "terms": [
@@ -511,6 +522,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/tests-nightly.yml",
       "term": "Nightly Tests"
+    },
+    {
+      "context_snippet": "PR Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-pr.yml",
+      "term": "PR Tests"
     },
     {
       "context_snippet": "<p align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/175231607?s=200&v=4\" alt=\"\"></p>",

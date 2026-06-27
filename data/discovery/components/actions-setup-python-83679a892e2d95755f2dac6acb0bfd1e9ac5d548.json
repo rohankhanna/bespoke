@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-sdxl.yaml",
       "source_repo": "nod-ai/amd-shark-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example"
     }
   ]
 }

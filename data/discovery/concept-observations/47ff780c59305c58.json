@@ -84,7 +84,7 @@
   "normalized_form": "pr-formatting",
   "observation_id": "47ff780c59305c58",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T00:46:07.279669+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "PR formatting",
   "source_context_snippet": "PR formatting",
   "source_file": ".github/workflows/pr-formatting.yml",

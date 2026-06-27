@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "hynek/build-and-inspect-python-package@efb823f52190ad02594531168b7a2d5790e66516",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "Perform pre-commit checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "hynek/build-and-inspect-python-package@efb823f52190ad02594531168b7a2d5790e66516",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "release-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "hatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maresb/hatch-vcs-footgun-example",
+      "target": "setuptools-scm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T14:29:14.629790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11456
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 1293
+    },
+    {
+      "path": ".github/workflows/prepare_pypi_readme.py",
+      "size": 1354
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2545
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1090
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ensure that the __version__ variable stays up-to-date with an editable install",
+    "fork": false,
+    "full_name": "maresb/hatch-vcs-footgun-example",
+    "html_url": "https://github.com/maresb/hatch-vcs-footgun-example",
+    "language": "Python",
+    "pushed_at": "2026-01-22T12:25:33Z",
+    "stargazers_count": 8,
+    "topics": [
+      "hatch",
+      "setuptools-scm"
+    ],
+    "updated_at": "2026-02-17T05:57:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Perform pre-commit checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "Perform pre-commit checks"
+    },
+    {
+      "context_snippet": "release-pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "release-pipeline"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "[![GitHub](https://img.shields.io/badge/github-maresb%2Fhatch--vcs--footgun--example-blue)](https://github.com/maresb/hatch-vcs-footgun-example)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hatch"
+    },
+    {
+      "context_snippet": "[![GitHub](https://img.shields.io/badge/github-maresb%2Fhatch--vcs--footgun--example-blue)](https://github.com/maresb/hatch-vcs-footgun-example)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "setuptools-scm"
+    }
+  ]
+}

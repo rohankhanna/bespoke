@@ -223,6 +223,18 @@
       "source_repo": "version-fox/vfox",
       "status": "candidate-context",
       "text": "<p style=\"\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "status": "candidate-context",
+      "text": "Plugin Manager CLI tool for Jenkins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "status": "candidate-context",
+      "text": "Plugin Installation Manager Tool for Jenkins"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "version-fox/vfox",
       "status": "candidate",
       "text": "<p style=\"\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/plugin-installation-manager-tool",
+      "status": "candidate",
+      "text": "Plugin Installation Manager Tool for Jenkins"
     }
   ],
   "candidate_related_terms": [],
@@ -1888,11 +1906,35 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl-plugin-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-installation-manager-tool"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "ci-clang",
   "observation_id": "491d70352b4fbb9a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T07:14:56.321639+00:00",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
   "observed_text": "CI (clang)",
   "source_context_snippet": "CI (clang)",
   "source_file": ".github/workflows/build-clang.yml",

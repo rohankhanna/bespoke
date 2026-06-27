@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ensure that the __version__ variable stays up-to-date with an editable install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub](https://img.shields.io/badge/github-maresb%2Fhatch--vcs--footgun--example-blue)](https://github.com/maresb/hatch-vcs-footgun-example)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/badge/github-maresb%2Fhatch--vcs--footgun--example-blue)](https://github.com/maresb/hatch-vcs-footgun-example)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "setuptools-scm",
+      "sense_id": "setuptools-scm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "setuptools-scm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "setuptools-scm",
+  "observation_id": "d2c3ece91d725e95",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "setuptools-scm",
+  "source_context_snippet": "[![GitHub](https://img.shields.io/badge/github-maresb%2Fhatch--vcs--footgun--example-blue)](https://github.com/maresb/hatch-vcs-footgun-example)",
+  "source_file": null,
+  "source_repo": "maresb/hatch-vcs-footgun-example",
+  "source_repo_description": "Ensure that the __version__ variable stays up-to-date with an editable install"
+}

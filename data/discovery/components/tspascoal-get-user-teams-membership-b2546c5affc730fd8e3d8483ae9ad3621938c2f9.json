@@ -1,0 +1,12 @@
+{
+  "component": "tspascoal/get-user-teams-membership@b2546c5affc730fd8e3d8483ae9ad3621938c2f9",
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater"
+    }
+  ]
+}

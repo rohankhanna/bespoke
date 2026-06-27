@@ -19,6 +19,18 @@
       "source_repo": "HTR-United/tapuscorpus",
       "status": "candidate-context",
       "text": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hbenbel/French-Dictionary",
+      "status": "candidate-context",
+      "text": "CSV files containing all french adjectives, adverbs, conjunctions, determiners, nouns, prepositions, pronouns, verbs and their gender, types and conjugations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hbenbel/French-Dictionary",
+      "status": "candidate-context",
+      "text": "pandas==1.4.1 tqdm==4.62.3"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "HTR-United/tapuscorpus",
       "status": "candidate",
       "text": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hbenbel/French-Dictionary",
+      "status": "candidate",
+      "text": "pandas==1.4.1 tqdm==4.62.3"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "HTR-United/tapuscorpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "hbenbel/French-Dictionary"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

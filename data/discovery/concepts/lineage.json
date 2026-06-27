@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "lineage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipyflow/ipyflow",
+      "status": "candidate-context",
+      "text": "A reactive Python kernel for Jupyter notebooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipyflow/ipyflow",
+      "status": "candidate-context",
+      "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipyflow/ipyflow",
+      "status": "candidate",
+      "text": "<h1> <img src=\"https://raw.githubusercontent.com/ipyflow/ipyflow/master/img/ipyflow-logo.png\" width=\"25\"> IPyflow </h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39928068,
+      "status": "candidate",
+      "text": "bloodline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39928003,
+      "status": "candidate",
+      "text": "ancestry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927871,
+      "status": "candidate",
+      "text": "filiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927632,
+      "status": "candidate",
+      "text": "pedigree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927306,
+      "status": "candidate",
+      "text": "parentage"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34091,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26089,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18050,
+      "status": "candidate",
+      "text": "descent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17062,
+      "status": "candidate",
+      "text": "pedigree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10030,
+      "status": "candidate",
+      "text": "filiation"
+    }
+  ],
+  "canonical_name": "lineage",
+  "concept_id": "lineage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "ipyflow/ipyflow"
+    }
+  ],
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lineage",
+      "sense_id": "lineage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,18 @@
       "source_repo": "jump-dev/SCS.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/jump-dev/SCS.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/SCS.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/Clp.jl",
+      "status": "candidate-context",
+      "text": "A Julia interface to the Coin-OR Linear Programming solver (CLP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/Clp.jl",
+      "status": "candidate-context",
+      "text": "![](https://www.coin-or.org/wordpress/wp-content/uploads/2014/08/COINOR.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jump-dev/SCS.jl",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/jump-dev/SCS.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jump-dev/SCS.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/Clp.jl",
+      "status": "candidate",
+      "text": "![](https://www.coin-or.org/wordpress/wp-content/uploads/2014/08/COINOR.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-06-27T00:46:07.279669+00:00",
       "source_file": null,
       "source_repo": "jump-dev/SCS.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "jump-dev/Clp.jl"
     }
   ],
   "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T00:46:07.279669+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

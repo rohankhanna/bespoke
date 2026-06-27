@@ -1681,6 +1681,54 @@
       "source_repo": "JuliaMath/IntelVectorMath.jl",
       "status": "candidate-context",
       "text": "[pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/I/IntelVectorMath.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/GPUArrays.jl",
+      "status": "candidate-context",
+      "text": "Reusable array functionality for Julia's various GPU backends."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/GPUArrays.jl",
+      "status": "candidate-context",
+      "text": "*Reusable GPU array functionality for Julia's various GPU backends.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m-j-w/CpuId.jl",
+      "status": "candidate-context",
+      "text": "Ask the CPU for cache sizes, SIMD feature support, a running hypervisor, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m-j-w/CpuId.jl",
+      "status": "candidate-context",
+      "text": "*CpuId* is a package for the Julia programming language that enables you to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/Clp.jl",
+      "status": "candidate-context",
+      "text": "A Julia interface to the Coin-OR Linear Programming solver (CLP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/Clp.jl",
+      "status": "candidate-context",
+      "text": "![](https://www.coin-or.org/wordpress/wp-content/uploads/2014/08/COINOR.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate-context",
+      "text": "Metal programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate-context",
+      "text": "*Metal programming in Julia*"
     }
   ],
   "candidate_glosses": [
@@ -2523,6 +2571,30 @@
       "source_repo": "JuliaMath/IntelVectorMath.jl",
       "status": "candidate",
       "text": "[pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/I/IntelVectorMath.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/GPUArrays.jl",
+      "status": "candidate",
+      "text": "*Reusable GPU array functionality for Julia's various GPU backends.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m-j-w/CpuId.jl",
+      "status": "candidate",
+      "text": "*CpuId* is a package for the Julia programming language that enables you to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/Clp.jl",
+      "status": "candidate",
+      "text": "![](https://www.coin-or.org/wordpress/wp-content/uploads/2014/08/COINOR.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate",
+      "text": "*Metal programming in Julia*"
     }
   ],
   "candidate_related_terms": [
@@ -6940,11 +7012,95 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "JuliaMath/IntelVectorMath.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGPU/GPUArrays.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLinearAlgebra/AppleAccelerate.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "m-j-w/CpuId.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLinearAlgebra/BLISBLAS.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "jump-dev/Clp.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,566 @@
+{
+  "components": [
+    {
+      "component": "@testing-library/jest-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript/native-preview",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxfmt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turbo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "dopplerhq/secrets-fetch-action@cd2efbf9a404504316435873eff298b82f7e0562",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_build.yaml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@82d477f15f3a381dbcc8adc1206ce643fe110fb7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_build.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord-release.yml"
+    },
+    {
+      "component": "SethCohen/github-releases-to-discord@6ac5abea42b8cbac14316970819a8a535aab08ea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord-release.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "dopplerhq/secrets-fetch-action@cd2efbf9a404504316435873eff298b82f7e0562",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "yogevbd/enforce-label-action@a3c219da6b8fa73f6ba62b68ff09c469b3a1c024",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-label.yml"
+    },
+    {
+      "component": "actions/labeler@8558fd74291d67161a8a78ce36a881fa63b766a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marimo-team/marimo",
+      "target": "fonsp/pluto.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marimo-team/marimo",
+      "target": "ipyflow/ipyflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marimo-team/marimo",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marimo-team/marimo",
+      "target": "@testing-library/jest-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marimo-team/marimo",
+      "target": "@typescript/native-preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marimo-team/marimo",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marimo-team/marimo",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marimo-team/marimo",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "dopplerhq/secrets-fetch-action@cd2efbf9a404504316435873eff298b82f7e0562",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_build.yaml",
+      "source_repo": "marimo-team/marimo",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_build.yaml",
+      "source_repo": "marimo-team/marimo",
+      "target": "prefix-dev/setup-pixi@82d477f15f3a381dbcc8adc1206ce643fe110fb7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev_build.yaml",
+      "source_repo": "marimo-team/marimo",
+      "target": "Dev Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord-release.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord-release.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "SethCohen/github-releases-to-discord@6ac5abea42b8cbac14316970819a8a535aab08ea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord-release.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "Post Release To Discord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "dopplerhq/secrets-fetch-action@cd2efbf9a404504316435873eff298b82f7e0562",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "Build and Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "yogevbd/enforce-label-action@a3c219da6b8fa73f6ba62b68ff09c469b3a1c024",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "\ud83c\udff7\ufe0f Enforce Pull Request Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "actions/labeler@8558fd74291d67161a8a78ce36a881fa63b766a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "\ud83c\udff7\ufe0f Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "marimo-team/marimo",
+      "target": "\ud83d\udd17 Link check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo",
+      "target": "dataflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo",
+      "target": "notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo",
+      "target": "pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo",
+      "target": "reactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marimo-team/marimo",
+      "target": "web-app",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T14:28:34.163624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16647
+    },
+    {
+      "path": "package.json",
+      "size": 582
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 20221
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 2896
+    },
+    {
+      "path": ".github/workflows/dev_build.yaml",
+      "size": 655
+    },
+    {
+      "path": ".github/workflows/discord-release.yml",
+      "size": 811
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 4058
+    },
+    {
+      "path": ".github/workflows/enforce-label.yml",
+      "size": 648
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 449
+    },
+    {
+      "path": ".github/workflows/link-check.yml",
+      "size": 976
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A reactive notebook for Python \u2014 run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor.",
+    "fork": false,
+    "full_name": "marimo-team/marimo",
+    "html_url": "https://github.com/marimo-team/marimo",
+    "language": "Python",
+    "pushed_at": "2026-06-27T04:04:22Z",
+    "stargazers_count": 21607,
+    "topics": [
+      "artificial-intelligence",
+      "dag",
+      "data-science",
+      "data-visualization",
+      "dataflow",
+      "developer-tools",
+      "machine-learning",
+      "notebooks",
+      "pipeline",
+      "python",
+      "reactive",
+      "sql",
+      "web-app"
+    ],
+    "updated_at": "2026-06-27T13:12:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fonsp/pluto.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipyflow/ipyflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CLA Assistant\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "CLA Assistant"
+    },
+    {
+      "context_snippet": "Dev Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev_build.yaml",
+      "term": "Dev Build"
+    },
+    {
+      "context_snippet": "Post Release To Discord",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord-release.yml",
+      "term": "Post Release To Discord"
+    },
+    {
+      "context_snippet": "Build and Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build and Deploy Docs"
+    },
+    {
+      "context_snippet": "\ud83c\udff7\ufe0f Enforce Pull Request Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "term": "\ud83c\udff7\ufe0f Enforce Pull Request Label"
+    },
+    {
+      "context_snippet": "\ud83c\udff7\ufe0f Pull Request Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "\ud83c\udff7\ufe0f Pull Request Labeler"
+    },
+    {
+      "context_snippet": "\ud83d\udd17 Link check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yml",
+      "term": "\ud83d\udd17 Link check"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataflow"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebooks"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactive"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-app"
+    }
+  ]
+}

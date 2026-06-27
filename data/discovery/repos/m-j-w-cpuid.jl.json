@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "m-j-w/CpuId.jl",
+      "target": "juliaparallel/hwloc.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "m-j-w/CpuId.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "m-j-w/CpuId.jl",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "m-j-w/CpuId.jl",
+      "target": "performance-tuning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T14:27:19.982576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ask the CPU for cache sizes, SIMD feature support, a running hypervisor, and more.",
+    "fork": false,
+    "full_name": "m-j-w/CpuId.jl",
+    "html_url": "https://github.com/m-j-w/CpuId.jl",
+    "language": "Julia",
+    "pushed_at": "2023-09-13T12:03:59Z",
+    "stargazers_count": 54,
+    "topics": [
+      "julia",
+      "julia-language",
+      "performance-tuning"
+    ],
+    "updated_at": "2026-06-22T15:40:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaparallel/hwloc.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*CpuId* is a package for the Julia programming language that enables you to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "*CpuId* is a package for the Julia programming language that enables you to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-language"
+    },
+    {
+      "context_snippet": "*CpuId* is a package for the Julia programming language that enables you to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-tuning"
+    }
+  ]
+}

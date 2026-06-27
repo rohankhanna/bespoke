@@ -429,7 +429,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T09:02:47.868129+00:00",
+  "fetched_at": "2026-06-27T16:49:37.894826+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -482,7 +482,7 @@
     "html_url": "https://github.com/langchain-ai/langchain",
     "language": "Python",
     "pushed_at": "2026-06-26T21:28:59Z",
-    "stargazers_count": 140315,
+    "stargazers_count": 140330,
     "topics": [
       "agents",
       "ai",
@@ -505,7 +505,7 @@
       "rag",
       "typescript"
     ],
-    "updated_at": "2026-06-27T08:26:31Z"
+    "updated_at": "2026-06-27T16:44:49Z"
   },
   "repo_links": [],
   "terms": [

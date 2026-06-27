@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -46,6 +46,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Blaizzy/mlx-audio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl"
     }
   ],
   "term": "apple-silicon"

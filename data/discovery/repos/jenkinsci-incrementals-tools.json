@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "s4u/setup-maven-action@v1.20.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "jenkinsci/jep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "jenkinsci/plugin-pom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "jenkins-infra/repository-permissions-updater",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "jenkinsci/workflow-api-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "s4u/setup-maven-action@v1.20.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "jenkinsci/incrementals-tools",
+      "target": "release-drafter/release-drafter@v7",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-06-27T16:01:41.173910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10858
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 424
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 458
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "jenkinsci/incrementals-tools",
+    "html_url": "https://github.com/jenkinsci/incrementals-tools",
+    "language": "Java",
+    "pushed_at": "2026-05-01T01:32:55Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-05-01T01:32:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkins-infra/repository-permissions-updater",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkinsci/jep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkinsci/plugin-pom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkinsci/workflow-api-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

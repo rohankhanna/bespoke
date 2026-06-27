@@ -1,0 +1,12 @@
+{
+  "component": "jenkins-infra/github-reusable-workflows/.github/workflows/close-bom-if-passing.yml@v1",
+  "first_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-bom-if-passing.yml",
+      "source_repo": "jenkinsci/workflow-api-plugin"
+    }
+  ]
+}

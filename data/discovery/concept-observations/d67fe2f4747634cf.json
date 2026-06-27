@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ensure that the __version__ variable stays up-to-date with an editable install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "release-pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "release-pipeline"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release-pipeline",
+      "sense_id": "release-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-pipeline",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-pipeline",
+  "observation_id": "d67fe2f4747634cf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "release-pipeline",
+  "source_context_snippet": "release-pipeline",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "maresb/hatch-vcs-footgun-example",
+  "source_repo_description": "Ensure that the __version__ variable stays up-to-date with an editable install"
+}

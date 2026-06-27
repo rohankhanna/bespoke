@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jenkinsci/jmh-report-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/plugin-pom"
     }
   ],
   "term": "jenkins-plugin"

@@ -1,0 +1,509 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deps-resolution.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deps-resolution.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integrations.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integrations.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-cpu.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-cpu.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-cpu.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-gpu.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-gpu.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-gpu.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-typing.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-typing.yml"
+    },
+    {
+      "component": "eps1lon/actions-label-merge-conflict@1df065ebe6e3310545d4f4c4e862e43bdca146f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-conflict-labeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roboflow/rf-detr",
+      "target": "roboflow/rfdetr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roboflow/rf-detr",
+      "target": "roboflow/single_artifact_benchmarking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "Build Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-docs.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-docs.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-docs.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deps-resolution.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deps-resolution.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-deps-resolution.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "Dependency resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integrations.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integrations.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-integrations.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "Smoke Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-cpu.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-cpu.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-cpu.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-tests-cpu.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "CPU tests Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-gpu.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-gpu.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests-gpu.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-tests-gpu.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "GPU tests Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-typing.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-typing.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-typing.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "Mypy Type Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-conflict-labeler.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "eps1lon/actions-label-merge-conflict@1df065ebe6e3310545d4f4c4e862e43bdca146f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-conflict-labeler.yml",
+      "source_repo": "roboflow/rf-detr",
+      "target": "PR Conflict Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/rf-detr",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/rf-detr",
+      "target": "detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/rf-detr",
+      "target": "instance-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/rf-detr",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/rf-detr",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/rf-detr",
+      "target": "rf-detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/rf-detr",
+      "target": "sota",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T17:35:25.124783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23596
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 11451
+    },
+    {
+      "path": ".github/workflows/build-package.yml",
+      "size": 1081
+    },
+    {
+      "path": ".github/workflows/ci-build-docs.yml",
+      "size": 1275
+    },
+    {
+      "path": ".github/workflows/ci-deps-resolution.yml",
+      "size": 1576
+    },
+    {
+      "path": ".github/workflows/ci-integrations.yml",
+      "size": 1498
+    },
+    {
+      "path": ".github/workflows/ci-tests-cpu.yml",
+      "size": 3344
+    },
+    {
+      "path": ".github/workflows/ci-tests-gpu.yml",
+      "size": 2414
+    },
+    {
+      "path": ".github/workflows/ci-typing.yml",
+      "size": 1219
+    },
+    {
+      "path": ".github/workflows/pr-conflict-labeler.yml",
+      "size": 782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026] ",
+    "fork": false,
+    "full_name": "roboflow/rf-detr",
+    "html_url": "https://github.com/roboflow/rf-detr",
+    "language": "Python",
+    "pushed_at": "2026-06-27T08:58:58Z",
+    "stargazers_count": 8220,
+    "topics": [
+      "computer-vision",
+      "detr",
+      "instance-segmentation",
+      "machine-learning",
+      "object-detection",
+      "rf-detr",
+      "sota"
+    ],
+    "updated_at": "2026-06-27T16:28:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roboflow/rfdetr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roboflow/single_artifact_benchmarking",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-package.yml",
+      "term": "Build Package"
+    },
+    {
+      "context_snippet": "Dependency resolution",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-deps-resolution.yml",
+      "term": "Dependency resolution"
+    },
+    {
+      "context_snippet": "Smoke Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-integrations.yml",
+      "term": "Smoke Tests"
+    },
+    {
+      "context_snippet": "CPU tests Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-tests-cpu.yml",
+      "term": "CPU tests Workflow"
+    },
+    {
+      "context_snippet": "GPU tests Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-tests-gpu.yml",
+      "term": "GPU tests Workflow"
+    },
+    {
+      "context_snippet": "Mypy Type Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-typing.yml",
+      "term": "Mypy Type Check"
+    },
+    {
+      "context_snippet": "PR Conflict Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-conflict-labeler.yml",
+      "term": "PR Conflict Labeler"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rf-detr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sota"
+    }
+  ]
+}

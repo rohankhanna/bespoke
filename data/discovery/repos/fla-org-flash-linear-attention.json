@@ -36,6 +36,11 @@
       "source_file": ".github/workflows/check-header.yml"
     },
     {
+      "component": "actions/checkout@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-no-oj.yml"
+    },
+    {
       "component": "actions/github-script@v9.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-pytest-command.yml"
@@ -59,11 +64,6 @@
       "component": "actions/github-script@v9.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-pytest-command.yml"
-    },
-    {
-      "component": "actions/stale@v10.3.0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/issue.yml"
     }
   ],
   "edges": [
@@ -145,6 +145,20 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-no-oj.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "actions/checkout@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-no-oj.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "check-no-oj",
+      "target_type": "term"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/check-pr-title.yml",
       "source_repo": "fla-org/flash-linear-attention",
@@ -187,20 +201,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/issue.yml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "actions/stale@v10.3.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/issue.yml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "issues",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "fla-org/flash-linear-attention",
@@ -229,7 +229,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T09:23:35.214298+00:00",
+  "fetched_at": "2026-06-27T17:06:21.882926+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -256,6 +256,10 @@
       "size": 424
     },
     {
+      "path": ".github/workflows/check-no-oj.yml",
+      "size": 838
+    },
+    {
       "path": ".github/workflows/check-pr-title.yml",
       "size": 952
     },
@@ -266,10 +270,6 @@
     {
       "path": ".github/workflows/issue-pytest-command.yml",
       "size": 6894
-    },
-    {
-      "path": ".github/workflows/issue.yml",
-      "size": 715
     }
   ],
   "related_repositories": [],
@@ -281,15 +281,15 @@
     "full_name": "fla-org/flash-linear-attention",
     "html_url": "https://github.com/fla-org/flash-linear-attention",
     "language": "Python",
-    "pushed_at": "2026-06-27T09:19:35Z",
-    "stargazers_count": 5270,
+    "pushed_at": "2026-06-27T16:36:48Z",
+    "stargazers_count": 5272,
     "topics": [
       "large-language-models",
       "machine-learning-systems",
       "natural-language-processing",
       "sequence-modeling"
     ],
-    "updated_at": "2026-06-27T08:52:51Z"
+    "updated_at": "2026-06-27T16:36:52Z"
   },
   "repo_links": [],
   "terms": [
@@ -318,6 +318,12 @@
       "term": "check-header"
     },
     {
+      "context_snippet": "check-no-oj",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-no-oj.yml",
+      "term": "check-no-oj"
+    },
+    {
       "context_snippet": "check-pr-title",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/check-pr-title.yml",
@@ -328,12 +334,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/intel-b580.yml",
       "term": "intel-b580-ci"
-    },
-    {
-      "context_snippet": "issues",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/issue.yml",
-      "term": "issues"
     },
     {
       "context_snippet": "<div align=\"center\">",

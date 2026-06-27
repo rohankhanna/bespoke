@@ -103,6 +103,18 @@
       "source_repo": "Blaizzy/mlx-audio",
       "status": "candidate-context",
       "text": "<a href=\"https://trendshift.io/repositories/13625\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/13625\" alt=\"Blaizzy%2Fmlx-audio | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate-context",
+      "text": "Metal programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate-context",
+      "text": "*Metal programming in Julia*"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "Blaizzy/mlx-audio",
       "status": "candidate",
       "text": "<a href=\"https://trendshift.io/repositories/13625\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/13625\" alt=\"Blaizzy%2Fmlx-audio | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/Metal.jl",
+      "status": "candidate",
+      "text": "*Metal programming in Julia*"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +232,17 @@
       "observed_at": "2026-06-23T13:14:02.543868+00:00",
       "source_file": null,
       "source_repo": "Blaizzy/mlx-audio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGPU/Metal.jl"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-23T13:14:02.543868+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

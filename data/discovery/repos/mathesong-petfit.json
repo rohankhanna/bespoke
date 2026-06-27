@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "eWaterCycle/setup-apptainer@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "mathesong/petfit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "mathesong/petfit",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "mathesong/petfit",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "mathesong/petfit",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "mathesong/petfit",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "mathesong/petfit",
+      "target": "eWaterCycle/setup-apptainer@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "mathesong/petfit",
+      "target": "Integration Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T16:06:41.937975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4329
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 4740
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A BIDS app for PET quantification with invasive and non-invasive models",
+    "fork": false,
+    "full_name": "mathesong/petfit",
+    "html_url": "https://github.com/mathesong/petfit",
+    "language": "R",
+    "pushed_at": "2026-06-12T21:15:45Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-06-12T21:16:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "Integration Tests"
+    }
+  ]
+}

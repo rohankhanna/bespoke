@@ -520,6 +520,18 @@
       "source_repo": "HaxeFlixel/haxeflixel.com",
       "status": "candidate-context",
       "text": "[![](https://raw.github.com/HaxeFlixel/haxeflixel.com/master/src/files/images/flixel-logos/haxeflixel.com.png)](https://haxeflixel.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "status": "candidate-context",
+      "text": "Sources for insightsoftwareconsortium.org website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/InsightSoftwareConsortium/insightsoftwareconsortium.org/actions/workflows/build.yml/badge.svg)](https://github.com/InsightSoftwareConsortium/insightsoftwareconsortium.org/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -780,6 +792,12 @@
       "source_repo": "HaxeFlixel/haxeflixel.com",
       "status": "candidate",
       "text": "[![](https://raw.github.com/HaxeFlixel/haxeflixel.com/master/src/files/images/flixel-logos/haxeflixel.com.png)](https://haxeflixel.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/InsightSoftwareConsortium/insightsoftwareconsortium.org/actions/workflows/build.yml/badge.svg)](https://github.com/InsightSoftwareConsortium/insightsoftwareconsortium.org/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -3133,11 +3151,41 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/frontpage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": null,
+      "source_repo": "InsightSoftwareConsortium/insightsoftwareconsortium.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-27T12:41:13.509162+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "lexical_providers": [
     "datamuse"
   ],

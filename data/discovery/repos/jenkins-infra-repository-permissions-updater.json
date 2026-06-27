@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-checker.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-checker.yml"
+    },
+    {
+      "component": "tspascoal/get-user-teams-membership@b2546c5affc730fd8e3d8483ae9ad3621938c2f9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-issue-checker.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-issue-checker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "jenkinsci/jep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-checker.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-checker.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-checker.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hosting-comment-checker.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "Hosting re-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "tspascoal/get-user-teams-membership@b2546c5affc730fd8e3d8483ae9ad3621938c2f9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "Hosting hoster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-issue-checker.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hosting-issue-checker.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hosting-issue-checker.yml",
+      "source_repo": "jenkins-infra/repository-permissions-updater",
+      "target": "Hosting checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-27T17:35:32.526920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16641
+    },
+    {
+      "path": ".github/workflows/hosting-comment-checker.yml",
+      "size": 1166
+    },
+    {
+      "path": ".github/workflows/hosting-comment-hoster.yml",
+      "size": 2605
+    },
+    {
+      "path": ".github/workflows/hosting-issue-checker.yml",
+      "size": 825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Artifactory permissions synchronization tool and data set",
+    "fork": false,
+    "full_name": "jenkins-infra/repository-permissions-updater",
+    "html_url": "https://github.com/jenkins-infra/repository-permissions-updater",
+    "language": "Java",
+    "pushed_at": "2026-06-26T21:32:57Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-06-26T21:33:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkinsci/jep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Hosting re-checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hosting-comment-checker.yml",
+      "term": "Hosting re-checker"
+    },
+    {
+      "context_snippet": "Hosting hoster",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hosting-comment-hoster.yml",
+      "term": "Hosting hoster"
+    },
+    {
+      "context_snippet": "Hosting checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hosting-issue-checker.yml",
+      "term": "Hosting checker"
+    }
+  ]
+}

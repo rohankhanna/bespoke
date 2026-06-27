@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-27T12:41:13.509162+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -1419,6 +1419,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "crewAIInc/crewAI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev_build.yaml",
+      "source_repo": "marimo-team/marimo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/discord-release.yml",
+      "source_repo": "marimo-team/marimo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "marimo-team/marimo"
     }
   ]
 }

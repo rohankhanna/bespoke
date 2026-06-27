@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Android (Maven Central)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Android (Maven Central)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Android (Maven Central)",
+      "sense_id": "publish-android-maven-central#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-android-maven-central",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-android-maven-central",
+  "observation_id": "2db018312f044e66",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_text": "Publish Android (Maven Central)",
+  "source_context_snippet": "Publish Android (Maven Central)",
+  "source_file": ".github/workflows/publish-android.yml",
+  "source_repo": "moonshine-ai/moonshine",
+  "source_repo_description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces"
+}
