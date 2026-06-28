@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 107 | 2026-06-16T05:07:24Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
+| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 108 | 2026-06-16T05:07:24Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 107 | 2026-06-16T05:07:24Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
+| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 108 | 2026-06-16T05:07:24Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |

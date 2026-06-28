@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 30,
-    "concepts": 275,
-    "observations": 275,
-    "repos": 112,
-    "terms": 271
+    "concepts": 278,
+    "observations": 278,
+    "repos": 113,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
     "17mon/china_ip_list",
     "623637646/996.Leave",
+    "ACh-K/Cubic-11",
     "addyosmani/gemini-cli-tips",
     "AdguardTeam/AdGuardExtra",
     "AdrienTorris/awesome-blazor",

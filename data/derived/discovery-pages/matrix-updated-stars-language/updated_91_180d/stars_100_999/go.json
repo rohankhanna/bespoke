@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 367,
-    "observations": 368,
+    "components": 354,
+    "concepts": 366,
+    "observations": 367,
     "repos": 58,
-    "terms": 367
+    "terms": 366
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
@@ -20,7 +20,6 @@
     "Antonboom/testifylint",
     "argoproj-labs/argocd-rbac-operator",
     "aws-observability/aws-otel-collector",
-    "aws/amazon-ec2-metadata-mock",
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
     "aws/aws-app-mesh-controller-for-k8s",
@@ -70,6 +69,7 @@
     "proxy-wasm/proxy-wasm-go-sdk",
     "secretflow/scql",
     "slinso/goTemplateBenchmark",
+    "slsa-framework/slsa-github-generator",
     "stretchr/objx",
     "withastro/compiler"
   ]

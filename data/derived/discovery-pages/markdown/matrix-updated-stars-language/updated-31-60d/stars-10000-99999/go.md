@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 598
-- components: 658
-- concepts: 598
-- observations: 600
+- repos: 40
+- terms: 569
+- components: 633
+- concepts: 569
+- observations: 571
 
 ## Static behavior
 
@@ -66,8 +66,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) | 15245 | 2026-04-29T13:29:41Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [goharbor/harbor](https://github.com/goharbor/harbor) | 28386 | 2026-04-29T08:21:43Z | Go | Infrastructure/tooling | 18 | 18 | 18 | 18 |
 | [go-playground/validator](https://github.com/go-playground/validator) | 19926 | 2026-04-29T07:51:08Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) | 33854 | 2026-04-28T22:52:41Z | Go | Infrastructure/tooling | 18 | 12 | 18 | 18 |
-| [php/frankenphp](https://github.com/php/frankenphp) | 11026 | 2026-04-28T10:09:52Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -79,7 +77,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pingcap/tidb](https://github.com/pingcap/tidb) | 40044 | 2026-04-30T09:29:28Z | Go | Infrastructure/tooling | 20 | 8 | 20 | 20 |
 | [istio/istio](https://github.com/istio/istio) | 38161 | 2026-05-02T08:19:06Z | Go | Infrastructure/tooling | 16 | 0 | 16 | 16 |
 | [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | 38093 | 2026-05-03T11:55:19Z | Go | Infrastructure/tooling | 22 | 12 | 22 | 22 |
-| [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) | 33854 | 2026-04-28T22:52:41Z | Go | Infrastructure/tooling | 18 | 12 | 18 | 18 |
 | [restic/restic](https://github.com/restic/restic) | 33436 | 2026-05-07T20:59:55Z | Go | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [SagerNet/sing-box](https://github.com/SagerNet/sing-box) | 33358 | 2026-05-03T14:27:37Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32108 | 2026-04-30T10:21:01Z | Go | Infrastructure/tooling | 11 | 11 | 11 | 11 |
@@ -113,5 +110,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DNSCrypt/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | 13256 | 2026-04-30T03:52:44Z | Go | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [anchore/grype](https://github.com/anchore/grype) | 12121 | 2026-05-01T21:41:37Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |
 | [bufbuild/buf](https://github.com/bufbuild/buf) | 11085 | 2026-04-29T20:15:39Z | Go | CLI | 13 | 14 | 13 | 13 |
-| [php/frankenphp](https://github.com/php/frankenphp) | 11026 | 2026-04-28T10:09:52Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [cloudwego/eino](https://github.com/cloudwego/eino) | 10953 | 2026-04-29T14:19:19Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |

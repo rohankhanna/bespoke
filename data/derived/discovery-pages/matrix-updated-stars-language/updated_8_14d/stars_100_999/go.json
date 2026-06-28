@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 5,
-    "terms": 28
+    "components": 44,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 3,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
-    "appbaseio/reactivesearch-api",
     "hetznercloud/hcloud-cloud-controller-manager",
     "mudler/LocalRecall",
-    "SpecterOps/AzureHound",
-    "yaling888/quirktiva"
+    "SpecterOps/AzureHound"
   ]
 }

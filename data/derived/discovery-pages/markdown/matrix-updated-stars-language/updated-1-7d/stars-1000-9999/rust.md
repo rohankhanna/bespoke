@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 32
-- components: 59
-- concepts: 32
-- observations: 33
+- repos: 4
+- terms: 20
+- components: 21
+- concepts: 20
+- observations: 20
 
 ## Static behavior
 
@@ -26,10 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2075 | 2026-06-26T08:47:37Z | Rust | Infrastructure/tooling | 14 | 40 | 14 | 15 |
-| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4940 | 2026-06-23T22:22:41Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1931 | 2026-06-26T13:57:01Z | Rust | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [evcxr/evcxr](https://github.com/evcxr/evcxr) | 6437 | 2026-06-22T14:26:41Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [ash-rs/ash](https://github.com/ash-rs/ash) | 2295 | 2026-06-22T04:33:05Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [ash-rs/ash](https://github.com/ash-rs/ash) | 2296 | 2026-06-22T04:33:05Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [imgui-rs/imgui-rs](https://github.com/imgui-rs/imgui-rs) | 3020 | 2026-06-21T09:03:49Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 
 ## Repos sorted by stars
@@ -37,7 +36,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [evcxr/evcxr](https://github.com/evcxr/evcxr) | 6437 | 2026-06-22T14:26:41Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4940 | 2026-06-23T22:22:41Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [imgui-rs/imgui-rs](https://github.com/imgui-rs/imgui-rs) | 3020 | 2026-06-21T09:03:49Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [ash-rs/ash](https://github.com/ash-rs/ash) | 2295 | 2026-06-22T04:33:05Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2075 | 2026-06-26T08:47:37Z | Rust | Infrastructure/tooling | 14 | 40 | 14 | 15 |
+| [ash-rs/ash](https://github.com/ash-rs/ash) | 2296 | 2026-06-22T04:33:05Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1931 | 2026-06-26T13:57:01Z | Rust | Infrastructure/tooling | 10 | 6 | 10 | 10 |

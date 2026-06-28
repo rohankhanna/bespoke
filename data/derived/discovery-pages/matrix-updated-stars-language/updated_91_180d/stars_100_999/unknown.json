@@ -3,7 +3,7 @@
     "components": 37,
     "concepts": 135,
     "observations": 136,
-    "repos": 47,
+    "repos": 48,
     "terms": 128
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "abubakarsiddik31/claude-skills-collection",
@@ -26,6 +26,7 @@
     "emberjs/core-notes",
     "eza-community/eza-themes",
     "filecoin-project/devgrants",
+    "flathub/com.vscodium.codium",
     "google/deepsomatic",
     "googleapis/python-logging",
     "GuiWonder/MoonStarsKai",

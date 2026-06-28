@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1336,
-    "concepts": 339,
-    "observations": 340,
+    "components": 1346,
+    "concepts": 336,
+    "observations": 337,
     "repos": 62,
-    "terms": 335
+    "terms": 332
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "Adobe-CEP/Samples",
     "alexmojaki/birdseye",
     "anandthakker/doiuse",
+    "anvaka/panzoom",
     "apostrophecms/sanitize-html",
     "appbaseio/dejavu",
     "babel/babel-loader",
@@ -49,7 +50,6 @@
     "jsx-eslint/eslint-plugin-jsx-a11y",
     "kangax/html-minifier",
     "mapbox/delaunator",
-    "microsoft/botframework-sdk",
     "microsoft/generative-ai-with-javascript",
     "mourner/flatbush",
     "mozilla/webextension-polyfill",

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 52
-- components: 416
-- concepts: 52
-- observations: 52
+- repos: 10
+- terms: 60
+- components: 450
+- concepts: 60
+- observations: 60
 
 ## Static behavior
 
@@ -26,7 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [antvis/GPT-Vis](https://github.com/antvis/GPT-Vis) | 747 | 2026-06-26T02:18:29Z | TypeScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
+| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 562 | 2026-06-26T14:13:00Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [antvis/GPT-Vis](https://github.com/antvis/GPT-Vis) | 748 | 2026-06-26T02:18:29Z | TypeScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 254 | 2026-06-25T15:22:30Z | TypeScript | Infrastructure/tooling | 3 | 29 | 3 | 3 |
 | [electron/packager](https://github.com/electron/packager) | 299 | 2026-06-25T14:57:37Z | TypeScript | CLI | 9 | 51 | 9 | 9 |
 | [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 976 | 2026-06-23T16:21:34Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
@@ -41,7 +42,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 976 | 2026-06-23T16:21:34Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
-| [antvis/GPT-Vis](https://github.com/antvis/GPT-Vis) | 747 | 2026-06-26T02:18:29Z | TypeScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
+| [antvis/GPT-Vis](https://github.com/antvis/GPT-Vis) | 748 | 2026-06-26T02:18:29Z | TypeScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
+| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 562 | 2026-06-26T14:13:00Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [wevm/abitype](https://github.com/wevm/abitype) | 546 | 2026-06-22T16:18:42Z | TypeScript | Infrastructure/tooling | 10 | 24 | 10 | 10 |
 | [electron/packager](https://github.com/electron/packager) | 299 | 2026-06-25T14:57:37Z | TypeScript | CLI | 9 | 51 | 9 | 9 |
 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 254 | 2026-06-25T15:22:30Z | TypeScript | Infrastructure/tooling | 3 | 29 | 3 | 3 |

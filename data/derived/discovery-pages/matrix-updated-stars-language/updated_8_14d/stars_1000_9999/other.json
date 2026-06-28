@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 5,
-    "terms": 59
+    "components": 42,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 8,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "apache/casbin-Casbin.NET",
+    "babashka/sci",
+    "clj-kondo/clj-kondo",
+    "dotnet/command-line-api",
     "gluonfield/enchanted",
     "microsoft/PhiCookBook",
     "preservim/tagbar",

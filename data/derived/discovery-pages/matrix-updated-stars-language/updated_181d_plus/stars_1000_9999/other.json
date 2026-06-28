@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1353,
-    "concepts": 1697,
-    "observations": 1699,
-    "repos": 450,
-    "terms": 1683
+    "concepts": 1703,
+    "observations": 1705,
+    "repos": 452,
+    "terms": 1689
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -176,6 +176,7 @@
     "harvardnlp/pytorch-struct",
     "haskell/stylish-haskell",
     "haya14busa/incsearch.vim",
+    "hermitdave/FrequencyWords",
     "hexops-graveyard/dockerfile",
     "hila-chefer/Transformer-Explainability",
     "honza/vim-snippets",
@@ -373,6 +374,7 @@
     "sindrets/diffview.nvim",
     "sjl/gundo.vim",
     "smartstore/SmartStoreNET",
+    "SmiteshP/nvim-navic",
     "snap-research/articulated-animation",
     "sonph/onehalf",
     "spullara/mustache.java",

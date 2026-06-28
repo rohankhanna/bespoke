@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1928,
-    "concepts": 1678,
-    "observations": 1683,
-    "repos": 171,
-    "terms": 1704
+    "components": 1950,
+    "concepts": 1689,
+    "observations": 1694,
+    "repos": 172,
+    "terms": 1714
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -52,7 +52,6 @@
     "dask/dask",
     "datalab-to/chandra",
     "davila7/claude-code-templates",
-    "deepinsight/insightface",
     "delgan/loguru",
     "django/django",
     "DLR-RM/stable-baselines3",
@@ -149,6 +148,7 @@
     "pyodide/pyodide",
     "pypa/pip",
     "pytest-dev/pytest",
+    "python-pillow/Pillow",
     "python-telegram-bot/python-telegram-bot",
     "python/cpython",
     "python/mypy",
@@ -175,6 +175,7 @@
     "Textualize/textual",
     "thu-ml/tianshou",
     "titanwings/colleague-skill",
+    "treeverse/dvc",
     "ultralytics/ultralytics",
     "ultralytics/yolov3",
     "ultralytics/yolov5",

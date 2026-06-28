@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 389
-- terms: 1067
-- components: 4844
-- concepts: 1079
-- observations: 1079
+- repos: 390
+- terms: 1070
+- components: 4865
+- concepts: 1083
+- observations: 1083
 
 ## Static behavior
 
@@ -226,7 +226,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ddo/oauth-1.0a](https://github.com/ddo/oauth-1.0a) | 328 | 2023-11-27T10:13:25Z | JavaScript | Web app | 4 | 6 | 4 | 4 |
 | [Mathpix/mpx-cli](https://github.com/Mathpix/mpx-cli) | 116 | 2023-11-20T19:34:54Z | JavaScript | CLI | 7 | 16 | 8 | 8 |
 | [rollup/rollup-starter-lib](https://github.com/rollup/rollup-starter-lib) | 991 | 2023-11-17T06:28:02Z | JavaScript | Library | 0 | 4 | 0 | 0 |
-| [TritonDataCenter/node-http-signature](https://github.com/TritonDataCenter/node-http-signature) | 402 | 2023-11-16T18:34:24Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
+| [TritonDataCenter/node-http-signature](https://github.com/TritonDataCenter/node-http-signature) | 403 | 2023-11-16T18:34:24Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [electron-archive/grunt-electron-installer](https://github.com/electron-archive/grunt-electron-installer) | 398 | 2023-11-16T03:48:57Z | JavaScript | Web app | 0 | 4 | 0 | 0 |
 | [APIDevTools/swagger-cli](https://github.com/APIDevTools/swagger-cli) | 517 | 2023-11-15T11:23:27Z | JavaScript | CLI | 7 | 18 | 8 | 8 |
 | [eschnett/zotero-citationcounts](https://github.com/eschnett/zotero-citationcounts) | 929 | 2023-11-09T17:49:37Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
@@ -238,6 +238,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [imagemin/imagemin-gifsicle](https://github.com/imagemin/imagemin-gifsicle) | 119 | 2023-10-09T14:31:23Z | JavaScript | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [d3/d3-time-format](https://github.com/d3/d3-time-format) | 336 | 2023-10-06T16:55:50Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [d3/d3-interpolate](https://github.com/d3/d3-interpolate) | 498 | 2023-10-06T15:09:13Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [interpretml/gam-changer](https://github.com/interpretml/gam-changer) | 130 | 2023-10-03T06:55:41Z | JavaScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [mingukkang/GigaGAN](https://github.com/mingukkang/GigaGAN) | 414 | 2023-09-29T09:18:44Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [cocos/cocos-example-projects](https://github.com/cocos/cocos-example-projects) | 569 | 2023-09-19T08:39:35Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [standard/snazzy](https://github.com/standard/snazzy) | 421 | 2023-09-16T07:31:18Z | JavaScript | Infrastructure/tooling | 10 | 9 | 10 | 10 |
@@ -375,7 +376,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CyanoHao/Resource-Han-Rounded](https://github.com/CyanoHao/Resource-Han-Rounded) | 526 | 2022-05-06T23:25:13Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [bhauman/flappy-bird-demo](https://github.com/bhauman/flappy-bird-demo) | 148 | 2022-05-05T16:42:36Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [gotwarlost/istanbul-middleware](https://github.com/gotwarlost/istanbul-middleware) | 188 | 2022-05-05T00:41:47Z | JavaScript | Service/API | 0 | 9 | 0 | 0 |
-| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 4 | 9 | 4 | 4 |
+| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 3 | 9 | 4 | 4 |
 | [alferov/awesome-gulp](https://github.com/alferov/awesome-gulp) | 625 | 2022-04-12T16:51:43Z | JavaScript | Template/starter | 4 | 17 | 4 | 4 |
 | [Raynos/http-framework](https://github.com/Raynos/http-framework) | 521 | 2022-04-12T07:16:37Z | JavaScript | Web app | 0 | 30 | 0 | 0 |
 | [axeldelafosse/expo-next-monorepo-example](https://github.com/axeldelafosse/expo-next-monorepo-example) | 286 | 2022-04-04T22:31:31Z | JavaScript | Unknown | 6 | 1 | 6 | 6 |
@@ -568,7 +569,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aca/emmet-ls](https://github.com/aca/emmet-ls) | 406 | 2024-07-08T04:15:33Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [haoqunjiang/vite-jest](https://github.com/haoqunjiang/vite-jest) | 405 | 2021-12-07T14:39:49Z | JavaScript | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [feross/simple-get](https://github.com/feross/simple-get) | 404 | 2023-03-15T20:54:46Z | JavaScript | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [TritonDataCenter/node-http-signature](https://github.com/TritonDataCenter/node-http-signature) | 402 | 2023-11-16T18:34:24Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
+| [TritonDataCenter/node-http-signature](https://github.com/TritonDataCenter/node-http-signature) | 403 | 2023-11-16T18:34:24Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [micromatch/anymatch](https://github.com/micromatch/anymatch) | 401 | 2023-05-18T16:52:59Z | JavaScript | Unknown | 10 | 4 | 10 | 10 |
 | [electron-archive/grunt-electron-installer](https://github.com/electron-archive/grunt-electron-installer) | 398 | 2023-11-16T03:48:57Z | JavaScript | Web app | 0 | 4 | 0 | 0 |
 | [songquanpeng/gin-template](https://github.com/songquanpeng/gin-template) | 396 | 2024-12-27T13:15:42Z | JavaScript | Infrastructure/tooling | 9 | 11 | 9 | 9 |
@@ -707,7 +708,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [newrelic/opensource-website](https://github.com/newrelic/opensource-website) | 180 | 2024-09-11T23:39:34Z | JavaScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
 | [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 180 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [mzgoddard/preact-render-spy](https://github.com/mzgoddard/preact-render-spy) | 178 | 2023-01-12T09:51:40Z | JavaScript | Unknown | 4 | 16 | 4 | 4 |
-| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 4 | 9 | 4 | 4 |
+| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 3 | 9 | 4 | 4 |
 | [paulirish/devtools-timeline-model](https://github.com/paulirish/devtools-timeline-model) | 176 | 2022-11-02T10:27:41Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
 | [bartolli/claude-code-typescript-hooks](https://github.com/bartolli/claude-code-typescript-hooks) | 175 | 2025-08-26T17:11:20Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [scarf-sh/scarf-js](https://github.com/scarf-sh/scarf-js) | 174 | 2024-11-22T17:04:13Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
@@ -754,6 +755,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mapbox/which-polygon](https://github.com/mapbox/which-polygon) | 134 | 2023-02-16T16:35:19Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [aaronvanston/react-flexa](https://github.com/aaronvanston/react-flexa) | 132 | 2022-12-07T01:01:15Z | JavaScript | Service/API | 8 | 30 | 8 | 8 |
 | [akbartus/MobileSAM-in-the-Browser](https://github.com/akbartus/MobileSAM-in-the-Browser) | 130 | 2025-06-16T16:52:27Z | JavaScript | Unknown | 2 | 0 | 2 | 2 |
+| [interpretml/gam-changer](https://github.com/interpretml/gam-changer) | 130 | 2023-10-03T06:55:41Z | JavaScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [emberjs/ember-mocha](https://github.com/emberjs/ember-mocha) | 130 | 2023-06-30T18:48:51Z | JavaScript | Unknown | 0 | 27 | 0 | 0 |
 | [queryverse/DataVoyager.jl](https://github.com/queryverse/DataVoyager.jl) | 129 | 2023-12-29T03:33:32Z | JavaScript | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [smartscenes/sstk](https://github.com/smartscenes/sstk) | 128 | 2024-12-09T19:17:26Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |

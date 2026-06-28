@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 64,
-    "observations": 64,
+    "components": 54,
+    "concepts": 66,
+    "observations": 66,
     "repos": 12,
-    "terms": 63
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "aliyun/aliyun-oss-java-sdk",
     "apache/incubator-seata-samples",
     "caprica/vlcj",
-    "cjlin1/libsvm",
     "json-path/JsonPath",
     "jtablesaw/tablesaw",
     "julian-klode/dns66",
     "locationtech/jts",
     "msgpack/msgpack-java",
+    "spring-projects/spring-ai-examples",
     "srikanth-lingala/zip4j",
     "stleary/JSON-java",
     "xerial/snappy-java"

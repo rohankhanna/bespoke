@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33769,
-    "concepts": 15364,
-    "observations": 15421,
-    "repos": 1728,
-    "terms": 15323
+    "components": 33785,
+    "concepts": 15381,
+    "observations": 15438,
+    "repos": 1729,
+    "terms": 15332
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -991,6 +991,7 @@
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
     "marcotcr/lime",
+    "marimo-team/marimo",
     "markdown-it/markdown-it",
     "markedjs/marked",
     "marmelab/react-admin",

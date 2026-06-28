@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 4,
-    "terms": 17
+    "components": 22,
+    "concepts": 32,
+    "observations": 33,
+    "repos": 5,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "arcee-ai/mergekit",
     "Blaizzy/mlx-audio",
+    "ipyflow/ipyflow",
     "NEKOparapa/AiNiee",
     "webpy/webpy"
   ]

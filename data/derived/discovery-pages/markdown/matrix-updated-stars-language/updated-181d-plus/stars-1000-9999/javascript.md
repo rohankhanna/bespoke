@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 247
-- terms: 878
+- repos: 248
+- terms: 886
 - components: 4303
-- concepts: 884
-- observations: 885
+- concepts: 892
+- observations: 893
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/botframework-sdk](https://github.com/microsoft/botframework-sdk) | 7804 | 2025-12-29T17:45:58Z | JavaScript | Framework | 8 | 0 | 8 | 8 |
 | [file-icons/atom](https://github.com/file-icons/atom) | 1366 | 2025-12-28T05:36:10Z | JavaScript | Unknown | 2 | 14 | 2 | 2 |
 | [architect/architect](https://github.com/architect/architect) | 2615 | 2025-12-24T00:22:40Z | JavaScript | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [guybedford/es-module-lexer](https://github.com/guybedford/es-module-lexer) | 1014 | 2025-12-19T10:57:10Z | JavaScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
@@ -298,6 +299,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rebassjs/rebass](https://github.com/rebassjs/rebass) | 7907 | 2023-07-27T03:42:53Z | JavaScript | Web app | 13 | 12 | 13 | 13 |
 | [styled-system/styled-system](https://github.com/styled-system/styled-system) | 7871 | 2024-01-12T19:55:49Z | JavaScript | Web app | 13 | 15 | 13 | 13 |
 | [Rich-Harris/degit](https://github.com/Rich-Harris/degit) | 7847 | 2024-01-27T07:20:31Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
+| [microsoft/botframework-sdk](https://github.com/microsoft/botframework-sdk) | 7804 | 2025-12-29T17:45:58Z | JavaScript | Framework | 8 | 0 | 8 | 8 |
 | [vercel/styled-jsx](https://github.com/vercel/styled-jsx) | 7790 | 2025-04-30T13:33:29Z | JavaScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [amsul/pickadate.js](https://github.com/amsul/pickadate.js) | 7669 | 2023-07-14T10:02:54Z | JavaScript | Unknown | 4 | 16 | 4 | 4 |
 | [umdjs/umd](https://github.com/umdjs/umd) | 7447 | 2024-11-26T23:55:09Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |

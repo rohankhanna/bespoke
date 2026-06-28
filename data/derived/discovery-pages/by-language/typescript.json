@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 63282,
-    "concepts": 10980,
-    "observations": 11016,
-    "repos": 1928,
-    "terms": 11282
+    "components": 63305,
+    "concepts": 10987,
+    "observations": 11023,
+    "repos": 1929,
+    "terms": 11288
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -1923,6 +1923,7 @@
     "wylieconlon/lsp-editor-adapter",
     "XantreDev/preact-signals",
     "xdebug/vscode-php-debug",
+    "xiaohk/stickyland",
     "xojs/xo",
     "xtermjs/xterm.js",
     "xyflow/xyflow",

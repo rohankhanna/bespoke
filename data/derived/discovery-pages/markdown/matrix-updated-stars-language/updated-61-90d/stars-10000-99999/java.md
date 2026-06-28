@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 20
-- terms: 247
-- components: 182
-- concepts: 249
-- observations: 249
+- repos: 21
+- terms: 259
+- components: 192
+- concepts: 261
+- observations: 261
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ReactiveX/RxJava](https://github.com/ReactiveX/RxJava) | 48284 | 2026-04-29T05:07:26Z | Java | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [apache/rocketmq](https://github.com/apache/rocketmq) | 22423 | 2026-04-28T02:35:52Z | Java | Infrastructure/tooling | 16 | 16 | 16 | 16 |
 | [prestodb/presto](https://github.com/prestodb/presto) | 16698 | 2026-04-23T23:28:11Z | Java | Infrastructure/tooling | 17 | 12 | 17 | 17 |
 | [apple/pkl](https://github.com/apple/pkl) | 11315 | 2026-04-23T21:39:56Z | Java | Infrastructure/tooling | 18 | 11 | 20 | 20 |
@@ -54,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | 67517 | 2026-04-19T09:06:34Z | Java | Framework | 3 | 0 | 3 | 3 |
 | [termux/termux-app](https://github.com/termux/termux-app) | 53809 | 2026-04-06T23:11:53Z | Java | CLI | 11 | 5 | 11 | 11 |
 | [google/guava](https://github.com/google/guava) | 51506 | 2026-04-17T21:56:04Z | Java | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [ReactiveX/RxJava](https://github.com/ReactiveX/RxJava) | 48284 | 2026-04-29T05:07:26Z | Java | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) | 34054 | 2026-04-23T15:36:32Z | Java | Infrastructure/tooling | 13 | 12 | 13 | 13 |
 | [alibaba/nacos](https://github.com/alibaba/nacos) | 32885 | 2026-04-22T05:32:27Z | Java | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29106 | 2026-04-20T06:51:44Z | Java | Infrastructure/tooling | 25 | 8 | 25 | 25 |

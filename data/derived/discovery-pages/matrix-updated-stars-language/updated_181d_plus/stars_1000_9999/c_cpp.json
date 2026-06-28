@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 416,
-    "concepts": 883,
-    "observations": 883,
-    "repos": 236,
-    "terms": 872
+    "components": 419,
+    "concepts": 884,
+    "observations": 884,
+    "repos": 237,
+    "terms": 873
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -54,6 +54,7 @@
     "chineseocr/darknet-ocr",
     "chjj/compton",
     "cisco/openh264",
+    "cjlin1/liblinear",
     "clibs/clib",
     "cmu-db/noisepage",
     "codeplea/tinyexpr",

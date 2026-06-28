@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 91
-- terms: 234
+- terms: 232
 - components: 108
 - concepts: 239
 - observations: 239
@@ -31,7 +31,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [WebAssembly/wasi-parallel](https://github.com/WebAssembly/wasi-parallel) | 26 | 2025-12-02T17:24:38Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [crate-ci/gh-install](https://github.com/crate-ci/gh-install) | 42 | 2025-12-01T13:22:24Z | Shell | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [rickstaa/action-black](https://github.com/rickstaa/action-black) | 43 | 2025-11-20T18:03:42Z | Shell | Infrastructure/tooling | 12 | 8 | 12 | 12 |
-| [nianticspatial/scr-priors](https://github.com/nianticspatial/scr-priors) | 22 | 2025-11-10T09:41:59Z | Shell | Unknown | 11 | 0 | 11 | 11 |
+| [nianticspatial/scr-priors](https://github.com/nianticspatial/scr-priors) | 22 | 2025-11-10T09:41:59Z | Shell | Unknown | 10 | 0 | 11 | 11 |
 | [danielrosehill/claude-code-linux-desktop-slash-commands](https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands) | 28 | 2025-10-31T22:31:21Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [geekworm-com/xscript](https://github.com/geekworm-com/xscript) | 18 | 2025-10-29T15:16:39Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [MoonshotAI/zsh-kimi-cli](https://github.com/MoonshotAI/zsh-kimi-cli) | 67 | 2025-10-27T17:06:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -49,7 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gchq/gaffer-docker](https://github.com/gchq/gaffer-docker) | 32 | 2025-06-06T09:05:29Z | Shell | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [rocq-community/docker-coq](https://github.com/rocq-community/docker-coq) | 40 | 2025-05-13T16:51:54Z | Shell | Unknown | 4 | 0 | 4 | 4 |
 | [dependabot/example-cli-usage](https://github.com/dependabot/example-cli-usage) | 43 | 2025-05-08T21:50:19Z | Shell | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [skjerns/3dprintedbrain_docker](https://github.com/skjerns/3dprintedbrain_docker) | 31 | 2025-05-06T12:43:23Z | Shell | Infrastructure/tooling | 2 | 0 | 2 | 2 |
+| [skjerns/3dprintedbrain_docker](https://github.com/skjerns/3dprintedbrain_docker) | 31 | 2025-05-06T12:43:23Z | Shell | Infrastructure/tooling | 1 | 0 | 2 | 2 |
 | [FabioAntunes/base16-fish-shell](https://github.com/FabioAntunes/base16-fish-shell) | 33 | 2025-04-08T10:50:20Z | Shell | Infrastructure/tooling | 4 | 2 | 6 | 6 |
 | [haya14busa/action-bumpr](https://github.com/haya14busa/action-bumpr) | 97 | 2025-04-07T11:24:47Z | Shell | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [danielrosehill/OpenWebUI-Postgres-Qdrant](https://github.com/danielrosehill/OpenWebUI-Postgres-Qdrant) | 15 | 2025-03-12T11:07:36Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -171,7 +171,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FabioAntunes/base16-fish-shell](https://github.com/FabioAntunes/base16-fish-shell) | 33 | 2025-04-08T10:50:20Z | Shell | Infrastructure/tooling | 4 | 2 | 6 | 6 |
 | [gchq/gaffer-docker](https://github.com/gchq/gaffer-docker) | 32 | 2025-06-06T09:05:29Z | Shell | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [chemprop/chemprop_benchmark](https://github.com/chemprop/chemprop_benchmark) | 32 | 2024-06-04T13:47:43Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [skjerns/3dprintedbrain_docker](https://github.com/skjerns/3dprintedbrain_docker) | 31 | 2025-05-06T12:43:23Z | Shell | Infrastructure/tooling | 2 | 0 | 2 | 2 |
+| [skjerns/3dprintedbrain_docker](https://github.com/skjerns/3dprintedbrain_docker) | 31 | 2025-05-06T12:43:23Z | Shell | Infrastructure/tooling | 1 | 0 | 2 | 2 |
 | [juanluisbaptiste/apachebench-graphs](https://github.com/juanluisbaptiste/apachebench-graphs) | 31 | 2023-03-03T20:37:54Z | Shell | Unknown | 6 | 0 | 6 | 6 |
 | [2KAbhishek/ghpm](https://github.com/2KAbhishek/ghpm) | 30 | 2024-12-15T05:56:16Z | Shell | Unknown | 3 | 0 | 4 | 4 |
 | [alexaandrov/stitchocker](https://github.com/alexaandrov/stitchocker) | 30 | 2024-03-14T13:50:30Z | Shell | CLI | 15 | 0 | 15 | 15 |
@@ -186,7 +186,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [timothycrosley/cookiecutter-python](https://github.com/timothycrosley/cookiecutter-python) | 24 | 2024-07-05T03:52:56Z | Shell | Template/starter | 0 | 0 | 0 | 0 |
 | [diwakar-s-maurya/helm-git](https://github.com/diwakar-s-maurya/helm-git) | 24 | 2023-10-28T10:31:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [stephenmathieson/git-standup](https://github.com/stephenmathieson/git-standup) | 24 | 2022-03-31T22:07:01Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [nianticspatial/scr-priors](https://github.com/nianticspatial/scr-priors) | 22 | 2025-11-10T09:41:59Z | Shell | Unknown | 11 | 0 | 11 | 11 |
+| [nianticspatial/scr-priors](https://github.com/nianticspatial/scr-priors) | 22 | 2025-11-10T09:41:59Z | Shell | Unknown | 10 | 0 | 11 | 11 |
 | [Kaiede/docker-minecraft-bedrock-backup](https://github.com/Kaiede/docker-minecraft-bedrock-backup) | 20 | 2022-01-18T17:02:12Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [jcupitt/vips-benchmarks](https://github.com/jcupitt/vips-benchmarks) | 19 | 2023-01-18T20:32:38Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [wchen342/android-rebuilds](https://github.com/wchen342/android-rebuilds) | 19 | 2022-02-07T16:48:47Z | Shell | Library | 0 | 0 | 0 | 0 |

@@ -3,7 +3,7 @@
     "components": 84,
     "concepts": 53,
     "observations": 53,
-    "repos": 30,
+    "repos": 31,
     "terms": 53
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
+    "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
     "CADindustries/container",
     "cwfitzgerald/libtest-mimic",

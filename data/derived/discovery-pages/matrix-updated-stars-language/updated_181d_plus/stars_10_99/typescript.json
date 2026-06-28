@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4267,
-    "concepts": 540,
-    "observations": 541,
-    "repos": 190,
-    "terms": 551
+    "components": 4287,
+    "concepts": 541,
+    "observations": 542,
+    "repos": 192,
+    "terms": 552
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -40,6 +40,7 @@
     "archguard/archguard-frontend",
     "artempyanykh/marksman-vscode",
     "arthuro555/THNK",
+    "atom-yang/aumi",
     "awohletz/electron-prisma-template",
     "awohletz/electron-prisma-trpc-example",
     "aws-samples/aws-sdk-js-v3-workshop",
@@ -105,6 +106,7 @@
     "invoke-ai/launcher",
     "iohub/OpenCopilot",
     "ipfs/helia-http-gateway",
+    "isaacs/clock-mock",
     "ItsWendell/emotion-native-extended",
     "jeroen-meijer/pubspec-assist",
     "joenye/coc-cfn-lint",

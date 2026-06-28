@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10828,
-    "concepts": 9685,
-    "observations": 9699,
-    "repos": 2479,
-    "terms": 9545
+    "components": 10834,
+    "concepts": 9704,
+    "observations": 9718,
+    "repos": 2485,
+    "terms": 9563
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -41,6 +41,7 @@
     "abisee/pointer-generator",
     "abo-abo/avy",
     "abo-abo/hydra",
+    "ACh-K/Cubic-11",
     "achannarasappa/ticker",
     "acheong08/EdgeGPT",
     "AckslD/nvim-neoclip.lua",
@@ -431,6 +432,8 @@
     "CITGuru/PyInquirer",
     "CjangCjengh/MoeGoe",
     "cjbassi/gotop",
+    "cjlin1/liblinear",
+    "cjlin1/libsvm",
     "classgraph/classgraph",
     "clauderic/react-infinite-calendar",
     "clauderic/react-tiny-virtual-list",
@@ -980,6 +983,7 @@
     "hengli/camodocal",
     "HengyiWang/spann3r",
     "henry123-boy/SpaTracker",
+    "hermitdave/FrequencyWords",
     "hexgrad/kokoro",
     "hexops-graveyard/dockerfile",
     "hholtmann/smcFanControl",
@@ -1440,6 +1444,7 @@
     "microsoft/ailab",
     "microsoft/BotBuilder-Samples",
     "microsoft/BotFramework-Emulator",
+    "microsoft/botframework-sdk",
     "microsoft/botframework-solutions",
     "microsoft/CodeBERT",
     "microsoft/CodeXGLUE",
@@ -2057,6 +2062,7 @@
     "SkyworkAI/Skywork",
     "slap-editor/slap",
     "smartstore/SmartStoreNET",
+    "SmiteshP/nvim-navic",
     "smooth-code/smooth-ui",
     "snap-research/articulated-animation",
     "snap-research/EfficientFormer",

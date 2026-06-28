@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9924,
-    "concepts": 11807,
-    "observations": 11835,
-    "repos": 2463,
-    "terms": 11714
+    "components": 9958,
+    "concepts": 11836,
+    "observations": 11864,
+    "repos": 2468,
+    "terms": 11739
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -171,6 +171,7 @@
     "antonypro/QGoodWindow",
     "antoonpurnal/clangover",
     "ANTsX/ANTs",
+    "ANTsX/ANTsRCore",
     "AOMediaCodec/libavif",
     "apache/age",
     "apache/arrow",
@@ -511,6 +512,7 @@
     "coin-or/Bonmin",
     "coin-or/Cbc",
     "coin-or/CHiPPS-ALPS",
+    "coin-or/Clp",
     "coin-or/Cmpl",
     "coin-or/CppAD",
     "coin-or/Ipopt",
@@ -1160,6 +1162,7 @@
     "InteractiveComputerGraphics/PositionBasedDynamics",
     "InteractiveComputerGraphics/SPlisHSPlasH",
     "InteractiveComputerGraphics/TriangleMeshDistance",
+    "interpretml/interpret",
     "InWILL/Locale_Remulator",
     "ioquake/ioq3",
     "iOrange/rtxON",
@@ -1466,6 +1469,7 @@
     "llvm/torch-mlir",
     "localai-org/LocalVQE",
     "localai-org/privacy-filter.cpp",
+    "localai-org/rf-detr.cpp",
     "lockblox/multibase",
     "logicalclocks/rondb",
     "lonewolf-jp/convopeq",
@@ -1662,6 +1666,7 @@
     "mongodb/winkerberos",
     "mono/skia",
     "Mooncake-Labs/duckdb_mooncake",
+    "moonshine-ai/moonshine",
     "MooreThreads/MT-flashMLA",
     "moretension/duti",
     "MorganRO8/Lucys_Labyrinth",

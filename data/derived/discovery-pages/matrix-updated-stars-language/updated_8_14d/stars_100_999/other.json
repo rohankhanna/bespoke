@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 58,
-    "observations": 58,
+    "components": 29,
+    "concepts": 57,
+    "observations": 57,
     "repos": 7,
-    "terms": 58
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "Blaizzy/mlx-audio-swift",
-    "dwyl/phoenix-ecto-encryption-example",
     "emacs-eldev/eldev",
+    "fw-ai/cookbook",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "NOAA-EMC/WW3",
     "rescript-lang/reanalyze",

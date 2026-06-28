@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 4
-- terms: 40
-- components: 38
-- concepts: 40
-- observations: 40
+- terms: 47
+- components: 85
+- concepts: 49
+- observations: 49
 
 ## Static behavior
 
@@ -26,16 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11289 | 2026-06-23T22:17:20Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |
-| [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | 12066 | 2026-06-22T17:12:02Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32763 | 2026-06-26T19:29:42Z | Other | Infrastructure/tooling | 19 | 50 | 19 | 19 |
+| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11289 | 2026-06-23T22:17:20Z | Other | Infrastructure/tooling | 5 | 14 | 7 | 7 |
+| [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | 12068 | 2026-06-22T17:12:02Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | 10678 | 2026-06-22T06:35:26Z | Other | Infrastructure/tooling | 16 | 14 | 16 | 16 |
-| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 14008 | 2026-06-21T02:15:14Z | Other | CLI | 10 | 3 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 14008 | 2026-06-21T02:15:14Z | Other | CLI | 10 | 3 | 10 | 10 |
-| [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | 12066 | 2026-06-22T17:12:02Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11289 | 2026-06-23T22:17:20Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |
+| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32763 | 2026-06-26T19:29:42Z | Other | Infrastructure/tooling | 19 | 50 | 19 | 19 |
+| [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | 12068 | 2026-06-22T17:12:02Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11289 | 2026-06-23T22:17:20Z | Other | Infrastructure/tooling | 5 | 14 | 7 | 7 |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | 10678 | 2026-06-22T06:35:26Z | Other | Infrastructure/tooling | 16 | 14 | 16 | 16 |

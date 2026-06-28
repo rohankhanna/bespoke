@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 81,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 19,
-    "terms": 97
+    "concepts": 102,
+    "observations": 102,
+    "repos": 20,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "AMD-AGI/Nitro-1",
     "clearml/clearml-agent",
     "databrickslabs/ucx",
     "google-deepmind/dm_pix",
+    "google-research/semivl",
     "grupo-avispa/depth_anything_v2_ros2",
     "jawah/charset_normalizer",
     "joblib/loky",
@@ -30,8 +31,8 @@
     "salesforce/UniControl",
     "the-database/traiNNer-redux",
     "thu-ml/DiT-Extrapolation",
-    "TinyLLaVA/TinyLLaVA_Factory",
     "vale-cli/packages",
-    "wlfeng0509/Fast-SAM3D"
+    "wlfeng0509/Fast-SAM3D",
+    "xlite-dev/Awesome-DiT-Inference"
   ]
 }

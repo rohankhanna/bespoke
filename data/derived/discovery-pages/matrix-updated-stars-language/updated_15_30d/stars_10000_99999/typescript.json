@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 398,
-    "concepts": 29,
-    "observations": 30,
-    "repos": 3,
-    "terms": 29
+    "components": 351,
+    "concepts": 24,
+    "observations": 25,
+    "repos": 2,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "chatboxai/chatbox",
-    "googleapis/google-api-nodejs-client",
     "Redocly/redoc"
   ]
 }

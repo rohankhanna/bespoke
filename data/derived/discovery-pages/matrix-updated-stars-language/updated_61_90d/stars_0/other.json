@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "acevif/swiftformat-nix",
@@ -20,10 +20,10 @@
     "arnaud-lb/php-rdkafka-doc",
     "ashton/neotest-gleam-unitest",
     "b2agi/exist-is-charter",
-    "b2agi/exist-is-charter_kr",
     "cmake-wheel/cmeel-example",
     "conda-forge/cccl-feedstock",
     "danielrosehill/AI-Ideation-Runs",
+    "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin",
     "danielrosehill/Claude-HP5200-Skill-plugin",
     "danielrosehill/Claude-Local-Web-Capture-Plugin",
     "danielrosehill/Geopol-Forecast-Council",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Rust
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 49
-- components: 146
-- concepts: 41
-- observations: 41
+- repos: 26
+- terms: 56
+- components: 151
+- concepts: 48
+- observations: 48
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [squidowl/iced](https://github.com/squidowl/iced) | 0 | 2026-04-28T21:06:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [hyper-mcp-rs/context7-plugin](https://github.com/hyper-mcp-rs/context7-plugin) | 0 | 2026-04-27T16:00:56Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [hyper-mcp-rs/defuddle-plugin](https://github.com/hyper-mcp-rs/defuddle-plugin) | 0 | 2026-04-27T15:59:10Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [databendlabs/databend-base](https://github.com/databendlabs/databend-base) | 0 | 2026-04-22T08:55:03Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -56,6 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [squidowl/iced](https://github.com/squidowl/iced) | 0 | 2026-04-28T21:06:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [hyper-mcp-rs/context7-plugin](https://github.com/hyper-mcp-rs/context7-plugin) | 0 | 2026-04-27T16:00:56Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [hyper-mcp-rs/defuddle-plugin](https://github.com/hyper-mcp-rs/defuddle-plugin) | 0 | 2026-04-27T15:59:10Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [databendlabs/databend-base](https://github.com/databendlabs/databend-base) | 0 | 2026-04-22T08:55:03Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |

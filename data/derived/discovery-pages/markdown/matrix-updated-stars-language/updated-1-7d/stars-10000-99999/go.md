@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 50
-- components: 59
-- concepts: 50
-- observations: 50
+- repos: 6
+- terms: 56
+- components: 81
+- concepts: 56
+- observations: 56
 
 ## Static behavior
 
@@ -26,18 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14346 | 2026-06-25T20:46:49Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [redis/go-redis](https://github.com/redis/go-redis) | 22165 | 2026-06-25T13:56:36Z | Go | CLI | 12 | 15 | 12 | 12 |
-| [apache/casbin](https://github.com/apache/casbin) | 20203 | 2026-06-23T16:48:13Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
-| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 16087 | 2026-06-22T10:28:25Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [moby/moby](https://github.com/moby/moby) | 71751 | 2026-06-26T15:05:37Z | Go | Infrastructure/tooling | 6 | 22 | 6 | 6 |
+| [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14348 | 2026-06-25T20:46:49Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
+| [redis/go-redis](https://github.com/redis/go-redis) | 22166 | 2026-06-25T13:56:36Z | Go | CLI | 12 | 15 | 12 | 12 |
+| [apache/casbin](https://github.com/apache/casbin) | 20206 | 2026-06-23T16:48:13Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 16093 | 2026-06-22T10:28:25Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [podman-container-tools/podman](https://github.com/podman-container-tools/podman) | 32076 | 2026-06-22T08:44:26Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [moby/moby](https://github.com/moby/moby) | 71751 | 2026-06-26T15:05:37Z | Go | Infrastructure/tooling | 6 | 22 | 6 | 6 |
 | [podman-container-tools/podman](https://github.com/podman-container-tools/podman) | 32076 | 2026-06-22T08:44:26Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
-| [redis/go-redis](https://github.com/redis/go-redis) | 22165 | 2026-06-25T13:56:36Z | Go | CLI | 12 | 15 | 12 | 12 |
-| [apache/casbin](https://github.com/apache/casbin) | 20203 | 2026-06-23T16:48:13Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
-| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 16087 | 2026-06-22T10:28:25Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
-| [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14346 | 2026-06-25T20:46:49Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
+| [redis/go-redis](https://github.com/redis/go-redis) | 22166 | 2026-06-25T13:56:36Z | Go | CLI | 12 | 15 | 12 | 12 |
+| [apache/casbin](https://github.com/apache/casbin) | 20206 | 2026-06-23T16:48:13Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 16093 | 2026-06-22T10:28:25Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14348 | 2026-06-25T20:46:49Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |

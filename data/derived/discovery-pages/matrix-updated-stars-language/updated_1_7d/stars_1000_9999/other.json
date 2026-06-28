@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 167,
-    "observations": 171,
-    "repos": 17,
-    "terms": 167
+    "components": 206,
+    "concepts": 148,
+    "observations": 153,
+    "repos": 19,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "argmaxinc/argmax-oss-swift",
-    "babashka/sci",
+    "babashka/babashka",
     "beam-community/elixir-companies",
-    "clj-kondo/clj-kondo",
-    "dotnet/command-line-api",
+    "dotnet/reactive",
     "dotnet/Silk.NET",
     "elixir-grpc/grpc",
     "firebase/flutterfire",
@@ -27,9 +26,12 @@
     "googleapis/google-auth-library-php",
     "huggingface/swift-transformers",
     "jenkinsci/docker",
+    "kurrent-io/KurrentDB",
+    "licensee/licensed",
     "MakieOrg/Makie.jl",
-    "microsoft/aspire-samples",
     "okd-project/okd",
-    "standardrb/standard"
+    "seancorfield/honeysql",
+    "standardrb/standard",
+    "swiftlang/swift-syntax"
   ]
 }

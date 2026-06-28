@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1248,
-    "concepts": 817,
-    "observations": 819,
-    "repos": 316,
-    "terms": 812
+    "components": 1316,
+    "concepts": 833,
+    "observations": 835,
+    "repos": 324,
+    "terms": 828
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -149,6 +149,10 @@
     "dbubel/intake",
     "Deep-Symmetry/asciidoctor-bytefield",
     "drewlinsley/pathfinder",
+    "dylibso/xtp-cpp-bindgen",
+    "dylibso/xtp-csharp-bindgen",
+    "dylibso/xtp-go-bindgen",
+    "dylibso/xtp-python-bindgen",
     "eddelbuettel/github-actions",
     "elixir-makeup/makeup_erlang",
     "empriselab/kortex_description",
@@ -209,6 +213,7 @@
     "jspreadsheet/spreadsheet-react-server",
     "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaBinaryWrappers/Zlib_jll.jl",
+    "JuliaParallel/NetworkInterfaceControllers.jl",
     "Jumziey/neotest-nix-unit.nvim",
     "justinfx/olric-nats-plugin",
     "KabakaWilliam/trajectorykit",
@@ -232,6 +237,7 @@
     "lumen-oss/luarocks-build-treesitter-parser",
     "lxsmnsyc/sponsors",
     "MarcCote/TextWorld",
+    "maresb/hatch-vcs-footgun-example",
     "marxin/mdbook-linkcheck2",
     "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",
@@ -246,6 +252,7 @@
     "neuroverseos/neuroverseos-openclaw-governance",
     "newton-physics/newton-governance",
     "nikitabobko/homebrew-tap",
+    "nttstar/insightface-resources",
     "nvpro-samples/stb",
     "objectbox/objectbox-swift-generator",
     "objectbox/objectbox-swift-spm",
@@ -275,6 +282,7 @@
     "robbiespeed/metron",
     "RobertBeckebans/DOOM-3",
     "robustmq/robustmq-copilot",
+    "runtimeverification/kup",
     "saalfeldlab/n5-google-cloud",
     "serpro69/claude-in-docker",
     "shadmau/autocouncil",

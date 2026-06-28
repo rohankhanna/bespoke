@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 584,
-    "concepts": 373,
-    "observations": 375,
-    "repos": 89,
-    "terms": 369
+    "components": 625,
+    "concepts": 393,
+    "observations": 396,
+    "repos": 96,
+    "terms": 389
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "AbdelrhmanHamouda/locust-k8s-operator",
@@ -39,6 +39,7 @@
     "celo-org/op-geth",
     "cloudfoundry/bbs",
     "cloudfoundry/bpm-release",
+    "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-smoke-tests",
     "cloudwego/kitex-benchmark",
     "cmdjulian/mopy",
@@ -48,6 +49,7 @@
     "connectrpc/grpchealth-go",
     "containers/container-libs",
     "cosmos/cosmos-db",
+    "cosmos/ibc-apps",
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
     "darkweak/storages",
@@ -55,9 +57,11 @@
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
     "depado/smallblog",
+    "DevExpGbb/gh-devlake",
     "dianlight/gollama.cpp",
     "dlclark/regexp2cg",
     "ebitengine/debugui",
+    "energye/cef",
     "ethpandaops/xatu",
     "featherbread/hypcast",
     "fgrehm/clotilde",
@@ -88,6 +92,8 @@
     "notaryproject/notation-go",
     "opea-project/GenAIInfra",
     "openshift/ci-tools",
+    "openshift/kubernetes",
+    "oracle/karpenter-provider-oci",
     "quicksilver-zone/quicksilver",
     "scaleway/serverless-examples",
     "sigstore/helm-sigstore",
@@ -101,6 +107,7 @@
     "usbarmory/armory-drive",
     "usbarmory/armory-ums",
     "usbarmory/GoTEE-example",
+    "usbarmory/tamago-example",
     "usbarmory/tamago-go",
     "yomidevs/yomitan-import"
   ]

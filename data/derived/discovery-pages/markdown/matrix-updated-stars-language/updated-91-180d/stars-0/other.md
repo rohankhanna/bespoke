@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Other
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
+- repos: 26
 - terms: 33
 - components: 51
 - concepts: 33
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [b2agi/exist-is-charter_kr](https://github.com/b2agi/exist-is-charter_kr) | 0 | 2026-03-29T16:29:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [atsushieno/homebrew-oss](https://github.com/atsushieno/homebrew-oss) | 0 | 2026-03-27T06:19:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [saharmor/saharmor.github.io](https://github.com/saharmor/saharmor.github.io) | 0 | 2026-03-26T22:55:49Z | Other | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -56,6 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [b2agi/exist-is-charter_kr](https://github.com/b2agi/exist-is-charter_kr) | 0 | 2026-03-29T16:29:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [atsushieno/homebrew-oss](https://github.com/atsushieno/homebrew-oss) | 0 | 2026-03-27T06:19:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [saharmor/saharmor.github.io](https://github.com/saharmor/saharmor.github.io) | 0 | 2026-03-26T22:55:49Z | Other | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 30
+- repos: 31
 - terms: 53
 - components: 84
 - concepts: 53
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Context-Projects-Index](https://github.com/danielrosehill/Context-Projects-Index) | 0 | 2026-03-27T17:15:56Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/Backup-Projects-Index](https://github.com/danielrosehill/Backup-Projects-Index) | 0 | 2026-03-27T17:14:49Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/AI-Projects-Index](https://github.com/danielrosehill/AI-Projects-Index) | 0 | 2026-03-27T17:14:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
@@ -61,6 +62,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Context-Projects-Index](https://github.com/danielrosehill/Context-Projects-Index) | 0 | 2026-03-27T17:15:56Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/Backup-Projects-Index](https://github.com/danielrosehill/Backup-Projects-Index) | 0 | 2026-03-27T17:14:49Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/AI-Projects-Index](https://github.com/danielrosehill/AI-Projects-Index) | 0 | 2026-03-27T17:14:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |

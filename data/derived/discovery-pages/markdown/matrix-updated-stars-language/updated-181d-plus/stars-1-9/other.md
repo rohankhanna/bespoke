@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaBinaryWrappers/libblastrampoline_jll.jl](https://github.com/JuliaBinaryWrappers/libblastrampoline_jll.jl) | 2 | 2025-12-26T20:09:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ahrefs/opam-check-npm-deps](https://github.com/ahrefs/opam-check-npm-deps) | 4 | 2025-12-24T03:18:43Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [JuliaAI/LearnDataFrontEnds.jl](https://github.com/JuliaAI/LearnDataFrontEnds.jl) | 1 | 2025-12-20T18:29:50Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [retracedhq/logs-viewer](https://github.com/retracedhq/logs-viewer) | 6 | 2025-12-15T05:03:15Z | Other | Infrastructure/tooling | 0 | 38 | 0 | 0 |
@@ -390,7 +391,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BepInEx/BepInEx.MDML.Loader](https://github.com/BepInEx/BepInEx.MDML.Loader) | 5 | 2021-07-26T11:58:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JolifantoBambla/shadercl](https://github.com/JolifantoBambla/shadercl) | 7 | 2021-07-21T08:29:11Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [neurolabusc/python27-for-lazarus](https://github.com/neurolabusc/Python27-for-Lazarus) | 2 | 2021-07-17T12:45:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [kristijanhusak/completion-tags](https://github.com/kristijanhusak/completion-tags) | 6 | 2021-06-28T17:15:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -531,7 +531,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Alexander-N/tla-specs](https://github.com/Alexander-N/tla-specs) | 6 | 2021-11-07T11:59:27Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [lyceum/lyceummujoco.jl](https://github.com/Lyceum/LyceumMuJoCo.jl) | 6 | 2021-09-23T21:33:39Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [lyceum/lyceumbase.jl](https://github.com/Lyceum/LyceumBase.jl) | 6 | 2021-09-16T22:39:32Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [kristijanhusak/completion-tags](https://github.com/kristijanhusak/completion-tags) | 6 | 2021-06-28T17:15:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hden/cuid2](https://github.com/hden/cuid2) | 5 | 2025-12-13T04:45:56Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [infiniflow/resource](https://github.com/infiniflow/resource) | 5 | 2025-11-26T09:33:56Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [anotherlusitano/SpectrumPlus](https://github.com/anotherlusitano/SpectrumPlus) | 5 | 2025-11-20T00:30:28Z | Other | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -660,6 +659,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aidenlab/pyStraw](https://github.com/aidenlab/pyStraw) | 3 | 2022-02-04T18:06:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [lyceum/lyceummujocoviz.jl](https://github.com/Lyceum/LyceumMuJoCoViz.jl) | 3 | 2021-09-25T04:29:45Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [buraksezer/olric-kubernetes](https://github.com/buraksezer/olric-kubernetes) | 3 | 2021-08-17T21:00:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/libblastrampoline_jll.jl](https://github.com/JuliaBinaryWrappers/libblastrampoline_jll.jl) | 2 | 2025-12-26T20:09:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [mirage/coin](https://github.com/mirage/coin) | 2 | 2025-11-29T10:18:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [nelson-lang/module_skeleton](https://github.com/nelson-lang/module_skeleton) | 2 | 2025-11-22T19:01:18Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [evoskuil/visual-studio-template](https://github.com/evoskuil/visual-studio-template) | 2 | 2025-11-13T01:43:40Z | Other | Library | 0 | 0 | 0 | 0 |

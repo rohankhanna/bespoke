@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1794,
-    "concepts": 1280,
-    "observations": 1289,
-    "repos": 187,
-    "terms": 1290
+    "components": 1860,
+    "concepts": 1351,
+    "observations": 1360,
+    "repos": 194,
+    "terms": 1361
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "01mf02/jaq",
+    "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
     "64bit/async-openai",
     "abraxas-365/langchain-rust",
@@ -31,6 +32,7 @@
     "arxanas/git-branchless",
     "asny/three-d",
     "asomers/mockall",
+    "aws-cloudformation/cloudformation-guard",
     "aws/amazon-q-developer-cli",
     "axodotdev/cargo-dist",
     "bheisler/criterion.rs",
@@ -83,6 +85,7 @@
     "GuillaumeGomez/sysinfo",
     "hashintel/hash",
     "hickory-dns/hickory-dns",
+    "hoodie/notify-rust",
     "hrkfdn/ncspot",
     "hyperium/h2",
     "hyperium/http",
@@ -118,6 +121,7 @@
     "model-checking/kani",
     "modelcontextprotocol/rust-sdk",
     "Mooncake-Labs/pg_mooncake",
+    "mozilla/cbindgen",
     "mozilla/grcov",
     "mozilla/sccache",
     "mstange/samply",
@@ -142,8 +146,10 @@
     "pkgxdev/pkgx",
     "plotters-rs/plotters",
     "pop-os/cosmic-text",
+    "prisma/prisma-engines",
     "proptest-rs/proptest",
     "pulldown-cmark/pulldown-cmark",
+    "pykeio/ort",
     "PyO3/maturin",
     "ratatui/mousefood",
     "release-plz/release-plz",
@@ -200,6 +206,7 @@
     "vadimcn/codelldb",
     "vladkens/macmon",
     "vulkano-rs/vulkano",
+    "wasm-bindgen/wasm-pack",
     "WebAssembly/WASI"
   ]
 }

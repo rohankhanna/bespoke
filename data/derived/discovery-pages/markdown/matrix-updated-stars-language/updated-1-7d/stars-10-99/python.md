@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 37
-- components: 58
-- concepts: 37
-- observations: 37
+- repos: 10
+- terms: 36
+- components: 107
+- concepts: 36
+- observations: 36
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ansys/pydpf-post](https://github.com/ansys/pydpf-post) | 57 | 2026-06-26T21:04:44Z | Python | Infrastructure/tooling | 2 | 22 | 2 | 2 |
+| [ansys/pydpf-core](https://github.com/ansys/pydpf-core) | 90 | 2026-06-26T13:00:40Z | Python | Infrastructure/tooling | 3 | 27 | 3 | 3 |
 | [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 90 | 2026-06-26T03:09:43Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [pyvista/awesome-pyvista](https://github.com/pyvista/awesome-pyvista) | 20 | 2026-06-25T22:26:39Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cvxpy/benchmarks](https://github.com/cvxpy/benchmarks) | 13 | 2026-06-25T18:30:28Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -34,17 +36,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prospector-dev/requirements-detector](https://github.com/prospector-dev/requirements-detector) | 48 | 2026-06-22T17:21:48Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [mozilla-ai/any-guardrail](https://github.com/mozilla-ai/any-guardrail) | 95 | 2026-06-22T08:06:39Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-06-21T20:46:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [lhj5426/X-AnyLabeling](https://github.com/lhj5426/X-AnyLabeling) | 25 | 2026-06-20T22:04:53Z | Python | Unknown | 6 | 0 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [mozilla-ai/any-guardrail](https://github.com/mozilla-ai/any-guardrail) | 95 | 2026-06-22T08:06:39Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
+| [ansys/pydpf-core](https://github.com/ansys/pydpf-core) | 90 | 2026-06-26T13:00:40Z | Python | Infrastructure/tooling | 3 | 27 | 3 | 3 |
 | [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 90 | 2026-06-26T03:09:43Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [ansys/pymapdl-reader](https://github.com/ansys/pymapdl-reader) | 58 | 2026-06-22T20:50:19Z | Python | Infrastructure/tooling | 0 | 15 | 0 | 0 |
+| [ansys/pydpf-post](https://github.com/ansys/pydpf-post) | 57 | 2026-06-26T21:04:44Z | Python | Infrastructure/tooling | 2 | 22 | 2 | 2 |
 | [prospector-dev/requirements-detector](https://github.com/prospector-dev/requirements-detector) | 48 | 2026-06-22T17:21:48Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [lhj5426/X-AnyLabeling](https://github.com/lhj5426/X-AnyLabeling) | 25 | 2026-06-20T22:04:53Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [pyvista/awesome-pyvista](https://github.com/pyvista/awesome-pyvista) | 20 | 2026-06-25T22:26:39Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-06-21T20:46:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [cvxpy/benchmarks](https://github.com/cvxpy/benchmarks) | 13 | 2026-06-25T18:30:28Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2446,
-    "concepts": 3255,
-    "observations": 3262,
-    "repos": 1017,
-    "terms": 3236
+    "components": 2441,
+    "concepts": 3264,
+    "observations": 3271,
+    "repos": 1019,
+    "terms": 3244
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -22,6 +22,7 @@
     "47degrees/github4s",
     "5ec1cff/KsuWebUIStandalone",
     "7368697661/Origami",
+    "AaltoVision/DGC-Net",
     "AaronC81/sord",
     "aarowill/base16-alacritty",
     "abingham/emacs-ycmd",
@@ -316,7 +317,6 @@
     "dunglas/frankenphp-demo",
     "dvschultz/stylegan2-ada",
     "dvschultz/stylegan2-ada-pytorch",
-    "dwyl/app",
     "dwyl/flutter-bloc-tutorial",
     "dwyl/flutter-todo-list-tutorial",
     "dwyl/learn-elm",
@@ -953,6 +953,7 @@
     "tpope/vim-dotenv",
     "trapd00r/vidir",
     "travis-ci/packer-templates",
+    "travis-ci/travis-build",
     "travis-ci/travis-cookbooks",
     "trullock/NUglify",
     "tsakirist/telescope-lazy.nvim",
@@ -1010,6 +1011,7 @@
     "wjdp/htmltest",
     "wl-zhao/UniPC",
     "wl-zhao/VPD",
+    "XiSHEN0220/RANSAC-Flow",
     "xolox/vim-session",
     "xserrat/docker-facebook-demucs",
     "xuorig/graphql-schema_comparator",

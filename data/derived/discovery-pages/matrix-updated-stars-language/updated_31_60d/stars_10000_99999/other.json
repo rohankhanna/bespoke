@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 918,
-    "concepts": 698,
-    "observations": 700,
-    "repos": 63,
-    "terms": 692
+    "components": 893,
+    "concepts": 666,
+    "observations": 668,
+    "repos": 59,
+    "terms": 663
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -34,7 +34,6 @@
     "exelban/stats",
     "getgrav/grav",
     "getlantern/lantern",
-    "golang-standards/project-layout",
     "google/material-design-lite",
     "gradle/gradle",
     "hadolint/hadolint",
@@ -49,7 +48,6 @@
     "Kotlin/kotlinx.coroutines",
     "kubernetes-sigs/kubespray",
     "logseq/logseq",
-    "MagicStack/uvloop",
     "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
     "mdn/content",
     "meta-llama/llama-cookbook",
@@ -63,14 +61,12 @@
     "OAI/OpenAPI-Specification",
     "phoenixframework/phoenix",
     "phpstan/phpstan",
-    "PowerShell/PowerShell",
     "rapid7/metasploit-framework",
     "rubocop/rubocop",
     "ruby/ruby",
     "sebastianbergmann/phpunit",
     "shadowsocks/shadowsocks-android",
     "Shopify/liquid",
-    "square/moshi",
     "SubtitleEdit/subtitleedit",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",

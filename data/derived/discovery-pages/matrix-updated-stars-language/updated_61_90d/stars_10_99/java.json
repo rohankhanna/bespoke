@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 160,
-    "observations": 161,
-    "repos": 37,
-    "terms": 157
+    "components": 195,
+    "concepts": 176,
+    "observations": 178,
+    "repos": 41,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
@@ -32,10 +32,12 @@
     "codetyio/codety-scanner",
     "dart4e/dart4e",
     "eclipse-shellwax/shellwax",
+    "edward3h/minecraft-webhook",
     "filip26/ld-cli",
     "glaforge/adk-java-maven-template",
     "google/guava-beta-checker",
     "googleapis/discovery-artifact-manager",
+    "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
     "GoogleCloudPlatform/opentelemetry-operations-java",
     "hivemq/helm-charts",
@@ -46,8 +48,10 @@
     "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",
     "mukel/gemma4.java",
+    "opensim-org/opensim-gui",
     "simonpoole/OpeningHoursFragment",
     "smithy-lang/smithy-dafny",
+    "spiffe/java-spiffe",
     "xmlark/msv",
     "yawkat/lz4-java",
     "zai-org/z-ai-sdk-java"

@@ -3,7 +3,7 @@
     "components": 82,
     "concepts": 46,
     "observations": 46,
-    "repos": 48,
+    "repos": 49,
     "terms": 46
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -51,6 +51,7 @@
     "langchain-ai/.github",
     "lionel-/biome",
     "newton-physics/newton-governance",
+    "nttstar/insightface-resources",
     "orlp/color-backtrace",
     "piebald-ai/.github",
     "psmux/scoop-tmuxpanel",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 46
-- terms: 201
-- components: 135
-- concepts: 202
-- observations: 202
+- repos: 47
+- terms: 202
+- components: 138
+- concepts: 203
+- observations: 203
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cjlin1/libsvm](https://github.com/cjlin1/libsvm) | 4704 | 2025-12-29T11:23:20Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [zeromq/jeromq](https://github.com/zeromq/jeromq) | 2445 | 2025-11-30T13:59:58Z | Java | Library | 10 | 0 | 10 | 10 |
 | [PlexPt/chatgpt-java](https://github.com/PlexPt/chatgpt-java) | 3611 | 2025-11-29T16:41:52Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [lz4/lz4-java](https://github.com/lz4/lz4-java) | 1176 | 2025-11-28T19:23:16Z | Java | Unknown | 7 | 0 | 7 | 7 |
@@ -89,6 +90,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cglib/cglib](https://github.com/cglib/cglib) | 4896 | 2024-08-16T10:22:51Z | Java | Framework | 0 | 0 | 0 | 0 |
 | [reactive-streams/reactive-streams-jvm](https://github.com/reactive-streams/reactive-streams-jvm) | 4874 | 2024-03-13T03:40:25Z | Java | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ronmamo/reflections](https://github.com/ronmamo/reflections) | 4773 | 2024-06-17T21:43:09Z | Java | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [cjlin1/libsvm](https://github.com/cjlin1/libsvm) | 4704 | 2025-12-29T11:23:20Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [apache/rocketmq-externals](https://github.com/apache/rocketmq-externals) | 4614 | 2024-12-09T09:00:27Z | Java | Unknown | 1 | 0 | 1 | 1 |
 | [Freeyourgadget/Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) | 4514 | 2024-12-23T17:24:07Z | Java | Unknown | 8 | 0 | 8 | 8 |
 | [pytorch/serve](https://github.com/pytorch/serve) | 4360 | 2025-08-06T19:17:08Z | Java | Infrastructure/tooling | 17 | 11 | 17 | 17 |

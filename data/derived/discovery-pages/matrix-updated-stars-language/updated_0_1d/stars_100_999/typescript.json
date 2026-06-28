@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 5,
-    "terms": 43
+    "components": 95,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 4,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js",
     "hexabot-ai/Hexabot",
     "matter-js/matter.js",
     "mightyiam/eslint-config-love",

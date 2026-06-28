@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 119,
-    "observations": 120,
-    "repos": 26,
-    "terms": 119
+    "components": 118,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 20,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "ankitpokhrel/shopctl",
     "apache/casbin-govaluate",
     "bitrise-io/stepman",
     "cloudfoundry/bosh-backup-and-restore",
-    "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
-    "cosmos/ibc-apps",
-    "DevExpGbb/gh-devlake",
-    "energye/cef",
     "energye/lcl",
     "energye/wv",
     "EngFlow/gazelle_cc",
@@ -30,15 +26,13 @@
     "golangci/misspell",
     "gookit/ini",
     "gookit/rux",
+    "joshsymonds/cc-tools",
     "Kong/kong-operator",
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "mudler/skillserver",
-    "openshift/kubernetes",
-    "oracle/karpenter-provider-oci",
     "philips-labs/dct-notary-admin",
     "philips-labs/tabia",
     "tendermint/tm-db",
-    "usbarmory/tamago-example",
     "usbarmory/tamago-sev-example"
   ]
 }

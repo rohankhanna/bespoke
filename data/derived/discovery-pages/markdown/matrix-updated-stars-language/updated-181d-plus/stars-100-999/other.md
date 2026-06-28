@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1017
-- terms: 3236
-- components: 2446
-- concepts: 3255
-- observations: 3262
+- repos: 1019
+- terms: 3244
+- components: 2441
+- concepts: 3264
+- observations: 3271
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [travis-ci/travis-build](https://github.com/travis-ci/travis-build) | 657 | 2025-12-29T12:48:58Z | Other | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [PaulRBerg/foundry-template](https://github.com/PaulRBerg/foundry-template) | 638 | 2025-12-29T09:48:46Z | Other | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [SciML/SciMLTutorials.jl](https://github.com/SciML/SciMLTutorials.jl) | 739 | 2025-12-29T04:05:14Z | Other | Infrastructure/tooling | 12 | 1 | 12 | 12 |
 | [ymoslem/OpenNMT-Tutorial](https://github.com/ymoslem/OpenNMT-Tutorial) | 176 | 2025-12-28T19:34:07Z | Other | Model/data | 2 | 0 | 2 | 2 |
@@ -575,6 +576,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ilovepose/DarkPose](https://github.com/ilovepose/DarkPose) | 566 | 2024-05-17T18:07:47Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [leafo/magick](https://github.com/leafo/magick) | 426 | 2024-05-17T12:00:10Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [rails/coffee-rails](https://github.com/rails/coffee-rails) | 233 | 2024-05-14T13:28:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [XiSHEN0220/RANSAC-Flow](https://github.com/XiSHEN0220/RANSAC-Flow) | 451 | 2024-05-14T03:47:43Z | Other | Infrastructure/tooling | 4 | 0 | 5 | 5 |
 | [pymc-devs/sunode](https://github.com/pymc-devs/sunode) | 120 | 2024-05-13T19:51:41Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [JuliaInterop/Cxx.jl](https://github.com/JuliaInterop/Cxx.jl) | 764 | 2024-05-12T16:13:37Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [rxi/lite-plugins](https://github.com/rxi/lite-plugins) | 381 | 2024-05-11T12:55:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -653,7 +655,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bastibe/transplant](https://github.com/bastibe/transplant) | 112 | 2024-01-05T08:02:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [msharp/elixir-statistics](https://github.com/msharp/elixir-statistics) | 141 | 2024-01-05T04:29:29Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [emacsattic/helm-swoop](https://github.com/emacsattic/helm-swoop) | 699 | 2024-01-04T23:56:46Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [dwyl/app](https://github.com/dwyl/app) | 152 | 2024-01-03T18:52:18Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [jiangyuxiaoxiao/Bert-VITS2-UI](https://github.com/jiangyuxiaoxiao/Bert-VITS2-UI) | 305 | 2024-01-01T09:06:39Z | Other | Unknown | 0 | 11 | 0 | 0 |
 | [Zzh-tju/DIoU](https://github.com/Zzh-tju/DIoU) | 321 | 2023-12-31T07:52:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Zzh-tju/DIoU-darknet](https://github.com/Zzh-tju/DIoU-darknet) | 311 | 2023-12-31T07:51:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -817,7 +818,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SwiftGen/StencilSwiftKit](https://github.com/SwiftGen/StencilSwiftKit) | 304 | 2023-03-17T06:01:28Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [iflytek/HFL-Anthology](https://github.com/iflytek/HFL-Anthology) | 378 | 2023-03-09T06:19:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [refcell/femplate](https://github.com/refcell/femplate) | 384 | 2023-03-09T02:47:37Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [Watfaq/PowerSession](https://github.com/Watfaq/PowerSession) | 162 | 2023-03-08T09:04:02Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [Watfaq/PowerSession](https://github.com/Watfaq/PowerSession) | 163 | 2023-03-08T09:04:02Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [Rishit-dagli/MIRNet-TFJS](https://github.com/Rishit-dagli/MIRNet-TFJS) | 356 | 2023-03-05T20:26:39Z | Other | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [JTAmos/Temporal.jl](https://github.com/JTAmos/Temporal.jl) | 100 | 2023-03-03T01:11:31Z | Other | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [unsplash/comment-on-pr](https://github.com/unsplash/comment-on-pr) | 152 | 2023-02-27T15:14:24Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -1011,6 +1012,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [brianc/jade-mode](https://github.com/brianc/jade-mode) | 158 | 2021-10-19T21:13:24Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [djanderson/aho](https://github.com/djanderson/aho) | 819 | 2021-10-14T05:06:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [HRNet/HRNet-Human-Pose-Estimation](https://github.com/HRNet/HRNet-Human-Pose-Estimation) | 313 | 2021-10-12T22:58:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [AaltoVision/DGC-Net](https://github.com/AaltoVision/DGC-Net) | 206 | 2021-10-12T22:55:47Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [nvim-lua/completion-nvim](https://github.com/nvim-lua/completion-nvim) | 963 | 2021-10-12T19:59:47Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [cszn/SRMD](https://github.com/cszn/SRMD) | 433 | 2021-10-09T22:05:35Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [cszn/FFDNet](https://github.com/cszn/FFDNet) | 554 | 2021-10-09T22:05:04Z | Other | Unknown | 4 | 0 | 4 | 4 |
@@ -1221,6 +1223,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [raoyongming/DynamicViT](https://github.com/raoyongming/DynamicViT) | 659 | 2023-07-11T03:03:13Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [bow-swift/bow](https://github.com/bow-swift/bow) | 659 | 2022-10-09T21:51:49Z | Other | Infrastructure/tooling | 18 | 5 | 18 | 18 |
 | [cvg/GlueStick](https://github.com/cvg/GlueStick) | 658 | 2025-04-07T12:20:12Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [travis-ci/travis-build](https://github.com/travis-ci/travis-build) | 657 | 2025-12-29T12:48:58Z | Other | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) | 657 | 2022-08-31T15:25:20Z | Other | CLI | 6 | 0 | 6 | 6 |
 | [jaredly/reason-language-server](https://github.com/jaredly/reason-language-server) | 654 | 2023-05-14T13:50:16Z | Other | Infrastructure/tooling | 1 | 19 | 1 | 1 |
 | [tmhedberg/SimpylFold](https://github.com/tmhedberg/SimpylFold) | 653 | 2022-05-02T17:18:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1388,6 +1391,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Clemapfel/Mousetrap.jl](https://github.com/Clemapfel/Mousetrap.jl) | 457 | 2024-02-28T14:54:55Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [bshall/soft-vc](https://github.com/bshall/soft-vc) | 456 | 2024-03-14T11:24:46Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [tc39/proposal-module-expressions](https://github.com/tc39/proposal-module-expressions) | 454 | 2022-12-19T11:10:38Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [XiSHEN0220/RANSAC-Flow](https://github.com/XiSHEN0220/RANSAC-Flow) | 451 | 2024-05-14T03:47:43Z | Other | Infrastructure/tooling | 4 | 0 | 5 | 5 |
 | [JuliaPlots/StatsPlots.jl](https://github.com/JuliaPlots/StatsPlots.jl) | 450 | 2025-11-24T06:04:34Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [google/music-synthesizer-for-android](https://github.com/google/music-synthesizer-for-android) | 450 | 2021-11-23T01:38:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Shopify/better-html](https://github.com/Shopify/better-html) | 449 | 2025-09-18T18:09:07Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -1745,6 +1749,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ccocchi/rabl-rails](https://github.com/ccocchi/rabl-rails) | 207 | 2023-05-20T14:27:45Z | Other | Unknown | 3 | 0 | 4 | 4 |
 | [JuliaArrays/AxisArrays.jl](https://github.com/JuliaArrays/AxisArrays.jl) | 206 | 2025-09-10T12:21:16Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [wilkerlucio/spec-coerce](https://github.com/wilkerlucio/spec-coerce) | 206 | 2022-01-09T13:40:08Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [AaltoVision/DGC-Net](https://github.com/AaltoVision/DGC-Net) | 206 | 2021-10-12T22:55:47Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [LucHermitte/lh-vim-lib](https://github.com/LucHermitte/lh-vim-lib) | 205 | 2025-09-10T20:38:56Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [jhclark/multeval](https://github.com/jhclark/multeval) | 205 | 2023-02-25T15:03:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [CarlVerret/csFastFloat](https://github.com/CarlVerret/csFastFloat) | 204 | 2024-12-30T15:35:22Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -1835,12 +1840,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [StatisticalRethinkingJulia/TuringModels.jl](https://github.com/StatisticalRethinkingJulia/TuringModels.jl) | 164 | 2025-12-06T04:18:46Z | Other | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [marilari88/neotest-vitest](https://github.com/marilari88/neotest-vitest) | 163 | 2025-12-22T23:28:26Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [rgbkrk/chatlab](https://github.com/rgbkrk/chatlab) | 163 | 2024-09-25T15:27:10Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [Watfaq/PowerSession](https://github.com/Watfaq/PowerSession) | 163 | 2023-03-08T09:04:02Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [sanel/monroe](https://github.com/sanel/monroe) | 163 | 2022-12-21T22:09:23Z | Other | CLI | 5 | 0 | 5 | 5 |
 | [aleju/imgaug-doc](https://github.com/aleju/imgaug-doc) | 163 | 2022-12-02T19:42:17Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [net2cn/Real-ESRGAN_GUI](https://github.com/net2cn/Real-ESRGAN_GUI) | 163 | 2022-06-19T08:32:20Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [ericjang/svd3](https://github.com/ericjang/svd3) | 163 | 2021-11-06T10:08:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rspatial/raster](https://github.com/rspatial/raster) | 162 | 2025-03-28T04:21:19Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [Watfaq/PowerSession](https://github.com/Watfaq/PowerSession) | 162 | 2023-03-08T09:04:02Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [JuliaDocs/LiveServer.jl](https://github.com/JuliaDocs/LiveServer.jl) | 161 | 2025-12-01T11:04:33Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [KichangKim/DanbooruDownloader](https://github.com/KichangKim/DanbooruDownloader) | 161 | 2023-06-21T23:32:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [logankilpatrick/gemini-api-quickstart](https://github.com/logankilpatrick/gemini-api-quickstart) | 160 | 2025-05-20T00:35:42Z | Other | Service/API | 3 | 0 | 3 | 3 |
@@ -1877,7 +1882,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ashvardanian/SwiftSemanticSearch](https://github.com/ashvardanian/SwiftSemanticSearch) | 152 | 2024-12-20T13:32:05Z | Other | Library | 12 | 0 | 12 | 12 |
 | [MY1L/Unicode](https://github.com/MY1L/Unicode) | 152 | 2024-04-02T23:41:44Z | Other | Unknown | 13 | 0 | 13 | 13 |
 | [JuliaData/TypedTables.jl](https://github.com/JuliaData/TypedTables.jl) | 152 | 2024-02-01T11:54:05Z | Other | Infrastructure/tooling | 1 | 8 | 1 | 1 |
-| [dwyl/app](https://github.com/dwyl/app) | 152 | 2024-01-03T18:52:18Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [unsplash/comment-on-pr](https://github.com/unsplash/comment-on-pr) | 152 | 2023-02-27T15:14:24Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [guzzle/guzzle3](https://github.com/guzzle/guzzle3) | 152 | 2021-12-03T02:03:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [larsiusprime/firetongue](https://github.com/larsiusprime/firetongue) | 151 | 2024-01-11T20:58:15Z | Other | Framework | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 4,
-    "terms": 61
+    "components": 6,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 1,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
-    "ggml-org/ggml",
-    "ggml-org/whisper.cpp",
-    "google-ai-edge/mediapipe",
-    "isl-org/Open3D"
+    "mozilla-ai/llamafile"
   ]
 }

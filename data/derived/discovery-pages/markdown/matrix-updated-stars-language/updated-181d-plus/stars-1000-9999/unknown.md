@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 112
-- terms: 271
+- repos: 113
+- terms: 274
 - components: 30
-- concepts: 275
-- observations: 275
+- concepts: 278
+- observations: 278
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ACh-K/Cubic-11](https://github.com/ACh-K/Cubic-11) | 1641 | 2025-12-30T04:50:09Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [datawhalechina/so-large-lm](https://github.com/datawhalechina/so-large-lm) | 7206 | 2025-12-18T12:45:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [rose-pine/rose-pine-theme](https://github.com/rose-pine/rose-pine-theme) | 1559 | 2025-11-10T17:35:31Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [Purfview/whisper-standalone-win](https://github.com/Purfview/whisper-standalone-win) | 3035 | 2025-11-07T19:21:55Z | Unknown | Unknown | 12 | 0 | 12 | 12 |
@@ -109,7 +110,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [623637646/996.Leave](https://github.com/623637646/996.Leave) | 6632 | 2024-01-15T12:53:02Z | Unknown | Unknown | 1 | 0 | 3 | 3 |
 | [carlosperate/awesome-pyproject](https://github.com/carlosperate/awesome-pyproject) | 1005 | 2023-12-28T17:05:38Z | Unknown | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [ali-vilab/composer](https://github.com/ali-vilab/composer) | 1558 | 2023-12-26T02:54:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [taichi-dev/difftaichi](https://github.com/taichi-dev/difftaichi) | 2730 | 2023-11-01T09:01:54Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [taichi-dev/difftaichi](https://github.com/taichi-dev/difftaichi) | 2731 | 2023-11-01T09:01:54Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [NVIDIA/nvidia-container-runtime](https://github.com/NVIDIA/nvidia-container-runtime) | 1123 | 2023-10-27T13:58:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [AUTOMATIC1111/stable-diffusion-webui-feature-showcase](https://github.com/AUTOMATIC1111/stable-diffusion-webui-feature-showcase) | 1026 | 2023-10-17T15:25:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [apiaryio/api-blueprint](https://github.com/apiaryio/api-blueprint) | 8654 | 2023-08-19T19:11:28Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
@@ -192,7 +193,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Purfview/whisper-standalone-win](https://github.com/Purfview/whisper-standalone-win) | 3035 | 2025-11-07T19:21:55Z | Unknown | Unknown | 12 | 0 | 12 | 12 |
 | [tc39/proposal-decorators](https://github.com/tc39/proposal-decorators) | 2945 | 2024-09-05T13:52:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [edn-format/edn](https://github.com/edn-format/edn) | 2753 | 2022-01-15T06:14:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [taichi-dev/difftaichi](https://github.com/taichi-dev/difftaichi) | 2730 | 2023-11-01T09:01:54Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [taichi-dev/difftaichi](https://github.com/taichi-dev/difftaichi) | 2731 | 2023-11-01T09:01:54Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [phracker/MacOSX-SDKs](https://github.com/phracker/MacOSX-SDKs) | 2665 | 2022-11-11T04:07:29Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [sindresorhus/guides](https://github.com/sindresorhus/guides) | 2521 | 2024-10-20T10:13:43Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [microsoft/nodejs-guidelines](https://github.com/microsoft/nodejs-guidelines) | 2502 | 2023-02-12T09:16:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -219,6 +220,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [shenweichen/AlgoNotes](https://github.com/shenweichen/AlgoNotes) | 1815 | 2022-12-24T12:35:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [openai/openai-quickstart-python](https://github.com/openai/openai-quickstart-python) | 1799 | 2024-06-14T11:24:57Z | Unknown | Service/API | 1 | 0 | 1 | 1 |
 | [unitycontainer/unity](https://github.com/unitycontainer/unity) | 1703 | 2024-01-21T22:10:51Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [ACh-K/Cubic-11](https://github.com/ACh-K/Cubic-11) | 1641 | 2025-12-30T04:50:09Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [callbag/callbag](https://github.com/callbag/callbag) | 1577 | 2023-02-27T19:29:12Z | Unknown | Unknown | 0 | 2 | 0 | 0 |
 | [rose-pine/rose-pine-theme](https://github.com/rose-pine/rose-pine-theme) | 1559 | 2025-11-10T17:35:31Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [ali-vilab/composer](https://github.com/ali-vilab/composer) | 1558 | 2023-12-26T02:54:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

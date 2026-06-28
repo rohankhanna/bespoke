@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 4303,
-    "concepts": 884,
-    "observations": 885,
-    "repos": 247,
-    "terms": 878
+    "concepts": 892,
+    "observations": 893,
+    "repos": 248,
+    "terms": 886
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -168,6 +168,7 @@
     "mfncooper/mockery",
     "micromark/micromark",
     "micromatch/micromatch",
+    "microsoft/botframework-sdk",
     "microsoft/pai",
     "MikeMcl/big.js",
     "MikeMcl/decimal.js",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 134,
-    "concepts": 117,
-    "observations": 118,
-    "repos": 11,
-    "terms": 117
+    "components": 101,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 9,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
-    "collabora/WhisperLive",
     "fla-org/flash-linear-attention",
     "harbor-framework/harbor",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
-    "ogx-ai/ogx",
-    "opencv/opencv-python",
     "PrimeIntellect-ai/verifiers",
     "redis/redis-om-python",
-    "rllm-org/rllm"
+    "rllm-org/rllm",
+    "roboflow/rf-detr"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1632,
-    "concepts": 298,
-    "observations": 298,
-    "repos": 35,
-    "terms": 291
+    "components": 1363,
+    "concepts": 252,
+    "observations": 252,
+    "repos": 29,
+    "terms": 245
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -32,18 +32,12 @@
     "http-party/node-http-proxy",
     "jsdoc/jsdoc",
     "jsdom/jsdom",
-    "krisk/Fuse",
     "lint-staged/lint-staged",
     "lutzroeder/netron",
-    "MagicMirrorOrg/MagicMirror",
     "mdx-js/mdx",
     "mochajs/mocha",
-    "moment/luxon",
     "mozilla/pdf.js",
-    "novnc/noVNC",
-    "nwjs/nw.js",
     "plotly/plotly.js",
-    "SillyTavern/SillyTavern",
     "stylelint/stylelint",
     "sveltejs/kit",
     "sveltejs/svelte",

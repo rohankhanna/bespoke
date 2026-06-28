@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 225,
-    "concepts": 211,
-    "observations": 211,
-    "repos": 14,
-    "terms": 211
+    "components": 283,
+    "concepts": 273,
+    "observations": 274,
+    "repos": 19,
+    "terms": 272
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,26 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "datalab-to/marker",
     "fossasia/visdom",
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
+    "huggingface/sentence-transformers",
     "Lightning-AI/litgpt",
+    "marimo-team/marimo",
     "modelscope/FunASR",
     "modelscope/ms-swift",
+    "nltk/nltk",
     "NVIDIA-NeMo/NeMo",
     "psf/black",
     "pydantic/pydantic",
     "qubvel-org/segmentation_models.pytorch",
+    "run-llama/llama_index",
     "tinygrad/tinygrad",
-    "vega/altair"
+    "vega/altair",
+    "zhayujie/CowAgent"
   ]
 }

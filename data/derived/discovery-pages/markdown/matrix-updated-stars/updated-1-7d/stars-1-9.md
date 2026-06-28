@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1 to 9 stars
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 12
+- repos: 11
 - terms: 46
 - components: 82
 - concepts: 46
@@ -36,7 +36,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Jaded-Encoding-Thaumaturgy/vs-wheels](https://github.com/Jaded-Encoding-Thaumaturgy/vs-wheels) | 1 | 2026-06-22T00:52:05Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [mudler/ced.cpp](https://github.com/mudler/ced.cpp) | 2 | 2026-06-21T20:31:30Z | C/C++ | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [paperclipinc/karpenter-provider-hetzner](https://github.com/paperclipinc/karpenter-provider-hetzner) | 1 | 2026-06-21T08:20:00Z | Go | Infrastructure/tooling | 11 | 9 | 11 | 11 |
-| [edward3h/docker-bds-integration-test](https://github.com/edward3h/docker-bds-integration-test) | 1 | 2026-06-20T15:45:13Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -53,4 +52,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kurrent-io/KurrentDB-Bridge-Client](https://github.com/kurrent-io/KurrentDB-Bridge-Client) | 1 | 2026-06-22T11:48:49Z | Rust | CLI | 7 | 9 | 7 | 7 |
 | [Jaded-Encoding-Thaumaturgy/vs-wheels](https://github.com/Jaded-Encoding-Thaumaturgy/vs-wheels) | 1 | 2026-06-22T00:52:05Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [paperclipinc/karpenter-provider-hetzner](https://github.com/paperclipinc/karpenter-provider-hetzner) | 1 | 2026-06-21T08:20:00Z | Go | Infrastructure/tooling | 11 | 9 | 11 | 11 |
-| [edward3h/docker-bds-integration-test](https://github.com/edward3h/docker-bds-integration-test) | 1 | 2026-06-20T15:45:13Z | Shell | Unknown | 0 | 0 | 0 | 0 |

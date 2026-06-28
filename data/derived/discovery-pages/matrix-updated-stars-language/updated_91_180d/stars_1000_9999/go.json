@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 311,
-    "observations": 311,
-    "repos": 71,
-    "terms": 311
+    "components": 345,
+    "concepts": 312,
+    "observations": 312,
+    "repos": 72,
+    "terms": 312
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -55,6 +55,7 @@
     "google/starlark-go",
     "hashicorp/go-metrics",
     "hashicorp/memberlist",
+    "hashicorp/yamux",
     "instrumenta/kubeval",
     "isaacphi/mcp-language-server",
     "jhump/protoreflect",

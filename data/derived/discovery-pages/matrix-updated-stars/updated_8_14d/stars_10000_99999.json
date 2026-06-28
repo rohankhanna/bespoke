@@ -1,25 +1,26 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 98,
-    "observations": 99,
-    "repos": 10,
-    "terms": 98
+    "components": 142,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 11,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "AndyMik90/Aperant",
     "clsid2/mpc-hc",
+    "dense-analysis/ale",
     "github-linguist/linguist",
-    "gitleaks/gitleaks",
     "Kludex/starlette",
     "nvm-sh/nvm",
     "pyg-team/pytorch_geometric",
+    "ratatui/ratatui",
     "realworld-apps/realworld",
     "tracel-ai/burn",
     "vercel-labs/skills"

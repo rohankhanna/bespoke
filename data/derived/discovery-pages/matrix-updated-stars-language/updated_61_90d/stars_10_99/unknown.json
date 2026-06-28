@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 142,
-    "observations": 143,
-    "repos": 53,
-    "terms": 141
+    "components": 133,
+    "concepts": 146,
+    "observations": 147,
+    "repos": 56,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
+    "alphagov/govuk-rfcs",
     "AppImage/AppImageSpec",
     "askroundtable/expert-skills",
     "BAI-LAB/Survey-on-AI-Memory",
@@ -33,6 +34,7 @@
     "docker/github-builder",
     "dragonflyoss/community",
     "eigenfoundation/elips",
+    "elastic/logstash-docs",
     "flinedev/plankit",
     "ganelson/inform-evolution",
     "GDevelopApp/GDevelop-community-list",
@@ -63,6 +65,7 @@
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
     "tc39/proposal-duplicate-named-capturing-groups",
+    "uxlfoundation/foundation",
     "uxlfoundation/open-source-working-group",
     "w3c/accname",
     "w3c/core-aam",

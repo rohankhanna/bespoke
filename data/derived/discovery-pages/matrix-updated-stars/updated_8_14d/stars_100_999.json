@@ -1,27 +1,27 @@
 {
   "counts": {
-    "components": 222,
-    "concepts": 152,
-    "observations": 152,
-    "repos": 29,
-    "terms": 152
+    "components": 200,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 26,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "alloy-rs/svm-rs",
     "ANTsX/ANTsPy",
     "ANTsX/ANTsPyNet",
-    "appbaseio/reactivesearch-api",
     "bazel-contrib/rules_jvm_external",
     "Blaizzy/mlx-audio-swift",
-    "dwyl/phoenix-ecto-encryption-example",
+    "cvxgrp/scs",
     "emacs-eldev/eldev",
+    "fw-ai/cookbook",
     "GitoxideLabs/cargo-smart-release",
     "google-deepmind/reverb",
     "googlefonts/roboto-3-classic",
@@ -31,7 +31,6 @@
     "localai-org/privacy-filter.cpp",
     "machinewrapped/llm-subtrans",
     "mudler/LocalRecall",
-    "niivue/brain2print",
     "NOAA-EMC/WW3",
     "PyCQA/eradicate",
     "pyOpenSci/software-submission",
@@ -39,8 +38,6 @@
     "scientific-python/spin",
     "SpecterOps/AzureHound",
     "the-database/VideoJaNai",
-    "unum-bio/USearchMolecules",
-    "xlite-dev/Awesome-DiT-Inference",
-    "yaling888/quirktiva"
+    "unum-bio/USearchMolecules"
   ]
 }

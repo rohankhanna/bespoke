@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 66,
-    "observations": 67,
-    "repos": 4,
-    "terms": 66
+    "components": 25,
+    "concepts": 53,
+    "observations": 54,
+    "repos": 3,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "microsoft/generative-ai-for-beginners",
-    "microsoft/PowerToys",
-    "twbs/bootstrap"
+    "microsoft/PowerToys"
   ]
 }

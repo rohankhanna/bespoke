@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2906,
-    "concepts": 3580,
-    "observations": 3588,
-    "repos": 644,
-    "terms": 3560
+    "components": 2922,
+    "concepts": 3603,
+    "observations": 3611,
+    "repos": 650,
+    "terms": 3583
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -371,9 +371,15 @@
     "jcefmaven/jcefmaven",
     "jcefmaven/jcefsampleapp",
     "jdereg/json-io",
+    "jenkins-infra/repository-permissions-updater",
+    "jenkinsci/incrementals-tools",
     "jenkinsci/jenkins",
+    "jenkinsci/jenkins-test-harness",
     "jenkinsci/jmh-report-plugin",
     "jenkinsci/jna-posix",
+    "jenkinsci/plugin-installation-manager-tool",
+    "jenkinsci/plugin-pom",
+    "jenkinsci/workflow-api-plugin",
     "jerrylususu/PaddleOCR-json-java-api",
     "JetBrains/intellij-community",
     "JetBrains/intellij-sdk-code-samples",

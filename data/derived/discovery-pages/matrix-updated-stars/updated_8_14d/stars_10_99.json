@@ -1,25 +1,28 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 15,
-    "terms": 70
+    "components": 144,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 19,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "andfoy/winpty-rs",
+    "ANTsX/ANTsRCore",
     "asdf-community/asdf-pdm",
     "corgi-emacs/corgi-packages",
     "freesurfer/freebrowse",
     "itt-ustutt/num-dual",
     "Jaded-Encoding-Thaumaturgy/vs-jetpack",
     "kurrent-io/KurrentDB-Client-Rust",
+    "lhj5426/X-AnyLabeling",
+    "mathesong/kinfitr",
     "mesh-iit/cad-libraries",
     "mozilla-ai/otari",
     "mudler/depth-anything.cpp",
@@ -27,6 +30,7 @@
     "ogx-ai/ogx-client-typescript",
     "ros-infrastructure/ros-apt-source",
     "symgraph/BinAssistMCP",
+    "tinted-theming/tinted-xresources",
     "wamp-proto/wamp-xbr"
   ]
 }

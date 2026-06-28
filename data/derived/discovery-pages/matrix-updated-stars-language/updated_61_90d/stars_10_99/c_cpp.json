@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 403,
-    "concepts": 329,
-    "observations": 329,
-    "repos": 75,
-    "terms": 329
+    "components": 419,
+    "concepts": 350,
+    "observations": 350,
+    "repos": 78,
+    "terms": 350
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "acts-project/traccc",
@@ -45,6 +45,7 @@
     "flatpak/xdg-dbus-proxy",
     "GaoYusong/llm.cpp",
     "gazebosim/gz-fuel-tools",
+    "gazebosim/gz-gui",
     "gazebosim/gz-transport",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
@@ -54,11 +55,13 @@
     "jupyter-xeus/xeus-lua",
     "kendryte/canmv_k230",
     "ksnip/kImageAnnotator",
+    "LedgerHQ/app-boilerplate",
     "Level/classic-level",
     "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "libxsmm/tpp-pytorch-extension",
+    "llnl/camp",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",

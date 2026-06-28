@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 5
+- repos: 4
 - terms: 5
 - components: 16
 - concepts: 5
@@ -29,7 +29,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mozilla-ai/otari-anyguardrail-container](https://github.com/mozilla-ai/otari-anyguardrail-container) | 0 | 2026-06-18T07:25:26Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [mozilla-ai/otari-sdk-go](https://github.com/mozilla-ai/otari-sdk-go) | 0 | 2026-06-16T19:57:16Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [mozilla-ai/otari-sdk-python](https://github.com/mozilla-ai/otari-sdk-python) | 0 | 2026-06-16T19:57:05Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [cvxpy/org](https://github.com/cvxpy/org) | 0 | 2026-06-14T01:13:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -39,4 +38,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mozilla-ai/otari-anyguardrail-container](https://github.com/mozilla-ai/otari-anyguardrail-container) | 0 | 2026-06-18T07:25:26Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [mozilla-ai/otari-sdk-go](https://github.com/mozilla-ai/otari-sdk-go) | 0 | 2026-06-16T19:57:16Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [mozilla-ai/otari-sdk-python](https://github.com/mozilla-ai/otari-sdk-python) | 0 | 2026-06-16T19:57:05Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [cvxpy/org](https://github.com/cvxpy/org) | 0 | 2026-06-14T01:13:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

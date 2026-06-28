@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 22,
-    "observations": 22,
+    "components": 44,
+    "concepts": 19,
+    "observations": 19,
     "repos": 3,
-    "terms": 22
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "DioxusLabs/dioxus",
-    "ratatui/ratatui",
+    "quickwit-oss/tantivy",
     "rust-lang/mdBook"
   ]
 }

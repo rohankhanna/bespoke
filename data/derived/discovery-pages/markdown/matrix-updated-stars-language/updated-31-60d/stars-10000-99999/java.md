@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 216
-- components: 193
-- concepts: 217
-- observations: 219
+- repos: 17
+- terms: 204
+- components: 183
+- concepts: 205
+- observations: 207
 
 ## Static behavior
 
@@ -43,7 +43,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 49795 | 2026-04-29T16:55:10Z | Java | CLI | 13 | 6 | 13 | 13 |
 | [awsdocs/aws-doc-sdk-examples](https://github.com/awsdocs/aws-doc-sdk-examples) | 10398 | 2026-04-29T14:07:04Z | Java | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [apache/dubbo](https://github.com/apache/dubbo) | 41563 | 2026-04-29T08:23:53Z | Java | Infrastructure/tooling | 11 | 16 | 11 | 11 |
-| [ReactiveX/RxJava](https://github.com/ReactiveX/RxJava) | 48284 | 2026-04-29T05:07:26Z | Java | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -51,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 76611 | 2026-04-30T10:22:34Z | Java | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 49795 | 2026-04-29T16:55:10Z | Java | CLI | 13 | 6 | 13 | 13 |
-| [ReactiveX/RxJava](https://github.com/ReactiveX/RxJava) | 48284 | 2026-04-29T05:07:26Z | Java | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [apache/dubbo](https://github.com/apache/dubbo) | 41563 | 2026-04-29T08:23:53Z | Java | Infrastructure/tooling | 11 | 16 | 11 | 11 |
 | [bumptech/glide](https://github.com/bumptech/glide) | 35025 | 2026-04-29T21:48:39Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [netty/netty](https://github.com/netty/netty) | 34937 | 2026-04-29T20:23:34Z | Java | Infrastructure/tooling | 5 | 15 | 5 | 5 |

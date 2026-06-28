@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 385,
+    "components": 388,
     "concepts": 578,
     "observations": 580,
     "repos": 129,
-    "terms": 572
+    "terms": 571
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "AmusementClub/vs-mlrt",
@@ -110,6 +110,7 @@
     "objectbox/objectbox-c",
     "openxrlab/xrslam",
     "osvenskan/posix_ipc",
+    "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
     "PaddlePaddle/Paddle2ONNX",
     "ParRes/Kernels",
     "pganalyze/pg_query",
@@ -118,7 +119,6 @@
     "raysan5/raylib-games",
     "refresh-bio/KMC",
     "rmsalinas/DBow3",
-    "ros-perception/vision_opencv",
     "rust-fuzz/libfuzzer",
     "rusty1s/pytorch_cluster",
     "sasha0552/nvidia-pstated",

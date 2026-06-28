@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 144,
-    "observations": 145,
-    "repos": 19,
-    "terms": 144
+    "components": 265,
+    "concepts": 185,
+    "observations": 186,
+    "repos": 27,
+    "terms": 185
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,34 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "Artoriuz/ArtCNN",
     "astroautomata/SymbolicRegression.jl",
+    "bazel-contrib/rules_kotlin",
     "chebfun/chebfun",
     "ChristopherHX/runner.server",
+    "clj-commons/rewrite-clj",
     "Deep-Symmetry/beat-link-trigger",
     "devcontainers/devcontainers.github.io",
     "fieldtrip/fieldtrip",
     "fsprojects/FSharp.Data.GraphQL",
-    "fw-ai/cookbook",
     "ggsegverse/ggseg",
     "grpc/grpc-dart",
+    "jenkins-infra/pipeline-library",
+    "JuliaCollections/AbstractTrees.jl",
+    "JuliaGPU/GPUArrays.jl",
     "JuliaGPU/oneAPI.jl",
+    "JuliaLinearAlgebra/AppleAccelerate.jl",
     "JuliaLinearAlgebra/MKL.jl",
+    "jump-dev/MathOptInterface.jl",
     "karafka/rdkafka-ruby",
     "meshcat-dev/meshcat",
     "redis/redis-om-dotnet",
+    "ROCm/hipBLASLt",
     "sbt/sbt-jmh",
+    "the-database/mpv-AnimeJaNai",
     "thegeeklab/hugo-geekdoc"
   ]
 }

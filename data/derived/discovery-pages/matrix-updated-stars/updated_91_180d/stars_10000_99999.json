@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1478,
-    "concepts": 981,
-    "observations": 985,
-    "repos": 163,
-    "terms": 981
+    "concepts": 991,
+    "observations": 995,
+    "repos": 164,
+    "terms": 991
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -44,6 +44,7 @@
     "dandavison/delta",
     "datawhalechina/happy-llm",
     "datawhalechina/llm-universe",
+    "deepinsight/insightface",
     "drduh/macOS-Security-and-Privacy-Guide",
     "egoist/tsup",
     "ekzhang/bore",

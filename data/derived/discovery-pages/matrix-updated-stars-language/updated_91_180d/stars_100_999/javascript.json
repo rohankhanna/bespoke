@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1199,
-    "concepts": 257,
-    "observations": 258,
-    "repos": 73,
-    "terms": 255
+    "components": 1211,
+    "concepts": 263,
+    "observations": 264,
+    "repos": 75,
+    "terms": 260
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "actions/deploy-pages",
     "adobe-photoshop/generator-core",
@@ -29,6 +29,7 @@
     "chaijs/deep-eql",
     "cmake-js/cmake-js",
     "codota/tabnine-nvim",
+    "CyberAP/nanoid-dictionary",
     "d3/d3-geo-polygon",
     "dominikg/tsconfck",
     "dwyl/learn-postgresql",
@@ -58,6 +59,7 @@
     "markdown-it/linkify-it",
     "microsoft/vscode-custom-data",
     "mourner/flatqueue",
+    "mourner/kdbush",
     "mourner/robust-predicates",
     "neuroneural/brainchop",
     "nodenv/jetbrains-npm",

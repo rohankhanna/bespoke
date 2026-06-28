@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 330,
-    "observations": 334,
-    "repos": 61,
-    "terms": 338
+    "components": 242,
+    "concepts": 321,
+    "observations": 325,
+    "repos": 60,
+    "terms": 329
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -37,7 +37,6 @@
     "ericbuess/claude-code-docs",
     "gentoo/guru",
     "getsolus/packages",
-    "helm/chart-testing-action",
     "heroku/heroku-buildpack-apt",
     "heroku/heroku-buildpack-php",
     "justchokingaround/lobster",
@@ -49,6 +48,7 @@
     "msys2/msys2-installer",
     "nodenv/node-build",
     "numpy/numpy.org",
+    "NVIDIA/enroot",
     "opea-project/GenAIExamples",
     "openshift/release",
     "pacstall/pacstall-programs",
@@ -66,7 +66,6 @@
     "sclorg/s2i-nodejs-container",
     "sclorg/s2i-python-container",
     "serpro69/claude-toolbox",
-    "SWE-bench/experiments",
     "termux/repology-metadata",
     "TexasInstruments/edgeai",
     "tinted-theming/schemes",

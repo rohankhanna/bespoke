@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 2
-- components: 1
-- concepts: 2
-- observations: 2
+- repos: 5
+- terms: 8
+- components: 8
+- concepts: 8
+- observations: 8
 
 ## Static behavior
 
@@ -26,7 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-06-21T02:47:41Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [numpy/archive](https://github.com/numpy/archive) | 13 | 2026-06-18T20:18:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [mathesong/kinfitr](https://github.com/mathesong/kinfitr) | 37 | 2026-06-15T20:59:58Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [ros-infrastructure/ros-apt-source](https://github.com/ros-infrastructure/ros-apt-source) | 17 | 2026-06-15T13:12:56Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [corgi-emacs/corgi-packages](https://github.com/corgi-emacs/corgi-packages) | 16 | 2026-06-15T12:15:43Z | Other | Library | 0 | 0 | 0 | 0 |
 
@@ -34,6 +36,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mathesong/kinfitr](https://github.com/mathesong/kinfitr) | 37 | 2026-06-15T20:59:58Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-06-21T02:47:41Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [ros-infrastructure/ros-apt-source](https://github.com/ros-infrastructure/ros-apt-source) | 17 | 2026-06-15T13:12:56Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [corgi-emacs/corgi-packages](https://github.com/corgi-emacs/corgi-packages) | 16 | 2026-06-15T12:15:43Z | Other | Library | 0 | 0 | 0 | 0 |
 | [numpy/archive](https://github.com/numpy/archive) | 13 | 2026-06-18T20:18:29Z | Other | Unknown | 0 | 0 | 0 | 0 |

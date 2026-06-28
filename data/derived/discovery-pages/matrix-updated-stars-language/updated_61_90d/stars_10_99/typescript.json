@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2531,
-    "concepts": 422,
-    "observations": 425,
-    "repos": 92,
-    "terms": 454
+    "components": 2575,
+    "concepts": 442,
+    "observations": 446,
+    "repos": 94,
+    "terms": 474
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "9romise/eslint-plugin-import-lite",
@@ -22,6 +22,7 @@
     "agents-squads/squads-cli",
     "almogdepaz/wolfpack",
     "apollographql/vscode-graphql",
+    "appsignal/appsignal-javascript",
     "ava-labs/avalanche-dapp-sdks",
     "aws-samples/aws-sdk-js-notes-app",
     "awslabs/wdio-aws-device-farm-service",
@@ -44,6 +45,7 @@
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "DataDog/opentelemetry-demo",
     "dokploy/cli",
+    "elastic/opentelemetry-demo",
     "electron/windows-sign",
     "ElementsProject/cln-application",
     "ethereum/eip-review-bot",
@@ -63,6 +65,7 @@
     "huangguang1999/ccstatusline-zh",
     "hyparam/demos",
     "ioBroker/ioBroker.matter",
+    "ipfs/github-mgmt",
     "ipfs/ipld-explorer-components",
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
@@ -93,7 +96,6 @@
     "patrickkabwe/create-nitro-module",
     "pinecone-io/pinecone-mcp",
     "pkgxdev/pkgm",
-    "privatenumber/is-fs-case-sensitive",
     "Sec-ant/prettier-plugin-embed",
     "sgcarstrends/sgcarstrends",
     "Shougo/ddu-ui-ff",

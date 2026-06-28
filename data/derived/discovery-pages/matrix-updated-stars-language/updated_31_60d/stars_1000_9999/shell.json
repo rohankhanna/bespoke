@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 117,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 17,
-    "terms": 132
+    "concepts": 125,
+    "observations": 125,
+    "repos": 16,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "archlinuxcn/repo",
     "bitnami/containers",
     "Botspot/pi-apps",
-    "confluentinc/demo-scene",
     "GrapheneOS/Vanadium",
     "heroku/heroku-buildpack-nodejs",
     "holman/dotfiles",

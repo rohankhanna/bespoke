@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 147,
-    "concepts": 84,
-    "observations": 84,
-    "repos": 32,
-    "terms": 85
+    "components": 150,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 33,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "5c077m4n/pikud-haoref-api-go",
@@ -26,6 +26,7 @@
     "bitrise-io/bitrise-plugins-step",
     "cgrindel/swift_gazelle_plugin",
     "cloudfoundry/cc-uploader",
+    "cloudfoundry/runtime-ci",
     "cpu/wycheproof",
     "DataDog/trivy",
     "dwyl/learn-go",

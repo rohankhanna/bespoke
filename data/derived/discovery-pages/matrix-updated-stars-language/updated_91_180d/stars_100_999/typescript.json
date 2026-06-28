@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2459,
-    "concepts": 454,
-    "observations": 455,
-    "repos": 88,
-    "terms": 470
+    "components": 2543,
+    "concepts": 460,
+    "observations": 461,
+    "repos": 92,
+    "terms": 476
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -39,9 +39,11 @@
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
     "castwide/vscode-solargraph",
+    "Charlie85270/Dorothy",
     "cloydlau/json-editor-vue",
     "cocos/cocos-test-projects",
     "connectrpc/connect-query-es",
+    "cztomsik/ava",
     "eckardt/cchistory",
     "enisdenjo/graphql-sse",
     "ethereum/staking-launchpad",
@@ -73,6 +75,7 @@
     "matrix-org/matrix-appservice-slack",
     "microsoft/botbuilder-js",
     "microsoft/BotFramework-DirectLineJS",
+    "microsoft/vscode-debugadapter-node",
     "multiformats/js-multiformats",
     "nanbingxyz/mcpsvr",
     "niieani/gpt-tokenizer",
@@ -84,6 +87,7 @@
     "priceline/design-system",
     "ruvnet/agentic-flow",
     "SassNinja/postcss-extract-media-query",
+    "shareai-lab/kode-agent-sdk",
     "solidjs/templates",
     "sudocode-ai/sudocode",
     "sveltejs/prettier-plugin-svelte",

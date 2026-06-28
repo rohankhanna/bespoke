@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1508,
-    "concepts": 305,
-    "observations": 307,
-    "repos": 57,
-    "terms": 305
+    "components": 1452,
+    "concepts": 280,
+    "observations": 281,
+    "repos": 54,
+    "terms": 280
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "aggre/ullr",
     "Airfooox/cron-validate",
-    "appsignal/appsignal-javascript",
     "carbon-design-system/carbon-preprocess-svelte",
     "coasys/flux",
     "countertype/clipper2-ts",
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
     "ecyrbe/zodios-express",
-    "elastic/opentelemetry-demo",
     "emscripten-forge/mambajs",
     "fabon-f/temporal-polyfill-lite",
     "favware/esbuild-plugin-version-injector",
@@ -37,7 +35,6 @@
     "intlify/cli",
     "intlify/vue-i18n-extensions",
     "ipdxco/github-as-code",
-    "ipfs/github-mgmt",
     "jakebailey/pyright-action",
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",

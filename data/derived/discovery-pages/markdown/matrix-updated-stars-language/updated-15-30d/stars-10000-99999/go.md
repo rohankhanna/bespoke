@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 11
-- components: 0
-- concepts: 11
-- observations: 11
+- repos: 2
+- terms: 27
+- components: 16
+- concepts: 27
+- observations: 28
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27805 | 2026-06-13T17:33:48Z | Go | CLI | 16 | 16 | 16 | 17 |
 | [Billionmail/BillionMail](https://github.com/Billionmail/BillionMail) | 15212 | 2026-06-11T06:44:04Z | Go | Service/API | 11 | 0 | 11 | 11 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27805 | 2026-06-13T17:33:48Z | Go | CLI | 16 | 16 | 16 | 17 |
 | [Billionmail/BillionMail](https://github.com/Billionmail/BillionMail) | 15212 | 2026-06-11T06:44:04Z | Go | Service/API | 11 | 0 | 11 | 11 |

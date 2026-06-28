@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 7,
-    "terms": 85
+    "components": 60,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 5,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
-    "ANTsX/ANTs",
-    "autowarefoundation/autoware_universe",
-    "harfbuzz/harfbuzz",
-    "InsightSoftwareConsortium/ITK",
-    "luau-lang/luau",
-    "MrNeRF/LichtFeld-Studio",
-    "TrenchBroom/TrenchBroom"
+    "libbitcoin/libbitcoin-system",
+    "snapcast/snapcast",
+    "TrenchBroom/TrenchBroom",
+    "ultrajson/ultrajson",
+    "xtensor-stack/xtensor"
   ]
 }

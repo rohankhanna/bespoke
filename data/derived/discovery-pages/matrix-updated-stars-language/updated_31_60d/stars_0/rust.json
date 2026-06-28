@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 13,
-    "observations": 13,
+    "components": 37,
+    "concepts": 10,
+    "observations": 10,
     "repos": 4,
-    "terms": 13
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "drmingdrmer/databend-meta",
     "lakekeeper/iceberg-rust",
-    "squidowl/iced",
+    "mayocream/candle",
     "UnknownPlatypus/markup_fmt"
   ]
 }

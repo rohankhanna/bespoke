@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 588,
-    "concepts": 252,
-    "observations": 253,
-    "repos": 35,
-    "terms": 252
+    "components": 659,
+    "concepts": 277,
+    "observations": 279,
+    "repos": 39,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "Aleksoid1978/VideoRenderer",
@@ -20,16 +20,21 @@
     "apollographql/apollo-tooling",
     "arcee-ai/mergekit",
     "AviSynth/AviSynthPlus",
+    "babashka/sci",
     "benchmark-action/github-action-benchmark",
     "bionic-gpt/bionic-gpt",
     "Blaizzy/mlx-audio",
     "callstack/react-native-builder-bob",
+    "clj-kondo/clj-kondo",
     "crate-ci/cargo-release",
+    "dotnet/command-line-api",
     "flightcontrolhq/superjson",
     "geiger-rs/cargo-geiger",
     "gluonfield/enchanted",
+    "google-gemini/live-api-web-console",
     "graphql-hive/graphql-inspector",
     "intentee/paddler",
+    "ipyflow/ipyflow",
     "macfuse/macfuse",
     "microsoft/PhiCookBook",
     "mudler/LocalAGI",
@@ -38,15 +43,14 @@
     "preservim/tagbar",
     "psmux/psmux",
     "pytorch/gloo",
+    "react-native-webview/react-native-webview",
     "safetensors/safetensors",
-    "snapcast/snapcast",
     "TanStack/form",
     "tape-testing/tape",
-    "ultrajson/ultrajson",
+    "TheTom/llama-cpp-turboquant",
     "vapoursynth/vapoursynth",
     "vercel/serve",
     "watchexec/watchexec",
-    "webpy/webpy",
-    "xtensor-stack/xtensor"
+    "webpy/webpy"
   ]
 }

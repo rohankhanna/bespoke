@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 874
-- terms: 2030
-- components: 2197
-- concepts: 2042
-- observations: 2048
+- repos: 878
+- terms: 2040
+- components: 2200
+- concepts: 2052
+- observations: 2058
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [viafintech/gcra-ruby](https://github.com/viafintech/gcra-ruby) | 52 | 2025-12-29T22:26:27Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
+| [adospace/litedbpad](https://github.com/adospace/litedbpad) | 66 | 2025-12-29T16:31:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [travis-ci/travis-logs](https://github.com/travis-ci/travis-logs) | 55 | 2025-12-29T13:17:12Z | Other | CLI | 3 | 0 | 3 | 3 |
 | [gregorias/toggle.nvim](https://github.com/gregorias/toggle.nvim) | 56 | 2025-12-28T09:37:29Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [EvelynZhang-epiclab/DaTo](https://github.com/EvelynZhang-epiclab/DaTo) | 10 | 2025-12-28T04:36:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaGtk/Gtk4Makie.jl](https://github.com/JuliaGtk/Gtk4Makie.jl) | 31 | 2025-12-28T02:27:13Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -587,6 +590,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [standard/atom-standardjs-snippets](https://github.com/standard/atom-standardjs-snippets) | 48 | 2023-09-16T07:25:34Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [gdkrmr/lsp-julia](https://github.com/gdkrmr/lsp-julia) | 73 | 2023-09-15T06:55:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [yousty/event_store_client](https://github.com/yousty/event_store_client) | 40 | 2023-09-14T08:03:23Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [m-j-w/CpuId.jl](https://github.com/m-j-w/CpuId.jl) | 54 | 2023-09-13T12:03:59Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [bookingcom/perl-Net-Kafka](https://github.com/bookingcom/perl-Net-Kafka) | 13 | 2023-09-08T14:51:47Z | Other | CLI | 5 | 0 | 5 | 5 |
 | [Arlorean/Voxels](https://github.com/Arlorean/Voxels) | 85 | 2023-08-31T19:10:48Z | Other | Unknown | 6 | 0 | 7 | 7 |
 | [lambdaisland/kaocha-cljs2](https://github.com/lambdaisland/kaocha-cljs2) | 32 | 2023-08-24T20:27:31Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
@@ -1101,6 +1105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xavierpuigf/virtualhome_unity](https://github.com/xavierpuigf/virtualhome_unity) | 67 | 2023-07-31T07:14:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ag1988/dss](https://github.com/ag1988/dss) | 67 | 2022-08-02T07:35:03Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [kwea123/MVSNet_pl](https://github.com/kwea123/MVSNet_pl) | 67 | 2021-10-12T23:12:08Z | Other | Unknown | 5 | 0 | 6 | 6 |
+| [adospace/litedbpad](https://github.com/adospace/litedbpad) | 66 | 2025-12-29T16:31:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [FFTAI/Wiki-GRx-Gym](https://github.com/FFTAI/Wiki-GRx-Gym) | 66 | 2025-12-04T12:11:14Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [taikinman/langrila](https://github.com/taikinman/langrila) | 66 | 2025-02-19T05:11:59Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [aaronjensen/eslintd-fix](https://github.com/aaronjensen/eslintd-fix) | 66 | 2024-02-24T15:17:56Z | Other | Unknown | 2 | 0 | 2 | 2 |
@@ -1196,6 +1201,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marianfoo/ztoad](https://github.com/marianfoo/ztoad) | 56 | 2022-06-15T08:30:21Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [mfung/hamlit-rails](https://github.com/mfung/hamlit-rails) | 56 | 2022-03-21T16:03:21Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [the-benchmarker/graphql-benchmarks](https://github.com/the-benchmarker/graphql-benchmarks) | 56 | 2021-08-19T23:13:58Z | Other | Framework | 5 | 0 | 5 | 5 |
+| [travis-ci/travis-logs](https://github.com/travis-ci/travis-logs) | 55 | 2025-12-29T13:17:12Z | Other | CLI | 3 | 0 | 3 | 3 |
 | [haxeui/haxeui-flixel](https://github.com/haxeui/haxeui-flixel) | 55 | 2025-06-27T06:40:41Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [Isotr0py/SakuraLLM-Notebooks](https://github.com/Isotr0py/SakuraLLM-Notebooks) | 55 | 2024-10-01T10:51:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [nrepl/bencode](https://github.com/nrepl/bencode) | 55 | 2024-06-12T15:20:11Z | Other | Unknown | 4 | 0 | 4 | 4 |
@@ -1209,6 +1215,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Wilfred/pip-requirements.el](https://github.com/Wilfred/pip-requirements.el) | 54 | 2024-06-21T21:51:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [anandpiyer/seoul256-emacs](https://github.com/anandpiyer/seoul256-emacs) | 54 | 2024-04-22T13:07:26Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [naudio/Vorbis](https://github.com/naudio/Vorbis) | 54 | 2024-03-29T01:33:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [m-j-w/CpuId.jl](https://github.com/m-j-w/CpuId.jl) | 54 | 2023-09-13T12:03:59Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [ruby-numo/numo-gnuplot](https://github.com/ruby-numo/numo-gnuplot) | 54 | 2022-10-08T13:26:18Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [devilismyfriend/latent-diffusion](https://github.com/devilismyfriend/latent-diffusion) | 54 | 2022-09-21T02:01:48Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [tc39/proposal-function-pipe-flow](https://github.com/tc39/proposal-function-pipe-flow) | 54 | 2022-08-20T23:20:31Z | Other | Unknown | 3 | 0 | 3 | 3 |
@@ -1223,6 +1230,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arcusmaximus/CSystemTools](https://github.com/arcusmaximus/CSystemTools) | 53 | 2022-07-16T22:25:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/BotBuilder-V3](https://github.com/microsoft/BotBuilder-V3) | 53 | 2022-07-07T00:48:23Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [shadowsocks/openwrt-feeds](https://github.com/shadowsocks/openwrt-feeds) | 53 | 2022-06-02T13:09:31Z | Other | Unknown | 3 | 0 | 3 | 3 |
+| [viafintech/gcra-ruby](https://github.com/viafintech/gcra-ruby) | 52 | 2025-12-29T22:26:27Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [hackerb9/vt340test](https://github.com/hackerb9/vt340test) | 52 | 2025-10-03T02:55:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [HaxeFlixel/flixel-tools](https://github.com/HaxeFlixel/flixel-tools) | 52 | 2025-03-27T13:54:52Z | Other | CLI | 3 | 4 | 3 | 3 |
 | [Deep-Symmetry/open-beat-control](https://github.com/Deep-Symmetry/open-beat-control) | 52 | 2025-03-24T04:19:48Z | Other | Infrastructure/tooling | 6 | 10 | 6 | 6 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3514,
-    "concepts": 613,
-    "observations": 616,
-    "repos": 80,
-    "terms": 617
+    "components": 3783,
+    "concepts": 654,
+    "observations": 657,
+    "repos": 85,
+    "terms": 658
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -58,14 +58,18 @@
     "jquery/jquery",
     "jquery/jquery-ui",
     "karma-runner/karma",
+    "krisk/Fuse",
     "Leaflet/Leaflet",
     "lodash/lodash",
     "lovell/sharp",
+    "MagicMirrorOrg/MagicMirror",
     "markedjs/marked",
     "microsoft/monaco-editor",
+    "moment/luxon",
     "motdotla/dotenv",
     "nock/nock",
     "nodemailer/nodemailer",
+    "novnc/noVNC",
     "openai/codex-plugin-cc",
     "parcel-bundler/parcel",
     "postcss/autoprefixer",
@@ -78,6 +82,7 @@
     "rollup/rollup",
     "semantic-release/semantic-release",
     "serverless/serverless",
+    "SillyTavern/SillyTavern",
     "simple-icons/simple-icons",
     "svg/svgo",
     "swagger-api/swagger-ui",

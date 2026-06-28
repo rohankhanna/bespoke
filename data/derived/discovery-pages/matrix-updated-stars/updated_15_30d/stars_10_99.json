@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 19,
-    "terms": 86
+    "components": 186,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 20,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "aidenlab/hic-straw",
@@ -26,11 +26,12 @@
     "FerrisMind/candle-video",
     "geocompx/docker",
     "ika-rwth-aachen/docker-run",
-    "joshsymonds/cc-tools",
     "JuliaLinearAlgebra/libblastrampoline",
+    "localai-org/rf-detr.cpp",
     "lumen-oss/nurr",
     "niivue/ipyniivue",
     "ocaml-tracing/ocaml-opentelemetry",
+    "roboflow/single_artifact_benchmarking",
     "tee-ar-ex/trx-python"
   ]
 }

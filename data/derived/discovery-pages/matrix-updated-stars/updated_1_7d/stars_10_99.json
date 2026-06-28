@@ -1,25 +1,29 @@
 {
   "counts": {
-    "components": 401,
-    "concepts": 169,
-    "observations": 169,
-    "repos": 34,
-    "terms": 169
+    "components": 501,
+    "concepts": 187,
+    "observations": 187,
+    "repos": 42,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
+    "4catalyzer/javascript",
     "alloy-rs/evm",
+    "amazon-ion/ion-cli",
+    "ansys/pydpf-core",
+    "ansys/pydpf-post",
     "ansys/pymapdl-reader",
     "apostrophecms/starter-kit-astro-apollo",
     "bodono/scs-python",
     "bzrudski/vectorose",
-    "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
+    "compozy/kb",
     "continuumio/blz",
     "criteo/mesos-term",
     "crossplane/docs",
@@ -29,10 +33,14 @@
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
+    "jenkins-infra/repository-permissions-updater",
+    "jenkinsci/plugin-pom",
+    "JuliaInterop/ObjectiveC.jl",
+    "JuliaParallel/Hwloc.jl",
+    "jump-dev/Clp.jl",
     "jump-dev/SCS.jl",
     "karafka/example-apps",
     "lablup/mlxcel",
-    "lhj5426/X-AnyLabeling",
     "lumen-oss/luarocks-tag-release",
     "mongodb/winkerberos",
     "mozilla-ai/any-guardrail",
@@ -43,8 +51,8 @@
     "processing/processing-website",
     "prospector-dev/requirements-detector",
     "pyvista/awesome-pyvista",
+    "rordenlab/niimath",
     "storybook-community/addon-queryparams",
-    "tinted-theming/tinted-xresources",
     "vaporif/parry-guard",
     "zhouwg/ggml-hexagon"
   ]

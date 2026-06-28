@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 7,
-    "terms": 42
+    "components": 31,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 8,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
-    "cvxgrp/scs",
+    "confluentinc/librdkafka",
     "flagos-ai/FlagCX",
+    "ipsilon/evmone",
     "localai-org/LocalVQE",
     "mudler/parakeet.cpp",
     "ROCm/hipBLAS",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 4,
-    "terms": 25
+    "components": 47,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 5,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "beve-org/beve",
     "gitleaks/gitleaks-action",
     "GoogleCloudPlatform/google-cloud-node-todos",
-    "mafintosh/streamx"
+    "mafintosh/streamx",
+    "niivue/brain2print"
   ]
 }

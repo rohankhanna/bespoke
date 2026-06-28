@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 3,
-    "terms": 2
+    "components": 8,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 5,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "corgi-emacs/corgi-packages",
+    "mathesong/kinfitr",
     "numpy/archive",
-    "ros-infrastructure/ros-apt-source"
+    "ros-infrastructure/ros-apt-source",
+    "tinted-theming/tinted-xresources"
   ]
 }

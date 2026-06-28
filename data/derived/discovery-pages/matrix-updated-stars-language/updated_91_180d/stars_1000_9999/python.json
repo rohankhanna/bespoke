@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 580,
-    "concepts": 1129,
-    "observations": 1129,
-    "repos": 207,
-    "terms": 1117
+    "components": 596,
+    "concepts": 1141,
+    "observations": 1141,
+    "repos": 210,
+    "terms": 1129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -120,9 +120,11 @@
     "KellerJordan/Muon",
     "kijai/ComfyUI-Hunyuan3DWrapper",
     "kijai/ComfyUI-WanVideoWrapper",
+    "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "langfengQ/verl-agent",
     "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
+    "linkchecker/linkchecker",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
     "LTH14/mar",
     "lucidrains/tab-transformer-pytorch",
@@ -131,6 +133,7 @@
     "meta-llama/llama-models",
     "michaelfeil/infinity",
     "microsoft/TaskWeaver",
+    "miiton/Cica",
     "Minqi824/ADBench",
     "miolini/autoresearch-macos",
     "mjpost/sacrebleu",

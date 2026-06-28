@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 766,
-    "concepts": 884,
-    "observations": 889,
-    "repos": 166,
-    "terms": 890
+    "components": 773,
+    "concepts": 893,
+    "observations": 899,
+    "repos": 169,
+    "terms": 898
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "aaaaalexis/obsidian-cupertino",
@@ -55,6 +55,7 @@
     "DavBfr/dart_pdf",
     "Deci-AI/super-gradients",
     "dempfi/ayu",
+    "dhall-lang/dhall-lang",
     "dimitri/el-get",
     "dotnet/roslynator",
     "DotNetAnalyzers/StyleCopAnalyzers",
@@ -77,6 +78,7 @@
     "fsprojects/Paket",
     "Fuco1/smartparens",
     "gf3/dotfiles",
+    "gjtorikian/html-proofer",
     "Glavin001/atom-beautify",
     "Gonzalo-D-Sales/obsidian-velocity",
     "google/cel-spec",
@@ -96,6 +98,7 @@
     "Intellindust-AI-Lab/DEIMv2",
     "javan/whenever",
     "jekip/naive-ui-admin",
+    "jgm/djot",
     "joaotavora/eglot",
     "jpanther/congo",
     "kaminari/kaminari",
@@ -150,13 +153,13 @@
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "ruby-i18n/i18n",
+    "RubyMoney/money",
     "salesforce/BLIP",
     "sbt/sbt-native-packager",
     "scikit-learn-contrib/hdbscan",
     "ScoopInstaller/Install",
     "sindresorhus/Gifski",
     "slim-template/slim",
-    "SmiteshP/nvim-navic",
     "SpinalHDL/VexRiscv",
     "steipete/imsg",
     "steipete/peekaboo",

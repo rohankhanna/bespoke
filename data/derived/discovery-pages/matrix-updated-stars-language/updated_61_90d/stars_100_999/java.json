@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 270,
-    "concepts": 333,
-    "observations": 333,
-    "repos": 45,
-    "terms": 333
+    "components": 360,
+    "concepts": 445,
+    "observations": 445,
+    "repos": 59,
+    "terms": 443
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -21,6 +21,8 @@
     "apache/datasketches-java",
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
+    "apache/ignite-3",
+    "apache/rocketmq-clients",
     "Azure-Samples/agent-openai-java-banking-assistant",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
@@ -29,6 +31,10 @@
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "fabmax/physx-jni",
+    "FasterXML/jackson-dataformat-xml",
+    "FasterXML/jackson-dataformats-binary",
+    "FasterXML/jackson-dataformats-text",
+    "FasterXML/jackson-modules-base",
     "FasterXML/woodstox",
     "fnproject/fdk-java",
     "googleapis/google-api-java-client-services",
@@ -40,9 +46,11 @@
     "graalvm/native-build-tools",
     "higress-group/higress-console",
     "jpmml/jpmml-lightgbm",
+    "jpmml/jpmml-sklearn",
     "jpmml/jpmml-sparkml",
     "jpmml/jpmml-xgboost",
     "kreativekorp/bitsnpicas",
+    "michel-kraemer/bson4jackson",
     "microsoft/Generative-AI-for-beginners-java",
     "microsoft/java-debug",
     "microsoft/semantic-kernel-java",
@@ -51,12 +59,18 @@
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "objectbox/objectbox-examples",
+    "quarkiverse/quarkus-langchain4j",
+    "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
+    "saalfeldlab/n5",
     "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",
     "spring-ai-alibaba/Lynxe",
     "spring-io/spring-javaformat",
     "swagger-api/swagger-inflector",
+    "swagger-api/swagger-parser",
+    "ThreeTen/threetenbp",
+    "wildfly/quickstart",
     "ysbing/YADB",
     "zilliztech/vts"
   ]

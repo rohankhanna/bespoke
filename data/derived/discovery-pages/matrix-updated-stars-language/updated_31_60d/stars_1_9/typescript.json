@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 18,
-    "terms": 135
+    "components": 243,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 11,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,18 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "06ketan/slideshot",
-    "8hobbies/vite-plugin-year",
     "anolilab/unplugin-favicons",
     "csm-actions/update-branch-action",
     "dreamscached/i18next-cli-plugin-svelte",
     "dydxprotocol/v4-localization",
     "ecyrbe/zodios-plugins",
-    "filecoin-project/github-mgmt",
     "fluent-vue/unplugin-fluent-vue",
-    "ipfs-shipyard/github-mgmt",
-    "ipld/github-mgmt",
-    "ipshipyard/github-mgmt",
-    "multiformats/github-mgmt",
     "oclif/plugin-version",
     "octokit/auth-callback.js",
     "redhat-developer/app-services-api-guidelines",
-    "suzuki-shunsuke/release-js-action",
-    "webdriverio/devtools"
+    "suzuki-shunsuke/release-js-action"
   ]
 }

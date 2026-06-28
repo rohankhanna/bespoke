@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 202,
-    "observations": 202,
-    "repos": 46,
-    "terms": 201
+    "components": 138,
+    "concepts": 203,
+    "observations": 203,
+    "repos": 47,
+    "terms": 202
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "abel533/ECharts",
     "alibaba/compileflow",
@@ -21,6 +21,7 @@
     "ArthurHub/Android-Image-Cropper",
     "awslabs/multi-model-server",
     "cglib/cglib",
+    "cjlin1/libsvm",
     "classgraph/classgraph",
     "crossbario/autobahn-java",
     "facebook/buck",

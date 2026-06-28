@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 85,
-    "observations": 86,
-    "repos": 11,
-    "terms": 85
+    "components": 84,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 6,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
-    "babashka/babashka",
     "datalevin/datalevin",
-    "dotnet/reactive",
-    "kurrent-io/KurrentDB",
-    "licensee/licensed",
     "microsoft/aspire",
-    "seancorfield/honeysql",
+    "microsoft/aspire-samples",
     "swiftlang/llvm-project",
-    "swiftlang/swift-syntax",
     "TryGhost/node-sqlite3",
     "web-platform-tests/wpt"
   ]

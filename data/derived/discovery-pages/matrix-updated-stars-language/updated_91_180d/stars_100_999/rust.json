@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 489,
-    "concepts": 307,
-    "observations": 311,
-    "repos": 83,
-    "terms": 305
+    "components": 502,
+    "concepts": 323,
+    "observations": 328,
+    "repos": 86,
+    "terms": 321
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "arkworks-rs/r1cs-std",
@@ -37,12 +37,14 @@
     "dtolnay/trybuild",
     "emilk/egui_plot",
     "esp-rs/embedded-svc",
+    "esp-rs/esp-idf-svc",
     "fast/logforth",
     "filecoin-project/rust-fil-proofs",
     "firstbatchxyz/dkn-compute-node",
     "georust/proj",
     "getsentry/rust-sourcemap",
     "gfx-rs/rspirv",
+    "gimli-rs/addr2line",
     "guillaume-be/rust-tokenizers",
     "gwihlidal/vk-mem-rs",
     "hecrj/icebreaker",
@@ -63,6 +65,7 @@
     "mozilla/dump_syms",
     "MSxDOS/ntapi",
     "near/borsh-rs",
+    "Nugine/simd",
     "op-rs/kona",
     "pdf-rs/pdf_render",
     "PistonDevelopers/glfw-rs",

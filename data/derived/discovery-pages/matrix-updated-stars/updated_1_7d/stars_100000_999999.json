@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 33,
-    "observations": 34,
-    "repos": 2,
-    "terms": 35
+    "components": 124,
+    "concepts": 54,
+    "observations": 55,
+    "repos": 3,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "f/prompts.chat",
-    "ollama/ollama"
+    "langchain-ai/langchain",
+    "ohmyzsh/ohmyzsh"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1942,
-    "concepts": 2893,
-    "observations": 2912,
-    "repos": 725,
-    "terms": 2830
+    "components": 1948,
+    "concepts": 2898,
+    "observations": 2917,
+    "repos": 727,
+    "terms": 2828
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -94,6 +94,7 @@
     "anthropics/claude-code",
     "antonbabenko/awsp",
     "antonbabenko/pre-commit-terraform",
+    "ANTsX/ITKR",
     "apache/arrow-testing",
     "apache/datafusion-ballista-python",
     "apollographql/supergraph-demo",
@@ -424,6 +425,7 @@
     "jcmvbkbc/crosstool-NG",
     "jcupitt/vips-benchmarks",
     "jeff-hykin/better-go-syntax",
+    "jenkinsci/jep",
     "JetBrains/JetBrainsMono",
     "jez/dotfiles",
     "jgburet/asdf-dotenvx",
@@ -696,7 +698,7 @@
     "transmissions11/dapptools-template",
     "trapd00r/LS_COLORS",
     "tremby/imgur.sh",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "tuvovan/Zero_DCE_TF",
     "twain47/Open-SVG-Map-Icons",
     "TypedDevs/bashunit",

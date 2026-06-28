@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 487,
-    "concepts": 289,
-    "observations": 289,
-    "repos": 55,
-    "terms": 288
+    "components": 472,
+    "concepts": 313,
+    "observations": 313,
+    "repos": 60,
+    "terms": 312
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "Ai00-X/ai00_server",
     "Alex313031/Thorium-MacOS",
     "AMD-AGI/Nitro-1",
     "ANTsX/ANTsR",
+    "appbaseio/reactivesearch-api",
     "appelmar/gdalcubes",
     "babashka/nbb",
     "bamsumit/slayerPytorch",
@@ -26,8 +27,10 @@
     "celtera/libremidi",
     "ChiyukiGana/Quickinput",
     "clearml/clearml-agent",
+    "coin-or/Clp",
     "databrickslabs/ucx",
     "Deep-Symmetry/dysentery",
+    "dwyl/phoenix-ecto-encryption-example",
     "eclipse-buildship/buildship",
     "eclipse-lemminx/lemminx",
     "elixir-protobuf/protobuf",
@@ -36,13 +39,14 @@
     "git-friendly/git-friendly",
     "gitleaks/gitleaks-action",
     "google-deepmind/dm_pix",
+    "google-research/semivl",
     "GoogleCloudPlatform/google-cloud-node-todos",
     "grupo-avispa/depth_anything_v2_ros2",
     "haasn/libplacebo",
     "ika-rwth-aachen/docker-ros",
     "jawah/charset_normalizer",
+    "jenkinsci/plugin-installation-manager-tool",
     "joblib/loky",
-    "JuliaGraphics/Luxor.jl",
     "kantv-ai/kantv",
     "Kosinkadink/ComfyUI-Advanced-ControlNet",
     "lancedb/yoloexplorer",
@@ -52,6 +56,7 @@
     "mafintosh/streamx",
     "MetaCubeX/Yacd-meta",
     "mudler/locate-anything.cpp",
+    "niivue/brain2print",
     "niivue/niivue",
     "PozzettiAndrea/ComfyUI-DepthAnythingV3",
     "preactjs/preact-devtools",
@@ -60,13 +65,13 @@
     "readthedocs/commonmark.py",
     "ros-industrial/industrial_ci",
     "salesforce/UniControl",
-    "skilld-dev/skilld",
     "tc39/proposal-decimal",
     "the-database/traiNNer-redux",
     "thu-ml/DiT-Extrapolation",
-    "TinyLLaVA/TinyLLaVA_Factory",
     "ueberauth/oauth2",
     "vale-cli/packages",
-    "wlfeng0509/Fast-SAM3D"
+    "wlfeng0509/Fast-SAM3D",
+    "xlite-dev/Awesome-DiT-Inference",
+    "yaling888/quirktiva"
   ]
 }

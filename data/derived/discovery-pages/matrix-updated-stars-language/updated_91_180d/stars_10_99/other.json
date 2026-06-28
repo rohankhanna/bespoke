@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 710,
-    "concepts": 529,
-    "observations": 531,
-    "repos": 183,
-    "terms": 524
+    "components": 725,
+    "concepts": 543,
+    "observations": 545,
+    "repos": 184,
+    "terms": 538
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
+    "0xrsydn/nix-hermes-agent",
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
     "6cdh/dotfiles",
@@ -27,7 +28,6 @@
     "adaszko/tree_climber_rust.nvim",
     "adelarsq/vim-emoji-icon-theme",
     "adinhodovic/argo-cd-mixin",
-    "adospace/litedbpad",
     "AghayeCoder/TX-ThemeHub",
     "ahrvoje/numerics",
     "AliRezaBeigy/paqetNG",
@@ -96,6 +96,7 @@
     "friemen/diffit",
     "GaloisInc/cryptol-specs",
     "getgrav/grav-theme-learn2",
+    "google/litmus",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "GoogleCloudPlatform/getting-started-dotnet",
     "HaxeFlixel/haxeflixel.com",
@@ -112,6 +113,7 @@
     "jaegertracing/docker-protobuf",
     "jakewvincent/texmagic.nvim",
     "JamieMair/MuJoCo.jl",
+    "JavaHello/spring-boot.nvim",
     "JezerM/oil-lsp-diagnostics.nvim",
     "jfmengels/elm-review-unused",
     "jgpc42/lein-jmh",
@@ -178,6 +180,7 @@
     "SchwarzIT/spectral-intellij-plugin",
     "SciML/sciml.ai",
     "Shopify/quantified",
+    "sisl/D3Trees.jl",
     "spring-ai-alibaba/website",
     "SqrtMinusOne/eshell-atuin",
     "standardrb/lint_roller",
@@ -187,11 +190,9 @@
     "tc39/proposal-smart-unit-preferences",
     "timo/json_fast",
     "travis-ci/travis-hub",
-    "travis-ci/travis-logs",
     "Triang-jyed-driung/Rapid-Sampling",
     "typst/typst-flake",
     "V13Axel/neotest-pest",
-    "viafintech/gcra-ruby",
     "w3c/element-timing",
     "WICG/crash-reporting",
     "xie-lab-ml/piecewise-sparse-attention",

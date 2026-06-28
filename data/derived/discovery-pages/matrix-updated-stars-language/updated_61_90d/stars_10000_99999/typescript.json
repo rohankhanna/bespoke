@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6996,
-    "concepts": 824,
-    "observations": 831,
-    "repos": 90,
-    "terms": 837
+    "components": 7224,
+    "concepts": 905,
+    "observations": 912,
+    "repos": 96,
+    "terms": 918
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -26,6 +26,7 @@
     "badlogic/pi-mono",
     "bitwarden/clients",
     "bluesky-social/social-app",
+    "bokeh/bokeh",
     "browserless/browserless",
     "bvaughn/react-window",
     "catppuccin/catppuccin",
@@ -38,7 +39,9 @@
     "discordjs/discord.js",
     "dotansimha/graphql-code-generator",
     "dzhng/deep-research",
+    "ecomfe/vue-echarts",
     "elastic/kibana",
+    "electron-userland/electron-builder",
     "emberjs/ember.js",
     "everyinc/compound-engineering-plugin",
     "expo/expo",
@@ -59,6 +62,7 @@
     "juice-shop/juice-shop",
     "jupyterlab/jupyterlab",
     "KaTeX/KaTeX",
+    "kysely-org/kysely",
     "labring/FastGPT",
     "labring/sealos",
     "lerna/lerna",
@@ -73,6 +77,8 @@
     "nvidia/nemoclaw",
     "openai/openai-node",
     "paulmillr/chokidar",
+    "pmndrs/react-three-fiber",
+    "pmndrs/zustand",
     "pnpm/pnpm",
     "postcss/postcss",
     "privatenumber/tsx",

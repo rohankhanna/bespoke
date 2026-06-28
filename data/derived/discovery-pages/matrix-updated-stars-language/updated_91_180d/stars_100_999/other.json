@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1410,
-    "concepts": 1088,
-    "observations": 1090,
-    "repos": 285,
-    "terms": 1081
+    "components": 1414,
+    "concepts": 1091,
+    "observations": 1093,
+    "repos": 287,
+    "terms": 1084
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -88,6 +88,7 @@
     "clojure/tools.nrepl",
     "clojure/tools.reader",
     "cloojure/tupelo",
+    "cloudstudio/ollama-laravel",
     "cnuernber/charred",
     "cognitect/transit-clj",
     "com-lihaoyi/cask",
@@ -247,6 +248,7 @@
     "rescript-lang/rescript-vscode",
     "ropensci/git2r",
     "rubocop/rubocop-performance",
+    "RubyMoney/eu_central_bank",
     "saagarjha/unxip",
     "sandrohanea/whisper.net",
     "scribd/Weaver",
@@ -272,12 +274,12 @@
     "thinca/vim-themis",
     "thinkdepthai/Deep_Research",
     "thu-ml/SpargeAttn",
+    "tier4/AWSIM",
     "tomas-abrahamsson/gpb",
     "tomekw/hikari-cp",
     "tpapp/julia-repl",
     "trailofbits/eth-security-toolbox",
     "travis-ci/travis-api",
-    "travis-ci/travis-build",
     "trezor/cython-hidapi",
     "trptcolin/reply",
     "ugexe/zef",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 144,
-    "concepts": 188,
-    "observations": 190,
-    "repos": 20,
-    "terms": 187
+    "components": 199,
+    "concepts": 230,
+    "observations": 233,
+    "repos": 24,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
+    "collabora/WhisperLive",
     "eclipse-paho/paho.mqtt.python",
     "Farama-Foundation/Minigrid",
     "google-deepmind/optax",
@@ -26,8 +27,11 @@
     "joblib/joblib",
     "JuergenFleiss/aTrain",
     "meta-pytorch/captum",
+    "mljar/mercury",
     "modelscope/FunClip",
     "modelscope/ms-agent",
+    "ogx-ai/ogx",
+    "opencv/opencv-python",
     "PaddlePaddle/PaddleClas",
     "prospector-dev/prospector",
     "pylint-dev/pylint",

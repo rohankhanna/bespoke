@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 214
-- terms: 814
-- components: 5104
-- concepts: 803
-- observations: 805
+- repos: 215
+- terms: 821
+- components: 5126
+- concepts: 810
+- observations: 812
 
 ## Static behavior
 
@@ -68,7 +68,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MiniMax-AI/MiniMax-MCP-JS](https://github.com/MiniMax-AI/MiniMax-MCP-JS) | 121 | 2025-07-22T03:50:37Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [keeweb/keeweb-connect](https://github.com/keeweb/keeweb-connect) | 121 | 2025-07-15T19:41:30Z | TypeScript | Infrastructure/tooling | 2 | 34 | 2 | 2 |
 | [timqian/bambot](https://github.com/timqian/bambot) | 939 | 2025-07-14T09:49:10Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
-| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 700 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
+| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 701 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
 | [mike-lischke/antlr4ng](https://github.com/mike-lischke/antlr4ng) | 134 | 2025-07-05T11:27:44Z | TypeScript | Infrastructure/tooling | 6 | 22 | 6 | 6 |
 | [wemake-services/wemake-vue-template](https://github.com/wemake-services/wemake-vue-template) | 728 | 2025-07-04T12:41:28Z | TypeScript | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [kyryl-opens-ml/no-ocr](https://github.com/kyryl-opens-ml/no-ocr) | 184 | 2025-06-30T09:07:25Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -161,6 +161,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bolinfest/monaco-tm](https://github.com/bolinfest/monaco-tm) | 153 | 2024-01-06T05:57:15Z | TypeScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [haskell/actions](https://github.com/haskell/actions) | 145 | 2024-01-05T11:06:36Z | TypeScript | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [vercel/pkg-fetch](https://github.com/vercel/pkg-fetch) | 461 | 2024-01-03T01:40:13Z | TypeScript | Infrastructure/tooling | 6 | 38 | 6 | 6 |
+| [xiaohk/stickyland](https://github.com/xiaohk/stickyland) | 568 | 2023-12-24T03:19:25Z | TypeScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
 | [dracula/dracula-ui](https://github.com/dracula/dracula-ui) | 874 | 2023-12-19T11:46:05Z | TypeScript | Infrastructure/tooling | 0 | 57 | 0 | 0 |
 | [Kingwl/monaco-volar](https://github.com/Kingwl/monaco-volar) | 181 | 2023-12-16T23:31:46Z | TypeScript | Infrastructure/tooling | 3 | 20 | 3 | 3 |
 | [pragmagic/vscode-nim](https://github.com/pragmagic/vscode-nim) | 233 | 2023-12-14T10:42:13Z | TypeScript | Unknown | 1 | 6 | 1 | 1 |
@@ -278,7 +279,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wemake-services/wemake-vue-template](https://github.com/wemake-services/wemake-vue-template) | 728 | 2025-07-04T12:41:28Z | TypeScript | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [simonwep/nanopop](https://github.com/simonwep/nanopop) | 719 | 2025-03-09T15:47:33Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [jezweb/roo-commander](https://github.com/jezweb/roo-commander) | 718 | 2025-11-20T23:23:12Z | TypeScript | Unknown | 2 | 11 | 2 | 2 |
-| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 700 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
+| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 701 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
 | [antfu/vscode-theme-vitesse](https://github.com/antfu/vscode-theme-vitesse) | 689 | 2025-08-22T01:15:13Z | TypeScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [possibilities/claude-composer](https://github.com/possibilities/claude-composer) | 678 | 2025-07-31T02:29:50Z | TypeScript | Infrastructure/tooling | 1 | 22 | 0 | 0 |
 | [dimforge/rapier.js](https://github.com/dimforge/rapier.js) | 671 | 2025-11-05T18:27:54Z | TypeScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
@@ -291,6 +292,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [withastro/prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro) | 599 | 2025-10-13T14:44:21Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |
 | [yassinedoghri/astro-i18next](https://github.com/yassinedoghri/astro-i18next) | 593 | 2024-07-26T02:07:26Z | TypeScript | Infrastructure/tooling | 8 | 52 | 8 | 8 |
 | [WisdomShell/codeshell-vscode](https://github.com/WisdomShell/codeshell-vscode) | 580 | 2024-05-09T11:52:05Z | TypeScript | Unknown | 0 | 20 | 0 | 0 |
+| [xiaohk/stickyland](https://github.com/xiaohk/stickyland) | 568 | 2023-12-24T03:19:25Z | TypeScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
 | [Azzedde/brainstormers](https://github.com/Azzedde/brainstormers) | 567 | 2025-08-02T13:05:20Z | TypeScript | Web app | 1 | 30 | 1 | 1 |
 | [wrkout/exercises.json](https://github.com/wrkout/exercises.json) | 563 | 2025-02-16T10:35:27Z | TypeScript | Model/data | 4 | 20 | 4 | 4 |
 | [rameshvarun/netplayjs](https://github.com/rameshvarun/netplayjs) | 562 | 2024-10-10T07:40:04Z | TypeScript | Infrastructure/tooling | 10 | 2 | 10 | 10 |

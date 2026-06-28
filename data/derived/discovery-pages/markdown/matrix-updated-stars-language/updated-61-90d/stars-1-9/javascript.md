@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 68
-- terms: 585
-- components: 1206
-- concepts: 584
-- observations: 584
+- repos: 80
+- terms: 802
+- components: 1500
+- concepts: 802
+- observations: 802
 
 ## Static behavior
 
@@ -26,6 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [boa-dev/data](https://github.com/boa-dev/data) | 3 | 2026-04-29T03:59:57Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [stdlib-js/repl](https://github.com/stdlib-js/repl) | 5 | 2026-04-29T03:54:05Z | JavaScript | CLI | 19 | 37 | 20 | 20 |
+| [stdlib-js/array-int8](https://github.com/stdlib-js/array-int8) | 2 | 2026-04-29T03:54:02Z | JavaScript | Infrastructure/tooling | 21 | 28 | 21 | 21 |
+| [stdlib-js/array-uint32](https://github.com/stdlib-js/array-uint32) | 1 | 2026-04-29T03:53:34Z | JavaScript | Infrastructure/tooling | 22 | 28 | 22 | 22 |
+| [stdlib-js/array-uint16](https://github.com/stdlib-js/array-uint16) | 2 | 2026-04-29T03:52:33Z | JavaScript | Infrastructure/tooling | 22 | 28 | 22 | 22 |
+| [stdlib-js/array-shared-buffer](https://github.com/stdlib-js/array-shared-buffer) | 3 | 2026-04-29T03:51:32Z | JavaScript | Infrastructure/tooling | 23 | 28 | 23 | 23 |
+| [stdlib-js/array-uint8c](https://github.com/stdlib-js/array-uint8c) | 1 | 2026-04-29T03:51:22Z | JavaScript | Infrastructure/tooling | 23 | 28 | 23 | 23 |
+| [stdlib-js/array-int16](https://github.com/stdlib-js/array-int16) | 1 | 2026-04-29T03:49:09Z | JavaScript | Infrastructure/tooling | 21 | 28 | 21 | 21 |
+| [stdlib-js/array-float64](https://github.com/stdlib-js/array-float64) | 1 | 2026-04-29T03:49:03Z | JavaScript | Infrastructure/tooling | 21 | 27 | 21 | 21 |
+| [stdlib-js/array-int32](https://github.com/stdlib-js/array-int32) | 2 | 2026-04-29T03:46:02Z | JavaScript | Infrastructure/tooling | 21 | 28 | 21 | 21 |
+| [stdlib-js/array-uint8](https://github.com/stdlib-js/array-uint8) | 2 | 2026-04-29T03:43:51Z | JavaScript | Infrastructure/tooling | 23 | 28 | 23 | 23 |
+| [thetutlage/static](https://github.com/thetutlage/static) | 3 | 2026-04-28T12:16:02Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [celo-org/blind-threshold-bls-wasm](https://github.com/celo-org/blind-threshold-bls-wasm) | 9 | 2026-04-27T08:32:49Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [j9t/minifier-benchmarks](https://github.com/j9t/minifier-benchmarks) | 4 | 2026-04-27T06:53:01Z | JavaScript | Web app | 9 | 16 | 9 | 9 |
 | [j9t/compressorjs-next](https://github.com/j9t/compressorjs-next) | 3 | 2026-04-27T06:52:55Z | JavaScript | CLI | 18 | 24 | 18 | 18 |
@@ -117,6 +129,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [metosin/open-source](https://github.com/metosin/open-source) | 6 | 2026-04-24T04:56:42Z | JavaScript | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [eea/bise-frontend](https://github.com/eea/bise-frontend) | 6 | 2026-04-23T18:45:31Z | JavaScript | Infrastructure/tooling | 0 | 43 | 0 | 0 |
 | [Taritsyn/AutoprefixerHost](https://github.com/Taritsyn/AutoprefixerHost) | 6 | 2026-04-14T17:15:22Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [stdlib-js/repl](https://github.com/stdlib-js/repl) | 5 | 2026-04-29T03:54:05Z | JavaScript | CLI | 19 | 37 | 20 | 20 |
 | [eea/fise-frontend](https://github.com/eea/fise-frontend) | 5 | 2026-04-23T18:41:56Z | JavaScript | Infrastructure/tooling | 0 | 46 | 0 | 0 |
 | [agent-sh/agent-core](https://github.com/agent-sh/agent-core) | 5 | 2026-04-14T23:27:14Z | JavaScript | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [kellyselden/boilerplate-update](https://github.com/kellyselden/boilerplate-update) | 5 | 2026-04-10T18:45:11Z | JavaScript | Infrastructure/tooling | 1 | 37 | 1 | 1 |
@@ -130,6 +143,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ehmicky/fetch-node-website](https://github.com/ehmicky/fetch-node-website) | 4 | 2026-04-11T15:03:17Z | JavaScript | CLI | 13 | 12 | 15 | 15 |
 | [agent-sh/next-task](https://github.com/agent-sh/next-task) | 4 | 2026-04-11T03:14:37Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [stdlib-js/ndarray-array](https://github.com/stdlib-js/ndarray-array) | 4 | 2026-04-10T03:58:17Z | JavaScript | Infrastructure/tooling | 19 | 56 | 19 | 19 |
+| [boa-dev/data](https://github.com/boa-dev/data) | 3 | 2026-04-29T03:59:57Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [stdlib-js/array-shared-buffer](https://github.com/stdlib-js/array-shared-buffer) | 3 | 2026-04-29T03:51:32Z | JavaScript | Infrastructure/tooling | 23 | 28 | 23 | 23 |
+| [thetutlage/static](https://github.com/thetutlage/static) | 3 | 2026-04-28T12:16:02Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [j9t/compressorjs-next](https://github.com/j9t/compressorjs-next) | 3 | 2026-04-27T06:52:55Z | JavaScript | CLI | 18 | 24 | 18 | 18 |
 | [newrelic/csec-node-agent](https://github.com/newrelic/csec-node-agent) | 3 | 2026-04-22T22:31:23Z | JavaScript | Infrastructure/tooling | 4 | 55 | 4 | 4 |
 | [locize/locize-lastused](https://github.com/locize/locize-lastused) | 3 | 2026-04-22T21:31:11Z | JavaScript | Infrastructure/tooling | 7 | 25 | 7 | 7 |
@@ -142,6 +158,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agent-sh/enhance](https://github.com/agent-sh/enhance) | 3 | 2026-04-14T23:26:52Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [istanbuljs/schema](https://github.com/istanbuljs/schema) | 3 | 2026-04-13T11:04:17Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [stdlib-js/streams-node-stdin](https://github.com/stdlib-js/streams-node-stdin) | 3 | 2026-04-12T03:41:16Z | JavaScript | Infrastructure/tooling | 12 | 15 | 12 | 12 |
+| [stdlib-js/array-int8](https://github.com/stdlib-js/array-int8) | 2 | 2026-04-29T03:54:02Z | JavaScript | Infrastructure/tooling | 21 | 28 | 21 | 21 |
+| [stdlib-js/array-uint16](https://github.com/stdlib-js/array-uint16) | 2 | 2026-04-29T03:52:33Z | JavaScript | Infrastructure/tooling | 22 | 28 | 22 | 22 |
+| [stdlib-js/array-int32](https://github.com/stdlib-js/array-int32) | 2 | 2026-04-29T03:46:02Z | JavaScript | Infrastructure/tooling | 21 | 28 | 21 | 21 |
+| [stdlib-js/array-uint8](https://github.com/stdlib-js/array-uint8) | 2 | 2026-04-29T03:43:51Z | JavaScript | Infrastructure/tooling | 23 | 28 | 23 | 23 |
 | [eea/eea-website-frontend](https://github.com/eea/eea-website-frontend) | 2 | 2026-04-23T20:40:22Z | JavaScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
 | [certible/superagent-aws-sign](https://github.com/certible/superagent-aws-sign) | 2 | 2026-04-22T19:00:44Z | JavaScript | Infrastructure/tooling | 2 | 16 | 2 | 2 |
 | [recap-utr/arg-services](https://github.com/recap-utr/arg-services) | 2 | 2026-04-21T16:45:52Z | JavaScript | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -154,6 +174,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/streams-node-stdout](https://github.com/stdlib-js/streams-node-stdout) | 2 | 2026-04-12T03:47:56Z | JavaScript | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [hchiam/learning-js](https://github.com/hchiam/learning-js) | 2 | 2026-04-07T02:58:03Z | JavaScript | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [BarMalka/super-pharm-stock-checker](https://github.com/BarMalka/super-pharm-stock-checker) | 2 | 2026-04-05T05:40:41Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [stdlib-js/array-uint32](https://github.com/stdlib-js/array-uint32) | 1 | 2026-04-29T03:53:34Z | JavaScript | Infrastructure/tooling | 22 | 28 | 22 | 22 |
+| [stdlib-js/array-uint8c](https://github.com/stdlib-js/array-uint8c) | 1 | 2026-04-29T03:51:22Z | JavaScript | Infrastructure/tooling | 23 | 28 | 23 | 23 |
+| [stdlib-js/array-int16](https://github.com/stdlib-js/array-int16) | 1 | 2026-04-29T03:49:09Z | JavaScript | Infrastructure/tooling | 21 | 28 | 21 | 21 |
+| [stdlib-js/array-float64](https://github.com/stdlib-js/array-float64) | 1 | 2026-04-29T03:49:03Z | JavaScript | Infrastructure/tooling | 21 | 27 | 21 | 21 |
 | [stdlib-js/buffer-ctor](https://github.com/stdlib-js/buffer-ctor) | 1 | 2026-04-27T03:29:56Z | JavaScript | Infrastructure/tooling | 16 | 20 | 16 | 16 |
 | [stdlib-js/complex-float64-reviver](https://github.com/stdlib-js/complex-float64-reviver) | 1 | 2026-04-22T03:35:44Z | JavaScript | Infrastructure/tooling | 24 | 19 | 25 | 25 |
 | [stdlib-js/proxy-ctor](https://github.com/stdlib-js/proxy-ctor) | 1 | 2026-04-21T05:12:50Z | JavaScript | Infrastructure/tooling | 16 | 19 | 16 | 16 |

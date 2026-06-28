@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 56051,
-    "concepts": 36596,
-    "observations": 36709,
-    "repos": 6167,
-    "terms": 36478
+    "components": 56104,
+    "concepts": 36664,
+    "observations": 36778,
+    "repos": 6173,
+    "terms": 36537
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -2542,6 +2542,7 @@
     "hercules-ci/flake-parts",
     "hermit-os/hermit-rs",
     "hermit-os/kernel",
+    "hermitdave/FrequencyWords",
     "heroku/heroku-buildpack-nodejs",
     "herumi/xbyak",
     "heshengtao/comfyui_LLM_party",
@@ -2757,6 +2758,7 @@
     "InternLM/Tutorial",
     "InternLM/xtuner",
     "InternScience/GraphGen",
+    "interpretml/interpret",
     "intlify/vue-i18n",
     "invertase/melos",
     "invictus717/MetaTransformer",
@@ -2773,6 +2775,7 @@
     "ipfs/js-ipfs",
     "ipfs/specs",
     "ipld/ipld",
+    "ipyflow/ipyflow",
     "ipython-contrib/jupyter_contrib_nbextensions",
     "iree-org/iree",
     "IRkernel/IRkernel",
@@ -3785,6 +3788,7 @@
     "mlabbe/nativefiledialog",
     "mlcommons/training",
     "mlfoundations/open_flamingo",
+    "mljar/mercury",
     "mll-lab-nu/RAGEN",
     "mlmed/torchxrayvision",
     "MLNLP-World/Paper-Writing-Tips",
@@ -3827,6 +3831,7 @@
     "mooman219/fontdue",
     "Mooncake-Labs/pg_mooncake",
     "MoonInTheRiver/DiffSinger",
+    "moonshine-ai/moonshine",
     "MoonshotAI/kimi-cli",
     "MoonshotAI/MoBA",
     "MoonshotAI/Moonlight",
@@ -4891,6 +4896,7 @@
     "roboflow/inference",
     "roboflow/maestro",
     "roboflow/notebooks",
+    "roboflow/rf-detr",
     "roboll/helmfile",
     "roboterax/humanoid-gym",
     "RobotLocomotion/drake",

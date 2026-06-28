@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 795,
-    "concepts": 1634,
-    "observations": 1637,
-    "repos": 906,
-    "terms": 1612
+    "components": 804,
+    "concepts": 1653,
+    "observations": 1656,
+    "repos": 913,
+    "terms": 1637
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -119,6 +119,7 @@
     "andy1621/nightcrawler",
     "Anglebrackets/web_rag",
     "anindita127/Complextext2animation",
+    "anishmadan23/foundational_fsod",
     "AnonymousCervine/depth-image-io-for-SDWebui",
     "AnonymouX47/termvisage",
     "AnswerDotAI/fastkmeans",
@@ -203,6 +204,7 @@
     "boschresearch/DroidCalib",
     "boukhayma/face_normals",
     "box2ai-robotics/lerobot-joycon",
+    "brdav/refign",
     "breezedeus/CnMFD_Dataset",
     "breezedeus/Pix2Text-Mac",
     "brentyi/dfgo",
@@ -461,6 +463,7 @@
     "HDETR/H-PETR-3D",
     "HDETR/H-PETR-Pose",
     "heimoshuiyu/whisper-fastapi",
+    "HeliosZhao/SHADE",
     "heyudage/VoiceTyping",
     "hhj1897/face_alignment",
     "hhj1897/face_detection",
@@ -680,6 +683,7 @@
     "nv-tlabs/DIB-R-Single-Image-3D-Reconstruction",
     "NVIDIA/pynvrtc",
     "OFA-Sys/TouchStone",
+    "okuvshynov/cubestat",
     "opea-project/docs",
     "open-mmlab/mim-example",
     "open-thought/reasoning-gym-eval",
@@ -722,6 +726,7 @@
     "prathebaselva/FORA",
     "priest-yang/VADv2",
     "project-numina/kimina-prover-rl",
+    "PruneTruong/GOCor",
     "psunlpgroup/VisOnlyQA",
     "purdue-tlt/latex2sympy",
     "pycompression/python-zlib-ng",
@@ -816,6 +821,7 @@
     "successar/Eraser-Benchmark-Baseline-Models",
     "SudeepDasari/data4robotics",
     "superclaude-org/superqwen_framework",
+    "susaha/edaps",
     "SvenskaSpel/locust-swarm",
     "SWE-bench/sb-cli",
     "SWE-Gym/SWE-Bench-Fork",
@@ -888,6 +894,7 @@
     "xg-chu/GAGAvatar_track",
     "xg-chu/lightning_track",
     "Xiaobin-Rong/TRT-SE",
+    "XiSHEN0220/WatermarkReco",
     "xvjiarui/GroupViT",
     "yale-nlp/MMVU",
     "yangjianxin1/unsloth",

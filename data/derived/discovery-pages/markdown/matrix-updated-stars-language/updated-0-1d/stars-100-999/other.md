@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Other
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 35
-- components: 41
-- concepts: 35
-- observations: 35
+- repos: 3
+- terms: 15
+- components: 19
+- concepts: 15
+- observations: 16
 
 ## Static behavior
 
@@ -26,18 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 364 | 2026-06-26T17:20:00Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
-| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-06-26T15:08:01Z | Other | Unknown | 7 | 0 | 7 | 7 |
-| [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 661 | 2026-06-26T14:06:21Z | Other | Infrastructure/tooling | 5 | 15 | 5 | 5 |
-| [JuliaLinearAlgebra/AppleAccelerate.jl](https://github.com/JuliaLinearAlgebra/AppleAccelerate.jl) | 121 | 2026-06-26T14:01:27Z | Other | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [the-database/mpv-AnimeJaNai](https://github.com/the-database/mpv-AnimeJaNai) | 680 | 2026-06-26T11:44:01Z | Other | Infrastructure/tooling | 12 | 9 | 12 | 12 |
+| [dwyl/app](https://github.com/dwyl/app) | 152 | 2026-06-27T16:32:08Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [lambdalisue/vim-nerdfont](https://github.com/lambdalisue/vim-nerdfont) | 148 | 2026-06-27T14:44:47Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 6 |
+| [JuliaGPU/Metal.jl](https://github.com/JuliaGPU/Metal.jl) | 452 | 2026-06-27T13:31:07Z | Other | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [the-database/mpv-AnimeJaNai](https://github.com/the-database/mpv-AnimeJaNai) | 680 | 2026-06-26T11:44:01Z | Other | Infrastructure/tooling | 12 | 9 | 12 | 12 |
-| [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 661 | 2026-06-26T14:06:21Z | Other | Infrastructure/tooling | 5 | 15 | 5 | 5 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 364 | 2026-06-26T17:20:00Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
-| [JuliaLinearAlgebra/AppleAccelerate.jl](https://github.com/JuliaLinearAlgebra/AppleAccelerate.jl) | 121 | 2026-06-26T14:01:27Z | Other | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-06-26T15:08:01Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [JuliaGPU/Metal.jl](https://github.com/JuliaGPU/Metal.jl) | 452 | 2026-06-27T13:31:07Z | Other | Infrastructure/tooling | 8 | 10 | 8 | 8 |
+| [dwyl/app](https://github.com/dwyl/app) | 152 | 2026-06-27T16:32:08Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [lambdalisue/vim-nerdfont](https://github.com/lambdalisue/vim-nerdfont) | 148 | 2026-06-27T14:44:47Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 6 |

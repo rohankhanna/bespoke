@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2197,
-    "concepts": 2042,
-    "observations": 2048,
-    "repos": 874,
-    "terms": 2030
+    "components": 2200,
+    "concepts": 2052,
+    "observations": 2058,
+    "repos": 878,
+    "terms": 2040
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -51,6 +51,7 @@
     "ademanuele/VSMac-CodeCoverage",
     "adobe-photoshop/generator-panels",
     "adobe-type-tools/aots",
+    "adospace/litedbpad",
     "ag1988/dss",
     "agilord/ulid",
     "ahonn/shadow-electron-starter",
@@ -586,6 +587,7 @@
     "lumen-oss/rtp.nvim",
     "lunayach/visNER",
     "Lyceum/MuJoCo.jl",
+    "m-j-w/CpuId.jl",
     "mahmoudnafifi/Interactive_WB_correction",
     "maks/dart_repl",
     "Mange/emoji-data",
@@ -826,6 +828,7 @@
     "trapd00r/vim-syntax-vidir-ls",
     "travis-ci/gh",
     "travis-ci/travis-listener",
+    "travis-ci/travis-logs",
     "travis-ci/travis-scheduler",
     "TroyHernandez/tinyspotifyr",
     "UBC-NLP/serengeti",
@@ -847,6 +850,7 @@
     "verbiiyo/rigl-torch",
     "verbiiz/rigl-torch",
     "vharmain/nbb-serverless-example",
+    "viafintech/gcra-ruby",
     "vim-denops/denops-shared-server.vim",
     "viperproject/axiom-profiler",
     "virtual-puppet-project/mouse-tracker",

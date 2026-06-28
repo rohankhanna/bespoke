@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 5,
-    "terms": 50
+    "components": 81,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 6,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "apache/casbin",
     "gastownhall/gastown",
     "git-lfs/git-lfs",
+    "moby/moby",
     "podman-container-tools/podman",
     "redis/go-redis"
   ]

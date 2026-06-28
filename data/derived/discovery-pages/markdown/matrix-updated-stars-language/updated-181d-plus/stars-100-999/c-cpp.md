@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,8 +12,8 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 410
-- terms: 1358
+- repos: 411
+- terms: 1357
 - components: 792
 - concepts: 1378
 - observations: 1381
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ros-perception/vision_opencv](https://github.com/ros-perception/vision_opencv) | 660 | 2025-12-29T16:08:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Improbable-AI/VisionProTeleop](https://github.com/Improbable-AI/VisionProTeleop) | 765 | 2025-12-28T02:18:18Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [avaneev/prvhash](https://github.com/avaneev/prvhash) | 326 | 2025-12-25T17:53:39Z | C/C++ | Unknown | 17 | 0 | 17 | 17 |
 | [ejoy/lua](https://github.com/ejoy/lua) | 116 | 2025-12-23T15:58:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -318,7 +319,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yuanming-hu/taichi](https://github.com/yuanming-hu/taichi) | 411 | 2023-09-16T14:39:21Z | C/C++ | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [bigcode-project/starcoder.cpp](https://github.com/bigcode-project/starcoder.cpp) | 458 | 2023-09-09T16:54:50Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [PotatoOfDoom/CyberFSR2](https://github.com/PotatoOfDoom/CyberFSR2) | 619 | 2023-09-05T20:34:07Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 635 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 21 | 19 | 21 | 21 |
+| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 635 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 20 | 19 | 21 | 21 |
 | [tsattler/RansacLib](https://github.com/tsattler/RansacLib) | 383 | 2023-08-31T15:25:26Z | C/C++ | Template/starter | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/Discregrid](https://github.com/InteractiveComputerGraphics/Discregrid) | 312 | 2023-08-31T10:30:00Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [Koihik/LuaFormatter](https://github.com/Koihik/LuaFormatter) | 801 | 2023-08-25T16:37:49Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -525,6 +526,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lemire/fast_double_parser](https://github.com/lemire/fast_double_parser) | 669 | 2025-05-27T16:45:05Z | C/C++ | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [rrwick/Bandage](https://github.com/rrwick/Bandage) | 669 | 2022-12-03T10:06:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Slamtec/rplidar_ros](https://github.com/Slamtec/rplidar_ros) | 662 | 2025-04-27T08:40:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [ros-perception/vision_opencv](https://github.com/ros-perception/vision_opencv) | 660 | 2025-12-29T16:08:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [karimnaaji/voxelizer](https://github.com/karimnaaji/voxelizer) | 660 | 2022-01-03T20:52:52Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [nobleo/rviz_satellite](https://github.com/nobleo/rviz_satellite) | 659 | 2025-12-18T12:37:39Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [YuePanEdward/MULLS](https://github.com/YuePanEdward/MULLS) | 652 | 2024-01-17T15:36:47Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -532,7 +534,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TTimo/GtkRadiant](https://github.com/TTimo/GtkRadiant) | 639 | 2024-08-18T14:50:27Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Livox-SDK/Livox-SDK](https://github.com/Livox-SDK/Livox-SDK) | 638 | 2024-12-17T13:20:09Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [danfis/libccd](https://github.com/danfis/libccd) | 636 | 2023-12-04T14:46:54Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 635 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 21 | 19 | 21 | 21 |
+| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 635 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 20 | 19 | 21 | 21 |
 | [libbitcoin/libbitcoin-explorer](https://github.com/libbitcoin/libbitcoin-explorer) | 634 | 2024-03-01T22:16:22Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [axodox/axodox-machinelearning](https://github.com/axodox/axodox-machinelearning) | 631 | 2025-05-29T17:26:00Z | C/C++ | Model/data | 12 | 0 | 12 | 12 |
 | [twhui/LiteFlowNet](https://github.com/twhui/LiteFlowNet) | 629 | 2023-03-21T07:13:27Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |

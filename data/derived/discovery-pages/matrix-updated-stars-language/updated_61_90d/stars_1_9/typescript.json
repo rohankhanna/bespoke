@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 897,
-    "concepts": 118,
-    "observations": 118,
-    "repos": 41,
-    "terms": 127
+    "components": 984,
+    "concepts": 170,
+    "observations": 170,
+    "repos": 47,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
+    "8hobbies/vite-plugin-year",
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
     "aporthq/aport-spec",
@@ -28,16 +29,20 @@
     "danielrosehill/GreenInvoice-MCP",
     "dreamiurg/mountaineers-assistant",
     "dreamiurg/mountaineers-mcp",
-    "dylibso/xtp-cpp-bindgen",
     "ember-cli/ember-addon-blueprint",
     "enxs969/skiller",
+    "filecoin-project/github-mgmt",
     "haskell-actions/hlint-run",
     "haskell-actions/hlint-setup",
     "hchiam/how-draggable",
+    "ipfs-shipyard/github-mgmt",
     "ipfs/helia-remote-pinning",
+    "ipld/github-mgmt",
+    "ipshipyard/github-mgmt",
     "kimosahy/railroaded",
     "klodr/mercury-invoicing-mcp",
     "LogtalkDotOrg/logtalk-for-vscode",
+    "multiformats/github-mgmt",
     "neuroverseos/neuroverseos-governance",
     "nicolo-ribaudo/engine262",
     "oclif/plugin-commands",
@@ -54,6 +59,7 @@
     "toyamarinyon/giselle",
     "ublacklist/builtin",
     "ublacklist/ublacklist.github.io",
-    "vincent-k2026/codachi"
+    "vincent-k2026/codachi",
+    "webdriverio/devtools"
   ]
 }

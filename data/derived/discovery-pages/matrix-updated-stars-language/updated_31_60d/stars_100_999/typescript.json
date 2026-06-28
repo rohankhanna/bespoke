@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3752,
-    "concepts": 766,
-    "observations": 768,
-    "repos": 104,
-    "terms": 761
+    "components": 3617,
+    "concepts": 736,
+    "observations": 738,
+    "repos": 98,
+    "terms": 731
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -33,9 +33,7 @@
     "carbon-design-system/sveld",
     "chainguard-dev/actions",
     "ClickHouse/clickhouse-js",
-    "cocos/cocos-docs",
     "cosmos/cosmjs",
-    "danielroe/beasties",
     "decentralized-identity/did-resolver",
     "dydxprotocol/v4-web",
     "electron-vite/vite-plugin-electron",
@@ -48,7 +46,6 @@
     "folke/esbuild-runner",
     "foundry-rs/foundry-toolchain",
     "ftonato/nope-validator",
-    "fullcalendar/temporal-polyfill",
     "glassflow/clickhouse-etl",
     "Gnathonic/mokuro-reader",
     "gradle/actions",
@@ -59,10 +56,7 @@
     "intlify/bundle-tools",
     "intlify/eslint-plugin-vue-i18n",
     "inversify/monorepo",
-    "ipfs/js-ipfsd-ctl",
     "jbaubree/vite-plugin-sitemap",
-    "jsonwebtoken/jsonwebtoken.github.io",
-    "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
     "Koenkk/zigbee-herdsman",
     "lambdalisue/vim-gin",
@@ -81,7 +75,6 @@
     "nonara/ts-patch",
     "nurikk/zigbee2mqtt-frontend",
     "nuxt/bridge",
-    "oclif/core",
     "octokit/action.js",
     "octokit/app.js",
     "octokit/auth-app.js",
@@ -99,6 +92,7 @@
     "sapphiredev/utilities",
     "serversideup/webext-bridge",
     "SkepticMystic/breadcrumbs",
+    "skilld-dev/skilld",
     "smithy-lang/smithy-typescript",
     "sumup-oss/circuit-ui",
     "TanStack/config",

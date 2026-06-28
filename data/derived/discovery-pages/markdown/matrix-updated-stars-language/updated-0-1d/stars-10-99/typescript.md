@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-27T08:47:42Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-27T00:35:37Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
+| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-27T21:41:56Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
+| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-27T11:11:29Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-27T00:35:37Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-27T08:47:42Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
+| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-27T11:11:29Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
+| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-27T21:41:56Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |

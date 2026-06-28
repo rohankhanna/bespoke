@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-06-28T06:00:49.703736+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 190
-- terms: 551
-- components: 4267
-- concepts: 540
-- observations: 541
+- repos: 192
+- terms: 552
+- components: 4287
+- concepts: 541
+- observations: 542
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [isaacs/clock-mock](https://github.com/isaacs/clock-mock) | 13 | 2025-12-29T19:09:23Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
+| [atom-yang/aumi](https://github.com/atom-yang/aumi) | 12 | 2025-12-29T12:19:29Z | TypeScript | Unknown | 0 | 8 | 0 | 0 |
 | [aigc3d/LAM_WebRender](https://github.com/aigc3d/LAM_WebRender) | 55 | 2025-12-25T08:38:15Z | TypeScript | Web app | 0 | 4 | 0 | 0 |
 | [signalfx/opentelemetry-demo](https://github.com/signalfx/opentelemetry-demo) | 10 | 2025-12-19T21:21:11Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [nanostores/angular](https://github.com/nanostores/angular) | 13 | 2025-12-18T10:50:36Z | TypeScript | Infrastructure/tooling | 1 | 33 | 1 | 1 |
@@ -380,6 +382,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ljacobsson/cw-logs-insights-snippets](https://github.com/ljacobsson/cw-logs-insights-snippets) | 15 | 2023-02-28T16:28:12Z | TypeScript | Service/API | 2 | 0 | 2 | 2 |
 | [instana/opentelemetry-demo](https://github.com/instana/opentelemetry-demo) | 14 | 2025-11-27T17:03:51Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [spacemeshos/local-testnet](https://github.com/spacemeshos/local-testnet) | 14 | 2023-01-06T11:16:04Z | TypeScript | CLI | 4 | 27 | 4 | 4 |
+| [isaacs/clock-mock](https://github.com/isaacs/clock-mock) | 13 | 2025-12-29T19:09:23Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [nanostores/angular](https://github.com/nanostores/angular) | 13 | 2025-12-18T10:50:36Z | TypeScript | Infrastructure/tooling | 1 | 33 | 1 | 1 |
 | [iohub/OpenCopilot](https://github.com/iohub/OpenCopilot) | 13 | 2025-03-07T14:45:10Z | TypeScript | Infrastructure/tooling | 1 | 72 | 1 | 1 |
 | [ErKeLost/squoosh-node-latest](https://github.com/ErKeLost/squoosh-node-latest) | 13 | 2024-12-13T08:24:11Z | TypeScript | Infrastructure/tooling | 1 | 39 | 1 | 1 |
@@ -389,6 +392,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alixdehghani/echarts-for-angular](https://github.com/alixdehghani/echarts-for-angular) | 13 | 2023-03-21T16:24:00Z | TypeScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
 | [joenye/coc-cfn-lint](https://github.com/joenye/coc-cfn-lint) | 13 | 2023-03-15T02:24:38Z | TypeScript | Unknown | 11 | 20 | 12 | 12 |
 | [lautarobock/inversify-agenda](https://github.com/lautarobock/inversify-agenda) | 13 | 2023-03-04T03:55:15Z | TypeScript | Unknown | 0 | 8 | 0 | 0 |
+| [atom-yang/aumi](https://github.com/atom-yang/aumi) | 12 | 2025-12-29T12:19:29Z | TypeScript | Unknown | 0 | 8 | 0 | 0 |
 | [storybookjs/addon-cssresources](https://github.com/storybookjs/addon-cssresources) | 12 | 2025-11-12T11:39:30Z | TypeScript | Infrastructure/tooling | 3 | 40 | 3 | 3 |
 | [lenml/gcp-claude-openai-api-server](https://github.com/lenML/gcp-claude-openai-api-server) | 12 | 2024-10-23T16:05:40Z | TypeScript | Infrastructure/tooling | 1 | 31 | 0 | 0 |
 | [celo-org/rainbowkit-celo](https://github.com/celo-org/rainbowkit-celo) | 12 | 2024-09-30T16:51:30Z | TypeScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |

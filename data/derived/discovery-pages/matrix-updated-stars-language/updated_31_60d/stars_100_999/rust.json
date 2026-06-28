@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 734,
-    "concepts": 510,
-    "observations": 514,
-    "repos": 71,
-    "terms": 508
+    "components": 687,
+    "concepts": 471,
+    "observations": 474,
+    "repos": 66,
+    "terms": 470
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
@@ -27,7 +27,6 @@
     "base/base",
     "boquila/boquilahub",
     "cargo-bins/cargo-quickinstall",
-    "cargo-public-api/cargo-public-api",
     "cobalt-org/liquid-rust",
     "conda/rattler",
     "cosmos/solidity-ibc-eureka",
@@ -58,7 +57,6 @@
     "left-curve/left-curve",
     "lindera/lindera",
     "matter-labs/zksync-airbender",
-    "MercuryTechnologies/ghciwatch",
     "mozilla/application-services",
     "near/near-cli-rs",
     "near/near-sdk-rs",
@@ -72,13 +70,10 @@
     "quickwit-oss/tantivy-py",
     "rust-diplomat/diplomat",
     "rust-lang/stdarch",
-    "RustCrypto/crypto-bigint",
     "RustCrypto/elliptic-curves",
-    "RustCrypto/traits",
     "specta-rs/specta",
     "specta-rs/tauri-specta",
     "supabase/wrappers",
-    "tinted-theming/tinty",
     "utilityai/llama-cpp-rs",
     "vectordotdev/vrl",
     "z-galaxy/zbus",

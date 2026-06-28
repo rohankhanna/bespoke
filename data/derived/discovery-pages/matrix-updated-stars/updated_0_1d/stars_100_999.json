@@ -1,47 +1,27 @@
 {
   "counts": {
-    "components": 348,
-    "concepts": 214,
-    "observations": 214,
-    "repos": 30,
-    "terms": 214
+    "components": 139,
+    "concepts": 68,
+    "observations": 69,
+    "repos": 10,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js",
-    "AI-Hypercomputer/maxdiffusion",
-    "aristoteleo/PantheonOS",
-    "aws-cloudformation/cfn-lint-visual-studio-code",
-    "bazel-contrib/rules_kotlin",
-    "clj-commons/rewrite-clj",
-    "cloudfoundry/credhub",
-    "confluentinc/librdkafka",
-    "eclipse-lsp4j/lsp4j",
-    "eclipse-paho/paho.mqtt.testing",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
-    "EmmyLuaLs/emmylua-analyzer-rust",
+    "dwyl/app",
     "gbionics/idyntree",
-    "google-deepmind/chex",
-    "google-deepmind/xmanager",
     "hexabot-ai/Hexabot",
-    "InsightSoftwareConsortium/ITK-Wasm",
-    "ipsilon/evmone",
-    "JuliaLinearAlgebra/AppleAccelerate.jl",
+    "JuliaGPU/Metal.jl",
+    "lambdalisue/vim-nerdfont",
     "ldproxy/ldproxy",
-    "manzt/anywidget",
     "matter-js/matter.js",
     "mightyiam/eslint-config-love",
-    "NCAS-CMS/pyfive",
-    "ROCm/hipBLASLt",
-    "scverse/rapids-singlecell",
     "servo/stylo",
-    "spring-projects/spring-tools",
-    "the-database/mpv-AnimeJaNai",
     "unplugin/unplugin-imagemin"
   ]
 }

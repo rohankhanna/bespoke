@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 150,
-    "observations": 150,
-    "repos": 64,
-    "terms": 146
+    "components": 230,
+    "concepts": 156,
+    "observations": 156,
+    "repos": 68,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -29,6 +29,9 @@
     "countries/countries-data-yaml",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
     "DanielSmith1239/KosherSwift",
+    "dylibso/xtp-csharp-bindgen",
+    "dylibso/xtp-go-bindgen",
+    "dylibso/xtp-python-bindgen",
     "elixir-makeup/makeup_erlang",
     "empriselab/kortex_description",
     "erwin-kok/multiformat",
@@ -46,6 +49,7 @@
     "joeldrapper/dispersion",
     "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaBinaryWrappers/Zlib_jll.jl",
+    "JuliaParallel/NetworkInterfaceControllers.jl",
     "Jumziey/neotest-nix-unit.nvim",
     "litex-hub/pythondata-cpu-vexriscv",
     "lumen-oss/luarocks-build-treesitter-parser",

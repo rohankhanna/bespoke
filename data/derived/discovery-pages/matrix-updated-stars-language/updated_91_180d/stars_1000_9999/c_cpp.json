@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 410,
-    "concepts": 531,
-    "observations": 532,
-    "repos": 97,
-    "terms": 523
+    "components": 412,
+    "concepts": 538,
+    "observations": 539,
+    "repos": 98,
+    "terms": 530
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -33,7 +33,6 @@
     "cameron314/readerwriterqueue",
     "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",
-    "cjlin1/liblinear",
     "cocos/cocos-engine",
     "coin-or/Ipopt",
     "colmap/glomap",
@@ -57,6 +56,7 @@
     "gulrak/filesystem",
     "hku-mars/FAST-LIVO2",
     "hpjansson/chafa",
+    "hufrea/byedpi",
     "icecc/icecream",
     "ioquake/ioq3",
     "jedisct1/minisign",
@@ -84,6 +84,7 @@
     "NVIDIA/gdrcopy",
     "onnx/onnx-tensorrt",
     "OpenNMT/CTranslate2",
+    "Overv/VulkanTutorial",
     "pellepl/spiffs",
     "pganalyze/libpg_query",
     "pisa-engine/pisa",

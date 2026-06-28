@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 216,
-    "concepts": 217,
-    "observations": 218,
-    "repos": 24,
-    "terms": 217
+    "components": 341,
+    "concepts": 284,
+    "observations": 285,
+    "repos": 34,
+    "terms": 284
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,41 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "adtzlr/felupe",
+    "AI-Hypercomputer/maxdiffusion",
     "andfoy/pywinpty",
     "ansys/pymapdl",
     "aramis-lab/clinica",
     "aramis-lab/clinicadl",
+    "aristoteleo/PantheonOS",
     "ashawkey/kiuikit",
     "BBC-Esq/Faster-Whisper-Transcriber",
     "bjlittle/geovista",
     "claritychallenge/clarity",
     "Comfy-Org/comfy-cli",
+    "eclipse-paho/paho.mqtt.testing",
     "facebookresearch/MHR",
     "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
     "gbionics/jaxsim",
+    "google-deepmind/chex",
+    "google-deepmind/xmanager",
     "googlefonts/ufo2ft",
+    "InsightSoftwareConsortium/ITK-Wasm",
     "Jamorim-esss/pytest-rich",
     "jupyter-server/jupyter_server",
+    "manzt/anywidget",
     "meta-pytorch/torchft",
+    "NCAS-CMS/pyfive",
     "NVIDIA-NeMo/Automodel",
     "PyCQA/autoflake",
     "pylint-dev/pylint-django",
+    "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
+    "scverse/rapids-singlecell",
     "tox-dev/filelock"
   ]
 }

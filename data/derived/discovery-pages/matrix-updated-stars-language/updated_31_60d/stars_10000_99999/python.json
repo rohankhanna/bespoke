@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 570,
-    "concepts": 599,
-    "observations": 601,
-    "repos": 50,
-    "terms": 593
+    "components": 548,
+    "concepts": 578,
+    "observations": 580,
+    "repos": 48,
+    "terms": 573
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -48,7 +48,6 @@
     "psf/requests",
     "pypa/pipenv",
     "pypa/pipx",
-    "python-pillow/Pillow",
     "python-poetry/poetry",
     "roboflow/supervision",
     "RVC-Boss/GPT-SoVITS",
@@ -58,7 +57,6 @@
     "Skyvern-AI/skyvern",
     "StevenBlack/hosts",
     "sympy/sympy",
-    "treeverse/dvc",
     "triton-inference-server/server",
     "unclecode/crawl4ai",
     "unifyai/ivy",

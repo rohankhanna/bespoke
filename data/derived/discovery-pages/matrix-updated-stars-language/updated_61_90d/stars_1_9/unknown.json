@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 70,
-    "terms": 89
+    "components": 48,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 73,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-27T10:09:45.922953+00:00",
+  "generated_at": "2026-06-28T06:00:49.703736+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -45,6 +45,7 @@
     "danielrosehill/Claude-AI-Attribution-Plugin",
     "danielrosehill/Claude-Code-Plugins",
     "danielrosehill/Claude-Data-Analyst-plugin",
+    "danielrosehill/Claude-Ideation-Planning-Plugin",
     "danielrosehill/Claude-Legal-Investigative-Plugin",
     "danielrosehill/Claude-LLM-Council-Creator-Plugin",
     "danielrosehill/Claude-PR-Media-Work-Plugin",
@@ -56,11 +57,13 @@
     "danielrosehill/Prompt-Libraries-Index",
     "danielrosehill/Resources-Lists-Index",
     "danielrosehill/Subindices",
+    "danielrosehill/Therapy-Tracking-Plugin",
     "danielrosehill/Useful-AI-Agent-Skills",
     "datachainlab/yui-relayer-build",
     "dmBots/DM-J4310-2EC",
     "dpc/crev-proofs",
     "eddelbuettel/r2u-config",
+    "emacs-straight/gnu-elpa-mirror",
     "eslint/.github",
     "eternahybridexchange/eterna-mcp",
     "flathub/org.gnome.eog",
@@ -74,11 +77,11 @@
     "leeyeel/gltfOverview-Chinese",
     "llvm/torch-mlir-release",
     "nodejs/web-team",
-    "nttstar/insightface-resources",
     "oobabooga/screenshots",
     "openwebdocs/mdn-bcd-results",
     "piebald-ai/piebald-issues",
     "psmux/scoop-omp-manager",
+    "puppetlabs/.github",
     "scalar/starter",
     "ScoopInstaller/.github",
     "sigstore/architecture-docs",
