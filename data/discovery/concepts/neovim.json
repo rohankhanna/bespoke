@@ -22105,11 +22105,107 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": null,
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/nurr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

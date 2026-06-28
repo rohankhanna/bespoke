@@ -41011,11 +41011,155 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": null,
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "litedb-org/LiteDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -7438,11 +7438,53 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/node_build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "geotiffjs/geotiff.js"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

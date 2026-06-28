@@ -1,7 +1,7 @@
 {
   "component": "jreleaser/release-action@90ac653bb9c79d11179e65d81499f3f34527dcd5",
   "first_seen_at": "2026-05-30T00:44:22.415230+00:00",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

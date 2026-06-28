@@ -1,7 +1,7 @@
 {
   "component": "athombv/github-action-homey-app-version@master",
   "first_seen_at": "2026-05-14T18:43:37.154551+00:00",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

@@ -11490,11 +11490,47 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust-lang/packed_simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

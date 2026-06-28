@@ -706,11 +706,17 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": null,
       "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

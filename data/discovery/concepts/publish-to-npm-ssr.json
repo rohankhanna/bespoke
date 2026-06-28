@@ -388,11 +388,17 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": ".github/workflows/publish-ssr.yml",
       "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/publish-ssr.yml",
+      "source_repo": "antvis/GPT-Vis"
     }
   ],
   "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

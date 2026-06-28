@@ -538,11 +538,17 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": ".github/workflows/autopublish.yaml",
       "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/autopublish.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

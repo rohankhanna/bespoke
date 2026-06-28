@@ -48,7 +48,7 @@
   "normalized_form": "update-flake-lock",
   "observation_id": "0601e7840c83efd7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-28T00:47:22.872104+00:00",
   "observed_text": "update-flake-lock",
   "source_context_snippet": "update-flake-lock",
   "source_file": ".github/workflows/update.yml",

@@ -1259,11 +1259,17 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": ".github/workflows/issue-close-require.yml",
       "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/lobe-cli-toolbox"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

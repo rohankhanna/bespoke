@@ -6064,11 +6064,23 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "mity/acutest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

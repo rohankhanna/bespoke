@@ -1,7 +1,7 @@
 {
   "component": "vitest-fail-on-console",
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

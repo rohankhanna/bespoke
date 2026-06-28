@@ -48,7 +48,7 @@
   "normalized_form": "store-sync-review",
   "observation_id": "41ac88f354b89ce0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T18:32:46.721236+00:00",
+  "observed_at": "2026-06-28T00:47:22.872104+00:00",
   "observed_text": "store-sync-review",
   "source_context_snippet": "store-sync-review",
   "source_file": ".github/workflows/store-sync-review.yml",

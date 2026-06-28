@@ -340,11 +340,17 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": ".github/workflows/homey-app-version.yml",
       "source_repo": "athombv/com.athom.matter-bridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": ".github/workflows/homey-app-version.yml",
+      "source_repo": "athombv/com.athom.matter-bridge"
     }
   ],
   "first_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [
     "datamuse"
   ],

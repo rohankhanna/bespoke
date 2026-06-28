@@ -81,7 +81,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T19:04:50.403274+00:00",
+  "fetched_at": "2026-06-28T01:00:38.093830+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -102,14 +102,14 @@
     "html_url": "https://github.com/Watfaq/PowerSession",
     "language": "C#",
     "pushed_at": "2023-03-08T09:04:02Z",
-    "stargazers_count": 162,
+    "stargazers_count": 163,
     "topics": [
       "asciinema",
       "conpty",
       "powersession",
       "powershell"
     ],
-    "updated_at": "2026-06-25T16:36:27Z"
+    "updated_at": "2026-06-27T21:09:01Z"
   },
   "repo_links": [
     {

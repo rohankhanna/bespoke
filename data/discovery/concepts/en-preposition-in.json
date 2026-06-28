@@ -1100,11 +1100,17 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": "vocabulary/english/stable-closed-classes.json",
       "source_repo": "seed:english"
+    },
+    {
+      "discovered_via": "seeded-language-entity",
+      "observed_at": "2026-06-28T00:47:22.872104+00:00",
+      "source_file": "vocabulary/english/stable-closed-classes.json",
+      "source_repo": "seed:english"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "seeded-stable",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "lexical_providers": [],
   "lexical_status": "unresolved",
   "possible_senses": [

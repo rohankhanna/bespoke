@@ -84,7 +84,7 @@
   "normalized_form": "windows-arm64-tests",
   "observation_id": "6bb70fb8365a0237",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T18:32:46.721236+00:00",
+  "observed_at": "2026-06-28T00:47:22.872104+00:00",
   "observed_text": "Windows arm64 tests",
   "source_context_snippet": "Windows arm64 tests",
   "source_file": ".github/workflows/windows_build_arm.yml",

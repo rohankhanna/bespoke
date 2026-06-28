@@ -1,7 +1,7 @@
 {
   "component": "electron-updater",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
