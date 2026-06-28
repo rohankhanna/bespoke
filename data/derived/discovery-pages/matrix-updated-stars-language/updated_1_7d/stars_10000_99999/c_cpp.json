@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 6,
-    "terms": 76
+    "components": 70,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 5,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
-    "apache/brpc",
     "argotorg/solidity",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",

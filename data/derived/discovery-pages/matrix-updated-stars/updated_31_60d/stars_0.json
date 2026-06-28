@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 210,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 51,
-    "terms": 65
+    "concepts": 62,
+    "observations": 62,
+    "repos": 49,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -21,12 +21,12 @@
     "atsushieno/aap-lv2-string-machine",
     "clearml/clearml-agent-bootstrap",
     "csm-actions/demo-client",
+    "cvxpy/examples",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
-    "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Dev-Tools-Plugin",
     "danielrosehill/Claude-Digital-Evidence-Plugin",
@@ -36,12 +36,10 @@
     "danielrosehill/Claude-Get-Toony-Plugin",
     "danielrosehill/Claude-GIMP-Plugin",
     "danielrosehill/Claude-Gist-Writer-Plugin",
-    "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
     "danielrosehill/Claude-Hopper",
-    "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
     "danielrosehill/Claude-Keyboard-Scanner",
     "danielrosehill/Claude-License-Populator-Plugin",
     "danielrosehill/Claude-Linux-AV-Manager-Plugin",

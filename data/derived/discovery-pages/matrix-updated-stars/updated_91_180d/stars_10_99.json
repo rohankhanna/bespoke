@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3481,
-    "concepts": 2088,
-    "observations": 2095,
-    "repos": 703,
-    "terms": 2084
+    "components": 3487,
+    "concepts": 2090,
+    "observations": 2097,
+    "repos": 704,
+    "terms": 2086
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -139,6 +139,7 @@
     "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
     "baerwang/openapi-rs",
+    "BAI-LAB/Survey-on-AI-Memory",
     "bartp5/libtexprintf",
     "bartventer/httpcache",
     "bazelbuild/java_tools",
@@ -151,6 +152,7 @@
     "Birch-san/box2d3-wasm",
     "BirolLab/tigmint",
     "blaine/fantastty",
+    "bobbylight/RSTALanguageSupport",
     "bobbylight/RSTAUI",
     "bokeh/tutorial",
     "bombsimon/logrusr",
@@ -177,7 +179,6 @@
     "caprica/vlcj-examples",
     "casparwylie/cascii-server",
     "catppuccin/atuin",
-    "ccslykx/Starry",
     "cedar-policy/rfcs",
     "chaijs/assertion-error",
     "chaijs/check-error",

@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 144,
-    "concepts": 84,
-    "observations": 84,
-    "repos": 19,
-    "terms": 84
+    "components": 159,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 21,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "andfoy/winpty-rs",
     "ANTsX/ANTsRCore",
     "asdf-community/asdf-pdm",
     "corgi-emacs/corgi-packages",
     "freesurfer/freebrowse",
+    "honwen/openwrt-dnsmasq-extra",
     "itt-ustutt/num-dual",
     "Jaded-Encoding-Thaumaturgy/vs-jetpack",
     "kurrent-io/KurrentDB-Client-Rust",
@@ -31,6 +32,7 @@
     "ros-infrastructure/ros-apt-source",
     "symgraph/BinAssistMCP",
     "tinted-theming/tinted-xresources",
-    "wamp-proto/wamp-xbr"
+    "wamp-proto/wamp-xbr",
+    "zhouwg/ggml-hexagon"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 340,
     "concepts": 201,
     "observations": 201,
-    "repos": 91,
+    "repos": 93,
     "terms": 201
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
     "actboy168/ltest",
     "ada-url/kotlin",
+    "aimeos/ai-monolog",
     "alstafeev/midscene-java",
     "ankane/cbc-ruby",
     "ankane/clp-ruby",
@@ -82,6 +83,7 @@
     "konnov/apalache-examples",
     "lahma/test262-harness-dotnet",
     "lemire/unicode_lipsum",
+    "localstack/homebrew-tap",
     "marcindulak/learning-api-styles-gen-ai-experiments",
     "Mbed-TLS/mbedtls-test",
     "microsoft/LinuxTracepoints-Net",

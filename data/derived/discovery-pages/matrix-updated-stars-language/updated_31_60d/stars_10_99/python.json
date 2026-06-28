@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 271,
-    "concepts": 170,
-    "observations": 170,
-    "repos": 49,
-    "terms": 168
+    "components": 264,
+    "concepts": 162,
+    "observations": 162,
+    "repos": 46,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
     "All-Hands-AI/OpenHands-Cloud",
@@ -39,7 +39,6 @@
     "Hiroshiba/voicevox_engine",
     "jfly/shtuff",
     "LedgerHQ/ragger",
-    "lhj5426/YSG",
     "MGenAI/GRN",
     "microsoft/olive-recipes",
     "mlcommons/logging",
@@ -56,8 +55,6 @@
     "redis/docs",
     "regro/cf-scripts",
     "scipy/scipy.org",
-    "sigstore/sigstore-conformance",
-    "sublimelsp/LSP-volar",
     "TaWald/nnUNet",
     "Thinklab-SJTU/Bench2Drive-Speed",
     "tomMoral/loky",

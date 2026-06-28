@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1316,
-    "concepts": 833,
-    "observations": 835,
-    "repos": 324,
-    "terms": 828
+    "concepts": 838,
+    "observations": 840,
+    "repos": 326,
+    "terms": 833
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -141,6 +141,7 @@
     "databendlabs/watcher",
     "datachainlab/ethereum-ibc-relay-prover",
     "datachainlab/parlia-elc",
+    "datachainlab/yui-relayer-build",
     "datafuse-extras/xorfilter",
     "datajuicer/data-juicer-sandbox",
     "DavidKinder/Glulxe",
@@ -219,6 +220,7 @@
     "KabakaWilliam/trajectorykit",
     "karpeleslab/tpl",
     "kornia/data",
+    "lab-cosmo/.github",
     "lace/entente",
     "lace/hobart",
     "langchain-ai/.github",

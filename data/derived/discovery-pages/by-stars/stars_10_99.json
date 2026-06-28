@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 29036,
-    "concepts": 15720,
-    "observations": 15773,
-    "repos": 5648,
-    "terms": 15709
+    "components": 29040,
+    "concepts": 15724,
+    "observations": 15777,
+    "repos": 5651,
+    "terms": 15714
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1655,6 +1655,7 @@
     "cvat-ai/datumaro",
     "cvg/Mask3D",
     "cvlab-epfl/wide-depth-range-pose",
+    "cvlab-kaist/CATs-PlusPlus",
     "cvlab-yonsei/JoEm",
     "CVMI-Lab/SlotCon",
     "CVMI-Lab/SlotMIM",
@@ -2942,6 +2943,7 @@
     "InternScience/AdaptiveDiffusion",
     "InternScience/SciReason",
     "InternScience/SeedBench",
+    "interpretml/ebm2onnx",
     "interstar/Patterning",
     "interstar/Patterning-Core",
     "interstar/ThoughtStorms",
@@ -3226,6 +3228,7 @@
     "juanluisbaptiste/apachebench-graphs",
     "judofyr/duktape.rb",
     "JuergenFleiss/atrain_core",
+    "juhongm999/dhpf",
     "julia-actions/cache",
     "julia-actions/install-juliaup",
     "julia-actions/julia-format",
@@ -4526,7 +4529,6 @@
     "PyCQA/bandit-action",
     "pydantic/hooky",
     "pydantic/strict-no-cover",
-    "PyMesh/carve",
     "pyocd/libusb-package",
     "pyodide/pyodide-build",
     "pyodide/pytest-pyodide",
@@ -5284,7 +5286,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -5635,6 +5637,7 @@
     "zhayujie/cow-skill-hub",
     "Zhen-Dong/BitPack",
     "zheng977/MutiAgent4Fraud",
+    "ZhenZHAO/iMAS",
     "zhijian-liu/torchpack",
     "zhouwg/ggml-hexagon",
     "ZhuiyiTechnology/GAU-alpha",

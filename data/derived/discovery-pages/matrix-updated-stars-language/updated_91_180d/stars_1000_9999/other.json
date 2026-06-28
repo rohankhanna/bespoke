@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 773,
-    "concepts": 893,
-    "observations": 899,
-    "repos": 169,
-    "terms": 898
+    "components": 787,
+    "concepts": 906,
+    "observations": 912,
+    "repos": 170,
+    "terms": 911
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "aaaaalexis/obsidian-cupertino",
@@ -116,6 +116,7 @@
     "MahmoudAshraf97/whisper-diarization",
     "mdn/webassembly-examples",
     "mds1/multicall3",
+    "metosin/reitit",
     "mfussenegger/nvim-jdtls",
     "mhinz/vim-signify",
     "michalmuskala/jason",

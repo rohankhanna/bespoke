@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 548,
-    "concepts": 578,
-    "observations": 580,
-    "repos": 48,
-    "terms": 573
+    "components": 545,
+    "concepts": 567,
+    "observations": 569,
+    "repos": 47,
+    "terms": 562
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -33,7 +33,6 @@
     "lucidrains/vit-pytorch",
     "ludwig-ai/ludwig",
     "MetaCubeX/mihomo",
-    "microsoft/agent-lightning",
     "microsoft/promptflow",
     "mitmproxy/mitmproxy",
     "mlflow/mlflow",

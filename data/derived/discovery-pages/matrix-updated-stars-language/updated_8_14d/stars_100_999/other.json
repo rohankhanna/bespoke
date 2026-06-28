@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 7,
-    "terms": 57
+    "components": 49,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 9,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "Blaizzy/mlx-audio-swift",
     "emacs-eldev/eldev",
+    "fsprojects/FSharp.Data.GraphQL",
     "fw-ai/cookbook",
+    "jump-dev/MathOptInterface.jl",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "NOAA-EMC/WW3",
     "rescript-lang/reanalyze",

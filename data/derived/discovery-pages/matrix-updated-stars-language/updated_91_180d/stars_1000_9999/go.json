@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 345,
-    "concepts": 312,
-    "observations": 312,
-    "repos": 72,
-    "terms": 312
+    "concepts": 317,
+    "observations": 317,
+    "repos": 73,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -84,6 +84,7 @@
     "stripe/stripe-mock",
     "tidwall/btree",
     "tmc/langchaingo",
+    "xtaci/kcp-go",
     "xtaci/smux",
     "yuin/goldmark"
   ]

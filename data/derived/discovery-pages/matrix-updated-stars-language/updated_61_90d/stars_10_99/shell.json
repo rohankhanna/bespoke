@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 218,
-    "observations": 221,
-    "repos": 48,
-    "terms": 216
+    "components": 210,
+    "concepts": 226,
+    "observations": 229,
+    "repos": 49,
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -44,6 +44,7 @@
     "dependabot/smoke-tests",
     "Digidai/product-manager-skills",
     "dotenvx/dotenvx.sh",
+    "electerm/electerm-web-docker",
     "envoyproxy/examples",
     "flinedev/tandemkit",
     "gentoo-mirror/guru",

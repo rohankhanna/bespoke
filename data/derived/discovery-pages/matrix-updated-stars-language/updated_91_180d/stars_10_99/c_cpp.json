@@ -3,7 +3,7 @@
     "components": 180,
     "concepts": 195,
     "observations": 196,
-    "repos": 71,
+    "repos": 70,
     "terms": 195
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
@@ -25,7 +25,6 @@
     "atsushieno/cmidi2",
     "bartp5/libtexprintf",
     "Birch-san/box2d3-wasm",
-    "ccslykx/Starry",
     "cisco/libacvp",
     "coin-or/CHiPPS-ALPS",
     "COMBINE-lab/cuttlefish",

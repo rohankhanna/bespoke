@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2988,
-    "concepts": 1240,
-    "observations": 1244,
-    "repos": 929,
-    "terms": 1271
+    "components": 2997,
+    "concepts": 1242,
+    "observations": 1246,
+    "repos": 930,
+    "terms": 1273
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -740,6 +740,7 @@
     "mozilla-ai/otari-sdk-go",
     "mozilla-ai/otari-sdk-python",
     "msoos/cryptominisat-rs",
+    "mudler/face-detect.cpp",
     "mudler/vulkan-sdk-arm",
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "mukel/gptoss.java",

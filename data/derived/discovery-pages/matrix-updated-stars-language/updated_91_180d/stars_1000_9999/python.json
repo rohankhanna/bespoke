@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 596,
-    "concepts": 1141,
-    "observations": 1141,
-    "repos": 210,
-    "terms": 1129
+    "components": 598,
+    "concepts": 1149,
+    "observations": 1149,
+    "repos": 212,
+    "terms": 1137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -65,6 +65,7 @@
     "dateutil/dateutil",
     "davidhalter/jedi",
     "davidhalter/jedi-vim",
+    "deepspeedai/DeepSpeedExamples",
     "DepthAnything/Depth-Anything-V2",
     "descriptinc/descript-audio-codec",
     "DigitalPhonetics/IMS-Toucan",
@@ -104,6 +105,7 @@
     "hyperopt/hyperopt",
     "inducer/pycuda",
     "Instagram/LibCST",
+    "intel/intel-extension-for-pytorch",
     "intel/ipex-llm",
     "IntelLabs/fastRAG",
     "Intellindust-AI-Lab/DEIM",

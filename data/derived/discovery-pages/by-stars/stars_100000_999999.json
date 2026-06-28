@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1995,
-    "concepts": 585,
-    "observations": 588,
+    "components": 1997,
+    "concepts": 586,
+    "observations": 589,
     "repos": 61,
-    "terms": 619
+    "terms": 621
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "996icu/996.ICU",

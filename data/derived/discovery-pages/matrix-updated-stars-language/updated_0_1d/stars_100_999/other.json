@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 15,
-    "observations": 16,
-    "repos": 3,
-    "terms": 15
+    "components": 48,
+    "concepts": 45,
+    "observations": 46,
+    "repos": 5,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
+    "astroautomata/SymbolicRegression.jl",
     "dwyl/app",
     "JuliaGPU/Metal.jl",
+    "karafka/rdkafka-ruby",
     "lambdalisue/vim-nerdfont"
   ]
 }

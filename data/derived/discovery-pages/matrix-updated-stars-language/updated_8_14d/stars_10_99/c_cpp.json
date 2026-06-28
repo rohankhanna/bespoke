@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 2,
-    "terms": 2
+    "components": 20,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 3,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "ANTsX/ANTsRCore",
-    "mudler/depth-anything.cpp"
+    "mudler/depth-anything.cpp",
+    "zhouwg/ggml-hexagon"
   ]
 }

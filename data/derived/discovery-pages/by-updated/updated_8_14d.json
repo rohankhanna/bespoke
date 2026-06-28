@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1228,
-    "concepts": 645,
-    "observations": 647,
-    "repos": 113,
-    "terms": 644
+    "components": 1267,
+    "concepts": 705,
+    "observations": 707,
+    "repos": 119,
+    "terms": 705
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "ABRG-Models/BarrelEmerge",
@@ -18,7 +18,6 @@
     "Aleksoid1978/VideoRenderer",
     "alloy-rs/svm-rs",
     "andfoy/winpty-rs",
-    "AndyMik90/Aperant",
     "ANTsX/ANTsPy",
     "ANTsX/ANTsPyNet",
     "ANTsX/ANTsRCore",
@@ -46,11 +45,13 @@
     "crossplane/release",
     "cvxgrp/scs",
     "dense-analysis/ale",
+    "doctest/doctest",
     "dotnet/command-line-api",
     "edward3h/docker-bds-integration-test",
     "emacs-eldev/eldev",
     "flightcontrolhq/superjson",
     "freesurfer/freebrowse",
+    "fsprojects/FSharp.Data.GraphQL",
     "fw-ai/cookbook",
     "geiger-rs/cargo-geiger",
     "github-linguist/linguist",
@@ -61,12 +62,15 @@
     "googlefonts/roboto-3-classic",
     "graphql-hive/graphql-inspector",
     "hetznercloud/hcloud-cloud-controller-manager",
+    "honwen/openwrt-dnsmasq-extra",
     "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+    "imgui-rs/imgui-rs",
     "InsightSoftwareConsortium/insightsoftwareconsortium.org",
     "intentee/paddler",
     "ipyflow/ipyflow",
     "itt-ustutt/num-dual",
     "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+    "jump-dev/MathOptInterface.jl",
     "Kludex/starlette",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "kurrent-io/KurrentDB-Client-Rust",
@@ -95,6 +99,7 @@
     "nvm-sh/nvm",
     "ogx-ai/ogx-client-typescript",
     "oscard0m/ts-transformer-remove-named-export",
+    "paperclipinc/karpenter-provider-hetzner",
     "preservim/tagbar",
     "psmux/psmux",
     "PyCQA/eradicate",
@@ -124,6 +129,7 @@
     "vercel/serve",
     "wamp-proto/wamp-xbr",
     "watchexec/watchexec",
-    "webpy/webpy"
+    "webpy/webpy",
+    "zhouwg/ggml-hexagon"
   ]
 }

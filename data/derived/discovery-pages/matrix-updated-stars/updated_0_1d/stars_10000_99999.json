@@ -1,31 +1,29 @@
 {
   "counts": {
-    "components": 1066,
-    "concepts": 417,
-    "observations": 420,
-    "repos": 31,
-    "terms": 426
+    "components": 904,
+    "concepts": 371,
+    "observations": 374,
+    "repos": 28,
+    "terms": 380
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
+    "567-labs/instructor",
+    "apache/brpc",
     "astral-sh/ruff",
     "axolotl-ai-cloud/axolotl",
-    "browserslist/browserslist",
     "Comfy-Org/ComfyUI-Manager",
-    "crewAIInc/crewAI",
     "crossplane/crossplane",
     "Dao-AILab/flash-attention",
     "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
-    "fastapi/full-stack-fastapi-template",
     "gastownhall/beads",
     "jax-ml/jax",
-    "jestjs/jest",
     "lobehub/lobehub",
     "mozilla-ai/llamafile",
     "mudler/LocalAI",
@@ -34,15 +32,14 @@
     "nwjs/nw.js",
     "OpenHands/OpenHands",
     "QuantumNous/new-api",
+    "quickwit-oss/tantivy",
     "rust-lang/rust-analyzer",
     "ruvnet/ruflo",
     "storybookjs/storybook",
     "swiftlang/swift",
-    "TEN-framework/ten-framework",
     "triton-lang/triton",
     "ungoogled-software/ungoogled-chromium",
     "upptime/upptime",
-    "verl-project/verl",
     "weaviate/weaviate"
   ]
 }

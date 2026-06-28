@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 8,
-    "terms": 45
+    "components": 35,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 7,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
-    "appelmar/gdalcubes",
     "celtera/libremidi",
     "ChiyukiGana/Quickinput",
     "coin-or/Clp",

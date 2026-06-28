@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1950,
-    "concepts": 1689,
-    "observations": 1694,
-    "repos": 172,
-    "terms": 1714
+    "components": 1953,
+    "concepts": 1700,
+    "observations": 1705,
+    "repos": 173,
+    "terms": 1725
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -111,6 +111,7 @@
     "ManimCommunity/manim",
     "matplotlib/matplotlib",
     "mem0ai/mem0",
+    "microsoft/agent-lightning",
     "microsoft/autogen",
     "microsoft/graphrag",
     "microsoft/pyright",

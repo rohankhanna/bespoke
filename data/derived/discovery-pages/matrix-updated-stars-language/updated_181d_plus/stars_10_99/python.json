@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 804,
-    "concepts": 1653,
-    "observations": 1656,
-    "repos": 913,
-    "terms": 1637
+    "components": 806,
+    "concepts": 1657,
+    "observations": 1660,
+    "repos": 917,
+    "terms": 1641
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -289,6 +289,7 @@
     "cuge1995/PointCutMix",
     "cvg/Mask3D",
     "cvlab-epfl/wide-depth-range-pose",
+    "cvlab-kaist/CATs-PlusPlus",
     "cvlab-yonsei/JoEm",
     "CVMI-Lab/SlotCon",
     "CVMI-Lab/SlotMIM",
@@ -502,6 +503,7 @@
     "InternScience/AdaptiveDiffusion",
     "InternScience/SciReason",
     "InternScience/SeedBench",
+    "interpretml/ebm2onnx",
     "interstar/ThoughtStorms",
     "intuitive-robots/beso",
     "ionelmc/tox-wheel",
@@ -541,6 +543,7 @@
     "jtydhr88/ComfyUI-ImageMagick",
     "jtydhr88/ComfyUI-Workflow-Encrypt",
     "jtydhr88/sd-webui-StableStudio",
+    "juhongm999/dhpf",
     "junjiehe96/AnyStory",
     "jupyterlab/extension-cookiecutter-js",
     "jupyterlab/mimerender-cookiecutter-ts",
@@ -915,6 +918,7 @@
     "ZacharyMeng/PolaFormer",
     "zahraatashgahi/QuickSelection",
     "Zhen-Dong/BitPack",
+    "ZhenZHAO/iMAS",
     "zhijian-liu/torchpack",
     "ZhuiyiTechnology/GAU-alpha",
     "zhuqinghe/RS-Haze",

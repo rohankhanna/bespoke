@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5667,
-    "concepts": 2080,
-    "observations": 2083,
-    "repos": 1450,
-    "terms": 2080
+    "components": 5673,
+    "concepts": 2093,
+    "observations": 2096,
+    "repos": 1451,
+    "terms": 2093
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -256,6 +256,7 @@
     "BepInEx/BepInEx.MDML.Loader",
     "berrydev-ai/blockdoc-python",
     "BetterThanTomorrow/calva-power-tools",
+    "bgreenwell/ebm",
     "BhagawatAdhikari/bhagawatadhikari",
     "bianjieai/ibc-go",
     "bigcode-bench/bigcode-bench.github.io",
@@ -1375,7 +1376,7 @@
     "travis-infrastructure/packer-build",
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

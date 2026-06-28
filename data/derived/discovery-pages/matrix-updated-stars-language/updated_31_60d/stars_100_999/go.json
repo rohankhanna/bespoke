@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 716,
-    "concepts": 653,
-    "observations": 654,
-    "repos": 77,
-    "terms": 651
+    "components": 695,
+    "concepts": 632,
+    "observations": 633,
+    "repos": 74,
+    "terms": 630
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
-    "aliyun/aliyun-cli",
     "andreykaipov/goobs",
     "apache/dubbo-go-hessian2",
     "apache/iceberg-go",
-    "aquasecurity/trivy-db",
     "argoproj-labs/argocd-agent",
     "argoproj-labs/argocd-operator",
     "Azure/azure-dev",
@@ -65,7 +63,6 @@
     "kubernetes-sigs/dra-driver-nvidia-gpu",
     "kubernetes-sigs/karpenter-provider-cluster-api",
     "kubernetes-sigs/lws",
-    "OffchainLabs/nitro",
     "operator-framework/operator-registry",
     "osmosis-labs/osmosis",
     "pion/interceptor",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1860,
-    "concepts": 1351,
-    "observations": 1360,
-    "repos": 194,
-    "terms": 1361
+    "components": 1899,
+    "concepts": 1371,
+    "observations": 1380,
+    "repos": 198,
+    "terms": 1381
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -20,6 +20,7 @@
     "64bit/async-openai",
     "abraxas-365/langchain-rust",
     "actix/actix",
+    "actix/examples",
     "ai-dynamo/dynamo",
     "alexpasmantier/television",
     "algesten/ureq",
@@ -47,6 +48,7 @@
     "bvaisvil/zenith",
     "bytedance/monoio",
     "Canop/bacon",
+    "cargo-bins/cargo-binstall",
     "cberner/fuser",
     "ccbrown/iocraft",
     "cedar-policy/cedar",
@@ -67,7 +69,6 @@
     "dtolnay/syn",
     "EmbarkStudios/cargo-deny",
     "EmbarkStudios/puffin",
-    "enigo-rs/enigo",
     "EricLBuehler/mistral.rs",
     "esp-rs/esp-hal",
     "eventual-inc/daft",
@@ -78,6 +79,7 @@
     "fltk-rs/fltk-rs",
     "freenet/freenet-core",
     "fussybeaver/bollard",
+    "georust/geo",
     "gfx-rs/wgpu-native",
     "ggez/ggez",
     "google/zerocopy",
@@ -166,6 +168,7 @@
     "rust-lang/docs.rs",
     "rust-lang/futures-rs",
     "rust-lang/git2-rs",
+    "rust-lang/libc",
     "rust-lang/log",
     "rust-lang/miri",
     "rust-lang/rust-bindgen",
@@ -195,6 +198,7 @@
     "tauri-apps/wry",
     "testcontainers/testcontainers-rs",
     "tikv/pprof-rs",
+    "time-rs/time",
     "tokio-rs/console",
     "tokio-rs/mini-redis",
     "tokio-rs/mio",

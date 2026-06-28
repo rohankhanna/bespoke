@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 21,
-    "terms": 30
+    "components": 51,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 22,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "agent-sh/glidemq",
@@ -30,6 +30,7 @@
     "HKU-BAL/Clair-skills",
     "ihmcrobotics/repository-group",
     "kubernetes-sigs/provider-ibmcloud-test-infra",
+    "lint-staged/lint-staged.sh",
     "marcindulak/ralph-wiggum-bdd",
     "rapidsai/gha-tools",
     "reviewdog/action-composite-template",

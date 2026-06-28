@@ -1,24 +1,25 @@
 {
   "counts": {
-    "components": 795,
-    "concepts": 549,
-    "observations": 550,
-    "repos": 44,
-    "terms": 543
+    "components": 958,
+    "concepts": 595,
+    "observations": 596,
+    "repos": 47,
+    "terms": 595
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
-    "567-labs/instructor",
-    "apache/brpc",
     "apache/casbin",
     "argotorg/solidity",
+    "browserslist/browserslist",
+    "crewAIInc/crewAI",
     "datalab-to/marker",
     "DioxusLabs/dioxus",
+    "fastapi/full-stack-fastapi-template",
     "fossasia/visdom",
     "gastownhall/gastown",
     "ggml-org/ggml",
@@ -31,6 +32,7 @@
     "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
     "isl-org/Open3D",
+    "jestjs/jest",
     "lancedb/lancedb",
     "langchain-ai/langchainjs",
     "Lightning-AI/litgpt",
@@ -46,16 +48,17 @@
     "psf/black",
     "pydantic/pydantic",
     "qubvel-org/segmentation_models.pytorch",
-    "quickwit-oss/tantivy",
     "redis/go-redis",
     "run-llama/llama_index",
     "rust-lang/mdBook",
     "spaceship-prompt/spaceship-prompt",
     "TA-Lib/ta-lib-python",
+    "TEN-framework/ten-framework",
     "tinygrad/tinygrad",
     "unocss/unocss",
     "vbenjs/vue-vben-admin",
     "vega/altair",
+    "verl-project/verl",
     "zhayujie/CowAgent"
   ]
 }

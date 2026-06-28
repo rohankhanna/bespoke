@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 5,
-    "terms": 19
+    "components": 38,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 6,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "Aleksoid1978/VideoRenderer",
     "AviSynth/AviSynthPlus",
+    "doctest/doctest",
     "pytorch/gloo",
     "TheTom/llama-cpp-turboquant",
     "vapoursynth/vapoursynth"

@@ -1,22 +1,27 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 68,
-    "observations": 69,
-    "repos": 10,
-    "terms": 68
+    "components": 258,
+    "concepts": 138,
+    "observations": 139,
+    "repos": 15,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
+    "ansys/pymapdl",
+    "astroautomata/SymbolicRegression.jl",
     "dwyl/app",
+    "electron/packager",
     "gbionics/idyntree",
     "hexabot-ai/Hexabot",
     "JuliaGPU/Metal.jl",
+    "karafka/rdkafka-ruby",
     "lambdalisue/vim-nerdfont",
     "ldproxy/ldproxy",
     "matter-js/matter.js",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1150,
-    "concepts": 1137,
-    "observations": 1141,
-    "repos": 101,
-    "terms": 1121
+    "components": 1172,
+    "concepts": 1159,
+    "observations": 1163,
+    "repos": 103,
+    "terms": 1143
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -54,7 +54,9 @@
     "getsops/sops",
     "gin-gonic/gin",
     "go-delve/delve",
+    "go-playground/validator",
     "gofiber/fiber",
+    "goharbor/harbor",
     "gohugoio/hugo",
     "golangci/golangci-lint",
     "google/cadvisor",

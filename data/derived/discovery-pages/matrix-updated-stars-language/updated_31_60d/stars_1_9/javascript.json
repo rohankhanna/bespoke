@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 479,
-    "concepts": 214,
-    "observations": 217,
-    "repos": 20,
-    "terms": 213
+    "components": 441,
+    "concepts": 204,
+    "observations": 205,
+    "repos": 18,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
     "dwyl/phoenix-papertrail-demo",
-    "fontsource/download-stat-aggregator",
     "ioBroker/plugin-sentry",
     "kkomelin/isomorphic-dompurify-playgrounds",
     "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
     "maltsev/html-minifiers-benchmark",
     "rvagg/js-bitcoin-block",
-    "sapphiredev/.github",
     "stdlib-js/array-float32",
     "stdlib-js/complex-reviver",
     "stdlib-js/math-base-special-erf",

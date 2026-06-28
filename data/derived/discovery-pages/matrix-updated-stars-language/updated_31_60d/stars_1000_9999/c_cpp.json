@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1000,
-    "concepts": 976,
-    "observations": 976,
-    "repos": 113,
-    "terms": 969
+    "components": 948,
+    "concepts": 958,
+    "observations": 958,
+    "repos": 109,
+    "terms": 951
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -21,11 +21,9 @@
     "ai-dynamo/nixl",
     "Andersbakken/rtags",
     "apache/age",
-    "appium/WebDriverAgent",
     "arkime/arkime",
     "async-profiler/async-profiler",
     "aws/aws-sdk-cpp",
-    "bitcoin-core/secp256k1",
     "brave/brave-core",
     "BYVoid/OpenCC",
     "cdcseacave/openMVS",
@@ -46,7 +44,6 @@
     "facebookincubator/fizz",
     "facebookincubator/katran",
     "flashrom/flashrom",
-    "flightlessmango/MangoHud",
     "floooh/sokol",
     "FluidSynth/fluidsynth",
     "fnc12/sqlite_orm",
@@ -60,7 +57,6 @@
     "haproxy/haproxy",
     "heiher/hev-socks5-tunnel",
     "htop-dev/htop",
-    "ikawrakow/ik_llama.cpp",
     "intel/pcm",
     "iree-org/iree",
     "ispc/ispc",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 56104,
-    "concepts": 36664,
-    "observations": 36778,
-    "repos": 6173,
-    "terms": 36537
+    "components": 56118,
+    "concepts": 36674,
+    "observations": 36788,
+    "repos": 6178,
+    "terms": 36554
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1603,6 +1603,7 @@
     "drknzz/GitHub-Achievements",
     "dropwizard/dropwizard",
     "drprojects/superpoint_transformer",
+    "DrSleep/tensorflow-deeplab-resnet",
     "DrTimothyAldenDavis/SuiteSparse",
     "dspinellis/latex-advice",
     "dstackai/dstack",
@@ -2120,6 +2121,7 @@
     "getsentry/sentry-cocoa",
     "getsentry/xcodebuildmcp",
     "getzep/zep",
+    "gevent/gevent",
     "gf3/dotfiles",
     "gflags/gflags",
     "GFW-knocker/gfw_resist_tls_proxy",
@@ -2598,6 +2600,7 @@
     "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/nvim-cmp",
     "hrsh7th/nvim-compe",
+    "hszhao/semseg",
     "html5lib/html5lib-python",
     "htop-dev/htop",
     "http-kit/http-kit",
@@ -3124,6 +3127,7 @@
     "klauspost/reedsolomon",
     "KlingAIResearch/ReCamMaster",
     "kmammou/v-hacd",
+    "KMnP/vpt",
     "knative/docs",
     "knative/eventing",
     "knative/serving",
@@ -4123,6 +4127,7 @@
     "nvidia/openshell",
     "NVIDIA/pix2pixHD",
     "NVIDIA/RULER",
+    "NVIDIA/semantic-segmentation",
     "NVIDIA/tacotron2",
     "NVIDIA/thrust",
     "NVIDIA/TransformerEngine",

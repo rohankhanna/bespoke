@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 11,
-    "terms": 46
+    "components": 65,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 9,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
-    "abap2UI5-addons/layout-management",
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "apostrophecms/starter-kit-astro-essentials",
     "cloudfoundry/credhub-acceptance-tests",
@@ -22,7 +21,6 @@
     "Kashif-E/parakeet-ios-demo",
     "kurrent-io/KurrentDB-Bridge-Client",
     "mudler/ced.cpp",
-    "OpenHands/automation",
-    "paperclipinc/karpenter-provider-hetzner"
+    "OpenHands/automation"
   ]
 }

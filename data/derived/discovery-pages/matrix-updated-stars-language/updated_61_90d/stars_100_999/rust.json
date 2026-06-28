@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1351,
-    "concepts": 956,
-    "observations": 965,
-    "repos": 184,
-    "terms": 956
+    "components": 1363,
+    "concepts": 966,
+    "observations": 975,
+    "repos": 185,
+    "terms": 965
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -21,6 +21,7 @@
     "ada-url/rust",
     "agent-sh/agnix",
     "ajrcarey/pdfium-render",
+    "akiomik/mado",
     "alex/rust-asn1",
     "alexcrichton/ssh2-rs",
     "alexheretic/glyph-brush",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9958,
-    "concepts": 11836,
-    "observations": 11864,
+    "components": 9967,
+    "concepts": 11838,
+    "observations": 11866,
     "repos": 2468,
-    "terms": 11739
+    "terms": 11744
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -1684,6 +1684,7 @@
     "mtrebi/thread-pool",
     "mudler/ced.cpp",
     "mudler/depth-anything.cpp",
+    "mudler/face-detect.cpp",
     "mudler/locate-anything.cpp",
     "mudler/parakeet.cpp",
     "muellan/clipp",
@@ -1963,7 +1964,6 @@
     "pyg-team/pyg-lib",
     "pygobject/pycairo",
     "pykaldi/clif",
-    "PyMesh/carve",
     "PyMesh/PyMesh",
     "pytorch/FBGEMM",
     "pytorch/gloo",

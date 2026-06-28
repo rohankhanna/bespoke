@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3011,
-    "concepts": 729,
-    "observations": 739,
-    "repos": 151,
-    "terms": 758
+    "components": 3258,
+    "concepts": 753,
+    "observations": 763,
+    "repos": 157,
+    "terms": 782
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -21,6 +21,7 @@
     "actions/hello-world-javascript-action",
     "adamlui/ai-web-extensions",
     "AdguardTeam/HostlistCompiler",
+    "AdguardTeam/Scriptlets",
     "adobe/spectrum-design-data",
     "agent-sh/agentsys",
     "anonrig/fast-querystring",
@@ -30,6 +31,7 @@
     "aredridel/node-bin-gen",
     "Atheos/Atheos",
     "auth0/node-jws",
+    "avoidwork/tiny-lru",
     "aws/aws-cdk-rfcs",
     "badgen/badgen",
     "bcomnes/npm-run-all2",
@@ -61,6 +63,7 @@
     "dydxprotocol/v4-clients",
     "ehmicky/nve",
     "eladnava/pikud-haoref-api",
+    "electerm/electerm-web",
     "electron/node-abi",
     "ember-cli/ember-exam",
     "emberjs/ember-qunit",
@@ -83,6 +86,7 @@
     "gruntjs/grunt-contrib-connect",
     "gruntjs/grunt-contrib-qunit",
     "higlass/higlass",
+    "hudochenkov/postcss-sorting",
     "hyparam/hyparquet",
     "hyparam/icebird",
     "i18next/i18next-browser-languageDetector",
@@ -118,6 +122,7 @@
     "mdn/data",
     "mdn/mdn-http-observatory",
     "mourner/tinyqueue",
+    "mozilla/addons-linter",
     "muratcankoylan/ralph-wiggum-marketer",
     "neostandard/neostandard",
     "neverendingqs/serverless-dotenv-plugin",
@@ -162,6 +167,7 @@
     "toon-format/spec",
     "unicode-org/message-format-wg",
     "webpack/css-minimizer-webpack-plugin",
+    "webtorrent/ut_metadata",
     "will62794/spectacle",
     "zone-eu/zone-mta",
     "ztoben/assets-webpack-plugin"

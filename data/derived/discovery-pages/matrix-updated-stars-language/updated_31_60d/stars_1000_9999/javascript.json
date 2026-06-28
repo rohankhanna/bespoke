@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2011,
-    "concepts": 366,
-    "observations": 367,
-    "repos": 45,
-    "terms": 364
+    "components": 1714,
+    "concepts": 331,
+    "observations": 331,
+    "repos": 40,
+    "terms": 331
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "antfu/eslint-config",
@@ -31,11 +31,9 @@
     "jquery/jquery-color",
     "KhronosGroup/Vulkan-Docs",
     "LavaMoat/LavaMoat",
-    "leezng/vue-json-pretty",
     "mermaid-js/mermaid-cli",
     "middyjs/middy",
     "MikeMcl/bignumber.js",
-    "mozilla/web-ext",
     "nodeca/js-yaml",
     "nodejs/Release",
     "openstreetmap/iD",
@@ -52,12 +50,9 @@
     "tapjs/tapjs",
     "terser/terser",
     "uBlockOrigin/uBOL-home",
-    "umijs/dumi",
-    "unifiedjs/unified",
     "violentmonkey/violentmonkey",
     "WebKit/WebKit",
     "webpack/webpack-cli",
-    "webpack/webpack-dev-middleware",
     "yomidevs/yomitan"
   ]
 }

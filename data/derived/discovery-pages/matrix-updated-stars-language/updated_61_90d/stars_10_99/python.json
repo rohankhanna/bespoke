@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 821,
-    "concepts": 637,
-    "observations": 639,
-    "repos": 164,
-    "terms": 651
+    "components": 828,
+    "concepts": 645,
+    "observations": 647,
+    "repos": 167,
+    "terms": 659
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "a2aproject/a2a-tck",
@@ -115,6 +115,7 @@
     "lace/polliwog",
     "lblankl/Short-RL",
     "LedgerHQ/ledgerctl",
+    "lhj5426/YSG",
     "libp2p/test-plans",
     "Looong01/pyg-rocm-build",
     "mayeut/pep600_compliance",
@@ -162,11 +163,13 @@
     "scipy/scipy-stubs",
     "shiweijiezero/R3L",
     "Significant-Gravitas/gravitasml",
+    "sigstore/sigstore-conformance",
     "skhu101/HumanLiff",
     "sliamh11/deus",
     "sphinx-contrib/sphinxcontrib-towncrier",
     "sublimelsp/LSP-marksman",
     "sublimelsp/LSP-ruff",
+    "sublimelsp/LSP-volar",
     "svaningelgem/logprise",
     "terrierteam/pyterrier_pisa",
     "theupdateframework/tuf-on-ci",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 918,
-    "concepts": 567,
-    "observations": 568,
-    "repos": 58,
-    "terms": 561
+    "components": 1001,
+    "concepts": 594,
+    "observations": 595,
+    "repos": 60,
+    "terms": 586
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -37,6 +37,7 @@
     "foundry-rs/foundry",
     "FuelLabs/fuel-core",
     "FuelLabs/sway",
+    "getzola/zola",
     "gfx-rs/wgpu",
     "gitui-org/gitui",
     "gleam-lang/gleam",
@@ -65,6 +66,7 @@
     "sharkdp/fd",
     "Spotifyd/spotifyd",
     "starship/starship",
+    "swc-project/swc",
     "tokio-rs/axum",
     "tokio-rs/tokio",
     "tree-sitter/tree-sitter",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 463,
-    "observations": 463,
-    "repos": 42,
-    "terms": 461
+    "components": 338,
+    "concepts": 427,
+    "observations": 427,
+    "repos": 39,
+    "terms": 425
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "alibaba/spring-ai-alibaba",
@@ -32,10 +32,8 @@
     "dlew/joda-time-android",
     "dropwizard/dropwizard",
     "firebase/firebase-android-sdk",
-    "google/conscrypt",
     "googleapis/google-cloud-java",
     "hazelcast/hazelcast",
-    "iterate-ch/cyberduck",
     "java-native-access/jna",
     "JetBrains/JetBrainsRuntime",
     "jline/jline3",
@@ -47,7 +45,6 @@
     "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
     "reactor/BlockHound",
-    "reactor/reactor-core",
     "smithy-lang/smithy",
     "SonarSource/sonar-java",
     "spring-projects/spring-ai",

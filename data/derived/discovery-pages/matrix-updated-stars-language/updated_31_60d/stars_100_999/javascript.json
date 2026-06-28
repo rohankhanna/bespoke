@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 981,
-    "concepts": 182,
-    "observations": 183,
-    "repos": 35,
-    "terms": 180
+    "components": 734,
+    "concepts": 158,
+    "observations": 159,
+    "repos": 29,
+    "terms": 156
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
-    "AdguardTeam/Scriptlets",
     "all-contributors/app",
     "americanexpress/jest-json-schema",
     "auth0/node-jwks-rsa",
-    "avoidwork/tiny-lru",
     "Calcium-Ion/new-api-key-tool",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
-    "electerm/electerm-web",
     "ember-cli/ember-cli-update",
     "emberjs/ember-test-helpers",
     "facebook/Rapid",
     "firebase/snippets-web",
     "fontello/svg2ttf",
-    "hudochenkov/postcss-sorting",
     "jupyter/nbclassic",
     "Kilian/electron-to-chromium",
     "lo-th/phy",
     "mdn/fred",
-    "mozilla/addons-linter",
     "octokit/graphql-schema",
     "openfl/lime",
     "oss-serverless/serverless",
@@ -47,7 +42,6 @@
     "validator/grunt-html",
     "vllm-project/recipes",
     "w3c/webref",
-    "webtorrent/bittorrent-protocol",
-    "webtorrent/ut_metadata"
+    "webtorrent/bittorrent-protocol"
   ]
 }

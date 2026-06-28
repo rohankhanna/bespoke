@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10834,
-    "concepts": 9704,
-    "observations": 9718,
-    "repos": 2485,
-    "terms": 9563
+    "components": 10777,
+    "concepts": 9697,
+    "observations": 9711,
+    "repos": 2488,
+    "terms": 9557
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -610,6 +610,7 @@
     "dragonflyoss/dragonfly-archived",
     "drduh/pwd.sh",
     "drknzz/GitHub-Achievements",
+    "DrSleep/tensorflow-deeplab-resnet",
     "dtolnay/case-studies",
     "dtolnay/serde-yaml",
     "Duxiaoman-DI/XuanYuan",
@@ -1015,6 +1016,7 @@
     "HRNet/HRNet-Semantic-Segmentation",
     "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/nvim-compe",
+    "hszhao/semseg",
     "http-rs/tide",
     "HuangJunJie2017/BEVDet",
     "huanngzh/MV-Adapter",
@@ -1243,6 +1245,7 @@
     "kkos/oniguruma",
     "KlingAIResearch/ReCamMaster",
     "kmammou/v-hacd",
+    "KMnP/vpt",
     "knightcrawler25/GLSL-PathTracer",
     "knowm/XChart",
     "KoboldAI/KoboldAI-Client",
@@ -1624,7 +1627,6 @@
     "nrc/r4cppp",
     "nschloe/meshio",
     "nsf/termbox-go",
-    "nsfw-filter/nsfw-filter",
     "nst/JSONTestSuite",
     "NTMC-Community/MatchZoo",
     "numz/ComfyUI-SeedVR2_VideoUpscaler",
@@ -1645,6 +1647,7 @@
     "NVIDIA/nvidia-container-runtime",
     "NVIDIA/pix2pixHD",
     "NVIDIA/RULER",
+    "NVIDIA/semantic-segmentation",
     "NVIDIA/tacotron2",
     "NVIDIA/thrust",
     "NVIDIA/VideoProcessingFramework",

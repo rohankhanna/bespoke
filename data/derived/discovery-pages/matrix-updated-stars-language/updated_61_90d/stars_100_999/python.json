@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2076,
-    "concepts": 2075,
-    "observations": 2084,
-    "repos": 404,
-    "terms": 2079
+    "components": 2084,
+    "concepts": 2078,
+    "observations": 2087,
+    "repos": 405,
+    "terms": 2082
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -28,6 +28,7 @@
     "agentscope-ai/Trinity-RFT",
     "agiletec-inc/airis-mcp-gateway",
     "agiresearch/Cerebrum",
+    "agno-agi/scout",
     "AgnostiqHQ/covalent",
     "AgriciDaniel/banana-claude",
     "AgriciDaniel/claude-blog",
@@ -167,7 +168,6 @@
     "fzyzcjy/torch_memory_saver",
     "G-Research/ahocorasick_rs",
     "galaxyproject/planemo",
-    "gmberton/MegaLoc",
     "gmberton/VPR-methods-evaluation",
     "GNOME/adwaita-icon-theme",
     "godotengine/godot-builds",
@@ -215,6 +215,7 @@
     "Jasonzzt/ComfyUI-CacheDiT",
     "jezweb/claude-skills",
     "jimporter/mike",
+    "jolibrain/joliGEN",
     "joonson/syncnet_python",
     "Joshuaalbert/jaxns",
     "jpmml/sklearn2pmml",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 208,
-    "observations": 208,
+    "components": 159,
+    "concepts": 195,
+    "observations": 195,
     "repos": 21,
-    "terms": 207
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "ANTsX/ANTs",
     "autowarefoundation/autoware_universe",
     "CGAL/cgal",
     "CloudCompare/CloudCompare",
     "cvxpy/cvxpy",
-    "doctest/doctest",
     "harfbuzz/harfbuzz",
     "InsightSoftwareConsortium/ITK",
     "interpretml/interpret",
@@ -33,6 +32,7 @@
     "qt/qtbase",
     "red-data-tools/pycall.rb",
     "rordenlab/dcm2niix",
+    "snapcast/snapcast",
     "swiftlang/swift-llbuild",
     "ufbx/ufbx"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 714,
-    "concepts": 435,
-    "observations": 437,
-    "repos": 106,
-    "terms": 449
+    "components": 766,
+    "concepts": 460,
+    "observations": 462,
+    "repos": 111,
+    "terms": 474
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -35,8 +35,11 @@
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
     "BlackDex/rust-musl",
+    "bnb-chain/reth",
+    "bnb-chain/reth-bsc",
     "boundless-xyz/kailua",
     "boundless-xyz/steel",
+    "bourumir-wyngs/serde-yaml-bw",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "celo-org/celo-threshold-bls-rs",
@@ -56,6 +59,7 @@
     "eth-act/zkboost",
     "filecoin-project/actors-utils",
     "filecoin-project/builtin-actors",
+    "fonttools/fontspector",
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
     "FxEmbed/mosaic",
@@ -107,6 +111,7 @@
     "sophus-vision/sophus-rs",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
+    "succinctlabs/sp1-cluster",
     "synadia-io/orbit.rs",
     "Systemcluster/kitoken",
     "tianrking/weixin-agent-rs",

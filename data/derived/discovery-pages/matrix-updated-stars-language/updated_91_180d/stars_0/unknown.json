@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 31,
-    "terms": 53
+    "components": 97,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 36,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
@@ -20,7 +20,9 @@
     "cwfitzgerald/libtest-mimic",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Projects-Index",
+    "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Backup-Projects-Index",
+    "danielrosehill/Bug-Reports-And-Fixes",
     "danielrosehill/Context-Projects-Index",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",
@@ -30,6 +32,7 @@
     "danielrosehill/Linux-Desktop-Tools-Index",
     "danielrosehill/Networking-And-Infrastructure-Index",
     "danielrosehill/Networking-Projects-Index",
+    "danielrosehill/Patches-Repos-Index",
     "DataDog/opa",
     "DiligentGraphics/json",
     "DiligentGraphics/NuklearUI",
@@ -38,10 +41,12 @@
     "hermit-os/tokio",
     "jackielii/qmk_firmware",
     "kitknox/helix",
+    "lakekeeper/nats.rs",
     "llamagate/diff",
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",
     "openwdl/governance",
+    "PetervanLunteren/EcoAssist-metadata",
     "sp1-patches/curve25519-dalek",
     "wintercg/fetch",
     "youngsofun/rust-csv"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1493,
-    "concepts": 393,
-    "observations": 393,
-    "repos": 100,
-    "terms": 393
+    "components": 1509,
+    "concepts": 400,
+    "observations": 400,
+    "repos": 102,
+    "terms": 400
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "AdguardTeam/FiltersCompiler",
@@ -38,6 +38,7 @@
     "ehmicky/preferred-node-version",
     "electerm/electerm-locales",
     "ember-cli/ember-app-blueprint",
+    "Eonic/ProteanCMS",
     "erichlof/AntiGravity-Pool",
     "erichlof/PathTracedPong",
     "erichlof/TheSentinel-2nd-Look",
@@ -88,6 +89,7 @@
     "nrwl/nx-ai-agents-config",
     "oclif/oclif.github.io",
     "octokit/app-permissions",
+    "octokit/create-octokit-project.js",
     "octokit/openapi",
     "octokit/openapi-types.ts",
     "patrik-csak/auto-terminal-profile",

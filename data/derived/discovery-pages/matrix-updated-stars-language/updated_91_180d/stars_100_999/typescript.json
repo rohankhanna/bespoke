@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2543,
-    "concepts": 460,
-    "observations": 461,
-    "repos": 92,
-    "terms": 476
+    "components": 2580,
+    "concepts": 467,
+    "observations": 468,
+    "repos": 93,
+    "terms": 483
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -81,6 +81,7 @@
     "niieani/gpt-tokenizer",
     "nodejs/llparse",
     "Obsidian-TTRPG-Community/fantasy-statblocks",
+    "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
     "posthtml/posthtml-parser",

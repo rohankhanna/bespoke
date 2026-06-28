@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 869,
-    "concepts": 491,
-    "observations": 495,
-    "repos": 108,
-    "terms": 489
+    "components": 832,
+    "concepts": 462,
+    "observations": 466,
+    "repos": 102,
+    "terms": 460
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
-    "abarisani/abarisani.github.io",
     "Accla/d4m",
     "agentclientprotocol/kotlin-sdk",
     "alphagov/govuk_publishing_components",
@@ -41,7 +40,6 @@
     "cginternals/cpplocate",
     "Cle2ment/CherryStudio_themes",
     "cloudfoundry/bosh-aws-cpi-release",
-    "cloudfoundry/capi-release",
     "cloudfoundry/uaa-release",
     "conservationtechlab/animl-r",
     "controlplaneio-fluxcd/distribution",
@@ -76,18 +74,15 @@
     "jelly-beam/rebar3_ex_doc",
     "JuliaAI/LearnAPI.jl",
     "JuliaArrays/StaticArrayInterface.jl",
-    "JuliaCI/NanosoldierReports",
     "JuliaCon/www.juliacon.org",
     "JuliaGeo/GeometryOps.jl",
     "JuliaLinearAlgebra/BLISBLAS.jl",
     "JuliaSparse/SparseArrays.jl",
-    "karafka/karafka-web",
     "kddnewton/sorbet-eraser",
     "Kong/developer.konghq.com",
     "lakekeeper/lakekeeper-charts",
     "LedgerHQ/ledger-app-builder",
     "liuliu/s4nnc",
-    "localstack/localstack-cli",
     "ludwig-ai/ludwig-docs",
     "melpa/package-build",
     "mesh-iit/ergocub-software",
@@ -101,7 +96,6 @@
     "palladius/gemini-news-crawler",
     "php/doc-es",
     "php/doc-fr",
-    "php/phd",
     "pipecat-ai/docs",
     "python-poetry/website",
     "r-lib/pkgload",

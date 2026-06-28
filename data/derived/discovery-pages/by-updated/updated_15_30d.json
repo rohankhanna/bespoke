@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1371,
-    "concepts": 777,
-    "observations": 781,
-    "repos": 147,
-    "terms": 766
+    "components": 1206,
+    "concepts": 751,
+    "observations": 754,
+    "repos": 145,
+    "terms": 740
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "adamchainz/blacken-docs",
@@ -21,15 +21,14 @@
     "aidenlab/juicebox.js",
     "alex-shpak/hugo-book",
     "Alex313031/Thorium-MacOS",
-    "alichherawalla/off-grid-mobile-ai",
     "AMD-AGI/Nitro-1",
     "AMD-AGI/Nitro-T",
+    "AndyMik90/Aperant",
     "anthropics/claude-cookbooks",
     "ANTsX/ANTsR",
     "apostrophecms/astro-public-demo",
     "appbaseio/reactivesearch-api",
     "appbaseio/reactivesearch-api-docker",
-    "appelmar/gdalcubes",
     "Archerkattri/fast-trellis2",
     "Archerkattri/faster-trellis",
     "Archerkattri/faster-trellis-plus-plus",
@@ -56,7 +55,6 @@
     "coin-or/Clp",
     "Comfy-Org/ComfyUI-Standalone-Environments",
     "conda-forge/numba-feedstock",
-    "cvxpy/examples",
     "cvxpy/org",
     "databrickslabs/ucx",
     "datalab-to/surya",
@@ -77,6 +75,7 @@
     "FerrisMind/candle-video",
     "freesurfer/petsurfer-bids",
     "geocompx/docker",
+    "gevent/gevent",
     "git-friendly/git-friendly",
     "git-up/libgit2",
     "gitleaks/gitleaks",
@@ -135,7 +134,6 @@
     "pyvista/fast-simplification",
     "pyvista/pyvista-xarray",
     "readthedocs/commonmark.py",
-    "Redocly/redoc",
     "riscv-collab/riscv-gnu-toolchain",
     "roboflow/single_artifact_benchmarking",
     "rocq-community/docker-base",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 118,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 20,
-    "terms": 101
+    "components": 112,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 19,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "ankitpokhrel/shopctl",
     "apache/casbin-govaluate",
@@ -31,7 +31,6 @@
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "mudler/skillserver",
     "philips-labs/dct-notary-admin",
-    "philips-labs/tabia",
     "tendermint/tm-db",
     "usbarmory/tamago-sev-example"
   ]

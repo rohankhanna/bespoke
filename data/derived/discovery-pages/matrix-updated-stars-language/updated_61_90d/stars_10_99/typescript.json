@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2575,
-    "concepts": 442,
-    "observations": 446,
-    "repos": 94,
-    "terms": 474
+    "components": 2644,
+    "concepts": 456,
+    "observations": 460,
+    "repos": 97,
+    "terms": 488
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "9romise/eslint-plugin-import-lite",
@@ -70,6 +70,7 @@
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
     "jaegertracing/documentation",
+    "jakebailey/pyright-action",
     "jakoch/install-vulkan-sdk-action",
     "jerseycheese/narraitor",
     "jkheadley/instar",
@@ -90,12 +91,14 @@
     "oclif/plugin-plugins",
     "oclif/plugin-update",
     "oclif/test",
+    "octokit/auth-oauth-app.js",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
     "pinecone-io/pinecone-mcp",
     "pkgxdev/pkgm",
+    "rstackjs/rsbuild-plugin-template",
     "Sec-ant/prettier-plugin-embed",
     "sgcarstrends/sgcarstrends",
     "Shougo/ddu-ui-ff",

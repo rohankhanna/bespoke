@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 141,
-    "observations": 141,
-    "repos": 24,
-    "terms": 139
+    "components": 112,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 25,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "aws-observability/aws-otel-community",
@@ -36,6 +36,7 @@
     "peergos/nabu",
     "scalar-labs/btm",
     "spring-ai-alibaba/deepresearch",
+    "spring-io/spring-javaformat",
     "swagger-api/validator-badge",
     "testng-team/testng-eclipse"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3403,
-    "concepts": 745,
-    "observations": 745,
-    "repos": 115,
-    "terms": 742
+    "components": 3700,
+    "concepts": 780,
+    "observations": 781,
+    "repos": 120,
+    "terms": 775
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -75,6 +75,7 @@
     "keepassxreboot/keepassxc-browser",
     "kpdecker/jsdiff",
     "krausest/js-framework-benchmark",
+    "leezng/vue-json-pretty",
     "Level/level",
     "ljharb/qs",
     "mantoni/eslint_d.js",
@@ -87,6 +88,7 @@
     "minio/minio-js",
     "mourner/rbush",
     "mozilla/rhino",
+    "mozilla/web-ext",
     "newrelic/node-newrelic",
     "NickColley/jest-axe",
     "nodegit/nodegit",
@@ -117,11 +119,14 @@
     "thlorenz/doctoc",
     "tomas/needle",
     "tw-in-js/twind",
+    "umijs/dumi",
+    "unifiedjs/unified",
     "vizzuhq/vizzu-lib",
     "vueform/vueform",
     "webpack/css-loader",
     "webpack/postcss-loader",
     "webpack/sass-loader",
+    "webpack/webpack-dev-middleware",
     "webpack/webpack-dev-server",
     "webtorrent/bittorrent-dht",
     "webtorrent/webtorrent-cli",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4375,
-    "concepts": 876,
-    "observations": 880,
-    "repos": 76,
-    "terms": 874
+    "components": 4319,
+    "concepts": 842,
+    "observations": 847,
+    "repos": 74,
+    "terms": 840
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "ajv-validator/ajv",
@@ -25,7 +25,6 @@
     "aws/aws-cdk",
     "BabylonJS/Babylon.js",
     "better-auth/better-auth",
-    "bytedance/UI-TARS-desktop",
     "calcom/cal.diy",
     "changesets/changesets",
     "ChatGPTNextWeb/NextChat",
@@ -47,11 +46,9 @@
     "jquense/yup",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
-    "Kong/insomnia",
     "lucide-icons/lucide",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
-    "marmelab/react-admin",
     "medusajs/medusa",
     "mermaid-js/mermaid",
     "mobxjs/mobx",
@@ -67,6 +64,7 @@
     "puppeteer/puppeteer",
     "QwikDev/qwik",
     "react-hook-form/react-hook-form",
+    "Redocly/redoc",
     "reduxjs/redux",
     "reduxjs/redux-devtools",
     "remix-run/react-router",

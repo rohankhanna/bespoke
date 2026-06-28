@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 4,
-    "terms": 35
+    "components": 146,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 5,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
+    "electron/packager",
     "hexabot-ai/Hexabot",
     "matter-js/matter.js",
     "mightyiam/eslint-config-love",

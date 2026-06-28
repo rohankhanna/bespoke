@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 659,
-    "concepts": 277,
-    "observations": 279,
-    "repos": 39,
-    "terms": 276
+    "components": 670,
+    "concepts": 301,
+    "observations": 303,
+    "repos": 41,
+    "terms": 301
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "Aleksoid1978/VideoRenderer",
@@ -27,12 +27,14 @@
     "callstack/react-native-builder-bob",
     "clj-kondo/clj-kondo",
     "crate-ci/cargo-release",
+    "doctest/doctest",
     "dotnet/command-line-api",
     "flightcontrolhq/superjson",
     "geiger-rs/cargo-geiger",
     "gluonfield/enchanted",
     "google-gemini/live-api-web-console",
     "graphql-hive/graphql-inspector",
+    "imgui-rs/imgui-rs",
     "intentee/paddler",
     "ipyflow/ipyflow",
     "macfuse/macfuse",

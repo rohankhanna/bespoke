@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 91,
-    "concepts": 277,
-    "observations": 278,
-    "repos": 73,
-    "terms": 276
+    "concepts": 265,
+    "observations": 266,
+    "repos": 71,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -47,7 +47,6 @@
     "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",
     "eudk/awesome-ai-tools",
-    "filecoin-project/community",
     "gautamkrishnar/gautamkrishnar",
     "ghimiresunil/Top-AI-Tools",
     "github/codeql-cli-binaries",
@@ -76,7 +75,6 @@
     "ranpox/awesome-computer-use",
     "rstackjs/awesome-rstack",
     "SamurAIGPT/awesome-openclaw",
-    "scott0107000/BoutiqueBitmap7x7",
     "sedyh/awesome-ebitengine",
     "servo/project",
     "smithy-lang/awesome-smithy",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 66,
-    "observations": 68,
-    "repos": 14,
-    "terms": 66
+    "components": 173,
+    "concepts": 59,
+    "observations": 61,
+    "repos": 12,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "alangdm/helium-animated-pages",
     "apache/doris-opentelemetry-demo",
     "aws-samples/aws-sdk-js-tests",
     "coasys/ad4m",
-    "Eonic/ProteanCMS",
     "hyparam/squirreling",
     "ideditor/schema-builder",
     "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
     "nodejs/nodejs-dist-indexer",
-    "octokit/create-octokit-project.js",
     "rstackjs/agent-skills",
     "stdlib-js/google-summer-of-code"
   ]

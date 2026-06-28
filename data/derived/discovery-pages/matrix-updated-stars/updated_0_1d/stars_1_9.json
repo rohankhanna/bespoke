@@ -1,18 +1,18 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
+    "components": 10,
+    "concepts": 7,
+    "observations": 7,
     "repos": 1,
-    "terms": 0
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-26T08:20:01.953396+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
-    "apostrophecms/starter-kit-astro-essentials"
+    "abap2UI5-addons/layout-management"
   ]
 }

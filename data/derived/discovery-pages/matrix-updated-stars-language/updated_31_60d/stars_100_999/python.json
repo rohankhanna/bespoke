@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 661,
-    "concepts": 623,
-    "observations": 626,
-    "repos": 113,
-    "terms": 621
+    "components": 653,
+    "concepts": 613,
+    "observations": 616,
+    "repos": 111,
+    "terms": 611
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
     "agentclientprotocol/python-sdk",
     "agentic-box/memora",
     "AgileRL/AgileRL",
-    "agno-agi/scout",
     "ai-analyst-lab/ai-analyst",
     "ai-dynamo/aiperf",
     "aigc3d/LAM",
@@ -74,7 +73,6 @@
     "iree-org/iree-turbine",
     "isaac-for-healthcare/i4h-workflows",
     "JeffreyXiang/FlexGEMM",
-    "jolibrain/joliGEN",
     "jwodder/versioningit",
     "kubeflow/sdk",
     "librelane/librelane",

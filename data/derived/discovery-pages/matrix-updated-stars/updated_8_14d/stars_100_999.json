@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 146,
-    "observations": 146,
-    "repos": 26,
-    "terms": 146
+    "components": 220,
+    "concepts": 166,
+    "observations": 166,
+    "repos": 28,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "alloy-rs/svm-rs",
@@ -21,12 +21,14 @@
     "Blaizzy/mlx-audio-swift",
     "cvxgrp/scs",
     "emacs-eldev/eldev",
+    "fsprojects/FSharp.Data.GraphQL",
     "fw-ai/cookbook",
     "GitoxideLabs/cargo-smart-release",
     "google-deepmind/reverb",
     "googlefonts/roboto-3-classic",
     "hetznercloud/hcloud-cloud-controller-manager",
     "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+    "jump-dev/MathOptInterface.jl",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "localai-org/privacy-filter.cpp",
     "machinewrapped/llm-subtrans",

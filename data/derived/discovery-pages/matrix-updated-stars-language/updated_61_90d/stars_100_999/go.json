@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1076,
-    "concepts": 886,
-    "observations": 892,
-    "repos": 149,
-    "terms": 894
+    "components": 1085,
+    "concepts": 900,
+    "observations": 906,
+    "repos": 151,
+    "terms": 908
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -22,6 +22,7 @@
     "adrg/xdg",
     "ai-dynamo/grove",
     "alibaba/loongsuite-go-agent",
+    "aliyun/aliyun-cli",
     "AliyunContainerService/terway",
     "andybalholm/brotli",
     "apache/dubbo-go-pixiu",
@@ -29,6 +30,7 @@
     "apache/dubbo-kubernetes",
     "apache/pulsar-client-go",
     "appleboy/go-fcm",
+    "aquasecurity/trivy-db",
     "argoproj-labs/argo-rollouts-manager",
     "aws-cloudformation/rain",
     "aws/amazon-vpc-resource-controller-k8s",
@@ -133,6 +135,7 @@
     "microsoft/hcsshim",
     "monitoring-mixins/mixtool",
     "moul/gotty-client",
+    "OffchainLabs/nitro",
     "open-telemetry/opentelemetry-collector-releases",
     "openshift/enhancements",
     "openshift/library",
@@ -150,7 +153,6 @@
     "raystack/meteor",
     "secretflow/kuscia",
     "sethvargo/ratchet",
-    "siderolabs/talos-cloud-controller-manager",
     "sigstore/fulcio",
     "skenetechnologies/skene",
     "snowflakedb/gosnowflake",

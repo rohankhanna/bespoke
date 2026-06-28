@@ -1,25 +1,25 @@
 {
   "counts": {
-    "components": 262,
-    "concepts": 206,
-    "observations": 208,
+    "components": 199,
+    "concepts": 194,
+    "observations": 196,
     "repos": 30,
-    "terms": 205
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "alex-shpak/hugo-book",
-    "alichherawalla/off-grid-mobile-ai",
     "ashvardanian/NumKong",
     "bazel-contrib/bazel-gazelle",
     "bencheeorg/benchee",
     "dkron-io/dkron",
     "facebookresearch/sam-3d-objects",
+    "gevent/gevent",
     "gobackup/gobackup",
     "google-deepmind/dm-haiku",
     "googleapis/google-api-php-client",

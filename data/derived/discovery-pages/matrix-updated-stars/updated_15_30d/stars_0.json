@@ -3,7 +3,7 @@
     "components": 5,
     "concepts": 2,
     "observations": 2,
-    "repos": 5,
+    "repos": 4,
     "terms": 2
   },
   "facet_version": 1,
@@ -11,11 +11,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "apostrophecms/astro-public-demo",
     "conda-forge/numba-feedstock",
-    "cvxpy/examples",
     "cvxpy/org",
     "mozilla-ai/otari-cli"
   ]

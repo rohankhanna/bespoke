@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1452,
-    "concepts": 280,
-    "observations": 281,
-    "repos": 54,
-    "terms": 280
+    "components": 1383,
+    "concepts": 266,
+    "observations": 267,
+    "repos": 51,
+    "terms": 266
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "aggre/ullr",
@@ -35,7 +35,6 @@
     "intlify/cli",
     "intlify/vue-i18n-extensions",
     "ipdxco/github-as-code",
-    "jakebailey/pyright-action",
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
@@ -45,7 +44,6 @@
     "microsoft/Agents-for-js",
     "obsidianmd/eslint-plugin",
     "octokit/auth-action.js",
-    "octokit/auth-oauth-app.js",
     "octokit/auth-oauth-device.js",
     "octokit/auth-oauth-user.js",
     "octokit/oauth-app.js",
@@ -59,7 +57,6 @@
     "quickwit-oss/quickwit-datasource",
     "rapideditor/location-conflation",
     "rstackjs/rsbuild-plugin-tailwindcss",
-    "rstackjs/rsbuild-plugin-template",
     "sapphiredev/shapeshift",
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",

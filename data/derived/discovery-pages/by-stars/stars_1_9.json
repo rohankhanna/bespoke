@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 12094,
-    "concepts": 5494,
-    "observations": 5504,
-    "repos": 2444,
-    "terms": 5504
+    "components": 12102,
+    "concepts": 5507,
+    "observations": 5517,
+    "repos": 2445,
+    "terms": 5517
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -445,6 +445,7 @@
     "BepInEx/BepInEx.MDML.Loader",
     "berrydev-ai/blockdoc-python",
     "BetterThanTomorrow/calva-power-tools",
+    "bgreenwell/ebm",
     "BhagawatAdhikari/bhagawatadhikari",
     "bianjieai/ibc-go",
     "bigcode-bench/bigcode-bench.github.io",
@@ -2311,7 +2312,7 @@
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
     "triton-inference-server/TensorRT-LLM",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "trufflesecurity/test_keys",
     "tuananh/hyper-mcp",
     "turbofish-org/abci2",

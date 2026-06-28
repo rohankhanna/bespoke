@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 284,
-    "observations": 285,
-    "repos": 34,
-    "terms": 284
+    "components": 302,
+    "concepts": 253,
+    "observations": 254,
+    "repos": 33,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "adtzlr/felupe",
     "AI-Hypercomputer/maxdiffusion",
     "andfoy/pywinpty",
-    "ansys/pymapdl",
     "aramis-lab/clinica",
     "aramis-lab/clinicadl",
     "aristoteleo/PantheonOS",
@@ -34,6 +32,7 @@
     "gbionics/jaxsim",
     "google-deepmind/chex",
     "google-deepmind/xmanager",
+    "google-research/task_adaptation",
     "googlefonts/ufo2ft",
     "InsightSoftwareConsortium/ITK-Wasm",
     "Jamorim-esss/pytest-rich",

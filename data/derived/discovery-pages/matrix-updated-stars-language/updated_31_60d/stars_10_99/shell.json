@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 157,
-    "observations": 157,
-    "repos": 25,
-    "terms": 156
+    "components": 106,
+    "concepts": 149,
+    "observations": 149,
+    "repos": 24,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "apache/datafusion-ballista-python",
@@ -21,7 +21,6 @@
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
-    "electerm/electerm-web-docker",
     "fcshark-org/route-list",
     "gpac/testsuite",
     "heroku/heroku-buildpack-dotnet",

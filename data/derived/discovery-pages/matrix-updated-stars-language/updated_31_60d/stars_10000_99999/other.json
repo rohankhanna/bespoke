@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 893,
-    "concepts": 666,
-    "observations": 668,
-    "repos": 59,
-    "terms": 663
+    "components": 870,
+    "concepts": 623,
+    "observations": 624,
+    "repos": 56,
+    "terms": 620
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -23,9 +23,7 @@
     "BasedHardware/omi",
     "bitnami/charts",
     "bitwarden/server",
-    "Blinue/Magpie",
     "cefsharp/CefSharp",
-    "coil-kt/coil",
     "coollabsio/coolify",
     "crystal-lang/crystal",
     "Devolutions/UniGetUI",
@@ -71,7 +69,6 @@
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
     "symfony/symfony",
-    "tiann/KernelSU",
-    "xmake-io/xmake"
+    "tiann/KernelSU"
   ]
 }

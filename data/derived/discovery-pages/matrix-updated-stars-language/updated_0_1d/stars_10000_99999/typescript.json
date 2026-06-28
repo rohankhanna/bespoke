@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 560,
-    "concepts": 113,
-    "observations": 115,
-    "repos": 5,
-    "terms": 122
+    "components": 448,
+    "concepts": 72,
+    "observations": 74,
+    "repos": 3,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
-    "fastapi/full-stack-fastapi-template",
-    "jestjs/jest",
     "lobehub/lobehub",
     "ruvnet/ruflo",
     "storybookjs/storybook"

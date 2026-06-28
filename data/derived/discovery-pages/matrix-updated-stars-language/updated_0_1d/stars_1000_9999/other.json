@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 74,
-    "observations": 74,
+    "components": 76,
+    "concepts": 64,
+    "observations": 64,
     "repos": 6,
-    "terms": 74
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
+    "andymass/vim-matchup",
     "datalevin/datalevin",
     "microsoft/aspire",
-    "microsoft/aspire-samples",
     "swiftlang/llvm-project",
     "TryGhost/node-sqlite3",
     "web-platform-tests/wpt"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1957,
-    "concepts": 1899,
-    "observations": 1908,
-    "repos": 233,
-    "terms": 1893
+    "components": 1983,
+    "concepts": 1921,
+    "observations": 1930,
+    "repos": 235,
+    "terms": 1915
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -44,6 +44,7 @@
     "awslabs/amazon-eks-ami",
     "awslabs/eks-node-viewer",
     "axllent/mailpit",
+    "azimjohn/jprq",
     "azure/aztfexport",
     "bazelbuild/bazelisk",
     "Bearer/bearer",
@@ -72,8 +73,10 @@
     "charmbracelet/log",
     "ClickHouse/clickhouse-go",
     "cloudflare/circl",
+    "cloudflare/pint",
     "cloudfoundry/cli",
     "cloudnativelabs/kube-router",
+    "cloudwego/hertz",
     "cloudwego/kitex",
     "cloudwego/netpoll",
     "cncf/toc",
@@ -245,7 +248,6 @@
     "walles/moor",
     "x-motemen/ghq",
     "xjasonlyu/tun2socks",
-    "xtaci/kcp-go",
     "yuin/gopher-lua"
   ]
 }

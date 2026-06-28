@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 146,
-    "observations": 147,
+    "components": 151,
+    "concepts": 153,
+    "observations": 154,
     "repos": 56,
-    "terms": 145
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
     "alphagov/govuk-rfcs",
     "AppImage/AppImageSpec",
     "askroundtable/expert-skills",
-    "BAI-LAB/Survey-on-AI-Memory",
     "BioContainers/multi-package-containers",
     "bleichenbacher-daniel/Rooterberg",
     "bmad-code-org/bmad-plugins-marketplace",
@@ -60,6 +59,7 @@
     "rstackjs/rstack-design-resources",
     "SeleniumHQ/selenium_manager_artifacts",
     "sigstore/community",
+    "sigstore/root-signing-staging",
     "simonw/simonwillisonblog-backup",
     "spring-projects/spring-ai-integration-tests",
     "Stardust-SJF/cuvs_rabitq",

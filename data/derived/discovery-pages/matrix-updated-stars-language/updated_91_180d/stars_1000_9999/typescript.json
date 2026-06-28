@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2220,
-    "concepts": 405,
-    "observations": 405,
-    "repos": 73,
-    "terms": 434
+    "components": 2305,
+    "concepts": 411,
+    "observations": 411,
+    "repos": 74,
+    "terms": 439
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -44,6 +44,7 @@
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "jonaskello/tsconfig-paths",
+    "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
     "jupyter-widgets/ipyleaflet",
     "lobehub/lobe-chat-agents",

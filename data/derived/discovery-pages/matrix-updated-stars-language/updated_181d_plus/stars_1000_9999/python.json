@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1027,
-    "concepts": 4028,
-    "observations": 4030,
-    "repos": 1021,
-    "terms": 3948
+    "concepts": 4032,
+    "observations": 4034,
+    "repos": 1025,
+    "terms": 3953
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/LGM",
@@ -244,6 +244,7 @@
     "dorianbrown/rank_bm25",
     "Doubiiu/DynamiCrafter",
     "dragnet-org/dragnet",
+    "DrSleep/tensorflow-deeplab-resnet",
     "Duxiaoman-DI/XuanYuan",
     "dylanaraps/pywal",
     "edc/bass",
@@ -393,6 +394,7 @@
     "HRNet/HRNet-Facial-Landmark-Detection",
     "HRNet/HRNet-Image-Classification",
     "HRNet/HRNet-Semantic-Segmentation",
+    "hszhao/semseg",
     "HuangJunJie2017/BEVDet",
     "huanngzh/MV-Adapter",
     "huawei-noah/Efficient-AI-Backbones",
@@ -493,6 +495,7 @@
     "kimiyoung/transformer-xl",
     "kingoflolz/mesh-transformer-jax",
     "KlingAIResearch/ReCamMaster",
+    "KMnP/vpt",
     "KoboldAI/KoboldAI-Client",
     "kohya-ss/sd-webui-additional-networks",
     "KUR-creative/SickZil-Machine",
@@ -653,6 +656,7 @@
     "NVIDIA/MinkowskiEngine",
     "NVIDIA/pix2pixHD",
     "NVIDIA/RULER",
+    "NVIDIA/semantic-segmentation",
     "NVIDIA/waveglow",
     "NVlabs/edm",
     "NVlabs/eg3d",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 230,
-    "observations": 233,
+    "components": 184,
+    "concepts": 236,
+    "observations": 239,
     "repos": 24,
-    "terms": 226
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
+    "aws-cloudformation/cfn-lint",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
     "collabora/WhisperLive",
     "eclipse-paho/paho.mqtt.python",
     "Farama-Foundation/Minigrid",
-    "google-deepmind/optax",
     "huggingface/optimum-quanto",
     "intelligent-machine-learning/dlrover",
     "joblib/joblib",
@@ -30,13 +30,13 @@
     "mljar/mercury",
     "modelscope/FunClip",
     "modelscope/ms-agent",
-    "ogx-ai/ogx",
     "opencv/opencv-python",
     "PaddlePaddle/PaddleClas",
     "prospector-dev/prospector",
     "pylint-dev/pylint",
     "pyvista/pyvista",
     "roboflow/maestro",
+    "roboflow/rf-detr",
     "Tencent-Hunyuan/HunyuanImage-3.0"
   ]
 }

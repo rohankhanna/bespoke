@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 27037,
-    "concepts": 23281,
-    "observations": 23357,
-    "repos": 5739,
-    "terms": 23207
+    "components": 27049,
+    "concepts": 23294,
+    "observations": 23370,
+    "repos": 5740,
+    "terms": 23225
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -890,6 +890,7 @@
     "beyondgrep/ack3",
     "bfenetworks/dashboard",
     "bfrg/vim-c-cpp-modern",
+    "bgreenwell/ebm",
     "bgruening/galaxytools",
     "bhauman/cljs-test-display",
     "bhauman/figwheel-main",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 501,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 42,
-    "terms": 187
+    "components": 475,
+    "concepts": 166,
+    "observations": 166,
+    "repos": 39,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "alloy-rs/evm",
@@ -22,8 +22,8 @@
     "apostrophecms/starter-kit-astro-apollo",
     "bodono/scs-python",
     "bzrudski/vectorose",
+    "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
-    "compozy/kb",
     "continuumio/blz",
     "criteo/mesos-term",
     "crossplane/docs",
@@ -31,7 +31,6 @@
     "edge-classic/EDGE-classic",
     "flatironinstitute/neurosift",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
     "jenkins-infra/repository-permissions-updater",
     "jenkinsci/plugin-pom",
@@ -39,7 +38,6 @@
     "JuliaParallel/Hwloc.jl",
     "jump-dev/Clp.jl",
     "jump-dev/SCS.jl",
-    "karafka/example-apps",
     "lablup/mlxcel",
     "lumen-oss/luarocks-tag-release",
     "mongodb/winkerberos",
@@ -53,7 +51,6 @@
     "pyvista/awesome-pyvista",
     "rordenlab/niimath",
     "storybook-community/addon-queryparams",
-    "vaporif/parry-guard",
-    "zhouwg/ggml-hexagon"
+    "vaporif/parry-guard"
   ]
 }

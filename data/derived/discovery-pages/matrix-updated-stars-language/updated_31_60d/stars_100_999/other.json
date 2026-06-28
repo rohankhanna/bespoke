@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1429,
-    "concepts": 991,
-    "observations": 991,
-    "repos": 165,
-    "terms": 986
+    "components": 1373,
+    "concepts": 944,
+    "observations": 944,
+    "repos": 155,
+    "terms": 940
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
@@ -33,15 +33,11 @@
     "bitwarden/ios",
     "bitwuzla/bitwuzla",
     "braintree/braintree_android",
-    "brewsci/homebrew-bio",
-    "cabo/kramdown-rfc",
     "canonical/ubuntu-desktop-provision",
     "cashapp/licensee",
     "castacks/tartanair_tools",
     "cefsharp/CefSharp.MinimalExample",
     "CHIP-SPV/chipStar",
-    "clojure-emacs/orchard",
-    "cloudfoundry/cloud_controller_ng",
     "codiume/orbit",
     "colineckert/obsidian-things",
     "ColinKennedy/nvim-best-practices-plugin-template",
@@ -69,7 +65,6 @@
     "google/docsy-example",
     "google/protobuf.dart",
     "GoogleCloudPlatform/cloud-sdk-docker",
-    "GoogleCloudPlatform/dotnet-docs-samples",
     "groundhog2k/helm-charts",
     "gtangg12/samesh",
     "halostatue/diff-lcs",
@@ -110,9 +105,7 @@
     "kool-engine/kool",
     "Kotlin/kotlinx-benchmark",
     "kreeti/kt-paperclip",
-    "kserve/website",
     "kubeflow/community",
-    "kubernetes/k8s.io",
     "KulikDM/pythresh",
     "lava-nc/lava",
     "lava-nc/lava-dl",
@@ -162,9 +155,7 @@
     "ropensci/software-review",
     "rr/rr",
     "rust-lang/blog.rust-lang.org",
-    "saem/vscode-nim",
     "sass/sass-spec",
-    "scalameta/nvim-metals",
     "ScoopInstaller/Java",
     "ScoopInstaller/Nonportable",
     "ScoopInstaller/Versions",
@@ -176,7 +167,6 @@
     "status-im/status-app",
     "test-unit/test-unit",
     "TuringLang/docs",
-    "weaviate/recipes",
     "WICG/attribution-reporting-api",
     "zephyr-data-specs/GMNS"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 822,
-    "concepts": 643,
-    "observations": 643,
-    "repos": 68,
-    "terms": 638
+    "components": 781,
+    "concepts": 613,
+    "observations": 613,
+    "repos": 63,
+    "terms": 608
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "AccessKit/accesskit",
-    "actix/examples",
     "agentclientprotocol/agent-client-protocol",
     "Aleph-Alpha/ts-rs",
     "apache/casbin-rs",
@@ -24,7 +23,6 @@
     "askama-rs/askama",
     "brave/adblock-rust",
     "cachix/devenv",
-    "cargo-bins/cargo-binstall",
     "cargo-generate/cargo-generate",
     "cordx56/rustowl",
     "CosmWasm/cosmwasm",
@@ -39,7 +37,6 @@
     "facebook/pyrefly",
     "facebook/sapling",
     "floneum/floneum",
-    "georust/geo",
     "graphql-rust/juniper",
     "GreptimeTeam/greptimedb",
     "hermit-os/kernel",
@@ -68,7 +65,6 @@
     "rust-cli/human-panic",
     "Rust-GPU/rust-gpu",
     "rust-lang/flate2-rs",
-    "rust-lang/libc",
     "rust-lang/portable-simd",
     "rust-lang/rustfmt",
     "rust-lang/rustup",
@@ -78,7 +74,6 @@
     "squidowl/halloy",
     "supabase/etl",
     "tensorchord/VectorChord",
-    "time-rs/time",
     "unicode-org/icu4x",
     "VOICEVOX/voicevox_core",
     "wasm-bindgen/wasm-bindgen"

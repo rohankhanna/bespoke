@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 360,
-    "concepts": 280,
-    "observations": 284,
-    "repos": 55,
-    "terms": 278
+    "components": 362,
+    "concepts": 290,
+    "observations": 294,
+    "repos": 56,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T06:00:49.703736+00:00",
+  "generated_at": "2026-06-28T11:27:53.671162+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
@@ -30,6 +30,7 @@
     "dtolnay/quote",
     "dtolnay/thiserror",
     "emilk/eframe_template",
+    "enigo-rs/enigo",
     "extism/extism",
     "fschutt/printpdf",
     "godot-rust/gdnative",
