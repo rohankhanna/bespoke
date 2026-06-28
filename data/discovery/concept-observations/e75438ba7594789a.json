@@ -84,7 +84,7 @@
   "normalized_form": "code-scanning---action",
   "observation_id": "e75438ba7594789a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T12:41:45.303903+00:00",
+  "observed_at": "2026-06-28T18:32:33.877156+00:00",
   "observed_text": "Code Scanning - Action",
   "source_context_snippet": "\"Code Scanning - Action\"",
   "source_file": ".github/workflows/codeql.yml",

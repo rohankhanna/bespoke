@@ -84,7 +84,7 @@
   "normalized_form": "integration-test",
   "observation_id": "b88d4fbd9fcfe0be",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T12:41:45.303903+00:00",
+  "observed_at": "2026-06-28T18:32:33.877156+00:00",
   "observed_text": "Integration test",
   "source_context_snippet": "Integration test",
   "source_file": ".github/workflows/benchmarks.yml",

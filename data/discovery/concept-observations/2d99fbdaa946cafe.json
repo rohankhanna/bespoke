@@ -84,7 +84,7 @@
   "normalized_form": "stale-issues-and-pull-requests",
   "observation_id": "2d99fbdaa946cafe",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T12:41:45.303903+00:00",
+  "observed_at": "2026-06-28T18:32:33.877156+00:00",
   "observed_text": "Stale Issues and Pull Requests",
   "source_context_snippet": "Stale Issues and Pull Requests",
   "source_file": ".github/workflows/stale.yml",

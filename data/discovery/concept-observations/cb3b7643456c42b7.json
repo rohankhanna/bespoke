@@ -84,7 +84,7 @@
   "normalized_form": "code-simplifier",
   "observation_id": "cb3b7643456c42b7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T12:41:45.303903+00:00",
+  "observed_at": "2026-06-28T18:32:33.877156+00:00",
   "observed_text": "Code Simplifier",
   "source_context_snippet": "\"Code Simplifier\"",
   "source_file": ".github/workflows/code-simplifier.lock.yml",

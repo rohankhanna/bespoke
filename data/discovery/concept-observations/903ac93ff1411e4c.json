@@ -84,7 +84,7 @@
   "normalized_form": "publish-stable",
   "observation_id": "903ac93ff1411e4c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T12:41:45.303903+00:00",
+  "observed_at": "2026-06-28T18:32:33.877156+00:00",
   "observed_text": "Publish Stable",
   "source_context_snippet": "Publish Stable",
   "source_file": ".github/workflows/publish.yml",

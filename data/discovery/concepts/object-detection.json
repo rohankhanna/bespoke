@@ -8428,11 +8428,77 @@
       "observed_at": "2026-06-28T12:41:45.303903+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/rf-detr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DN-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "tusen-ai/simpledet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
+  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
   "lexical_providers": [
     "datamuse"
   ],

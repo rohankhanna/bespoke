@@ -661,7 +661,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T16:55:36.936959+00:00",
+  "fetched_at": "2026-06-28T22:50:27.276503+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -708,13 +708,13 @@
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "\ud83c\udf0a The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+    "description": "\ud83c\udf0a The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
     "fork": false,
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
     "pushed_at": "2026-06-28T07:15:38Z",
-    "stargazers_count": 61872,
+    "stargazers_count": 61907,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -737,7 +737,7 @@
       "swarm-intelligence",
       "typescript"
     ],
-    "updated_at": "2026-06-28T16:50:16Z"
+    "updated_at": "2026-06-28T22:47:15Z"
   },
   "repo_links": [
     {

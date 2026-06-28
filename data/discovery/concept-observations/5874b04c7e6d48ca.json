@@ -84,7 +84,7 @@
   "normalized_form": "windows-release",
   "observation_id": "5874b04c7e6d48ca",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T12:41:45.303903+00:00",
+  "observed_at": "2026-06-28T18:32:33.877156+00:00",
   "observed_text": "Windows release",
   "source_context_snippet": "Windows release",
   "source_file": ".github/workflows/windows_release.yml",

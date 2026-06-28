@@ -81,7 +81,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T16:53:22.611864+00:00",
+  "fetched_at": "2026-06-28T22:45:25.328092+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -109,7 +109,7 @@
     "full_name": "intel-staging/text-generation-webui",
     "html_url": "https://github.com/intel-staging/text-generation-webui",
     "language": "Python",
-    "pushed_at": "2026-06-21T20:46:06Z",
+    "pushed_at": "2026-06-28T20:40:05Z",
     "stargazers_count": 17,
     "topics": [],
     "updated_at": "2026-04-26T14:23:30Z"

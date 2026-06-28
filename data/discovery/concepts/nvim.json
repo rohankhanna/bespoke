@@ -5872,11 +5872,53 @@
       "observed_at": "2026-06-28T12:41:45.303903+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
+  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
   "lexical_providers": [
     "datamuse"
   ],

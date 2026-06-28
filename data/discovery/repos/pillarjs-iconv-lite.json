@@ -509,7 +509,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T17:06:24.829047+00:00",
+  "fetched_at": "2026-06-28T23:11:54.723427+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -549,7 +549,7 @@
     "full_name": "pillarjs/iconv-lite",
     "html_url": "https://github.com/pillarjs/iconv-lite",
     "language": "JavaScript",
-    "pushed_at": "2026-06-28T05:29:49Z",
+    "pushed_at": "2026-06-28T23:09:08Z",
     "stargazers_count": 3174,
     "topics": [
       "encoding",

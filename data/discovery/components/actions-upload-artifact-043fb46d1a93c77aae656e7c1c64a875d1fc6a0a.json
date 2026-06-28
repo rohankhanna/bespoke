@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
+  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2882,6 +2882,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dockerimage-ci.yml",
       "source_repo": "phusion/holy-build-box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages-redirect.yml",
+      "source_repo": "mozilla-ai/llamafile"
     }
   ]
 }

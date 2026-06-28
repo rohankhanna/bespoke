@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v6",
   "first_seen_at": "2026-06-24T07:22:11.002189+00:00",
-  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
+  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

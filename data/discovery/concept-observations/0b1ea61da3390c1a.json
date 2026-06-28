@@ -84,7 +84,7 @@
   "normalized_form": "spec-comment-trigger",
   "observation_id": "0b1ea61da3390c1a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T12:41:45.303903+00:00",
+  "observed_at": "2026-06-28T18:32:33.877156+00:00",
   "observed_text": "Spec Comment Trigger",
   "source_context_snippet": "Spec Comment Trigger",
   "source_file": ".github/workflows/spec.pr-comment-trigger.yml",

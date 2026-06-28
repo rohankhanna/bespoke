@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
+  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -577,6 +577,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/verify-action-pins.yml",
       "source_repo": "karafka/example-apps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages-redirect.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-llama-cpp.yml",
+      "source_repo": "mozilla-ai/llamafile"
     }
   ]
 }

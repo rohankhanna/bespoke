@@ -4774,11 +4774,53 @@
       "observed_at": "2026-06-28T12:41:45.303903+00:00",
       "source_file": null,
       "source_repo": "ANTsX/ANTsR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "ANTsX/ANTsR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
+  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
   "lexical_providers": [
     "datamuse"
   ],

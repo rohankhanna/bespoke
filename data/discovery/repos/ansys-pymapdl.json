@@ -636,7 +636,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T16:51:42.689069+00:00",
+  "fetched_at": "2026-06-28T22:41:48.530522+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -688,7 +688,7 @@
     "full_name": "ansys/pymapdl",
     "html_url": "https://github.com/ansys/pymapdl",
     "language": "Python",
-    "pushed_at": "2026-06-27T22:09:19Z",
+    "pushed_at": "2026-06-28T21:26:56Z",
     "stargazers_count": 498,
     "topics": [
       "ansys",

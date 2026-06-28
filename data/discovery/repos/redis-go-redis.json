@@ -294,7 +294,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T17:13:12.808970+00:00",
+  "fetched_at": "2026-06-28T23:25:56.359711+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -346,7 +346,7 @@
     "full_name": "redis/go-redis",
     "html_url": "https://github.com/redis/go-redis",
     "language": "Go",
-    "pushed_at": "2026-06-25T13:56:36Z",
+    "pushed_at": "2026-06-28T22:36:14Z",
     "stargazers_count": 22169,
     "topics": [
       "go",

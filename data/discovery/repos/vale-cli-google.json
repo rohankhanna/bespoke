@@ -98,7 +98,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T17:16:47.658366+00:00",
+  "fetched_at": "2026-06-28T22:02:29.701495+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -119,13 +119,13 @@
     "html_url": "https://github.com/vale-cli/Google",
     "language": "Gherkin",
     "pushed_at": "2025-04-11T04:43:53Z",
-    "stargazers_count": 85,
+    "stargazers_count": 86,
     "topics": [
       "vale",
       "vale-linter-style",
       "vale-style"
     ],
-    "updated_at": "2026-06-05T21:49:25Z"
+    "updated_at": "2026-06-28T17:52:17Z"
   },
   "repo_links": [
     {

@@ -18,21 +18,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -46,14 +46,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/editorconfig.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/editorconfig.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "editorconfig-checker/action-editorconfig-checker@main",
+      "target": "editorconfig-checker/action-editorconfig-checker@840e866d93b8e032123c23bac69dece044d4d84c",
       "target_type": "component"
     },
     {
@@ -67,14 +67,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "actions/labeler@v5",
+      "target": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
       "target_type": "component"
     },
     {
@@ -88,21 +88,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pages-redirect.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pages-redirect.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "actions/setup-python@v5",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pages-redirect.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -116,7 +116,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-llama-cpp.yml",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -190,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-28T12:41:45.303903+00:00",
+  "generated_at": "2026-06-28T18:32:33.877156+00:00",
   "source_repo": "mozilla-ai/llamafile"
 }

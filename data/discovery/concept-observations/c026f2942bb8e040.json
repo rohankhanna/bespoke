@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "\ud83c\udf0a The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+      "text": "\ud83c\udf0a The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "clone-tracker-14-day-rolling",
   "observation_id": "c026f2942bb8e040",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T12:41:45.303903+00:00",
+  "observed_at": "2026-06-28T18:32:33.877156+00:00",
   "observed_text": "Clone Tracker (14-day rolling)",
   "source_context_snippet": "Clone Tracker (14-day rolling)",
   "source_file": ".github/workflows/clone-tracker.yml",
   "source_repo": "ruvnet/ruflo",
-  "source_repo_description": "\ud83c\udf0a The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+  "source_repo_description": "\ud83c\udf0a The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
 }

@@ -226,11 +226,17 @@
       "observed_at": "2026-06-28T12:41:45.303903+00:00",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T18:32:33.877156+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
     }
   ],
   "first_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
+  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
   "lexical_providers": [
     "datamuse"
   ],

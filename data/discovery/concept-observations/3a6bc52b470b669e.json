@@ -48,7 +48,7 @@
   "normalized_form": "cloud-native",
   "observation_id": "3a6bc52b470b669e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-28T12:41:45.303903+00:00",
+  "observed_at": "2026-06-28T18:32:33.877156+00:00",
   "observed_text": "cloud-native",
   "source_context_snippet": "[![CI (main)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml/badge.svg)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml)",
   "source_file": null,
