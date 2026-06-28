@@ -12,18 +12,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "sunghac/RobustNet",
-      "target": "nvidia/semantic-segmentation",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "sunghac/RobustNet",
       "target": "shachoi/hanet",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-06-27T20:01:29.651375+00:00",
+  "fetched_at": "2026-06-28T10:53:02.347022+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -49,11 +42,6 @@
     "updated_at": "2026-04-27T11:10:56Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nvidia/semantic-segmentation",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "shachoi/hanet",

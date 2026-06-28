@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "target": "neurips-2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T10:52:39.117142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Semi-Supervised Semantic Segmentation via Adaptive Equalization Learning, NeurIPS 2021 (Spotlight)",
+    "fork": false,
+    "full_name": "hzhupku/SemiSeg-AEL",
+    "html_url": "https://github.com/hzhupku/SemiSeg-AEL",
+    "language": "Python",
+    "pushed_at": "2021-10-12T04:39:25Z",
+    "stargazers_count": 137,
+    "topics": [
+      "neurips-2021",
+      "semantic-segmentation",
+      "semi-supervised-learning"
+    ],
+    "updated_at": "2026-06-19T19:13:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Due to the limited and even imbalanced data, semi-supervised semantic segmentation tends to have poor performance on some certain categories, e.g., tailed categories in Cityscapes dataset which exhibits a long-tailed label distribution. Existing approaches almost all neglect thi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2021"
+    },
+    {
+      "context_snippet": "Due to the limited and even imbalanced data, semi-supervised semantic segmentation tends to have poor performance on some certain categories, e.g., tailed categories in Cityscapes dataset which exhibits a long-tailed label distribution. Existing approaches almost all neglect thi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "Due to the limited and even imbalanced data, semi-supervised semantic segmentation tends to have poor performance on some certain categories, e.g., tailed categories in Cityscapes dataset which exhibits a long-tailed label distribution. Existing approaches almost all neglect thi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    }
+  ]
+}

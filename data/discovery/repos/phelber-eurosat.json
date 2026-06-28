@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-28T10:52:55.719235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "EuroSAT: Land Use and Land Cover Classification with Sentinel-2",
+    "fork": false,
+    "full_name": "phelber/EuroSAT",
+    "html_url": "https://github.com/phelber/EuroSAT",
+    "language": null,
+    "pushed_at": "2023-03-09T11:53:50Z",
+    "stargazers_count": 560,
+    "topics": [],
+    "updated_at": "2026-06-27T19:05:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

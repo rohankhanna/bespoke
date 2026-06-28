@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MendelXu/zsseg.baseline",
+      "target": "mendelxu/san",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MendelXu/zsseg.baseline",
+      "target": "zhanghang1989/detail-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MendelXu/zsseg.baseline",
+      "target": "drsleep/tensorflow-deeplab-resnet",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-28T07:31:22.738327+00:00",
+  "source_repo": "MendelXu/zsseg.baseline"
+}

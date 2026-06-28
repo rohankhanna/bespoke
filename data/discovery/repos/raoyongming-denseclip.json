@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-28T07:43:51.305063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2022] DenseCLIP: Language-Guided Dense Prediction with Context-Aware Prompting",
+    "fork": false,
+    "full_name": "raoyongming/DenseCLIP",
+    "html_url": "https://github.com/raoyongming/DenseCLIP",
+    "language": "Python",
+    "pushed_at": "2023-09-15T03:17:33Z",
+    "stargazers_count": 549,
+    "topics": [],
+    "updated_at": "2026-06-04T05:00:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

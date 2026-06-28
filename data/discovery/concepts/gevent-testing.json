@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "gevent testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gevent/gevent",
+      "status": "candidate-context",
+      "text": "Coroutine-based concurrency library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gevent/gevent",
+      "status": "candidate-context",
+      "text": "gevent testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gevent/gevent",
+      "status": "candidate",
+      "text": "gevent testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assay"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gevent testing",
+  "concept_id": "gevent-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gevent/gevent"
+    }
+  ],
+  "first_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "gevent testing",
+      "sense_id": "gevent-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

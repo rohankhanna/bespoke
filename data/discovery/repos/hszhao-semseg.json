@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-28T10:52:30.138108+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Semantic Segmentation in Pytorch",
+    "fork": false,
+    "full_name": "hszhao/semseg",
+    "html_url": "https://github.com/hszhao/semseg",
+    "language": "Python",
+    "pushed_at": "2022-08-28T10:50:55Z",
+    "stargazers_count": 1376,
+    "topics": [],
+    "updated_at": "2026-06-24T12:39:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

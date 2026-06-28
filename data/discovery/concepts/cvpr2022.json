@@ -187,6 +187,30 @@
       "source_repo": "lhoyer/DAFormer",
       "status": "candidate-context",
       "text": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] ST++: Make Self-training Work Better for Semi-supervised Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "status": "candidate-context",
+      "text": "This is the official PyTorch implementation of our CVPR 2022 paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate-context",
+      "text": "[CVPR'22 & IJCV'24] Semi-Supervised Semantic Segmentation Using Unreliable Pseudo-Labels & Using Unreliable Pseudo-Labels for Label-Efficient Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022."
     }
   ],
   "candidate_glosses": [
@@ -279,6 +303,18 @@
       "source_repo": "lhoyer/DAFormer",
       "status": "candidate",
       "text": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "status": "candidate",
+      "text": "This is the official PyTorch implementation of our CVPR 2022 paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022."
     }
   ],
   "candidate_related_terms": [],
@@ -910,11 +946,29 @@
       "observed_at": "2026-06-28T00:47:22.872104+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "LiheYoung/ST-PlusPlus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

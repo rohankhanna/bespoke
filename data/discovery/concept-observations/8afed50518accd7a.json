@@ -84,7 +84,7 @@
   "normalized_form": "mypy-type-check",
   "observation_id": "8afed50518accd7a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T18:32:46.721236+00:00",
+  "observed_at": "2026-06-28T07:31:22.738327+00:00",
   "observed_text": "Mypy Type Check",
   "source_context_snippet": "Mypy Type Check",
   "source_file": ".github/workflows/ci-typing.yml",

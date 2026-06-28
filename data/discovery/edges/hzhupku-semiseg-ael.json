@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "target": "neurips-2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-28T07:31:22.738327+00:00",
+  "source_repo": "hzhupku/SemiSeg-AEL"
+}

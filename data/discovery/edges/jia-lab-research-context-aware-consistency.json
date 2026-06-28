@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "yassouali/cct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "hszhao/semseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "semi-supervised-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-28T07:31:22.738327+00:00",
+  "source_repo": "JIA-Lab-research/Context-Aware-Consistency"
+}

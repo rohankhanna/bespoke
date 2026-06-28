@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/task_adaptation",
+      "target": "deepmind/dsprites-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/task_adaptation",
+      "target": "phelber/eurosat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/task_adaptation",
+      "target": "basveeling/pcam",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-28T09:18:50.383839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "google-research/task_adaptation",
+    "html_url": "https://github.com/google-research/task_adaptation",
+    "language": "Python",
+    "pushed_at": "2026-06-23T19:21:24Z",
+    "stargazers_count": 354,
+    "topics": [],
+    "updated_at": "2026-06-08T19:42:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "basveeling/pcam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/dsprites-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phelber/eurosat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

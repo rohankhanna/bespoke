@@ -107,7 +107,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T01:26:19.795946+00:00",
+  "fetched_at": "2026-06-28T10:45:18.700389+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -128,7 +128,7 @@
     "html_url": "https://github.com/thu-ml/DiT-Extrapolation",
     "language": "Python",
     "pushed_at": "2026-06-06T13:19:59Z",
-    "stargazers_count": 812,
+    "stargazers_count": 813,
     "topics": [
       "cogvideox",
       "diffusion",
@@ -143,7 +143,7 @@
       "rope",
       "video-generation"
     ],
-    "updated_at": "2026-06-27T05:07:13Z"
+    "updated_at": "2026-06-28T10:01:34Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yassouali/CCT",
+      "target": "jiwoon-ahn/irn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yassouali/CCT",
+      "target": "donnyyou/torchcv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yassouali/CCT",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yassouali/CCT",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yassouali/CCT",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-28T07:31:22.738327+00:00",
+  "source_repo": "yassouali/CCT"
+}

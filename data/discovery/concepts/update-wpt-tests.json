@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update WPT tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pillarjs/iconv-lite",
+      "status": "candidate-context",
+      "text": "Convert character encodings in pure javascript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pillarjs/iconv-lite",
+      "status": "candidate-context",
+      "text": "Update WPT tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pillarjs/iconv-lite",
+      "status": "candidate",
+      "text": "Update WPT tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9627,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9627,
+      "status": "candidate",
+      "text": "debriefing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9627,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9627,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9627,
+      "status": "candidate",
+      "text": "eta"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update WPT tests",
+  "concept_id": "update-wpt-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/wpt-update.yml",
+      "source_repo": "pillarjs/iconv-lite"
+    }
+  ],
+  "first_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update WPT tests",
+      "sense_id": "update-wpt-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

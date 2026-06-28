@@ -847,6 +847,102 @@
       "source_repo": "lhoyer/DAFormer",
       "status": "candidate-context",
       "text": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "status": "candidate-context",
+      "text": "Semi-supervised Semantic Segmentation with Directional Context-aware Consistency (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "status": "candidate-context",
+      "text": "*Xin Lai<sup>\\*</sup>, Zhuotao Tian<sup>\\*</sup>, Li Jiang, Shu Liu, Hengshuang Zhao, Liwei Wang, Jiaya Jia*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesCXK/TorchSemiSeg",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] CPS: Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesCXK/TorchSemiSeg",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate-context",
+      "text": "[CVPR'22 & IJCV'24] Semi-Supervised Semantic Segmentation Using Unreliable Pseudo-Labels & Using Unreliable Pseudo-Labels for Label-Efficient Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "status": "candidate-context",
+      "text": "DeepLab-ResNet rebuilt in TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet.svg?branch=master)](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yassouali/CCT",
+      "status": "candidate-context",
+      "text": ":page_facing_up: Semi-Supervised Semantic Segmentation with Cross-Consistency Training (CVPR 2020)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yassouali/CCT",
+      "status": "candidate-context",
+      "text": "This repo contains the official implementation of CVPR 2020 paper: Semi-Supervised Semantic Segmentation with Cross-Consistency Training, which"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "status": "candidate-context",
+      "text": "Semi-Supervised Semantic Segmentation via Adaptive Equalization Learning, NeurIPS 2021 (Spotlight)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "status": "candidate-context",
+      "text": "Due to the limited and even imbalanced data, semi-supervised semantic segmentation tends to have poor performance on some certain categories, e.g., tailed categories in Cityscapes dataset which exhibits a long-tailed label distribution. Existing approaches almost all neglect thi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lorenmt/reco",
+      "status": "candidate-context",
+      "text": "The implementation of \"Bootstrapping Semantic Segmentation with Regional Contrast\" [ICLR 2022]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lorenmt/reco",
+      "status": "candidate-context",
+      "text": "This repository contains the source code of ReCo and baselines from the paper, [Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465), introduced by [Shikun Liu](https://shikun.io/), [Shuaifeng Zhi](https://shuaifengzhi.com/), [Edward John\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov",
+      "status": "candidate-context",
+      "text": "DeepLab-LargeFOV implemented in tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov",
+      "status": "candidate-context",
+      "text": "This is an implementation of [DeepLab-LargeFOV](http://ccvl.stat.ucla.edu/deeplab-models/deeplab-largefov/) in TensorFlow for semantic image segmentation on [PASCAL VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/)."
     }
   ],
   "candidate_glosses": [
@@ -1269,6 +1365,54 @@
       "source_repo": "lhoyer/DAFormer",
       "status": "candidate",
       "text": "**by [Lukas Hoyer](https://lhoyer.github.io/), [Dengxin Dai](https://vas.mpi-inf.mpg.de/dengxin/), and [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "status": "candidate",
+      "text": "*Xin Lai<sup>\\*</sup>, Zhuotao Tian<sup>\\*</sup>, Li Jiang, Shu Liu, Hengshuang Zhao, Liwei Wang, Jiaya Jia*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesCXK/TorchSemiSeg",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet.svg?branch=master)](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yassouali/CCT",
+      "status": "candidate",
+      "text": "This repo contains the official implementation of CVPR 2020 paper: Semi-Supervised Semantic Segmentation with Cross-Consistency Training, which"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "status": "candidate",
+      "text": "Due to the limited and even imbalanced data, semi-supervised semantic segmentation tends to have poor performance on some certain categories, e.g., tailed categories in Cityscapes dataset which exhibits a long-tailed label distribution. Existing approaches almost all neglect thi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lorenmt/reco",
+      "status": "candidate",
+      "text": "This repository contains the source code of ReCo and baselines from the paper, [Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465), introduced by [Shikun Liu](https://shikun.io/), [Shuaifeng Zhi](https://shuaifengzhi.com/), [Edward John\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov",
+      "status": "candidate",
+      "text": "This is an implementation of [DeepLab-LargeFOV](http://ccvl.stat.ucla.edu/deeplab-models/deeplab-largefov/) in TensorFlow for semantic image segmentation on [PASCAL VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/)."
     }
   ],
   "candidate_related_terms": [],
@@ -5956,11 +6100,107 @@
       "observed_at": "2026-06-28T00:47:22.872104+00:00",
       "source_file": null,
       "source_repo": "TiagoCortinhal/SalsaNext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "TiagoCortinhal/SalsaNext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "charlesCXK/TorchSemiSeg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "yassouali/CCT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "hzhupku/SemiSeg-AEL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "lorenmt/reco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

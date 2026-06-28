@@ -43,6 +43,54 @@
       "source_repo": "roboflow/supervision",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate-context",
+      "text": "[CVPR'22 & IJCV'24] Semi-Supervised Semantic Segmentation Using Unreliable Pseudo-Labels & Using Unreliable Pseudo-Labels for Label-Efficient Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "status": "candidate-context",
+      "text": "DeepLab-ResNet rebuilt in TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet.svg?branch=master)](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lorenmt/reco",
+      "status": "candidate-context",
+      "text": "The implementation of \"Bootstrapping Semantic Segmentation with Regional Contrast\" [ICLR 2022]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lorenmt/reco",
+      "status": "candidate-context",
+      "text": "This repository contains the source code of ReCo and baselines from the paper, [Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465), introduced by [Shikun Liu](https://shikun.io/), [Shuaifeng Zhi](https://shuaifengzhi.com/), [Edward John\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov",
+      "status": "candidate-context",
+      "text": "DeepLab-LargeFOV implemented in tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov",
+      "status": "candidate-context",
+      "text": "This is an implementation of [DeepLab-LargeFOV](http://ccvl.stat.ucla.edu/deeplab-models/deeplab-largefov/) in TensorFlow for semantic image segmentation on [PASCAL VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +111,30 @@
       "source_repo": "roboflow/supervision",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet.svg?branch=master)](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lorenmt/reco",
+      "status": "candidate",
+      "text": "This repository contains the source code of ReCo and baselines from the paper, [Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465), introduced by [Shikun Liu](https://shikun.io/), [Shuaifeng Zhi](https://shuaifengzhi.com/), [Edward John\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov",
+      "status": "candidate",
+      "text": "This is an implementation of [DeepLab-LargeFOV](http://ccvl.stat.ucla.edu/deeplab-models/deeplab-largefov/) in TensorFlow for semantic image segmentation on [PASCAL VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +160,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "roboflow/supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "lorenmt/reco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

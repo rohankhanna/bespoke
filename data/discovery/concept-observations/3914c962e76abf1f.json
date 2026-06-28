@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Explainable Boosting Machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- badges: start -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030291,
+      "status": "candidate",
+      "text": "explicable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030136,
+      "status": "candidate",
+      "text": "explainable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030688,
+      "status": "candidate",
+      "text": "understandable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030687,
+      "status": "candidate",
+      "text": "reinterpretable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030686,
+      "status": "candidate",
+      "text": "intelligible"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interpretable",
+      "sense_id": "interpretable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5029,
+      "status": "candidate",
+      "text": "explicable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "explainable"
+    }
+  ],
+  "concept_id": "interpretable",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interpretable",
+  "observation_id": "3914c962e76abf1f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_text": "interpretable",
+  "source_context_snippet": "<!-- badges: start -->",
+  "source_file": null,
+  "source_repo": "bgreenwell/ebm",
+  "source_repo_description": "Explainable Boosting Machines"
+}

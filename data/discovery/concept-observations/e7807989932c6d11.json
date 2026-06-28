@@ -84,7 +84,7 @@
   "normalized_form": "claude-docs-check",
   "observation_id": "e7807989932c6d11",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T18:32:46.721236+00:00",
+  "observed_at": "2026-06-28T07:31:22.738327+00:00",
   "observed_text": "Claude Docs Check",
   "source_context_snippet": "Claude Docs Check",
   "source_file": ".github/workflows/claude-docs-check.yml",

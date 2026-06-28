@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sunghac/HANet",
+      "target": "shachoi/hanet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-28T10:53:00.999540+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official PyTorch implementation of HANet (CVPR 2020)",
+    "fork": false,
+    "full_name": "sunghac/HANet",
+    "html_url": "https://github.com/sunghac/HANet",
+    "language": "Python",
+    "pushed_at": "2022-06-15T06:25:23Z",
+    "stargazers_count": 218,
+    "topics": [],
+    "updated_at": "2026-04-30T12:56:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shachoi/hanet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

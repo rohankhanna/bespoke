@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR 2022] ST++: Make Self-training Work Better for Semi-supervised Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official PyTorch implementation of our CVPR 2022 paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official PyTorch implementation of our CVPR 2022 paper:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "semi-supervised-learning",
+      "sense_id": "semi-supervised-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "semi-supervised-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "semi-supervised-learning",
+  "observation_id": "25467523b94a8414",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_text": "semi-supervised-learning",
+  "source_context_snippet": "This is the official PyTorch implementation of our CVPR 2022 paper:",
+  "source_file": null,
+  "source_repo": "LiheYoung/ST-PlusPlus",
+  "source_repo_description": "[CVPR 2022] ST++: Make Self-training Work Better for Semi-supervised Semantic Segmentation"
+}

@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/semantic-segmentation",
+      "target": "nvidia/runx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-28T07:43:53.000711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4059
+    },
+    {
+      "path": "Dockerfile",
+      "size": 827
+    },
+    {
+      "path": "requirements.txt",
+      "size": 76
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nvidia Semantic Segmentation monorepo",
+    "fork": false,
+    "full_name": "NVIDIA/semantic-segmentation",
+    "html_url": "https://github.com/NVIDIA/semantic-segmentation",
+    "language": "Python",
+    "pushed_at": "2021-07-26T23:48:15Z",
+    "stargazers_count": 1824,
+    "topics": [],
+    "updated_at": "2026-06-26T12:12:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/runx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

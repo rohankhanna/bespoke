@@ -1540,11 +1540,29 @@
       "observed_at": "2026-06-28T00:47:22.872104+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

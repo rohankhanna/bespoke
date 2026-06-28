@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhenZHAO/AugSeg",
+      "target": "zhenzhao/imas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhenZHAO/AugSeg",
+      "target": "charlescxk/torchsemiseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhenZHAO/AugSeg",
+      "target": "haochen-wang409/u2pl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhenZHAO/AugSeg",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhenZHAO/AugSeg",
+      "target": "semi-supervised-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T07:43:44.383049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6339
+    },
+    {
+      "path": "requirements.txt",
+      "size": 129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'23] Augmentation Matters: A Simple-yet-Effective Approach to Semi-supervised Semantic Segmentation",
+    "fork": false,
+    "full_name": "ZhenZHAO/AugSeg",
+    "html_url": "https://github.com/ZhenZHAO/AugSeg",
+    "language": "Python",
+    "pushed_at": "2024-03-21T11:13:21Z",
+    "stargazers_count": 128,
+    "topics": [
+      "semi-supervised-learning",
+      "semi-supervised-segmentation"
+    ],
+    "updated_at": "2026-06-24T17:18:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlescxk/torchsemiseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haochen-wang409/u2pl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhenzhao/imas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \"Augmentation Matters: A Simple-yet-Effective Approach to Semi-supervised Semantic Segmentation\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    },
+    {
+      "context_snippet": "> \"Augmentation Matters: A Simple-yet-Effective Approach to Semi-supervised Semantic Segmentation\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-segmentation"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleinterns/wss",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleinterns/wss",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T09:18:35.513299+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4863
+    },
+    {
+      "path": "requirements.txt",
+      "size": 97
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A simple consistency training framework for semi-supervised image semantic segmentation",
+    "fork": false,
+    "full_name": "googleinterns/wss",
+    "html_url": "https://github.com/googleinterns/wss",
+    "language": "Python",
+    "pushed_at": "2024-07-30T20:50:14Z",
+    "stargazers_count": 173,
+    "topics": [
+      "segmentation",
+      "semi-supervised-learning"
+    ],
+    "updated_at": "2026-04-30T12:55:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PseudoSeg is a simple consistency training framework for semi-supervised image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "PseudoSeg is a simple consistency training framework for semi-supervised image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    }
+  ]
+}

@@ -26,6 +26,16 @@
       "source_file": ".github/workflows/check-line-endings.yml"
     },
     {
+      "component": "hash-pin`.",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cursor-review.yml"
+    },
+    {
+      "component": "Comfy-Org/github-workflows/.github/workflows/cursor-review.yml@047ca48febe3a6647608ed2e0c4331b491cb9d6a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cursor-review.yml"
+    },
+    {
       "component": "Comfy-Org/github-workflows/.github/workflows/detect-unreviewed-merge.yml@4d9cb6b87f953bb7cd69954280e1465fb9bd2040",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/detect-unreviewed-merge.yml"
@@ -39,16 +49,6 @@
       "component": "actions/setup-node@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/openapi-lint.yml"
-    },
-    {
-      "component": "comfy-org/comfy-action@main",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pullrequest-ci-run.yml"
-    },
-    {
-      "component": "actions/github-script@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pullrequest-ci-run.yml"
     }
   ],
   "edges": [
@@ -131,6 +131,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cursor-review.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "hash-pin`.",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cursor-review.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "Comfy-Org/github-workflows/.github/workflows/cursor-review.yml@047ca48febe3a6647608ed2e0c4331b491cb9d6a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cursor-review.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "CI - Cursor Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/detect-unreviewed-merge.yml",
       "source_repo": "Comfy-Org/ComfyUI",
       "target": "Comfy-Org/github-workflows/.github/workflows/detect-unreviewed-merge.yml@4d9cb6b87f953bb7cd69954280e1465fb9bd2040",
@@ -165,27 +186,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pullrequest-ci-run.yml",
-      "source_repo": "Comfy-Org/ComfyUI",
-      "target": "comfy-org/comfy-action@main",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pullrequest-ci-run.yml",
-      "source_repo": "Comfy-Org/ComfyUI",
-      "target": "actions/github-script@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/pullrequest-ci-run.yml",
-      "source_repo": "Comfy-Org/ComfyUI",
-      "target": "Pull Request CI Workflow Runs",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Comfy-Org/ComfyUI",
@@ -214,7 +214,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T20:03:18.388596+00:00",
+  "fetched_at": "2026-06-28T10:55:28.316306+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -245,16 +245,16 @@
       "size": 1246
     },
     {
+      "path": ".github/workflows/ci-cursor-review.yml",
+      "size": 1353
+    },
+    {
       "path": ".github/workflows/detect-unreviewed-merge.yml",
       "size": 629
     },
     {
       "path": ".github/workflows/openapi-lint.yml",
       "size": 639
-    },
-    {
-      "path": ".github/workflows/pullrequest-ci-run.yml",
-      "size": 1937
     }
   ],
   "related_repositories": [],
@@ -266,8 +266,8 @@
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-06-27T14:13:38Z",
-    "stargazers_count": 118526,
+    "pushed_at": "2026-06-28T06:34:30Z",
+    "stargazers_count": 118592,
     "topics": [
       "ai",
       "comfy",
@@ -276,7 +276,7 @@
       "pytorch",
       "stable-diffusion"
     ],
-    "updated_at": "2026-06-27T19:52:59Z"
+    "updated_at": "2026-06-28T10:39:48Z"
   },
   "repo_links": [
     {
@@ -316,6 +316,12 @@
       "term": "Check for Windows Line Endings"
     },
     {
+      "context_snippet": "CI - Cursor Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cursor-review.yml",
+      "term": "CI - Cursor Review"
+    },
+    {
       "context_snippet": "Detect Unreviewed Merge",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/detect-unreviewed-merge.yml",
@@ -326,12 +332,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/openapi-lint.yml",
       "term": "OpenAPI Lint"
-    },
-    {
-      "context_snippet": "Pull Request CI Workflow Runs",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/pullrequest-ci-run.yml",
-      "term": "Pull Request CI Workflow Runs"
     },
     {
       "context_snippet": "<div align=\"center\">",

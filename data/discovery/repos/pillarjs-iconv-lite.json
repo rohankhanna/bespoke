@@ -26,6 +26,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "eslint",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -51,17 +56,17 @@
       "source_file": "package.json"
     },
     {
-      "component": "nyc",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "unorm",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
       "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "wpt-runner",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -126,16 +131,6 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v7.0.0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
       "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
@@ -169,6 +164,46 @@
       "component": "gr2m/create-or-update-pull-request-action@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/generator.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-conformance.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-conformance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-conformance.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-conformance.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-conformance.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-update.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-update.yml"
+    },
+    {
+      "component": "gr2m/create-or-update-pull-request-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-update.yml"
     }
   ],
   "edges": [
@@ -225,6 +260,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "pillarjs/iconv-lite",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "pillarjs/iconv-lite",
       "target": "eslint",
       "target_type": "component"
     },
@@ -260,13 +302,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "nyc",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "pillarjs/iconv-lite",
       "target": "unorm",
       "target_type": "component"
     },
@@ -275,6 +310,13 @@
       "source_file": "package.json",
       "source_repo": "pillarjs/iconv-lite",
       "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "wpt-runner",
       "target_type": "component"
     },
     {
@@ -376,6 +418,76 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-conformance.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-conformance.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-conformance.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-conformance.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-conformance.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wpt-conformance.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "WPT conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-update.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-update.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wpt-update.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "gr2m/create-or-update-pull-request-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wpt-update.yml",
+      "source_repo": "pillarjs/iconv-lite",
+      "target": "Update WPT tests",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "pillarjs/iconv-lite",
@@ -397,7 +509,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T00:53:46.341898+00:00",
+  "fetched_at": "2026-06-28T11:15:51.284491+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -405,11 +517,11 @@
     },
     {
       "path": "package.json",
-      "size": 2372
+      "size": 2655
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 4969
+      "size": 5179
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -417,7 +529,15 @@
     },
     {
       "path": ".github/workflows/generator.yml",
-      "size": 1014
+      "size": 959
+    },
+    {
+      "path": ".github/workflows/wpt-conformance.yml",
+      "size": 3181
+    },
+    {
+      "path": ".github/workflows/wpt-update.yml",
+      "size": 1688
     }
   ],
   "related_repositories": [],
@@ -429,7 +549,7 @@
     "full_name": "pillarjs/iconv-lite",
     "html_url": "https://github.com/pillarjs/iconv-lite",
     "language": "JavaScript",
-    "pushed_at": "2026-06-28T00:48:07Z",
+    "pushed_at": "2026-06-28T05:29:49Z",
     "stargazers_count": 3175,
     "topics": [
       "encoding",
@@ -437,7 +557,7 @@
       "iconv",
       "javascript"
     ],
-    "updated_at": "2026-06-27T18:07:43Z"
+    "updated_at": "2026-06-28T05:29:52Z"
   },
   "repo_links": [
     {
@@ -463,6 +583,18 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/generator.yml",
       "term": "Update Encodings"
+    },
+    {
+      "context_snippet": "WPT conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wpt-conformance.yml",
+      "term": "WPT conformance"
+    },
+    {
+      "context_snippet": "Update WPT tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wpt-update.yml",
+      "term": "Update WPT tests"
     },
     {
       "context_snippet": "[![NPM Version][npm-version-image]][npm-url]",

@@ -1,7 +1,7 @@
 {
   "component": "golangci/golangci-lint-action@82606bf257cbaff209d206a39f5134f0cfbfd2ee",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

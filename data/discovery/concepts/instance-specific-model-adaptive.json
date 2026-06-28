@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "instance-specific-model-adaptive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhenZHAO/iMAS",
+      "status": "candidate-context",
+      "text": "[CVPR'23] Instance-specific and Model-adaptive Supervision for Semi-supervised Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhenZHAO/iMAS",
+      "status": "candidate-context",
+      "text": "> \"Instance-specific and Model-adaptive Supervision for Semi-supervised Semantic Segmentation\"."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhenZHAO/iMAS",
+      "status": "candidate",
+      "text": "> \"Instance-specific and Model-adaptive Supervision for Semi-supervised Semantic Segmentation\"."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "instance-specific-model-adaptive",
+  "concept_id": "instance-specific-model-adaptive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "ZhenZHAO/iMAS"
+    }
+  ],
+  "first_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "instance-specific-model-adaptive",
+      "sense_id": "instance-specific-model-adaptive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

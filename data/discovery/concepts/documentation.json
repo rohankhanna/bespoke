@@ -12126,11 +12126,83 @@
       "observed_at": "2026-06-28T00:47:22.872104+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/task_adaptation",
+      "target": "deepmind/dsprites-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/task_adaptation",
+      "target": "phelber/eurosat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/task_adaptation",
+      "target": "basveeling/pcam",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-28T07:31:22.738327+00:00",
+  "source_repo": "google-research/task_adaptation"
+}

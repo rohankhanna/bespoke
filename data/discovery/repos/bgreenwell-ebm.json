@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-tinytex@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "bgreenwell/ebm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "bgreenwell/ebm",
+      "target": "r-lib/actions/setup-tinytex@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "bgreenwell/ebm",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "bgreenwell/ebm",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "bgreenwell/ebm",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "bgreenwell/ebm",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "blackbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "explainable-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "explainable-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "explainable-ml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "glassbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "interpretability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "interpretability-and-explainability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "interpretable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "interpretable-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "interpretable-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "interpretable-ml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "interpretable-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T07:45:00.241182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1436
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "size": 1643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Explainable Boosting Machines",
+    "fork": false,
+    "full_name": "bgreenwell/ebm",
+    "html_url": "https://github.com/bgreenwell/ebm",
+    "language": "R",
+    "pushed_at": "2025-03-06T01:42:45Z",
+    "stargazers_count": 5,
+    "topics": [
+      "ai",
+      "blackbox",
+      "explainable-ai",
+      "explainable-machine-learning",
+      "explainable-ml",
+      "glassbox",
+      "iml",
+      "interpretability",
+      "interpretability-and-explainability",
+      "interpretable",
+      "interpretable-ai",
+      "interpretable-machine-learning",
+      "interpretable-ml",
+      "interpretable-models",
+      "machine-learning",
+      "xai"
+    ],
+    "updated_at": "2025-11-05T18:59:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blackbox"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explainable-ai"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explainable-machine-learning"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explainable-ml"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glassbox"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretability"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretability-and-explainability"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretable"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretable-ai"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretable-machine-learning"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretable-ml"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretable-models"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "basveeling/pcam",
+      "target": "zalandoresearch/fashion-mnist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basveeling/pcam",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basveeling/pcam",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basveeling/pcam",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basveeling/pcam",
+      "target": "deep-learning-datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basveeling/pcam",
+      "target": "pathology",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T10:52:52.611435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The PatchCamelyon (PCam) deep learning classification benchmark.",
+    "fork": false,
+    "full_name": "basveeling/pcam",
+    "html_url": "https://github.com/basveeling/pcam",
+    "language": "Python",
+    "pushed_at": "2024-01-31T14:06:01Z",
+    "stargazers_count": 523,
+    "topics": [
+      "benchmark",
+      "dataset",
+      "deep-learning",
+      "deep-learning-datasets",
+      "pathology"
+    ],
+    "updated_at": "2026-06-27T10:47:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zalandoresearch/fashion-mnist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "_That which is measured, improves._ - Karl Pearson",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "_That which is measured, improves._ - Karl Pearson",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "_That which is measured, improves._ - Karl Pearson",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "_That which is measured, improves._ - Karl Pearson",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning-datasets"
+    },
+    {
+      "context_snippet": "_That which is measured, improves._ - Karl Pearson",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pathology"
+    }
+  ]
+}

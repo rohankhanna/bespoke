@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mechine-learning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate-context",
+      "text": "[CVPR'22 & IJCV'24] Semi-Supervised Semantic Segmentation Using Unreliable Pseudo-Labels & Using Unreliable Pseudo-Labels for Label-Efficient Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mechine-learning",
+  "concept_id": "mechine-learning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL"
+    }
+  ],
+  "first_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mechine-learning",
+      "sense_id": "mechine-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

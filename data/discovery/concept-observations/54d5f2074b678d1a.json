@@ -48,7 +48,7 @@
   "normalized_form": "pre-run",
   "observation_id": "54d5f2074b678d1a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T00:47:22.872104+00:00",
+  "observed_at": "2026-06-28T07:31:22.738327+00:00",
   "observed_text": "pre-run",
   "source_context_snippet": "pre-run",
   "source_file": ".github/workflows/pre-run.yml",

@@ -280,7 +280,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T20:09:43.626723+00:00",
+  "fetched_at": "2026-06-28T11:04:55.571046+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -317,7 +317,7 @@
     "html_url": "https://github.com/watchexec/watchexec",
     "language": "Rust",
     "pushed_at": "2026-06-19T02:40:09Z",
-    "stargazers_count": 7032,
+    "stargazers_count": 7033,
     "topics": [
       "command-line",
       "developer-tools",
@@ -327,7 +327,7 @@
       "rust",
       "windows"
     ],
-    "updated_at": "2026-06-27T01:44:11Z"
+    "updated_at": "2026-06-28T05:50:37Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MendelXu/SAN",
+      "target": "cvpr2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MendelXu/SAN",
+      "target": "open-vocabulary-semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MendelXu/SAN",
+      "target": "prompt-tuning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T09:18:54.429199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8328
+    },
+    {
+      "path": "requirements.txt",
+      "size": 199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-vocabulary Semantic Segmentation",
+    "fork": false,
+    "full_name": "MendelXu/SAN",
+    "html_url": "https://github.com/MendelXu/SAN",
+    "language": "Python",
+    "pushed_at": "2024-10-16T12:39:33Z",
+    "stargazers_count": 384,
+    "topics": [
+      "cvpr2023",
+      "open-vocabulary-semantic-segmentation",
+      "prompt-tuning"
+    ],
+    "updated_at": "2026-06-23T13:17:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/side-adapter-network-for-open-vocabulary/open-vocabulary-semantic-segmentation-on-2)](https://paperswithcode.com/sota/open-vocabulary-semantic-segmentation-on-2?p=side-adapter-network-for-open-vocab\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2023"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/side-adapter-network-for-open-vocabulary/open-vocabulary-semantic-segmentation-on-2)](https://paperswithcode.com/sota/open-vocabulary-semantic-segmentation-on-2?p=side-adapter-network-for-open-vocab\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-vocabulary-semantic-segmentation"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/side-adapter-network-for-open-vocabulary/open-vocabulary-semantic-segmentation-on-2)](https://paperswithcode.com/sota/open-vocabulary-semantic-segmentation-on-2?p=side-adapter-network-for-open-vocab\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-tuning"
+    }
+  ]
+}

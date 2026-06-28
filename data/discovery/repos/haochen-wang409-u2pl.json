@@ -1,0 +1,211 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "zhixuanli/segmentation-paper-reading-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "lorenmt/reco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "hzhupku/semiseg-ael",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "cityscapes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "cvpr2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "mechine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "pascal-voc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Haochen-Wang409/U2PL",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T09:18:46.369197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12964
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'22 & IJCV'24] Semi-Supervised Semantic Segmentation Using Unreliable Pseudo-Labels & Using Unreliable Pseudo-Labels for Label-Efficient Semantic Segmentation",
+    "fork": false,
+    "full_name": "Haochen-Wang409/U2PL",
+    "html_url": "https://github.com/Haochen-Wang409/U2PL",
+    "language": "Python",
+    "pushed_at": "2024-08-20T14:36:25Z",
+    "stargazers_count": 480,
+    "topics": [
+      "cityscapes",
+      "computer-vision",
+      "contrastive-learning",
+      "cvpr2022",
+      "deep-learning",
+      "mechine-learning",
+      "pascal-voc",
+      "pytorch",
+      "semantic-segmentation",
+      "semi-supervised-learning"
+    ],
+    "updated_at": "2026-06-24T13:52:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hzhupku/semiseg-ael",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lorenmt/reco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhixuanli/segmentation-paper-reading-notes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cityscapes"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-learning"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2022"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mechine-learning"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal-voc"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels](https://arxiv.org/abs/2203.03884), CVPR 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    }
+  ]
+}

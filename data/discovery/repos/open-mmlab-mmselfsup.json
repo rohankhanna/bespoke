@@ -143,20 +143,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmselfsup",
-      "target": "open-mmlab/mmyolo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmselfsup",
-      "target": "open-mmlab/mmtracking",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmselfsup",
       "target": "open-mmlab/mmediting",
       "target_type": "repository"
     },
@@ -322,7 +308,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:19:42.775573+00:00",
+  "fetched_at": "2026-06-28T09:18:40.420400+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -363,7 +349,7 @@
     "html_url": "https://github.com/open-mmlab/mmselfsup",
     "language": "Python",
     "pushed_at": "2023-06-25T02:30:28Z",
-    "stargazers_count": 3302,
+    "stargazers_count": 3300,
     "topics": [
       "beit",
       "mae",
@@ -375,7 +361,7 @@
       "simsiam",
       "unsupervised-learning"
     ],
-    "updated_at": "2026-04-21T09:04:23Z"
+    "updated_at": "2026-06-27T03:58:21Z"
   },
   "repo_links": [
     {
@@ -386,16 +372,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "open-mmlab/mmediting",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmtracking",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmyolo",
       "source_file": "README.md"
     }
   ],

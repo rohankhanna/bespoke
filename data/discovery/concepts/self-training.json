@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "self-training"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] ST++: Make Self-training Work Better for Semi-supervised Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "status": "candidate-context",
+      "text": "This is the official PyTorch implementation of our CVPR 2022 paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "status": "candidate",
+      "text": "This is the official PyTorch implementation of our CVPR 2022 paper:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "self-training",
+  "concept_id": "self-training",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "LiheYoung/ST-PlusPlus"
+    }
+  ],
+  "first_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "self-training",
+      "sense_id": "self-training#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

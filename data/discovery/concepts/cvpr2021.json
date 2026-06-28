@@ -199,6 +199,30 @@
       "source_repo": "nianticlabs/manydepth",
       "status": "candidate-context",
       "text": "[Jamie Watson](https://scholar.google.com/citations?user=5pC7fw8AAAAJ&hl=en),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "status": "candidate-context",
+      "text": "Semi-supervised Semantic Segmentation with Directional Context-aware Consistency (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "status": "candidate-context",
+      "text": "*Xin Lai<sup>\\*</sup>, Zhuotao Tian<sup>\\*</sup>, Li Jiang, Shu Liu, Hengshuang Zhao, Liwei Wang, Jiaya Jia*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesCXK/TorchSemiSeg",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] CPS: Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesCXK/TorchSemiSeg",
+      "status": "candidate-context",
+      "text": "<br>"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "nianticlabs/manydepth",
       "status": "candidate",
       "text": "[Jamie Watson](https://scholar.google.com/citations?user=5pC7fw8AAAAJ&hl=en),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "status": "candidate",
+      "text": "*Xin Lai<sup>\\*</sup>, Zhuotao Tian<sup>\\*</sup>, Li Jiang, Shu Liu, Hengshuang Zhao, Liwei Wang, Jiaya Jia*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesCXK/TorchSemiSeg",
+      "status": "candidate",
+      "text": "<br>"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +436,23 @@
       "observed_at": "2026-06-27T07:14:56.321639+00:00",
       "source_file": null,
       "source_repo": "nianticlabs/manydepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "charlesCXK/TorchSemiSeg"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T07:14:56.321639+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

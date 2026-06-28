@@ -43,6 +43,18 @@
       "source_repo": "SunghwanHong/Cost-Aggregation-transformers",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-correspondence-with-transformers/semantic-correspondence-on-spair-71k)](https://paperswithcode.com/sota/semantic-correspondence-on-spair-71k?p=semantic-correspondence-with-transformers)<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "status": "candidate-context",
+      "text": "Semi-Supervised Semantic Segmentation via Adaptive Equalization Learning, NeurIPS 2021 (Spotlight)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "status": "candidate-context",
+      "text": "Due to the limited and even imbalanced data, semi-supervised semantic segmentation tends to have poor performance on some certain categories, e.g., tailed categories in Cityscapes dataset which exhibits a long-tailed label distribution. Existing approaches almost all neglect thi\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "SunghwanHong/Cost-Aggregation-transformers",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-correspondence-with-transformers/semantic-correspondence-on-spair-71k)](https://paperswithcode.com/sota/semantic-correspondence-on-spair-71k?p=semantic-correspondence-with-transformers)<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hzhupku/SemiSeg-AEL",
+      "status": "candidate",
+      "text": "Due to the limited and even imbalanced data, semi-supervised semantic segmentation tends to have poor performance on some certain categories, e.g., tailed categories in Cityscapes dataset which exhibits a long-tailed label distribution. Existing approaches almost all neglect thi\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": null,
       "source_repo": "SunghwanHong/Cost-Aggregation-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "hzhupku/SemiSeg-AEL"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "codeql-advanced---handwritten",
   "observation_id": "3c4d927e267ef8a2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-27T12:41:13.509162+00:00",
+  "observed_at": "2026-06-28T07:31:22.738327+00:00",
   "observed_text": "CodeQL Advanced - handwritten",
   "source_context_snippet": "\"CodeQL Advanced - handwritten\"",
   "source_file": ".github/workflows/codeql-handwritten.yml",

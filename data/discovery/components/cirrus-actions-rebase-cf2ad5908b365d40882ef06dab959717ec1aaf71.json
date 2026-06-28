@@ -1,7 +1,7 @@
 {
   "component": "cirrus-actions/rebase@cf2ad5908b365d40882ef06dab959717ec1aaf71",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

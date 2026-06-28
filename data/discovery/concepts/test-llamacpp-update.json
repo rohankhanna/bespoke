@@ -124,11 +124,17 @@
       "observed_at": "2026-06-28T00:47:22.872104+00:00",
       "source_file": ".github/workflows/test-llamacpp-update.yaml",
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

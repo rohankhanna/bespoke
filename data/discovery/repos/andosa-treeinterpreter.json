@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-28T07:44:58.936272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "andosa/treeinterpreter",
+    "html_url": "https://github.com/andosa/treeinterpreter",
+    "language": "Python",
+    "pushed_at": "2023-07-18T10:50:27Z",
+    "stargazers_count": 761,
+    "topics": [],
+    "updated_at": "2026-02-06T07:53:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

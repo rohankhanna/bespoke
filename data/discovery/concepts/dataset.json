@@ -1239,6 +1239,18 @@
       "source_repo": "XiSHEN0220/WatermarkReco",
       "status": "candidate-context",
       "text": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "basveeling/pcam",
+      "status": "candidate-context",
+      "text": "The PatchCamelyon (PCam) deep learning classification benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basveeling/pcam",
+      "status": "candidate-context",
+      "text": "_That which is measured, improves._ - Karl Pearson"
     }
   ],
   "candidate_glosses": [
@@ -1859,6 +1871,12 @@
       "source_repo": "XiSHEN0220/WatermarkReco",
       "status": "candidate",
       "text": "Pytorch implementation of Paper \"Large-Scale Historical Watermark Recognition: dataset and a new consistency-based approach\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basveeling/pcam",
+      "status": "candidate",
+      "text": "_That which is measured, improves._ - Karl Pearson"
     }
   ],
   "candidate_related_terms": [
@@ -3474,11 +3492,29 @@
       "observed_at": "2026-06-28T00:47:22.872104+00:00",
       "source_file": ".github/workflows/dataset.yml",
       "source_repo": "limenlp/verl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "limenlp/verl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "basveeling/pcam"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -697,6 +697,18 @@
       "source_repo": "ANTsX/ANTsR",
       "status": "candidate-context",
       "text": "[![R-CMD-check](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleinterns/wss",
+      "status": "candidate-context",
+      "text": "A simple consistency training framework for semi-supervised image semantic segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleinterns/wss",
+      "status": "candidate-context",
+      "text": "PseudoSeg is a simple consistency training framework for semi-supervised image"
     }
   ],
   "candidate_glosses": [
@@ -1047,6 +1059,12 @@
       "source_repo": "ANTsX/ANTsR",
       "status": "candidate",
       "text": "[![R-CMD-check](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ANTsX/ANTsR/actions/workflows/R-CMD-check.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleinterns/wss",
+      "status": "candidate",
+      "text": "PseudoSeg is a simple consistency training framework for semi-supervised image"
     }
   ],
   "candidate_related_terms": [
@@ -4666,11 +4684,59 @@
       "observed_at": "2026-06-28T00:47:22.872104+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "ANTsX/ANTsR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "googleinterns/wss"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

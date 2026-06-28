@@ -442,7 +442,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T17:31:58.897164+00:00",
+  "fetched_at": "2026-06-28T10:47:19.868102+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -495,12 +495,12 @@
     "html_url": "https://github.com/googleapis/google-cloud-node",
     "language": "JavaScript",
     "pushed_at": "2026-06-27T00:43:19Z",
-    "stargazers_count": 3181,
+    "stargazers_count": 3182,
     "topics": [
       "google-cloud",
       "nodejs"
     ],
-    "updated_at": "2026-06-27T00:31:48Z"
+    "updated_at": "2026-06-28T01:12:19Z"
   },
   "repo_links": [
     {

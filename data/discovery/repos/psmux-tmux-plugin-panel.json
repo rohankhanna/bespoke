@@ -169,7 +169,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T01:00:56.844143+00:00",
+  "fetched_at": "2026-06-28T10:01:08.182760+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -194,7 +194,7 @@
     "html_url": "https://github.com/psmux/Tmux-Plugin-Panel",
     "language": "Rust",
     "pushed_at": "2026-03-19T14:13:24Z",
-    "stargazers_count": 64,
+    "stargazers_count": 66,
     "topics": [
       "cli",
       "plugin-manager",
@@ -207,7 +207,7 @@
       "tmux-themes",
       "tui"
     ],
-    "updated_at": "2026-06-21T22:11:59Z"
+    "updated_at": "2026-06-28T08:21:22Z"
   },
   "repo_links": [
     {

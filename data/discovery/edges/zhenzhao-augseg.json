@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhenZHAO/AugSeg",
+      "target": "zhenzhao/imas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhenZHAO/AugSeg",
+      "target": "charlescxk/torchsemiseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhenZHAO/AugSeg",
+      "target": "haochen-wang409/u2pl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhenZHAO/AugSeg",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhenZHAO/AugSeg",
+      "target": "semi-supervised-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-28T07:31:22.738327+00:00",
+  "source_repo": "ZhenZHAO/AugSeg"
+}

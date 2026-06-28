@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dingjiansw101/ZegFormer",
+      "target": "kaiminghe/deep-residual-networks",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-28T07:43:47.033268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4808
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official code for \"Decoupling Zero-Shot Semantic Segmentation\"",
+    "fork": false,
+    "full_name": "dingjiansw101/ZegFormer",
+    "html_url": "https://github.com/dingjiansw101/ZegFormer",
+    "language": "Python",
+    "pushed_at": "2022-11-30T22:21:54Z",
+    "stargazers_count": 180,
+    "topics": [],
+    "updated_at": "2026-01-02T07:01:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiminghe/deep-residual-networks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

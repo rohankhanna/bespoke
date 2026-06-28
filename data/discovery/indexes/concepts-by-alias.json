@@ -29294,6 +29294,9 @@
   "deep-learning-algorithms": [
     "deep-learning-algorithms"
   ],
+  "deep-learning-datasets": [
+    "deep-learning-datasets"
+  ],
   "deep-learning-devops": [
     "deep-learning-devops"
   ],
@@ -29392,6 +29395,15 @@
   ],
   "deeplab": [
     "deeplab"
+  ],
+  "deeplab-largefov": [
+    "deeplab-largefov"
+  ],
+  "deeplab-resnet": [
+    "deeplab-resnet"
+  ],
+  "deeplab-tensorflow": [
+    "deeplab-tensorflow"
   ],
   "deeplab-v3-plus": [
     "deeplab-v3-plus"
@@ -37130,6 +37142,9 @@
   "explainable-ai": [
     "explainable-ai"
   ],
+  "explainable-machine-learning": [
+    "explainable-machine-learning"
+  ],
   "explainable-ml": [
     "explainable-ml"
   ],
@@ -41904,6 +41919,9 @@
   "gevent": [
     "gevent"
   ],
+  "gevent testing": [
+    "gevent-testing"
+  ],
   "gfpgan": [
     "gfpgan"
   ],
@@ -42656,6 +42674,9 @@
   ],
   "gladys": [
     "gladys"
+  ],
+  "glassbox": [
+    "glassbox"
   ],
   "glassflow": [
     "glassflow"
@@ -44432,6 +44453,9 @@
   ],
   "greengage": [
     "greengage"
+  ],
+  "greenlet": [
+    "greenlet"
   ],
   "greenplum": [
     "greenplum"
@@ -48672,6 +48696,9 @@
   "instance-segmentation": [
     "instance-segmentation"
   ],
+  "instance-specific-model-adaptive": [
+    "instance-specific-model-adaptive"
+  ],
   "instant": [
     "instant"
   ],
@@ -49128,6 +49155,12 @@
   "interpretability": [
     "interpretability"
   ],
+  "interpretability-and-explainability": [
+    "interpretability-and-explainability"
+  ],
+  "interpretable": [
+    "interpretable"
+  ],
   "interpretable-ai": [
     "interpretable-ai"
   ],
@@ -49136,6 +49169,9 @@
   ],
   "interpretable-ml": [
     "interpretable-ml"
+  ],
+  "interpretable-models": [
+    "interpretable-models"
   ],
   "interpreter": [
     "interpreter"
@@ -58137,6 +58173,9 @@
   "mechanism": [
     "mechanism"
   ],
+  "mechine-learning": [
+    "mechine-learning"
+  ],
   "medaka": [
     "medaka"
   ],
@@ -65682,6 +65721,9 @@
   "open-vocabulary-segmentation": [
     "open-vocabulary-segmentation"
   ],
+  "open-vocabulary-semantic-segmentation": [
+    "open-vocabulary-semantic-segmentation"
+  ],
   "open-webui": [
     "open-webui"
   ],
@@ -67760,6 +67802,9 @@
   ],
   "pathlib": [
     "pathlib"
+  ],
+  "pathology": [
+    "pathology"
   ],
   "paths": [
     "paths"
@@ -83067,6 +83112,9 @@
   "self-test": [
     "self-test"
   ],
+  "self-training": [
+    "self-training"
+  ],
   "self-update": [
     "self-update"
   ],
@@ -83228,6 +83276,9 @@
   ],
   "semi-supervised-learning": [
     "semi-supervised-learning"
+  ],
+  "semi-supervised-methods": [
+    "semi-supervised-methods"
   ],
   "semi-supervised-segmentation": [
     "semi-supervised-segmentation"
@@ -97154,6 +97205,9 @@
   "update workshop packages": [
     "update-workshop-packages"
   ],
+  "update wpt tests": [
+    "update-wpt-tests"
+  ],
   "update yarn.lock": [
     "update-yarn.lock"
   ],
@@ -102602,6 +102656,9 @@
   ],
   "wps": [
     "wps"
+  ],
+  "wpt conformance": [
+    "wpt-conformance"
   ],
   "wpt report": [
     "wpt-report"

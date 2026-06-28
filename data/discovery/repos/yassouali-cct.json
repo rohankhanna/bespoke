@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yassouali/CCT",
+      "target": "jiwoon-ahn/irn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yassouali/CCT",
+      "target": "donnyyou/torchcv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yassouali/CCT",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yassouali/CCT",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yassouali/CCT",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T10:52:31.980343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9050
+    },
+    {
+      "path": "requirements.txt",
+      "size": 208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":page_facing_up: Semi-Supervised Semantic Segmentation with Cross-Consistency Training (CVPR 2020).",
+    "fork": false,
+    "full_name": "yassouali/CCT",
+    "html_url": "https://github.com/yassouali/CCT",
+    "language": "Python",
+    "pushed_at": "2022-10-17T10:58:44Z",
+    "stargazers_count": 411,
+    "topics": [
+      "computer-vision",
+      "semantic-segmentation",
+      "semi-supervised-learning"
+    ],
+    "updated_at": "2026-06-25T12:45:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donnyyou/torchcv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiwoon-ahn/irn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains the official implementation of CVPR 2020 paper: Semi-Supervised Semantic Segmentation with Cross-Consistency Training, which",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repo contains the official implementation of CVPR 2020 paper: Semi-Supervised Semantic Segmentation with Cross-Consistency Training, which",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "This repo contains the official implementation of CVPR 2020 paper: Semi-Supervised Semantic Segmentation with Cross-Consistency Training, which",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    }
+  ]
+}

@@ -604,11 +604,17 @@
       "observed_at": "2026-06-28T00:47:22.872104+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-pytorch/captum"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

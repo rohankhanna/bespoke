@@ -1,7 +1,7 @@
 {
   "component": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

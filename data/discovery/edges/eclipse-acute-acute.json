@@ -1,5 +1,20 @@
 {
-  "edges": [],
-  "generated_at": "2026-06-27T18:32:46.721236+00:00",
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-acute/aCute",
+      "target": "eclipse/acute",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-acute/aCute",
+      "target": "omnisharp/omnisharp-node-client",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-28T07:31:22.738327+00:00",
   "source_repo": "eclipse-acute/aCute"
 }

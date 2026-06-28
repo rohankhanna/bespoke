@@ -1,7 +1,7 @@
 {
   "component": "diegoferigo/gh-action-clang-format@main",
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

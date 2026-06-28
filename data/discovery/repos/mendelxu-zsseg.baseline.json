@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MendelXu/zsseg.baseline",
+      "target": "mendelxu/san",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MendelXu/zsseg.baseline",
+      "target": "zhanghang1989/detail-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MendelXu/zsseg.baseline",
+      "target": "drsleep/tensorflow-deeplab-resnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-28T07:43:50.453980+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9216
+    },
+    {
+      "path": "requirements.txt",
+      "size": 46
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open-vocabulary Semantic Segmentation",
+    "fork": false,
+    "full_name": "MendelXu/zsseg.baseline",
+    "html_url": "https://github.com/MendelXu/zsseg.baseline",
+    "language": "Python",
+    "pushed_at": "2023-03-28T01:06:29Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2026-03-05T13:17:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drsleep/tensorflow-deeplab-resnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mendelxu/san",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhanghang1989/detail-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

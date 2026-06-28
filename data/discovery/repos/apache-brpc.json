@@ -201,7 +201,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T01:14:50.490652+00:00",
+  "fetched_at": "2026-06-28T10:18:57.811430+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -213,7 +213,7 @@
     },
     {
       "path": ".github/workflows/ci-linux.yml",
-      "size": 10162
+      "size": 10217
     },
     {
       "path": ".github/workflows/ci-macos.yml",
@@ -237,12 +237,12 @@
     "full_name": "apache/brpc",
     "html_url": "https://github.com/apache/brpc",
     "language": "C++",
-    "pushed_at": "2026-06-25T02:51:43Z",
+    "pushed_at": "2026-06-28T06:04:39Z",
     "stargazers_count": 17546,
     "topics": [
       "rpc"
     ],
-    "updated_at": "2026-06-27T21:26:01Z"
+    "updated_at": "2026-06-28T06:04:43Z"
   },
   "repo_links": [
     {

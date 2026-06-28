@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/wpt-update.yml",
+      "source_repo": "pillarjs/iconv-lite"
+    }
+  ],
+  "term": "Update WPT tests"
+}

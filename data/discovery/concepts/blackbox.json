@@ -19,6 +19,18 @@
       "source_repo": "interpretml/interpret",
       "status": "candidate-context",
       "text": "<a href=\"https://githubtocolab.com/interpretml/interpret/blob/main/docs/interpret/python/examples/interpretable-classification.ipynb\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bgreenwell/ebm",
+      "status": "candidate-context",
+      "text": "Explainable Boosting Machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgreenwell/ebm",
+      "status": "candidate-context",
+      "text": "<!-- badges: start -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "interpretml/interpret",
       "status": "candidate",
       "text": "<a href=\"https://githubtocolab.com/interpretml/interpret/blob/main/docs/interpret/python/examples/interpretable-classification.ipynb\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgreenwell/ebm",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-06-27T18:32:46.721236+00:00",
       "source_file": null,
       "source_repo": "interpretml/interpret"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "bgreenwell/ebm"
     }
   ],
   "first_seen_at": "2026-06-27T18:32:46.721236+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-27T18:32:46.721236+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],

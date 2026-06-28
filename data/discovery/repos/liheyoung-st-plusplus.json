@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "target": "hfslyc/advsemiseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "target": "dvlab-research/context-aware-consistency",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "target": "googleinterns/wss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "target": "open-mmlab/openselfsup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "target": "cvpr2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "target": "self-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/ST-PlusPlus",
+      "target": "semi-supervised-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T07:43:40.061323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2022] ST++: Make Self-training Work Better for Semi-supervised Semantic Segmentation",
+    "fork": false,
+    "full_name": "LiheYoung/ST-PlusPlus",
+    "html_url": "https://github.com/LiheYoung/ST-PlusPlus",
+    "language": "Python",
+    "pushed_at": "2023-03-03T07:12:50Z",
+    "stargazers_count": 247,
+    "topics": [
+      "cvpr2022",
+      "self-training",
+      "semi-supervised-learning",
+      "semi-supervised-segmentation"
+    ],
+    "updated_at": "2026-06-24T17:24:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/context-aware-consistency",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleinterns/wss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hfslyc/advsemiseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/openselfsup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official PyTorch implementation of our CVPR 2022 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2022"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of our CVPR 2022 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-training"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of our CVPR 2022 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of our CVPR 2022 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-segmentation"
+    }
+  ]
+}

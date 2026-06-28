@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "yassouali/cct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "hszhao/semseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Context-Aware-Consistency",
+      "target": "semi-supervised-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T09:18:33.720417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3886
+    },
+    {
+      "path": "requirements.txt",
+      "size": 208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Semi-supervised Semantic Segmentation with Directional Context-aware Consistency (CVPR 2021)",
+    "fork": false,
+    "full_name": "JIA-Lab-research/Context-Aware-Consistency",
+    "html_url": "https://github.com/JIA-Lab-research/Context-Aware-Consistency",
+    "language": "Python",
+    "pushed_at": "2023-08-24T05:52:07Z",
+    "stargazers_count": 158,
+    "topics": [
+      "cvpr2021",
+      "semantic-segmentation",
+      "semi-supervised-learning",
+      "semi-supervised-segmentation"
+    ],
+    "updated_at": "2026-06-24T17:25:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hszhao/semseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yassouali/cct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*Xin Lai<sup>\\*</sup>, Zhuotao Tian<sup>\\*</sup>, Li Jiang, Shu Liu, Hengshuang Zhao, Liwei Wang, Jiaya Jia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "*Xin Lai<sup>\\*</sup>, Zhuotao Tian<sup>\\*</sup>, Li Jiang, Shu Liu, Hengshuang Zhao, Liwei Wang, Jiaya Jia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "*Xin Lai<sup>\\*</sup>, Zhuotao Tian<sup>\\*</sup>, Li Jiang, Shu Liu, Hengshuang Zhao, Liwei Wang, Jiaya Jia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    },
+    {
+      "context_snippet": "*Xin Lai<sup>\\*</sup>, Zhuotao Tian<sup>\\*</sup>, Li Jiang, Shu Liu, Hengshuang Zhao, Liwei Wang, Jiaya Jia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-segmentation"
+    }
+  ]
+}

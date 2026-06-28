@@ -607,7 +607,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-27T20:09:55.809268+00:00",
+  "fetched_at": "2026-06-28T11:05:14.552633+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -652,9 +652,9 @@
     "html_url": "https://github.com/actions/container-toolkit-action",
     "language": "TypeScript",
     "pushed_at": "2026-06-22T12:34:45Z",
-    "stargazers_count": 164,
+    "stargazers_count": 165,
     "topics": [],
-    "updated_at": "2026-06-01T08:19:28Z"
+    "updated_at": "2026-06-28T08:16:51Z"
   },
   "repo_links": [
     {

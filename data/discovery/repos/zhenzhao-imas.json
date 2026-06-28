@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhenZHAO/iMAS",
+      "target": "charlescxk/torchsemiseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhenZHAO/iMAS",
+      "target": "haochen-wang409/u2pl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhenZHAO/iMAS",
+      "target": "instance-specific-model-adaptive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhenZHAO/iMAS",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhenZHAO/iMAS",
+      "target": "semi-supervised-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T07:43:45.459429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'23] Instance-specific and Model-adaptive Supervision for Semi-supervised Semantic Segmentation",
+    "fork": false,
+    "full_name": "ZhenZHAO/iMAS",
+    "html_url": "https://github.com/ZhenZHAO/iMAS",
+    "language": "Python",
+    "pushed_at": "2023-11-16T01:29:45Z",
+    "stargazers_count": 42,
+    "topics": [
+      "instance-specific-model-adaptive",
+      "semi-supervised-learning",
+      "semi-supervised-segmentation"
+    ],
+    "updated_at": "2026-06-24T17:18:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlescxk/torchsemiseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haochen-wang409/u2pl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \"Instance-specific and Model-adaptive Supervision for Semi-supervised Semantic Segmentation\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-specific-model-adaptive"
+    },
+    {
+      "context_snippet": "> \"Instance-specific and Model-adaptive Supervision for Semi-supervised Semantic Segmentation\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    },
+    {
+      "context_snippet": "> \"Instance-specific and Model-adaptive Supervision for Semi-supervised Semantic Segmentation\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-segmentation"
+    }
+  ]
+}

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci-cursor-review.yml",
       "source_repo": "Comfy-Org/Comfy-Desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-cursor-review.yml",
+      "source_repo": "Comfy-Org/ComfyUI"
     }
   ],
   "term": "CI - Cursor Review"

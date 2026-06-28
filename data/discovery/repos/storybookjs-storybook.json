@@ -889,7 +889,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T00:51:03.565149+00:00",
+  "fetched_at": "2026-06-28T11:12:45.664551+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -942,7 +942,7 @@
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
     "pushed_at": "2026-06-27T21:00:22Z",
-    "stargazers_count": 90456,
+    "stargazers_count": 90459,
     "topics": [
       "angular",
       "components",
@@ -965,7 +965,7 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-06-27T19:04:43Z"
+    "updated_at": "2026-06-28T08:51:09Z"
   },
   "repo_links": [
     {

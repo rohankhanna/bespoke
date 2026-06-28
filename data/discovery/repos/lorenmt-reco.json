@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lorenmt/reco",
+      "target": "ankurhanda/sunrgbd-meta-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lorenmt/reco",
+      "target": "cityscapes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lorenmt/reco",
+      "target": "contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lorenmt/reco",
+      "target": "pascal-voc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lorenmt/reco",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lorenmt/reco",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lorenmt/reco",
+      "target": "semi-supervised-methods",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T10:52:40.978746+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9765
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The implementation of \"Bootstrapping Semantic Segmentation with Regional Contrast\" [ICLR 2022].",
+    "fork": false,
+    "full_name": "lorenmt/reco",
+    "html_url": "https://github.com/lorenmt/reco",
+    "language": "Python",
+    "pushed_at": "2023-05-26T13:44:27Z",
+    "stargazers_count": 170,
+    "topics": [
+      "cityscapes",
+      "contrastive-learning",
+      "pascal-voc",
+      "semantic-segmentation",
+      "semi-supervised-learning",
+      "semi-supervised-methods"
+    ],
+    "updated_at": "2026-01-30T03:06:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankurhanda/sunrgbd-meta-data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the source code of ReCo and baselines from the paper, [Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465), introduced by [Shikun Liu](https://shikun.io/), [Shuaifeng Zhi](https://shuaifengzhi.com/), [Edward John\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cityscapes"
+    },
+    {
+      "context_snippet": "This repository contains the source code of ReCo and baselines from the paper, [Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465), introduced by [Shikun Liu](https://shikun.io/), [Shuaifeng Zhi](https://shuaifengzhi.com/), [Edward John\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-learning"
+    },
+    {
+      "context_snippet": "This repository contains the source code of ReCo and baselines from the paper, [Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465), introduced by [Shikun Liu](https://shikun.io/), [Shuaifeng Zhi](https://shuaifengzhi.com/), [Edward John\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal-voc"
+    },
+    {
+      "context_snippet": "This repository contains the source code of ReCo and baselines from the paper, [Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465), introduced by [Shikun Liu](https://shikun.io/), [Shuaifeng Zhi](https://shuaifengzhi.com/), [Edward John\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "This repository contains the source code of ReCo and baselines from the paper, [Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465), introduced by [Shikun Liu](https://shikun.io/), [Shuaifeng Zhi](https://shuaifengzhi.com/), [Edward John\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    },
+    {
+      "context_snippet": "This repository contains the source code of ReCo and baselines from the paper, [Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465), introduced by [Shikun Liu](https://shikun.io/), [Shuaifeng Zhi](https://shuaifengzhi.com/), [Edward John\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-methods"
+    }
+  ]
+}

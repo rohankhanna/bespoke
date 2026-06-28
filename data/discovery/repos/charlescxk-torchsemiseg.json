@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesCXK/TorchSemiSeg",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesCXK/TorchSemiSeg",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesCXK/TorchSemiSeg",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesCXK/TorchSemiSeg",
+      "target": "semi-supervised-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T09:18:43.708942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2021] CPS: Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision",
+    "fork": false,
+    "full_name": "charlesCXK/TorchSemiSeg",
+    "html_url": "https://github.com/charlesCXK/TorchSemiSeg",
+    "language": "Python",
+    "pushed_at": "2023-05-21T14:07:27Z",
+    "stargazers_count": 542,
+    "topics": [
+      "cvpr2021",
+      "semantic-segmentation",
+      "semi-supervised-learning",
+      "semi-supervised-segmentation"
+    ],
+    "updated_at": "2026-06-24T17:22:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-segmentation"
+    }
+  ]
+}

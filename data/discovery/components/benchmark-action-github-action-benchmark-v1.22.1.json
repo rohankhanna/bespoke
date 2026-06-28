@@ -1,7 +1,7 @@
 {
   "component": "benchmark-action/github-action-benchmark@v1.22.1",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

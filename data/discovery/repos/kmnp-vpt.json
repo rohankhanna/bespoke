@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KMnP/vpt",
+      "target": "google-research/task_adaptation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-28T07:43:48.214139+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2744\ufe0f\ud83d\udd25 Visual Prompt Tuning [ECCV 2022] https://arxiv.org/abs/2203.12119",
+    "fork": false,
+    "full_name": "KMnP/vpt",
+    "html_url": "https://github.com/KMnP/vpt",
+    "language": "Python",
+    "pushed_at": "2023-09-02T18:32:58Z",
+    "stargazers_count": 1235,
+    "topics": [],
+    "updated_at": "2026-06-22T11:41:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/task_adaptation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

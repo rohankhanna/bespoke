@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "kaiminghe/deep-residual-networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "fyu/dilation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "ethereon/caffe-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "drsleep/tensorflow-deeplab-lfov",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "deeplab-resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "pascal-voc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T09:18:52.581690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11382
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "DeepLab-ResNet rebuilt in TensorFlow",
+    "fork": false,
+    "full_name": "DrSleep/tensorflow-deeplab-resnet",
+    "html_url": "https://github.com/DrSleep/tensorflow-deeplab-resnet",
+    "language": "Python",
+    "pushed_at": "2021-10-11T04:52:36Z",
+    "stargazers_count": 1259,
+    "topics": [
+      "deeplab-resnet",
+      "pascal-voc",
+      "semantic-segmentation",
+      "tensorflow"
+    ],
+    "updated_at": "2026-06-25T12:06:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drsleep/tensorflow-deeplab-lfov",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereon/caffe-tensorflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fyu/dilation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiminghe/deep-residual-networks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet.svg?branch=master)](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplab-resnet"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet.svg?branch=master)](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal-voc"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet.svg?branch=master)](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet.svg?branch=master)](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

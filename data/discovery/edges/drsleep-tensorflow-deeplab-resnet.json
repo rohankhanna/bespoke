@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "kaiminghe/deep-residual-networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "fyu/dilation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "ethereon/caffe-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "drsleep/tensorflow-deeplab-lfov",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "deeplab-resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "pascal-voc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-28T07:31:22.738327+00:00",
+  "source_repo": "DrSleep/tensorflow-deeplab-resnet"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "push-demo-branch-to-modelscope",
   "observation_id": "a50aeddcaaff6643",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T00:47:22.872104+00:00",
+  "observed_at": "2026-06-28T07:31:22.738327+00:00",
   "observed_text": "Push demo branch to ModelScope",
   "source_context_snippet": "Push demo branch to ModelScope",
   "source_file": ".github/workflows/push-to-ms.yml",

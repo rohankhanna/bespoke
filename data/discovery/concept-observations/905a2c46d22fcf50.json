@@ -84,7 +84,7 @@
   "normalized_form": "check-canary-string",
   "observation_id": "905a2c46d22fcf50",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T00:47:22.872104+00:00",
+  "observed_at": "2026-06-28T07:31:22.738327+00:00",
   "observed_text": "Check Canary String",
   "source_context_snippet": "Check Canary String",
   "source_file": ".github/workflows/check-canary.yml",

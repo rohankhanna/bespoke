@@ -1657,6 +1657,30 @@
       "source_repo": "lmb-freiburg/demon",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "status": "candidate-context",
+      "text": "DeepLab-ResNet rebuilt in TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet.svg?branch=master)](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov",
+      "status": "candidate-context",
+      "text": "DeepLab-LargeFOV implemented in tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov",
+      "status": "candidate-context",
+      "text": "This is an implementation of [DeepLab-LargeFOV](http://ccvl.stat.ucla.edu/deeplab-models/deeplab-largefov/) in TensorFlow for semantic image segmentation on [PASCAL VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/)."
     }
   ],
   "candidate_glosses": [
@@ -2487,6 +2511,18 @@
       "source_repo": "lmb-freiburg/demon",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet.svg?branch=master)](https://travis-ci.org/DrSleep/tensorflow-deeplab-resnet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov",
+      "status": "candidate",
+      "text": "This is an implementation of [DeepLab-LargeFOV](http://ccvl.stat.ucla.edu/deeplab-models/deeplab-largefov/) in TensorFlow for semantic image segmentation on [PASCAL VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/)."
     }
   ],
   "candidate_related_terms": [
@@ -8662,11 +8698,83 @@
       "observed_at": "2026-06-28T00:47:22.872104+00:00",
       "source_file": null,
       "source_repo": "malaysia-ai/malaya"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "mgsalem/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-resnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T07:31:22.738327+00:00",
+      "source_file": null,
+      "source_repo": "DrSleep/tensorflow-deeplab-lfov"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T00:47:22.872104+00:00",
+  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
   "lexical_providers": [
     "datamuse"
   ],
