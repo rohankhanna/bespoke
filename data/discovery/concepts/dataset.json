@@ -1251,6 +1251,18 @@
       "source_repo": "basveeling/pcam",
       "status": "candidate-context",
       "text": "_That which is measured, improves._ - Karl Pearson"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "status": "candidate-context",
+      "text": "A MNIST-like fashion product database. Benchmark :point_down: "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/zalandoresearch/fashion-mnist.svg?style=flat&label=Star)](https://github.com/zalandoresearch/fashion-mnist/)"
     }
   ],
   "candidate_glosses": [
@@ -1877,6 +1889,12 @@
       "source_repo": "basveeling/pcam",
       "status": "candidate",
       "text": "_That which is measured, improves._ - Karl Pearson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/zalandoresearch/fashion-mnist.svg?style=flat&label=Star)](https://github.com/zalandoresearch/fashion-mnist/)"
     }
   ],
   "candidate_related_terms": [
@@ -3510,11 +3528,29 @@
       "observed_at": "2026-06-28T07:31:22.738327+00:00",
       "source_file": null,
       "source_repo": "basveeling/pcam"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T12:41:45.303903+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "limenlp/verl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T12:41:45.303903+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T12:41:45.303903+00:00",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
   "lexical_providers": [
     "datamuse"
   ],

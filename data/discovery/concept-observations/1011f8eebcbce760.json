@@ -84,7 +84,7 @@
   "normalized_form": "aci-integration-tests",
   "observation_id": "1011f8eebcbce760",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "ACI integration tests",
   "source_context_snippet": "ACI integration tests",
   "source_file": ".github/workflows/aci-tests.yml",

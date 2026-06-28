@@ -84,7 +84,7 @@
   "normalized_form": "load-kurrentdb-runtime-configuration",
   "observation_id": "cb415fef85078840",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "Load KurrentDB Runtime Configuration",
   "source_context_snippet": "Load KurrentDB Runtime Configuration",
   "source_file": ".github/workflows/load-configuration.yml",

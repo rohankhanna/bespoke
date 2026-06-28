@@ -1,86 +1,6 @@
 {
   "components": [
     {
-      "component": "@eslint/js",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "ajv",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "ajv-formats",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "cheerio",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "eslint",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "eslint-config-prettier",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "glob",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "prettier",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "remark-mdx",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "remark-parse",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "tsx",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "typedoc",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "typescript",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "typescript-eslint",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "typescript-json-schema",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "unified",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/blog-preview.yml"
@@ -187,125 +107,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "modelcontextprotocol/specification",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "@eslint/js",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "ajv",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "ajv-formats",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "cheerio",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "eslint",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "eslint-config-prettier",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "glob",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "prettier",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "remark-mdx",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "remark-parse",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "tsx",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "typedoc",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "typescript",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "typescript-eslint",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "typescript-json-schema",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "modelcontextprotocol/modelcontextprotocol",
-      "target": "unified",
-      "target_type": "component"
-    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/blog-preview.yml",
@@ -489,15 +290,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T10:51:17.101100+00:00",
+  "fetched_at": "2026-06-28T16:50:44.464538+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 876
-    },
-    {
-      "path": "package.json",
-      "size": 3136
     },
     {
       "path": ".github/workflows/blog-preview.yml",
@@ -542,17 +339,11 @@
     "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
     "language": "TypeScript",
     "pushed_at": "2026-06-26T17:16:37Z",
-    "stargazers_count": 8485,
+    "stargazers_count": 8487,
     "topics": [],
-    "updated_at": "2026-06-28T09:30:38Z"
+    "updated_at": "2026-06-28T13:54:47Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "modelcontextprotocol/specification",
-      "source_file": "package.json"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Blog Preview",

@@ -1302,7 +1302,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T10:52:20.249563+00:00",
+  "fetched_at": "2026-06-28T16:51:26.989786+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1335,7 +1335,7 @@
     "html_url": "https://github.com/off-grid-ai/mobile",
     "language": "TypeScript",
     "pushed_at": "2026-06-27T23:53:49Z",
-    "stargazers_count": 2605,
+    "stargazers_count": 2614,
     "topics": [
       "edge-ai",
       "gguf",
@@ -1351,7 +1351,7 @@
       "tool-calling",
       "whisper-android"
     ],
-    "updated_at": "2026-06-28T10:51:42Z"
+    "updated_at": "2026-06-28T15:13:36Z"
   },
   "repo_links": [
     {

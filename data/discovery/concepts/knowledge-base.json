@@ -1666,11 +1666,29 @@
       "observed_at": "2026-06-28T07:31:22.738327+00:00",
       "source_file": null,
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T12:41:45.303903+00:00",
+      "source_file": null,
+      "source_repo": "tpoisonooo/ROGRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T12:41:45.303903+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T12:41:45.303903+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
   "lexical_providers": [
     "datamuse"
   ],

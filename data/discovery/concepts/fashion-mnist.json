@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "fashion-mnist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "status": "candidate-context",
+      "text": "A MNIST-like fashion product database. Benchmark :point_down: "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/zalandoresearch/fashion-mnist.svg?style=flat&label=Star)](https://github.com/zalandoresearch/fashion-mnist/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/zalandoresearch/fashion-mnist.svg?style=flat&label=Star)](https://github.com/zalandoresearch/fashion-mnist/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "fashion-mnist",
+  "concept_id": "fashion-mnist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T12:41:45.303903+00:00",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist"
+    }
+  ],
+  "first_seen_at": "2026-06-28T12:41:45.303903+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fashion-mnist",
+      "sense_id": "fashion-mnist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

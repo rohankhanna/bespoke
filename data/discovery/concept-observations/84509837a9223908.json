@@ -84,7 +84,7 @@
   "normalized_form": "llm-c-eval",
   "observation_id": "84509837a9223908",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "LLM C-Eval",
   "source_context_snippet": "LLM C-Eval",
   "source_file": ".github/workflows/llm-c-evaluation.yml",

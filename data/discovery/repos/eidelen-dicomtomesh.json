@@ -130,7 +130,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T10:53:29.644168+00:00",
+  "fetched_at": "2026-06-28T16:51:52.452020+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -159,7 +159,7 @@
     "html_url": "https://github.com/eidelen/DicomToMesh",
     "language": "C++",
     "pushed_at": "2026-03-28T14:00:19Z",
-    "stargazers_count": 522,
+    "stargazers_count": 523,
     "topics": [
       "3d",
       "3d-mesh",
@@ -176,7 +176,7 @@
       "visualisation",
       "vtk"
     ],
-    "updated_at": "2026-06-28T07:03:22Z"
+    "updated_at": "2026-06-28T11:54:39Z"
   },
   "repo_links": [
     {

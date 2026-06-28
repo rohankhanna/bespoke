@@ -851,11 +851,17 @@
       "observed_at": "2026-06-28T07:31:22.738327+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "emacsattic/helm-swoop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-28T12:41:45.303903+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacsattic/helm-swoop"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
   "lexical_providers": [
     "datamuse"
   ],

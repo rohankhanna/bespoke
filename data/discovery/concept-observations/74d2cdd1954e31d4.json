@@ -48,7 +48,7 @@
   "normalized_form": "credhub",
   "observation_id": "74d2cdd1954e31d4",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "credhub",
   "source_context_snippet": "CredHub Release provides a BOSH Release for [CredHub](https://github.com/cloudfoundry-incubator/credhub).",
   "source_file": null,

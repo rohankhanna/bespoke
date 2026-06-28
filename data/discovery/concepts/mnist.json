@@ -31,6 +31,18 @@
       "source_repo": "CannyLab/tsne-cuda",
       "status": "candidate-context",
       "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "status": "candidate-context",
+      "text": "A MNIST-like fashion product database. Benchmark :point_down: "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/zalandoresearch/fashion-mnist.svg?style=flat&label=Star)](https://github.com/zalandoresearch/fashion-mnist/)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "CannyLab/tsne-cuda",
       "status": "candidate",
       "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/zalandoresearch/fashion-mnist.svg?style=flat&label=Star)](https://github.com/zalandoresearch/fashion-mnist/)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "CannyLab/tsne-cuda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-28T12:41:45.303903+00:00",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
   "lexical_providers": [
     "datamuse"
   ],

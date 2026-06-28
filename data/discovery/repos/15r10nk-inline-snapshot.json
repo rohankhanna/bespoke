@@ -279,7 +279,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T10:21:10.454525+00:00",
+  "fetched_at": "2026-06-28T16:05:56.730803+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -319,7 +319,7 @@
     "full_name": "15r10nk/inline-snapshot",
     "html_url": "https://github.com/15r10nk/inline-snapshot",
     "language": "Python",
-    "pushed_at": "2026-06-28T07:25:44Z",
+    "pushed_at": "2026-06-28T10:30:39Z",
     "stargazers_count": 740,
     "topics": [
       "approval-testing",

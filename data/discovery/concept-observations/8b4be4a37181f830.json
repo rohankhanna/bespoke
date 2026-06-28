@@ -84,7 +84,7 @@
   "normalized_form": "publish-to-npm-ssr",
   "observation_id": "8b4be4a37181f830",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "Publish to npm (SSR)",
   "source_context_snippet": "Publish to npm (SSR)",
   "source_file": ".github/workflows/publish-ssr.yml",

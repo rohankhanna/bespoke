@@ -84,7 +84,7 @@
   "normalized_form": "perf-tests-in-container",
   "observation_id": "459402ffabac7f07",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "Perf Tests in Container",
   "source_context_snippet": "Perf Tests in Container",
   "source_file": ".github/workflows/test.yml",

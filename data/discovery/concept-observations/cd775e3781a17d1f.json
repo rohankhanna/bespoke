@@ -84,7 +84,7 @@
   "normalized_form": "deploy-to-production",
   "observation_id": "cd775e3781a17d1f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "Deploy to Production",
   "source_context_snippet": "Deploy to Production",
   "source_file": ".github/workflows/deploy-production.yml",

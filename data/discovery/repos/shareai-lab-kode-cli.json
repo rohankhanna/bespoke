@@ -1607,7 +1607,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T11:16:37.441678+00:00",
+  "fetched_at": "2026-06-28T17:06:58.871228+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1627,11 +1627,11 @@
     },
     {
       "path": ".github/workflows/dev-release.yml",
-      "size": 4899
+      "size": 4033
     },
     {
       "path": ".github/workflows/npm-publish.yml",
-      "size": 7115
+      "size": 6476
     },
     {
       "path": ".github/workflows/release.yml",
@@ -1651,10 +1651,10 @@
     "full_name": "shareAI-lab/Kode-CLI",
     "html_url": "https://github.com/shareAI-lab/Kode-CLI",
     "language": "TypeScript",
-    "pushed_at": "2026-06-26T09:50:30Z",
-    "stargazers_count": 5155,
+    "pushed_at": "2026-06-28T14:28:31Z",
+    "stargazers_count": 5156,
     "topics": [],
-    "updated_at": "2026-06-28T11:14:11Z"
+    "updated_at": "2026-06-28T14:28:35Z"
   },
   "repo_links": [
     {

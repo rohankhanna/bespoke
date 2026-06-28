@@ -84,7 +84,7 @@
   "normalized_form": "issue-triage",
   "observation_id": "eddd579ba76c089d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "Issue Triage",
   "source_context_snippet": "Issue Triage",
   "source_file": ".github/workflows/claude-issue-triage.yml",

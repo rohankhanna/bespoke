@@ -235,7 +235,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T09:57:25.383948+00:00",
+  "fetched_at": "2026-06-28T17:09:41.901169+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -272,7 +272,7 @@
     "html_url": "https://github.com/zh-plus/openlrc",
     "language": "Python",
     "pushed_at": "2026-05-25T03:37:02Z",
-    "stargazers_count": 665,
+    "stargazers_count": 666,
     "topics": [
       "auto-subtitle",
       "faster-whisper",
@@ -287,7 +287,7 @@
       "voice-to-text",
       "whisper"
     ],
-    "updated_at": "2026-06-27T14:27:34Z"
+    "updated_at": "2026-06-28T14:35:31Z"
   },
   "repo_links": [
     {

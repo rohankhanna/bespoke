@@ -1,13 +1,5 @@
 {
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "CASIA-IVA-Lab/ChatBridge",
-      "target": "joez17/chatbridge",
-      "target_type": "repository"
-    }
-  ],
-  "generated_at": "2026-06-28T07:31:22.738327+00:00",
+  "edges": [],
+  "generated_at": "2026-06-28T12:41:45.303903+00:00",
   "source_repo": "CASIA-IVA-Lab/ChatBridge"
 }

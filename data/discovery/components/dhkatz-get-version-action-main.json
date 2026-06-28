@@ -1,7 +1,7 @@
 {
   "component": "dhkatz/get-version-action@main",
   "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
-  "last_seen_at": "2026-06-28T07:31:22.738327+00:00",
+  "last_seen_at": "2026-06-28T12:41:45.303903+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

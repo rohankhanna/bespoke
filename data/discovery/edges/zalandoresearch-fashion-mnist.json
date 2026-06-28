@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "abhirajhinge/cnn-with-fashion-mnist-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "abelusha/mnist-fashion-cnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "ajbrock/freezeout",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "a7b23/conditional-gan-using-tensorflow-slim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "fashion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "fashion-mnist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "mnist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalandoresearch/fashion-mnist",
+      "target": "zalando",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-28T12:41:45.303903+00:00",
+  "source_repo": "zalandoresearch/fashion-mnist"
+}

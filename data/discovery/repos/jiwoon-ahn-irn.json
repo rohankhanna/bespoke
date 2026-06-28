@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiwoon-ahn/irn",
+      "target": "cvpr2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiwoon-ahn/irn",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiwoon-ahn/irn",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-28T13:18:11.279789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2228
+    },
+    {
+      "path": "requirements.txt",
+      "size": 149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Weakly Supervised Learning of Instance Segmentation with Inter-pixel Relations, CVPR 2019 (Oral)",
+    "fork": false,
+    "full_name": "jiwoon-ahn/irn",
+    "html_url": "https://github.com/jiwoon-ahn/irn",
+    "language": "Python",
+    "pushed_at": "2023-05-01T05:18:24Z",
+    "stargazers_count": 535,
+    "topics": [
+      "cvpr2019",
+      "deep-learning",
+      "pytorch"
+    ],
+    "updated_at": "2026-02-13T10:43:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"outline.jpg\" alt=\"outline\" width=\"90%\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2019"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"outline.jpg\" alt=\"outline\" width=\"90%\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"outline.jpg\" alt=\"outline\" width=\"90%\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

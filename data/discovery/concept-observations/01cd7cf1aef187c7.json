@@ -84,7 +84,7 @@
   "normalized_form": "deploy-book",
   "observation_id": "01cd7cf1aef187c7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "Deploy Book",
   "source_context_snippet": "Deploy Book",
   "source_file": ".github/workflows/docs.yml",

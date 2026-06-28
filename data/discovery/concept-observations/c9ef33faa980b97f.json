@@ -48,7 +48,7 @@
   "normalized_form": "build-and-deploy",
   "observation_id": "c9ef33faa980b97f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "build-and-deploy",
   "source_context_snippet": "build-and-deploy",
   "source_file": ".github/workflows/build_and_deploy.yml",

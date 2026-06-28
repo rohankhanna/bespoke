@@ -84,7 +84,7 @@
   "normalized_form": "render-seps",
   "observation_id": "3d47be650a14b9e2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T07:31:22.738327+00:00",
+  "observed_at": "2026-06-28T12:41:45.303903+00:00",
   "observed_text": "Render SEPs",
   "source_context_snippet": "Render SEPs",
   "source_file": ".github/workflows/render-seps.yml",

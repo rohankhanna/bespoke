@@ -112,7 +112,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T09:56:40.213261+00:00",
+  "fetched_at": "2026-06-28T17:09:17.382528+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -120,7 +120,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 2589
+      "size": 2625
     },
     {
       "path": ".github/workflows/commit-tools.yml",
@@ -136,13 +136,13 @@
     "full_name": "bryanp/llhttp",
     "html_url": "https://github.com/bryanp/llhttp",
     "language": "C",
-    "pushed_at": "2025-10-01T16:59:35Z",
+    "pushed_at": "2026-06-28T16:43:18Z",
     "stargazers_count": 34,
     "topics": [
       "llhttp",
       "ruby"
     ],
-    "updated_at": "2026-05-30T07:13:00Z"
+    "updated_at": "2026-06-28T16:38:20Z"
   },
   "repo_links": [
     {
