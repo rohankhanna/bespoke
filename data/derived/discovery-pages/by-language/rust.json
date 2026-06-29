@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11882,
+    "components": 11883,
     "concepts": 8098,
     "observations": 8160,
-    "repos": 1753,
-    "terms": 8086
+    "repos": 1752,
+    "terms": 8088
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -937,7 +937,6 @@
     "jonhoo/inferno",
     "joseluisq/paket",
     "josh-project/josh",
-    "joshtriplett/metadeps",
     "jrmuizel/raqote",
     "jsleekr/skilldigest",
     "jsr-io/jsr",

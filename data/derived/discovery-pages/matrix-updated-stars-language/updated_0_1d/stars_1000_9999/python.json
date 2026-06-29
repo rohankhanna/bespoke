@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 7,
-    "terms": 68
+    "components": 106,
+    "concepts": 113,
+    "observations": 114,
+    "repos": 11,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
+    "aigc-apps/VideoX-Fun",
     "fla-org/flash-linear-attention",
     "google-deepmind/optax",
     "harbor-framework/harbor",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
+    "opencv/opencv-python",
     "PrimeIntellect-ai/verifiers",
-    "redis/redis-om-python"
+    "redis/redis-om-python",
+    "rllm-org/rllm",
+    "roboflow/rf-detr"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 738,
-    "concepts": 1000,
-    "observations": 1004,
-    "repos": 105,
-    "terms": 998
+    "components": 756,
+    "concepts": 1029,
+    "observations": 1033,
+    "repos": 108,
+    "terms": 1027
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -29,6 +29,7 @@
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
     "cameron314/concurrentqueue",
+    "carla-simulator/carla",
     "catchorg/Catch2",
     "chromium/chromium",
     "citusdata/citus",
@@ -95,6 +96,7 @@
     "NVIDIA/TensorRT",
     "oceanbase/oceanbase",
     "ocornut/imgui",
+    "opencv/opencv",
     "opencv/opencv_contrib",
     "openframeworks/openFrameworks",
     "openresty/lua-nginx-module",
@@ -116,6 +118,7 @@
     "tmux/tmux",
     "tsl0922/ttyd",
     "uNetworking/uWebSockets",
+    "v8/v8",
     "wolfpld/tracy",
     "yhirose/cpp-httplib",
     "zeromq/libzmq"

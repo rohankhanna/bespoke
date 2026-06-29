@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 578,
-    "concepts": 707,
-    "observations": 709,
-    "repos": 74,
-    "terms": 704
+    "components": 611,
+    "concepts": 744,
+    "observations": 746,
+    "repos": 77,
+    "terms": 741
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -56,6 +56,7 @@
     "googleapis/google-api-java-client",
     "googleapis/google-cloud-java",
     "googleapis/google-http-java-client",
+    "hazelcast/hazelcast",
     "http-kit/http-kit",
     "iterate-ch/cyberduck",
     "jboss-javassist/javassist",
@@ -70,6 +71,7 @@
     "langchain4j/langchain4j-examples",
     "langgraph4j/langgraph4j",
     "lightbend/config",
+    "micronaut-projects/micronaut-core",
     "ninjaframework/ninja",
     "open-telemetry/opentelemetry-java",
     "oshi/oshi",
@@ -77,6 +79,7 @@
     "rabbitmq/rabbitmq-tutorials",
     "raphw/byte-buddy",
     "react-native-share/react-native-share",
+    "reactor/BlockHound",
     "reactor/reactor-core",
     "RoaringBitmap/RoaringBitmap",
     "SonarSource/sonar-java",

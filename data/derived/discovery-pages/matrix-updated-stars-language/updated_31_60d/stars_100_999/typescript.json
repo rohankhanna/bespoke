@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2653,
-    "concepts": 493,
-    "observations": 495,
-    "repos": 66,
-    "terms": 489
+    "components": 2601,
+    "concepts": 473,
+    "observations": 475,
+    "repos": 64,
+    "terms": 469
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -60,7 +60,6 @@
     "radashi-org/radashi",
     "Rel1cx/eslint-react",
     "RiDDiX/home-assistant-matter-hub",
-    "rstackjs/storybook-rsbuild",
     "serversideup/webext-bridge",
     "SkepticMystic/breadcrumbs",
     "skilld-dev/skilld",
@@ -77,7 +76,6 @@
     "unjs/listhen",
     "unjs/unimport",
     "victorgarciaesgi/regle",
-    "web-infra-dev/rstest",
     "xdebug/vscode-php-debug",
     "Zoo-Code-Org/Zoo-Code"
   ]

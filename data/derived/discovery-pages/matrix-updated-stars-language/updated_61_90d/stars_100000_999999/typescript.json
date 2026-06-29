@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 589,
-    "concepts": 52,
-    "observations": 53,
-    "repos": 6,
-    "terms": 65
+    "components": 616,
+    "concepts": 60,
+    "observations": 61,
+    "repos": 7,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "angular/angular",
+    "anomalyco/opencode",
     "google-gemini/gemini-cli",
     "langgenius/dify",
     "microsoft/typescript",

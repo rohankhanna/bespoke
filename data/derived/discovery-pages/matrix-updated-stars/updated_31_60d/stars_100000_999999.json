@@ -1,26 +1,24 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 135,
-    "observations": 136,
-    "repos": 10,
-    "terms": 135
+    "components": 135,
+    "concepts": 113,
+    "observations": 113,
+    "repos": 8,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "2dust/v2rayN",
-    "anomalyco/opencode",
     "axios/axios",
     "excalidraw/excalidraw",
     "Genymobile/scrcpy",
     "godotengine/godot",
     "huggingface/transformers",
-    "microsoft/generative-ai-for-beginners",
     "microsoft/PowerToys",
     "rust-lang/rust"
   ]

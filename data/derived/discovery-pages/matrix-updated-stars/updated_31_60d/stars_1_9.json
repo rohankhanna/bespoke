@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 760,
-    "concepts": 496,
-    "observations": 497,
-    "repos": 100,
-    "terms": 494
+    "components": 735,
+    "concepts": 476,
+    "observations": 477,
+    "repos": 96,
+    "terms": 474
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "3mdeb/3mdeb-secpack",
@@ -38,7 +38,6 @@
     "criccomini/uniffi-bindgen-node-js",
     "csm-actions/demo-server",
     "csm-actions/update-branch-action",
-    "cucumber/.github",
     "danielrosehill/Claude-Content-Writing-Plugin",
     "danielrosehill/Claude-Debugging-Plugin",
     "danielrosehill/Claude-Desktop-Manager-Plugin",
@@ -50,7 +49,6 @@
     "danielrosehill/Voxtype",
     "databendlabs/databend-meta",
     "decibri/decibri",
-    "demonatic/flash-attention",
     "donut-party/endpoint-test",
     "dydxprotocol/v4-localization",
     "emacs-straight/emacsmirror-mirror",
@@ -78,7 +76,6 @@
     "LedgerHQ/ledger-app-workflows",
     "leleliu008/ppkg-formula-repository-official-core",
     "linode/karpenter-provider-linode",
-    "lintnet-modules/ghalint",
     "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
     "mingqiangWu/Fast-TRELLIS",
@@ -111,7 +108,6 @@
     "usdot-fhwa-stol/cdasim-config",
     "vincentlaucsb/classify_scalar",
     "vovkos/axl",
-    "xuanji86/ainiee-translate-skill",
-    "zopefoundation/meta"
+    "xuanji86/ainiee-translate-skill"
   ]
 }

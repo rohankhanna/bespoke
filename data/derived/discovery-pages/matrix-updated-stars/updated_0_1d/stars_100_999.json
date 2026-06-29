@@ -1,30 +1,41 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 15,
-    "terms": 131
+    "components": 327,
+    "concepts": 211,
+    "observations": 212,
+    "repos": 26,
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
+    "AI-Hypercomputer/maxdiffusion",
+    "alloy-rs/svm-rs",
     "ansys/pymapdl",
     "aristoteleo/PantheonOS",
     "aws-cloudformation/cfn-lint-visual-studio-code",
     "BBC-Esq/Faster-Whisper-Transcriber",
+    "ChristopherHX/runner.server",
+    "confluentinc/librdkafka",
     "eclipse-paho/paho.mqtt.testing",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
+    "EmmyLuaLs/emmylua-analyzer-rust",
+    "flagos-ai/FlagScale",
     "google-deepmind/chex",
-    "karafka/rdkafka-ruby",
+    "hexabot-ai/Hexabot",
+    "ipsilon/evmone",
+    "jupyter/nbclassic",
+    "lambdalisue/vim-nerdfont",
     "ldproxy/ldproxy",
     "matter-js/matter.js",
     "powturbo/Turbo-Base64",
+    "pyrtlsdr/pyrtlsdr",
     "scverse/rapids-singlecell",
     "servo/stylo",
     "the-database/mpv-AnimeJaNai"

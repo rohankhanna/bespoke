@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 417,
-    "concepts": 458,
-    "observations": 460,
-    "repos": 81,
-    "terms": 456
+    "components": 382,
+    "concepts": 436,
+    "observations": 438,
+    "repos": 75,
+    "terms": 434
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "agentclientprotocol/python-sdk",
@@ -25,7 +25,6 @@
     "aio-libs/pytest-aiohttp",
     "alltheplaces/alltheplaces",
     "amsehili/auditok",
-    "autowarefoundation/autoware-documentation",
     "Azure/co-op-translator",
     "bagofwords1/bagofwords",
     "benchflow-ai/benchflow",
@@ -40,13 +39,10 @@
     "DanielLin94144/Full-Duplex-Bench",
     "djlint/djLint",
     "echonet/dynamic",
-    "enjoy-digital/litepcie",
-    "enjoy-digital/litescope",
     "fishaudio/audio-preprocess",
     "fishaudio/fish-diffusion",
     "fishaudio/vocoder",
     "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
-    "flagos-ai/FlagGems",
     "fsspec/gcsfs",
     "gbionics/adam",
     "google/orbax",
@@ -86,12 +82,10 @@
     "sigsep/norbert",
     "styler00dollar/VSGAN-tensorrt-docker",
     "SublimeText/AFileIcon",
-    "svg-project/flash-kmeans",
     "TextArena/TextArena",
     "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",
     "triton-inference-server/client",
-    "unitreerobotics/unitree_sdk2_python",
     "universal-ctags/ctags-win32",
     "zh-plus/openlrc",
     "zhiyiYo/Groove"

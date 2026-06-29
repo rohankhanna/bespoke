@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 151,
-    "observations": 153,
-    "repos": 24,
-    "terms": 151
+    "components": 216,
+    "concepts": 138,
+    "observations": 139,
+    "repos": 22,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "astroautomata/SymbolicRegression.jl",
     "bazel-contrib/rules_kotlin",
     "chebfun/chebfun",
-    "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
     "devcontainers/devcontainers.github.io",
     "dwyl/app",
@@ -31,8 +30,7 @@
     "JuliaGPU/Metal.jl",
     "JuliaGPU/oneAPI.jl",
     "JuliaLinearAlgebra/AppleAccelerate.jl",
-    "JuliaLinearAlgebra/MKL.jl",
-    "lambdalisue/vim-nerdfont",
+    "karafka/rdkafka-ruby",
     "meshcat-dev/meshcat",
     "redis/redis-om-dotnet",
     "ROCm/hipBLASLt",

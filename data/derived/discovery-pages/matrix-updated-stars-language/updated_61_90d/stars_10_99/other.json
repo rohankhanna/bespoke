@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1902,
-    "concepts": 1096,
-    "observations": 1097,
-    "repos": 306,
-    "terms": 1099
+    "components": 1924,
+    "concepts": 1116,
+    "observations": 1117,
+    "repos": 309,
+    "terms": 1119
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
@@ -93,6 +93,7 @@
     "cloudfoundry/cf-uaac",
     "connectbot/termlib",
     "Const-me/ComLightInterop",
+    "controlplaneio-fluxcd/distribution",
     "curiosity-ai/hnsw-sharp",
     "dart-lang/core",
     "dart-lang/ecosystem",
@@ -253,6 +254,7 @@
     "php-toolkit/cli-utils",
     "php-toolkit/pflag",
     "php/doc-de",
+    "php/doc-fr",
     "php/doc-ja",
     "php/phd",
     "PKU-YuanGroup/Helios-Page",
@@ -260,6 +262,7 @@
     "pq-code-package/mldsa-native",
     "ptsochantaris/Gladys",
     "pyOpenSci/pyos-package-template",
+    "r-lib/pkgload",
     "rainyl/native_toolchain_cmake",
     "red-data-tools/red-datasets",
     "reviewdog/action-actionlint",

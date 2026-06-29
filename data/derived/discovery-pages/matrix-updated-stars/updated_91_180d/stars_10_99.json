@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3604,
-    "concepts": 2147,
-    "observations": 2154,
-    "repos": 717,
-    "terms": 2142
+    "components": 3605,
+    "concepts": 2148,
+    "observations": 2155,
+    "repos": 718,
+    "terms": 2143
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xBigBoss/vscode-bootty",
@@ -479,6 +479,7 @@
     "klaudworks/ralph-meets-rex",
     "kool-engine/kool-templates",
     "Kramer84/pyfqmr-Fast-Quadric-Mesh-Reduction",
+    "KratosMultiphysics/Examples",
     "kunwar-shah/claudex",
     "kurrent-io/KurrentDB-Client-Go",
     "L2jLiga/grunt-webfonts",

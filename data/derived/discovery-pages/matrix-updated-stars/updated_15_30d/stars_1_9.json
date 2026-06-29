@@ -3,7 +3,7 @@
     "components": 31,
     "concepts": 82,
     "observations": 82,
-    "repos": 23,
+    "repos": 24,
     "terms": 73
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "aidenlab/juicebox-web",
     "appbaseio/reactivesearch-api-docker",
@@ -30,6 +30,7 @@
     "freesurfer/petsurfer-bids",
     "git-up/libgit2",
     "hermit-os/rust-std-hermit",
+    "localai-org/localai-realtime-demo",
     "mathesong/bloodstream",
     "mathesong/petfit",
     "moonshine-ai/moonshine-swift",

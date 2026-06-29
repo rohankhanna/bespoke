@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9583,
-    "concepts": 1812,
-    "observations": 1817,
-    "repos": 232,
-    "terms": 1916
+    "components": 9708,
+    "concepts": 1831,
+    "observations": 1836,
+    "repos": 235,
+    "terms": 1935
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -36,6 +36,7 @@
     "apache/apisix-dashboard",
     "archestra-ai/archestra",
     "ardatan/graphql-tools",
+    "argdown/argdown",
     "artifacthub/hub",
     "artsy/eigen",
     "artsy/README",
@@ -197,6 +198,7 @@
     "privatenumber/esbuild-loader",
     "probot/probot",
     "pulumi/examples",
+    "r-lib/actions",
     "r5n-labs/vscode-react-javascript-snippets",
     "react-hook-form/resolvers",
     "react-native-community/cli",
@@ -234,6 +236,7 @@
     "unjs/ofetch",
     "unjs/ufo",
     "vega/vega-lite",
+    "VOICEVOX/voicevox",
     "VoltAgent/voltagent",
     "vuejs/eslint-plugin-vue",
     "vuejs/router",

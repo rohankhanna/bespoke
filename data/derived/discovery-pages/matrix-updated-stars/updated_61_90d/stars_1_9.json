@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4139,
-    "concepts": 1917,
-    "observations": 1921,
-    "repos": 516,
-    "terms": 1943
+    "components": 4164,
+    "concepts": 1937,
+    "observations": 1941,
+    "repos": 519,
+    "terms": 1963
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xble/dotagent.nvim",
@@ -160,6 +160,7 @@
     "cosmos/security",
     "cpu/wycheproof",
     "csm-actions/docs",
+    "cucumber/.github",
     "curiousdannii/asyncglk",
     "curiousdannii/emglken",
     "curiousdannii/remglk-rs",
@@ -204,6 +205,7 @@
     "DavidKinder/inform",
     "dcampbell24/djot-implementations",
     "decibri/decibri.cpp",
+    "demonatic/flash-attention",
     "Dicklesworthstone/franken_agent_detection",
     "diffblue/homebrew-cbmc",
     "DioxusLabs/stork",
@@ -359,6 +361,7 @@
     "Level/supports",
     "Level/transcoder",
     "lint-staged/lint-staged.sh",
+    "lintnet-modules/ghalint",
     "llvm/torch-mlir-release",
     "localstack/homebrew-tap",
     "locize/locize-lastused",
@@ -394,7 +397,6 @@
     "nicolo-ribaudo/engine262",
     "NightWatcher314/homebrew-formula",
     "nodejs/web-team",
-    "objectbox/objectbox-sync-examples",
     "oclif/plugin-commands",
     "oclif/plugin-search",
     "octokit/auth-callback.js",
@@ -528,6 +530,7 @@
     "wildfly-extras/a2a-java-sdk-server-jakarta",
     "xiaochu-1208/interview-assistant-cli",
     "yhirose/docs-gen",
-    "yoshoku/numo-linalg-alt"
+    "yoshoku/numo-linalg-alt",
+    "zopefoundation/meta"
   ]
 }

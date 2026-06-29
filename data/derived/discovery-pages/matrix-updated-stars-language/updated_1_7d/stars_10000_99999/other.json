@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 4,
-    "terms": 49
+    "components": 71,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 3,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
-    "lancedb/lancedb",
     "mixmark-io/turndown",
     "TA-Lib/ta-lib-python",
     "vbenjs/vue-vben-admin"

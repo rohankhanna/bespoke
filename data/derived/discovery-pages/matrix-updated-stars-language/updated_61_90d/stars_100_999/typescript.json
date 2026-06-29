@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5086,
-    "concepts": 1115,
-    "observations": 1115,
-    "repos": 183,
-    "terms": 1165
+    "components": 5138,
+    "concepts": 1135,
+    "observations": 1135,
+    "repos": 185,
+    "terms": 1185
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -169,6 +169,7 @@
     "redhat-developer/vscode-yaml",
     "relative-ci/bundle-stats",
     "retracedhq/retraced",
+    "rstackjs/storybook-rsbuild",
     "safe-global/safe-deployments",
     "salesforcecli/cli",
     "sapphiredev/utilities",
@@ -195,6 +196,7 @@
     "vega/vega-embed",
     "vibe-log/vibe-log-cli",
     "web-infra-dev/rslib",
+    "web-infra-dev/rstest",
     "webextension-toolbox/webextension-toolbox",
     "y-lohse/inkjs"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 564,
-    "concepts": 352,
-    "observations": 356,
-    "repos": 79,
-    "terms": 351
+    "components": 542,
+    "concepts": 332,
+    "observations": 336,
+    "repos": 76,
+    "terms": 331
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "Accla/d4m",
@@ -35,7 +35,6 @@
     "Cle2ment/CherryStudio_themes",
     "cloudfoundry/uaa-release",
     "conservationtechlab/animl-r",
-    "controlplaneio-fluxcd/distribution",
     "countries/countries-data-json",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
@@ -78,10 +77,8 @@
     "osrf/homebrew-simulation",
     "palladius/gemini-news-crawler",
     "php/doc-es",
-    "php/doc-fr",
     "pipecat-ai/docs",
     "python-poetry/website",
-    "r-lib/pkgload",
     "rcasia/neotest-java",
     "robotology/robotology-superbuild",
     "ros2/example_interfaces",

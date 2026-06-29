@@ -3,7 +3,7 @@
     "components": 507,
     "concepts": 327,
     "observations": 332,
-    "repos": 88,
+    "repos": 89,
     "terms": 325
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "arkworks-rs/r1cs-std",
@@ -74,6 +74,7 @@
     "prisma/tiberius",
     "psmux/psnet",
     "pythops/tenere",
+    "quickwit-oss/tantivy-cli",
     "ratatui/templates",
     "risinglightdb/sqllogictest-rs",
     "Roblox/foreman",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1591,
-    "concepts": 1150,
-    "observations": 1157,
-    "repos": 126,
-    "terms": 1146
+    "components": 1652,
+    "concepts": 1213,
+    "observations": 1220,
+    "repos": 131,
+    "terms": 1209
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "abpframework/abp",
     "adambard/learnxinyminutes-docs",
@@ -66,6 +66,7 @@
     "google/styleguide",
     "GoogleCloudPlatform/generative-ai",
     "GoogleContainerTools/distroless",
+    "gradle/gradle",
     "guidance-ai/guidance",
     "heartcombo/devise",
     "Homebrew/brew",
@@ -87,6 +88,7 @@
     "jupyter/notebook",
     "keeweb/keeweb",
     "koalaman/shellcheck",
+    "koreader/koreader",
     "kubernetes/community",
     "LazyVim/LazyVim",
     "llvm/llvm-project",
@@ -95,11 +97,13 @@
     "metabase/metabase",
     "microsoft/fluentui-system-icons",
     "microsoft/language-server-protocol",
+    "microsoft/mcp-for-beginners",
     "microsoft/OmniParser",
     "microsoft/semantic-kernel",
     "microsoft/vcpkg",
     "mikepenz/MaterialDrawer",
     "mmistakes/minimal-mistakes",
+    "mozilla-mobile/firefox-ios",
     "neovim/neovim",
     "NickeManarin/ScreenToGif",
     "NielsRogge/Transformers-Tutorials",
@@ -108,6 +112,7 @@
     "NixOS/nixpkgs",
     "nvim-telescope/telescope.nvim",
     "nvim-treesitter/nvim-treesitter",
+    "OAI/OpenAPI-Specification",
     "openai/openai-cookbook",
     "OpenZeppelin/openzeppelin-contracts",
     "oven-sh/bun",

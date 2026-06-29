@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 38,
-    "observations": 39,
-    "repos": 24,
-    "terms": 36
+    "components": 62,
+    "concepts": 41,
+    "observations": 42,
+    "repos": 25,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "agent-sh/glidemq",
@@ -25,6 +25,7 @@
     "conda-forge/nlohmann_json-feedstock",
     "conda-forge/openblas-feedstock",
     "conda-forge/pgvector-feedstock",
+    "cucumber/.github",
     "danielrosehill/Claude-Data-Wrangler-plugin",
     "eea/eea.docker.gitflow",
     "gazebo-tooling/release-tools",

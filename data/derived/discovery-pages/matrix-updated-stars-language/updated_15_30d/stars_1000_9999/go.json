@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 3,
-    "terms": 22
+    "components": 13,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 2,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "bazel-contrib/bazel-gazelle",
-    "dkron-io/dkron",
-    "gobackup/gobackup"
+    "dkron-io/dkron"
   ]
 }

@@ -3,8 +3,8 @@
     "components": 600,
     "concepts": 439,
     "observations": 444,
-    "repos": 214,
-    "terms": 432
+    "repos": 213,
+    "terms": 433
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xPlaygrounds/rig-onchain-kit",
@@ -123,7 +123,6 @@
     "iqlusioninc/canister",
     "iqlusioninc/cosmon",
     "jokemanfire/mcp-containerd",
-    "joshtriplett/metadeps",
     "Julien-cpsn/Phone-OS",
     "kaj/warp-diesel-ructe-sample",
     "kawamuray/linux-taskstats-rs",

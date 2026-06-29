@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-29T06:09:34.790605+00:00`
+Generated at: `2026-06-29T10:01:01.344855+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 68
-- components: 86
-- concepts: 68
-- observations: 68
+- repos: 11
+- terms: 113
+- components: 106
+- concepts: 113
+- observations: 114
 
 ## Static behavior
 
@@ -26,22 +26,30 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4240 | 2026-06-29T00:43:58Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
+| [aigc-apps/VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun) | 2150 | 2026-06-29T08:25:34Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4240 | 2026-06-29T08:13:32Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
+| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5277 | 2026-06-29T08:11:25Z | Python | Infrastructure/tooling | 17 | 13 | 17 | 17 |
+| [roboflow/rf-detr](https://github.com/roboflow/rf-detr) | 8239 | 2026-06-29T07:53:52Z | Python | Infrastructure/tooling | 14 | 5 | 14 | 14 |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1312 | 2026-06-29T07:53:19Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [opencv/opencv-python](https://github.com/opencv/opencv-python) | 5305 | 2026-06-29T06:46:27Z | Python | Infrastructure/tooling | 9 | 7 | 9 | 10 |
+| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2792 | 2026-06-29T05:05:20Z | Python | CLI | 10 | 17 | 10 | 10 |
+| [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5663 | 2026-06-29T03:55:41Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
 | [google-deepmind/optax](https://github.com/google-deepmind/optax) | 2297 | 2026-06-28T23:11:47Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5274 | 2026-06-28T13:02:51Z | Python | Infrastructure/tooling | 17 | 13 | 17 | 17 |
-| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1133 | 2026-06-28T12:41:30Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
-| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5777 | 2026-06-28T12:04:15Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2782 | 2026-06-28T08:21:36Z | Python | CLI | 10 | 17 | 10 | 10 |
-| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1312 | 2026-06-28T07:28:36Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1134 | 2026-06-28T12:41:30Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5778 | 2026-06-28T12:04:15Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5777 | 2026-06-28T12:04:15Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5274 | 2026-06-28T13:02:51Z | Python | Infrastructure/tooling | 17 | 13 | 17 | 17 |
-| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4240 | 2026-06-29T00:43:58Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
-| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2782 | 2026-06-28T08:21:36Z | Python | CLI | 10 | 17 | 10 | 10 |
+| [roboflow/rf-detr](https://github.com/roboflow/rf-detr) | 8239 | 2026-06-29T07:53:52Z | Python | Infrastructure/tooling | 14 | 5 | 14 | 14 |
+| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5778 | 2026-06-28T12:04:15Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5663 | 2026-06-29T03:55:41Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
+| [opencv/opencv-python](https://github.com/opencv/opencv-python) | 5305 | 2026-06-29T06:46:27Z | Python | Infrastructure/tooling | 9 | 7 | 9 | 10 |
+| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5277 | 2026-06-29T08:11:25Z | Python | Infrastructure/tooling | 17 | 13 | 17 | 17 |
+| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4240 | 2026-06-29T08:13:32Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
+| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2792 | 2026-06-29T05:05:20Z | Python | CLI | 10 | 17 | 10 | 10 |
 | [google-deepmind/optax](https://github.com/google-deepmind/optax) | 2297 | 2026-06-28T23:11:47Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1312 | 2026-06-28T07:28:36Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1133 | 2026-06-28T12:41:30Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [aigc-apps/VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun) | 2150 | 2026-06-29T08:25:34Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1312 | 2026-06-29T07:53:19Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1134 | 2026-06-28T12:41:30Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |

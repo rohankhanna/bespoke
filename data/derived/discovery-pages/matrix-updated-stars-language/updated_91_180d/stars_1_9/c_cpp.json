@@ -3,7 +3,7 @@
     "components": 43,
     "concepts": 37,
     "observations": 38,
-    "repos": 20,
+    "repos": 21,
     "terms": 37
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "AchimPieters/esp32-udp-logger",
     "aifoundry-org/riscv-gnu-toolchain",
@@ -30,6 +30,7 @@
     "jrsoftware/isscint",
     "ldayton/bash-oracle",
     "nvpro-samples/stb",
+    "objectbox/objectbox-sync-examples",
     "RobertBeckebans/DOOM-3",
     "yamachu/VoicevoxCoreSwift",
     "ylsdamxssjxxdd/nerv",

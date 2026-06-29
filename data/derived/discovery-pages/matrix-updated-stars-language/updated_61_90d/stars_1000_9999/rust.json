@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2093,
-    "concepts": 1511,
-    "observations": 1520,
-    "repos": 213,
-    "terms": 1521
+    "components": 2136,
+    "concepts": 1546,
+    "observations": 1555,
+    "repos": 217,
+    "terms": 1556
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -67,6 +67,7 @@
     "dalek-cryptography/curve25519-dalek",
     "dathere/qsv",
     "DeterminateSystems/nix-installer",
+    "Devolutions/IronRDP",
     "dimforge/nalgebra",
     "dimforge/rapier",
     "dtolnay/cxx",
@@ -78,6 +79,7 @@
     "eventual-inc/daft",
     "eycorsican/leaf",
     "eyre-rs/eyre",
+    "facebook/buck2",
     "fitzgen/bumpalo",
     "flamegraph-rs/flamegraph",
     "floneum/floneum",
@@ -165,6 +167,7 @@
     "raphamorim/rio",
     "ratatui/mousefood",
     "release-plz/release-plz",
+    "risingwavelabs/risingwave",
     "rizsotto/Bear",
     "rkyv/rkyv",
     "romanz/electrs",
@@ -210,6 +213,7 @@
     "SuperCuber/dotter",
     "tauri-apps/create-tauri-app",
     "tauri-apps/wry",
+    "tensorchord/VectorChord",
     "testcontainers/testcontainers-rs",
     "tikv/pprof-rs",
     "time-rs/time",

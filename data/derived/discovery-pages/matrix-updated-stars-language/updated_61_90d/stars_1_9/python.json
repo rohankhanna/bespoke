@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 270,
-    "concepts": 167,
-    "observations": 167,
-    "repos": 72,
-    "terms": 185
+    "components": 286,
+    "concepts": 176,
+    "observations": 176,
+    "repos": 74,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -46,6 +46,7 @@
     "danielrosehill/donetick-mcp",
     "danielrosehill/Geopol-Forecaster",
     "danielrosehill/LLM-Council-Template",
+    "demonatic/flash-attention",
     "dora-rs/dora-benchmark",
     "dreamiurg/peakbagger-cli",
     "drprojects/torch-graph-components",
@@ -85,6 +86,7 @@
     "TJC-LP/sanzaru",
     "UnknownPlatypus/djangofmt-pre-commit",
     "verkyyi/tokenman",
-    "xiaochu-1208/interview-assistant-cli"
+    "xiaochu-1208/interview-assistant-cli",
+    "zopefoundation/meta"
   ]
 }

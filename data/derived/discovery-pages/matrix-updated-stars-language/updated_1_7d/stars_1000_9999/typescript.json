@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 461,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 8,
-    "terms": 65
+    "components": 352,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 6,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "conventional-changelog/conventional-changelog",
-    "ebullient/obsidian-admonition",
     "microsoft/vscode-js-debug",
     "modelcontextprotocol/modelcontextprotocol",
     "off-grid-ai/mobile",
-    "podman-desktop/podman-desktop",
     "typescript-language-server/typescript-language-server",
     "vuejs/devtools"
   ]

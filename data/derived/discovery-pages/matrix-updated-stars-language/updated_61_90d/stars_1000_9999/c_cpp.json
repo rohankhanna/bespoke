@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1715,
-    "concepts": 1902,
-    "observations": 1909,
-    "repos": 249,
-    "terms": 1888
+    "components": 1742,
+    "concepts": 1934,
+    "observations": 1941,
+    "repos": 255,
+    "terms": 1920
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -26,6 +26,7 @@
     "alibaba/havenask",
     "AngusJohnson/Clipper2",
     "AOMediaCodec/libavif",
+    "apache/age",
     "aphrodite-engine/aphrodite-engine",
     "appium/WebDriverAgent",
     "ARM-software/astc-encoder",
@@ -65,6 +66,7 @@
     "diffblue/cbmc",
     "DLTcollab/sse2neon",
     "ebiggers/libdeflate",
+    "eclipse-cyclonedds/cyclonedds",
     "ElementsProject/lightning",
     "elfmz/far2l",
     "emoon/minifb",
@@ -176,6 +178,7 @@
     "ml-explore/mlx-swift",
     "Moddable-OpenSource/moddable",
     "netblue30/firejail",
+    "NetHack/NetHack",
     "nigels-com/glew",
     "nihui/opencv-mobile",
     "nihui/waifu2x-ncnn-vulkan",
@@ -197,6 +200,7 @@
     "onnxsim/onnxsim",
     "open-quantum-safe/liboqs",
     "open-source-parsers/jsoncpp",
+    "open-telemetry/opentelemetry-go-instrumentation",
     "OpenMathLib/OpenBLAS",
     "OpenSC/OpenSC",
     "openssh/openssh-portable",
@@ -212,6 +216,7 @@
     "posva/catimg",
     "PRBonn/kiss-icp",
     "pytorch/FBGEMM",
+    "qt-creator/qt-creator",
     "rapidsai/cudf",
     "rapidsai/cuml",
     "richgel999/miniz",
@@ -223,6 +228,7 @@
     "sail-sg/envpool",
     "saitoha/libsixel",
     "SarahWeiii/CoACD",
+    "SchedMD/slurm",
     "sebastianstarke/AI4Animation",
     "SFML/imgui-sfml",
     "shader-slang/slang",

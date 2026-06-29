@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 285,
-    "observations": 286,
-    "repos": 22,
-    "terms": 282
+    "components": 276,
+    "concepts": 268,
+    "observations": 269,
+    "repos": 21,
+    "terms": 265
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "atuinsh/atuin",
@@ -27,7 +27,6 @@
     "oxc-project/oxc",
     "pola-rs/polars",
     "qdrant/qdrant",
-    "quickwit-oss/quickwit",
     "rerun-io/rerun",
     "rolldown/rolldown",
     "shadowsocks/shadowsocks-rust",

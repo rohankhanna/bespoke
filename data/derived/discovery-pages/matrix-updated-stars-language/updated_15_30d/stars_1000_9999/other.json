@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 108,
-    "observations": 109,
+    "components": 45,
+    "concepts": 112,
+    "observations": 113,
     "repos": 12,
-    "terms": 107
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "alex-shpak/hugo-book",
     "bencheeorg/benchee",
-    "googleapis/google-api-php-client",
+    "gluonfield/enchanted",
     "hacl-star/hacl-star",
     "intel/BigDL",
     "jothepro/doxygen-awesome-css",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 3390,
+    "components": 3413,
     "concepts": 795,
     "observations": 805,
-    "repos": 164,
+    "repos": 165,
     "terms": 824
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -172,6 +172,7 @@
     "tomayac/SVGcode",
     "toon-format/spec",
     "unicode-org/message-format-wg",
+    "vllm-project/recipes",
     "webpack/css-minimizer-webpack-plugin",
     "webtorrent/bittorrent-protocol",
     "webtorrent/ut_metadata",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 241,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 4,
-    "terms": 54
+    "components": 146,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 3,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "fastapi/full-stack-fastapi-template",
     "jestjs/jest",
-    "langchain-ai/langchainjs",
-    "unocss/unocss"
+    "langchain-ai/langchainjs"
   ]
 }

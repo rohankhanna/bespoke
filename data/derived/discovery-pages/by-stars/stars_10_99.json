@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 29040,
-    "concepts": 15724,
-    "observations": 15777,
-    "repos": 5651,
-    "terms": 15713
+    "concepts": 15721,
+    "observations": 15774,
+    "repos": 5649,
+    "terms": 15711
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -3188,7 +3188,6 @@
     "joseluisq/paket",
     "JosephLalli/phasing_T2T",
     "joshsymonds/cc-tools",
-    "joshtriplett/metadeps",
     "joshwooding/vite-plugin-react-docgen-typescript",
     "joto/gdalcpp",
     "JoyMoe/Ksuid.Net",
@@ -4163,7 +4162,6 @@
     "NVIDIA/workbench-llamafactory",
     "nvim-flutter/pubspec-assist.nvim",
     "nvim-mini/mini.base16",
-    "nvim-mini/mini.deps",
     "nvim-mini/mini.doc",
     "nvim-mini/mini.statusline",
     "nvim-neotest/neotest-plenary",
@@ -5286,7 +5284,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

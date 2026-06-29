@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 893,
-    "concepts": 701,
-    "observations": 703,
+    "components": 902,
+    "concepts": 704,
+    "observations": 706,
     "repos": 180,
-    "terms": 716
+    "terms": 719
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "a2aproject/a2a-tck",
@@ -85,6 +85,7 @@
     "dreamiurg/claude-mountaineering-skills",
     "enjoy-digital/litex-acorn-baseboard",
     "enzet/Roentgen",
+    "espressif/esp-idf-monitor",
     "ethstaker/ethstaker-deposit-cli",
     "executablebooks/mdit-py-plugins",
     "facebookresearch/mosaic",
@@ -113,7 +114,6 @@
     "JuergenFleiss/atrain_core",
     "jupyter/governance",
     "jxpress/lightning-hydra-template-vertex-ai",
-    "KratosMultiphysics/Examples",
     "kserve/community",
     "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
     "lace/polliwog",

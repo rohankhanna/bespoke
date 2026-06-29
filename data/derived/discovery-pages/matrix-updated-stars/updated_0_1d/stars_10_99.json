@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 4,
-    "terms": 15
+    "components": 46,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 5,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
+    "alloy-rs/evm",
     "bryanp/llhttp",
+    "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
-    "karafka/example-apps",
     "TrigenSoftware/simple-release"
   ]
 }

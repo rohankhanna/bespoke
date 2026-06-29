@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3281,
-    "concepts": 627,
-    "observations": 632,
-    "repos": 56,
-    "terms": 624
+    "components": 3043,
+    "concepts": 548,
+    "observations": 552,
+    "repos": 51,
+    "terms": 546
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "ajv-validator/ajv",
@@ -33,7 +33,6 @@
     "faker-js/faker",
     "fuma-nama/fumadocs",
     "googleapis/google-api-nodejs-client",
-    "jhipster/generator-jhipster",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
     "lucide-icons/lucide",
@@ -44,9 +43,6 @@
     "modelcontextprotocol/typescript-sdk",
     "nitrojs/nitro",
     "nrwl/nx",
-    "nuxt/nuxt",
-    "oblador/react-native-vector-icons",
-    "openobserve/openobserve",
     "puppeteer/puppeteer",
     "QwikDev/qwik",
     "react-hook-form/react-hook-form",
@@ -66,7 +62,6 @@
     "vuejs/core",
     "vuejs/vitepress",
     "vueuse/vueuse",
-    "web-infra-dev/midscene",
     "webpro-nl/knip",
     "windingwind/zotero-pdf-translate",
     "withastro/astro"

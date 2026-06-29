@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 454,
-    "concepts": 459,
-    "observations": 461,
-    "repos": 39,
-    "terms": 454
+    "components": 413,
+    "concepts": 423,
+    "observations": 425,
+    "repos": 35,
+    "terms": 418
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "aden-hive/hive",
-    "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
     "certbot/certbot",
     "cvat-ai/cvat",
@@ -25,9 +24,7 @@
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
     "huggingface/datasets",
-    "huggingface/trl",
     "keras-team/keras",
-    "kvcache-ai/ktransformers",
     "lucidrains/vit-pytorch",
     "ludwig-ai/ludwig",
     "MetaCubeX/mihomo",
@@ -44,7 +41,6 @@
     "pypa/pipx",
     "python-poetry/poetry",
     "roboflow/supervision",
-    "RVC-Boss/GPT-SoVITS",
     "scipy/scipy",
     "scrapy/scrapy",
     "StevenBlack/hosts",

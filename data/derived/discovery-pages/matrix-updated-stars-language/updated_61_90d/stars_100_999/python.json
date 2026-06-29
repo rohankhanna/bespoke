@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2303,
-    "concepts": 2210,
-    "observations": 2219,
-    "repos": 429,
-    "terms": 2214
+    "components": 2338,
+    "concepts": 2232,
+    "observations": 2241,
+    "repos": 435,
+    "terms": 2236
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -67,6 +67,7 @@
     "Ascend/pytorch",
     "asottile/reorder-python-imports",
     "asottile/yesqa",
+    "autowarefoundation/autoware-documentation",
     "aws-samples/serverless-snippets",
     "aws/aws-lambda-builders",
     "aws/aws-sam-cli-app-templates",
@@ -149,6 +150,8 @@
     "eclipse-cyclonedds/cyclonedds-python",
     "enjoy-digital/litedram",
     "enjoy-digital/liteeth",
+    "enjoy-digital/litepcie",
+    "enjoy-digital/litescope",
     "envoyproxy/envoy-perf",
     "eole-nlp/eole",
     "Epistimio/orion",
@@ -171,6 +174,7 @@
     "fla-org/flame",
     "flageval-baai/FlagEvalMM",
     "FlagOpen/Robo-Dopamine",
+    "flagos-ai/FlagGems",
     "FoundationVision/InfinityStar",
     "fsspec/universal_pathlib",
     "FuchengSu/WorldStereo",
@@ -394,6 +398,7 @@
     "strands-agents/samples",
     "sunrainyg/RandOpt",
     "SvenskaSpel/locust-plugins",
+    "svg-project/flash-kmeans",
     "swc-17/SparseDrive",
     "swc-17/SparseDriveV2",
     "SWE-agent/SWE-ReX",
@@ -421,6 +426,7 @@
     "ultralytics/docs",
     "ultralytics/thop",
     "Unbabel/COMET",
+    "unitreerobotics/unitree_sdk2_python",
     "unixorn/lima-xbar-plugin",
     "urschrei/simplification",
     "utiasASRL/pyboreas",

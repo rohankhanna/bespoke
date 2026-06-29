@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1643,
-    "concepts": 1125,
-    "observations": 1135,
-    "repos": 207,
-    "terms": 1124
+    "components": 1660,
+    "concepts": 1132,
+    "observations": 1142,
+    "repos": 208,
+    "terms": 1131
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
     "a16z/jolt",
     "a1phyr/assets_manager",
+    "A2-ai/rv",
     "actix/actix-net",
     "ada-url/rust",
     "agent-sh/agnix",
@@ -115,6 +116,7 @@
     "GNOME/librsvg",
     "hellux/jotdown",
     "helyim/helyim",
+    "hermit-os/uhyve",
     "hniksic/rust-subprocess",
     "huggingface/hf-hub",
     "huggingface/nfsserve",
@@ -169,7 +171,6 @@
     "public-awesome/cw-nfts",
     "purpleprotocol/mimalloc_rust",
     "quickwit-oss/search-benchmark-game",
-    "quickwit-oss/tantivy-cli",
     "quickwit-oss/tantivy-py",
     "ramsayleung/rspotify",
     "RazrFalcon/memmap2-rs",

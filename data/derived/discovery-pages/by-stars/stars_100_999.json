@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 51563,
-    "concepts": 35953,
-    "observations": 36058,
-    "repos": 8839,
-    "terms": 35791
+    "concepts": 35956,
+    "observations": 36061,
+    "repos": 8840,
+    "terms": 35802
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -6278,6 +6278,7 @@
     "nvim-lua/lsp-status.nvim",
     "nvim-lua/nvim-lua-plugin-template",
     "nvim-mini/mini.animate",
+    "nvim-mini/mini.deps",
     "nvim-mini/mini.diff",
     "nvim-mini/mini.files",
     "nvim-mini/mini.icons",

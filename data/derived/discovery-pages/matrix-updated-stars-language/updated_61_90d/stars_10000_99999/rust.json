@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1141,
-    "concepts": 668,
-    "observations": 669,
-    "repos": 67,
-    "terms": 657
+    "components": 1161,
+    "concepts": 685,
+    "observations": 686,
+    "repos": 68,
+    "terms": 674
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -59,6 +59,7 @@
     "openai/codex",
     "orhun/git-cliff",
     "PyO3/pyo3",
+    "quickwit-oss/quickwit",
     "rayon-rs/rayon",
     "rust-lang/cargo",
     "rust-lang/rust-clippy",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 8,
-    "terms": 12
+    "components": 6,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 7,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "3mdeb/3mdeb-secpack",
     "conda-forge/rerun-sdk-feedstock",
-    "cucumber/.github",
     "danielrosehill/Claude-Debugging-Plugin",
     "danielrosehill/Claude-Rudder",
     "LedgerHQ/ledger-app-workflows",

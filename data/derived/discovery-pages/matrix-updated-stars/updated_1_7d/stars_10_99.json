@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 467,
-    "concepts": 138,
-    "observations": 138,
-    "repos": 35,
-    "terms": 138
+    "components": 464,
+    "concepts": 139,
+    "observations": 139,
+    "repos": 34,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
-    "alloy-rs/evm",
     "amazon-ion/ion-cli",
     "ansys/pydpf-core",
     "ansys/pydpf-post",
@@ -35,9 +34,9 @@
     "jenkinsci/plugin-pom",
     "JuliaParallel/Hwloc.jl",
     "jump-dev/Clp.jl",
+    "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
     "mongodb/winkerberos",
-    "mozilla-ai/any-guardrail",
     "mudler/nib",
     "nipreps/petprep",
     "nuxt-modules/emotion",

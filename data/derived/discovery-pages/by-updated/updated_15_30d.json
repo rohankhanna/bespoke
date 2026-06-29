@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1171,
-    "concepts": 769,
-    "observations": 772,
+    "components": 1143,
+    "concepts": 758,
+    "observations": 761,
     "repos": 145,
-    "terms": 756
+    "terms": 747
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "adamchainz/blacken-docs",
@@ -80,11 +80,10 @@
     "git-up/libgit2",
     "gitleaks/gitleaks",
     "gitleaks/gitleaks-action",
-    "gobackup/gobackup",
+    "gluonfield/enchanted",
     "google-deepmind/dm-haiku",
     "google-deepmind/dm_pix",
     "google-research/semivl",
-    "googleapis/google-api-php-client",
     "GoogleCloudPlatform/google-cloud-node-todos",
     "grupo-avispa/depth_anything_v2_ros2",
     "haasn/libplacebo",
@@ -105,10 +104,10 @@
     "lambdalisue/vim-fern",
     "lancedb/yoloexplorer",
     "lbcb-sci/herro",
-    "Lightning-AI/pytorch-lightning",
     "lightning/bolts",
     "litedb-org/LiteDB",
     "lobehub/lobe-cli-toolbox",
+    "localai-org/localai-realtime-demo",
     "lucidrains/vector-quantize-pytorch",
     "lumen-oss/nurr",
     "machinewrapped/llm-subtrans",
@@ -134,6 +133,7 @@
     "psmux/scoop-psmux",
     "pyvista/fast-simplification",
     "pyvista/pyvista-xarray",
+    "rescript-lang/reanalyze",
     "riscv-collab/riscv-gnu-toolchain",
     "roboflow/single_artifact_benchmarking",
     "rocq-community/docker-base",

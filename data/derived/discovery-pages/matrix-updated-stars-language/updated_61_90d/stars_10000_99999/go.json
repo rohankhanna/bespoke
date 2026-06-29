@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1261,
-    "concepts": 1248,
-    "observations": 1252,
-    "repos": 111,
-    "terms": 1232
+    "components": 1275,
+    "concepts": 1284,
+    "observations": 1288,
+    "repos": 113,
+    "terms": 1268
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -43,6 +43,7 @@
     "containers/skopeo",
     "coredns/coredns",
     "coreybutler/nvm-windows",
+    "dagger/dagger",
     "danielmiessler/fabric",
     "dexidp/dex",
     "dgraph-io/badger",
@@ -106,6 +107,7 @@
     "panjf2000/ants",
     "panjf2000/gnet",
     "php/frankenphp",
+    "pingcap/tidb",
     "prometheus/node_exporter",
     "prometheus/prometheus",
     "quic-go/quic-go",

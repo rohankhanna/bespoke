@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 403,
-    "concepts": 593,
-    "observations": 595,
-    "repos": 130,
-    "terms": 587
+    "components": 415,
+    "concepts": 610,
+    "observations": 612,
+    "repos": 132,
+    "terms": 604
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "AmusementClub/vs-mlrt",
@@ -48,6 +48,7 @@
     "derickr/timelib",
     "devkitPro/libctru",
     "dgobbi/vtk-dicom",
+    "dloebl/cgif",
     "douglascrockford/JSMin",
     "eclipse-cyclonedds/cyclonedds-cxx",
     "eddelbuettel/rinside",
@@ -138,6 +139,7 @@
     "veorq/SipHash",
     "VeriSilicon/TIM-VX",
     "vovkos/doxyrest",
+    "webgpu-native/webgpu-headers",
     "websockets/bufferutil",
     "xtensor-stack/xtensor-python",
     "xtensor-stack/xtl",

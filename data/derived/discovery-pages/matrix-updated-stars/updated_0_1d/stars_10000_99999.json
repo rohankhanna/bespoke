@@ -1,24 +1,28 @@
 {
   "counts": {
-    "components": 804,
-    "concepts": 370,
-    "observations": 373,
-    "repos": 25,
-    "terms": 379
+    "components": 1036,
+    "concepts": 487,
+    "observations": 491,
+    "repos": 35,
+    "terms": 496
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "567-labs/instructor",
+    "apache/brpc",
+    "argotorg/solidity",
     "axolotl-ai-cloud/axolotl",
-    "crossplane/crossplane",
     "Dao-AILab/flash-attention",
+    "deepspeedai/DeepSpeed",
+    "gastownhall/beads",
     "HumanSignal/label-studio",
     "jax-ml/jax",
+    "Lightning-AI/pytorch-lightning",
     "lobehub/lobehub",
     "modelscope/FunASR",
     "modelscope/ms-swift",
@@ -28,6 +32,8 @@
     "NVIDIA-NeMo/Speech",
     "nwjs/nw.js",
     "OpenHands/OpenHands",
+    "psf/black",
+    "pydantic/pydantic",
     "QuantumNous/new-api",
     "quickwit-oss/tantivy",
     "redis/go-redis",
@@ -35,8 +41,12 @@
     "ruvnet/ruflo",
     "storybookjs/storybook",
     "swiftlang/swift",
+    "TEN-framework/ten-framework",
     "triton-lang/triton",
+    "unocss/unocss",
     "upptime/upptime",
-    "weaviate/weaviate"
+    "verl-project/verl",
+    "weaviate/weaviate",
+    "zhayujie/CowAgent"
   ]
 }

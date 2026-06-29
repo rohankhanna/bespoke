@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 272,
-    "concepts": 347,
-    "observations": 347,
-    "repos": 29,
-    "terms": 345
+    "components": 279,
+    "concepts": 375,
+    "observations": 376,
+    "repos": 31,
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "alibaba/druid",
     "alibaba/nacos",
@@ -29,6 +29,7 @@
     "bumptech/glide",
     "clojure/clojure",
     "dbeaver/dbeaver",
+    "debezium/debezium",
     "google/auto",
     "google/gson",
     "google/guava",
@@ -38,6 +39,7 @@
     "NationalSecurityAgency/ghidra",
     "netty/netty",
     "OpenAPITools/openapi-generator",
+    "oracle/graal",
     "prestodb/presto",
     "ReactiveX/RxJava",
     "resilience4j/resilience4j",

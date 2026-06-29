@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2137,
-    "concepts": 1308,
-    "observations": 1315,
-    "repos": 254,
-    "terms": 1298
+    "components": 2084,
+    "concepts": 1258,
+    "observations": 1265,
+    "repos": 248,
+    "terms": 1248
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abusch/nu_plugin_semver",
@@ -68,12 +68,10 @@
     "Cle2ment/CherryStudio_themes",
     "cloudfoundry/uaa-release",
     "coasys/ad4m",
-    "coasys/flux",
     "compiler-research/CppInterOp",
     "confluentinc/libserdes",
     "conservationtechlab/animl-py",
     "conservationtechlab/animl-r",
-    "controlplaneio-fluxcd/distribution",
     "countertype/clipper2-ts",
     "countries/countries-data-json",
     "csm-actions/approve-pr-action",
@@ -91,7 +89,6 @@
     "energye/lcl",
     "energye/wv",
     "erigontech/mdbx-go",
-    "espressif/esp-idf-monitor",
     "etiennestuder/gradle-rocker-plugin",
     "facebook/fb303",
     "FactoryXCode/MfPack",
@@ -122,7 +119,6 @@
     "GregoryConrad/native_toolchain_rust",
     "haskell-actions/hlint-scan",
     "haskell/ghcup-metadata",
-    "hazelcast/hazelcast-cpp-client",
     "HDFGroup/hdf4",
     "HDFGroup/hdf5_plugins",
     "heiher/hev-socks5-core",
@@ -209,7 +205,6 @@
     "PF4Public/gentoo-overlay",
     "philips-labs/dct-notary-admin",
     "php/doc-es",
-    "php/doc-fr",
     "pipecat-ai/docs",
     "plotters-rs/plotters-cairo",
     "plotters-rs/plotters-gtk-demo",
@@ -220,7 +215,6 @@
     "pytroll/donfig",
     "qdrant/java-client",
     "qiayuanl/unitree_bringup",
-    "r-lib/pkgload",
     "Ralith/lahar",
     "rapideditor/location-conflation",
     "rcasia/neotest-java",

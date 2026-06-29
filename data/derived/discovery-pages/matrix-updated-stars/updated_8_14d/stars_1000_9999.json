@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 677,
-    "concepts": 300,
-    "observations": 302,
+    "components": 696,
+    "concepts": 299,
+    "observations": 301,
     "repos": 43,
-    "terms": 300
+    "terms": 299
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "Aleksoid1978/VideoRenderer",
@@ -32,7 +32,6 @@
     "dotnet/command-line-api",
     "flightcontrolhq/superjson",
     "geiger-rs/cargo-geiger",
-    "gluonfield/enchanted",
     "google-gemini/live-api-web-console",
     "graphql-hive/graphql-inspector",
     "huggingface/swift-transformers",
@@ -55,6 +54,7 @@
     "vapoursynth/vapoursynth",
     "vercel/serve",
     "watchexec/watchexec",
-    "webpy/webpy"
+    "webpy/webpy",
+    "WiseLibs/better-sqlite3"
   ]
 }

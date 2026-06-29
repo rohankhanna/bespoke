@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8425,
-    "concepts": 1170,
-    "observations": 1177,
-    "repos": 117,
-    "terms": 1183
+    "components": 8663,
+    "concepts": 1249,
+    "observations": 1257,
+    "repos": 122,
+    "terms": 1262
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -69,6 +69,7 @@
     "invoke-ai/InvokeAI",
     "iOfficeAI/AionUi",
     "janhq/jan",
+    "jhipster/generator-jhipster",
     "jquense/yup",
     "juice-shop/juice-shop",
     "jupyterlab/jupyterlab",
@@ -90,8 +91,11 @@
     "mswjs/msw",
     "multica-ai/multica",
     "neoclide/coc.nvim",
+    "nuxt/nuxt",
     "nvidia/nemoclaw",
+    "oblador/react-native-vector-icons",
     "openai/openai-node",
+    "openobserve/openobserve",
     "paulmillr/chokidar",
     "pmndrs/react-three-fiber",
     "pmndrs/zustand",
@@ -128,6 +132,7 @@
     "Vinzent03/obsidian-git",
     "vitest-dev/vitest",
     "VSCodeVim/Vim",
+    "web-infra-dev/midscene",
     "wojtekmaj/react-pdf",
     "xtermjs/xterm.js",
     "xyflow/xyflow"

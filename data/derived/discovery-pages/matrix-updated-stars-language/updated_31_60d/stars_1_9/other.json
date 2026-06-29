@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 15,
-    "terms": 76
+    "components": 53,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 14,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "alex-shpak/hugo-book-starter",
@@ -24,7 +24,6 @@
     "fluent-vue/examples",
     "JeremyAnsel/SharpAssimp",
     "JuliaCI/rootfs-images",
-    "lintnet-modules/ghalint",
     "nafg/jewish-date",
     "pixel-font-studio/fusion-bold-pixel-font",
     "stable-haskell/cabal",

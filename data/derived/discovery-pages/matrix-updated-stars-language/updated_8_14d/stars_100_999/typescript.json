@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 1,
-    "terms": 5
+    "components": 214,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 4,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
-    "abaplint/transpiler"
+    "abaplint/transpiler",
+    "Comfy-Org/Comfy-Desktop",
+    "OpenHands/agent-canvas",
+    "safe-fndn/safe-singleton-factory"
   ]
 }

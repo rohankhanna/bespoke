@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 24,
-    "terms": 117
+    "components": 187,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 23,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "andfoy/winpty-rs",
     "ANTsX/ANTsRCore",
@@ -19,7 +19,6 @@
     "corgi-emacs/corgi-packages",
     "edge-classic/EDGE-classic",
     "freesurfer/freebrowse",
-    "honwen/openwrt-dnsmasq-extra",
     "Jaded-Encoding-Thaumaturgy/vs-jetpack",
     "JuliaInterop/ObjectiveC.jl",
     "jump-dev/SCS.jl",
@@ -28,10 +27,10 @@
     "lhj5426/X-AnyLabeling",
     "mathesong/kinfitr",
     "mesh-iit/cad-libraries",
+    "mozilla-ai/any-guardrail",
     "mozilla-ai/otari",
     "mudler/depth-anything.cpp",
     "numpy/archive",
-    "nvim-mini/mini.deps",
     "ogx-ai/ogx-client-typescript",
     "ros-infrastructure/ros-apt-source",
     "tinted-theming/tinted-xresources",

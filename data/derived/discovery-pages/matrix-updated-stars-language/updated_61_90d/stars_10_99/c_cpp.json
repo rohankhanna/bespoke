@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 443,
-    "concepts": 377,
-    "observations": 377,
-    "repos": 83,
-    "terms": 376
+    "components": 451,
+    "concepts": 401,
+    "observations": 401,
+    "repos": 84,
+    "terms": 400
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -51,6 +51,7 @@
     "gazebosim/gz-transport",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
+    "hazelcast/hazelcast-cpp-client",
     "heal-research/pyoperon",
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",

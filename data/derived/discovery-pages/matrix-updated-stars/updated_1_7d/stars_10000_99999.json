@@ -1,32 +1,29 @@
 {
   "counts": {
-    "components": 1059,
-    "concepts": 589,
-    "observations": 590,
-    "repos": 49,
-    "terms": 586
+    "components": 820,
+    "concepts": 456,
+    "observations": 456,
+    "repos": 38,
+    "terms": 456
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
-    "apache/brpc",
     "apache/casbin",
-    "argotorg/solidity",
     "astral-sh/ruff",
     "browserslist/browserslist",
     "Comfy-Org/ComfyUI-Manager",
     "crewAIInc/crewAI",
+    "crossplane/crossplane",
     "datalab-to/marker",
-    "deepspeedai/DeepSpeed",
     "DioxusLabs/dioxus",
     "fastapi/fastapi",
     "fastapi/full-stack-fastapi-template",
     "fossasia/visdom",
-    "gastownhall/beads",
     "gastownhall/gastown",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
@@ -38,7 +35,6 @@
     "huggingface/sentence-transformers",
     "isl-org/Open3D",
     "jestjs/jest",
-    "lancedb/lancedb",
     "langchain-ai/langchainjs",
     "Lightning-AI/litgpt",
     "marimo-team/marimo",
@@ -46,21 +42,14 @@
     "moby/moby",
     "nltk/nltk",
     "NVIDIA-NeMo/NeMo",
-    "podman-container-tools/podman",
     "preactjs/preact",
-    "psf/black",
-    "pydantic/pydantic",
     "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
     "rust-lang/mdBook",
     "spaceship-prompt/spaceship-prompt",
     "TA-Lib/ta-lib-python",
-    "TEN-framework/ten-framework",
     "ungoogled-software/ungoogled-chromium",
-    "unocss/unocss",
     "vbenjs/vue-vben-admin",
-    "vega/altair",
-    "verl-project/verl",
-    "zhayujie/CowAgent"
+    "vega/altair"
   ]
 }

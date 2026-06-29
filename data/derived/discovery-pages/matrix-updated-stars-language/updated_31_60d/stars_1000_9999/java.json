@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 213,
-    "observations": 213,
-    "repos": 21,
-    "terms": 213
+    "components": 155,
+    "concepts": 176,
+    "observations": 176,
+    "repos": 18,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "androidx/media",
@@ -22,14 +22,11 @@
     "apache/tomcat",
     "cloudfoundry/uaa",
     "dropwizard/dropwizard",
-    "hazelcast/hazelcast",
     "java-native-access/jna",
     "JetBrains/JetBrainsRuntime",
     "junit-team/junit-framework",
     "mapsforge/mapsforge",
-    "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
-    "reactor/BlockHound",
     "smithy-lang/smithy",
     "sqlancer/sqlancer",
     "testng-team/testng",

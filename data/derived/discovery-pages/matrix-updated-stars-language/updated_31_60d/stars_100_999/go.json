@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 556,
-    "concepts": 528,
-    "observations": 529,
-    "repos": 58,
-    "terms": 526
+    "components": 551,
+    "concepts": 511,
+    "observations": 512,
+    "repos": 56,
+    "terms": 509
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "andreykaipov/goobs",
     "apache/iceberg-go",
@@ -43,8 +43,6 @@
     "gookit/slog",
     "grafana/grafana-plugin-sdk-go",
     "helmfile/vals",
-    "huaweicloud/huaweicloud-sdk-go-v3",
-    "hybridgroup/yzma",
     "istio/api",
     "istio/tools",
     "itzg/mc-router",

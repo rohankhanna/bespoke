@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6388,
-    "concepts": 4348,
-    "observations": 4360,
-    "repos": 823,
-    "terms": 4340
+    "components": 6400,
+    "concepts": 4353,
+    "observations": 4365,
+    "repos": 826,
+    "terms": 4345
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -120,6 +120,7 @@
     "BlinkDL/ChatRWKV",
     "bobbylight/RSyntaxTextArea",
     "boxyhq/saas-starter-kit",
+    "bpython/bpython",
     "brandur/redis-cell",
     "breejs/bree",
     "breezedeus/CnOCR",
@@ -177,6 +178,7 @@
     "container-storage-interface/spec",
     "containers/bubblewrap",
     "coocood/freecache",
+    "copilot-emacs/copilot.el",
     "cortesi/devd",
     "cosmiconfig/cosmiconfig",
     "cpm-cmake/CPM.cmake",
@@ -685,6 +687,7 @@
     "sbt/sbt-native-packager",
     "scikit-learn-contrib/hdbscan",
     "ScoopInstaller/Install",
+    "sds/overcommit",
     "ServiceNow/BrowserGym",
     "shareai-lab/claw0",
     "sharkdp/diskus",

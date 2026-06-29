@@ -3,15 +3,15 @@
     "components": 12357,
     "concepts": 7274,
     "observations": 7293,
-    "repos": 3436,
-    "terms": 7225
+    "repos": 3435,
+    "terms": 7226
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1921,7 +1921,6 @@
     "Jorenar/minPlug",
     "josdejong/immutable-json-patch",
     "josejg/instruction_following_eval",
-    "joshtriplett/metadeps",
     "joto/gdalcpp",
     "JoyMoe/Ksuid.Net",
     "jpbruyere/Crow",
@@ -3190,7 +3189,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

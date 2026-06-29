@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 7500,
-    "concepts": 4767,
-    "observations": 4783,
-    "repos": 1141,
-    "terms": 4751
+    "components": 7512,
+    "concepts": 4789,
+    "observations": 4805,
+    "repos": 1145,
+    "terms": 4773
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -334,6 +334,7 @@
     "dkubb/equalizer",
     "dkubb/memoizable",
     "DL3DV-10K/Dataset",
+    "dloebl/cgif",
     "dmitry-brazhenko/SharpToken",
     "DNSCrypt/dnscrypt-protocol",
     "docker-library/buildpack-deps",
@@ -810,6 +811,7 @@
     "NVlabs/PS3",
     "nvpro-samples/nvpro_core",
     "objectbox/objectbox-c",
+    "objectbox/objectbox-examples",
     "objectbox/objectbox-python",
     "oblador/react-native-vector-image",
     "Obsidian-TTRPG-Community/fantasy-statblocks",
@@ -894,6 +896,7 @@
     "pythops/tenere",
     "quanhaol/MagicMotion",
     "queryverse/Query.jl",
+    "quickwit-oss/tantivy-cli",
     "r-lib/covr",
     "r-lib/revdepcheck",
     "radekd91/inferno",
@@ -1106,6 +1109,7 @@
     "weaviate/elysia-frontend",
     "WebAssembly/esm-integration",
     "WebAssembly/tool-conventions",
+    "webgpu-native/webgpu-headers",
     "websockets/bufferutil",
     "wenet-e2e/WenetSpeech",
     "wenet-e2e/WeTextProcessing",

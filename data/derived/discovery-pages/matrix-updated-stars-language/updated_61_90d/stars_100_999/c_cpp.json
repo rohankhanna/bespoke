@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1185,
-    "concepts": 1246,
-    "observations": 1249,
-    "repos": 233,
-    "terms": 1236
+    "components": 1177,
+    "concepts": 1237,
+    "observations": 1240,
+    "repos": 232,
+    "terms": 1227
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -68,7 +68,6 @@
     "DiligentGraphics/DiligentSamples",
     "DiligentGraphics/DiligentTools",
     "Distributive-Network/PythonMonkey",
-    "dloebl/cgif",
     "dmlc/treelite",
     "DOCGroup/ACE_TAO",
     "DolbyLaboratories/dlb_mp4base",
@@ -79,6 +78,7 @@
     "f32c/f32c",
     "facil-io/cstl",
     "FFMS/ffms2",
+    "flagos-ai/FlagTree",
     "flatpak/xdg-desktop-portal",
     "flavorjones/ruby-c-extensions-explained",
     "flexivrobotics/flexiv_rdk",
@@ -243,7 +243,6 @@
     "VectorDB-NTU/RaBitQ-Library",
     "vectr-ucla/direct_lidar_inertial_odometry",
     "wdas/ptex",
-    "webgpu-native/webgpu-headers",
     "WojciechMula/toys",
     "xiph/vorbis",
     "Yubico/libfido2"

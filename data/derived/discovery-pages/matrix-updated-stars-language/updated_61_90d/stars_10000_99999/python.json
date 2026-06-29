@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2053,
-    "concepts": 1824,
-    "observations": 1829,
-    "repos": 181,
-    "terms": 1849
+    "components": 2094,
+    "concepts": 1860,
+    "observations": 1865,
+    "repos": 185,
+    "terms": 1885
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
     "3b1b/manim",
     "666ghj/MiroFish",
     "abetlen/llama-cpp-python",
+    "agentscope-ai/agentscope",
     "agentskills/agentskills",
     "agno-agi/agno",
     "Aider-AI/aider",
@@ -95,12 +96,14 @@
     "huggingface/open-r1",
     "huggingface/peft",
     "huggingface/smolagents",
+    "huggingface/trl",
     "infiniflow/ragflow",
     "ipython/ipython",
     "k-dense-ai/scientific-agent-skills",
     "karpathy/nanochat",
     "kornia/kornia",
     "kovidgoyal/kitty",
+    "kvcache-ai/ktransformers",
     "langbot-app/LangBot",
     "langchain-ai/deepagents",
     "langchain-ai/langgraph",
@@ -163,6 +166,7 @@
     "ranger/ranger",
     "ray-project/ray",
     "redis/redis-py",
+    "RVC-Boss/GPT-SoVITS",
     "sanic-org/sanic",
     "scikit-learn/scikit-learn",
     "searxng/searxng",

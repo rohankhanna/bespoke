@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 228,
-    "concepts": 158,
-    "observations": 162,
-    "repos": 20,
-    "terms": 156
+    "components": 167,
+    "concepts": 114,
+    "observations": 118,
+    "repos": 17,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
@@ -21,14 +21,11 @@
     "datalevin/datalevin",
     "dotnet/reactive",
     "elixir-grpc/grpc",
-    "firebase/flutterfire",
     "google-deepmind/tapnet",
     "googleapis/google-auth-library-php",
     "jenkinsci/docker",
-    "kurrent-io/KurrentDB",
     "licensee/licensed",
     "MakieOrg/Makie.jl",
-    "microsoft/aspire-samples",
     "okd-project/okd",
     "seancorfield/honeysql",
     "standardrb/standard",

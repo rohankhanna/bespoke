@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3430,
-    "concepts": 730,
-    "observations": 731,
-    "repos": 80,
-    "terms": 727
+    "components": 3305,
+    "concepts": 711,
+    "observations": 712,
+    "repos": 77,
+    "terms": 708
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "aeharding/voyager",
     "alichherawalla/off-grid-mobile-ai",
@@ -21,7 +21,6 @@
     "antvis/mcp-server-chart",
     "apify/fingerprint-suite",
     "apollographql/apollo-client-devtools",
-    "argdown/argdown",
     "azat-io/eslint-plugin-perfectionist",
     "baptisteArno/typebot.io",
     "boxlite-ai/boxlite",
@@ -69,7 +68,6 @@
     "OutlineFoundation/outline-apps",
     "pdfme/pdfme",
     "prisma/prisma-examples",
-    "r-lib/actions",
     "react-cosmos/react-cosmos",
     "reactjs/react-docgen",
     "remotion-dev/skills",
@@ -89,7 +87,6 @@
     "vite-pwa/vite-plugin-pwa",
     "vitejs/devtools",
     "vitejs/vite-plugin-react",
-    "VOICEVOX/voicevox",
     "vuejs/babel-plugin-jsx",
     "webdriverio/webdriverio",
     "withcatai/node-llama-cpp",

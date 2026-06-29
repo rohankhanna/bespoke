@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-06-29T06:09:34.790605+00:00`
+Generated at: `2026-06-29T10:01:01.344855+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 0
-- components: 0
-- concepts: 0
-- observations: 0
+- repos: 3
+- terms: 34
+- components: 40
+- concepts: 34
+- observations: 34
 
 ## Static behavior
 
@@ -26,10 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4450 | 2026-06-28T07:37:03Z | Go | Service/API | 0 | 0 | 0 | 0 |
+| [crc-org/crc](https://github.com/crc-org/crc) | 1386 | 2026-06-29T07:32:11Z | Go | Infrastructure/tooling | 17 | 11 | 17 | 17 |
+| [aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | 7665 | 2026-06-29T06:05:20Z | Go | Infrastructure/tooling | 7 | 18 | 7 | 7 |
+| [gobackup/gobackup](https://github.com/gobackup/gobackup) | 2702 | 2026-06-29T04:21:14Z | Go | CLI | 10 | 11 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4450 | 2026-06-28T07:37:03Z | Go | Service/API | 0 | 0 | 0 | 0 |
+| [aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | 7665 | 2026-06-29T06:05:20Z | Go | Infrastructure/tooling | 7 | 18 | 7 | 7 |
+| [gobackup/gobackup](https://github.com/gobackup/gobackup) | 2702 | 2026-06-29T04:21:14Z | Go | CLI | 10 | 11 | 10 | 10 |
+| [crc-org/crc](https://github.com/crc-org/crc) | 1386 | 2026-06-29T07:32:11Z | Go | Infrastructure/tooling | 17 | 11 | 17 | 17 |

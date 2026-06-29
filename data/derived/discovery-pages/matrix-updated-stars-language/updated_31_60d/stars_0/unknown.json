@@ -3,7 +3,7 @@
     "components": 4,
     "concepts": 5,
     "observations": 5,
-    "repos": 20,
+    "repos": 19,
     "terms": 5
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
     "csm-actions/demo-client",
@@ -29,7 +29,6 @@
     "danielrosehill/Claude-GIMP-Plugin",
     "danielrosehill/Claude-Gist-Writer-Plugin",
     "danielrosehill/Claude-GPG-Ops-Plugin",
-    "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
     "danielrosehill/Claude-Keyboard-Scanner",
     "danielrosehill/Claude-License-Populator-Plugin",
     "danielrosehill/Claude-Linux-AV-Manager-Plugin",

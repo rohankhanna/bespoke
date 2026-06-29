@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 613,
-    "concepts": 492,
-    "observations": 493,
-    "repos": 45,
-    "terms": 489
+    "components": 552,
+    "concepts": 429,
+    "observations": 430,
+    "repos": 40,
+    "terms": 426
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -31,12 +31,10 @@
     "getgrav/grav",
     "getlantern/lantern",
     "google/material-design-lite",
-    "gradle/gradle",
     "hadolint/hadolint",
     "hagezi/dns-blocklists",
     "Heapy/awesome-kotlin",
     "JetBrains/compose-multiplatform",
-    "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
     "kubernetes-sigs/kubespray",
     "logseq/logseq",
@@ -44,11 +42,8 @@
     "mdn/content",
     "meta-llama/llama-cookbook",
     "microsoft/ai-agents-for-beginners",
-    "microsoft/mcp-for-beginners",
-    "mozilla-mobile/firefox-ios",
     "MudBlazor/MudBlazor",
     "neovim/nvim-lspconfig",
-    "OAI/OpenAPI-Specification",
     "phpstan/phpstan",
     "rapid7/metasploit-framework",
     "rubocop/rubocop",

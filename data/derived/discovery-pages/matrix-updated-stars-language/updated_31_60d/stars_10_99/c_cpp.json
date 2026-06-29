@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 236,
-    "observations": 237,
-    "repos": 27,
-    "terms": 232
+    "components": 138,
+    "concepts": 212,
+    "observations": 213,
+    "repos": 26,
+    "terms": 208
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "analogdevicesinc/msdk",
     "atsushieno/aap-juce",
@@ -29,7 +29,6 @@
     "gazebosim/gz-physics",
     "gazebosim/gz-rendering",
     "gazebosim/gz-tools",
-    "hazelcast/hazelcast-cpp-client",
     "HDFGroup/hdf4",
     "heiher/hev-socks5-core",
     "heiher/hev-task-system",

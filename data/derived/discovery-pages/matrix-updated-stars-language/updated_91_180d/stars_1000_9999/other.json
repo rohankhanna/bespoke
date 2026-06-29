@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 794,
-    "concepts": 903,
-    "observations": 909,
-    "repos": 169,
-    "terms": 907
+    "components": 802,
+    "concepts": 907,
+    "observations": 913,
+    "repos": 171,
+    "terms": 911
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "aaaaalexis/obsidian-cupertino",
@@ -45,6 +45,7 @@
     "cognitect/transit-format",
     "CommunityToolkit/dotnet",
     "container-storage-interface/spec",
+    "copilot-emacs/copilot.el",
     "cpm-cmake/CPM.cmake",
     "csstools/sanitize.css",
     "dakrone/cheshire",
@@ -157,6 +158,7 @@
     "sbt/sbt-native-packager",
     "scikit-learn-contrib/hdbscan",
     "ScoopInstaller/Install",
+    "sds/overcommit",
     "sindresorhus/Gifski",
     "slim-template/slim",
     "SpinalHDL/VexRiscv",

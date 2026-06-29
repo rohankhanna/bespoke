@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 6,
-    "terms": 57
+    "components": 77,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 5,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-29T10:01:01.344855+00:00",
   "repo_ids": [
     "apache/casbin",
-    "gastownhall/beads",
+    "crossplane/crossplane",
     "gastownhall/gastown",
     "git-lfs/git-lfs",
-    "moby/moby",
-    "podman-container-tools/podman"
+    "moby/moby"
   ]
 }
