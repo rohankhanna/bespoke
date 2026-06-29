@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 3,
-    "terms": 40
+    "components": 198,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 2,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "ipfs/ipfs-companion",
-    "JuliaPluto/Pluto.jl",
+    "ipfs/ipfs-webui",
     "pillarjs/iconv-lite"
   ]
 }

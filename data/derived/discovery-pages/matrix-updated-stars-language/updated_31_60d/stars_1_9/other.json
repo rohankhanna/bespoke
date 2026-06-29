@@ -3,7 +3,7 @@
     "components": 60,
     "concepts": 76,
     "observations": 76,
-    "repos": 17,
+    "repos": 15,
     "terms": 76
   },
   "facet_version": 1,
@@ -12,14 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "alex-shpak/hugo-book-starter",
     "apache/casbin-casbin.io",
     "atsushieno/aap-juce-simple-host",
-    "benjamimgois/pascube",
-    "cosmos/security",
     "donut-party/endpoint-test",
     "FCP-INDI/fcp-indi.github.io",
     "fern-api/docs",

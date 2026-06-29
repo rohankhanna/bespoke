@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-28T11:27:53.671162+00:00`
+Generated at: `2026-06-29T06:09:34.790605+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 32
-- components: 16
-- concepts: 32
-- observations: 32
+- repos: 2
+- terms: 28
+- components: 7
+- concepts: 28
+- observations: 28
 
 ## Static behavior
 
@@ -28,12 +28,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [mintoolkit/mint](https://github.com/mintoolkit/mint) | 353 | 2026-06-24T23:32:48Z | Go | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 | [richiejp/VoxInput](https://github.com/richiejp/VoxInput) | 109 | 2026-06-22T15:44:06Z | Go | Infrastructure/tooling | 10 | 3 | 10 | 10 |
-| [reza-gholizade/k8s-mcp-server](https://github.com/reza-gholizade/k8s-mcp-server) | 167 | 2026-06-22T04:28:21Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [mintoolkit/mint](https://github.com/mintoolkit/mint) | 353 | 2026-06-24T23:32:48Z | Go | Infrastructure/tooling | 18 | 4 | 18 | 18 |
-| [reza-gholizade/k8s-mcp-server](https://github.com/reza-gholizade/k8s-mcp-server) | 167 | 2026-06-22T04:28:21Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [richiejp/VoxInput](https://github.com/richiejp/VoxInput) | 109 | 2026-06-22T15:44:06Z | Go | Infrastructure/tooling | 10 | 3 | 10 | 10 |

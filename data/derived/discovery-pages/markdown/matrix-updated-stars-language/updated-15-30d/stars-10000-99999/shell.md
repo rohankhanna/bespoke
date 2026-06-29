@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Shell
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-29T06:09:34.790605+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 11
-- components: 9
-- concepts: 14
-- observations: 14
+- terms: 15
+- components: 16
+- concepts: 17
+- observations: 17
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) | 20504 | 2026-05-27T13:59:28Z | Shell | CLI | 11 | 9 | 14 | 14 |
+| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 93972 | 2026-06-15T03:56:24Z | Shell | Infrastructure/tooling | 15 | 16 | 17 | 17 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) | 20504 | 2026-05-27T13:59:28Z | Shell | CLI | 11 | 9 | 14 | 14 |
+| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 93972 | 2026-06-15T03:56:24Z | Shell | Infrastructure/tooling | 15 | 16 | 17 | 17 |

@@ -1,30 +1,32 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 15,
-    "terms": 43
+    "components": 111,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 17,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "ABRG-Models/BarrelEmerge",
     "ANTsX/ITKR",
     "Archerkattri/hicache-plus-plus",
-    "ashvardanian/StringZilla-CLI",
     "CleverCloud/karpenter-provider-clever-cloud",
     "crossplane/release",
     "edward3h/docker-bds-integration-test",
     "InsightSoftwareConsortium/insightsoftwareconsortium.org",
+    "Jaded-Encoding-Thaumaturgy/vs-wheels",
     "localai-org/localai-realtime-demo",
     "lxgw/B5XiZhi",
     "mozilla-ai/otari-sdk-rust",
     "mozilla-ai/otari-sdk-ts",
+    "mudler/ced.cpp",
+    "OpenHands/automation",
     "oscard0m/ts-transformer-remove-named-export",
     "paperclipinc/karpenter-provider-hetzner",
     "Venly/web3-react-venly"

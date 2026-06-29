@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12359,
-    "concepts": 7275,
-    "observations": 7294,
+    "components": 12357,
+    "concepts": 7274,
+    "observations": 7293,
     "repos": 3436,
-    "terms": 7227
+    "terms": 7225
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -91,6 +91,7 @@
     "aaronlamz/vue-next-i18n",
     "aaronpowell/tmux-weather",
     "aarowill/base16-gnome-terminal",
+    "aarroyoc/djota",
     "abap-ai/mcp",
     "abapGit/ADT_Frontend",
     "abaplint/abaplint-sci-client",
@@ -705,7 +706,6 @@
     "browserslist/vim-browserslist",
     "brpaz/echozap",
     "brunch/sass-brunch",
-    "bryanp/llhttp",
     "bshepherdson/athens-export",
     "bshoshany/OGRePy",
     "bsless/clj-decompiler.el",
@@ -3190,7 +3190,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

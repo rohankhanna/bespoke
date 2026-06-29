@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 263,
-    "observations": 264,
-    "repos": 31,
-    "terms": 258
+    "components": 146,
+    "concepts": 236,
+    "observations": 237,
+    "repos": 27,
+    "terms": 232
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "0xPolygonHermez/pil2-proofman",
     "analogdevicesinc/msdk",
-    "Antares0982/ssrJSON",
     "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
     "atsushieno/uapmd",
@@ -36,13 +34,11 @@
     "heiher/hev-socks5-core",
     "heiher/hev-task-system",
     "jwindgassen/UnrealYAML",
-    "LedgerHQ/ledger-secure-sdk",
+    "localai-org/rf-detr.cpp",
     "microsoft/aitour-exploring-cutting-edge-models",
     "mono/skia",
     "oberbichler/HyperJet",
     "oneapi-src/unified-memory-framework",
-    "ROCm/rpp",
-    "xjb714/xjb",
     "xuegao-tzx/Fllama",
     "zig-wasm/wasmer-zig-api"
   ]

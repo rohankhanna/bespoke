@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10777,
-    "concepts": 9697,
-    "observations": 9711,
-    "repos": 2488,
-    "terms": 9557
+    "components": 10803,
+    "concepts": 9723,
+    "observations": 9737,
+    "repos": 2493,
+    "terms": 9582
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -29,6 +29,7 @@
     "3Hren/msgpack-rust",
     "425776024/nlpcda",
     "623637646/996.Leave",
+    "99designs/aws-vault",
     "aagarwal1012/Animated-Text-Kit",
     "aagarwal1012/Liquid-Pull-To-Refresh",
     "aantron/better-enums",
@@ -420,7 +421,6 @@
     "ChineseGLUE/ChineseGLUE",
     "chineseocr/chineseocr",
     "chineseocr/darknet-ocr",
-    "chjj/compton",
     "Chris911/iStats",
     "christophschuhmann/improved-aesthetic-predictor",
     "chromelyapps/Chromely",
@@ -444,6 +444,8 @@
     "client9/misspell",
     "clojure-cookbook/clojure-cookbook",
     "clojure-liberator/liberator",
+    "clojure/core.logic",
+    "clojure/test.check",
     "cloneofsimo/lora",
     "cloudflare/miniflare",
     "cloudnativelabs/kube-shell",
@@ -1011,6 +1013,7 @@
     "holman/spark",
     "Homebrew/homebrew-bundle",
     "honza/vim-snippets",
+    "hoshsadiq/adblock-nocoin-list",
     "HRNet/HRNet-Facial-Landmark-Detection",
     "HRNet/HRNet-Image-Classification",
     "HRNet/HRNet-Semantic-Segmentation",
@@ -1571,6 +1574,7 @@
     "multimodal-art-projection/YuE",
     "MunifTanjim/nui.nvim",
     "MVIG-SJTU/AlphaPose",
+    "myclabs/DeepCopy",
     "mymarilyn/clickhouse-driver",
     "mypyc/mypyc",
     "mysticatea/npm-run-all",
@@ -1679,6 +1683,7 @@
     "OAID/Tengine",
     "objectbox/objectbox-go",
     "oblador/react-native-animatable",
+    "obsidianmd/obsidian-sample-plugin",
     "octo-models/octo",
     "octocat/Hello-World",
     "octol/vim-cpp-enhanced-highlight",

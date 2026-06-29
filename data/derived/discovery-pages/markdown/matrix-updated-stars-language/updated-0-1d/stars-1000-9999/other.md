@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-28T11:27:53.671162+00:00`
+Generated at: `2026-06-29T06:09:34.790605+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 64
-- components: 76
-- concepts: 64
-- observations: 64
+- repos: 5
+- terms: 75
+- components: 67
+- concepts: 75
+- observations: 76
 
 ## Static behavior
 
@@ -26,20 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1234 | 2026-06-28T09:59:53Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 6124 | 2026-06-28T09:39:53Z | Other | Infrastructure/tooling | 11 | 18 | 11 | 11 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5959 | 2026-06-28T04:48:12Z | Other | Infrastructure/tooling | 24 | 17 | 24 | 24 |
-| [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6415 | 2026-06-27T23:40:00Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
-| [andymass/vim-matchup](https://github.com/andymass/vim-matchup) | 1914 | 2026-06-27T22:33:34Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
-| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1438 | 2026-06-27T15:04:36Z | Other | CLI | 11 | 14 | 11 | 11 |
+| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1234 | 2026-06-29T01:09:41Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5963 | 2026-06-28T23:44:52Z | Other | Infrastructure/tooling | 24 | 17 | 24 | 24 |
+| [beam-community/elixir-companies](https://github.com/beam-community/elixir-companies) | 1666 | 2026-06-28T23:23:54Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 6127 | 2026-06-28T22:48:20Z | Other | Infrastructure/tooling | 11 | 18 | 11 | 11 |
+| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5106 | 2026-06-28T22:39:47Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6415 | 2026-06-27T23:40:00Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 6124 | 2026-06-28T09:39:53Z | Other | Infrastructure/tooling | 11 | 18 | 11 | 11 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5959 | 2026-06-28T04:48:12Z | Other | Infrastructure/tooling | 24 | 17 | 24 | 24 |
-| [andymass/vim-matchup](https://github.com/andymass/vim-matchup) | 1914 | 2026-06-27T22:33:34Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
-| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1438 | 2026-06-27T15:04:36Z | Other | CLI | 11 | 14 | 11 | 11 |
-| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1234 | 2026-06-28T09:59:53Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 6127 | 2026-06-28T22:48:20Z | Other | Infrastructure/tooling | 11 | 18 | 11 | 11 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5963 | 2026-06-28T23:44:52Z | Other | Infrastructure/tooling | 24 | 17 | 24 | 24 |
+| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5106 | 2026-06-28T22:39:47Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
+| [beam-community/elixir-companies](https://github.com/beam-community/elixir-companies) | 1666 | 2026-06-28T23:23:54Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
+| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1234 | 2026-06-29T01:09:41Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |

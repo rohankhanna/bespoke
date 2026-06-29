@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1346,
-    "concepts": 336,
-    "observations": 337,
-    "repos": 62,
-    "terms": 332
+    "components": 1360,
+    "concepts": 337,
+    "observations": 338,
+    "repos": 65,
+    "terms": 333
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "Adobe-CEP/Samples",
@@ -36,6 +36,7 @@
     "dooy/chatgpt-web-midjourney-proxy",
     "dwyl/learn-json-web-tokens",
     "engineer-man/piston",
+    "ethereum/devp2p",
     "facebook/fbjs",
     "fengari-lua/fengari",
     "GoogleChrome/lighthouse-ci",
@@ -44,6 +45,7 @@
     "guybedford/es-module-shims",
     "huggingface/transformers.js-examples",
     "hughsk/flat",
+    "isaacs/minimatch",
     "istanbuljs/nyc",
     "jasongin/nvs",
     "jimmywarting/StreamSaver.js",
@@ -51,6 +53,7 @@
     "kangax/html-minifier",
     "mapbox/delaunator",
     "microsoft/generative-ai-with-javascript",
+    "microsoft/vscode-recipes",
     "mourner/flatbush",
     "mozilla/webextension-polyfill",
     "mrsteele/dotenv-webpack",

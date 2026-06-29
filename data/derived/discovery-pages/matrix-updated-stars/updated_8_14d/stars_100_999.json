@@ -1,28 +1,31 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 28,
-    "terms": 166
+    "components": 292,
+    "concepts": 207,
+    "observations": 207,
+    "repos": 32,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "alloy-rs/svm-rs",
     "ANTsX/ANTsPy",
     "ANTsX/ANTsPyNet",
+    "Artoriuz/ArtCNN",
     "bazel-contrib/rules_jvm_external",
-    "Blaizzy/mlx-audio-swift",
     "cvxgrp/scs",
+    "Deep-Symmetry/beat-link",
+    "Deep-Symmetry/beat-link-trigger",
     "emacs-eldev/eldev",
     "fsprojects/FSharp.Data.GraphQL",
     "fw-ai/cookbook",
+    "GDevelopApp/GDevelop-extensions",
     "GitoxideLabs/cargo-smart-release",
     "google-deepmind/reverb",
     "googlefonts/roboto-3-classic",
@@ -31,15 +34,16 @@
     "jump-dev/MathOptInterface.jl",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "localai-org/privacy-filter.cpp",
-    "machinewrapped/llm-subtrans",
     "mudler/LocalRecall",
     "NOAA-EMC/WW3",
+    "NVIDIA-NeMo/Automodel",
     "PyCQA/eradicate",
     "pyOpenSci/software-submission",
     "rescript-lang/reanalyze",
-    "scientific-python/spin",
+    "reza-gholizade/k8s-mcp-server",
     "SpecterOps/AzureHound",
     "the-database/VideoJaNai",
+    "tree-sitter-grammars/tree-sitter-markdown",
     "unum-bio/USearchMolecules"
   ]
 }

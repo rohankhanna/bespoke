@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 18797,
-    "concepts": 28229,
-    "observations": 28283,
-    "repos": 7026,
-    "terms": 27990
+    "concepts": 28242,
+    "observations": 28296,
+    "repos": 7027,
+    "terms": 28000
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -2110,7 +2110,6 @@
     "eisneim/ltx_lora_training_i2v_t2v",
     "ekalinin/nodeenv",
     "ekampf/pymaybe",
-    "eldariont/svim",
     "eldariont/svim-asm",
     "elementai/spider",
     "EleutherAI/DALLE-mtf",
@@ -3489,6 +3488,7 @@
     "Jittor/PointCloudLib",
     "jiupinjia/SkyAR",
     "jiwidi/DeepSpeech-pytorch",
+    "jiwoon-ahn/irn",
     "JizhiziLi/AIM",
     "JizhiziLi/GFM",
     "JizhiziLi/P3M",
@@ -6942,6 +6942,7 @@
     "zai-org/VisionReward",
     "zai-org/VisualGLM-6B",
     "zai-org/z-ai-sdk-python",
+    "zalandoresearch/fashion-mnist",
     "zarr-developers/numcodecs",
     "zarr-developers/zarr-python",
     "zdaxie/PixPro",

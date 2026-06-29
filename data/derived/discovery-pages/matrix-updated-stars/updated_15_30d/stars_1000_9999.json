@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 194,
-    "observations": 196,
+    "components": 202,
+    "concepts": 198,
+    "observations": 200,
     "repos": 30,
-    "terms": 193
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "alex-shpak/hugo-book",
     "ashvardanian/NumKong",
@@ -35,10 +35,10 @@
     "microsoft/TRELLIS.2",
     "Nevcairiel/LAVFilters",
     "plotly/plotly.R",
+    "preservim/tagbar",
     "riscv-collab/riscv-gnu-toolchain",
     "rust-ml/linfa",
     "safe-fndn/safe-smart-account",
-    "stdware/qwindowkit",
     "Tencent-Hunyuan/HY-WorldPlay",
     "TheTom/turboquant_plus",
     "Urigo/graphql-cli",

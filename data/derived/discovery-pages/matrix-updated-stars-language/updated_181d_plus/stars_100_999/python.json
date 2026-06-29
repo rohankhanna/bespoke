@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1338,
-    "concepts": 6028,
-    "observations": 6033,
-    "repos": 2013,
-    "terms": 5866
+    "concepts": 6040,
+    "observations": 6045,
+    "repos": 2014,
+    "terms": 5875
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -579,7 +579,6 @@
     "ehoogeboom/multinomial_diffusion",
     "EichlerLab/pav",
     "ekampf/pymaybe",
-    "eldariont/svim",
     "eldariont/svim-asm",
     "EleutherAI/DALLE-mtf",
     "EleutherAI/DeeperSpeed",
@@ -1010,6 +1009,7 @@
     "JingyunLiang/RVRT",
     "Jittor/JDet",
     "Jittor/PointCloudLib",
+    "jiwoon-ahn/irn",
     "JizhiziLi/AIM",
     "JizhiziLi/GFM",
     "JizhiziLi/P3M",
@@ -1257,6 +1257,7 @@
     "megvii-research/MOTRv2",
     "megvii-research/TLC",
     "megvii-research/video_analyst",
+    "meidachen/STPLS3D",
     "Meituan-AutoML/Twins",
     "MendelXu/SAN",
     "MendelXu/zsseg.baseline",

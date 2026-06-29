@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 26,
-    "terms": 36
+    "components": 113,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 29,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -20,11 +20,14 @@
     "adrozdenko/error-toon",
     "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
     "Coral-Protocol/coral-rs",
+    "databendlabs/display-more",
     "databendlabs/watcher",
     "datachainlab/parlia-elc",
     "datafuse-extras/xorfilter",
     "enzet/iconscript",
+    "EspressoSystems/Push-CDN",
     "guoqingbao/rustchatui",
+    "hsivonen/chardetng_c",
     "IWANABETHATGUY/l-lang",
     "LaurenzV/sitro",
     "Layr-Labs/incredible-squaring-avs-rs",

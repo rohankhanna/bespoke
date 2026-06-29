@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 56118,
+    "components": 56121,
     "concepts": 36674,
     "observations": 36788,
-    "repos": 6178,
-    "terms": 36554
+    "repos": 6177,
+    "terms": 36550
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1072,7 +1072,6 @@
     "ChineseGLUE/ChineseGLUE",
     "chineseocr/chineseocr",
     "chineseocr/darknet-ocr",
-    "chjj/compton",
     "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",
     "Chris911/iStats",

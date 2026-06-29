@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 436,
-    "concepts": 359,
-    "observations": 360,
-    "repos": 29,
-    "terms": 353
+    "components": 296,
+    "concepts": 285,
+    "observations": 286,
+    "repos": 22,
+    "terms": 282
   },
   "facet_version": 1,
   "filters": {
@@ -12,36 +12,29 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "atuinsh/atuin",
-    "biomejs/biome",
     "emilk/egui",
     "facebook/flow",
     "firecracker-microvm/firecracker",
-    "GitoxideLabs/gitoxide",
     "google/comprehensive-rust",
     "influxdata/influxdb",
-    "jj-vcs/jj",
     "juspay/hyperswitch",
     "LemmyNet/lemmy",
     "nushell/nushell",
     "oxc-project/oxc",
     "pola-rs/polars",
-    "PyO3/pyo3",
     "qdrant/qdrant",
     "quickwit-oss/quickwit",
     "rerun-io/rerun",
     "rolldown/rolldown",
-    "RustPython/RustPython",
     "shadowsocks/shadowsocks-rust",
-    "surrealdb/surrealdb",
     "tw93/Pake",
     "vectordotdev/vector",
     "wasmerio/wasmer",
     "wezterm/wezterm",
-    "XAMPPRocky/tokei",
-    "zed-industries/zed"
+    "XAMPPRocky/tokei"
   ]
 }

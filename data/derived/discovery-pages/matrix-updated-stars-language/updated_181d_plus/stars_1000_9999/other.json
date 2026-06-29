@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1353,
-    "concepts": 1703,
-    "observations": 1705,
-    "repos": 452,
-    "terms": 1689
+    "components": 1363,
+    "concepts": 1718,
+    "observations": 1720,
+    "repos": 456,
+    "terms": 1704
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -82,6 +82,8 @@
     "chromelyapps/Chromely",
     "clojure-cookbook/clojure-cookbook",
     "clojure-liberator/liberator",
+    "clojure/core.logic",
+    "clojure/test.check",
     "cloneofsimo/lora",
     "clovaai/deep-text-recognition-benchmark",
     "cncf/tag-security",
@@ -180,6 +182,7 @@
     "hexops-graveyard/dockerfile",
     "hila-chefer/Transformer-Explainability",
     "honza/vim-snippets",
+    "hoshsadiq/adblock-nocoin-list",
     "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/nvim-compe",
     "huggingface/swift-coreml-diffusers",
@@ -286,6 +289,7 @@
     "mrash/fwknop",
     "mrjones2014/legendary.nvim",
     "MunifTanjim/nui.nvim",
+    "myclabs/DeepCopy",
     "natemoo-re/astro-icon",
     "neomake/neomake",
     "nianticlabs/monodepth2",

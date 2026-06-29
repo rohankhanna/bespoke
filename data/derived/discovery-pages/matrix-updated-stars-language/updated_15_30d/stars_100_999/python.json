@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 20,
-    "terms": 101
+    "components": 87,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 21,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "AMD-AGI/Nitro-1",
@@ -25,10 +25,11 @@
     "joblib/loky",
     "Kosinkadink/ComfyUI-Advanced-ControlNet",
     "lancedb/yoloexplorer",
+    "machinewrapped/llm-subtrans",
     "PozzettiAndrea/ComfyUI-DepthAnythingV3",
     "pyvista/pyvista-xarray",
-    "readthedocs/commonmark.py",
     "salesforce/UniControl",
+    "scientific-python/spin",
     "the-database/traiNNer-redux",
     "thu-ml/DiT-Extrapolation",
     "vale-cli/packages",

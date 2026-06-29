@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 44,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 6,
-    "terms": 19
+    "concepts": 23,
+    "observations": 23,
+    "repos": 7,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "AMD-AGI/Nitro-T",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "ika-rwth-aachen/docker-run",
     "niivue/ipyniivue",
     "roboflow/single_artifact_benchmarking",
+    "symgraph/BinAssistMCP",
     "tee-ar-ex/trx-python"
   ]
 }

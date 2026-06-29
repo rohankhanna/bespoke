@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 77,
-    "observations": 78,
-    "repos": 53,
-    "terms": 77
+    "components": 216,
+    "concepts": 82,
+    "observations": 83,
+    "repos": 55,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "a-liashenko/egui",
     "adiSuper94/dns-rs",
@@ -33,6 +33,8 @@
     "datafuse-extras/logforth",
     "datafuse-extras/recursive",
     "datafuse-extras/serfig",
+    "datafuse-extras/tantivy",
+    "datafuse-extras/tantivy-jieba",
     "delta1/rust-jsonrpc-client",
     "dustinblackman/rust-hello-world",
     "ealmloff/llm-samplers",

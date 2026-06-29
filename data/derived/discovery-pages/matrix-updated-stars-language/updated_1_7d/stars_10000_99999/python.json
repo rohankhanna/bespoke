@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 323,
-    "concepts": 286,
-    "observations": 287,
-    "repos": 21,
-    "terms": 286
+    "components": 353,
+    "concepts": 288,
+    "observations": 289,
+    "repos": 22,
+    "terms": 287
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
+    "Comfy-Org/ComfyUI-Manager",
     "crewAIInc/crewAI",
     "datalab-to/marker",
+    "deepspeedai/DeepSpeed",
+    "fastapi/fastapi",
     "fossasia/visdom",
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "Lightning-AI/litgpt",
     "marimo-team/marimo",
-    "modelscope/FunASR",
-    "modelscope/ms-swift",
     "nltk/nltk",
     "NVIDIA-NeMo/NeMo",
     "psf/black",
@@ -31,7 +32,7 @@
     "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
     "TEN-framework/ten-framework",
-    "tinygrad/tinygrad",
+    "ungoogled-software/ungoogled-chromium",
     "vega/altair",
     "verl-project/verl",
     "zhayujie/CowAgent"

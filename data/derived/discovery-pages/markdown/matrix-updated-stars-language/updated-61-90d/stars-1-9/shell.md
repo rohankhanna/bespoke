@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · Shell
 
-Generated at: `2026-06-28T11:27:53.671162+00:00`
+Generated at: `2026-06-29T06:09:34.790605+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 31
-- components: 51
-- concepts: 33
-- observations: 33
+- repos: 24
+- terms: 36
+- components: 60
+- concepts: 38
+- observations: 39
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [reviewdog/action-alex](https://github.com/reviewdog/action-alex) | 8 | 2026-04-29T22:21:16Z | Shell | Infrastructure/tooling | 5 | 9 | 5 | 6 |
+| [cloudfoundry/wg-app-platform-runtime-ci](https://github.com/cloudfoundry/wg-app-platform-runtime-ci) | 8 | 2026-04-29T15:57:38Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [lint-staged/lint-staged.sh](https://github.com/lint-staged/lint-staged.sh) | 3 | 2026-04-29T06:13:14Z | Shell | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [gazebo-tooling/release-tools](https://github.com/gazebo-tooling/release-tools) | 7 | 2026-04-24T12:45:37Z | Shell | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [conda-forge/openblas-feedstock](https://github.com/conda-forge/openblas-feedstock) | 9 | 2026-04-24T01:00:54Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -57,6 +59,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [status-im/nimbus-build-system](https://github.com/status-im/nimbus-build-system) | 9 | 2026-04-22T01:16:01Z | Shell | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [chronosphereio/calyptia-cli](https://github.com/chronosphereio/calyptia-cli) | 9 | 2026-04-15T17:14:57Z | Shell | CLI | 1 | 0 | 1 | 1 |
 | [marcindulak/ralph-wiggum-bdd](https://github.com/marcindulak/ralph-wiggum-bdd) | 9 | 2026-04-12T07:50:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [reviewdog/action-alex](https://github.com/reviewdog/action-alex) | 8 | 2026-04-29T22:21:16Z | Shell | Infrastructure/tooling | 5 | 9 | 5 | 6 |
+| [cloudfoundry/wg-app-platform-runtime-ci](https://github.com/cloudfoundry/wg-app-platform-runtime-ci) | 8 | 2026-04-29T15:57:38Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [gazebo-tooling/release-tools](https://github.com/gazebo-tooling/release-tools) | 7 | 2026-04-24T12:45:37Z | Shell | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [conda-forge/pgvector-feedstock](https://github.com/conda-forge/pgvector-feedstock) | 7 | 2026-04-22T13:53:43Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [alvistack/ansible-role-conmon](https://github.com/alvistack/ansible-role-conmon) | 7 | 2026-04-17T04:37:38Z | Shell | Unknown | 0 | 0 | 0 | 0 |

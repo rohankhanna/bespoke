@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1316,
-    "concepts": 838,
-    "observations": 840,
-    "repos": 326,
-    "terms": 833
+    "components": 1348,
+    "concepts": 847,
+    "observations": 849,
+    "repos": 331,
+    "terms": 842
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -68,6 +68,7 @@
     "ansible-community/presentations",
     "apollographql/.github",
     "aquasecurity/tfsec-azure-pipelines-task",
+    "archestra-ai/terraform-provider-archestra",
     "arran4/lemmy_notify",
     "arya-s/phantty",
     "asafr93-rosa/shopping-list-il",
@@ -138,6 +139,7 @@
     "DanielSmith1239/KosherSwift",
     "dart4e/dart4e-studio",
     "dash0hq/opentelemetry-demo",
+    "databendlabs/display-more",
     "databendlabs/watcher",
     "datachainlab/ethereum-ibc-relay-prover",
     "datachainlab/parlia-elc",
@@ -156,9 +158,11 @@
     "dylibso/xtp-python-bindgen",
     "eddelbuettel/github-actions",
     "elixir-makeup/makeup_erlang",
+    "elixir-makeup/makeup_syntect",
     "empriselab/kortex_description",
     "enzet/iconscript",
     "erwin-kok/multiformat",
+    "EspressoSystems/Push-CDN",
     "ethereum-optimism/kurtosis-test",
     "feloy/tesh",
     "filip26/copper-multibase",
@@ -201,6 +205,7 @@
     "heshengtao/sap-ai-drawio",
     "heshengtao/sap-ai-mermaid",
     "hesreallyhim/inkverse-fork",
+    "hsivonen/chardetng_c",
     "ihmcrobotics/ekf",
     "ihmcrobotics/ihmc-build",
     "intel/iefs-kernel-updates",

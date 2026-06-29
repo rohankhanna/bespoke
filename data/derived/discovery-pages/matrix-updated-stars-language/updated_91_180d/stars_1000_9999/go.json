@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 345,
-    "concepts": 317,
-    "observations": 317,
-    "repos": 73,
-    "terms": 317
+    "components": 365,
+    "concepts": 355,
+    "observations": 355,
+    "repos": 75,
+    "terms": 352
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "99designs/aws-vault",
     "abh/geodns",
     "alexellis/k3sup",
     "ankitpokhrel/jira-cli",
@@ -72,9 +71,11 @@
     "opencontainers/image-spec",
     "opencontainers/runtime-spec",
     "OwO-Network/DeepLX",
+    "probonopd/go-appimage",
     "protocolbuffers/protobuf-go",
     "qjfoidnh/BaiduPCS-Go",
     "refraction-networking/utls",
+    "rest-sh/restish",
     "restic/rest-server",
     "rs/cors",
     "shazow/ssh-chat",
@@ -84,6 +85,7 @@
     "stripe/stripe-mock",
     "tidwall/btree",
     "tmc/langchaingo",
+    "xjasonlyu/tun2socks",
     "xtaci/kcp-go",
     "xtaci/smux",
     "yuin/goldmark"

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-06-28T11:27:53.671162+00:00`
+Generated at: `2026-06-29T06:09:34.790605+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
+- repos: 3
 - terms: 10
 - components: 8
 - concepts: 10
@@ -27,15 +27,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [ika-rwth-aachen/docker-ros](https://github.com/ika-rwth-aachen/docker-ros) | 185 | 2026-06-11T20:09:26Z | Shell | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 529 | 2026-06-05T17:59:43Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 528 | 2026-06-05T17:59:43Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [ros-industrial/industrial_ci](https://github.com/ros-industrial/industrial_ci) | 295 | 2026-06-01T09:37:06Z | Shell | Infrastructure/tooling | 4 | 3 | 4 | 4 |
-| [localai-org/apex-quant](https://github.com/localai-org/apex-quant) | 365 | 2026-05-29T14:11:44Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 529 | 2026-06-05T17:59:43Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [localai-org/apex-quant](https://github.com/localai-org/apex-quant) | 365 | 2026-05-29T14:11:44Z | Shell | Model/data | 0 | 0 | 0 | 0 |
+| [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 528 | 2026-06-05T17:59:43Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [ros-industrial/industrial_ci](https://github.com/ros-industrial/industrial_ci) | 295 | 2026-06-01T09:37:06Z | Shell | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [ika-rwth-aachen/docker-ros](https://github.com/ika-rwth-aachen/docker-ros) | 185 | 2026-06-11T20:09:26Z | Shell | Infrastructure/tooling | 5 | 3 | 5 | 5 |

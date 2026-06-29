@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 19,
-    "terms": 88
+    "components": 80,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 14,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "ankitpokhrel/shopctl",
     "apache/casbin-govaluate",
-    "bitrise-io/stepman",
-    "cloudfoundry/bosh-backup-and-restore",
-    "cloudfoundry/cf-networking-release",
     "energye/lcl",
     "energye/wv",
-    "EngFlow/gazelle_cc",
     "golangci/go-printf-func-name",
     "golangci/misspell",
     "gookit/ini",
     "gookit/rux",
     "joshsymonds/cc-tools",
-    "Kong/kong-operator",
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "mudler/skillserver",
     "philips-labs/dct-notary-admin",

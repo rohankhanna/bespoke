@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 340,
-    "concepts": 201,
-    "observations": 201,
-    "repos": 93,
-    "terms": 201
+    "components": 329,
+    "concepts": 198,
+    "observations": 198,
+    "repos": 94,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
@@ -30,6 +30,7 @@
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
     "beeware/beeware-docs-tools",
+    "benjamimgois/pascube",
     "bennyyip/dot-vim",
     "bladeacer/obsi-snip-coll",
     "Blosc/blogsite",
@@ -44,6 +45,7 @@
     "conda-forge/croc-feedstock",
     "conda-forge/pybind11-feedstock",
     "conda-forge/scikit-build-core-feedstock",
+    "cosmos/security",
     "curiousdannii/emglken",
     "CVEProject/cve-user-registry-client",
     "cyber404/che-apple-mail-mcp",
@@ -55,7 +57,6 @@
     "dwyl/auth_plug_example",
     "dwyl/fields-demo",
     "dwyl/ping",
-    "elixir-makeup/makeup_syntect",
     "enbop/fungi-app",
     "ethpandaops/checkpoint-sync-health-checks",
     "flagos-ai/flir",

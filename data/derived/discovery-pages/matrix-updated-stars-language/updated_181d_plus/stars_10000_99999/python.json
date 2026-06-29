@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 317,
-    "concepts": 669,
-    "observations": 670,
-    "repos": 116,
-    "terms": 661
+    "concepts": 679,
+    "observations": 680,
+    "repos": 117,
+    "terms": 671
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -129,6 +129,7 @@
     "xinntao/Real-ESRGAN",
     "zai-org/ChatGLM-6B",
     "zai-org/ChatGLM2-6B",
-    "zai-org/CogVideo"
+    "zai-org/CogVideo",
+    "zalandoresearch/fashion-mnist"
   ]
 }

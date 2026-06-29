@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 670,
-    "concepts": 301,
-    "observations": 303,
-    "repos": 41,
-    "terms": 301
+    "components": 677,
+    "concepts": 300,
+    "observations": 302,
+    "repos": 43,
+    "terms": 300
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "Aleksoid1978/VideoRenderer",
@@ -19,6 +19,7 @@
     "apache/casbin-jcasbin",
     "apollographql/apollo-tooling",
     "arcee-ai/mergekit",
+    "ash-rs/ash",
     "AviSynth/AviSynthPlus",
     "babashka/sci",
     "benchmark-action/github-action-benchmark",
@@ -34,6 +35,7 @@
     "gluonfield/enchanted",
     "google-gemini/live-api-web-console",
     "graphql-hive/graphql-inspector",
+    "huggingface/swift-transformers",
     "imgui-rs/imgui-rs",
     "intentee/paddler",
     "ipyflow/ipyflow",
@@ -42,10 +44,10 @@
     "mudler/LocalAGI",
     "NEKOparapa/AiNiee",
     "nutsdb/nutsdb",
-    "preservim/tagbar",
     "psmux/psmux",
     "pytorch/gloo",
     "react-native-webview/react-native-webview",
+    "red-data-tools/pycall.rb",
     "safetensors/safetensors",
     "TanStack/form",
     "tape-testing/tape",

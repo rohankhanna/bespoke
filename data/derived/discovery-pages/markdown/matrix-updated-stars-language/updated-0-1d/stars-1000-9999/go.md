@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-06-28T11:27:53.671162+00:00`
+Generated at: `2026-06-29T06:09:34.790605+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4449 | 2026-06-28T07:37:03Z | Go | Service/API | 0 | 0 | 0 | 0 |
+| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4450 | 2026-06-28T07:37:03Z | Go | Service/API | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4449 | 2026-06-28T07:37:03Z | Go | Service/API | 0 | 0 | 0 | 0 |
+| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4450 | 2026-06-28T07:37:03Z | Go | Service/API | 0 | 0 | 0 | 0 |

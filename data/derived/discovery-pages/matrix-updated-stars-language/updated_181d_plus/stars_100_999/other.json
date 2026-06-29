@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2444,
-    "concepts": 3264,
-    "observations": 3271,
-    "repos": 1020,
-    "terms": 3244
+    "components": 2456,
+    "concepts": 3265,
+    "observations": 3272,
+    "repos": 1022,
+    "terms": 3245
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -235,7 +235,10 @@
     "clojupyter/clojupyter",
     "clojure-emacs/clj-suitable",
     "clojure-goes-fast/clj-java-decompiler",
+    "clojure/core.unify",
+    "clojure/data.priority-map",
     "clojure/tools.deps.alpha",
+    "clojure/tools.nrepl",
     "cloudfoundry/diego-design-notes",
     "cloudnativeapp/charts",
     "CLUEbenchmark/pCLUE",
@@ -594,7 +597,6 @@
     "Lausbert/Exermote",
     "layumi/Image-Text-Embedding",
     "layumi/Pedestrian_Alignment",
-    "layumi/Person-reID_GAN",
     "leafo/magick",
     "leoluz/nvim-dap-go",
     "lewis6991/pckr.nvim",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33786,
-    "concepts": 15381,
-    "observations": 15438,
-    "repos": 1729,
-    "terms": 15340
+    "components": 33792,
+    "concepts": 15391,
+    "observations": 15448,
+    "repos": 1730,
+    "terms": 15344
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -1729,6 +1729,7 @@
     "zai-org/ChatGLM-6B",
     "zai-org/ChatGLM2-6B",
     "zai-org/CogVideo",
+    "zalandoresearch/fashion-mnist",
     "zalmoxisus/redux-devtools-extension",
     "zarazhangrui/frontend-slides",
     "zed-industries/zed",

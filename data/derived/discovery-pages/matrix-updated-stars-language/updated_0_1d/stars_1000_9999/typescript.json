@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 334,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 7,
-    "terms": 54
+    "components": 228,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 4,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "conventional-changelog/conventional-changelog",
     "electron/rebuild",
     "nsfw-filter/nsfw-filter",
-    "off-grid-ai/mobile",
-    "typescript-language-server/typescript-language-server",
-    "vuejs/devtools",
+    "shareAI-lab/Kode-CLI",
     "vuejs/language-tools"
   ]
 }

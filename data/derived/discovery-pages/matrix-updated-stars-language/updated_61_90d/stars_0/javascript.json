@@ -3,7 +3,7 @@
     "components": 218,
     "concepts": 52,
     "observations": 52,
-    "repos": 13,
+    "repos": 12,
     "terms": 53
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "aaronlamz/navpress",
     "caprica/generator-vlcj",
@@ -20,7 +20,6 @@
     "fabon-f/temporal-polyfill-comparison",
     "gyf0311/lorekit",
     "i18next/i18next-subliminal",
-    "Patrick-ring-motive/sval-rhino-gs",
     "redductive/securepixel",
     "saidudz/chat-ai",
     "similar-colpoxerosis201/codex-wechat",

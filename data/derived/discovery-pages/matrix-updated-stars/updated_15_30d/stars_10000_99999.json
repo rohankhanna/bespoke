@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 324,
-    "concepts": 88,
-    "observations": 89,
+    "components": 331,
+    "concepts": 89,
+    "observations": 90,
     "repos": 9,
-    "terms": 88
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "aden-hive/hive",
     "AndyMik90/Aperant",
     "anthropics/claude-cookbooks",
     "Billionmail/BillionMail",
@@ -21,6 +20,7 @@
     "datalab-to/surya",
     "gitleaks/gitleaks",
     "Lightning-AI/pytorch-lightning",
+    "nvm-sh/nvm",
     "oobabooga/textgen"
   ]
 }

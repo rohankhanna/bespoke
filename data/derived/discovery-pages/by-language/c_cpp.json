@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9967,
+    "components": 9973,
     "concepts": 11838,
     "observations": 11866,
-    "repos": 2468,
-    "terms": 11744
+    "repos": 2467,
+    "terms": 11742
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -455,7 +455,6 @@
     "CHIP-SPV/H4I-HipSOLVER",
     "CHIP-SPV/H4I-MKLShim",
     "ChiyukiGana/Quickinput",
-    "chjj/compton",
     "Chlumsky/artery-font-format",
     "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",

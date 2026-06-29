@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 379,
-    "concepts": 475,
-    "observations": 475,
-    "repos": 60,
-    "terms": 473
+    "components": 420,
+    "concepts": 514,
+    "observations": 514,
+    "repos": 66,
+    "terms": 512
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -23,12 +23,14 @@
     "apache/doris-spark-connector",
     "apache/ignite-3",
     "apache/rocketmq-clients",
+    "apache/spark-kubernetes-operator",
     "aws-powertools/powertools-lambda-java",
     "Azure-Samples/agent-openai-java-banking-assistant",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "carrot2/carrot2",
     "chromiumembedded/java-cef",
+    "confluentinc/kafka-streams-examples",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "devoxx/DevoxxGenieIDEAPlugin",
@@ -42,6 +44,7 @@
     "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
+    "googleapis/java-bigtable-hbase",
     "GoogleCloudPlatform/cloud-opensource-java",
     "graalvm/graal-languages-demos",
     "graalvm/graalvm-demos",
@@ -61,7 +64,9 @@
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "objectbox/objectbox-examples",
+    "operator-framework/java-operator-sdk",
     "quarkiverse/quarkus-langchain4j",
+    "quarkiverse/quarkus-operator-sdk",
     "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
@@ -72,6 +77,7 @@
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",
     "wildfly/quickstart",
+    "Xilinx/RapidWright",
     "ysbing/YADB",
     "zilliztech/vts"
   ]

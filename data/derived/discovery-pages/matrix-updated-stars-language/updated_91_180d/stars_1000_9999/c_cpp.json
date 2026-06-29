@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 412,
-    "concepts": 538,
-    "observations": 539,
-    "repos": 98,
-    "terms": 530
+    "components": 423,
+    "concepts": 558,
+    "observations": 559,
+    "repos": 101,
+    "terms": 550
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -78,9 +78,11 @@
     "mitsuba-renderer/nanogui",
     "mmorise/World",
     "mutouyun/cpp-ipc",
+    "nalgeon/sqlean",
     "nmoehrle/mvs-texturing",
     "nmslib/hnswlib",
     "nodemcu/nodemcu-firmware",
+    "NVIDIA/cuda-samples",
     "NVIDIA/gdrcopy",
     "onnx/onnx-tensorrt",
     "OpenNMT/CTranslate2",
@@ -103,6 +105,7 @@
     "TheAssassin/AppImageLauncher",
     "ThrowTheSwitch/Unity",
     "tinyobjloader/tinyobjloader",
+    "TuGraph-family/tugraph-db",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",
     "ulfjack/ryu",

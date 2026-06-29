@@ -3,7 +3,7 @@
     "components": 41,
     "concepts": 24,
     "observations": 24,
-    "repos": 17,
+    "repos": 16,
     "terms": 26
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "abbhisap/LLM-Council-SAP",
@@ -20,7 +20,6 @@
     "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
     "danielJL-altius/israelgrocerymcp",
-    "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "devnen/chatterbox-v2",
     "maeste/a2a-tck",

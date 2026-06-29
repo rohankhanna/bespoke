@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 4,
-    "terms": 42
+    "components": 17,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 3,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "libbitcoin/libbitcoin-system",
+    "libsndfile/libsndfile",
     "TrenchBroom/TrenchBroom",
-    "ultrajson/ultrajson",
-    "xtensor-stack/xtensor"
+    "ufbx/ufbx"
   ]
 }

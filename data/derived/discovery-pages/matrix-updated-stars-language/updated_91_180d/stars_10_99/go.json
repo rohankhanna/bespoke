@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 51,
-    "terms": 190
+    "components": 213,
+    "concepts": 198,
+    "observations": 198,
+    "repos": 53,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "AbsaOSS/external-dns-infoblox-webhook",
@@ -21,6 +21,7 @@
     "apache/incubator-seata-k8s",
     "aquasecurity/k8s-node-collector",
     "aws-controllers-k8s/runtime",
+    "aws/amazon-network-policy-controller-k8s",
     "aws/amazon-vpc-cni-plugins",
     "aws/aws-ebpf-sdk-go",
     "bartventer/httpcache",
@@ -60,6 +61,7 @@
     "rose-pine/rose-pine-bloom",
     "roy2220/osc52pty",
     "rpcxio/rpcx-etcd",
+    "scaleway/serverless-examples",
     "seaweedfs/seaweedfs-cosi-driver",
     "urfave/cli-altsrc",
     "worlpaker/go-syntax",

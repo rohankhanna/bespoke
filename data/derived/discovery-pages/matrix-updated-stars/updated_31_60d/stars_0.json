@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 210,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 49,
-    "terms": 62
+    "components": 194,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 45,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -39,12 +39,10 @@
     "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
-    "danielrosehill/Claude-Hopper",
     "danielrosehill/Claude-Keyboard-Scanner",
     "danielrosehill/Claude-License-Populator-Plugin",
     "danielrosehill/Claude-Linux-AV-Manager-Plugin",
     "drmingdrmer/databend-meta",
-    "flagos-ai/verl-FL",
     "getlantern/guide",
     "HumanSignal/label-studio-client-generator",
     "kalavai-net/kalavai-templates",
@@ -56,9 +54,7 @@
     "mayocream/candle",
     "netdur/imaged-sdk-examples",
     "OpenHands/incubator-program",
-    "qiayuanl/unitree_buildfarm",
     "seanmacavaney/ir-datasets.com",
-    "sp1-patches/elliptic-curves",
     "starfishmod/bonjour-service",
     "superfarther/K2V",
     "UnknownPlatypus/markup_fmt"

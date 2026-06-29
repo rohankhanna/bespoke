@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 106,
-    "terms": 82
+    "components": 51,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 109,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -80,6 +80,7 @@
     "danielrosehill/Claude-Digital-Printing-Plugin",
     "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+    "danielrosehill/Claude-Hopper",
     "danielrosehill/Claude-HTML-Email-Designer-Plugin",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Jewish-Utilities-Plugin",
@@ -113,8 +114,10 @@
     "narutoxdd6/nyro",
     "piebald-ai/piebald",
     "pragmatical-transshipment598/claude-code-workflows",
+    "qiayuanl/unitree_buildfarm",
     "semgrep/cursor-plugin",
     "shouted-numberone752/wechat-agent-connector",
+    "sp1-patches/elliptic-curves",
     "TransferQueue/community_doc",
     "ublacklist/store-assets",
     "vivianalaced749/vk-calls-tunnel",

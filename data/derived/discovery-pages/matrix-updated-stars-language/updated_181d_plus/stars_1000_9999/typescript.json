@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2766,
-    "concepts": 477,
-    "observations": 478,
-    "repos": 99,
-    "terms": 486
+    "components": 2778,
+    "concepts": 482,
+    "observations": 483,
+    "repos": 100,
+    "terms": 491
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "101arrowz/fflate",
@@ -82,6 +82,7 @@
     "microsoft/botframework-solutions",
     "microsoft/dts-gen",
     "nuxt/vite",
+    "obsidianmd/obsidian-sample-plugin",
     "opendatalab/LabelLLM",
     "pieroxy/lz-string",
     "piotrostr/listen",

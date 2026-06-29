@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 399,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 9,
-    "terms": 51
+    "components": 489,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 12,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js",
     "actions/container-toolkit-action",
     "antvis/GPT-Vis",
     "Comfy-Org/Comfy-Desktop",
+    "electron/packager",
+    "hexabot-ai/Hexabot",
     "huggingface/hf-mcp-server",
+    "mightyiam/eslint-config-love",
     "OpenHands/agent-canvas",
     "safe-fndn/safe-singleton-factory",
     "stx-labs/stacks.js",
+    "unplugin/unplugin-imagemin",
     "wevm/abitype"
   ]
 }

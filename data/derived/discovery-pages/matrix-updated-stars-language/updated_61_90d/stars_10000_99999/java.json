@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 272,
-    "observations": 272,
-    "repos": 22,
-    "terms": 270
+    "components": 272,
+    "concepts": 347,
+    "observations": 347,
+    "repos": 29,
+    "terms": 345
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "alibaba/druid",
     "alibaba/nacos",
@@ -20,16 +20,23 @@
     "apache/doris",
     "apache/dubbo",
     "apache/incubator-seata",
+    "apache/kafka",
     "apache/rocketmq",
     "apple/pkl",
+    "awsdocs/aws-doc-sdk-examples",
     "bazelbuild/bazel",
     "ben-manes/caffeine",
+    "bumptech/glide",
     "clojure/clojure",
+    "dbeaver/dbeaver",
     "google/auto",
+    "google/gson",
     "google/guava",
     "JetBrains/intellij-community",
     "Konloch/bytecode-viewer",
+    "langchain4j/langchain4j",
     "NationalSecurityAgency/ghidra",
+    "netty/netty",
     "OpenAPITools/openapi-generator",
     "prestodb/presto",
     "ReactiveX/RxJava",

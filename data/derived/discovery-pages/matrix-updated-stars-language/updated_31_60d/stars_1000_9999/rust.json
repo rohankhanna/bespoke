@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 781,
-    "concepts": 613,
-    "observations": 613,
-    "repos": 63,
-    "terms": 608
+    "components": 578,
+    "concepts": 460,
+    "observations": 460,
+    "repos": 46,
+    "terms": 455
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "AccessKit/accesskit",
     "agentclientprotocol/agent-client-protocol",
     "Aleph-Alpha/ts-rs",
     "apache/casbin-rs",
     "apache/datafusion",
-    "apache/iceberg-rust",
-    "askama-rs/askama",
     "brave/adblock-rust",
-    "cachix/devenv",
     "cargo-generate/cargo-generate",
     "cordx56/rustowl",
     "CosmWasm/cosmwasm",
@@ -36,13 +32,7 @@
     "facebook/buck2",
     "facebook/pyrefly",
     "facebook/sapling",
-    "floneum/floneum",
-    "graphql-rust/juniper",
-    "GreptimeTeam/greptimedb",
-    "hermit-os/kernel",
     "holochain/holochain",
-    "huggingface/text-embeddings-inference",
-    "image-rs/image",
     "josh-project/josh",
     "JuliaLang/juliaup",
     "junhoyeo/tokscale",
@@ -53,9 +43,7 @@
     "mozilla/uniffi-rs",
     "nats-io/nats.rs",
     "nix-rust/nix",
-    "notify-rs/notify",
     "prefix-dev/pixi",
-    "raphamorim/rio",
     "reubeno/brush",
     "risingwavelabs/risingwave",
     "robustmq/robustmq",
@@ -63,19 +51,14 @@
     "ros2-rust/ros2_rust",
     "rust-cli/config-rs",
     "rust-cli/human-panic",
-    "Rust-GPU/rust-gpu",
     "rust-lang/flate2-rs",
     "rust-lang/portable-simd",
-    "rust-lang/rustfmt",
     "rust-lang/rustup",
     "rust-openssl/rust-openssl",
-    "RustAudio/cpal",
     "Splode/pomotroid",
-    "squidowl/halloy",
     "supabase/etl",
     "tensorchord/VectorChord",
     "unicode-org/icu4x",
-    "VOICEVOX/voicevox_core",
-    "wasm-bindgen/wasm-bindgen"
+    "VOICEVOX/voicevox_core"
   ]
 }

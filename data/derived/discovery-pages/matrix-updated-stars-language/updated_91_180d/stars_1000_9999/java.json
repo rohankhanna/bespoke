@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 13,
-    "terms": 78
+    "components": 65,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 15,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "aliyun/aliyun-oss-java-sdk",
     "apache/incubator-seata-samples",
+    "bobbylight/RSyntaxTextArea",
     "caprica/vlcj",
     "json-path/JsonPath",
     "jtablesaw/tablesaw",
@@ -23,6 +24,7 @@
     "locationtech/jts",
     "msgpack/msgpack-java",
     "objectbox/objectbox-java",
+    "openjdk/jmh",
     "spring-projects/spring-ai-examples",
     "srikanth-lingala/zip4j",
     "stleary/JSON-java",

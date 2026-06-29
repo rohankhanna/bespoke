@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 17,
-    "terms": 103
+    "components": 68,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 14,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "Chocolate4U/Iran-v2ray-rules",
-    "cloudfoundry/bosh-deployment",
-    "harbor-framework/terminal-bench-2",
     "heroku/base-images",
     "heroku/heroku-buildpack-go",
     "heroku/heroku-buildpack-java",
@@ -24,9 +22,8 @@
     "jcefmaven/jcefbuild",
     "jenkinsci/jep",
     "jez/dotfiles",
+    "localai-org/apex-quant",
     "meyayl/docker-languagetool",
-    "microcai/gentoo-zh",
-    "mozilla/addons",
     "nginx-le/nginx-le",
     "sclorg/s2i-php-container",
     "TypedDevs/bashunit",

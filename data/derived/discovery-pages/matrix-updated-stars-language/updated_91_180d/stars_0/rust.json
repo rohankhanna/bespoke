@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 29,
-    "observations": 30,
-    "repos": 18,
-    "terms": 29
+    "components": 84,
+    "concepts": 25,
+    "observations": 26,
+    "repos": 17,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
     "bgw/bincode",
     "databendlabs/iceberg-rust",
     "datafuse-extras/dtparse",
-    "datafuse-extras/tantivy",
-    "datafuse-extras/tantivy-jieba",
+    "drmingdrmer/display-more",
     "EspressoSystems/commit",
     "EspressoSystems/jellyfish-compat",
     "firstbatchxyz/dkn-protocol",

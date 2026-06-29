@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 419,
-    "concepts": 350,
-    "observations": 350,
-    "repos": 78,
-    "terms": 350
+    "components": 443,
+    "concepts": 377,
+    "observations": 377,
+    "repos": 83,
+    "terms": 376
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
+    "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
     "acts-project/traccc",
     "ad-si/FlatCV",
@@ -25,6 +26,7 @@
     "AIWintermuteAI/whispercpp",
     "akruphi/far2l",
     "ankane/stl-cpp",
+    "Antares0982/ssrJSON",
     "apache/pulsar-client-cpp",
     "barak/minidjvu",
     "BirolLab/arcs",
@@ -56,6 +58,7 @@
     "kendryte/canmv_k230",
     "ksnip/kImageAnnotator",
     "LedgerHQ/app-boilerplate",
+    "LedgerHQ/ledger-secure-sdk",
     "Level/classic-level",
     "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",
@@ -81,6 +84,7 @@
     "ROCm/rocAL",
     "ROCm/ROCgdb",
     "ROCm/roctracer",
+    "ROCm/rpp",
     "sgt0/vs-placebo",
     "skeeto/dcmake",
     "theimpossibleastronaut/rmw",
@@ -89,6 +93,7 @@
     "walbourn/directxmathtest",
     "walbourn/directxtextest",
     "walbourn/directxtktest",
+    "xjb714/xjb",
     "yoshoku/numo-narray-alt",
     "yquake2/ref_vk",
     "yquake2/yquake2remaster"

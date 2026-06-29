@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-06-28T11:27:53.671162+00:00`
+Generated at: `2026-06-29T06:09:34.790605+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 31
-- components: 47
-- concepts: 31
-- observations: 31
+- repos: 2
+- terms: 18
+- components: 16
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -28,7 +28,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2384 | 2026-06-27T08:51:10Z | Java | CLI | 8 | 12 | 8 | 8 |
 | [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3800 | 2026-06-27T01:16:26Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1990 | 2026-06-26T21:40:29Z | Java | Infrastructure/tooling | 13 | 31 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -36,4 +35,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3800 | 2026-06-27T01:16:26Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2384 | 2026-06-27T08:51:10Z | Java | CLI | 8 | 12 | 8 | 8 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1990 | 2026-06-26T21:40:29Z | Java | Infrastructure/tooling | 13 | 31 | 13 | 13 |

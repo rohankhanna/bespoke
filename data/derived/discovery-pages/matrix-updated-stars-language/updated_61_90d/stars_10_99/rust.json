@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 766,
-    "concepts": 460,
-    "observations": 462,
-    "repos": 111,
-    "terms": 474
+    "components": 804,
+    "concepts": 487,
+    "observations": 489,
+    "repos": 117,
+    "terms": 501
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
+    "AccessKit/accesskit-c",
     "adumbidiot/lz-str-rs",
     "ai-dynamo/modelexpress",
     "alixinne/glsl-lang",
@@ -26,9 +27,11 @@
     "ankane/safetensors-ruby",
     "antonWetzel/prettypst",
     "apache/opendal-oli",
+    "apollographql/federation-rs",
     "arkworks-rs/spongefish",
     "arkworks-rs/std",
     "ashvardanian/NumWars",
+    "asny/three-d-asset",
     "astral-sh/pubgrub",
     "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",
@@ -83,6 +86,8 @@
     "lambdaclass/libssz",
     "launchdarkly/rust-server-sdk",
     "Layr-Labs/eigensdk-rs",
+    "ldclabs/anda-db",
+    "ldclabs/anda-hippocampus",
     "ldclabs/ic-oss",
     "ldclabs/ic-tee",
     "major7apps/pensyve",
@@ -99,6 +104,7 @@
     "neysofu/reltester",
     "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
+    "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
     "paradigmxyz/stateless",
     "phiat/claude-esp-rs",

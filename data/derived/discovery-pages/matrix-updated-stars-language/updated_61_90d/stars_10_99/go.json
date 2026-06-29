@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 631,
-    "concepts": 406,
-    "observations": 409,
-    "repos": 97,
-    "terms": 402
+    "components": 650,
+    "concepts": 417,
+    "observations": 420,
+    "repos": 100,
+    "terms": 413
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "AbdelrhmanHamouda/locust-k8s-operator",
@@ -31,15 +31,17 @@
     "Asterisk4Magisk/XrayHelper",
     "astro-han/diffpane",
     "aws-controllers-k8s/code-generator",
-    "aws/amazon-network-policy-controller-k8s",
     "aws/aws-network-policy-agent",
     "benchsci/rules_nodejs_gazelle",
+    "bitrise-io/stepman",
     "blinklabs-io/bluefin",
     "bootmortis/sing-geosite",
     "celo-org/op-geth",
     "cloudfoundry/bbs",
+    "cloudfoundry/bosh-backup-and-restore",
     "cloudfoundry/bpm-release",
     "cloudfoundry/cf-acceptance-tests",
+    "cloudfoundry/cf-networking-release",
     "cloudfoundry/cf-smoke-tests",
     "cloudwego/kitex-benchmark",
     "cmdjulian/mopy",
@@ -62,6 +64,7 @@
     "dlclark/regexp2cg",
     "ebitengine/debugui",
     "energye/cef",
+    "EngFlow/gazelle_cc",
     "ethpandaops/xatu",
     "featherbread/hypcast",
     "fgrehm/clotilde",
@@ -78,6 +81,7 @@
     "ipfs/gateway-conformance",
     "ipfs/ipfs-check",
     "ipshipyard/p2p-forge",
+    "Kong/kong-operator",
     "kubernetes-sigs/apiserver-runtime",
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
@@ -96,7 +100,6 @@
     "oracle/karpenter-provider-oci",
     "philips-labs/tabia",
     "quicksilver-zone/quicksilver",
-    "scaleway/serverless-examples",
     "sigstore/helm-sigstore",
     "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",

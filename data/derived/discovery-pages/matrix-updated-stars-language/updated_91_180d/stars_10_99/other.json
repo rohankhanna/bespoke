@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 725,
-    "concepts": 543,
-    "observations": 545,
-    "repos": 184,
-    "terms": 538
+    "components": 735,
+    "concepts": 552,
+    "observations": 554,
+    "repos": 186,
+    "terms": 547
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
+    "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
     "0xrsydn/nix-hermes-agent",
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
     "6cdh/dotfiles",
-    "aarroyoc/djota",
     "aarroyoc/doclog",
     "abapGit/ADT_Backend",
     "ably-labs/realtime-quiz-framework",
@@ -43,6 +43,7 @@
     "apache/pdfbox-docs",
     "apache/rocketmq-apis",
     "aperezdc/lua-wcwidth",
+    "apollographql/apollo-ios-pagination",
     "appsignal/mono",
     "Arthur944/neotest-bun",
     "asg017/sqlite-hello",
@@ -123,6 +124,7 @@
     "jruby/maven-tools",
     "js-temporal/proposal-temporal-v2",
     "JuliaGraphics/Cairo.jl",
+    "JuliaGraphics/ColorVectorSpace.jl",
     "JuliaGtk/Gtk4.jl",
     "JuliaPackaging/PkgServer.jl",
     "JunoLab/Atom.jl",

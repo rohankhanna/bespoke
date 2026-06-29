@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 2,
-    "terms": 20
+    "components": 33,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 3,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "Kludex/starlette",
-    "pyg-team/pytorch_geometric"
+    "pyg-team/pytorch_geometric",
+    "tinygrad/tinygrad"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 448,
-    "concepts": 72,
-    "observations": 74,
-    "repos": 3,
-    "terms": 81
+    "components": 457,
+    "concepts": 99,
+    "observations": 101,
+    "repos": 4,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
+    "HumanSignal/label-studio",
     "lobehub/lobehub",
     "ruvnet/ruflo",
     "storybookjs/storybook"

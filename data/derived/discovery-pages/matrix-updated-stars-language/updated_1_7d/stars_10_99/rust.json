@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 4,
-    "terms": 10
+    "components": 30,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 3,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
-    "lablup/mlxcel",
     "vaporif/parry-guard"
   ]
 }

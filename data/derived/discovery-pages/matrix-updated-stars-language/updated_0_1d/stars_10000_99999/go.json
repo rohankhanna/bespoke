@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 88,
-    "observations": 88,
+    "components": 92,
+    "concepts": 87,
+    "observations": 87,
     "repos": 5,
-    "terms": 88
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "crossplane/crossplane",
-    "gastownhall/beads",
     "mudler/LocalAI",
     "QuantumNous/new-api",
+    "redis/go-redis",
     "weaviate/weaviate"
   ]
 }

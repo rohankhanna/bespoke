@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 36,
-    "observations": 37,
-    "repos": 3,
-    "terms": 36
+    "components": 4,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 1,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "apache/datafusion-ballista",
-    "dmtrKovalenko/fff",
     "godot-rust/gdext"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2305,
-    "concepts": 411,
-    "observations": 411,
+    "components": 2295,
+    "concepts": 415,
+    "observations": 415,
     "repos": 74,
-    "terms": 439
+    "terms": 442
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -51,6 +51,7 @@
     "markdoc/markdoc",
     "metatool-ai/metamcp",
     "microsoft/genaiscript",
+    "microsoft/tsdoc",
     "msgpack/msgpack-javascript",
     "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
@@ -59,7 +60,6 @@
     "obsidian-community/obsidian-kanban",
     "obsidian-community/obsidian-style-settings",
     "obsidian-community/obsidian-zotero-integration",
-    "obsidianmd/obsidian-sample-plugin",
     "omnara-ai/omnara",
     "PaulLeCam/react-leaflet",
     "peers/peerjs-server",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 71,
-    "terms": 85
+    "components": 61,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 74,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -71,6 +71,7 @@
     "graveyardsfocrdpktv/ethereum-mempool-bot",
     "hiyouga/llamafactory-community",
     "HKUDS/.github",
+    "jku/tuf-demo",
     "kyverno/community",
     "leeyeel/gltfOverview-Chinese",
     "llvm/torch-mlir-release",
@@ -84,6 +85,8 @@
     "ScoopInstaller/.github",
     "sigstore/architecture-docs",
     "sp1-patches/bn",
+    "sp1-patches/RustCrypto-bigint",
+    "sp1-patches/tiny-keccak",
     "web-platform-tests/results-analysis-cache"
   ]
 }

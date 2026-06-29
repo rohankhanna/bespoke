@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 62,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 6,
-    "terms": 40
+    "concepts": 36,
+    "observations": 36,
+    "repos": 5,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "Jaded-Encoding-Thaumaturgy/vs-jetpack",
     "lhj5426/X-AnyLabeling",
     "mesh-iit/cad-libraries",
     "mozilla-ai/otari",
-    "symgraph/BinAssistMCP",
     "wamp-proto/wamp-xbr"
   ]
 }

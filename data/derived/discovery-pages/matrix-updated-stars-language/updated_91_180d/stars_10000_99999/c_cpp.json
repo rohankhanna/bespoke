@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 13,
-    "terms": 85
+    "components": 61,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 14,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "aria2/aria2",
     "bellard/quickjs",
@@ -20,6 +20,7 @@
     "esp8266/Arduino",
     "ffmpegwasm/ffmpeg.wasm",
     "git-up/GitUp",
+    "glfw/glfw",
     "google/leveldb",
     "i3/i3",
     "jart/cosmopolitan",

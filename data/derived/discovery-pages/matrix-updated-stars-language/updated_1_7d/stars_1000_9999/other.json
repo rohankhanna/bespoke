@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 222,
-    "concepts": 169,
-    "observations": 174,
+    "components": 228,
+    "concepts": 158,
+    "observations": 162,
     "repos": 20,
-    "terms": 169
+    "terms": 156
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
+    "andymass/vim-matchup",
     "argmaxinc/argmax-oss-swift",
     "babashka/babashka",
-    "beam-community/elixir-companies",
+    "datalevin/datalevin",
     "dotnet/reactive",
-    "dotnet/Silk.NET",
     "elixir-grpc/grpc",
     "firebase/flutterfire",
     "google-deepmind/tapnet",
     "googleapis/google-auth-library-php",
-    "huggingface/swift-transformers",
     "jenkinsci/docker",
     "kurrent-io/KurrentDB",
     "licensee/licensed",
@@ -33,6 +32,7 @@
     "okd-project/okd",
     "seancorfield/honeysql",
     "standardrb/standard",
-    "swiftlang/swift-syntax"
+    "swiftlang/swift-syntax",
+    "TryGhost/node-sqlite3"
   ]
 }

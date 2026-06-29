@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 22,
-    "terms": 121
+    "components": 87,
+    "concepts": 126,
+    "observations": 126,
+    "repos": 23,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "datawhalechina/happy-llm",
     "datawhalechina/llm-universe",
     "facebookresearch/audiocraft",
+    "facebookresearch/dinov3",
     "fatih/vim-go",
     "github/copilot.vim",
     "google-research/vision_transformer",

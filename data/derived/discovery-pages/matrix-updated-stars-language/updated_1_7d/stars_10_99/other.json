@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 134,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 12,
-    "terms": 51
+    "components": 117,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 9,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "apostrophecms/starter-kit-astro-apollo",
     "bodono/scs-python",
     "crossplane/docs",
-    "JuliaInterop/ObjectiveC.jl",
     "JuliaParallel/Hwloc.jl",
     "jump-dev/Clp.jl",
-    "jump-dev/SCS.jl",
     "lumen-oss/luarocks-tag-release",
     "nipreps/petprep",
-    "nvim-mini/mini.deps",
     "pivotal/credhub-release",
     "processing/processing-website"
   ]

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-28T11:27:53.671162+00:00`
+Generated at: `2026-06-29T06:09:34.790605+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 16
-- components: 44
-- concepts: 16
-- observations: 16
+- repos: 4
+- terms: 20
+- components: 53
+- concepts: 20
+- observations: 20
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [reza-gholizade/k8s-mcp-server](https://github.com/reza-gholizade/k8s-mcp-server) | 167 | 2026-06-22T04:28:21Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [hetznercloud/hcloud-cloud-controller-manager](https://github.com/hetznercloud/hcloud-cloud-controller-manager) | 916 | 2026-06-18T22:05:43Z | Go | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [mudler/LocalRecall](https://github.com/mudler/LocalRecall) | 840 | 2026-06-18T14:28:27Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 925 | 2026-06-15T15:45:49Z | Go | Infrastructure/tooling | 5 | 20 | 5 | 5 |
@@ -37,3 +38,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 925 | 2026-06-15T15:45:49Z | Go | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [hetznercloud/hcloud-cloud-controller-manager](https://github.com/hetznercloud/hcloud-cloud-controller-manager) | 916 | 2026-06-18T22:05:43Z | Go | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [mudler/LocalRecall](https://github.com/mudler/LocalRecall) | 840 | 2026-06-18T14:28:27Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
+| [reza-gholizade/k8s-mcp-server](https://github.com/reza-gholizade/k8s-mcp-server) | 167 | 2026-06-22T04:28:21Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |

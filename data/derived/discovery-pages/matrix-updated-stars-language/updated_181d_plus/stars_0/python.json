@@ -3,7 +3,7 @@
     "components": 180,
     "concepts": 134,
     "observations": 134,
-    "repos": 89,
+    "repos": 90,
     "terms": 134
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "af-74413592/agentscope",
@@ -39,6 +39,7 @@
     "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/All-About-MCP",
     "danielrosehill/better-hashnode-backups",
+    "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Context-Cruncher",
     "danielrosehill/Docs-Grabber",
     "danielrosehill/Feature-Ideas-And-Requests",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1211,
-    "concepts": 263,
-    "observations": 264,
-    "repos": 75,
-    "terms": 260
+    "components": 1266,
+    "concepts": 274,
+    "observations": 275,
+    "repos": 77,
+    "terms": 271
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
+    "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
@@ -77,6 +78,7 @@
     "RichardLitt/generator-standard-readme",
     "RJWadley/stylelint-no-unsupported-browser-features",
     "rstudio/DT",
+    "rtfeldman/node-test-runner",
     "runegan/jsxbin",
     "sindresorhus/env-paths",
     "sindresorhus/multimatch",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 3,
-    "terms": 17
+    "components": 83,
+    "concepts": 42,
+    "observations": 43,
+    "repos": 4,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "ash-rs/ash",
+    "apache/datafusion-ballista",
+    "dmtrKovalenko/fff",
     "evcxr/evcxr",
     "hermit-os/hermit-rs"
   ]

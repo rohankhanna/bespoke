@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 598,
-    "concepts": 1149,
-    "observations": 1149,
-    "repos": 212,
-    "terms": 1137
+    "components": 625,
+    "concepts": 1178,
+    "observations": 1178,
+    "repos": 217,
+    "terms": 1165
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -89,6 +89,7 @@
     "Farama-Foundation/Metaworld",
     "FlagOpen/RoboBrain2.5",
     "google-deepmind/alphageometry",
+    "google-deepmind/bsuite",
     "google-research/text-to-text-transfer-transformer",
     "google/deepvariant",
     "google/fuzzbench",
@@ -140,6 +141,7 @@
     "miolini/autoresearch-macos",
     "mjpost/sacrebleu",
     "ModelTC/LightX2V-Qwen-Image-Lightning",
+    "MontrealCorpusTools/Montreal-Forced-Aligner",
     "mosaicml/composer",
     "mosaicml/llm-foundry",
     "mosaicml/streaming",
@@ -151,6 +153,7 @@
     "nunchaku-ai/nunchaku",
     "NVIDIA-AI-IOT/Lidar_AI_Solution",
     "NVIDIA/ChatRTX",
+    "NVIDIA/flownet2-pytorch",
     "NVlabs/VILA",
     "obsei/obsei",
     "offu/WeRoBot",
@@ -204,6 +207,7 @@
     "TencentCloudADP/youtu-agent",
     "tensorflow/agents",
     "tensorflow/datasets",
+    "Textualize/rich-cli",
     "the-moonwitch/Cozette",
     "The-OpenROAD-Project/OpenLane",
     "themix-project/themix-gui",
@@ -219,6 +223,7 @@
     "waymo-research/waymo-open-dataset",
     "weaviate/elysia",
     "webdataset/webdataset",
+    "wenet-e2e/wenet",
     "WenmuZhou/PytorchOCR",
     "yangyanli/PointCNN",
     "YosysHQ/icestorm",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-06-28T11:27:53.671162+00:00`
+Generated at: `2026-06-29T06:09:34.790605+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 30
-- components: 77
-- concepts: 30
-- observations: 30
+- repos: 2
+- terms: 16
+- components: 27
+- concepts: 16
+- observations: 16
 
 ## Static behavior
 
@@ -26,14 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16612 | 2026-06-28T10:51:43Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15473 | 2026-06-28T08:41:03Z | Rust | Infrastructure/tooling | 6 | 14 | 6 | 6 |
-| [astral-sh/ruff](https://github.com/astral-sh/ruff) | 48244 | 2026-06-27T14:21:56Z | Rust | Infrastructure/tooling | 14 | 50 | 14 | 14 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16616 | 2026-06-28T22:59:27Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15475 | 2026-06-28T13:43:05Z | Rust | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [astral-sh/ruff](https://github.com/astral-sh/ruff) | 48244 | 2026-06-27T14:21:56Z | Rust | Infrastructure/tooling | 14 | 50 | 14 | 14 |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16612 | 2026-06-28T10:51:43Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15473 | 2026-06-28T08:41:03Z | Rust | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16616 | 2026-06-28T22:59:27Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15475 | 2026-06-28T13:43:05Z | Rust | Infrastructure/tooling | 6 | 14 | 6 | 6 |

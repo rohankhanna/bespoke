@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 98,
-    "observations": 99,
-    "repos": 11,
-    "terms": 97
+    "components": 51,
+    "concepts": 108,
+    "observations": 109,
+    "repos": 12,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "alex-shpak/hugo-book",
     "bencheeorg/benchee",
@@ -24,6 +24,7 @@
     "lambdalisue/vim-fern",
     "lightning/bolts",
     "litedb-org/LiteDB",
-    "plotly/plotly.R"
+    "plotly/plotly.R",
+    "preservim/tagbar"
   ]
 }

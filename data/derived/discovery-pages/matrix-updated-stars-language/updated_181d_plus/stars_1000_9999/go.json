@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 384,
-    "concepts": 719,
-    "observations": 719,
-    "repos": 151,
-    "terms": 715
+    "components": 388,
+    "concepts": 725,
+    "observations": 725,
+    "repos": 152,
+    "terms": 721
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
+    "99designs/aws-vault",
     "aarondl/authboss",
     "achannarasappa/ticker",
     "Adminisme/ServerScan",

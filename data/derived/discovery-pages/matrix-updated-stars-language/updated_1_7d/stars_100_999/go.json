@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 3,
-    "terms": 32
+    "components": 7,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 2,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "mintoolkit/mint",
-    "reza-gholizade/k8s-mcp-server",
     "richiejp/VoxInput"
   ]
 }

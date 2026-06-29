@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 31,
-    "concepts": 76,
-    "observations": 76,
+    "concepts": 82,
+    "observations": 82,
     "repos": 23,
-    "terms": 67
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "aidenlab/juicebox-web",
     "appbaseio/reactivesearch-api-docker",
@@ -24,6 +24,7 @@
     "Archerkattri/hunyuan2-plus-plus",
     "Archerkattri/sam3d-plus",
     "Archerkattri/sam3d-plus-plus",
+    "ashvardanian/StringZilla-CLI",
     "Comfy-Org/ComfyUI-Standalone-Environments",
     "elixir-makeup/makeup_c",
     "freesurfer/petsurfer-bids",
@@ -34,7 +35,6 @@
     "moonshine-ai/moonshine-swift",
     "psmux/scoop-psmux",
     "rocq-community/docker-base",
-    "Vodes/muxtools-doc",
-    "xuanji86/ainiee-translate-skill"
+    "Vodes/muxtools-doc"
   ]
 }

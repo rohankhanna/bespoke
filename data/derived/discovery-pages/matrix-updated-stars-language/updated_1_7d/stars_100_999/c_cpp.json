@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 38,
-    "observations": 38,
+    "components": 33,
+    "concepts": 46,
+    "observations": 46,
     "repos": 8,
-    "terms": 37
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "confluentinc/librdkafka",
     "flagos-ai/FlagCX",
+    "gbionics/idyntree",
     "ipsilon/evmone",
     "localai-org/LocalVQE",
     "mudler/parakeet.cpp",
     "ROCm/hipBLAS",
-    "SlicerRt/SlicerRT",
-    "tree-sitter-grammars/tree-sitter-markdown"
+    "SlicerRt/SlicerRT"
   ]
 }

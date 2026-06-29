@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 988,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 56,
-    "terms": 165
+    "components": 1037,
+    "concepts": 166,
+    "observations": 166,
+    "repos": 58,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -39,6 +39,7 @@
     "gr2m/octokit-oauth-app-now-example",
     "hbenl/vscode-mocha-test-adapter",
     "holochain/hc-spin",
+    "holochain/kangaroo-electron",
     "holochain/launcher",
     "HoneyLuka/uBlacklist",
     "hsimpson/vscode-glsllint",
@@ -60,6 +61,7 @@
     "PhoenixIllusion/babylonjs-jolt-physics-plugin",
     "pkgxdev/brewkit",
     "pkgxdev/dev",
+    "pkgxdev/pkgm",
     "pkgxdev/pkgo",
     "privatenumber/is-fs-case-sensitive",
     "SchwarzIT/api-linter-rules",

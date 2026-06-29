@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 787,
-    "concepts": 906,
-    "observations": 912,
-    "repos": 170,
-    "terms": 911
+    "components": 794,
+    "concepts": 903,
+    "observations": 909,
+    "repos": 169,
+    "terms": 907
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "aaaaalexis/obsidian-cupertino",
@@ -41,8 +41,6 @@
     "chrisbra/csv.vim",
     "clj-commons/manifold",
     "clojure/clojurescript",
-    "clojure/core.logic",
-    "clojure/test.check",
     "clux/muslrust",
     "cognitect/transit-format",
     "CommunityToolkit/dotnet",
@@ -81,8 +79,10 @@
     "gjtorikian/html-proofer",
     "Glavin001/atom-beautify",
     "Gonzalo-D-Sales/obsidian-velocity",
+    "google/brax",
     "google/cel-spec",
     "google/gumbo-parser",
+    "google/jsonnet",
     "googleapis/elixir-google-api",
     "gpuweb/gpuweb",
     "grangier/python-goose",
@@ -92,7 +92,6 @@
     "haml/haml",
     "heartcombo/has_scope",
     "hecomi/uLipSync",
-    "hoshsadiq/adblock-nocoin-list",
     "hrsh7th/nvim-cmp",
     "IDEA-Research/Rex-Omni",
     "Intellindust-AI-Lab/DEIMv2",
@@ -124,7 +123,6 @@
     "microsoft/TextWorld",
     "mono/CppSharp",
     "msasanmh/DNSveil",
-    "myclabs/DeepCopy",
     "nanxiaobei/hugo-paper",
     "ndmitchell/hlint",
     "nesquena/rabl",
@@ -183,6 +181,7 @@
     "whitequark/parser",
     "woct0rdho/triton-windows",
     "yonaskolb/Mint",
-    "z-x-yang/Segment-and-Track-Anything"
+    "z-x-yang/Segment-and-Track-Anything",
+    "zarazhangrui/codebase-to-course"
   ]
 }

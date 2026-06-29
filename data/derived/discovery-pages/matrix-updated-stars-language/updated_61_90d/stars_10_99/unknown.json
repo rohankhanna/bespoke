@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 153,
-    "observations": 154,
+    "components": 158,
+    "concepts": 154,
+    "observations": 155,
     "repos": 56,
-    "terms": 152
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -31,7 +31,6 @@
     "crewAIInc/skills",
     "Dexters-Hub/Dexters-Hub",
     "docker/github-builder",
-    "dragonflyoss/community",
     "eigenfoundation/elips",
     "elastic/logstash-docs",
     "flinedev/plankit",
@@ -61,6 +60,7 @@
     "sigstore/community",
     "sigstore/root-signing-staging",
     "simonw/simonwillisonblog-backup",
+    "spiffe/spire-examples",
     "spring-projects/spring-ai-integration-tests",
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",

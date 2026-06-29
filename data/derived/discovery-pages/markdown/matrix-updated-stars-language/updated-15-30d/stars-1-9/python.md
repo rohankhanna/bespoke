@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-06-28T11:27:53.671162+00:00`
+Generated at: `2026-06-29T06:09:34.790605+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
+- repos: 8
 - terms: 52
 - components: 0
 - concepts: 60
@@ -34,7 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Archerkattri/hermit-trellis2-plus-plus](https://github.com/Archerkattri/hermit-trellis2-plus-plus) | 1 | 2026-06-11T16:04:26Z | Python | Unknown | 7 | 0 | 8 | 8 |
 | [Archerkattri/faster-trellis](https://github.com/Archerkattri/faster-trellis) | 1 | 2026-06-11T16:04:21Z | Python | Unknown | 7 | 0 | 8 | 8 |
 | [Archerkattri/fast-trellis2](https://github.com/Archerkattri/fast-trellis2) | 1 | 2026-06-11T16:02:26Z | Python | Unknown | 7 | 0 | 8 | 8 |
-| [xuanji86/ainiee-translate-skill](https://github.com/xuanji86/ainiee-translate-skill) | 2 | 2026-05-29T23:34:38Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -42,7 +41,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Archerkattri/hunyuan2-plus](https://github.com/Archerkattri/hunyuan2-plus) | 2 | 2026-06-11T16:04:32Z | Python | Unknown | 6 | 0 | 7 | 7 |
 | [Archerkattri/hunyuan2-plus-plus](https://github.com/Archerkattri/hunyuan2-plus-plus) | 2 | 2026-06-11T16:04:30Z | Python | Unknown | 6 | 0 | 7 | 7 |
-| [xuanji86/ainiee-translate-skill](https://github.com/xuanji86/ainiee-translate-skill) | 2 | 2026-05-29T23:34:38Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Archerkattri/sam3d-plus](https://github.com/Archerkattri/sam3d-plus) | 1 | 2026-06-11T16:04:39Z | Python | Unknown | 6 | 0 | 7 | 7 |
 | [Archerkattri/sam3d-plus-plus](https://github.com/Archerkattri/sam3d-plus-plus) | 1 | 2026-06-11T16:04:38Z | Python | Unknown | 6 | 0 | 7 | 7 |
 | [Archerkattri/hermit-trellis2](https://github.com/Archerkattri/hermit-trellis2) | 1 | 2026-06-11T16:04:27Z | Python | Unknown | 7 | 0 | 8 | 8 |

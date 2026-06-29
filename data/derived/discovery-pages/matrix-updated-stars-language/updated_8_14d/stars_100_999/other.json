@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 49,
+    "components": 58,
     "concepts": 77,
     "observations": 77,
-    "repos": 9,
+    "repos": 10,
     "terms": 77
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
-    "Blaizzy/mlx-audio-swift",
+    "Artoriuz/ArtCNN",
+    "Deep-Symmetry/beat-link-trigger",
     "emacs-eldev/eldev",
     "fsprojects/FSharp.Data.GraphQL",
     "fw-ai/cookbook",

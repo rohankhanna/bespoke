@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 4,
-    "terms": 33
+    "components": 135,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 3,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "lobehub/lobe-cli-toolbox",
     "MetaCubeX/Yacd-meta",
-    "niivue/niivue",
-    "preactjs/preact-devtools"
+    "niivue/niivue"
   ]
 }

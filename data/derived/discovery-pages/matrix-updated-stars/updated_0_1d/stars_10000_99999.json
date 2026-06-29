@@ -1,30 +1,27 @@
 {
   "counts": {
-    "components": 904,
-    "concepts": 371,
-    "observations": 374,
-    "repos": 28,
-    "terms": 380
+    "components": 804,
+    "concepts": 370,
+    "observations": 373,
+    "repos": 25,
+    "terms": 379
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "567-labs/instructor",
-    "apache/brpc",
-    "astral-sh/ruff",
     "axolotl-ai-cloud/axolotl",
-    "Comfy-Org/ComfyUI-Manager",
     "crossplane/crossplane",
     "Dao-AILab/flash-attention",
-    "deepspeedai/DeepSpeed",
-    "fastapi/fastapi",
-    "gastownhall/beads",
+    "HumanSignal/label-studio",
     "jax-ml/jax",
     "lobehub/lobehub",
+    "modelscope/FunASR",
+    "modelscope/ms-swift",
     "mozilla-ai/llamafile",
     "mudler/LocalAI",
     "mui/material-ui",
@@ -33,12 +30,12 @@
     "OpenHands/OpenHands",
     "QuantumNous/new-api",
     "quickwit-oss/tantivy",
+    "redis/go-redis",
     "rust-lang/rust-analyzer",
     "ruvnet/ruflo",
     "storybookjs/storybook",
     "swiftlang/swift",
     "triton-lang/triton",
-    "ungoogled-software/ungoogled-chromium",
     "upptime/upptime",
     "weaviate/weaviate"
   ]

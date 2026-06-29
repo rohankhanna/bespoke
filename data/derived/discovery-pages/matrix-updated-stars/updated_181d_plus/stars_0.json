@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1413,
-    "concepts": 584,
-    "observations": 586,
-    "repos": 477,
-    "terms": 584
+    "components": 1421,
+    "concepts": 589,
+    "observations": 591,
+    "repos": 480,
+    "terms": 589
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -157,6 +157,7 @@
     "danielrosehill/backup_internet_israel",
     "danielrosehill/batch-claudemd-repo-creator",
     "danielrosehill/better-hashnode-backups",
+    "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Career-Data-AI-Context-Repo",
     "danielrosehill/Careers-Utilities-System-Prompts",
     "danielrosehill/Claude-Code-Context-Feature-Requests",
@@ -201,6 +202,8 @@
     "datafuse-extras/serde-bridge",
     "datafuse-extras/serde-env",
     "datafuse-extras/serfig",
+    "datafuse-extras/tantivy",
+    "datafuse-extras/tantivy-jieba",
     "delta1/rust-jsonrpc-client",
     "depado/bfadmonition",
     "devongovett/html5ever",

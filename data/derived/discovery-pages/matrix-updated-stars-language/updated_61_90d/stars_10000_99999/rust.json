@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1001,
-    "concepts": 594,
-    "observations": 595,
-    "repos": 60,
-    "terms": 586
+    "components": 1141,
+    "concepts": 668,
+    "observations": 669,
+    "repos": 67,
+    "terms": 657
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -23,6 +23,7 @@
     "astral-sh/uv",
     "Automattic/harper",
     "bevyengine/bevy",
+    "biomejs/biome",
     "BloopAI/vibe-kanban",
     "casey/just",
     "cjpais/Handy",
@@ -39,6 +40,7 @@
     "FuelLabs/sway",
     "getzola/zola",
     "gfx-rs/wgpu",
+    "GitoxideLabs/gitoxide",
     "gitui-org/gitui",
     "gleam-lang/gleam",
     "googleworkspace/cli",
@@ -49,15 +51,18 @@
     "hyperium/tonic",
     "iced-rs/iced",
     "jdx/mise",
+    "jj-vcs/jj",
     "launchbadge/sqlx",
     "lsd-rs/lsd",
     "microsoft/windows-rs",
     "nearai/ironclaw",
     "openai/codex",
     "orhun/git-cliff",
+    "PyO3/pyo3",
     "rayon-rs/rayon",
     "rust-lang/cargo",
     "rust-lang/rust-clippy",
+    "RustPython/RustPython",
     "Schniz/fnm",
     "seanmonstar/reqwest",
     "seanmonstar/warp",
@@ -66,6 +71,7 @@
     "sharkdp/fd",
     "Spotifyd/spotifyd",
     "starship/starship",
+    "surrealdb/surrealdb",
     "swc-project/swc",
     "tokio-rs/axum",
     "tokio-rs/tokio",
@@ -73,6 +79,7 @@
     "typst/typst",
     "vercel-labs/agent-browser",
     "web-infra-dev/rspack",
+    "zed-industries/zed",
     "zeroclaw-labs/zeroclaw"
   ]
 }

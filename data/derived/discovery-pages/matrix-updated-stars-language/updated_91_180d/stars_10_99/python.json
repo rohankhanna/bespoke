@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 387,
-    "concepts": 400,
-    "observations": 401,
-    "repos": 137,
-    "terms": 398
+    "components": 404,
+    "concepts": 417,
+    "observations": 418,
+    "repos": 138,
+    "terms": 414
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "2U1/Gemma3-Finetune",
@@ -30,6 +30,7 @@
     "all-the-noises/eval-arena",
     "amaranth-lang/amaranth-stdio",
     "amiable-dev/llm-council",
+    "analyticsinmotion/werpy",
     "andyluo7/autoresearch",
     "AniAggarwal/ecad",
     "antgroup/DeepXTrace",

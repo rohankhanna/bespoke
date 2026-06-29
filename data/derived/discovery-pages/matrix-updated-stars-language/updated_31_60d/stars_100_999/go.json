@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 695,
-    "concepts": 632,
-    "observations": 633,
-    "repos": 74,
-    "terms": 630
+    "components": 556,
+    "concepts": 528,
+    "observations": 529,
+    "repos": 58,
+    "terms": 526
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "andreykaipov/goobs",
-    "apache/dubbo-go-hessian2",
     "apache/iceberg-go",
-    "argoproj-labs/argocd-agent",
     "argoproj-labs/argocd-operator",
-    "Azure/azure-dev",
     "Azure/azure-storage-azcopy",
     "Azure/azure-storage-fuse",
     "Azure/karpenter-provider-azure",
     "betterleaks/betterleaks",
-    "buildpacks/lifecycle",
     "celzero/firestack",
     "charmbracelet/x",
-    "cloudfoundry/cf-deployment",
-    "cloudfoundry/diego-release",
-    "cloudpilot-ai/karpenter-provider-gcp",
-    "cloudwego/eino-ext",
     "cometbft/cometbft",
     "controlplaneio-fluxcd/flux-operator",
     "cosmos/evm",
@@ -41,11 +33,8 @@
     "dgraph-io/dgraph-benchmarks",
     "dydxprotocol/v4-chain",
     "energye/energy",
-    "fnproject/cli",
-    "go-openapi/strfmt",
     "gofiber/contrib",
     "gofrs/flock",
-    "google/oss-rebuild",
     "gookit/cache",
     "gookit/config",
     "gookit/event",
@@ -60,10 +49,7 @@
     "istio/tools",
     "itzg/mc-router",
     "kelos-dev/kelos",
-    "kubernetes-sigs/dra-driver-nvidia-gpu",
-    "kubernetes-sigs/karpenter-provider-cluster-api",
     "kubernetes-sigs/lws",
-    "operator-framework/operator-registry",
     "osmosis-labs/osmosis",
     "pion/interceptor",
     "pion/rtp",
@@ -85,8 +71,6 @@
     "suzuki-shunsuke/pinact",
     "sylabs/singularity",
     "toml-lang/toml-test",
-    "usbarmory/go-boot",
-    "web-infra-dev/rslint",
     "yaml/go-yaml"
   ]
 }

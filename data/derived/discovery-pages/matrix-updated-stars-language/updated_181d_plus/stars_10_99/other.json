@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2200,
-    "concepts": 2052,
-    "observations": 2058,
-    "repos": 878,
-    "terms": 2040
+    "components": 2201,
+    "concepts": 2053,
+    "observations": 2059,
+    "repos": 879,
+    "terms": 2041
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -36,6 +36,7 @@
     "64327069/LVAgent",
     "a115/exmatrix",
     "aaronjensen/eslintd-fix",
+    "aarroyoc/djota",
     "abap-ai/mcp",
     "abaplint/abaplint-sci-client",
     "aburns4/MoTIF",

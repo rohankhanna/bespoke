@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 417,
-    "concepts": 196,
-    "observations": 198,
+    "components": 423,
+    "concepts": 202,
+    "observations": 204,
     "repos": 137,
-    "terms": 198
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -47,7 +47,6 @@
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Backup-Projects-Index",
-    "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Bug-Reports-And-Fixes",
     "danielrosehill/Context-Projects-Index",
     "danielrosehill/Failover-Internet-Israel-Notes",
@@ -72,8 +71,6 @@
     "DataDog/go-cmp",
     "DataDog/opa",
     "datafuse-extras/dtparse",
-    "datafuse-extras/tantivy",
-    "datafuse-extras/tantivy-jieba",
     "devnen/chatterbox-v2",
     "DiligentGraphics/args",
     "DiligentGraphics/glfw",
@@ -81,6 +78,7 @@
     "DiligentGraphics/googletest",
     "DiligentGraphics/json",
     "DiligentGraphics/NuklearUI",
+    "drmingdrmer/display-more",
     "EspressoSystems/commit",
     "EspressoSystems/jellyfish-compat",
     "firstbatchxyz/dkn-protocol",
@@ -130,6 +128,7 @@
     "onomojo/i18n-timezones-js",
     "onomojo/i18n-timezones-rs",
     "openwdl/governance",
+    "Patrick-ring-motive/sval-rhino-gs",
     "petercorke/sphinx-autorun",
     "PetervanLunteren/EcoAssist-metadata",
     "prestodb/presto-dev",
@@ -140,6 +139,7 @@
     "sarlinpe/pybind11-stubgen",
     "sp1-patches/curve25519-dalek",
     "stable-haskell/stack",
+    "sujithpvarghese/bedrock-agent-core-operations-hub",
     "sujithpvarghese/bedrock-full-reconciliation",
     "Systemcluster/tokenizer-bench",
     "typstyle-rs/prettyless",

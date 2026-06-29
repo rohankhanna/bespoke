@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 441,
-    "concepts": 204,
-    "observations": 205,
-    "repos": 18,
-    "terms": 203
+    "components": 275,
+    "concepts": 153,
+    "observations": 154,
+    "repos": 11,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,18 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
-    "dwyl/phoenix-papertrail-demo",
     "ioBroker/plugin-sentry",
-    "kkomelin/isomorphic-dompurify-playgrounds",
     "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
-    "maltsev/html-minifiers-benchmark",
-    "rvagg/js-bitcoin-block",
     "stdlib-js/array-float32",
     "stdlib-js/complex-reviver",
     "stdlib-js/math-base-special-erf",
     "stdlib-js/math-base-special-erfc",
-    "stdlib-js/math-base-special-erfcinv",
     "stdlib-js/math-base-special-erfcx",
-    "stdlib-js/math-base-special-erfinv",
-    "stdlib-js/ndarray-fancy",
-    "travi/octokit-auth-netrc"
+    "stdlib-js/ndarray-fancy"
   ]
 }

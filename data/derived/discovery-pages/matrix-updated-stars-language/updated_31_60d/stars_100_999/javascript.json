@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 734,
-    "concepts": 158,
-    "observations": 159,
-    "repos": 29,
-    "terms": 156
+    "components": 549,
+    "concepts": 114,
+    "observations": 115,
+    "repos": 21,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "all-contributors/app",
     "americanexpress/jest-json-schema",
-    "auth0/node-jwks-rsa",
+    "beve-org/beve",
     "Calcium-Ion/new-api-key-tool",
-    "commitizen/cz-conventional-changelog",
-    "conventional-changelog/releaser-tools",
-    "ember-cli/ember-cli-update",
     "emberjs/ember-test-helpers",
     "facebook/Rapid",
     "firebase/snippets-web",
@@ -30,18 +27,13 @@
     "Kilian/electron-to-chromium",
     "lo-th/phy",
     "mdn/fred",
-    "octokit/graphql-schema",
     "openfl/lime",
     "oss-serverless/serverless",
-    "ruby/setup-ruby",
-    "rvagg/github-webhook-handler",
     "stylelint/stylelint-config-recommended",
-    "sveltejs/dts-buddy",
     "tc39/eshost",
     "usnistgov/h5wasm",
     "validator/grunt-html",
     "vllm-project/recipes",
-    "w3c/webref",
-    "webtorrent/bittorrent-protocol"
+    "w3c/webref"
   ]
 }

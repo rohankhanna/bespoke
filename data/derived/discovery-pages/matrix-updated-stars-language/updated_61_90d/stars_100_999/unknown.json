@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 91,
-    "concepts": 265,
-    "observations": 266,
-    "repos": 71,
-    "terms": 264
+    "components": 112,
+    "concepts": 282,
+    "observations": 283,
+    "repos": 75,
+    "terms": 281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -47,11 +47,15 @@
     "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",
     "eudk/awesome-ai-tools",
+    "fluxcd/flux2-multi-tenancy",
+    "forcedotcom/cli",
     "gautamkrishnar/gautamkrishnar",
     "ghimiresunil/Top-AI-Tools",
     "github/codeql-cli-binaries",
+    "github/copilot-language-server-release",
     "google/agents-cli",
     "googlefonts/RobotoMono",
+    "graalvm/graalvm-ce-dev-builds",
     "grpc/proposal",
     "ietf-tools/.github",
     "integrations/microsoft-teams",

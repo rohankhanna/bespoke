@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 27049,
-    "concepts": 23294,
-    "observations": 23370,
-    "repos": 5740,
-    "terms": 23225
+    "concepts": 23286,
+    "observations": 23362,
+    "repos": 5739,
+    "terms": 23215
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -3416,7 +3416,6 @@
     "layr-labs/eigenlayer-middleware",
     "layumi/Image-Text-Embedding",
     "layumi/Pedestrian_Alignment",
-    "layumi/Person-reID_GAN",
     "lazychanger/docker-kunlun-mirror",
     "LazyVim/LazyVim",
     "LazyVim/starter",

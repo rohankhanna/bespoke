@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 393,
-    "concepts": 582,
-    "observations": 584,
+    "components": 403,
+    "concepts": 593,
+    "observations": 595,
     "repos": 130,
-    "terms": 576
+    "terms": 587
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "AmusementClub/vs-mlrt",
+    "amzn/amzn-drivers",
     "anacrolix/go-libutp",
     "angr/vex",
     "apache/rocketmq-client-cpp",
@@ -67,7 +68,6 @@
     "Imagick/imagick",
     "intel/gmmlib",
     "intel/isa-l_crypto",
-    "intel/torch-ccl",
     "InteractiveComputerGraphics/TriangleMeshDistance",
     "isciences/exactextract",
     "iwongu/sqlite3pp",
@@ -83,7 +83,6 @@
     "Kong/ngx_wasm_module",
     "lastz/lastz",
     "lexxmark/winflexbison",
-    "lh3/yak",
     "libxsmm/libxsmm",
     "littlefs-project/littlefs-fuse",
     "lualanes/lanes",
@@ -133,6 +132,7 @@
     "TkTech/can_ada",
     "Tomas-M/iotop",
     "usnistgov/trec_eval",
+    "uxlfoundation/oneMath",
     "ValveSoftware/Fossilize",
     "vcflib/vcflib",
     "veorq/SipHash",

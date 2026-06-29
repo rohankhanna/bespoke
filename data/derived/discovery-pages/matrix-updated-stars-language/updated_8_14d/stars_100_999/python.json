@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 7,
-    "terms": 28
+    "components": 49,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 6,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "ANTsX/ANTsPy",
     "ANTsX/ANTsPyNet",
     "googlefonts/roboto-3-classic",
-    "machinewrapped/llm-subtrans",
+    "NVIDIA-NeMo/Automodel",
     "PyCQA/eradicate",
-    "scientific-python/spin",
     "unum-bio/USearchMolecules"
   ]
 }

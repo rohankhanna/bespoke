@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 47,
-    "terms": 93
+    "components": 54,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 48,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-28T11:27:53.671162+00:00",
+  "generated_at": "2026-06-29T06:09:34.790605+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -34,6 +34,7 @@
     "conda-forge/cfep",
     "cta-wave/WMAS",
     "datajuicer/data-juicer-hub",
+    "dragonflyoss/community",
     "dredozubov/prd-generator",
     "ellie/atuin",
     "ethereum/beacon-metrics",
