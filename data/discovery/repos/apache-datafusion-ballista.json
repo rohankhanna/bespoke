@@ -401,7 +401,7 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "taiki-e/install-action@682e7d9e49c5e653d371fc6adbda67653461378a",
+      "component": "taiki-e/install-action@9bcaee1dcae34154180f412e2fa69355a7cda9f6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -657,7 +657,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "taiki-e/install-action@682e7d9e49c5e653d371fc6adbda67653461378a",
+      "target": "taiki-e/install-action@9bcaee1dcae34154180f412e2fa69355a7cda9f6",
       "target_type": "component"
     },
     {
@@ -724,7 +724,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T01:07:20.331905+00:00",
+  "fetched_at": "2026-06-29T08:45:24.675259+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -776,7 +776,7 @@
     "full_name": "apache/datafusion-ballista",
     "html_url": "https://github.com/apache/datafusion-ballista",
     "language": "Rust",
-    "pushed_at": "2026-06-27T16:32:15Z",
+    "pushed_at": "2026-06-29T06:29:49Z",
     "stargazers_count": 2077,
     "topics": [
       "arrow",
@@ -789,7 +789,7 @@
       "rust",
       "sql"
     ],
-    "updated_at": "2026-06-28T11:49:21Z"
+    "updated_at": "2026-06-29T06:29:52Z"
   },
   "repo_links": [],
   "terms": [

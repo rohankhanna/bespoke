@@ -626,7 +626,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T01:20:39.202994+00:00",
+  "fetched_at": "2026-06-29T09:09:15.925067+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -679,7 +679,7 @@
     "html_url": "https://github.com/crossplane/crossplane",
     "language": "Go",
     "pushed_at": "2026-06-28T09:18:16Z",
-    "stargazers_count": 11817,
+    "stargazers_count": 11820,
     "topics": [
       "cloud-computing",
       "cloud-management",
@@ -693,7 +693,7 @@
       "multicloud",
       "serverless"
     ],
-    "updated_at": "2026-06-28T18:33:59Z"
+    "updated_at": "2026-06-29T08:32:38Z"
   },
   "repo_links": [],
   "terms": [

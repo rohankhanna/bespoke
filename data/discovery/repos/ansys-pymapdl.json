@@ -636,7 +636,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T01:26:52.088816+00:00",
+  "fetched_at": "2026-06-29T09:16:45.632447+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -689,7 +689,7 @@
     "html_url": "https://github.com/ansys/pymapdl",
     "language": "Python",
     "pushed_at": "2026-06-28T21:26:56Z",
-    "stargazers_count": 498,
+    "stargazers_count": 499,
     "topics": [
       "ansys",
       "apdl",
@@ -702,7 +702,7 @@
       "python",
       "structural-mechanics"
     ],
-    "updated_at": "2026-06-25T10:03:16Z"
+    "updated_at": "2026-06-29T03:22:14Z"
   },
   "repo_links": [],
   "terms": [

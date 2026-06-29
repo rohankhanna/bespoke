@@ -235,7 +235,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "taiki-e/install-action@682e7d9e49c5e653d371fc6adbda67653461378a",
+      "target": "taiki-e/install-action@9bcaee1dcae34154180f412e2fa69355a7cda9f6",
       "target_type": "component"
     },
     {
@@ -302,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-29T00:48:57.028249+00:00",
+  "generated_at": "2026-06-29T07:57:00.643227+00:00",
   "source_repo": "apache/datafusion-ballista"
 }

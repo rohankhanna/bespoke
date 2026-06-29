@@ -1,7 +1,7 @@
 {
   "component": "EmbarkStudios/cargo-deny-action@a531616d8ce3b9177443e48a1159bc945a099823",
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
-  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
+  "last_seen_at": "2026-06-29T07:57:00.643227+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

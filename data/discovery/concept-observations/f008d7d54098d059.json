@@ -84,7 +84,7 @@
   "normalized_form": "build-llama.cpp-runtime-binaries",
   "observation_id": "f008d7d54098d059",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T00:48:57.028249+00:00",
+  "observed_at": "2026-06-29T07:57:00.643227+00:00",
   "observed_text": "Build llama.cpp runtime binaries",
   "source_context_snippet": "Build llama.cpp runtime binaries",
   "source_file": ".github/workflows/build-llamacpp-binaries.yml",

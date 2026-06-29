@@ -904,11 +904,17 @@
       "observed_at": "2026-06-29T00:48:57.028249+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T07:57:00.643227+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T00:48:57.028249+00:00",
+  "last_seen_at": "2026-06-29T07:57:00.643227+00:00",
   "lexical_providers": [
     "datamuse"
   ],

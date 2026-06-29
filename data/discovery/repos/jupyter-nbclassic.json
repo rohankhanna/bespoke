@@ -798,7 +798,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T23:14:40.662855+00:00",
+  "fetched_at": "2026-06-29T09:43:20.696536+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -850,7 +850,7 @@
     "full_name": "jupyter/nbclassic",
     "html_url": "https://github.com/jupyter/nbclassic",
     "language": "JavaScript",
-    "pushed_at": "2026-05-23T12:22:36Z",
+    "pushed_at": "2026-06-29T00:10:04Z",
     "stargazers_count": 111,
     "topics": [
       "jupyter",

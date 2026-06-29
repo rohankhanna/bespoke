@@ -357,7 +357,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T22:58:34.479461+00:00",
+  "fetched_at": "2026-06-29T09:31:32.551447+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -401,7 +401,7 @@
     "full_name": "microsoft/aspire-samples",
     "html_url": "https://github.com/microsoft/aspire-samples",
     "language": "C#",
-    "pushed_at": "2026-06-27T11:19:17Z",
+    "pushed_at": "2026-06-29T06:54:08Z",
     "stargazers_count": 1186,
     "topics": [
       "apphost",
@@ -424,7 +424,7 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-06-26T06:23:50Z"
+    "updated_at": "2026-06-29T06:54:12Z"
   },
   "repo_links": [
     {

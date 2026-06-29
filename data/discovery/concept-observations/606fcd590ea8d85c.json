@@ -84,7 +84,7 @@
   "normalized_form": "auto-assign-reviewers",
   "observation_id": "606fcd590ea8d85c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T18:32:33.877156+00:00",
+  "observed_at": "2026-06-29T07:57:00.643227+00:00",
   "observed_text": "Auto Assign Reviewers",
   "source_context_snippet": "Auto Assign Reviewers",
   "source_file": ".github/workflows/assign-reviewers.yml",

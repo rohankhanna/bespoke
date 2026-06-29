@@ -1306,11 +1306,23 @@
       "observed_at": "2026-06-28T18:32:33.877156+00:00",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T07:57:00.643227+00:00",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T07:57:00.643227+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "famiu/feline.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
+  "last_seen_at": "2026-06-29T07:57:00.643227+00:00",
   "lexical_providers": [
     "datamuse"
   ],

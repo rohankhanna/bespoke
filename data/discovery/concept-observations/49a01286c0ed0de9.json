@@ -48,7 +48,7 @@
   "normalized_form": "amd-mi300-ci",
   "observation_id": "49a01286c0ed0de9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T00:48:57.028249+00:00",
+  "observed_at": "2026-06-29T07:57:00.643227+00:00",
   "observed_text": "amd-mi300-ci",
   "source_context_snippet": "amd-mi300-ci",
   "source_file": ".github/workflows/amd-mi300.yml",

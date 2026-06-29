@@ -3599,11 +3599,41 @@
       "observed_at": "2026-06-29T00:48:57.028249+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T07:57:00.643227+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T07:57:00.643227+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "f3liz-casa/noraneko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T07:57:00.643227+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T07:57:00.643227+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T07:57:00.643227+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "vuejs/language-tools"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T00:48:57.028249+00:00",
+  "last_seen_at": "2026-06-29T07:57:00.643227+00:00",
   "lexical_providers": [
     "datamuse"
   ],

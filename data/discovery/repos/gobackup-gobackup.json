@@ -380,7 +380,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T01:33:27.827648+00:00",
+  "fetched_at": "2026-06-29T09:23:59.891665+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -428,7 +428,7 @@
     "full_name": "gobackup/gobackup",
     "html_url": "https://github.com/gobackup/gobackup",
     "language": "Go",
-    "pushed_at": "2026-06-13T03:39:57Z",
+    "pushed_at": "2026-06-29T04:21:14Z",
     "stargazers_count": 2702,
     "topics": [
       "backup",

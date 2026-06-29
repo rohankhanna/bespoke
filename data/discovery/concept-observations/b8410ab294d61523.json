@@ -84,7 +84,7 @@
   "normalized_form": "promote-npm-dist-tag",
   "observation_id": "b8410ab294d61523",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T00:48:57.028249+00:00",
+  "observed_at": "2026-06-29T07:57:00.643227+00:00",
   "observed_text": "Promote npm Dist Tag",
   "source_context_snippet": "Promote npm Dist Tag",
   "source_file": ".github/workflows/npm-promote.yml",
