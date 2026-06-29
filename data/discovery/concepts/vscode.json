@@ -4104,11 +4104,35 @@
       "observed_at": "2026-06-29T13:45:13.658195+00:00",
       "source_file": null,
       "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "miguelsolorio/vscode-fluent-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T13:45:13.658195+00:00",
+  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
   "lexical_providers": [
     "datamuse"
   ],

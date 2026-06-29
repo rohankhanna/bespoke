@@ -634,11 +634,17 @@
       "observed_at": "2026-06-29T13:45:13.658195+00:00",
       "source_file": ".github/workflows/macos-installer.yml",
       "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": ".github/workflows/macos-installer.yml",
+      "source_repo": "crc-org/crc"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T13:45:13.658195+00:00",
+  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
   "lexical_providers": [
     "datamuse"
   ],

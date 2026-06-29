@@ -227,7 +227,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-06-29T15:02:21.079990+00:00",
+  "fetched_at": "2026-06-29T23:22:31.004708+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -251,7 +251,7 @@
     "full_name": "alloy-rs/evm",
     "html_url": "https://github.com/alloy-rs/evm",
     "language": "Rust",
-    "pushed_at": "2026-06-29T13:47:43Z",
+    "pushed_at": "2026-06-29T16:51:04Z",
     "stargazers_count": 81,
     "topics": [],
     "updated_at": "2026-06-29T12:19:00Z"

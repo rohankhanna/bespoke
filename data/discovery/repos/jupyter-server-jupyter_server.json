@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:05:25.088414+00:00",
+  "fetched_at": "2026-06-29T23:26:42.971203+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -597,7 +597,7 @@
     "full_name": "jupyter-server/jupyter_server",
     "html_url": "https://github.com/jupyter-server/jupyter_server",
     "language": "Python",
-    "pushed_at": "2026-06-22T20:32:47Z",
+    "pushed_at": "2026-06-29T20:32:44Z",
     "stargazers_count": 563,
     "topics": [
       "jupyter",

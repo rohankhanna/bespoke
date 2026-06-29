@@ -32,6 +32,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "isl-org/Open3D",
+      "target": "actions/attest@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D",
       "target": "actions/upload-artifact@v4",
       "target_type": "component"
     },
@@ -61,6 +68,13 @@
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "isl-org/Open3D",
       "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "isl-org/Open3D",
+      "target": "actions/attest@v4",
       "target_type": "component"
     },
     {
@@ -130,6 +144,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ubuntu-cuda.yml",
       "source_repo": "isl-org/Open3D",
+      "target": "actions/attest@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-cuda.yml",
+      "source_repo": "isl-org/Open3D",
       "target": "actions/upload-artifact@v4",
       "target_type": "component"
     },
@@ -151,6 +172,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ubuntu-openblas.yml",
       "source_repo": "isl-org/Open3D",
+      "target": "actions/attest@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-openblas.yml",
+      "source_repo": "isl-org/Open3D",
       "target": "actions/upload-artifact@v4",
       "target_type": "component"
     },
@@ -166,6 +194,13 @@
       "source_file": ".github/workflows/ubuntu-sycl.yml",
       "source_repo": "isl-org/Open3D",
       "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-sycl.yml",
+      "source_repo": "isl-org/Open3D",
+      "target": "actions/attest@v4",
       "target_type": "component"
     },
     {
@@ -295,6 +330,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-29T13:45:13.658195+00:00",
+  "generated_at": "2026-06-29T18:49:06.046656+00:00",
   "source_repo": "isl-org/Open3D"
 }

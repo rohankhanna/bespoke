@@ -317,7 +317,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T14:14:34.728907+00:00",
+  "fetched_at": "2026-06-29T22:40:17.272016+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -337,7 +337,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 1843
+      "size": 2563
     },
     {
       "path": ".github/workflows/pre-commit.yaml",
@@ -361,10 +361,10 @@
     "full_name": "Dao-AILab/flash-attention",
     "html_url": "https://github.com/Dao-AILab/flash-attention",
     "language": "Python",
-    "pushed_at": "2026-06-29T00:37:02Z",
-    "stargazers_count": 24296,
+    "pushed_at": "2026-06-29T22:38:12Z",
+    "stargazers_count": 24300,
     "topics": [],
-    "updated_at": "2026-06-29T12:53:46Z"
+    "updated_at": "2026-06-29T22:38:20Z"
   },
   "repo_links": [
     {

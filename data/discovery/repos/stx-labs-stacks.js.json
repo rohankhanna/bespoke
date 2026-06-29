@@ -557,7 +557,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:15:16.463366+00:00",
+  "fetched_at": "2026-06-29T23:43:19.281631+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -573,7 +573,7 @@
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 10522
+      "size": 11027
     },
     {
       "path": ".github/workflows/pull-request.yml",
@@ -597,10 +597,10 @@
     "full_name": "stx-labs/stacks.js",
     "html_url": "https://github.com/stx-labs/stacks.js",
     "language": "TypeScript",
-    "pushed_at": "2026-06-23T16:21:34Z",
+    "pushed_at": "2026-06-29T16:10:47Z",
     "stargazers_count": 976,
     "topics": [],
-    "updated_at": "2026-06-29T05:05:49Z"
+    "updated_at": "2026-06-29T16:10:50Z"
   },
   "repo_links": [
     {

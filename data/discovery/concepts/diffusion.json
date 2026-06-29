@@ -4752,11 +4752,53 @@
       "observed_at": "2026-06-29T13:45:13.658195+00:00",
       "source_file": null,
       "source_repo": "PlayVoice/whisper-vits-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-T"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-DiT-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/VisionReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/whisper-vits-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T13:45:13.658195+00:00",
+  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
   "lexical_providers": [
     "datamuse"
   ],

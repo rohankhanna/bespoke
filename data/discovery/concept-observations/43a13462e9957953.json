@@ -84,7 +84,7 @@
   "normalized_form": "build-and-push-docker-tpu-images",
   "observation_id": "43a13462e9957953",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T13:45:13.658195+00:00",
+  "observed_at": "2026-06-29T18:49:06.046656+00:00",
   "observed_text": "Build and Push Docker TPU Images",
   "source_context_snippet": "Build and Push Docker TPU Images",
   "source_file": ".github/workflows/docker-base-image.yaml",

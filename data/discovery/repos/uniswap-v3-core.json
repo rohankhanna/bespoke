@@ -488,7 +488,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:02:48.637046+00:00",
+  "fetched_at": "2026-06-29T23:23:09.412086+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -525,14 +525,14 @@
     "html_url": "https://github.com/Uniswap/v3-core",
     "language": "TypeScript",
     "pushed_at": "2026-04-30T16:18:51Z",
-    "stargazers_count": 5010,
+    "stargazers_count": 5009,
     "topics": [
       "automated-market-maker",
       "core",
       "ethereum",
       "smart-contracts"
     ],
-    "updated_at": "2026-06-27T09:27:41Z"
+    "updated_at": "2026-06-29T19:55:56Z"
   },
   "repo_links": [
     {

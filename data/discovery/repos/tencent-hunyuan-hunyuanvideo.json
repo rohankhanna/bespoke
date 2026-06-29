@@ -12,6 +12,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "target": "liewfeng/teacache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
       "target": "dashtoon/hunyuan-video-keyframe-control-lora",
       "target_type": "repository"
     },
@@ -20,13 +27,6 @@
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/HunyuanVideo",
       "target": "dvlab-research/jenga",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
-      "target": "hellozicky/navicache",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T14:15:27.456612+00:00",
+  "fetched_at": "2026-06-29T22:41:14.436990+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,7 +78,7 @@
       "diffusion-transformer",
       "video-generation"
     ],
-    "updated_at": "2026-06-29T12:29:07Z"
+    "updated_at": "2026-06-29T22:08:53Z"
   },
   "repo_links": [
     {
@@ -98,7 +98,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hellozicky/navicache",
+      "full_name": "liewfeng/teacache",
       "source_file": "README.md"
     }
   ],

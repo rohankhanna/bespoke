@@ -345,7 +345,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T14:49:20.881197+00:00",
+  "fetched_at": "2026-06-29T23:04:16.275242+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -353,7 +353,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 22828
+      "size": 23109
     },
     {
       "path": ".github/workflows/README.md",
@@ -397,10 +397,10 @@
     "full_name": "ogx-ai/ogx",
     "html_url": "https://github.com/ogx-ai/ogx",
     "language": "Python",
-    "pushed_at": "2026-06-29T14:49:13Z",
+    "pushed_at": "2026-06-29T20:40:42Z",
     "stargazers_count": 8417,
     "topics": [],
-    "updated_at": "2026-06-29T11:06:10Z"
+    "updated_at": "2026-06-29T19:13:02Z"
   },
   "repo_links": [],
   "terms": [

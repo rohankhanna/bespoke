@@ -149,6 +149,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/business-pods-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/business-pods-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/business-pods-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/business-pods-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "business-pods-smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ruvnet/ruflo",
       "target": "actions/checkout@v4",
@@ -281,34 +309,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "dtolnay/rust-toolchain@stable",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/cache@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/federation-peer-rust.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "federation-peer-rust",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
@@ -414,6 +414,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-29T13:45:13.658195+00:00",
+  "generated_at": "2026-06-29T18:49:06.046656+00:00",
   "source_repo": "ruvnet/ruflo"
 }

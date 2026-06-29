@@ -465,7 +465,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T09:36:50.780995+00:00",
+  "fetched_at": "2026-06-29T23:17:34.200168+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -524,7 +524,7 @@
       "cargo-subcommand",
       "rust"
     ],
-    "updated_at": "2026-06-22T08:32:34Z"
+    "updated_at": "2026-06-29T11:01:21Z"
   },
   "repo_links": [
     {

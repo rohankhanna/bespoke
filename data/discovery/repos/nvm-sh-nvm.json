@@ -151,12 +151,7 @@
       "source_file": ".github/workflows/nvm-install-test.yml"
     },
     {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rebase.yml"
-    },
-    {
-      "component": "ljharb/rebase@master",
+      "component": "ljharb/actions/.github/workflows/rebase.yml@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rebase.yml"
     },
@@ -377,14 +372,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rebase.yml",
       "source_repo": "nvm-sh/nvm",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rebase.yml",
-      "source_repo": "nvm-sh/nvm",
-      "target": "ljharb/rebase@master",
+      "target": "ljharb/actions/.github/workflows/rebase.yml@main",
       "target_type": "component"
     },
     {
@@ -493,11 +481,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:06:11.642170+00:00",
+  "fetched_at": "2026-06-29T23:27:53.857674+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 52317
+      "size": 53021
     },
     {
       "path": "Dockerfile",
@@ -521,7 +509,7 @@
     },
     {
       "path": ".github/workflows/nodejs-org.yml",
-      "size": 6104
+      "size": 6205
     },
     {
       "path": ".github/workflows/nvm-install-test.yml",
@@ -529,7 +517,7 @@
     },
     {
       "path": ".github/workflows/rebase.yml",
-      "size": 288
+      "size": 315
     },
     {
       "path": ".github/workflows/release.yml",
@@ -545,8 +533,8 @@
     "full_name": "nvm-sh/nvm",
     "html_url": "https://github.com/nvm-sh/nvm",
     "language": "Shell",
-    "pushed_at": "2026-06-15T03:56:24Z",
-    "stargazers_count": 93979,
+    "pushed_at": "2026-06-29T22:33:40Z",
+    "stargazers_count": 93981,
     "topics": [
       "bash",
       "install",
@@ -562,7 +550,7 @@
       "version-manager",
       "zsh"
     ],
-    "updated_at": "2026-06-29T15:04:51Z"
+    "updated_at": "2026-06-29T22:34:11Z"
   },
   "repo_links": [
     {

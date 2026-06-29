@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:02:15.119843+00:00",
+  "fetched_at": "2026-06-29T23:22:21.018551+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -111,7 +111,7 @@
     "html_url": "https://github.com/ipsilon/evmc",
     "language": "C",
     "pushed_at": "2026-04-07T21:15:27Z",
-    "stargazers_count": 382,
+    "stargazers_count": 381,
     "topics": [
       "c",
       "cpp",
@@ -125,7 +125,7 @@
       "rust",
       "wasm"
     ],
-    "updated_at": "2026-05-23T22:46:00Z"
+    "updated_at": "2026-06-29T19:55:29Z"
   },
   "repo_links": [
     {

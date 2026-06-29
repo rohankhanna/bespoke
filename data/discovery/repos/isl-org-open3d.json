@@ -16,6 +16,11 @@
       "source_file": ".github/workflows/documentation.yml"
     },
     {
+      "component": "actions/attest@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
       "component": "actions/upload-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/documentation.yml"
@@ -36,7 +41,17 @@
       "source_file": ".github/workflows/macos.yml"
     },
     {
+      "component": "actions/attest@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
       "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/attest@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yml"
     },
@@ -62,6 +77,11 @@
     },
     {
       "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/attest@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yml"
     },
@@ -116,6 +136,11 @@
       "source_file": ".github/workflows/ubuntu-cuda.yml"
     },
     {
+      "component": "actions/attest@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-cuda.yml"
+    },
+    {
       "component": "actions/upload-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ubuntu-cuda.yml"
@@ -131,12 +156,22 @@
       "source_file": ".github/workflows/ubuntu-openblas.yml"
     },
     {
+      "component": "actions/attest@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-openblas.yml"
+    },
+    {
       "component": "actions/upload-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ubuntu-openblas.yml"
     },
     {
       "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-sycl.yml"
+    },
+    {
+      "component": "actions/attest@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ubuntu-sycl.yml"
     },
@@ -189,6 +224,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "isl-org/Open3D",
+      "target": "actions/attest@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D",
       "target": "actions/upload-artifact@v4",
       "target_type": "component"
     },
@@ -218,6 +260,13 @@
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "isl-org/Open3D",
       "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "isl-org/Open3D",
+      "target": "actions/attest@v4",
       "target_type": "component"
     },
     {
@@ -287,6 +336,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ubuntu-cuda.yml",
       "source_repo": "isl-org/Open3D",
+      "target": "actions/attest@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-cuda.yml",
+      "source_repo": "isl-org/Open3D",
       "target": "actions/upload-artifact@v4",
       "target_type": "component"
     },
@@ -308,6 +364,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ubuntu-openblas.yml",
       "source_repo": "isl-org/Open3D",
+      "target": "actions/attest@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-openblas.yml",
+      "source_repo": "isl-org/Open3D",
       "target": "actions/upload-artifact@v4",
       "target_type": "component"
     },
@@ -323,6 +386,13 @@
       "source_file": ".github/workflows/ubuntu-sycl.yml",
       "source_repo": "isl-org/Open3D",
       "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-sycl.yml",
+      "source_repo": "isl-org/Open3D",
+      "target": "actions/attest@v4",
       "target_type": "component"
     },
     {
@@ -452,11 +522,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:17:30.046061+00:00",
+  "fetched_at": "2026-06-29T22:12:22.102145+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6279
+      "size": 6671
     },
     {
       "path": ".github/workflows/README.md",
@@ -468,7 +538,7 @@
     },
     {
       "path": ".github/workflows/documentation.yml",
-      "size": 2127
+      "size": 2378
     },
     {
       "path": ".github/workflows/gcs.lifecycle.json",
@@ -476,7 +546,7 @@
     },
     {
       "path": ".github/workflows/macos.yml",
-      "size": 9609
+      "size": 10365
     },
     {
       "path": ".github/workflows/style.yml",
@@ -484,15 +554,15 @@
     },
     {
       "path": ".github/workflows/ubuntu-cuda.yml",
-      "size": 6892
+      "size": 7183
     },
     {
       "path": ".github/workflows/ubuntu-openblas.yml",
-      "size": 2897
+      "size": 3136
     },
     {
       "path": ".github/workflows/ubuntu-sycl.yml",
-      "size": 2721
+      "size": 3075
     }
   ],
   "related_repositories": [],
@@ -504,7 +574,7 @@
     "full_name": "isl-org/Open3D",
     "html_url": "https://github.com/isl-org/Open3D",
     "language": "C++",
-    "pushed_at": "2026-06-26T19:20:34Z",
+    "pushed_at": "2026-06-29T17:50:12Z",
     "stargazers_count": 13735,
     "topics": [
       "3d",
@@ -528,7 +598,7 @@
       "tensorflow",
       "visualization"
     ],
-    "updated_at": "2026-06-29T12:25:47Z"
+    "updated_at": "2026-06-29T17:17:19Z"
   },
   "repo_links": [],
   "terms": [

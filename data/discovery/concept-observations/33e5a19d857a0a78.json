@@ -84,7 +84,7 @@
   "normalized_form": "oss-issue-tagger",
   "observation_id": "33e5a19d857a0a78",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T13:45:13.658195+00:00",
+  "observed_at": "2026-06-29T18:49:06.046656+00:00",
   "observed_text": "OSS Issue Tagger",
   "source_context_snippet": "OSS Issue Tagger",
   "source_file": ".github/workflows/oss-issue-tagger.yml",

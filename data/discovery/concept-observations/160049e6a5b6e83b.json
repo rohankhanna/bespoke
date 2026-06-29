@@ -84,7 +84,7 @@
   "normalized_form": "ensure-triage-label-is-present",
   "observation_id": "160049e6a5b6e83b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T13:45:13.658195+00:00",
+  "observed_at": "2026-06-29T18:49:06.046656+00:00",
   "observed_text": "Ensure triage label is present",
   "source_context_snippet": "Ensure triage label is present",
   "source_file": ".github/workflows/ensure-triage-label.yml",

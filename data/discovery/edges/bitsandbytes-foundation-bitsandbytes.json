@@ -32,7 +32,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -60,7 +60,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -102,7 +102,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
       "target_type": "component"
     },
     {
@@ -137,7 +137,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -225,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-29T13:45:13.658195+00:00",
+  "generated_at": "2026-06-29T18:49:06.046656+00:00",
   "source_repo": "bitsandbytes-foundation/bitsandbytes"
 }

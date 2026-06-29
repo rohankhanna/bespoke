@@ -2584,11 +2584,29 @@
       "observed_at": "2026-06-29T13:45:13.658195+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T13:45:13.658195+00:00",
+  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
   "lexical_providers": [
     "datamuse"
   ],

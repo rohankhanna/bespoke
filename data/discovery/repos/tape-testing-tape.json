@@ -924,7 +924,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T14:48:44.987244+00:00",
+  "fetched_at": "2026-06-29T23:03:25.470959+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -965,9 +965,9 @@
     "html_url": "https://github.com/tape-testing/tape",
     "language": "JavaScript",
     "pushed_at": "2026-06-18T18:06:06Z",
-    "stargazers_count": 5803,
+    "stargazers_count": 5802,
     "topics": [],
-    "updated_at": "2026-06-27T16:15:58Z"
+    "updated_at": "2026-06-29T20:48:10Z"
   },
   "repo_links": [],
   "terms": [

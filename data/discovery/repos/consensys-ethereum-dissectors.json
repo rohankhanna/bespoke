@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:13:43.484623+00:00",
+  "fetched_at": "2026-06-29T23:40:18.716858+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -61,7 +61,7 @@
     "html_url": "https://github.com/Consensys/ethereum-dissectors",
     "language": "C",
     "pushed_at": "2022-01-17T19:30:00Z",
-    "stargazers_count": 119,
+    "stargazers_count": 118,
     "topics": [
       "c",
       "devp2p",
@@ -72,7 +72,7 @@
       "udp",
       "wireshark"
     ],
-    "updated_at": "2026-05-08T20:05:17Z"
+    "updated_at": "2026-06-29T19:55:41Z"
   },
   "repo_links": [
     {

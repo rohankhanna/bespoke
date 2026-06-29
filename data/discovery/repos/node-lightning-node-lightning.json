@@ -385,7 +385,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:13:49.029738+00:00",
+  "fetched_at": "2026-06-29T23:40:29.668726+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -410,7 +410,7 @@
     "html_url": "https://github.com/node-lightning/node-lightning",
     "language": "TypeScript",
     "pushed_at": "2023-11-27T13:39:17Z",
-    "stargazers_count": 138,
+    "stargazers_count": 137,
     "topics": [
       "bitcoin",
       "bitcoin-lightning-network",
@@ -420,7 +420,7 @@
       "lightning-network",
       "noise-protocol"
     ],
-    "updated_at": "2026-06-14T05:45:26Z"
+    "updated_at": "2026-06-29T21:15:19Z"
   },
   "repo_links": [
     {

@@ -417,7 +417,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:06:16.919131+00:00",
+  "fetched_at": "2026-06-29T23:28:03.369872+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -450,13 +450,13 @@
     "html_url": "https://github.com/react/create-react-app",
     "language": "JavaScript",
     "pushed_at": "2025-02-15T01:32:11Z",
-    "stargazers_count": 103315,
+    "stargazers_count": 103314,
     "topics": [
       "build-tools",
       "react",
       "zero-configuration"
     ],
-    "updated_at": "2026-06-29T12:23:19Z"
+    "updated_at": "2026-06-29T20:50:39Z"
   },
   "repo_links": [
     {

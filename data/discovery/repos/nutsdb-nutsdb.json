@@ -241,7 +241,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:07:16.000615+00:00",
+  "fetched_at": "2026-06-29T23:29:19.770190+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -278,7 +278,7 @@
     "html_url": "https://github.com/nutsdb/nutsdb",
     "language": "Go",
     "pushed_at": "2026-06-18T05:15:36Z",
-    "stargazers_count": 3571,
+    "stargazers_count": 3570,
     "topics": [
       "data-structures",
       "database",
@@ -289,7 +289,7 @@
       "nutsdb",
       "supports-transactions"
     ],
-    "updated_at": "2026-06-28T13:33:30Z"
+    "updated_at": "2026-06-29T16:12:06Z"
   },
   "repo_links": [],
   "terms": [

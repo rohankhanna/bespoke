@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/build_pr_documentation.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
@@ -86,7 +86,7 @@
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
@@ -111,17 +111,17 @@
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "component": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
@@ -156,7 +156,7 @@
       "source_file": ".github/workflows/stale.yml.disabled"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml"
     },
@@ -176,7 +176,7 @@
       "source_file": ".github/workflows/test-runner.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml"
     },
@@ -229,7 +229,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -257,7 +257,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -299,7 +299,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
       "target_type": "component"
     },
     {
@@ -334,7 +334,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -422,7 +422,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:15:47.955413+00:00",
+  "fetched_at": "2026-06-29T23:44:21.659280+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -474,7 +474,7 @@
     "full_name": "bitsandbytes-foundation/bitsandbytes",
     "html_url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
     "language": "Python",
-    "pushed_at": "2026-06-29T14:36:49Z",
+    "pushed_at": "2026-06-29T15:25:45Z",
     "stargazers_count": 8295,
     "topics": [
       "llm",
@@ -483,7 +483,7 @@
       "qlora",
       "quantization"
     ],
-    "updated_at": "2026-06-29T05:15:39Z"
+    "updated_at": "2026-06-29T15:16:43Z"
   },
   "repo_links": [],
   "terms": [

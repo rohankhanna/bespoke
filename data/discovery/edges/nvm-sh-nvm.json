@@ -200,14 +200,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rebase.yml",
       "source_repo": "nvm-sh/nvm",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rebase.yml",
-      "source_repo": "nvm-sh/nvm",
-      "target": "ljharb/rebase@master",
+      "target": "ljharb/actions/.github/workflows/rebase.yml@main",
       "target_type": "component"
     },
     {
@@ -316,6 +309,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-29T13:45:13.658195+00:00",
+  "generated_at": "2026-06-29T18:49:06.046656+00:00",
   "source_repo": "nvm-sh/nvm"
 }

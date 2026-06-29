@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-29T18:57:26.567760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11109
+    },
+    {
+      "path": "requirements.txt",
+      "size": 291
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2026] Official implementation of \"NaviCache: Test-Time Self-Calibration Caching for Video Generation\".",
+    "fork": false,
+    "full_name": "HelloZicky/NaviCache",
+    "html_url": "https://github.com/HelloZicky/NaviCache",
+    "language": "Python",
+    "pushed_at": "2026-06-26T04:28:27Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-06-29T14:31:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

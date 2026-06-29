@@ -205,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T14:19:51.662879+00:00",
+  "fetched_at": "2026-06-29T22:47:55.170655+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -241,7 +241,7 @@
     "full_name": "prospector-dev/prospector",
     "html_url": "https://github.com/prospector-dev/prospector",
     "language": "Python",
-    "pushed_at": "2026-06-29T11:44:51Z",
+    "pushed_at": "2026-06-29T17:23:54Z",
     "stargazers_count": 2085,
     "topics": [
       "hactoberfest",
@@ -249,7 +249,7 @@
       "linters-config",
       "statistical-analysis"
     ],
-    "updated_at": "2026-06-29T11:44:48Z"
+    "updated_at": "2026-06-29T17:23:59Z"
   },
   "repo_links": [
     {

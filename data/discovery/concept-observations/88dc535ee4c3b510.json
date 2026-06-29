@@ -84,7 +84,7 @@
   "normalized_form": "approve-test-queue",
   "observation_id": "88dc535ee4c3b510",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T13:45:13.658195+00:00",
+  "observed_at": "2026-06-29T18:49:06.046656+00:00",
   "observed_text": "Approve Test Queue",
   "source_context_snippet": "Approve Test Queue",
   "source_file": ".github/workflows/cicd-approve-test-queue.yml",

@@ -256,7 +256,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:19:37.930966+00:00",
+  "fetched_at": "2026-06-29T22:17:04.293870+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -292,7 +292,7 @@
     "full_name": "Lightning-AI/litgpt",
     "html_url": "https://github.com/Lightning-AI/litgpt",
     "language": "Python",
-    "pushed_at": "2026-06-29T10:24:01Z",
+    "pushed_at": "2026-06-29T15:53:24Z",
     "stargazers_count": 13450,
     "topics": [
       "ai",
@@ -303,7 +303,7 @@
       "llm-inference",
       "llms"
     ],
-    "updated_at": "2026-06-29T13:06:09Z"
+    "updated_at": "2026-06-29T15:53:19Z"
   },
   "repo_links": [
     {

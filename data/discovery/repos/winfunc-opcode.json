@@ -1142,7 +1142,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:04:36.735950+00:00",
+  "fetched_at": "2026-06-29T23:25:25.130280+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1209,7 +1209,7 @@
       "rust",
       "tauri"
     ],
-    "updated_at": "2026-06-29T13:08:51Z"
+    "updated_at": "2026-06-29T21:14:36Z"
   },
   "repo_links": [
     {

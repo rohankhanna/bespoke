@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-29T18:49:06.046656+00:00",
+  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/business-pods-smoke.yml",
+      "source_repo": "ruvnet/ruflo"
+    }
+  ],
+  "term": "business-pods-smoke"
+}

@@ -51,6 +51,16 @@
       "source_file": ".github/workflows/ABAP_CLOUD.yaml"
     },
     {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml"
+    },
+    {
       "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto_downport.yaml"
@@ -151,6 +161,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml",
+      "source_repo": "abap2UI5-addons/layout-management",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml",
+      "source_repo": "abap2UI5-addons/layout-management",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto_downport.yaml",
       "source_repo": "abap2UI5-addons/layout-management",
       "target": "actions/checkout@v5",
@@ -227,7 +251,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T14:47:24.742895+00:00",
+  "fetched_at": "2026-06-29T23:01:28.957749+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -244,6 +268,10 @@
     {
       "path": ".github/workflows/ABAP_CLOUD.yaml",
       "size": 331
+    },
+    {
+      "path": ".github/workflows/ABAP_STANDARD.yaml",
+      "size": 320
     },
     {
       "path": ".github/workflows/auto_downport.yaml",

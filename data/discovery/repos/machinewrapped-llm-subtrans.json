@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T15:08:26.068973+00:00",
+  "fetched_at": "2026-06-29T23:31:12.598252+00:00",
   "fetched_files": [
     {
       "path": "pyproject.toml",
@@ -90,9 +90,9 @@
     "html_url": "https://github.com/machinewrapped/llm-subtrans",
     "language": "Python",
     "pushed_at": "2026-06-14T16:54:29Z",
-    "stargazers_count": 616,
+    "stargazers_count": 617,
     "topics": [],
-    "updated_at": "2026-06-28T15:38:58Z"
+    "updated_at": "2026-06-29T15:48:25Z"
   },
   "repo_links": [],
   "terms": [

@@ -93,6 +93,21 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/business-pods-smoke.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/business-pods-smoke.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/business-pods-smoke.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
@@ -214,36 +229,6 @@
       "component": "actions/upload-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cost-tracker-smoke.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml"
-    },
-    {
-      "component": "dtolnay/rust-toolchain@stable",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml"
-    },
-    {
-      "component": "actions/cache@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml"
-    },
-    {
-      "component": "dtolnay/rust-toolchain@stable",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml"
-    },
-    {
-      "component": "actions/cache@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml"
     }
   ],
   "edges": [
@@ -396,6 +381,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/business-pods-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/business-pods-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/business-pods-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/business-pods-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "business-pods-smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ruvnet/ruflo",
       "target": "actions/checkout@v4",
@@ -528,34 +541,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "dtolnay/rust-toolchain@stable",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/federation-peer-rust.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/cache@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/federation-peer-rust.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "federation-peer-rust",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
@@ -661,7 +646,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T14:28:39.085583+00:00",
+  "fetched_at": "2026-06-29T23:01:07.159626+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -678,6 +663,10 @@
     {
       "path": ".github/workflows/all-plugins-smoke.yml",
       "size": 3744
+    },
+    {
+      "path": ".github/workflows/business-pods-smoke.yml",
+      "size": 2453
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -698,10 +687,6 @@
     {
       "path": ".github/workflows/cost-tracker-smoke.yml",
       "size": 4178
-    },
-    {
-      "path": ".github/workflows/federation-peer-rust.yml",
-      "size": 2616
     }
   ],
   "related_repositories": [],
@@ -713,8 +698,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-06-29T09:20:33Z",
-    "stargazers_count": 62014,
+    "pushed_at": "2026-06-29T22:28:30Z",
+    "stargazers_count": 62073,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -737,7 +722,7 @@
       "swarm-intelligence",
       "typescript"
     ],
-    "updated_at": "2026-06-29T14:13:30Z"
+    "updated_at": "2026-06-29T22:48:54Z"
   },
   "repo_links": [
     {
@@ -757,6 +742,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/all-plugins-smoke.yml",
       "term": "all-plugins-smoke"
+    },
+    {
+      "context_snippet": "business-pods-smoke",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/business-pods-smoke.yml",
+      "term": "business-pods-smoke"
     },
     {
       "context_snippet": "Clone Tracker (14-day rolling)",
@@ -781,12 +772,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/cost-tracker-smoke.yml",
       "term": "cost-tracker-smoke"
-    },
-    {
-      "context_snippet": "federation-peer-rust",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/federation-peer-rust.yml",
-      "term": "federation-peer-rust"
     },
     {
       "context_snippet": "<div align=\"center\">",

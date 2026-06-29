@@ -286,7 +286,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T14:47:47.003138+00:00",
+  "fetched_at": "2026-06-29T23:01:58.695425+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -298,7 +298,7 @@
     },
     {
       "path": ".github/workflows/check.yml",
-      "size": 2008
+      "size": 2116
     },
     {
       "path": ".github/workflows/release.yml",
@@ -318,10 +318,10 @@
     "full_name": "browserslist/caniuse-lite",
     "html_url": "https://github.com/browserslist/caniuse-lite",
     "language": "JavaScript",
-    "pushed_at": "2026-06-24T13:42:09Z",
+    "pushed_at": "2026-06-29T21:21:33Z",
     "stargazers_count": 612,
     "topics": [],
-    "updated_at": "2026-06-24T13:43:00Z"
+    "updated_at": "2026-06-29T21:21:37Z"
   },
   "repo_links": [],
   "terms": [

@@ -1906,11 +1906,35 @@
       "observed_at": "2026-06-29T13:45:13.658195+00:00",
       "source_file": ".github/workflows/R-CMD-check.yaml",
       "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "ANTsX/ANTsR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "ANTsX/ITKR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T18:49:06.046656+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "appelmar/gdalcubes"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T13:45:13.658195+00:00",
+  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
   "lexical_providers": [
     "datamuse"
   ],

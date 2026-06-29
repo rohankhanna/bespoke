@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/scala-steward.yml"
     },
     {
-      "component": "scala-steward-org/scala-steward-action@v2.90.0",
+      "component": "scala-steward-org/scala-steward-action@v2.92.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scala-steward.yml"
     }
@@ -85,7 +85,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scala-steward.yml",
       "source_repo": "sbt/sbt-jmh",
-      "target": "scala-steward-org/scala-steward-action@v2.90.0",
+      "target": "scala-steward-org/scala-steward-action@v2.92.0",
       "target_type": "component"
     },
     {
@@ -117,7 +117,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T14:51:01.745710+00:00",
+  "fetched_at": "2026-06-29T23:06:55.864797+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -145,14 +145,14 @@
     "full_name": "sbt/sbt-jmh",
     "html_url": "https://github.com/sbt/sbt-jmh",
     "language": "Scala",
-    "pushed_at": "2026-06-23T06:26:49Z",
+    "pushed_at": "2026-06-29T17:34:18Z",
     "stargazers_count": 796,
     "topics": [
       "benchmark",
       "openjdk",
       "scala"
     ],
-    "updated_at": "2026-06-23T06:26:46Z"
+    "updated_at": "2026-06-29T17:34:15Z"
   },
   "repo_links": [
     {
