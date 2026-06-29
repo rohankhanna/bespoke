@@ -3209,11 +3209,29 @@
       "observed_at": "2026-06-28T18:32:33.877156+00:00",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T00:48:57.028249+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T00:48:57.028249+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-29T00:48:57.028249+00:00",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
+  "last_seen_at": "2026-06-29T00:48:57.028249+00:00",
   "lexical_providers": [
     "datamuse"
   ],

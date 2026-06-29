@@ -126,7 +126,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T22:23:55.086819+00:00",
+  "fetched_at": "2026-06-29T01:13:11.984729+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -158,10 +158,10 @@
     "full_name": "servo/stylo",
     "html_url": "https://github.com/servo/stylo",
     "language": "Rust",
-    "pushed_at": "2026-06-28T22:06:50Z",
+    "pushed_at": "2026-06-28T22:26:55Z",
     "stargazers_count": 290,
     "topics": [],
-    "updated_at": "2026-06-28T14:02:14Z"
+    "updated_at": "2026-06-28T22:26:07Z"
   },
   "repo_links": [
     {

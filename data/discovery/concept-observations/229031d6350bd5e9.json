@@ -84,7 +84,7 @@
   "normalized_form": "push-new-version",
   "observation_id": "229031d6350bd5e9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T18:32:33.877156+00:00",
+  "observed_at": "2026-06-29T00:48:57.028249+00:00",
   "observed_text": "Push new version",
   "source_context_snippet": "Push new version",
   "source_file": ".github/workflows/version.yml",

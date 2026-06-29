@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/dependencies.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml"
     },
@@ -112,7 +112,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -312,7 +312,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T21:19:41.745148+00:00",
+  "fetched_at": "2026-06-29T01:35:32.392949+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -348,8 +348,8 @@
     "full_name": "ohmyzsh/ohmyzsh",
     "html_url": "https://github.com/ohmyzsh/ohmyzsh",
     "language": "Shell",
-    "pushed_at": "2026-06-28T12:52:10Z",
-    "stargazers_count": 188432,
+    "pushed_at": "2026-06-28T23:11:53Z",
+    "stargazers_count": 188435,
     "topics": [
       "cli",
       "cli-app",
@@ -367,7 +367,7 @@
       "zsh",
       "zsh-configuration"
     ],
-    "updated_at": "2026-06-28T20:35:33Z"
+    "updated_at": "2026-06-29T01:25:16Z"
   },
   "repo_links": [],
   "terms": [

@@ -285,7 +285,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T22:44:39.289176+00:00",
+  "fetched_at": "2026-06-29T01:29:01.456375+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -338,7 +338,7 @@
     "html_url": "https://github.com/deepspeedai/DeepSpeed",
     "language": "Python",
     "pushed_at": "2026-06-27T18:45:29Z",
-    "stargazers_count": 42594,
+    "stargazers_count": 42598,
     "topics": [
       "billion-parameters",
       "compression",
@@ -354,7 +354,7 @@
       "trillion-parameters",
       "zero"
     ],
-    "updated_at": "2026-06-28T17:57:10Z"
+    "updated_at": "2026-06-29T00:43:09Z"
   },
   "repo_links": [
     {

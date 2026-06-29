@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T22:16:42.520902+00:00",
+  "fetched_at": "2026-06-29T01:07:14.806480+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -98,7 +98,7 @@
     },
     {
       "path": ".github/workflows/cifuzz.yml",
-      "size": 701
+      "size": 732
     }
   ],
   "related_repositories": [],
@@ -110,7 +110,7 @@
     "full_name": "libsndfile/libsndfile",
     "html_url": "https://github.com/libsndfile/libsndfile",
     "language": "C",
-    "pushed_at": "2026-06-23T07:31:27Z",
+    "pushed_at": "2026-06-28T23:52:36Z",
     "stargazers_count": 1708,
     "topics": [
       "audio-library",
@@ -118,7 +118,7 @@
       "cmake",
       "libsndfile"
     ],
-    "updated_at": "2026-06-28T16:28:30Z"
+    "updated_at": "2026-06-28T23:52:40Z"
   },
   "repo_links": [
     {

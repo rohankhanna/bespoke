@@ -1,7 +1,7 @@
 {
   "component": "pypa/cibuildwheel@294735312765b09d24a2fbec22660ce817587d55",
   "first_seen_at": "2026-06-24T00:42:42.423974+00:00",
-  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
+  "last_seen_at": "2026-06-29T00:48:57.028249+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

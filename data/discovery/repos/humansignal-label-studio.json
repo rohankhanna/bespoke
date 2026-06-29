@@ -452,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-28T22:39:20.193246+00:00",
+  "fetched_at": "2026-06-29T01:24:56.890843+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -504,7 +504,7 @@
     "full_name": "HumanSignal/label-studio",
     "html_url": "https://github.com/HumanSignal/label-studio",
     "language": "TypeScript",
-    "pushed_at": "2026-06-26T07:19:49Z",
+    "pushed_at": "2026-06-29T00:32:55Z",
     "stargazers_count": 27705,
     "topics": [
       "annotation",

@@ -48,7 +48,7 @@
   "normalized_form": "r-cmd-check",
   "observation_id": "369e300b82b2361e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-28T18:32:33.877156+00:00",
+  "observed_at": "2026-06-29T00:48:57.028249+00:00",
   "observed_text": "R-CMD-check",
   "source_context_snippet": "R-CMD-check",
   "source_file": ".github/workflows/R-CMD-check.yaml",

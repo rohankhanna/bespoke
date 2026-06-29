@@ -211,11 +211,23 @@
       "observed_at": "2026-06-28T18:32:33.877156+00:00",
       "source_file": null,
       "source_repo": "agilescientific/striplog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T00:48:57.028249+00:00",
+      "source_file": null,
+      "source_repo": "softwareunderground/gio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T00:48:57.028249+00:00",
+      "source_file": null,
+      "source_repo": "agilescientific/striplog"
     }
   ],
   "first_seen_at": "2026-06-27T00:46:07.279669+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
+  "last_seen_at": "2026-06-29T00:48:57.028249+00:00",
   "lexical_providers": [
     "datamuse"
   ],

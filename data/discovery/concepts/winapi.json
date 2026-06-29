@@ -478,11 +478,17 @@
       "observed_at": "2026-06-28T18:32:33.877156+00:00",
       "source_file": null,
       "source_repo": "webview2/EdgeSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T00:48:57.028249+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp"
     }
   ],
   "first_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-28T18:32:33.877156+00:00",
+  "last_seen_at": "2026-06-29T00:48:57.028249+00:00",
   "lexical_providers": [
     "datamuse"
   ],
