@@ -356,7 +356,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T09:05:42.429825+00:00",
+  "fetched_at": "2026-06-29T14:14:27.308208+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -401,7 +401,7 @@
     "html_url": "https://github.com/AutoGPTQ/AutoGPTQ",
     "language": "Python",
     "pushed_at": "2025-04-11T13:27:20Z",
-    "stargazers_count": 5072,
+    "stargazers_count": 5071,
     "topics": [
       "deep-learning",
       "inference",
@@ -413,7 +413,7 @@
       "transformer",
       "transformers"
     ],
-    "updated_at": "2026-06-27T11:26:14Z"
+    "updated_at": "2026-06-29T11:02:02Z"
   },
   "repo_links": [
     {

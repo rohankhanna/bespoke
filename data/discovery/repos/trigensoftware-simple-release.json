@@ -512,11 +512,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T08:29:49.094665+00:00",
+  "fetched_at": "2026-06-29T15:16:02.833909+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 5009
+      "size": 5565
     },
     {
       "path": "package.json",
@@ -548,10 +548,10 @@
     "full_name": "TrigenSoftware/simple-release",
     "html_url": "https://github.com/TrigenSoftware/simple-release",
     "language": "TypeScript",
-    "pushed_at": "2026-06-28T21:10:08Z",
+    "pushed_at": "2026-06-29T15:00:32Z",
     "stargazers_count": 21,
     "topics": [],
-    "updated_at": "2026-06-28T21:09:46Z"
+    "updated_at": "2026-06-29T15:00:23Z"
   },
   "repo_links": [
     {

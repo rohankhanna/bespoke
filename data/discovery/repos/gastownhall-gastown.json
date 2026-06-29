@@ -335,7 +335,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T09:43:33.591175+00:00",
+  "fetched_at": "2026-06-29T15:05:46.490587+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -355,7 +355,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 6509
+      "size": 9066
     },
     {
       "path": ".github/workflows/close-stale-needs.yml",
@@ -367,7 +367,7 @@
     },
     {
       "path": ".github/workflows/nightly-integration.yml",
-      "size": 1953
+      "size": 3974
     },
     {
       "path": ".github/workflows/release.yml",
@@ -387,10 +387,10 @@
     "full_name": "gastownhall/gastown",
     "html_url": "https://github.com/gastownhall/gastown",
     "language": "Go",
-    "pushed_at": "2026-06-22T10:28:25Z",
-    "stargazers_count": 16105,
+    "pushed_at": "2026-06-29T14:56:13Z",
+    "stargazers_count": 16109,
     "topics": [],
-    "updated_at": "2026-06-29T06:40:11Z"
+    "updated_at": "2026-06-29T14:57:10Z"
   },
   "repo_links": [
     {

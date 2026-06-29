@@ -3186,6 +3186,9 @@
   "analyze bundle (comment)": [
     "analyze-bundle-comment"
   ],
+  "analyze ci failure": [
+    "analyze-ci-failure"
+  ],
   "analyze code": [
     "analyze-code"
   ],

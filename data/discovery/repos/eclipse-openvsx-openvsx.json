@@ -575,7 +575,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T08:21:59.600619+00:00",
+  "fetched_at": "2026-06-29T15:10:55.485358+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -627,7 +627,7 @@
     "full_name": "eclipse-openvsx/openvsx",
     "html_url": "https://github.com/eclipse-openvsx/openvsx",
     "language": "Java",
-    "pushed_at": "2026-06-28T20:46:31Z",
+    "pushed_at": "2026-06-29T12:14:24Z",
     "stargazers_count": 1992,
     "topics": [
       "extension",

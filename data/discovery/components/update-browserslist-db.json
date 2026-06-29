@@ -1,7 +1,7 @@
 {
   "component": "update-browserslist-db",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-06-29T07:57:00.643227+00:00",
+  "last_seen_at": "2026-06-29T13:45:13.658195+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

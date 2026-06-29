@@ -362,7 +362,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T08:27:50.666781+00:00",
+  "fetched_at": "2026-06-29T15:14:53.565606+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -395,14 +395,14 @@
     "html_url": "https://github.com/WiseLibs/better-sqlite3",
     "language": "JavaScript",
     "pushed_at": "2026-06-22T09:25:27Z",
-    "stargazers_count": 7322,
+    "stargazers_count": 7323,
     "topics": [
       "database",
       "sql",
       "sqlite",
       "sqlite3"
     ],
-    "updated_at": "2026-06-29T03:26:20Z"
+    "updated_at": "2026-06-29T13:48:36Z"
   },
   "repo_links": [
     {

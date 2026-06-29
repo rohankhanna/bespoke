@@ -16,11 +16,15 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-06-29T09:52:42.327383+00:00",
+  "fetched_at": "2026-06-29T15:19:28.418852+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 8745
+    },
+    {
+      "path": "requirements.txt",
+      "size": 337
     }
   ],
   "related_repositories": [],

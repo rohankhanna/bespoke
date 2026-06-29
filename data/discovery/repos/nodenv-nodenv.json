@@ -251,7 +251,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T09:43:49.550041+00:00",
+  "fetched_at": "2026-06-29T15:06:02.469100+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -275,7 +275,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 1427
+      "size": 1429
     },
     {
       "path": ".github/workflows/wiki.yml",
@@ -291,7 +291,7 @@
     "full_name": "nodenv/nodenv",
     "html_url": "https://github.com/nodenv/nodenv",
     "language": "Shell",
-    "pushed_at": "2026-06-29T02:53:16Z",
+    "pushed_at": "2026-06-29T13:31:36Z",
     "stargazers_count": 2384,
     "topics": [
       "node",
@@ -300,7 +300,7 @@
       "shell",
       "version-manager"
     ],
-    "updated_at": "2026-06-23T05:06:26Z"
+    "updated_at": "2026-06-29T13:32:13Z"
   },
   "repo_links": [],
   "terms": [

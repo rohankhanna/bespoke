@@ -104,7 +104,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T09:08:11.070197+00:00",
+  "fetched_at": "2026-06-29T14:16:14.142985+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -124,7 +124,7 @@
     "full_name": "patterns-ai-core/qdrant-ruby",
     "html_url": "https://github.com/patterns-ai-core/qdrant-ruby",
     "language": "Ruby",
-    "pushed_at": "2025-11-25T15:30:06Z",
+    "pushed_at": "2026-06-29T12:07:25Z",
     "stargazers_count": 60,
     "topics": [
       "api-client",
@@ -137,7 +137,7 @@
       "vector-search",
       "vector-search-engine"
     ],
-    "updated_at": "2026-05-08T15:13:14Z"
+    "updated_at": "2026-06-29T12:07:29Z"
   },
   "repo_links": [
     {

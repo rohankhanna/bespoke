@@ -1,12 +1,17 @@
 {
   "component": "taiki-e/install-action@9e1e5806d4a4822de933115878265be9aaa786d9",
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
-  "last_seen_at": "2026-06-24T00:42:42.423974+00:00",
+  "last_seen_at": "2026-06-29T13:45:13.658195+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alloy-rs/svm-rs"
     }
   ]
 }

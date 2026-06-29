@@ -84,7 +84,7 @@
   "normalized_form": "health",
   "observation_id": "a604a18fa555a397",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T07:57:00.643227+00:00",
+  "observed_at": "2026-06-29T13:45:13.658195+00:00",
   "observed_text": "Health",
   "source_context_snippet": "Health",
   "source_file": ".github/workflows/health.yaml",

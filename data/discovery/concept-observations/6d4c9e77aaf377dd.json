@@ -48,7 +48,7 @@
   "normalized_form": "speech-recognition",
   "observation_id": "6d4c9e77aaf377dd",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-29T07:57:00.643227+00:00",
+  "observed_at": "2026-06-29T13:45:13.658195+00:00",
   "observed_text": "speech-recognition",
   "source_context_snippet": "[![CI](https://github.com/SYSTRAN/faster-whisper/workflows/CI/badge.svg)](https://github.com/SYSTRAN/faster-whisper/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/faster-whisper.svg)](https://badge.fury.io/py/faster-whisper)",
   "source_file": null,

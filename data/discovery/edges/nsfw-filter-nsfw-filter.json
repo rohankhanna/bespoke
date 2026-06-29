@@ -39,6 +39,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
+      "target": "lucide-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "nsfw-filter/nsfw-filter",
       "target": "nsfwjs",
       "target_type": "component"
     },
@@ -88,7 +95,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "@types/antd",
+      "target": "@eslint/js",
       "target_type": "component"
     },
     {
@@ -96,6 +103,13 @@
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
       "target": "@types/chrome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "target": "@types/jest",
       "target_type": "component"
     },
     {
@@ -116,34 +130,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "@types/react-redux",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "@types/styled-components",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "@typescript-eslint/eslint-plugin",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "antd-dayjs-webpack-plugin",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
       "target": "copy-webpack-plugin",
       "target_type": "component"
     },
@@ -158,63 +144,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "css-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
       "target": "eslint",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "eslint-config-standard",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "eslint-config-standard-with-typescript",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "eslint-plugin-better-styled-components",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "eslint-plugin-import",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "eslint-plugin-import-helpers",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "eslint-plugin-node",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "eslint-plugin-promise",
       "target_type": "component"
     },
     {
@@ -228,21 +158,14 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "eslint-plugin-standard",
+      "target": "eslint-plugin-react-hooks",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "file-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "html-webpack-plugin",
+      "target": "globals",
       "target_type": "component"
     },
     {
@@ -256,21 +179,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "mini-css-extract-plugin",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "npm-run-all",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "postcss-loader",
+      "target": "jest-environment-jsdom",
       "target_type": "component"
     },
     {
@@ -284,42 +193,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "purgecss-webpack-plugin",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "resolve-url-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
       "target": "rimraf",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "sass",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "sass-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "style-loader",
       "target_type": "component"
     },
     {
@@ -347,6 +221,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nsfw-filter/nsfw-filter",
       "target": "web-ext",
       "target_type": "component"
     },
@@ -355,20 +236,6 @@
       "source_file": "package.json",
       "source_repo": "nsfw-filter/nsfw-filter",
       "target": "webpack",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "webpack-bundle-analyzer",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "nsfw-filter/nsfw-filter",
-      "target": "webpack-chrome-extension-reloader",
       "target_type": "component"
     },
     {
@@ -505,6 +372,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-29T07:57:00.643227+00:00",
+  "generated_at": "2026-06-29T13:45:13.658195+00:00",
   "source_repo": "nsfw-filter/nsfw-filter"
 }

@@ -645,7 +645,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T09:18:34.387969+00:00",
+  "fetched_at": "2026-06-29T14:24:03.680426+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -682,7 +682,7 @@
     "html_url": "https://github.com/TanStack/form",
     "language": "TypeScript",
     "pushed_at": "2026-06-19T15:04:41Z",
-    "stargazers_count": 6591,
+    "stargazers_count": 6592,
     "topics": [
       "angular",
       "form",
@@ -697,7 +697,7 @@
       "yup",
       "zod"
     ],
-    "updated_at": "2026-06-28T05:13:27Z"
+    "updated_at": "2026-06-29T12:14:06Z"
   },
   "repo_links": [],
   "terms": [

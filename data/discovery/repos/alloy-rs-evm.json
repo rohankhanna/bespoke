@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -101,7 +101,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -136,7 +136,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@5b842231ba77f5c045dba54ac5560fed2db780e2",
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -151,7 +151,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@5b842231ba77f5c045dba54ac5560fed2db780e2",
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -216,20 +216,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alloy-rs/evm",
-      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "alloy-rs/evm",
-      "target": "dtolnay/rust-toolchain@5b842231ba77f5c045dba54ac5560fed2db780e2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "alloy-rs/evm",
       "target": "tempoxyz/ci/.github/workflows/deny.yml@main",
       "target_type": "component"
     },
@@ -241,7 +227,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-06-29T09:40:27.325663+00:00",
+  "fetched_at": "2026-06-29T15:02:21.079990+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -253,7 +239,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 8714
+      "size": 8952
     }
   ],
   "related_repositories": [],
@@ -265,10 +251,10 @@
     "full_name": "alloy-rs/evm",
     "html_url": "https://github.com/alloy-rs/evm",
     "language": "Rust",
-    "pushed_at": "2026-06-29T09:18:10Z",
+    "pushed_at": "2026-06-29T13:47:43Z",
     "stargazers_count": 81,
     "topics": [],
-    "updated_at": "2026-06-24T14:58:24Z"
+    "updated_at": "2026-06-29T12:19:00Z"
   },
   "repo_links": [
     {

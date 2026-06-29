@@ -1216,7 +1216,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T09:13:51.631655+00:00",
+  "fetched_at": "2026-06-29T14:20:26.729246+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1228,15 +1228,15 @@
     },
     {
       "path": ".github/workflows/android.yaml",
-      "size": 6791
+      "size": 7423
     },
     {
       "path": ".github/workflows/e2e_tests_fdc.yaml",
-      "size": 17996
+      "size": 18359
     },
     {
       "path": ".github/workflows/e2e_tests_pipeline.yaml",
-      "size": 10045
+      "size": 10408
     },
     {
       "path": ".github/workflows/ios.yaml",
@@ -1268,7 +1268,7 @@
     "full_name": "firebase/flutterfire",
     "html_url": "https://github.com/firebase/flutterfire",
     "language": "Dart",
-    "pushed_at": "2026-06-29T07:58:05Z",
+    "pushed_at": "2026-06-29T13:34:48Z",
     "stargazers_count": 9225,
     "topics": [
       "dart",
@@ -1276,7 +1276,7 @@
       "flutter",
       "google"
     ],
-    "updated_at": "2026-06-29T02:57:03Z"
+    "updated_at": "2026-06-29T12:09:40Z"
   },
   "repo_links": [
     {

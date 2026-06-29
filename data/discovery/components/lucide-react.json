@@ -1,7 +1,7 @@
 {
   "component": "lucide-react",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-06-29T07:57:00.643227+00:00",
+  "last_seen_at": "2026-06-29T13:45:13.658195+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -302,6 +302,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "nsfw-filter/nsfw-filter"
     }
   ]
 }

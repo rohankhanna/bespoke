@@ -241,7 +241,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T09:10:26.959250+00:00",
+  "fetched_at": "2026-06-29T14:17:46.194320+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -253,7 +253,7 @@
     },
     {
       "path": ".github/workflows/build-llamacpp-binaries.yml",
-      "size": 3524
+      "size": 5102
     },
     {
       "path": ".github/workflows/release-on-tag.yml",
@@ -273,8 +273,8 @@
     "full_name": "modelscope/FunASR",
     "html_url": "https://github.com/modelscope/FunASR",
     "language": "Python",
-    "pushed_at": "2026-06-28T17:21:05Z",
-    "stargazers_count": 18697,
+    "pushed_at": "2026-06-29T13:16:20Z",
+    "stargazers_count": 18703,
     "topics": [
       "asr",
       "audio",
@@ -297,7 +297,7 @@
       "voice-activity-detection",
       "whisper-alternative"
     ],
-    "updated_at": "2026-06-29T08:44:44Z"
+    "updated_at": "2026-06-29T13:17:56Z"
   },
   "repo_links": [],
   "terms": [

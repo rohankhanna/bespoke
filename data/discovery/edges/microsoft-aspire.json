@@ -93,6 +93,125 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "github/gh-aw-actions/setup@c0338fef4749d08c21f8f975fb0e37efa17dda47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Analyze CI Failure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.md",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.md",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.md",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-ci-failure.md",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml",
       "source_repo": "microsoft/aspire",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -155,69 +274,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backmerge-release.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backmerge-release.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backmerge-release.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/backmerge-release.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "Backmerge Release to Main",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backport.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "dotnet/arcade/.github/workflows/scheduled-action-cleanup-base.yml@main",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backport.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backport.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/backport.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/backport.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "Backport PR to branch",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/aspire",
@@ -239,6 +295,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-29T07:57:00.643227+00:00",
+  "generated_at": "2026-06-29T13:45:13.658195+00:00",
   "source_repo": "microsoft/aspire"
 }

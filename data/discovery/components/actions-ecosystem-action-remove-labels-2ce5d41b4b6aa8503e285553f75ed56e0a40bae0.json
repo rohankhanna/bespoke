@@ -1,7 +1,7 @@
 {
   "component": "actions-ecosystem/action-remove-labels@2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-06-29T07:57:00.643227+00:00",
+  "last_seen_at": "2026-06-29T13:45:13.658195+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

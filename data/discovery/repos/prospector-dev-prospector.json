@@ -26,12 +26,12 @@
       "source_file": ".github/workflows/pre-commit.yaml"
     },
     {
-      "component": "actions/setup-python@v6.2.0",
+      "component": "actions/setup-python@v6.3.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yaml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yaml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/setup-python@v6.2.0",
+      "component": "actions/setup-python@v6.3.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/tests.yml"
     },
     {
-      "component": "actions/setup-python@v6.2.0",
+      "component": "actions/setup-python@v6.3.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     }
@@ -117,14 +117,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "prospector-dev/prospector",
-      "target": "actions/setup-python@v6.2.0",
+      "target": "actions/setup-python@v6.3.0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "prospector-dev/prospector",
-      "target": "actions/cache@v5",
+      "target": "actions/cache@v6",
       "target_type": "component"
     },
     {
@@ -145,7 +145,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "prospector-dev/prospector",
-      "target": "actions/setup-python@v6.2.0",
+      "target": "actions/setup-python@v6.3.0",
       "target_type": "component"
     },
     {
@@ -166,7 +166,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "prospector-dev/prospector",
-      "target": "actions/setup-python@v6.2.0",
+      "target": "actions/setup-python@v6.3.0",
       "target_type": "component"
     },
     {
@@ -205,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T09:12:58.124092+00:00",
+  "fetched_at": "2026-06-29T14:19:51.662879+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -241,7 +241,7 @@
     "full_name": "prospector-dev/prospector",
     "html_url": "https://github.com/prospector-dev/prospector",
     "language": "Python",
-    "pushed_at": "2026-06-22T21:40:48Z",
+    "pushed_at": "2026-06-29T11:44:51Z",
     "stargazers_count": 2085,
     "topics": [
       "hactoberfest",
@@ -249,7 +249,7 @@
       "linters-config",
       "statistical-analysis"
     ],
-    "updated_at": "2026-06-28T09:38:46Z"
+    "updated_at": "2026-06-29T11:44:48Z"
   },
   "repo_links": [
     {

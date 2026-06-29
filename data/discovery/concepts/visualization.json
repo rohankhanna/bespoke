@@ -4201,11 +4201,41 @@
       "observed_at": "2026-06-29T07:57:00.643227+00:00",
       "source_file": null,
       "source_repo": "plotters-rs/plotters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T13:45:13.658195+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T13:45:13.658195+00:00",
+      "source_file": null,
+      "source_repo": "interpretml/gam-changer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T13:45:13.658195+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T13:45:13.658195+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-29T13:45:13.658195+00:00",
+      "source_file": null,
+      "source_repo": "antvis/GPT-Vis"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T07:57:00.643227+00:00",
+  "last_seen_at": "2026-06-29T13:45:13.658195+00:00",
   "lexical_providers": [
     "datamuse"
   ],

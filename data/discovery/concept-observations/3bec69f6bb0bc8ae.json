@@ -84,7 +84,7 @@
   "normalized_form": "build-and-push-docker-image",
   "observation_id": "3bec69f6bb0bc8ae",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T07:57:00.643227+00:00",
+  "observed_at": "2026-06-29T13:45:13.658195+00:00",
   "observed_text": "Build and Push Docker Image",
   "source_context_snippet": "Build and Push Docker Image",
   "source_file": ".github/workflows/docker-build.yml",
