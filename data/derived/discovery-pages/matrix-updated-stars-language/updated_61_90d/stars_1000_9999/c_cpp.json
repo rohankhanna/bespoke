@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1868,
-    "concepts": 2086,
-    "observations": 2093,
-    "repos": 269,
-    "terms": 2072
+    "components": 1878,
+    "concepts": 2100,
+    "observations": 2107,
+    "repos": 270,
+    "terms": 2086
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -80,6 +80,7 @@
     "facebook/igl",
     "facebook/proxygen",
     "facebook/wangle",
+    "facebookincubator/fizz",
     "facebookincubator/velox",
     "Farama-Foundation/Arcade-Learning-Environment",
     "fastfloat/fast_float",
@@ -253,7 +254,6 @@
     "strukturag/libheif",
     "sveinbjornt/Platypus",
     "syoyo/tinygltf",
-    "TA-Lib/ta-lib",
     "Taywee/args",
     "tevador/RandomX",
     "the-tcpdump-group/libpcap",
@@ -273,6 +273,7 @@
     "westes/flex",
     "wireshark/wireshark",
     "wjakob/nanobind",
+    "xtensor-stack/xsimd",
     "YACReader/yacreader",
     "yaml/libyaml",
     "ycm-core/ycmd",

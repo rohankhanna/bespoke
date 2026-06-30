@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2375,
-    "concepts": 485,
-    "observations": 485,
-    "repos": 57,
-    "terms": 482
+    "components": 2317,
+    "concepts": 459,
+    "observations": 459,
+    "repos": 54,
+    "terms": 456
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "aeharding/voyager",
     "alichherawalla/off-grid-mobile-ai",
@@ -25,7 +25,6 @@
     "can1357/oh-my-pi",
     "carbon-design-system/carbon-components-svelte",
     "ChromeDevTools/devtools-protocol",
-    "cloudflare/workers-sdk",
     "cucumber/cucumber-js",
     "cursorless-dev/cursorless",
     "enricoros/big-AGI",
@@ -40,7 +39,6 @@
     "hannoeru/vite-plugin-pages",
     "huggingface/gsplat.js",
     "iconify/iconify",
-    "informalsystems/quint",
     "inokawa/virtua",
     "intlify/vue-i18n",
     "kelektiv/node-cron",
@@ -56,7 +54,6 @@
     "pdfme/pdfme",
     "react-cosmos/react-cosmos",
     "reactjs/react-docgen",
-    "remotion-dev/skills",
     "shareAI-lab/Kode-Agent",
     "SilentVoid13/Templater",
     "solidjs-community/solid-primitives",

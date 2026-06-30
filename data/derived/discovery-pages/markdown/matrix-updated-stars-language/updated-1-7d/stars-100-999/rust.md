@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-06-30T05:58:41.842453+00:00`
+Generated at: `2026-06-30T08:19:03.846649+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 20
-- components: 16
-- concepts: 21
-- observations: 22
+- repos: 1
+- terms: 9
+- components: 12
+- concepts: 10
+- observations: 11
 
 ## Static behavior
 
@@ -27,11 +27,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 339 | 2026-06-25T12:47:26Z | Rust | Infrastructure/tooling | 9 | 12 | 10 | 11 |
-| [rust-nvml/nvml-wrapper](https://github.com/rust-nvml/nvml-wrapper) | 200 | 2026-06-23T08:01:56Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 339 | 2026-06-25T12:47:26Z | Rust | Infrastructure/tooling | 9 | 12 | 10 | 11 |
-| [rust-nvml/nvml-wrapper](https://github.com/rust-nvml/nvml-wrapper) | 200 | 2026-06-23T08:01:56Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |

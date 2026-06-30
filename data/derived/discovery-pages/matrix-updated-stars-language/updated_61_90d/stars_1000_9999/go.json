@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2383,
-    "concepts": 2312,
-    "observations": 2323,
+    "components": 2385,
+    "concepts": 2323,
+    "observations": 2334,
     "repos": 272,
-    "terms": 2309
+    "terms": 2320
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -162,7 +162,6 @@
     "hanselime/paqet",
     "hashicorp/go-immutable-radix",
     "hashicorp/go-retryablehttp",
-    "hashicorp/go-version",
     "hashicorp/hcl",
     "hashicorp/raft",
     "hashicorp/terraform-provider-azurerm",
@@ -201,6 +200,7 @@
     "kubernetes/kube-state-metrics",
     "kubernetes/kubectl",
     "kubernetes/test-infra",
+    "kyverno/kyverno",
     "larksuite/cli",
     "lesismal/nbio",
     "libp2p/go-libp2p",

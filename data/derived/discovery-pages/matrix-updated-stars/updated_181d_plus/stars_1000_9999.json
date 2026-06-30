@@ -3,7 +3,7 @@
     "components": 10834,
     "concepts": 9755,
     "observations": 9769,
-    "repos": 2499,
+    "repos": 2500,
     "terms": 9614
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1531,6 +1531,7 @@
     "moby/hyperkit",
     "mobz/elasticsearch-head",
     "modelscope/3D-Speaker",
+    "ModelTC/LightX2V-Qwen-Image-Lightning",
     "MohammadYounes/rtlcss",
     "mojombo/chronic",
     "monaqa/dial.nvim",

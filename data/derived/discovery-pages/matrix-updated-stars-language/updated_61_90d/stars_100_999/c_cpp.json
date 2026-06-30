@@ -3,7 +3,7 @@
     "components": 1274,
     "concepts": 1349,
     "observations": 1353,
-    "repos": 250,
+    "repos": 251,
     "terms": 1339
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -117,6 +117,7 @@
     "heal-research/operon",
     "highfive-devs/highfive",
     "hku-mars/FAST-Calib",
+    "HybridRobotics/motion_tracking_controller",
     "iamaisim/ProjectAirSim",
     "ifduyue/python-xxhash",
     "intel/intel-graphics-compiler",

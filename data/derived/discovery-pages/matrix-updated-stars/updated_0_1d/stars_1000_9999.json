@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1226,
-    "concepts": 573,
-    "observations": 576,
-    "repos": 58,
-    "terms": 571
+    "components": 1471,
+    "concepts": 606,
+    "observations": 609,
+    "repos": 60,
+    "terms": 605
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "apache/datafusion-ballista",
@@ -21,6 +21,7 @@
     "CloudCompare/CloudCompare",
     "crc-org/crc",
     "dkron-io/dkron",
+    "dmtrKovalenko/fff",
     "ebullient/obsidian-admonition",
     "eclipse-jdtls/eclipse.jdt.ls",
     "eclipse-openvsx/openvsx",
@@ -31,7 +32,6 @@
     "firebase/flutterfire",
     "fla-org/flash-linear-attention",
     "google-deepmind/optax",
-    "googleapis/google-api-php-client",
     "googleapis/google-cloud-go",
     "googleapis/google-cloud-node",
     "harbor-framework/harbor",
@@ -44,17 +44,18 @@
     "kubernetes-sigs/karpenter",
     "kurrent-io/KurrentDB",
     "libbitcoin/libbitcoin-system",
+    "meta-pytorch/captum",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "microsoft/aspire",
     "microsoft/aspire-samples",
     "modelscope/FunClip",
+    "module-federation/core",
     "nodenv/nodenv",
     "nsfw-filter/nsfw-filter",
     "off-grid-ai/mobile",
     "ogx-ai/ogx",
     "okd-project/okd",
-    "opencv/opencv-python",
     "pillarjs/iconv-lite",
     "podman-desktop/podman-desktop",
     "PrimeIntellect-ai/verifiers",
@@ -69,6 +70,7 @@
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "TrenchBroom/TrenchBroom",
+    "typescript-language-server/typescript-language-server",
     "vuejs/language-tools",
     "web-platform-tests/wpt"
   ]

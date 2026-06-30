@@ -3,7 +3,7 @@
     "components": 241,
     "concepts": 255,
     "observations": 255,
-    "repos": 46,
+    "repos": 45,
     "terms": 255
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "alsa-project/alsa-lib",
@@ -37,7 +37,6 @@
     "gen2brain/malgo",
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
-    "HybridRobotics/motion_tracking_controller",
     "KDE/breeze-icons",
     "kiron1/bazel-compile-commands",
     "libsdl-org/SDL_image",

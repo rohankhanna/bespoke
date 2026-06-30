@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-30T05:58:41.842453+00:00`
+Generated at: `2026-06-30T08:19:03.846649+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -43,7 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [liquidmetal-dev/cluster-api-provider-microvm](https://github.com/liquidmetal-dev/cluster-api-provider-microvm) | 145 | 2025-11-24T03:38:20Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [fumiama/RVC-Models-Downloader](https://github.com/fumiama/RVC-Models-Downloader) | 143 | 2025-11-20T09:06:09Z | Go | CLI | 12 | 3 | 14 | 14 |
 | [spacemeshos/go-spacemesh](https://github.com/spacemeshos/go-spacemesh) | 777 | 2025-11-20T02:14:21Z | Go | Infrastructure/tooling | 14 | 16 | 14 | 14 |
-| [DaoCloud/crproxy](https://github.com/DaoCloud/crproxy) | 553 | 2025-11-20T01:04:47Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [DaoCloud/crproxy](https://github.com/DaoCloud/crproxy) | 554 | 2025-11-20T01:04:47Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [google/rpmpack](https://github.com/google/rpmpack) | 129 | 2025-11-18T15:43:44Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [containers/storage](https://github.com/containers/storage) | 628 | 2025-11-13T16:41:37Z | Go | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [DyegoCosta/snake-game](https://github.com/DyegoCosta/snake-game) | 267 | 2025-11-04T14:19:06Z | Go | CLI | 5 | 0 | 5 | 5 |
@@ -283,8 +283,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [viktomas/godu](https://github.com/viktomas/godu) | 581 | 2024-05-26T12:02:18Z | Go | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [jsonnet-bundler/jsonnet-bundler](https://github.com/jsonnet-bundler/jsonnet-bundler) | 580 | 2025-10-02T14:08:58Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [Azure/aad-pod-identity](https://github.com/Azure/aad-pod-identity) | 561 | 2023-10-02T20:34:21Z | Go | Infrastructure/tooling | 9 | 6 | 9 | 9 |
+| [DaoCloud/crproxy](https://github.com/DaoCloud/crproxy) | 554 | 2025-11-20T01:04:47Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [gotify/cli](https://github.com/gotify/cli) | 554 | 2025-09-14T18:04:40Z | Go | CLI | 5 | 6 | 5 | 5 |
-| [DaoCloud/crproxy](https://github.com/DaoCloud/crproxy) | 553 | 2025-11-20T01:04:47Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [mozilla/tls-observatory](https://github.com/mozilla/tls-observatory) | 545 | 2025-09-23T14:33:32Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [namsral/flag](https://github.com/namsral/flag) | 531 | 2023-05-23T18:05:34Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [h12w/socks](https://github.com/h12w/socks) | 528 | 2022-10-17T09:28:32Z | Go | Library | 5 | 0 | 5 | 5 |

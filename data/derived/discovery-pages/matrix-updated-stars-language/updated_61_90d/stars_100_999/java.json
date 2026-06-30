@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 453,
-    "concepts": 550,
-    "observations": 550,
+    "components": 441,
+    "concepts": 535,
+    "observations": 535,
     "repos": 70,
-    "terms": 548
+    "terms": 533
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -42,7 +42,6 @@
     "FasterXML/jackson-dataformats-text",
     "FasterXML/jackson-modules-base",
     "FasterXML/woodstox",
-    "fnproject/fdk-java",
     "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
@@ -62,12 +61,14 @@
     "michel-kraemer/bson4jackson",
     "microsoft/Generative-AI-for-beginners-java",
     "microsoft/java-debug",
+    "microsoft/LangChain4j-for-Beginners",
     "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "operator-framework/java-operator-sdk",
+    "palantir/javapoet",
     "quarkiverse/quarkus-langchain4j",
     "quarkiverse/quarkus-operator-sdk",
     "reactor/reactor-addons",
@@ -76,7 +77,6 @@
     "SAP/SapMachine",
     "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",
-    "spring-ai-alibaba/Lynxe",
     "swagger-api/swagger-inflector",
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",

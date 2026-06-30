@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 703,
-    "concepts": 1143,
-    "observations": 1145,
+    "components": 702,
+    "concepts": 1139,
+    "observations": 1141,
     "repos": 287,
-    "terms": 1139
+    "terms": 1135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "0k/shyaml",
     "absadiki/pywhispercpp",
@@ -78,7 +78,6 @@
     "CodeClash-ai/CodeClash",
     "conan-io/cmake-conan",
     "corteva/rioxarray",
-    "corydolphin/flask-cors",
     "csslc/PiSA-SR",
     "DanCardin/cappa",
     "DanceTrack/DanceTrack",
@@ -221,6 +220,7 @@
     "p-doom/jasmine",
     "pappasam/jedi-language-server",
     "pinokiofactory/cogstudio",
+    "pnkraemer/matfree",
     "PramaLLC/BEN2",
     "psf/pyperf",
     "PyCQA/modernize",

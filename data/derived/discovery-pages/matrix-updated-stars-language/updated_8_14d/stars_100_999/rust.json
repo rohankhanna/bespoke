@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 2,
-    "terms": 18
+    "components": 41,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 3,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "Avarok-Cybersecurity/atlas",
-    "GitoxideLabs/cargo-smart-release"
+    "GitoxideLabs/cargo-smart-release",
+    "rust-nvml/nvml-wrapper"
   ]
 }

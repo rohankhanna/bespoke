@@ -4,13 +4,13 @@
     "concepts": 15392,
     "observations": 15449,
     "repos": 1730,
-    "terms": 15345
+    "terms": 15341
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",

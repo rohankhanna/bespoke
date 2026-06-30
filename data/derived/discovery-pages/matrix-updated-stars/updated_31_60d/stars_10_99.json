@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1526,
-    "concepts": 986,
-    "observations": 992,
-    "repos": 186,
-    "terms": 978
+    "components": 1497,
+    "concepts": 962,
+    "observations": 968,
+    "repos": 183,
+    "terms": 954
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "aggre/ullr",
@@ -23,7 +23,6 @@
     "analogdevicesinc/msdk",
     "angellist/boba",
     "angular/angular-devkit-build-angular-builds",
-    "ankitpokhrel/shopctl",
     "anniegbryant/subcortex_visualization",
     "ANTsX/ANTsRNet",
     "apache/casbin-actix-casbin-auth",
@@ -121,7 +120,6 @@
     "jenkinsci/workflow-api-plugin",
     "jfly/shtuff",
     "joshsymonds/cc-tools",
-    "julia-actions/cache",
     "julia-actions/install-juliaup",
     "JuliaCon/www.juliacon.org",
     "JuliaGeo/GeometryOps.jl",
@@ -178,7 +176,6 @@
     "siketyan/intellij-rustowl",
     "skilld-dev/retriv",
     "standardrb/standard-ruby-action",
-    "stdlib-js/google-summer-of-code",
     "stefantalpalaru/gentoo-overlay",
     "suzuki-shunsuke/pinact-action",
     "taginfo/taginfo-projects",

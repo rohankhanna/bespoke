@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1020,
-    "concepts": 158,
-    "observations": 158,
-    "repos": 57,
-    "terms": 160
+    "components": 1002,
+    "concepts": 154,
+    "observations": 154,
+    "repos": 56,
+    "terms": 156
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -29,7 +29,6 @@
     "cahamilton/css-property-sort-order-smacss",
     "chaijs/assertion-error",
     "ClickHouse/opentelemetry-demo",
-    "connectrpc/connect-playwright-es",
     "dannyhw/react-native-storybook-starter",
     "getyourguide/vue-class-migrator",
     "googleapis/google-cloud-node-core",

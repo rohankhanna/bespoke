@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 436,
-    "concepts": 327,
-    "observations": 327,
-    "repos": 61,
-    "terms": 326
+    "components": 424,
+    "concepts": 321,
+    "observations": 321,
+    "repos": 60,
+    "terms": 320
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "Ai00-X/ai00_server",
@@ -65,7 +65,6 @@
     "salesforce/UniControl",
     "scientific-python/spin",
     "SpecterOps/AzureHound",
-    "tc39/proposal-decimal",
     "the-database/traiNNer-redux",
     "thu-ml/DiT-Extrapolation",
     "ueberauth/oauth2",

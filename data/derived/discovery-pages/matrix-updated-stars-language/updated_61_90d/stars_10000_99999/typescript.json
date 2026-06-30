@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9313,
-    "concepts": 1334,
-    "observations": 1343,
-    "repos": 131,
-    "terms": 1347
+    "components": 9434,
+    "concepts": 1379,
+    "observations": 1388,
+    "repos": 134,
+    "terms": 1392
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -130,6 +130,8 @@
     "slopus/happy",
     "solidjs/solid",
     "styled-components/styled-components",
+    "TanStack/query",
+    "TanStack/router",
     "tanweai/pua",
     "tobi/qmd",
     "toon-format/toon",
@@ -142,6 +144,7 @@
     "VSCodeVim/Vim",
     "vueuse/vueuse",
     "web-infra-dev/midscene",
+    "webpro-nl/knip",
     "wojtekmaj/react-pdf",
     "xtermjs/xterm.js",
     "xyflow/xyflow"

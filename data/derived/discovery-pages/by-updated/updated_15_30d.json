@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1158,
-    "concepts": 756,
-    "observations": 759,
-    "repos": 153,
-    "terms": 745
+    "components": 1146,
+    "concepts": 750,
+    "observations": 753,
+    "repos": 152,
+    "terms": 739
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "adamchainz/blacken-docs",
@@ -150,7 +150,6 @@
     "scientific-python/spin",
     "SpecterOps/AzureHound",
     "symgraph/BinAssistMCP",
-    "tc39/proposal-decimal",
     "tee-ar-ex/trx-python",
     "Tencent-Hunyuan/HY-WorldPlay",
     "the-database/traiNNer-redux",

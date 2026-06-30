@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100,000 to 999,999 stars · Python
 
-Generated at: `2026-06-30T05:58:41.842453+00:00`
+Generated at: `2026-06-30T08:19:03.846649+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -28,12 +28,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 150206 | 2026-06-30T00:59:27Z | Python | Infrastructure/tooling | 12 | 19 | 12 | 12 |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 118796 | 2026-06-30T00:55:31Z | Python | Infrastructure/tooling | 14 | 12 | 14 | 14 |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 140513 | 2026-06-29T19:47:27Z | Python | Infrastructure/tooling | 21 | 16 | 21 | 21 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 140542 | 2026-06-29T19:47:27Z | Python | Infrastructure/tooling | 21 | 16 | 21 | 21 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 150206 | 2026-06-30T00:59:27Z | Python | Infrastructure/tooling | 12 | 19 | 12 | 12 |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 140513 | 2026-06-29T19:47:27Z | Python | Infrastructure/tooling | 21 | 16 | 21 | 21 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 140542 | 2026-06-29T19:47:27Z | Python | Infrastructure/tooling | 21 | 16 | 21 | 21 |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 118796 | 2026-06-30T00:55:31Z | Python | Infrastructure/tooling | 14 | 12 | 14 | 14 |

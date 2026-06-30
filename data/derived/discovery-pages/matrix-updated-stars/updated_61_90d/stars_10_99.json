@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10570,
-    "concepts": 4906,
-    "observations": 4927,
-    "repos": 1210,
-    "terms": 4957
+    "components": 10599,
+    "concepts": 4930,
+    "observations": 4951,
+    "repos": 1213,
+    "terms": 4981
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -122,6 +122,7 @@
     "ankane/stl-cpp",
     "ankane/torchaudio-ruby",
     "ankane/trove",
+    "ankitpokhrel/shopctl",
     "ankurhanda/robot-assets",
     "ansible/ansible-compat",
     "ant-research/pointelligence",
@@ -682,6 +683,7 @@
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
     "JuergenFleiss/atrain_core",
+    "julia-actions/cache",
     "julia-actions/julia-format",
     "JuliaAI/LearnAPI.jl",
     "JuliaArrays/StaticArrayInterface.jl",
@@ -1115,6 +1117,7 @@
     "status-im/nim-eth",
     "status-im/nim-protobuf-serialization",
     "status-im/nim-ssz-serialization",
+    "stdlib-js/google-summer-of-code",
     "stdware/qmsetup",
     "steipete/homebrew-tap",
     "sublimelsp/LSP-marksman",

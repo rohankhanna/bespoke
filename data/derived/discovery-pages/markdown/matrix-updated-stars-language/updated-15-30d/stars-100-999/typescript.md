@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-30T05:58:41.842453+00:00`
+Generated at: `2026-06-30T08:19:03.846649+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -27,13 +27,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [lobehub/lobe-cli-toolbox](https://github.com/lobehub/lobe-cli-toolbox) | 413 | 2026-06-09T08:14:59Z | TypeScript | CLI | 15 | 38 | 15 | 15 |
-| [MetaCubeX/Yacd-meta](https://github.com/MetaCubeX/Yacd-meta) | 742 | 2026-06-04T13:37:52Z | TypeScript | Infrastructure/tooling | 1 | 86 | 1 | 1 |
+| [MetaCubeX/Yacd-meta](https://github.com/MetaCubeX/Yacd-meta) | 743 | 2026-06-04T13:37:52Z | TypeScript | Infrastructure/tooling | 1 | 86 | 1 | 1 |
 | [niivue/niivue](https://github.com/niivue/niivue) | 460 | 2026-06-03T13:29:18Z | TypeScript | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [MetaCubeX/Yacd-meta](https://github.com/MetaCubeX/Yacd-meta) | 742 | 2026-06-04T13:37:52Z | TypeScript | Infrastructure/tooling | 1 | 86 | 1 | 1 |
+| [MetaCubeX/Yacd-meta](https://github.com/MetaCubeX/Yacd-meta) | 743 | 2026-06-04T13:37:52Z | TypeScript | Infrastructure/tooling | 1 | 86 | 1 | 1 |
 | [niivue/niivue](https://github.com/niivue/niivue) | 460 | 2026-06-03T13:29:18Z | TypeScript | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [lobehub/lobe-cli-toolbox](https://github.com/lobehub/lobe-cli-toolbox) | 413 | 2026-06-09T08:14:59Z | TypeScript | CLI | 15 | 38 | 15 | 15 |

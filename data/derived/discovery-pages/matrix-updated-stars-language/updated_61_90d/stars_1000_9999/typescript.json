@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10592,
-    "concepts": 2044,
-    "observations": 2050,
-    "repos": 254,
-    "terms": 2148
+    "components": 10650,
+    "concepts": 2070,
+    "observations": 2076,
+    "repos": 257,
+    "terms": 2174
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -74,6 +74,7 @@
     "clerk/javascript",
     "cloudflare/agents",
     "cloudflare/agents-starter",
+    "cloudflare/workers-sdk",
     "coder/ghostty-web",
     "coder/mux",
     "Comcast/react-data-grid",
@@ -131,6 +132,7 @@
     "huozhi/bunchee",
     "i18next/next-i18next",
     "IgnisDa/ryot",
+    "informalsystems/quint",
     "iorate/ublacklist",
     "ipfs/helia",
     "itgalaxy/favicons",
@@ -219,6 +221,7 @@
     "redhat-developer/yaml-language-server",
     "Redocly/redocly-cli",
     "remotion-dev/github-unwrapped",
+    "remotion-dev/skills",
     "retorquere/zotero-better-bibtex",
     "rolldown/tsdown",
     "rustmailer/bichon",

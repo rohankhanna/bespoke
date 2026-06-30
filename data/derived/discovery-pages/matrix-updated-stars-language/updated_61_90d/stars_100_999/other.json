@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4260,
-    "concepts": 3352,
-    "observations": 3357,
-    "repos": 588,
-    "terms": 3365
+    "components": 4275,
+    "concepts": 3363,
+    "observations": 3368,
+    "repos": 590,
+    "terms": 3376
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
@@ -182,6 +182,7 @@
     "cshum/vipsgen",
     "Cysharp/RuntimeUnitTestToolkit",
     "dart-lang/build",
+    "dart-lang/native",
     "dart-lang/shelf",
     "dart-lang/test",
     "dart-lang/tools",
@@ -305,6 +306,7 @@
     "Iron-E/nvim-highlite",
     "islandoftex/arara",
     "istio/istio.io",
+    "jackielii/skhd.zig",
     "JakeWharton/dependency-tree-diff",
     "janestreet/async",
     "janestreet/torch",

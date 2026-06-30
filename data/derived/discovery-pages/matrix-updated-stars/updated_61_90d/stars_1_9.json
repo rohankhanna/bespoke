@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4323,
-    "concepts": 2025,
-    "observations": 2029,
+    "components": 4325,
+    "concepts": 2022,
+    "observations": 2026,
     "repos": 539,
-    "terms": 2051
+    "terms": 2048
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xble/dotagent.nvim",
@@ -165,7 +165,6 @@
     "cpu/wycheproof",
     "criccomini/uniffi-bindgen-node-js",
     "csm-actions/demo-server",
-    "csm-actions/docs",
     "csm-actions/update-branch-action",
     "cucumber/.github",
     "curiousdannii/asyncglk",
@@ -498,6 +497,7 @@
     "stdlib-js/complex-float64-reviver",
     "stdlib-js/math-base-special-erfcinv",
     "stdlib-js/math-base-special-erfinv",
+    "stdlib-js/meetings",
     "stdlib-js/ndarray-array",
     "stdlib-js/ndarray-ctor",
     "stdlib-js/ndarray-dtype",

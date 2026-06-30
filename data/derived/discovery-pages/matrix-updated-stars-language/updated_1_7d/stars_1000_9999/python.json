@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 131,
-    "observations": 132,
-    "repos": 13,
-    "terms": 131
+    "components": 115,
+    "concepts": 140,
+    "observations": 142,
+    "repos": 14,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "aws/serverless-application-model",
     "clearml/clearml",
@@ -24,6 +24,7 @@
     "joblib/joblib",
     "mljar/mercury",
     "modelscope/ms-agent",
+    "opencv/opencv-python",
     "PaddlePaddle/PaddleClas",
     "pyvista/pyvista",
     "Tencent-Hunyuan/HunyuanImage-3.0"

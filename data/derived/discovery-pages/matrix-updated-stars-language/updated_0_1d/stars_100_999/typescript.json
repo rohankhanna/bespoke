@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 265,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 8,
-    "terms": 62
+    "components": 256,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 7,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "abaplint/transpiler",
     "electron/packager",
-    "hexabot-ai/Hexabot",
     "matter-js/matter.js",
     "mightyiam/eslint-config-love",
     "stx-labs/stacks.js",

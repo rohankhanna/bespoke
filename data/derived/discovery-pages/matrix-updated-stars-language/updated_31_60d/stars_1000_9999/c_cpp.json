@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 596,
-    "concepts": 533,
-    "observations": 533,
-    "repos": 58,
-    "terms": 530
+    "components": 583,
+    "concepts": 510,
+    "observations": 510,
+    "repos": 56,
+    "terms": 507
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "Andersbakken/rtags",
@@ -27,7 +27,6 @@
     "doxygen/doxygen",
     "DrTimothyAldenDavis/SuiteSparse",
     "facebook/mvfst",
-    "facebookincubator/fizz",
     "facebookincubator/katran",
     "floooh/sokol",
     "FluidSynth/fluidsynth",
@@ -70,7 +69,6 @@
     "uxlfoundation/oneTBB",
     "vincentlaucsb/csv-parser",
     "WarmUpTill/SceneSwitcher",
-    "xtensor-stack/xsimd",
     "zeux/volk"
   ]
 }

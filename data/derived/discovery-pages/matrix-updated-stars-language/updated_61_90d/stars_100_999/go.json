@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1339,
-    "concepts": 1113,
-    "observations": 1119,
-    "repos": 176,
-    "terms": 1121
+    "components": 1359,
+    "concepts": 1138,
+    "observations": 1144,
+    "repos": 178,
+    "terms": 1146
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -167,6 +167,7 @@
     "phuslu/log",
     "pion/ice",
     "pion/mediadevices",
+    "pion/stun",
     "pires/go-proxyproto",
     "prehisle/relay-pulse",
     "prometheus/common",
@@ -180,6 +181,7 @@
     "snowflakedb/gosnowflake",
     "spiffe/go-spiffe",
     "stefanlogue/meteor",
+    "suzuki-shunsuke/ghtkn",
     "suzuki-shunsuke/pinact",
     "terraform-linters/tflint-ruleset-aws",
     "terraform-linters/tflint-ruleset-azurerm",

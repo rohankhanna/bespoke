@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 566,
-    "concepts": 249,
-    "observations": 249,
-    "repos": 35,
-    "terms": 249
+    "components": 589,
+    "concepts": 252,
+    "observations": 252,
+    "repos": 37,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "abaplint/transpiler",
@@ -22,6 +22,7 @@
     "astroautomata/SymbolicRegression.jl",
     "aws-cloudformation/cfn-lint-visual-studio-code",
     "bazel-contrib/rules_jvm_external",
+    "bazel-contrib/rules_kotlin",
     "browserslist/caniuse-lite",
     "ChristopherHX/runner.server",
     "cloudfoundry/credhub",
@@ -33,9 +34,9 @@
     "electron/packager",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "googlefonts/ufo2ft",
-    "hexabot-ai/Hexabot",
     "ipsilon/evmone",
     "jupyter-server/jupyter_server",
+    "karafka/rdkafka-ruby",
     "ldproxy/ldproxy",
     "matter-js/matter.js",
     "mightyiam/eslint-config-love",
@@ -45,6 +46,7 @@
     "scverse/rapids-singlecell",
     "servo/stylo",
     "stx-labs/stacks.js",
+    "tc39/proposal-decimal",
     "the-database/mpv-AnimeJaNai",
     "tox-dev/filelock",
     "unplugin/unplugin-imagemin"

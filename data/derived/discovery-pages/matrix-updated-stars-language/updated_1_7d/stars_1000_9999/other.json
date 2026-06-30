@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 129,
-    "observations": 134,
-    "repos": 15,
-    "terms": 129
+    "components": 178,
+    "concepts": 132,
+    "observations": 137,
+    "repos": 16,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
@@ -23,6 +23,7 @@
     "dotnet/reactive",
     "dotnet/Silk.NET",
     "google-deepmind/tapnet",
+    "googleapis/google-api-php-client",
     "googleapis/google-auth-library-php",
     "jenkinsci/docker",
     "licensee/licensed",

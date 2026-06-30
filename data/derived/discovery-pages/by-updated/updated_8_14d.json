@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1739,
-    "concepts": 928,
-    "observations": 932,
-    "repos": 141,
-    "terms": 927
+    "components": 1772,
+    "concepts": 932,
+    "observations": 935,
+    "repos": 142,
+    "terms": 931
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "ABRG-Models/BarrelEmerge",
     "actions/container-toolkit-action",
@@ -93,7 +93,6 @@
     "localai-org/privacy-filter.cpp",
     "lxgw/B5XiZhi",
     "macfuse/macfuse",
-    "meta-pytorch/captum",
     "microsoft/PhiCookBook",
     "mozilla-ai/any-guardrail",
     "mozilla-ai/otari",
@@ -131,6 +130,7 @@
     "reza-gholizade/k8s-mcp-server",
     "richiejp/VoxInput",
     "rordenlab/dcm2niix",
+    "rust-nvml/nvml-wrapper",
     "safe-fndn/safe-singleton-factory",
     "safetensors/safetensors",
     "standardrb/standard",
@@ -138,6 +138,7 @@
     "TanStack/form",
     "tape-testing/tape",
     "the-database/VideoJaNai",
+    "thegeeklab/hugo-geekdoc",
     "TheTom/llama-cpp-turboquant",
     "tinted-theming/tinted-xresources",
     "tinygrad/tinygrad",

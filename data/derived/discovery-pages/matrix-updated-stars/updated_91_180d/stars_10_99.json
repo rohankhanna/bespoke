@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3675,
-    "concepts": 2182,
-    "observations": 2189,
-    "repos": 731,
-    "terms": 2177
+    "components": 3657,
+    "concepts": 2178,
+    "observations": 2185,
+    "repos": 730,
+    "terms": 2173
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xBigBoss/vscode-bootty",
@@ -236,7 +236,6 @@
     "concourse/pool-resource",
     "conda-forge/cfep",
     "conda-forge/spacy-feedstock",
-    "connectrpc/connect-playwright-es",
     "containerd/release-tool",
     "containers/image_build",
     "contributte/monolog",

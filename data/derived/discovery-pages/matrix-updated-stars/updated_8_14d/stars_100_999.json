@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 531,
-    "concepts": 279,
-    "observations": 280,
-    "repos": 42,
-    "terms": 278
+    "components": 567,
+    "concepts": 294,
+    "observations": 295,
+    "repos": 44,
+    "terms": 294
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "actions/container-toolkit-action",
     "adtzlr/felupe",
@@ -51,8 +51,10 @@
     "pyOpenSci/software-submission",
     "reza-gholizade/k8s-mcp-server",
     "richiejp/VoxInput",
+    "rust-nvml/nvml-wrapper",
     "safe-fndn/safe-singleton-factory",
     "the-database/VideoJaNai",
+    "thegeeklab/hugo-geekdoc",
     "tree-sitter-grammars/tree-sitter-markdown",
     "wevm/abitype"
   ]

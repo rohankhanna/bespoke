@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1102,
-    "concepts": 540,
-    "observations": 546,
-    "repos": 62,
-    "terms": 539
+    "components": 863,
+    "concepts": 519,
+    "observations": 526,
+    "repos": 61,
+    "terms": 512
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
@@ -29,7 +29,6 @@
     "conventional-changelog/conventional-changelog",
     "cvxpy/cvxpy",
     "datalevin/datalevin",
-    "dmtrKovalenko/fff",
     "dotnet/reactive",
     "dotnet/Silk.NET",
     "eclipse-paho/paho.mqtt.python",
@@ -38,6 +37,7 @@
     "godot-rust/gdext",
     "google-deepmind/tapnet",
     "googleapis/google-api-go-client",
+    "googleapis/google-api-php-client",
     "googleapis/google-auth-library-php",
     "huggingface/optimum-quanto",
     "InsightSoftwareConsortium/ITK",
@@ -55,10 +55,10 @@
     "mljar/mercury",
     "modelcontextprotocol/modelcontextprotocol",
     "modelscope/ms-agent",
-    "module-federation/core",
     "moonshine-ai/moonshine",
     "MrNeRF/LichtFeld-Studio",
     "olric-data/olric",
+    "opencv/opencv-python",
     "PaddlePaddle/PaddleClas",
     "paralleldrive/cuid",
     "PoseLib/PoseLib",
@@ -69,7 +69,6 @@
     "swiftlang/swift-llbuild",
     "Tencent-Hunyuan/HunyuanImage-3.0",
     "TryGhost/node-sqlite3",
-    "typescript-language-server/typescript-language-server",
     "ufbx/ufbx",
     "ultrajson/ultrajson",
     "vale-cli/vale",

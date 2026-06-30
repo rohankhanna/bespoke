@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 100,
-    "observations": 101,
-    "repos": 18,
-    "terms": 100
+    "components": 111,
+    "concepts": 80,
+    "observations": 81,
+    "repos": 15,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
-    "bazel-contrib/rules_kotlin",
     "chebfun/chebfun",
     "clj-commons/rewrite-clj",
     "devcontainers/devcontainers.github.io",
@@ -26,11 +25,9 @@
     "JuliaGPU/Metal.jl",
     "JuliaGPU/oneAPI.jl",
     "JuliaLinearAlgebra/AppleAccelerate.jl",
-    "karafka/rdkafka-ruby",
     "lambdalisue/vim-nerdfont",
     "meshcat-dev/meshcat",
     "redis/redis-om-dotnet",
-    "ROCm/hipBLASLt",
-    "thegeeklab/hugo-geekdoc"
+    "ROCm/hipBLASLt"
   ]
 }

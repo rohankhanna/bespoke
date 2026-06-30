@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2409,
-    "concepts": 2308,
-    "observations": 2318,
-    "repos": 442,
-    "terms": 2310
+    "components": 2405,
+    "concepts": 2306,
+    "observations": 2316,
+    "repos": 441,
+    "terms": 2308
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -344,7 +344,6 @@
     "PKU-YuanGroup/ChronoMagic-Bench",
     "PKU-YuanGroup/ConsisID",
     "plotly/Kaleido",
-    "pnkraemer/matfree",
     "pnnx/pnnx",
     "pre-commit/mirrors-mypy",
     "Project-MONAI/VISTA",

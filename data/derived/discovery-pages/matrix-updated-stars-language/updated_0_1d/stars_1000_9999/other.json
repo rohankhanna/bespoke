@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 10,
-    "terms": 102
+    "components": 127,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 9,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "elixir-grpc/grpc",
     "firebase/flutterfire",
-    "googleapis/google-api-php-client",
     "kurrent-io/KurrentDB",
     "microsoft/aspire",
     "microsoft/aspire-samples",

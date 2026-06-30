@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 661,
-    "concepts": 815,
-    "observations": 817,
-    "repos": 83,
-    "terms": 812
+    "components": 676,
+    "concepts": 834,
+    "observations": 836,
+    "repos": 85,
+    "terms": 831
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -65,6 +65,7 @@
     "iterate-ch/cyberduck",
     "jboss-javassist/javassist",
     "JetBrains/intellij-sdk-code-samples",
+    "JetBrains/JetBrainsRuntime",
     "jhipster/prettier-java",
     "jline/jline3",
     "JodaOrg/joda-time",
@@ -96,6 +97,7 @@
     "spring-projects/spring-ai",
     "spring-projects/spring-restdocs",
     "swagger-api/swagger-core",
+    "testng-team/testng",
     "tlaplus/tlaplus"
   ]
 }

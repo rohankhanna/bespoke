@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 421,
-    "concepts": 409,
-    "observations": 410,
-    "repos": 44,
-    "terms": 407
+    "components": 401,
+    "concepts": 384,
+    "observations": 385,
+    "repos": 42,
+    "terms": 382
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "andreykaipov/goobs",
     "apache/iceberg-go",
@@ -41,7 +41,6 @@
     "osmosis-labs/osmosis",
     "pion/interceptor",
     "pion/rtp",
-    "pion/stun",
     "pkoukk/tiktoken-go",
     "pulumi/pulumi-aws",
     "pulumi/pulumi-azure",
@@ -54,7 +53,6 @@
     "sergelogvinov/karpenter-provider-proxmox",
     "sergelogvinov/proxmox-cloud-controller-manager",
     "suzuki-shunsuke/ghalint",
-    "suzuki-shunsuke/ghtkn",
     "sylabs/singularity",
     "toml-lang/toml-test",
     "yaml/go-yaml"

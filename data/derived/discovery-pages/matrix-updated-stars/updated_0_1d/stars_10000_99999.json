@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1218,
-    "concepts": 625,
-    "observations": 629,
-    "repos": 46,
-    "terms": 631
+    "components": 1213,
+    "concepts": 603,
+    "observations": 607,
+    "repos": 45,
+    "terms": 609
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "anthropics/claude-cookbooks",
@@ -21,7 +21,6 @@
     "crossplane/crossplane",
     "Dao-AILab/flash-attention",
     "datalab-to/marker",
-    "deepspeedai/DeepSpeed",
     "DioxusLabs/dioxus",
     "fastapi/fastapi",
     "gastownhall/beads",

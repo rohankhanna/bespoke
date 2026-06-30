@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 655,
-    "concepts": 1205,
-    "observations": 1205,
+    "components": 660,
+    "concepts": 1221,
+    "observations": 1221,
     "repos": 221,
-    "terms": 1192
+    "terms": 1208
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -33,6 +33,7 @@
     "ARISE-Initiative/robomimic",
     "ARISE-Initiative/robosuite",
     "astanin/python-tabulate",
+    "atlassian-api/atlassian-python-api",
     "aws-cloudformation/aws-cloudformation-templates",
     "baaivision/Emu",
     "baaivision/Emu3",
@@ -143,7 +144,6 @@
     "Minqi824/ADBench",
     "miolini/autoresearch-macos",
     "mjpost/sacrebleu",
-    "ModelTC/LightX2V-Qwen-Image-Lightning",
     "MontrealCorpusTools/Montreal-Forced-Aligner",
     "mosaicml/composer",
     "mosaicml/llm-foundry",

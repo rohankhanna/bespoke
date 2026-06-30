@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-30T05:58:41.842453+00:00`
+Generated at: `2026-06-30T08:19:03.846649+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mui/material-ui](https://github.com/mui/material-ui) | 98497 | 2026-06-30T07:37:43Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
 | [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41190 | 2026-06-29T20:54:49Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
-| [mui/material-ui](https://github.com/mui/material-ui) | 98496 | 2026-06-29T15:25:56Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mui/material-ui](https://github.com/mui/material-ui) | 98496 | 2026-06-29T15:25:56Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
+| [mui/material-ui](https://github.com/mui/material-ui) | 98497 | 2026-06-30T07:37:43Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
 | [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41190 | 2026-06-29T20:54:49Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |

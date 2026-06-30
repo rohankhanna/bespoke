@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 232,
-    "concepts": 207,
-    "observations": 207,
-    "repos": 20,
-    "terms": 204
+    "components": 187,
+    "concepts": 177,
+    "observations": 177,
+    "repos": 18,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
-    "apache/thrift",
     "blender/blender",
     "capnproto/capnproto",
     "DayBreak-u/chineseocr_lite",
@@ -31,7 +30,6 @@
     "openvinotoolkit/openvino",
     "PointCloudLibrary/pcl",
     "protocolbuffers/protobuf",
-    "SerenityOS/serenity",
     "simdjson/simdjson",
     "Z3Prover/z3"
   ]

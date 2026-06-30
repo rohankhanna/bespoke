@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 435,
-    "concepts": 560,
-    "observations": 561,
-    "repos": 103,
-    "terms": 552
+    "components": 438,
+    "concepts": 569,
+    "observations": 570,
+    "repos": 104,
+    "terms": 561
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -102,6 +102,7 @@
     "sqlcipher/sqlcipher",
     "stevengj/nlopt",
     "svenstaro/rofi-calc",
+    "TA-Lib/ta-lib",
     "TechEmpower/FrameworkBenchmarks",
     "TEN-framework/ten-vad",
     "TheAssassin/AppImageLauncher",

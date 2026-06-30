@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 151,
-    "observations": 151,
-    "repos": 26,
-    "terms": 149
+    "components": 124,
+    "concepts": 167,
+    "observations": 167,
+    "repos": 28,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "aws-observability/aws-otel-community",
@@ -26,6 +26,7 @@
     "filip26/titanium-json-ld",
     "fizzed/blaze",
     "fizzed/rocker",
+    "fnproject/fdk-java",
     "googleapis/java-bigquery",
     "GoogleCloudPlatform/cloud-bigtable-examples",
     "heiher/sockstun",
@@ -37,6 +38,7 @@
     "peergos/nabu",
     "scalar-labs/btm",
     "spring-ai-alibaba/deepresearch",
+    "spring-ai-alibaba/Lynxe",
     "spring-io/spring-javaformat",
     "swagger-api/validator-badge",
     "testng-team/testng-eclipse"

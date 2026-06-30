@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5565,
-    "concepts": 1218,
-    "observations": 1220,
-    "repos": 196,
-    "terms": 1266
+    "components": 5639,
+    "concepts": 1228,
+    "observations": 1230,
+    "repos": 197,
+    "terms": 1276
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -167,6 +167,7 @@
     "opendatalab/labelU-Kit",
     "OpenZeppelin/openzeppelin-upgrades",
     "optuna/optuna-dashboard",
+    "ory/docs",
     "ory/kratos-selfservice-ui-node",
     "oxc-project/eslint-plugin-oxlint",
     "privatenumber/get-tsconfig",

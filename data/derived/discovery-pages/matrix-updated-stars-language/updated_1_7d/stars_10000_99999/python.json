@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 168,
-    "observations": 168,
-    "repos": 13,
-    "terms": 168
+    "components": 234,
+    "concepts": 190,
+    "observations": 190,
+    "repos": 14,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "crewAIInc/crewAI",
+    "deepspeedai/DeepSpeed",
     "fossasia/visdom",
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",

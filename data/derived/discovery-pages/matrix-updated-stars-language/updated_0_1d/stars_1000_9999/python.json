@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 185,
-    "observations": 186,
+    "components": 179,
+    "concepts": 188,
+    "observations": 189,
     "repos": 19,
-    "terms": 184
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "aws-cloudformation/cfn-lint",
@@ -21,11 +21,11 @@
     "google-deepmind/optax",
     "harbor-framework/harbor",
     "JuergenFleiss/aTrain",
+    "meta-pytorch/captum",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "modelscope/FunClip",
     "ogx-ai/ogx",
-    "opencv/opencv-python",
     "PrimeIntellect-ai/verifiers",
     "prospector-dev/prospector",
     "redis/redis-om-python",

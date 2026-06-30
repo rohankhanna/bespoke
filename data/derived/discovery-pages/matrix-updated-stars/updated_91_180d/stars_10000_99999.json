@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1726,
-    "concepts": 1082,
-    "observations": 1086,
-    "repos": 177,
-    "terms": 1087
+    "components": 1730,
+    "concepts": 1083,
+    "observations": 1087,
+    "repos": 178,
+    "terms": 1088
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "3b1b/videos",
     "abhisheknaiidu/awesome-github-profile-readme",
@@ -40,6 +40,7 @@
     "chromedp/chromedp",
     "CISOfy/lynis",
     "cleanlab/cleanlab",
+    "cloudwu/skynet",
     "CocoaPods/CocoaPods",
     "ComposioHQ/awesome-claude-skills",
     "cool-RR/PySnooper",

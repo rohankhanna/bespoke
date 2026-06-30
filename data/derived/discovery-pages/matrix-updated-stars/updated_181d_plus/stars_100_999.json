@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 16312,
-    "concepts": 14984,
-    "observations": 15012,
-    "repos": 4881,
-    "terms": 14759
+    "components": 16317,
+    "concepts": 14994,
+    "observations": 15022,
+    "repos": 4883,
+    "terms": 14763
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -427,6 +427,7 @@
     "applied-science/js-interop",
     "AppliedAcousticsChalmers/sound_field_analysis-py",
     "approvals/ApprovalTests.Net",
+    "appwrite/playground-for-flutter",
     "aquasecurity/tfsec-pr-commenter-action",
     "aquaskyline/Clairvoyante",
     "Arachnid/deterministic-deployment-proxy",
@@ -1114,6 +1115,7 @@
     "cornelk/llama-go",
     "Cornell-RelaxML/qtip",
     "Cornell-RelaxML/quip-sharp",
+    "corydolphin/flask-cors",
     "cosmicman-cvpr2024/CosmicMan",
     "cosmos/mainnet",
     "cosmos/relayer",

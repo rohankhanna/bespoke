@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6533,
-    "concepts": 4477,
-    "observations": 4489,
-    "repos": 843,
-    "terms": 4469
+    "components": 6546,
+    "concepts": 4503,
+    "observations": 4515,
+    "repos": 845,
+    "terms": 4495
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -92,6 +92,7 @@
     "ashvardanian/StringZilla",
     "astanin/python-tabulate",
     "athityakumar/colorls",
+    "atlassian-api/atlassian-python-api",
     "atotto/clipboard",
     "autofac/Autofac",
     "automazeio/ccpm",
@@ -365,6 +366,7 @@
     "haml/haml",
     "harbor-framework/terminal-bench",
     "hashicorp/go-metrics",
+    "hashicorp/go-version",
     "hashicorp/memberlist",
     "hashicorp/yamux",
     "heartcombo/has_scope",
@@ -521,7 +523,6 @@
     "mitsuhiko/insta",
     "mjpost/sacrebleu",
     "mmorise/World",
-    "ModelTC/LightX2V-Qwen-Image-Lightning",
     "mono/CppSharp",
     "MontrealCorpusTools/Montreal-Forced-Aligner",
     "Mooncake-Labs/pg_mooncake",
@@ -754,6 +755,7 @@
     "symfony/cache-contracts",
     "syntax-tree/mdast",
     "t0bst4r/home-assistant-matter-hub",
+    "TA-Lib/ta-lib",
     "tabatkins/railroad-diagrams",
     "tancredi/fantasticon",
     "tauri-apps/cargo-mobile2",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 591,
-    "concepts": 415,
-    "observations": 418,
-    "repos": 56,
-    "terms": 413
+    "components": 544,
+    "concepts": 403,
+    "observations": 406,
+    "repos": 53,
+    "terms": 401
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "ansys/pymapdl",
@@ -20,7 +20,6 @@
     "aramis-lab/clinicadl",
     "ashawkey/kiuikit",
     "attackgoat/vk-graph",
-    "bazel-contrib/rules_kotlin",
     "BBC-Esq/Faster-Whisper-Transcriber",
     "bjlittle/geovista",
     "chebfun/chebfun",
@@ -41,6 +40,7 @@
     "google-deepmind/chex",
     "google-deepmind/xmanager",
     "google-research/task_adaptation",
+    "hexabot-ai/Hexabot",
     "huggingface/hf-mcp-server",
     "InsightSoftwareConsortium/ITK-Wasm",
     "Jamorim-esss/pytest-rich",
@@ -50,7 +50,6 @@
     "JuliaGPU/oneAPI.jl",
     "JuliaLinearAlgebra/AppleAccelerate.jl",
     "jupyter/nbclassic",
-    "karafka/rdkafka-ruby",
     "lambdalisue/vim-nerdfont",
     "manzt/anywidget",
     "meshcat-dev/meshcat",
@@ -64,10 +63,8 @@
     "redis/redis-om-spring",
     "ROCm/hipBLAS",
     "ROCm/hipBLASLt",
-    "rust-nvml/nvml-wrapper",
     "SlicerRt/SlicerRT",
     "spring-projects/spring-tools",
-    "thegeeklab/hugo-geekdoc",
     "w3c/trusted-types"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12378,
-    "concepts": 7276,
-    "observations": 7295,
-    "repos": 3438,
-    "terms": 7227
+    "components": 12396,
+    "concepts": 7280,
+    "observations": 7299,
+    "repos": 3439,
+    "terms": 7230
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T05:58:41.842453+00:00",
+  "generated_at": "2026-06-30T08:19:03.846649+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -927,6 +927,7 @@
     "concept-not-found/patcom",
     "conceptofmind/vit-flax",
     "confio/cw-ibc-demo",
+    "connectrpc/connect-playwright-es",
     "conor42/fxz",
     "ContainerSolutions/prom-metrics-check",
     "continuouscalendar/dateutils",
@@ -3192,7 +3193,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
