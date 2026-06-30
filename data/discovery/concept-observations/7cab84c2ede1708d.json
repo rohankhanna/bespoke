@@ -84,7 +84,7 @@
   "normalized_form": "gpu-tests-workflow",
   "observation_id": "7cab84c2ede1708d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T18:49:06.046656+00:00",
+  "observed_at": "2026-06-30T00:47:25.151576+00:00",
   "observed_text": "GPU tests Workflow",
   "source_context_snippet": "GPU tests Workflow",
   "source_file": ".github/workflows/ci-tests-gpu.yml",

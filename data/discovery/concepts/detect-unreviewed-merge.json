@@ -514,11 +514,29 @@
       "observed_at": "2026-06-29T18:49:06.046656+00:00",
       "source_file": ".github/workflows/detect-unreviewed-merge.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-30T00:47:25.151576+00:00",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-30T00:47:25.151576+00:00",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-30T00:47:25.151576+00:00",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
     }
   ],
   "first_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
+  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
   "lexical_providers": [
     "datamuse"
   ],

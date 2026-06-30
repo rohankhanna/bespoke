@@ -500,7 +500,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T22:40:05.761059+00:00",
+  "fetched_at": "2026-06-30T01:07:54.555675+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -553,7 +553,7 @@
     "html_url": "https://github.com/fastapi/fastapi",
     "language": "Python",
     "pushed_at": "2026-06-29T12:43:58Z",
-    "stargazers_count": 99780,
+    "stargazers_count": 99781,
     "topics": [
       "api",
       "async",
@@ -576,7 +576,7 @@
       "uvicorn",
       "web"
     ],
-    "updated_at": "2026-06-29T22:25:29Z"
+    "updated_at": "2026-06-29T23:50:18Z"
   },
   "repo_links": [
     {

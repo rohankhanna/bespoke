@@ -48,7 +48,7 @@
   "normalized_form": "cifuzz",
   "observation_id": "6498ab9a1fa74649",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T18:49:06.046656+00:00",
+  "observed_at": "2026-06-30T00:47:25.151576+00:00",
   "observed_text": "CIFuzz",
   "source_context_snippet": "CIFuzz",
   "source_file": ".github/workflows/cifuzz.yml",

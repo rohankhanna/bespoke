@@ -722,7 +722,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T23:08:36.813237+00:00",
+  "fetched_at": "2026-06-30T01:26:21.535655+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -747,13 +747,13 @@
     "html_url": "https://github.com/javalent/obsidian-leaflet",
     "language": "TypeScript",
     "pushed_at": "2025-07-09T16:26:30Z",
-    "stargazers_count": 701,
+    "stargazers_count": 702,
     "topics": [
       "leafletjs",
       "obsidian-md",
       "obsidian-plugin"
     ],
-    "updated_at": "2026-06-27T20:03:02Z"
+    "updated_at": "2026-06-30T00:09:10Z"
   },
   "repo_links": [
     {

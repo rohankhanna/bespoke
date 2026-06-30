@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-docker-action@b2189fbf2a6592b51fee7cdd93ee2bfaeba733db",
   "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
-  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
+  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

@@ -84,7 +84,7 @@
   "normalized_form": "generate-documentation",
   "observation_id": "9c3d565c4a2a6c60",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T18:49:06.046656+00:00",
+  "observed_at": "2026-06-30T00:47:25.151576+00:00",
   "observed_text": "Generate Documentation",
   "source_context_snippet": "Generate Documentation",
   "source_file": ".github/workflows/docs.yml",

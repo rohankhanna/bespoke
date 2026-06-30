@@ -84,7 +84,7 @@
   "normalized_form": "docker-images---cleanup",
   "observation_id": "bd98e482a49a0862",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T18:49:06.046656+00:00",
+  "observed_at": "2026-06-30T00:47:25.151576+00:00",
   "observed_text": "Docker images - Cleanup",
   "source_context_snippet": "Docker images - Cleanup",
   "source_file": ".github/workflows/docker_clean_untagged.yml",

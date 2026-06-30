@@ -182,7 +182,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T22:36:07.733611+00:00",
+  "fetched_at": "2026-06-30T01:05:00.005579+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -207,7 +207,7 @@
     "html_url": "https://github.com/elixir-protobuf/protobuf",
     "language": "Elixir",
     "pushed_at": "2026-06-08T09:31:34Z",
-    "stargazers_count": 900,
+    "stargazers_count": 901,
     "topics": [
       "elixir",
       "google-protocol-buffers",
@@ -217,7 +217,7 @@
       "protocol-buffers",
       "serialization"
     ],
-    "updated_at": "2026-06-27T11:52:25Z"
+    "updated_at": "2026-06-29T22:50:37Z"
   },
   "repo_links": [
     {

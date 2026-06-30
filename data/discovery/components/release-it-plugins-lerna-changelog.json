@@ -1,7 +1,7 @@
 {
   "component": "@release-it-plugins/lerna-changelog",
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
-  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
+  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
