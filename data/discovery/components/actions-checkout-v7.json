@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v7",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
+  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -927,6 +927,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/Documenter.yml",
       "source_repo": "JuliaCollections/AbstractTrees.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cackle.yml",
+      "source_repo": "evcxr/evcxr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "evcxr/evcxr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "evcxr/evcxr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "evcxr/evcxr"
     }
   ]
 }

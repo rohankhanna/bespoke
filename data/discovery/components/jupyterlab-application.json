@@ -1,7 +1,7 @@
 {
   "component": "@jupyterlab/application",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
+  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

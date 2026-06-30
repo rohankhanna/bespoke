@@ -84,7 +84,7 @@
   "normalized_form": "close-issues",
   "observation_id": "e076e56a46bbf3bf",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-30T00:47:25.151576+00:00",
+  "observed_at": "2026-06-30T07:29:36.115830+00:00",
   "observed_text": "Close issues",
   "source_context_snippet": "'Close issues'",
   "source_file": ".github/workflows/issues.yml",

@@ -44,6 +44,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "dieghernan/cff-validator@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cff-validator.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "Validate CITATION.cff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-registry-format.yml",
       "source_repo": "harbor-framework/harbor",
       "target": "actions/checkout@v6",
@@ -141,48 +162,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "astral-sh/setup-uv@v8.1.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "docker/setup-docker-action@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "docker/setup-compose-action@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "denoland/setup-deno@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "codecov/codecov-action@v6",
-      "target_type": "component"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "harbor-framework/harbor",
@@ -204,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-30T00:47:25.151576+00:00",
+  "generated_at": "2026-06-30T07:29:36.115830+00:00",
   "source_repo": "harbor-framework/harbor"
 }

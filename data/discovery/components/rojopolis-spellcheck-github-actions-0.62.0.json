@@ -1,7 +1,7 @@
 {
   "component": "rojopolis/spellcheck-github-actions@0.62.0",
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
-  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
+  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

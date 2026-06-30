@@ -742,11 +742,17 @@
       "observed_at": "2026-06-29T18:49:06.046656+00:00",
       "source_file": null,
       "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T07:29:36.115830+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
+  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
   "lexical_providers": [
     "datamuse"
   ],

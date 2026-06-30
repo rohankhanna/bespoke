@@ -97979,6 +97979,9 @@
   "validate chart versions": [
     "validate-chart-versions"
   ],
+  "validate citation.cff": [
+    "validate-citation.cff"
+  ],
   "validate client generation": [
     "validate-client-generation"
   ],

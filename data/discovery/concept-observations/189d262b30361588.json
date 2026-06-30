@@ -84,7 +84,7 @@
   "normalized_form": "chapi-ci",
   "observation_id": "189d262b30361588",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-30T00:47:25.151576+00:00",
+  "observed_at": "2026-06-30T07:29:36.115830+00:00",
   "observed_text": "Chapi CI",
   "source_context_snippet": "Chapi CI",
   "source_file": ".github/workflows/ci.yml",

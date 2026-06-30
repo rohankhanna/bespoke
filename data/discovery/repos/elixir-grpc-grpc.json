@@ -133,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:04:56.909074+00:00",
+  "fetched_at": "2026-06-30T08:09:46.573314+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -157,7 +157,7 @@
     "full_name": "elixir-grpc/grpc",
     "html_url": "https://github.com/elixir-grpc/grpc",
     "language": "Elixir",
-    "pushed_at": "2026-06-29T15:28:21Z",
+    "pushed_at": "2026-06-30T03:39:36Z",
     "stargazers_count": 1516,
     "topics": [
       "elixir",
@@ -169,7 +169,7 @@
       "protobuf",
       "rpc"
     ],
-    "updated_at": "2026-06-29T15:28:26Z"
+    "updated_at": "2026-06-30T03:39:41Z"
   },
   "repo_links": [],
   "terms": [

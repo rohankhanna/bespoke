@@ -166,7 +166,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T00:55:49.543741+00:00",
+  "fetched_at": "2026-06-30T08:00:06.283917+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -199,14 +199,14 @@
     "html_url": "https://github.com/TencentCloudADP/youtu-agent",
     "language": "Python",
     "pushed_at": "2026-03-21T07:18:28Z",
-    "stargazers_count": 4578,
+    "stargazers_count": 4579,
     "topics": [
       "agent-framework",
       "agents",
       "openai-agents",
       "python"
     ],
-    "updated_at": "2026-06-29T21:14:41Z"
+    "updated_at": "2026-06-30T07:01:14Z"
   },
   "repo_links": [
     {

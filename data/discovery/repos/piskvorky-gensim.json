@@ -319,7 +319,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T00:58:36.820782+00:00",
+  "fetched_at": "2026-06-30T08:03:12.858223+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -368,7 +368,7 @@
     "html_url": "https://github.com/piskvorky/gensim",
     "language": "Python",
     "pushed_at": "2025-11-01T12:01:39Z",
-    "stargazers_count": 16454,
+    "stargazers_count": 16456,
     "topics": [
       "data-mining",
       "data-science",
@@ -386,7 +386,7 @@
       "word-similarity",
       "word2vec"
     ],
-    "updated_at": "2026-06-30T00:50:02Z"
+    "updated_at": "2026-06-30T05:34:15Z"
   },
   "repo_links": [
     {

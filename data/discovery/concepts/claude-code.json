@@ -11785,11 +11785,59 @@
       "observed_at": "2026-06-30T00:47:25.151576+00:00",
       "source_file": null,
       "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-30T07:29:36.115830+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T07:29:36.115830+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T07:29:36.115830+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T07:29:36.115830+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-30T07:29:36.115830+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "machinewrapped/llm-subtrans"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-30T07:29:36.115830+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-30T07:29:36.115830+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-30T07:29:36.115830+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Venly/web3-react-venly"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
+  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
   "lexical_providers": [
     "datamuse"
   ],

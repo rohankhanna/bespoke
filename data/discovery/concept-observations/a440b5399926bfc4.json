@@ -84,7 +84,7 @@
   "normalized_form": "promote-agent-image-to-prod",
   "observation_id": "a440b5399926bfc4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T18:49:06.046656+00:00",
+  "observed_at": "2026-06-30T07:29:36.115830+00:00",
   "observed_text": "Promote Agent Image to :prod",
   "source_context_snippet": "Promote Agent Image to :prod",
   "source_file": ".github/workflows/promote-agent.yml",

@@ -92,7 +92,7 @@
   "normalized_form": "bandit",
   "observation_id": "f099e0d31ac66dc5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T18:49:06.046656+00:00",
+  "observed_at": "2026-06-30T07:29:36.115830+00:00",
   "observed_text": "Bandit",
   "source_context_snippet": "Bandit",
   "source_file": ".github/workflows/bandit.yml",

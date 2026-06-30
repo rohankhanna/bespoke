@@ -31,6 +31,16 @@
       "source_file": ".github/workflows/adapter-review.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yml"
+    },
+    {
+      "component": "dieghernan/cff-validator@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yml"
+    },
+    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-registry-format.yml"
@@ -89,36 +99,6 @@
       "component": "actions/labeler@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-labeler.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v8.1.0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml"
-    },
-    {
-      "component": "docker/setup-docker-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml"
-    },
-    {
-      "component": "docker/setup-compose-action@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml"
-    },
-    {
-      "component": "denoland/setup-deno@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml"
-    },
-    {
-      "component": "codecov/codecov-action@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml"
     }
   ],
   "edges": [
@@ -162,6 +142,27 @@
       "source_file": ".github/workflows/adapter-review.yml",
       "source_repo": "harbor-framework/harbor",
       "target": "Adapter Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "dieghernan/cff-validator@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cff-validator.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "Validate CITATION.cff",
       "target_type": "term"
     },
     {
@@ -263,48 +264,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "astral-sh/setup-uv@v8.1.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "docker/setup-docker-action@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "docker/setup-compose-action@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "denoland/setup-deno@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
-      "source_repo": "harbor-framework/harbor",
-      "target": "codecov/codecov-action@v6",
-      "target_type": "component"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "harbor-framework/harbor",
@@ -326,19 +285,23 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:00:16.640152+00:00",
+  "fetched_at": "2026-06-30T08:04:58.440166+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 2599
+      "size": 2983
     },
     {
       "path": "pyproject.toml",
-      "size": 5363
+      "size": 5423
     },
     {
       "path": ".github/workflows/adapter-review.yml",
       "size": 55241
+    },
+    {
+      "path": ".github/workflows/cff-validator.yml",
+      "size": 355
     },
     {
       "path": ".github/workflows/check-registry-format.yml",
@@ -363,10 +326,6 @@
     {
       "path": ".github/workflows/pr-labeler.yml",
       "size": 583
-    },
-    {
-      "path": ".github/workflows/pytest.yml",
-      "size": 2643
     }
   ],
   "related_repositories": [],
@@ -378,14 +337,14 @@
     "full_name": "harbor-framework/harbor",
     "html_url": "https://github.com/harbor-framework/harbor",
     "language": "Python",
-    "pushed_at": "2026-06-29T23:03:59Z",
-    "stargazers_count": 2809,
+    "pushed_at": "2026-06-30T07:10:35Z",
+    "stargazers_count": 2815,
     "topics": [
       "evals",
       "rl-environments",
       "terminal-bench"
     ],
-    "updated_at": "2026-06-29T23:38:52Z"
+    "updated_at": "2026-06-30T07:39:13Z"
   },
   "repo_links": [
     {
@@ -400,6 +359,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/adapter-review.yml",
       "term": "Adapter Review"
+    },
+    {
+      "context_snippet": "Validate CITATION.cff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cff-validator.yml",
+      "term": "Validate CITATION.cff"
     },
     {
       "context_snippet": "Claude Code Review",

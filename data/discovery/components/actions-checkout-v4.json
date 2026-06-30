@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
+  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -58322,6 +58322,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/business-pods-smoke.yml",
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yml",
+      "source_repo": "harbor-framework/harbor"
     }
   ]
 }

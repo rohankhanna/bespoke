@@ -738,7 +738,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:03:30.406842+00:00",
+  "fetched_at": "2026-06-30T08:08:22.205632+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -775,13 +775,13 @@
     "html_url": "https://github.com/geotiffjs/geotiff.js",
     "language": "JavaScript",
     "pushed_at": "2026-05-26T20:17:59Z",
-    "stargazers_count": 1029,
+    "stargazers_count": 1030,
     "topics": [
       "geotiff",
       "raster-data",
       "tiff-files"
     ],
-    "updated_at": "2026-06-25T09:55:26Z"
+    "updated_at": "2026-06-30T01:08:39Z"
   },
   "repo_links": [
     {

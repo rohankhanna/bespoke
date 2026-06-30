@@ -84,7 +84,7 @@
   "normalized_form": "release-javascript",
   "observation_id": "4d9d360d8370a322",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T18:49:06.046656+00:00",
+  "observed_at": "2026-06-30T07:29:36.115830+00:00",
   "observed_text": "Release JavaScript",
   "source_context_snippet": "Release JavaScript",
   "source_file": ".github/workflows/release-javascript.yml",

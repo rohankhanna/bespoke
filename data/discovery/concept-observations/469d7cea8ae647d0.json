@@ -84,7 +84,7 @@
   "normalized_form": "publish-to-bcr",
   "observation_id": "469d7cea8ae647d0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T18:49:06.046656+00:00",
+  "observed_at": "2026-06-30T07:29:36.115830+00:00",
   "observed_text": "Publish to BCR",
   "source_context_snippet": "Publish to BCR",
   "source_file": ".github/workflows/publish.yaml",

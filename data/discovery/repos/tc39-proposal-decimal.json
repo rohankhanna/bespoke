@@ -203,7 +203,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T23:28:51.548903+00:00",
+  "fetched_at": "2026-06-30T07:42:24.599109+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -231,7 +231,7 @@
     "full_name": "tc39/proposal-decimal",
     "html_url": "https://github.com/tc39/proposal-decimal",
     "language": "HTML",
-    "pushed_at": "2026-06-09T08:55:49Z",
+    "pushed_at": "2026-06-30T07:42:04Z",
     "stargazers_count": 627,
     "topics": [
       "arithmetic",

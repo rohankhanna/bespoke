@@ -466,7 +466,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T23:20:18.591261+00:00",
+  "fetched_at": "2026-06-30T07:36:31.556508+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -511,14 +511,14 @@
     "html_url": "https://github.com/cometbft/tendermint-rs",
     "language": "Rust",
     "pushed_at": "2026-04-17T09:39:38Z",
-    "stargazers_count": 670,
+    "stargazers_count": 669,
     "topics": [
       "cometbft",
       "light-client",
       "rust",
       "tendermint"
     ],
-    "updated_at": "2026-05-13T06:22:29Z"
+    "updated_at": "2026-06-30T07:30:30Z"
   },
   "repo_links": [
     {

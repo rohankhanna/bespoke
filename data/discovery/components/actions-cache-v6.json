@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v6",
   "first_seen_at": "2026-06-24T07:22:11.002189+00:00",
-  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
+  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "prospector-dev/prospector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "evcxr/evcxr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "evcxr/evcxr"
     }
   ]
 }

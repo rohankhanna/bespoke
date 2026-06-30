@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T00:50:46.020975+00:00",
+  "fetched_at": "2026-06-30T07:55:01.436095+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,7 +75,7 @@
     "html_url": "https://github.com/JIA-Lab-research/LargeKernel3D",
     "language": "Python",
     "pushed_at": "2023-06-16T05:09:35Z",
-    "stargazers_count": 215,
+    "stargazers_count": 216,
     "topics": [
       "3d",
       "nuscenes",
@@ -83,7 +83,7 @@
       "scannet",
       "semantic-segmentation"
     ],
-    "updated_at": "2026-06-10T04:45:55Z"
+    "updated_at": "2026-06-30T04:22:03Z"
   },
   "repo_links": [
     {

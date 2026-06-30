@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cackle.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/cackle.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -26,27 +26,17 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "dtolnay/rust-toolchain@stable",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -56,17 +46,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/cache@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -76,17 +56,17 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -96,17 +76,37 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cron.yml"
     },
@@ -116,12 +116,12 @@
       "source_file": ".github/workflows/cron.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cron.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cron.yml"
     },
@@ -131,12 +131,12 @@
       "source_file": ".github/workflows/cron.yml"
     },
     {
-      "component": "actions/cache@v5",
+      "component": "actions/cache@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cron.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -156,7 +156,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cackle.yml",
       "source_repo": "evcxr/evcxr",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -184,7 +184,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "evcxr/evcxr",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -198,7 +198,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "evcxr/evcxr",
-      "target": "actions/cache@v5",
+      "target": "actions/cache@v6",
       "target_type": "component"
     },
     {
@@ -212,7 +212,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cron.yml",
       "source_repo": "evcxr/evcxr",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -226,7 +226,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cron.yml",
       "source_repo": "evcxr/evcxr",
-      "target": "actions/cache@v5",
+      "target": "actions/cache@v6",
       "target_type": "component"
     },
     {
@@ -247,7 +247,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "evcxr/evcxr",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -272,7 +272,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T21:54:12.630699+00:00",
+  "fetched_at": "2026-06-30T07:44:16.333249+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -308,10 +308,10 @@
     "full_name": "evcxr/evcxr",
     "html_url": "https://github.com/evcxr/evcxr",
     "language": "Rust",
-    "pushed_at": "2026-06-29T14:26:45Z",
+    "pushed_at": "2026-06-29T23:02:37Z",
     "stargazers_count": 6440,
     "topics": [],
-    "updated_at": "2026-06-29T17:20:14Z"
+    "updated_at": "2026-06-29T23:02:37Z"
   },
   "repo_links": [],
   "terms": [

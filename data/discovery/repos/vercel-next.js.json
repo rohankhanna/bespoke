@@ -276,11 +276,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "@types/relay-runtime",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "@types/shell-quote",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -817,16 +812,6 @@
     },
     {
       "component": "react-virtualized",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "relay-compiler",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "relay-runtime",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -1691,13 +1676,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vercel/next.js",
-      "target": "@types/relay-runtime",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "vercel/next.js",
       "target": "@types/shell-quote",
       "target_type": "component"
     },
@@ -2454,20 +2432,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vercel/next.js",
-      "target": "relay-compiler",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "vercel/next.js",
-      "target": "relay-runtime",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "vercel/next.js",
       "target": "release",
       "target_type": "component"
     },
@@ -3039,7 +3003,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T23:28:14.076463+00:00",
+  "fetched_at": "2026-06-30T07:41:57.979972+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
@@ -3047,7 +3011,7 @@
     },
     {
       "path": "package.json",
-      "size": 16276
+      "size": 16174
     },
     {
       "path": ".github/workflows/build_and_deploy.yml",
@@ -3091,8 +3055,8 @@
     "full_name": "vercel/next.js",
     "html_url": "https://github.com/vercel/next.js",
     "language": "JavaScript",
-    "pushed_at": "2026-06-29T23:26:57Z",
-    "stargazers_count": 140436,
+    "pushed_at": "2026-06-30T07:41:13Z",
+    "stargazers_count": 140440,
     "topics": [
       "blog",
       "browser",
@@ -3109,7 +3073,7 @@
       "universal",
       "vercel"
     ],
-    "updated_at": "2026-06-29T23:20:46Z"
+    "updated_at": "2026-06-30T06:58:21Z"
   },
   "repo_links": [],
   "terms": [
