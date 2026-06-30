@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 43
-- terms: 47
-- components: 194
-- concepts: 47
-- observations: 47
+- repos: 21
+- terms: 32
+- components: 154
+- concepts: 32
+- observations: 32
 
 ## Static behavior
 
@@ -46,28 +46,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [angular/angular-build-builds](https://github.com/angular/angular-build-builds) | 0 | 2026-05-01T17:59:20Z | JavaScript | Unknown | 0 | 42 | 0 | 0 |
 | [kalavai-net/kalavai-templates](https://github.com/kalavai-net/kalavai-templates) | 0 | 2026-05-01T07:45:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lace/lacecore](https://github.com/lace/lacecore) | 0 | 2026-05-01T07:41:53Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [getlantern/guide](https://github.com/getlantern/guide) | 0 | 2026-05-01T05:03:06Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [danielrosehill/Air-Quality-Toolkit-Plugin](https://github.com/danielrosehill/Air-Quality-Toolkit-Plugin) | 0 | 2026-04-30T20:10:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-License-Populator-Plugin](https://github.com/danielrosehill/Claude-License-Populator-Plugin) | 0 | 2026-04-30T20:03:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-GPG-Ops-Plugin](https://github.com/danielrosehill/Claude-GPG-Ops-Plugin) | 0 | 2026-04-30T19:57:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Background-Removal-Plugin](https://github.com/danielrosehill/Claude-Background-Removal-Plugin) | 0 | 2026-04-30T19:46:16Z | Unknown | CLI | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-AI-Model-Research-Plugin](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin) | 0 | 2026-04-30T19:37:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Donetick-Plugin](https://github.com/danielrosehill/Claude-Donetick-Plugin) | 0 | 2026-04-30T19:23:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Digital-Evidence-Plugin](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin) | 0 | 2026-04-30T19:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Keyboard-Scanner](https://github.com/danielrosehill/Claude-Keyboard-Scanner) | 0 | 2026-04-30T18:55:40Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Filesystem-Organiser-Plugin](https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin) | 0 | 2026-04-30T18:51:27Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [HumanSignal/label-studio-client-generator](https://github.com/HumanSignal/label-studio-client-generator) | 0 | 2026-04-30T18:49:08Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
-| [aidenlab/spacewalk](https://github.com/aidenlab/spacewalk) | 0 | 2026-04-30T18:43:04Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
-| [aidenlab/swtool](https://github.com/aidenlab/swtool) | 0 | 2026-04-30T18:08:34Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
-| [netdur/imaged-sdk-examples](https://github.com/netdur/imaged-sdk-examples) | 0 | 2026-04-30T17:13:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Batch-Optical-Archivist-Plugin](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin) | 0 | 2026-04-30T17:12:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [csm-actions/demo-client](https://github.com/csm-actions/demo-client) | 0 | 2026-04-30T16:35:51Z | Unknown | CLI | 2 | 4 | 2 | 2 |
-| [danielrosehill/Claude-Favorite-Plugins-Installers-Plugin](https://github.com/danielrosehill/Claude-Favorite-Plugins-Installers-Plugin) | 0 | 2026-04-30T15:45:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-GIMP-Plugin](https://github.com/danielrosehill/Claude-GIMP-Plugin) | 0 | 2026-04-30T15:44:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Get-Toony-Plugin](https://github.com/danielrosehill/Claude-Get-Toony-Plugin) | 0 | 2026-04-30T15:40:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-CopyQ-Scripting-Plugin](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin) | 0 | 2026-04-30T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [lakekeeper/lakekeeper-operator](https://github.com/lakekeeper/lakekeeper-operator) | 0 | 2026-04-30T11:30:58Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
-| [danielrosehill/Claude-Dev-Tools-Plugin](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) | 0 | 2026-04-30T11:06:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -94,25 +72,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [angular/angular-build-builds](https://github.com/angular/angular-build-builds) | 0 | 2026-05-01T17:59:20Z | JavaScript | Unknown | 0 | 42 | 0 | 0 |
 | [kalavai-net/kalavai-templates](https://github.com/kalavai-net/kalavai-templates) | 0 | 2026-05-01T07:45:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lace/lacecore](https://github.com/lace/lacecore) | 0 | 2026-05-01T07:41:53Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [getlantern/guide](https://github.com/getlantern/guide) | 0 | 2026-05-01T05:03:06Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [danielrosehill/Air-Quality-Toolkit-Plugin](https://github.com/danielrosehill/Air-Quality-Toolkit-Plugin) | 0 | 2026-04-30T20:10:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-License-Populator-Plugin](https://github.com/danielrosehill/Claude-License-Populator-Plugin) | 0 | 2026-04-30T20:03:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-GPG-Ops-Plugin](https://github.com/danielrosehill/Claude-GPG-Ops-Plugin) | 0 | 2026-04-30T19:57:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Background-Removal-Plugin](https://github.com/danielrosehill/Claude-Background-Removal-Plugin) | 0 | 2026-04-30T19:46:16Z | Unknown | CLI | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-AI-Model-Research-Plugin](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin) | 0 | 2026-04-30T19:37:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Donetick-Plugin](https://github.com/danielrosehill/Claude-Donetick-Plugin) | 0 | 2026-04-30T19:23:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Digital-Evidence-Plugin](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin) | 0 | 2026-04-30T19:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Keyboard-Scanner](https://github.com/danielrosehill/Claude-Keyboard-Scanner) | 0 | 2026-04-30T18:55:40Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Filesystem-Organiser-Plugin](https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin) | 0 | 2026-04-30T18:51:27Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [HumanSignal/label-studio-client-generator](https://github.com/HumanSignal/label-studio-client-generator) | 0 | 2026-04-30T18:49:08Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
-| [aidenlab/spacewalk](https://github.com/aidenlab/spacewalk) | 0 | 2026-04-30T18:43:04Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
-| [aidenlab/swtool](https://github.com/aidenlab/swtool) | 0 | 2026-04-30T18:08:34Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
-| [netdur/imaged-sdk-examples](https://github.com/netdur/imaged-sdk-examples) | 0 | 2026-04-30T17:13:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Batch-Optical-Archivist-Plugin](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin) | 0 | 2026-04-30T17:12:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [csm-actions/demo-client](https://github.com/csm-actions/demo-client) | 0 | 2026-04-30T16:35:51Z | Unknown | CLI | 2 | 4 | 2 | 2 |
-| [danielrosehill/Claude-Favorite-Plugins-Installers-Plugin](https://github.com/danielrosehill/Claude-Favorite-Plugins-Installers-Plugin) | 0 | 2026-04-30T15:45:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-GIMP-Plugin](https://github.com/danielrosehill/Claude-GIMP-Plugin) | 0 | 2026-04-30T15:44:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Get-Toony-Plugin](https://github.com/danielrosehill/Claude-Get-Toony-Plugin) | 0 | 2026-04-30T15:40:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-CopyQ-Scripting-Plugin](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin) | 0 | 2026-04-30T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [lakekeeper/lakekeeper-operator](https://github.com/lakekeeper/lakekeeper-operator) | 0 | 2026-04-30T11:30:58Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
-| [danielrosehill/Claude-Dev-Tools-Plugin](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) | 0 | 2026-04-30T11:06:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

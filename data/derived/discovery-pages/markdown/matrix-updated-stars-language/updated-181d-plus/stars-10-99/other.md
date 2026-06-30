@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 879
-- terms: 2041
-- components: 2201
-- concepts: 2053
-- observations: 2059
+- terms: 2035
+- components: 2202
+- concepts: 2047
+- observations: 2053
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [auto-complete/fuzzy-el](https://github.com/auto-complete/fuzzy-el) | 55 | 2025-12-31T16:22:40Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [aarroyoc/djota](https://github.com/aarroyoc/djota) | 30 | 2025-12-30T12:35:30Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [viafintech/gcra-ruby](https://github.com/viafintech/gcra-ruby) | 52 | 2025-12-29T22:26:27Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [adospace/litedbpad](https://github.com/adospace/litedbpad) | 66 | 2025-12-29T16:31:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -69,7 +70,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GunnarFarneback/LocalPackageServer.jl](https://github.com/GunnarFarneback/LocalPackageServer.jl) | 32 | 2025-11-27T19:42:06Z | Other | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [drowzy/protobuf_generate](https://github.com/drowzy/protobuf_generate) | 16 | 2025-11-27T11:06:15Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [terrierteam/pyterrier_doc2query](https://github.com/terrierteam/pyterrier_doc2query) | 39 | 2025-11-27T09:54:49Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2025-11-25T15:30:06Z | Other | CLI | 9 | 2 | 9 | 9 |
 | [JuliaGraphics/ColorTypes.jl](https://github.com/JuliaGraphics/ColorTypes.jl) | 83 | 2025-11-24T18:42:25Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [mirage/ocaml-conduit](https://github.com/mirage/ocaml-conduit) | 87 | 2025-11-24T11:50:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mirage/ocaml-uri](https://github.com/mirage/ocaml-uri) | 98 | 2025-11-24T11:47:15Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -1155,7 +1155,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [idris-community/inigo](https://github.com/idris-community/inigo) | 61 | 2022-10-30T16:10:18Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [VBAndCs/Vazor](https://github.com/VBAndCs/Vazor) | 61 | 2022-09-23T20:03:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ChorusOne/tendermint-sol](https://github.com/ChorusOne/tendermint-sol) | 61 | 2022-03-02T02:19:58Z | Other | Unknown | 0 | 15 | 0 | 0 |
-| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2025-11-25T15:30:06Z | Other | CLI | 9 | 2 | 9 | 9 |
 | [jpbruyere/Crow](https://github.com/jpbruyere/Crow) | 60 | 2025-07-29T08:47:15Z | Other | Service/API | 2 | 0 | 2 | 2 |
 | [robotology/ycm-cmake-modules](https://github.com/robotology/ycm-cmake-modules) | 60 | 2025-07-17T11:13:30Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [melange-re/melange-opam-template](https://github.com/melange-re/melange-opam-template) | 60 | 2024-11-14T17:12:06Z | Other | Infrastructure/tooling | 0 | 8 | 0 | 0 |
@@ -1202,6 +1201,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marianfoo/ztoad](https://github.com/marianfoo/ztoad) | 56 | 2022-06-15T08:30:21Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [mfung/hamlit-rails](https://github.com/mfung/hamlit-rails) | 56 | 2022-03-21T16:03:21Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [the-benchmarker/graphql-benchmarks](https://github.com/the-benchmarker/graphql-benchmarks) | 56 | 2021-08-19T23:13:58Z | Other | Framework | 5 | 0 | 5 | 5 |
+| [auto-complete/fuzzy-el](https://github.com/auto-complete/fuzzy-el) | 55 | 2025-12-31T16:22:40Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [travis-ci/travis-logs](https://github.com/travis-ci/travis-logs) | 55 | 2025-12-29T13:17:12Z | Other | CLI | 3 | 0 | 3 | 3 |
 | [haxeui/haxeui-flixel](https://github.com/haxeui/haxeui-flixel) | 55 | 2025-06-27T06:40:41Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [Isotr0py/SakuraLLM-Notebooks](https://github.com/Isotr0py/SakuraLLM-Notebooks) | 55 | 2024-10-01T10:51:50Z | Other | Unknown | 0 | 0 | 0 | 0 |

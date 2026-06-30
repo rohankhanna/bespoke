@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 10,
-    "terms": 59
+    "components": 56,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 8,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "apache/casbin-fasthttp-auth",
     "cosmos/rosetta",
@@ -21,8 +21,6 @@
     "exoscale/karpenter-provider-exoscale",
     "fluxcd/flux-schema",
     "gookit/cliui",
-    "HuaweiCloudDeveloper/karpenter-provider-huawei",
-    "linode/karpenter-provider-linode",
-    "Seedloaf/mc-router-discovery"
+    "HuaweiCloudDeveloper/karpenter-provider-huawei"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 493,
-    "concepts": 414,
-    "observations": 416,
-    "repos": 27,
-    "terms": 414
+    "components": 404,
+    "concepts": 318,
+    "observations": 320,
+    "repos": 21,
+    "terms": 318
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "anchore/grype",
     "authelia/authelia",
     "cert-manager/cert-manager",
     "cilium/cilium",
-    "cloudflare/cloudflared",
-    "cockroachdb/cockroach",
     "containers/podman",
     "etcd-io/etcd",
     "flipped-aurora/gin-vue-admin",
@@ -29,17 +27,13 @@
     "gravitational/teleport",
     "helm/helm",
     "istio/istio",
-    "navidrome/navidrome",
     "oauth2-proxy/oauth2-proxy",
-    "ory/kratos",
     "pion/webrtc",
     "pulumi/pulumi",
-    "rclone/rclone",
     "restic/restic",
     "rqlite/rqlite",
     "SagerNet/sing-box",
     "seaweedfs/seaweedfs",
-    "VictoriaMetrics/VictoriaMetrics",
     "XTLS/Xray-core"
   ]
 }

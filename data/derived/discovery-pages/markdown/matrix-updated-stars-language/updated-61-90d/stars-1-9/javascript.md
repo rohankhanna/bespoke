@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 89
-- terms: 863
-- components: 1704
-- concepts: 863
-- observations: 865
+- repos: 88
+- terms: 858
+- components: 1686
+- concepts: 858
+- observations: 860
 
 ## Static behavior
 
@@ -114,7 +114,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/array-typed](https://github.com/stdlib-js/array-typed) | 1 | 2026-04-02T03:34:17Z | JavaScript | Infrastructure/tooling | 24 | 42 | 24 | 24 |
 | [stdlib-js/array-complex64](https://github.com/stdlib-js/array-complex64) | 5 | 2026-04-02T03:28:59Z | JavaScript | Infrastructure/tooling | 24 | 63 | 24 | 24 |
 | [Level/supports](https://github.com/Level/supports) | 5 | 2026-04-01T10:38:44Z | JavaScript | Infrastructure/tooling | 7 | 12 | 7 | 7 |
-| [Level/read-stream](https://github.com/Level/read-stream) | 7 | 2026-04-01T00:23:38Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -135,7 +134,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs-shipyard/js-mock-ipfs-pinning-service](https://github.com/ipfs-shipyard/js-mock-ipfs-pinning-service) | 7 | 2026-04-11T17:25:18Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
 | [ehmicky/get-node-cli](https://github.com/ehmicky/get-node-cli) | 7 | 2026-04-11T15:03:42Z | JavaScript | CLI | 15 | 14 | 16 | 16 |
 | [collective/mrs-developer](https://github.com/collective/mrs-developer) | 7 | 2026-04-11T10:38:40Z | JavaScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
-| [Level/read-stream](https://github.com/Level/read-stream) | 7 | 2026-04-01T00:23:38Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [ksxnodemodules/static-type-assert](https://github.com/ksxnodemodules/static-type-assert) | 6 | 2026-04-27T00:52:19Z | JavaScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [metosin/open-source](https://github.com/metosin/open-source) | 6 | 2026-04-24T04:56:42Z | JavaScript | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [eea/bise-frontend](https://github.com/eea/bise-frontend) | 6 | 2026-04-23T18:45:31Z | JavaScript | Infrastructure/tooling | 0 | 43 | 0 | 0 |

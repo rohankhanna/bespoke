@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apache/casbin-jcasbin](https://github.com/apache/casbin-jcasbin) | 2638 | 2026-06-16T15:21:44Z | Java | Infrastructure/tooling | 14 | 6 | 14 | 14 |
+| [apache/casbin-jcasbin](https://github.com/apache/casbin-jcasbin) | 2639 | 2026-06-16T15:21:44Z | Java | Infrastructure/tooling | 14 | 6 | 14 | 14 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apache/casbin-jcasbin](https://github.com/apache/casbin-jcasbin) | 2638 | 2026-06-16T15:21:44Z | Java | Infrastructure/tooling | 14 | 6 | 14 | 14 |
+| [apache/casbin-jcasbin](https://github.com/apache/casbin-jcasbin) | 2639 | 2026-06-16T15:21:44Z | Java | Infrastructure/tooling | 14 | 6 | 14 | 14 |

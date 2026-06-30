@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 75
-- terms: 352
-- components: 365
-- concepts: 355
-- observations: 355
+- repos: 76
+- terms: 354
+- components: 367
+- concepts: 357
+- observations: 357
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [yuin/gopher-lua](https://github.com/yuin/gopher-lua) | 6890 | 2026-04-01T00:54:16Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [xjasonlyu/tun2socks](https://github.com/xjasonlyu/tun2socks) | 5089 | 2026-03-30T22:13:23Z | Go | Infrastructure/tooling | 19 | 14 | 19 | 19 |
 | [rest-sh/restish](https://github.com/rest-sh/restish) | 1278 | 2026-03-30T16:22:41Z | Go | CLI | 17 | 4 | 20 | 20 |
 | [probonopd/go-appimage](https://github.com/probonopd/go-appimage) | 1130 | 2026-03-30T16:15:29Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
@@ -112,6 +113,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad) | 7078 | 2026-03-28T23:34:19Z | Go | CLI | 5 | 11 | 0 | 0 |
 | [aquasecurity/tfsec](https://github.com/aquasecurity/tfsec) | 6987 | 2026-03-25T08:06:52Z | Go | Infrastructure/tooling | 23 | 12 | 23 | 23 |
 | [kubernetes-sigs/krew](https://github.com/kubernetes-sigs/krew) | 6941 | 2026-03-27T01:08:16Z | Go | CLI | 3 | 3 | 3 | 3 |
+| [yuin/gopher-lua](https://github.com/yuin/gopher-lua) | 6890 | 2026-04-01T00:54:16Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [dgraph-io/ristretto](https://github.com/dgraph-io/ristretto) | 6884 | 2026-01-21T22:05:50Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [go-rod/rod](https://github.com/go-rod/rod) | 6881 | 2026-02-17T04:59:41Z | Go | Infrastructure/tooling | 19 | 4 | 19 | 19 |
 | [dop251/goja](https://github.com/dop251/goja) | 6838 | 2026-03-11T13:57:34Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |

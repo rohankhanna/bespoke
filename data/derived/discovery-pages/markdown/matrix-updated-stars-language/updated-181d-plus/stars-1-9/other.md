@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 366
+- repos: 367
 - terms: 570
-- components: 1207
+- components: 1209
 - concepts: 563
 - observations: 563
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [anchordotdev/puma-acme](https://github.com/anchordotdev/puma-acme) | 6 | 2026-01-01T00:04:39Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [JuliaBinaryWrappers/libblastrampoline_jll.jl](https://github.com/JuliaBinaryWrappers/libblastrampoline_jll.jl) | 2 | 2025-12-26T20:09:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ahrefs/opam-check-npm-deps](https://github.com/ahrefs/opam-check-npm-deps) | 4 | 2025-12-24T03:18:43Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [JuliaAI/LearnDataFrontEnds.jl](https://github.com/JuliaAI/LearnDataFrontEnds.jl) | 1 | 2025-12-20T18:29:50Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
@@ -484,6 +485,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bow-swift/nef-editor-server](https://github.com/bow-swift/nef-editor-server) | 7 | 2021-10-31T17:05:52Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [AjayThorve/Spatial-Analytics-Viz](https://github.com/AjayThorve/Spatial-Analytics-Viz) | 7 | 2021-08-04T01:03:04Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [JolifantoBambla/shadercl](https://github.com/JolifantoBambla/shadercl) | 7 | 2021-07-21T08:29:11Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
+| [anchordotdev/puma-acme](https://github.com/anchordotdev/puma-acme) | 6 | 2026-01-01T00:04:39Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [retracedhq/logs-viewer](https://github.com/retracedhq/logs-viewer) | 6 | 2025-12-15T05:03:15Z | Other | Infrastructure/tooling | 0 | 38 | 0 | 0 |
 | [mmark-md/flycheck-mmark](https://github.com/mmark-md/flycheck-mmark) | 6 | 2025-11-26T20:21:10Z | Other | Infrastructure/tooling | 3 | 2 | 4 | 4 |
 | [KSXGitHub/aur-packages-builder](https://github.com/KSXGitHub/aur-packages-builder) | 6 | 2025-11-24T08:39:57Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 336,
-    "concepts": 206,
-    "observations": 206,
-    "repos": 95,
-    "terms": 206
+    "components": 339,
+    "concepts": 213,
+    "observations": 213,
+    "repos": 96,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
@@ -49,6 +49,7 @@
     "curiousdannii/emglken",
     "CVEProject/cve-user-registry-client",
     "cyber404/che-apple-mail-mcp",
+    "danielrosehill/Responsible-Agent-Skill-Development",
     "diffblue/homebrew-cbmc",
     "dm0x23/portfolio-website",
     "dotenvx/homebrew-brew",
@@ -58,7 +59,6 @@
     "dwyl/fields-demo",
     "dwyl/ping",
     "enbop/fungi-app",
-    "ethpandaops/checkpoint-sync-health-checks",
     "flagos-ai/flir",
     "floxym/financial-chat-finance-nlp-chatbots",
     "fredrikekre/runic-pre-commit",
@@ -101,6 +101,7 @@
     "rocq-community/docker-rocq",
     "ros2-rust/rosidl_rust",
     "Shougo/dpp-ext-lazy",
+    "stable-haskell/cabal",
     "standardrb/standard-custom",
     "tarikmanoar/tarikmanoar",
     "Tengfei-Wang/Tengfei-Wang.github.io",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -175,7 +175,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | 105 | 2024-03-23T00:00:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [BBuf/how-to-learn-deep-learning-framework](https://github.com/BBuf/how-to-learn-deep-learning-framework) | 498 | 2024-03-22T23:41:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [AILab-CVC/TaleCrafter](https://github.com/AILab-CVC/TaleCrafter) | 268 | 2024-03-22T11:53:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
-| [react-native-community/RNNewArchitectureLibraries](https://github.com/react-native-community/RNNewArchitectureLibraries) | 348 | 2024-03-20T10:48:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [react-native-community/RNNewArchitectureLibraries](https://github.com/react-native-community/RNNewArchitectureLibraries) | 347 | 2024-03-20T10:48:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PacificBiosciences/ccs](https://github.com/PacificBiosciences/ccs) | 126 | 2024-03-18T13:41:43Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [akoksal/LongForm](https://github.com/akoksal/LongForm) | 215 | 2024-03-05T11:35:12Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [imfing/ava_downloader](https://github.com/imfing/ava_downloader) | 447 | 2024-02-14T21:07:34Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
@@ -396,7 +396,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/vs-tools-for-ai](https://github.com/microsoft/vs-tools-for-ai) | 359 | 2023-06-12T20:27:14Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [microsoft/openjdk-aarch64](https://github.com/microsoft/openjdk-aarch64) | 350 | 2022-12-01T10:11:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/sarif-tutorials](https://github.com/microsoft/sarif-tutorials) | 349 | 2023-12-15T13:54:50Z | Unknown | Docs/knowledge | 3 | 0 | 3 | 3 |
-| [react-native-community/RNNewArchitectureLibraries](https://github.com/react-native-community/RNNewArchitectureLibraries) | 348 | 2024-03-20T10:48:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [react-native-community/RNNewArchitectureLibraries](https://github.com/react-native-community/RNNewArchitectureLibraries) | 347 | 2024-03-20T10:48:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [aws/aws-app-mesh-roadmap](https://github.com/aws/aws-app-mesh-roadmap) | 346 | 2024-09-24T15:17:36Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [dotnet-foundation/swag](https://github.com/dotnet-foundation/swag) | 343 | 2024-07-23T22:07:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [fudan-generative-vision/OpenHumanVid](https://github.com/fudan-generative-vision/OpenHumanVid) | 337 | 2025-02-27T09:27:11Z | Unknown | Model/data | 0 | 0 | 0 | 0 |

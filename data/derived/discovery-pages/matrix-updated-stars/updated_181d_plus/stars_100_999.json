@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 16298,
-    "concepts": 14969,
-    "observations": 14997,
-    "repos": 4877,
-    "terms": 14749
+    "components": 16312,
+    "concepts": 14984,
+    "observations": 15012,
+    "repos": 4881,
+    "terms": 14759
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -360,6 +360,7 @@
     "animelover1984/youtube-dl",
     "Anirudh257/strm",
     "anishkny/webgif",
+    "ankane/groupdate.sql",
     "AnonymouX47/term-image",
     "anse1/sqlsmith",
     "ansible/ansible-language-server",
@@ -540,6 +541,7 @@
     "auspicious3000/AutoPST",
     "auspicious3000/contentvec",
     "auspicious3000/SpeechSplit",
+    "auto-complete/popup-el",
     "autofac/Autofac.AspNetCore.Multitenant",
     "automatic1111/stable-diffusion-webui-aesthetic-gradients",
     "AUTOMATIC1111/stable-diffusion-webui-wildcards",
@@ -937,7 +939,6 @@
     "chenkui164/FastASR",
     "chenllliang/G1",
     "ChenMnZ/PrefixQuant",
-    "ChenRocks/UNITER",
     "ChenxinAn-fdu/POLARIS",
     "chenyahui/gin-cache",
     "chenyangMl/llama2.c-zh",
@@ -969,6 +970,7 @@
     "chrismccord/phoenix_live_view_example",
     "chrismytton/shoreman",
     "chrissimpkins/fontname.py",
+    "christgau/wsdd",
     "christiansafka/img2vec",
     "christoomey/vim-tmux-runner",
     "chrisvoncsefalvay/claude-d3js-skill",
@@ -3723,6 +3725,7 @@
     "plemeri/UACANet",
     "PlexPt/chatgpt-corpus",
     "PlexPt/chatgpt-online-springboot",
+    "plk/biber",
     "plotly/orca",
     "plottertools/hatched",
     "pmer/tla-bin",
@@ -3768,6 +3771,7 @@
     "princeton-vl/SimpleView",
     "PrismLibrary/Prism-Documentation",
     "PrismLibrary/Prism-Samples-Forms",
+    "PrithivirajDamodaran/FlashRank",
     "privacycg/CHIPS",
     "privacycg/meetings",
     "privacycg/storage-access",

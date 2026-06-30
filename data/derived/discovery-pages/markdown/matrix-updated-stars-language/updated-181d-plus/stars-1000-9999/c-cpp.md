@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 236
-- terms: 873
-- components: 419
-- concepts: 884
-- observations: 884
+- repos: 237
+- terms: 884
+- components: 423
+- concepts: 895
+- observations: 895
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gulrak/filesystem](https://github.com/gulrak/filesystem) | 1527 | 2025-12-31T21:23:00Z | C/C++ | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [cjlin1/liblinear](https://github.com/cjlin1/liblinear) | 1047 | 2025-12-29T11:32:11Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [golang-ui/nuklear](https://github.com/golang-ui/nuklear) | 1604 | 2025-12-29T09:12:46Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [brianmario/yajl-ruby](https://github.com/brianmario/yajl-ruby) | 1490 | 2025-12-27T20:08:46Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -428,6 +429,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nfrechette/acl](https://github.com/nfrechette/acl) | 1550 | 2025-11-26T02:28:49Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [hyperic/sigar](https://github.com/hyperic/sigar) | 1547 | 2023-12-20T06:44:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ands/lightmapper](https://github.com/ands/lightmapper) | 1535 | 2023-03-24T08:48:21Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [gulrak/filesystem](https://github.com/gulrak/filesystem) | 1527 | 2025-12-31T21:23:00Z | C/C++ | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) | 1520 | 2024-05-19T06:44:22Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [DadSchoorse/vkBasalt](https://github.com/DadSchoorse/vkBasalt) | 1501 | 2023-10-04T19:40:30Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [brianmario/yajl-ruby](https://github.com/brianmario/yajl-ruby) | 1490 | 2025-12-27T20:08:46Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |

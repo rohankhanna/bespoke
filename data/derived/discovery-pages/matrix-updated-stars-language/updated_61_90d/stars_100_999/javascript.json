@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3413,
-    "concepts": 795,
-    "observations": 805,
-    "repos": 165,
-    "terms": 824
+    "components": 3357,
+    "concepts": 787,
+    "observations": 797,
+    "repos": 162,
+    "terms": 816
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -42,7 +42,6 @@
     "carbon-design-system/carbon-components-vue",
     "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
-    "chrisgoringe/cg-use-everywhere",
     "cjoudrey/graphql-schema-linter",
     "ClickHouse/agent-skills",
     "cncf/sandbox",
@@ -111,8 +110,8 @@
     "kriszyp/lmdb-js",
     "kriszyp/msgpackr",
     "kurrent-io/KurrentDB-Client-NodeJS",
-    "Level/abstract-level",
     "lis186/ccxray",
+    "lo-th/phy",
     "lobehub/lobe-editor",
     "mapbox/mapbox-gl-styles",
     "mapbox/pbf",
@@ -165,12 +164,10 @@
     "sveltejs/svelte-loader",
     "Taritsyn/BundleTransformer",
     "tc39/notes",
-    "terraform-linters/setup-tflint",
     "terser/html-minifier-terser",
     "testing-library/testing-library-docs",
     "thejoshwolfe/yauzl",
     "tomayac/SVGcode",
-    "toon-format/spec",
     "unicode-org/message-format-wg",
     "vllm-project/recipes",
     "webpack/css-minimizer-webpack-plugin",

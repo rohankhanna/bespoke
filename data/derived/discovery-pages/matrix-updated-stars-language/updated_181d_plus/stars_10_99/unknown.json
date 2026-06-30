@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 198,
+    "components": 201,
     "concepts": 336,
     "observations": 336,
-    "repos": 295,
+    "repos": 297,
     "terms": 335
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
+    "1ilkhamov/opencode-hermes-multiagent",
     "1nickpappas/move-code-quality-skill",
     "2KAbhishek/bare-minimum",
     "abourki/SoTA-Semantically-aware-NeRFs",
@@ -161,6 +162,7 @@
     "isaacOnline/whisper",
     "ItMarki/jyunsaikaai",
     "ItMarki/MisekiBitmap",
+    "JaeZ1205/PS_NBI2k",
     "JasonJZLiu/FACTR_Hardware",
     "javagl/gltfOverview",
     "jenkinsci/winsw-maven-packaging",

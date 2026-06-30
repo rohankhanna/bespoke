@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 179,
-    "observations": 180,
-    "repos": 63,
-    "terms": 177
+    "components": 262,
+    "concepts": 188,
+    "observations": 189,
+    "repos": 66,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "adamgreig/ecpdap",
@@ -24,6 +24,7 @@
     "ArjunNair/egui_sdl2_gl",
     "assimelha/cmcp",
     "baerwang/openapi-rs",
+    "celestiaorg/hana",
     "chris-zen/coremidi",
     "chrisguida/smaug",
     "ClickHouse/ch2rs",
@@ -53,8 +54,10 @@
     "jakudlaty/tsid",
     "jasonjmcghee/ron-lsp",
     "jean-pierreBoth/probminhash",
+    "jiegec/tantivy-jieba",
     "jonas-k/coremidi-sys",
     "joseluisq/paket",
+    "lambdaclass/libssz",
     "libdeflater/libdeflater",
     "libp2p/if-watch",
     "lindera/lindera-tantivy",

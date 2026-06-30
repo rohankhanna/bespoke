@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 5,
-    "terms": 51
+    "components": 64,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 4,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "apache/casbin",
-    "crossplane/crossplane",
-    "gastownhall/gastown",
     "git-lfs/git-lfs",
-    "moby/moby"
+    "moby/moby",
+    "QuantumNous/new-api"
   ]
 }

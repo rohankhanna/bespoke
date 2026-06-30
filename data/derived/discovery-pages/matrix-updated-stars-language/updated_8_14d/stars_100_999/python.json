@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 6,
-    "terms": 43
+    "components": 71,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 9,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
+    "adtzlr/felupe",
+    "andfoy/pywinpty",
     "ANTsX/ANTsPy",
     "ANTsX/ANTsPyNet",
+    "claritychallenge/clarity",
     "googlefonts/roboto-3-classic",
     "NVIDIA-NeMo/Automodel",
     "PyCQA/eradicate",
-    "unum-bio/USearchMolecules"
+    "pylint-dev/pylint-django"
   ]
 }

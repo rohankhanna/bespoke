@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5673,
-    "concepts": 2093,
-    "observations": 2096,
-    "repos": 1451,
-    "terms": 2093
+    "components": 5685,
+    "concepts": 2100,
+    "observations": 2103,
+    "repos": 1454,
+    "terms": 2100
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -150,6 +150,7 @@
     "amiart/qt-lzstring",
     "amilajack/eslint-plugin-compat-demo",
     "AnamuddinAhmad/Portfolio_1",
+    "anchordotdev/puma-acme",
     "andenacitelli/openapi-endpoint-trimmer",
     "andrasg/matterbridge-daikin-ac",
     "andreasdr/a-gui",
@@ -162,6 +163,7 @@
     "angular/dev-infra-private-build-tooling-builds",
     "anjeludo/spring-ai-mcp",
     "anotherlusitano/SpectrumPlus",
+    "AnshulGora/portfolio_template_v1",
     "antlabs/pulse",
     "antlabs/quickws-example",
     "antonagestam/pylint-mypy-overlap",
@@ -475,6 +477,7 @@
     "danielrosehill/bash-alias-manager-claude",
     "danielrosehill/claude-agent-picker-pattern",
     "danielrosehill/claude-app-optimiser",
+    "danielrosehill/Claude-Bug-Catcher",
     "danielrosehill/Claude-Change-My-View",
     "danielrosehill/Claude-Code-Bash-Aliases",
     "danielrosehill/Claude-Code-Context-Toolkit",
@@ -1376,7 +1379,7 @@
     "travis-infrastructure/packer-build",
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

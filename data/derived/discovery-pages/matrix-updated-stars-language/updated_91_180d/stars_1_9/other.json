@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 241,
-    "concepts": 159,
-    "observations": 159,
+    "components": 248,
+    "concepts": 161,
+    "observations": 161,
     "repos": 69,
-    "terms": 155
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
     "Adam-Boesky/astro_SPLASH",
     "adobe/spectrum-tokens",
-    "anchordotdev/puma-acme",
     "arya-s/phantty",
     "Asmod4n/mruby-argon2",
     "aspect-build/rules_jasmine",
@@ -36,6 +35,7 @@
     "elixir-makeup/makeup_syntect",
     "empriselab/kortex_description",
     "erwin-kok/multiformat",
+    "ethpandaops/checkpoint-sync-health-checks",
     "flagos-ai/llvm-project",
     "gmberton/gmberton.github.io",
     "haskell-compat/base-orphans",

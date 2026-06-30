@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4322,
-    "concepts": 726,
-    "observations": 729,
-    "repos": 93,
-    "terms": 729
+    "components": 4363,
+    "concepts": 746,
+    "observations": 749,
+    "repos": 96,
+    "terms": 741
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
+    "acornjs/acorn",
     "ai/nanoid",
     "ajaxorg/ace",
     "ampproject/amphtml",
@@ -36,7 +37,6 @@
     "electerm/electerm",
     "electron/minimal-repro",
     "expressjs/express",
-    "eyaltoledano/claude-task-master",
     "facebook/hermes",
     "fastify/fastify",
     "gatsbyjs/gatsby",
@@ -46,6 +46,7 @@
     "handlebars-lang/handlebars.js",
     "hapijs/hapi",
     "http-party/http-server",
+    "http-party/node-http-proxy",
     "huggingface/transformers.js",
     "iamkun/dayjs",
     "immerjs/immer",
@@ -59,6 +60,7 @@
     "josdejong/mathjs",
     "jquery/jquery",
     "jquery/jquery-ui",
+    "jsdoc/jsdoc",
     "jsdom/jsdom",
     "karma-runner/karma",
     "krisk/Fuse",
@@ -70,6 +72,7 @@
     "markedjs/marked",
     "mdx-js/mdx",
     "microsoft/monaco-editor",
+    "mochajs/mocha",
     "moment/luxon",
     "motdotla/dotenv",
     "mozilla/pdf.js",

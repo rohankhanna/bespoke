@@ -3,14 +3,14 @@
     "components": 2997,
     "concepts": 1242,
     "observations": 1246,
-    "repos": 930,
+    "repos": 929,
     "terms": 1273
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -418,7 +418,6 @@
     "danielrosehill/Remote-Jobs-Research-Agent",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "danielrosehill/Research-Tools-And-Templates-Index",
-    "danielrosehill/Responsible-Agent-Skill-Development",
     "danielrosehill/Skills-Repos-Index",
     "danielrosehill/Speech-And-ASR-Evaluations",
     "danielrosehill/STT-Price-Points-260225",

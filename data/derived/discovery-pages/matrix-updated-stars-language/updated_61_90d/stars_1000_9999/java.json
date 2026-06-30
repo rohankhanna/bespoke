@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 611,
-    "concepts": 744,
-    "observations": 746,
-    "repos": 77,
-    "terms": 741
+    "components": 661,
+    "concepts": 815,
+    "observations": 817,
+    "repos": 83,
+    "terms": 812
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -20,11 +20,13 @@
     "apache/camel",
     "apache/flink-kubernetes-operator",
     "apache/hudi",
+    "apache/ignite",
     "apache/logging-log4j2",
     "apache/lucene",
     "apache/netbeans",
     "apache/parquet-java",
     "apache/pdfbox",
+    "apache/phoenix",
     "apache/poi",
     "apache/seatunnel",
     "aws/aws-sdk-java-v2",
@@ -35,11 +37,13 @@
     "castorini/anserini",
     "checkstyle/checkstyle",
     "ClickHouse/clickhouse-java",
+    "cloudfoundry/uaa",
     "codelibs/fess",
     "confluentinc/examples",
     "confluentinc/schema-registry",
     "diffplug/spotless",
     "dlew/joda-time-android",
+    "dropwizard/dropwizard",
     "dylibso/chicory",
     "FasterXML/jackson-annotations",
     "FasterXML/jackson-core",
@@ -72,6 +76,7 @@
     "langgraph4j/langgraph4j",
     "lightbend/config",
     "micronaut-projects/micronaut-core",
+    "moyangzhan/langchain4j-aideepin",
     "ninjaframework/ninja",
     "open-telemetry/opentelemetry-java",
     "oshi/oshi",
@@ -82,6 +87,7 @@
     "reactor/BlockHound",
     "reactor/reactor-core",
     "RoaringBitmap/RoaringBitmap",
+    "smithy-lang/smithy",
     "SonarSource/sonar-java",
     "soot-oss/soot",
     "spotbugs/spotbugs",

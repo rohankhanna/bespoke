@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 75,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 4,
-    "terms": 21
+    "concepts": 14,
+    "observations": 14,
+    "repos": 2,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
-    "avocadowastaken/prettier-plugin-prisma",
-    "browserslist/caniuse-lite",
-    "digitalocean/openapi",
+    "jupyter/nbclassic",
     "w3c/trusted-types"
   ]
 }

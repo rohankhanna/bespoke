@@ -3,7 +3,7 @@
     "components": 113,
     "concepts": 39,
     "observations": 39,
-    "repos": 29,
+    "repos": 30,
     "terms": 39
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -26,6 +26,7 @@
     "datafuse-extras/xorfilter",
     "enzet/iconscript",
     "EspressoSystems/Push-CDN",
+    "gaoyifan/bgptools",
     "guoqingbao/rustchatui",
     "hsivonen/chardetng_c",
     "IWANABETHATGUY/l-lang",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 15,
-    "terms": 73
+    "components": 48,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 12,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
-    "Accla/graphulo",
     "flyway/flyway-community-db-support",
-    "heroku/heroku-jvm-application-deployer",
     "jcefmaven/jcefsampleapp",
-    "jenkinsci/incrementals-tools",
     "jenkinsci/workflow-api-plugin",
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 535,
-    "concepts": 425,
-    "observations": 425,
-    "repos": 42,
-    "terms": 420
+    "components": 446,
+    "concepts": 349,
+    "observations": 349,
+    "repos": 35,
+    "terms": 345
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "agentclientprotocol/agent-client-protocol",
     "Aleph-Alpha/ts-rs",
@@ -24,21 +24,16 @@
     "CosmWasm/cosmwasm",
     "databendlabs/databend",
     "databendlabs/openraft",
-    "delta-io/delta-rs",
     "dimforge/kiss3d",
     "dora-rs/dora",
     "erebe/wstunnel",
-    "facebook/pyrefly",
     "facebook/sapling",
-    "holochain/holochain",
     "josh-project/josh",
     "JuliaLang/juliaup",
     "junhoyeo/tokscale",
-    "lakekeeper/lakekeeper",
     "lance-format/lance",
     "MaterializeInc/materialize",
     "mayocream/koharu",
-    "mozilla/uniffi-rs",
     "nats-io/nats.rs",
     "nix-rust/nix",
     "prefix-dev/pixi",
@@ -46,13 +41,11 @@
     "robustmq/robustmq",
     "ron-rs/ron",
     "ros2-rust/ros2_rust",
-    "rust-cli/config-rs",
     "rust-cli/human-panic",
     "rust-lang/flate2-rs",
     "rust-lang/portable-simd",
     "rust-lang/rustup",
-    "rust-openssl/rust-openssl",
-    "Splode/pomotroid",
+    "rust-ml/linfa",
     "supabase/etl",
     "unicode-org/icu4x",
     "VOICEVOX/voicevox_core"

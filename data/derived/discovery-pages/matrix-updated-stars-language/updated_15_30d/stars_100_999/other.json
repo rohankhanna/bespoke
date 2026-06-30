@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 64,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 13,
-    "terms": 70
+    "concepts": 68,
+    "observations": 68,
+    "repos": 12,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "ANTsX/ANTsR",
     "babashka/nbb",
     "bamsumit/slayerPytorch",
-    "Baron-von-Riedesel/HX",
     "Blaizzy/mlx-audio-swift",
     "Deep-Symmetry/dysentery",
     "dwyl/phoenix-ecto-encryption-example",

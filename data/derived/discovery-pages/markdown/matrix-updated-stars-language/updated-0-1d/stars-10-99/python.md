@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Python
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 2
-- components: 3
-- concepts: 2
-- observations: 2
+- repos: 2
+- terms: 10
+- components: 20
+- concepts: 10
+- observations: 10
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-06-28T20:40:05Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 90 | 2026-06-29T23:46:03Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
+| [prospector-dev/requirements-detector](https://github.com/prospector-dev/requirements-detector) | 48 | 2026-06-29T17:21:20Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-06-28T20:40:05Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 90 | 2026-06-29T23:46:03Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
+| [prospector-dev/requirements-detector](https://github.com/prospector-dev/requirements-detector) | 48 | 2026-06-29T17:21:20Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |

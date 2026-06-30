@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
+- repos: 22
 - terms: 68
 - components: 54
 - concepts: 67
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [coin-or-tools/ThirdParty-Mumps](https://github.com/coin-or-tools/ThirdParty-Mumps) | 24 | 2026-04-01T00:27:13Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/tmux-tilit](https://github.com/2KAbhishek/tmux-tilit) | 77 | 2026-03-31T03:36:27Z | Shell | CLI | 5 | 0 | 5 | 5 |
 | [conda-forge/spacy-feedstock](https://github.com/conda-forge/spacy-feedstock) | 14 | 2026-03-29T03:14:56Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [nodenv/node-build-update-defs](https://github.com/nodenv/node-build-update-defs) | 38 | 2026-03-26T10:36:52Z | Shell | Infrastructure/tooling | 8 | 6 | 8 | 8 |
@@ -69,6 +70,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lxgw/LxgwWenkaiGB-Lite](https://github.com/lxgw/LxgwWenkaiGB-Lite) | 37 | 2026-03-17T15:05:22Z | Shell | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [coin-or/coinbrew](https://github.com/coin-or/coinbrew) | 33 | 2026-03-11T19:19:33Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [nodenv/nodenv-installer](https://github.com/nodenv/nodenv-installer) | 33 | 2026-01-13T03:36:23Z | Shell | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [coin-or-tools/ThirdParty-Mumps](https://github.com/coin-or-tools/ThirdParty-Mumps) | 24 | 2026-04-01T00:27:13Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [nodejs/release-keys](https://github.com/nodejs/release-keys) | 17 | 2026-03-10T18:37:37Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [nfnty/pkgbuilds](https://github.com/nfnty/pkgbuilds) | 17 | 2026-02-17T17:09:12Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [conda-forge/spacy-feedstock](https://github.com/conda-forge/spacy-feedstock) | 14 | 2026-03-29T03:14:56Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |

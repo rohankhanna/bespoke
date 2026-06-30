@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 420,
-    "concepts": 509,
-    "observations": 509,
-    "repos": 65,
-    "terms": 507
+    "components": 453,
+    "concepts": 550,
+    "observations": 550,
+    "repos": 70,
+    "terms": 548
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -24,7 +24,9 @@
     "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
+    "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
+    "aws/smithy-go",
     "Azure-Samples/agent-openai-java-banking-assistant",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
@@ -49,11 +51,13 @@
     "graalvm/graal-languages-demos",
     "graalvm/graalvm-demos",
     "graalvm/native-build-tools",
+    "heroku/webapp-runner",
     "higress-group/higress-console",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-sparkml",
     "jpmml/jpmml-xgboost",
+    "kirill-grouchnikov/radiance",
     "kreativekorp/bitsnpicas",
     "michel-kraemer/bson4jackson",
     "microsoft/Generative-AI-for-beginners-java",
@@ -69,6 +73,7 @@
     "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
+    "SAP/SapMachine",
     "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",
     "spring-ai-alibaba/Lynxe",

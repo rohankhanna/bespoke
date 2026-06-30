@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1363,
-    "concepts": 1718,
-    "observations": 1720,
-    "repos": 456,
-    "terms": 1704
+    "components": 1366,
+    "concepts": 1727,
+    "observations": 1729,
+    "repos": 459,
+    "terms": 1713
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -50,6 +50,7 @@
     "assemble/assemble",
     "athensresearch/athens",
     "attr-encrypted/attr_encrypted",
+    "auto-complete/auto-complete",
     "avh4/elm-format",
     "awesome-NeRF/awesome-NeRF",
     "ayu-theme/ayu-vim",
@@ -113,6 +114,7 @@
     "DmitryUlyanov/deep-image-prior",
     "doom-neovim/doom-nvim",
     "dotnet/machinelearning-samples",
+    "DotNetAnalyzers/StyleCopAnalyzers",
     "dovecoteescapee/ByeDPIAndroid",
     "drknzz/GitHub-Achievements",
     "dwmkerr/sharpshell",
@@ -219,6 +221,7 @@
     "k8gege/Ladon",
     "kakaobrain/rq-vae-transformer",
     "kan-bayashi/ParallelWaveGAN",
+    "karb94/neoscroll.nvim",
     "kassio/neoterm",
     "KhronosGroup/glTF-Sample-Models",
     "kien/ctrlp.vim",

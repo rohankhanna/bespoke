@@ -1,6 +1,6 @@
 # 1 to 9 stars
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 ## Active filters
 
@@ -8,7 +8,7 @@ Generated at: `2026-06-29T10:01:01.344855+00:00`
 
 ## Counts
 
-- repos: 2445
+- repos: 2446
 - terms: 5517
 - components: 12102
 - concepts: 5507
@@ -22,12 +22,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cloudfoundry/credhub-acceptance-tests](https://github.com/cloudfoundry/credhub-acceptance-tests) | 2 | 2026-06-29T13:01:26Z | Go | Unknown | 4 | 0 | 4 | 4 |
+| [abap2UI5-addons/layout-management](https://github.com/abap2UI5-addons/layout-management) | 2 | 2026-06-29T11:31:35Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-06-29T06:11:23Z | Rust | Infrastructure/tooling | 1 | 21 | 1 | 1 |
-| [abap2UI5-addons/layout-management](https://github.com/abap2UI5-addons/layout-management) | 2 | 2026-06-28T17:21:15Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [apostrophecms/starter-kit-astro-essentials](https://github.com/apostrophecms/starter-kit-astro-essentials) | 7 | 2026-06-25T10:18:26Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [Kashif-E/parakeet-ios-demo](https://github.com/Kashif-E/parakeet-ios-demo) | 1 | 2026-06-24T19:30:54Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [datalevin/dlmdb](https://github.com/datalevin/dlmdb) | 8 | 2026-06-24T16:53:57Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [cloudfoundry/credhub-acceptance-tests](https://github.com/cloudfoundry/credhub-acceptance-tests) | 2 | 2026-06-22T13:02:44Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [kurrent-io/KurrentDB-Bridge-Client](https://github.com/kurrent-io/KurrentDB-Bridge-Client) | 1 | 2026-06-22T11:48:49Z | Rust | CLI | 7 | 9 | 7 | 7 |
 | [OpenHands/automation](https://github.com/OpenHands/automation) | 4 | 2026-06-22T01:47:30Z | Python | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [Jaded-Encoding-Thaumaturgy/vs-wheels](https://github.com/Jaded-Encoding-Thaumaturgy/vs-wheels) | 1 | 2026-06-22T00:52:05Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
@@ -297,6 +297,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [v-iashin/v-iashin.github.io](https://github.com/v-iashin/v-iashin.github.io) | 5 | 2026-04-25T13:52:44Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [huggingface/fuser](https://github.com/huggingface/fuser) | 1 | 2026-04-25T12:44:42Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 2 |
 | [conda-forge/captum-feedstock](https://github.com/conda-forge/captum-feedstock) | 1 | 2026-04-25T12:37:54Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [danielrosehill/Responsible-Agent-Skill-Development](https://github.com/danielrosehill/Responsible-Agent-Skill-Development) | 1 | 2026-04-25T11:09:28Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [danielrosehill/Subindices](https://github.com/danielrosehill/Subindices) | 2 | 2026-04-25T10:40:53Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [oclif/plugin-commands](https://github.com/oclif/plugin-commands) | 9 | 2026-04-25T05:00:13Z | TypeScript | Infrastructure/tooling | 7 | 40 | 7 | 7 |
 | [JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl](https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl) | 2 | 2026-04-24T22:43:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -2401,7 +2402,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [745165806/PaddleSpeechTask](https://github.com/745165806/PaddleSpeechTask) | 8 | 2021-11-05T02:33:50Z | Python | Library | 0 | 0 | 0 | 0 |
 | [pedromtcosta/fluentassertions.csharpfunctionalextensions](https://github.com/pedromtcosta/FluentAssertions.CSharpFunctionalExtensions) | 8 | 2021-11-03T20:59:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jiweimaster/lfs](https://github.com/JiweiMaster/lfs) | 1 | 2021-11-03T03:14:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [unitycontainer/aspnet-webapi](https://github.com/unitycontainer/aspnet-webapi) | 9 | 2021-10-31T18:10:05Z | Other | Library | 0 | 0 | 0 | 0 |
 | [bow-swift/nef-editor-server](https://github.com/bow-swift/nef-editor-server) | 7 | 2021-10-31T17:05:52Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [go-bun/go-http-routing-benchmark](https://github.com/go-bun/go-http-routing-benchmark) | 4 | 2021-10-21T06:48:19Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -3036,7 +3037,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [allenai/scifact-evaluator](https://github.com/allenai/scifact-evaluator) | 7 | 2021-12-29T06:10:06Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [euagendas/semeval_8_2022_ia_downloader](https://github.com/euagendas/semeval_8_2022_ia_downloader) | 7 | 2021-12-15T14:58:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [brentyi/fannypack](https://github.com/brentyi/fannypack) | 7 | 2021-11-10T01:12:20Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [bow-swift/nef-editor-server](https://github.com/bow-swift/nef-editor-server) | 7 | 2021-10-31T17:05:52Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [IndexXuan/vue-enterprise-boilerplate](https://github.com/IndexXuan/vue-enterprise-boilerplate) | 7 | 2021-08-09T08:12:03Z | JavaScript | CLI | 0 | 47 | 0 | 0 |
 | [AjayThorve/Spatial-Analytics-Viz](https://github.com/AjayThorve/Spatial-Analytics-Viz) | 7 | 2021-08-04T01:03:04Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -3997,8 +3998,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kriszyp/db-benchmark](https://github.com/kriszyp/db-benchmark) | 3 | 2021-08-20T15:06:27Z | JavaScript | Unknown | 0 | 9 | 0 | 0 |
 | [buraksezer/olric-kubernetes](https://github.com/buraksezer/olric-kubernetes) | 3 | 2021-08-17T21:00:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [arthwang/vsc-logtalk](https://github.com/arthwang/vsc-logtalk) | 3 | 2021-08-12T15:00:35Z | TypeScript | Unknown | 0 | 19 | 0 | 0 |
-| [abap2UI5-addons/layout-management](https://github.com/abap2UI5-addons/layout-management) | 2 | 2026-06-28T17:21:15Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [cloudfoundry/credhub-acceptance-tests](https://github.com/cloudfoundry/credhub-acceptance-tests) | 2 | 2026-06-22T13:02:44Z | Go | Unknown | 4 | 0 | 4 | 4 |
+| [cloudfoundry/credhub-acceptance-tests](https://github.com/cloudfoundry/credhub-acceptance-tests) | 2 | 2026-06-29T13:01:26Z | Go | Unknown | 4 | 0 | 4 | 4 |
+| [abap2UI5-addons/layout-management](https://github.com/abap2UI5-addons/layout-management) | 2 | 2026-06-29T11:31:35Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [mudler/ced.cpp](https://github.com/mudler/ced.cpp) | 2 | 2026-06-21T20:31:30Z | C/C++ | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [mozilla-ai/otari-sdk-rust](https://github.com/mozilla-ai/otari-sdk-rust) | 2 | 2026-06-16T19:57:19Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [Archerkattri/hunyuan2-plus](https://github.com/Archerkattri/hunyuan2-plus) | 2 | 2026-06-11T16:04:32Z | Python | Unknown | 6 | 0 | 7 | 7 |
@@ -4479,6 +4480,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ros2-rust/rosidl_rust](https://github.com/ros2-rust/rosidl_rust) | 1 | 2026-04-25T15:33:13Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [huggingface/fuser](https://github.com/huggingface/fuser) | 1 | 2026-04-25T12:44:42Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 2 |
 | [conda-forge/captum-feedstock](https://github.com/conda-forge/captum-feedstock) | 1 | 2026-04-25T12:37:54Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [danielrosehill/Responsible-Agent-Skill-Development](https://github.com/danielrosehill/Responsible-Agent-Skill-Development) | 1 | 2026-04-25T11:09:28Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [danielrosehill/Claude-Data-Wrangler-plugin](https://github.com/danielrosehill/Claude-Data-Wrangler-plugin) | 1 | 2026-04-23T14:51:48Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Claude-LLM-Council-Creator-Plugin](https://github.com/danielrosehill/Claude-LLM-Council-Creator-Plugin) | 1 | 2026-04-23T11:02:26Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |

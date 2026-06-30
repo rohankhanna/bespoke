@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1022
-- terms: 3245
-- components: 2456
-- concepts: 3265
-- observations: 3272
+- repos: 1025
+- terms: 3250
+- components: 2465
+- concepts: 3270
+- observations: 3277
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [plk/biber](https://github.com/plk/biber) | 381 | 2025-12-31T20:49:07Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [ankane/groupdate.sql](https://github.com/ankane/groupdate.sql) | 288 | 2025-12-31T20:36:57Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [auto-complete/popup-el](https://github.com/auto-complete/popup-el) | 472 | 2025-12-31T16:22:34Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [clojure/data.priority-map](https://github.com/clojure/data.priority-map) | 191 | 2025-12-30T21:23:01Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [clojure/core.unify](https://github.com/clojure/core.unify) | 152 | 2025-12-30T21:18:14Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [clojure/tools.nrepl](https://github.com/clojure/tools.nrepl) | 665 | 2025-12-30T18:34:59Z | Other | CLI | 0 | 0 | 0 | 0 |
@@ -816,7 +819,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nimterop/nimterop](https://github.com/nimterop/nimterop) | 372 | 2023-04-03T18:20:41Z | Other | Library | 4 | 0 | 4 | 4 |
 | [venantius/vim-cljfmt](https://github.com/venantius/vim-cljfmt) | 156 | 2023-04-02T04:17:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [31/GodotOnReady](https://github.com/31/GodotOnReady) | 123 | 2023-03-31T02:39:35Z | Other | Unknown | 2 | 0 | 2 | 2 |
-| [sky-ecosystem/multicall](https://github.com/sky-ecosystem/multicall) | 869 | 2023-03-26T08:19:51Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [sky-ecosystem/multicall](https://github.com/sky-ecosystem/multicall) | 870 | 2023-03-26T08:19:51Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [awasthiabhijeet/PIE](https://github.com/awasthiabhijeet/PIE) | 232 | 2023-03-24T22:38:04Z | Other | Model/data | 10 | 0 | 10 | 10 |
 | [google/vim-maktaba](https://github.com/google/vim-maktaba) | 589 | 2023-03-21T11:14:43Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [SwiftGen/StencilSwiftKit](https://github.com/SwiftGen/StencilSwiftKit) | 304 | 2023-03-17T06:01:28Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
@@ -877,7 +880,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [axodox/AxoCover](https://github.com/axodox/AxoCover) | 249 | 2022-12-07T19:53:46Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [mikera/core.matrix](https://github.com/mikera/core.matrix) | 715 | 2022-12-07T13:09:38Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io) | 652 | 2022-12-06T19:34:09Z | Other | Infrastructure/tooling | 3 | 15 | 3 | 3 |
-| [JTAmos/Indicators.jl](https://github.com/JTAmos/Indicators.jl) | 226 | 2022-12-06T12:06:19Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
+| [JTAmos/Indicators.jl](https://github.com/JTAmos/Indicators.jl) | 227 | 2022-12-06T12:06:19Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [aleju/imgaug-doc](https://github.com/aleju/imgaug-doc) | 163 | 2022-12-02T19:42:17Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [arthurpalves/coherent-swift](https://github.com/arthurpalves/coherent-swift) | 104 | 2022-11-30T02:31:14Z | Other | CLI | 1 | 2 | 1 | 1 |
 | [lichengunc/MAttNet](https://github.com/lichengunc/MAttNet) | 297 | 2022-11-29T04:15:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1102,7 +1105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [steren/awesome-cloud-run](https://github.com/steren/awesome-cloud-run) | 874 | 2025-04-14T20:13:30Z | Other | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [Muennighoff/sgpt](https://github.com/Muennighoff/sgpt) | 873 | 2024-02-17T10:37:36Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [bjeavons/zxcvbn-php](https://github.com/bjeavons/zxcvbn-php) | 871 | 2025-02-24T16:48:21Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [sky-ecosystem/multicall](https://github.com/sky-ecosystem/multicall) | 869 | 2023-03-26T08:19:51Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [sky-ecosystem/multicall](https://github.com/sky-ecosystem/multicall) | 870 | 2023-03-26T08:19:51Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [clojupyter/clojupyter](https://github.com/clojupyter/clojupyter) | 861 | 2025-03-18T08:36:00Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [jonico/awesome-runners](https://github.com/jonico/awesome-runners) | 860 | 2025-02-07T17:05:19Z | Other | Infrastructure/tooling | 17 | 0 | 17 | 17 |
 | [tc39/proposal-async-iteration](https://github.com/tc39/proposal-async-iteration) | 860 | 2021-09-22T09:09:49Z | Other | Unknown | 0 | 1 | 0 | 0 |
@@ -1379,6 +1382,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [njucckevin/SeeClick](https://github.com/njucckevin/SeeClick) | 478 | 2025-07-13T06:44:39Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [philoskim/debux](https://github.com/philoskim/debux) | 478 | 2024-03-16T15:24:14Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Tengfei-Wang/HFGI](https://github.com/Tengfei-Wang/HFGI) | 478 | 2022-09-29T19:59:37Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [auto-complete/popup-el](https://github.com/auto-complete/popup-el) | 472 | 2025-12-31T16:22:34Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [fehiepsi/rethinking-numpyro](https://github.com/fehiepsi/rethinking-numpyro) | 471 | 2025-05-04T05:14:34Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template) | 469 | 2025-10-08T02:40:32Z | Other | Infrastructure/tooling | 12 | 6 | 12 | 12 |
 | [vapor/redis](https://github.com/vapor/redis) | 469 | 2025-09-12T18:03:32Z | Other | CLI | 10 | 3 | 10 | 10 |
@@ -1462,6 +1466,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cakebaker/scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim) | 385 | 2024-10-10T07:51:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [refcell/femplate](https://github.com/refcell/femplate) | 384 | 2023-03-09T02:47:37Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [abingham/emacs-ycmd](https://github.com/abingham/emacs-ycmd) | 383 | 2022-01-20T19:04:34Z | Other | CLI | 0 | 0 | 0 | 0 |
+| [plk/biber](https://github.com/plk/biber) | 381 | 2025-12-31T20:49:07Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [rxi/lite-plugins](https://github.com/rxi/lite-plugins) | 381 | 2024-05-11T12:55:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [company-mode/company-quickhelp](https://github.com/company-mode/company-quickhelp) | 380 | 2023-10-26T17:14:41Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [mahmoudnafifi/WB_sRGB](https://github.com/mahmoudnafifi/WB_sRGB) | 380 | 2023-02-25T23:07:37Z | Other | Unknown | 16 | 0 | 16 | 16 |
@@ -1596,6 +1601,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rocker-org/rocker-versioned](https://github.com/rocker-org/rocker-versioned) | 292 | 2022-02-26T14:26:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Alloyed/lua-lsp](https://github.com/Alloyed/lua-lsp) | 291 | 2025-08-12T02:08:10Z | Other | Service/API | 3 | 0 | 3 | 3 |
 | [LintaoAmons/bookmarks.nvim](https://github.com/LintaoAmons/bookmarks.nvim) | 289 | 2025-10-24T04:37:59Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [ankane/groupdate.sql](https://github.com/ankane/groupdate.sql) | 288 | 2025-12-31T20:36:57Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [joshwlewis/unitwise](https://github.com/joshwlewis/unitwise) | 286 | 2025-11-27T14:41:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [webview2/EdgeSharp](https://github.com/webview2/EdgeSharp) | 286 | 2023-02-12T21:08:22Z | Other | Unknown | 15 | 0 | 15 | 15 |
 | [clojure-goes-fast/clj-java-decompiler](https://github.com/clojure-goes-fast/clj-java-decompiler) | 285 | 2025-09-29T07:13:38Z | Other | Unknown | 5 | 0 | 5 | 5 |
@@ -1708,11 +1714,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tatsy/torchmcubes](https://github.com/tatsy/torchmcubes) | 229 | 2024-12-26T05:44:55Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [davedufresne/SwiftParsec](https://github.com/davedufresne/SwiftParsec) | 229 | 2022-06-12T15:37:40Z | Other | Library | 4 | 0 | 4 | 4 |
 | [camenduru/LLaVA-colab](https://github.com/camenduru/LLaVA-colab) | 228 | 2023-12-22T19:26:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JTAmos/Indicators.jl](https://github.com/JTAmos/Indicators.jl) | 227 | 2022-12-06T12:06:19Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [kana/vim-vspec](https://github.com/kana/vim-vspec) | 226 | 2025-04-28T10:26:49Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [trapd00r/vidir](https://github.com/trapd00r/vidir) | 226 | 2024-06-08T08:07:10Z | Other | CLI | 5 | 0 | 5 | 5 |
 | [stuartsierra/dependency](https://github.com/stuartsierra/dependency) | 226 | 2023-08-28T13:43:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [monitoring-mixins/docs](https://github.com/monitoring-mixins/docs) | 226 | 2023-01-11T17:51:10Z | Other | Library | 0 | 0 | 0 | 0 |
-| [JTAmos/Indicators.jl](https://github.com/JTAmos/Indicators.jl) | 226 | 2022-12-06T12:06:19Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [quinnj/JSON3.jl](https://github.com/quinnj/JSON3.jl) | 225 | 2025-10-10T04:49:47Z | Other | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [ziglang/zig-spec](https://github.com/ziglang/zig-spec) | 225 | 2025-08-21T08:27:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [fkiliver/SakuraTranslator](https://github.com/fkiliver/SakuraTranslator) | 225 | 2025-07-27T03:10:52Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |

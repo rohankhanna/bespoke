@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 51
-- terms: 51
-- components: 82
-- concepts: 51
-- observations: 51
+- repos: 52
+- terms: 54
+- components: 86
+- concepts: 54
+- observations: 54
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [llvm/torch-mlir-release](https://github.com/llvm/torch-mlir-release) | 7 | 2026-04-01T01:09:02Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [lab-cosmo/.github](https://github.com/lab-cosmo/.github) | 1 | 2026-03-30T08:47:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datachainlab/yui-relayer-build](https://github.com/datachainlab/yui-relayer-build) | 8 | 2026-03-30T07:44:01Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [nttstar/insightface-resources](https://github.com/nttstar/insightface-resources) | 7 | 2026-03-29T10:57:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -87,6 +88,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [datachainlab/yui-relayer-build](https://github.com/datachainlab/yui-relayer-build) | 8 | 2026-03-30T07:44:01Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [aifoundry-org/et-man](https://github.com/aifoundry-org/et-man) | 8 | 2026-02-26T17:08:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [simonpoole/geocontext](https://github.com/simonpoole/geocontext) | 8 | 2026-01-22T08:46:05Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [llvm/torch-mlir-release](https://github.com/llvm/torch-mlir-release) | 7 | 2026-04-01T01:09:02Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [nttstar/insightface-resources](https://github.com/nttstar/insightface-resources) | 7 | 2026-03-29T10:57:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [langchain-ai/.github](https://github.com/langchain-ai/.github) | 7 | 2026-03-27T22:05:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [flagos-ai/FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) | 7 | 2026-03-26T06:58:57Z | Unknown | Model/data | 0 | 0 | 0 | 0 |

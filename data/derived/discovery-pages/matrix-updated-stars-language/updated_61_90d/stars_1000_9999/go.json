@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2284,
-    "concepts": 2200,
-    "observations": 2210,
-    "repos": 262,
-    "terms": 2197
+    "components": 2383,
+    "concepts": 2312,
+    "observations": 2323,
+    "repos": 272,
+    "terms": 2309
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -45,6 +45,7 @@
     "aws/amazon-ecs-agent",
     "aws/amazon-vpc-cni-k8s",
     "aws/aws-node-termination-handler",
+    "aws/aws-sdk-go-v2",
     "awslabs/amazon-ecr-credential-helper",
     "awslabs/amazon-eks-ami",
     "awslabs/eks-node-viewer",
@@ -53,6 +54,7 @@
     "azure/aztfexport",
     "bazelbuild/bazelisk",
     "Bearer/bearer",
+    "beclab/Olares",
     "bensadeh/circumflex",
     "bfenetworks/bfe",
     "bluesky-social/indigo",
@@ -114,6 +116,7 @@
     "dunglas/mercure",
     "dunglas/vulcain",
     "elastic/go-elasticsearch",
+    "elazarl/goproxy",
     "envoyproxy/ai-gateway",
     "envoyproxy/gateway",
     "envoyproxy/go-control-plane",
@@ -126,6 +129,7 @@
     "fatih/color",
     "filecoin-project/lotus",
     "flannel-io/flannel",
+    "fluxcd/flux2",
     "fnproject/fn",
     "fsouza/go-dockerclient",
     "getkin/kin-openapi",
@@ -165,6 +169,7 @@
     "hashicorp/terraform-provider-helm",
     "helm-unittest/helm-unittest",
     "helm/chart-testing",
+    "helmfile/helmfile",
     "int128/kubelogin",
     "istio/community",
     "itchyny/gojq",
@@ -177,7 +182,9 @@
     "Kong/kubernetes-ingress-controller",
     "korotovsky/slack-mcp-server",
     "kserve/kserve",
+    "kubeflow/trainer",
     "kuberhealthy/kuberhealthy",
+    "kubernetes-sigs/cluster-api",
     "kubernetes-sigs/controller-runtime",
     "kubernetes-sigs/cri-tools",
     "kubernetes-sigs/external-dns",
@@ -205,6 +212,7 @@
     "mattn/goreman",
     "maypok86/otter",
     "moby/buildkit",
+    "mostlygeek/llama-swap",
     "mvdan/sh",
     "nginx-proxy/docker-gen",
     "nikolaydubina/go-recipes",
@@ -231,6 +239,7 @@
     "ory/oathkeeper",
     "osrg/gobgp",
     "peco/peco",
+    "pion/turn",
     "prometheus-community/windows_exporter",
     "prometheus-operator/prometheus-operator",
     "prometheus/alertmanager",
@@ -240,6 +249,7 @@
     "rancher/local-path-provisioner",
     "raviqqe/muffet",
     "redis/rueidis",
+    "replicate/cog",
     "reviewdog/reviewdog",
     "rhysd/actionlint",
     "rootless-containers/rootlesskit",
@@ -270,11 +280,11 @@
     "trzsz/trzsz-ssh",
     "uptrace/bun",
     "uptrace/uptrace",
+    "usbarmory/tamago",
     "VictoriaMetrics/fastcache",
     "vishvananda/netlink",
     "wa-lang/wa",
     "walles/moor",
-    "x-motemen/ghq",
-    "yuin/gopher-lua"
+    "x-motemen/ghq"
   ]
 }

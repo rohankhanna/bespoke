@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 154,
-    "observations": 155,
-    "repos": 56,
-    "terms": 153
+    "components": 164,
+    "concepts": 156,
+    "observations": 157,
+    "repos": 57,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -33,6 +33,7 @@
     "docker/github-builder",
     "eigenfoundation/elips",
     "elastic/logstash-docs",
+    "filecoin-project/Allocator-Registry",
     "flinedev/plankit",
     "ganelson/inform-evolution",
     "GDevelopApp/GDevelop-community-list",

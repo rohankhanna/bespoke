@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 132
-- terms: 604
-- components: 415
-- concepts: 610
-- observations: 612
+- repos: 134
+- terms: 612
+- components: 427
+- concepts: 618
+- observations: 620
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ng-log/ng-log](https://github.com/ng-log/ng-log) | 103 | 2026-03-31T22:21:20Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [KhronosGroup/OpenCL-ICD-Loader](https://github.com/KhronosGroup/OpenCL-ICD-Loader) | 297 | 2026-03-31T19:36:43Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [dloebl/cgif](https://github.com/dloebl/cgif) | 146 | 2026-03-31T10:00:51Z | C/C++ | Infrastructure/tooling | 14 | 5 | 14 | 14 |
 | [webgpu-native/webgpu-headers](https://github.com/webgpu-native/webgpu-headers) | 556 | 2026-03-31T08:13:55Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [amzn/amzn-drivers](https://github.com/amzn/amzn-drivers) | 509 | 2026-03-31T05:54:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -243,6 +245,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Dao-AILab/fast-hadamard-transform](https://github.com/Dao-AILab/fast-hadamard-transform) | 310 | 2026-03-10T08:57:36Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [isciences/exactextract](https://github.com/isciences/exactextract) | 309 | 2026-02-24T13:44:58Z | C/C++ | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [nagisa/rust_tracy_client](https://github.com/nagisa/rust_tracy_client) | 307 | 2026-01-05T01:09:49Z | C/C++ | CLI | 1 | 4 | 1 | 1 |
+| [KhronosGroup/OpenCL-ICD-Loader](https://github.com/KhronosGroup/OpenCL-ICD-Loader) | 297 | 2026-03-31T19:36:43Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [intel/isa-l_crypto](https://github.com/intel/isa-l_crypto) | 295 | 2026-01-22T17:04:40Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [KamilSJaron/smudgeplot](https://github.com/KamilSJaron/smudgeplot) | 294 | 2026-02-25T09:45:40Z | C/C++ | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [CrystallineCore/Biscuit](https://github.com/CrystallineCore/Biscuit) | 289 | 2026-03-26T07:10:33Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
@@ -292,6 +295,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [angr/vex](https://github.com/angr/vex) | 114 | 2026-02-01T07:47:54Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [stardot/beebasm](https://github.com/stardot/beebasm) | 106 | 2026-03-12T18:42:09Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [anacrolix/go-libutp](https://github.com/anacrolix/go-libutp) | 104 | 2026-03-21T12:03:05Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [ng-log/ng-log](https://github.com/ng-log/ng-log) | 103 | 2026-03-31T22:21:20Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [google/effcee](https://github.com/google/effcee) | 103 | 2026-02-24T15:38:36Z | C/C++ | Library | 3 | 0 | 3 | 3 |
 | [arminbiere/aiger](https://github.com/arminbiere/aiger) | 101 | 2026-02-17T12:49:07Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [AtomCrafty/UniversalInjectorFramework](https://github.com/AtomCrafty/UniversalInjectorFramework) | 100 | 2026-01-28T18:23:40Z | C/C++ | Framework | 0 | 0 | 0 | 0 |

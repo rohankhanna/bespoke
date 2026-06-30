@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1266,
-    "concepts": 274,
-    "observations": 275,
-    "repos": 77,
-    "terms": 271
+    "components": 1327,
+    "concepts": 286,
+    "observations": 287,
+    "repos": 81,
+    "terms": 283
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
@@ -28,6 +28,7 @@
     "ButTaiwan/bpmfvs",
     "Calcium-Ion/neko-api-key-tool",
     "chaijs/deep-eql",
+    "chrisgoringe/cg-use-everywhere",
     "cmake-js/cmake-js",
     "codota/tabnine-nvim",
     "CyberAP/nanoid-dictionary",
@@ -54,6 +55,7 @@
     "kriszyp/cbor-x",
     "latex-lsp/tree-sitter-latex",
     "lemire/FastPriorityQueue.js",
+    "Level/abstract-level",
     "Level/awesome",
     "mapbox/cheap-ruler",
     "Mario4272/ag_bridge",
@@ -85,9 +87,11 @@
     "stsquad/emacs_chrome",
     "svg-sprite/gulp-svg-sprite",
     "TeamMoeAI/MoeSR",
+    "terraform-linters/setup-tflint",
     "testing-library/eslint-plugin-jest-dom",
     "thejoshwolfe/yazl",
     "tonyganch/gonzales-pe",
+    "toon-format/spec",
     "usnistgov/jsfive",
     "w3c/webidl2.js",
     "watson/bonjour"

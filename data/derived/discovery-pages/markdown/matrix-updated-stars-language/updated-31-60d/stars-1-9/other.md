@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 68
-- components: 53
-- concepts: 68
-- observations: 68
+- repos: 13
+- terms: 59
+- components: 41
+- concepts: 59
+- observations: 59
 
 ## Static behavior
 
@@ -39,7 +39,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [standardrb/standard-sorbet](https://github.com/standardrb/standard-sorbet) | 4 | 2026-05-02T02:32:12Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [fern-api/docs](https://github.com/fern-api/docs) | 6 | 2026-05-01T13:35:47Z | Other | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [JuliaCI/rootfs-images](https://github.com/JuliaCI/rootfs-images) | 5 | 2026-05-01T11:38:26Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [stable-haskell/cabal](https://github.com/stable-haskell/cabal) | 1 | 2026-04-30T10:12:27Z | Other | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -58,4 +57,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alex-shpak/hugo-book-starter](https://github.com/alex-shpak/hugo-book-starter) | 1 | 2026-05-22T20:39:12Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Aayushm24/presidential-briefing](https://github.com/Aayushm24/presidential-briefing) | 1 | 2026-05-13T03:11:40Z | Other | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [atsushieno/aap-juce-simple-host](https://github.com/atsushieno/aap-juce-simple-host) | 1 | 2026-05-10T18:55:50Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [stable-haskell/cabal](https://github.com/stable-haskell/cabal) | 1 | 2026-04-30T10:12:27Z | Other | Infrastructure/tooling | 9 | 12 | 9 | 9 |

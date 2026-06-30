@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 735,
-    "concepts": 552,
-    "observations": 554,
-    "repos": 186,
-    "terms": 547
+    "components": 750,
+    "concepts": 550,
+    "observations": 552,
+    "repos": 191,
+    "terms": 545
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -47,13 +47,14 @@
     "appsignal/mono",
     "Arthur944/neotest-bun",
     "asg017/sqlite-hello",
-    "auto-complete/fuzzy-el",
+    "astropy/astropy-project",
     "AvaotaSBC/AvaotaF1",
     "avelino/monotropic-theme-vscode",
     "awslabs/aws-lc-verification",
     "ayrat555/cargo-mode",
     "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
+    "beam-telemetry/telemetry_metrics_statsd",
     "benomahony/oil-git.nvim",
     "blaine/fantastty",
     "bokeh/tutorial",
@@ -101,6 +102,7 @@
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "GoogleCloudPlatform/getting-started-dotnet",
     "HaxeFlixel/haxeflixel.com",
+    "haxeui/haxeui-guides",
     "hedronvision/bazel-make-cc-https-easy",
     "henryw374/chronos",
     "hspec/sensei",
@@ -150,6 +152,7 @@
     "mirage/conan",
     "mit-plv/bbv",
     "Mobile-Artificial-Intelligence/maise",
+    "mugh/minecraft-bedrock-server-manager",
     "mvz/non-digest-assets",
     "newtheatre/history-project",
     "nicholasjng/nanobind-bazel",
@@ -160,6 +163,7 @@
     "oap-project/oap-mllib",
     "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",
+    "ocurrent/ocurrent-deployer",
     "ocurrent/opam-health-check",
     "olimorris/neotest-phpunit",
     "onomojo/i18n-timezones",
@@ -177,6 +181,7 @@
     "robotology/icub-models",
     "rojo-rbx/rojo.space",
     "RTBHOUSE/tmux-picker",
+    "rubygems/release-gem",
     "rust-lang/crates-build-env",
     "Saalvage/AssimpNetter",
     "SchwarzIT/spectral-intellij-plugin",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 121
-- components: 526
+- repos: 23
+- terms: 129
+- components: 621
 - concepts: 123
 - observations: 123
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 26594 | 2026-03-31T18:24:26Z | JavaScript | Infrastructure/tooling | 8 | 95 | 0 | 0 |
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | 79134 | 2026-03-31T00:50:07Z | JavaScript | Infrastructure/tooling | 13 | 41 | 13 | 13 |
 | [auth0/node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) | 18167 | 2026-03-30T18:59:54Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
 | [hapijs/joi](https://github.com/hapijs/joi) | 21195 | 2026-03-30T17:24:52Z | JavaScript | Infrastructure/tooling | 3 | 16 | 3 | 3 |
@@ -62,6 +63,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gulpjs/gulp](https://github.com/gulpjs/gulp) | 32984 | 2026-02-09T06:30:13Z | JavaScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [songquanpeng/one-api](https://github.com/songquanpeng/one-api) | 32331 | 2026-01-09T03:26:43Z | JavaScript | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [caolan/async](https://github.com/caolan/async) | 28173 | 2026-02-01T15:33:10Z | JavaScript | Infrastructure/tooling | 2 | 41 | 2 | 2 |
+| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 26594 | 2026-03-31T18:24:26Z | JavaScript | Infrastructure/tooling | 8 | 95 | 0 | 0 |
 | [ramda/ramda](https://github.com/ramda/ramda) | 24083 | 2026-01-22T07:16:29Z | JavaScript | Infrastructure/tooling | 3 | 34 | 3 | 3 |
 | [chalk/chalk](https://github.com/chalk/chalk) | 23151 | 2026-01-27T06:30:36Z | JavaScript | CLI | 9 | 13 | 9 | 9 |
 | [websockets/ws](https://github.com/websockets/ws) | 22743 | 2026-03-21T17:13:48Z | JavaScript | CLI | 8 | 14 | 8 | 8 |

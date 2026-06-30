@@ -3,7 +3,7 @@
     "components": 6,
     "concepts": 3,
     "observations": 3,
-    "repos": 3,
+    "repos": 4,
     "terms": 3
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "Comfy-Org/ComfyUI-Standalone-Environments",
+    "crossplane/release",
     "psmux/scoop-psmux",
     "Vodes/muxtools-doc"
   ]

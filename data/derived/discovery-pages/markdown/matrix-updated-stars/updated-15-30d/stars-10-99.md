@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 21
-- terms: 95
-- components: 192
-- concepts: 95
-- observations: 95
+- repos: 25
+- terms: 98
+- components: 198
+- concepts: 98
+- observations: 98
 
 ## Static behavior
 
@@ -25,6 +25,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mathesong/kinfitr](https://github.com/mathesong/kinfitr) | 37 | 2026-06-15T20:59:58Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-06-15T15:30:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [ros-infrastructure/ros-apt-source](https://github.com/ros-infrastructure/ros-apt-source) | 17 | 2026-06-15T13:12:56Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [corgi-emacs/corgi-packages](https://github.com/corgi-emacs/corgi-packages) | 16 | 2026-06-15T12:15:43Z | Other | Library | 0 | 0 | 0 | 0 |
 | [itt-ustutt/num-dual](https://github.com/itt-ustutt/num-dual) | 91 | 2026-06-14T16:22:24Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [symgraph/BinAssistMCP](https://github.com/symgraph/BinAssistMCP) | 40 | 2026-06-14T15:02:29Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [tee-ar-ex/trx-python](https://github.com/tee-ar-ex/trx-python) | 26 | 2026-06-13T05:07:30Z | Python | Infrastructure/tooling | 5 | 12 | 5 | 5 |
@@ -65,10 +69,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lumen-oss/nurr](https://github.com/lumen-oss/nurr) | 42 | 2026-06-07T11:24:13Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [AMD-AGI/Nitro-T](https://github.com/AMD-AGI/Nitro-T) | 41 | 2026-06-04T05:52:55Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [symgraph/BinAssistMCP](https://github.com/symgraph/BinAssistMCP) | 40 | 2026-06-14T15:02:29Z | Python | Unknown | 4 | 0 | 4 | 4 |
+| [mathesong/kinfitr](https://github.com/mathesong/kinfitr) | 37 | 2026-06-15T20:59:58Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [FAIR-IMPACT/MOD](https://github.com/FAIR-IMPACT/MOD) | 36 | 2026-06-04T11:30:58Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [tee-ar-ex/trx-python](https://github.com/tee-ar-ex/trx-python) | 26 | 2026-06-13T05:07:30Z | Python | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [aidenlab/juicebox.js](https://github.com/aidenlab/juicebox.js) | 24 | 2026-06-10T19:58:54Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-06-15T15:30:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [FerrisMind/candle-video](https://github.com/FerrisMind/candle-video) | 21 | 2026-06-13T01:02:30Z | Rust | Library | 0 | 0 | 0 | 0 |
+| [ros-infrastructure/ros-apt-source](https://github.com/ros-infrastructure/ros-apt-source) | 17 | 2026-06-15T13:12:56Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [corgi-emacs/corgi-packages](https://github.com/corgi-emacs/corgi-packages) | 16 | 2026-06-15T12:15:43Z | Other | Library | 0 | 0 | 0 | 0 |
 | [electron-userland/electron-windows-msix](https://github.com/electron-userland/electron-windows-msix) | 14 | 2026-06-10T23:40:44Z | TypeScript | Infrastructure/tooling | 3 | 20 | 3 | 3 |
 | [abap2UI5-addons/sql-console](https://github.com/abap2UI5-addons/sql-console) | 13 | 2026-06-11T22:29:12Z | Other | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [aidenlab/hic-straw](https://github.com/aidenlab/hic-straw) | 10 | 2026-06-03T18:27:43Z | JavaScript | CLI | 0 | 7 | 0 | 0 |

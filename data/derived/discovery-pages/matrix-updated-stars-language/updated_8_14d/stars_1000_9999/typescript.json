@@ -3,7 +3,7 @@
     "components": 321,
     "concepts": 49,
     "observations": 50,
-    "repos": 9,
+    "repos": 8,
     "terms": 49
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
-    "ai-that-works/ai-that-works",
     "apollographql/apollo-tooling",
     "benchmark-action/github-action-benchmark",
     "flightcontrolhq/superjson",

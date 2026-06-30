@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 37,
-    "terms": 51
+    "components": 74,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 39,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "acevif/swiftformat-nix",
@@ -30,9 +30,10 @@
     "danielrosehill/Github-Ideas-And-FRs",
     "danielrosehill/Github-Repo-Org-Question",
     "danielrosehill/Live-Typing-UX-Research",
-    "danielrosehill/Responsible-Agent-Skill-Development",
     "firestryk/chatgpt-website.github.io",
     "genuslovoacalixtusiii510/ytp-2026",
+    "getlantern/guide",
+    "HumanSignal/label-studio-client-generator",
     "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/CUDA_Driver_jll.jl",
     "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
@@ -44,6 +45,7 @@
     "JuliaBinaryWrappers/libpng_jll.jl",
     "JuliaBinaryWrappers/Libuuid_jll.jl",
     "markoswire/remember-me.ai",
+    "netdur/imaged-sdk-examples",
     "regro/cf-graph-countyfair",
     "robertabao/grok-nvim",
     "shoggo-ai/seniorvigil",

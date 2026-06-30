@@ -3,7 +3,7 @@
     "components": 2,
     "concepts": 1,
     "observations": 1,
-    "repos": 3,
+    "repos": 2,
     "terms": 1
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "clearml/clearml-agent-bootstrap",
-    "danielrosehill/Claude-Filesystem-Organiser-Plugin",
     "kalavai-net/kalavai-templates"
   ]
 }

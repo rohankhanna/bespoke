@@ -3,7 +3,7 @@
     "components": 54,
     "concepts": 67,
     "observations": 67,
-    "repos": 21,
+    "repos": 22,
     "terms": 68
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "2KAbhishek/tmux-tilit",
     "Aedelon/claude-code-blueprint",
     "alchemiststudiosDOTai/harness-engineering",
+    "coin-or-tools/ThirdParty-Mumps",
     "coin-or/coinbrew",
     "conda-forge/spacy-feedstock",
     "containers/image_build",

@@ -3,14 +3,14 @@
     "components": 29040,
     "concepts": 15721,
     "observations": 15774,
-    "repos": 5649,
-    "terms": 15711
+    "repos": 5650,
+    "terms": 15710
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -2719,6 +2719,7 @@
     "HeliosZhao/SHADE",
     "helix-toolkit/helix-toolkit-nex",
     "HelloWorld886/xmake-visualstudio",
+    "HelloZicky/NaviCache",
     "Helsinki-NLP/OPUS-CAT",
     "henryw374/chronos",
     "henryw374/cljs.java-time",
@@ -5284,7 +5285,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

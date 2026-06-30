@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 65
-- terms: 333
-- components: 1360
-- concepts: 337
-- observations: 338
+- repos: 66
+- terms: 340
+- components: 1368
+- concepts: 344
+- observations: 345
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [amqp-node/amqplib](https://github.com/amqp-node/amqplib) | 3834 | 2026-03-31T16:52:01Z | JavaScript | CLI | 7 | 8 | 7 | 7 |
 | [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5960 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [isaacs/minimatch](https://github.com/isaacs/minimatch) | 3500 | 2026-03-30T18:11:46Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [ethereum/devp2p](https://github.com/ethereum/devp2p) | 1114 | 2026-03-30T13:14:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -55,7 +56,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mrsteele/dotenv-webpack](https://github.com/mrsteele/dotenv-webpack) | 1298 | 2026-03-07T23:31:17Z | JavaScript | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [csstree/csstree](https://github.com/csstree/csstree) | 2096 | 2026-03-05T14:58:51Z | JavaScript | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [paralleldrive/cuid2](https://github.com/paralleldrive/cuid2) | 3343 | 2026-03-04T21:32:47Z | JavaScript | Infrastructure/tooling | 0 | 21 | 0 | 0 |
-| [commonmark/commonmark.js](https://github.com/commonmark/commonmark.js) | 1560 | 2026-03-01T10:10:09Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
+| [commonmark/commonmark.js](https://github.com/commonmark/commonmark.js) | 1561 | 2026-03-01T10:10:09Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [svg-sprite/svg-sprite](https://github.com/svg-sprite/svg-sprite) | 1986 | 2026-02-28T02:34:44Z | JavaScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
 | [apostrophecms/sanitize-html](https://github.com/apostrophecms/sanitize-html) | 4133 | 2026-02-26T19:54:30Z | JavaScript | Web app | 0 | 15 | 0 | 0 |
 | [remarkjs/remark](https://github.com/remarkjs/remark) | 8842 | 2026-02-24T19:08:59Z | JavaScript | Infrastructure/tooling | 4 | 16 | 5 | 5 |
@@ -65,7 +66,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [istanbuljs/nyc](https://github.com/istanbuljs/nyc) | 5762 | 2026-02-23T14:50:00Z | JavaScript | CLI | 3 | 39 | 3 | 3 |
 | [dwyl/learn-json-web-tokens](https://github.com/dwyl/learn-json-web-tokens) | 4186 | 2026-02-23T12:48:07Z | JavaScript | Web app | 0 | 8 | 0 | 0 |
 | [Adobe-CEP/CEP-Resources](https://github.com/Adobe-CEP/CEP-Resources) | 1818 | 2026-02-20T20:59:34Z | JavaScript | Docs/knowledge | 4 | 0 | 4 | 4 |
-| [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9258 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
+| [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9257 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [microsoft/generative-ai-with-javascript](https://github.com/microsoft/generative-ai-with-javascript) | 1194 | 2026-02-19T10:27:16Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [breejs/bree](https://github.com/breejs/bree) | 3285 | 2026-02-17T22:09:07Z | JavaScript | Infrastructure/tooling | 15 | 34 | 15 | 15 |
 | [casparwylie/cascii-core](https://github.com/casparwylie/cascii-core) | 1170 | 2026-02-17T21:01:02Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
@@ -97,7 +98,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [pmndrs/drei](https://github.com/pmndrs/drei) | 9610 | 2026-03-23T19:31:26Z | JavaScript | Infrastructure/tooling | 7 | 82 | 7 | 7 |
-| [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9258 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
+| [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9257 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [grpc/grpc-web](https://github.com/grpc/grpc-web) | 9201 | 2026-02-07T16:30:59Z | JavaScript | CLI | 5 | 3 | 5 | 5 |
 | [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch) | 8858 | 2026-03-21T22:04:39Z | JavaScript | CLI | 12 | 23 | 12 | 12 |
 | [remarkjs/remark](https://github.com/remarkjs/remark) | 8842 | 2026-02-24T19:08:59Z | JavaScript | Infrastructure/tooling | 4 | 16 | 5 | 5 |
@@ -117,6 +118,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) | 4349 | 2026-01-18T14:33:28Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
 | [dwyl/learn-json-web-tokens](https://github.com/dwyl/learn-json-web-tokens) | 4186 | 2026-02-23T12:48:07Z | JavaScript | Web app | 0 | 8 | 0 | 0 |
 | [apostrophecms/sanitize-html](https://github.com/apostrophecms/sanitize-html) | 4133 | 2026-02-26T19:54:30Z | JavaScript | Web app | 0 | 15 | 0 | 0 |
+| [amqp-node/amqplib](https://github.com/amqp-node/amqplib) | 3834 | 2026-03-31T16:52:01Z | JavaScript | CLI | 7 | 8 | 7 | 7 |
 | [rollup/plugins](https://github.com/rollup/plugins) | 3753 | 2026-03-12T15:49:55Z | JavaScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
 | [jsx-eslint/eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) | 3579 | 2026-01-06T02:25:30Z | JavaScript | Infrastructure/tooling | 10 | 52 | 10 | 10 |
 | [isaacs/minimatch](https://github.com/isaacs/minimatch) | 3500 | 2026-03-30T18:11:46Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
@@ -149,7 +151,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [projectfluent/fluent](https://github.com/projectfluent/fluent) | 1641 | 2026-03-21T10:28:57Z | JavaScript | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [typicode/mistcss](https://github.com/typicode/mistcss) | 1616 | 2026-02-13T11:39:35Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [mourner/flatbush](https://github.com/mourner/flatbush) | 1584 | 2026-03-21T10:11:35Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [commonmark/commonmark.js](https://github.com/commonmark/commonmark.js) | 1560 | 2026-03-01T10:10:09Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
+| [commonmark/commonmark.js](https://github.com/commonmark/commonmark.js) | 1561 | 2026-03-01T10:10:09Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [crossbario/autobahn-js](https://github.com/crossbario/autobahn-js) | 1449 | 2026-03-21T11:03:15Z | JavaScript | Infrastructure/tooling | 11 | 18 | 11 | 11 |
 | [sindresorhus/trash-cli](https://github.com/sindresorhus/trash-cli) | 1397 | 2026-02-02T05:21:20Z | JavaScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [anandthakker/doiuse](https://github.com/anandthakker/doiuse) | 1304 | 2026-03-10T23:46:29Z | JavaScript | Infrastructure/tooling | 2 | 33 | 2 | 2 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 295
+- repos: 297
 - terms: 335
-- components: 198
+- components: 201
 - concepts: 336
 - observations: 336
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [1ilkhamov/opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) | 53 | 2025-12-31T14:58:10Z | Unknown | Unknown | 0 | 3 | 0 | 0 |
+| [JaeZ1205/PS_NBI2k](https://github.com/JaeZ1205/PS_NBI2k) | 12 | 2025-12-31T12:26:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [json-schema-org/.github](https://github.com/json-schema-org/.github) | 12 | 2025-12-27T15:04:22Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [Adlik/model_zoo](https://github.com/Adlik/model_zoo) | 11 | 2025-12-26T01:36:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [getlantern/lantern-forum-cn](https://github.com/getlantern/lantern-forum-cn) | 22 | 2025-12-24T15:48:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -407,6 +409,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ichitenfont/suppchara](https://github.com/ichitenfont/suppchara) | 56 | 2022-09-07T02:05:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JokerJohn/MS-Dataset](https://github.com/JokerJohn/MS-Dataset) | 55 | 2025-01-22T12:29:07Z | Unknown | Model/data | 4 | 0 | 4 | 4 |
 | [austinEng/webgpu-samples](https://github.com/austinEng/webgpu-samples) | 54 | 2024-03-06T00:27:16Z | Unknown | Infrastructure/tooling | 2 | 28 | 2 | 2 |
+| [1ilkhamov/opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) | 53 | 2025-12-31T14:58:10Z | Unknown | Unknown | 0 | 3 | 0 | 0 |
 | [mse-group/Slides](https://github.com/mse-group/Slides) | 53 | 2024-09-25T03:35:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mark0smith/Kunlun-M-GUI](https://github.com/mark0smith/Kunlun-M-GUI) | 53 | 2022-10-27T14:50:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [valida-xyz/valida-compiler](https://github.com/valida-xyz/valida-compiler) | 52 | 2023-08-31T09:25:34Z | Unknown | Infrastructure/tooling | 8 | 7 | 8 | 8 |
@@ -587,6 +590,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dwyl/learn-blockchain](https://github.com/dwyl/learn-blockchain) | 13 | 2022-09-06T08:10:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Moddable-OpenSource/moddable-xst](https://github.com/Moddable-OpenSource/moddable-xst) | 13 | 2022-06-16T09:35:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cointop-sh/colors](https://github.com/cointop-sh/colors) | 13 | 2021-09-07T07:41:51Z | Unknown | CLI | 8 | 0 | 8 | 8 |
+| [JaeZ1205/PS_NBI2k](https://github.com/JaeZ1205/PS_NBI2k) | 12 | 2025-12-31T12:26:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [json-schema-org/.github](https://github.com/json-schema-org/.github) | 12 | 2025-12-27T15:04:22Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [AlefAlefAlef/gveret-levin](https://github.com/AlefAlefAlef/gveret-levin) | 12 | 2025-11-14T13:52:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mightymo77/MightyMos-Cheat-Code-Pack](https://github.com/mightymo77/MightyMos-Cheat-Code-Pack) | 12 | 2025-08-08T17:48:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -102,7 +102,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CosmWasm/cw-template](https://github.com/CosmWasm/cw-template) | 299 | 2025-01-16T15:30:01Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [infinyon/node-bindgen](https://github.com/infinyon/node-bindgen) | 589 | 2025-01-13T13:14:53Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [dirs-dev/directories-rs](https://github.com/dirs-dev/directories-rs) | 834 | 2025-01-12T19:35:58Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs) | 738 | 2025-01-12T19:35:17Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs) | 739 | 2025-01-12T19:35:17Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [andrewmilson/sandstorm](https://github.com/andrewmilson/sandstorm) | 161 | 2025-01-11T22:15:36Z | Rust | Unknown | 6 | 0 | 6 | 6 |
 | [alacritty/vtebench](https://github.com/alacritty/vtebench) | 392 | 2025-01-09T07:23:53Z | Rust | CLI | 3 | 0 | 3 | 3 |
 | [monero-rs/monero-rs](https://github.com/monero-rs/monero-rs) | 167 | 2024-12-30T10:25:34Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
@@ -148,7 +148,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/vscode-remote-try-rust](https://github.com/microsoft/vscode-remote-try-rust) | 327 | 2024-04-12T07:36:35Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [LaurentMazare/diffusers-rs](https://github.com/LaurentMazare/diffusers-rs) | 591 | 2024-04-04T07:51:51Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) | 645 | 2024-03-25T12:42:02Z | Rust | Unknown | 1 | 0 | 2 | 2 |
-| [lnx-search/rewrk](https://github.com/lnx-search/rewrk) | 582 | 2024-03-25T12:30:23Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 6 |
+| [lnx-search/rewrk](https://github.com/lnx-search/rewrk) | 583 | 2024-03-25T12:30:23Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 6 |
 | [frankfralick/dripgrep](https://github.com/frankfralick/dripgrep) | 167 | 2024-03-12T00:06:23Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [blitz-js/next-superjson-plugin](https://github.com/blitz-js/next-superjson-plugin) | 216 | 2024-03-03T05:24:27Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [njsmith/posy](https://github.com/njsmith/posy) | 300 | 2024-03-01T04:38:11Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -248,7 +248,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [astro/deadnix](https://github.com/astro/deadnix) | 747 | 2025-12-15T18:02:07Z | Rust | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [bwasty/vulkan-tutorial-rs](https://github.com/bwasty/vulkan-tutorial-rs) | 747 | 2023-09-21T19:43:22Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [rust-windowing/gl-rs](https://github.com/rust-windowing/gl-rs) | 742 | 2025-11-25T09:08:08Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs) | 738 | 2025-01-12T19:35:17Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs) | 739 | 2025-01-12T19:35:17Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [comit-network/xmr-btc-swap](https://github.com/comit-network/xmr-btc-swap) | 714 | 2025-07-22T11:42:04Z | Rust | Infrastructure/tooling | 9 | 14 | 9 | 9 |
 | [rustwasm/wee_alloc](https://github.com/rustwasm/wee_alloc) | 711 | 2023-02-28T17:54:02Z | Rust | Unknown | 4 | 0 | 4 | 4 |
 | [Builditluc/wiki-tui](https://github.com/Builditluc/wiki-tui) | 705 | 2025-12-08T06:19:15Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
@@ -266,7 +266,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LaurentMazare/diffusers-rs](https://github.com/LaurentMazare/diffusers-rs) | 591 | 2024-04-04T07:51:51Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [infinyon/node-bindgen](https://github.com/infinyon/node-bindgen) | 589 | 2025-01-13T13:14:53Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [Misterio77/flavours](https://github.com/Misterio77/flavours) | 589 | 2023-06-13T14:16:11Z | Rust | CLI | 8 | 5 | 8 | 9 |
-| [lnx-search/rewrk](https://github.com/lnx-search/rewrk) | 582 | 2024-03-25T12:30:23Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 6 |
+| [lnx-search/rewrk](https://github.com/lnx-search/rewrk) | 583 | 2024-03-25T12:30:23Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 6 |
 | [danburkert/memmap-rs](https://github.com/danburkert/memmap-rs) | 574 | 2022-02-13T09:20:58Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [fu5ha/rayn](https://github.com/fu5ha/rayn) | 555 | 2022-10-10T16:27:40Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [vmware-labs/wasm-workers-server](https://github.com/vmware-labs/wasm-workers-server) | 541 | 2024-06-02T19:18:22Z | Rust | Infrastructure/tooling | 9 | 8 | 9 | 10 |

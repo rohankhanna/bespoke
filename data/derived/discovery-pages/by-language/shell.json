@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1949,
+    "components": 1950,
     "concepts": 2898,
     "observations": 2917,
     "repos": 727,
-    "terms": 2833
+    "terms": 2831
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -698,7 +698,7 @@
     "transmissions11/dapptools-template",
     "trapd00r/LS_COLORS",
     "tremby/imgur.sh",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "tuvovan/Zero_DCE_TF",
     "twain47/Open-SVG-Map-Icons",
     "TypedDevs/bashunit",

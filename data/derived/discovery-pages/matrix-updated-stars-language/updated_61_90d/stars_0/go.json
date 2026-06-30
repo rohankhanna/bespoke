@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 14,
-    "terms": 35
+    "components": 73,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 15,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "ainvaltin/nu_plugin_boltdb",
@@ -27,6 +27,7 @@
     "hyper-mcp-rs/crypto-price-plugin",
     "jonislutheran87/weclaw",
     "kdubbo/xds-api",
+    "lakekeeper/lakekeeper-operator",
     "transparency-dev/armored-witness-common"
   ]
 }

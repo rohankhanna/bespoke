@@ -1,24 +1,27 @@
 {
   "counts": {
-    "components": 468,
-    "concepts": 231,
-    "observations": 231,
-    "repos": 36,
-    "terms": 231
+    "components": 531,
+    "concepts": 279,
+    "observations": 280,
+    "repos": 42,
+    "terms": 278
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
-    "abaplint/transpiler",
+    "actions/container-toolkit-action",
+    "adtzlr/felupe",
+    "andfoy/pywinpty",
     "ANTsX/ANTsPy",
     "ANTsX/ANTsPyNet",
     "Artoriuz/ArtCNN",
     "Avarok-Cybersecurity/atlas",
-    "bazel-contrib/rules_jvm_external",
+    "avocadowastaken/prettier-plugin-prisma",
+    "claritychallenge/clarity",
     "Comfy-Org/Comfy-Desktop",
     "cvxgrp/scs",
     "Deep-Symmetry/beat-link",
@@ -30,11 +33,13 @@
     "GitoxideLabs/cargo-smart-release",
     "google-deepmind/reverb",
     "googlefonts/roboto-3-classic",
+    "grpc/grpc-dart",
     "hetznercloud/hcloud-cloud-controller-manager",
-    "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+    "JuliaCollections/AbstractTrees.jl",
     "JuliaLinearAlgebra/MKL.jl",
     "jump-dev/MathOptInterface.jl",
     "kurrent-io/KurrentDB-Client-Dotnet",
+    "localai-org/LocalVQE",
     "localai-org/privacy-filter.cpp",
     "mudler/LocalRecall",
     "NOAA-EMC/WW3",
@@ -42,12 +47,13 @@
     "nvim-mini/mini.deps",
     "OpenHands/agent-canvas",
     "PyCQA/eradicate",
+    "pylint-dev/pylint-django",
     "pyOpenSci/software-submission",
     "reza-gholizade/k8s-mcp-server",
+    "richiejp/VoxInput",
     "safe-fndn/safe-singleton-factory",
-    "SpecterOps/AzureHound",
     "the-database/VideoJaNai",
     "tree-sitter-grammars/tree-sitter-markdown",
-    "unum-bio/USearchMolecules"
+    "wevm/abitype"
   ]
 }

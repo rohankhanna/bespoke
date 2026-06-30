@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 14,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 2,
-    "terms": 12
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
-    "Archerkattri/hicache-plus-plus",
     "OpenHands/automation"
   ]
 }

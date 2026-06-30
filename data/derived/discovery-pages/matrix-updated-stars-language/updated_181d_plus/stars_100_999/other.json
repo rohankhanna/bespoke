@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2456,
-    "concepts": 3265,
-    "observations": 3272,
-    "repos": 1022,
-    "terms": 3245
+    "components": 2465,
+    "concepts": 3270,
+    "observations": 3277,
+    "repos": 1025,
+    "terms": 3250
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -73,6 +73,7 @@
     "andythigpen/nvim-coverage",
     "angelobreuer/localtunnel.net",
     "Anime4KWebBoost/Anime4K-WebGPU",
+    "ankane/groupdate.sql",
     "ansible/community",
     "antfu/live-draw",
     "antfu/prism-theme-vars",
@@ -110,6 +111,7 @@
     "atteneder/DracoUnity",
     "attr-encrypted/encryptor",
     "audeering/w2v2-how-to",
+    "auto-complete/popup-el",
     "autofac/Autofac.AspNetCore.Multitenant",
     "AvaloniaCommunity/Prism.Avalonia",
     "awasthiabhijeet/PIE",
@@ -786,6 +788,7 @@
     "pirapira/eth-isabelle",
     "PistonDevelopers/rust-empty",
     "PlexPt/chatgpt-online-springboot",
+    "plk/biber",
     "pocojang/nuxt-realworld",
     "pointfreeco/swift-parsing",
     "pointfreeco/swift-url-routing",

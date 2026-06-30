@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 18797,
-    "concepts": 28242,
-    "observations": 28296,
+    "components": 18801,
+    "concepts": 28238,
+    "observations": 28292,
     "repos": 7027,
-    "terms": 28003
+    "terms": 27996
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1396,7 +1396,6 @@
     "ChenmienTan/RL2",
     "ChenMnZ/INT_vs_FP",
     "ChenMnZ/PrefixQuant",
-    "ChenRocks/UNITER",
     "ChenShawn/MultiModal-Jupyter-Sandbox",
     "ChenxinAn-fdu/POLARIS",
     "chenyangMl/llama2.c-zh",
@@ -2948,6 +2947,7 @@
     "hehao13/CameraCtrl",
     "heimoshuiyu/whisper-fastapi",
     "HeliosZhao/SHADE",
+    "HelloZicky/NaviCache",
     "Helsinki-NLP/Opus-MT",
     "hemingkx/Spec-Bench",
     "hendrycks/apps",

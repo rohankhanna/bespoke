@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 75
-- terms: 281
-- components: 112
-- concepts: 282
-- observations: 283
+- repos: 79
+- terms: 303
+- components: 127
+- concepts: 304
+- observations: 305
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [getlantern/lantern-binaries](https://github.com/getlantern/lantern-binaries) | 113 | 2026-05-01T02:52:19Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [box/box-openapi](https://github.com/box/box-openapi) | 100 | 2026-04-30T15:48:41Z | Unknown | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [graalvm/mandrel](https://github.com/graalvm/mandrel) | 440 | 2026-04-30T14:04:25Z | Unknown | Infrastructure/tooling | 14 | 7 | 14 | 14 |
+| [48Club/bsc-snapshots](https://github.com/48Club/bsc-snapshots) | 191 | 2026-04-30T10:41:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [graalvm/graalvm-ce-dev-builds](https://github.com/graalvm/graalvm-ce-dev-builds) | 104 | 2026-04-30T05:00:30Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) | 595 | 2026-04-30T00:22:13Z | Unknown | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [github/copilot-language-server-release](https://github.com/github/copilot-language-server-release) | 269 | 2026-04-29T23:42:04Z | Unknown | Service/API | 1 | 0 | 1 | 1 |
@@ -135,6 +139,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [antonbabenko/terraform-aws-devops](https://github.com/antonbabenko/terraform-aws-devops) | 495 | 2026-04-13T09:45:44Z | Unknown | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [stripe/openapi](https://github.com/stripe/openapi) | 474 | 2026-04-21T00:38:44Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [abhisheknaiidu/abhisheknaiidu](https://github.com/abhisheknaiidu/abhisheknaiidu) | 446 | 2026-04-22T20:39:45Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [graalvm/mandrel](https://github.com/graalvm/mandrel) | 440 | 2026-04-30T14:04:25Z | Unknown | Infrastructure/tooling | 14 | 7 | 14 | 14 |
 | [Uzaaft/awesome-libghostty](https://github.com/Uzaaft/awesome-libghostty) | 433 | 2026-04-16T08:47:27Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [tinted-theming/home](https://github.com/tinted-theming/home) | 425 | 2026-04-21T21:20:23Z | Unknown | Infrastructure/tooling | 6 | 4 | 6 | 7 |
 | [piebald-ai/awesome-gemini-cli](https://github.com/Piebald-AI/awesome-gemini-cli) | 419 | 2026-04-16T13:53:06Z | Unknown | CLI | 10 | 0 | 10 | 10 |
@@ -154,6 +159,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tc39/how-we-work](https://github.com/tc39/how-we-work) | 218 | 2026-04-10T16:51:26Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [alchaincyf/elon-musk-skill](https://github.com/alchaincyf/elon-musk-skill) | 217 | 2026-04-10T02:28:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bloomberg/clang-p2996](https://github.com/bloomberg/clang-p2996) | 195 | 2026-04-15T09:19:31Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [48Club/bsc-snapshots](https://github.com/48Club/bsc-snapshots) | 191 | 2026-04-30T10:41:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [CVEProject/automation-working-group](https://github.com/CVEProject/automation-working-group) | 184 | 2026-04-22T00:07:51Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [adoptium/adoptium](https://github.com/adoptium/adoptium) | 183 | 2026-04-08T15:17:42Z | Unknown | CLI | 5 | 0 | 5 | 5 |
 | [chromedp/cdproto](https://github.com/chromedp/cdproto) | 178 | 2026-04-27T01:31:51Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -174,6 +180,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ietf-tools/.github](https://github.com/ietf-tools/.github) | 119 | 2026-04-17T01:47:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs-examples/helia-examples](https://github.com/ipfs-examples/helia-examples) | 114 | 2026-04-21T11:38:37Z | Unknown | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [alchaincyf/naval-skill](https://github.com/alchaincyf/naval-skill) | 114 | 2026-04-12T05:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [getlantern/lantern-binaries](https://github.com/getlantern/lantern-binaries) | 113 | 2026-05-01T02:52:19Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [LuaLS/LLS-Addons](https://github.com/LuaLS/LLS-Addons) | 113 | 2026-04-26T02:24:01Z | Unknown | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [LemmyNet/lemmy-docs](https://github.com/LemmyNet/lemmy-docs) | 105 | 2026-04-25T04:27:52Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [antonbabenko/awesome-terraform-compliance](https://github.com/antonbabenko/awesome-terraform-compliance) | 105 | 2026-04-22T06:44:04Z | Unknown | Infrastructure/tooling | 11 | 3 | 11 | 11 |
@@ -181,3 +188,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [graalvm/graalvm-ce-dev-builds](https://github.com/graalvm/graalvm-ce-dev-builds) | 104 | 2026-04-30T05:00:30Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [luau-lang/rfcs](https://github.com/luau-lang/rfcs) | 103 | 2026-04-27T21:11:30Z | Unknown | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [web-platform-tests/rfcs](https://github.com/web-platform-tests/rfcs) | 103 | 2026-04-07T15:14:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [box/box-openapi](https://github.com/box/box-openapi) | 100 | 2026-04-30T15:48:41Z | Unknown | Infrastructure/tooling | 7 | 8 | 7 | 7 |

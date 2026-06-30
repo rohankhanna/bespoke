@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 89
-- terms: 325
-- components: 507
-- concepts: 327
-- observations: 332
+- repos: 91
+- terms: 334
+- components: 525
+- concepts: 336
+- observations: 341
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cryscan/web-rwkv](https://github.com/cryscan/web-rwkv) | 347 | 2026-04-01T05:31:36Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [posit-dev/air](https://github.com/posit-dev/air) | 411 | 2026-03-31T12:27:15Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [quickwit-oss/tantivy-cli](https://github.com/quickwit-oss/tantivy-cli) | 396 | 2026-03-31T09:18:32Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [sparsemat/sprs](https://github.com/sparsemat/sprs) | 603 | 2026-03-30T23:02:41Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [hsivonen/chardetng](https://github.com/hsivonen/chardetng) | 118 | 2026-03-30T12:24:30Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -51,7 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LukasKalbertodt/libtest-mimic](https://github.com/LukasKalbertodt/libtest-mimic) | 135 | 2026-03-16T17:44:54Z | Rust | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [servo/rust-cssparser](https://github.com/servo/rust-cssparser) | 851 | 2026-03-16T16:52:26Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [YaLTeR/wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) | 475 | 2026-03-16T08:25:58Z | Rust | CLI | 3 | 8 | 3 | 3 |
-| [psmux/psnet](https://github.com/psmux/psnet) | 111 | 2026-03-14T19:02:04Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [psmux/psnet](https://github.com/psmux/psnet) | 112 | 2026-03-14T19:02:04Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [gfx-rs/rspirv](https://github.com/gfx-rs/rspirv) | 492 | 2026-03-13T15:49:48Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [typst/comemo](https://github.com/typst/comemo) | 595 | 2026-03-13T10:29:41Z | Rust | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [mozilla/dump_syms](https://github.com/mozilla/dump_syms) | 165 | 2026-03-11T10:15:52Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -154,12 +156,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [emilk/egui_plot](https://github.com/emilk/egui_plot) | 415 | 2026-03-26T12:59:24Z | Rust | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [prisma/tiberius](https://github.com/prisma/tiberius) | 415 | 2026-03-06T12:48:07Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [gimli-rs/addr2line](https://github.com/gimli-rs/addr2line) | 414 | 2026-03-29T10:25:00Z | Rust | Infrastructure/tooling | 6 | 2 | 6 | 7 |
+| [posit-dev/air](https://github.com/posit-dev/air) | 411 | 2026-03-31T12:27:15Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [quickwit-oss/tantivy-cli](https://github.com/quickwit-oss/tantivy-cli) | 396 | 2026-03-31T09:18:32Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ratatui/templates](https://github.com/ratatui/templates) | 389 | 2026-02-12T22:25:53Z | Rust | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [blyxxyz/lexopt](https://github.com/blyxxyz/lexopt) | 387 | 2026-02-28T22:40:58Z | Rust | CLI | 4 | 1 | 4 | 4 |
 | [rust-bio/rust-htslib](https://github.com/rust-bio/rust-htslib) | 365 | 2026-01-29T10:32:34Z | Rust | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [yaahc/displaydoc](https://github.com/yaahc/displaydoc) | 361 | 2026-01-20T20:05:45Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [zkcrypto/bls12_381](https://github.com/zkcrypto/bls12_381) | 360 | 2026-02-25T03:11:36Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [cryscan/web-rwkv](https://github.com/cryscan/web-rwkv) | 347 | 2026-04-01T05:31:36Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [zonyitoo/rust-ini](https://github.com/zonyitoo/rust-ini) | 345 | 2026-02-04T06:32:20Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [guillaume-be/rust-tokenizers](https://github.com/guillaume-be/rust-tokenizers) | 340 | 2026-01-22T20:30:14Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [dimforge/simba](https://github.com/dimforge/simba) | 335 | 2026-02-07T15:46:08Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -204,8 +208,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zkcrypto/jubjub](https://github.com/zkcrypto/jubjub) | 121 | 2026-02-25T06:54:13Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [hsivonen/chardetng](https://github.com/hsivonen/chardetng) | 118 | 2026-03-30T12:24:30Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [lquerel/gcp-bigquery-client](https://github.com/lquerel/gcp-bigquery-client) | 113 | 2026-02-01T06:49:21Z | Rust | CLI | 2 | 7 | 2 | 3 |
+| [psmux/psnet](https://github.com/psmux/psnet) | 112 | 2026-03-14T19:02:04Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cuviper/autocfg](https://github.com/cuviper/autocfg) | 112 | 2026-02-05T23:34:11Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [scopedb/percas](https://github.com/scopedb/percas) | 112 | 2026-01-15T02:02:41Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [psmux/psnet](https://github.com/psmux/psnet) | 111 | 2026-03-14T19:02:04Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [SunDoge/simdjson-rust](https://github.com/SunDoge/simdjson-rust) | 111 | 2026-03-02T09:14:56Z | Rust | Infrastructure/tooling | 4 | 4 | 5 | 5 |
 | [cedar-policy/cedar-examples](https://github.com/cedar-policy/cedar-examples) | 110 | 2026-03-26T18:35:16Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |

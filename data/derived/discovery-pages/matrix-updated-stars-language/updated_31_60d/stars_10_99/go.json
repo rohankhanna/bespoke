@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 14,
-    "terms": 70
+    "components": 50,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 8,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "ankitpokhrel/shopctl",
     "apache/casbin-govaluate",
-    "energye/lcl",
     "energye/wv",
-    "golangci/go-printf-func-name",
-    "golangci/misspell",
     "gookit/ini",
     "gookit/rux",
     "joshsymonds/cc-tools",
-    "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "mudler/skillserver",
-    "philips-labs/dct-notary-admin",
-    "tendermint/tm-db",
-    "usbarmory/tamago-sev-example"
+    "tendermint/tm-db"
   ]
 }

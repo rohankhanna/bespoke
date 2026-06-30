@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4150,
-    "concepts": 880,
-    "observations": 881,
-    "repos": 130,
-    "terms": 875
+    "components": 4371,
+    "concepts": 904,
+    "observations": 905,
+    "repos": 134,
+    "terms": 899
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -21,7 +21,6 @@
     "amannn/action-semantic-pull-request",
     "americanexpress/jest-image-snapshot",
     "amperser/proselint",
-    "amqp-node/amqplib",
     "antfu/eslint-config",
     "apache/cordova-android",
     "apache/cordova-ios",
@@ -97,10 +96,12 @@
     "newrelic/node-newrelic",
     "NickColley/jest-axe",
     "nodegit/nodegit",
+    "nodejs/Release",
     "nodejs/undici",
     "npm/cli",
     "npm/node-semver",
     "observing/pre-commit",
+    "openstreetmap/iD",
     "parallel-js/parallel.js",
     "patorjk/figlet.js",
     "piebald-ai/claude-code-system-prompts",
@@ -109,6 +110,7 @@
     "postcss/postcss-import",
     "postcss/postcss-nested",
     "proj4js/proj4js",
+    "ranisalt/node-argon2",
     "release-it/release-it",
     "reZach/secure-electron-template",
     "rgthree/rgthree-comfy",
@@ -119,6 +121,7 @@
     "serverless-operations/serverless-step-functions",
     "sindresorhus/hyper-snazzy",
     "sindresorhus/np",
+    "sveltejs/vite-plugin-svelte",
     "swagger-api/swagger-editor",
     "tc39/agendas",
     "tc39/test262",
@@ -130,6 +133,7 @@
     "tw-in-js/twind",
     "umijs/dumi",
     "unifiedjs/unified",
+    "violentmonkey/violentmonkey",
     "vizzuhq/vizzu-lib",
     "vueform/vueform",
     "WebKit/WebKit",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 20,
-    "observations": 20,
+    "components": 36,
+    "concepts": 25,
+    "observations": 25,
     "repos": 4,
-    "terms": 20
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "hetznercloud/hcloud-cloud-controller-manager",
     "mudler/LocalRecall",
     "reza-gholizade/k8s-mcp-server",
-    "SpecterOps/AzureHound"
+    "richiejp/VoxInput"
   ]
 }

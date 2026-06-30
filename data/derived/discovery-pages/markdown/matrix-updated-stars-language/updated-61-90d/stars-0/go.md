@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Go
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 35
-- components: 68
-- concepts: 35
-- observations: 35
+- repos: 15
+- terms: 41
+- components: 73
+- concepts: 41
+- observations: 41
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lakekeeper/lakekeeper-operator](https://github.com/lakekeeper/lakekeeper-operator) | 0 | 2026-04-30T11:30:58Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [kdubbo/xds-api](https://github.com/kdubbo/xds-api) | 0 | 2026-04-23T10:50:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [transparency-dev/armored-witness-common](https://github.com/transparency-dev/armored-witness-common) | 0 | 2026-04-20T11:23:44Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
@@ -45,6 +46,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lakekeeper/lakekeeper-operator](https://github.com/lakekeeper/lakekeeper-operator) | 0 | 2026-04-30T11:30:58Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [kdubbo/xds-api](https://github.com/kdubbo/xds-api) | 0 | 2026-04-23T10:50:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [transparency-dev/armored-witness-common](https://github.com/transparency-dev/armored-witness-common) | 0 | 2026-04-20T11:23:44Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |

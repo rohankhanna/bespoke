@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 371,
-    "concepts": 377,
-    "observations": 378,
-    "repos": 61,
-    "terms": 377
+    "components": 386,
+    "concepts": 383,
+    "observations": 384,
+    "repos": 64,
+    "terms": 383
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
@@ -34,12 +34,15 @@
     "cloudwego/biz-demo",
     "cloudwego/kitex-examples",
     "connectrpc/grpcreflect-go",
+    "docker-library/bashbrew",
     "dop251/goja_nodejs",
     "erigontech/interfaces",
     "FastFilter/xorfilter",
     "fastschema/fastschema",
     "firecracker-microvm/firectl",
+    "GFW-knocker/Xray-core",
     "go-chi/docgen",
+    "go-gl/glow",
     "GoogleCloudPlatform/docker-credential-gcr",
     "gopacket/gopacket",
     "gost-dom/browser",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 113
-- terms: 1268
-- components: 1275
-- concepts: 1284
-- observations: 1288
+- repos: 116
+- terms: 1326
+- components: 1336
+- concepts: 1339
+- observations: 1343
 
 ## Static behavior
 
@@ -26,6 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16933 | 2026-04-30T18:46:40Z | Go | Infrastructure/tooling | 21 | 9 | 21 | 21 |
+| [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) | 14025 | 2026-04-30T16:18:34Z | Go | CLI | 6 | 2 | 6 | 6 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 56944 | 2026-04-30T15:10:01Z | Go | Infrastructure/tooling | 22 | 16 | 22 | 22 |
+| [navidrome/navidrome](https://github.com/navidrome/navidrome) | 20804 | 2026-04-30T12:07:23Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |
+| [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32108 | 2026-04-30T10:21:01Z | Go | Infrastructure/tooling | 11 | 11 | 11 | 11 |
+| [ory/kratos](https://github.com/ory/kratos) | 13610 | 2026-04-30T10:05:07Z | Go | Infrastructure/tooling | 17 | 36 | 17 | 17 |
 | [pingcap/tidb](https://github.com/pingcap/tidb) | 40044 | 2026-04-30T09:29:28Z | Go | Infrastructure/tooling | 20 | 8 | 20 | 20 |
 | [dagger/dagger](https://github.com/dagger/dagger) | 15746 | 2026-04-30T09:09:49Z | Go | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [DNSCrypt/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | 13256 | 2026-04-30T03:52:44Z | Go | Infrastructure/tooling | 13 | 8 | 13 | 13 |
@@ -118,7 +124,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) | 12022 | 2026-04-17T22:42:22Z | Go | CLI | 2 | 5 | 0 | 0 |
 | [containerd/containerd](https://github.com/containerd/containerd) | 20600 | 2026-04-17T22:41:34Z | Go | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [nektos/act](https://github.com/nektos/act) | 69993 | 2026-04-17T22:40:32Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |
-| [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows) | 46929 | 2026-04-17T17:58:18Z | Go | Infrastructure/tooling | 14 | 13 | 14 | 14 |
+| [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows) | 46936 | 2026-04-17T17:58:18Z | Go | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [1panel-dev/1panel](https://github.com/1Panel-dev/1Panel) | 35035 | 2026-04-17T08:36:19Z | Go | Infrastructure/tooling | 20 | 15 | 20 | 20 |
 | [Jguer/yay](https://github.com/Jguer/yay) | 13376 | 2026-04-17T07:56:28Z | Go | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [slimtoolkit/slim](https://github.com/slimtoolkit/slim) | 23156 | 2026-04-16T20:45:31Z | Go | Unknown | 11 | 0 | 11 | 11 |
@@ -136,9 +142,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stretchr/testify](https://github.com/stretchr/testify) | 25969 | 2026-04-08T17:29:08Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [labstack/echo](https://github.com/labstack/echo) | 32332 | 2026-04-07T11:03:50Z | Go | Infrastructure/tooling | 12 | 3 | 12 | 12 |
 | [evanw/esbuild](https://github.com/evanw/esbuild) | 39856 | 2026-04-02T20:38:53Z | Go | Infrastructure/tooling | 8 | 5 | 8 | 8 |
-| [panjf2000/gnet](https://github.com/panjf2000/gnet) | 11137 | 2026-04-01T00:42:40Z | Go | Infrastructure/tooling | 19 | 10 | 19 | 19 |
-| [panjf2000/ants](https://github.com/panjf2000/ants) | 14405 | 2026-04-01T00:40:56Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
-| [direnv/direnv](https://github.com/direnv/direnv) | 14989 | 2026-03-31T18:52:06Z | Go | Infrastructure/tooling | 9 | 9 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -152,9 +155,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 71765 | 2026-04-23T00:25:18Z | Go | Infrastructure/tooling | 21 | 13 | 21 | 21 |
 | [nektos/act](https://github.com/nektos/act) | 69993 | 2026-04-17T22:40:32Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 63714 | 2026-04-22T13:45:49Z | Go | Infrastructure/tooling | 12 | 19 | 12 | 13 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 56944 | 2026-04-30T15:10:01Z | Go | Infrastructure/tooling | 22 | 16 | 22 | 22 |
 | [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) | 50995 | 2026-04-22T14:48:38Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [hashicorp/terraform](https://github.com/hashicorp/terraform) | 48195 | 2026-04-21T17:22:33Z | Go | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows) | 46929 | 2026-04-17T17:58:18Z | Go | Infrastructure/tooling | 14 | 13 | 14 | 14 |
+| [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows) | 46936 | 2026-04-17T17:58:18Z | Go | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [cli/cli](https://github.com/cli/cli) | 43956 | 2026-04-21T10:19:13Z | Go | CLI | 10 | 14 | 10 | 10 |
 | [milvus-io/milvus](https://github.com/milvus-io/milvus) | 43936 | 2026-04-23T16:51:49Z | Go | Infrastructure/tooling | 24 | 9 | 24 | 24 |
 | [spf13/cobra](https://github.com/spf13/cobra) | 43814 | 2026-04-25T23:07:41Z | Go | CLI | 16 | 6 | 16 | 16 |
@@ -172,6 +176,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | 33670 | 2026-04-23T15:22:36Z | Go | Infrastructure/tooling | 9 | 0 | 9 | 9 |
 | [k3s-io/k3s](https://github.com/k3s-io/k3s) | 32823 | 2026-04-20T11:12:09Z | Go | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [labstack/echo](https://github.com/labstack/echo) | 32332 | 2026-04-07T11:03:50Z | Go | Infrastructure/tooling | 12 | 3 | 12 | 12 |
+| [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32108 | 2026-04-30T10:21:01Z | Go | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 31717 | 2026-04-22T21:44:30Z | Go | Infrastructure/tooling | 13 | 12 | 13 | 13 |
 | [hashicorp/consul](https://github.com/hashicorp/consul) | 29853 | 2026-04-23T19:13:04Z | Go | Infrastructure/tooling | 13 | 19 | 13 | 13 |
 | [opentofu/opentofu](https://github.com/opentofu/opentofu) | 28433 | 2026-04-21T10:21:23Z | Go | Infrastructure/tooling | 7 | 16 | 7 | 7 |
@@ -197,6 +202,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dolthub/dolt](https://github.com/dolthub/dolt) | 22236 | 2026-04-19T21:17:34Z | Go | Infrastructure/tooling | 25 | 16 | 25 | 25 |
 | [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) | 21667 | 2026-04-29T22:02:53Z | Go | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [getsops/sops](https://github.com/getsops/sops) | 21665 | 2026-04-27T16:07:56Z | Go | Infrastructure/tooling | 11 | 16 | 11 | 11 |
+| [navidrome/navidrome](https://github.com/navidrome/navidrome) | 20804 | 2026-04-30T12:07:23Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |
 | [lima-vm/lima](https://github.com/lima-vm/lima) | 20803 | 2026-04-21T03:54:27Z | Go | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [containerd/containerd](https://github.com/containerd/containerd) | 20600 | 2026-04-17T22:41:34Z | Go | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [go-playground/validator](https://github.com/go-playground/validator) | 19926 | 2026-04-29T07:51:08Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -212,6 +218,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ory/hydra](https://github.com/ory/hydra) | 17106 | 2026-04-14T07:13:13Z | Go | Infrastructure/tooling | 26 | 36 | 26 | 26 |
 | [ent/ent](https://github.com/ent/ent) | 17036 | 2026-04-14T14:59:08Z | Go | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [ipfs/kubo](https://github.com/ipfs/kubo) | 17002 | 2026-04-29T22:13:03Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |
+| [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16933 | 2026-04-30T18:46:40Z | Go | Infrastructure/tooling | 21 | 9 | 21 | 21 |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 16653 | 2026-04-29T20:41:58Z | Go | Infrastructure/tooling | 22 | 17 | 22 | 22 |
 | [kubernetes/kops](https://github.com/kubernetes/kops) | 16594 | 2026-04-21T19:31:51Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [hashicorp/nomad](https://github.com/hashicorp/nomad) | 16460 | 2026-04-30T00:44:46Z | Go | Infrastructure/tooling | 6 | 12 | 6 | 6 |
@@ -222,12 +229,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mikefarah/yq](https://github.com/mikefarah/yq) | 15282 | 2026-04-23T03:52:40Z | Go | CLI | 14 | 18 | 18 | 18 |
 | [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) | 15245 | 2026-04-29T13:29:41Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15181 | 2026-04-20T08:50:53Z | Go | Infrastructure/tooling | 7 | 5 | 7 | 9 |
-| [direnv/direnv](https://github.com/direnv/direnv) | 14989 | 2026-03-31T18:52:06Z | Go | Infrastructure/tooling | 9 | 9 | 12 | 12 |
-| [panjf2000/ants](https://github.com/panjf2000/ants) | 14405 | 2026-04-01T00:40:56Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [thanos-io/thanos](https://github.com/thanos-io/thanos) | 14026 | 2026-04-22T10:50:02Z | Go | Infrastructure/tooling | 17 | 12 | 17 | 17 |
+| [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) | 14025 | 2026-04-30T16:18:34Z | Go | CLI | 6 | 2 | 6 | 6 |
 | [coredns/coredns](https://github.com/coredns/coredns) | 14006 | 2026-04-22T14:23:45Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [ethereum/EIPs](https://github.com/ethereum/EIPs) | 13826 | 2026-04-23T16:11:44Z | Go | Infrastructure/tooling | 8 | 22 | 8 | 8 |
 | [shadow1ng/fscan](https://github.com/shadow1ng/fscan) | 13624 | 2026-04-13T22:09:39Z | Go | CLI | 5 | 5 | 5 | 5 |
+| [ory/kratos](https://github.com/ory/kratos) | 13610 | 2026-04-30T10:05:07Z | Go | Infrastructure/tooling | 17 | 36 | 17 | 17 |
 | [Jguer/yay](https://github.com/Jguer/yay) | 13376 | 2026-04-17T07:56:28Z | Go | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [prometheus/node_exporter](https://github.com/prometheus/node_exporter) | 13370 | 2026-04-23T07:38:59Z | Go | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [DNSCrypt/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | 13256 | 2026-04-30T03:52:44Z | Go | Infrastructure/tooling | 13 | 8 | 13 | 13 |
@@ -242,7 +249,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [quic-go/quic-go](https://github.com/quic-go/quic-go) | 11565 | 2026-04-26T03:11:56Z | Go | CLI | 11 | 12 | 11 | 11 |
 | [grafana/pyroscope](https://github.com/grafana/pyroscope) | 11382 | 2026-04-23T18:03:53Z | Go | Infrastructure/tooling | 19 | 17 | 19 | 19 |
 | [google/go-github](https://github.com/google/go-github) | 11193 | 2026-04-22T16:42:44Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [panjf2000/gnet](https://github.com/panjf2000/gnet) | 11137 | 2026-04-01T00:42:40Z | Go | Infrastructure/tooling | 19 | 10 | 19 | 19 |
 | [charmbracelet/lipgloss](https://github.com/charmbracelet/lipgloss) | 11086 | 2026-04-19T00:42:23Z | Go | CLI | 10 | 7 | 10 | 10 |
 | [bufbuild/buf](https://github.com/bufbuild/buf) | 11085 | 2026-04-29T20:15:39Z | Go | CLI | 13 | 14 | 13 | 13 |
 | [0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui) | 11084 | 2026-04-22T18:40:27Z | Go | Infrastructure/tooling | 19 | 18 | 19 | 19 |

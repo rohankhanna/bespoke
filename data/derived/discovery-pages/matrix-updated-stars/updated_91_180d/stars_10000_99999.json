@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1583,
-    "concepts": 1025,
-    "observations": 1029,
-    "repos": 170,
-    "terms": 1025
+    "components": 1726,
+    "concepts": 1082,
+    "observations": 1086,
+    "repos": 177,
+    "terms": 1087
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "3b1b/videos",
     "abhisheknaiidu/awesome-github-profile-readme",
@@ -48,6 +48,7 @@
     "datawhalechina/happy-llm",
     "datawhalechina/llm-universe",
     "deepinsight/insightface",
+    "direnv/direnv",
     "drduh/macOS-Security-and-Privacy-Guide",
     "egoist/tsup",
     "ekzhang/bore",
@@ -55,6 +56,7 @@
     "encode/httpx",
     "esp8266/Arduino",
     "explosion/spaCy",
+    "eyaltoledano/claude-task-master",
     "facebookresearch/audiocraft",
     "facebookresearch/dinov3",
     "facebookresearch/vggt",
@@ -74,6 +76,7 @@
     "go-chi/chi",
     "google-research/vision_transformer",
     "google/dopamine",
+    "google/googletest",
     "google/leveldb",
     "GoogleChromeLabs/squoosh",
     "gulpjs/gulp",
@@ -82,6 +85,7 @@
     "Huanshere/VideoLingo",
     "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
+    "hyperium/hyper",
     "i3/i3",
     "IdreesInc/Monocraft",
     "Ileriayo/markdown-badges",
@@ -99,6 +103,7 @@
     "kubernetes/ingress-nginx",
     "kyleneideck/backgroundmusic",
     "less/less.js",
+    "libgit2/libgit2",
     "Lightricks/LTX-Video",
     "linsa-io/linsa",
     "localstack/localstack",
@@ -128,6 +133,8 @@
     "openai/gym",
     "openai/tiktoken",
     "PaddlePaddle/PaddleDetection",
+    "panjf2000/ants",
+    "panjf2000/gnet",
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",

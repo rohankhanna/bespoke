@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 192
-- terms: 552
-- components: 4287
-- concepts: 541
-- observations: 542
+- repos: 193
+- terms: 560
+- components: 4304
+- concepts: 549
+- observations: 550
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dao-xyz/borsh-ts](https://github.com/dao-xyz/borsh-ts) | 50 | 2025-12-31T15:08:17Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [isaacs/clock-mock](https://github.com/isaacs/clock-mock) | 13 | 2025-12-29T19:09:23Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [atom-yang/aumi](https://github.com/atom-yang/aumi) | 12 | 2025-12-29T12:19:29Z | TypeScript | Unknown | 0 | 8 | 0 | 0 |
 | [aigc3d/LAM_WebRender](https://github.com/aigc3d/LAM_WebRender) | 55 | 2025-12-25T08:38:15Z | TypeScript | Web app | 0 | 4 | 0 | 0 |
@@ -283,6 +284,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [axeldelafosse/storybook-rnw-monorepo](https://github.com/axeldelafosse/storybook-rnw-monorepo) | 52 | 2021-11-26T17:07:19Z | TypeScript | Web app | 8 | 1 | 8 | 8 |
 | [antonio-gabriele/zigbee-matter-bridge](https://github.com/antonio-gabriele/zigbee-matter-bridge) | 51 | 2023-12-13T20:54:30Z | TypeScript | Unknown | 0 | 9 | 0 | 0 |
 | [neoclide/coc-r-lsp](https://github.com/neoclide/coc-r-lsp) | 51 | 2023-01-07T06:32:45Z | TypeScript | CLI | 0 | 12 | 0 | 0 |
+| [dao-xyz/borsh-ts](https://github.com/dao-xyz/borsh-ts) | 50 | 2025-12-31T15:08:17Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [ceramicnetwork/js-dag-jose](https://github.com/ceramicnetwork/js-dag-jose) | 50 | 2024-07-22T19:51:09Z | TypeScript | Infrastructure/tooling | 0 | 23 | 0 | 0 |
 | [FezVrasta/node-red-matter](https://github.com/FezVrasta/node-red-matter) | 50 | 2024-04-17T20:53:09Z | TypeScript | Unknown | 2 | 12 | 2 | 2 |
 | [bmatcuk/coc-stylelintplus](https://github.com/bmatcuk/coc-stylelintplus) | 50 | 2023-01-06T02:03:42Z | TypeScript | Unknown | 0 | 17 | 0 | 0 |

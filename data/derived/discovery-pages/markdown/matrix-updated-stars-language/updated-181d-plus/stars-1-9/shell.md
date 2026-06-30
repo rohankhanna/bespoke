@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Shell
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 52
+- repos: 53
 - terms: 112
 - components: 77
 - concepts: 118
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Bug-Catcher](https://github.com/danielrosehill/Claude-Bug-Catcher) | 1 | 2025-12-31T16:03:43Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Vaishnav-Sabari-Girish/rust_bangalore_december_2025](https://github.com/Vaishnav-Sabari-Girish/rust_bangalore_december_2025) | 2 | 2025-12-19T15:19:18Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [Sbozzolo/libvterm-mirror](https://github.com/Sbozzolo/libvterm-mirror) | 8 | 2025-11-25T00:01:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [jgburet/asdf-dotenvx](https://github.com/jgburet/asdf-dotenvx) | 2 | 2025-11-24T22:25:17Z | Shell | Infrastructure/tooling | 3 | 6 | 3 | 4 |
@@ -76,7 +77,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jinfeihan57/p7zip_test_utils](https://github.com/jinfeihan57/p7zip_test_utils) | 3 | 2022-08-21T13:13:05Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [rigellute/scoop-bucket](https://github.com/Rigellute/scoop-bucket) | 7 | 2022-04-08T14:58:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [hayguen/pffft_benchmarks](https://github.com/hayguen/pffft_benchmarks) | 3 | 2022-01-19T21:46:00Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [marcoonroad/cuid](https://github.com/marcoonroad/cuid) | 1 | 2021-08-13T23:30:19Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
@@ -92,7 +93,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [to4iki/ai-project-rules](https://github.com/to4iki/ai-project-rules) | 7 | 2025-04-24T16:18:24Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/git-sync](https://github.com/2KAbhishek/git-sync) | 7 | 2024-12-15T06:10:05Z | Shell | Unknown | 6 | 0 | 6 | 6 |
 | [rigellute/scoop-bucket](https://github.com/Rigellute/scoop-bucket) | 7 | 2022-04-08T14:58:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [christgau/wsdd-gentoo](https://github.com/christgau/wsdd-gentoo) | 6 | 2025-05-12T19:13:29Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [containerd/project-checks](https://github.com/containerd/project-checks) | 6 | 2025-03-04T14:18:11Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [mintoolkit/examples](https://github.com/mintoolkit/examples) | 6 | 2024-10-02T23:26:24Z | Shell | Unknown | 8 | 0 | 8 | 8 |
@@ -119,6 +120,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Kong/official-images](https://github.com/Kong/official-images) | 2 | 2025-06-05T09:11:09Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [dotenvx/heroku-buildpack-dotenvx](https://github.com/dotenvx/heroku-buildpack-dotenvx) | 2 | 2024-06-14T02:46:39Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [jandamm/zgenom-ext-release](https://github.com/jandamm/zgenom-ext-release) | 2 | 2023-05-04T21:13:29Z | Shell | Unknown | 3 | 0 | 4 | 4 |
+| [danielrosehill/Claude-Bug-Catcher](https://github.com/danielrosehill/Claude-Bug-Catcher) | 1 | 2025-12-31T16:03:43Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [KSXGitHub/personal-pacman-packages](https://github.com/KSXGitHub/personal-pacman-packages) | 1 | 2025-11-24T08:39:15Z | Shell | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [deiga/nodenv-default-npmrc](https://github.com/deiga/nodenv-default-npmrc) | 1 | 2025-11-22T14:27:53Z | Shell | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [danielrosehill/AI-Developer-Notebook](https://github.com/danielrosehill/AI-Developer-Notebook) | 1 | 2025-10-25T23:51:04Z | Shell | Unknown | 4 | 0 | 4 | 4 |

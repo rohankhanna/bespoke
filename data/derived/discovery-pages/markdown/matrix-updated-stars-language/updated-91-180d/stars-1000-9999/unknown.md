@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 84
-- components: 28
-- concepts: 85
-- observations: 85
+- repos: 29
+- terms: 91
+- components: 41
+- concepts: 92
+- observations: 92
 
 ## Static behavior
 
@@ -26,11 +26,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bbatsov/emacs-lisp-style-guide](https://github.com/bbatsov/emacs-lisp-style-guide) | 1129 | 2026-03-31T12:31:44Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [FunnyWolf/Viper](https://github.com/FunnyWolf/Viper) | 5029 | 2026-03-31T10:39:39Z | Unknown | Unknown | 7 | 13 | 7 | 7 |
 | [WebAssembly/proposals](https://github.com/WebAssembly/proposals) | 1124 | 2026-03-24T18:25:27Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [microsoft/vscode-ai-toolkit](https://github.com/microsoft/vscode-ai-toolkit) | 1958 | 2026-03-24T08:24:41Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [devcontainers/spec](https://github.com/devcontainers/spec) | 5368 | 2026-03-20T11:13:13Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [lxgw/LxgwWenKai-Screen](https://github.com/lxgw/LxgwWenKai-Screen) | 1956 | 2026-03-18T16:41:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [android/ndk](https://github.com/android/ndk) | 2288 | 2026-03-12T20:33:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [android/ndk](https://github.com/android/ndk) | 2289 | 2026-03-12T20:33:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [tmux-plugins/list](https://github.com/tmux-plugins/list) | 1889 | 2026-03-04T08:34:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [estree/estree](https://github.com/estree/estree) | 5404 | 2026-03-02T21:25:41Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [docker/for-mac](https://github.com/docker/for-mac) | 2529 | 2026-03-02T10:46:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -47,7 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebookresearch/moco](https://github.com/facebookresearch/moco) | 5130 | 2026-02-03T19:40:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) | 1584 | 2026-02-02T08:11:44Z | Unknown | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [sindresorhus/ponyfill](https://github.com/sindresorhus/ponyfill) | 1275 | 2026-02-01T15:17:01Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
-| [tc39/proposal-signals](https://github.com/tc39/proposal-signals) | 4143 | 2026-01-25T20:23:21Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [tc39/proposal-signals](https://github.com/tc39/proposal-signals) | 4145 | 2026-01-25T20:23:21Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [jorgebucaran/awsm.fish](https://github.com/jorgebucaran/awsm.fish) | 4941 | 2026-01-25T05:07:30Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [graalvm/graalvm-ce-builds](https://github.com/graalvm/graalvm-ce-builds) | 1730 | 2026-01-20T16:14:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [faroit/awesome-python-scientific-audio](https://github.com/faroit/awesome-python-scientific-audio) | 1692 | 2026-01-19T16:18:45Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -65,12 +67,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [estree/estree](https://github.com/estree/estree) | 5404 | 2026-03-02T21:25:41Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [devcontainers/spec](https://github.com/devcontainers/spec) | 5368 | 2026-03-20T11:13:13Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [facebookresearch/moco](https://github.com/facebookresearch/moco) | 5130 | 2026-02-03T19:40:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [FunnyWolf/Viper](https://github.com/FunnyWolf/Viper) | 5029 | 2026-03-31T10:39:39Z | Unknown | Unknown | 7 | 13 | 7 | 7 |
 | [jorgebucaran/awsm.fish](https://github.com/jorgebucaran/awsm.fish) | 4941 | 2026-01-25T05:07:30Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [tc39/proposal-signals](https://github.com/tc39/proposal-signals) | 4143 | 2026-01-25T20:23:21Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [tc39/proposal-signals](https://github.com/tc39/proposal-signals) | 4145 | 2026-01-25T20:23:21Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [msgpack/msgpack-c](https://github.com/msgpack/msgpack-c) | 3315 | 2026-01-12T06:41:02Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [docker/for-mac](https://github.com/docker/for-mac) | 2529 | 2026-03-02T10:46:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [akuity/awesome-argo](https://github.com/akuity/awesome-argo) | 2423 | 2026-02-28T03:02:12Z | Unknown | Infrastructure/tooling | 20 | 0 | 20 | 20 |
-| [android/ndk](https://github.com/android/ndk) | 2288 | 2026-03-12T20:33:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [android/ndk](https://github.com/android/ndk) | 2289 | 2026-03-12T20:33:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [obsidianmd/obsidian-api](https://github.com/obsidianmd/obsidian-api) | 2201 | 2026-02-23T22:38:14Z | Unknown | Service/API | 0 | 4 | 0 | 0 |
 | [microsoft/vscode-ai-toolkit](https://github.com/microsoft/vscode-ai-toolkit) | 1958 | 2026-03-24T08:24:41Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [lxgw/LxgwWenKai-Screen](https://github.com/lxgw/LxgwWenKai-Screen) | 1956 | 2026-03-18T16:41:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -82,6 +85,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [orogene/orogene](https://github.com/orogene/orogene) | 1542 | 2026-02-26T03:53:25Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [syntax-tree/mdast](https://github.com/syntax-tree/mdast) | 1419 | 2026-02-04T18:45:51Z | Unknown | Infrastructure/tooling | 3 | 5 | 4 | 4 |
 | [sindresorhus/ponyfill](https://github.com/sindresorhus/ponyfill) | 1275 | 2026-02-01T15:17:01Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [bbatsov/emacs-lisp-style-guide](https://github.com/bbatsov/emacs-lisp-style-guide) | 1129 | 2026-03-31T12:31:44Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [WebAssembly/proposals](https://github.com/WebAssembly/proposals) | 1124 | 2026-03-24T18:25:27Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [uBlockOrigin/uBlock-issues](https://github.com/uBlockOrigin/uBlock-issues) | 1123 | 2026-02-09T23:25:33Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [CLUEbenchmark/CLUECorpus2020](https://github.com/CLUEbenchmark/CLUECorpus2020) | 1005 | 2026-02-06T11:43:34Z | Unknown | Unknown | 8 | 0 | 8 | 8 |

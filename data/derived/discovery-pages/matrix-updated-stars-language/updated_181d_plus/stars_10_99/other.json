@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2201,
-    "concepts": 2053,
-    "observations": 2059,
+    "components": 2202,
+    "concepts": 2047,
+    "observations": 2053,
     "repos": 879,
-    "terms": 2041
+    "terms": 2035
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -144,6 +144,7 @@
     "atusy/felp",
     "atwam/money-historical-bank",
     "auriml/Rx-thorax-automatic-captioning",
+    "auto-complete/fuzzy-el",
     "autodeployai/pmml4s",
     "autodeployai/pmml4s-spark",
     "autofac/Autofac.Configuration",
@@ -686,7 +687,6 @@
     "PacificBiosciences/barcoding",
     "paleolimbot/geos",
     "PanJiaChen/PanJiaChen.github.io",
-    "patterns-ai-core/qdrant-ruby",
     "paulstarke/AnimationAuthoring",
     "pawel-wiejacha/tmux-picker",
     "perrutquist/StaticNumbers.jl",

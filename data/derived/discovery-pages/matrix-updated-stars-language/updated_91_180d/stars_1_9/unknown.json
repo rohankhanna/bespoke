@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 51,
-    "terms": 51
+    "components": 86,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 52,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -52,6 +52,7 @@
     "lab-cosmo/.github",
     "langchain-ai/.github",
     "lionel-/biome",
+    "llvm/torch-mlir-release",
     "newton-physics/newton-governance",
     "nttstar/insightface-resources",
     "orlp/color-backtrace",

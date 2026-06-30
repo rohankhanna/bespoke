@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 113,
-    "observations": 114,
-    "repos": 11,
-    "terms": 113
+    "components": 182,
+    "concepts": 185,
+    "observations": 186,
+    "repos": 19,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
+    "aws-cloudformation/cfn-lint",
+    "bitsandbytes-foundation/bitsandbytes",
     "fla-org/flash-linear-attention",
     "google-deepmind/optax",
     "harbor-framework/harbor",
+    "JuergenFleiss/aTrain",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
+    "modelscope/FunClip",
+    "ogx-ai/ogx",
     "opencv/opencv-python",
     "PrimeIntellect-ai/verifiers",
+    "prospector-dev/prospector",
     "redis/redis-om-python",
     "rllm-org/rllm",
-    "roboflow/rf-detr"
+    "roboflow/maestro",
+    "roboflow/rf-detr",
+    "spotipy-dev/spotipy"
   ]
 }

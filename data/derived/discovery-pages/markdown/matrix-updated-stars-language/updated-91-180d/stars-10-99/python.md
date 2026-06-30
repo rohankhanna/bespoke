@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 139
-- terms: 415
-- components: 405
-- concepts: 418
-- observations: 419
+- repos: 141
+- terms: 425
+- components: 410
+- concepts: 428
+- observations: 429
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [networkx/nx-parallel](https://github.com/networkx/nx-parallel) | 67 | 2026-04-01T03:19:25Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [yaph/tts-samples](https://github.com/yaph/tts-samples) | 89 | 2026-03-31T22:04:08Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [KratosMultiphysics/Examples](https://github.com/KratosMultiphysics/Examples) | 54 | 2026-03-31T08:55:29Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [analyticsinmotion/werpy](https://github.com/analyticsinmotion/werpy) | 26 | 2026-03-30T16:48:25Z | Python | Infrastructure/tooling | 16 | 17 | 17 | 17 |
 | [explosion/weasel](https://github.com/explosion/weasel) | 93 | 2026-03-27T08:49:55Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -179,6 +181,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TexasInstruments/edgeai-tensorlab](https://github.com/TexasInstruments/edgeai-tensorlab) | 92 | 2026-03-25T12:30:26Z | Python | Model/data | 1 | 0 | 1 | 1 |
 | [InteractiveComputerGraphics/blender-sequence-loader](https://github.com/InteractiveComputerGraphics/blender-sequence-loader) | 92 | 2026-01-07T14:30:58Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [camel-ai/seta](https://github.com/camel-ai/seta) | 91 | 2026-02-16T14:10:50Z | Python | CLI | 0 | 0 | 0 | 0 |
+| [yaph/tts-samples](https://github.com/yaph/tts-samples) | 89 | 2026-03-31T22:04:08Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [Computer-use-agents/dart-gui](https://github.com/Computer-use-agents/dart-gui) | 89 | 2026-02-26T04:34:01Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [layumi/3D-Magic-Mirror](https://github.com/layumi/3D-Magic-Mirror) | 89 | 2026-02-13T04:35:23Z | Python | Unknown | 5 | 0 | 6 | 6 |
 | [fsspec/sshfs](https://github.com/fsspec/sshfs) | 85 | 2026-01-26T07:32:24Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -207,6 +210,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [huggingface/image_gen_aux](https://github.com/huggingface/image_gen_aux) | 69 | 2026-02-17T19:17:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [SLDGroup/MK-UNet](https://github.com/SLDGroup/MK-UNet) | 69 | 2026-01-12T20:08:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [google-deepmind/alphageometry2](https://github.com/google-deepmind/alphageometry2) | 68 | 2026-01-07T22:35:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [networkx/nx-parallel](https://github.com/networkx/nx-parallel) | 67 | 2026-04-01T03:19:25Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [Owen-Liuyuxuan/ros2_vision_inference](https://github.com/Owen-Liuyuxuan/ros2_vision_inference) | 67 | 2026-02-18T13:44:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [enjoy-digital/liteiclink](https://github.com/enjoy-digital/liteiclink) | 66 | 2026-02-20T14:09:07Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [bentoml/openllm-models](https://github.com/bentoml/openllm-models) | 63 | 2026-03-26T11:28:58Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |

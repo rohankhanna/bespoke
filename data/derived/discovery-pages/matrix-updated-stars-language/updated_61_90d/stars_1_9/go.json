@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 34,
-    "terms": 86
+    "components": 159,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 36,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "5c077m4n/pikud-haoref-api-go",
@@ -38,8 +38,10 @@
     "k8nstantin/openpraxis",
     "kitknox/tsshd",
     "ksylvan/fabric",
+    "linode/karpenter-provider-linode",
     "petmal/mindtrial",
     "probe-lab/tiros",
+    "Seedloaf/mc-router-discovery",
     "serpro69/capy",
     "transparency-dev/armored-witness-applet",
     "transparency-dev/armored-witness-boot",

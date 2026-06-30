@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12357,
-    "concepts": 7274,
-    "observations": 7293,
-    "repos": 3435,
-    "terms": 7226
+    "components": 12378,
+    "concepts": 7276,
+    "observations": 7295,
+    "repos": 3438,
+    "terms": 7227
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -39,6 +39,7 @@
     "1adrianb/expert-binary-networks",
     "1adrianb/video-transformers",
     "1hunters/LIMPQ",
+    "1ilkhamov/opencode-hermes-multiagent",
     "1jsingh/Divide-Evaluate-and-Refine",
     "1jsingh/negtome",
     "1mill/serverless-tf-examples",
@@ -486,6 +487,7 @@
     "austinEng/webgpu-samples",
     "auth0/open-source-template",
     "authorizer-tech/access-controller",
+    "auto-complete/fuzzy-el",
     "autodeployai/pmml4s",
     "autodeployai/pmml4s-spark",
     "autodeployai/pypmml-spark",
@@ -1028,6 +1030,7 @@
     "dannyhw/expo-template-storybook",
     "dannyvankooten/extemplate",
     "danzinger/grav-theme-vela",
+    "dao-xyz/borsh-ts",
     "dapp-org/dappsys-v2",
     "dapplion/beacon-metrics-gazer",
     "darkon12/Hunyuan3D-2GP_Kaggle",
@@ -1820,6 +1823,7 @@
     "jacobmarks/image-quality-issues",
     "jadestrong/lsp-volar",
     "jaegertracing/jaeger-lib",
+    "JaeZ1205/PS_NBI2k",
     "JakePartusch/wait-for-netlify-action",
     "Jakuje/virt_cacard",
     "jarcane/clojurice",
@@ -2634,7 +2638,6 @@
     "Parquet/parquet-compatibility",
     "Parveshiiii/Deepresearch-Agent",
     "patil-suraj/vqgan-jax",
-    "patterns-ai-core/qdrant-ruby",
     "paulstarke/AnimationAuthoring",
     "pawel-wiejacha/tmux-picker",
     "pblatter/ettrack",
@@ -3189,7 +3192,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 52
+- repos: 9
+- terms: 57
 - components: 0
-- concepts: 60
-- observations: 60
+- concepts: 65
+- observations: 65
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Archerkattri/hicache-plus-plus](https://github.com/Archerkattri/hicache-plus-plus) | 8 | 2026-06-15T13:19:03Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [Archerkattri/sam3d-plus](https://github.com/Archerkattri/sam3d-plus) | 1 | 2026-06-11T16:04:39Z | Python | Unknown | 6 | 0 | 7 | 7 |
 | [Archerkattri/sam3d-plus-plus](https://github.com/Archerkattri/sam3d-plus-plus) | 1 | 2026-06-11T16:04:38Z | Python | Unknown | 6 | 0 | 7 | 7 |
 | [Archerkattri/hunyuan2-plus](https://github.com/Archerkattri/hunyuan2-plus) | 2 | 2026-06-11T16:04:32Z | Python | Unknown | 6 | 0 | 7 | 7 |
@@ -39,6 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Archerkattri/hicache-plus-plus](https://github.com/Archerkattri/hicache-plus-plus) | 8 | 2026-06-15T13:19:03Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [Archerkattri/hunyuan2-plus](https://github.com/Archerkattri/hunyuan2-plus) | 2 | 2026-06-11T16:04:32Z | Python | Unknown | 6 | 0 | 7 | 7 |
 | [Archerkattri/hunyuan2-plus-plus](https://github.com/Archerkattri/hunyuan2-plus-plus) | 2 | 2026-06-11T16:04:30Z | Python | Unknown | 6 | 0 | 7 | 7 |
 | [Archerkattri/sam3d-plus](https://github.com/Archerkattri/sam3d-plus) | 1 | 2026-06-11T16:04:39Z | Python | Unknown | 6 | 0 | 7 | 7 |

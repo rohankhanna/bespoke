@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 12,
-    "terms": 92
+    "components": 21,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 13,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
     "fffaraz/awesome-cpp",
@@ -21,6 +21,7 @@
     "matiassingers/awesome-readme",
     "microsoft/winget-pkgs",
     "multica-ai/andrej-karpathy-skills",
+    "obsidianmd/obsidian-releases",
     "othneildrew/Best-README-Template",
     "sindresorhus/awesome-nodejs",
     "tc39/proposals",

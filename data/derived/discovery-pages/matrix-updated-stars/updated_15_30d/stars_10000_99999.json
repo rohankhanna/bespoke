@@ -1,25 +1,24 @@
 {
   "counts": {
-    "components": 314,
-    "concepts": 79,
-    "observations": 80,
-    "repos": 8,
-    "terms": 79
+    "components": 294,
+    "concepts": 58,
+    "observations": 59,
+    "repos": 7,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "AndyMik90/Aperant",
-    "anthropics/claude-cookbooks",
     "Billionmail/BillionMail",
     "chatboxai/chatbox",
     "datalab-to/surya",
     "gitleaks/gitleaks",
-    "nvm-sh/nvm",
-    "oobabooga/textgen"
+    "oobabooga/textgen",
+    "realworld-apps/realworld"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 423,
     "concepts": 202,
     "observations": 204,
-    "repos": 137,
+    "repos": 138,
     "terms": 204
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -53,6 +53,7 @@
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",
+    "danielrosehill/handy-wayland-autostart-fix",
     "danielrosehill/Hebrew-Tech-Vocab",
     "danielrosehill/HFC-Guidance-Flip-Book",
     "danielrosehill/Home-Assistant-Index",

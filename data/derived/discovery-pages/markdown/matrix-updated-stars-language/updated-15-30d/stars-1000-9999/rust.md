@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 8
-- components: 7
-- concepts: 8
-- observations: 8
+- terms: 9
+- components: 23
+- concepts: 9
+- observations: 9
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [rust-ml/linfa](https://github.com/rust-ml/linfa) | 4684 | 2026-05-30T11:29:40Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
+| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-06-15T15:27:14Z | Rust | Infrastructure/tooling | 9 | 23 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [rust-ml/linfa](https://github.com/rust-ml/linfa) | 4684 | 2026-05-30T11:29:40Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
+| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-06-15T15:27:14Z | Rust | Infrastructure/tooling | 9 | 23 | 9 | 9 |

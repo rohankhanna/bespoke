@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Other
 
-Generated at: `2026-06-29T06:09:34.790605+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 7
-- components: 12
-- concepts: 7
-- observations: 7
+- terms: 9
+- components: 2
+- concepts: 9
+- observations: 9
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-06-28T09:36:18Z | Other | Infrastructure/tooling | 7 | 12 | 7 | 7 |
+| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2026-06-29T12:07:25Z | Other | CLI | 9 | 2 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-06-28T09:36:18Z | Other | Infrastructure/tooling | 7 | 12 | 7 | 7 |
+| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2026-06-29T12:07:25Z | Other | CLI | 9 | 2 | 9 | 9 |

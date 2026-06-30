@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 32,
-    "observations": 33,
+    "components": 56,
+    "concepts": 28,
+    "observations": 29,
     "repos": 3,
-    "terms": 32
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
-    "godot-rust/gdext",
+    "evcxr/evcxr",
     "hermit-os/hermit-rs"
   ]
 }

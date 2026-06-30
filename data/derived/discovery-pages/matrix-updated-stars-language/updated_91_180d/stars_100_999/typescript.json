@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2580,
-    "concepts": 467,
-    "observations": 468,
-    "repos": 93,
-    "terms": 483
+    "components": 2671,
+    "concepts": 479,
+    "observations": 480,
+    "repos": 96,
+    "terms": 497
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -23,6 +23,7 @@
     "agentscope-ai/agentscope-studio",
     "akshaykmr/teletype",
     "amariichi/VideoDepthViewer3D",
+    "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
     "antfu-collective/eslint-vitest-rule-tester",
     "antfu/changelogithub",
@@ -38,6 +39,7 @@
     "bvaughn/react-window-infinite-loader",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
+    "carlrannaberg/claudekit",
     "castwide/vscode-solargraph",
     "Charlie85270/Dorothy",
     "cloydlau/json-editor-vue",
@@ -78,6 +80,7 @@
     "microsoft/vscode-debugadapter-node",
     "multiformats/js-multiformats",
     "nanbingxyz/mcpsvr",
+    "neoclide/coc-java",
     "niieani/gpt-tokenizer",
     "nodejs/llparse",
     "Obsidian-TTRPG-Community/fantasy-statblocks",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 65
-- terms: 301
-- components: 287
-- concepts: 303
-- observations: 309
+- repos: 66
+- terms: 309
+- components: 291
+- concepts: 311
+- observations: 317
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [godot-rust/gdnative](https://github.com/godot-rust/gdnative) | 3626 | 2025-12-31T11:42:26Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [vi/websocat](https://github.com/vi/websocat) | 8491 | 2025-12-27T23:16:24Z | Rust | CLI | 11 | 7 | 11 | 11 |
 | [3Hren/msgpack-rust](https://github.com/3Hren/msgpack-rust) | 1396 | 2025-12-23T23:53:16Z | Rust | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [Tencent/tquic](https://github.com/Tencent/tquic) | 1409 | 2025-12-23T08:42:16Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 11 |
@@ -105,6 +106,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [http-rs/tide](https://github.com/http-rs/tide) | 5102 | 2024-01-05T01:12:04Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [async-rs/async-std](https://github.com/async-rs/async-std) | 4066 | 2025-08-15T01:44:24Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [nrc/r4cppp](https://github.com/nrc/r4cppp) | 3825 | 2024-05-16T20:56:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [godot-rust/gdnative](https://github.com/godot-rust/gdnative) | 3626 | 2025-12-31T11:42:26Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [glium/glium](https://github.com/glium/glium) | 3610 | 2025-08-19T12:13:24Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [autozimu/LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim) | 3556 | 2025-10-09T09:24:43Z | Rust | CLI | 6 | 0 | 6 | 6 |
 | [askama-rs/askama-old](https://github.com/askama-rs/askama-old) | 3546 | 2025-03-11T19:57:06Z | Rust | Unknown | 5 | 0 | 5 | 5 |

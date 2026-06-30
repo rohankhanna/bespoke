@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 297,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 8,
-    "terms": 45
+    "components": 65,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 2,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
-    "actions/container-toolkit-action",
     "antvis/GPT-Vis",
-    "electron/packager",
-    "huggingface/hf-mcp-server",
-    "mightyiam/eslint-config-love",
-    "stx-labs/stacks.js",
-    "unplugin/unplugin-imagemin",
-    "wevm/abitype"
+    "huggingface/hf-mcp-server"
   ]
 }

@@ -1,38 +1,38 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 116,
-    "observations": 116,
+    "components": 222,
+    "concepts": 130,
+    "observations": 130,
     "repos": 23,
-    "terms": 116
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "andfoy/winpty-rs",
+    "ansys/pymapdl-reader",
     "ANTsX/ANTsRCore",
     "asdf-community/asdf-pdm",
-    "corgi-emacs/corgi-packages",
+    "bodono/scs-python",
+    "bzrudski/vectorose",
     "edge-classic/EDGE-classic",
     "freesurfer/freebrowse",
     "Jaded-Encoding-Thaumaturgy/vs-jetpack",
     "JuliaInterop/ObjectiveC.jl",
+    "JuliaParallel/Hwloc.jl",
     "jump-dev/SCS.jl",
     "kurrent-io/KurrentDB-Client-Rust",
     "lablup/mlxcel",
     "lhj5426/X-AnyLabeling",
-    "mathesong/kinfitr",
-    "mesh-iit/cad-libraries",
     "mozilla-ai/any-guardrail",
     "mozilla-ai/otari",
     "mudler/depth-anything.cpp",
     "numpy/archive",
     "ogx-ai/ogx-client-typescript",
-    "ros-infrastructure/ros-apt-source",
     "tinted-theming/tinted-xresources",
     "wamp-proto/wamp-xbr",
     "zhouwg/ggml-hexagon"

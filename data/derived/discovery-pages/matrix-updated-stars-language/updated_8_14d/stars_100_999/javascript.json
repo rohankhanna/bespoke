@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 1,
-    "terms": 11
+    "components": 34,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 2,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
+    "avocadowastaken/prettier-plugin-prisma",
     "GDevelopApp/GDevelop-extensions"
   ]
 }

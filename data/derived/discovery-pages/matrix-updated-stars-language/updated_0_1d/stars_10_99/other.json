@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 7,
-    "observations": 7,
+    "components": 2,
+    "concepts": 9,
+    "observations": 9,
     "repos": 1,
-    "terms": 7
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-29T06:09:34.790605+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
-    "karafka/example-apps"
+    "patterns-ai-core/qdrant-ruby"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 137
+- repos: 138
 - terms: 204
 - components: 423
 - concepts: 202
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/handy-wayland-autostart-fix](https://github.com/danielrosehill/handy-wayland-autostart-fix) | 0 | 2026-03-31T11:35:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sujithpvarghese/bedrock-agent-core-operations-hub](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub) | 0 | 2026-03-30T22:34:02Z | TypeScript | Web app | 10 | 9 | 10 | 10 |
 | [Patrick-ring-motive/sval-rhino-gs](https://github.com/Patrick-ring-motive/sval-rhino-gs) | 0 | 2026-03-30T17:28:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -167,6 +168,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/handy-wayland-autostart-fix](https://github.com/danielrosehill/handy-wayland-autostart-fix) | 0 | 2026-03-31T11:35:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sujithpvarghese/bedrock-agent-core-operations-hub](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub) | 0 | 2026-03-30T22:34:02Z | TypeScript | Web app | 10 | 9 | 10 | 10 |
 | [Patrick-ring-motive/sval-rhino-gs](https://github.com/Patrick-ring-motive/sval-rhino-gs) | 0 | 2026-03-30T17:28:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 63
-- terms: 177
-- components: 249
-- concepts: 179
-- observations: 180
+- repos: 66
+- terms: 186
+- components: 262
+- concepts: 188
+- observations: 189
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jiegec/tantivy-jieba](https://github.com/jiegec/tantivy-jieba) | 66 | 2026-04-01T04:07:37Z | Rust | Infrastructure/tooling | 6 | 1 | 6 | 6 |
+| [lambdaclass/libssz](https://github.com/lambdaclass/libssz) | 10 | 2026-03-31T22:18:13Z | Rust | Infrastructure/tooling | 3 | 12 | 3 | 3 |
+| [celestiaorg/hana](https://github.com/celestiaorg/hana) | 15 | 2026-03-31T17:03:52Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [oramasearch/llm_json](https://github.com/oramasearch/llm_json) | 17 | 2026-03-26T15:13:19Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [sigp/rust-libp2p](https://github.com/sigp/rust-libp2p) | 13 | 2026-03-26T02:23:49Z | Rust | Infrastructure/tooling | 8 | 22 | 8 | 8 |
 | [randombit/botan-rs](https://github.com/randombit/botan-rs) | 43 | 2026-03-26T00:46:05Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -106,6 +109,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [databendlabs/opensrv](https://github.com/databendlabs/opensrv) | 73 | 2026-01-25T07:37:43Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [extism/rust-pdk](https://github.com/extism/rust-pdk) | 72 | 2026-02-09T02:04:18Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lindera/lindera-tantivy](https://github.com/lindera/lindera-tantivy) | 70 | 2026-01-11T11:53:52Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [jiegec/tantivy-jieba](https://github.com/jiegec/tantivy-jieba) | 66 | 2026-04-01T04:07:37Z | Rust | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [psmux/Tmux-Plugin-Panel](https://github.com/psmux/Tmux-Plugin-Panel) | 66 | 2026-03-19T14:13:24Z | Rust | CLI | 9 | 5 | 9 | 9 |
 | [filecoin-project/blstrs](https://github.com/filecoin-project/blstrs) | 64 | 2026-03-09T11:40:11Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [penumbra-zone/jmt](https://github.com/penumbra-zone/jmt) | 64 | 2026-01-07T00:30:53Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -145,6 +149,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spyoungtech/json-five-rs](https://github.com/spyoungtech/json-five-rs) | 18 | 2026-01-08T07:47:42Z | Rust | Infrastructure/tooling | 4 | 1 | 5 | 6 |
 | [oramasearch/llm_json](https://github.com/oramasearch/llm_json) | 17 | 2026-03-26T15:13:19Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [nebelgrau77/airsniffer-esp32c6](https://github.com/nebelgrau77/airsniffer-esp32c6) | 17 | 2026-02-23T13:29:33Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [celestiaorg/hana](https://github.com/celestiaorg/hana) | 15 | 2026-03-31T17:03:52Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [chrisguida/smaug](https://github.com/chrisguida/smaug) | 15 | 2026-01-22T18:52:12Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [sigp/ethereum_hashing](https://github.com/sigp/ethereum_hashing) | 14 | 2026-02-19T01:02:00Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [sigp/rust-libp2p](https://github.com/sigp/rust-libp2p) | 13 | 2026-03-26T02:23:49Z | Rust | Infrastructure/tooling | 8 | 22 | 8 | 8 |
@@ -152,6 +157,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jakudlaty/tsid](https://github.com/jakudlaty/tsid) | 13 | 2026-02-08T17:42:59Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [loyd/fixnum](https://github.com/loyd/fixnum) | 12 | 2026-02-03T12:49:56Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [dcampbell24/mdbook-djot](https://github.com/dcampbell24/mdbook-djot) | 11 | 2026-03-25T02:01:18Z | Rust | Unknown | 4 | 0 | 4 | 4 |
+| [lambdaclass/libssz](https://github.com/lambdaclass/libssz) | 10 | 2026-03-31T22:18:13Z | Rust | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [microsoft/tracing-etw](https://github.com/microsoft/tracing-etw) | 10 | 2026-03-09T11:23:34Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [jonas-k/coremidi-sys](https://github.com/jonas-k/coremidi-sys) | 10 | 2026-02-13T23:34:42Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [OneSignal/serde-magnus](https://github.com/OneSignal/serde-magnus) | 10 | 2026-02-10T17:39:39Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |

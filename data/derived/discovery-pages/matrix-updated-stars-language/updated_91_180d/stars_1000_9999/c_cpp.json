@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 423,
-    "concepts": 558,
-    "observations": 559,
-    "repos": 101,
-    "terms": 550
+    "components": 435,
+    "concepts": 560,
+    "observations": 561,
+    "repos": 103,
+    "terms": 552
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -38,6 +38,7 @@
     "colmap/glomap",
     "containers/bubblewrap",
     "cpputest/cpputest",
+    "CVCUDA/CV-CUDA",
     "cztomczak/cefpython",
     "duckdb/pg_duckdb",
     "eclipse-paho/paho.mqtt.c",
@@ -48,12 +49,13 @@
     "facebookresearch/habitat-sim",
     "flashlight/flashlight",
     "flashlight/wav2letter",
+    "go-gl/gl",
+    "google/double-conversion",
     "google/re2",
     "google/snappy",
     "gperftools/gperftools",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
     "guinmoon/LLMFarm",
-    "gulrak/filesystem",
     "hku-mars/FAST-LIVO2",
     "hpjansson/chafa",
     "hufrea/byedpi",

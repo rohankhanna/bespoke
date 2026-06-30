@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 5
-- terms: 12
-- components: 46
-- concepts: 12
-- observations: 12
+- repos: 9
+- terms: 36
+- components: 93
+- concepts: 36
+- observations: 36
 
 ## Static behavior
 
@@ -25,18 +25,26 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-29T09:18:10Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-06-30T04:08:05Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 90 | 2026-06-29T23:46:03Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
+| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-29T21:43:34Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
+| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-29T20:12:02Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
+| [prospector-dev/requirements-detector](https://github.com/prospector-dev/requirements-detector) | 48 | 2026-06-29T17:21:20Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-29T16:51:04Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-06-29T13:10:01Z | Go | CLI | 5 | 0 | 5 | 5 |
+| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2026-06-29T12:07:25Z | Other | CLI | 9 | 2 | 9 | 9 |
 | [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 34 | 2026-06-29T08:42:26Z | Shell | Unknown | 4 | 0 | 4 | 4 |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-28T21:10:08Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
-| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-06-28T20:40:05Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 34 | 2026-06-28T16:43:18Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-29T09:18:10Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-29T21:43:34Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 90 | 2026-06-29T23:46:03Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-29T16:51:04Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2026-06-29T12:07:25Z | Other | CLI | 9 | 2 | 9 | 9 |
+| [prospector-dev/requirements-detector](https://github.com/prospector-dev/requirements-detector) | 48 | 2026-06-29T17:21:20Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-06-29T13:10:01Z | Go | CLI | 5 | 0 | 5 | 5 |
 | [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 34 | 2026-06-29T08:42:26Z | Shell | Unknown | 4 | 0 | 4 | 4 |
-| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 34 | 2026-06-28T16:43:18Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-28T21:10:08Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
-| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-06-28T20:40:05Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-29T20:12:02Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
+| [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-06-30T04:08:05Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |

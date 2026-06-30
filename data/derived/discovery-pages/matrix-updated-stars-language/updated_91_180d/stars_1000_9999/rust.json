@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 371,
-    "concepts": 303,
-    "observations": 307,
-    "repos": 58,
-    "terms": 301
+    "components": 381,
+    "concepts": 312,
+    "observations": 316,
+    "repos": 60,
+    "terms": 310
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
@@ -33,7 +33,6 @@
     "enigo-rs/enigo",
     "extism/extism",
     "fschutt/printpdf",
-    "godot-rust/gdnative",
     "google/argh",
     "google/tarpc",
     "GREsau/schemars",
@@ -51,6 +50,7 @@
     "Mooncake-Labs/pg_mooncake",
     "Morganamilo/paru",
     "nagisa/rust_libloading",
+    "not-fl3/macroquad",
     "parcel-bundler/lightningcss",
     "pdf-rs/pdf",
     "rojo-rbx/rojo",
@@ -61,8 +61,10 @@
     "sachaos/viddy",
     "sagiegurari/cargo-make",
     "sharkdp/diskus",
+    "sharkdp/pastel",
     "simd-lite/simd-json",
     "smol-rs/smol",
+    "snapview/tokio-tungstenite",
     "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2",
     "tikv/grpc-rs",

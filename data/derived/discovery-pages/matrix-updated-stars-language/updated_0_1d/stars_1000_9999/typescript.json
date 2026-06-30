@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 337,
-    "concepts": 50,
-    "observations": 50,
+    "components": 318,
+    "concepts": 60,
+    "observations": 60,
     "repos": 6,
-    "terms": 50
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "ebullient/obsidian-admonition",
     "electron/rebuild",
     "nsfw-filter/nsfw-filter",
+    "off-grid-ai/mobile",
     "podman-desktop/podman-desktop",
-    "shareAI-lab/Kode-CLI",
     "vuejs/language-tools"
   ]
 }

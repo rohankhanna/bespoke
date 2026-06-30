@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 419,
-    "concepts": 884,
-    "observations": 884,
-    "repos": 236,
-    "terms": 873
+    "components": 423,
+    "concepts": 895,
+    "observations": 895,
+    "repos": 237,
+    "terms": 884
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -97,6 +97,7 @@
     "GPUOpen-Effects/FidelityFX-FSR2",
     "GPUOpen-LibrariesAndSDKs/RadeonRays_SDK",
     "graphitemaster/incbin",
+    "gulrak/filesystem",
     "hanslub42/rlwrap",
     "hapostgres/pg_auto_failover",
     "hengli/camodocal",

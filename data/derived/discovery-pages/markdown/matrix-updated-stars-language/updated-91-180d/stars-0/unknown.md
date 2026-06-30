@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
+- repos: 37
 - terms: 55
 - components: 97
 - concepts: 55
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/handy-wayland-autostart-fix](https://github.com/danielrosehill/handy-wayland-autostart-fix) | 0 | 2026-03-31T11:35:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
 | [danielrosehill/Bug-Reports-And-Fixes](https://github.com/danielrosehill/Bug-Reports-And-Fixes) | 0 | 2026-03-30T10:05:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Patches-Repos-Index](https://github.com/danielrosehill/Patches-Repos-Index) | 0 | 2026-03-30T10:03:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -67,6 +68,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/handy-wayland-autostart-fix](https://github.com/danielrosehill/handy-wayland-autostart-fix) | 0 | 2026-03-31T11:35:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
 | [danielrosehill/Bug-Reports-And-Fixes](https://github.com/danielrosehill/Bug-Reports-And-Fixes) | 0 | 2026-03-30T10:05:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Patches-Repos-Index](https://github.com/danielrosehill/Patches-Repos-Index) | 0 | 2026-03-30T10:03:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

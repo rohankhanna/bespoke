@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 134,
-    "concepts": 122,
-    "observations": 123,
-    "repos": 9,
-    "terms": 122
+    "components": 133,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 10,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
-    "beam-community/elixir-companies",
-    "dotnet/Silk.NET",
+    "elixir-grpc/grpc",
     "firebase/flutterfire",
     "googleapis/google-api-php-client",
     "kurrent-io/KurrentDB",
     "microsoft/aspire",
     "microsoft/aspire-samples",
+    "okd-project/okd",
     "swiftlang/llvm-project",
+    "swiftlang/swift-syntax",
     "web-platform-tests/wpt"
   ]
 }

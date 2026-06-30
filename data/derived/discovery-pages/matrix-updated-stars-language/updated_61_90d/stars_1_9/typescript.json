@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1043,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 51,
-    "terms": 196
+    "components": 1154,
+    "concepts": 224,
+    "observations": 224,
+    "repos": 54,
+    "terms": 233
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "8hobbies/vite-plugin-year",
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
+    "anolilab/unplugin-favicons",
     "aporthq/aport-spec",
     "Badisi/wdio-harness",
     "birdofpreyru/react-starter",
@@ -24,12 +25,14 @@
     "breferrari/shardmind",
     "celo-org/SocialConnect-Twitter",
     "celo-org/SocialConnect-Twitter-Server-Side",
+    "csm-actions/update-branch-action",
     "curiousdannii/asyncglk",
     "danielrosehill/agent-junction",
     "danielrosehill/GreenInvoice-MCP",
     "dreamiurg/mountaineers-assistant",
     "dreamiurg/mountaineers-mcp",
     "dreamscached/i18next-cli-plugin-svelte",
+    "dydxprotocol/v4-localization",
     "ecyrbe/zodios-plugins",
     "ember-cli/ember-addon-blueprint",
     "enxs969/skiller",

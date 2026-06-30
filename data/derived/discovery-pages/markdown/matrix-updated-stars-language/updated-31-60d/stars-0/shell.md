@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Shell
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
+- repos: 2
 - terms: 1
 - components: 2
 - concepts: 1
@@ -28,7 +28,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [clearml/clearml-agent-bootstrap](https://github.com/clearml/clearml-agent-bootstrap) | 0 | 2026-05-06T15:42:50Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [kalavai-net/kalavai-templates](https://github.com/kalavai-net/kalavai-templates) | 0 | 2026-05-01T07:45:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [danielrosehill/Claude-Filesystem-Organiser-Plugin](https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin) | 0 | 2026-04-30T18:51:27Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -36,4 +35,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [clearml/clearml-agent-bootstrap](https://github.com/clearml/clearml-agent-bootstrap) | 0 | 2026-05-06T15:42:50Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [kalavai-net/kalavai-templates](https://github.com/kalavai-net/kalavai-templates) | 0 | 2026-05-01T07:45:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [danielrosehill/Claude-Filesystem-Organiser-Plugin](https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin) | 0 | 2026-04-30T18:51:27Z | Shell | Unknown | 0 | 0 | 0 | 0 |

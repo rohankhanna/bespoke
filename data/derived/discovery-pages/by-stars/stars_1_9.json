@@ -3,14 +3,14 @@
     "components": 12102,
     "concepts": 5507,
     "observations": 5517,
-    "repos": 2445,
+    "repos": 2446,
     "terms": 5517
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -853,6 +853,7 @@
     "danielrosehill/Open-Claw-Stack",
     "danielrosehill/Prompt-Libraries-Index",
     "danielrosehill/Resources-Lists-Index",
+    "danielrosehill/Responsible-Agent-Skill-Development",
     "danielrosehill/Subindices",
     "danielrosehill/Therapy-Tracking-Plugin",
     "danielrosehill/Useful-AI-Agent-Skills",
@@ -2312,7 +2313,7 @@
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
     "triton-inference-server/TensorRT-LLM",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "trufflesecurity/test_keys",
     "tuananh/hyper-mcp",
     "turbofish-org/abci2",

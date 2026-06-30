@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 183,
-    "observations": 185,
-    "repos": 43,
-    "terms": 180
+    "components": 198,
+    "concepts": 187,
+    "observations": 189,
+    "repos": 46,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
+    "Accla/graphulo",
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
     "apache/camel-quarkus-examples",
@@ -41,8 +42,10 @@
     "googleapis/java-cloud-bom",
     "googleapis/sdk-platform-java",
     "GoogleCloudPlatform/opentelemetry-operations-java",
+    "heroku/heroku-jvm-application-deployer",
     "hivemq/helm-charts",
     "iterate-ch/rococoa",
+    "jenkinsci/incrementals-tools",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
     "kirill-grouchnikov/ephemeral",

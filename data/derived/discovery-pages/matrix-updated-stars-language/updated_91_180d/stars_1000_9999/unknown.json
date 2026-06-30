@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 27,
-    "terms": 84
+    "components": 41,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 29,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "akuity/awesome-argo",
     "android/ndk",
     "antonbabenko/terraform-skill",
+    "bbatsov/emacs-lisp-style-guide",
     "brightmart/nlp_chinese_corpus",
     "CLUEbenchmark/CLUECorpus2020",
     "devcontainers/spec",
@@ -24,6 +25,7 @@
     "estree/estree",
     "facebookresearch/moco",
     "faroit/awesome-python-scientific-audio",
+    "FunnyWolf/Viper",
     "graalvm/graalvm-ce-builds",
     "jest-community/awesome-jest",
     "jorgebucaran/awsm.fish",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 13,
-    "terms": 34
+    "components": 60,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 14,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "aliyun/alibabacloud-oss-java-sdk-v2",
     "bndtools/workspace-templates",
@@ -23,6 +23,7 @@
     "konsoletyper/teavm-site",
     "micronaut-projects/micronaut-langchain4j",
     "mukel/qwen35.java",
+    "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
     "revelc/formatter-m2e-configurator",
     "saalfeldlab/n5-aws-s3",
     "vegardit/vegardit-maven-parent",

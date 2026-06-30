@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 213,
-    "observations": 215,
-    "repos": 15,
-    "terms": 213
+    "components": 229,
+    "concepts": 248,
+    "observations": 250,
+    "repos": 19,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "axolotl-ai-cloud/axolotl",
+    "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
+    "datalab-to/marker",
     "deepspeedai/DeepSpeed",
+    "fastapi/fastapi",
     "jax-ml/jax",
-    "Lightning-AI/pytorch-lightning",
+    "Lightning-AI/litgpt",
     "modelscope/FunASR",
     "modelscope/ms-swift",
     "NVIDIA-NeMo/Speech",
@@ -27,6 +30,7 @@
     "psf/black",
     "pydantic/pydantic",
     "TEN-framework/ten-framework",
+    "Tencent-Hunyuan/HunyuanVideo",
     "verl-project/verl",
     "zhayujie/CowAgent"
   ]

@@ -3,7 +3,7 @@
     "components": 39,
     "concepts": 47,
     "observations": 48,
-    "repos": 18,
+    "repos": 17,
     "terms": 44
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "actions-oss/gh-rc",
     "agents-squads/agents-squads",
@@ -21,7 +21,6 @@
     "bendrucker/terraform-configuration-aliases-action",
     "blooper05/action-rails_best_practices",
     "chronosphereio/calyptia-api",
-    "danielrosehill/Claude-Bug-Catcher",
     "danielrosehill/Claude-Dolphin-Konsole-Actions",
     "danielrosehill/Claude-MD-Chunk",
     "eddelbuettel/github-actions",

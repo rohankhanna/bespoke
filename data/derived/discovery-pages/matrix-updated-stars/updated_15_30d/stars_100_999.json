@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 416,
-    "concepts": 308,
-    "observations": 308,
-    "repos": 59,
-    "terms": 307
+    "components": 436,
+    "concepts": 327,
+    "observations": 327,
+    "repos": 61,
+    "terms": 326
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "Ai00-X/ai00_server",
@@ -21,7 +21,6 @@
     "appbaseio/reactivesearch-api",
     "babashka/nbb",
     "bamsumit/slayerPytorch",
-    "Baron-von-Riedesel/HX",
     "Blaizzy/mlx-audio-swift",
     "celtera/libremidi",
     "ChiyukiGana/Quickinput",
@@ -43,6 +42,7 @@
     "grupo-avispa/depth_anything_v2_ros2",
     "haasn/libplacebo",
     "ika-rwth-aachen/docker-ros",
+    "ika-rwth-aachen/ros2-depth-anything-v3-trt",
     "jawah/charset_normalizer",
     "jenkinsci/plugin-installation-manager-tool",
     "joblib/loky",
@@ -64,10 +64,12 @@
     "ros-industrial/industrial_ci",
     "salesforce/UniControl",
     "scientific-python/spin",
+    "SpecterOps/AzureHound",
     "tc39/proposal-decimal",
     "the-database/traiNNer-redux",
     "thu-ml/DiT-Extrapolation",
     "ueberauth/oauth2",
+    "unum-bio/USearchMolecules",
     "vale-cli/packages",
     "wlfeng0509/Fast-SAM3D",
     "xlite-dev/Awesome-DiT-Inference",

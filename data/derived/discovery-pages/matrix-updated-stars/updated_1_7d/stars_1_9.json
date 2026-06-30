@@ -1,22 +1,20 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 5,
-    "terms": 11
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 3,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "apostrophecms/starter-kit-astro-essentials",
-    "cloudfoundry/credhub-acceptance-tests",
     "datalevin/dlmdb",
-    "Kashif-E/parakeet-ios-demo",
-    "kurrent-io/KurrentDB-Bridge-Client"
+    "Kashif-E/parakeet-ios-demo"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 97,
     "concepts": 55,
     "observations": 55,
-    "repos": 36,
+    "repos": 37,
     "terms": 55
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
@@ -26,6 +26,7 @@
     "danielrosehill/Context-Projects-Index",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",
+    "danielrosehill/handy-wayland-autostart-fix",
     "danielrosehill/Hebrew-Tech-Vocab",
     "danielrosehill/Home-Assistant-Index",
     "danielrosehill/Jewish-Related-Index",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 93
-- terms: 483
-- components: 2580
-- concepts: 467
-- observations: 468
+- repos: 96
+- terms: 497
+- components: 2671
+- concepts: 479
+- observations: 480
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [neoclide/coc-java](https://github.com/neoclide/coc-java) | 469 | 2026-04-01T02:22:46Z | TypeScript | Infrastructure/tooling | 3 | 13 | 3 | 3 |
+| [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) | 661 | 2026-03-31T20:45:06Z | TypeScript | Infrastructure/tooling | 2 | 33 | 0 | 0 |
+| [amplify-education/serverless-domain-manager](https://github.com/amplify-education/serverless-domain-manager) | 946 | 2026-03-31T15:03:44Z | TypeScript | Infrastructure/tooling | 9 | 45 | 9 | 9 |
 | [ory/hydra-login-consent-node](https://github.com/ory/hydra-login-consent-node) | 328 | 2026-03-30T11:20:43Z | TypeScript | Infrastructure/tooling | 7 | 37 | 7 | 7 |
 | [microsoft/vscode-debugadapter-node](https://github.com/microsoft/vscode-debugadapter-node) | 300 | 2026-03-29T19:55:54Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [cztomsik/ava](https://github.com/cztomsik/ava) | 470 | 2026-03-29T17:43:18Z | TypeScript | Infrastructure/tooling | 2 | 14 | 2 | 2 |
@@ -125,6 +128,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [bvaughn/react-window-infinite-loader](https://github.com/bvaughn/react-window-infinite-loader) | 949 | 2026-01-12T22:52:35Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
+| [amplify-education/serverless-domain-manager](https://github.com/amplify-education/serverless-domain-manager) | 946 | 2026-03-31T15:03:44Z | TypeScript | Infrastructure/tooling | 9 | 45 | 9 | 9 |
 | [zsviczian/excalibrain](https://github.com/zsviczian/excalibrain) | 942 | 2026-02-18T07:59:46Z | TypeScript | Unknown | 0 | 25 | 0 | 0 |
 | [antfu/changelogithub](https://github.com/antfu/changelogithub) | 926 | 2026-03-03T04:22:27Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 5 |
 | [antfu-collective/bumpp](https://github.com/antfu-collective/bumpp) | 924 | 2026-03-16T06:15:05Z | TypeScript | CLI | 1 | 24 | 1 | 1 |
@@ -143,6 +147,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/botbuilder-js](https://github.com/microsoft/botbuilder-js) | 723 | 2026-01-05T18:14:46Z | TypeScript | Infrastructure/tooling | 5 | 47 | 5 | 5 |
 | [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | 705 | 2026-03-16T05:56:32Z | TypeScript | Infrastructure/tooling | 6 | 97 | 6 | 6 |
 | [cloydlau/json-editor-vue](https://github.com/cloydlau/json-editor-vue) | 675 | 2026-03-21T11:51:52Z | TypeScript | Infrastructure/tooling | 15 | 61 | 18 | 18 |
+| [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) | 661 | 2026-03-31T20:45:06Z | TypeScript | Infrastructure/tooling | 2 | 33 | 0 | 0 |
 | [jsonquerylang/jsonquery](https://github.com/jsonquerylang/jsonquery) | 656 | 2026-01-07T09:59:46Z | TypeScript | Infrastructure/tooling | 4 | 10 | 5 | 5 |
 | [nodejs/llparse](https://github.com/nodejs/llparse) | 621 | 2026-02-14T16:39:03Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [unplugin/unplugin-vue-markdown](https://github.com/unplugin/unplugin-vue-markdown) | 619 | 2026-02-26T10:58:16Z | TypeScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
@@ -157,6 +162,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adaltas/node-http-status](https://github.com/adaltas/node-http-status) | 485 | 2026-01-21T23:03:03Z | TypeScript | Infrastructure/tooling | 4 | 25 | 4 | 4 |
 | [hyperbrew/bolt-cep](https://github.com/hyperbrew/bolt-cep) | 478 | 2026-01-30T18:51:05Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
 | [cztomsik/ava](https://github.com/cztomsik/ava) | 470 | 2026-03-29T17:43:18Z | TypeScript | Infrastructure/tooling | 2 | 14 | 2 | 2 |
+| [neoclide/coc-java](https://github.com/neoclide/coc-java) | 469 | 2026-04-01T02:22:46Z | TypeScript | Infrastructure/tooling | 3 | 13 | 3 | 3 |
 | [Obsidian-TTRPG-Community/fantasy-statblocks](https://github.com/Obsidian-TTRPG-Community/fantasy-statblocks) | 467 | 2026-01-21T15:45:47Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
 | [carbon-design-system/carbon-icons-svelte](https://github.com/carbon-design-system/carbon-icons-svelte) | 452 | 2026-03-26T19:03:05Z | TypeScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [enisdenjo/graphql-sse](https://github.com/enisdenjo/graphql-sse) | 452 | 2026-01-13T11:39:14Z | TypeScript | CLI | 15 | 40 | 15 | 15 |

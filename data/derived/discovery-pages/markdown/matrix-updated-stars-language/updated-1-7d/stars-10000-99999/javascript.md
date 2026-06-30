@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -27,11 +27,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13543 | 2026-06-27T08:22:24Z | JavaScript | Infrastructure/tooling | 2 | 31 | 2 | 2 |
-| [preactjs/preact](https://github.com/preactjs/preact) | 38724 | 2026-06-26T14:10:33Z | JavaScript | Infrastructure/tooling | 12 | 64 | 12 | 12 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38726 | 2026-06-26T14:10:33Z | JavaScript | Infrastructure/tooling | 12 | 64 | 12 | 12 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [preactjs/preact](https://github.com/preactjs/preact) | 38724 | 2026-06-26T14:10:33Z | JavaScript | Infrastructure/tooling | 12 | 64 | 12 | 12 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38726 | 2026-06-26T14:10:33Z | JavaScript | Infrastructure/tooling | 12 | 64 | 12 | 12 |
 | [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13543 | 2026-06-27T08:22:24Z | JavaScript | Infrastructure/tooling | 2 | 31 | 2 | 2 |

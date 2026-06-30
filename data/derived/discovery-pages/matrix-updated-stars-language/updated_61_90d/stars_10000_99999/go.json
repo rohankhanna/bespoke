@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1275,
-    "concepts": 1284,
-    "observations": 1288,
-    "repos": 113,
-    "terms": 1268
+    "components": 1336,
+    "concepts": 1339,
+    "observations": 1343,
+    "repos": 116,
+    "terms": 1326
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -36,7 +36,9 @@
     "charmbracelet/lipgloss",
     "charmbracelet/vhs",
     "cli/cli",
+    "cloudflare/cloudflared",
     "cloudwego/eino",
+    "cockroachdb/cockroach",
     "coder/coder",
     "containerd/containerd",
     "containerd/nerdctl",
@@ -48,7 +50,6 @@
     "dexidp/dex",
     "dgraph-io/badger",
     "dgraph-io/dgraph",
-    "direnv/direnv",
     "distribution/distribution",
     "DNSCrypt/dnscrypt-proxy",
     "docker/compose",
@@ -99,18 +100,19 @@
     "mikefarah/yq",
     "milvus-io/milvus",
     "nats-io/nats-server",
+    "navidrome/navidrome",
     "nektos/act",
     "open-policy-agent/opa",
     "opencontainers/runc",
     "opentofu/opentofu",
     "ory/hydra",
-    "panjf2000/ants",
-    "panjf2000/gnet",
+    "ory/kratos",
     "php/frankenphp",
     "pingcap/tidb",
     "prometheus/node_exporter",
     "prometheus/prometheus",
     "quic-go/quic-go",
+    "rclone/rclone",
     "router-for-me/cliproxyapi",
     "rs/zerolog",
     "schollz/croc",
@@ -126,6 +128,7 @@
     "urfave/cli",
     "v2fly/v2ray-core",
     "valyala/fasthttp",
+    "VictoriaMetrics/VictoriaMetrics",
     "wader/fq"
   ]
 }

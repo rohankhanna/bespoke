@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 128,
-    "observations": 129,
-    "repos": 21,
-    "terms": 126
+    "components": 94,
+    "concepts": 111,
+    "observations": 112,
+    "repos": 18,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "apache/casbin-actix-casbin-auth",
@@ -24,16 +24,13 @@
     "heroku/buildpacks-jvm",
     "heroku/buildpacks-nodejs",
     "heroku/buildpacks-python",
-    "heroku/libcnb.rs",
     "influxdata/datafusion-udf-wasm",
     "lifegpc/msg-tool",
     "mdn/rari",
     "plotters-rs/plotters-cairo",
     "plotters-rs/plotters-gtk-demo",
-    "Ralith/lahar",
     "tirithen/clipper2",
     "tofay/rustls-openssl",
-    "tyrypyrking/egui-ash",
-    "unrs/unrs-resolver"
+    "tyrypyrking/egui-ash"
   ]
 }

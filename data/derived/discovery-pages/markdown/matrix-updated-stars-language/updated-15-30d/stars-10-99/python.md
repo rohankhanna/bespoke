@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
+- repos: 8
 - terms: 23
 - components: 44
 - concepts: 23
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-06-15T15:30:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [symgraph/BinAssistMCP](https://github.com/symgraph/BinAssistMCP) | 40 | 2026-06-14T15:02:29Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [tee-ar-ex/trx-python](https://github.com/tee-ar-ex/trx-python) | 26 | 2026-06-13T05:07:30Z | Python | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [roboflow/single_artifact_benchmarking](https://github.com/roboflow/single_artifact_benchmarking) | 43 | 2026-06-11T00:23:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -45,3 +46,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AMD-AGI/Nitro-T](https://github.com/AMD-AGI/Nitro-T) | 41 | 2026-06-04T05:52:55Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [symgraph/BinAssistMCP](https://github.com/symgraph/BinAssistMCP) | 40 | 2026-06-14T15:02:29Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [tee-ar-ex/trx-python](https://github.com/tee-ar-ex/trx-python) | 26 | 2026-06-13T05:07:30Z | Python | Infrastructure/tooling | 5 | 12 | 5 | 5 |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-06-15T15:30:04Z | Python | Unknown | 0 | 0 | 0 | 0 |

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 54,
+    "components": 51,
     "concepts": 89,
     "observations": 89,
-    "repos": 48,
+    "repos": 46,
     "terms": 94
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
-    "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
     "aloncarmel/supermeskill",
     "apache/.github",
@@ -45,7 +44,6 @@
     "hicchicc/x8y12pxDenkiChip",
     "HZAI-ZJNU/happy-llm-ppt",
     "ithiria894/awesome-claude-code-hooks",
-    "JaeZ1205/PS_NBI2k",
     "johandahlberg/awesome-10x-genomics",
     "Level/community",
     "LINs-lab/RCGM",

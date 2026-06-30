@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 413,
-    "concepts": 423,
-    "observations": 425,
-    "repos": 35,
-    "terms": 418
+    "components": 170,
+    "concepts": 226,
+    "observations": 227,
+    "repos": 19,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
@@ -12,41 +12,25 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "agentscope-ai/QwenPaw",
     "certbot/certbot",
-    "cvat-ai/cvat",
-    "docling-project/docling",
-    "facefusion/facefusion",
-    "fastapi/typer",
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
-    "huggingface/datasets",
-    "keras-team/keras",
     "lucidrains/vit-pytorch",
     "ludwig-ai/ludwig",
     "MetaCubeX/mihomo",
-    "microsoft/promptflow",
     "mitmproxy/mitmproxy",
     "mlflow/mlflow",
     "modelscope/DiffSynth-Studio",
     "OpenMOSS/MOSS",
-    "ostris/ai-toolkit",
     "PDFMathTranslate/PDFMathTranslate",
-    "pipecat-ai/pipecat",
-    "psf/requests",
-    "pypa/pipenv",
-    "pypa/pipx",
     "python-poetry/poetry",
-    "roboflow/supervision",
     "scipy/scipy",
-    "scrapy/scrapy",
     "StevenBlack/hosts",
-    "sympy/sympy",
     "triton-inference-server/server",
-    "unclecode/crawl4ai",
     "unifyai/ivy",
     "wkentaro/labelme"
   ]

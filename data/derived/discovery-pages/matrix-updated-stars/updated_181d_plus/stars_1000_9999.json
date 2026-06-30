@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10803,
-    "concepts": 9723,
-    "observations": 9737,
-    "repos": 2493,
-    "terms": 9583
+    "components": 10834,
+    "concepts": 9755,
+    "observations": 9769,
+    "repos": 2499,
+    "terms": 9614
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -232,6 +232,7 @@
     "attr-encrypted/attr_encrypted",
     "attractivechaos/klib",
     "auspicious3000/autovc",
+    "auto-complete/auto-complete",
     "AutoCodeRoverSG/auto-code-rover",
     "autodistill/autodistill",
     "AutoGPTQ/AutoGPTQ",
@@ -605,6 +606,7 @@
     "dotnet/announcements",
     "dotnet/machinelearning-samples",
     "dotnet/standard",
+    "DotNetAnalyzers/StyleCopAnalyzers",
     "Doubiiu/DynamiCrafter",
     "douglascrockford/JSON-js",
     "dovecoteescapee/ByeDPIAndroid",
@@ -867,6 +869,7 @@
     "GOATmessi8/RFBNet",
     "gobwas/glob",
     "godlygeek/tabular",
+    "godot-rust/gdnative",
     "gogo/protobuf",
     "golang-ui/nuklear",
     "golang/glog",
@@ -946,6 +949,7 @@
     "guandeh17/Self-Forcing",
     "gulp-sourcemaps/gulp-sourcemaps",
     "gulpjs/vinyl",
+    "gulrak/filesystem",
     "guochengqian/Magic123",
     "guochengqian/PointNeXt",
     "guoqincode/Open-AnimateAnyone",
@@ -1223,6 +1227,7 @@
     "kalaiser/awesome-cdk",
     "kan-bayashi/ParallelWaveGAN",
     "karalabe/xgo",
+    "karb94/neoscroll.nvim",
     "karolpiczak/ESC-50",
     "kassio/neoterm",
     "kawanet/msgpack-lite",
@@ -1787,6 +1792,7 @@
     "PanJiaChen/electron-vue-admin",
     "paper-trail-gem/paper_trail",
     "Paper2Poster/Paper2Poster",
+    "PaulLeCam/react-leaflet",
     "peggyrayzis/react-native-create-bridge",
     "pengzhiliang/MAE-pytorch",
     "peritus/bumpversion",

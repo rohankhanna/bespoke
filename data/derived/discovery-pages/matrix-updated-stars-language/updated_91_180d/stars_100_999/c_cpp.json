@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 415,
-    "concepts": 610,
-    "observations": 612,
-    "repos": 132,
-    "terms": 604
+    "components": 427,
+    "concepts": 618,
+    "observations": 620,
+    "repos": 134,
+    "terms": 612
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "AmusementClub/vs-mlrt",
@@ -78,6 +78,7 @@
     "jsk-ros-pkg/jsk_visualization",
     "KamilSJaron/smudgeplot",
     "KhronosGroup/OpenCL-Headers",
+    "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenCL-SDK",
     "KhronosGroup/OpenGL-Registry",
     "koide3/small_gicp",
@@ -101,6 +102,7 @@
     "nagisa/rust_tracy_client",
     "NeighTools/UnityDoorstop",
     "NetEase-FuXi/EETQ",
+    "ng-log/ng-log",
     "nhielost/obs-midi-mg",
     "nihui/ncnn-android-nanodet",
     "nihui/ncnn-android-scrfd",

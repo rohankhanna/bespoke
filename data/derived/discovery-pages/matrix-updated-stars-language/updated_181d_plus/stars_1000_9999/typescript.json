@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2778,
-    "concepts": 482,
-    "observations": 483,
-    "repos": 100,
-    "terms": 491
+    "components": 2798,
+    "concepts": 486,
+    "observations": 487,
+    "repos": 101,
+    "terms": 495
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "101arrowz/fflate",
@@ -84,6 +84,7 @@
     "nuxt/vite",
     "obsidianmd/obsidian-sample-plugin",
     "opendatalab/LabelLLM",
+    "PaulLeCam/react-leaflet",
     "pieroxy/lz-string",
     "piotrostr/listen",
     "plantain-00/type-coverage",

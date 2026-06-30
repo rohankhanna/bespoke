@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 420
-- components: 535
-- concepts: 425
-- observations: 425
+- repos: 35
+- terms: 345
+- components: 446
+- concepts: 349
+- observations: 349
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rust-ml/linfa](https://github.com/rust-ml/linfa) | 4684 | 2026-05-30T11:29:40Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [mayocream/koharu](https://github.com/mayocream/koharu) | 4471 | 2026-05-26T06:52:17Z | Rust | Infrastructure/tooling | 13 | 18 | 13 | 13 |
 | [databendlabs/databend](https://github.com/databendlabs/databend) | 9298 | 2026-05-25T09:40:05Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1116 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |
@@ -60,14 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-cli/human-panic](https://github.com/rust-cli/human-panic) | 1837 | 2026-05-01T13:06:05Z | Rust | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 6945 | 2026-05-01T10:10:04Z | Rust | Infrastructure/tooling | 14 | 16 | 15 | 15 |
 | [VOICEVOX/voicevox_core](https://github.com/VOICEVOX/voicevox_core) | 1097 | 2026-05-01T06:40:29Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 8 |
-| [rust-openssl/rust-openssl](https://github.com/rust-openssl/rust-openssl) | 1614 | 2026-05-01T03:24:58Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [rust-cli/config-rs](https://github.com/rust-cli/config-rs) | 3144 | 2026-05-01T01:20:34Z | Rust | Infrastructure/tooling | 12 | 11 | 13 | 13 |
-| [lakekeeper/lakekeeper](https://github.com/lakekeeper/lakekeeper) | 1278 | 2026-04-30T21:12:38Z | Rust | Infrastructure/tooling | 15 | 19 | 15 | 15 |
-| [facebook/pyrefly](https://github.com/facebook/pyrefly) | 5647 | 2026-04-30T19:03:30Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
-| [delta-io/delta-rs](https://github.com/delta-io/delta-rs) | 3205 | 2026-04-30T18:38:08Z | Rust | Infrastructure/tooling | 13 | 13 | 13 | 13 |
-| [holochain/holochain](https://github.com/holochain/holochain) | 1373 | 2026-04-30T17:41:51Z | Rust | Infrastructure/tooling | 13 | 6 | 13 | 13 |
-| [mozilla/uniffi-rs](https://github.com/mozilla/uniffi-rs) | 4545 | 2026-04-30T14:56:56Z | Rust | Unknown | 2 | 0 | 2 | 2 |
-| [Splode/pomotroid](https://github.com/Splode/pomotroid) | 5153 | 2026-04-30T14:33:51Z | Rust | Infrastructure/tooling | 10 | 28 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -81,15 +74,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [erebe/wstunnel](https://github.com/erebe/wstunnel) | 6652 | 2026-05-04T07:15:32Z | Rust | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [lance-format/lance](https://github.com/lance-format/lance) | 6390 | 2026-05-07T07:24:52Z | Rust | Infrastructure/tooling | 23 | 18 | 23 | 23 |
 | [MaterializeInc/materialize](https://github.com/MaterializeInc/materialize) | 6280 | 2026-05-03T00:02:04Z | Rust | Infrastructure/tooling | 22 | 8 | 22 | 22 |
-| [facebook/pyrefly](https://github.com/facebook/pyrefly) | 5647 | 2026-04-30T19:03:30Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
-| [Splode/pomotroid](https://github.com/Splode/pomotroid) | 5153 | 2026-04-30T14:33:51Z | Rust | Infrastructure/tooling | 10 | 28 | 10 | 10 |
 | [cordx56/rustowl](https://github.com/cordx56/rustowl) | 5120 | 2026-05-06T12:04:15Z | Rust | Infrastructure/tooling | 10 | 21 | 10 | 10 |
-| [mozilla/uniffi-rs](https://github.com/mozilla/uniffi-rs) | 4545 | 2026-04-30T14:56:56Z | Rust | Unknown | 2 | 0 | 2 | 2 |
+| [rust-ml/linfa](https://github.com/rust-ml/linfa) | 4684 | 2026-05-30T11:29:40Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [mayocream/koharu](https://github.com/mayocream/koharu) | 4471 | 2026-05-26T06:52:17Z | Rust | Infrastructure/tooling | 13 | 18 | 13 | 13 |
 | [ron-rs/ron](https://github.com/ron-rs/ron) | 3896 | 2026-05-03T02:31:16Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [dora-rs/dora](https://github.com/dora-rs/dora) | 3741 | 2026-05-05T10:47:59Z | Rust | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [delta-io/delta-rs](https://github.com/delta-io/delta-rs) | 3205 | 2026-04-30T18:38:08Z | Rust | Infrastructure/tooling | 13 | 13 | 13 | 13 |
-| [rust-cli/config-rs](https://github.com/rust-cli/config-rs) | 3144 | 2026-05-01T01:20:34Z | Rust | Infrastructure/tooling | 12 | 11 | 13 | 13 |
 | [nix-rust/nix](https://github.com/nix-rust/nix) | 3027 | 2026-05-13T01:15:18Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [agentclientprotocol/agent-client-protocol](https://github.com/agentclientprotocol/agent-client-protocol) | 3017 | 2026-05-05T20:34:12Z | Rust | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 2841 | 2026-05-10T09:13:25Z | Rust | CLI | 18 | 15 | 18 | 18 |
@@ -103,12 +92,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Aleph-Alpha/ts-rs](https://github.com/Aleph-Alpha/ts-rs) | 1787 | 2026-05-12T11:49:04Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [josh-project/josh](https://github.com/josh-project/josh) | 1715 | 2026-05-06T19:37:20Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [dimforge/kiss3d](https://github.com/dimforge/kiss3d) | 1680 | 2026-05-01T20:40:17Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [rust-openssl/rust-openssl](https://github.com/rust-openssl/rust-openssl) | 1614 | 2026-05-01T03:24:58Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [robustmq/robustmq](https://github.com/robustmq/robustmq) | 1573 | 2026-05-03T02:55:35Z | Rust | Infrastructure/tooling | 23 | 19 | 23 | 23 |
 | [ros2-rust/ros2_rust](https://github.com/ros2-rust/ros2_rust) | 1452 | 2026-05-06T04:03:43Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [nats-io/nats.rs](https://github.com/nats-io/nats.rs) | 1450 | 2026-05-02T13:51:07Z | Rust | CLI | 8 | 13 | 8 | 8 |
-| [holochain/holochain](https://github.com/holochain/holochain) | 1373 | 2026-04-30T17:41:51Z | Rust | Infrastructure/tooling | 13 | 6 | 13 | 13 |
-| [lakekeeper/lakekeeper](https://github.com/lakekeeper/lakekeeper) | 1278 | 2026-04-30T21:12:38Z | Rust | Infrastructure/tooling | 15 | 19 | 15 | 15 |
 | [JuliaLang/juliaup](https://github.com/JuliaLang/juliaup) | 1273 | 2026-05-06T17:35:01Z | Rust | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [CosmWasm/cosmwasm](https://github.com/CosmWasm/cosmwasm) | 1141 | 2026-05-04T08:34:25Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1116 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |

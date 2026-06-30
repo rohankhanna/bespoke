@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 10,
-    "terms": 31
+    "components": 21,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 9,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "Ayaginu-Sue/Astalia",
     "cbuijs/hagezi",
-    "filecoin-project/Allocator-Registry",
     "Jaded-Encoding-Thaumaturgy/JET-guide",
     "microsoft/microsoft-foundry-for-vscode",
     "NightWatcher314/zotero-pdf2zh-server",

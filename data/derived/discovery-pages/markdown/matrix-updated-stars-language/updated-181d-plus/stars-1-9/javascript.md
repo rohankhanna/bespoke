@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 122
-- terms: 202
-- components: 1486
-- concepts: 203
-- observations: 204
+- repos: 123
+- terms: 209
+- components: 1496
+- concepts: 210
+- observations: 211
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AnshulGora/portfolio_template_v1](https://github.com/AnshulGora/portfolio_template_v1) | 1 | 2026-01-01T05:47:15Z | JavaScript | Web app | 7 | 10 | 7 | 7 |
 | [Qiuner/isometric-contributions-plus](https://github.com/Qiuner/isometric-contributions-plus) | 7 | 2025-12-24T11:08:27Z | JavaScript | Unknown | 4 | 8 | 5 | 5 |
 | [behnamazimi/inquirer-checkbox-plus-plus](https://github.com/behnamazimi/inquirer-checkbox-plus-plus) | 2 | 2025-10-30T07:51:02Z | JavaScript | Web app | 0 | 9 | 0 | 0 |
 | [gost-dom/project-harmony](https://github.com/gost-dom/project-harmony) | 8 | 2025-10-19T17:31:42Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
@@ -259,6 +260,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pixielabs/cavy-sample-app](https://github.com/pixielabs/cavy-sample-app) | 2 | 2021-10-03T16:32:14Z | JavaScript | Unknown | 0 | 18 | 0 | 0 |
 | [1000ch/atom-csso](https://github.com/1000ch/atom-csso) | 2 | 2021-08-02T20:40:13Z | JavaScript | Unknown | 3 | 3 | 3 | 3 |
 | [atom-community/autocomplete-plus](https://github.com/atom-community/autocomplete-plus) | 2 | 2021-07-21T23:48:09Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
+| [AnshulGora/portfolio_template_v1](https://github.com/AnshulGora/portfolio_template_v1) | 1 | 2026-01-01T05:47:15Z | JavaScript | Web app | 7 | 10 | 7 | 7 |
 | [libp2p/js-libp2p-example-connection-encryption](https://github.com/libp2p/js-libp2p-example-connection-encryption) | 1 | 2025-09-30T08:40:11Z | JavaScript | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [hchiam/learning-reactjs](https://github.com/hchiam/learning-reactjs) | 1 | 2025-05-04T21:03:59Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [hchiam/learning-firestore](https://github.com/hchiam/learning-firestore) | 1 | 2024-11-04T03:35:06Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

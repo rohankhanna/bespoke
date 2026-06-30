@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 7,
-    "terms": 72
+    "components": 49,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 8,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "apache/casbin-Casbin.NET",
     "babashka/sci",
@@ -20,6 +20,7 @@
     "dotnet/command-line-api",
     "huggingface/swift-transformers",
     "microsoft/PhiCookBook",
-    "psmux/psmux"
+    "psmux/psmux",
+    "standardrb/standard"
   ]
 }

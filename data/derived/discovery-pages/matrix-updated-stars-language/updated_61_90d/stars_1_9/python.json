@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 286,
-    "concepts": 176,
-    "observations": 176,
-    "repos": 74,
-    "terms": 194
+    "components": 304,
+    "concepts": 184,
+    "observations": 184,
+    "repos": 77,
+    "terms": 202
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -40,6 +40,7 @@
     "cdxeve/scale-openclaw",
     "chaoss/grimoirelab-toolkit",
     "cjtruheart/abundance-codex",
+    "compiler-research/cppyy",
     "conda-forge/threadpoolctl-feedstock",
     "CoolCat467/idlemypyextension",
     "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
@@ -85,6 +86,8 @@
     "TexasInstruments/edgeai-tidlrunner",
     "TJC-LP/sanzaru",
     "UnknownPlatypus/djangofmt-pre-commit",
+    "usdot-fhwa-stol/carma-config",
+    "usdot-fhwa-stol/cdasim-config",
     "verkyyi/tokenman",
     "xiaochu-1208/interview-assistant-cli",
     "zopefoundation/meta"

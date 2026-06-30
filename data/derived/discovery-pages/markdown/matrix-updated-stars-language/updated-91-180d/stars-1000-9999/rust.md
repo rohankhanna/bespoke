@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 58
-- terms: 301
-- components: 371
-- concepts: 303
-- observations: 307
+- repos: 60
+- terms: 310
+- components: 381
+- concepts: 312
+- observations: 316
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sharkdp/pastel](https://github.com/sharkdp/pastel) | 6341 | 2026-04-01T02:05:48Z | Rust | CLI | 8 | 7 | 8 | 8 |
+| [not-fl3/macroquad](https://github.com/not-fl3/macroquad) | 4433 | 2026-03-31T19:00:09Z | Rust | Infrastructure/tooling | 4 | 3 | 4 | 4 |
+| [snapview/tokio-tungstenite](https://github.com/snapview/tokio-tungstenite) | 2440 | 2026-03-31T14:33:49Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [Mooncake-Labs/pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) | 1957 | 2026-03-31T05:53:29Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [mitsuhiko/insta](https://github.com/mitsuhiko/insta) | 2829 | 2026-03-30T20:53:47Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [enigo-rs/enigo](https://github.com/enigo-rs/enigo) | 1703 | 2026-03-30T10:34:01Z | Rust | Infrastructure/tooling | 10 | 2 | 10 | 10 |
@@ -83,7 +86,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Morganamilo/paru](https://github.com/Morganamilo/paru) | 8626 | 2026-01-09T07:31:27Z | Rust | Infrastructure/tooling | 10 | 9 | 10 | 11 |
 | [nagisa/rust_libloading](https://github.com/nagisa/rust_libloading) | 1441 | 2026-01-07T21:44:47Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [anordal/shellharden](https://github.com/anordal/shellharden) | 4778 | 2026-01-05T06:45:45Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [godot-rust/gdnative](https://github.com/godot-rust/gdnative) | 3626 | 2025-12-31T11:42:26Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -94,6 +96,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [parcel-bundler/lightningcss](https://github.com/parcel-bundler/lightningcss) | 7519 | 2026-03-12T19:03:05Z | Rust | Infrastructure/tooling | 8 | 44 | 8 | 8 |
 | [librespot-org/librespot](https://github.com/librespot-org/librespot) | 6730 | 2026-02-09T19:44:00Z | Rust | CLI | 9 | 9 | 9 | 9 |
 | [dtolnay/anyhow](https://github.com/dtolnay/anyhow) | 6489 | 2026-03-24T02:44:34Z | Rust | Infrastructure/tooling | 0 | 9 | 0 | 0 |
+| [sharkdp/pastel](https://github.com/sharkdp/pastel) | 6341 | 2026-04-01T02:05:48Z | Rust | CLI | 8 | 7 | 8 | 8 |
 | [lldap/lldap](https://github.com/lldap/lldap) | 6196 | 2026-03-29T08:19:27Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [visioncortex/vtracer](https://github.com/visioncortex/vtracer) | 5957 | 2026-03-23T15:31:45Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 4 |
 | [Byron/dua-cli](https://github.com/Byron/dua-cli) | 5815 | 2026-02-20T08:14:57Z | Rust | CLI | 8 | 10 | 8 | 8 |
@@ -107,10 +110,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gyscos/cursive](https://github.com/gyscos/cursive) | 4783 | 2026-03-25T02:11:00Z | Rust | CLI | 3 | 1 | 3 | 4 |
 | [anordal/shellharden](https://github.com/anordal/shellharden) | 4778 | 2026-01-05T06:45:45Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [tokio-rs/prost](https://github.com/tokio-rs/prost) | 4671 | 2026-03-02T05:32:37Z | Rust | Infrastructure/tooling | 3 | 16 | 3 | 3 |
+| [not-fl3/macroquad](https://github.com/not-fl3/macroquad) | 4433 | 2026-03-31T19:00:09Z | Rust | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [tower-rs/tower](https://github.com/tower-rs/tower) | 4172 | 2026-02-24T22:54:27Z | Rust | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [rust-lang/regex](https://github.com/rust-lang/regex) | 3955 | 2026-02-24T15:41:12Z | Rust | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [google/tarpc](https://github.com/google/tarpc) | 3685 | 2026-03-25T06:11:05Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [godot-rust/gdnative](https://github.com/godot-rust/gdnative) | 3626 | 2025-12-31T11:42:26Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [dtolnay/cargo-expand](https://github.com/dtolnay/cargo-expand) | 3071 | 2026-02-12T03:16:08Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [guillaume-be/rust-bert](https://github.com/guillaume-be/rust-bert) | 3057 | 2026-01-13T19:54:39Z | Rust | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [Rust-SDL2/rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2) | 2939 | 2026-03-22T12:28:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -121,6 +124,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [haleclipse/ccometixline](https://github.com/Haleclipse/CCometixLine) | 2713 | 2026-03-14T18:03:04Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [tokio-rs/loom](https://github.com/tokio-rs/loom) | 2682 | 2026-02-20T20:40:49Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [anthropics/claudes-c-compiler](https://github.com/anthropics/claudes-c-compiler) | 2632 | 2026-02-05T17:14:51Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [snapview/tokio-tungstenite](https://github.com/snapview/tokio-tungstenite) | 2440 | 2026-03-31T14:33:49Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [tokio-rs/bytes](https://github.com/tokio-rs/bytes) | 2205 | 2026-02-04T15:15:37Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [a16z/helios](https://github.com/a16z/helios) | 2146 | 2026-02-27T21:42:38Z | Rust | CLI | 6 | 6 | 6 | 6 |
 | [Mooncake-Labs/pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) | 1957 | 2026-03-31T05:53:29Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |

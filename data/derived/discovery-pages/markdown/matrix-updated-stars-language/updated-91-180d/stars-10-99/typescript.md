@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 58
-- terms: 168
-- components: 1037
-- concepts: 166
-- observations: 166
+- repos: 57
+- terms: 160
+- components: 1020
+- concepts: 158
+- observations: 158
 
 ## Static behavior
 
@@ -83,7 +83,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [holochain/launcher](https://github.com/holochain/launcher) | 71 | 2026-01-09T15:19:51Z | TypeScript | Infrastructure/tooling | 4 | 64 | 4 | 4 |
 | [chaijs/assertion-error](https://github.com/chaijs/assertion-error) | 26 | 2026-01-04T00:04:26Z | TypeScript | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [connectrpc/connect-playwright-es](https://github.com/connectrpc/connect-playwright-es) | 30 | 2026-01-01T07:02:12Z | TypeScript | Infrastructure/tooling | 4 | 18 | 4 | 4 |
-| [dao-xyz/borsh-ts](https://github.com/dao-xyz/borsh-ts) | 50 | 2025-12-31T15:08:17Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -106,7 +105,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TravisTheTechie/vscode-write-good](https://github.com/TravisTheTechie/vscode-write-good) | 58 | 2026-03-24T22:36:46Z | TypeScript | Infrastructure/tooling | 3 | 18 | 3 | 3 |
 | [dannyhw/react-native-storybook-starter](https://github.com/dannyhw/react-native-storybook-starter) | 53 | 2026-03-11T11:57:36Z | TypeScript | CLI | 0 | 50 | 0 | 0 |
 | [pkgxdev/pkgm](https://github.com/pkgxdev/pkgm) | 52 | 2026-03-30T16:26:42Z | TypeScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
-| [dao-xyz/borsh-ts](https://github.com/dao-xyz/borsh-ts) | 50 | 2025-12-31T15:08:17Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [ipfs/js-kubo-rpc-client](https://github.com/ipfs/js-kubo-rpc-client) | 49 | 2026-03-01T15:59:39Z | TypeScript | CLI | 8 | 66 | 8 | 8 |
 | [pkgxdev/dev](https://github.com/pkgxdev/dev) | 45 | 2026-02-26T03:22:27Z | TypeScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [c2corg/browserslist-update-action](https://github.com/c2corg/browserslist-update-action) | 44 | 2026-02-06T07:12:46Z | TypeScript | Infrastructure/tooling | 2 | 29 | 2 | 2 |

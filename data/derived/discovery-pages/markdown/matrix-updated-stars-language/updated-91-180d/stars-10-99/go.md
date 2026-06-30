@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 53
-- terms: 197
-- components: 213
-- concepts: 198
-- observations: 198
+- repos: 55
+- terms: 205
+- components: 226
+- concepts: 206
+- observations: 206
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hashicorp/vault-plugin-auth-kerberos](https://github.com/hashicorp/vault-plugin-auth-kerberos) | 20 | 2026-04-01T00:45:10Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [GFW-knocker/AndroidLibXrayLite](https://github.com/GFW-knocker/AndroidLibXrayLite) | 25 | 2026-03-31T17:44:00Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [aws/amazon-network-policy-controller-k8s](https://github.com/aws/amazon-network-policy-controller-k8s) | 54 | 2026-03-30T23:25:06Z | Go | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [scaleway/serverless-examples](https://github.com/scaleway/serverless-examples) | 64 | 2026-03-30T12:14:12Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [chrislusf/seaweedfs](https://github.com/chrislusf/seaweedfs) | 24 | 2026-03-28T00:03:22Z | Go | Infrastructure/tooling | 7 | 6 | 7 | 7 |
@@ -117,11 +119,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [doraemonkeys/paddleocr](https://github.com/doraemonkeys/paddleocr) | 33 | 2026-01-29T02:28:55Z | Go | Unknown | 2 | 0 | 2 | 2 |
 | [rpcxio/rpcx-etcd](https://github.com/rpcxio/rpcx-etcd) | 33 | 2026-01-15T03:37:37Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [worlpaker/go-syntax](https://github.com/worlpaker/go-syntax) | 31 | 2026-02-04T13:10:47Z | Go | Unknown | 11 | 0 | 11 | 11 |
+| [GFW-knocker/AndroidLibXrayLite](https://github.com/GFW-knocker/AndroidLibXrayLite) | 25 | 2026-03-31T17:44:00Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [chrislusf/seaweedfs](https://github.com/chrislusf/seaweedfs) | 24 | 2026-03-28T00:03:22Z | Go | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [jm33-m0/arc](https://github.com/jm33-m0/arc) | 23 | 2026-02-16T02:17:58Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [cjkreklow/t38c](https://github.com/cjkreklow/t38c) | 22 | 2026-03-25T00:23:15Z | Go | CLI | 3 | 4 | 3 | 3 |
 | [AbsaOSS/external-dns-infoblox-webhook](https://github.com/AbsaOSS/external-dns-infoblox-webhook) | 22 | 2026-03-04T21:22:22Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [cyberark/conjur-api-go](https://github.com/cyberark/conjur-api-go) | 21 | 2026-03-18T13:17:52Z | Go | CLI | 7 | 0 | 7 | 7 |
+| [hashicorp/vault-plugin-auth-kerberos](https://github.com/hashicorp/vault-plugin-auth-kerberos) | 20 | 2026-04-01T00:45:10Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [ipfs/go-ipfs-example-plugin](https://github.com/ipfs/go-ipfs-example-plugin) | 20 | 2026-02-23T09:04:32Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [rose-pine/rose-pine-bloom](https://github.com/rose-pine/rose-pine-bloom) | 19 | 2026-02-22T16:07:09Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [mikespook/possum](https://github.com/mikespook/possum) | 19 | 2026-01-05T03:26:27Z | Go | Library | 0 | 0 | 0 | 0 |

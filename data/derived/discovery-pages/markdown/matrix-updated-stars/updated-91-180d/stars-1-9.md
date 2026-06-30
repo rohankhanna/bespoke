@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 332
-- terms: 842
-- components: 1348
-- concepts: 847
-- observations: 849
+- repos: 333
+- terms: 845
+- components: 1367
+- concepts: 850
+- observations: 852
 
 ## Static behavior
 
@@ -25,6 +25,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ethpandaops/checkpoint-sync-health-checks](https://github.com/ethpandaops/checkpoint-sync-health-checks) | 5 | 2026-04-01T02:28:10Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
+| [llvm/torch-mlir-release](https://github.com/llvm/torch-mlir-release) | 7 | 2026-04-01T01:09:02Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [Level/read-stream](https://github.com/Level/read-stream) | 7 | 2026-04-01T00:23:38Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
+| [gaoyifan/bgptools](https://github.com/gaoyifan/bgptools) | 7 | 2026-03-31T23:28:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [objectbox/objectbox-sync-examples](https://github.com/objectbox/objectbox-sync-examples) | 1 | 2026-03-31T07:55:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [archestra-ai/terraform-provider-archestra](https://github.com/archestra-ai/terraform-provider-archestra) | 7 | 2026-03-30T20:11:36Z | Go | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [EspressoSystems/Push-CDN](https://github.com/EspressoSystems/Push-CDN) | 5 | 2026-03-30T17:51:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -354,9 +358,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/My-Network-MCP](https://github.com/danielrosehill/My-Network-MCP) | 1 | 2026-01-02T01:01:19Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [hedronvision/bazel-cc-filesystem-backport](https://github.com/hedronvision/bazel-cc-filesystem-backport) | 3 | 2026-01-01T15:44:38Z | Other | Service/API | 6 | 0 | 6 | 6 |
 | [testng-team/testng-team.github.io](https://github.com/testng-team/testng-team.github.io) | 6 | 2026-01-01T07:15:48Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [AnshulGora/portfolio_template_v1](https://github.com/AnshulGora/portfolio_template_v1) | 1 | 2026-01-01T05:47:15Z | JavaScript | Web app | 7 | 10 | 7 | 7 |
-| [anchordotdev/puma-acme](https://github.com/anchordotdev/puma-acme) | 6 | 2026-01-01T00:04:39Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [danielrosehill/Claude-Bug-Catcher](https://github.com/danielrosehill/Claude-Bug-Catcher) | 1 | 2025-12-31T16:03:43Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -399,6 +400,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LedgerHQ/ledgercomm](https://github.com/LedgerHQ/ledgercomm) | 8 | 2026-01-15T10:37:53Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [haskell-compat/base-orphans](https://github.com/haskell-compat/base-orphans) | 8 | 2026-01-10T15:53:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [SlicerRt/SlicerRtDoc](https://github.com/SlicerRt/SlicerRtDoc) | 8 | 2026-01-04T21:43:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [llvm/torch-mlir-release](https://github.com/llvm/torch-mlir-release) | 7 | 2026-04-01T01:09:02Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [Level/read-stream](https://github.com/Level/read-stream) | 7 | 2026-04-01T00:23:38Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
+| [gaoyifan/bgptools](https://github.com/gaoyifan/bgptools) | 7 | 2026-03-31T23:28:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [archestra-ai/terraform-provider-archestra](https://github.com/archestra-ai/terraform-provider-archestra) | 7 | 2026-03-30T20:11:36Z | Go | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [nttstar/insightface-resources](https://github.com/nttstar/insightface-resources) | 7 | 2026-03-29T10:57:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [langchain-ai/.github](https://github.com/langchain-ai/.github) | 7 | 2026-03-27T22:05:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -454,7 +458,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [guoqingbao/rustchatui](https://github.com/guoqingbao/rustchatui) | 6 | 2026-01-14T11:34:46Z | Rust | Library | 0 | 0 | 0 | 0 |
 | [codeGROOVE-dev/retry](https://github.com/codeGROOVE-dev/retry) | 6 | 2026-01-05T19:58:58Z | Go | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [testng-team/testng-team.github.io](https://github.com/testng-team/testng-team.github.io) | 6 | 2026-01-01T07:15:48Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [anchordotdev/puma-acme](https://github.com/anchordotdev/puma-acme) | 6 | 2026-01-01T00:04:39Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [ethpandaops/checkpoint-sync-health-checks](https://github.com/ethpandaops/checkpoint-sync-health-checks) | 5 | 2026-04-01T02:28:10Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [EspressoSystems/Push-CDN](https://github.com/EspressoSystems/Push-CDN) | 5 | 2026-03-30T17:51:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [danielrosehill/Agents-Index](https://github.com/danielrosehill/Agents-Index) | 5 | 2026-03-27T17:06:41Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [gmberton/gmberton.github.io](https://github.com/gmberton/gmberton.github.io) | 5 | 2026-03-27T06:24:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -692,5 +696,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heshengtao/sap-ai-mermaid](https://github.com/heshengtao/sap-ai-mermaid) | 1 | 2026-01-02T17:19:31Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/MCP-Network-CUPS](https://github.com/danielrosehill/MCP-Network-CUPS) | 1 | 2026-01-02T01:02:29Z | TypeScript | CLI | 1 | 5 | 1 | 1 |
 | [danielrosehill/My-Network-MCP](https://github.com/danielrosehill/My-Network-MCP) | 1 | 2026-01-02T01:01:19Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
-| [AnshulGora/portfolio_template_v1](https://github.com/AnshulGora/portfolio_template_v1) | 1 | 2026-01-01T05:47:15Z | JavaScript | Web app | 7 | 10 | 7 | 7 |
-| [danielrosehill/Claude-Bug-Catcher](https://github.com/danielrosehill/Claude-Bug-Catcher) | 1 | 2025-12-31T16:03:43Z | Shell | Unknown | 0 | 0 | 0 | 0 |

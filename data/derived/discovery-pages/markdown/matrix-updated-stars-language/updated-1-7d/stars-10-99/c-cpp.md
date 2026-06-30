@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 12
-- components: 32
-- concepts: 12
-- observations: 12
+- repos: 4
+- terms: 14
+- components: 35
+- concepts: 14
+- observations: 14
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 34 | 2026-06-28T16:43:18Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [rordenlab/niimath](https://github.com/rordenlab/niimath) | 80 | 2026-06-26T19:18:12Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [continuumio/blz](https://github.com/ContinuumIO/blz) | 25 | 2026-06-25T08:05:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mongodb/winkerberos](https://github.com/mongodb/winkerberos) | 57 | 2026-06-23T16:24:24Z | C/C++ | CLI | 9 | 24 | 9 | 9 |
@@ -36,4 +37,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [rordenlab/niimath](https://github.com/rordenlab/niimath) | 80 | 2026-06-26T19:18:12Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [mongodb/winkerberos](https://github.com/mongodb/winkerberos) | 57 | 2026-06-23T16:24:24Z | C/C++ | CLI | 9 | 24 | 9 | 9 |
+| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 34 | 2026-06-28T16:43:18Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [continuumio/blz](https://github.com/ContinuumIO/blz) | 25 | 2026-06-25T08:05:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

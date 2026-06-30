@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 27050,
-    "concepts": 23286,
-    "observations": 23362,
+    "components": 27062,
+    "concepts": 23287,
+    "observations": 23363,
     "repos": 5739,
-    "terms": 23217
+    "terms": 23218
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",

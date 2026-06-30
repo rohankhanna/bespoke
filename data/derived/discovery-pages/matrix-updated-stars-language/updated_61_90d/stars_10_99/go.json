@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 650,
-    "concepts": 417,
-    "observations": 420,
-    "repos": 100,
-    "terms": 413
+    "components": 667,
+    "concepts": 433,
+    "observations": 436,
+    "repos": 104,
+    "terms": 429
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "AbdelrhmanHamouda/locust-k8s-operator",
@@ -64,18 +64,19 @@
     "dlclark/regexp2cg",
     "ebitengine/debugui",
     "energye/cef",
+    "energye/lcl",
     "EngFlow/gazelle_cc",
     "ethpandaops/xatu",
     "featherbread/hypcast",
     "fgrehm/clotilde",
     "getlantern/.github",
-    "GFW-knocker/AndroidLibXrayLite",
+    "golangci/go-printf-func-name",
+    "golangci/misspell",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
     "gopasspw/gopass-jsonapi",
     "hashicorp/go-netaddrs",
     "hashicorp/hcp-sdk-go",
-    "hashicorp/vault-plugin-auth-kerberos",
     "Infisical/go-sdk",
     "ionos-cloud/external-dns-ionos-webhook",
     "ipfs/gateway-conformance",
@@ -83,6 +84,7 @@
     "ipshipyard/p2p-forge",
     "Kong/kong-operator",
     "kubernetes-sigs/apiserver-runtime",
+    "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
     "magodo/aztft",
@@ -98,6 +100,7 @@
     "openshift/ci-tools",
     "openshift/kubernetes",
     "oracle/karpenter-provider-oci",
+    "philips-labs/dct-notary-admin",
     "philips-labs/tabia",
     "quicksilver-zone/quicksilver",
     "sigstore/helm-sigstore",
@@ -113,6 +116,7 @@
     "usbarmory/GoTEE-example",
     "usbarmory/tamago-example",
     "usbarmory/tamago-go",
+    "usbarmory/tamago-sev-example",
     "yomidevs/yomitan-import"
   ]
 }

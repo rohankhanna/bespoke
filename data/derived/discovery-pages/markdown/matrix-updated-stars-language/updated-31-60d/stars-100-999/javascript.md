@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 102
-- components: 479
-- concepts: 104
-- observations: 105
+- repos: 18
+- terms: 98
+- components: 474
+- concepts: 100
+- observations: 101
 
 ## Static behavior
 
@@ -44,7 +44,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mdn/fred](https://github.com/mdn/fred) | 203 | 2026-05-01T09:44:37Z | JavaScript | Infrastructure/tooling | 9 | 108 | 9 | 9 |
 | [w3c/webref](https://github.com/w3c/webref) | 429 | 2026-05-01T07:26:20Z | JavaScript | Infrastructure/tooling | 8 | 20 | 8 | 8 |
 | [Kilian/electron-to-chromium](https://github.com/Kilian/electron-to-chromium) | 155 | 2026-05-01T06:02:24Z | JavaScript | Infrastructure/tooling | 6 | 8 | 6 | 6 |
-| [lo-th/phy](https://github.com/lo-th/phy) | 703 | 2026-04-30T16:50:22Z | JavaScript | Unknown | 4 | 5 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -52,7 +51,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [openfl/lime](https://github.com/openfl/lime) | 838 | 2026-05-01T21:44:38Z | JavaScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [firebase/snippets-web](https://github.com/firebase/snippets-web) | 794 | 2026-05-02T08:48:07Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
-| [lo-th/phy](https://github.com/lo-th/phy) | 703 | 2026-04-30T16:50:22Z | JavaScript | Unknown | 4 | 5 | 4 | 4 |
 | [facebook/Rapid](https://github.com/facebook/Rapid) | 630 | 2026-05-01T13:18:40Z | JavaScript | Infrastructure/tooling | 4 | 92 | 4 | 4 |
 | [all-contributors/app](https://github.com/all-contributors/app) | 627 | 2026-05-27T06:49:39Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [oss-serverless/serverless](https://github.com/oss-serverless/serverless) | 602 | 2026-05-03T01:04:02Z | JavaScript | CLI | 2 | 66 | 2 | 2 |

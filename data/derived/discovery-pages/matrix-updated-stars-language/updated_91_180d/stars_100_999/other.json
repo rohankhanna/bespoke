@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1449,
-    "concepts": 1128,
-    "observations": 1130,
-    "repos": 294,
-    "terms": 1121
+    "components": 1447,
+    "concepts": 1125,
+    "observations": 1127,
+    "repos": 293,
+    "terms": 1118
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -29,8 +29,8 @@
     "alcohol/iso3166",
     "analogdevicesinc/ai8x-training",
     "AndrewRadev/switch.vim",
-    "ankane/groupdate.sql",
     "ankane/kms_encrypted",
+    "ankane/vega-ruby",
     "antosha417/nvim-lsp-file-operations",
     "archguard/archguard",
     "argmaxinc/WhisperKitAndroid",
@@ -39,7 +39,6 @@
     "aserafin/grape_logging",
     "astral-sh/uv-docker-example",
     "AudioKit/Cookbook",
-    "auto-complete/popup-el",
     "autodeployai/ai-serving",
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
@@ -90,6 +89,7 @@
     "clojure/tools.reader",
     "cloojure/tupelo",
     "cloudstudio/ollama-laravel",
+    "cloudwu/deepfuture",
     "cnuernber/charred",
     "cognitect/transit-clj",
     "com-lihaoyi/cask",
@@ -230,7 +230,6 @@
     "OpenBMB/CPM.cu",
     "PacificBiosciences/pbmm2",
     "phodal/chapi",
-    "plk/biber",
     "PMunch/nimlsp",
     "ppwwyyxx/cocoapi",
     "prabirshrestha/asyncomplete.vim",

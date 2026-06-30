@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 37,
-    "terms": 135
+    "components": 68,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 36,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-29T10:01:01.344855+00:00",
+  "generated_at": "2026-06-30T05:58:41.842453+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "ad-si/awesome-music-production",
@@ -20,7 +20,6 @@
     "android/skills",
     "aws-controllers-k8s/community",
     "bbatsov/clojure-style-guide",
-    "bbatsov/emacs-lisp-style-guide",
     "behisecc/awesome-claude-skills",
     "CocoaPods/Specs",
     "CVEProject/cvelistV5",
@@ -31,9 +30,9 @@
     "FasterXML/jackson",
     "flathub/flathub",
     "FuelLabs/fuel-specs",
-    "FunnyWolf/Viper",
     "github/rest-api-description",
     "godotengine/awesome-godot",
+    "GyanD/codexffmpeg",
     "libp2p/libp2p",
     "libp2p/specs",
     "logseq/awesome-logseq",

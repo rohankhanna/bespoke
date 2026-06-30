@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 70
-- terms: 195
-- components: 180
-- concepts: 195
-- observations: 196
+- repos: 73
+- terms: 212
+- components: 224
+- concepts: 212
+- observations: 213
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Level/classic-level](https://github.com/Level/classic-level) | 98 | 2026-04-01T04:04:51Z | C/C++ | Infrastructure/tooling | 7 | 30 | 7 | 7 |
+| [heal-research/pyoperon](https://github.com/heal-research/pyoperon) | 75 | 2026-03-31T17:38:27Z | C/C++ | Infrastructure/tooling | 10 | 9 | 10 | 10 |
+| [flashlight/text](https://github.com/flashlight/text) | 79 | 2026-03-31T16:49:46Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [galaxyproject/KegAlign](https://github.com/galaxyproject/KegAlign) | 40 | 2026-03-27T09:08:00Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ada-url/goada](https://github.com/ada-url/goada) | 60 | 2026-03-26T18:13:28Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [bartp5/libtexprintf](https://github.com/bartp5/libtexprintf) | 71 | 2026-03-24T22:35:22Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -103,6 +106,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [intel/metrics-discovery](https://github.com/intel/metrics-discovery) | 99 | 2026-03-16T11:55:08Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/react-native-winrt](https://github.com/microsoft/react-native-winrt) | 99 | 2026-03-05T20:30:56Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
+| [Level/classic-level](https://github.com/Level/classic-level) | 98 | 2026-04-01T04:04:51Z | C/C++ | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [icecc/icemon](https://github.com/icecc/icemon) | 96 | 2026-03-05T13:57:56Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [vorot93/libmdbx-rs](https://github.com/vorot93/libmdbx-rs) | 96 | 2026-02-10T04:38:31Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [JuliaInterop/libcxxwrap-julia](https://github.com/JuliaInterop/libcxxwrap-julia) | 95 | 2026-02-06T20:12:37Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -115,9 +119,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dacap/observable](https://github.com/dacap/observable) | 85 | 2026-03-10T12:21:28Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [gershnik/wsdd-native](https://github.com/gershnik/wsdd-native) | 81 | 2026-03-22T13:13:37Z | C/C++ | Infrastructure/tooling | 17 | 4 | 17 | 17 |
 | [o3de/PhysX](https://github.com/o3de/PhysX) | 81 | 2026-02-18T16:24:39Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [flashlight/text](https://github.com/flashlight/text) | 79 | 2026-03-31T16:49:46Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [r-spatial/s2](https://github.com/r-spatial/s2) | 79 | 2026-02-14T14:57:33Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [cisco/libacvp](https://github.com/cisco/libacvp) | 77 | 2026-03-16T14:44:04Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [onicai/llama_cpp_canister](https://github.com/onicai/llama_cpp_canister) | 76 | 2026-03-18T19:10:37Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [heal-research/pyoperon](https://github.com/heal-research/pyoperon) | 75 | 2026-03-31T17:38:27Z | C/C++ | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [tlaplus-community/tree-sitter-tlaplus](https://github.com/tlaplus-community/tree-sitter-tlaplus) | 75 | 2026-02-17T16:55:51Z | C/C++ | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [bartp5/libtexprintf](https://github.com/bartp5/libtexprintf) | 71 | 2026-03-24T22:35:22Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |

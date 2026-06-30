@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
+- repos: 30
 - terms: 39
 - components: 113
 - concepts: 39
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gaoyifan/bgptools](https://github.com/gaoyifan/bgptools) | 7 | 2026-03-31T23:28:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [EspressoSystems/Push-CDN](https://github.com/EspressoSystems/Push-CDN) | 5 | 2026-03-30T17:51:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [databendlabs/display-more](https://github.com/databendlabs/display-more) | 1 | 2026-03-30T16:50:17Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [hsivonen/chardetng_c](https://github.com/hsivonen/chardetng_c) | 2 | 2026-03-30T12:23:58Z | Rust | Service/API | 0 | 0 | 0 | 0 |
@@ -63,6 +64,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Layr-Labs/incredible-squaring-avs-rs](https://github.com/Layr-Labs/incredible-squaring-avs-rs) | 8 | 2026-03-03T20:35:56Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [near/near-abi-rs](https://github.com/near/near-abi-rs) | 8 | 2026-02-17T19:24:08Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [0b01/tigris-and-euphrates](https://github.com/0b01/tigris-and-euphrates) | 8 | 2026-02-01T09:33:50Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [gaoyifan/bgptools](https://github.com/gaoyifan/bgptools) | 7 | 2026-03-31T23:28:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [cfrg/draft-irtf-cfrg-concrete-hybrid-kems](https://github.com/cfrg/draft-irtf-cfrg-concrete-hybrid-kems) | 7 | 2026-03-02T23:37:06Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [near/near-abi-client-rs](https://github.com/near/near-abi-client-rs) | 7 | 2026-02-17T22:04:43Z | Rust | CLI | 2 | 4 | 2 | 2 |
 | [LaurenzV/sitro](https://github.com/LaurenzV/sitro) | 7 | 2026-01-06T14:16:02Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |

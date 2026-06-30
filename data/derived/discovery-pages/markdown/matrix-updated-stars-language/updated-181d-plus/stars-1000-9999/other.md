@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-29T10:01:01.344855+00:00`
+Generated at: `2026-06-30T05:58:41.842453+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 456
-- terms: 1704
-- components: 1363
-- concepts: 1718
-- observations: 1720
+- repos: 459
+- terms: 1713
+- components: 1366
+- concepts: 1727
+- observations: 1729
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2011 | 2025-12-31T20:14:31Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [auto-complete/auto-complete](https://github.com/auto-complete/auto-complete) | 1763 | 2025-12-31T16:22:28Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
+| [DotNetAnalyzers/StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) | 2840 | 2025-12-31T16:00:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [clojure/test.check](https://github.com/clojure/test.check) | 1147 | 2025-12-30T19:39:58Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [clojure/core.logic](https://github.com/clojure/core.logic) | 1498 | 2025-12-30T18:57:45Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [hoshsadiq/adblock-nocoin-list](https://github.com/hoshsadiq/adblock-nocoin-list) | 1518 | 2025-12-30T17:55:05Z | Other | Unknown | 5 | 0 | 5 | 5 |
@@ -54,7 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gradle/kotlin-dsl-samples](https://github.com/gradle/kotlin-dsl-samples) | 3689 | 2025-12-03T09:10:05Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [richfelker/musl-cross-make](https://github.com/richfelker/musl-cross-make) | 1544 | 2025-12-03T02:11:11Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [phar-io/manifest](https://github.com/phar-io/manifest) | 7492 | 2025-11-27T15:23:09Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [Tencent-Hunyuan/HunyuanDiT](https://github.com/Tencent-Hunyuan/HunyuanDiT) | 4292 | 2025-11-27T06:37:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [Tencent-Hunyuan/HunyuanDiT](https://github.com/Tencent-Hunyuan/HunyuanDiT) | 4293 | 2025-11-27T06:37:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [mrash/fwknop](https://github.com/mrash/fwknop) | 1349 | 2025-11-26T20:39:39Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [lmbelo/python4delphi](https://github.com/lmbelo/python4delphi) | 1048 | 2025-11-26T11:54:48Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [mislav/will_paginate](https://github.com/mislav/will_paginate) | 5696 | 2025-11-24T13:36:25Z | Other | Infrastructure/tooling | 8 | 2 | 8 | 8 |
@@ -580,7 +583,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Instruction-Tuning-with-GPT-4/GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) | 4337 | 2023-06-11T13:40:30Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [VectorSpaceLab/OmniGen](https://github.com/VectorSpaceLab/OmniGen) | 4315 | 2025-12-04T15:59:12Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | 4311 | 2025-01-14T16:03:57Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [Tencent-Hunyuan/HunyuanDiT](https://github.com/Tencent-Hunyuan/HunyuanDiT) | 4292 | 2025-11-27T06:37:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [Tencent-Hunyuan/HunyuanDiT](https://github.com/Tencent-Hunyuan/HunyuanDiT) | 4293 | 2025-11-27T06:37:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [transmissions11/solmate](https://github.com/transmissions11/solmate) | 4275 | 2025-07-21T22:24:39Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [assemble/assemble](https://github.com/assemble/assemble) | 4255 | 2022-02-20T09:16:14Z | Other | Web app | 15 | 29 | 16 | 16 |
 | [bowang-lab/MedSAM](https://github.com/bowang-lab/MedSAM) | 4246 | 2025-05-07T13:36:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -660,6 +663,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [weavejester/hiccup](https://github.com/weavejester/hiccup) | 2854 | 2025-06-19T14:59:18Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [liuchengxu/space-vim](https://github.com/liuchengxu/space-vim) | 2851 | 2024-11-14T11:15:17Z | Other | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [twosigma/beakerx](https://github.com/twosigma/beakerx) | 2841 | 2023-12-04T02:04:59Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [DotNetAnalyzers/StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) | 2840 | 2025-12-31T16:00:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Shougo/unite.vim](https://github.com/Shougo/unite.vim) | 2835 | 2023-05-18T09:48:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rspec/rspec-metagem](https://github.com/rspec/rspec-metagem) | 2832 | 2024-11-27T18:22:15Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [isl-org/ZoeDepth](https://github.com/isl-org/ZoeDepth) | 2822 | 2025-05-05T18:18:49Z | Other | Unknown | 9 | 0 | 9 | 9 |
@@ -740,6 +744,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [garbas/vim-snipmate](https://github.com/garbas/vim-snipmate) | 2020 | 2025-05-14T11:55:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [attr-encrypted/attr_encrypted](https://github.com/attr-encrypted/attr_encrypted) | 2017 | 2025-10-12T03:08:39Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [tinghuiz/SfMLearner](https://github.com/tinghuiz/SfMLearner) | 2016 | 2021-10-26T05:58:09Z | Other | Framework | 5 | 0 | 5 | 5 |
+| [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2011 | 2025-12-31T20:14:31Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [instantX-research/InstantStyle](https://github.com/instantX-research/InstantStyle) | 2011 | 2024-09-18T09:33:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Raimondi/delimitMate](https://github.com/Raimondi/delimitMate) | 2003 | 2024-08-06T06:02:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [botuniverse/onebot](https://github.com/botuniverse/onebot) | 2003 | 2023-07-06T08:42:00Z | Other | Unknown | 6 | 0 | 6 | 6 |
@@ -788,6 +793,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OmniSharp/omnisharp-vim](https://github.com/OmniSharp/omnisharp-vim) | 1778 | 2025-10-12T21:45:12Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [ayu-theme/ayu-vim](https://github.com/ayu-theme/ayu-vim) | 1770 | 2024-07-15T05:05:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [aagarwal1012/Animated-Text-Kit](https://github.com/aagarwal1012/Animated-Text-Kit) | 1767 | 2025-10-04T13:42:18Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [auto-complete/auto-complete](https://github.com/auto-complete/auto-complete) | 1763 | 2025-12-31T16:22:28Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [tpope/vim-fireplace](https://github.com/tpope/vim-fireplace) | 1762 | 2024-11-01T19:25:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [openai/requests-for-research](https://github.com/openai/requests-for-research) | 1729 | 2024-05-03T04:57:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [tc39/proposal-class-fields](https://github.com/tc39/proposal-class-fields) | 1727 | 2022-01-24T20:55:32Z | Other | Unknown | 0 | 3 | 0 | 0 |
