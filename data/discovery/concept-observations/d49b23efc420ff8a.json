@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Hexabot v3 is an AI automation platform, combining workflows, actions, agents, and conversational channels in one runtime."
+      "text": "Hexabot v3 is an AI workflow automation platform, combining workflows, actions, agents, and conversational channels in one runtime."
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "mistral",
   "observation_id": "d49b23efc420ff8a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-30T00:47:25.151576+00:00",
+  "observed_at": "2026-06-30T12:55:19.331325+00:00",
   "observed_text": "mistral",
   "source_context_snippet": "<p align=\"center\">",
   "source_file": null,
   "source_repo": "hexabot-ai/Hexabot",
-  "source_repo_description": "Hexabot v3 is an AI automation platform, combining workflows, actions, agents, and conversational channels in one runtime."
+  "source_repo_description": "Hexabot v3 is an AI workflow automation platform, combining workflows, actions, agents, and conversational channels in one runtime."
 }

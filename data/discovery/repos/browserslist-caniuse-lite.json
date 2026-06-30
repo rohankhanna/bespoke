@@ -76,12 +76,22 @@
       "source_file": ".github/workflows/check.yml"
     },
     {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
       "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "ai/clean-npm-project@0e1fd6e68c39b972235226864d47e368c550ebed",
+      "component": "ai/clean-npm-project@29219e611c2da08a07cb0a6a1b965c162e5940a9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -223,11 +233,25 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "browserslist/caniuse-lite",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "browserslist/caniuse-lite",
       "target": "Check",
       "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "browserslist/caniuse-lite",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
@@ -240,7 +264,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "browserslist/caniuse-lite",
-      "target": "ai/clean-npm-project@0e1fd6e68c39b972235226864d47e368c550ebed",
+      "target": "ai/clean-npm-project@29219e611c2da08a07cb0a6a1b965c162e5940a9",
       "target_type": "component"
     },
     {
@@ -286,7 +310,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:21:53.090109+00:00",
+  "fetched_at": "2026-06-30T17:01:16.462004+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -298,11 +322,11 @@
     },
     {
       "path": ".github/workflows/check.yml",
-      "size": 2116
+      "size": 2481
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 710
+      "size": 1336
     },
     {
       "path": ".github/workflows/test.yml",
@@ -318,10 +342,10 @@
     "full_name": "browserslist/caniuse-lite",
     "html_url": "https://github.com/browserslist/caniuse-lite",
     "language": "JavaScript",
-    "pushed_at": "2026-06-29T21:21:33Z",
+    "pushed_at": "2026-06-30T09:58:03Z",
     "stargazers_count": 612,
     "topics": [],
-    "updated_at": "2026-06-29T21:21:37Z"
+    "updated_at": "2026-06-30T09:58:08Z"
   },
   "repo_links": [],
   "terms": [

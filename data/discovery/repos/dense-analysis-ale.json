@@ -121,7 +121,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:24:43.078298+00:00",
+  "fetched_at": "2026-06-30T17:05:46.272545+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -146,7 +146,7 @@
     "html_url": "https://github.com/dense-analysis/ale",
     "language": "Vim Script",
     "pushed_at": "2026-06-21T02:15:14Z",
-    "stargazers_count": 14008,
+    "stargazers_count": 14007,
     "topics": [
       "autocomplete",
       "language-server-protocol",
@@ -161,7 +161,7 @@
       "vim-plugin",
       "vim-plugins"
     ],
-    "updated_at": "2026-06-29T02:31:10Z"
+    "updated_at": "2026-06-30T05:27:36Z"
   },
   "repo_links": [
     {

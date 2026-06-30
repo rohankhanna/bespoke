@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "polymorphic-allocators"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bloomberg/bde",
+      "status": "candidate-context",
+      "text": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/bde",
+      "status": "candidate-context",
+      "text": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/bde",
+      "status": "candidate",
+      "text": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "polymorphic-allocators",
+  "concept_id": "polymorphic-allocators",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "bloomberg/bde"
+    }
+  ],
+  "first_seen_at": "2026-06-30T12:55:19.331325+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polymorphic-allocators",
+      "sense_id": "polymorphic-allocators#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

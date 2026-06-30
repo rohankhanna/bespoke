@@ -8245,11 +8245,47 @@
       "observed_at": "2026-06-30T07:29:36.115830+00:00",
       "source_file": null,
       "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "bryanp/llhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "lexical_providers": [
     "datamuse"
   ],

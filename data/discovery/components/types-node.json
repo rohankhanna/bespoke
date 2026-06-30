@@ -1,7 +1,7 @@
 {
   "component": "@types/node",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -8112,6 +8112,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vercel/pkg-fetch"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/off-grid-ai-mobile"
     }
   ]
 }

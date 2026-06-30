@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:57:01.753019+00:00",
+  "fetched_at": "2026-06-30T17:50:35.872234+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,14 +54,14 @@
     "html_url": "https://github.com/zai-org/CogVLM2",
     "language": "Python",
     "pushed_at": "2025-03-03T03:01:31Z",
-    "stargazers_count": 2438,
+    "stargazers_count": 2437,
     "topics": [
       "cogvlm",
       "language-model",
       "multi-modal",
       "pretrained-models"
     ],
-    "updated_at": "2026-06-29T16:22:32Z"
+    "updated_at": "2026-06-30T16:46:30Z"
   },
   "repo_links": [
     {

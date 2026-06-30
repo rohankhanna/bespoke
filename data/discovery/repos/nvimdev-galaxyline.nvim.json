@@ -9,7 +9,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-06-30T07:33:22.835629+00:00",
+  "fetched_at": "2026-06-30T17:14:50.792623+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -26,9 +26,9 @@
     "html_url": "https://github.com/nvimdev/galaxyline.nvim",
     "language": "Lua",
     "pushed_at": "2024-07-25T07:07:21Z",
-    "stargazers_count": 900,
+    "stargazers_count": 901,
     "topics": [],
-    "updated_at": "2026-06-20T19:44:56Z"
+    "updated_at": "2026-06-30T11:56:15Z"
   },
   "repo_links": [
     {

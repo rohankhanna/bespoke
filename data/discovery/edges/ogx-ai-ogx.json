@@ -11,7 +11,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backward-compat.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -53,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-distributions.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "target": "github/codeql-action/upload-sarif@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
@@ -158,7 +158,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependabot-constraints.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -183,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-30T00:47:25.151576+00:00",
+  "generated_at": "2026-06-30T12:55:19.331325+00:00",
   "source_repo": "ogx-ai/ogx"
 }

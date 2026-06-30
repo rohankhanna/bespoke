@@ -48,7 +48,7 @@
   "normalized_form": "check-no-oj",
   "observation_id": "98a2a96ab58c8a66",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-30T07:29:36.115830+00:00",
+  "observed_at": "2026-06-30T12:55:19.331325+00:00",
   "observed_text": "check-no-oj",
   "source_context_snippet": "check-no-oj",
   "source_file": ".github/workflows/check-no-oj.yml",

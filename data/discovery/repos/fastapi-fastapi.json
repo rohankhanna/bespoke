@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/add-to-project.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml"
     },
@@ -16,27 +16,12 @@
       "source_file": ".github/workflows/build-docs.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-docs.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-docs.yml"
-    },
-    {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-docs.yml"
-    },
-    {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml"
     },
@@ -46,7 +31,22 @@
       "source_file": ".github/workflows/build-docs.yml"
     },
     {
-      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml"
     },
@@ -61,12 +61,12 @@
       "source_file": ".github/workflows/build-docs.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/contributors.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/contributors.yml"
     },
@@ -81,12 +81,12 @@
       "source_file": ".github/workflows/contributors.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-draft-release.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-draft-release.yml"
     },
@@ -101,12 +101,12 @@
       "source_file": ".github/workflows/deploy-docs.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml"
     },
@@ -174,7 +174,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -188,7 +188,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -202,7 +202,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target": "actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
       "target_type": "component"
     },
     {
@@ -230,14 +230,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/contributors.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/contributors.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -265,14 +265,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-draft-release.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-draft-release.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -300,14 +300,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -500,7 +500,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:07:54.555675+00:00",
+  "fetched_at": "2026-06-30T16:55:53.888128+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -528,7 +528,7 @@
     },
     {
       "path": ".github/workflows/deploy-docs.yml",
-      "size": 3397
+      "size": 3438
     },
     {
       "path": ".github/workflows/detect-conflicts.yml",
@@ -552,8 +552,8 @@
     "full_name": "fastapi/fastapi",
     "html_url": "https://github.com/fastapi/fastapi",
     "language": "Python",
-    "pushed_at": "2026-06-29T12:43:58Z",
-    "stargazers_count": 99781,
+    "pushed_at": "2026-06-30T16:31:45Z",
+    "stargazers_count": 99803,
     "topics": [
       "api",
       "async",
@@ -576,7 +576,7 @@
       "uvicorn",
       "web"
     ],
-    "updated_at": "2026-06-29T23:50:18Z"
+    "updated_at": "2026-06-30T16:37:42Z"
   },
   "repo_links": [
     {

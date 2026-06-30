@@ -68,6 +68,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
+      "target": "funclip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
       "target": "gradio",
       "target_type": "term"
     },
@@ -110,13 +117,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
-      "target": "video-clip",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "modelscope/FunClip",
       "target": "video-editing",
       "target_type": "term"
     },
@@ -138,11 +138,18 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
+      "target": "video-transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
       "target": "whisper-alternative",
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:11:03.078121+00:00",
+  "fetched_at": "2026-06-30T16:44:44.323086+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -157,13 +164,13 @@
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "Open-source, accurate and easy-to-use video speech recognition & clipping tool. LLM-based AI clipping integrated.",
+    "description": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.",
     "fork": false,
     "full_name": "modelscope/FunClip",
     "html_url": "https://github.com/modelscope/FunClip",
     "language": "Python",
     "pushed_at": "2026-06-29T20:47:23Z",
-    "stargazers_count": 5872,
+    "stargazers_count": 5874,
     "topics": [
       "ai-tools",
       "ai-video-editing",
@@ -172,21 +179,21 @@
       "chinese",
       "content-creation",
       "funasr",
+      "funclip",
       "gradio",
       "llm",
       "paraformer",
       "speech-recognition",
       "speech-to-text",
-      "srt",
       "subtitles-generator",
       "transcription",
-      "video-clip",
       "video-editing",
       "video-processing",
       "video-subtitles",
+      "video-transcription",
       "whisper-alternative"
     ],
-    "updated_at": "2026-06-29T21:13:39Z"
+    "updated_at": "2026-06-30T06:45:30Z"
   },
   "repo_links": [
     {
@@ -246,6 +253,12 @@
       "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
       "edge_type": "repo-topic",
       "source_file": null,
+      "term": "funclip"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "term": "gradio"
     },
     {
@@ -282,12 +295,6 @@
       "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
       "edge_type": "repo-topic",
       "source_file": null,
-      "term": "video-clip"
-    },
-    {
-      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
-      "edge_type": "repo-topic",
-      "source_file": null,
       "term": "video-editing"
     },
     {
@@ -301,6 +308,12 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "video-subtitles"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-transcription"
     },
     {
       "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",

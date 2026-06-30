@@ -302,7 +302,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:40:40.807811+00:00",
+  "fetched_at": "2026-06-30T17:25:37.975543+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -331,7 +331,7 @@
     "html_url": "https://github.com/michaellzc/vscode-hadolint",
     "language": "TypeScript",
     "pushed_at": "2023-03-05T21:01:24Z",
-    "stargazers_count": 86,
+    "stargazers_count": 85,
     "topics": [
       "dockerfile",
       "dockerfile-linter",
@@ -341,7 +341,7 @@
       "vscode-extension",
       "vscode-plugin"
     ],
-    "updated_at": "2026-05-15T13:46:16Z"
+    "updated_at": "2026-06-30T17:21:43Z"
   },
   "repo_links": [
     {

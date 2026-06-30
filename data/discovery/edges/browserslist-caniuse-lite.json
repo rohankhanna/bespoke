@@ -106,11 +106,25 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "browserslist/caniuse-lite",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "browserslist/caniuse-lite",
       "target": "Check",
       "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "browserslist/caniuse-lite",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
@@ -123,7 +137,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "browserslist/caniuse-lite",
-      "target": "ai/clean-npm-project@0e1fd6e68c39b972235226864d47e368c550ebed",
+      "target": "ai/clean-npm-project@29219e611c2da08a07cb0a6a1b965c162e5940a9",
       "target_type": "component"
     },
     {
@@ -169,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-30T00:47:25.151576+00:00",
+  "generated_at": "2026-06-30T12:55:19.331325+00:00",
   "source_repo": "browserslist/caniuse-lite"
 }

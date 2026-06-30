@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -23652,6 +23652,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "maresb/hatch-vcs-footgun-example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "storybookjs/storybook"
     }
   ]
 }

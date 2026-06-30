@@ -79,6 +79,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neotest/neotest",
+      "target": "joseildofilho/neotest-odin",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docgen.yaml",
       "source_repo": "nvim-neotest/neotest",
@@ -163,11 +170,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T23:16:44.036113+00:00",
+  "fetched_at": "2026-06-30T17:16:04.991027+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 17559
+      "size": 17972
     },
     {
       "path": ".github/workflows/docgen.yaml",
@@ -191,13 +198,13 @@
     "full_name": "nvim-neotest/neotest",
     "html_url": "https://github.com/nvim-neotest/neotest",
     "language": "Lua",
-    "pushed_at": "2026-05-01T07:18:33Z",
+    "pushed_at": "2026-06-30T07:22:38Z",
     "stargazers_count": 3095,
     "topics": [
       "lua",
       "neovim"
     ],
-    "updated_at": "2026-06-29T04:33:06Z"
+    "updated_at": "2026-06-30T07:22:42Z"
   },
   "repo_links": [
     {
@@ -213,6 +220,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "haydenmeade/neotest-jest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joseildofilho/neotest-odin",
       "source_file": "README.md"
     }
   ],

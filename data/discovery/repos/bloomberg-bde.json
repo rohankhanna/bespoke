@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/bde",
+      "target": "allocators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/bde",
+      "target": "cpp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/bde",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/bde",
+      "target": "polymorphic-allocators",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-30T15:53:00.729008+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg.",
+    "fork": false,
+    "full_name": "bloomberg/bde",
+    "html_url": "https://github.com/bloomberg/bde",
+    "language": "C++",
+    "pushed_at": "2026-06-29T14:15:03Z",
+    "stargazers_count": 1825,
+    "topics": [
+      "allocators",
+      "cpp",
+      "cpp-library",
+      "cpp11",
+      "polymorphic-allocators"
+    ],
+    "updated_at": "2026-06-30T11:39:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "allocators"
+    },
+    {
+      "context_snippet": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp-library"
+    },
+    {
+      "context_snippet": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polymorphic-allocators"
+    }
+  ]
+}

@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:18:14.062495+00:00",
+  "fetched_at": "2026-06-30T16:55:23.854167+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -111,7 +111,7 @@
     "html_url": "https://github.com/jina-ai/dalle-flow",
     "language": "Python",
     "pushed_at": "2023-05-16T09:54:02Z",
-    "stargazers_count": 2831,
+    "stargazers_count": 2830,
     "topics": [
       "dalle",
       "dalle-mega",
@@ -124,7 +124,7 @@
       "openai",
       "swinir"
     ],
-    "updated_at": "2026-06-28T09:02:57Z"
+    "updated_at": "2026-06-30T16:41:42Z"
   },
   "repo_links": [
     {

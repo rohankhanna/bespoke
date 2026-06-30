@@ -1,7 +1,7 @@
 {
   "component": "andrewiggins/tachometer-reporter-action@f4edc62a47169384c3f950a48f58000ce81cd07c",
   "first_seen_at": "2026-06-26T00:48:31.916635+00:00",
-  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

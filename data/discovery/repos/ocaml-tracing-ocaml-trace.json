@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:47:44.624257+00:00",
+  "fetched_at": "2026-06-30T17:36:11.549769+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -128,7 +128,7 @@
     "full_name": "ocaml-tracing/ocaml-trace",
     "html_url": "https://github.com/ocaml-tracing/ocaml-trace",
     "language": "OCaml",
-    "pushed_at": "2026-05-08T18:47:14Z",
+    "pushed_at": "2026-06-30T14:42:31Z",
     "stargazers_count": 35,
     "topics": [
       "catapult",
@@ -137,7 +137,7 @@
       "tracing",
       "tracy"
     ],
-    "updated_at": "2026-05-08T18:46:03Z"
+    "updated_at": "2026-06-30T14:41:25Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "video-transcription"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate",
+      "text": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "video-transcription",
+  "concept_id": "video-transcription",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip"
+    }
+  ],
+  "first_seen_at": "2026-06-30T12:55:19.331325+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-transcription",
+      "sense_id": "video-transcription#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

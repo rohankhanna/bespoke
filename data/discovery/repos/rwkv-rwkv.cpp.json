@@ -207,7 +207,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T08:02:54.584754+00:00",
+  "fetched_at": "2026-06-30T16:25:21.465607+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -228,7 +228,7 @@
     "html_url": "https://github.com/RWKV/rwkv.cpp",
     "language": "C++",
     "pushed_at": "2025-03-23T05:04:42Z",
-    "stargazers_count": 1573,
+    "stargazers_count": 1575,
     "topics": [
       "deep-learning",
       "ggml",
@@ -238,7 +238,7 @@
       "quantization",
       "rwkv"
     ],
-    "updated_at": "2026-06-20T12:58:11Z"
+    "updated_at": "2026-06-30T12:53:43Z"
   },
   "repo_links": [
     {

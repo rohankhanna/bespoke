@@ -259,6 +259,12 @@
       "source_repo": "hexabot-ai/Hexabot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hexabot-ai/Hexabot",
+      "status": "candidate-context",
+      "text": "Hexabot v3 is an AI workflow automation platform, combining workflows, actions, agents, and conversational channels in one runtime."
     }
   ],
   "candidate_glosses": [
@@ -928,11 +934,17 @@
       "observed_at": "2026-06-30T00:47:25.151576+00:00",
       "source_file": null,
       "source_repo": "hexabot-ai/Hexabot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "hexabot-ai/Hexabot"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "lexical_providers": [
     "datamuse"
   ],

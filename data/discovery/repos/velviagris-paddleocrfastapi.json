@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:13:17.991747+00:00",
+  "fetched_at": "2026-06-30T16:48:06.586926+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -76,7 +76,7 @@
     "html_url": "https://github.com/velviagris/PaddleOCRFastAPI",
     "language": "Python",
     "pushed_at": "2025-10-08T13:27:01Z",
-    "stargazers_count": 170,
+    "stargazers_count": 171,
     "topics": [
       "docker",
       "docker-compose",
@@ -85,7 +85,7 @@
       "ocr",
       "paddleocr"
     ],
-    "updated_at": "2026-05-15T00:22:07Z"
+    "updated_at": "2026-06-30T09:19:43Z"
   },
   "repo_links": [
     {

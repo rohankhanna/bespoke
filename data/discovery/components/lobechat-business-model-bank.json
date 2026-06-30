@@ -1,7 +1,7 @@
 {
   "component": "@lobechat/business-model-bank",
   "first_seen_at": "2026-05-21T07:28:23.617453+00:00",
-  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

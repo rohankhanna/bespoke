@@ -84,7 +84,7 @@
   "normalized_form": "ci---events-committee",
   "observation_id": "1f4adda901d28460",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-30T07:29:36.115830+00:00",
+  "observed_at": "2026-06-30T12:55:19.331325+00:00",
   "observed_text": "CI - Events Committee",
   "source_context_snippet": "CI - Events Committee",
   "source_file": ".github/workflows/continuous-integration-workflow-events.yml",

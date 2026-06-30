@@ -406,12 +406,12 @@
       "source_file": ".github/workflows/analyze-ci-failure.lock.yml"
     },
     {
-      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/analyze-ci-failure.lock.yml"
     },
     {
-      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/analyze-ci-failure.lock.yml"
     },
@@ -457,11 +457,6 @@
     },
     {
       "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/analyze-ci-failure.lock.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/analyze-ci-failure.lock.yml"
     },
@@ -587,21 +582,6 @@
     },
     {
       "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/analyze-ci-failure.lock.yml"
-    },
-    {
-      "component": "github/gh-aw-actions/setup@c0338fef4749d08c21f8f975fb0e37efa17dda47",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/analyze-ci-failure.lock.yml"
-    },
-    {
-      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/analyze-ci-failure.lock.yml"
-    },
-    {
-      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/analyze-ci-failure.lock.yml"
     },
@@ -852,7 +832,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
       "target_type": "component"
     },
     {
@@ -881,20 +861,6 @@
       "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
       "source_repo": "microsoft/aspire",
       "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/analyze-ci-failure.lock.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -1017,7 +983,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:27:00.893045+00:00",
+  "fetched_at": "2026-06-30T17:09:15.016114+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1037,11 +1003,11 @@
     },
     {
       "path": ".github/workflows/analyze-ci-failure.lock.yml",
-      "size": 122043
+      "size": 119581
     },
     {
       "path": ".github/workflows/analyze-ci-failure.md",
-      "size": 30593
+      "size": 31173
     },
     {
       "path": ".github/workflows/apply-test-attributes.yml",
@@ -1069,8 +1035,8 @@
     "full_name": "microsoft/aspire",
     "html_url": "https://github.com/microsoft/aspire",
     "language": "C#",
-    "pushed_at": "2026-06-30T01:26:53Z",
-    "stargazers_count": 6132,
+    "pushed_at": "2026-06-30T17:04:18Z",
+    "stargazers_count": 6133,
     "topics": [
       "cloud",
       "dotnet",
@@ -1078,7 +1044,7 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-06-30T01:20:58Z"
+    "updated_at": "2026-06-30T16:44:35Z"
   },
   "repo_links": [],
   "terms": [

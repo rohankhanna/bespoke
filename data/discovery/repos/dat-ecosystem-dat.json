@@ -436,7 +436,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:46:53.649610+00:00",
+  "fetched_at": "2026-06-30T17:35:01.300796+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -457,14 +457,14 @@
     "html_url": "https://github.com/dat-ecosystem/dat",
     "language": "JavaScript",
     "pushed_at": "2023-05-07T20:39:11Z",
-    "stargazers_count": 8230,
+    "stargazers_count": 8228,
     "topics": [
       "command-line",
       "dat",
       "dat-node",
       "dat-protocol"
     ],
-    "updated_at": "2026-06-29T20:52:07Z"
+    "updated_at": "2026-06-30T16:57:12Z"
   },
   "repo_links": [
     {

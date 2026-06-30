@@ -781,7 +781,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:31:22.216910+00:00",
+  "fetched_at": "2026-06-30T17:11:58.081394+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -834,7 +834,7 @@
     "html_url": "https://github.com/ashvardanian/NumKong",
     "language": "C",
     "pushed_at": "2026-06-12T16:44:52Z",
-    "stargazers_count": 1840,
+    "stargazers_count": 1841,
     "topics": [
       "arm-neon",
       "assembly",
@@ -853,7 +853,7 @@
       "tensor",
       "vector-search"
     ],
-    "updated_at": "2026-06-27T08:59:34Z"
+    "updated_at": "2026-06-30T07:58:41Z"
   },
   "repo_links": [],
   "terms": [

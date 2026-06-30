@@ -805,6 +805,12 @@
       "source_repo": "argmaxinc/argmax-oss-swift",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI."
     }
   ],
   "candidate_glosses": [
@@ -4078,11 +4084,47 @@
       "observed_at": "2026-06-30T07:29:36.115830+00:00",
       "source_file": null,
       "source_repo": "astorfi/speechpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "astorfi/speechpy"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "lexical_providers": [
     "datamuse"
   ],

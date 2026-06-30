@@ -25,6 +25,12 @@
       "source_repo": "modelscope/FunClip",
       "status": "candidate-context",
       "text": "Open-source, accurate and easy-to-use video speech recognition & clipping tool. LLM-based AI clipping integrated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI."
     }
   ],
   "candidate_glosses": [
@@ -238,11 +244,17 @@
       "observed_at": "2026-06-30T00:47:25.151576+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunClip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip"
     }
   ],
   "first_seen_at": "2026-05-23T12:33:08.399245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "lexical_providers": [
     "datamuse"
   ],

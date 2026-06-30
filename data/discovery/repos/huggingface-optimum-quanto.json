@@ -215,7 +215,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:51:49.254195+00:00",
+  "fetched_at": "2026-06-30T17:43:03.092074+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -264,13 +264,13 @@
     "html_url": "https://github.com/huggingface/optimum-quanto",
     "language": "Python",
     "pushed_at": "2026-06-23T17:54:31Z",
-    "stargazers_count": 1045,
+    "stargazers_count": 1044,
     "topics": [
       "optimum",
       "pytorch",
       "quantization"
     ],
-    "updated_at": "2026-06-28T18:02:14Z"
+    "updated_at": "2026-06-30T16:44:33Z"
   },
   "repo_links": [
     {

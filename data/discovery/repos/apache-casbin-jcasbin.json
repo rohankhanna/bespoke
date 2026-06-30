@@ -249,7 +249,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T23:37:52.518971+00:00",
+  "fetched_at": "2026-06-30T17:36:46.605277+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -281,7 +281,7 @@
     "full_name": "apache/casbin-jcasbin",
     "html_url": "https://github.com/apache/casbin-jcasbin",
     "language": "Java",
-    "pushed_at": "2026-06-16T15:21:44Z",
+    "pushed_at": "2026-06-30T09:20:34Z",
     "stargazers_count": 2639,
     "topics": [
       "abac",

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -131,6 +131,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "embeddedartistry/libcpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/bde"
     }
   ],
   "term": "cpp11"

@@ -48,7 +48,7 @@
   "normalized_form": "clippy-sarif",
   "observation_id": "cf5182b1baab08a5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-29T18:49:06.046656+00:00",
+  "observed_at": "2026-06-30T12:55:19.331325+00:00",
   "observed_text": "Clippy SARIF",
   "source_context_snippet": "Clippy SARIF",
   "source_file": ".github/workflows/rust-clippy.yml",

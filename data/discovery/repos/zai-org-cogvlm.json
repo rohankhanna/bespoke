@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:56:59.880280+00:00",
+  "fetched_at": "2026-06-30T17:50:32.700674+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,7 +72,7 @@
     "html_url": "https://github.com/zai-org/CogVLM",
     "language": "Python",
     "pushed_at": "2024-05-29T10:01:33Z",
-    "stargazers_count": 6742,
+    "stargazers_count": 6740,
     "topics": [
       "cross-modality",
       "language-model",
@@ -80,7 +80,7 @@
       "pretrained-models",
       "visual-language-models"
     ],
-    "updated_at": "2026-06-27T15:37:24Z"
+    "updated_at": "2026-06-30T16:44:32Z"
   },
   "repo_links": [
     {

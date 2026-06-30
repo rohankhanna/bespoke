@@ -176,12 +176,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changeset-version.yml"
     },
@@ -191,7 +191,7 @@
       "source_file": ".github/workflows/changeset-version.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -206,17 +206,17 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -231,7 +231,7 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -241,7 +241,7 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -251,7 +251,7 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -261,7 +261,7 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -271,7 +271,7 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -563,7 +563,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -577,7 +577,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changeset-version.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -598,7 +598,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -619,7 +619,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -647,7 +647,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -791,7 +791,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:12:15.329333+00:00",
+  "fetched_at": "2026-06-30T16:46:23.963776+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -843,8 +843,8 @@
     "full_name": "vbenjs/vue-vben-admin",
     "html_url": "https://github.com/vbenjs/vue-vben-admin",
     "language": "Vue",
-    "pushed_at": "2026-06-29T19:32:18Z",
-    "stargazers_count": 32789,
+    "pushed_at": "2026-06-30T14:44:26Z",
+    "stargazers_count": 32799,
     "topics": [
       "admin-template",
       "ant-design",
@@ -861,7 +861,7 @@
       "vue3",
       "vuex"
     ],
-    "updated_at": "2026-06-29T16:50:06Z"
+    "updated_at": "2026-06-30T16:00:54Z"
   },
   "repo_links": [
     {

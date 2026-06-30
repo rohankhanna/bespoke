@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:38:13.938961+00:00",
+  "fetched_at": "2026-06-30T17:22:01.484031+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,7 +58,7 @@
     "html_url": "https://github.com/symgraph/BinAssistMCP",
     "language": "Python",
     "pushed_at": "2026-06-14T15:02:29Z",
-    "stargazers_count": 40,
+    "stargazers_count": 39,
     "topics": [
       "ai",
       "binary-ninja",
@@ -70,7 +70,7 @@
       "re",
       "reverse-engineering"
     ],
-    "updated_at": "2026-06-21T10:23:20Z"
+    "updated_at": "2026-06-30T16:50:56Z"
   },
   "repo_links": [
     {

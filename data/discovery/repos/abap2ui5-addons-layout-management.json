@@ -251,15 +251,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:21:33.568904+00:00",
+  "fetched_at": "2026-06-30T17:00:43.275820+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 2578
+      "size": 2985
     },
     {
       "path": "package.json",
-      "size": 1527
+      "size": 1525
     },
     {
       "path": ".github/workflows/ABAP_702.yaml",
@@ -291,7 +291,7 @@
     "full_name": "abap2UI5-addons/layout-management",
     "html_url": "https://github.com/abap2UI5-addons/layout-management",
     "language": "ABAP",
-    "pushed_at": "2026-06-29T11:31:35Z",
+    "pushed_at": "2026-06-30T11:10:27Z",
     "stargazers_count": 2,
     "topics": [
       "abap",
@@ -303,7 +303,7 @@
       "sapui5",
       "ui5"
     ],
-    "updated_at": "2026-06-29T11:30:36Z"
+    "updated_at": "2026-06-30T11:09:31Z"
   },
   "repo_links": [
     {

@@ -96,11 +96,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:32:24.929833+00:00",
+  "fetched_at": "2026-06-30T17:13:47.998992+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 7501
+      "size": 7464
     },
     {
       "path": ".github/workflows/junit.yml",
@@ -120,14 +120,14 @@
     "full_name": "eclipse-lsp4j/lsp4j",
     "html_url": "https://github.com/eclipse-lsp4j/lsp4j",
     "language": "Java",
-    "pushed_at": "2026-06-26T19:53:08Z",
+    "pushed_at": "2026-06-30T14:14:24Z",
     "stargazers_count": 721,
     "topics": [
       "eclipse",
       "java",
       "language-server-protocol"
     ],
-    "updated_at": "2026-06-25T05:22:14Z"
+    "updated_at": "2026-06-30T11:02:58Z"
   },
   "repo_links": [],
   "terms": [

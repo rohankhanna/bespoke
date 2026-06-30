@@ -3907,7 +3907,8 @@
     "e8ff4d2490f24e8d"
   ],
   "allocators": [
-    "11956a7b1b7c69d4"
+    "11956a7b1b7c69d4",
+    "b772b8eb5f208bc5"
   ],
   "allowlist": [
     "f256a51919013591",
@@ -18623,7 +18624,8 @@
   ],
   "build-and-release-android": [
     "2115cc874e5438ab",
-    "6105007e0441e10f"
+    "6105007e0441e10f",
+    "af679fb42d164fc2"
   ],
   "build-and-release-app": [
     "dd4f616ae6e1a28f"
@@ -18646,7 +18648,8 @@
   ],
   "build-and-release-ios": [
     "57d55ec8d4891c77",
-    "8259e219ec8f1769"
+    "8259e219ec8f1769",
+    "cdfca0f93fef22e0"
   ],
   "build-and-release-lightly": [
     "ba0f25c5bb205850"
@@ -31494,6 +31497,7 @@
     "e025031044704c6e",
     "e08bfa2817a23685",
     "e0a29fd4d615e8b8",
+    "e166c1645e1a853c",
     "e1adb08b946b3fb7",
     "e28c6e039ee17953",
     "e53ae17beb3b93a6",
@@ -31587,6 +31591,7 @@
     "11e8badc1329df69",
     "1a32ebe4ff1dd31a",
     "1bb154f3126f4626",
+    "21f83eaaf951365e",
     "2323862d7e71a869",
     "28bb65655d5ead9a",
     "2e5ebed8d82b9213",
@@ -42782,6 +42787,7 @@
     "3995ee4a1478545d",
     "5b0be139c5204b86",
     "6e387ed7aa9ed1a2",
+    "ad6a233de834bb2a",
     "ade7850b83874b57",
     "af9605728e9ad17a",
     "c7847eb43c84f0ae",
@@ -42815,6 +42821,7 @@
     "de78a436ef988dc5"
   ],
   "cpp11": [
+    "09f9773988fad06d",
     "0fb54bda689e9952",
     "14cce955606d625a",
     "15f7d36808f15d2d",
@@ -58902,6 +58909,7 @@
     "164a62c816246af7",
     "2fe5a546cf2f5288",
     "6b59d0775a7c7e19",
+    "775b9d7888293d60",
     "89d71665fdf20618",
     "96e0eb3a1e0b311a",
     "dc2a7d58cb75788b"
@@ -67499,6 +67507,9 @@
     "bb26835fa9bbed79",
     "e5eaa2e3cac28bbe"
   ],
+  "funclip": [
+    "471d7b5d14dac77e"
+  ],
   "functests": [
     "ec8a3bbdb0537bc0"
   ],
@@ -70203,6 +70214,7 @@
     "6f6f29fa726b38e7",
     "75d6584d55dffad4",
     "7968b6a5b22a7360",
+    "7985d623c95a2986",
     "7f995d95847d36e4",
     "80fbc52bbaf52090",
     "88dd18bbbf47b04e",
@@ -94321,6 +94333,7 @@
     "4c722d667871346f",
     "5b5bdef279a3a108",
     "5dd867ef473f7bf2",
+    "5e7d63187ba9bc1d",
     "6d3f329e63346cab",
     "6d4e3fda702152b1",
     "824c0701821f7ff7",
@@ -95105,6 +95118,7 @@
     "03fe9de3a4838c1f",
     "1c099caa7fbc153a",
     "25e9b2ec773b749c",
+    "3d6d33ff73c967d3",
     "498de40ad2f5a934",
     "5194a399324a0d72",
     "84d4b68aad6489cd",
@@ -102656,6 +102670,7 @@
   ],
   "mobile-ai": [
     "17921b95f0075b5d",
+    "6dbb7a960796f84e",
     "a6922dc5e107e86b",
     "b4b61599a6ad212a"
   ],
@@ -112244,6 +112259,7 @@
   "offline-ai": [
     "15a66c4682e55c77",
     "7a310fbd5b0de9e6",
+    "847fe0c5565cbdf9",
     "e61e38d5305a46c2"
   ],
   "offline-capable": [
@@ -112262,7 +112278,8 @@
   ],
   "offline-llm": [
     "2fad553fa65d225c",
-    "652334ffda386921"
+    "652334ffda386921",
+    "8d231d748dc867fb"
   ],
   "offline-reinforcement-learning": [
     "2b4b04542517501e",
@@ -112674,9 +112691,11 @@
   ],
   "ondevice": [
     "7d3f538d5226cac6",
-    "e1506e22e0a02d80"
+    "e1506e22e0a02d80",
+    "fb9e688885f6e027"
   ],
   "ondevice-ai": [
+    "7c2b1040461de669",
     "8aaa0166d92693dc",
     "b9bc95cc06c478d6"
   ],
@@ -119684,6 +119703,9 @@
   "polylines": [
     "77b952c6d4297fb1"
   ],
+  "polymorphic-allocators": [
+    "090ca1b9e76b932c"
+  ],
   "polynomial-commitments": [
     "a37b8cbf7fe95f61"
   ],
@@ -122607,6 +122629,7 @@
     "58e6925653406548"
   ],
   "privacy-first": [
+    "5d7e323a42ba50d2",
     "84454aa3b6768a40",
     "b9dbddce300bb0a3"
   ],
@@ -131515,6 +131538,9 @@
     "f56c3603e79226b4",
     "f85d33b857b3b0e5",
     "fc791835fb1e2006"
+  ],
+  "real-time-asr": [
+    "923228e300d481f3"
   ],
   "real-time-detection": [
     "e60b186cc3b7d090"
@@ -151173,7 +151199,8 @@
   "stable-diffusion-android": [
     "776f130c90d0bf72",
     "86e805e917f16554",
-    "86fc1d278b9097da"
+    "86fc1d278b9097da",
+    "e80ff4d5c53158b3"
   ],
   "stable-diffusion-app": [
     "795e7b3ffac5bc3e"
@@ -153057,6 +153084,7 @@
     "97ee5300aa60ad6d",
     "9cdd8ce3f9c7f9e6",
     "a83da0f4c7589b18",
+    "a9d3aafc8bb7cda9",
     "abca76143d9ad154",
     "ac8441f7ba79d16e",
     "b5bee04244b55130",
@@ -160942,6 +160970,7 @@
     "57588bdee64db465",
     "57c9b84dcc426435",
     "58d8d2820aeb90ea",
+    "59fff8ea82963541",
     "5a81b6e4de3080a4",
     "5b042cc3470e4b43",
     "5bc8322600b9b280",
@@ -163374,6 +163403,7 @@
     "8862b25870802a6e"
   ],
   "tool-calling": [
+    "1264a71649a897d0",
     "8eade97e6fe39b3f",
     "c96309c298a8e3fd",
     "c9b3137c0e137cd1"
@@ -171822,6 +171852,9 @@
   "video-to-video-translation": [
     "f78efd292c29befd"
   ],
+  "video-transcription": [
+    "f96b094ab2cc6996"
+  ],
   "video-translation": [
     "3e17ee00e191b351"
   ],
@@ -176503,6 +176536,7 @@
   ],
   "whisper-android": [
     "38b075719ce0573f",
+    "3b949e6f704968cf",
     "bb3b2ad5faede6d4"
   ],
   "whisper-cpp": [

@@ -329,7 +329,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:05:54.090925+00:00",
+  "fetched_at": "2026-06-30T16:37:10.654819+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -366,7 +366,7 @@
     "html_url": "https://github.com/coreybutler/nvm-windows",
     "language": "Go",
     "pushed_at": "2026-04-17T17:58:18Z",
-    "stargazers_count": 46936,
+    "stargazers_count": 46943,
     "topics": [
       "go",
       "management",
@@ -380,7 +380,7 @@
       "versioning",
       "windows"
     ],
-    "updated_at": "2026-06-29T20:49:09Z"
+    "updated_at": "2026-06-30T16:33:11Z"
   },
   "repo_links": [
     {

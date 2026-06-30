@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-08T18:37:42.068971+00:00",
-  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "off-grid-ai/mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "off-grid-ai/off-grid-ai-mobile"
     }
   ],
   "term": "ondevice"

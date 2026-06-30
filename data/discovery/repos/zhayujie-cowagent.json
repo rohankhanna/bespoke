@@ -318,7 +318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:14:39.251684+00:00",
+  "fetched_at": "2026-06-30T16:50:19.808878+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -346,7 +346,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 11062
+      "size": 12773
     },
     {
       "path": ".github/workflows/test-windows-bash.yml",
@@ -362,8 +362,8 @@
     "full_name": "zhayujie/CowAgent",
     "html_url": "https://github.com/zhayujie/CowAgent",
     "language": "Python",
-    "pushed_at": "2026-06-29T11:53:07Z",
-    "stargazers_count": 45679,
+    "pushed_at": "2026-06-30T12:05:17Z",
+    "stargazers_count": 45698,
     "topics": [
       "ai",
       "ai-agent",
@@ -382,7 +382,7 @@
       "openclaw",
       "skills"
     ],
-    "updated_at": "2026-06-30T00:28:59Z"
+    "updated_at": "2026-06-30T16:42:06Z"
   },
   "repo_links": [],
   "terms": [

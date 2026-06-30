@@ -319,6 +319,18 @@
       "source_repo": "embeddedartistry/libcpp",
       "status": "candidate-context",
       "text": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bloomberg/bde",
+      "status": "candidate-context",
+      "text": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/bde",
+      "status": "candidate-context",
+      "text": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg."
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "embeddedartistry/libcpp",
       "status": "candidate",
       "text": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/bde",
+      "status": "candidate",
+      "text": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg."
     }
   ],
   "candidate_related_terms": [],
@@ -1738,11 +1756,29 @@
       "observed_at": "2026-06-30T07:29:36.115830+00:00",
       "source_file": null,
       "source_repo": "vimpunk/mio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "vimpunk/mio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "bloomberg/bde"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T07:29:36.115830+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "lexical_providers": [
     "datamuse"
   ],

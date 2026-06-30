@@ -67,6 +67,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
+      "target": "funclip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
       "target": "gradio",
       "target_type": "term"
     },
@@ -109,13 +116,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
-      "target": "video-clip",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "modelscope/FunClip",
       "target": "video-editing",
       "target_type": "term"
     },
@@ -137,10 +137,17 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
+      "target": "video-transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
       "target": "whisper-alternative",
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-30T00:47:25.151576+00:00",
+  "generated_at": "2026-06-30T12:55:19.331325+00:00",
   "source_repo": "modelscope/FunClip"
 }

@@ -357,7 +357,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:40:55.634998+00:00",
+  "fetched_at": "2026-06-30T17:25:57.624500+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -386,12 +386,12 @@
     "html_url": "https://github.com/rust-lang/vscode-rust",
     "language": "TypeScript",
     "pushed_at": "2022-11-15T17:22:45Z",
-    "stargazers_count": 1398,
+    "stargazers_count": 1397,
     "topics": [
       "rust",
       "vscode-extension"
     ],
-    "updated_at": "2026-06-27T07:45:08Z"
+    "updated_at": "2026-06-30T12:28:28Z"
   },
   "repo_links": [
     {

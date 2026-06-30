@@ -81,6 +81,26 @@
       "source_file": ".github/workflows/agent-scan.yml"
     },
     {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@a92e7c70a4da9793dc164451d829089dc057a464",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@a92e7c70a4da9793dc164451d829089dc057a464",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
       "component": "github/gh-aw/actions/setup@e211c855a20aa6cf9297b411466e1c382a8686db",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/code-simplifier.lock.yml"
@@ -464,21 +484,6 @@
       "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/duplicate-code-detector.lock.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/fork-checks.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/fork-checks.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/fork-checks.yml"
     }
   ],
   "edges": [
@@ -624,6 +629,48 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "storybookjs/storybook",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "storybookjs/storybook",
+      "target": "anthropics/claude-code-action@a92e7c70a4da9793dc164451d829089dc057a464",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "storybookjs/storybook",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "storybookjs/storybook",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "storybookjs/storybook",
+      "target": "anthropics/claude-code-action@a92e7c70a4da9793dc164451d829089dc057a464",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "storybookjs/storybook",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/code-simplifier.lock.yml",
       "source_repo": "storybookjs/storybook",
       "target": "github/gh-aw/actions/setup@e211c855a20aa6cf9297b411466e1c382a8686db",
@@ -756,27 +803,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/duplicate-code-detector.md",
-      "source_repo": "storybookjs/storybook",
-      "target": "Duplicate Code Detector",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/fork-checks.yml",
-      "source_repo": "storybookjs/storybook",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/fork-checks.yml",
-      "source_repo": "storybookjs/storybook",
-      "target": "Fork checks",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "storybookjs/storybook",
@@ -889,7 +915,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:36:08.870112+00:00",
+  "fetched_at": "2026-06-30T17:19:02.738200+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -902,6 +928,14 @@
     {
       "path": ".github/workflows/agent-scan.yml",
       "size": 6130
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 1261
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 3008
     },
     {
       "path": ".github/workflows/code-simplifier.lock.yml",
@@ -922,14 +956,6 @@
     {
       "path": ".github/workflows/duplicate-code-detector.lock.yml",
       "size": 60522
-    },
-    {
-      "path": ".github/workflows/duplicate-code-detector.md",
-      "size": 9578
-    },
-    {
-      "path": ".github/workflows/fork-checks.yml",
-      "size": 2086
     }
   ],
   "related_repositories": [],
@@ -941,8 +967,8 @@
     "full_name": "storybookjs/storybook",
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T03:10:53Z",
-    "stargazers_count": 90477,
+    "pushed_at": "2026-06-30T15:47:09Z",
+    "stargazers_count": 90475,
     "topics": [
       "angular",
       "components",
@@ -965,7 +991,7 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-06-30T06:26:31Z"
+    "updated_at": "2026-06-30T16:51:29Z"
   },
   "repo_links": [
     {
@@ -990,6 +1016,18 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/agent-scan.yml",
       "term": "agent-scan"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
     },
     {
       "context_snippet": "\"Code Simplifier\"",
@@ -1020,18 +1058,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/duplicate-code-detector.lock.yml",
       "term": "Duplicate Code Detector"
-    },
-    {
-      "context_snippet": "Duplicate Code Detector",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/duplicate-code-detector.md",
-      "term": "Duplicate Code Detector"
-    },
-    {
-      "context_snippet": "Fork checks",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/fork-checks.yml",
-      "term": "Fork checks"
     },
     {
       "context_snippet": "<p align=\"center\">",

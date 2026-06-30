@@ -144,7 +144,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:19:27.830107+00:00",
+  "fetched_at": "2026-06-30T16:57:17.666012+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -173,7 +173,7 @@
     "html_url": "https://github.com/PaddlePaddle/PaddleClas",
     "language": "Python",
     "pushed_at": "2026-06-25T08:24:46Z",
-    "stargazers_count": 5818,
+    "stargazers_count": 5817,
     "topics": [
       "autoaugment",
       "cutmix",
@@ -190,7 +190,7 @@
       "repvgg",
       "swin-transformer"
     ],
-    "updated_at": "2026-06-29T18:04:19Z"
+    "updated_at": "2026-06-30T16:39:07Z"
   },
   "repo_links": [
     {

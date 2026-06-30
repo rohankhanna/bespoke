@@ -569,7 +569,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:41:31.892644+00:00",
+  "fetched_at": "2026-06-30T17:26:52.491497+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -597,15 +597,15 @@
     "full_name": "mightyiam/eslint-config-love",
     "html_url": "https://github.com/mightyiam/eslint-config-love",
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T01:53:34Z",
-    "stargazers_count": 821,
+    "pushed_at": "2026-06-30T11:00:08Z",
+    "stargazers_count": 820,
     "topics": [
       "eslint",
       "hacktoberfest",
       "javascript",
       "typescript"
     ],
-    "updated_at": "2026-06-30T01:53:37Z"
+    "updated_at": "2026-06-30T12:10:52Z"
   },
   "repo_links": [],
   "terms": [

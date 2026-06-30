@@ -40365,6 +40365,9 @@
   "funasr": [
     "funasr"
   ],
+  "funclip": [
+    "funclip"
+  ],
   "functests": [
     "functests"
   ],
@@ -69693,6 +69696,9 @@
   "polylines": [
     "polylines"
   ],
+  "polymorphic-allocators": [
+    "polymorphic-allocators"
+  ],
   "polynomial-commitments": [
     "polynomial-commitments"
   ],
@@ -76169,6 +76175,9 @@
   ],
   "real-time": [
     "real-time"
+  ],
+  "real-time-asr": [
+    "real-time-asr"
   ],
   "real-time-detection": [
     "real-time-detection"
@@ -99139,6 +99148,9 @@
   ],
   "video-to-video-translation": [
     "video-to-video-translation"
+  ],
+  "video-transcription": [
+    "video-transcription"
   ],
   "video-translation": [
     "video-translation"

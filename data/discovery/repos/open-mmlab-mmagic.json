@@ -390,7 +390,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T07:58:11.657320+00:00",
+  "fetched_at": "2026-06-30T16:18:13.094778+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -431,7 +431,7 @@
     "html_url": "https://github.com/open-mmlab/mmagic",
     "language": "Jupyter Notebook",
     "pushed_at": "2024-08-06T07:19:40Z",
-    "stargazers_count": 7437,
+    "stargazers_count": 7436,
     "topics": [
       "aigc",
       "computer-vision",
@@ -453,7 +453,7 @@
       "video-interpolation",
       "video-super-resolution"
     ],
-    "updated_at": "2026-06-30T04:36:29Z"
+    "updated_at": "2026-06-30T12:16:12Z"
   },
   "repo_links": [
     {

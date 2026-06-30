@@ -264,7 +264,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-06-30T01:15:27.856120+00:00",
+  "fetched_at": "2026-06-30T16:51:22.360455+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -293,9 +293,9 @@
     "html_url": "https://github.com/huggingface/gsplat.js",
     "language": "TypeScript",
     "pushed_at": "2026-05-26T10:32:43Z",
-    "stargazers_count": 1646,
+    "stargazers_count": 1645,
     "topics": [],
-    "updated_at": "2026-06-27T18:48:57Z"
+    "updated_at": "2026-06-30T16:44:53Z"
   },
   "repo_links": [
     {

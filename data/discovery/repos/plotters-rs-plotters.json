@@ -386,7 +386,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-29T23:31:48.090171+00:00",
+  "fetched_at": "2026-06-30T17:31:00.261910+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -431,7 +431,7 @@
     "html_url": "https://github.com/plotters-rs/plotters",
     "language": "Rust",
     "pushed_at": "2026-04-13T12:44:14Z",
-    "stargazers_count": 4583,
+    "stargazers_count": 4584,
     "topics": [
       "data-plotting",
       "graphing",
@@ -443,7 +443,7 @@
       "visualization",
       "webassembly"
     ],
-    "updated_at": "2026-06-25T04:25:27Z"
+    "updated_at": "2026-06-30T00:58:07Z"
   },
   "repo_links": [
     {

@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/backward-compat.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backward-compat.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/backward-compat.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backward-compat.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/build-distributions.yml"
     },
     {
-      "component": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "component": "github/codeql-action/upload-sarif@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-distributions.yml"
     },
@@ -141,7 +141,7 @@
       "source_file": ".github/workflows/dependabot-constraints.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "component": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependabot-constraints.yml"
     },
@@ -173,7 +173,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backward-compat.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -215,7 +215,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-distributions.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "target": "github/codeql-action/upload-sarif@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
@@ -320,7 +320,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependabot-constraints.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
       "target_type": "component"
     },
     {
@@ -345,15 +345,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:23:27.708359+00:00",
+  "fetched_at": "2026-06-30T17:03:36.748706+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6956
+      "size": 6950
     },
     {
       "path": "pyproject.toml",
-      "size": 23109
+      "size": 23418
     },
     {
       "path": ".github/workflows/README.md",
@@ -369,7 +369,7 @@
     },
     {
       "path": ".github/workflows/ci-status.yml",
-      "size": 4053
+      "size": 6323
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -397,10 +397,10 @@
     "full_name": "ogx-ai/ogx",
     "html_url": "https://github.com/ogx-ai/ogx",
     "language": "Python",
-    "pushed_at": "2026-06-29T20:40:42Z",
+    "pushed_at": "2026-06-30T16:22:47Z",
     "stargazers_count": 8417,
     "topics": [],
-    "updated_at": "2026-06-29T19:13:02Z"
+    "updated_at": "2026-06-30T16:46:53Z"
   },
   "repo_links": [],
   "terms": [

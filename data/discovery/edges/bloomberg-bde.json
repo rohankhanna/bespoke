@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/bde",
+      "target": "allocators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/bde",
+      "target": "cpp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/bde",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/bde",
+      "target": "polymorphic-allocators",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-30T12:55:19.331325+00:00",
+  "source_repo": "bloomberg/bde"
+}

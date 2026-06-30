@@ -214,7 +214,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T01:25:35.401223+00:00",
+  "fetched_at": "2026-06-30T17:06:52.902521+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -235,7 +235,7 @@
     "html_url": "https://github.com/babashka/sci",
     "language": "Clojure",
     "pushed_at": "2026-06-20T21:24:30Z",
-    "stargazers_count": 1366,
+    "stargazers_count": 1367,
     "topics": [
       "babashka",
       "clojure",
@@ -245,7 +245,7 @@
       "javascript",
       "language"
     ],
-    "updated_at": "2026-06-27T19:12:37Z"
+    "updated_at": "2026-06-30T03:13:46Z"
   },
   "repo_links": [
     {

@@ -139,6 +139,18 @@
       "source_repo": "microsoft/UVAtlas",
       "status": "candidate-context",
       "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/UVAtlas/Dx_logo.GIF)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bloomberg/bde",
+      "status": "candidate-context",
+      "text": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/bde",
+      "status": "candidate-context",
+      "text": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "microsoft/UVAtlas",
       "status": "candidate",
       "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/UVAtlas/Dx_logo.GIF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/bde",
+      "status": "candidate",
+      "text": "Basic Development Environment - a set of foundational C++ libraries used at Bloomberg."
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,17 @@
       "observed_at": "2026-06-24T18:42:53.825671+00:00",
       "source_file": null,
       "source_repo": "microsoft/UVAtlas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "bloomberg/bde"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-24T18:42:53.825671+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "lexical_providers": [
     "datamuse"
   ],

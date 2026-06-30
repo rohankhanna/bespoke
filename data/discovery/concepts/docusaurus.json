@@ -673,11 +673,17 @@
       "observed_at": "2026-06-29T18:49:06.046656+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-29T18:49:06.046656+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "lexical_providers": [
     "datamuse"
   ],

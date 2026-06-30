@@ -205,6 +205,12 @@
       "source_repo": "haasn/libplacebo",
       "status": "candidate-context",
       "text": "[![gitlab-ci badge](https://code.videolan.org/videolan/libplacebo/badges/master/pipeline.svg)](https://code.videolan.org/videolan/libplacebo/pipelines)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI."
     }
   ],
   "candidate_glosses": [
@@ -1168,11 +1174,23 @@
       "observed_at": "2026-06-30T00:47:25.151576+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-30T12:55:19.331325+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T00:47:25.151576+00:00",
+  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
   "lexical_providers": [
     "datamuse"
   ],
