@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2768,
-    "concepts": 492,
-    "observations": 493,
-    "repos": 100,
-    "terms": 510
+    "components": 2809,
+    "concepts": 504,
+    "observations": 505,
+    "repos": 101,
+    "terms": 522
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "43081j/picoquery",
@@ -57,6 +57,7 @@
     "gajus/eslint-plugin-sql",
     "googleapis/nodejs-datastore",
     "googleapis/nodejs-logging-winston",
+    "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
     "h3js/rou3",
     "hyparam/hightable",

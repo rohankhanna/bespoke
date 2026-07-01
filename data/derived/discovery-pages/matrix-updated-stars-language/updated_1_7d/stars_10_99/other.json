@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 7,
-    "terms": 31
+    "components": 89,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 6,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "apostrophecms/starter-kit-astro-apollo",
     "crossplane/docs",
     "jump-dev/Clp.jl",
-    "karafka/example-apps",
     "nipreps/petprep",
     "patterns-ai-core/qdrant-ruby",
     "processing/processing-website"

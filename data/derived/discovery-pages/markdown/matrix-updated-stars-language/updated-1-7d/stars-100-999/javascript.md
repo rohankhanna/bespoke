@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 10
-- components: 47
-- concepts: 10
-- observations: 10
+- repos: 2
+- terms: 21
+- components: 61
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [digitalocean/openapi](https://github.com/digitalocean/openapi) | 137 | 2026-06-30T06:58:19Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [jupyter/nbclassic](https://github.com/jupyter/nbclassic) | 111 | 2026-06-29T00:10:04Z | JavaScript | Infrastructure/tooling | 10 | 47 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [digitalocean/openapi](https://github.com/digitalocean/openapi) | 137 | 2026-06-30T06:58:19Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [jupyter/nbclassic](https://github.com/jupyter/nbclassic) | 111 | 2026-06-29T00:10:04Z | JavaScript | Infrastructure/tooling | 10 | 47 | 10 | 10 |

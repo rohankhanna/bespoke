@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 331
-- terms: 1230
-- components: 2110
-- concepts: 1227
-- observations: 1228
+- repos: 332
+- terms: 1236
+- components: 2121
+- concepts: 1233
+- observations: 1234
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [davidanthoff/Electron.jl](https://github.com/davidanthoff/Electron.jl) | 95 | 2026-05-02T06:52:12Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [JuliaLinearAlgebra/BLISBLAS.jl](https://github.com/JuliaLinearAlgebra/BLISBLAS.jl) | 18 | 2026-05-01T22:44:00Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [JuliaCon/www.juliacon.org](https://github.com/JuliaCon/www.juliacon.org) | 55 | 2026-05-01T21:36:38Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [B-Lang-org/bsc-contrib](https://github.com/B-Lang-org/bsc-contrib) | 39 | 2026-05-01T20:48:57Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
@@ -368,6 +369,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [harfbuzz/uharfbuzz](https://github.com/harfbuzz/uharfbuzz) | 97 | 2026-04-20T22:26:50Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [i18next/react-i18next-gitbook](https://github.com/i18next/react-i18next-gitbook) | 97 | 2026-04-18T06:00:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bazel-contrib/rules_distroless](https://github.com/bazel-contrib/rules_distroless) | 96 | 2026-04-15T19:06:35Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [davidanthoff/Electron.jl](https://github.com/davidanthoff/Electron.jl) | 95 | 2026-05-02T06:52:12Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [JuliaMath/FixedPointNumbers.jl](https://github.com/JuliaMath/FixedPointNumbers.jl) | 95 | 2026-04-28T19:37:34Z | Other | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [JuliaGeo/GDAL.jl](https://github.com/JuliaGeo/GDAL.jl) | 95 | 2026-04-17T12:02:39Z | Other | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [AdaCore/langkit](https://github.com/AdaCore/langkit) | 94 | 2026-04-22T12:05:55Z | Other | Framework | 0 | 0 | 0 | 0 |

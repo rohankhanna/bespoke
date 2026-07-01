@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 2,
-    "terms": 16
+    "components": 45,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
-    "crate-ci/cargo-release",
     "intentee/paddler"
   ]
 }

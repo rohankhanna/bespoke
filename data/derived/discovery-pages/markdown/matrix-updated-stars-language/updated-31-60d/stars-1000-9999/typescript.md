@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 337
-- components: 1662
-- concepts: 339
-- observations: 339
+- repos: 39
+- terms: 323
+- components: 1560
+- concepts: 325
+- observations: 325
 
 ## Static behavior
 
@@ -27,7 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2297 | 2026-05-29T06:05:41Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
-| [huggingface/gsplat.js](https://github.com/huggingface/gsplat.js) | 1645 | 2026-05-26T10:32:43Z | TypeScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
+| [huggingface/gsplat.js](https://github.com/huggingface/gsplat.js) | 1646 | 2026-05-26T10:32:43Z | TypeScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [neavo/LinguaGacha](https://github.com/neavo/LinguaGacha) | 1974 | 2026-05-25T17:25:12Z | TypeScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
 | [unplugin/unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) | 4290 | 2026-05-20T04:37:54Z | TypeScript | CLI | 9 | 36 | 9 | 9 |
 | [Koenkk/zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters) | 1183 | 2026-05-13T22:26:23Z | TypeScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
@@ -41,7 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [obsidianmd/obsidian-clipper](https://github.com/obsidianmd/obsidian-clipper) | 4275 | 2026-05-06T15:18:41Z | TypeScript | CLI | 12 | 28 | 12 | 12 |
 | [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 4056 | 2026-05-06T07:58:59Z | TypeScript | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [withcatai/node-llama-cpp](https://github.com/withcatai/node-llama-cpp) | 2049 | 2026-05-06T03:32:51Z | TypeScript | Infrastructure/tooling | 19 | 89 | 20 | 20 |
-| [vite-pwa/vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa) | 4201 | 2026-05-05T15:03:21Z | TypeScript | Infrastructure/tooling | 9 | 34 | 9 | 9 |
+| [vite-pwa/vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa) | 4202 | 2026-05-05T15:03:21Z | TypeScript | Infrastructure/tooling | 9 | 34 | 9 | 9 |
 | [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat) | 8474 | 2026-05-05T14:02:46Z | TypeScript | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [open-telemetry/opentelemetry-demo](https://github.com/open-telemetry/opentelemetry-demo) | 3056 | 2026-05-05T11:12:15Z | TypeScript | Infrastructure/tooling | 17 | 17 | 18 | 18 |
 | [inokawa/virtua](https://github.com/inokawa/virtua) | 3549 | 2026-05-04T19:01:59Z | TypeScript | Infrastructure/tooling | 16 | 91 | 16 | 16 |
@@ -65,8 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [timmywil/panzoom](https://github.com/timmywil/panzoom) | 2423 | 2026-05-02T14:32:05Z | TypeScript | Infrastructure/tooling | 4 | 47 | 4 | 4 |
 | [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1883 | 2026-05-02T14:30:23Z | TypeScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [storybookjs/react-native](https://github.com/storybookjs/react-native) | 1285 | 2026-05-02T12:49:54Z | TypeScript | Infrastructure/tooling | 7 | 18 | 7 | 7 |
-| [azat-io/eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist) | 2861 | 2026-05-02T09:19:08Z | TypeScript | Infrastructure/tooling | 8 | 75 | 8 | 8 |
-| [vuejs/babel-plugin-jsx](https://github.com/vuejs/babel-plugin-jsx) | 1787 | 2026-05-02T06:30:11Z | TypeScript | Infrastructure/tooling | 6 | 27 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -88,12 +86,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pdfme/pdfme](https://github.com/pdfme/pdfme) | 4336 | 2026-05-11T07:24:13Z | TypeScript | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [unplugin/unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) | 4290 | 2026-05-20T04:37:54Z | TypeScript | CLI | 9 | 36 | 9 | 9 |
 | [obsidianmd/obsidian-clipper](https://github.com/obsidianmd/obsidian-clipper) | 4275 | 2026-05-06T15:18:41Z | TypeScript | CLI | 12 | 28 | 12 | 12 |
-| [vite-pwa/vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa) | 4201 | 2026-05-05T15:03:21Z | TypeScript | Infrastructure/tooling | 9 | 34 | 9 | 9 |
+| [vite-pwa/vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa) | 4202 | 2026-05-05T15:03:21Z | TypeScript | Infrastructure/tooling | 9 | 34 | 9 | 9 |
 | [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 4056 | 2026-05-06T07:58:59Z | TypeScript | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [inokawa/virtua](https://github.com/inokawa/virtua) | 3549 | 2026-05-04T19:01:59Z | TypeScript | Infrastructure/tooling | 16 | 91 | 16 | 16 |
 | [open-telemetry/opentelemetry-demo](https://github.com/open-telemetry/opentelemetry-demo) | 3056 | 2026-05-05T11:12:15Z | TypeScript | Infrastructure/tooling | 17 | 17 | 18 | 18 |
 | [carbon-design-system/carbon-components-svelte](https://github.com/carbon-design-system/carbon-components-svelte) | 2871 | 2026-05-02T17:02:03Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
-| [azat-io/eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist) | 2861 | 2026-05-02T09:19:08Z | TypeScript | Infrastructure/tooling | 8 | 75 | 8 | 8 |
 | [TypeScriptToLua/TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua) | 2493 | 2026-05-03T10:50:44Z | TypeScript | Infrastructure/tooling | 5 | 30 | 5 | 5 |
 | [timmywil/panzoom](https://github.com/timmywil/panzoom) | 2423 | 2026-05-02T14:32:05Z | TypeScript | Infrastructure/tooling | 4 | 47 | 4 | 4 |
 | [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2297 | 2026-05-29T06:05:41Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
@@ -102,8 +99,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [neavo/LinguaGacha](https://github.com/neavo/LinguaGacha) | 1974 | 2026-05-25T17:25:12Z | TypeScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
 | [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1883 | 2026-05-02T14:30:23Z | TypeScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [ng-packagr/ng-packagr](https://github.com/ng-packagr/ng-packagr) | 1858 | 2026-05-02T16:24:48Z | TypeScript | CLI | 11 | 58 | 11 | 11 |
-| [vuejs/babel-plugin-jsx](https://github.com/vuejs/babel-plugin-jsx) | 1787 | 2026-05-02T06:30:11Z | TypeScript | Infrastructure/tooling | 6 | 27 | 6 | 6 |
-| [huggingface/gsplat.js](https://github.com/huggingface/gsplat.js) | 1645 | 2026-05-26T10:32:43Z | TypeScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
+| [huggingface/gsplat.js](https://github.com/huggingface/gsplat.js) | 1646 | 2026-05-26T10:32:43Z | TypeScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [apollographql/apollo-client-devtools](https://github.com/apollographql/apollo-client-devtools) | 1525 | 2026-05-02T21:39:04Z | TypeScript | CLI | 13 | 108 | 13 | 13 |
 | [solidjs-community/solid-primitives](https://github.com/solidjs-community/solid-primitives) | 1516 | 2026-05-03T18:39:26Z | TypeScript | Infrastructure/tooling | 5 | 37 | 5 | 5 |
 | [ChromeDevTools/devtools-protocol](https://github.com/ChromeDevTools/devtools-protocol) | 1479 | 2026-05-03T00:02:42Z | TypeScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11250,
-    "concepts": 2168,
-    "observations": 2173,
-    "repos": 266,
-    "terms": 2271
+    "components": 11261,
+    "concepts": 2166,
+    "observations": 2171,
+    "repos": 267,
+    "terms": 2269
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -49,6 +49,7 @@
     "aws-powertools/powertools-lambda-typescript",
     "aws/aws-sdk-js-v3",
     "aws/jsii",
+    "azat-io/eslint-plugin-perfectionist",
     "Azure/azure-sdk-for-js",
     "babaohuang/GeminiProChat",
     "badgen/badgen.net",
@@ -63,7 +64,6 @@
     "breferrari/obsidian-mind",
     "bufbuild/protobuf-es",
     "BuilderIO/builder",
-    "butlerx/wetty",
     "callstack/react-native-testing-library",
     "capricorn86/happy-dom",
     "cawa-93/vite-electron-builder",
@@ -267,6 +267,7 @@
     "vega/vega-lite",
     "VOICEVOX/voicevox",
     "VoltAgent/voltagent",
+    "vuejs/babel-plugin-jsx",
     "vuejs/eslint-plugin-vue",
     "vuejs/router",
     "web-infra-dev/rsbuild",

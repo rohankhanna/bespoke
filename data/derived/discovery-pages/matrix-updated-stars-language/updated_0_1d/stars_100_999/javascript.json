@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 4,
-    "terms": 25
+    "components": 49,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 3,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "avocadowastaken/prettier-plugin-prisma",
     "aws-cloudformation/cfn-lint-visual-studio-code",
-    "browserslist/caniuse-lite",
-    "digitalocean/openapi"
+    "browserslist/caniuse-lite"
   ]
 }

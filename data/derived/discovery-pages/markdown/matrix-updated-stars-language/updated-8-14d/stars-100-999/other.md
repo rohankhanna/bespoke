@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 78
-- components: 105
-- concepts: 78
-- observations: 79
+- repos: 13
+- terms: 73
+- components: 99
+- concepts: 73
+- observations: 73
 
 ## Static behavior
 
@@ -29,7 +29,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chebfun/chebfun](https://github.com/chebfun/chebfun) | 674 | 2026-06-23T16:12:49Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [thegeeklab/hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc) | 545 | 2026-06-23T07:03:17Z | Other | Docs/knowledge | 4 | 32 | 4 | 4 |
 | [JuliaCollections/AbstractTrees.jl](https://github.com/JuliaCollections/AbstractTrees.jl) | 241 | 2026-06-22T17:15:33Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
-| [grpc/grpc-dart](https://github.com/grpc/grpc-dart) | 890 | 2026-06-22T14:29:56Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 6 |
 | [JuliaLinearAlgebra/MKL.jl](https://github.com/JuliaLinearAlgebra/MKL.jl) | 230 | 2026-06-22T07:23:30Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [Deep-Symmetry/beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) | 666 | 2026-06-22T04:26:03Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [Artoriuz/ArtCNN](https://github.com/Artoriuz/ArtCNN) | 329 | 2026-06-21T15:14:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -39,13 +38,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fw-ai/cookbook](https://github.com/fw-ai/cookbook) | 171 | 2026-06-20T18:10:40Z | Other | Infrastructure/tooling | 12 | 3 | 12 | 12 |
 | [emacs-eldev/eldev](https://github.com/emacs-eldev/eldev) | 257 | 2026-06-19T01:32:23Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [NOAA-EMC/WW3](https://github.com/NOAA-EMC/WW3) | 340 | 2026-06-18T13:55:46Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [the-database/VideoJaNai](https://github.com/the-database/VideoJaNai) | 253 | 2026-06-18T03:41:41Z | Other | Infrastructure/tooling | 12 | 3 | 12 | 12 |
+| [the-database/VideoJaNai](https://github.com/the-database/VideoJaNai) | 255 | 2026-06-18T03:41:41Z | Other | Infrastructure/tooling | 12 | 3 | 12 | 12 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [grpc/grpc-dart](https://github.com/grpc/grpc-dart) | 890 | 2026-06-22T14:29:56Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 6 |
 | [chebfun/chebfun](https://github.com/chebfun/chebfun) | 674 | 2026-06-23T16:12:49Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [Deep-Symmetry/beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) | 666 | 2026-06-22T04:26:03Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [thegeeklab/hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc) | 545 | 2026-06-23T07:03:17Z | Other | Docs/knowledge | 4 | 32 | 4 | 4 |
@@ -54,7 +52,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NOAA-EMC/WW3](https://github.com/NOAA-EMC/WW3) | 340 | 2026-06-18T13:55:46Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [Artoriuz/ArtCNN](https://github.com/Artoriuz/ArtCNN) | 329 | 2026-06-21T15:14:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [emacs-eldev/eldev](https://github.com/emacs-eldev/eldev) | 257 | 2026-06-19T01:32:23Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
-| [the-database/VideoJaNai](https://github.com/the-database/VideoJaNai) | 253 | 2026-06-18T03:41:41Z | Other | Infrastructure/tooling | 12 | 3 | 12 | 12 |
+| [the-database/VideoJaNai](https://github.com/the-database/VideoJaNai) | 255 | 2026-06-18T03:41:41Z | Other | Infrastructure/tooling | 12 | 3 | 12 | 12 |
 | [JuliaCollections/AbstractTrees.jl](https://github.com/JuliaCollections/AbstractTrees.jl) | 241 | 2026-06-22T17:15:33Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [JuliaLinearAlgebra/MKL.jl](https://github.com/JuliaLinearAlgebra/MKL.jl) | 230 | 2026-06-22T07:23:30Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [fw-ai/cookbook](https://github.com/fw-ai/cookbook) | 171 | 2026-06-20T18:10:40Z | Other | Infrastructure/tooling | 12 | 3 | 12 | 12 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5990,
-    "concepts": 1258,
-    "observations": 1260,
-    "repos": 203,
-    "terms": 1306
+    "components": 5949,
+    "concepts": 1246,
+    "observations": 1248,
+    "repos": 202,
+    "terms": 1294
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -86,7 +86,6 @@
     "glassflow/clickhouse-etl",
     "google/adk-web",
     "GoogleCloudPlatform/wombat-dressing-room",
-    "graalvm/setup-graalvm",
     "gradle/actions",
     "graphprotocol/graph-client",
     "grubersjoe/github-contributions-api",

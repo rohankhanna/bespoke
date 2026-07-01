@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -28,7 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2553 | 2026-06-21T04:26:51Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
 | [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7174 | 2026-06-21T00:24:54Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
-| [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) | 5266 | 2026-06-18T13:56:42Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
+| [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) | 5265 | 2026-06-18T13:56:42Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3043 | 2026-06-18T00:34:41Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 | [graphql-hive/graphql-inspector](https://github.com/graphql-hive/graphql-inspector) | 1755 | 2026-06-17T13:47:38Z | TypeScript | Infrastructure/tooling | 8 | 64 | 8 | 8 |
 
@@ -37,7 +37,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7174 | 2026-06-21T00:24:54Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
-| [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) | 5266 | 2026-06-18T13:56:42Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
+| [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) | 5265 | 2026-06-18T13:56:42Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3043 | 2026-06-18T00:34:41Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 | [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2553 | 2026-06-21T04:26:51Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
 | [graphql-hive/graphql-inspector](https://github.com/graphql-hive/graphql-inspector) | 1755 | 2026-06-17T13:47:38Z | TypeScript | Infrastructure/tooling | 8 | 64 | 8 | 8 |

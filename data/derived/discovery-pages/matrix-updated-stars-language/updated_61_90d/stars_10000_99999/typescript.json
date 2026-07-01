@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9979,
-    "concepts": 1474,
-    "observations": 1483,
-    "repos": 144,
-    "terms": 1486
+    "components": 10074,
+    "concepts": 1512,
+    "observations": 1521,
+    "repos": 147,
+    "terms": 1524
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -48,6 +48,7 @@
     "cline/cline",
     "coder/code-server",
     "colinhacks/zod",
+    "continuedev/continue",
     "conventional-changelog/commitlint",
     "diegomura/react-pdf",
     "discordjs/discord.js",
@@ -123,6 +124,7 @@
     "reduxjs/redux-toolkit",
     "remix-run/react-router",
     "remix-run/remix",
+    "remotion-dev/remotion",
     "renovatebot/renovate",
     "ryoppippi/ccusage",
     "sass/sass",
@@ -155,6 +157,7 @@
     "web-infra-dev/midscene",
     "webpro-nl/knip",
     "windingwind/zotero-pdf-translate",
+    "withastro/astro",
     "wojtekmaj/react-pdf",
     "xtermjs/xterm.js",
     "xyflow/xyflow"

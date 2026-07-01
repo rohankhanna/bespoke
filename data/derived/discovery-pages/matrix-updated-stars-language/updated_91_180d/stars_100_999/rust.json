@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 530,
+    "components": 532,
     "concepts": 340,
     "observations": 345,
-    "repos": 93,
+    "repos": 94,
     "terms": 338
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "arkworks-rs/r1cs-std",
@@ -40,6 +40,7 @@
     "esp-rs/embedded-svc",
     "esp-rs/esp-idf-svc",
     "fast/logforth",
+    "filecoin-project/bellperson",
     "filecoin-project/rust-fil-proofs",
     "firstbatchxyz/dkn-compute-node",
     "georust/proj",

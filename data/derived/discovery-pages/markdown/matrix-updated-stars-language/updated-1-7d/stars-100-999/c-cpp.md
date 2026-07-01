@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 39
-- components: 35
-- concepts: 39
-- observations: 39
+- repos: 4
+- terms: 30
+- components: 27
+- concepts: 30
+- observations: 30
 
 ## Static behavior
 
@@ -30,7 +30,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gbionics/idyntree](https://github.com/gbionics/idyntree) | 231 | 2026-06-27T21:43:21Z | C/C++ | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [mudler/parakeet.cpp](https://github.com/mudler/parakeet.cpp) | 580 | 2026-06-26T06:49:50Z | C/C++ | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 151 | 2026-06-24T17:15:23Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 216 | 2026-06-24T06:26:30Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -39,5 +38,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mudler/parakeet.cpp](https://github.com/mudler/parakeet.cpp) | 580 | 2026-06-26T06:49:50Z | C/C++ | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [powturbo/Turbo-Base64](https://github.com/powturbo/Turbo-Base64) | 334 | 2026-06-28T15:32:46Z | C/C++ | Infrastructure/tooling | 12 | 2 | 12 | 12 |
 | [gbionics/idyntree](https://github.com/gbionics/idyntree) | 231 | 2026-06-27T21:43:21Z | C/C++ | Infrastructure/tooling | 13 | 16 | 13 | 13 |
-| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 216 | 2026-06-24T06:26:30Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 151 | 2026-06-24T17:15:23Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 346
-- components: 376
-- concepts: 348
-- observations: 348
+- repos: 37
+- terms: 332
+- components: 366
+- concepts: 334
+- observations: 334
 
 ## Static behavior
 
@@ -63,7 +63,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebookincubator/katran](https://github.com/facebookincubator/katran) | 5229 | 2026-05-02T16:37:28Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [libfuse/libfuse](https://github.com/libfuse/libfuse) | 6021 | 2026-05-02T13:45:40Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [cisco/libsrtp](https://github.com/cisco/libsrtp) | 1379 | 2026-05-02T13:13:56Z | C/C++ | Infrastructure/tooling | 11 | 6 | 11 | 11 |
-| [heiher/hev-socks5-tunnel](https://github.com/heiher/hev-socks5-tunnel) | 1834 | 2026-05-02T09:09:48Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 
 ## Repos sorted by stars
 
@@ -99,7 +98,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pure-data/pure-data](https://github.com/pure-data/pure-data) | 2008 | 2026-05-14T16:54:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [AdaptiveCpp/AdaptiveCpp](https://github.com/AdaptiveCpp/AdaptiveCpp) | 1855 | 2026-05-21T00:27:20Z | C/C++ | Infrastructure/tooling | 19 | 10 | 19 | 19 |
 | [Andersbakken/rtags](https://github.com/Andersbakken/rtags) | 1843 | 2026-05-04T19:03:32Z | C/C++ | CLI | 0 | 2 | 0 | 0 |
-| [heiher/hev-socks5-tunnel](https://github.com/heiher/hev-socks5-tunnel) | 1834 | 2026-05-02T09:09:48Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [WarmUpTill/SceneSwitcher](https://github.com/WarmUpTill/SceneSwitcher) | 1464 | 2026-05-15T17:15:53Z | C/C++ | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [Mithril-mine/libmdbx](https://github.com/Mithril-mine/libmdbx) | 1398 | 2026-05-14T18:27:24Z | C/C++ | Unknown | 9 | 0 | 9 | 9 |
 | [cisco/libsrtp](https://github.com/cisco/libsrtp) | 1379 | 2026-05-02T13:13:56Z | C/C++ | Infrastructure/tooling | 11 | 6 | 11 | 11 |

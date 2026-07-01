@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 151
-- terms: 1425
-- components: 1998
-- concepts: 1432
-- observations: 1439
+- repos: 150
+- terms: 1402
+- components: 1975
+- concepts: 1409
+- observations: 1416
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [swiftlang/swift-package-manager](https://github.com/swiftlang/swift-package-manager) | 10135 | 2026-05-02T08:49:03Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [bitnami/charts](https://github.com/bitnami/charts) | 10335 | 2026-05-02T01:39:09Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [alpinejs/alpine](https://github.com/alpinejs/alpine) | 31504 | 2026-05-01T14:49:51Z | Other | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [logseq/logseq](https://github.com/logseq/logseq) | 42545 | 2026-05-01T14:44:18Z | Other | Infrastructure/tooling | 14 | 129 | 15 | 15 |
@@ -175,8 +176,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ianyh/Amethyst](https://github.com/ianyh/Amethyst) | 16107 | 2026-04-05T01:20:10Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [koalaman/shellcheck](https://github.com/koalaman/shellcheck) | 39311 | 2026-04-04T02:03:45Z | Other | Infrastructure/tooling | 5 | 4 | 7 | 7 |
 | [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | 13810 | 2026-04-03T13:11:41Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 8 |
-| [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) | 26000 | 2026-04-02T08:24:54Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
-| [devicons/devicon](https://github.com/devicons/devicon) | 11575 | 2026-04-02T07:50:53Z | Other | Infrastructure/tooling | 14 | 22 | 14 | 14 |
 
 ## Repos sorted by stars
 
@@ -231,7 +230,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | 26852 | 2026-04-27T19:45:54Z | Other | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [koreader/koreader](https://github.com/koreader/koreader) | 26537 | 2026-04-30T07:51:51Z | Other | Infrastructure/tooling | 18 | 5 | 18 | 18 |
 | [elixir-lang/elixir](https://github.com/elixir-lang/elixir) | 26371 | 2026-04-22T20:11:43Z | Other | Infrastructure/tooling | 5 | 11 | 5 | 5 |
-| [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) | 26000 | 2026-04-02T08:24:54Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [apple/container](https://github.com/apple/container) | 25998 | 2026-04-17T18:56:17Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 8 |
 | [shap/shap](https://github.com/shap/shap) | 25338 | 2026-04-22T17:42:34Z | Other | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 24952 | 2026-04-22T15:41:54Z | Other | Infrastructure/tooling | 19 | 12 | 19 | 19 |
@@ -310,7 +308,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MagicStack/uvloop](https://github.com/MagicStack/uvloop) | 11775 | 2026-04-28T20:38:57Z | Other | Infrastructure/tooling | 9 | 9 | 11 | 11 |
 | [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer) | 11649 | 2026-04-14T04:54:43Z | Other | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [NielsRogge/Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials) | 11612 | 2026-04-20T12:36:38Z | Other | Library | 6 | 0 | 6 | 6 |
-| [devicons/devicon](https://github.com/devicons/devicon) | 11575 | 2026-04-02T07:50:53Z | Other | Infrastructure/tooling | 14 | 22 | 14 | 14 |
 | [jordansissel/fpm](https://github.com/jordansissel/fpm) | 11464 | 2026-04-22T15:59:28Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [autowarefoundation/autoware](https://github.com/autowarefoundation/autoware) | 11459 | 2026-04-30T14:15:52Z | Other | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [Heapy/awesome-kotlin](https://github.com/Heapy/awesome-kotlin) | 11360 | 2026-05-01T03:11:10Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
@@ -332,4 +329,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) | 10245 | 2026-04-27T04:28:55Z | Other | Infrastructure/tooling | 14 | 6 | 14 | 14 |
 | [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim) | 10179 | 2026-04-10T12:31:17Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [teamcapybara/capybara](https://github.com/teamcapybara/capybara) | 10157 | 2026-04-19T16:06:39Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [swiftlang/swift-package-manager](https://github.com/swiftlang/swift-package-manager) | 10135 | 2026-05-02T08:49:03Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [square/moshi](https://github.com/square/moshi) | 10128 | 2026-04-28T16:04:27Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |

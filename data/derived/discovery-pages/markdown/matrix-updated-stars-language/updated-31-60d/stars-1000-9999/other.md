@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 60
-- terms: 487
-- components: 502
-- concepts: 494
-- observations: 494
+- repos: 57
+- terms: 474
+- components: 492
+- concepts: 481
+- observations: 481
 
 ## Static behavior
 
@@ -27,7 +27,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [jothepro/doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | 1384 | 2026-05-31T13:42:11Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2692 | 2026-05-26T22:36:19Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [mono/SkiaSharp](https://github.com/mono/SkiaSharp) | 5412 | 2026-05-26T15:10:21Z | Other | Infrastructure/tooling | 17 | 12 | 17 | 17 |
 | [radian-software/straight.el](https://github.com/radian-software/straight.el) | 3013 | 2026-05-25T15:37:55Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [openai/openai-dotnet](https://github.com/openai/openai-dotnet) | 2614 | 2026-05-25T10:33:14Z | Other | Infrastructure/tooling | 8 | 8 | 8 | 8 |
@@ -84,8 +83,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ruby-grape/grape](https://github.com/ruby-grape/grape) | 9985 | 2026-05-02T15:07:15Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [sporkmonger/addressable](https://github.com/sporkmonger/addressable) | 1598 | 2026-05-02T13:52:38Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete) | 4540 | 2026-05-02T13:52:26Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
-| [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3828 | 2026-05-02T08:52:00Z | Other | Service/API | 0 | 0 | 0 | 0 |
-| [aaaaalexis/obsidian-baseline](https://github.com/aaaaalexis/obsidian-baseline) | 1317 | 2026-05-02T07:54:47Z | Other | Unknown | 6 | 0 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -110,7 +107,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete) | 4540 | 2026-05-02T13:52:26Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [mikepenz/AboutLibraries](https://github.com/mikepenz/AboutLibraries) | 4278 | 2026-05-02T21:05:10Z | Other | Infrastructure/tooling | 20 | 15 | 20 | 20 |
 | [stakira/OpenUtau](https://github.com/stakira/OpenUtau) | 3844 | 2026-05-08T21:34:24Z | Other | Infrastructure/tooling | 13 | 16 | 13 | 13 |
-| [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3828 | 2026-05-02T08:52:00Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [nvimdev/lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) | 3793 | 2026-05-14T01:42:46Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [MetaCubeX/metacubexd](https://github.com/MetaCubeX/metacubexd) | 3527 | 2026-05-03T16:28:18Z | Other | Infrastructure/tooling | 7 | 80 | 7 | 7 |
 | [opentk/opentk](https://github.com/opentk/opentk) | 3513 | 2026-05-16T17:47:30Z | Other | Library | 11 | 0 | 11 | 11 |
@@ -124,7 +120,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mrcjkb/rustaceanvim](https://github.com/mrcjkb/rustaceanvim) | 2963 | 2026-05-07T00:49:32Z | Other | Infrastructure/tooling | 17 | 16 | 17 | 17 |
 | [melpa/melpa](https://github.com/melpa/melpa) | 2937 | 2026-05-02T18:38:20Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [TakWolf/fusion-pixel-font](https://github.com/TakWolf/fusion-pixel-font) | 2770 | 2026-05-02T19:55:50Z | Other | Infrastructure/tooling | 18 | 6 | 18 | 18 |
-| [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2692 | 2026-05-26T22:36:19Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [openai/openai-dotnet](https://github.com/openai/openai-dotnet) | 2614 | 2026-05-25T10:33:14Z | Other | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [jump-dev/JuMP.jl](https://github.com/jump-dev/JuMP.jl) | 2433 | 2026-05-05T16:39:06Z | Other | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 | [xororz/local-dream](https://github.com/xororz/local-dream) | 2355 | 2026-05-07T17:14:53Z | Other | Unknown | 5 | 0 | 5 | 5 |
@@ -142,7 +137,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvim-flutter/flutter-tools.nvim](https://github.com/nvim-flutter/flutter-tools.nvim) | 1389 | 2026-05-04T06:10:34Z | Other | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [jothepro/doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | 1384 | 2026-05-31T13:42:11Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [nushell/awesome-nu](https://github.com/nushell/awesome-nu) | 1344 | 2026-05-13T06:19:50Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [aaaaalexis/obsidian-baseline](https://github.com/aaaaalexis/obsidian-baseline) | 1317 | 2026-05-02T07:54:47Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [cvc5/cvc5](https://github.com/cvc5/cvc5) | 1299 | 2026-05-04T23:10:48Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [AdguardTeam/AdGuardSDNSFilter](https://github.com/AdguardTeam/AdGuardSDNSFilter) | 1231 | 2026-05-03T18:23:58Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [ROCm/MIOpen](https://github.com/ROCm/MIOpen) | 1185 | 2026-05-04T22:31:38Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |

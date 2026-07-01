@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 698,
-    "concepts": 429,
-    "observations": 432,
-    "repos": 56,
-    "terms": 428
+    "components": 661,
+    "concepts": 405,
+    "observations": 408,
+    "repos": 53,
+    "terms": 405
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "abaplint/transpiler",
     "alloy-rs/svm-rs",
-    "ansys/pymapdl",
     "antvis/GPT-Vis",
     "aramis-lab/clinica",
     "ashawkey/kiuikit",
@@ -28,15 +27,13 @@
     "bjlittle/geovista",
     "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
+    "digitalocean/openapi",
     "dwyl/app",
-    "eclipse-corrosion/corrosion",
     "eclipse-paho/paho.mqtt.testing",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
     "electron/packager",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "fieldtrip/fieldtrip",
-    "flagos-ai/FlagAttention",
-    "flagos-ai/FlagCX",
     "gbionics/idyntree",
     "gbionics/jaxsim",
     "ggsegverse/ggseg",

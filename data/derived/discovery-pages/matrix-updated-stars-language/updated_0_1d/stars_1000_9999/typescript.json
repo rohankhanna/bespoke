@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 371,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 7,
-    "terms": 74
+    "components": 510,
+    "concepts": 83,
+    "observations": 83,
+    "repos": 9,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "conventional-changelog/conventional-changelog",
+    "electron/rebuild",
+    "microsoft/vscode-js-debug",
     "nsfw-filter/nsfw-filter",
     "off-grid-ai/off-grid-ai-mobile",
     "podman-desktop/podman-desktop",

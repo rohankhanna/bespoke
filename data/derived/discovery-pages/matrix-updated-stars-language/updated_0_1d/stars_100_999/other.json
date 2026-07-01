@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 5,
-    "terms": 42
+    "components": 77,
+    "concepts": 61,
+    "observations": 62,
+    "repos": 7,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "devcontainers/devcontainers.github.io",
+    "grpc/grpc-dart",
+    "JuliaGraphics/Luxor.jl",
     "karafka/rdkafka-ruby",
     "tc39/proposal-decimal",
     "the-database/mpv-AnimeJaNai"

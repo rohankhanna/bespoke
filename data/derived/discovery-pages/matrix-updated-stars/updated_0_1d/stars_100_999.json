@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 385,
-    "concepts": 211,
-    "observations": 211,
-    "repos": 29,
-    "terms": 211
+    "components": 453,
+    "concepts": 253,
+    "observations": 254,
+    "repos": 33,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
+    "ansys/pymapdl",
     "apalache-mc/apalache",
     "aristoteleo/PantheonOS",
     "avocadowastaken/prettier-plugin-prisma",
@@ -24,13 +25,16 @@
     "Comfy-Org/comfy-cli",
     "confluentinc/librdkafka",
     "devcontainers/devcontainers.github.io",
-    "digitalocean/openapi",
     "eclipse-lsp4j/lsp4j",
     "eclipse-tm4e/tm4e",
+    "flagos-ai/FlagCX",
     "flagos-ai/FlagScale",
+    "grpc/grpc-dart",
     "hexabot-ai/Hexabot",
     "huggingface/hf-mcp-server",
     "ipsilon/evmone",
+    "jawah/charset_normalizer",
+    "JuliaGraphics/Luxor.jl",
     "karafka/rdkafka-ruby",
     "ldproxy/ldproxy",
     "matter-js/matter.js",

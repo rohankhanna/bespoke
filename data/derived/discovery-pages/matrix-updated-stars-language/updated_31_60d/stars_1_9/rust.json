@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 4,
-    "terms": 25
+    "components": 17,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 3,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
-    "godot-rust/godot4-prebuilt",
     "influxdata/arrow-datafusion",
     "open-telemetry/opentelemetry-weaver-examples",
     "tirithen/clipper2c-sys"

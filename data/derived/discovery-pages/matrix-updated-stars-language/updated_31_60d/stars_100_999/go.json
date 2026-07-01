@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 233,
-    "observations": 233,
-    "repos": 25,
-    "terms": 231
+    "components": 189,
+    "concepts": 229,
+    "observations": 229,
+    "repos": 24,
+    "terms": 227
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "andreykaipov/goobs",
     "betterleaks/betterleaks",
@@ -27,7 +27,6 @@
     "gookit/filter",
     "gookit/gcli",
     "gookit/slog",
-    "helmfile/vals",
     "istio/api",
     "itzg/mc-router",
     "kelos-dev/kelos",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 3,
-    "terms": 25
+    "components": 26,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 4,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
+    "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
     "ocaml-tracing/ocaml-trace",
     "pivotal/credhub-release"

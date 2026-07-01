@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 502,
-    "concepts": 494,
-    "observations": 494,
-    "repos": 60,
-    "terms": 487
+    "components": 492,
+    "concepts": 481,
+    "observations": 481,
+    "repos": 57,
+    "terms": 474
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
-    "aaaaalexis/obsidian-baseline",
     "AdguardTeam/AdGuardSDNSFilter",
     "agenda/agenda",
     "androidx/androidx",
@@ -49,7 +48,6 @@
     "nushell/awesome-nu",
     "nvim-flutter/flutter-tools.nvim",
     "nvim-mini/mini.nvim",
-    "nvim-tree/nvim-web-devicons",
     "nvimdev/lspsaga.nvim",
     "openai/openai-dotnet",
     "opentk/opentk",
@@ -63,7 +61,6 @@
     "sporkmonger/addressable",
     "stakira/OpenUtau",
     "streetcomplete/StreetComplete",
-    "swiftlang/sourcekit-lsp",
     "TakWolf/fusion-pixel-font",
     "TechnitiumSoftware/DnsServer",
     "theJayTea/WritingTools",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 24,
-    "terms": 129
+    "components": 121,
+    "concepts": 157,
+    "observations": 157,
+    "repos": 26,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "datawhalechina/happy-llm",
     "datawhalechina/llm-universe",
+    "devicons/devicon",
     "facebookresearch/audiocraft",
     "facebookresearch/dinov3",
     "fatih/vim-go",
@@ -27,6 +28,7 @@
     "Ileriayo/markdown-badges",
     "junegunn/vim-plug",
     "Kong/kong",
+    "LazyVim/LazyVim",
     "MatsuriDayo/NekoBoxForAndroid",
     "nikic/PHP-Parser",
     "NVlabs/instant-ngp",

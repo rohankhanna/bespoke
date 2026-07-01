@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 164,
-    "observations": 165,
-    "repos": 39,
-    "terms": 164
+    "components": 98,
+    "concepts": 171,
+    "observations": 172,
+    "repos": 40,
+    "terms": 171
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
@@ -25,6 +25,7 @@
     "apollographql/supergraph-demo-fed2",
     "archlinux/archlinux-repro",
     "asdf-vm/asdf-nodejs",
+    "aslafy-z/helm-git",
     "aws/aws-app-mesh-examples",
     "bitwarden/brand",
     "bluzername/claude-code-terminal-title",

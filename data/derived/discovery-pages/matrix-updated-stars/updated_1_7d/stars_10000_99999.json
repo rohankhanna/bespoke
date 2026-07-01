@@ -1,35 +1,31 @@
 {
   "counts": {
-    "components": 653,
-    "concepts": 355,
-    "observations": 355,
-    "repos": 32,
-    "terms": 350
+    "components": 711,
+    "concepts": 319,
+    "observations": 319,
+    "repos": 29,
+    "terms": 319
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "567-labs/instructor",
-    "apache/brpc",
     "astral-sh/ruff",
     "browserslist/browserslist",
     "crewAIInc/crewAI",
-    "deepspeedai/DeepSpeed",
+    "crossplane/crossplane",
     "DioxusLabs/dioxus",
-    "fastapi/full-stack-fastapi-template",
     "fossasia/visdom",
-    "gastownhall/beads",
     "gastownhall/gastown",
     "ggml-org/ggml",
     "googleapis/google-api-nodejs-client",
-    "grpc/grpc-java",
+    "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
-    "isl-org/Open3D",
     "jestjs/jest",
     "langchain-ai/langchainjs",
     "Lightning-AI/litgpt",
@@ -39,11 +35,12 @@
     "NVIDIA-NeMo/NeMo",
     "nvm-sh/nvm",
     "nwjs/nw.js",
+    "psf/black",
     "qubvel-org/segmentation_models.pytorch",
-    "rust-lang/mdBook",
     "spaceship-prompt/spaceship-prompt",
     "Tencent-Hunyuan/HunyuanVideo",
     "ungoogled-software/ungoogled-chromium",
+    "unocss/unocss",
     "vega/altair"
   ]
 }

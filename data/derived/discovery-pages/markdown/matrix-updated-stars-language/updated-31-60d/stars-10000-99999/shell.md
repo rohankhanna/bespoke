@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Shell
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 32
-- components: 22
-- concepts: 34
-- observations: 34
+- repos: 1
+- terms: 11
+- components: 11
+- concepts: 11
+- observations: 11
 
 ## Static behavior
 
@@ -27,11 +27,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) | 13618 | 2026-05-04T14:42:41Z | Shell | Infrastructure/tooling | 11 | 11 | 11 | 11 |
-| [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) | 46459 | 2026-05-02T09:22:53Z | Shell | CLI | 21 | 11 | 23 | 23 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) | 46459 | 2026-05-02T09:22:53Z | Shell | CLI | 21 | 11 | 23 | 23 |
 | [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) | 13618 | 2026-05-04T14:42:41Z | Shell | Infrastructure/tooling | 11 | 11 | 11 | 11 |

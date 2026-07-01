@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1337,
-    "concepts": 817,
-    "observations": 821,
-    "repos": 165,
-    "terms": 806
+    "components": 1278,
+    "concepts": 782,
+    "observations": 786,
+    "repos": 161,
+    "terms": 771
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "ABRG-Models/BarrelEmerge",
@@ -61,7 +61,6 @@
     "Comfy-Org/ComfyUI-Standalone-Environments",
     "conda-forge/numba-feedstock",
     "corgi-emacs/corgi-packages",
-    "crate-ci/cargo-release",
     "crossplane/release",
     "cvxpy/org",
     "databrickslabs/ucx",
@@ -103,9 +102,7 @@
     "intel/BigDL",
     "intentee/paddler",
     "itt-ustutt/num-dual",
-    "jawah/charset_normalizer",
     "joblib/loky",
-    "JuliaAI/MLJ.jl",
     "JuliaLinearAlgebra/libblastrampoline",
     "kantv-ai/kantv",
     "Kosinkadink/ComfyUI-Advanced-ControlNet",
@@ -136,7 +133,6 @@
     "mozilla-ai/otari-sdk-rust",
     "mozilla-ai/otari-sdk-ts",
     "mudler/locate-anything.cpp",
-    "NEKOparapa/AiNiee",
     "Nevcairiel/LAVFilters",
     "niivue/brain2print",
     "niivue/ipyniivue",

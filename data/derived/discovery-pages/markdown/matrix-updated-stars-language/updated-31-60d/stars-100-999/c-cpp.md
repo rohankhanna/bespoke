@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 187
-- components: 148
-- concepts: 187
-- observations: 187
+- repos: 30
+- terms: 178
+- components: 145
+- concepts: 178
+- observations: 178
 
 ## Static behavior
 
@@ -56,7 +56,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Mercury13/unicodia](https://github.com/Mercury13/unicodia) | 169 | 2026-05-02T14:37:43Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [apache/iceberg-cpp](https://github.com/apache/iceberg-cpp) | 198 | 2026-05-02T14:29:08Z | C/C++ | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [heiher/hev-socks5-server](https://github.com/heiher/hev-socks5-server) | 549 | 2026-05-02T13:37:28Z | C/C++ | Infrastructure/tooling | 13 | 5 | 13 | 13 |
-| [heiher/hev-socks5-tproxy](https://github.com/heiher/hev-socks5-tproxy) | 537 | 2026-05-02T09:08:17Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -70,7 +69,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mingw-w64/mingw-w64](https://github.com/mingw-w64/mingw-w64) | 564 | 2026-05-19T06:17:33Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [Blosc/c-blosc2](https://github.com/Blosc/c-blosc2) | 562 | 2026-05-03T07:06:03Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [heiher/hev-socks5-server](https://github.com/heiher/hev-socks5-server) | 549 | 2026-05-02T13:37:28Z | C/C++ | Infrastructure/tooling | 13 | 5 | 13 | 13 |
-| [heiher/hev-socks5-tproxy](https://github.com/heiher/hev-socks5-tproxy) | 537 | 2026-05-02T09:08:17Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [celtera/avendish](https://github.com/celtera/avendish) | 477 | 2026-05-11T03:31:50Z | C/C++ | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [alsa-project/alsa-lib](https://github.com/alsa-project/alsa-lib) | 469 | 2026-05-04T11:00:26Z | C/C++ | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [open-telemetry/opentelemetry-ebpf-instrumentation](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation) | 453 | 2026-05-05T13:16:14Z | C/C++ | Infrastructure/tooling | 6 | 10 | 6 | 6 |

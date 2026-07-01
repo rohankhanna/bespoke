@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 120,
-    "observations": 125,
-    "repos": 14,
-    "terms": 120
+    "components": 152,
+    "concepts": 128,
+    "observations": 130,
+    "repos": 16,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
-    "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
     "argmaxinc/argmax-oss-swift",
     "babashka/babashka",
@@ -26,7 +25,10 @@
     "jenkinsci/docker",
     "licensee/licensed",
     "MakieOrg/Makie.jl",
+    "microsoft/PhiCookBook",
+    "nvim-neotest/neotest",
     "okd-project/okd",
+    "swiftlang/swift-syntax",
     "TryGhost/node-sqlite3"
   ]
 }

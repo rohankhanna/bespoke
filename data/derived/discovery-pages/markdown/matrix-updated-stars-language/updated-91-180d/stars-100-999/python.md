@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 293
-- terms: 1172
-- components: 721
-- concepts: 1176
-- observations: 1178
+- repos: 294
+- terms: 1173
+- components: 722
+- concepts: 1177
+- observations: 1179
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Alibaba-NLP/qqr](https://github.com/Alibaba-NLP/qqr) | 235 | 2026-04-02T06:57:00Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ddh0/easy-llama](https://github.com/ddh0/easy-llama) | 105 | 2026-04-02T03:03:06Z | Python | Library | 4 | 0 | 4 | 4 |
 | [sunrainyg/RandOpt](https://github.com/sunrainyg/RandOpt) | 584 | 2026-04-02T02:49:18Z | Python | Unknown | 8 | 0 | 8 | 8 |
 | [TorchDR/TorchDR](https://github.com/TorchDR/TorchDR) | 202 | 2026-04-01T18:13:18Z | Python | Infrastructure/tooling | 21 | 9 | 21 | 21 |
@@ -122,7 +123,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yuliangguo/3D_Lane_Synthetic_Dataset](https://github.com/yuliangguo/3D_Lane_Synthetic_Dataset) | 147 | 2026-03-13T17:46:08Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Osilly/Vision-DeepResearch](https://github.com/Osilly/Vision-DeepResearch) | 619 | 2026-03-13T16:00:23Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [Max1Wz/H-GTCRN](https://github.com/Max1Wz/H-GTCRN) | 106 | 2026-03-13T08:26:11Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Tencent-Hunyuan/FlashVDM](https://github.com/Tencent-Hunyuan/FlashVDM) | 330 | 2026-03-13T02:55:53Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [Tencent-Hunyuan/FlashVDM](https://github.com/Tencent-Hunyuan/FlashVDM) | 331 | 2026-03-13T02:55:53Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [facebookresearch/CodeGen](https://github.com/facebookresearch/CodeGen) | 776 | 2026-03-12T18:38:33Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [clearml/clearml-serving](https://github.com/clearml/clearml-serving) | 164 | 2026-03-12T14:23:03Z | Python | Infrastructure/tooling | 13 | 0 | 13 | 13 |
 | [mgaitan/sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid) | 403 | 2026-03-12T13:42:10Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
@@ -479,8 +480,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SLDGroup/EMCAD](https://github.com/SLDGroup/EMCAD) | 337 | 2026-01-29T02:31:13Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [djcopley/ShellOracle](https://github.com/djcopley/ShellOracle) | 336 | 2026-03-08T00:43:55Z | Python | CLI | 12 | 8 | 13 | 13 |
 | [absadiki/pywhispercpp](https://github.com/absadiki/pywhispercpp) | 335 | 2026-02-20T04:47:23Z | Python | Infrastructure/tooling | 5 | 6 | 5 | 5 |
+| [Tencent-Hunyuan/FlashVDM](https://github.com/Tencent-Hunyuan/FlashVDM) | 331 | 2026-03-13T02:55:53Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [WujiangXu/A-mem-sys](https://github.com/WujiangXu/A-mem-sys) | 330 | 2026-03-15T14:13:39Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Tencent-Hunyuan/FlashVDM](https://github.com/Tencent-Hunyuan/FlashVDM) | 330 | 2026-03-13T02:55:53Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [microsoft/ArchScale](https://github.com/microsoft/ArchScale) | 329 | 2026-03-31T04:26:25Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [Azure-Samples/ai-rag-chat-evaluator](https://github.com/Azure-Samples/ai-rag-chat-evaluator) | 328 | 2026-01-26T08:41:56Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [csslc/PiSA-SR](https://github.com/csslc/PiSA-SR) | 327 | 2026-03-15T15:13:36Z | Python | Unknown | 2 | 0 | 2 | 2 |
@@ -525,6 +526,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [argmaxinc/whisperkittools](https://github.com/argmaxinc/whisperkittools) | 246 | 2026-03-25T23:07:44Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [guoweiyu/NeuroVLA](https://github.com/guoweiyu/NeuroVLA) | 241 | 2026-02-11T17:15:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [superclaude-org/supergemini_framework](https://github.com/SuperClaude-Org/SuperGemini_Framework) | 237 | 2026-02-03T12:13:08Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [Alibaba-NLP/qqr](https://github.com/Alibaba-NLP/qqr) | 235 | 2026-04-02T06:57:00Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [voxel51/fiftyone-examples](https://github.com/voxel51/fiftyone-examples) | 234 | 2026-03-23T22:24:14Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [Extraltodeus/Skimmed_CFG](https://github.com/Extraltodeus/Skimmed_CFG) | 234 | 2026-01-05T18:52:02Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [danielward27/flowjax](https://github.com/danielward27/flowjax) | 227 | 2026-02-21T13:48:41Z | Python | Infrastructure/tooling | 5 | 6 | 5 | 5 |

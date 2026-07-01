@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 3753,
+    "components": 3695,
     "concepts": 2241,
     "observations": 2247,
-    "repos": 748,
+    "repos": 747,
     "terms": 2235
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xBigBoss/vscode-bootty",
@@ -170,7 +170,6 @@
     "bored-engineer/github-conditional-http-transport",
     "bpftrace/user-tools",
     "br14n-sol/inquirer-file-selector",
-    "breejs/api",
     "breejs/express-example",
     "broccolijs/broccoli-plugin",
     "brody2consult/react-native-module-init",
@@ -208,7 +207,6 @@
     "cisco/libacvp",
     "citation-file-format/ruby-cff",
     "cjkreklow/t38c",
-    "cjohansen/m1p",
     "ckan/ckanext-xloader",
     "ckan/datapusher",
     "cldf/segments",
@@ -374,6 +372,7 @@
     "gozaltech/espeak-ng-sapi",
     "gr2m/octokit-oauth-app-now-example",
     "graphql/composite-schemas-spec",
+    "graphql/graphql-js-wg",
     "grpc/grpc-community",
     "GuiWonder/HuayingMincho",
     "guyboertje/jrjackson",

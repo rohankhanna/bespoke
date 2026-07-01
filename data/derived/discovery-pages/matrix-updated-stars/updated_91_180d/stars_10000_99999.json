@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 1837,
-    "concepts": 1115,
-    "observations": 1119,
-    "repos": 184,
-    "terms": 1120
+    "components": 1921,
+    "concepts": 1159,
+    "observations": 1163,
+    "repos": 189,
+    "terms": 1164
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "3b1b/videos",
+    "666ghj/MiroFish",
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
     "Alibaba-NLP/DeepResearch",
@@ -51,6 +52,7 @@
     "datawhalechina/llm-universe",
     "debug-js/debug",
     "deepinsight/insightface",
+    "devicons/devicon",
     "direnv/direnv",
     "dockur/windows",
     "egoist/tsup",
@@ -86,6 +88,7 @@
     "GoogleChromeLabs/squoosh",
     "gulpjs/gulp",
     "guzzle/guzzle",
+    "hapijs/hapi",
     "hapijs/joi",
     "Huanshere/VideoLingo",
     "huggingface/text-generation-inference",
@@ -107,6 +110,7 @@
     "Kong/kong",
     "kubernetes/ingress-nginx",
     "kyleneideck/backgroundmusic",
+    "LazyVim/LazyVim",
     "less/less.js",
     "libevent/libevent",
     "libgit2/libgit2",
@@ -177,6 +181,7 @@
     "Swordfish90/cool-retro-term",
     "TabbyML/tabby",
     "tachyons-css/tachyons",
+    "testing-library/react-testing-library",
     "tpope/vim-fugitive",
     "tqdm/tqdm",
     "transitive-bullshit/agentic",

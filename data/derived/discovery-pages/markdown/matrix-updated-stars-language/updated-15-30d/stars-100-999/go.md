@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 926 | 2026-06-15T15:45:49Z | Go | Infrastructure/tooling | 5 | 20 | 5 | 5 |
+| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 928 | 2026-06-15T15:45:49Z | Go | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [yaling888/quirktiva](https://github.com/yaling888/quirktiva) | 281 | 2026-06-13T20:11:20Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [appbaseio/reactivesearch-api](https://github.com/appbaseio/reactivesearch-api) | 211 | 2026-06-13T10:57:52Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 
@@ -34,6 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 926 | 2026-06-15T15:45:49Z | Go | Infrastructure/tooling | 5 | 20 | 5 | 5 |
+| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 928 | 2026-06-15T15:45:49Z | Go | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [yaling888/quirktiva](https://github.com/yaling888/quirktiva) | 281 | 2026-06-13T20:11:20Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [appbaseio/reactivesearch-api](https://github.com/appbaseio/reactivesearch-api) | 211 | 2026-06-13T10:57:52Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |

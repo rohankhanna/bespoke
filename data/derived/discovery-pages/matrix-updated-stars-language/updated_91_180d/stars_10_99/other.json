@@ -3,7 +3,7 @@
     "components": 756,
     "concepts": 549,
     "observations": 550,
-    "repos": 193,
+    "repos": 192,
     "terms": 544
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -64,7 +64,6 @@
     "camertron/garnet-js",
     "chakravala/DirectSum.jl",
     "citation-file-format/ruby-cff",
-    "cjohansen/m1p",
     "clearml/clearml-helm-charts",
     "clojure/tools.deps",
     "co-IT/CSharpFunctionalExtensions.HttpResults",

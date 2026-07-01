@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 101,
-    "observations": 102,
-    "repos": 15,
-    "terms": 101
+    "components": 80,
+    "concepts": 86,
+    "observations": 87,
+    "repos": 13,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "analogdevicesinc/msdk",
     "atsushieno/aap-juce",
@@ -22,8 +22,6 @@
     "compiler-research/CppInterOp",
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
-    "heiher/hev-socks5-core",
-    "heiher/hev-task-system",
     "localai-org/rf-detr.cpp",
     "mono/skia",
     "oberbichler/HyperJet",

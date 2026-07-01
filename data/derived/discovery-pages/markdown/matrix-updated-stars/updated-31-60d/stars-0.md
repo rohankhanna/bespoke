@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 18
-- terms: 27
-- components: 104
-- concepts: 27
-- observations: 27
+- repos: 17
+- terms: 25
+- components: 101
+- concepts: 25
+- observations: 25
 
 ## Static behavior
 
@@ -42,7 +42,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-Linux-AV-Manager-Plugin](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin) | 0 | 2026-05-03T11:06:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [06ketan/substack-ops](https://github.com/06ketan/substack-ops) | 0 | 2026-05-03T07:02:25Z | Python | CLI | 5 | 3 | 5 | 5 |
 | [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
-| [seanmacavaney/ir-datasets.com](https://github.com/seanmacavaney/ir-datasets.com) | 0 | 2026-05-02T08:34:01Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -65,4 +64,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-Linux-AV-Manager-Plugin](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin) | 0 | 2026-05-03T11:06:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [06ketan/substack-ops](https://github.com/06ketan/substack-ops) | 0 | 2026-05-03T07:02:25Z | Python | CLI | 5 | 3 | 5 | 5 |
 | [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
-| [seanmacavaney/ir-datasets.com](https://github.com/seanmacavaney/ir-datasets.com) | 0 | 2026-05-02T08:34:01Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |

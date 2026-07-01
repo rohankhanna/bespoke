@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 9,
-    "terms": 51
+    "components": 128,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 10,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "gluon-lang/gluon-lang.org",
+    "karafka/example-apps",
     "lindera/lindera-tantivy",
     "lumen-oss/luarocks-tag-release",
     "mongodb/winkerberos",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1024,
-    "concepts": 696,
-    "observations": 702,
-    "repos": 134,
-    "terms": 690
+    "components": 999,
+    "concepts": 667,
+    "observations": 673,
+    "repos": 130,
+    "terms": 662
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "Agnuxo1/CAJAL",
@@ -36,7 +36,6 @@
     "baicai-1145/GPT-SoVITS-CPUFast",
     "bladeacer/flexcyon",
     "bmwiedemann/openSUSE",
-    "boozook/mdbook-svgbob",
     "braelyn-ai/mob",
     "browniebroke/pypackage-template",
     "carbon-design-system/carbon-preprocess-svelte",
@@ -51,7 +50,6 @@
     "csm-actions/securefix-action",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
-    "davidanthoff/Electron.jl",
     "diffscope/diffscope-project",
     "dinosaure/blaze",
     "dora-rs/dora-hub",
@@ -73,8 +71,6 @@
     "gpac/testsuite",
     "haskell/ghcup-metadata",
     "HDFGroup/hdf5_plugins",
-    "heiher/hev-socks5-core",
-    "heiher/hev-task-system",
     "helix-toolkit/helix-toolkit-nex",
     "Hiroshiba/voicevox_engine",
     "huggingface/swift-xet",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 3,
-    "terms": 29
+    "components": 4,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
-    "apache/brpc",
-    "ggml-org/ggml",
-    "isl-org/Open3D"
+    "ggml-org/ggml"
   ]
 }

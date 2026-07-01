@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 79,
-    "observations": 80,
-    "repos": 14,
-    "terms": 77
+    "components": 50,
+    "concepts": 71,
+    "observations": 72,
+    "repos": 13,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
     "apache/casbin-rust-actix-casbin",
-    "boozook/mdbook-svgbob",
     "fallow-rs/oxc-coverage-instrument",
     "g-plane/raffia",
     "influxdata/datafusion-udf-wasm",

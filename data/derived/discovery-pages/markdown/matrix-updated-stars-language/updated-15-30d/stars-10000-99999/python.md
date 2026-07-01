@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [datalab-to/surya](https://github.com/datalab-to/surya) | 21005 | 2026-06-13T07:41:46Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [oobabooga/textgen](https://github.com/oobabooga/textgen) | 47390 | 2026-06-02T03:10:11Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [datalab-to/surya](https://github.com/datalab-to/surya) | 21010 | 2026-06-13T07:41:46Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [oobabooga/textgen](https://github.com/oobabooga/textgen) | 47389 | 2026-06-02T03:10:11Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [oobabooga/textgen](https://github.com/oobabooga/textgen) | 47390 | 2026-06-02T03:10:11Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [datalab-to/surya](https://github.com/datalab-to/surya) | 21005 | 2026-06-13T07:41:46Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [oobabooga/textgen](https://github.com/oobabooga/textgen) | 47389 | 2026-06-02T03:10:11Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [datalab-to/surya](https://github.com/datalab-to/surya) | 21010 | 2026-06-13T07:41:46Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |

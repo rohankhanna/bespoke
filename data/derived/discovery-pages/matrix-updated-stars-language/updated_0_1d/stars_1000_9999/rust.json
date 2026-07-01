@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 14,
-    "observations": 15,
-    "repos": 1,
-    "terms": 14
+    "components": 71,
+    "concepts": 23,
+    "observations": 24,
+    "repos": 2,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
-    "apache/datafusion-ballista"
+    "apache/datafusion-ballista",
+    "crate-ci/cargo-release"
   ]
 }

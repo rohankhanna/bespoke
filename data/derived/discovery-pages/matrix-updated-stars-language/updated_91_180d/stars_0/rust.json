@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 26,
-    "observations": 27,
-    "repos": 19,
-    "terms": 26
+    "components": 93,
+    "concepts": 27,
+    "observations": 28,
+    "repos": 20,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
@@ -30,6 +30,7 @@
     "kylebarron/pyo3-file",
     "onomojo/i18n-country-translations-rs",
     "onomojo/i18n-timezones-rs",
+    "prisma/cuid-rust",
     "Sovereign-Labs/reltester",
     "typstyle-rs/prettyless",
     "vaporif/rvx"

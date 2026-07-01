@@ -1,6 +1,6 @@
 # Unknown
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 ## Active filters
 
@@ -27,7 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lxgw/B5XiZhi](https://github.com/lxgw/B5XiZhi) | 6 | 2026-06-19T19:03:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [rasahq/pytest-sanic](https://github.com/RasaHQ/pytest-sanic) | 0 | 2026-06-19T09:00:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [pyOpenSci/software-submission](https://github.com/pyOpenSci/software-submission) | 126 | 2026-06-19T03:26:35Z | Unknown | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9725 | 2026-06-17T11:38:28Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9726 | 2026-06-17T11:38:28Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [crossplane/release](https://github.com/crossplane/release) | 4 | 2026-06-15T22:28:02Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cvxpy/org](https://github.com/cvxpy/org) | 0 | 2026-06-14T01:13:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 7 | 2026-06-13T02:12:50Z | Unknown | CLI | 1 | 0 | 1 | 1 |
@@ -742,7 +742,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Audio-Multimodal-AI-Resources](https://github.com/danielrosehill/Audio-Multimodal-AI-Resources) | 2 | 2025-12-08T14:21:28Z | Unknown | Model/data | 4 | 0 | 4 | 4 |
 | [thibautmelen/agentic-ai-systems](https://github.com/ThibautMelen/agentic-ai-systems) | 248 | 2025-12-08T13:10:04Z | Unknown | Unknown | 14 | 0 | 0 | 0 |
 | [danielrosehill/Audio-Understanding-Test-Prompts](https://github.com/danielrosehill/Audio-Understanding-Test-Prompts) | 1 | 2025-12-08T12:18:55Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
-| [MME-Benchmarks/Video-MME](https://github.com/MME-Benchmarks/Video-MME) | 780 | 2025-12-08T06:31:55Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [MME-Benchmarks/Video-MME](https://github.com/MME-Benchmarks/Video-MME) | 782 | 2025-12-08T06:31:55Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [eric-haibin-lin/verl-community](https://github.com/eric-haibin-lin/verl-community) | 41 | 2025-12-07T16:53:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [AppImageCommunity/awesome-appimage](https://github.com/AppImageCommunity/awesome-appimage) | 562 | 2025-12-07T12:00:44Z | Unknown | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [dalek-cryptography/ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek) | 704 | 2025-12-06T22:55:41Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
@@ -1810,7 +1810,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [godotengine/awesome-godot](https://github.com/godotengine/awesome-godot) | 9864 | 2026-04-20T21:01:20Z | Unknown | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs) | 9863 | 2026-02-18T16:46:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [xaoyaoo/pywxdump](https://github.com/xaoyaoo/PyWxDump) | 9751 | 2025-10-20T10:36:39Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9725 | 2026-06-17T11:38:28Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9726 | 2026-06-17T11:38:28Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [FasterXML/jackson](https://github.com/FasterXML/jackson) | 9705 | 2026-04-19T23:22:28Z | Unknown | Unknown | 2 | 0 | 4 | 4 |
 | [AdrienTorris/awesome-blazor](https://github.com/AdrienTorris/awesome-blazor) | 9330 | 2025-08-14T14:08:38Z | Unknown | Framework | 20 | 0 | 20 | 20 |
 | [github/roadmap](https://github.com/github/roadmap) | 8701 | 2024-10-15T17:31:37Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -2019,7 +2019,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ByteDance-Seed/Seed-Thinking-v1.5](https://github.com/ByteDance-Seed/Seed-Thinking-v1.5) | 815 | 2025-06-09T12:08:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sgl-project/sgl-learning-materials](https://github.com/sgl-project/sgl-learning-materials) | 803 | 2026-01-05T04:55:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [emberjs/rfcs](https://github.com/emberjs/rfcs) | 802 | 2026-04-20T15:19:48Z | Unknown | CLI | 8 | 4 | 8 | 8 |
-| [MME-Benchmarks/Video-MME](https://github.com/MME-Benchmarks/Video-MME) | 780 | 2025-12-08T06:31:55Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [MME-Benchmarks/Video-MME](https://github.com/MME-Benchmarks/Video-MME) | 782 | 2025-12-08T06:31:55Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [facebookresearch/bitsandbytes](https://github.com/facebookresearch/bitsandbytes) | 779 | 2022-08-18T14:33:17Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [grpc/proposal](https://github.com/grpc/proposal) | 776 | 2026-04-03T18:59:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) | 774 | 2025-11-21T02:38:58Z | Unknown | Unknown | 7 | 1 | 7 | 7 |

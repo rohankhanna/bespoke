@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 34
-- components: 32
-- concepts: 34
-- observations: 34
+- repos: 3
+- terms: 28
+- components: 24
+- concepts: 28
+- observations: 28
 
 ## Static behavior
 
@@ -29,7 +29,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bazel-contrib/rules_jvm_external](https://github.com/bazel-contrib/rules_jvm_external) | 372 | 2026-06-29T18:18:03Z | Java | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 199 | 2026-06-29T14:13:12Z | Java | CLI | 8 | 15 | 8 | 8 |
 | [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 969 | 2026-06-27T03:55:38Z | Java | CLI | 16 | 8 | 16 | 16 |
-| [eclipse-corrosion/corrosion](https://github.com/eclipse-corrosion/corrosion) | 241 | 2026-06-24T09:19:00Z | Java | CLI | 6 | 8 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -37,5 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 969 | 2026-06-27T03:55:38Z | Java | CLI | 16 | 8 | 16 | 16 |
 | [bazel-contrib/rules_jvm_external](https://github.com/bazel-contrib/rules_jvm_external) | 372 | 2026-06-29T18:18:03Z | Java | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [eclipse-corrosion/corrosion](https://github.com/eclipse-corrosion/corrosion) | 241 | 2026-06-24T09:19:00Z | Java | CLI | 6 | 8 | 6 | 6 |
 | [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 199 | 2026-06-29T14:13:12Z | Java | CLI | 8 | 15 | 8 | 8 |

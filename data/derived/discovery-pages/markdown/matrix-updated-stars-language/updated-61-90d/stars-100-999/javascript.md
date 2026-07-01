@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 166
-- terms: 853
-- components: 3599
-- concepts: 826
-- observations: 837
+- repos: 167
+- terms: 854
+- components: 3608
+- concepts: 827
+- observations: 838
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [firebase/snippets-web](https://github.com/firebase/snippets-web) | 794 | 2026-05-02T08:48:07Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [fontello/svg2ttf](https://github.com/fontello/svg2ttf) | 543 | 2026-05-02T01:17:12Z | JavaScript | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [openfl/lime](https://github.com/openfl/lime) | 838 | 2026-05-01T21:44:38Z | JavaScript | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [americanexpress/jest-json-schema](https://github.com/americanexpress/jest-json-schema) | 172 | 2026-05-01T20:21:41Z | JavaScript | Infrastructure/tooling | 9 | 27 | 11 | 11 |
@@ -213,6 +214,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stripe-samples/accept-a-payment](https://github.com/stripe-samples/accept-a-payment) | 826 | 2026-04-14T19:49:13Z | JavaScript | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [hyparam/hyparquet](https://github.com/hyparam/hyparquet) | 809 | 2026-04-08T18:57:22Z | JavaScript | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [dwyl/hapi-auth-jwt2](https://github.com/dwyl/hapi-auth-jwt2) | 796 | 2026-04-02T23:29:17Z | JavaScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
+| [firebase/snippets-web](https://github.com/firebase/snippets-web) | 794 | 2026-05-02T08:48:07Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [rvagg/github-webhook-handler](https://github.com/rvagg/github-webhook-handler) | 793 | 2026-04-29T12:17:22Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [browserify/resolve](https://github.com/browserify/resolve) | 793 | 2026-04-13T04:29:25Z | JavaScript | Infrastructure/tooling | 12 | 36 | 12 | 12 |
 | [commitizen/cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog) | 792 | 2026-04-29T18:52:30Z | JavaScript | Infrastructure/tooling | 4 | 16 | 4 | 4 |

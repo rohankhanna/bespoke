@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 31,
-    "terms": 58
+    "components": 59,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 32,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "bunburysniper/bleunova-ai-agent",
@@ -43,6 +43,7 @@
     "piqrypt/piqrypt-mcp-server",
     "redai-infra/TransferQueue",
     "roampal-ai/roampal-labs",
+    "seanmacavaney/ir-datasets.com",
     "shubishere/ai-drawio",
     "superfarther/K2V"
   ]

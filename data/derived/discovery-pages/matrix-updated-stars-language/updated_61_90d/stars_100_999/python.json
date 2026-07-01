@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2487,
-    "concepts": 2360,
-    "observations": 2370,
-    "repos": 449,
-    "terms": 2362
+    "components": 2505,
+    "concepts": 2398,
+    "observations": 2408,
+    "repos": 451,
+    "terms": 2400
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -48,7 +48,6 @@
     "airspeed-velocity/asv",
     "akfamily/akquant",
     "albumentations-team/AlbumentationsX",
-    "Alibaba-NLP/qqr",
     "Alibaba-NLP/VRAG",
     "alibaba/ROCK",
     "alibaizhanov/mengram",
@@ -119,6 +118,8 @@
     "clearbluejar/pyghidra-mcp",
     "ClementPinard/FlowNetPytorch",
     "ClementPinard/Pytorch-Correlation-extension",
+    "cognizant-ai-lab/neuro-san",
+    "cognizant-ai-lab/neuro-san-studio",
     "ComparativeGenomicsToolkit/cactus",
     "compilerla/conventional-pre-commit",
     "conda-forge/conda-smithy",
@@ -179,6 +180,7 @@
     "fatiando/pooch",
     "fcakyon/claude-codex-settings",
     "feluelle/airflow-diagrams",
+    "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
     "fla-org/flame",
     "flageval-baai/FlagEvalMM",
     "FlagOpen/Robo-Dopamine",

@@ -3,7 +3,7 @@
     "components": 2208,
     "concepts": 2051,
     "observations": 2058,
-    "repos": 880,
+    "repos": 881,
     "terms": 2039
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -241,6 +241,7 @@
     "ChromiumDotNet/Chromium.AspNetCore.Bridge",
     "citusdata/citus_docs",
     "cjohansen/gadget-inspector",
+    "cjohansen/m1p",
     "ckipp01/stylua-nvim",
     "cleanlab/cleanvision-examples",
     "cleanunicorn/mockprovider",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 14
-- components: 41
-- concepts: 14
-- observations: 15
+- repos: 2
+- terms: 23
+- components: 71
+- concepts: 23
+- observations: 24
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2077 | 2026-06-30T12:57:37Z | Rust | Infrastructure/tooling | 14 | 41 | 14 | 15 |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2077 | 2026-07-01T04:18:18Z | Rust | Infrastructure/tooling | 14 | 41 | 14 | 15 |
+| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-07-01T02:11:02Z | Rust | Infrastructure/tooling | 9 | 30 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2077 | 2026-06-30T12:57:37Z | Rust | Infrastructure/tooling | 14 | 41 | 14 | 15 |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2077 | 2026-07-01T04:18:18Z | Rust | Infrastructure/tooling | 14 | 41 | 14 | 15 |
+| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-07-01T02:11:02Z | Rust | Infrastructure/tooling | 9 | 30 | 9 | 9 |

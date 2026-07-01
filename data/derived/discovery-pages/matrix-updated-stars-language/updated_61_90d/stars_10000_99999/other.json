@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1998,
-    "concepts": 1432,
-    "observations": 1439,
-    "repos": 151,
-    "terms": 1425
+    "components": 1975,
+    "concepts": 1409,
+    "observations": 1416,
+    "repos": 150,
+    "terms": 1402
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "abpframework/abp",
     "actions/runner-images",
@@ -48,7 +48,6 @@
     "dart-lang/sdk",
     "datawhalechina/self-llm",
     "deepset-ai/haystack",
-    "devicons/devicon",
     "doomemacs/doomemacs",
     "dotnet/core",
     "dotnet/csharplang",
@@ -102,7 +101,6 @@
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
     "kubernetes/community",
-    "LazyVim/LazyVim",
     "llvm/llvm-project",
     "logseq/logseq",
     "MagicStack/uvloop",
@@ -154,6 +152,7 @@
     "square/okhttp",
     "square/retrofit",
     "swagger-api/swagger-codegen",
+    "swiftlang/swift-package-manager",
     "syl20bnr/spacemacs",
     "symfony/symfony",
     "tc39/ecma262",

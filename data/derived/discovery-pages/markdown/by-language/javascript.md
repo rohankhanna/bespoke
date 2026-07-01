@@ -1,6 +1,6 @@
 # JavaScript
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 ## Active filters
 
@@ -9,8 +9,8 @@ Generated at: `2026-07-01T06:04:45.209590+00:00`
 ## Counts
 
 - repos: 2092
-- terms: 8847
-- components: 39656
+- terms: 8849
+- components: 39662
 - concepts: 8859
 - observations: 8886
 
@@ -22,30 +22,30 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vercel/next.js](https://github.com/vercel/next.js) | 140198 | 2026-07-01T08:49:07Z | JavaScript | Infrastructure/tooling | 21 | 226 | 21 | 21 |
+| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3182 | 2026-07-01T06:39:15Z | JavaScript | CLI | 12 | 27 | 12 | 13 |
+| [module-federation/core](https://github.com/module-federation/core) | 2560 | 2026-07-01T06:04:17Z | JavaScript | Infrastructure/tooling | 13 | 173 | 13 | 13 |
+| [mui/material-ui](https://github.com/mui/material-ui) | 98505 | 2026-07-01T05:55:43Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
+| [endojs/endo](https://github.com/endojs/endo) | 1028 | 2026-07-01T05:30:54Z | JavaScript | Infrastructure/tooling | 18 | 55 | 18 | 18 |
 | [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 287 | 2026-07-01T00:45:31Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
 | [ipfs/ipfs-companion](https://github.com/ipfs/ipfs-companion) | 2156 | 2026-07-01T00:39:29Z | JavaScript | Infrastructure/tooling | 13 | 105 | 13 | 13 |
 | [avocadowastaken/prettier-plugin-prisma](https://github.com/avocadowastaken/prettier-plugin-prisma) | 230 | 2026-06-30T22:04:36Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
-| [vercel/next.js](https://github.com/vercel/next.js) | 140310 | 2026-06-30T17:20:34Z | JavaScript | Infrastructure/tooling | 21 | 226 | 21 | 21 |
-| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3182 | 2026-06-30T16:37:44Z | JavaScript | CLI | 12 | 21 | 12 | 13 |
-| [preactjs/preact](https://github.com/preactjs/preact) | 38729 | 2026-06-30T16:14:20Z | JavaScript | Infrastructure/tooling | 12 | 64 | 12 | 12 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38728 | 2026-06-30T20:19:00Z | JavaScript | Infrastructure/tooling | 12 | 64 | 12 | 12 |
 | [browserslist/caniuse-lite](https://github.com/browserslist/caniuse-lite) | 612 | 2026-06-30T09:58:03Z | JavaScript | Infrastructure/tooling | 3 | 24 | 3 | 3 |
-| [mui/material-ui](https://github.com/mui/material-ui) | 98501 | 2026-06-30T07:37:43Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
 | [digitalocean/openapi](https://github.com/digitalocean/openapi) | 137 | 2026-06-30T06:58:19Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
-| [module-federation/core](https://github.com/module-federation/core) | 2560 | 2026-06-30T06:39:54Z | JavaScript | Infrastructure/tooling | 13 | 173 | 13 | 13 |
 | [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-06-30T04:08:05Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1630 | 2026-06-30T02:21:55Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |
-| [endojs/endo](https://github.com/endojs/endo) | 1028 | 2026-06-30T01:39:12Z | JavaScript | Infrastructure/tooling | 18 | 55 | 18 | 18 |
 | [pillarjs/iconv-lite](https://github.com/pillarjs/iconv-lite) | 3174 | 2026-06-29T23:11:46Z | JavaScript | Infrastructure/tooling | 8 | 39 | 8 | 8 |
 | [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41189 | 2026-06-29T20:54:49Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
 | [jupyter/nbclassic](https://github.com/jupyter/nbclassic) | 111 | 2026-06-29T00:10:04Z | JavaScript | Infrastructure/tooling | 10 | 47 | 10 | 10 |
 | [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5347 | 2026-06-27T12:02:23Z | JavaScript | Infrastructure/tooling | 19 | 12 | 19 | 19 |
-| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13543 | 2026-06-27T08:22:24Z | JavaScript | Infrastructure/tooling | 2 | 31 | 2 | 2 |
+| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13542 | 2026-06-27T08:22:24Z | JavaScript | Infrastructure/tooling | 2 | 31 | 2 | 2 |
 | [apollographql/eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql) | 1215 | 2026-06-26T22:30:58Z | JavaScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
 | [paralleldrive/cuid](https://github.com/paralleldrive/cuid) | 3505 | 2026-06-26T22:09:45Z | JavaScript | Web app | 0 | 14 | 0 | 0 |
 | [apostrophecms/starter-kit-astro-essentials](https://github.com/apostrophecms/starter-kit-astro-essentials) | 7 | 2026-06-25T10:18:26Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [storybook-community/addon-queryparams](https://github.com/storybook-community/addon-queryparams) | 12 | 2026-06-24T14:46:18Z | JavaScript | Infrastructure/tooling | 2 | 36 | 2 | 2 |
 | [w3c/trusted-types](https://github.com/w3c/trusted-types) | 660 | 2026-06-23T13:01:55Z | JavaScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
-| [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7326 | 2026-06-22T09:25:27Z | JavaScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
+| [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7328 | 2026-06-22T09:25:27Z | JavaScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
 | [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 263 | 2026-06-21T17:35:54Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
 | [tape-testing/tape](https://github.com/tape-testing/tape) | 5802 | 2026-06-18T18:06:06Z | JavaScript | Infrastructure/tooling | 3 | 76 | 3 | 3 |
 | [oscard0m/ts-transformer-remove-named-export](https://github.com/oscard0m/ts-transformer-remove-named-export) | 1 | 2026-06-16T16:41:28Z | JavaScript | Unknown | 0 | 11 | 0 | 0 |
@@ -749,7 +749,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | 79134 | 2026-03-31T00:50:07Z | JavaScript | Infrastructure/tooling | 13 | 41 | 13 | 13 |
 | [rtfeldman/node-test-runner](https://github.com/rtfeldman/node-test-runner) | 139 | 2026-03-30T21:00:12Z | JavaScript | Infrastructure/tooling | 2 | 24 | 2 | 2 |
 | [auth0/node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) | 18167 | 2026-03-30T18:59:54Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
-| [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5959 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5958 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [isaacs/minimatch](https://github.com/isaacs/minimatch) | 3500 | 2026-03-30T18:11:46Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [Patrick-ring-motive/sval-rhino-gs](https://github.com/Patrick-ring-motive/sval-rhino-gs) | 0 | 2026-03-30T17:28:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [hapijs/joi](https://github.com/hapijs/joi) | 21195 | 2026-03-30T17:24:52Z | JavaScript | Infrastructure/tooling | 3 | 16 | 3 | 3 |
@@ -1181,7 +1181,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ehmicky/global-cache-dir](https://github.com/ehmicky/global-cache-dir) | 6 | 2025-05-25T23:03:22Z | JavaScript | Infrastructure/tooling | 16 | 7 | 16 | 16 |
 | [JCOMAIA/MaiMai](https://github.com/JCOMAIA/MaiMai) | 18 | 2025-05-23T13:38:13Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [grahama1970/claude-code-mcp-enhanced](https://github.com/grahama1970/claude-code-mcp-enhanced) | 108 | 2025-05-20T18:24:43Z | JavaScript | Infrastructure/tooling | 1 | 12 | 0 | 0 |
-| [statsd/statsd](https://github.com/statsd/statsd) | 18049 | 2025-05-20T07:22:42Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
+| [statsd/statsd](https://github.com/statsd/statsd) | 18051 | 2025-05-20T07:22:42Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [chancejs/chancejs](https://github.com/chancejs/chancejs) | 6544 | 2025-05-18T21:03:04Z | JavaScript | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [saharan/OimoPhysics](https://github.com/saharan/OimoPhysics) | 941 | 2025-05-18T14:53:08Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
 | [kingler/n8n_agent](https://github.com/kingler/n8n_agent) | 239 | 2025-05-16T17:30:38Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
@@ -1251,7 +1251,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mayurankv/Obsidian-Code-Styler](https://github.com/mayurankv/Obsidian-Code-Styler) | 568 | 2025-02-16T21:29:51Z | JavaScript | Infrastructure/tooling | 5 | 39 | 5 | 5 |
 | [insin/nwb](https://github.com/insin/nwb) | 5550 | 2025-02-15T17:20:52Z | JavaScript | Web app | 9 | 76 | 9 | 9 |
 | [facebook/create-react-app](https://github.com/facebook/create-react-app) | 103390 | 2025-02-15T01:32:11Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 6 |
-| [react/create-react-app](https://github.com/react/create-react-app) | 103312 | 2025-02-15T01:32:11Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 6 |
+| [react/create-react-app](https://github.com/react/create-react-app) | 103313 | 2025-02-15T01:32:11Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 6 |
 | [5sControl/5s-onvif](https://github.com/5sControl/5s-onvif) | 0 | 2025-02-14T09:47:34Z | JavaScript | Infrastructure/tooling | 6 | 26 | 6 | 6 |
 | [jshint/jshint](https://github.com/jshint/jshint) | 9070 | 2025-02-13T17:18:03Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [timarney/react-app-rewired](https://github.com/timarney/react-app-rewired) | 9858 | 2025-02-13T03:23:53Z | JavaScript | Web app | 6 | 2 | 6 | 6 |
@@ -1261,7 +1261,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vitalets/react-native-extended-stylesheet](https://github.com/vitalets/react-native-extended-stylesheet) | 2933 | 2025-02-05T16:37:19Z | JavaScript | Unknown | 7 | 18 | 7 | 7 |
 | [holochain/zome-mere-memory](https://github.com/holochain/zome-mere-memory) | 13 | 2025-01-31T23:54:34Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [reZach/secure-electron-license-keys](https://github.com/reZach/secure-electron-license-keys) | 59 | 2025-01-26T21:05:31Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
-| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6173 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6172 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [vueuse/vue-demi](https://github.com/vueuse/vue-demi) | 3135 | 2025-01-22T09:27:29Z | JavaScript | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [bvaughn/react-virtualized](https://github.com/bvaughn/react-virtualized) | 27074 | 2025-01-20T21:42:24Z | JavaScript | Infrastructure/tooling | 10 | 74 | 10 | 10 |
 | [micromatch/braces](https://github.com/micromatch/braces) | 249 | 2025-01-19T20:06:12Z | JavaScript | Infrastructure/tooling | 15 | 7 | 15 | 15 |
@@ -1379,7 +1379,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mike-diamond/media-query-splitting-plugin](https://github.com/mike-diamond/media-query-splitting-plugin) | 107 | 2024-08-28T08:58:57Z | JavaScript | Web app | 0 | 10 | 0 | 0 |
 | [hchiam/generator-hchiam-learning](https://github.com/hchiam/generator-hchiam-learning) | 1 | 2024-08-28T04:16:17Z | JavaScript | Infrastructure/tooling | 1 | 16 | 1 | 1 |
 | [leoasis/redux-immutable-state-invariant](https://github.com/leoasis/redux-immutable-state-invariant) | 938 | 2024-08-27T20:44:53Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
-| [micromatch/micromatch](https://github.com/micromatch/micromatch) | 3035 | 2024-08-26T23:15:58Z | JavaScript | Infrastructure/tooling | 19 | 9 | 20 | 20 |
+| [micromatch/micromatch](https://github.com/micromatch/micromatch) | 3035 | 2024-08-26T23:15:58Z | JavaScript | Infrastructure/tooling | 20 | 9 | 20 | 20 |
 | [niivue/niivue-mesh](https://github.com/niivue/niivue-mesh) | 5 | 2024-08-26T08:18:06Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [ipdxco/awesome-github-as-code-users](https://github.com/ipdxco/awesome-github-as-code-users) | 2 | 2024-08-20T13:51:04Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [andersontr15/clean-code-javascript-es](https://github.com/andersontr15/clean-code-javascript-es) | 3524 | 2024-08-17T21:54:27Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -1402,7 +1402,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fridays/next-routes](https://github.com/fridays/next-routes) | 2463 | 2024-08-06T05:50:49Z | JavaScript | Unknown | 8 | 19 | 8 | 8 |
 | [lit/lit-element-starter-js](https://github.com/lit/lit-element-starter-js) | 207 | 2024-08-05T19:54:23Z | JavaScript | Unknown | 0 | 20 | 0 | 0 |
 | [google/closure-library](https://github.com/google/closure-library) | 4897 | 2024-08-01T20:51:28Z | JavaScript | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [tritondatacenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [TritonDataCenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [micromatch/to-regex-range](https://github.com/micromatch/to-regex-range) | 173 | 2024-08-01T09:45:24Z | JavaScript | Unknown | 18 | 5 | 18 | 18 |
 | [brombal/just-install](https://github.com/brombal/just-install) | 51 | 2024-07-31T23:01:48Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [pot-app/pot-app-collection-plugin-shanbay](https://github.com/pot-app/pot-app-collection-plugin-shanbay) | 10 | 2024-07-31T00:10:02Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -1570,7 +1570,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [micromatch/expand-braces](https://github.com/micromatch/expand-braces) | 8 | 2024-01-23T12:50:05Z | JavaScript | Unknown | 4 | 8 | 4 | 4 |
 | [tomchentw/imagemin-lint-staged](https://github.com/tomchentw/imagemin-lint-staged) | 85 | 2024-01-22T11:52:19Z | JavaScript | CLI | 4 | 17 | 4 | 4 |
 | [a2not/vite-grpc-web](https://github.com/a2not/vite-grpc-web) | 26 | 2024-01-21T15:15:28Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
-| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 180 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 5 | 16 | 6 | 6 |
+| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 180 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [fireship-io/javascript-millionaire](https://github.com/fireship-io/javascript-millionaire) | 264 | 2024-01-17T02:17:30Z | JavaScript | CLI | 0 | 6 | 0 | 0 |
 | [casesandberg/react-color](https://github.com/casesandberg/react-color) | 12303 | 2024-01-12T23:19:54Z | JavaScript | Unknown | 7 | 51 | 7 | 7 |
 | [styled-system/styled-system](https://github.com/styled-system/styled-system) | 7871 | 2024-01-12T19:55:49Z | JavaScript | Web app | 13 | 15 | 13 | 13 |
@@ -2122,13 +2122,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebook/react](https://github.com/facebook/react) | 244621 | 2026-04-21T09:39:34Z | JavaScript | Infrastructure/tooling | 4 | 121 | 4 | 4 |
 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 160886 | 2026-04-19T04:53:41Z | JavaScript | Infrastructure/tooling | 10 | 20 | 0 | 0 |
 | [airbnb/javascript](https://github.com/airbnb/javascript) | 148133 | 2026-04-16T19:24:09Z | JavaScript | Infrastructure/tooling | 15 | 9 | 15 | 15 |
-| [vercel/next.js](https://github.com/vercel/next.js) | 140310 | 2026-06-30T17:20:34Z | JavaScript | Infrastructure/tooling | 21 | 226 | 21 | 21 |
+| [vercel/next.js](https://github.com/vercel/next.js) | 140198 | 2026-07-01T08:49:07Z | JavaScript | Infrastructure/tooling | 21 | 226 | 21 | 21 |
 | [nodejs/node](https://github.com/nodejs/node) | 116811 | 2026-04-19T07:03:51Z | JavaScript | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | 112097 | 2026-04-21T09:26:22Z | JavaScript | Infrastructure/tooling | 13 | 26 | 13 | 13 |
 | [axios/axios](https://github.com/axios/axios) | 109040 | 2026-05-03T12:03:55Z | JavaScript | CLI | 12 | 51 | 12 | 12 |
 | [facebook/create-react-app](https://github.com/facebook/create-react-app) | 103390 | 2025-02-15T01:32:11Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 6 |
-| [react/create-react-app](https://github.com/react/create-react-app) | 103312 | 2025-02-15T01:32:11Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 6 |
-| [mui/material-ui](https://github.com/mui/material-ui) | 98501 | 2026-06-30T07:37:43Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
+| [react/create-react-app](https://github.com/react/create-react-app) | 103313 | 2025-02-15T01:32:11Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 6 |
+| [mui/material-ui](https://github.com/mui/material-ui) | 98505 | 2026-07-01T05:55:43Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
 | [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript) | 94296 | 2024-07-29T07:24:37Z | JavaScript | Unknown | 6 | 0 | 6 | 6 |
 | [sveltejs/svelte](https://github.com/sveltejs/svelte) | 86464 | 2026-05-01T21:58:47Z | JavaScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | 79134 | 2026-03-31T00:50:07Z | JavaScript | Infrastructure/tooling | 13 | 41 | 13 | 13 |
@@ -2157,7 +2157,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yarnpkg/yarn](https://github.com/yarnpkg/yarn) | 41516 | 2026-04-17T20:36:19Z | JavaScript | Infrastructure/tooling | 3 | 94 | 3 | 3 |
 | [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41189 | 2026-06-29T20:54:49Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
 | [videojs/video.js](https://github.com/videojs/video.js) | 39700 | 2026-03-11T20:25:34Z | JavaScript | Infrastructure/tooling | 12 | 89 | 12 | 12 |
-| [preactjs/preact](https://github.com/preactjs/preact) | 38729 | 2026-06-30T16:14:20Z | JavaScript | Infrastructure/tooling | 12 | 64 | 12 | 12 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38728 | 2026-06-30T20:19:00Z | JavaScript | Infrastructure/tooling | 12 | 64 | 12 | 12 |
 | [markedjs/marked](https://github.com/markedjs/marked) | 36743 | 2026-04-21T02:52:38Z | JavaScript | Infrastructure/tooling | 5 | 27 | 6 | 6 |
 | [fastify/fastify](https://github.com/fastify/fastify) | 36109 | 2026-04-22T13:23:17Z | JavaScript | Infrastructure/tooling | 12 | 59 | 12 | 12 |
 | [carbon-app/carbon](https://github.com/carbon-app/carbon) | 36025 | 2026-02-10T05:07:19Z | JavaScript | Infrastructure/tooling | 8 | 51 | 8 | 8 |
@@ -2235,7 +2235,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dropzone/dropzone](https://github.com/dropzone/dropzone) | 18387 | 2024-07-15T15:20:29Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 18174 | 2026-04-29T20:22:34Z | JavaScript | Infrastructure/tooling | 8 | 111 | 8 | 8 |
 | [auth0/node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) | 18167 | 2026-03-30T18:59:54Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
-| [statsd/statsd](https://github.com/statsd/statsd) | 18049 | 2025-05-20T07:22:42Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
+| [statsd/statsd](https://github.com/statsd/statsd) | 18051 | 2025-05-20T07:22:42Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [emotion-js/emotion](https://github.com/emotion-js/emotion) | 18019 | 2026-05-06T07:42:22Z | JavaScript | Infrastructure/tooling | 6 | 74 | 6 | 6 |
 | [pot-app/pot-desktop](https://github.com/pot-app/pot-desktop) | 17870 | 2026-04-10T08:11:00Z | JavaScript | Infrastructure/tooling | 9 | 50 | 9 | 9 |
 | [nodemailer/nodemailer](https://github.com/nodemailer/nodemailer) | 17547 | 2026-04-27T10:23:39Z | JavaScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
@@ -2274,7 +2274,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [electerm/electerm](https://github.com/electerm/electerm) | 13984 | 2026-04-24T08:57:01Z | JavaScript | CLI | 21 | 82 | 21 | 21 |
 | [novnc/noVNC](https://github.com/novnc/noVNC) | 13668 | 2026-04-28T10:44:09Z | JavaScript | CLI | 13 | 29 | 13 | 13 |
 | [sql-js/sql.js](https://github.com/sql-js/sql.js) | 13606 | 2026-03-04T01:48:35Z | JavaScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
-| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13543 | 2026-06-27T08:22:24Z | JavaScript | Infrastructure/tooling | 2 | 31 | 2 | 2 |
+| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13542 | 2026-06-27T08:22:24Z | JavaScript | Infrastructure/tooling | 2 | 31 | 2 | 2 |
 | [zalmoxisus/redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) | 13492 | 2023-11-07T11:04:59Z | JavaScript | Unknown | 4 | 55 | 4 | 4 |
 | [mishoo/UglifyJS](https://github.com/mishoo/UglifyJS) | 13397 | 2024-11-22T08:11:38Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [brianc/node-postgres](https://github.com/brianc/node-postgres) | 13121 | 2026-04-22T21:11:39Z | JavaScript | CLI | 5 | 11 | 5 | 5 |
@@ -2380,7 +2380,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [umdjs/umd](https://github.com/umdjs/umd) | 7447 | 2024-11-26T23:55:09Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [ipfs/js-ipfs](https://github.com/ipfs/js-ipfs) | 7413 | 2023-05-25T17:13:28Z | JavaScript | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [krausest/js-framework-benchmark](https://github.com/krausest/js-framework-benchmark) | 7408 | 2026-04-27T18:34:17Z | JavaScript | Framework | 0 | 16 | 0 | 0 |
-| [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7326 | 2026-06-22T09:25:27Z | JavaScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
+| [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7328 | 2026-06-22T09:25:27Z | JavaScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
 | [berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra) | 7313 | 2024-07-18T12:28:02Z | JavaScript | Infrastructure/tooling | 16 | 21 | 16 | 16 |
 | [stefanpenner/es6-promise](https://github.com/stefanpenner/es6-promise) | 7277 | 2022-11-14T21:47:12Z | JavaScript | Unknown | 0 | 24 | 0 | 0 |
 | [kazupon/vue-i18n](https://github.com/kazupon/vue-i18n) | 7241 | 2024-12-31T15:15:58Z | JavaScript | Infrastructure/tooling | 6 | 71 | 6 | 6 |
@@ -2408,12 +2408,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pa7/heatmap.js](https://github.com/pa7/heatmap.js) | 6370 | 2023-10-31T03:05:44Z | JavaScript | Library | 14 | 6 | 14 | 14 |
 | [RichardLitt/standard-readme](https://github.com/RichardLitt/standard-readme) | 6291 | 2026-04-10T03:26:11Z | JavaScript | Unknown | 5 | 2 | 5 | 5 |
 | [slap-editor/slap](https://github.com/slap-editor/slap) | 6186 | 2021-11-01T04:47:39Z | JavaScript | CLI | 0 | 15 | 0 | 0 |
-| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6173 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6172 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [antfu/eslint-config](https://github.com/antfu/eslint-config) | 6166 | 2026-04-30T07:06:22Z | JavaScript | Infrastructure/tooling | 4 | 83 | 4 | 4 |
 | [thx/gogocode](https://github.com/thx/gogocode) | 6085 | 2024-04-11T02:24:33Z | JavaScript | Web app | 3 | 8 | 3 | 3 |
 | [nodeca/pako](https://github.com/nodeca/pako) | 6066 | 2024-06-27T10:02:41Z | JavaScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [DavidAnson/markdownlint](https://github.com/DavidAnson/markdownlint) | 6021 | 2026-04-20T02:23:53Z | JavaScript | Infrastructure/tooling | 7 | 44 | 8 | 8 |
-| [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5959 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5958 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [cuckoosandbox/cuckoo](https://github.com/cuckoosandbox/cuckoo) | 5950 | 2022-05-03T16:17:48Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [import-js/eslint-plugin-import](https://github.com/import-js/eslint-plugin-import) | 5909 | 2026-04-27T17:30:38Z | JavaScript | Infrastructure/tooling | 13 | 69 | 13 | 13 |
 | [fullstorydev/grpcui](https://github.com/fullstorydev/grpcui) | 5880 | 2026-04-21T21:18:50Z | JavaScript | Infrastructure/tooling | 3 | 0 | 3 | 3 |
@@ -2529,7 +2529,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PanJiaChen/electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin) | 3231 | 2022-01-24T19:30:35Z | JavaScript | Web app | 4 | 49 | 4 | 4 |
 | [callstack/react-native-builder-bob](https://github.com/callstack/react-native-builder-bob) | 3222 | 2026-06-16T11:57:44Z | JavaScript | CLI | 11 | 28 | 11 | 11 |
 | [pmmmwh/react-refresh-webpack-plugin](https://github.com/pmmmwh/react-refresh-webpack-plugin) | 3188 | 2026-04-21T10:00:52Z | JavaScript | Infrastructure/tooling | 5 | 50 | 5 | 5 |
-| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3182 | 2026-06-30T16:37:44Z | JavaScript | CLI | 12 | 21 | 12 | 13 |
+| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3182 | 2026-07-01T06:39:15Z | JavaScript | CLI | 12 | 27 | 12 | 13 |
 | [pillarjs/iconv-lite](https://github.com/pillarjs/iconv-lite) | 3174 | 2026-06-29T23:11:46Z | JavaScript | Infrastructure/tooling | 8 | 39 | 8 | 8 |
 | [lo-th/Oimo.js](https://github.com/lo-th/Oimo.js) | 3159 | 2021-07-08T16:40:21Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [umijs/babel-plugin-import](https://github.com/umijs/babel-plugin-import) | 3150 | 2024-04-24T12:41:03Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
@@ -2540,7 +2540,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GladysAssistant/Gladys](https://github.com/GladysAssistant/Gladys) | 3055 | 2026-05-11T15:37:58Z | JavaScript | Infrastructure/tooling | 16 | 18 | 16 | 16 |
 | [mozilla/webextension-polyfill](https://github.com/mozilla/webextension-polyfill) | 3049 | 2026-02-04T08:43:39Z | JavaScript | Web app | 0 | 31 | 0 | 0 |
 | [lukeed/uvu](https://github.com/lukeed/uvu) | 3037 | 2024-08-30T16:52:27Z | JavaScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
-| [micromatch/micromatch](https://github.com/micromatch/micromatch) | 3035 | 2024-08-26T23:15:58Z | JavaScript | Infrastructure/tooling | 19 | 9 | 20 | 20 |
+| [micromatch/micromatch](https://github.com/micromatch/micromatch) | 3035 | 2024-08-26T23:15:58Z | JavaScript | Infrastructure/tooling | 20 | 9 | 20 | 20 |
 | [rgthree/rgthree-comfy](https://github.com/rgthree/rgthree-comfy) | 3027 | 2026-04-07T04:19:01Z | JavaScript | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [boo1ean/casual](https://github.com/boo1ean/casual) | 3008 | 2023-06-25T20:46:30Z | JavaScript | Unknown | 3 | 6 | 3 | 3 |
 | [GoogleCloudPlatform/nodejs-docs-samples](https://github.com/GoogleCloudPlatform/nodejs-docs-samples) | 2963 | 2026-04-29T22:07:12Z | JavaScript | Infrastructure/tooling | 12 | 27 | 12 | 12 |
@@ -2580,7 +2580,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JaneaSystems/nodejs-mobile](https://github.com/JaneaSystems/nodejs-mobile) | 2604 | 2021-10-27T09:42:35Z | JavaScript | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [mapbox/delaunator](https://github.com/mapbox/delaunator) | 2589 | 2026-03-23T09:52:11Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [external-secrets/kubernetes-external-secrets](https://github.com/external-secrets/kubernetes-external-secrets) | 2585 | 2022-05-28T13:05:36Z | JavaScript | Infrastructure/tooling | 11 | 43 | 11 | 11 |
-| [module-federation/core](https://github.com/module-federation/core) | 2560 | 2026-06-30T06:39:54Z | JavaScript | Infrastructure/tooling | 13 | 173 | 13 | 13 |
+| [module-federation/core](https://github.com/module-federation/core) | 2560 | 2026-07-01T06:04:17Z | JavaScript | Infrastructure/tooling | 13 | 173 | 13 | 13 |
 | [RisingStack/react-easy-state](https://github.com/RisingStack/react-easy-state) | 2547 | 2026-04-30T08:15:06Z | JavaScript | Unknown | 7 | 50 | 7 | 7 |
 | [yomidevs/yomitan](https://github.com/yomidevs/yomitan) | 2539 | 2026-05-25T01:17:52Z | JavaScript | Infrastructure/tooling | 21 | 73 | 21 | 21 |
 | [webpack/webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) | 2516 | 2026-04-29T10:53:09Z | JavaScript | Infrastructure/tooling | 6 | 49 | 6 | 7 |
@@ -2789,7 +2789,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nodejs/readable-stream](https://github.com/nodejs/readable-stream) | 1045 | 2025-01-07T10:06:21Z | JavaScript | Infrastructure/tooling | 6 | 36 | 6 | 6 |
 | [kawanet/msgpack-lite](https://github.com/kawanet/msgpack-lite) | 1036 | 2022-12-02T12:23:38Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
 | [geotiffjs/geotiff.js](https://github.com/geotiffjs/geotiff.js) | 1030 | 2026-05-26T20:17:59Z | JavaScript | Infrastructure/tooling | 7 | 49 | 7 | 7 |
-| [endojs/endo](https://github.com/endojs/endo) | 1028 | 2026-06-30T01:39:12Z | JavaScript | Infrastructure/tooling | 18 | 55 | 18 | 18 |
+| [endojs/endo](https://github.com/endojs/endo) | 1028 | 2026-07-01T05:30:54Z | JavaScript | Infrastructure/tooling | 18 | 55 | 18 | 18 |
 | [mapbox/geobuf](https://github.com/mapbox/geobuf) | 1026 | 2026-04-28T14:03:12Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [dominictarr/rc](https://github.com/dominictarr/rc) | 1026 | 2022-03-30T18:01:10Z | JavaScript | Unknown | 0 | 4 | 0 | 0 |
 | [sveltejs/vite-plugin-svelte](https://github.com/sveltejs/vite-plugin-svelte) | 1025 | 2026-04-30T19:43:02Z | JavaScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
@@ -3291,7 +3291,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dwyl/sendemail](https://github.com/dwyl/sendemail) | 180 | 2026-04-10T06:55:00Z | JavaScript | Service/API | 0 | 10 | 0 | 0 |
 | [ember-cli/ember-try](https://github.com/ember-cli/ember-try) | 180 | 2025-04-09T03:33:36Z | JavaScript | CLI | 2 | 35 | 2 | 2 |
 | [newrelic/opensource-website](https://github.com/newrelic/opensource-website) | 180 | 2024-09-11T23:39:34Z | JavaScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
-| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 180 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 5 | 16 | 6 | 6 |
+| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 180 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [fabmax/physx-js-webidl](https://github.com/fabmax/physx-js-webidl) | 178 | 2026-04-15T20:01:50Z | JavaScript | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [mzgoddard/preact-render-spy](https://github.com/mzgoddard/preact-render-spy) | 178 | 2023-01-12T09:51:40Z | JavaScript | Unknown | 4 | 16 | 4 | 4 |
 | [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 4 | 9 | 4 | 4 |
@@ -3638,7 +3638,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [julia-actions/cache](https://github.com/julia-actions/cache) | 47 | 2026-05-01T08:03:25Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [JakePartusch/wait-for-netlify-action](https://github.com/JakePartusch/wait-for-netlify-action) | 47 | 2024-05-20T23:02:05Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [readthedocs/addons](https://github.com/readthedocs/addons) | 46 | 2026-04-27T12:13:34Z | JavaScript | CLI | 3 | 37 | 3 | 3 |
-| [tritondatacenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [TritonDataCenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [jlevy/atom-flowmark](https://github.com/jlevy/atom-flowmark) | 45 | 2023-03-04T09:45:13Z | JavaScript | Unknown | 0 | 17 | 0 | 0 |
 | [GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint](https://github.com/GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint) | 44 | 2025-03-31T09:17:55Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [ethereum/rpc-tests](https://github.com/ethereum/rpc-tests) | 44 | 2023-06-20T16:52:49Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |

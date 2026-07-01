@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -29,7 +29,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spring-ai-community/awesome-spring-ai](https://github.com/spring-ai-community/awesome-spring-ai) | 732 | 2025-12-21T08:51:20Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [opendilab/awesome-ui-agents](https://github.com/opendilab/awesome-ui-agents) | 293 | 2025-12-15T14:12:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [thibautmelen/agentic-ai-systems](https://github.com/ThibautMelen/agentic-ai-systems) | 248 | 2025-12-08T13:10:04Z | Unknown | Unknown | 14 | 0 | 0 | 0 |
-| [MME-Benchmarks/Video-MME](https://github.com/MME-Benchmarks/Video-MME) | 780 | 2025-12-08T06:31:55Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [MME-Benchmarks/Video-MME](https://github.com/MME-Benchmarks/Video-MME) | 782 | 2025-12-08T06:31:55Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [AppImageCommunity/awesome-appimage](https://github.com/AppImageCommunity/awesome-appimage) | 562 | 2025-12-07T12:00:44Z | Unknown | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [dalek-cryptography/ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek) | 704 | 2025-12-06T22:55:41Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents](https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents) | 170 | 2025-12-02T05:44:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -306,7 +306,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tesseract-ocr/langdata](https://github.com/tesseract-ocr/langdata) | 866 | 2025-04-01T10:29:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ndjson/ndjson-spec](https://github.com/ndjson/ndjson-spec) | 818 | 2022-10-20T14:43:02Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ByteDance-Seed/Seed-Thinking-v1.5](https://github.com/ByteDance-Seed/Seed-Thinking-v1.5) | 815 | 2025-06-09T12:08:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [MME-Benchmarks/Video-MME](https://github.com/MME-Benchmarks/Video-MME) | 780 | 2025-12-08T06:31:55Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [MME-Benchmarks/Video-MME](https://github.com/MME-Benchmarks/Video-MME) | 782 | 2025-12-08T06:31:55Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [facebookresearch/bitsandbytes](https://github.com/facebookresearch/bitsandbytes) | 779 | 2022-08-18T14:33:17Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) | 774 | 2025-11-21T02:38:58Z | Unknown | Unknown | 7 | 1 | 7 | 7 |
 | [deepseek-ai/awesome-deepseek-coder](https://github.com/deepseek-ai/awesome-deepseek-coder) | 773 | 2025-11-11T06:45:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 99
-- terms: 777
-- components: 4599
-- concepts: 782
-- observations: 785
+- repos: 97
+- terms: 768
+- components: 4549
+- concepts: 773
+- observations: 776
 
 ## Static behavior
 
@@ -123,8 +123,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [thomaspark/bootswatch](https://github.com/thomaspark/bootswatch) | 14764 | 2026-04-07T21:54:06Z | JavaScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |
 | [infernojs/inferno](https://github.com/infernojs/inferno) | 16413 | 2026-04-07T13:07:29Z | JavaScript | Infrastructure/tooling | 8 | 60 | 8 | 8 |
 | [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | 44035 | 2026-04-05T18:11:35Z | JavaScript | Infrastructure/tooling | 13 | 40 | 13 | 13 |
-| [hapijs/hapi](https://github.com/hapijs/hapi) | 14784 | 2026-04-02T08:28:56Z | JavaScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
-| [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) | 19580 | 2026-04-02T07:04:36Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -181,7 +179,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [krisk/Fuse](https://github.com/krisk/Fuse) | 20228 | 2026-04-28T20:27:41Z | JavaScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | 19963 | 2026-04-18T21:32:38Z | JavaScript | CLI | 6 | 7 | 6 | 7 |
 | [11ty/eleventy](https://github.com/11ty/eleventy) | 19615 | 2026-05-01T23:08:30Z | JavaScript | Infrastructure/tooling | 9 | 73 | 9 | 9 |
-| [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) | 19580 | 2026-04-02T07:04:36Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
 | [mdx-js/mdx](https://github.com/mdx-js/mdx) | 19467 | 2026-04-29T12:31:37Z | JavaScript | Infrastructure/tooling | 5 | 109 | 6 | 6 |
 | [decaporg/decap-cms](https://github.com/decaporg/decap-cms) | 19011 | 2026-04-22T15:17:26Z | JavaScript | Infrastructure/tooling | 16 | 117 | 16 | 16 |
 | [vuejs/vue-router](https://github.com/vuejs/vue-router) | 18910 | 2026-04-14T01:14:33Z | JavaScript | Infrastructure/tooling | 2 | 50 | 2 | 2 |
@@ -200,7 +197,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 15115 | 2026-04-18T20:42:15Z | JavaScript | Infrastructure/tooling | 2 | 4 | 0 | 0 |
 | [josdejong/mathjs](https://github.com/josdejong/mathjs) | 15025 | 2026-04-16T13:29:21Z | JavaScript | Infrastructure/tooling | 9 | 71 | 9 | 9 |
 | [ampproject/amphtml](https://github.com/ampproject/amphtml) | 14905 | 2026-04-27T22:36:52Z | JavaScript | Infrastructure/tooling | 7 | 173 | 7 | 7 |
-| [hapijs/hapi](https://github.com/hapijs/hapi) | 14784 | 2026-04-02T08:28:56Z | JavaScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
 | [thomaspark/bootswatch](https://github.com/thomaspark/bootswatch) | 14764 | 2026-04-07T21:54:06Z | JavaScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |
 | [graphql/graphql-spec](https://github.com/graphql/graphql-spec) | 14595 | 2026-04-17T19:09:49Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [http-party/http-server](https://github.com/http-party/http-server) | 14179 | 2026-04-15T11:09:09Z | JavaScript | Infrastructure/tooling | 11 | 24 | 11 | 11 |

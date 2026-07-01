@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 8031,
-    "concepts": 4989,
-    "observations": 5006,
-    "repos": 1198,
-    "terms": 4976
+    "components": 8089,
+    "concepts": 5009,
+    "observations": 5026,
+    "repos": 1202,
+    "terms": 4996
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -71,6 +71,7 @@
     "alexkohler/prealloc",
     "alfworld/alfworld",
     "ali-vilab/Wan-Move",
+    "Alibaba-NLP/qqr",
     "Alibaba-NLP/ViDoRAG",
     "alibaba/TinyNeuralNetwork",
     "alirezarezvani/claude-code-tresor",
@@ -134,6 +135,7 @@
     "aserafin/grape_logging",
     "ashawkey/cubvh",
     "ashvardanian/StringWars",
+    "aslafy-z/helm-git",
     "ASLP-lab/Easy-Turn",
     "AssemblyScript/wabt.js",
     "astra-vision/MonoScene",
@@ -431,6 +433,7 @@
     "feifeibear/long-context-attention",
     "fgnass/domino",
     "Fil/d3-geo-voronoi",
+    "filecoin-project/bellperson",
     "filecoin-project/community",
     "filecoin-project/devgrants",
     "filecoin-project/rust-fil-proofs",
@@ -505,6 +508,7 @@
     "gopacket/gopacket",
     "gost-dom/browser",
     "gpustack/gguf-parser-go",
+    "graalvm/setup-graalvm",
     "gradle-nexus/publish-plugin",
     "graphql-hive/graphql-eslint",
     "gristlabs/asttokens",

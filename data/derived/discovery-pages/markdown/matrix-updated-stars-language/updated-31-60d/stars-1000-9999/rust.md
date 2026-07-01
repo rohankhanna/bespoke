@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 284
-- components: 345
-- concepts: 287
-- observations: 287
+- repos: 27
+- terms: 280
+- components: 336
+- concepts: 283
+- observations: 283
 
 ## Static behavior
 
@@ -53,7 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ron-rs/ron](https://github.com/ron-rs/ron) | 3896 | 2026-05-03T02:31:16Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [MaterializeInc/materialize](https://github.com/MaterializeInc/materialize) | 6280 | 2026-05-03T00:02:04Z | Rust | Infrastructure/tooling | 22 | 8 | 22 | 22 |
 | [nats-io/nats.rs](https://github.com/nats-io/nats.rs) | 1450 | 2026-05-02T13:51:07Z | Rust | CLI | 8 | 13 | 8 | 8 |
-| [rust-lang/rustup](https://github.com/rust-lang/rustup) | 6862 | 2026-05-02T07:30:25Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -61,7 +60,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [databendlabs/databend](https://github.com/databendlabs/databend) | 9298 | 2026-05-25T09:40:05Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [apache/datafusion](https://github.com/apache/datafusion) | 8710 | 2026-05-03T18:00:26Z | Rust | Infrastructure/tooling | 16 | 13 | 16 | 16 |
-| [rust-lang/rustup](https://github.com/rust-lang/rustup) | 6862 | 2026-05-02T07:30:25Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [erebe/wstunnel](https://github.com/erebe/wstunnel) | 6652 | 2026-05-04T07:15:32Z | Rust | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [lance-format/lance](https://github.com/lance-format/lance) | 6390 | 2026-05-07T07:24:52Z | Rust | Infrastructure/tooling | 23 | 18 | 23 | 23 |
 | [MaterializeInc/materialize](https://github.com/MaterializeInc/materialize) | 6280 | 2026-05-03T00:02:04Z | Rust | Infrastructure/tooling | 22 | 8 | 22 | 22 |

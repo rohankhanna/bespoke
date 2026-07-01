@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 192
-- terms: 1292
-- components: 1561
-- concepts: 1284
-- observations: 1291
+- repos: 193
+- terms: 1296
+- components: 1567
+- concepts: 1288
+- observations: 1295
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [helmfile/vals](https://github.com/helmfile/vals) | 747 | 2026-05-02T09:29:41Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [seaweedfs/seaweedfs-csi-driver](https://github.com/seaweedfs/seaweedfs-csi-driver) | 316 | 2026-05-02T00:13:39Z | Go | Infrastructure/tooling | 6 | 21 | 6 | 7 |
 | [cosmos/evm](https://github.com/cosmos/evm) | 149 | 2026-05-01T22:25:45Z | Go | Infrastructure/tooling | 6 | 15 | 6 | 6 |
 | [yaml/go-yaml](https://github.com/yaml/go-yaml) | 472 | 2026-05-01T21:33:40Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
@@ -250,6 +251,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Azure/azure-storage-fuse](https://github.com/Azure/azure-storage-fuse) | 796 | 2026-05-01T01:09:34Z | Go | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [helm/chart-releaser](https://github.com/helm/chart-releaser) | 784 | 2026-04-20T12:16:31Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [letsencrypt/pebble](https://github.com/letsencrypt/pebble) | 770 | 2026-04-20T20:51:42Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [helmfile/vals](https://github.com/helmfile/vals) | 747 | 2026-05-02T09:29:41Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [apache/pulsar-client-go](https://github.com/apache/pulsar-client-go) | 737 | 2026-04-28T01:51:19Z | Go | CLI | 9 | 10 | 9 | 9 |
 | [andybalholm/brotli](https://github.com/andybalholm/brotli) | 723 | 2026-04-13T17:17:38Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [awslabs/soci-snapshotter](https://github.com/awslabs/soci-snapshotter) | 720 | 2026-04-21T10:28:57Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |

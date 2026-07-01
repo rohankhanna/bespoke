@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 3012,
+    "components": 3072,
     "concepts": 670,
     "observations": 670,
-    "repos": 283,
+    "repos": 284,
     "terms": 662
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -60,6 +60,7 @@
     "bjornharrtell/topolis",
     "blakeembrey/node-numbered",
     "bokub/gradient-badge",
+    "breejs/api",
     "breejs/ts-worker",
     "broccolijs/broccoli-filter",
     "broccolijs/broccoli-merge-trees",
@@ -279,7 +280,7 @@
     "tommasongr/nova-vue",
     "topojson/topojson-simplify",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "Twinklebear/webgl-marching-cubes",
     "udacity/FEF-UdaciMeals-Backbone",
     "un-ts/toml-tools",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4599,
-    "concepts": 782,
-    "observations": 785,
-    "repos": 99,
-    "terms": 777
+    "components": 4549,
+    "concepts": 773,
+    "observations": 776,
+    "repos": 97,
+    "terms": 768
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "acornjs/acorn",
@@ -46,7 +46,6 @@
     "GoogleChrome/lighthouse",
     "graphql/graphql-spec",
     "handlebars-lang/handlebars.js",
-    "hapijs/hapi",
     "http-party/http-server",
     "http-party/node-http-proxy",
     "huggingface/transformers.js",
@@ -99,7 +98,6 @@
     "sveltejs/svelte",
     "svg/svgo",
     "swagger-api/swagger-ui",
-    "testing-library/react-testing-library",
     "thomaspark/bootswatch",
     "tj/commander.js",
     "Unitech/pm2",

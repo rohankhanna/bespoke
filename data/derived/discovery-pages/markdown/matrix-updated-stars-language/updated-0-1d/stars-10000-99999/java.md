@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-06-27T10:09:45.922953+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [grpc/grpc-java](https://github.com/grpc/grpc-java) | 12035 | 2026-06-26T11:37:40Z | Java | Infrastructure/tooling | 8 | 14 | 8 | 8 |
+| [grpc/grpc-java](https://github.com/grpc/grpc-java) | 12036 | 2026-07-01T06:00:46Z | Java | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [grpc/grpc-java](https://github.com/grpc/grpc-java) | 12035 | 2026-06-26T11:37:40Z | Java | Infrastructure/tooling | 8 | 14 | 8 | 8 |
+| [grpc/grpc-java](https://github.com/grpc/grpc-java) | 12036 | 2026-07-01T06:00:46Z | Java | Infrastructure/tooling | 8 | 14 | 8 | 8 |

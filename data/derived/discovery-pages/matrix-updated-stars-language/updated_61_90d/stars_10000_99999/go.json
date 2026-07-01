@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1482,
-    "concepts": 1465,
-    "observations": 1469,
-    "repos": 123,
-    "terms": 1452
+    "concepts": 1481,
+    "observations": 1485,
+    "repos": 124,
+    "terms": 1468
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -87,6 +87,7 @@
     "hashicorp/vault",
     "hibiken/asynq",
     "ipfs/kubo",
+    "istio/istio",
     "jaegertracing/jaeger",
     "jesseduffield/lazygit",
     "Jguer/yay",

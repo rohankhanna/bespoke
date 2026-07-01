@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -14,7 +14,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 - repos: 53
 - terms: 164
-- components: 593
+- components: 535
 - concepts: 164
 - observations: 165
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg) | 28 | 2026-04-02T08:55:29Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [Level/memory-level](https://github.com/Level/memory-level) | 36 | 2026-04-02T03:35:42Z | JavaScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
 | [Level/browser-level](https://github.com/Level/browser-level) | 60 | 2026-04-02T01:26:28Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [dart-lang/site-shared](https://github.com/dart-lang/site-shared) | 41 | 2026-04-02T01:19:11Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -78,7 +79,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [breejs/express-example](https://github.com/breejs/express-example) | 19 | 2026-01-07T08:38:03Z | JavaScript | Unknown | 0 | 25 | 0 | 0 |
 | [CheckerNetwork/spark-checker](https://github.com/CheckerNetwork/spark-checker) | 13 | 2026-01-06T09:00:59Z | JavaScript | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [chaijs/check-error](https://github.com/chaijs/check-error) | 15 | 2026-01-03T23:15:58Z | JavaScript | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [breejs/api](https://github.com/breejs/api) | 13 | 2026-01-02T09:12:51Z | JavaScript | Infrastructure/tooling | 0 | 60 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -114,6 +114,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nodejs/Gzemnid](https://github.com/nodejs/Gzemnid) | 35 | 2026-01-10T07:06:58Z | JavaScript | Unknown | 2 | 10 | 2 | 2 |
 | [neverendingqs/serverless-dotenv-example](https://github.com/neverendingqs/serverless-dotenv-example) | 31 | 2026-04-01T16:05:28Z | JavaScript | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [gatsbyjs/gatsby-starter-minimal](https://github.com/gatsbyjs/gatsby-starter-minimal) | 30 | 2026-04-01T21:52:44Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
+| [graphql/graphql-js-wg](https://github.com/graphql/graphql-js-wg) | 28 | 2026-04-02T08:55:29Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [npm/json-parse-even-better-errors](https://github.com/npm/json-parse-even-better-errors) | 27 | 2026-03-23T15:38:29Z | JavaScript | CLI | 8 | 11 | 8 | 8 |
 | [hyparam/hysnappy](https://github.com/hyparam/hysnappy) | 27 | 2026-02-22T03:58:48Z | JavaScript | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [OpenHands/openhands-chrome-extension](https://github.com/OpenHands/openhands-chrome-extension) | 26 | 2026-03-07T07:02:50Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -134,6 +135,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apostrophecms/apostrophe-astro](https://github.com/apostrophecms/apostrophe-astro) | 14 | 2026-02-26T20:20:18Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [haskell-actions/run-fourmolu](https://github.com/haskell-actions/run-fourmolu) | 13 | 2026-03-30T16:36:00Z | JavaScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [CheckerNetwork/spark-checker](https://github.com/CheckerNetwork/spark-checker) | 13 | 2026-01-06T09:00:59Z | JavaScript | Infrastructure/tooling | 7 | 11 | 7 | 7 |
-| [breejs/api](https://github.com/breejs/api) | 13 | 2026-01-02T09:12:51Z | JavaScript | Infrastructure/tooling | 0 | 60 | 0 | 0 |
 | [L2jLiga/grunt-webfonts](https://github.com/L2jLiga/grunt-webfonts) | 10 | 2026-02-18T04:04:10Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [ameshkov/safari-blocker](https://github.com/ameshkov/safari-blocker) | 10 | 2026-01-14T14:13:08Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |

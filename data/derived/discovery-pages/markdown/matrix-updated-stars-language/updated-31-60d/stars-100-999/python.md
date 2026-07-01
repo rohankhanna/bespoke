@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 47
-- terms: 242
-- components: 193
-- concepts: 242
-- observations: 243
+- repos: 44
+- terms: 203
+- components: 174
+- concepts: 203
+- observations: 204
 
 ## Static behavior
 
@@ -34,11 +34,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ShadowLoveElysia/AiNiee-Next](https://github.com/ShadowLoveElysia/AiNiee-Next) | 107 | 2026-05-26T10:03:46Z | Python | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [pypa/build](https://github.com/pypa/build) | 845 | 2026-05-25T18:51:02Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [SublimeText/AFileIcon](https://github.com/SublimeText/AFileIcon) | 283 | 2026-05-25T14:21:09Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
-| [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 666 | 2026-05-25T03:37:02Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
+| [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 667 | 2026-05-25T03:37:02Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [satan53x/SExtractor](https://github.com/satan53x/SExtractor) | 468 | 2026-05-24T06:00:03Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 562 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [roboflow/rf100-vl](https://github.com/roboflow/rf100-vl) | 132 | 2026-05-23T05:40:55Z | Python | Infrastructure/tooling | 6 | 5 | 6 | 6 |
-| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 337 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
+| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 336 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
 | [shawn0728/OpenSearch-VL](https://github.com/shawn0728/OpenSearch-VL) | 194 | 2026-05-19T05:52:18Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [python-poetry/poetry-plugin-export](https://github.com/python-poetry/poetry-plugin-export) | 333 | 2026-05-18T21:47:45Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [gbionics/adam](https://github.com/gbionics/adam) | 219 | 2026-05-18T09:46:43Z | Python | Infrastructure/tooling | 15 | 9 | 15 | 15 |
@@ -70,9 +70,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Blosc/python-blosc2](https://github.com/Blosc/python-blosc2) | 201 | 2026-05-03T07:40:35Z | Python | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [httpwg/http-extensions](https://github.com/httpwg/http-extensions) | 483 | 2026-05-03T02:05:31Z | Python | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [makehumancommunity/mpfb2](https://github.com/makehumancommunity/mpfb2) | 504 | 2026-05-02T15:10:17Z | Python | Unknown | 1 | 0 | 1 | 1 |
-| [Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project) | 677 | 2026-05-02T06:21:57Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
-| [cognizant-ai-lab/neuro-san](https://github.com/cognizant-ai-lab/neuro-san) | 111 | 2026-05-02T06:15:28Z | Python | Infrastructure/tooling | 15 | 10 | 15 | 15 |
-| [cognizant-ai-lab/neuro-san-studio](https://github.com/cognizant-ai-lab/neuro-san-studio) | 486 | 2026-05-02T06:14:58Z | Python | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 
 ## Repos sorted by stars
 
@@ -84,13 +81,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pypa/build](https://github.com/pypa/build) | 845 | 2026-05-25T18:51:02Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [alltheplaces/alltheplaces](https://github.com/alltheplaces/alltheplaces) | 778 | 2026-05-03T09:20:37Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [fishaudio/fish-diffusion](https://github.com/fishaudio/fish-diffusion) | 743 | 2026-05-04T18:51:09Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project) | 677 | 2026-05-02T06:21:57Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
-| [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 666 | 2026-05-25T03:37:02Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
+| [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 667 | 2026-05-25T03:37:02Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [zhiyiYo/Groove](https://github.com/zhiyiYo/Groove) | 646 | 2026-05-05T07:16:55Z | Python | Unknown | 8 | 0 | 8 | 8 |
 | [cosmos/chain-registry](https://github.com/cosmos/chain-registry) | 572 | 2026-05-04T08:05:38Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 8 |
 | [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 562 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [makehumancommunity/mpfb2](https://github.com/makehumancommunity/mpfb2) | 504 | 2026-05-02T15:10:17Z | Python | Unknown | 1 | 0 | 1 | 1 |
-| [cognizant-ai-lab/neuro-san-studio](https://github.com/cognizant-ai-lab/neuro-san-studio) | 486 | 2026-05-02T06:14:58Z | Python | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [httpwg/http-extensions](https://github.com/httpwg/http-extensions) | 483 | 2026-05-03T02:05:31Z | Python | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [mll-lab-nu/VAGEN](https://github.com/mll-lab-nu/VAGEN) | 479 | 2026-05-11T11:55:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [thunlp/OPD](https://github.com/thunlp/OPD) | 478 | 2026-05-26T13:23:25Z | Python | Model/data | 3 | 0 | 3 | 3 |
@@ -102,7 +97,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fishaudio/audio-preprocess](https://github.com/fishaudio/audio-preprocess) | 390 | 2026-05-04T18:50:41Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [universal-ctags/ctags-win32](https://github.com/universal-ctags/ctags-win32) | 388 | 2026-05-04T04:49:42Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [styler00dollar/VSGAN-tensorrt-docker](https://github.com/styler00dollar/VSGAN-tensorrt-docker) | 357 | 2026-05-08T01:10:09Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 337 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
+| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 336 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
 | [python-poetry/poetry-plugin-export](https://github.com/python-poetry/poetry-plugin-export) | 333 | 2026-05-18T21:47:45Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [LlmKira/fast-langdetect](https://github.com/LlmKira/fast-langdetect) | 315 | 2026-05-06T04:23:50Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [SublimeText/AFileIcon](https://github.com/SublimeText/AFileIcon) | 283 | 2026-05-25T14:21:09Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
@@ -121,7 +116,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JeffreyXiang/FlexGEMM](https://github.com/JeffreyXiang/FlexGEMM) | 132 | 2026-05-09T07:43:43Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [fishaudio/vocoder](https://github.com/fishaudio/vocoder) | 132 | 2026-05-04T18:50:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [OpenHands/ToM-SWE](https://github.com/OpenHands/ToM-SWE) | 112 | 2026-05-28T06:50:08Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [cognizant-ai-lab/neuro-san](https://github.com/cognizant-ai-lab/neuro-san) | 111 | 2026-05-02T06:15:28Z | Python | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [ShadowLoveElysia/AiNiee-Next](https://github.com/ShadowLoveElysia/AiNiee-Next) | 107 | 2026-05-26T10:03:46Z | Python | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [GStreamer/cerbero](https://github.com/GStreamer/cerbero) | 103 | 2026-05-14T09:29:47Z | Python | Library | 0 | 0 | 0 | 0 |
 | [nod-ai/AMD-SHARK-ModelDev](https://github.com/nod-ai/AMD-SHARK-ModelDev) | 100 | 2026-05-08T16:45:50Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |

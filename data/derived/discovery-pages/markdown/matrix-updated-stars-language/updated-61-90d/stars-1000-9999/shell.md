@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 53
-- terms: 331
+- repos: 52
+- terms: 328
 - components: 239
-- concepts: 328
-- observations: 330
+- concepts: 325
+- observations: 327
 
 ## Static behavior
 
@@ -78,7 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvie/git-toolbelt](https://github.com/nvie/git-toolbelt) | 1375 | 2026-04-08T07:35:17Z | Shell | CLI | 1 | 0 | 0 | 0 |
 | [matryer/xbar-plugins](https://github.com/matryer/xbar-plugins) | 2582 | 2026-04-05T16:38:11Z | Shell | Unknown | 4 | 0 | 4 | 4 |
 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | 2140 | 2026-04-02T17:55:46Z | Shell | Library | 0 | 0 | 0 | 0 |
-| [trailofbits/claude-code-config](https://github.com/trailofbits/claude-code-config) | 1870 | 2026-04-02T09:26:12Z | Shell | CLI | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -114,7 +113,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ilikenwf/apt-fast](https://github.com/ilikenwf/apt-fast) | 2140 | 2026-04-02T17:55:46Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [devcontainers/images](https://github.com/devcontainers/images) | 2004 | 2026-04-22T05:52:08Z | Shell | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [jkroepke/helm-secrets](https://github.com/jkroepke/helm-secrets) | 1989 | 2026-05-01T19:08:26Z | Shell | Infrastructure/tooling | 20 | 17 | 20 | 20 |
-| [trailofbits/claude-code-config](https://github.com/trailofbits/claude-code-config) | 1870 | 2026-04-02T09:26:12Z | Shell | CLI | 3 | 0 | 3 | 3 |
 | [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [GrapheneOS/Vanadium](https://github.com/GrapheneOS/Vanadium) | 1768 | 2026-04-30T04:00:03Z | Shell | Unknown | 7 | 0 | 7 | 7 |
 | [spiffe/spiffe](https://github.com/spiffe/spiffe) | 1746 | 2026-04-13T17:10:08Z | Shell | Unknown | 3 | 0 | 3 | 3 |

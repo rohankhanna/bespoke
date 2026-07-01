@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 215
-- terms: 820
+- terms: 821
 - components: 5126
 - concepts: 810
 - observations: 812
@@ -41,7 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onlxltd/bonjour-service](https://github.com/onlxltd/bonjour-service) | 110 | 2025-11-15T11:06:55Z | TypeScript | CLI | 13 | 15 | 13 | 13 |
 | [scopecraft/command](https://github.com/scopecraft/command) | 173 | 2025-11-09T12:20:07Z | TypeScript | CLI | 0 | 26 | 0 | 0 |
 | [dimforge/rapier.js](https://github.com/dimforge/rapier.js) | 671 | 2025-11-05T18:27:54Z | TypeScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
-| [googleapis/gaxios](https://github.com/googleapis/gaxios) | 847 | 2025-10-31T17:21:49Z | TypeScript | CLI | 3 | 55 | 3 | 3 |
+| [googleapis/gaxios](https://github.com/googleapis/gaxios) | 846 | 2025-10-31T17:21:49Z | TypeScript | CLI | 3 | 55 | 3 | 3 |
 | [electron-userland/electron-wix-msi](https://github.com/electron-userland/electron-wix-msi) | 329 | 2025-10-29T22:10:39Z | TypeScript | Unknown | 4 | 27 | 4 | 4 |
 | [IDEA-Research/DINO-X-MCP](https://github.com/IDEA-Research/DINO-X-MCP) | 118 | 2025-10-28T13:53:28Z | TypeScript | Service/API | 4 | 8 | 4 | 4 |
 | [claude-did-this/claude-hub](https://github.com/claude-did-this/claude-hub) | 457 | 2025-10-27T14:06:25Z | TypeScript | Infrastructure/tooling | 9 | 52 | 0 | 0 |
@@ -196,7 +196,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mariolukas/HydraPlay](https://github.com/mariolukas/HydraPlay) | 157 | 2023-04-30T20:51:43Z | TypeScript | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [Borodutch/telegram-bot-starter](https://github.com/Borodutch/telegram-bot-starter) | 240 | 2023-04-26T16:09:07Z | TypeScript | Infrastructure/tooling | 4 | 26 | 4 | 4 |
 | [byte-fe/react-model](https://github.com/byte-fe/react-model) | 237 | 2023-04-23T10:05:41Z | TypeScript | Infrastructure/tooling | 6 | 30 | 6 | 6 |
-| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 4 | 24 | 5 | 5 |
+| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 5 | 24 | 5 | 5 |
 | [metaes/metaes](https://github.com/metaes/metaes) | 139 | 2023-04-16T14:34:14Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [windicss/svelte-windicss-preprocess](https://github.com/windicss/svelte-windicss-preprocess) | 158 | 2023-04-15T18:55:36Z | TypeScript | Infrastructure/tooling | 8 | 32 | 8 | 8 |
 | [jina-ai/auto-gpt-web](https://github.com/jina-ai/auto-gpt-web) | 760 | 2023-04-13T08:09:58Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |
@@ -259,7 +259,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dracula/dracula-ui](https://github.com/dracula/dracula-ui) | 874 | 2023-12-19T11:46:05Z | TypeScript | Infrastructure/tooling | 0 | 57 | 0 | 0 |
 | [deathau/sliding-panes-obsidian](https://github.com/deathau/sliding-panes-obsidian) | 864 | 2022-09-23T16:13:06Z | TypeScript | Infrastructure/tooling | 4 | 16 | 4 | 4 |
 | [windicss/vite-plugin-windicss](https://github.com/windicss/vite-plugin-windicss) | 849 | 2024-11-29T06:45:46Z | TypeScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
-| [googleapis/gaxios](https://github.com/googleapis/gaxios) | 847 | 2025-10-31T17:21:49Z | TypeScript | CLI | 3 | 55 | 3 | 3 |
+| [googleapis/gaxios](https://github.com/googleapis/gaxios) | 846 | 2025-10-31T17:21:49Z | TypeScript | CLI | 3 | 55 | 3 | 3 |
 | [vuejs/rollup-plugin-vue](https://github.com/vuejs/rollup-plugin-vue) | 842 | 2022-01-18T14:38:11Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [Azure-Samples/aoai-realtime-audio-sdk](https://github.com/Azure-Samples/aoai-realtime-audio-sdk) | 837 | 2025-09-30T17:38:17Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [frandiox/vite-ssr](https://github.com/frandiox/vite-ssr) | 837 | 2024-08-13T19:03:35Z | TypeScript | Service/API | 3 | 34 | 3 | 3 |
@@ -360,7 +360,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arcanis/typanion](https://github.com/arcanis/typanion) | 275 | 2024-03-25T17:14:02Z | TypeScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [caoxiemeihao/electron-vite-samples](https://github.com/caoxiemeihao/electron-vite-samples) | 263 | 2024-11-16T13:19:33Z | TypeScript | Unknown | 8 | 1 | 8 | 8 |
 | [neplexlabs/canvacord](https://github.com/neplexlabs/canvacord) | 259 | 2025-10-21T17:22:50Z | TypeScript | Infrastructure/tooling | 15 | 14 | 15 | 15 |
-| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 4 | 24 | 5 | 5 |
+| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 5 | 24 | 5 | 5 |
 | [lxsmnsyc/solid-labels](https://github.com/lxsmnsyc/solid-labels) | 256 | 2025-03-14T03:07:12Z | TypeScript | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [luisherranz/deepsignal](https://github.com/luisherranz/deepsignal) | 254 | 2025-01-13T15:48:33Z | TypeScript | Infrastructure/tooling | 4 | 47 | 4 | 4 |
 | [ansible/ansible-language-server](https://github.com/ansible/ansible-language-server) | 250 | 2024-10-09T18:11:47Z | TypeScript | Infrastructure/tooling | 5 | 45 | 5 | 5 |

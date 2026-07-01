@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6813,
-    "concepts": 4676,
-    "observations": 4689,
-    "repos": 871,
-    "terms": 4662
+    "components": 6904,
+    "concepts": 4698,
+    "observations": 4711,
+    "repos": 875,
+    "terms": 4685
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -143,6 +143,7 @@
     "bshoshany/thread-pool",
     "bugaevc/wl-clipboard",
     "buriy/python-readability",
+    "butlerx/wetty",
     "Byron/dua-cli",
     "Byron/google-apis-rs",
     "ByteDance-Seed/Depth-Anything-3",
@@ -314,6 +315,7 @@
     "FunnyWolf/Viper",
     "garybernhardt/selecta",
     "gf3/dotfiles",
+    "ggml-org/llama.vim",
     "github/git-sizer",
     "gjtorikian/html-proofer",
     "Glavin001/atom-beautify",
@@ -818,6 +820,7 @@
     "touchlab/droidconkotlin",
     "tower-rs/tower",
     "tpope/vim-dadbod",
+    "trailofbits/claude-code-config",
     "treosh/lighthouse-ci-action",
     "trevin-creator/autoresearch-mlx",
     "tris203/precognition.nvim",
@@ -868,6 +871,7 @@
     "xtaci/smux",
     "XTLS/Xray-install",
     "yangyanli/PointCNN",
+    "ykdojo/claude-code-tips",
     "yonaskolb/Mint",
     "YosysHQ/icestorm",
     "yuin/goldmark",

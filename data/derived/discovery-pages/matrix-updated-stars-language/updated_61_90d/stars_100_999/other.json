@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4377,
-    "concepts": 3460,
-    "observations": 3464,
-    "repos": 601,
-    "terms": 3472
+    "components": 4382,
+    "concepts": 3467,
+    "observations": 3471,
+    "repos": 602,
+    "terms": 3478
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
@@ -177,6 +177,7 @@
     "crazy-max/docker-osxcross",
     "creativenull/efmls-configs-nvim",
     "cshum/vipsgen",
+    "cucumber/aruba",
     "Cysharp/RuntimeUnitTestToolkit",
     "dart-lang/build",
     "dart-lang/native",

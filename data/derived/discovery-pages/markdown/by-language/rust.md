@@ -1,6 +1,6 @@
 # Rust
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 ## Active filters
 
@@ -9,8 +9,8 @@ Generated at: `2026-07-01T06:04:45.209590+00:00`
 ## Counts
 
 - repos: 1752
-- terms: 8086
-- components: 11888
+- terms: 8088
+- components: 11897
 - concepts: 8098
 - observations: 8160
 
@@ -22,44 +22,44 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2077 | 2026-07-01T04:18:18Z | Rust | Infrastructure/tooling | 14 | 41 | 14 | 15 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16629 | 2026-07-01T02:47:55Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-07-01T02:11:02Z | Rust | Infrastructure/tooling | 9 | 30 | 9 | 9 |
+| [rust-lang/mdBook](https://github.com/rust-lang/mdBook) | 21891 | 2026-07-01T01:38:23Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [servo/stylo](https://github.com/servo/stylo) | 291 | 2026-07-01T00:00:23Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [gluon-lang/gluon-lang.org](https://github.com/gluon-lang/gluon-lang.org) | 15 | 2026-06-30T21:45:30Z | Rust | Infrastructure/tooling | 2 | 15 | 2 | 2 |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16626 | 2026-06-30T16:03:04Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [lindera/lindera-tantivy](https://github.com/lindera/lindera-tantivy) | 70 | 2026-06-30T15:17:11Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 44 | 2026-06-30T14:16:50Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2077 | 2026-06-30T12:57:37Z | Rust | Infrastructure/tooling | 14 | 41 | 14 | 15 |
 | [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-30T11:58:17Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15480 | 2026-06-30T11:29:43Z | Rust | Infrastructure/tooling | 6 | 14 | 6 | 6 |
-| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 9383 | 2026-06-30T05:42:48Z | Rust | Infrastructure/tooling | 14 | 28 | 14 | 14 |
-| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 468 | 2026-06-30T02:38:49Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [evcxr/evcxr](https://github.com/evcxr/evcxr) | 6440 | 2026-06-29T23:02:37Z | Rust | Infrastructure/tooling | 4 | 11 | 4 | 4 |
-| [rust-lang/mdBook](https://github.com/rust-lang/mdBook) | 21889 | 2026-06-29T18:31:13Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15482 | 2026-06-30T11:29:43Z | Rust | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 9384 | 2026-06-30T05:42:48Z | Rust | Infrastructure/tooling | 14 | 28 | 14 | 14 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 469 | 2026-06-30T02:38:49Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [evcxr/evcxr](https://github.com/evcxr/evcxr) | 6441 | 2026-06-29T23:02:37Z | Rust | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [alloy-rs/svm-rs](https://github.com/alloy-rs/svm-rs) | 287 | 2026-06-29T13:48:52Z | Rust | Infrastructure/tooling | 3 | 24 | 3 | 3 |
-| [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1932 | 2026-06-29T12:36:03Z | Rust | Infrastructure/tooling | 10 | 6 | 10 | 10 |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 36592 | 2026-06-29T12:32:27Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
+| [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1933 | 2026-06-29T12:36:03Z | Rust | Infrastructure/tooling | 10 | 6 | 10 | 10 |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 36596 | 2026-06-29T12:32:27Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-06-29T06:11:23Z | Rust | Infrastructure/tooling | 1 | 21 | 1 | 1 |
-| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4951 | 2026-06-28T22:15:20Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4952 | 2026-06-28T22:15:20Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [astral-sh/ruff](https://github.com/astral-sh/ruff) | 48244 | 2026-06-27T14:21:56Z | Rust | Infrastructure/tooling | 14 | 50 | 14 | 14 |
 | [amazon-ion/ion-cli](https://github.com/amazon-ion/ion-cli) | 47 | 2026-06-26T22:02:38Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 339 | 2026-06-25T12:47:26Z | Rust | Infrastructure/tooling | 9 | 12 | 10 | 11 |
-| [rust-nvml/nvml-wrapper](https://github.com/rust-nvml/nvml-wrapper) | 200 | 2026-06-23T08:01:56Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
+| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 339 | 2026-06-25T12:47:26Z | Rust | Infrastructure/tooling | 10 | 12 | 10 | 11 |
+| [rust-nvml/nvml-wrapper](https://github.com/rust-nvml/nvml-wrapper) | 201 | 2026-06-23T08:01:56Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [kurrent-io/KurrentDB-Bridge-Client](https://github.com/kurrent-io/KurrentDB-Bridge-Client) | 1 | 2026-06-22T11:48:49Z | Rust | CLI | 7 | 9 | 7 | 7 |
 | [Avarok-Cybersecurity/atlas](https://github.com/Avarok-Cybersecurity/atlas) | 519 | 2026-06-22T06:14:49Z | Rust | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [lablup/mlxcel](https://github.com/lablup/mlxcel) | 94 | 2026-06-22T05:38:10Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [ash-rs/ash](https://github.com/ash-rs/ash) | 2295 | 2026-06-22T04:33:05Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [imgui-rs/imgui-rs](https://github.com/imgui-rs/imgui-rs) | 3024 | 2026-06-21T09:03:49Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [imgui-rs/imgui-rs](https://github.com/imgui-rs/imgui-rs) | 3026 | 2026-06-21T09:03:49Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [ratatui/ratatui](https://github.com/ratatui/ratatui) | 21209 | 2026-06-20T13:35:16Z | Rust | CLI | 9 | 29 | 9 | 9 |
 | [bionic-gpt/bionic-gpt](https://github.com/bionic-gpt/bionic-gpt) | 2333 | 2026-06-20T10:02:30Z | Rust | Infrastructure/tooling | 9 | 6 | 9 | 9 |
-| [safetensors/safetensors](https://github.com/safetensors/safetensors) | 3791 | 2026-06-19T23:41:12Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
+| [safetensors/safetensors](https://github.com/safetensors/safetensors) | 3792 | 2026-06-19T23:41:12Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 15464 | 2026-06-19T21:38:43Z | Rust | Infrastructure/tooling | 25 | 15 | 25 | 25 |
 | [andfoy/winpty-rs](https://github.com/andfoy/winpty-rs) | 46 | 2026-06-19T12:32:10Z | Rust | CLI | 3 | 7 | 3 | 3 |
-| [geiger-rs/cargo-geiger](https://github.com/geiger-rs/cargo-geiger) | 1625 | 2026-06-19T09:32:15Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [watchexec/watchexec](https://github.com/watchexec/watchexec) | 7037 | 2026-06-19T02:40:09Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [geiger-rs/cargo-geiger](https://github.com/geiger-rs/cargo-geiger) | 1626 | 2026-06-19T09:32:15Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [watchexec/watchexec](https://github.com/watchexec/watchexec) | 7036 | 2026-06-19T02:40:09Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [GitoxideLabs/cargo-smart-release](https://github.com/GitoxideLabs/cargo-smart-release) | 123 | 2026-06-18T02:19:44Z | Rust | Infrastructure/tooling | 4 | 24 | 4 | 4 |
 | [kurrent-io/KurrentDB-Client-Rust](https://github.com/kurrent-io/KurrentDB-Client-Rust) | 63 | 2026-06-16T23:56:11Z | Rust | CLI | 15 | 7 | 15 | 15 |
 | [mozilla-ai/otari-sdk-rust](https://github.com/mozilla-ai/otari-sdk-rust) | 2 | 2026-06-16T19:57:19Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [intentee/paddler](https://github.com/intentee/paddler) | 1607 | 2026-06-16T14:38:34Z | Rust | Infrastructure/tooling | 7 | 45 | 7 | 7 |
-| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-06-15T15:27:14Z | Rust | Infrastructure/tooling | 9 | 23 | 9 | 9 |
 | [itt-ustutt/num-dual](https://github.com/itt-ustutt/num-dual) | 91 | 2026-06-14T16:22:24Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [ashvardanian/StringZilla-CLI](https://github.com/ashvardanian/StringZilla-CLI) | 8 | 2026-06-14T15:21:33Z | Rust | CLI | 6 | 0 | 6 | 6 |
 | [FerrisMind/candle-video](https://github.com/FerrisMind/candle-video) | 21 | 2026-06-13T01:02:30Z | Rust | Library | 0 | 0 | 0 | 0 |
@@ -363,7 +363,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 526 | 2026-04-27T00:52:07Z | Rust | CLI | 7 | 6 | 7 | 7 |
 | [boa-dev/boa](https://github.com/boa-dev/boa) | 7211 | 2026-04-27T00:50:49Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
 | [Systemcluster/kitoken](https://github.com/Systemcluster/kitoken) | 49 | 2026-04-26T21:22:23Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [arkworks-rs/poly-commit](https://github.com/arkworks-rs/poly-commit) | 432 | 2026-04-26T21:03:10Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
+| [arkworks-rs/poly-commit](https://github.com/arkworks-rs/poly-commit) | 433 | 2026-04-26T21:03:10Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [oschwald/maxminddb-rust](https://github.com/oschwald/maxminddb-rust) | 265 | 2026-04-26T19:59:33Z | Rust | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [fussybeaver/bollard](https://github.com/fussybeaver/bollard) | 1267 | 2026-04-26T19:51:14Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [64bit/async-openai](https://github.com/64bit/async-openai) | 1862 | 2026-04-26T19:36:16Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -656,7 +656,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Keats/jsonwebtoken](https://github.com/Keats/jsonwebtoken) | 2033 | 2026-04-18T19:56:51Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [alloy-rs/alloy](https://github.com/alloy-rs/alloy) | 1271 | 2026-04-18T18:43:09Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [BoundaryML/baml](https://github.com/BoundaryML/baml) | 8015 | 2026-04-18T18:26:25Z | Rust | Infrastructure/tooling | 17 | 26 | 17 | 17 |
-| [psmux/pstop](https://github.com/psmux/pstop) | 186 | 2026-04-18T16:34:54Z | Rust | CLI | 14 | 6 | 14 | 14 |
+| [psmux/pstop](https://github.com/psmux/pstop) | 187 | 2026-04-18T16:34:54Z | Rust | CLI | 14 | 6 | 14 | 14 |
 | [mikeyobrien/ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator) | 2728 | 2026-04-18T15:33:51Z | Rust | CLI | 5 | 10 | 0 | 0 |
 | [ruvnet/ruvector](https://github.com/ruvnet/RuVector) | 3800 | 2026-04-18T13:51:27Z | Rust | Infrastructure/tooling | 18 | 13 | 18 | 18 |
 | [Boddlnagg/midir](https://github.com/Boddlnagg/midir) | 800 | 2026-04-18T12:07:36Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
@@ -931,7 +931,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Vaishnav-Sabari-Girish/Hayasen](https://github.com/Vaishnav-Sabari-Girish/Hayasen) | 29 | 2026-03-20T15:37:19Z | Rust | Unknown | 6 | 0 | 6 | 6 |
 | [rust-lang/rfcbot-rs](https://github.com/rust-lang/rfcbot-rs) | 166 | 2026-03-19T23:41:39Z | Rust | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [ashvardanian/StringWars](https://github.com/ashvardanian/StringWars) | 144 | 2026-03-19T17:48:57Z | Rust | Infrastructure/tooling | 14 | 4 | 14 | 14 |
-| [psmux/Tmux-Plugin-Panel](https://github.com/psmux/Tmux-Plugin-Panel) | 66 | 2026-03-19T14:13:24Z | Rust | CLI | 9 | 5 | 9 | 9 |
+| [psmux/Tmux-Plugin-Panel](https://github.com/psmux/Tmux-Plugin-Panel) | 67 | 2026-03-19T14:13:24Z | Rust | CLI | 9 | 5 | 9 | 9 |
 | [tauri-apps/cargo-mobile2](https://github.com/tauri-apps/cargo-mobile2) | 1827 | 2026-03-19T10:07:22Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [hermit-os/hermit-rs-template](https://github.com/hermit-os/hermit-rs-template) | 41 | 2026-03-19T08:53:24Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [Anush008/tokenizers](https://github.com/Anush008/tokenizers) | 13 | 2026-03-19T07:31:49Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
@@ -1301,7 +1301,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ealmloff/llm-samplers](https://github.com/ealmloff/llm-samplers) | 0 | 2025-07-23T00:39:18Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [tlaplus-community/tlauc](https://github.com/tlaplus-community/tlauc) | 43 | 2025-07-22T18:10:58Z | Rust | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [comit-network/xmr-btc-swap](https://github.com/comit-network/xmr-btc-swap) | 714 | 2025-07-22T11:42:04Z | Rust | Infrastructure/tooling | 9 | 14 | 9 | 9 |
-| [facebook/winterfell](https://github.com/facebook/winterfell) | 895 | 2025-07-19T21:21:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [facebook/winterfell](https://github.com/facebook/winterfell) | 896 | 2025-07-19T21:21:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [ralexstokes/ethereum-consensus](https://github.com/ralexstokes/ethereum-consensus) | 152 | 2025-07-18T18:19:42Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [nomic-io/nomic](https://github.com/nomic-io/nomic) | 154 | 2025-07-14T17:56:34Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [informalsystems/ibc-rs](https://github.com/informalsystems/ibc-rs) | 224 | 2025-07-10T14:54:51Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 9 |
@@ -1625,7 +1625,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [madsim-rs/rust-postgres](https://github.com/madsim-rs/rust-postgres) | 1 | 2023-09-20T06:08:39Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [marwes/gluon](https://github.com/Marwes/gluon) | 1 | 2023-09-09T16:20:08Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [fltk-rs/fltk-extras](https://github.com/fltk-rs/fltk-extras) | 5 | 2023-09-05T18:27:17Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 0 | 5 | 1 | 1 |
+| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [KerfuffleV2/smolrsrwkv](https://github.com/KerfuffleV2/smolrsrwkv) | 94 | 2023-09-02T19:19:37Z | Rust | Model/data | 6 | 0 | 6 | 6 |
 | [dalek-cryptography/x25519-dalek](https://github.com/dalek-cryptography/x25519-dalek) | 353 | 2023-09-01T19:33:25Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 6 |
 | [AdnoC/sixel-rs](https://github.com/AdnoC/sixel-rs) | 40 | 2023-08-30T16:16:30Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -1802,7 +1802,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 42572 | 2026-05-01T11:40:46Z | Rust | Infrastructure/tooling | 19 | 19 | 19 | 19 |
 | [nushell/nushell](https://github.com/nushell/nushell) | 39439 | 2026-05-13T17:01:05Z | Rust | Infrastructure/tooling | 9 | 16 | 10 | 10 |
 | [pola-rs/polars](https://github.com/pola-rs/polars) | 38348 | 2026-05-01T06:59:20Z | Rust | Infrastructure/tooling | 14 | 12 | 14 | 14 |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 36592 | 2026-06-29T12:32:27Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 36596 | 2026-06-29T12:32:27Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [servo/servo](https://github.com/servo/servo) | 36515 | 2026-04-23T06:38:32Z | Rust | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | 35984 | 2026-04-13T19:40:38Z | Rust | CLI | 17 | 14 | 20 | 20 |
 | [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | 34094 | 2026-05-01T15:30:25Z | Rust | Infrastructure/tooling | 14 | 2 | 14 | 14 |
@@ -1835,7 +1835,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ogham/exa](https://github.com/ogham/exa) | 24426 | 2024-09-24T15:18:09Z | Rust | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [facebook/flow](https://github.com/facebook/flow) | 22206 | 2026-05-01T09:05:10Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [RustPython/RustPython](https://github.com/RustPython/RustPython) | 22027 | 2026-04-29T19:45:59Z | Rust | Infrastructure/tooling | 13 | 24 | 14 | 14 |
-| [rust-lang/mdBook](https://github.com/rust-lang/mdBook) | 21889 | 2026-06-29T18:31:13Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [rust-lang/mdBook](https://github.com/rust-lang/mdBook) | 21891 | 2026-07-01T01:38:23Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [gitui-org/gitui](https://github.com/gitui-org/gitui) | 21812 | 2026-04-23T01:39:06Z | Rust | CLI | 8 | 13 | 9 | 9 |
 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 21747 | 2026-05-01T05:42:30Z | Rust | Infrastructure/tooling | 24 | 13 | 24 | 24 |
 | [eza-community/eza](https://github.com/eza-community/eza) | 21431 | 2026-04-10T14:51:09Z | Rust | CLI | 13 | 12 | 13 | 13 |
@@ -1852,12 +1852,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | 16968 | 2026-04-22T21:48:28Z | Rust | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [launchbadge/sqlx](https://github.com/launchbadge/sqlx) | 16918 | 2026-04-23T11:23:56Z | Rust | Infrastructure/tooling | 11 | 5 | 11 | 11 |
 | [diem/diem](https://github.com/diem/diem) | 16683 | 2026-04-21T05:52:38Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16626 | 2026-06-30T16:03:04Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16629 | 2026-07-01T02:47:55Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [clap-rs/clap](https://github.com/clap-rs/clap) | 16346 | 2026-04-27T14:44:44Z | Rust | CLI | 14 | 11 | 14 | 14 |
 | [hyperium/hyper](https://github.com/hyperium/hyper) | 16017 | 2026-03-31T15:40:40Z | Rust | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [lsd-rs/lsd](https://github.com/lsd-rs/lsd) | 15920 | 2026-04-09T03:28:46Z | Rust | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [PyO3/pyo3](https://github.com/PyO3/pyo3) | 15627 | 2026-04-29T19:19:49Z | Rust | Infrastructure/tooling | 7 | 20 | 8 | 8 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15480 | 2026-06-30T11:29:43Z | Rust | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15482 | 2026-06-30T11:29:43Z | Rust | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 15464 | 2026-06-19T21:38:43Z | Rust | Infrastructure/tooling | 25 | 15 | 25 | 25 |
 | [rust-lang/cargo](https://github.com/rust-lang/cargo) | 14857 | 2026-04-21T02:45:44Z | Rust | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) | 14508 | 2026-04-23T00:29:32Z | Rust | Infrastructure/tooling | 16 | 12 | 16 | 16 |
@@ -1894,7 +1894,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [johnthagen/min-sized-rust](https://github.com/johnthagen/min-sized-rust) | 9737 | 2025-10-03T10:20:49Z | Rust | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [pkgxdev/pkgx](https://github.com/pkgxdev/pkgx) | 9723 | 2026-04-27T16:00:12Z | Rust | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [SeaQL/sea-orm](https://github.com/SeaQL/sea-orm) | 9580 | 2026-04-22T16:28:26Z | Rust | Infrastructure/tooling | 12 | 7 | 12 | 12 |
-| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 9383 | 2026-06-30T05:42:48Z | Rust | Infrastructure/tooling | 14 | 28 | 14 | 14 |
+| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 9384 | 2026-06-30T05:42:48Z | Rust | Infrastructure/tooling | 14 | 28 | 14 | 14 |
 | [databendlabs/databend](https://github.com/databendlabs/databend) | 9298 | 2026-05-25T09:40:05Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [actix/actix](https://github.com/actix/actix) | 9195 | 2026-04-22T16:46:40Z | Rust | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [wasm-bindgen/wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen) | 8975 | 2026-04-30T02:24:03Z | Rust | Infrastructure/tooling | 6 | 20 | 6 | 6 |
@@ -1919,7 +1919,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mozilla/sccache](https://github.com/mozilla/sccache) | 7189 | 2026-04-17T07:19:15Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [wasm-bindgen/wasm-pack](https://github.com/wasm-bindgen/wasm-pack) | 7156 | 2026-04-28T17:43:28Z | Rust | CLI | 9 | 14 | 9 | 9 |
 | [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs) | 7085 | 2026-04-15T00:54:49Z | Rust | Infrastructure/tooling | 6 | 17 | 6 | 6 |
-| [watchexec/watchexec](https://github.com/watchexec/watchexec) | 7037 | 2026-06-19T02:40:09Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [watchexec/watchexec](https://github.com/watchexec/watchexec) | 7036 | 2026-06-19T02:40:09Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | 7018 | 2026-04-23T04:05:46Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [tokio-rs/mio](https://github.com/tokio-rs/mio) | 6946 | 2026-04-17T16:10:35Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 6945 | 2026-05-01T10:10:04Z | Rust | Infrastructure/tooling | 14 | 16 | 15 | 15 |
@@ -1937,7 +1937,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aome510/spotify-player](https://github.com/aome510/spotify-player) | 6618 | 2026-04-10T13:53:16Z | Rust | CLI | 11 | 12 | 11 | 11 |
 | [hrkfdn/ncspot](https://github.com/hrkfdn/ncspot) | 6564 | 2026-04-23T01:19:03Z | Rust | CLI | 1 | 4 | 1 | 1 |
 | [dtolnay/anyhow](https://github.com/dtolnay/anyhow) | 6489 | 2026-03-24T02:44:34Z | Rust | Infrastructure/tooling | 0 | 9 | 0 | 0 |
-| [evcxr/evcxr](https://github.com/evcxr/evcxr) | 6440 | 2026-06-29T23:02:37Z | Rust | Infrastructure/tooling | 4 | 11 | 4 | 4 |
+| [evcxr/evcxr](https://github.com/evcxr/evcxr) | 6441 | 2026-06-29T23:02:37Z | Rust | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [lance-format/lance](https://github.com/lance-format/lance) | 6390 | 2026-05-07T07:24:52Z | Rust | Infrastructure/tooling | 23 | 18 | 23 | 23 |
 | [sharkdp/pastel](https://github.com/sharkdp/pastel) | 6341 | 2026-04-01T02:05:48Z | Rust | CLI | 8 | 7 | 8 | 8 |
 | [rizsotto/Bear](https://github.com/rizsotto/Bear) | 6294 | 2026-04-24T07:52:02Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
@@ -1977,8 +1977,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvidia/openshell](https://github.com/NVIDIA/OpenShell) | 5094 | 2026-04-18T03:07:41Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [vulkano-rs/vulkano](https://github.com/vulkano-rs/vulkano) | 5057 | 2026-04-26T01:55:58Z | Rust | Infrastructure/tooling | 5 | 3 | 5 | 6 |
 | [apache/opendal](https://github.com/apache/opendal) | 5025 | 2026-04-23T16:11:31Z | Rust | Infrastructure/tooling | 14 | 13 | 14 | 14 |
+| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4952 | 2026-06-28T22:15:20Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [bytedance/monoio](https://github.com/bytedance/monoio) | 4952 | 2026-04-14T02:55:45Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
-| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4951 | 2026-06-28T22:15:20Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [matter-labs/zksync](https://github.com/matter-labs/zksync) | 4934 | 2026-04-22T12:29:42Z | Rust | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [smol-rs/smol](https://github.com/smol-rs/smol) | 4849 | 2026-03-23T14:46:03Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [dtolnay/proc-macro-workshop](https://github.com/dtolnay/proc-macro-workshop) | 4792 | 2026-03-16T04:27:05Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
@@ -2021,7 +2021,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nrc/r4cppp](https://github.com/nrc/r4cppp) | 3825 | 2024-05-16T20:56:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [linebender/resvg](https://github.com/linebender/resvg) | 3808 | 2026-04-09T18:28:45Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [ruvnet/ruvector](https://github.com/ruvnet/RuVector) | 3800 | 2026-04-18T13:51:27Z | Rust | Infrastructure/tooling | 18 | 13 | 18 | 18 |
-| [safetensors/safetensors](https://github.com/safetensors/safetensors) | 3791 | 2026-06-19T23:41:12Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
+| [safetensors/safetensors](https://github.com/safetensors/safetensors) | 3792 | 2026-06-19T23:41:12Z | Rust | Infrastructure/tooling | 7 | 24 | 7 | 7 |
 | [dora-rs/dora](https://github.com/dora-rs/dora) | 3741 | 2026-05-05T10:47:59Z | Rust | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [RustAudio/cpal](https://github.com/RustAudio/cpal) | 3687 | 2026-04-29T20:49:00Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [google/tarpc](https://github.com/google/tarpc) | 3685 | 2026-03-25T06:11:05Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
@@ -2060,7 +2060,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [guillaume-be/rust-bert](https://github.com/guillaume-be/rust-bert) | 3057 | 2026-01-13T19:54:39Z | Rust | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [model-checking/kani](https://github.com/model-checking/kani) | 3050 | 2026-04-22T23:29:22Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [nix-rust/nix](https://github.com/nix-rust/nix) | 3027 | 2026-05-13T01:15:18Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [imgui-rs/imgui-rs](https://github.com/imgui-rs/imgui-rs) | 3024 | 2026-06-21T09:03:49Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [imgui-rs/imgui-rs](https://github.com/imgui-rs/imgui-rs) | 3026 | 2026-06-21T09:03:49Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [agentclientprotocol/agent-client-protocol](https://github.com/agentclientprotocol/agent-client-protocol) | 3017 | 2026-05-05T20:34:12Z | Rust | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [bvaisvil/zenith](https://github.com/bvaisvil/zenith) | 2999 | 2026-04-13T00:47:22Z | Rust | CLI | 9 | 8 | 9 | 9 |
 | [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) | 2973 | 2025-09-21T22:00:37Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -2126,7 +2126,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [algesten/ureq](https://github.com/algesten/ureq) | 2101 | 2026-04-18T12:00:09Z | Rust | CLI | 4 | 6 | 4 | 4 |
 | [jonhoo/inferno](https://github.com/jonhoo/inferno) | 2096 | 2026-04-14T01:05:09Z | Rust | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [rust-windowing/glutin](https://github.com/rust-windowing/glutin) | 2079 | 2026-04-21T14:53:15Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2077 | 2026-06-30T12:57:37Z | Rust | Infrastructure/tooling | 14 | 41 | 14 | 15 |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2077 | 2026-07-01T04:18:18Z | Rust | Infrastructure/tooling | 14 | 41 | 14 | 15 |
 | [BurntSushi/fst](https://github.com/BurntSushi/fst) | 2063 | 2024-09-25T20:46:04Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [glotlabs/gdrive](https://github.com/glotlabs/gdrive) | 2053 | 2024-08-03T18:23:43Z | Rust | CLI | 3 | 2 | 3 | 3 |
 | [gabdube/native-windows-gui](https://github.com/gabdube/native-windows-gui) | 2049 | 2024-05-16T10:00:30Z | Rust | Unknown | 3 | 0 | 3 | 3 |
@@ -2143,7 +2143,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [latex-lsp/texlab](https://github.com/latex-lsp/texlab) | 1944 | 2026-04-27T01:33:44Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [SuperCuber/dotter](https://github.com/SuperCuber/dotter) | 1944 | 2026-04-21T11:22:17Z | Rust | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs) | 1943 | 2026-04-01T11:27:18Z | Rust | Infrastructure/tooling | 5 | 6 | 6 | 6 |
-| [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1932 | 2026-06-29T12:36:03Z | Rust | Infrastructure/tooling | 10 | 6 | 10 | 10 |
+| [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1933 | 2026-06-29T12:36:03Z | Rust | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [BurntSushi/rust-csv](https://github.com/BurntSushi/rust-csv) | 1927 | 2025-10-17T13:56:11Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [chelsea0x3b/dfdx](https://github.com/chelsea0x3b/dfdx) | 1909 | 2024-07-23T02:05:58Z | Rust | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 | [google/argh](https://github.com/google/argh) | 1906 | 2026-03-16T21:41:11Z | Rust | Infrastructure/tooling | 8 | 2 | 8 | 9 |
@@ -2174,7 +2174,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tensorchord/VectorChord](https://github.com/tensorchord/VectorChord) | 1660 | 2026-04-30T06:35:45Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [pdf-rs/pdf](https://github.com/pdf-rs/pdf) | 1646 | 2026-03-05T15:35:06Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [succinctlabs/sp1](https://github.com/succinctlabs/sp1) | 1644 | 2026-04-23T08:13:55Z | Rust | Infrastructure/tooling | 14 | 9 | 14 | 14 |
-| [geiger-rs/cargo-geiger](https://github.com/geiger-rs/cargo-geiger) | 1625 | 2026-06-19T09:32:15Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [geiger-rs/cargo-geiger](https://github.com/geiger-rs/cargo-geiger) | 1626 | 2026-06-19T09:32:15Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [mooman219/fontdue](https://github.com/mooman219/fontdue) | 1625 | 2025-05-25T08:34:03Z | Rust | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [tikv/pprof-rs](https://github.com/tikv/pprof-rs) | 1619 | 2026-04-23T00:10:09Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [asny/three-d](https://github.com/asny/three-d) | 1616 | 2026-04-17T17:15:00Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
@@ -2185,7 +2185,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kivikakk/comrak](https://github.com/kivikakk/comrak) | 1601 | 2026-04-27T14:03:59Z | Rust | Infrastructure/tooling | 9 | 8 | 10 | 11 |
 | [tarkah/tickrs](https://github.com/tarkah/tickrs) | 1576 | 2025-12-15T20:40:25Z | Rust | CLI | 8 | 7 | 8 | 8 |
 | [robustmq/robustmq](https://github.com/robustmq/robustmq) | 1573 | 2026-05-03T02:55:35Z | Rust | Infrastructure/tooling | 23 | 19 | 23 | 23 |
-| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-06-15T15:27:14Z | Rust | Infrastructure/tooling | 9 | 23 | 9 | 9 |
+| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1570 | 2026-07-01T02:11:02Z | Rust | Infrastructure/tooling | 9 | 30 | 9 | 9 |
 | [gfx-rs/naga](https://github.com/gfx-rs/naga) | 1565 | 2023-11-09T17:57:01Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [tauri-apps/create-tauri-app](https://github.com/tauri-apps/create-tauri-app) | 1556 | 2026-04-21T22:09:39Z | Rust | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [la10736/rstest](https://github.com/la10736/rstest) | 1552 | 2026-03-26T09:55:13Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
@@ -2307,7 +2307,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [duckdb/duckdb-rs](https://github.com/duckdb/duckdb-rs) | 904 | 2026-04-30T10:40:40Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [cargo-lambda/cargo-lambda](https://github.com/cargo-lambda/cargo-lambda) | 902 | 2026-04-15T15:07:49Z | Rust | Infrastructure/tooling | 8 | 24 | 8 | 8 |
 | [arkworks-rs/snark](https://github.com/arkworks-rs/snark) | 902 | 2025-09-12T23:19:29Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [facebook/winterfell](https://github.com/facebook/winterfell) | 895 | 2025-07-19T21:21:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [facebook/winterfell](https://github.com/facebook/winterfell) | 896 | 2025-07-19T21:21:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [RustCrypto/password-hashes](https://github.com/RustCrypto/password-hashes) | 887 | 2026-04-27T16:36:41Z | Rust | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [matsadler/magnus](https://github.com/matsadler/magnus) | 877 | 2026-03-06T04:08:28Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [Anush008/fastembed-rs](https://github.com/Anush008/fastembed-rs) | 875 | 2026-04-27T16:47:16Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 9 |
@@ -2474,8 +2474,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [YaLTeR/wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) | 475 | 2026-03-16T08:25:58Z | Rust | CLI | 3 | 8 | 3 | 3 |
 | [rust-lang/style-team](https://github.com/rust-lang/style-team) | 473 | 2024-05-17T01:57:52Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [tafia/quick-protobuf](https://github.com/tafia/quick-protobuf) | 473 | 2024-02-14T05:48:24Z | Rust | Unknown | 4 | 0 | 4 | 4 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 469 | 2026-06-30T02:38:49Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [Sovereign-Labs/sovereign-sdk](https://github.com/Sovereign-Labs/sovereign-sdk) | 469 | 2026-04-21T20:51:45Z | Rust | Infrastructure/tooling | 14 | 21 | 14 | 15 |
-| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 468 | 2026-06-30T02:38:49Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [istio/ztunnel](https://github.com/istio/ztunnel) | 460 | 2026-04-30T22:19:13Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [mongodb/bson-rust](https://github.com/mongodb/bson-rust) | 457 | 2026-04-27T11:18:46Z | Rust | Infrastructure/tooling | 7 | 3 | 8 | 8 |
 | [ralexstokes/mev-rs](https://github.com/ralexstokes/mev-rs) | 457 | 2024-10-24T22:02:49Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
@@ -2487,8 +2487,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [smol-rs/async-executor](https://github.com/smol-rs/async-executor) | 442 | 2026-02-18T19:59:44Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [ethereum/trin](https://github.com/ethereum/trin) | 442 | 2025-09-23T12:33:24Z | Rust | CLI | 5 | 9 | 5 | 5 |
 | [alexheretic/ab-glyph](https://github.com/alexheretic/ab-glyph) | 441 | 2025-11-30T17:01:02Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 6 |
+| [arkworks-rs/poly-commit](https://github.com/arkworks-rs/poly-commit) | 433 | 2026-04-26T21:03:10Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [conda/rattler](https://github.com/conda/rattler) | 432 | 2026-05-01T11:56:58Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [arkworks-rs/poly-commit](https://github.com/arkworks-rs/poly-commit) | 432 | 2026-04-26T21:03:10Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [hecrj/icebreaker](https://github.com/hecrj/icebreaker) | 430 | 2026-02-16T17:27:22Z | Rust | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [gnzlbg/jemallocator](https://github.com/gnzlbg/jemallocator) | 429 | 2021-12-21T17:51:17Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [rust-db/barrel](https://github.com/rust-db/barrel) | 429 | 2021-07-07T16:27:58Z | Rust | Unknown | 4 | 0 | 4 | 4 |
@@ -2547,7 +2547,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-lang/team](https://github.com/rust-lang/team) | 342 | 2026-04-22T00:10:36Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [ihrwein/backoff](https://github.com/ihrwein/backoff) | 342 | 2024-02-05T21:33:58Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [guillaume-be/rust-tokenizers](https://github.com/guillaume-be/rust-tokenizers) | 340 | 2026-01-22T20:30:14Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 339 | 2026-06-25T12:47:26Z | Rust | Infrastructure/tooling | 9 | 12 | 10 | 11 |
+| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 339 | 2026-06-25T12:47:26Z | Rust | Infrastructure/tooling | 10 | 12 | 10 | 11 |
 | [gsingh93/trace](https://github.com/gsingh93/trace) | 339 | 2023-07-04T17:12:38Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [vmchale/tin-summer](https://github.com/vmchale/tin-summer) | 339 | 2023-05-02T22:00:49Z | Rust | Unknown | 5 | 0 | 5 | 5 |
 | [A2-ai/rv](https://github.com/A2-ai/rv) | 338 | 2026-04-30T08:15:29Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
@@ -2677,9 +2677,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [filecoin-project/bellperson](https://github.com/filecoin-project/bellperson) | 203 | 2026-04-02T09:21:25Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [debris/tiny-keccak](https://github.com/debris/tiny-keccak) | 203 | 2024-06-10T04:04:53Z | Rust | Unknown | 11 | 0 | 11 | 11 |
 | [microsoft/python-environment-tools](https://github.com/microsoft/python-environment-tools) | 202 | 2026-04-25T00:15:55Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [rust-nvml/nvml-wrapper](https://github.com/rust-nvml/nvml-wrapper) | 201 | 2026-06-23T08:01:56Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [public-awesome/cw-nfts](https://github.com/public-awesome/cw-nfts) | 201 | 2026-04-01T16:03:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [gwihlidal/vk-mem-rs](https://github.com/gwihlidal/vk-mem-rs) | 201 | 2026-02-23T20:57:57Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [rust-nvml/nvml-wrapper](https://github.com/rust-nvml/nvml-wrapper) | 200 | 2026-06-23T08:01:56Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [KyleMayes/clang-rs](https://github.com/KyleMayes/clang-rs) | 200 | 2026-02-25T21:34:02Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [crisidev/bacon-ls](https://github.com/crisidev/bacon-ls) | 199 | 2026-04-20T12:57:34Z | Rust | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [hadronized/glsl](https://github.com/hadronized/glsl) | 199 | 2025-02-06T00:07:58Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 5 |
@@ -2696,7 +2696,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agent-sh/agnix](https://github.com/agent-sh/agnix) | 188 | 2026-04-18T10:51:39Z | Rust | CLI | 6 | 12 | 0 | 0 |
 | [arkworks-rs/r1cs-std](https://github.com/arkworks-rs/r1cs-std) | 188 | 2026-03-02T06:55:57Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [akiomik/mado](https://github.com/akiomik/mado) | 187 | 2026-04-29T10:32:23Z | Rust | Infrastructure/tooling | 9 | 12 | 10 | 10 |
-| [psmux/pstop](https://github.com/psmux/pstop) | 186 | 2026-04-18T16:34:54Z | Rust | CLI | 14 | 6 | 14 | 14 |
+| [psmux/pstop](https://github.com/psmux/pstop) | 187 | 2026-04-18T16:34:54Z | Rust | CLI | 14 | 6 | 14 | 14 |
 | [0xPolygonHermez/zisk](https://github.com/0xPolygonHermez/zisk) | 185 | 2026-04-29T14:38:12Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [rust-mobile/rust-android-examples](https://github.com/rust-mobile/rust-android-examples) | 182 | 2026-04-10T20:22:18Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [cpmech/russell](https://github.com/cpmech/russell) | 182 | 2026-04-10T07:44:03Z | Rust | Infrastructure/tooling | 24 | 5 | 24 | 24 |
@@ -2905,8 +2905,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [near/cargo-near](https://github.com/near/cargo-near) | 68 | 2026-04-08T22:33:50Z | Rust | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [dskkato/rjo](https://github.com/dskkato/rjo) | 68 | 2023-06-06T02:15:22Z | Rust | Unknown | 2 | 0 | 3 | 3 |
 | [CryptArchy/regex_generate](https://github.com/CryptArchy/regex_generate) | 68 | 2023-03-07T20:51:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [psmux/Tmux-Plugin-Panel](https://github.com/psmux/Tmux-Plugin-Panel) | 67 | 2026-03-19T14:13:24Z | Rust | CLI | 9 | 5 | 9 | 9 |
 | [jiegec/tantivy-jieba](https://github.com/jiegec/tantivy-jieba) | 66 | 2026-04-01T04:07:37Z | Rust | Infrastructure/tooling | 6 | 1 | 6 | 6 |
-| [psmux/Tmux-Plugin-Panel](https://github.com/psmux/Tmux-Plugin-Panel) | 66 | 2026-03-19T14:13:24Z | Rust | CLI | 9 | 5 | 9 | 9 |
 | [viperproject/smt-scope](https://github.com/viperproject/smt-scope) | 65 | 2025-12-10T15:38:54Z | Rust | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [cg31/shadowsocks-windows-gui-rust](https://github.com/cg31/shadowsocks-windows-gui-rust) | 65 | 2023-03-22T07:11:07Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [tombelieber/claude-view](https://github.com/tombelieber/claude-view) | 64 | 2026-04-18T11:41:10Z | Rust | CLI | 1 | 14 | 0 | 0 |
@@ -3172,7 +3172,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [not-fl3/quad-net](https://github.com/not-fl3/quad-net) | 17 | 2024-09-10T18:55:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [argmin-rs/modcholesky](https://github.com/argmin-rs/modcholesky) | 17 | 2024-08-31T14:23:52Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [celo-org/snark-setup](https://github.com/celo-org/snark-setup) | 17 | 2024-02-03T00:58:56Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 0 | 5 | 1 | 1 |
+| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [near/cargo-near-new-project-template](https://github.com/near/cargo-near-new-project-template) | 16 | 2026-04-29T05:11:37Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [rust-lang/josh-sync](https://github.com/rust-lang/josh-sync) | 16 | 2026-04-10T15:35:43Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [Xuanwo/serde-bridge](https://github.com/Xuanwo/serde-bridge) | 16 | 2025-09-08T11:44:54Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |

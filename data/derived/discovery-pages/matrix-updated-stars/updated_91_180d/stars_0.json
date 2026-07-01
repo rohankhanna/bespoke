@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 423,
-    "concepts": 203,
-    "observations": 205,
-    "repos": 139,
-    "terms": 205
+    "components": 429,
+    "concepts": 204,
+    "observations": 206,
+    "repos": 140,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -133,6 +133,7 @@
     "petercorke/sphinx-autorun",
     "PetervanLunteren/EcoAssist-metadata",
     "prestodb/presto-dev",
+    "prisma/cuid-rust",
     "saalfeldlab/n5-blosc",
     "Saalvage/assimp",
     "saharmor/saharmor.github.io",

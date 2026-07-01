@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 214,
-    "concepts": 163,
-    "observations": 164,
-    "repos": 21,
-    "terms": 163
+    "components": 179,
+    "concepts": 143,
+    "observations": 144,
+    "repos": 19,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
-    "ansys/pymapdl",
     "aramis-lab/clinica",
     "ashawkey/kiuikit",
     "BBC-Esq/Faster-Whisper-Transcriber",
     "bjlittle/geovista",
     "eclipse-paho/paho.mqtt.testing",
-    "flagos-ai/FlagAttention",
     "gbionics/jaxsim",
     "google-deepmind/chex",
     "google-deepmind/xmanager",

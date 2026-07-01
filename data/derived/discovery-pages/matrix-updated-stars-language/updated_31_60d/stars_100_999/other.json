@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 457,
-    "concepts": 249,
-    "observations": 249,
-    "repos": 44,
-    "terms": 248
+    "components": 441,
+    "concepts": 228,
+    "observations": 228,
+    "repos": 42,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersRegistry",
     "Alexey-T/ATFlatControls",
@@ -24,7 +24,6 @@
     "CHIP-SPV/chipStar",
     "CopyText/TextCopy",
     "cowprotocol/contracts",
-    "cucumber/aruba",
     "danielrosehill/Claude-Code-Projects-Index",
     "dbkangaroo/kangaroo",
     "dennisdoomen/CSharpGuidelines",
@@ -36,7 +35,6 @@
     "intel/ipex-llm-tutorial",
     "istio/client-go",
     "JeffreyXiang/CuMesh",
-    "JuliaGraphics/Luxor.jl",
     "jump-dev/NLopt.jl",
     "Kotlin/kotlinx-benchmark",
     "KulikDM/pythresh",

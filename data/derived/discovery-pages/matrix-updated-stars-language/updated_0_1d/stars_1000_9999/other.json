@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 124,
-    "observations": 124,
+    "components": 171,
+    "concepts": 139,
+    "observations": 142,
     "repos": 12,
-    "terms": 124
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
+    "all-contributors/allcontributors.org",
     "beam-community/elixir-companies",
     "datalevin/datalevin",
     "elixir-grpc/grpc",
+    "JuliaAI/MLJ.jl",
     "kurrent-io/KurrentDB",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "microsoft/PhiCookBook",
-    "nvim-neotest/neotest",
+    "nvim-tree/nvim-web-devicons",
     "seancorfield/honeysql",
     "swiftlang/llvm-project",
-    "swiftlang/swift-syntax",
     "web-platform-tests/wpt"
   ]
 }

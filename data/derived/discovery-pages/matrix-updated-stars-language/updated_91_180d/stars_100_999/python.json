@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 721,
-    "concepts": 1176,
-    "observations": 1178,
-    "repos": 293,
-    "terms": 1172
+    "components": 722,
+    "concepts": 1177,
+    "observations": 1179,
+    "repos": 294,
+    "terms": 1173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0k/shyaml",
     "absadiki/pywhispercpp",
@@ -30,6 +30,7 @@
     "alexei-led/aws-mcp-server",
     "alfworld/alfworld",
     "ali-vilab/Wan-Move",
+    "Alibaba-NLP/qqr",
     "Alibaba-NLP/ViDoRAG",
     "alibaba/TinyNeuralNetwork",
     "allenai/olmes",

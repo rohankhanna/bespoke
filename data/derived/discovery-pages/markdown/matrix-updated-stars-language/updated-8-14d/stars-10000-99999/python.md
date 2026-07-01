@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -27,7 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad) | 33137 | 2026-06-21T19:14:50Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | 23858 | 2026-06-19T00:13:10Z | Python | Infrastructure/tooling | 13 | 10 | 13 | 13 |
+| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | 23860 | 2026-06-19T00:13:10Z | Python | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [Kludex/starlette](https://github.com/Kludex/starlette) | 12439 | 2026-06-19T00:03:19Z | Python | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 
 ## Repos sorted by stars
@@ -35,5 +35,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad) | 33137 | 2026-06-21T19:14:50Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | 23858 | 2026-06-19T00:13:10Z | Python | Infrastructure/tooling | 13 | 10 | 13 | 13 |
+| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | 23860 | 2026-06-19T00:13:10Z | Python | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [Kludex/starlette](https://github.com/Kludex/starlette) | 12439 | 2026-06-19T00:03:19Z | Python | Infrastructure/tooling | 7 | 18 | 7 | 7 |

@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 2890,
-    "concepts": 1282,
-    "observations": 1290,
-    "repos": 110,
-    "terms": 1265
+    "components": 2780,
+    "concepts": 1204,
+    "observations": 1212,
+    "repos": 104,
+    "terms": 1190
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "4ian/GDevelop",
     "academic/awesome-datascience",
-    "acmesh-official/acme.sh",
     "aden-hive/hive",
     "adityatelange/hugo-PaperMod",
     "agentscope-ai/QwenPaw",
@@ -32,7 +31,6 @@
     "cilium/cilium",
     "clauderic/dnd-kit",
     "containers/podman",
-    "continuedev/continue",
     "danny-avila/LibreChat",
     "DayBreak-u/chineseocr_lite",
     "DefinitelyTyped/DefinitelyTyped",
@@ -59,7 +57,6 @@
     "helm/helm",
     "HIllya51/LunaTranslator",
     "HKUDS/CLI-Anything",
-    "istio/istio",
     "itzg/docker-minecraft-server",
     "JetBrains/compose-multiplatform",
     "jqlang/jq",
@@ -97,7 +94,6 @@
     "redisson/redisson",
     "Redocly/redoc",
     "reduxjs/redux-devtools",
-    "remotion-dev/remotion",
     "rerun-io/rerun",
     "restic/restic",
     "RooCodeInc/Roo-Code",
@@ -109,7 +105,6 @@
     "SubtitleEdit/subtitleedit",
     "sveltejs/kit",
     "swiftlang/swift-evolution",
-    "swiftlang/swift-package-manager",
     "tiann/KernelSU",
     "triton-inference-server/server",
     "tw93/Pake",
@@ -117,7 +112,6 @@
     "vitejs/vite",
     "vuejs/core",
     "vuejs/vitepress",
-    "withastro/astro",
     "wkentaro/labelme",
     "XAMPPRocky/tokei",
     "XTLS/Xray-core",

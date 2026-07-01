@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 324,
-    "concepts": 210,
-    "observations": 214,
-    "repos": 44,
-    "terms": 209
+    "components": 313,
+    "concepts": 204,
+    "observations": 208,
+    "repos": 43,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "ameshkov/swift-psl",
     "anniegbryant/subcortex_visualization",
@@ -28,7 +28,6 @@
     "countries/countries-data-json",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
-    "davidanthoff/Electron.jl",
     "dinosaure/blaze",
     "ekryski/mlx-swift-lm",
     "Elyahu41/KosherSwift",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1849,
+    "components": 1847,
     "concepts": 1279,
     "observations": 1291,
-    "repos": 226,
+    "repos": 225,
     "terms": 1278
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -108,7 +108,6 @@
     "facebookexperimental/rust-shed",
     "fancy-regex/fancy-regex",
     "FedericoPonzi/Horust",
-    "filecoin-project/bellperson",
     "filecoin-project/filecoin-ffi",
     "filecoin-project/ref-fvm",
     "flashbots/contender",

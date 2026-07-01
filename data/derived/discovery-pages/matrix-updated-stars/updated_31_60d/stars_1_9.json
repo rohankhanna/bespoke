@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 375,
-    "concepts": 267,
-    "observations": 268,
-    "repos": 56,
-    "terms": 265
+    "components": 357,
+    "concepts": 258,
+    "observations": 259,
+    "repos": 53,
+    "terms": 256
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "Aayushm24/presidential-briefing",
@@ -21,7 +21,6 @@
     "apache/casbin-fasthttp-auth",
     "atsushieno/aap-juce-simple-host",
     "atsushieno/midicci",
-    "Azure-Samples/azure-openai-starter",
     "Cebeerre/dnsblocklists",
     "chrishulbert/brickwarrior",
     "clearml/dropbear",
@@ -39,8 +38,6 @@
     "FCP-INDI/fcp-indi.github.io",
     "fluent-vue/examples",
     "fluent-vue/unplugin-fluent-vue",
-    "fluxcd/flux-schema",
-    "godot-rust/godot4-prebuilt",
     "gookit/cliui",
     "haskell/ghcup-www",
     "HuaweiCloudDeveloper/karpenter-provider-huawei",

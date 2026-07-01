@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 231
-- components: 195
-- concepts: 233
-- observations: 233
+- repos: 24
+- terms: 227
+- components: 189
+- concepts: 229
+- observations: 229
 
 ## Static behavior
 
@@ -50,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [istio/api](https://github.com/istio/api) | 510 | 2026-05-02T13:15:58Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [scaleway/scaleway-sdk-go](https://github.com/scaleway/scaleway-sdk-go) | 126 | 2026-05-02T13:09:38Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [pulumi/pulumi-azure-native](https://github.com/pulumi/pulumi-azure-native) | 151 | 2026-05-02T09:58:10Z | Go | Infrastructure/tooling | 6 | 18 | 6 | 6 |
-| [helmfile/vals](https://github.com/helmfile/vals) | 747 | 2026-05-02T09:29:41Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -60,7 +59,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [osmosis-labs/osmosis](https://github.com/osmosis-labs/osmosis) | 962 | 2026-05-05T10:35:06Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [pkoukk/tiktoken-go](https://github.com/pkoukk/tiktoken-go) | 933 | 2026-05-12T07:45:32Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [itzg/mc-router](https://github.com/itzg/mc-router) | 846 | 2026-05-05T03:20:36Z | Go | CLI | 7 | 3 | 7 | 7 |
-| [helmfile/vals](https://github.com/helmfile/vals) | 747 | 2026-05-02T09:29:41Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [gofrs/flock](https://github.com/gofrs/flock) | 727 | 2026-05-03T19:21:34Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [energye/energy](https://github.com/energye/energy) | 588 | 2026-05-08T00:59:00Z | Go | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [gookit/config](https://github.com/gookit/config) | 584 | 2026-05-05T02:29:34Z | Go | Infrastructure/tooling | 13 | 9 | 15 | 15 |

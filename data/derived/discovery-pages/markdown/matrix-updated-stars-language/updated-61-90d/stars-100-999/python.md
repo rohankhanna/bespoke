@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 449
-- terms: 2362
-- components: 2487
-- concepts: 2360
-- observations: 2370
+- repos: 451
+- terms: 2400
+- components: 2505
+- concepts: 2398
+- observations: 2408
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project) | 677 | 2026-05-02T06:21:57Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
+| [cognizant-ai-lab/neuro-san](https://github.com/cognizant-ai-lab/neuro-san) | 111 | 2026-05-02T06:15:28Z | Python | Infrastructure/tooling | 15 | 10 | 15 | 15 |
+| [cognizant-ai-lab/neuro-san-studio](https://github.com/cognizant-ai-lab/neuro-san-studio) | 486 | 2026-05-02T06:14:58Z | Python | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [castorini/rank_llm](https://github.com/castorini/rank_llm) | 593 | 2026-05-02T03:13:59Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [conda/conda-libmamba-solver](https://github.com/conda/conda-libmamba-solver) | 243 | 2026-05-02T00:48:01Z | Python | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [Project-MONAI/model-zoo](https://github.com/Project-MONAI/model-zoo) | 315 | 2026-05-02T00:06:05Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
@@ -474,7 +477,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlcommons/algorithmic-efficiency](https://github.com/mlcommons/algorithmic-efficiency) | 417 | 2026-04-03T02:25:13Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [aiming-lab/AutoHarness](https://github.com/aiming-lab/AutoHarness) | 270 | 2026-04-02T20:47:19Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [Yelp/aactivator](https://github.com/Yelp/aactivator) | 151 | 2026-04-02T17:10:16Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [Alibaba-NLP/qqr](https://github.com/Alibaba-NLP/qqr) | 235 | 2026-04-02T06:57:00Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -567,6 +569,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [enjoy-digital/litepcie](https://github.com/enjoy-digital/litepcie) | 687 | 2026-04-30T09:15:00Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [googleads/google-ads-python](https://github.com/googleads/google-ads-python) | 687 | 2026-04-22T19:58:51Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [ayanami0730/deep_research_bench](https://github.com/Ayanami0730/deep_research_bench) | 684 | 2026-04-18T13:28:47Z | Python | Unknown | 2 | 0 | 2 | 2 |
+| [Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project) | 677 | 2026-05-02T06:21:57Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [ComparativeGenomicsToolkit/cactus](https://github.com/ComparativeGenomicsToolkit/cactus) | 675 | 2026-05-01T17:40:29Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [hshi74/toddlerbot](https://github.com/hshi74/toddlerbot) | 674 | 2026-04-19T18:18:05Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [PyO3/setuptools-rust](https://github.com/PyO3/setuptools-rust) | 673 | 2026-04-23T16:41:34Z | Python | Infrastructure/tooling | 2 | 15 | 2 | 2 |
@@ -654,6 +657,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [plotly/Kaleido](https://github.com/plotly/Kaleido) | 489 | 2026-04-29T22:04:12Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [Kludex/python-multipart](https://github.com/Kludex/python-multipart) | 489 | 2026-04-27T10:51:04Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [agencyenterprise/PromptInject](https://github.com/agencyenterprise/PromptInject) | 487 | 2026-04-27T18:55:36Z | Python | Framework | 11 | 0 | 11 | 11 |
+| [cognizant-ai-lab/neuro-san-studio](https://github.com/cognizant-ai-lab/neuro-san-studio) | 486 | 2026-05-02T06:14:58Z | Python | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [SWE-agent/SWE-ReX](https://github.com/SWE-agent/SWE-ReX) | 484 | 2026-04-20T21:22:07Z | Python | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [litex-hub/litex-boards](https://github.com/litex-hub/litex-boards) | 479 | 2026-04-29T16:56:36Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [python-poetry/poetry-core](https://github.com/python-poetry/poetry-core) | 479 | 2026-04-20T20:54:13Z | Python | Infrastructure/tooling | 8 | 8 | 8 | 8 |
@@ -783,7 +787,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fzyzcjy/torch_memory_saver](https://github.com/fzyzcjy/torch_memory_saver) | 240 | 2026-04-20T08:51:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [onnx/turnkeyml](https://github.com/onnx/turnkeyml) | 237 | 2026-04-28T18:14:30Z | Python | CLI | 12 | 8 | 12 | 12 |
 | [hustvl/RAD](https://github.com/hustvl/RAD) | 235 | 2026-04-17T02:03:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Alibaba-NLP/qqr](https://github.com/Alibaba-NLP/qqr) | 235 | 2026-04-02T06:57:00Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [Joshuaalbert/jaxns](https://github.com/Joshuaalbert/jaxns) | 233 | 2026-04-16T23:46:47Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [boto/s3transfer](https://github.com/boto/s3transfer) | 232 | 2026-04-23T22:37:13Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [ROCm/flash-attention](https://github.com/ROCm/flash-attention) | 230 | 2026-04-27T21:52:56Z | Python | Infrastructure/tooling | 5 | 16 | 5 | 5 |
@@ -906,6 +909,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ultralytics/docs](https://github.com/ultralytics/docs) | 115 | 2026-04-23T21:09:57Z | Python | Infrastructure/tooling | 20 | 7 | 20 | 20 |
 | [KBH00/Semantic-Fast-SAM](https://github.com/KBH00/Semantic-Fast-SAM) | 115 | 2026-04-23T05:37:32Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [RoboTwin-Platform/RMBench](https://github.com/RoboTwin-Platform/RMBench) | 114 | 2026-04-19T09:50:21Z | Python | Unknown | 5 | 0 | 5 | 5 |
+| [cognizant-ai-lab/neuro-san](https://github.com/cognizant-ai-lab/neuro-san) | 111 | 2026-05-02T06:15:28Z | Python | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [daniandtheweb/sd.cpp-webui](https://github.com/daniandtheweb/sd.cpp-webui) | 110 | 2026-04-18T02:10:25Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [trailofbits/dropkit](https://github.com/trailofbits/dropkit) | 110 | 2026-04-14T09:04:01Z | Python | CLI | 0 | 2 | 0 | 0 |
 | [HoangTheQuyen/think-better](https://github.com/HoangTheQuyen/think-better) | 110 | 2026-04-05T09:34:02Z | Python | Infrastructure/tooling | 8 | 4 | 8 | 8 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 5,
-    "terms": 47
+    "components": 125,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 7,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxdiffusion",
+    "ansys/pymapdl",
     "aristoteleo/PantheonOS",
     "Comfy-Org/comfy-cli",
     "flagos-ai/FlagScale",
+    "jawah/charset_normalizer",
     "scverse/rapids-singlecell"
   ]
 }

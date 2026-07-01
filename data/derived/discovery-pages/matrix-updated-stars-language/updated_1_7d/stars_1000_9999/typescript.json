@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 497,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 8,
-    "terms": 48
+    "components": 358,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 6,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "ebullient/obsidian-admonition",
-    "electron/rebuild",
-    "microsoft/vscode-js-debug",
     "modelcontextprotocol/modelcontextprotocol",
     "off-grid-ai/mobile",
     "shareAI-lab/Kode-CLI",

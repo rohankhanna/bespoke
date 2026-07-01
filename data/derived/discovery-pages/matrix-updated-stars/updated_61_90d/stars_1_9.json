@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4288,
-    "concepts": 2053,
-    "observations": 2057,
-    "repos": 544,
-    "terms": 2079
+    "components": 4306,
+    "concepts": 2062,
+    "observations": 2066,
+    "repos": 547,
+    "terms": 2088
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xble/dotagent.nvim",
@@ -89,6 +89,7 @@
     "atlanhq/atlan-sample-apps",
     "audeering/audonnx",
     "axolotl-ai-cloud/ml-cross-entropy",
+    "Azure-Samples/azure-openai-starter",
     "Azure-Samples/langchain-agent-python",
     "azure/homebrew-bicep",
     "b-data/jupyterlab-julia-docker-stack",
@@ -282,6 +283,7 @@
     "flinedev/marketplace",
     "floxym/financial-chat",
     "floxym/financial-chat-finance-nlp-chatbots",
+    "fluxcd/flux-schema",
     "fontsource/download-stat-aggregator",
     "foundry-rs/foundry-core",
     "frank-syncmarket/skills",
@@ -291,6 +293,7 @@
     "gbrobro119-star/darksword-kexploit",
     "gibdd-dps/prizolov-agent-os",
     "gkr-bot/gkr-bot",
+    "godot-rust/godot4-prebuilt",
     "googleapis/google-cloud-php-compute",
     "goreleaser/.github",
     "goreleaser/sponsors",

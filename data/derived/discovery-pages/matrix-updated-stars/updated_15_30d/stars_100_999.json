@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 426,
-    "concepts": 329,
-    "observations": 329,
-    "repos": 61,
-    "terms": 328
+    "components": 402,
+    "concepts": 320,
+    "observations": 320,
+    "repos": 60,
+    "terms": 319
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "Ai00-X/ai00_server",
@@ -44,7 +44,6 @@
     "haasn/libplacebo",
     "ika-rwth-aachen/docker-ros",
     "ika-rwth-aachen/ros2-depth-anything-v3-trt",
-    "jawah/charset_normalizer",
     "joblib/loky",
     "kantv-ai/kantv",
     "Kosinkadink/ComfyUI-Advanced-ControlNet",

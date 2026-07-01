@@ -3,8 +3,8 @@
     "components": 1456,
     "concepts": 367,
     "observations": 368,
-    "repos": 68,
-    "terms": 363
+    "repos": 69,
+    "terms": 364
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "Adobe-CEP/Samples",
@@ -81,6 +81,7 @@
     "treosh/lighthouse-ci-action",
     "TritonDataCenter/node-verror",
     "typicode/mistcss",
-    "webpack/mini-css-extract-plugin"
+    "webpack/mini-css-extract-plugin",
+    "ykdojo/claude-code-tips"
   ]
 }

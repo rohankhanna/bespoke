@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1662,
-    "concepts": 339,
-    "observations": 339,
-    "repos": 41,
-    "terms": 337
+    "components": 1560,
+    "concepts": 325,
+    "observations": 325,
+    "repos": 39,
+    "terms": 323
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "alichherawalla/off-grid-mobile-ai",
     "antvis/mcp-server-chart",
     "apify/fingerprint-suite",
     "apollographql/apollo-client-devtools",
-    "azat-io/eslint-plugin-perfectionist",
     "boxlite-ai/boxlite",
     "can1357/oh-my-pi",
     "carbon-design-system/carbon-components-svelte",
@@ -53,7 +52,6 @@
     "vite-pwa/vite-plugin-pwa",
     "vitejs/devtools",
     "vitejs/vite-plugin-react",
-    "vuejs/babel-plugin-jsx",
     "withcatai/node-llama-cpp"
   ]
 }

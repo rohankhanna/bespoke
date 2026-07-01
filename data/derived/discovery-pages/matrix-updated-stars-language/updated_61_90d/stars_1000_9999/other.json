@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 3878,
-    "concepts": 3473,
-    "observations": 3496,
-    "repos": 483,
-    "terms": 3457
+    "concepts": 3476,
+    "observations": 3499,
+    "repos": 484,
+    "terms": 3460
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
+    "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
     "abapGit/abapGit",
     "abo-abo/swiper",
@@ -203,7 +204,6 @@
     "getsentry/sentry-cocoa",
     "GFW-knocker/MahsaNG",
     "ggandor/leap.nvim",
-    "ggml-org/llama.vim",
     "github/choosealicense.com",
     "github/codeql",
     "github/markup",
@@ -450,6 +450,7 @@
     "svenfuchs/rails-i18n",
     "swiftbar/SwiftBar",
     "SwiftGen/SwiftGen",
+    "swiftlang/sourcekit-lsp",
     "swiftlang/swift-format",
     "symfony/cache",
     "symfony/contracts",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-07-01T06:04:45.209590+00:00`
+Generated at: `2026-07-01T09:32:24.297174+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -33,7 +33,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mudler/locate-anything.cpp](https://github.com/mudler/locate-anything.cpp) | 145 | 2026-06-12T10:59:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [coin-or/Clp](https://github.com/coin-or/Clp) | 488 | 2026-06-11T16:30:39Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [kantv-ai/kantv](https://github.com/kantv-ai/kantv) | 195 | 2026-06-07T01:42:47Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [celtera/libremidi](https://github.com/celtera/libremidi) | 694 | 2026-06-06T03:44:39Z | C/C++ | Infrastructure/tooling | 15 | 14 | 15 | 15 |
+| [celtera/libremidi](https://github.com/celtera/libremidi) | 696 | 2026-06-06T03:44:39Z | C/C++ | Infrastructure/tooling | 15 | 14 | 15 | 15 |
 | [pyvista/fast-simplification](https://github.com/pyvista/fast-simplification) | 204 | 2026-06-01T19:58:29Z | C/C++ | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 
 ## Repos sorted by stars
@@ -42,7 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [google-deepmind/reverb](https://github.com/google-deepmind/reverb) | 781 | 2026-06-16T09:21:35Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [haasn/libplacebo](https://github.com/haasn/libplacebo) | 745 | 2026-06-12T15:10:50Z | C/C++ | Infrastructure/tooling | 12 | 2 | 12 | 12 |
-| [celtera/libremidi](https://github.com/celtera/libremidi) | 694 | 2026-06-06T03:44:39Z | C/C++ | Infrastructure/tooling | 15 | 14 | 15 | 15 |
+| [celtera/libremidi](https://github.com/celtera/libremidi) | 696 | 2026-06-06T03:44:39Z | C/C++ | Infrastructure/tooling | 15 | 14 | 15 | 15 |
 | [coin-or/Clp](https://github.com/coin-or/Clp) | 488 | 2026-06-11T16:30:39Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [ika-rwth-aachen/ros2-depth-anything-v3-trt](https://github.com/ika-rwth-aachen/ros2-depth-anything-v3-trt) | 487 | 2026-06-15T13:02:05Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [ChiyukiGana/Quickinput](https://github.com/ChiyukiGana/Quickinput) | 231 | 2026-06-12T15:08:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

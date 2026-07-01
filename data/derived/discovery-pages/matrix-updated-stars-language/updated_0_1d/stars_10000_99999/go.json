@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 95,
-    "observations": 95,
+    "components": 141,
+    "concepts": 91,
+    "observations": 91,
     "repos": 7,
-    "terms": 95
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
-    "crossplane/crossplane",
+    "gastownhall/beads",
     "git-lfs/git-lfs",
     "moby/moby",
     "mudler/LocalAI",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 239,
-    "concepts": 328,
-    "observations": 330,
-    "repos": 53,
-    "terms": 331
+    "concepts": 325,
+    "observations": 327,
+    "repos": 52,
+    "terms": 328
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -62,7 +62,6 @@
     "rvm/rvm",
     "spiffe/spiffe",
     "sublimehq/Packages",
-    "trailofbits/claude-code-config",
     "void-linux/void-packages",
     "YosysHQ/oss-cad-suite-build",
     "zilliztech/attu",

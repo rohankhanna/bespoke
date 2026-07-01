@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10960,
-    "concepts": 5112,
-    "observations": 5133,
-    "repos": 1240,
-    "terms": 5162
+    "components": 10983,
+    "concepts": 5141,
+    "observations": 5162,
+    "repos": 1243,
+    "terms": 5190
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -255,6 +255,7 @@
     "BoosterRobotics/booster_train",
     "boostorg/config",
     "bootmortis/sing-geosite",
+    "boozook/mdbook-svgbob",
     "boundless-xyz/kailua",
     "boundless-xyz/steel",
     "bourumir-wyngs/serde-yaml-bw",
@@ -393,6 +394,7 @@
     "datafusion-contrib/orc-rust",
     "datajuicer/data-juicer-agents",
     "dathere/datapusher-plus",
+    "davidanthoff/Electron.jl",
     "davidhozic/mujoco-rs",
     "davidkarlsen/flyway-operator",
     "DavidKinder/Windows-Inform7",
@@ -566,7 +568,6 @@
     "grafana/profiles-drilldown",
     "grain-lang/binaryen.ml",
     "graphql/composite-schemas-wg",
-    "graphql/graphql-js-wg",
     "GregoryConrad/native_toolchain_rust",
     "GreptimeTeam/demo-scene",
     "GreptimeTeam/greptimedb-grafana-datasource",
@@ -597,6 +598,8 @@
     "HDFGroup/hdf4",
     "hecrj/iced_palace",
     "hectorm/chafa-wasm",
+    "heiher/hev-socks5-core",
+    "heiher/hev-task-system",
     "helidon-io/helidon-examples",
     "hercules-ci/flake.parts-website",
     "hermanjustnu/scoop-emulators",

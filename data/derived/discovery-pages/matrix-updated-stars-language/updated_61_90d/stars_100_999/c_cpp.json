@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1365,
-    "concepts": 1407,
-    "observations": 1411,
-    "repos": 262,
-    "terms": 1397
+    "components": 1368,
+    "concepts": 1416,
+    "observations": 1420,
+    "repos": 263,
+    "terms": 1406
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-07-01T06:04:45.209590+00:00",
+  "generated_at": "2026-07-01T09:32:24.297174+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -119,6 +119,7 @@
     "hamcrest/OCHamcrest",
     "HazyResearch/HipKittens",
     "heal-research/operon",
+    "heiher/hev-socks5-tproxy",
     "highfive-devs/highfive",
     "hku-mars/FAST-Calib",
     "HybridRobotics/motion_tracking_controller",
