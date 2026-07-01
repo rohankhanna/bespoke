@@ -1996,11 +1996,29 @@
       "observed_at": "2026-06-30T12:55:19.331325+00:00",
       "source_file": null,
       "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T00:49:47.383029+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T00:49:47.383029+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T00:49:47.383029+00:00",
+      "source_file": null,
+      "source_repo": "FlagOpen/RoboBrain2.5"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
+  "last_seen_at": "2026-07-01T00:49:47.383029+00:00",
   "lexical_providers": [
     "datamuse"
   ],

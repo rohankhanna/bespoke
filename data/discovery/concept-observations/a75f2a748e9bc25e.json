@@ -8,19 +8,19 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Self-describing content-addressed identifiers for distributed systems"
+      "text": "This repository is outdated and kept for historical reference. The maintained CID specification used by IPFS now lives at https://specs.ipfs.tech/cid/"
     },
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)"
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)"
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -84,10 +84,10 @@
   "normalized_form": "ipfs",
   "observation_id": "a75f2a748e9bc25e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-30T12:55:19.331325+00:00",
+  "observed_at": "2026-07-01T00:49:47.383029+00:00",
   "observed_text": "ipfs",
-  "source_context_snippet": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)",
+  "source_context_snippet": "> [!IMPORTANT]",
   "source_file": null,
   "source_repo": "multiformats/cid",
-  "source_repo_description": "Self-describing content-addressed identifiers for distributed systems"
+  "source_repo_description": "This repository is outdated and kept for historical reference. The maintained CID specification used by IPFS now lives at https://specs.ipfs.tech/cid/"
 }

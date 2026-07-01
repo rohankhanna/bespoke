@@ -1,7 +1,7 @@
 {
   "component": "@rspack/core",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
+  "last_seen_at": "2026-07-01T00:49:47.383029+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -137,6 +137,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "manzt/anywidget"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs/ipfs-companion"
     }
   ]
 }

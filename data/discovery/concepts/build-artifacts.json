@@ -810,11 +810,17 @@
       "observed_at": "2026-06-30T12:55:19.331325+00:00",
       "source_file": ".github/workflows/artifacts.yml",
       "source_repo": "misyltoad/VPhysics-Jolt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T00:49:47.383029+00:00",
+      "source_file": ".github/workflows/artifacts.yml",
+      "source_repo": "misyltoad/VPhysics-Jolt"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
+  "last_seen_at": "2026-07-01T00:49:47.383029+00:00",
   "lexical_providers": [
     "datamuse"
   ],

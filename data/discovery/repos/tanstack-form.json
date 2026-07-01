@@ -645,7 +645,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T16:53:30.149551+00:00",
+  "fetched_at": "2026-07-01T01:15:48.521866+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -681,7 +681,7 @@
     "full_name": "TanStack/form",
     "html_url": "https://github.com/TanStack/form",
     "language": "TypeScript",
-    "pushed_at": "2026-06-19T15:04:41Z",
+    "pushed_at": "2026-07-01T01:01:16Z",
     "stargazers_count": 6592,
     "topics": [
       "angular",

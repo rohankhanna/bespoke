@@ -32,20 +32,6 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "assert",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "buffer",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
       "target": "choo",
       "target_type": "component"
     },
@@ -116,34 +102,6 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "merge-options",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "multiaddr",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "multiaddr-to-uri",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "os-browserify",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
       "target": "p-memoize",
       "target_type": "component"
     },
@@ -158,42 +116,7 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "p-wait-for",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "path-browserify",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "piggybacker",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "postmsg-rpc",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
       "target": "tachyons",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "uri-to-multiaddr",
       "target_type": "component"
     },
     {
@@ -207,28 +130,21 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "@babel/core",
+      "target": "@playwright/test",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "@babel/plugin-proposal-class-properties",
+      "target": "@rspack/cli",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "@babel/preset-env",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "@istanbuljs/esm-loader-hook",
+      "target": "@rspack/core",
       "target_type": "component"
     },
     {
@@ -249,20 +165,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "@types/mocha",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "@types/selenium-webdriver",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
       "target": "@types/webextension-polyfill",
       "target_type": "component"
     },
@@ -270,35 +172,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "abort-controller",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "babel-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "babel-plugin-syntax-async-generators",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "bufferutil",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "c8",
+      "target": "@vitest/coverage-v8",
       "target_type": "component"
     },
     {
@@ -326,14 +200,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "download-cli",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "exponential-backoff",
+      "target": "eslint",
       "target_type": "component"
     },
     {
@@ -347,42 +214,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "file-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "fs-promise",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
       "target": "get-firefox",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "global",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "http-browserify",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "https-browserify",
       "target_type": "component"
     },
     {
@@ -396,20 +228,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "ignore-styles",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "json",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
       "target": "kubo-rpc-client",
       "target_type": "component"
     },
@@ -417,21 +235,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "mem-storage-area",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "mini-css-extract-plugin",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "mocha",
+      "target": "neostandard",
       "target_type": "component"
     },
     {
@@ -439,20 +243,6 @@
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
       "target": "npm-run-all",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "patch-package",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "path",
       "target_type": "component"
     },
     {
@@ -467,20 +257,6 @@
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
       "target": "raw-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "request-progress",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "selenium-webdriver",
       "target_type": "component"
     },
     {
@@ -508,76 +284,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "standard",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "style-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "tar",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "terser",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "terser-webpack-plugin",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "transform-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "ts-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "ts-node",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "ts-standard",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "tsconfig-paths",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
       "target": "typescript",
       "target_type": "component"
     },
@@ -585,14 +291,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "url",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "utf-8-validate",
+      "target": "vitest",
       "target_type": "component"
     },
     {
@@ -600,27 +299,6 @@
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
       "target": "web-ext",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "webpack",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "webpack-bundle-analyzer",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "webpack-cli",
       "target_type": "component"
     },
     {
@@ -662,7 +340,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "google-github-actions/release-please-action@v3.7.3",
+      "target": "googleapis/release-please-action@v4",
       "target_type": "component"
     },
     {
@@ -676,14 +354,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "ipfs/ipfs-companion",
-      "target": "actions/setup-node@v3",
+      "target": "actions/setup-node@v5",
       "target_type": "component"
     },
     {
@@ -799,6 +477,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-30T12:55:19.331325+00:00",
+  "generated_at": "2026-07-01T00:49:47.383029+00:00",
   "source_repo": "ipfs/ipfs-companion"
 }

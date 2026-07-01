@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T16:26:30.992908+00:00",
+  "fetched_at": "2026-07-01T00:57:16.525569+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -111,14 +111,14 @@
     "html_url": "https://github.com/libsndfile/libsndfile",
     "language": "C",
     "pushed_at": "2026-06-29T03:57:52Z",
-    "stargazers_count": 1708,
+    "stargazers_count": 1707,
     "topics": [
       "audio-library",
       "c",
       "cmake",
       "libsndfile"
     ],
-    "updated_at": "2026-06-29T03:57:56Z"
+    "updated_at": "2026-06-30T16:31:35Z"
   },
   "repo_links": [
     {

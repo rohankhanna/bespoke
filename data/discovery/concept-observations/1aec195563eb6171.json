@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Self-describing content-addressed identifiers for distributed systems"
+      "text": "This repository is outdated and kept for historical reference. The maintained CID specification used by IPFS now lives at https://specs.ipfs.tech/cid/"
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "close-stale-issues",
   "observation_id": "1aec195563eb6171",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-30T12:55:19.331325+00:00",
+  "observed_at": "2026-07-01T00:49:47.383029+00:00",
   "observed_text": "Close Stale Issues",
   "source_context_snippet": "Close Stale Issues",
   "source_file": ".github/workflows/stale.yml",
   "source_repo": "multiformats/cid",
-  "source_repo_description": "Self-describing content-addressed identifiers for distributed systems"
+  "source_repo_description": "This repository is outdated and kept for historical reference. The maintained CID specification used by IPFS now lives at https://specs.ipfs.tech/cid/"
 }

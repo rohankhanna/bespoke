@@ -451,6 +451,18 @@
       "source_repo": "bmwiedemann/openSUSE",
       "status": "candidate-context",
       "text": "This repo is a public read-only git mirror of openSUSE sources"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/cid",
+      "status": "candidate-context",
+      "text": "This repository is outdated and kept for historical reference. The maintained CID specification used by IPFS now lives at https://specs.ipfs.tech/cid/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/cid",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "bmwiedemann/openSUSE",
       "status": "candidate",
       "text": "This repo is a public read-only git mirror of openSUSE sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/cid",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -3910,11 +3928,41 @@
       "observed_at": "2026-06-30T12:55:19.331325+00:00",
       "source_file": null,
       "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T00:49:47.383029+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T00:49:47.383029+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T00:49:47.383029+00:00",
+      "source_file": null,
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T00:49:47.383029+00:00",
+      "source_file": null,
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T00:49:47.383029+00:00",
+      "source_file": null,
+      "source_repo": "multiformats/cid"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
+  "last_seen_at": "2026-07-01T00:49:47.383029+00:00",
   "lexical_providers": [
     "datamuse"
   ],

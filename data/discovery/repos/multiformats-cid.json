@@ -83,11 +83,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T16:32:56.358322+00:00",
+  "fetched_at": "2026-07-01T01:01:45.310341+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 11825
+      "size": 11996
     },
     {
       "path": ".github/workflows/generated-pr.yml",
@@ -100,14 +100,14 @@
   ],
   "related_repositories": [],
   "repo": {
-    "archived": false,
+    "archived": true,
     "default_branch": "master",
-    "description": "Self-describing content-addressed identifiers for distributed systems",
+    "description": "This repository is outdated and kept for historical reference. The maintained CID specification used by IPFS now lives at https://specs.ipfs.tech/cid/",
     "fork": false,
     "full_name": "multiformats/cid",
     "html_url": "https://github.com/multiformats/cid",
     "language": null,
-    "pushed_at": "2025-04-28T15:57:33Z",
+    "pushed_at": "2026-06-30T21:10:34Z",
     "stargazers_count": 487,
     "topics": [
       "cid",
@@ -115,7 +115,7 @@
       "ipld",
       "multiformats"
     ],
-    "updated_at": "2026-06-23T03:31:57Z"
+    "updated_at": "2026-06-30T21:11:26Z"
   },
   "repo_links": [
     {
@@ -148,19 +148,19 @@
       "term": "Close Stale Issues"
     },
     {
-      "context_snippet": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)",
+      "context_snippet": "> [!IMPORTANT]",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "ipfs"
     },
     {
-      "context_snippet": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)",
+      "context_snippet": "> [!IMPORTANT]",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "ipld"
     },
     {
-      "context_snippet": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)",
+      "context_snippet": "> [!IMPORTANT]",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "multiformats"

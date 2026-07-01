@@ -303,7 +303,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-06-30T17:16:34.839572+00:00",
+  "fetched_at": "2026-07-01T01:31:14.849957+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -336,9 +336,9 @@
     "html_url": "https://github.com/safe-fndn/safe-singleton-factory",
     "language": "TypeScript",
     "pushed_at": "2026-06-22T08:15:32Z",
-    "stargazers_count": 138,
+    "stargazers_count": 139,
     "topics": [],
-    "updated_at": "2026-06-24T22:26:48Z"
+    "updated_at": "2026-06-30T18:37:45Z"
   },
   "repo_links": [],
   "terms": []

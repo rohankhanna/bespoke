@@ -337,7 +337,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T14:56:30.483037+00:00",
+  "fetched_at": "2026-07-01T01:03:21.408900+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -389,8 +389,8 @@
     "full_name": "kurrent-io/KurrentDB",
     "html_url": "https://github.com/kurrent-io/KurrentDB",
     "language": "C#",
-    "pushed_at": "2026-06-30T14:01:16Z",
-    "stargazers_count": 5813,
+    "pushed_at": "2026-06-30T18:11:22Z",
+    "stargazers_count": 5814,
     "topics": [
       "cqrs",
       "database",
@@ -399,7 +399,7 @@
       "eventsourcing",
       "eventstore"
     ],
-    "updated_at": "2026-06-30T07:54:57Z"
+    "updated_at": "2026-06-30T17:07:28Z"
   },
   "repo_links": [
     {
