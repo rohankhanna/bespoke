@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 145,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 24,
-    "terms": 54
+    "components": 142,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 22,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "arckoor/jsonwebtoken",
@@ -23,7 +23,6 @@
     "eigenwallet/arti",
     "fulmicoton-dd/datasketches-rust",
     "guoqingbao/candle",
-    "hermit-os/safe-mmio",
     "hyper-mcp-rs/arxiv-plugin",
     "hyper-mcp-rs/context7-plugin",
     "hyper-mcp-rs/crates-io-plugin",
@@ -35,7 +34,6 @@
     "netdur/llama_cpp_rust",
     "PrimeIntellect-ai/router",
     "prisma/cuid-rust",
-    "Sovereign-Labs/reltester",
     "squidowl/iced",
     "ueno/podman-sequoia"
   ]

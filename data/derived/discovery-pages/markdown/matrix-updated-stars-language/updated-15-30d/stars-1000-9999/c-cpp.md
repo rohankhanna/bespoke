@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-30T08:19:03.846649+00:00`
+Generated at: `2026-07-01T06:04:45.209590+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 19
-- components: 41
-- concepts: 19
-- observations: 20
+- repos: 4
+- terms: 20
+- components: 42
+- concepts: 20
+- observations: 21
 
 ## Static behavior
 
@@ -26,7 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ashvardanian/NumKong](https://github.com/ashvardanian/NumKong) | 1840 | 2026-06-12T16:44:52Z | C/C++ | Infrastructure/tooling | 17 | 24 | 17 | 17 |
+| [AviSynth/AviSynthPlus](https://github.com/AviSynth/AviSynthPlus) | 1186 | 2026-06-17T03:10:51Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [ashvardanian/NumKong](https://github.com/ashvardanian/NumKong) | 1841 | 2026-06-12T16:44:52Z | C/C++ | Infrastructure/tooling | 17 | 24 | 17 | 17 |
 | [Nevcairiel/LAVFilters](https://github.com/Nevcairiel/LAVFilters) | 8966 | 2026-06-10T05:33:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) | 4550 | 2026-06-06T04:00:50Z | C/C++ | Infrastructure/tooling | 2 | 17 | 2 | 3 |
 
@@ -36,4 +37,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Nevcairiel/LAVFilters](https://github.com/Nevcairiel/LAVFilters) | 8966 | 2026-06-10T05:33:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) | 4550 | 2026-06-06T04:00:50Z | C/C++ | Infrastructure/tooling | 2 | 17 | 2 | 3 |
-| [ashvardanian/NumKong](https://github.com/ashvardanian/NumKong) | 1840 | 2026-06-12T16:44:52Z | C/C++ | Infrastructure/tooling | 17 | 24 | 17 | 17 |
+| [ashvardanian/NumKong](https://github.com/ashvardanian/NumKong) | 1841 | 2026-06-12T16:44:52Z | C/C++ | Infrastructure/tooling | 17 | 24 | 17 | 17 |
+| [AviSynth/AviSynthPlus](https://github.com/AviSynth/AviSynthPlus) | 1186 | 2026-06-17T03:10:51Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-30T08:19:03.846649+00:00`
+Generated at: `2026-07-01T06:04:45.209590+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 2
-- terms: 17
-- components: 99
-- concepts: 17
-- observations: 17
+- terms: 24
+- components: 163
+- concepts: 24
+- observations: 24
 
 ## Static behavior
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mui/material-ui](https://github.com/mui/material-ui) | 98497 | 2026-06-30T07:37:43Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
-| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41190 | 2026-06-29T20:54:49Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38729 | 2026-06-30T16:14:20Z | JavaScript | Infrastructure/tooling | 12 | 64 | 12 | 12 |
+| [mui/material-ui](https://github.com/mui/material-ui) | 98501 | 2026-06-30T07:37:43Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mui/material-ui](https://github.com/mui/material-ui) | 98497 | 2026-06-30T07:37:43Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
-| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41190 | 2026-06-29T20:54:49Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
+| [mui/material-ui](https://github.com/mui/material-ui) | 98501 | 2026-06-30T07:37:43Z | JavaScript | Infrastructure/tooling | 12 | 99 | 12 | 12 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38729 | 2026-06-30T16:14:20Z | JavaScript | Infrastructure/tooling | 12 | 64 | 12 | 12 |

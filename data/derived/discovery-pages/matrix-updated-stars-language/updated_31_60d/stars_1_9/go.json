@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 8,
-    "terms": 50
+    "components": 52,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 7,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "apache/casbin-fasthttp-auth",
     "cosmos/rosetta",
     "energye/designer",
     "energye/examples",
-    "exoscale/karpenter-provider-exoscale",
     "fluxcd/flux-schema",
     "gookit/cliui",
     "HuaweiCloudDeveloper/karpenter-provider-huawei"

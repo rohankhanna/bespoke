@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 12,
-    "terms": 93
+    "components": 61,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 11,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "ihmcrobotics/ihmc-open-robotics-software",
     "jcefmaven/jcefmaven",
     "jdereg/json-io",
     "jenkinsci/jenkins-test-harness",
+    "jenkinsci/plugin-installation-manager-tool",
     "KosherJava/zmanim",
     "mapsforge/vtm",
     "MarcusWolschon/osmeditor4android",
     "openjdk/jdk11u",
     "openjdk/jdk17u",
     "processing/processing4",
-    "samtools/htsjdk",
     "Waffle/waffle"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 2,
-    "terms": 14
+    "components": 47,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 1,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "jupyter/nbclassic",
-    "w3c/trusted-types"
+    "jupyter/nbclassic"
   ]
 }

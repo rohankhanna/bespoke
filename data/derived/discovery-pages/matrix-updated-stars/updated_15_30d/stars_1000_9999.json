@@ -1,23 +1,27 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 184,
-    "observations": 186,
-    "repos": 30,
-    "terms": 183
+    "components": 313,
+    "concepts": 221,
+    "observations": 224,
+    "repos": 34,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "alex-shpak/hugo-book",
+    "apache/casbin-Casbin.NET",
     "ashvardanian/NumKong",
+    "AviSynth/AviSynthPlus",
     "bazel-contrib/bazel-gazelle",
     "bencheeorg/benchee",
+    "benchmark-action/github-action-benchmark",
+    "callstack/react-native-builder-bob",
     "crate-ci/cargo-release",
     "facebookresearch/sam-3d-objects",
     "gevent/gevent",
@@ -25,7 +29,7 @@
     "google-deepmind/dm-haiku",
     "hacl-star/hacl-star",
     "intel/BigDL",
-    "jothepro/doxygen-awesome-css",
+    "intentee/paddler",
     "JuliaAI/MLJ.jl",
     "lambdalisue/vim-fern",
     "lightning/bolts",

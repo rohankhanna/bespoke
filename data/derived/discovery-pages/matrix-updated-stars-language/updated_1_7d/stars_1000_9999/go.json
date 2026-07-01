@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 5,
-    "terms": 34
+    "components": 56,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 4,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "bazel-contrib/rules_go",
-    "gobackup/gobackup",
-    "googleapis/google-api-go-client",
+    "aws/karpenter-provider-aws",
+    "dkron-io/dkron",
     "olric-data/olric",
     "vale-cli/vale"
   ]

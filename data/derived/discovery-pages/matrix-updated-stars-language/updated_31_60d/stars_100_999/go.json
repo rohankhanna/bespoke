@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 401,
-    "concepts": 384,
-    "observations": 385,
-    "repos": 42,
-    "terms": 382
+    "components": 195,
+    "concepts": 233,
+    "observations": 233,
+    "repos": 25,
+    "terms": 231
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "andreykaipov/goobs",
-    "apache/iceberg-go",
-    "Azure/karpenter-provider-azure",
     "betterleaks/betterleaks",
     "charmbracelet/x",
-    "cosmos/evm",
-    "cosmos/ibc-go",
-    "cosmos/interchain-security",
     "CosmWasm/wasmd",
     "dgraph-io/dgraph-benchmarks",
-    "dydxprotocol/v4-chain",
     "energye/energy",
     "gofrs/flock",
     "gookit/cache",
@@ -33,28 +27,17 @@
     "gookit/filter",
     "gookit/gcli",
     "gookit/slog",
-    "grafana/grafana-plugin-sdk-go",
     "helmfile/vals",
     "istio/api",
     "itzg/mc-router",
     "kelos-dev/kelos",
     "osmosis-labs/osmosis",
-    "pion/interceptor",
-    "pion/rtp",
     "pkoukk/tiktoken-go",
-    "pulumi/pulumi-aws",
-    "pulumi/pulumi-azure",
     "pulumi/pulumi-azure-native",
-    "pulumi/pulumi-gcp",
-    "scaleway/scaleway-cli",
     "scaleway/scaleway-sdk-go",
-    "seaweedfs/seaweedfs-csi-driver",
     "seaweedfs/seaweedfs-operator",
     "sergelogvinov/karpenter-provider-proxmox",
     "sergelogvinov/proxmox-cloud-controller-manager",
-    "suzuki-shunsuke/ghalint",
-    "sylabs/singularity",
-    "toml-lang/toml-test",
-    "yaml/go-yaml"
+    "toml-lang/toml-test"
   ]
 }

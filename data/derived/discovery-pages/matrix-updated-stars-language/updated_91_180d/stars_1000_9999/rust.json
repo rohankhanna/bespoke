@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 381,
-    "concepts": 312,
-    "observations": 316,
-    "repos": 60,
-    "terms": 310
+    "components": 400,
+    "concepts": 327,
+    "observations": 331,
+    "repos": 62,
+    "terms": 324
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
     "anordal/shellharden",
     "anthropics/claudes-c-compiler",
     "apache/horaedb",
+    "arxanas/git-branchless",
+    "bitshifter/glam-rs",
     "brendanzab/codespan",
     "Byron/dua-cli",
     "Byron/google-apis-rs",

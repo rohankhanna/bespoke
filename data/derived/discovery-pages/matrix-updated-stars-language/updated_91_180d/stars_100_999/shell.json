@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 84,
-    "concepts": 170,
-    "observations": 171,
-    "repos": 40,
-    "terms": 169
+    "concepts": 164,
+    "observations": 165,
+    "repos": 39,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
@@ -37,7 +37,6 @@
     "helm/chart-testing-action",
     "helm/kind-action",
     "heroku/heroku-buildpack-pgbouncer",
-    "jandamm/zgenom",
     "lxgw/LxgwWenKai-Lite",
     "lynxthecat/adblock-lean",
     "mklement0/n-install",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 51567,
-    "concepts": 35952,
-    "observations": 36057,
-    "repos": 8839,
-    "terms": 35784
+    "components": 51570,
+    "concepts": 35950,
+    "observations": 36055,
+    "repos": 8838,
+    "terms": 35782
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -3846,7 +3846,6 @@
     "helm/charts-repo-actions-demo",
     "helm/community",
     "helm/helm-www",
-    "helm/hub",
     "helm/kind-action",
     "helmfile/vals",
     "helmi/claude-simone",

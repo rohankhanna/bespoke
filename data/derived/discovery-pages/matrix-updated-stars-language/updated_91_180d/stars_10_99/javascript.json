@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 548,
-    "concepts": 147,
-    "observations": 148,
-    "repos": 48,
-    "terms": 147
+    "components": 593,
+    "concepts": 164,
+    "observations": 165,
+    "repos": 53,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
@@ -35,9 +35,11 @@
     "coderaiser/try-catch",
     "coderaiser/try-to-catch",
     "csstree/stylelint-validator",
+    "dart-lang/site-shared",
     "eemeli/make-plural",
     "eemeli/prettier-plugin-properties",
     "Fil/d3-tricontour",
+    "gatsbyjs/gatsby-starter-minimal",
     "haskell-actions/run-fourmolu",
     "hchiam/learning-lighthouse-ci",
     "hipster-labs/jhipster-daily-builds",
@@ -51,8 +53,11 @@
     "kibertoad/toad-cache",
     "kunwar-shah/claudex",
     "L2jLiga/grunt-webfonts",
+    "Level/browser-level",
+    "Level/memory-level",
     "minikube-ci/examples",
     "mongodb-js/zstd",
+    "neverendingqs/serverless-dotenv-example",
     "nodejs/email",
     "nodejs/Gzemnid",
     "npm/json-parse-even-better-errors",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 674,
-    "concepts": 445,
-    "observations": 448,
-    "repos": 105,
-    "terms": 441
+    "components": 645,
+    "concepts": 427,
+    "observations": 430,
+    "repos": 100,
+    "terms": 423
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "AbdelrhmanHamouda/locust-k8s-operator",
@@ -30,7 +30,6 @@
     "aquasecurity/trivy-java-db",
     "aspect-build/aspect-gazelle",
     "Asterisk4Magisk/XrayHelper",
-    "astro-han/diffpane",
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
     "benchsci/rules_nodejs_gazelle",
@@ -44,7 +43,6 @@
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
     "cloudfoundry/cf-smoke-tests",
-    "cloudwego/kitex-benchmark",
     "cmdjulian/mopy",
     "coder/coder-logstream-kube",
     "cometbft/cometbft-db",
@@ -75,8 +73,6 @@
     "golangci/misspell",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
-    "gopasspw/gopass-jsonapi",
-    "hashicorp/go-netaddrs",
     "hashicorp/hcp-sdk-go",
     "Infisical/go-sdk",
     "ionos-cloud/external-dns-ionos-webhook",
@@ -89,7 +85,6 @@
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
     "magodo/aztft",
-    "magodo/tfadd",
     "MicahParks/jwkset",
     "minio/pkg",
     "MShekow/directory-checksum",

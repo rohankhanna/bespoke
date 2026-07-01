@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1327,
-    "concepts": 286,
-    "observations": 287,
-    "repos": 81,
-    "terms": 283
+    "components": 1394,
+    "concepts": 316,
+    "observations": 317,
+    "repos": 87,
+    "terms": 313
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
@@ -34,6 +34,7 @@
     "CyberAP/nanoid-dictionary",
     "d3/d3-geo-polygon",
     "dominikg/tsconfck",
+    "dwyl/javascript-todo-list-tutorial",
     "dwyl/learn-postgresql",
     "dzeiocom/lucide-astro",
     "emberjs/ember-cli-babel",
@@ -42,6 +43,7 @@
     "faceyspacey/universal-demo",
     "fgnass/domino",
     "Fil/d3-geo-voronoi",
+    "florajs/sql-parser",
     "gherghett/Antigravity-Shit-Chat",
     "googleapis/nodejs-bigtable",
     "GoogleChromeLabs/wasm-feature-detect",
@@ -52,6 +54,7 @@
     "kaorahi/lizgoban",
     "kategengler/ember-feature-flags",
     "kepano/defuddle-cli",
+    "kharchenkolab/pagoda2",
     "kriszyp/cbor-x",
     "latex-lsp/tree-sitter-latex",
     "lemire/FastPriorityQueue.js",
@@ -65,10 +68,12 @@
     "mourner/kdbush",
     "mourner/robust-predicates",
     "neuroneural/brainchop",
+    "neverendingqs/serverless-dotenv-plugin",
     "nodenv/jetbrains-npm",
     "npm/abbrev-js",
     "npm/rfcs",
     "oblador/react-native-vector-image",
+    "OffchainLabs/arbitrum-tutorials",
     "omnidan/redux-ignore",
     "omnidan/redux-recycle",
     "omnidan/redux-undo-boilerplate",
@@ -89,6 +94,7 @@
     "TeamMoeAI/MoeSR",
     "terraform-linters/setup-tflint",
     "testing-library/eslint-plugin-jest-dom",
+    "thejoshwolfe/yauzl",
     "thejoshwolfe/yazl",
     "tonyganch/gonzales-pe",
     "toon-format/spec",

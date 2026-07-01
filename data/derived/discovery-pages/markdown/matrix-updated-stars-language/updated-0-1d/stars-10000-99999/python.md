@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-06-30T08:19:03.846649+00:00`
+Generated at: `2026-07-01T06:04:45.209590+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 223
+- repos: 17
+- terms: 235
 - components: 224
-- concepts: 226
-- observations: 228
+- concepts: 236
+- observations: 238
 
 ## Static behavior
 
@@ -26,44 +26,42 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) | 10810 | 2026-06-30T07:37:41Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |
-| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 12118 | 2026-06-30T07:32:35Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 78763 | 2026-06-30T05:12:39Z | Python | CLI | 15 | 21 | 15 | 15 |
-| [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech) | 17664 | 2026-06-30T02:47:13Z | Python | Infrastructure/tooling | 15 | 12 | 15 | 15 |
-| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 14658 | 2026-06-30T02:45:30Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
-| [verl-project/verl](https://github.com/verl-project/verl) | 22220 | 2026-06-30T02:22:32Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35932 | 2026-06-30T01:12:23Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 7 |
-| [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) | 24300 | 2026-06-29T22:38:12Z | Python | Infrastructure/tooling | 5 | 17 | 5 | 5 |
-| [psf/black](https://github.com/psf/black) | 41633 | 2026-06-29T20:59:59Z | Python | Infrastructure/tooling | 15 | 18 | 15 | 15 |
-| [datalab-to/marker](https://github.com/datalab-to/marker) | 36658 | 2026-06-29T20:54:39Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 15222 | 2026-06-29T20:17:56Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [modelscope/FunASR](https://github.com/modelscope/FunASR) | 18714 | 2026-06-29T19:22:15Z | Python | Infrastructure/tooling | 31 | 5 | 31 | 31 |
-| [567-labs/instructor](https://github.com/567-labs/instructor) | 13330 | 2026-06-29T16:56:07Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |
-| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 28163 | 2026-06-29T15:54:24Z | Python | Infrastructure/tooling | 18 | 34 | 18 | 18 |
-| [Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt) | 13450 | 2026-06-29T15:53:24Z | Python | Infrastructure/tooling | 9 | 13 | 9 | 9 |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 99781 | 2026-06-29T12:43:58Z | Python | Infrastructure/tooling | 24 | 27 | 27 | 27 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 45679 | 2026-06-29T11:53:07Z | Python | Infrastructure/tooling | 19 | 12 | 19 | 20 |
-| [Tencent-Hunyuan/HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) | 12268 | 2026-06-29T09:33:50Z | Python | Framework | 3 | 0 | 3 | 3 |
+| [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech) | 17674 | 2026-06-30T23:47:10Z | Python | Infrastructure/tooling | 15 | 12 | 15 | 15 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35934 | 2026-06-30T23:38:28Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 7 |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 50544 | 2026-06-30T23:13:10Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) | 24307 | 2026-06-30T22:52:38Z | Python | Infrastructure/tooling | 5 | 17 | 5 | 5 |
+| [verl-project/verl](https://github.com/verl-project/verl) | 22228 | 2026-06-30T21:51:26Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 99831 | 2026-06-30T20:41:56Z | Python | Infrastructure/tooling | 27 | 30 | 27 | 27 |
+| [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 15236 | 2026-06-30T17:51:35Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 78827 | 2026-06-30T17:47:52Z | Python | CLI | 15 | 21 | 15 | 15 |
+| [datalab-to/marker](https://github.com/datalab-to/marker) | 36679 | 2026-06-30T17:28:47Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 12122 | 2026-06-30T13:28:02Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 45699 | 2026-06-30T12:05:17Z | Python | Infrastructure/tooling | 19 | 12 | 19 | 20 |
+| [modelscope/FunASR](https://github.com/modelscope/FunASR) | 18747 | 2026-06-30T12:03:32Z | Python | Infrastructure/tooling | 32 | 5 | 32 | 32 |
+| [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) | 10810 | 2026-06-30T11:36:54Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |
+| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 28168 | 2026-06-30T09:52:57Z | Python | Infrastructure/tooling | 17 | 34 | 18 | 18 |
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 72839 | 2026-06-30T09:15:29Z | Python | Infrastructure/tooling | 18 | 13 | 18 | 18 |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 14662 | 2026-06-30T09:04:48Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
+| [psf/black](https://github.com/psf/black) | 41648 | 2026-06-30T06:32:51Z | Python | Infrastructure/tooling | 15 | 18 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 99781 | 2026-06-29T12:43:58Z | Python | Infrastructure/tooling | 24 | 27 | 27 | 27 |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 78763 | 2026-06-30T05:12:39Z | Python | CLI | 15 | 21 | 15 | 15 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 45679 | 2026-06-29T11:53:07Z | Python | Infrastructure/tooling | 19 | 12 | 19 | 20 |
-| [psf/black](https://github.com/psf/black) | 41633 | 2026-06-29T20:59:59Z | Python | Infrastructure/tooling | 15 | 18 | 15 | 15 |
-| [datalab-to/marker](https://github.com/datalab-to/marker) | 36658 | 2026-06-29T20:54:39Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35932 | 2026-06-30T01:12:23Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 7 |
-| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 28163 | 2026-06-29T15:54:24Z | Python | Infrastructure/tooling | 18 | 34 | 18 | 18 |
-| [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) | 24300 | 2026-06-29T22:38:12Z | Python | Infrastructure/tooling | 5 | 17 | 5 | 5 |
-| [verl-project/verl](https://github.com/verl-project/verl) | 22220 | 2026-06-30T02:22:32Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
-| [modelscope/FunASR](https://github.com/modelscope/FunASR) | 18714 | 2026-06-29T19:22:15Z | Python | Infrastructure/tooling | 31 | 5 | 31 | 31 |
-| [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech) | 17664 | 2026-06-30T02:47:13Z | Python | Infrastructure/tooling | 15 | 12 | 15 | 15 |
-| [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 15222 | 2026-06-29T20:17:56Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 14658 | 2026-06-30T02:45:30Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
-| [Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt) | 13450 | 2026-06-29T15:53:24Z | Python | Infrastructure/tooling | 9 | 13 | 9 | 9 |
-| [567-labs/instructor](https://github.com/567-labs/instructor) | 13330 | 2026-06-29T16:56:07Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |
-| [Tencent-Hunyuan/HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) | 12268 | 2026-06-29T09:33:50Z | Python | Framework | 3 | 0 | 3 | 3 |
-| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 12118 | 2026-06-30T07:32:35Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
-| [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) | 10810 | 2026-06-30T07:37:41Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 99831 | 2026-06-30T20:41:56Z | Python | Infrastructure/tooling | 27 | 30 | 27 | 27 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 78827 | 2026-06-30T17:47:52Z | Python | CLI | 15 | 21 | 15 | 15 |
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 72839 | 2026-06-30T09:15:29Z | Python | Infrastructure/tooling | 18 | 13 | 18 | 18 |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 50544 | 2026-06-30T23:13:10Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 45699 | 2026-06-30T12:05:17Z | Python | Infrastructure/tooling | 19 | 12 | 19 | 20 |
+| [psf/black](https://github.com/psf/black) | 41648 | 2026-06-30T06:32:51Z | Python | Infrastructure/tooling | 15 | 18 | 15 | 15 |
+| [datalab-to/marker](https://github.com/datalab-to/marker) | 36679 | 2026-06-30T17:28:47Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35934 | 2026-06-30T23:38:28Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 7 |
+| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 28168 | 2026-06-30T09:52:57Z | Python | Infrastructure/tooling | 17 | 34 | 18 | 18 |
+| [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) | 24307 | 2026-06-30T22:52:38Z | Python | Infrastructure/tooling | 5 | 17 | 5 | 5 |
+| [verl-project/verl](https://github.com/verl-project/verl) | 22228 | 2026-06-30T21:51:26Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [modelscope/FunASR](https://github.com/modelscope/FunASR) | 18747 | 2026-06-30T12:03:32Z | Python | Infrastructure/tooling | 32 | 5 | 32 | 32 |
+| [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech) | 17674 | 2026-06-30T23:47:10Z | Python | Infrastructure/tooling | 15 | 12 | 15 | 15 |
+| [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 15236 | 2026-06-30T17:51:35Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 14662 | 2026-06-30T09:04:48Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
+| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 12122 | 2026-06-30T13:28:02Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
+| [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) | 10810 | 2026-06-30T11:36:54Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |

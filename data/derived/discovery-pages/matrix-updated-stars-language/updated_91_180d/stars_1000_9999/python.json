@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 660,
-    "concepts": 1221,
-    "observations": 1221,
-    "repos": 221,
-    "terms": 1208
+    "components": 667,
+    "concepts": 1231,
+    "observations": 1231,
+    "repos": 223,
+    "terms": 1216
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -63,6 +63,7 @@
     "CrazyBoyM/llama3-Chinese-chat",
     "crossbario/autobahn-python",
     "crowsonkb/k-diffusion",
+    "cvg/depthsplat",
     "cvg/LightGlue",
     "daijro/browserforge",
     "databricks/megablocks",
@@ -127,6 +128,7 @@
     "KellerJordan/Muon",
     "kijai/ComfyUI-Hunyuan3DWrapper",
     "kijai/ComfyUI-WanVideoWrapper",
+    "kislyuk/argcomplete",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "langfengQ/verl-agent",
     "layumi/Person_reID_baseline_pytorch",

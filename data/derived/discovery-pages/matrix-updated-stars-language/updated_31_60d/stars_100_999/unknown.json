@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 12,
-    "terms": 45
+    "components": 16,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 8,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "Chocolate4U/Iran-sing-box-rules",
     "deepset-ai/haystack-integrations",
@@ -21,10 +21,6 @@
     "lxgw/LxgwXiHei",
     "lxgw/LxgwZhiSong",
     "maplibre/awesome-maplibre",
-    "microsoft/openjdk",
-    "near/NEPs",
-    "openwdl/wdl",
-    "triton-inference-server/tensorrtllm_backend",
-    "yokoffing/Control-D-Config"
+    "near/NEPs"
   ]
 }

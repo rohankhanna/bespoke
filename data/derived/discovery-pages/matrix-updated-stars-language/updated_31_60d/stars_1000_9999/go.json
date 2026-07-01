@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 204,
-    "concepts": 250,
-    "observations": 250,
-    "repos": 21,
-    "terms": 248
+    "components": 136,
+    "concepts": 179,
+    "observations": 179,
+    "repos": 14,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "cosmos/cosmos-sdk",
     "crazy-max/diun",
@@ -21,19 +21,12 @@
     "etcd-io/bbolt",
     "go-git/go-git",
     "go-ini/ini",
-    "gookit/color",
     "gookit/goutil",
     "gookit/validate",
     "kubeovn/kube-ovn",
     "letsencrypt/boulder",
     "Loyalsoldier/geoip",
-    "miekg/dns",
-    "NVIDIA/k8s-device-plugin",
     "open-telemetry/opentelemetry-operator",
-    "pion/example-webrtc-applications",
-    "supabase/cli",
-    "umputun/remark42",
-    "version-fox/vfox",
-    "XTLS/REALITY"
+    "version-fox/vfox"
   ]
 }

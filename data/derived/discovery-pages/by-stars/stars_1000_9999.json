@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 56148,
-    "concepts": 36676,
-    "observations": 36790,
-    "repos": 6177,
-    "terms": 36548
+    "components": 56250,
+    "concepts": 36688,
+    "observations": 36802,
+    "repos": 6178,
+    "terms": 36564
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -575,6 +575,7 @@
     "atomicobject/heatshrink",
     "atong01/conditional-flow-matching",
     "atotto/clipboard",
+    "aTrainTranscription/aTrain",
     "attardi/wikiextractor",
     "atteneder/glTFast",
     "attic-labs/noms",
@@ -691,7 +692,6 @@
     "baidu/braft",
     "baidu/DDParser",
     "baidu/DuReader",
-    "baidu/Familia",
     "baidu/sofa-pbrpc",
     "bakpakin/Fennel",
     "balancap/SSD-Tensorflow",
@@ -820,6 +820,7 @@
     "blockscout/blockscout",
     "Blockstream/esplora",
     "blokadaorg/blokada",
+    "bloomberg/bde",
     "Blosc/c-blosc",
     "bluealloy/revm",
     "bluele/gcache",
@@ -1026,7 +1027,6 @@
     "cgrand/enlive",
     "chaijs/chai",
     "chainer/chainer",
-    "chainer/chainercv",
     "chainer/chainerrl",
     "chainguard-dev/apko",
     "chaiNNer-org/chaiNNer",
@@ -4209,6 +4209,7 @@
     "OFA-Sys/OFA",
     "OFA-Sys/ONE-PEACE",
     "off-grid-ai/mobile",
+    "off-grid-ai/off-grid-ai-mobile",
     "OffchainLabs/arbitrum-classic",
     "offu/WeRoBot",
     "ogx-ai/llama-stack",

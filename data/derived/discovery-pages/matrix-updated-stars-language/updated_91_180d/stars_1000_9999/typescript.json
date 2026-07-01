@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2321,
-    "concepts": 424,
-    "observations": 424,
-    "repos": 74,
-    "terms": 451
+    "components": 2376,
+    "concepts": 446,
+    "observations": 447,
+    "repos": 78,
+    "terms": 473
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -33,6 +33,7 @@
     "ekalinin/sitemap.js",
     "enisdenjo/graphql-ws",
     "glimmerjs/glimmer-vm",
+    "glittercowboy/taches-cc-resources",
     "google/gts",
     "gpac/mp4box.js",
     "graphql-hive/graphql-config",
@@ -50,6 +51,7 @@
     "LekoArts/gatsby-themes",
     "lobehub/lobe-chat-agents",
     "markdoc/markdoc",
+    "mattpocock/ts-reset",
     "metatool-ai/metamcp",
     "microsoft/genaiscript",
     "microsoft/tsdoc",
@@ -63,6 +65,8 @@
     "obsidian-community/obsidian-zotero-integration",
     "omnara-ai/omnara",
     "peers/peerjs-server",
+    "peter-evans/repository-dispatch",
+    "pillarjs/path-to-regexp",
     "posva/unplugin-vue-router",
     "react-native-netinfo/react-native-netinfo",
     "REditorSupport/vscode-R",

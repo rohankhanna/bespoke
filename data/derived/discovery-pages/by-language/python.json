@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 18802,
-    "concepts": 28239,
-    "observations": 28293,
-    "repos": 7027,
-    "terms": 27981
+    "components": 18809,
+    "concepts": 28236,
+    "observations": 28290,
+    "repos": 7026,
+    "terms": 27987
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -814,6 +814,7 @@
     "atlanhq/atlan-sample-apps",
     "atlassian-api/atlassian-python-api",
     "atong01/conditional-flow-matching",
+    "aTrainTranscription/aTrain",
     "attardi/wikiextractor",
     "Atten4Vis/ConditionalDETR",
     "audeering/audonnx",
@@ -1330,7 +1331,6 @@
     "cfzd/Ultra-Fast-Lane-Detection-v2",
     "cgvict/roLabelImg",
     "chainer/chainer",
-    "chainer/chainercv",
     "chainer/chainerrl",
     "chaiNNer-org/chaiNNer",
     "chaiNNer-org/spandrel",
@@ -2341,7 +2341,6 @@
     "facebookresearch/optimizers",
     "facebookresearch/paco",
     "facebookresearch/ParlAI",
-    "facebookresearch/polymetis",
     "facebookresearch/PoseDiffusion",
     "facebookresearch/pycls",
     "facebookresearch/pyrobot",

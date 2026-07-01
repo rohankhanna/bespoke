@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 321,
-    "concepts": 49,
-    "observations": 50,
-    "repos": 8,
-    "terms": 48
+    "components": 195,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 5,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "apollographql/apollo-tooling",
-    "benchmark-action/github-action-benchmark",
     "flightcontrolhq/superjson",
     "google-gemini/live-api-web-console",
     "graphql-hive/graphql-inspector",
-    "react-native-webview/react-native-webview",
-    "TanStack/form",
-    "vercel/serve"
+    "react-native-webview/react-native-webview"
   ]
 }

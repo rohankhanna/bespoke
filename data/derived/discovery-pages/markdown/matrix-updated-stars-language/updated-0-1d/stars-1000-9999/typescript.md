@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-06-30T08:19:03.846649+00:00`
+Generated at: `2026-07-01T06:04:45.209590+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 7
-- terms: 66
-- components: 369
-- concepts: 66
-- observations: 66
+- terms: 74
+- components: 371
+- concepts: 74
+- observations: 74
 
 ## Static behavior
 
@@ -26,22 +26,22 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7763 | 2026-06-30T07:03:28Z | TypeScript | Infrastructure/tooling | 19 | 83 | 19 | 19 |
-| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2520 | 2026-06-30T00:07:57Z | TypeScript | Infrastructure/tooling | 6 | 51 | 6 | 6 |
-| [electron/rebuild](https://github.com/electron/rebuild) | 1119 | 2026-06-29T19:33:58Z | TypeScript | Infrastructure/tooling | 5 | 38 | 5 | 5 |
-| [nsfw-filter/nsfw-filter](https://github.com/nsfw-filter/nsfw-filter) | 1760 | 2026-06-29T15:34:40Z | TypeScript | Infrastructure/tooling | 11 | 67 | 11 | 11 |
-| [off-grid-ai/mobile](https://github.com/off-grid-ai/mobile) | 2624 | 2026-06-29T11:21:14Z | TypeScript | Infrastructure/tooling | 15 | 89 | 15 | 15 |
-| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6677 | 2026-06-29T10:59:55Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
-| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1295 | 2026-06-29T08:43:22Z | TypeScript | Infrastructure/tooling | 4 | 26 | 4 | 4 |
+| [TanStack/form](https://github.com/TanStack/form) | 6592 | 2026-07-01T01:01:16Z | TypeScript | Infrastructure/tooling | 10 | 54 | 10 | 10 |
+| [off-grid-ai/off-grid-ai-mobile](https://github.com/off-grid-ai/off-grid-ai-mobile) | 2631 | 2026-06-30T20:33:04Z | TypeScript | Infrastructure/tooling | 15 | 88 | 15 | 15 |
+| [vercel/serve](https://github.com/vercel/serve) | 9871 | 2026-06-30T19:11:35Z | TypeScript | CLI | 5 | 30 | 5 | 5 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7765 | 2026-06-30T16:38:09Z | TypeScript | Infrastructure/tooling | 19 | 83 | 19 | 19 |
+| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6679 | 2026-06-30T14:46:43Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
+| [nsfw-filter/nsfw-filter](https://github.com/nsfw-filter/nsfw-filter) | 1760 | 2026-06-30T14:46:32Z | TypeScript | Infrastructure/tooling | 11 | 67 | 11 | 11 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8469 | 2026-06-30T14:13:21Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7763 | 2026-06-30T07:03:28Z | TypeScript | Infrastructure/tooling | 19 | 83 | 19 | 19 |
-| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6677 | 2026-06-29T10:59:55Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
-| [off-grid-ai/mobile](https://github.com/off-grid-ai/mobile) | 2624 | 2026-06-29T11:21:14Z | TypeScript | Infrastructure/tooling | 15 | 89 | 15 | 15 |
-| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2520 | 2026-06-30T00:07:57Z | TypeScript | Infrastructure/tooling | 6 | 51 | 6 | 6 |
-| [nsfw-filter/nsfw-filter](https://github.com/nsfw-filter/nsfw-filter) | 1760 | 2026-06-29T15:34:40Z | TypeScript | Infrastructure/tooling | 11 | 67 | 11 | 11 |
-| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1295 | 2026-06-29T08:43:22Z | TypeScript | Infrastructure/tooling | 4 | 26 | 4 | 4 |
-| [electron/rebuild](https://github.com/electron/rebuild) | 1119 | 2026-06-29T19:33:58Z | TypeScript | Infrastructure/tooling | 5 | 38 | 5 | 5 |
+| [vercel/serve](https://github.com/vercel/serve) | 9871 | 2026-06-30T19:11:35Z | TypeScript | CLI | 5 | 30 | 5 | 5 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8469 | 2026-06-30T14:13:21Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7765 | 2026-06-30T16:38:09Z | TypeScript | Infrastructure/tooling | 19 | 83 | 19 | 19 |
+| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6679 | 2026-06-30T14:46:43Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
+| [TanStack/form](https://github.com/TanStack/form) | 6592 | 2026-07-01T01:01:16Z | TypeScript | Infrastructure/tooling | 10 | 54 | 10 | 10 |
+| [off-grid-ai/off-grid-ai-mobile](https://github.com/off-grid-ai/off-grid-ai-mobile) | 2631 | 2026-06-30T20:33:04Z | TypeScript | Infrastructure/tooling | 15 | 88 | 15 | 15 |
+| [nsfw-filter/nsfw-filter](https://github.com/nsfw-filter/nsfw-filter) | 1760 | 2026-06-30T14:46:32Z | TypeScript | Infrastructure/tooling | 11 | 67 | 11 | 11 |

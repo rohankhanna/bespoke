@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 226,
-    "concepts": 206,
-    "observations": 206,
-    "repos": 55,
-    "terms": 205
+    "components": 255,
+    "concepts": 224,
+    "observations": 224,
+    "repos": 60,
+    "terms": 223
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "AbsaOSS/external-dns-infoblox-webhook",
@@ -20,6 +20,7 @@
     "apache/incubator-seata-go-samples",
     "apache/incubator-seata-k8s",
     "aquasecurity/k8s-node-collector",
+    "astro-han/diffpane",
     "aws-controllers-k8s/runtime",
     "aws/amazon-network-policy-controller-k8s",
     "aws/amazon-vpc-cni-plugins",
@@ -35,6 +36,7 @@
     "chromedp/pdlgen",
     "cjkreklow/t38c",
     "cloudfoundry/buildpackapplifecycle",
+    "cloudwego/kitex-benchmark",
     "concourse/pool-resource",
     "containerd/release-tool",
     "ctoth/claudio",
@@ -49,6 +51,8 @@
     "extism/go-pdk",
     "filecoin-project/go-data-transfer",
     "GFW-knocker/AndroidLibXrayLite",
+    "gopasspw/gopass-jsonapi",
+    "hashicorp/go-netaddrs",
     "hashicorp/vault-plugin-auth-kerberos",
     "hyperledger-labs/yui-relayer",
     "ipfs/go-ipfs-example-plugin",
@@ -56,6 +60,7 @@
     "jm33-m0/arc",
     "kurrent-io/KurrentDB-Client-Go",
     "lesismal/nbio-examples",
+    "magodo/tfadd",
     "matelang/jwt-go-aws-kms",
     "mikespook/possum",
     "multiformats/go-varint",

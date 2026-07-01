@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2202,
-    "concepts": 2047,
-    "observations": 2053,
-    "repos": 879,
-    "terms": 2035
+    "components": 2208,
+    "concepts": 2051,
+    "observations": 2058,
+    "repos": 880,
+    "terms": 2039
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -358,6 +358,7 @@
     "espnet/notebook",
     "ethansmith2000/ImprovedTokenMerge",
     "ethpandaops/ethereum-k8s-testnets",
+    "ethpandaops/optimism-package",
     "eublefar/LLAMASharpUnityDemo",
     "EvelynZhang-epiclab/DaTo",
     "evidentsystems/converge",

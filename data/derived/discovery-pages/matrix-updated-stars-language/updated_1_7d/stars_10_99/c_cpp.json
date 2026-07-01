@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 4,
-    "terms": 14
+    "components": 11,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 3,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "bryanp/llhttp",
     "continuumio/blz",
-    "mongodb/winkerberos",
     "rordenlab/niimath"
   ]
 }

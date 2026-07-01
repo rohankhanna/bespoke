@@ -1,24 +1,26 @@
 {
   "counts": {
-    "components": 378,
-    "concepts": 107,
-    "observations": 107,
-    "repos": 28,
-    "terms": 107
+    "components": 376,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 30,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
+    "4catalyzer/javascript",
     "amazon-ion/ion-cli",
     "ansys/pydpf-core",
     "ansys/pydpf-post",
     "apostrophecms/starter-kit-astro-apollo",
     "bryanp/llhttp",
     "cloudfoundry/bosh-google-cpi-release",
+    "cloudfoundry/credhub-cli",
     "compozy/kb",
     "continuumio/blz",
     "criteo/mesos-term",
@@ -26,20 +28,20 @@
     "cvxpy/benchmarks",
     "flatironinstitute/neurosift",
     "HelloZicky/NaviCache",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
     "jenkins-infra/repository-permissions-updater",
-    "jenkinsci/plugin-pom",
     "jump-dev/Clp.jl",
     "karafka/example-apps",
-    "lumen-oss/luarocks-tag-release",
-    "mongodb/winkerberos",
     "mudler/nib",
     "nipreps/petprep",
-    "pivotal/credhub-release",
+    "nuxt-modules/emotion",
+    "patterns-ai-core/qdrant-ruby",
     "processing/processing-website",
+    "prospector-dev/requirements-detector",
     "pyvista/awesome-pyvista",
     "rordenlab/niimath",
-    "storybook-community/addon-queryparams",
-    "vaporif/parry-guard"
+    "storybook-community/addon-queryparams"
   ]
 }

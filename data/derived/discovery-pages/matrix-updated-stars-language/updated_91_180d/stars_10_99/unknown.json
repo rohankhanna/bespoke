@@ -3,7 +3,7 @@
     "components": 51,
     "concepts": 89,
     "observations": 89,
-    "repos": 46,
+    "repos": 47,
     "terms": 94
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "aaron-he-zhu/core-eeat-content-benchmark",
     "aloncarmel/supermeskill",
@@ -52,6 +52,7 @@
     "nushell/showcase",
     "oak-security/resources",
     "opencontainers/tob",
+    "operator-framework/community",
     "panaversity/claude-code-agent-teams-exercises",
     "robotology/community",
     "robotology/mesh-support",

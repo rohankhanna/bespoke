@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 146,
+    "components": 104,
     "concepts": 27,
     "observations": 27,
-    "repos": 19,
+    "repos": 18,
     "terms": 27
   },
   "facet_version": 1,
@@ -11,11 +11,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
-    "angular/angular-build-builds",
     "atsushieno/aap-lv2-string-machine",
     "clearml/clearml-agent-bootstrap",
     "cvxpy/examples",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 25,
-    "terms": 98
+    "components": 238,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 27,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "aidenlab/hic-straw",
@@ -29,11 +29,13 @@
     "ika-rwth-aachen/docker-run",
     "itt-ustutt/num-dual",
     "JuliaLinearAlgebra/libblastrampoline",
+    "kurrent-io/KurrentDB-Client-Rust",
     "lumen-oss/nurr",
     "mathesong/kinfitr",
     "mesh-iit/cad-libraries",
     "niivue/ipyniivue",
     "ocaml-tracing/ocaml-opentelemetry",
+    "ogx-ai/ogx-client-typescript",
     "roboflow/single_artifact_benchmarking",
     "ros-infrastructure/ros-apt-source",
     "symgraph/BinAssistMCP",

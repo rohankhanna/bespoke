@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-30T08:19:03.846649+00:00`
+Generated at: `2026-07-01T06:04:45.209590+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 22
-- components: 48
-- concepts: 22
-- observations: 22
+- repos: 4
+- terms: 25
+- components: 63
+- concepts: 25
+- observations: 25
 
 ## Static behavior
 
@@ -26,14 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 287 | 2026-07-01T00:45:31Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
+| [avocadowastaken/prettier-plugin-prisma](https://github.com/avocadowastaken/prettier-plugin-prisma) | 230 | 2026-06-30T22:04:36Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
+| [browserslist/caniuse-lite](https://github.com/browserslist/caniuse-lite) | 612 | 2026-06-30T09:58:03Z | JavaScript | Infrastructure/tooling | 3 | 24 | 3 | 3 |
 | [digitalocean/openapi](https://github.com/digitalocean/openapi) | 137 | 2026-06-30T06:58:19Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
-| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 287 | 2026-06-30T00:43:10Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
-| [browserslist/caniuse-lite](https://github.com/browserslist/caniuse-lite) | 612 | 2026-06-29T21:21:33Z | JavaScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [browserslist/caniuse-lite](https://github.com/browserslist/caniuse-lite) | 612 | 2026-06-29T21:21:33Z | JavaScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
-| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 287 | 2026-06-30T00:43:10Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
+| [browserslist/caniuse-lite](https://github.com/browserslist/caniuse-lite) | 612 | 2026-06-30T09:58:03Z | JavaScript | Infrastructure/tooling | 3 | 24 | 3 | 3 |
+| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 287 | 2026-07-01T00:45:31Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
+| [avocadowastaken/prettier-plugin-prisma](https://github.com/avocadowastaken/prettier-plugin-prisma) | 230 | 2026-06-30T22:04:36Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [digitalocean/openapi](https://github.com/digitalocean/openapi) | 137 | 2026-06-30T06:58:19Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |

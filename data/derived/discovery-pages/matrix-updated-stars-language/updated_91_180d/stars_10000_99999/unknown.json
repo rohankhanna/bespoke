@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 7,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 9,
-    "terms": 38
+    "concepts": 28,
+    "observations": 28,
+    "repos": 8,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
-    "drduh/macOS-Security-and-Privacy-Guide",
     "enaqx/awesome-react",
     "jtoy/awesome-tensorflow",
     "knownsec/404StarLink",

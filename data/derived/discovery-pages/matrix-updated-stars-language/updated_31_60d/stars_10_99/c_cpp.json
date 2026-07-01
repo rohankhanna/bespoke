@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 123,
-    "concepts": 182,
-    "observations": 183,
-    "repos": 20,
-    "terms": 180
+    "components": 83,
+    "concepts": 101,
+    "observations": 102,
+    "repos": 15,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "analogdevicesinc/msdk",
     "atsushieno/aap-juce",
@@ -22,11 +22,6 @@
     "compiler-research/CppInterOp",
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
-    "gazebosim/gz-common",
-    "gazebosim/gz-physics",
-    "gazebosim/gz-rendering",
-    "gazebosim/gz-tools",
-    "HDFGroup/hdf4",
     "heiher/hev-socks5-core",
     "heiher/hev-task-system",
     "localai-org/rf-detr.cpp",

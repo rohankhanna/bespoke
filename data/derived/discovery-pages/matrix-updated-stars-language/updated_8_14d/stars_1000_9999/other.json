@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 8,
-    "terms": 78
+    "components": 51,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 7,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "apache/casbin-Casbin.NET",
     "babashka/sci",
     "clj-kondo/clj-kondo",
     "dotnet/command-line-api",
+    "googleapis/google-auth-library-php",
     "huggingface/swift-transformers",
-    "microsoft/PhiCookBook",
     "psmux/psmux",
     "standardrb/standard"
   ]

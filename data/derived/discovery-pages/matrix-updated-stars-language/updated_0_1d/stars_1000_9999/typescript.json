@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 369,
-    "concepts": 66,
-    "observations": 66,
+    "components": 371,
+    "concepts": 74,
+    "observations": 74,
     "repos": 7,
-    "terms": 66
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "ebullient/obsidian-admonition",
-    "electron/rebuild",
+    "conventional-changelog/conventional-changelog",
     "nsfw-filter/nsfw-filter",
-    "off-grid-ai/mobile",
+    "off-grid-ai/off-grid-ai-mobile",
     "podman-desktop/podman-desktop",
-    "typescript-language-server/typescript-language-server",
+    "TanStack/form",
+    "vercel/serve",
     "vuejs/language-tools"
   ]
 }

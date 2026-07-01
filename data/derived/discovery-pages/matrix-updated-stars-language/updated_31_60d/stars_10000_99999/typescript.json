@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2272,
-    "concepts": 418,
-    "observations": 421,
-    "repos": 39,
-    "terms": 416
+    "components": 1680,
+    "concepts": 318,
+    "observations": 321,
+    "repos": 28,
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "aidenybai/react-scan",
     "ajv-validator/ajv",
-    "apache/echarts",
     "BabylonJS/Babylon.js",
     "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
@@ -27,31 +25,22 @@
     "element-plus/element-plus",
     "faker-js/faker",
     "fuma-nama/fumadocs",
-    "googleapis/google-api-nodejs-client",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
     "lucide-icons/lucide",
     "maplibre/maplibre-gl-js",
-    "medusajs/medusa",
     "mobxjs/mobx",
     "modelcontextprotocol/typescript-sdk",
-    "nitrojs/nitro",
     "nrwl/nx",
     "puppeteer/puppeteer",
-    "QwikDev/qwik",
     "react-hook-form/react-hook-form",
     "Redocly/redoc",
-    "reduxjs/redux",
     "reduxjs/redux-devtools",
     "remotion-dev/remotion",
     "RooCodeInc/Roo-Code",
-    "slidevjs/slidev",
-    "tailwindlabs/tailwindcss",
-    "TanStack/table",
     "vitejs/vite",
     "vuejs/core",
     "vuejs/vitepress",
-    "windingwind/zotero-pdf-translate",
     "withastro/astro"
   ]
 }

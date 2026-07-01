@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 339,
-    "concepts": 213,
-    "observations": 213,
+    "components": 322,
+    "concepts": 224,
+    "observations": 224,
     "repos": 96,
-    "terms": 213
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
     "actboy168/ltest",
-    "ada-url/kotlin",
     "aimeos/ai-monolog",
     "alstafeev/midscene-java",
     "ankane/cbc-ruby",
@@ -34,7 +33,6 @@
     "bennyyip/dot-vim",
     "bladeacer/obsi-snip-coll",
     "Blosc/blogsite",
-    "bolasblack/BlogFront",
     "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",
     "celo-org/charts",
@@ -59,6 +57,7 @@
     "dwyl/fields-demo",
     "dwyl/ping",
     "enbop/fungi-app",
+    "fern-api/docs",
     "flagos-ai/flir",
     "floxym/financial-chat-finance-nlp-chatbots",
     "fredrikekre/runic-pre-commit",
@@ -78,6 +77,7 @@
     "joinwell52-ai/joinwell52",
     "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
     "JuliaCI/julia-buildkite",
+    "JuliaCI/rootfs-images",
     "KhronosGroup/KTX-Software-CTS",
     "knopp/native_toolchain_ninja",
     "KnotUntied/scoop-fonts",
@@ -88,7 +88,6 @@
     "localstack/homebrew-tap",
     "marcindulak/learning-api-styles-gen-ai-experiments",
     "Mbed-TLS/mbedtls-test",
-    "microsoft/LinuxTracepoints-Net",
     "mitchuski/agentprivacy-docs",
     "mozilla-mobile/fxios-ctl",
     "moznion/sbt-spotless",
@@ -103,6 +102,7 @@
     "Shougo/dpp-ext-lazy",
     "stable-haskell/cabal",
     "standardrb/standard-custom",
+    "standardrb/standard-sorbet",
     "tarikmanoar/tarikmanoar",
     "Tengfei-Wang/Tengfei-Wang.github.io",
     "tinted-theming/base16-waybar",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 80,
-    "observations": 81,
-    "repos": 15,
-    "terms": 80
+    "components": 151,
+    "concepts": 120,
+    "observations": 121,
+    "repos": 17,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "chebfun/chebfun",
+    "astroautomata/SymbolicRegression.jl",
+    "bazel-contrib/rules_kotlin",
+    "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
-    "devcontainers/devcontainers.github.io",
     "dwyl/app",
     "fieldtrip/fieldtrip",
     "ggsegverse/ggseg",
@@ -28,6 +29,7 @@
     "lambdalisue/vim-nerdfont",
     "meshcat-dev/meshcat",
     "redis/redis-om-dotnet",
-    "ROCm/hipBLASLt"
+    "ROCm/hipBLASLt",
+    "sbt/sbt-jmh"
   ]
 }

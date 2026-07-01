@@ -1,21 +1,23 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 4,
-    "terms": 2
+    "components": 12,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 6,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "apostrophecms/astro-public-demo",
     "conda-forge/numba-feedstock",
     "cvxpy/org",
-    "mozilla-ai/otari-cli"
+    "mozilla-ai/otari-cli",
+    "mozilla-ai/otari-sdk-go",
+    "mozilla-ai/otari-sdk-python"
   ]
 }

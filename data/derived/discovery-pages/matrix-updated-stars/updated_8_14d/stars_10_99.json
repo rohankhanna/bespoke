@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 222,
-    "concepts": 130,
-    "observations": 130,
-    "repos": 23,
-    "terms": 130
+    "components": 183,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 22,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "andfoy/winpty-rs",
     "ansys/pymapdl-reader",
@@ -22,17 +22,16 @@
     "edge-classic/EDGE-classic",
     "freesurfer/freebrowse",
     "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+    "jenkinsci/plugin-pom",
     "JuliaInterop/ObjectiveC.jl",
     "JuliaParallel/Hwloc.jl",
     "jump-dev/SCS.jl",
-    "kurrent-io/KurrentDB-Client-Rust",
     "lablup/mlxcel",
     "lhj5426/X-AnyLabeling",
     "mozilla-ai/any-guardrail",
     "mozilla-ai/otari",
     "mudler/depth-anything.cpp",
     "numpy/archive",
-    "ogx-ai/ogx-client-typescript",
     "tinted-theming/tinted-xresources",
     "wamp-proto/wamp-xbr",
     "zhouwg/ggml-hexagon"

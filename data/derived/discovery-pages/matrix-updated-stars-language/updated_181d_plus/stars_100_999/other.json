@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2465,
-    "concepts": 3270,
-    "observations": 3277,
-    "repos": 1025,
-    "terms": 3250
+    "components": 2474,
+    "concepts": 3279,
+    "observations": 3286,
+    "repos": 1027,
+    "terms": 3257
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -241,6 +241,7 @@
     "clojure/data.priority-map",
     "clojure/tools.deps.alpha",
     "clojure/tools.nrepl",
+    "clojure/tools.reader",
     "cloudfoundry/diego-design-notes",
     "cloudnativeapp/charts",
     "CLUEbenchmark/pCLUE",
@@ -881,6 +882,7 @@
     "SidOfc/carbon.nvim",
     "sillyplots/spotifyr",
     "silvio/docker-languagetool",
+    "simonw/datasette-lite",
     "sinatra-activerecord/sinatra-activerecord",
     "sky-ecosystem/multicall",
     "skywind3000/gutentags_plus",

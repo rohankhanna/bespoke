@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars
 
-Generated at: `2026-06-30T08:19:03.846649+00:00`
+Generated at: `2026-07-01T06:04:45.209590+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 9
-- terms: 36
-- components: 93
-- concepts: 36
-- observations: 36
+- terms: 51
+- components: 116
+- concepts: 51
+- observations: 51
 
 ## Static behavior
 
@@ -25,26 +25,26 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-06-30T04:08:05Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 90 | 2026-06-30T02:51:21Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-29T21:43:34Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-29T20:12:02Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
-| [prospector-dev/requirements-detector](https://github.com/prospector-dev/requirements-detector) | 48 | 2026-06-29T17:21:20Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-29T16:51:04Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
-| [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-06-29T13:10:01Z | Go | CLI | 5 | 0 | 5 | 5 |
-| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2026-06-29T12:07:25Z | Other | CLI | 9 | 2 | 9 | 9 |
-| [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 34 | 2026-06-29T08:42:26Z | Shell | Unknown | 4 | 0 | 4 | 4 |
+| [gluon-lang/gluon-lang.org](https://github.com/gluon-lang/gluon-lang.org) | 15 | 2026-06-30T21:45:30Z | Rust | Infrastructure/tooling | 2 | 15 | 2 | 2 |
+| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 38 | 2026-06-30T20:27:07Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-30T15:33:28Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
+| [lindera/lindera-tantivy](https://github.com/lindera/lindera-tantivy) | 70 | 2026-06-30T15:17:11Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [ocaml-tracing/ocaml-trace](https://github.com/ocaml-tracing/ocaml-trace) | 35 | 2026-06-30T14:42:31Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 44 | 2026-06-30T14:16:50Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
+| [mongodb/winkerberos](https://github.com/mongodb/winkerberos) | 57 | 2026-06-30T14:05:20Z | C/C++ | CLI | 9 | 26 | 9 | 9 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-30T11:58:17Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-06-30T08:40:22Z | Other | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-06-29T21:43:34Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 90 | 2026-06-30T02:51:21Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
-| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-29T16:51:04Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
-| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2026-06-29T12:07:25Z | Other | CLI | 9 | 2 | 9 | 9 |
-| [prospector-dev/requirements-detector](https://github.com/prospector-dev/requirements-detector) | 48 | 2026-06-29T17:21:20Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-06-29T13:10:01Z | Go | CLI | 5 | 0 | 5 | 5 |
-| [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 34 | 2026-06-29T08:42:26Z | Shell | Unknown | 4 | 0 | 4 | 4 |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-29T20:12:02Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
-| [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-06-30T04:08:05Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 81 | 2026-06-30T11:58:17Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [lindera/lindera-tantivy](https://github.com/lindera/lindera-tantivy) | 70 | 2026-06-30T15:17:11Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [mongodb/winkerberos](https://github.com/mongodb/winkerberos) | 57 | 2026-06-30T14:05:20Z | C/C++ | CLI | 9 | 26 | 9 | 9 |
+| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-06-30T08:40:22Z | Other | Infrastructure/tooling | 15 | 10 | 15 | 15 |
+| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 44 | 2026-06-30T14:16:50Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
+| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 38 | 2026-06-30T20:27:07Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [ocaml-tracing/ocaml-trace](https://github.com/ocaml-tracing/ocaml-trace) | 35 | 2026-06-30T14:42:31Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 21 | 2026-06-30T15:33:28Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
+| [gluon-lang/gluon-lang.org](https://github.com/gluon-lang/gluon-lang.org) | 15 | 2026-06-30T21:45:30Z | Rust | Infrastructure/tooling | 2 | 15 | 2 | 2 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 35,
-    "observations": 35,
+    "components": 32,
+    "concepts": 34,
+    "observations": 34,
     "repos": 4,
-    "terms": 35
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
+    "bazel-contrib/rules_jvm_external",
     "eclipse-corrosion/corrosion",
-    "eclipse-lsp4j/lsp4j",
-    "redis/redis-om-spring",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "spring-projects/spring-tools"
   ]
 }

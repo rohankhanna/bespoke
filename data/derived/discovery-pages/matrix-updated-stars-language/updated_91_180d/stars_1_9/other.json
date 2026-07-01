@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 245,
-    "concepts": 156,
-    "observations": 156,
-    "repos": 68,
-    "terms": 152
+    "components": 279,
+    "concepts": 154,
+    "observations": 154,
+    "repos": 70,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
+    "ada-url/kotlin",
     "Adam-Boesky/astro_SPLASH",
     "adobe/spectrum-tokens",
     "arya-s/phantty",
@@ -24,6 +25,7 @@
     "aspect-build/tools_telemetry",
     "ATProtoKit/MultiformatsKit",
     "baskeboler/clj-karaoke-lyrics",
+    "bolasblack/BlogFront",
     "clearbluejar/ghidra-python",
     "countries/countries-data-yaml",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
@@ -41,7 +43,6 @@
     "haskell-compat/base-orphans",
     "haya14busa/github-used-by",
     "hchiam/learning-ngrok",
-    "hedronvision/bazel-cc-filesystem-backport",
     "hermit-os/hermit-gcc",
     "heshengtao/sap-ai-drawio",
     "heshengtao/sap-ai-mermaid",
@@ -56,6 +57,7 @@
     "lumen-oss/luarocks-build-treesitter-parser",
     "MarcCote/TextWorld",
     "Melandel/workflow",
+    "microsoft/LinuxTracepoints-Net",
     "mpizenberg/elm-test-runner",
     "nikitabobko/homebrew-tap",
     "objectbox/objectbox-swift-generator",

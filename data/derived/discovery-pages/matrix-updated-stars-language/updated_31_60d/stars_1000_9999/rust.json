@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 432,
-    "concepts": 341,
-    "observations": 341,
-    "repos": 34,
-    "terms": 337
+    "components": 345,
+    "concepts": 287,
+    "observations": 287,
+    "repos": 28,
+    "terms": 284
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "agentclientprotocol/agent-client-protocol",
     "Aleph-Alpha/ts-rs",
@@ -24,10 +24,8 @@
     "CosmWasm/cosmwasm",
     "databendlabs/databend",
     "databendlabs/openraft",
-    "dimforge/kiss3d",
     "dora-rs/dora",
     "erebe/wstunnel",
-    "facebook/sapling",
     "josh-project/josh",
     "JuliaLang/juliaup",
     "junhoyeo/tokscale",
@@ -36,17 +34,13 @@
     "mayocream/koharu",
     "nats-io/nats.rs",
     "nix-rust/nix",
-    "prefix-dev/pixi",
     "reubeno/brush",
     "robustmq/robustmq",
     "ron-rs/ron",
     "ros2-rust/ros2_rust",
-    "rust-cli/human-panic",
     "rust-lang/flate2-rs",
     "rust-lang/portable-simd",
     "rust-lang/rustup",
-    "rust-ml/linfa",
-    "supabase/etl",
-    "unicode-org/icu4x"
+    "rust-ml/linfa"
   ]
 }

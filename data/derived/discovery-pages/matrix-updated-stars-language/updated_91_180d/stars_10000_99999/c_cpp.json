@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 17,
-    "terms": 105
+    "components": 106,
+    "concepts": 118,
+    "observations": 118,
+    "repos": 19,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "aria2/aria2",
     "bellard/quickjs",
     "bol-van/zapret",
     "cloudwu/skynet",
     "esp8266/Arduino",
+    "facebook/zstd",
     "ffmpegwasm/ffmpeg.wasm",
     "git-up/GitUp",
     "glfw/glfw",
@@ -27,6 +28,7 @@
     "i3/i3",
     "jart/cosmopolitan",
     "kyleneideck/backgroundmusic",
+    "libevent/libevent",
     "libgit2/libgit2",
     "microsoft/AirSim",
     "mobile-shell/mosh",

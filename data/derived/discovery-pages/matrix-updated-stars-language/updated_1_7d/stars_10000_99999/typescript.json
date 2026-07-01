@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 3,
-    "terms": 48
+    "components": 193,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 4,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "fastapi/full-stack-fastapi-template",
+    "googleapis/google-api-nodejs-client",
     "jestjs/jest",
     "langchain-ai/langchainjs"
   ]

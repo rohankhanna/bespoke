@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2009,
-    "concepts": 368,
-    "observations": 368,
-    "repos": 49,
-    "terms": 364
+    "components": 1561,
+    "concepts": 325,
+    "observations": 325,
+    "repos": 39,
+    "terms": 321
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -25,15 +25,11 @@
     "Brendonovich/MacroGraph",
     "carbon-design-system/carbon-components-angular",
     "carbon-design-system/sveld",
-    "dydxprotocol/v4-web",
     "embroider-build/ember-auto-import",
-    "embroider-build/embroider",
     "fluent-vue/fluent-vue",
     "foundry-rs/foundry-toolchain",
     "ftonato/nope-validator",
     "Gnathonic/mokuro-reader",
-    "iconify/icon-sets",
-    "intlify/eslint-plugin-vue-i18n",
     "inversify/monorepo",
     "Koenkk/zigbee-herdsman",
     "lambdalisue/vim-gin",
@@ -44,22 +40,16 @@
     "Luligu/matterbridge-zigbee2mqtt",
     "mswjs/interceptors",
     "Nerivec/zigbee2mqtt-windfront",
-    "nonara/ts-patch",
     "nurikk/zigbee2mqtt-frontend",
     "P4sca1/cron-schedule",
     "preactjs/preact-devtools",
-    "radashi-org/radashi",
     "Rel1cx/eslint-react",
     "RiDDiX/home-assistant-matter-hub",
     "serversideup/webext-bridge",
     "SkepticMystic/breadcrumbs",
     "skilld-dev/skilld",
-    "smithy-lang/smithy-typescript",
     "sumup-oss/circuit-ui",
-    "tlaplus/vscode-tlaplus",
-    "unjs/get-port-please",
     "unjs/listhen",
-    "unjs/unimport",
     "victorgarciaesgi/regle",
     "xdebug/vscode-php-debug",
     "Zoo-Code-Org/Zoo-Code"

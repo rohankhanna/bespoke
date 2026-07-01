@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-06-30T08:19:03.846649+00:00`
+Generated at: `2026-07-01T06:04:45.209590+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 4
-- terms: 2
-- components: 5
-- concepts: 2
-- observations: 2
+- repos: 6
+- terms: 4
+- components: 12
+- concepts: 4
+- observations: 4
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mozilla-ai/otari-sdk-go](https://github.com/mozilla-ai/otari-sdk-go) | 0 | 2026-06-16T19:57:16Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [mozilla-ai/otari-sdk-python](https://github.com/mozilla-ai/otari-sdk-python) | 0 | 2026-06-16T19:57:05Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [cvxpy/org](https://github.com/cvxpy/org) | 0 | 2026-06-14T01:13:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mozilla-ai/otari-cli](https://github.com/mozilla-ai/otari-cli) | 0 | 2026-06-11T15:30:06Z | Python | CLI | 1 | 3 | 1 | 1 |
 | [apostrophecms/astro-public-demo](https://github.com/apostrophecms/astro-public-demo) | 0 | 2026-06-10T10:07:43Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
@@ -34,6 +36,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mozilla-ai/otari-sdk-go](https://github.com/mozilla-ai/otari-sdk-go) | 0 | 2026-06-16T19:57:16Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [mozilla-ai/otari-sdk-python](https://github.com/mozilla-ai/otari-sdk-python) | 0 | 2026-06-16T19:57:05Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [cvxpy/org](https://github.com/cvxpy/org) | 0 | 2026-06-14T01:13:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mozilla-ai/otari-cli](https://github.com/mozilla-ai/otari-cli) | 0 | 2026-06-11T15:30:06Z | Python | CLI | 1 | 3 | 1 | 1 |
 | [apostrophecms/astro-public-demo](https://github.com/apostrophecms/astro-public-demo) | 0 | 2026-06-10T10:07:43Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |

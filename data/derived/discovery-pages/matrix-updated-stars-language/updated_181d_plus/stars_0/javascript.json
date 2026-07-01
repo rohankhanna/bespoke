@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 136,
+    "components": 139,
     "concepts": 29,
     "observations": 29,
-    "repos": 22,
+    "repos": 23,
     "terms": 29
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "5scontrol/5s-algorithms-controller",
     "5sControl/5s-onvif",
@@ -24,6 +24,7 @@
     "cccs-jc/sql-formatter",
     "coderaiser/c8-reproduce",
     "curiousnoob/lerna-release-workflow",
+    "danielrosehill/Model-Scout-MCP",
     "dsvorc41/js-framework-benchmark",
     "ethanzrd/whisper-playground",
     "garrettalbright/luacheck.novaextension",

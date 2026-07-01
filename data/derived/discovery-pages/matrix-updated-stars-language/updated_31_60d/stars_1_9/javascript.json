@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 275,
-    "concepts": 153,
-    "observations": 154,
-    "repos": 11,
-    "terms": 152
+    "components": 153,
+    "concepts": 77,
+    "observations": 78,
+    "repos": 6,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
-    "angular/angular-devkit-architect-builds",
     "ioBroker/plugin-sentry",
     "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
-    "stdlib-js/array-float32",
     "stdlib-js/complex-reviver",
-    "stdlib-js/math-base-special-erf",
-    "stdlib-js/math-base-special-erfc",
-    "stdlib-js/math-base-special-erfcx",
     "stdlib-js/ndarray-fancy"
   ]
 }

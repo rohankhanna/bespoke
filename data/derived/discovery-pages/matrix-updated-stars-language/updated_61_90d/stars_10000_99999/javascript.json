@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4448,
-    "concepts": 756,
-    "observations": 759,
-    "repos": 97,
-    "terms": 751
+    "components": 4599,
+    "concepts": 782,
+    "observations": 785,
+    "repos": 99,
+    "terms": 777
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
+    "11ty/eleventy",
     "acornjs/acorn",
+    "addyosmani/critical",
     "ai/nanoid",
     "ajaxorg/ace",
     "ampproject/amphtml",
@@ -31,13 +33,13 @@
     "commitizen/cz-cli",
     "ConardLi/easy-dataset",
     "cure53/DOMPurify",
-    "debug-js/debug",
     "decaporg/decap-cms",
     "easydiffusion/easydiffusion",
     "electerm/electerm",
     "electron/minimal-repro",
     "expressjs/express",
     "facebook/hermes",
+    "faisalman/ua-parser-js",
     "fastify/fastify",
     "gatsbyjs/gatsby",
     "google/zx",
@@ -59,7 +61,6 @@
     "josdejong/jsoneditor",
     "josdejong/mathjs",
     "jquery/jquery",
-    "jquery/jquery-ui",
     "jsdoc/jsdoc",
     "jsdom/jsdom",
     "karma-runner/karma",
@@ -95,6 +96,7 @@
     "SillyTavern/SillyTavern",
     "simple-icons/simple-icons",
     "stylelint/stylelint",
+    "sveltejs/svelte",
     "svg/svgo",
     "swagger-api/swagger-ui",
     "testing-library/react-testing-library",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5688,
-    "concepts": 2105,
-    "observations": 2108,
-    "repos": 1455,
-    "terms": 2105
+    "components": 5700,
+    "concepts": 2112,
+    "observations": 2115,
+    "repos": 1458,
+    "terms": 2112
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -495,7 +495,9 @@
     "danielrosehill/Home-Inventory-AI-Assistants",
     "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
     "danielrosehill/LLM-API-Price-Estimates",
+    "danielrosehill/MCP-Network-CUPS",
     "danielrosehill/MCP-Server-Ideas",
+    "danielrosehill/My-Network-MCP",
     "danijar/minerl",
     "dantelmomsft/chat-with-your-data-java-lza-app-accelerator",
     "darcythomas/zxcvbn.net",
@@ -743,6 +745,7 @@
     "hden/cuid2",
     "HDETR/H-Detic-LVIS",
     "HDETR/H-Mask-Deformable-DETR",
+    "hedronvision/bazel-cc-filesystem-backport",
     "heiher/socks5-ios",
     "helmfile/multi-env-helmfile",
     "hermit-os/binutils",
@@ -1380,7 +1383,7 @@
     "travis-infrastructure/packer-build",
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

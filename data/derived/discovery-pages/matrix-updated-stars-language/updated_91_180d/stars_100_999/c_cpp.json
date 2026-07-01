@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 427,
-    "concepts": 614,
-    "observations": 616,
-    "repos": 133,
-    "terms": 607
+    "components": 423,
+    "concepts": 620,
+    "observations": 622,
+    "repos": 135,
+    "terms": 614
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "AmusementClub/vs-mlrt",
@@ -32,6 +32,7 @@
     "aviggiano/redis-roaring",
     "bdwgc/libatomic_ops",
     "beached/daw_json_link",
+    "BirolLab/ntHash",
     "bnosac/audio.whisper",
     "btzy/nativefiledialog-extended",
     "CGCL-codes/YiTu",
@@ -43,6 +44,7 @@
     "CrystallineCore/Biscuit",
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
+    "DavidKinder/Windows-Frotz",
     "deeptools/pyBigWig",
     "derickr/timelib",
     "devkitPro/libctru",
@@ -65,7 +67,6 @@
     "haosulab/SAPIEN",
     "haxenme/nme",
     "hhyyrylainen/GodotPckTool",
-    "Imagick/imagick",
     "intel/gmmlib",
     "intel/isa-l_crypto",
     "InteractiveComputerGraphics/TriangleMeshDistance",
@@ -110,6 +111,7 @@
     "nvpro-samples/nvpro_core",
     "objectbox/objectbox-c",
     "openxrlab/xrslam",
+    "osmcode/libosmium",
     "osvenskan/posix_ipc",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
     "PaddlePaddle/Paddle2ONNX",

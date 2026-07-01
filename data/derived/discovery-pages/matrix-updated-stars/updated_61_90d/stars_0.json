@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 977,
-    "concepts": 415,
-    "observations": 415,
-    "repos": 282,
-    "terms": 444
+    "components": 1016,
+    "concepts": 414,
+    "observations": 414,
+    "repos": 281,
+    "terms": 443
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -34,6 +34,7 @@
     "alexcrichton/cc-rs",
     "amoniacou/external-dns-digitalocean-webhook",
     "Amtrend/ssh-manager",
+    "angular/angular-build-builds",
     "arckoor/jsonwebtoken",
     "arckoor/jsonwebtoken-botan",
     "arnaud-lb/php-rdkafka",
@@ -210,7 +211,6 @@
     "gyf0311/lorekit",
     "hauntsaninja/mypy",
     "hermit-os/.github",
-    "hermit-os/safe-mmio",
     "hmellor/vllm",
     "HumanSignal/label-studio-client-generator",
     "hyper-mcp-rs/arxiv-plugin",
@@ -275,7 +275,6 @@
     "shouted-numberone752/wechat-agent-connector",
     "shubishere/ai-drawio",
     "similar-colpoxerosis201/codex-wechat",
-    "Sovereign-Labs/reltester",
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
     "stable-haskell/haskell-language-server",

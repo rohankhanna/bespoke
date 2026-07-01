@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 159,
-    "observations": 159,
-    "repos": 17,
-    "terms": 157
+    "components": 174,
+    "concepts": 183,
+    "observations": 183,
+    "repos": 19,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "ANTsX/ANTs",
     "autowarefoundation/autoware_universe",
+    "bloomberg/bde",
     "CGAL/cgal",
+    "CloudCompare/CloudCompare",
     "cvxpy/cvxpy",
+    "harfbuzz/harfbuzz",
     "InsightSoftwareConsortium/ITK",
-    "joncampbell123/dosbox-x",
     "KhronosGroup/KTX-Software",
+    "libbitcoin/libbitcoin-system",
     "libsndfile/libsndfile",
     "luau-lang/luau",
     "moonshine-ai/moonshine",
     "MrNeRF/LichtFeld-Studio",
-    "PoseLib/PoseLib",
+    "pytorch/gloo",
     "snapcast/snapcast",
-    "swiftlang/swift-llbuild",
     "ufbx/ufbx",
     "ultrajson/ultrajson",
     "xtensor-stack/xtensor"

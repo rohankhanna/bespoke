@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 750,
-    "concepts": 550,
-    "observations": 552,
-    "repos": 191,
-    "terms": 545
+    "components": 756,
+    "concepts": 549,
+    "observations": 550,
+    "repos": 193,
+    "terms": 544
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -90,7 +90,6 @@
     "eddelbuettel/tinythemes",
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
-    "ethpandaops/optimism-package",
     "FluxML/fluxml.github.io",
     "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
@@ -101,6 +100,7 @@
     "google/litmus",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "GoogleCloudPlatform/getting-started-dotnet",
+    "HaxeFlixel/flixel-docs",
     "HaxeFlixel/haxeflixel.com",
     "haxeui/haxeui-guides",
     "hedronvision/bazel-make-cc-https-easy",
@@ -125,6 +125,7 @@
     "jpmml/r2pmml",
     "jruby/maven-tools",
     "js-temporal/proposal-temporal-v2",
+    "JuliaCI/PkgEval.jl",
     "JuliaGraphics/Cairo.jl",
     "JuliaGraphics/ColorVectorSpace.jl",
     "JuliaGtk/Gtk4.jl",
@@ -193,6 +194,7 @@
     "standardrb/lint_roller",
     "status-im/nim-json-serialization",
     "status-im/nim-serialization",
+    "tarides/ocaml-eglot",
     "tarsius/llama",
     "tc39/proposal-smart-unit-preferences",
     "timo/json_fast",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 90,
-    "observations": 91,
+    "components": 105,
+    "concepts": 78,
+    "observations": 79,
     "repos": 14,
-    "terms": 90
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "Artoriuz/ArtCNN",
+    "chebfun/chebfun",
     "Deep-Symmetry/beat-link-trigger",
     "emacs-eldev/eldev",
     "fsprojects/FSharp.Data.GraphQL",
@@ -23,7 +24,6 @@
     "JuliaCollections/AbstractTrees.jl",
     "JuliaLinearAlgebra/MKL.jl",
     "jump-dev/MathOptInterface.jl",
-    "kurrent-io/KurrentDB-Client-Dotnet",
     "NOAA-EMC/WW3",
     "nvim-mini/mini.deps",
     "the-database/VideoJaNai",

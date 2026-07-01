@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1252,
-    "concepts": 771,
-    "observations": 772,
-    "repos": 74,
-    "terms": 760
+    "components": 1313,
+    "concepts": 859,
+    "observations": 860,
+    "repos": 82,
+    "terms": 848
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
     "ajeetdsouza/zoxide",
+    "alacritty/alacritty",
     "analysis-tools-dev/static-analysis",
     "asciinema/asciinema",
     "ast-grep/ast-grep",
@@ -34,7 +35,9 @@
     "diesel-rs/diesel",
     "emilk/egui",
     "eza-community/eza",
+    "facebook/flow",
     "facebook/relay",
+    "firecracker-microvm/firecracker",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
     "FuelLabs/fuel-core",
@@ -51,9 +54,12 @@
     "huggingface/tokenizers",
     "hyperium/tonic",
     "iced-rs/iced",
+    "influxdata/influxdb",
     "jdx/mise",
     "jj-vcs/jj",
+    "juspay/hyperswitch",
     "launchbadge/sqlx",
+    "LemmyNet/lemmy",
     "lsd-rs/lsd",
     "microsoft/windows-rs",
     "nearai/ironclaw",
@@ -72,6 +78,7 @@
     "seanmonstar/reqwest",
     "seanmonstar/warp",
     "servo/servo",
+    "shadowsocks/shadowsocks-rust",
     "sharkdp/bat",
     "sharkdp/fd",
     "Spotifyd/spotifyd",
@@ -84,6 +91,7 @@
     "typst/typst",
     "vectordotdev/vector",
     "vercel-labs/agent-browser",
+    "wasmerio/wasmer",
     "web-infra-dev/rspack",
     "wezterm/wezterm",
     "zed-industries/zed",

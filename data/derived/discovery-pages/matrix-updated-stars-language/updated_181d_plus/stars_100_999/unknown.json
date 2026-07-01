@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 473,
-    "observations": 474,
-    "repos": 264,
-    "terms": 487
+    "components": 125,
+    "concepts": 466,
+    "observations": 467,
+    "repos": 262,
+    "terms": 480
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -128,7 +128,6 @@
     "HandaArchitect/obsidian-banner-snippet",
     "haofanwang/T2I-Adapter-for-Diffusers",
     "HCIILAB/M6Doc",
-    "helm/hub",
     "hiszpanski/osx-arm-linux-toolchains",
     "HLTSingapore/Emotional-Speech-Data",
     "hpatches/hpatches-dataset",
@@ -191,7 +190,6 @@
     "mourner/projects",
     "mpnally/Terrifically-Simple-JSON",
     "mswjs/examples",
-    "multiformats/cid",
     "multiformats/multibase",
     "multiformats/multiformats",
     "mundimark/awesome-markdown-alternatives",

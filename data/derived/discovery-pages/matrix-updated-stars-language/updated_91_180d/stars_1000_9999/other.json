@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 838,
-    "concepts": 969,
-    "observations": 975,
-    "repos": 177,
-    "terms": 973
+    "components": 903,
+    "concepts": 1025,
+    "observations": 1031,
+    "repos": 185,
+    "terms": 1029
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "aaaaalexis/obsidian-cupertino",
+    "abarichello/godot-ci",
     "activerecord-hackery/ransack",
     "alexreisner/geocoder",
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
+    "ankane/ahoy_email",
     "ankane/chartkick",
     "ankane/pgslice",
     "ardalis/ApiEndpoints",
@@ -94,12 +96,15 @@
     "greggh/claude-code.nvim",
     "guard/guard",
     "guard/listen",
+    "haleclipse/claudix",
     "haml/haml",
     "heartcombo/has_scope",
     "hecomi/uLipSync",
+    "hercules-ci/flake-parts",
     "hrsh7th/nvim-cmp",
     "IDEA-Research/Rex-Omni",
     "Intellindust-AI-Lab/DEIMv2",
+    "j-hui/fidget.nvim",
     "javan/whenever",
     "jekip/naive-ui-admin",
     "jgm/djot",
@@ -117,6 +122,7 @@
     "liuchengxu/vim-which-key",
     "lunarmodules/busted",
     "MahmoudAshraf97/whisper-diarization",
+    "manzaltu/claude-code-ide.el",
     "mdn/webassembly-examples",
     "mds1/multicall3",
     "metosin/reitit",
@@ -172,6 +178,7 @@
     "steipete/peekaboo",
     "stevearc/aerial.nvim",
     "stevearc/oil.nvim",
+    "stevearc/overseer.nvim",
     "symfony/cache-contracts",
     "tensorflow/tpu",
     "thu-ml/SageAttention",
@@ -190,6 +197,7 @@
     "woct0rdho/triton-windows",
     "yonaskolb/Mint",
     "z-x-yang/Segment-and-Track-Anything",
-    "zarazhangrui/codebase-to-course"
+    "zarazhangrui/codebase-to-course",
+    "zjunlp/EasyEdit"
   ]
 }

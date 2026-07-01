@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 281,
-    "concepts": 150,
-    "observations": 150,
-    "repos": 31,
-    "terms": 150
+    "components": 406,
+    "concepts": 213,
+    "observations": 213,
+    "repos": 34,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-compiler",
     "3swordman/tree-sitter-toon",
@@ -27,7 +27,6 @@
     "browserslist/browserslist-plausible",
     "coderaiser/escover",
     "cpojer/js-codemod",
-    "danielrosehill/My-Network-MCP",
     "Deep-Symmetry/asciidoctor-bytefield",
     "fishballapp/inquirer-cli",
     "forcedotcom/dev-config",
@@ -37,12 +36,16 @@
     "hchiam/react-jexcel-redux",
     "heshengtao/desktop-for-sap",
     "Level/read-stream",
+    "Level/supports",
+    "Level/transcoder",
     "lucabubi/star-history",
     "lukasz-wronski/Antigravity-Shit-Chat",
     "qiuyu96/CoDeF",
     "REditorSupport/vscode-R-syntax",
     "stdlib-js/array-buffer",
+    "stdlib-js/array-complex64",
     "stdlib-js/array-dtypes",
+    "stdlib-js/array-typed",
     "stdlib-js/array-typed-dtypes",
     "tc39/proposal-intl-keep-trailing-zeros"
   ]

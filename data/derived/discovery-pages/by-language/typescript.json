@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 63316,
-    "concepts": 10988,
-    "observations": 11024,
-    "repos": 1929,
-    "terms": 11289
+    "components": 63405,
+    "concepts": 11005,
+    "observations": 11041,
+    "repos": 1930,
+    "terms": 11303
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -1367,6 +1367,7 @@
     "octokit/webhooks-methods.js",
     "octokit/webhooks.js",
     "off-grid-ai/mobile",
+    "off-grid-ai/off-grid-ai-mobile",
     "OffchainLabs/arbitrum-chain-sdk",
     "OffchainLabs/arbitrum-sdk",
     "OffchainLabs/nitro-testnode",

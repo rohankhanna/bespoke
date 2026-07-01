@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1348,
-    "concepts": 6056,
-    "observations": 6061,
-    "repos": 2016,
-    "terms": 5884
+    "concepts": 6064,
+    "observations": 6069,
+    "repos": 2017,
+    "terms": 5894
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -845,6 +845,7 @@
     "HikariTJU/LD",
     "hiroi-sora/Umi-OCR_plugins",
     "hiroi-sora/Umi-OCR_runtime_linux",
+    "hkchengrex/CascadePSP",
     "HKU-BAL/Clair",
     "HKUNLP/critic-rl",
     "HKUST-Aerial-Robotics/MVDepthNet",

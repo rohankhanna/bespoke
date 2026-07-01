@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 190,
-    "observations": 190,
-    "repos": 14,
-    "terms": 190
+    "components": 237,
+    "concepts": 181,
+    "observations": 181,
+    "repos": 15,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
+    "567-labs/instructor",
     "crewAIInc/crewAI",
     "deepspeedai/DeepSpeed",
     "fossasia/visdom",
-    "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
+    "Lightning-AI/litgpt",
     "Lightning-AI/pytorch-lightning",
     "marimo-team/marimo",
     "nltk/nltk",
     "NVIDIA-NeMo/NeMo",
     "qubvel-org/segmentation_models.pytorch",
-    "run-llama/llama_index",
+    "Tencent-Hunyuan/HunyuanVideo",
     "ungoogled-software/ungoogled-chromium",
     "vega/altair"
   ]

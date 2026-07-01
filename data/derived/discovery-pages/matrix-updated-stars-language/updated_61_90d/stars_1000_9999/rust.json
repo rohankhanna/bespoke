@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2232,
-    "concepts": 1621,
-    "observations": 1630,
-    "repos": 223,
-    "terms": 1630
+    "components": 2300,
+    "concepts": 1660,
+    "observations": 1669,
+    "repos": 227,
+    "terms": 1669
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -32,7 +32,6 @@
     "apache/iceberg-rust",
     "apache/iggy",
     "apache/opendal",
-    "arxanas/git-branchless",
     "askama-rs/askama",
     "asny/three-d",
     "asomers/mockall",
@@ -41,7 +40,6 @@
     "axodotdev/cargo-dist",
     "bheisler/criterion.rs",
     "bitcoindevkit/bdk",
-    "bitshifter/glam-rs",
     "blacknon/hwatch",
     "bluealloy/revm",
     "boa-dev/boa",
@@ -69,6 +67,7 @@
     "delta-io/delta-rs",
     "DeterminateSystems/nix-installer",
     "Devolutions/IronRDP",
+    "dimforge/kiss3d",
     "dimforge/nalgebra",
     "dimforge/rapier",
     "dtolnay/cxx",
@@ -82,6 +81,7 @@
     "eyre-rs/eyre",
     "facebook/buck2",
     "facebook/pyrefly",
+    "facebook/sapling",
     "fitzgen/bumpalo",
     "flamegraph-rs/flamegraph",
     "floneum/floneum",
@@ -163,6 +163,7 @@
     "pkgxdev/pkgx",
     "plotters-rs/plotters",
     "pop-os/cosmic-text",
+    "prefix-dev/pixi",
     "prisma/prisma-engines",
     "proptest-rs/proptest",
     "pulldown-cmark/pulldown-cmark",
@@ -180,6 +181,7 @@
     "rust-cli/config-rs",
     "rust-cli/confy",
     "rust-cli/env_logger",
+    "rust-cli/human-panic",
     "rust-cross/cargo-zigbuild",
     "Rust-GPU/rust-gpu",
     "rust-lang/cc-rs",
@@ -215,6 +217,7 @@
     "Splode/pomotroid",
     "squidowl/halloy",
     "succinctlabs/sp1",
+    "supabase/etl",
     "SuperCuber/dotter",
     "tauri-apps/create-tauri-app",
     "tauri-apps/wry",
@@ -229,6 +232,7 @@
     "toml-rs/toml",
     "tracel-ai/cubecl",
     "trishume/syntect",
+    "unicode-org/icu4x",
     "uuid-rs/uuid",
     "vadimcn/codelldb",
     "vladkens/macmon",

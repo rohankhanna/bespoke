@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10834,
-    "concepts": 9755,
-    "observations": 9769,
+    "components": 10845,
+    "concepts": 9748,
+    "observations": 9762,
     "repos": 2500,
-    "terms": 9614
+    "terms": 9606
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -272,7 +272,6 @@
     "baidu/braft",
     "baidu/DDParser",
     "baidu/DuReader",
-    "baidu/Familia",
     "baidu/sofa-pbrpc",
     "balancap/SSD-Tensorflow",
     "baofff/U-ViT",
@@ -403,7 +402,6 @@
     "cglib/cglib",
     "cgrand/enlive",
     "chainer/chainer",
-    "chainer/chainercv",
     "chainer/chainerrl",
     "chancejs/chancejs",
     "ChaoningZhang/MobileSAM",
@@ -844,6 +842,7 @@
     "gfx-rs/naga",
     "ggandor/lightspeed.nvim",
     "ghodss/yaml",
+    "gin-gonic/contrib",
     "GiovineItalia/Gadfly.jl",
     "gitalk/gitalk",
     "github/cmark-gfm",
@@ -2117,6 +2116,7 @@
     "steelbrain/linter",
     "stefanpenner/es6-promise",
     "steinbergmedia/vst3sdk",
+    "steipete/claude-code-mcp",
     "stencilproject/Stencil",
     "stepancheg/grpc-rust",
     "stepancheg/rust-protobuf",

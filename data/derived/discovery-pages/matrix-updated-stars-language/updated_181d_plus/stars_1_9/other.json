@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1212,
-    "concepts": 568,
-    "observations": 568,
-    "repos": 368,
-    "terms": 575
+    "concepts": 574,
+    "observations": 574,
+    "repos": 369,
+    "terms": 581
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -194,6 +194,7 @@
     "hchiam/learning-webrtc",
     "hden/cuid",
     "hden/cuid2",
+    "hedronvision/bazel-cc-filesystem-backport",
     "heiher/socks5-ios",
     "helmfile/multi-env-helmfile",
     "heshengtao/sap-ai-sheet",

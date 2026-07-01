@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1660,
-    "concepts": 3048,
-    "observations": 3052,
-    "repos": 1727,
-    "terms": 3056
+    "components": 1659,
+    "concepts": 3046,
+    "observations": 3050,
+    "repos": 1726,
+    "terms": 3054
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -913,7 +913,6 @@
     "heimoshuiyu/faster-whisper",
     "heliconialabs/steampunkification",
     "helm/community",
-    "helm/hub",
     "hermit-os/.github",
     "hermit-os/tokio",
     "heshengtao/Let-LLM-party",

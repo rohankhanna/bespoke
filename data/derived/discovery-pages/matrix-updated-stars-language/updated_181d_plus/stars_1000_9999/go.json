@@ -3,7 +3,7 @@
     "components": 388,
     "concepts": 725,
     "observations": 725,
-    "repos": 152,
+    "repos": 153,
     "terms": 721
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "99designs/aws-vault",
@@ -78,6 +78,7 @@
     "francoispqt/gojay",
     "GeertJohan/go.rice",
     "ghodss/yaml",
+    "gin-gonic/contrib",
     "githubnemo/CompileDaemon",
     "go-bindata/go-bindata",
     "go-yaml/yaml",

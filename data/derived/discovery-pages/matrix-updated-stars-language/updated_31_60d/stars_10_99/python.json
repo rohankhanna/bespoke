@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 19,
-    "terms": 43
+    "components": 84,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 14,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
     "apify/actor-templates",
-    "arcaputo3/mcp-server-whisper",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "braelyn-ai/mob",
     "dora-rs/dora-hub",
-    "gentoo/api-gentoo-org",
     "google-marketing-solutions/ariel",
     "google-research/mseb",
     "goombalab/raven",
     "Hiroshiba/voicevox_engine",
-    "jfly/shtuff",
     "mlcommons/logging",
     "python-jsonschema/referencing",
-    "pytroll/donfig",
-    "scipy/scipy.org",
     "tomMoral/loky",
     "version-fox/vfox-plugins",
     "yulewang97/ERDiff"

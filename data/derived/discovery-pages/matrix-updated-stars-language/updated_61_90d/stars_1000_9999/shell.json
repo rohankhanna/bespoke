@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 304,
-    "observations": 306,
-    "repos": 51,
-    "terms": 307
+    "components": 239,
+    "concepts": 328,
+    "observations": 330,
+    "repos": 53,
+    "terms": 331
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -44,9 +44,11 @@
     "git-quick-stats/git-quick-stats",
     "google/adk-docs",
     "GrapheneOS/Vanadium",
+    "heroku/heroku-buildpack-nodejs",
+    "holman/dotfiles",
     "home-assistant/addons",
     "ilikenwf/apt-fast",
-    "jonmosco/kube-ps1",
+    "jkroepke/helm-secrets",
     "matryer/xbar-plugins",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",

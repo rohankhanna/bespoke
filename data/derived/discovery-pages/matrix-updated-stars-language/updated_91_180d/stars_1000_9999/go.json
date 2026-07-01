@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 372,
-    "concepts": 358,
-    "observations": 358,
-    "repos": 77,
-    "terms": 355
+    "components": 403,
+    "concepts": 391,
+    "observations": 391,
+    "repos": 82,
+    "terms": 386
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "abh/geodns",
     "alexellis/k3sup",
@@ -22,6 +22,7 @@
     "aquasecurity/tfsec",
     "atotto/clipboard",
     "avast/retry-go",
+    "azure/aztfexport",
     "bazelbuild/buildtools",
     "bytedance/gopkg",
     "caddyserver/xcaddy",
@@ -35,6 +36,7 @@
     "cortesi/devd",
     "dagger/container-use",
     "darccio/mergo",
+    "davidbyttow/govips",
     "ddworken/hishtory",
     "dghubble/sling",
     "dgraph-io/ristretto",
@@ -42,7 +44,6 @@
     "duke-git/lancet",
     "evmos/evmos",
     "flashbots/mev-boost",
-    "gin-gonic/contrib",
     "github/git-sizer",
     "go-redis/redis_rate",
     "go-rod/rod",
@@ -51,13 +52,16 @@
     "golang/oauth2",
     "google/go-cmp",
     "google/go-jsonnet",
+    "google/pprof",
     "google/starlark-go",
     "hashicorp/go-metrics",
     "hashicorp/go-version",
+    "hashicorp/hcl",
     "hashicorp/memberlist",
     "hashicorp/yamux",
     "instrumenta/kubeval",
     "isaacphi/mcp-language-server",
+    "itchyny/gojq",
     "jhump/protoreflect",
     "JohannesKaufmann/html-to-markdown",
     "jtblin/kube2iam",
@@ -80,6 +84,7 @@
     "restic/rest-server",
     "rs/cors",
     "shazow/ssh-chat",
+    "smallnest/rpcx",
     "smtg-ai/claude-squad",
     "sony/gobreaker",
     "spf13/pflag",

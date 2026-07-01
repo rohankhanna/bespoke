@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 5,
-    "terms": 44
+    "components": 94,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 6,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "facebook/react-native",
     "Genymobile/scrcpy",
+    "godotengine/godot",
     "microsoft/terminal",
     "tensorflow/tensorflow",
     "torvalds/linux"

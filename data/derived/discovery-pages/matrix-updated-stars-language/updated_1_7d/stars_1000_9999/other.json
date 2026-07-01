@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 132,
-    "observations": 137,
-    "repos": 16,
-    "terms": 130
+    "components": 174,
+    "concepts": 120,
+    "observations": 125,
+    "repos": 14,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
     "argmaxinc/argmax-oss-swift",
     "babashka/babashka",
-    "beam-community/elixir-companies",
-    "datalevin/datalevin",
     "dotnet/reactive",
     "dotnet/Silk.NET",
+    "firebase/flutterfire",
     "google-deepmind/tapnet",
     "googleapis/google-api-php-client",
-    "googleapis/google-auth-library-php",
     "jenkinsci/docker",
     "licensee/licensed",
     "MakieOrg/Makie.jl",
-    "seancorfield/honeysql",
+    "okd-project/okd",
     "TryGhost/node-sqlite3"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 226,
-    "observations": 227,
-    "repos": 19,
-    "terms": 226
+    "components": 133,
+    "concepts": 167,
+    "observations": 168,
+    "repos": 14,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "agentscope-ai/QwenPaw",
-    "certbot/certbot",
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
-    "lucidrains/vit-pytorch",
     "ludwig-ai/ludwig",
     "MetaCubeX/mihomo",
-    "mitmproxy/mitmproxy",
-    "mlflow/mlflow",
     "modelscope/DiffSynth-Studio",
     "OpenMOSS/MOSS",
     "PDFMathTranslate/PDFMathTranslate",
     "python-poetry/poetry",
-    "scipy/scipy",
     "StevenBlack/hosts",
     "triton-inference-server/server",
     "unifyai/ivy",

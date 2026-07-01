@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 80,
-    "terms": 93
+    "components": 73,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 82,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -23,12 +23,14 @@
     "AI-Agent-Hub/mcp-marketplace",
     "ai-dynamo/enhancements",
     "AlmaLinux/osv-database",
+    "angular/angular-devkit-build-webpack-builds",
     "bell-sw/osv-database",
     "cachix/iocraft",
     "calda/SwiftFormat-nightly",
     "canonical/ubuntu-desktop-provision-screenshots",
     "conda-forge/captum-feedstock",
     "conda-forge/geovista-feedstock",
+    "conda-forge/pyfive-feedstock",
     "conda-forge/python-zlib-ng-feedstock",
     "conda-forge/scikit-optimize-feedstock",
     "conda-forge/ultralytics-feedstock",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 126,
-    "observations": 126,
-    "repos": 23,
-    "terms": 122
+    "components": 94,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 24,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "datawhalechina/happy-llm",
@@ -32,6 +32,7 @@
     "NVlabs/instant-ngp",
     "openai/CLIP",
     "QwenLM/Qwen3-VL",
+    "reasonml/reason",
     "ryanoasis/nerd-fonts",
     "Swordfish90/cool-retro-term",
     "tachyons-css/tachyons",

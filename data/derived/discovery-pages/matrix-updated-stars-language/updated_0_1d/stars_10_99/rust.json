@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 44,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 4,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "alloy-rs/evm"
+    "alloy-rs/evm",
+    "gluon-lang/gluon-lang.org",
+    "lindera/lindera-tantivy",
+    "vaporif/parry-guard"
   ]
 }

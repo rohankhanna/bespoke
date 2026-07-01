@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1027,
-    "concepts": 4032,
-    "observations": 4034,
-    "repos": 1026,
-    "terms": 3952
+    "concepts": 4026,
+    "observations": 4028,
+    "repos": 1025,
+    "terms": 3946
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/LGM",
@@ -164,7 +164,6 @@
     "CatchTheTornado/text-extract-api",
     "cfzd/Ultra-Fast-Lane-Detection",
     "chainer/chainer",
-    "chainer/chainercv",
     "chainer/chainerrl",
     "charlesq34/pointnet",
     "charlesq34/pointnet2",

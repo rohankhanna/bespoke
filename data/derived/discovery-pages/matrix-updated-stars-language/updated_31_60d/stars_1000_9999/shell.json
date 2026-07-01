@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 67,
-    "observations": 67,
-    "repos": 9,
-    "terms": 64
+    "components": 47,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 6,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "archlinuxcn/repo",
     "bitnami/containers",
-    "heroku/heroku-buildpack-nodejs",
-    "holman/dotfiles",
     "itzg/docker-minecraft-bedrock-server",
-    "jkroepke/helm-secrets",
     "scop/bash-completion",
     "webinstall/webi-installers",
     "yt-dlp/FFmpeg-Builds"

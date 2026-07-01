@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 8,
-    "terms": 53
+    "components": 35,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 9,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "CISOfy/lynis",
+    "dockur/windows",
     "githubnext/monaspace",
     "lxgw/LxgwWenKai",
     "rbenv/rbenv",

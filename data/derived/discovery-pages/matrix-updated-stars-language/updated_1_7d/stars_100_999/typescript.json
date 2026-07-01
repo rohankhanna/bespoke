@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 3,
-    "terms": 31
+    "components": 172,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 4,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
+    "abaplint/transpiler",
     "antvis/GPT-Vis",
-    "hexabot-ai/Hexabot",
-    "huggingface/hf-mcp-server"
+    "electron/packager",
+    "stx-labs/stacks.js"
   ]
 }

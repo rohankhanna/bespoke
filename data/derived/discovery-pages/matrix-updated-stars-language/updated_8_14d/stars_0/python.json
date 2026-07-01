@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 2,
-    "terms": 4
+    "components": 9,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 1,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "mozilla-ai/otari-anyguardrail-container",
-    "mozilla-ai/otari-sdk-python"
+    "mozilla-ai/otari-anyguardrail-container"
   ]
 }

@@ -1,26 +1,26 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 36,
-    "observations": 36,
+    "components": 116,
+    "concepts": 51,
+    "observations": 51,
     "repos": 9,
-    "terms": 36
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
     "alloy-rs/evm",
-    "cloudfoundry/credhub-cli",
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "honwen/openwrt-dnsmasq-extra",
-    "nuxt-modules/emotion",
-    "patterns-ai-core/qdrant-ruby",
-    "prospector-dev/requirements-detector",
-    "TrigenSoftware/simple-release"
+    "gluon-lang/gluon-lang.org",
+    "lindera/lindera-tantivy",
+    "lumen-oss/luarocks-tag-release",
+    "mongodb/winkerberos",
+    "ocaml-tracing/ocaml-trace",
+    "pivotal/credhub-release",
+    "TrigenSoftware/simple-release",
+    "vaporif/parry-guard"
   ]
 }

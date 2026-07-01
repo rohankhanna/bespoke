@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 433,
-    "concepts": 283,
-    "observations": 284,
-    "repos": 27,
-    "terms": 282
+    "components": 199,
+    "concepts": 203,
+    "observations": 204,
+    "repos": 19,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "adityatelange/hugo-PaperMod",
-    "alpinejs/alpine",
-    "BasedHardware/omi",
-    "bitnami/charts",
     "cefsharp/CefSharp",
-    "crystal-lang/crystal",
     "Devolutions/UniGetUI",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
@@ -29,14 +25,10 @@
     "hagezi/dns-blocklists",
     "JetBrains/compose-multiplatform",
     "kubernetes-sigs/kubespray",
-    "logseq/logseq",
-    "mdn/content",
     "meta-llama/llama-cookbook",
     "MudBlazor/MudBlazor",
     "neovim/nvim-lspconfig",
     "phpstan/phpstan",
-    "rubocop/rubocop",
-    "shadowsocks/shadowsocks-android",
     "SubtitleEdit/subtitleedit",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",

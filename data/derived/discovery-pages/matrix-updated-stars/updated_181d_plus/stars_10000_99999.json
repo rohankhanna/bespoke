@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 3548,
-    "concepts": 1775,
-    "observations": 1778,
-    "repos": 348,
-    "terms": 1745
+    "concepts": 1791,
+    "observations": 1794,
+    "repos": 350,
+    "terms": 1763
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -99,6 +99,7 @@
     "dotnet-architecture/eShopOnContainers",
     "dotnet-architecture/eShopOnWeb",
     "dotnet/corefx",
+    "drduh/macOS-Security-and-Privacy-Guide",
     "dropbox/zxcvbn",
     "dropzone/dropzone",
     "dwyl/english-words",
@@ -157,6 +158,7 @@
     "HumanSignal/labelImg",
     "IDEA-Research/Grounded-Segment-Anything",
     "IDEA-Research/GroundingDINO",
+    "IdreesInc/Monocraft",
     "instantX-research/InstantID",
     "inversify/InversifyJS",
     "JaidedAI/EasyOCR",

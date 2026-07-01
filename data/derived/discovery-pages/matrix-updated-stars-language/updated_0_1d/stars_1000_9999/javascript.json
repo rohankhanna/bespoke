@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 544,
-    "concepts": 72,
-    "observations": 73,
-    "repos": 6,
-    "terms": 72
+    "components": 299,
+    "concepts": 38,
+    "observations": 39,
+    "repos": 3,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "endojs/endo",
     "googleapis/google-cloud-node",
     "ipfs/ipfs-companion",
-    "ipfs/ipfs-webui",
-    "module-federation/core",
-    "pillarjs/iconv-lite"
+    "module-federation/core"
   ]
 }

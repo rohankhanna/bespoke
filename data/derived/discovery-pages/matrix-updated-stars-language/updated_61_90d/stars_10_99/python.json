@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 962,
-    "concepts": 734,
-    "observations": 736,
-    "repos": 190,
-    "terms": 749
+    "components": 981,
+    "concepts": 736,
+    "observations": 738,
+    "repos": 193,
+    "terms": 751
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "a2aproject/a2a-tck",
@@ -39,6 +39,7 @@
     "ankurhanda/robot-assets",
     "ansible/ansible-compat",
     "ant-research/pointelligence",
+    "arcaputo3/mcp-server-whisper",
     "archlizheng/frontend-slides-editable",
     "Ascend/TransferQueue",
     "AstarVienna/ScopeSim",
@@ -50,7 +51,6 @@
     "autowarefoundation/autoware_launch",
     "aws-controllers-k8s/test-infra",
     "awslabs/nx-neptune",
-    "Azure-Samples/azureai-travel-agent-python",
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
     "beclab/apps",
     "beeware/briefcase-template",
@@ -96,6 +96,7 @@
     "facebookresearch/mosaic",
     "flagos-ai/vllm-plugin-FL",
     "GaloisInc/BLST-Verification",
+    "gentoo/api-gentoo-org",
     "googleapis/python-pubsublite",
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
@@ -117,6 +118,7 @@
     "intel/ai-containers",
     "intel/vc-intrinsics",
     "jawah/wassima",
+    "jfly/shtuff",
     "JuergenFleiss/atrain_core",
     "jupyter/governance",
     "jxpress/lightning-hydra-template-vertex-ai",
@@ -171,6 +173,7 @@
     "pyodide/pytest-pyodide",
     "pytest-dev/execnet",
     "python-graphblas/graphblas-algorithms",
+    "pytroll/donfig",
     "qiayuanl/unitree_bringup",
     "recap-utr/nlp-service",
     "redhat-et/triton-dev-containers",
@@ -183,6 +186,7 @@
     "scaleway/serverless-functions-python",
     "scasella/nanochat-mlx",
     "scipy/scipy-stubs",
+    "scipy/scipy.org",
     "shiweijiezero/R3L",
     "Significant-Gravitas/gravitasml",
     "sigstore/sigstore-conformance",
@@ -200,7 +204,6 @@
     "TigreGotico/phoonnx",
     "typeshed-internal/stub_uploader",
     "urschrei/pypolyline",
-    "w1ndys/ex-cure-skill",
     "weaviate/agent-skills",
     "xhluca/bm25-benchmarks",
     "zen-xu/pytest-modern"

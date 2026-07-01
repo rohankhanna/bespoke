@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 8,
-    "terms": 13
+    "components": 14,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 6,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "Azure-Samples/langchain-agent-python",
     "danielrosehill/Voxtype",
-    "flexcyon/docs-en",
     "mingqiangWu/Fast-TRELLIS",
     "PrimeIntellect-ai/renderers",
     "SeedScientist/K2V",

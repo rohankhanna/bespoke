@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 175,
-    "observations": 176,
+    "components": 214,
+    "concepts": 163,
+    "observations": 164,
     "repos": 21,
-    "terms": 175
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,28 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "ansys/pymapdl",
     "aramis-lab/clinica",
-    "aramis-lab/clinicadl",
     "ashawkey/kiuikit",
     "BBC-Esq/Faster-Whisper-Transcriber",
     "bjlittle/geovista",
-    "Comfy-Org/comfy-cli",
-    "facebookresearch/MHR",
+    "eclipse-paho/paho.mqtt.testing",
     "flagos-ai/FlagAttention",
-    "flagos-ai/FlagScale",
     "gbionics/jaxsim",
     "google-deepmind/chex",
     "google-deepmind/xmanager",
-    "google-research/task_adaptation",
+    "googlefonts/ufo2ft",
     "InsightSoftwareConsortium/ITK-Wasm",
     "Jamorim-esss/pytest-rich",
+    "jupyter-server/jupyter_server",
     "manzt/anywidget",
     "meta-pytorch/torchft",
-    "PyCQA/autoflake",
-    "pypa/setuptools-scm"
+    "NCAS-CMS/pyfive",
+    "pypa/setuptools-scm",
+    "pyrtlsdr/pyrtlsdr",
+    "tox-dev/filelock"
   ]
 }

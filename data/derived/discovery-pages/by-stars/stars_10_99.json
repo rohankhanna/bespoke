@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 29040,
+    "components": 29042,
     "concepts": 15721,
     "observations": 15774,
-    "repos": 5650,
+    "repos": 5649,
     "terms": 15709
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -2228,7 +2228,6 @@
     "facebookresearch/cop3d",
     "facebookresearch/llama-hd-dataset",
     "facebookresearch/mosaic",
-    "facebookresearch/polymetis",
     "facebookresearch/text-simplification-evaluation",
     "faceyspacey/redux-first-router-link",
     "facok/ComfyUI-TeaCacheHunyuanVideo",
@@ -5285,7 +5284,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 9,
-    "terms": 29
+    "components": 19,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 6,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "Ayaginu-Sue/Astalia",
     "cbuijs/hagezi",
     "Jaded-Encoding-Thaumaturgy/JET-guide",
     "microsoft/microsoft-foundry-for-vscode",
-    "NightWatcher314/zotero-pdf2zh-server",
     "RiDDiX/home-assistant-addons",
     "sakib-m/Pi-hole-Torrent-Blocklist",
-    "standardrb/standard-ruby-action",
     "universal-ctags/ctags-nightly-build"
   ]
 }

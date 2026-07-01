@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 262,
-    "concepts": 188,
-    "observations": 189,
-    "repos": 66,
-    "terms": 186
+    "components": 255,
+    "concepts": 181,
+    "observations": 182,
+    "repos": 65,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "adamgreig/ecpdap",
@@ -45,7 +45,6 @@
     "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
     "frederik-uni/manga-image-translator-rust",
-    "georust/wkt",
     "germangb/minimp3-rs",
     "googlefonts/shaperglot",
     "hermit-os/hermit-rs-template",
@@ -60,10 +59,10 @@
     "lambdaclass/libssz",
     "libdeflater/libdeflater",
     "libp2p/if-watch",
-    "lindera/lindera-tantivy",
     "loyd/fixnum",
     "microsoft/tracing-etw",
     "nebelgrau77/airsniffer-esp32c6",
+    "neysofu/reltester",
     "omerbenamram/pyo3-file",
     "OneSignal/serde-magnus",
     "oramasearch/llm_json",

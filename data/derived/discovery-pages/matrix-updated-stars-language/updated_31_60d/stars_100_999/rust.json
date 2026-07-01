@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 275,
-    "concepts": 218,
-    "observations": 219,
-    "repos": 27,
-    "terms": 218
+    "components": 161,
+    "concepts": 131,
+    "observations": 131,
+    "repos": 17,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
@@ -12,34 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "agentclientprotocol/rust-sdk",
-    "conda/rattler",
     "cosmos/solidity-ibc-eureka",
-    "Dicklesworthstone/asupersync",
     "dprint/dprint-plugin-typescript",
     "g-plane/malva",
     "g-plane/markup_fmt",
-    "google/mdbook-i18n-helpers",
-    "huggingface/hf-mount",
-    "huggingface/xet-core",
     "iqlusioninc/crates",
     "kornia/kornia-rs",
     "left-curve/left-curve",
-    "near/near-sdk-rs",
     "nushell/reedline",
     "open-telemetry/weaver",
     "paradigmxyz/solar",
-    "prefix-dev/rattler-build",
-    "rust-diplomat/diplomat",
     "rust-lang/stdarch",
     "specta-rs/specta",
     "specta-rs/tauri-specta",
-    "supabase/wrappers",
     "utilityai/llama-cpp-rs",
-    "z-galaxy/zbus",
-    "ZcashFoundation/zebra"
+    "z-galaxy/zbus"
   ]
 }

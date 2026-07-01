@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 386,
-    "concepts": 383,
-    "observations": 384,
-    "repos": 64,
-    "terms": 383
+    "components": 390,
+    "concepts": 388,
+    "observations": 389,
+    "repos": 67,
+    "terms": 388
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
@@ -37,16 +37,19 @@
     "docker-library/bashbrew",
     "dop251/goja_nodejs",
     "erigontech/interfaces",
+    "ethereum-optimism/superchain-registry",
     "FastFilter/xorfilter",
     "fastschema/fastschema",
     "firecracker-microvm/firectl",
     "GFW-knocker/Xray-core",
     "go-chi/docgen",
     "go-gl/glow",
+    "google/triage-party",
     "GoogleCloudPlatform/docker-credential-gcr",
     "gopacket/gopacket",
     "gost-dom/browser",
     "gpustack/gguf-parser-go",
+    "hashicorp/hello-vault-go",
     "hashicorp/raft-boltdb",
     "hebcal/hebcal",
     "IBM/FfDL",

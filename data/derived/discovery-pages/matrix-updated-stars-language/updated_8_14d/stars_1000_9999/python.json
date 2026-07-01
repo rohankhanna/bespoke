@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 43,
-    "observations": 44,
-    "repos": 5,
-    "terms": 43
+    "components": 46,
+    "concepts": 54,
+    "observations": 55,
+    "repos": 7,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "arcee-ai/mergekit",
     "Blaizzy/mlx-audio",
+    "huggingface/optimum-quanto",
     "ipyflow/ipyflow",
     "pylint-dev/pylint",
+    "Tencent-Hunyuan/HunyuanImage-3.0",
     "webpy/webpy"
   ]
 }

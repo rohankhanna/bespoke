@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 19,
-    "observations": 20,
-    "repos": 3,
-    "terms": 19
+    "components": 42,
+    "concepts": 20,
+    "observations": 21,
+    "repos": 4,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "ashvardanian/NumKong",
+    "AviSynth/AviSynthPlus",
     "Nevcairiel/LAVFilters",
     "riscv-collab/riscv-gnu-toolchain"
   ]

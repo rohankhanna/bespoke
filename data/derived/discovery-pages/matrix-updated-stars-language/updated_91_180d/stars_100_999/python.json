@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 702,
-    "concepts": 1139,
-    "observations": 1141,
-    "repos": 287,
-    "terms": 1135
+    "components": 721,
+    "concepts": 1176,
+    "observations": 1178,
+    "repos": 293,
+    "terms": 1172
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0k/shyaml",
     "absadiki/pywhispercpp",
@@ -65,6 +65,7 @@
     "BusKill/buskill-app",
     "bytedance/BindWeave",
     "bytedance/Q-Insight",
+    "CatharsisFonts/Ysabeau",
     "celery/py-amqp",
     "Chris-hughes10/pytorch-accelerated",
     "citation-file-format/citation-file-format",
@@ -85,6 +86,7 @@
     "dask/fastparquet",
     "datasets/country-codes",
     "dbeley/awesome-lemmy",
+    "ddh0/easy-llama",
     "deepbeepmeep/mmgp",
     "devnen/Dia-TTS-Server",
     "devnen/Kitten-TTS-Server",
@@ -127,7 +129,6 @@
     "HazyResearch/zoology",
     "Helsinki-NLP/Opus-MT",
     "heyoeyo/muggled_dpt",
-    "hkchengrex/CascadePSP",
     "HolyWu/vs-rife",
     "hongyuanyu/SPAN",
     "httplib2/httplib2",
@@ -154,6 +155,8 @@
     "kijai/ComfyUI-DepthAnythingV2",
     "LAION-AI/audio-dataset",
     "LAION-AI/CLIP_benchmark",
+    "laixintao/tokei-pie",
+    "langfengQ/DrMAS",
     "lartpang/PySODMetrics",
     "layumi/University1652-Baseline",
     "ldayton/dippy",
@@ -181,6 +184,7 @@
     "microsoft/botbuilder-python",
     "microsoft/XPretrain",
     "mindspore-lab/mindnlp",
+    "MinimalFuture/AgentMesh",
     "mkdocstrings/griffe",
     "MMMU-Benchmark/MMMU",
     "ModelTC/GenRL",
@@ -257,6 +261,7 @@
     "Stanford-TML/robot_keyframe_kit",
     "strands-agents/agent-builder",
     "strands-agents/mcp-server",
+    "sunrainyg/RandOpt",
     "superclaude-org/supergemini_framework",
     "svg-project/Sparse-VideoGen",
     "swc-17/SparseDrive",
@@ -267,6 +272,7 @@
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
     "TIGER-AI-Lab/verl-tool",
+    "TorchDR/TorchDR",
     "TRI-ML/dgp",
     "triton-inference-server/model_navigator",
     "Tsinghua-MARS-Lab/CVT-Occ",

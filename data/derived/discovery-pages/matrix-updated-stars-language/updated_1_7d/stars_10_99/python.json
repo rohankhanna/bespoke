@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 6,
-    "terms": 9
+    "components": 77,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 8,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "ansys/pydpf-core",
     "ansys/pydpf-post",
     "cvxpy/benchmarks",
     "HelloZicky/NaviCache",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "intel-staging/text-generation-webui",
+    "prospector-dev/requirements-detector",
     "pyvista/awesome-pyvista"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 1,
-    "terms": 8
+    "components": 49,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 4,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "godot-rust/gdext"
+    "dmtrKovalenko/fff",
+    "evcxr/evcxr",
+    "godot-rust/gdext",
+    "hermit-os/hermit-rs"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 12,
-    "terms": 69
+    "components": 38,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 10,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "flyway/flyway-community-db-support",
     "jcefmaven/jcefsampleapp",
     "jenkinsci/workflow-api-plugin",
     "microsoft/openjdk-jdk11u",
@@ -24,7 +23,6 @@
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u",
     "openjdk/jdk21u-dev",
-    "qdrant/java-client",
     "usdot-fhwa-stol/cdasim"
   ]
 }

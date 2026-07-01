@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 1,
-    "terms": 9
+    "components": 14,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 3,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "patterns-ai-core/qdrant-ruby"
+    "lumen-oss/luarocks-tag-release",
+    "ocaml-tracing/ocaml-trace",
+    "pivotal/credhub-release"
   ]
 }

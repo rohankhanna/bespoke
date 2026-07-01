@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2671,
-    "concepts": 479,
-    "observations": 480,
-    "repos": 96,
-    "terms": 497
+    "components": 2768,
+    "concepts": 492,
+    "observations": 493,
+    "repos": 100,
+    "terms": 510
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
+    "43081j/picoquery",
     "a2aproject/a2a-inspector",
     "actions-cool/issues-helper",
     "adaltas/node-http-status",
@@ -49,6 +50,7 @@
     "eckardt/cchistory",
     "enisdenjo/graphql-sse",
     "ethereum/staking-launchpad",
+    "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
     "filllabs/dependi",
     "fnando/i18n",
@@ -65,6 +67,7 @@
     "janwilmake/openapi-mcp-server",
     "jsonquerylang/jsonquery",
     "kamranahmedse/claude-run",
+    "krassowski/jupyterlab-lsp",
     "kutsan/stylelint-config-clean-order",
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
@@ -108,6 +111,7 @@
     "windingwind/zotero-plugin-template",
     "Wykks/ngx-mapbox-gl",
     "XantreDev/preact-signals",
+    "y-lohse/inkjs",
     "yandeu/five-server",
     "zsviczian/excalibrain"
   ]

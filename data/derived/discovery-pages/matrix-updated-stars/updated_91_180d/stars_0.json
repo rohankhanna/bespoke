@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 423,
-    "concepts": 202,
-    "observations": 204,
-    "repos": 138,
-    "terms": 204
+    "concepts": 203,
+    "observations": 205,
+    "repos": 139,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -62,7 +62,6 @@
     "danielrosehill/Israel-First-Aid",
     "danielrosehill/Jewish-Related-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
-    "danielrosehill/Model-Scout-MCP",
     "danielrosehill/Networking-And-Infrastructure-Index",
     "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
@@ -90,6 +89,7 @@
     "guaguastandup/guaguastandup",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "hermit-os/async-executor",
+    "hermit-os/safe-mmio",
     "hermit-os/tokio",
     "Hitesh-Aggarwal/dotfiles",
     "iambriccardo/gcp-bigquery-client",
@@ -138,6 +138,7 @@
     "saharmor/saharmor.github.io",
     "samsja/dion",
     "sarlinpe/pybind11-stubgen",
+    "Sovereign-Labs/reltester",
     "sp1-patches/curve25519-dalek",
     "stable-haskell/stack",
     "sujithpvarghese/bedrock-agent-core-operations-hub",

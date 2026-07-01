@@ -1,19 +1,18 @@
 {
   "counts": {
     "components": 10,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 2,
-    "terms": 11
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "abap2UI5-addons/layout-management",
-    "cloudfoundry/credhub-acceptance-tests"
+    "abap2UI5-addons/layout-management"
   ]
 }

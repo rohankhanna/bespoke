@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 274,
-    "concepts": 343,
-    "observations": 347,
-    "repos": 66,
-    "terms": 351
+    "components": 301,
+    "concepts": 373,
+    "observations": 377,
+    "repos": 70,
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -39,10 +39,13 @@
     "gentoo/guru",
     "getsolus/packages",
     "harbor-framework/terminal-bench-2",
+    "heroku/base-images",
     "heroku/heroku-buildpack-apt",
+    "heroku/heroku-buildpack-go",
     "heroku/heroku-buildpack-java",
     "heroku/heroku-buildpack-php",
     "itzg/docker-mc-backup",
+    "jcefmaven/jcefbuild",
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
@@ -71,6 +74,7 @@
     "SamNet-dev/paqctl",
     "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
+    "sclorg/s2i-php-container",
     "sclorg/s2i-python-container",
     "serpro69/claude-toolbox",
     "termux/repology-metadata",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 112,
-    "observations": 113,
+    "components": 48,
+    "concepts": 122,
+    "observations": 123,
     "repos": 12,
-    "terms": 111
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "alex-shpak/hugo-book",
+    "apache/casbin-Casbin.NET",
     "bencheeorg/benchee",
     "gluonfield/enchanted",
     "hacl-star/hacl-star",
     "intel/BigDL",
-    "jothepro/doxygen-awesome-css",
     "JuliaAI/MLJ.jl",
     "lambdalisue/vim-fern",
     "lightning/bolts",

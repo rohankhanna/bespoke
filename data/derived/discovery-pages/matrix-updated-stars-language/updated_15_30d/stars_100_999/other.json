@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 11,
-    "terms": 62
+    "components": 58,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 12,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "ANTsX/ANTsR",
     "babashka/nbb",
@@ -23,6 +23,7 @@
     "elixir-protobuf/protobuf",
     "emacscollective/auto-compile",
     "fangq/iso2mesh",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "rescript-lang/reanalyze",
     "ueberauth/oauth2"
   ]

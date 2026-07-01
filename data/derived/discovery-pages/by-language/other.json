@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 27062,
-    "concepts": 23287,
-    "observations": 23363,
-    "repos": 5739,
-    "terms": 23213
+    "components": 27071,
+    "concepts": 23289,
+    "observations": 23365,
+    "repos": 5741,
+    "terms": 23218
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -253,6 +253,7 @@
     "akinsho/dependency-assist.nvim",
     "akinsho/toggleterm.nvim",
     "Akira13641/PasBGFX",
+    "AkisArou/neotest-nodejs",
     "akka-js/shocon",
     "akkadotnet/HOCON",
     "aklt/plantuml-syntax",
@@ -2928,6 +2929,7 @@
     "jordipons/musicnn",
     "Jorenar/minPlug",
     "jose-elias-alvarez/null-ls.nvim",
+    "joseildofilho/neotest-odin",
     "joseluisq/rust-linux-darwin-builder",
     "JosephLalli/phasing_T2T",
     "JoshClose/CsvHelper",

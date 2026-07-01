@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1368,
-    "concepts": 344,
-    "observations": 345,
-    "repos": 66,
-    "terms": 340
+    "components": 1456,
+    "concepts": 367,
+    "observations": 368,
+    "repos": 68,
+    "terms": 363
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "Adobe-CEP/Samples",
@@ -50,8 +50,11 @@
     "istanbuljs/nyc",
     "jasongin/nvs",
     "jimmywarting/StreamSaver.js",
+    "jshttp/mime-types",
     "jsx-eslint/eslint-plugin-jsx-a11y",
+    "jsx-eslint/eslint-plugin-react",
     "kangax/html-minifier",
+    "Level/level",
     "mapbox/delaunator",
     "microsoft/generative-ai-with-javascript",
     "microsoft/vscode-recipes",
@@ -73,7 +76,6 @@
     "sindresorhus/execa",
     "sindresorhus/globby",
     "sindresorhus/trash-cli",
-    "steipete/claude-code-mcp",
     "styled-components/polished",
     "svg-sprite/svg-sprite",
     "treosh/lighthouse-ci-action",

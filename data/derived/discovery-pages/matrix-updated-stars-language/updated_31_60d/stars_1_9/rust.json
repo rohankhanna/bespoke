@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 7,
-    "terms": 39
+    "components": 20,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 4,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "databendlabs/databend-meta",
     "godot-rust/godot4-prebuilt",
-    "heroku/buildpacks-php",
-    "heroku/buildpacks-procfile",
     "influxdata/arrow-datafusion",
     "open-telemetry/opentelemetry-weaver-examples",
     "tirithen/clipper2c-sys"

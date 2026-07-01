@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 3,
-    "terms": 9
+    "components": 6,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 1,
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "alloy-rs/svm-rs",
-    "EmmyLuaLs/emmylua-analyzer-rust",
     "servo/stylo"
   ]
 }

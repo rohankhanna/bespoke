@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-06-30T08:19:03.846649+00:00`
+Generated at: `2026-07-01T06:04:45.209590+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
+- repos: 9
 - terms: 10
 - components: 12
 - concepts: 11
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ABRG-Models/BarrelEmerge](https://github.com/ABRG-Models/BarrelEmerge) | 1 | 2026-06-16T09:54:24Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [appbaseio/reactivesearch-api-docker](https://github.com/appbaseio/reactivesearch-api-docker) | 9 | 2026-06-13T11:18:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [mathesong/petfit](https://github.com/mathesong/petfit) | 5 | 2026-06-12T21:15:45Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [freesurfer/petsurfer-bids](https://github.com/freesurfer/petsurfer-bids) | 1 | 2026-06-11T21:09:05Z | Other | Model/data | 0 | 0 | 0 | 0 |
@@ -45,5 +46,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mathesong/petfit](https://github.com/mathesong/petfit) | 5 | 2026-06-12T21:15:45Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [rocq-community/docker-base](https://github.com/rocq-community/docker-base) | 4 | 2026-06-06T14:36:05Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [elixir-makeup/makeup_c](https://github.com/elixir-makeup/makeup_c) | 2 | 2026-06-09T18:34:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [ABRG-Models/BarrelEmerge](https://github.com/ABRG-Models/BarrelEmerge) | 1 | 2026-06-16T09:54:24Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [freesurfer/petsurfer-bids](https://github.com/freesurfer/petsurfer-bids) | 1 | 2026-06-11T21:09:05Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [Archerkattri/faster-trellis-plus-plus](https://github.com/Archerkattri/faster-trellis-plus-plus) | 1 | 2026-06-11T16:04:20Z | Other | Unknown | 7 | 0 | 8 | 8 |

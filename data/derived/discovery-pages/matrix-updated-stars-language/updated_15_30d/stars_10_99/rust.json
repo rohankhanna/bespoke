@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 2,
-    "terms": 7
+    "components": 17,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 3,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "FerrisMind/candle-video",
-    "itt-ustutt/num-dual"
+    "itt-ustutt/num-dual",
+    "kurrent-io/KurrentDB-Client-Rust"
   ]
 }

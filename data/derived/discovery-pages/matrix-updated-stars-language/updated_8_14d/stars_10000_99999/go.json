@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 1,
-    "terms": 10
+    "components": 22,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 2,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
+    "apache/casbin",
     "podman-container-tools/podman"
   ]
 }

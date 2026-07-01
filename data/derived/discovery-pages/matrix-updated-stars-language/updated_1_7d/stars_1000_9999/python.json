@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 140,
-    "observations": 142,
-    "repos": 14,
-    "terms": 137
+    "components": 150,
+    "concepts": 192,
+    "observations": 194,
+    "repos": 18,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,25 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "aws/serverless-application-model",
+    "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
     "collabora/WhisperLive",
     "eclipse-paho/paho.mqtt.python",
     "Farama-Foundation/Minigrid",
-    "huggingface/optimum-quanto",
+    "fla-org/flash-linear-attention",
+    "google-deepmind/optax",
     "intelligent-machine-learning/dlrover",
     "joblib/joblib",
+    "JuergenFleiss/aTrain",
+    "meta-pytorch/captum",
     "mljar/mercury",
-    "modelscope/ms-agent",
-    "opencv/opencv-python",
+    "modelscope/FunClip",
     "PaddlePaddle/PaddleClas",
+    "prospector-dev/prospector",
     "pyvista/pyvista",
-    "Tencent-Hunyuan/HunyuanImage-3.0"
+    "roboflow/maestro",
+    "spotipy-dev/spotipy"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 824,
-    "concepts": 495,
-    "observations": 497,
-    "repos": 117,
-    "terms": 509
+    "components": 856,
+    "concepts": 524,
+    "observations": 526,
+    "repos": 120,
+    "terms": 538
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -73,6 +73,9 @@
     "hermit-os/loader",
     "heroku/buildpacks-dotnet",
     "heroku/buildpacks-go",
+    "heroku/buildpacks-jvm",
+    "heroku/buildpacks-nodejs",
+    "heroku/buildpacks-python",
     "heroku/libcnb.rs",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
@@ -91,6 +94,7 @@
     "major7apps/pensyve",
     "martinthomson/ohttp",
     "matter-labs/zksync-crypto",
+    "mdn/rari",
     "messense/py-promql-parser",
     "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
@@ -99,7 +103,6 @@
     "near/cargo-near",
     "near/cargo-near-new-project-template",
     "near/near-workspaces-rs",
-    "neysofu/reltester",
     "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
     "openvm-org/stark-backend",

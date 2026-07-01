@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 5,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 7,
-    "terms": 78
+    "concepts": 25,
+    "observations": 25,
+    "repos": 4,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
-    "hxehex/russia-mobile-internet-whitelist",
     "lxgw/LxgwNeoXiHei",
     "lxgw/LxgwNeoZhiSong",
     "runetfreedom/russia-v2ray-rules-dat",
-    "softwareunderground/awesome-open-geoscience",
-    "yokoffing/filterlists",
-    "yokoffing/NextDNS-Config"
+    "softwareunderground/awesome-open-geoscience"
   ]
 }

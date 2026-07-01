@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 525,
-    "concepts": 336,
-    "observations": 341,
-    "repos": 91,
-    "terms": 334
+    "components": 530,
+    "concepts": 340,
+    "observations": 345,
+    "repos": 93,
+    "terms": 338
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "arkworks-rs/r1cs-std",
@@ -64,6 +64,7 @@
     "Manishearth/triomphe",
     "matsadler/magnus",
     "MatsDK/TauRPC",
+    "mitsuhiko/similar-asserts",
     "mozilla/dump_syms",
     "MSxDOS/ntapi",
     "near/borsh-rs",
@@ -75,6 +76,7 @@
     "posit-dev/air",
     "prisma/tiberius",
     "psmux/psnet",
+    "public-awesome/cw-nfts",
     "pythops/tenere",
     "quickwit-oss/tantivy-cli",
     "ratatui/templates",

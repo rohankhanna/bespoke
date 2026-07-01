@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 321,
-    "observations": 321,
-    "repos": 60,
-    "terms": 320
+    "components": 426,
+    "concepts": 329,
+    "observations": 329,
+    "repos": 61,
+    "terms": 328
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "Ai00-X/ai00_server",
@@ -37,6 +37,7 @@
     "git-friendly/git-friendly",
     "gitleaks/gitleaks-action",
     "google-deepmind/dm_pix",
+    "google-deepmind/reverb",
     "google-research/semivl",
     "GoogleCloudPlatform/google-cloud-node-todos",
     "grupo-avispa/depth_anything_v2_ros2",
@@ -44,10 +45,10 @@
     "ika-rwth-aachen/docker-ros",
     "ika-rwth-aachen/ros2-depth-anything-v3-trt",
     "jawah/charset_normalizer",
-    "jenkinsci/plugin-installation-manager-tool",
     "joblib/loky",
     "kantv-ai/kantv",
     "Kosinkadink/ComfyUI-Advanced-ControlNet",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "lancedb/yoloexplorer",
     "lbcb-sci/herro",
     "lobehub/lobe-cli-toolbox",

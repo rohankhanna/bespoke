@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 446,
-    "concepts": 86,
-    "observations": 87,
-    "repos": 16,
-    "terms": 84
+    "components": 165,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 8,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "all-contributors/app",
-    "americanexpress/jest-json-schema",
     "beve-org/beve",
     "Calcium-Ion/new-api-key-tool",
-    "emberjs/ember-test-helpers",
-    "facebook/Rapid",
     "firebase/snippets-web",
-    "fontello/svg2ttf",
-    "mdn/fred",
-    "openfl/lime",
     "oss-serverless/serverless",
     "stylelint/stylelint-config-recommended",
-    "tc39/eshost",
-    "usnistgov/h5wasm",
-    "validator/grunt-html"
+    "tc39/eshost"
   ]
 }

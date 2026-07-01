@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-30T08:19:03.846649+00:00`
+Generated at: `2026-07-01T06:04:45.209590+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 43
-- components: 256
-- concepts: 43
-- observations: 43
+- repos: 6
+- terms: 46
+- components: 158
+- concepts: 46
+- observations: 46
 
 ## Static behavior
 
@@ -26,22 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 565 | 2026-06-30T07:59:41Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
-| [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 821 | 2026-06-30T01:53:34Z | TypeScript | Infrastructure/tooling | 4 | 41 | 4 | 4 |
-| [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 260 | 2026-06-29T23:43:41Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
-| [electron/packager](https://github.com/electron/packager) | 299 | 2026-06-29T18:08:52Z | TypeScript | CLI | 9 | 51 | 9 | 9 |
-| [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 976 | 2026-06-29T16:10:47Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
-| [matter-js/matter.js](https://github.com/matter-js/matter.js) | 854 | 2026-06-29T15:15:33Z | TypeScript | Infrastructure/tooling | 12 | 22 | 12 | 12 |
-| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 108 | 2026-06-29T13:55:17Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
+| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 254 | 2026-06-30T20:24:40Z | TypeScript | Infrastructure/tooling | 3 | 29 | 3 | 3 |
+| [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 260 | 2026-06-30T19:11:10Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
+| [hexabot-ai/Hexabot](https://github.com/hexabot-ai/Hexabot) | 979 | 2026-06-30T16:02:27Z | TypeScript | Infrastructure/tooling | 19 | 9 | 19 | 19 |
+| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 564 | 2026-06-30T14:35:34Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [matter-js/matter.js](https://github.com/matter-js/matter.js) | 855 | 2026-06-30T12:11:00Z | TypeScript | Infrastructure/tooling | 12 | 22 | 12 | 12 |
+| [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 820 | 2026-06-30T11:00:08Z | TypeScript | Infrastructure/tooling | 4 | 41 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 976 | 2026-06-29T16:10:47Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
-| [matter-js/matter.js](https://github.com/matter-js/matter.js) | 854 | 2026-06-29T15:15:33Z | TypeScript | Infrastructure/tooling | 12 | 22 | 12 | 12 |
-| [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 821 | 2026-06-30T01:53:34Z | TypeScript | Infrastructure/tooling | 4 | 41 | 4 | 4 |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 565 | 2026-06-30T07:59:41Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
-| [electron/packager](https://github.com/electron/packager) | 299 | 2026-06-29T18:08:52Z | TypeScript | CLI | 9 | 51 | 9 | 9 |
-| [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 260 | 2026-06-29T23:43:41Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
-| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 108 | 2026-06-29T13:55:17Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
+| [hexabot-ai/Hexabot](https://github.com/hexabot-ai/Hexabot) | 979 | 2026-06-30T16:02:27Z | TypeScript | Infrastructure/tooling | 19 | 9 | 19 | 19 |
+| [matter-js/matter.js](https://github.com/matter-js/matter.js) | 855 | 2026-06-30T12:11:00Z | TypeScript | Infrastructure/tooling | 12 | 22 | 12 | 12 |
+| [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 820 | 2026-06-30T11:00:08Z | TypeScript | Infrastructure/tooling | 4 | 41 | 4 | 4 |
+| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 564 | 2026-06-30T14:35:34Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 260 | 2026-06-30T19:11:10Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
+| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 254 | 2026-06-30T20:24:40Z | TypeScript | Infrastructure/tooling | 3 | 29 | 3 | 3 |

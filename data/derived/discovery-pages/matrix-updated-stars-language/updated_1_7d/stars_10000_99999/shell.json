@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 1,
-    "terms": 11
+    "components": 27,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 2,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
+    "nvm-sh/nvm",
     "spaceship-prompt/spaceship-prompt"
   ]
 }

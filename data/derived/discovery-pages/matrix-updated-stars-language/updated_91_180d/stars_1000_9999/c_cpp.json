@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 438,
-    "concepts": 569,
-    "observations": 570,
-    "repos": 104,
-    "terms": 561
+    "concepts": 577,
+    "observations": 578,
+    "repos": 105,
+    "terms": 569
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -86,6 +86,7 @@
     "nodemcu/nodemcu-firmware",
     "NVIDIA/cuda-samples",
     "NVIDIA/gdrcopy",
+    "olikraus/u8g2",
     "onnx/onnx-tensorrt",
     "OpenNMT/CTranslate2",
     "Overv/VulkanTutorial",

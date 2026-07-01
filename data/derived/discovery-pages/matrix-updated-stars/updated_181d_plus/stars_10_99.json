@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12396,
-    "concepts": 7280,
-    "observations": 7299,
+    "components": 12392,
+    "concepts": 7286,
+    "observations": 7306,
     "repos": 3439,
-    "terms": 7230
+    "terms": 7236
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-30T08:19:03.846649+00:00",
+  "generated_at": "2026-07-01T06:04:45.209590+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1339,6 +1339,7 @@
     "ethereum/rpc-tests",
     "ethers-io/ext-provider-multicall",
     "ethpandaops/ethereum-k8s-testnets",
+    "ethpandaops/optimism-package",
     "etodanik/SvgBooga",
     "eublefar/LLAMASharpUnityDemo",
     "evanbiederstedt/edlibR",
@@ -1370,7 +1371,6 @@
     "facebookresearch/clip-rocket",
     "facebookresearch/cop3d",
     "facebookresearch/llama-hd-dataset",
-    "facebookresearch/polymetis",
     "facebookresearch/text-simplification-evaluation",
     "faceyspacey/redux-first-router-link",
     "facok/ComfyUI-TeaCacheHunyuanVideo",
@@ -1483,6 +1483,7 @@
     "geoffreylitt/ladybug",
     "georust/geocoding",
     "georust/polyline",
+    "georust/wkt",
     "GEOSwift/geos",
     "GEOSwift/GEOSwiftMapboxGL",
     "GEOSwift/GEOSwiftMapKit",
@@ -1513,7 +1514,6 @@
     "gligen/diffusers",
     "globalize/globalize-versioning",
     "Gloridust/whisper_streaming_CN",
-    "gluon-lang/gluon-lang.org",
     "gluon-lang/gluon_language-server",
     "gmarcais/compact_vector",
     "gmarcais/yaggo",
@@ -3193,7 +3193,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
