@@ -48,7 +48,7 @@
   "normalized_form": "docker-coq",
   "observation_id": "e84dd2281984f2e5",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-07-01T13:10:44.857614+00:00",
+  "observed_at": "2026-07-01T18:47:31.416208+00:00",
   "observed_text": "docker-coq",
   "source_context_snippet": "[![tags](https://img.shields.io/badge/tags%20on-docker%20hub-blue.svg)](https://hub.docker.com/r/rocq/base#supported-tags \"Supported tags on Docker Hub\")",
   "source_file": null,

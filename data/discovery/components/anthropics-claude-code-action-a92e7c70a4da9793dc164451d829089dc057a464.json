@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-action@a92e7c70a4da9793dc164451d829089dc057a464",
   "first_seen_at": "2026-06-30T12:55:19.331325+00:00",
-  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "last_seen_at": "2026-07-01T18:47:31.416208+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

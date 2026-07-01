@@ -1,7 +1,7 @@
 {
   "component": "cachix/install-nix-action@8aa03977d8d733052d78f4e008a241fd1dbf36b3",
   "first_seen_at": "2026-06-23T13:14:02.543868+00:00",
-  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "last_seen_at": "2026-07-01T18:47:31.416208+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

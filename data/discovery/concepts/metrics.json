@@ -3703,11 +3703,23 @@
       "observed_at": "2026-07-01T13:10:44.857614+00:00",
       "source_file": null,
       "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T18:47:31.416208+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T18:47:31.416208+00:00",
+      "source_file": ".github/workflows/metrics.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "last_seen_at": "2026-07-01T18:47:31.416208+00:00",
   "lexical_providers": [
     "datamuse"
   ],

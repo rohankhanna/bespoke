@@ -84,7 +84,7 @@
   "normalized_form": "build-and-deploy-to-github-pages",
   "observation_id": "d7d0d5d7c64617b2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T13:10:44.857614+00:00",
+  "observed_at": "2026-07-01T18:47:31.416208+00:00",
   "observed_text": "Build and Deploy to GitHub Pages",
   "source_context_snippet": "Build and Deploy to GitHub Pages",
   "source_file": ".github/workflows/publish.yml",

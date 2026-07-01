@@ -84,7 +84,7 @@
   "normalized_form": "push-all-release-branches",
   "observation_id": "816a25f3b11added",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T13:10:44.857614+00:00",
+  "observed_at": "2026-07-01T18:47:31.416208+00:00",
   "observed_text": "Push all release branches",
   "source_context_snippet": "Push all release branches",
   "source_file": ".github/workflows/push-all-release-branches.yml",

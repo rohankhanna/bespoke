@@ -5130,11 +5130,35 @@
       "observed_at": "2026-07-01T13:10:44.857614+00:00",
       "source_file": null,
       "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T18:47:31.416208+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T18:47:31.416208+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T18:47:31.416208+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T18:47:31.416208+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "last_seen_at": "2026-07-01T18:47:31.416208+00:00",
   "lexical_providers": [
     "datamuse"
   ],

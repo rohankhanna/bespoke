@@ -84,7 +84,7 @@
   "normalized_form": "ci-cpu",
   "observation_id": "8c7138107d104067",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T13:10:44.857614+00:00",
+  "observed_at": "2026-07-01T18:47:31.416208+00:00",
   "observed_text": "CI (cpu)",
   "source_context_snippet": "CI (cpu)",
   "source_file": ".github/workflows/build-cpu.yml",

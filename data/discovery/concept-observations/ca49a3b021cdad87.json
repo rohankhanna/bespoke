@@ -84,7 +84,7 @@
   "normalized_form": "validate-client-generation",
   "observation_id": "ca49a3b021cdad87",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T13:10:44.857614+00:00",
+  "observed_at": "2026-07-01T18:47:31.416208+00:00",
   "observed_text": "Validate Client Generation",
   "source_context_snippet": "Validate Client Generation",
   "source_file": ".github/workflows/validate-client-generation.yml",
