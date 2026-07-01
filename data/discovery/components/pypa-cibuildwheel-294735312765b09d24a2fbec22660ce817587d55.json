@@ -1,12 +1,17 @@
 {
   "component": "pypa/cibuildwheel@294735312765b09d24a2fbec22660ce817587d55",
   "first_seen_at": "2026-06-24T00:42:42.423974+00:00",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dist.yml",
       "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ultrajson/ultrajson"
     }
   ]
 }

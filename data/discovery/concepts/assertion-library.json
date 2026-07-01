@@ -19,6 +19,18 @@
       "source_repo": "enzymejs/enzyme",
       "status": "candidate-context",
       "text": "Enzyme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "okken/pytest-check",
+      "status": "candidate-context",
+      "text": "A pytest plugin that allows multiple failures per test."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "okken/pytest-check",
+      "status": "candidate-context",
+      "text": "A pytest plugin that allows multiple failures per test."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "enzymejs/enzyme",
       "status": "candidate",
       "text": "Enzyme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "okken/pytest-check",
+      "status": "candidate",
+      "text": "A pytest plugin that allows multiple failures per test."
     }
   ],
   "candidate_related_terms": [],
@@ -568,11 +586,23 @@
       "observed_at": "2026-07-01T07:41:50.299402+00:00",
       "source_file": null,
       "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "okken/pytest-check"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,7 +31,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -76,7 +76,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-prerelease.yml"
     },
@@ -96,7 +96,7 @@
       "source_file": ".github/workflows/docker-prerelease.yml"
     },
     {
-      "component": "actions/checkout@v6.0.3",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-release.yml"
     },
@@ -116,7 +116,7 @@
       "source_file": ".github/workflows/docker-release.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -131,7 +131,7 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "component": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     }
@@ -190,7 +190,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -225,7 +225,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-prerelease.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -260,7 +260,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-release.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "actions/checkout@v6.0.3",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -295,7 +295,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -316,7 +316,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "huggingface/hf-mcp-server",
-      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
       "target_type": "component"
     },
     {
@@ -327,7 +327,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T08:46:54.579170+00:00",
+  "fetched_at": "2026-07-01T16:57:24.936122+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -367,10 +367,10 @@
     "full_name": "huggingface/hf-mcp-server",
     "html_url": "https://github.com/huggingface/hf-mcp-server",
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T20:24:40Z",
+    "pushed_at": "2026-07-01T10:30:19Z",
     "stargazers_count": 254,
     "topics": [],
-    "updated_at": "2026-06-30T23:47:44Z"
+    "updated_at": "2026-07-01T08:49:33Z"
   },
   "repo_links": [
     {

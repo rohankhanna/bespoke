@@ -186,7 +186,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T08:49:20.130947+00:00",
+  "fetched_at": "2026-07-01T17:00:28.587974+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -222,14 +222,14 @@
     "full_name": "pytorch/gloo",
     "html_url": "https://github.com/pytorch/gloo",
     "language": "C++",
-    "pushed_at": "2026-06-29T23:22:19Z",
+    "pushed_at": "2026-07-01T16:25:46Z",
     "stargazers_count": 1437,
     "topics": [
       "collectives",
       "distributed-training",
       "pytorch"
     ],
-    "updated_at": "2026-06-30T20:23:26Z"
+    "updated_at": "2026-07-01T16:26:00Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,12 @@
+{
+  "component": "crowdin/github-action@52aa776766211d83d975df51f3b9c53c2f8ba35f",
+  "first_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-translations.yaml",
+      "source_repo": "all-contributors/allcontributors.org"
+    }
+  ]
+}

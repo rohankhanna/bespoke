@@ -1463,6 +1463,9 @@
   "adpcm": [
     "adpcm"
   ],
+  "adr-166 mcp bridge security lock": [
+    "adr-166-mcp-bridge-security-lock"
+  ],
   "ads client tests": [
     "ads-client-tests"
   ],
@@ -37484,6 +37487,9 @@
   "faas": [
     "faas"
   ],
+  "fable": [
+    "fable"
+  ],
   "fabric": [
     "fabric"
   ],
@@ -55903,6 +55909,9 @@
   ],
   "loop-detection": [
     "loop-detection"
+  ],
+  "loop-engineering": [
+    "loop-engineering"
   ],
   "loop-optimization": [
     "loop-optimization"

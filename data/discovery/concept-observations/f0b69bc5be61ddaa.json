@@ -79,7 +79,7 @@
   "normalized_form": "cron-continuous-integration",
   "observation_id": "f0b69bc5be61ddaa",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T07:41:50.299402+00:00",
+  "observed_at": "2026-07-01T13:10:44.857614+00:00",
   "observed_text": "Cron continuous integration",
   "source_context_snippet": "Cron continuous integration",
   "source_file": ".github/workflows/cron.yml",

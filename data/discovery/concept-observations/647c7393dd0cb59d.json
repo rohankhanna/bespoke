@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Neotest adapter for the Tryke Python test framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A [neotest](https://github.com/nvim-neotest/neotest) adapter for the [tryke](https://github.com/thejchap/tryke) test framework."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A [neotest](https://github.com/nvim-neotest/neotest) adapter for the [tryke](https://github.com/thejchap/tryke) test framework."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim",
+      "sense_id": "neovim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neovim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neovim",
+  "observation_id": "647c7393dd0cb59d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-07-01T13:10:44.857614+00:00",
+  "observed_text": "neovim",
+  "source_context_snippet": "A [neotest](https://github.com/nvim-neotest/neotest) adapter for the [tryke](https://github.com/thejchap/tryke) test framework.",
+  "source_file": null,
+  "source_repo": "thejchap/neotest-tryke",
+  "source_repo_description": "A Neotest adapter for the Tryke Python test framework"
+}

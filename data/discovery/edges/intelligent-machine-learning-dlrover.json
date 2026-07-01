@@ -9,55 +9,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/image_dlrover_controller.yml",
-      "source_repo": "intelligent-machine-learning/dlrover",
-      "target": "actions/checkout@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/image_dlrover_controller.yml",
-      "source_repo": "intelligent-machine-learning/dlrover",
-      "target": "docker/setup-qemu-action@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/image_dlrover_controller.yml",
-      "source_repo": "intelligent-machine-learning/dlrover",
-      "target": "docker/setup-buildx-action@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/image_dlrover_controller.yml",
-      "source_repo": "intelligent-machine-learning/dlrover",
-      "target": "docker/login-action@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/image_dlrover_controller.yml",
-      "source_repo": "intelligent-machine-learning/dlrover",
-      "target": "docker/metadata-action@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/image_dlrover_controller.yml",
-      "source_repo": "intelligent-machine-learning/dlrover",
-      "target": "docker/build-push-action@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/image_dlrover_controller.yml",
-      "source_repo": "intelligent-machine-learning/dlrover",
-      "target": "build and publish dlrover controller image",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/image_dlrover_dev.yml",
       "source_repo": "intelligent-machine-learning/dlrover",
       "target": "actions/checkout@v3",
@@ -211,6 +162,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-07-01T07:41:50.299402+00:00",
+  "generated_at": "2026-07-01T13:10:44.857614+00:00",
   "source_repo": "intelligent-machine-learning/dlrover"
 }

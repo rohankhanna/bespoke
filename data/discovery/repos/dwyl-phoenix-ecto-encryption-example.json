@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T08:16:35.436748+00:00",
+  "fetched_at": "2026-07-01T16:43:10.703400+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -190,7 +190,7 @@
     "full_name": "dwyl/phoenix-ecto-encryption-example",
     "html_url": "https://github.com/dwyl/phoenix-ecto-encryption-example",
     "language": "Elixir",
-    "pushed_at": "2026-06-13T23:15:08Z",
+    "pushed_at": "2026-07-01T16:03:00Z",
     "stargazers_count": 291,
     "topics": [
       "aes",

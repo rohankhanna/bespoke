@@ -84,7 +84,7 @@
   "normalized_form": "pd-e2e-testing-farm",
   "observation_id": "6188339a9a1e9e0a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T07:41:50.299402+00:00",
+  "observed_at": "2026-07-01T13:10:44.857614+00:00",
   "observed_text": "PD E2E Testing Farm",
   "source_context_snippet": "PD E2E Testing Farm",
   "source_file": ".github/workflows/e2e-main-tf.yaml",

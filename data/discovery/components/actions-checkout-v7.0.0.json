@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v7.0.0",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "huggingface/hf-mcp-server"
     }
   ]
 }

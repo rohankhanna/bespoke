@@ -2120,6 +2120,9 @@
   "adpcm": [
     "97972bff7cb569c8"
   ],
+  "adr-166-mcp-bridge-security-lock": [
+    "e8017de81d9bc628"
+  ],
   "ads-client-tests": [
     "ad51e7c46e82286c"
   ],
@@ -7648,7 +7651,8 @@
     "d3fc2db9164eb616"
   ],
   "assertion-library": [
-    "52a56c4c9cb87353"
+    "52a56c4c9cb87353",
+    "80a4a343907f39f5"
   ],
   "assertions": [
     "24bfe5f2a884bf91",
@@ -25903,6 +25907,7 @@
   ],
   "changelog-reminder": [
     "216c7bd5193c96c9",
+    "2bc3f2c4a1c0faa5",
     "7e818685d23f1ca1",
     "b9ba48a7e661ba38",
     "de43bf8f605bf08b",
@@ -52562,6 +52567,7 @@
     "10cab294f3c1950a",
     "14bb6bdbf1d63576",
     "165cbbeee3b2ca95",
+    "18532d03cc3f27d0",
     "195845a41c495bf5",
     "19b78bf6fd5c304e",
     "1a19624bb5093bd6",
@@ -56001,6 +56007,7 @@
     "cd1a95c8aaf12ebe",
     "cd9782726e433d94",
     "cde0126071c9dd32",
+    "ce2dec6d64bc04b1",
     "cef183f95afed72e",
     "d0cdc47b00c95a68",
     "d10c36dec34cb331",
@@ -62935,6 +62942,9 @@
     "a91e561c253dded1",
     "d1eda59e4cf9b543",
     "dba4b8856f210a11"
+  ],
+  "fable": [
+    "bd5e04dcd6398556"
   ],
   "fabric": [
     "a5d6bd952221b657"
@@ -75879,6 +75889,7 @@
     "836c456e39c58ac3",
     "83938f6daa346ef8",
     "83e9ea64a7b07af6",
+    "83ee68595a5a7e9e",
     "84192c36c9e74549",
     "8484d77e01da28a0",
     "85c9b88770d7e50b",
@@ -89203,6 +89214,7 @@
     "04cd30298dacd299",
     "0c39484db729e236",
     "0cbb50b6adf70918",
+    "0f2284a56ca94251",
     "0f7200c39ed18b22",
     "29b4e4eeeb293892",
     "2f9c72296826334c",
@@ -89215,6 +89227,7 @@
     "5fc0615e1118767e",
     "61a9ce2c3b890474",
     "694e753e2eaea449",
+    "6aa693df9e0d5ba9",
     "7205ee32c11feb06",
     "7849c90643f085ec",
     "7b25878e99bb9971",
@@ -95839,6 +95852,9 @@
   "loop-detection": [
     "1265776d253b5985",
     "f411b564a31b1c47"
+  ],
+  "loop-engineering": [
+    "b14d35116a9954f8"
   ],
   "loop-optimization": [
     "b1940637f96c765b"
@@ -106360,13 +106376,15 @@
     "d4bb6552f068b368",
     "d7dd70c3e7dd1d06",
     "dd6d3541e212158f",
-    "e601004084f81247"
+    "e601004084f81247",
+    "f0a4d7b73d9df1b7"
   ],
   "neotest-adapter": [
     "7ea442d372463471",
     "85857950c4278b85",
     "ad472000b1fef1b2",
-    "f71fdd856a33423f"
+    "f71fdd856a33423f",
+    "ff28568fd9ceba92"
   ],
   "neotest-elixir-workflow": [
     "ae523dd94c3f64e5"
@@ -106501,6 +106519,7 @@
     "6207a3090f437c3b",
     "62a9297de76a48d4",
     "64025fe622d5ff8b",
+    "647c7393dd0cb59d",
     "65ede897db25c998",
     "66ecf730f405cd0d",
     "674b930f08c33890",
@@ -106886,6 +106905,7 @@
     "ab9ce2a41e566194",
     "b0af9053de7bc486",
     "b3c1c456bb3b79b6",
+    "b768a4753e556c08",
     "b793c33262962dcd",
     "b7c6145cc243641a",
     "b897f42df4bf10f3",
@@ -118753,7 +118773,8 @@
     "5e5d0624fc8a4506",
     "8779e6c0c0cdfc5c",
     "9b4cf39066a1b3db",
-    "b43a6d597b00854e"
+    "b43a6d597b00854e",
+    "daa3b4273688a7af"
   ],
   "playground-check-test-build": [
     "f4e1853c2e6e1bb6"
@@ -126402,6 +126423,7 @@
     "9ecbc89884962c63",
     "a4e26d74beb7465d",
     "a733a14af4e2521d",
+    "ac40e622dc94d572",
     "ae4d2a5957dc9532",
     "b0fa1d1a547df2a2",
     "b6381abec7ad1e0a",
@@ -126439,7 +126461,8 @@
     "2ce22a7d510d6a7a"
   ],
   "publish-to-pypi-and-testpypi": [
-    "15658535e7e8bfed"
+    "15658535e7e8bfed",
+    "f81f51df27f695e9"
   ],
   "publish-to-pypi-and-update-registry": [
     "75549ccf3eab93cc"
@@ -126455,6 +126478,7 @@
     "8013ecfb787cf95e"
   ],
   "publish-to-test-pypi": [
+    "3fe43676471f3112",
     "b7b1ed168d89ed6e",
     "b8aead7c0b73506e"
   ],
@@ -127951,6 +127975,7 @@
     "2784d02955936a26"
   ],
   "pytest": [
+    "02b9f99e2b90fa6f",
     "030e3c32b73fb490",
     "06ee93949951cce9",
     "0c94ca580ff35abe",
@@ -127974,6 +127999,7 @@
     "7e8bfbc5fcf51bda",
     "8016c7730bfe9846",
     "8db59751c7cbc2be",
+    "8ee08509bf9ce4cb",
     "92a50250dc8155a2",
     "92fa5e7a5cfc7a4f",
     "95c5b9e3912eef25",
@@ -128017,6 +128043,7 @@
   ],
   "pytest-plugin": [
     "190542d7f156e909",
+    "2d5d6e16581fde71",
     "4ea7cc556a7c128d",
     "608b183e86e39491",
     "ac733a7416aeac59",
@@ -133838,6 +133865,7 @@
     "9f06144e5f3252ab",
     "9f0fd58ee4688c9b",
     "9f1501458d9a69e7",
+    "9f65ae8a2cd95493",
     "9f84f3e873bc74e6",
     "a00dcb1e1b7926e8",
     "a02fbf364ec7ecf7",
@@ -140961,6 +140989,7 @@
     "0466d47dec3b6823",
     "04d0893e1751a7df",
     "050bef6bd830ff9d",
+    "05bd6377c8e11ccd",
     "05ed74717ff07c26",
     "065d48149a29a7aa",
     "06b2f77231fd83af",
@@ -160565,6 +160594,7 @@
     "9699eaf2f6df03e1",
     "969e223348ce6392",
     "9cb55930067ad800",
+    "9ce2a6dc7b45e671",
     "9d2bfde5a8203e97",
     "9d7c21a1aeb6f7ac",
     "9e1e1144528d0f92",
@@ -160809,6 +160839,7 @@
     "15db287b7479a67a",
     "16363a47670d006e",
     "1689e6cfc63d0d04",
+    "16a57023268257b5",
     "16a5cf962bed6099",
     "1710195f48fda349",
     "1795e7bad21f41f6",
@@ -161147,6 +161178,7 @@
     "99a4e367af1d6605",
     "99c68cbfc788d298",
     "9a27525ad71b31e1",
+    "9a27b0f117f9887e",
     "9a30e3e9cdfb6f09",
     "9ad55812bd9dee0c",
     "9b529288533c9e19",

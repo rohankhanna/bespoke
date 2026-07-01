@@ -84,7 +84,7 @@
   "normalized_form": "ai-review-issues",
   "observation_id": "6f5c1b5eb68f227a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T07:41:50.299402+00:00",
+  "observed_at": "2026-07-01T13:10:44.857614+00:00",
   "observed_text": "AI review (issues)",
   "source_context_snippet": "AI review (issues)",
   "source_file": ".github/workflows/ai-issues.yml",

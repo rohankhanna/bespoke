@@ -1,7 +1,7 @@
 {
   "component": "rhysd/action-setup-vim@v1",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -677,6 +677,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "AkisArou/neotest-nodejs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "thejchap/neotest-tryke"
     }
   ]
 }

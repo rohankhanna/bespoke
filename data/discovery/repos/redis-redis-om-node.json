@@ -202,7 +202,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T09:16:15.847667+00:00",
+  "fetched_at": "2026-07-01T17:50:43.942313+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -231,9 +231,9 @@
     "html_url": "https://github.com/redis/redis-om-node",
     "language": "TypeScript",
     "pushed_at": "2025-04-09T13:20:58Z",
-    "stargazers_count": 1255,
+    "stargazers_count": 1256,
     "topics": [],
-    "updated_at": "2026-06-29T15:06:35Z"
+    "updated_at": "2026-07-01T12:05:46Z"
   },
   "repo_links": [],
   "terms": [

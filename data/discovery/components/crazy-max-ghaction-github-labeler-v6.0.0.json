@@ -1,0 +1,17 @@
+{
+  "component": "crazy-max/ghaction-github-labeler@v6.0.0",
+  "first_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "thejchap/neotest-tryke"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "thejchap/tryke"
+    }
+  ]
+}

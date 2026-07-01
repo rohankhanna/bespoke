@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml-fractional-gpu",
-      "target": "allegroai/clearml-agent",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml-fractional-gpu",
-      "target": "allegroai/clearml-fractional-gpu",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "clearml/clearml-fractional-gpu",
@@ -50,6 +36,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-07-01T07:41:50.299402+00:00",
+  "generated_at": "2026-07-01T13:10:44.857614+00:00",
   "source_repo": "clearml/clearml-fractional-gpu"
 }

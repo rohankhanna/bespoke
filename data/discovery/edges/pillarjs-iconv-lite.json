@@ -116,7 +116,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/checkout@v7.0.0",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -186,7 +186,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/generator.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/checkout@v7.0.0",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -214,7 +214,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/wpt-conformance.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -228,21 +228,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/wpt-conformance.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/wpt-conformance.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/wpt-conformance.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/github-script@v7",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
@@ -256,7 +256,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/wpt-update.yml",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -302,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-07-01T07:41:50.299402+00:00",
+  "generated_at": "2026-07-01T13:10:44.857614+00:00",
   "source_repo": "pillarjs/iconv-lite"
 }

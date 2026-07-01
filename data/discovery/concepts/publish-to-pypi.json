@@ -1067,6 +1067,18 @@
       "source_repo": "ika-rwth-aachen/docker-run",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "status": "candidate-context",
+      "text": "Run the tests related to the changed files (according to Git) \ud83e\udd13"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -1601,6 +1613,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ika-rwth-aachen/docker-run",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapaulagomes/pytest-picked",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -7886,11 +7904,83 @@
       "observed_at": "2026-07-01T07:41:50.299402+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "nrl-ai/llama-assistant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "agilescientific/striplog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "anapaulagomes/pytest-picked"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

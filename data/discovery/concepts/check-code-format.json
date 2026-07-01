@@ -623,11 +623,17 @@
       "observed_at": "2026-07-01T07:41:50.299402+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "securefederatedai/openfederatedlearning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "securefederatedai/openfederatedlearning"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4789,6 +4789,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "lobehub/lobehub",
+      "target": "fable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
       "target": "gemini",
       "target_type": "term"
     },
@@ -4803,11 +4810,18 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "lobehub/lobehub",
+      "target": "loop-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
       "target": "skills",
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T01:04:37.304897+00:00",
+  "fetched_at": "2026-07-01T16:47:34.856336+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4815,7 +4829,7 @@
     },
     {
       "path": "Dockerfile",
-      "size": 11698
+      "size": 11720
     },
     {
       "path": "package.json",
@@ -4859,8 +4873,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-06-30T22:00:50Z",
-    "stargazers_count": 79283,
+    "pushed_at": "2026-07-01T16:42:04Z",
+    "stargazers_count": 79313,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4871,14 +4885,17 @@
       "chief-agent-operator",
       "claude",
       "deepseek",
+      "fable",
       "gemini",
+      "glm",
       "gpt",
       "knowledge-base",
+      "loop-engineering",
       "mcp",
       "openai",
       "skills"
     ],
-    "updated_at": "2026-07-01T01:00:08Z"
+    "updated_at": "2026-07-01T16:38:07Z"
   },
   "repo_links": [
     {
@@ -4964,6 +4981,12 @@
       "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
       "edge_type": "repo-topic",
       "source_file": null,
+      "term": "fable"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "term": "gemini"
     },
     {
@@ -4971,6 +4994,12 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "knowledge-base"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loop-engineering"
     },
     {
       "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",

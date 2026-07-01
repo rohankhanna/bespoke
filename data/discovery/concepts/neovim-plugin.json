@@ -1921,6 +1921,18 @@
       "source_repo": "dmtrKovalenko/fff",
       "status": "candidate-context",
       "text": "The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thejchap/neotest-tryke",
+      "status": "candidate-context",
+      "text": "A Neotest adapter for the Tryke Python test framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thejchap/neotest-tryke",
+      "status": "candidate-context",
+      "text": "A [neotest](https://github.com/nvim-neotest/neotest) adapter for the [tryke](https://github.com/thejchap/tryke) test framework."
     }
   ],
   "candidate_glosses": [
@@ -2877,6 +2889,12 @@
       "source_repo": "JavaHello/spring-boot.nvim",
       "status": "candidate",
       "text": "[English](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thejchap/neotest-tryke",
+      "status": "candidate",
+      "text": "A [neotest](https://github.com/nvim-neotest/neotest) adapter for the [tryke](https://github.com/thejchap/tryke) test framework."
     }
   ],
   "candidate_related_terms": [],
@@ -9316,11 +9334,77 @@
       "observed_at": "2026-07-01T07:41:50.299402+00:00",
       "source_file": null,
       "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "thejchap/neotest-tryke"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

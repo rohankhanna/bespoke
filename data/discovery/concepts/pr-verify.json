@@ -665,11 +665,17 @@
       "observed_at": "2026-07-01T07:41:50.299402+00:00",
       "source_file": ".github/workflows/pr-verify.yml",
       "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/pr-verify.yml",
+      "source_repo": "eclipse-lemminx/lemminx"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

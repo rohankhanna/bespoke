@@ -89,7 +89,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T08:23:16.148122+00:00",
+  "fetched_at": "2026-07-01T16:51:19.045463+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -110,7 +110,7 @@
     "html_url": "https://github.com/patterns-ai-core/langchainrb",
     "language": "Ruby",
     "pushed_at": "2026-05-01T13:06:13Z",
-    "stargazers_count": 1988,
+    "stargazers_count": 1989,
     "topics": [
       "agents",
       "ai-agents",
@@ -120,7 +120,7 @@
       "rubyml",
       "vector-search"
     ],
-    "updated_at": "2026-06-26T14:00:26Z"
+    "updated_at": "2026-07-01T08:39:17Z"
   },
   "repo_links": [
     {

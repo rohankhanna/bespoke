@@ -463,6 +463,12 @@
       "source_repo": "souzatharsis/podcastfy",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate-context",
+      "text": "git_issue_to_pylon"
     }
   ],
   "candidate_glosses": [
@@ -693,6 +699,12 @@
       "source_repo": "souzatharsis/podcastfy",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate",
+      "text": "git_issue_to_pylon"
     }
   ],
   "candidate_related_terms": [],
@@ -2836,11 +2848,29 @@
       "observed_at": "2026-07-01T07:41:50.299402+00:00",
       "source_file": null,
       "source_repo": "clearml/clearml-fractional-gpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "amirbarda/MagicClay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

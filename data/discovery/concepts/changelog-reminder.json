@@ -67,6 +67,18 @@
       "source_repo": "osmosis-labs/cosmos-sdk",
       "status": "candidate-context",
       "text": "Changelog Reminder"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "status": "candidate-context",
+      "text": "Run the tests related to the changed files (according to Git) \ud83e\udd13"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "status": "candidate-context",
+      "text": "Changelog Reminder"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "osmosis-labs/cosmos-sdk",
+      "status": "candidate",
+      "text": "Changelog Reminder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapaulagomes/pytest-picked",
       "status": "candidate",
       "text": "Changelog Reminder"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/changelog-reminder.yml",
       "source_repo": "osmosis-labs/cosmos-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "anapaulagomes/pytest-picked"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "test-gateway-manager",
   "observation_id": "976905a54905c492",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T07:41:50.299402+00:00",
+  "observed_at": "2026-07-01T13:10:44.857614+00:00",
   "observed_text": "Test gateway manager",
   "source_context_snippet": "Test gateway manager",
   "source_file": ".github/workflows/test-gateway-manager.yml",

@@ -286,6 +286,16 @@
       "source_file": ".github/workflows/node.yml"
     },
     {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "ljharb/rebase@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
       "component": "ljharb/require-allow-edits@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/require-allow-edits.yml"
@@ -672,6 +682,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "enzymejs/enzyme",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "enzymejs/enzyme",
+      "target": "ljharb/rebase@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "enzymejs/enzyme",
+      "target": "Automatic Rebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/require-allow-edits.yml",
       "source_repo": "enzymejs/enzyme",
       "target": "ljharb/require-allow-edits@main",
@@ -776,7 +807,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T08:43:17.554362+00:00",
+  "fetched_at": "2026-07-01T16:52:58.858183+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -793,6 +824,10 @@
     {
       "path": ".github/workflows/node.yml",
       "size": 4412
+    },
+    {
+      "path": ".github/workflows/rebase.yml",
+      "size": 257
     },
     {
       "path": ".github/workflows/require-allow-edits.yml",
@@ -856,6 +891,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/node.yml",
       "term": "Tests: node.js"
+    },
+    {
+      "context_snippet": "Automatic Rebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "term": "Automatic Rebase"
     },
     {
       "context_snippet": "Require \u201cAllow Edits\u201d",

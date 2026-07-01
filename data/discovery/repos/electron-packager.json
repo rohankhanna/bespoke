@@ -661,7 +661,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T09:17:51.145238+00:00",
+  "fetched_at": "2026-07-01T17:53:23.315516+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -705,7 +705,7 @@
     "full_name": "electron/packager",
     "html_url": "https://github.com/electron/packager",
     "language": "TypeScript",
-    "pushed_at": "2026-06-29T18:08:52Z",
+    "pushed_at": "2026-07-01T10:53:32Z",
     "stargazers_count": 298,
     "topics": [
       "electron",

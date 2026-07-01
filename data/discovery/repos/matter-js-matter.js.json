@@ -646,7 +646,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T09:12:58.792688+00:00",
+  "fetched_at": "2026-07-01T17:45:37.962089+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -698,8 +698,8 @@
     "full_name": "matter-js/matter.js",
     "html_url": "https://github.com/matter-js/matter.js",
     "language": "TypeScript",
-    "pushed_at": "2026-07-01T09:02:23Z",
-    "stargazers_count": 856,
+    "pushed_at": "2026-07-01T16:53:45Z",
+    "stargazers_count": 855,
     "topics": [
       "connectedthings",
       "iot",
@@ -707,7 +707,7 @@
       "matterprotocol",
       "smarthome"
     ],
-    "updated_at": "2026-07-01T03:00:24Z"
+    "updated_at": "2026-07-01T15:23:03Z"
   },
   "repo_links": [
     {

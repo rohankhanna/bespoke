@@ -525,19 +525,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T09:18:32.053984+00:00",
+  "fetched_at": "2026-07-01T17:54:31.108995+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 16891
+      "size": 16892
     },
     {
       "path": "pyproject.toml",
-      "size": 5850
+      "size": 6173
     },
     {
       "path": ".github/workflows/base.yml",
-      "size": 5879
+      "size": 4133
     },
     {
       "path": ".github/workflows/docs.yml",
@@ -549,15 +549,15 @@
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 10779
+      "size": 9639
     },
     {
       "path": ".github/workflows/multi-gpu-e2e.yml",
-      "size": 2832
+      "size": 2333
     },
     {
       "path": ".github/workflows/nightlies.yml",
-      "size": 4341
+      "size": 4635
     },
     {
       "path": ".github/workflows/precommit-autoupdate.yml",
@@ -577,13 +577,13 @@
     "full_name": "axolotl-ai-cloud/axolotl",
     "html_url": "https://github.com/axolotl-ai-cloud/axolotl",
     "language": "Python",
-    "pushed_at": "2026-07-01T01:15:32Z",
-    "stargazers_count": 12126,
+    "pushed_at": "2026-07-01T17:34:36Z",
+    "stargazers_count": 12128,
     "topics": [
       "fine-tuning",
       "llm"
     ],
-    "updated_at": "2026-07-01T07:53:32Z"
+    "updated_at": "2026-07-01T17:07:07Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,265 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "peterjgrainger/action-changelog-reminder@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_test_pypi.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_test_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "peterjgrainger/action-changelog-reminder@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "Changelog Reminder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_test_pypi.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_test_pypi.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_test_pypi.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "Publish to Test PyPi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapaulagomes/pytest-picked",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-07-01T17:32:42.161672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3180
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1243
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 501
+    },
+    {
+      "path": ".github/workflows/publish_to_pypi.yml",
+      "size": 436
+    },
+    {
+      "path": ".github/workflows/publish_to_test_pypi.yml",
+      "size": 526
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 860
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Run the tests related to the changed files (according to Git) \ud83e\udd13",
+    "fork": false,
+    "full_name": "anapaulagomes/pytest-picked",
+    "html_url": "https://github.com/anapaulagomes/pytest-picked",
+    "language": "Python",
+    "pushed_at": "2026-07-01T04:16:31Z",
+    "stargazers_count": 405,
+    "topics": [
+      "git",
+      "hacktoberfest",
+      "pytest",
+      "python",
+      "tests"
+    ],
+    "updated_at": "2026-05-28T17:24:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Changelog Reminder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Changelog Reminder"
+    },
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "Publish to Test PyPi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_test_pypi.yml",
+      "term": "Publish to Test PyPi"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![See Test Status on Github Actions](https://github.com/anapaulagomes/pytest-picked/workflows/Tests/badge.svg)](https://github.com/anapaulagomes/pytest-picked/actions?query=workflow%3ATests)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![See Test Status on Github Actions](https://github.com/anapaulagomes/pytest-picked/workflows/Tests/badge.svg)](https://github.com/anapaulagomes/pytest-picked/actions?query=workflow%3ATests)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "[![See Test Status on Github Actions](https://github.com/anapaulagomes/pytest-picked/workflows/Tests/badge.svg)](https://github.com/anapaulagomes/pytest-picked/actions?query=workflow%3ATests)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tests"
+    }
+  ]
+}

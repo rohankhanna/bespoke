@@ -654,11 +654,17 @@
       "observed_at": "2026-07-01T07:41:50.299402+00:00",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "FxEmbed/mosaic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "FxEmbed/mosaic"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

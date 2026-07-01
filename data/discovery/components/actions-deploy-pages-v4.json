@@ -1,7 +1,7 @@
 {
   "component": "actions/deploy-pages@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1812,6 +1812,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-gh-pages.yml",
       "source_repo": "freesurfer/freebrowse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "thejchap/tryke"
     }
   ]
 }

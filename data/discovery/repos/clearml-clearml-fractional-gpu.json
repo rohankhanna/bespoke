@@ -2,20 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml-fractional-gpu",
-      "target": "allegroai/clearml-agent",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml-fractional-gpu",
-      "target": "allegroai/clearml-fractional-gpu",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "clearml/clearml-fractional-gpu",
@@ -51,12 +37,8 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T08:51:32.553127+00:00",
+  "fetched_at": "2026-07-01T17:17:11.357964+00:00",
   "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 11523
-    },
     {
       "path": ".github/workflows/git_issue_to_pylon.yml",
       "size": 946
@@ -84,45 +66,34 @@
     ],
     "updated_at": "2026-05-14T13:36:47Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "allegroai/clearml-agent",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "allegroai/clearml-fractional-gpu",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "git_issue_to_pylon",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "fractional"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "git_issue_to_pylon",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "fractional-gpu"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "git_issue_to_pylon",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "genai"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "git_issue_to_pylon",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "llmops"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "git_issue_to_pylon",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "mlops"

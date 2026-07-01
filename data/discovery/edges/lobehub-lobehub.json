@@ -2832,6 +2832,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "lobehub/lobehub",
+      "target": "fable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
       "target": "gemini",
       "target_type": "term"
     },
@@ -2846,10 +2853,17 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "lobehub/lobehub",
+      "target": "loop-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
       "target": "skills",
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-07-01T00:49:47.383029+00:00",
+  "generated_at": "2026-07-01T13:10:44.857614+00:00",
   "source_repo": "lobehub/lobehub"
 }

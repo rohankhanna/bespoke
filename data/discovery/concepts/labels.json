@@ -376,6 +376,30 @@
       "source_repo": "scientific-python/spin",
       "status": "candidate-context",
       "text": "Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thejchap/neotest-tryke",
+      "status": "candidate-context",
+      "text": "A Neotest adapter for the Tryke Python test framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thejchap/neotest-tryke",
+      "status": "candidate-context",
+      "text": "labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thejchap/tryke",
+      "status": "candidate-context",
+      "text": "A Rust-based Python test runner with a Jest-style API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thejchap/tryke",
+      "status": "candidate-context",
+      "text": "labels"
     }
   ],
   "candidate_glosses": [
@@ -588,6 +612,18 @@
       "source_repo": "scientific-python/spin",
       "status": "candidate",
       "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thejchap/neotest-tryke",
+      "status": "candidate",
+      "text": "labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thejchap/tryke",
+      "status": "candidate",
+      "text": "labels"
     }
   ],
   "candidate_related_terms": [
@@ -2839,11 +2875,41 @@
       "observed_at": "2026-07-01T07:41:50.299402+00:00",
       "source_file": ".github/workflows/labels.yml",
       "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "thejchap/neotest-tryke"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T13:10:44.857614+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "thejchap/tryke"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
   "lexical_providers": [
     "datamuse"
   ],
