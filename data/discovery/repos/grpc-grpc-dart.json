@@ -1,22 +1,22 @@
 {
   "components": [
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml"
     },
     {
-      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml"
     },
     {
-      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml"
     },
@@ -48,14 +48,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml",
       "source_repo": "grpc/grpc-dart",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml",
       "source_repo": "grpc/grpc-dart",
-      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
       "target_type": "component"
     },
     {
@@ -122,7 +122,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T01:19:45.954764+00:00",
+  "fetched_at": "2026-07-01T08:53:13.997613+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -154,13 +154,13 @@
     "full_name": "grpc/grpc-dart",
     "html_url": "https://github.com/grpc/grpc-dart",
     "language": "Dart",
-    "pushed_at": "2026-06-22T14:29:56Z",
+    "pushed_at": "2026-07-01T08:00:39Z",
     "stargazers_count": 890,
     "topics": [
       "dart",
       "grpc"
     ],
-    "updated_at": "2026-06-22T14:31:56Z"
+    "updated_at": "2026-07-01T08:00:42Z"
   },
   "repo_links": [
     {

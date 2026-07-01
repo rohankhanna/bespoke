@@ -41475,6 +41475,9 @@
   "generate wiki tables of contents": [
     "generate-wiki-tables-of-contents"
   ],
+  "generate yarn sbom": [
+    "generate-yarn-sbom"
+  ],
   "generate-and-test": [
     "generate-and-test"
   ],

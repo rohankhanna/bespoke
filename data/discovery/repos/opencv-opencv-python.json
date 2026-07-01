@@ -367,7 +367,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T01:12:35.679939+00:00",
+  "fetched_at": "2026-07-01T08:46:27.763041+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -403,7 +403,7 @@
     "full_name": "opencv/opencv-python",
     "html_url": "https://github.com/opencv/opencv-python",
     "language": "Python",
-    "pushed_at": "2026-06-30T12:40:50Z",
+    "pushed_at": "2026-07-01T05:34:03Z",
     "stargazers_count": 5303,
     "topics": [
       "manylinux",

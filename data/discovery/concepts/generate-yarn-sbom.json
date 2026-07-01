@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Yarn SBOM"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate-context",
+      "text": "An open-source registry for VS Code extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate-context",
+      "text": "Generate Yarn SBOM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate",
+      "text": "Generate Yarn SBOM"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11690,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "rolled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10716,
+      "status": "candidate",
+      "text": "begat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10716,
+      "status": "candidate",
+      "text": "beget"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Yarn SBOM",
+  "concept_id": "generate-yarn-sbom",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T07:41:50.299402+00:00",
+      "source_file": ".github/workflows/generate-yarn-sboms.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    }
+  ],
+  "first_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Yarn SBOM",
+      "sense_id": "generate-yarn-sbom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

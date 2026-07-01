@@ -574,7 +574,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T01:16:01.476123+00:00",
+  "fetched_at": "2026-07-01T08:49:41.657185+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -603,7 +603,7 @@
     "html_url": "https://github.com/nsfw-filter/nsfw-filter",
     "language": "TypeScript",
     "pushed_at": "2026-06-30T14:46:32Z",
-    "stargazers_count": 1760,
+    "stargazers_count": 1761,
     "topics": [
       "chrome-extension",
       "google-chrome-extension",
@@ -616,7 +616,7 @@
       "tensorflowjs",
       "typescript"
     ],
-    "updated_at": "2026-06-30T14:46:41Z"
+    "updated_at": "2026-07-01T05:37:54Z"
   },
   "repo_links": [
     {

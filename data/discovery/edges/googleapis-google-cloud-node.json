@@ -60,7 +60,49 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "googleapis/google-cloud-node",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "eslint-plugin-promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
       "target": "gts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "prettier",
       "target_type": "component"
     },
     {
@@ -295,6 +337,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-30T12:55:19.331325+00:00",
+  "generated_at": "2026-07-01T07:41:50.299402+00:00",
   "source_repo": "googleapis/google-cloud-node"
 }

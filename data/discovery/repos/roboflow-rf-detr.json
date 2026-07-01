@@ -336,7 +336,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T01:11:35.333046+00:00",
+  "fetched_at": "2026-07-01T08:45:30.905121+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -389,7 +389,7 @@
     "html_url": "https://github.com/roboflow/rf-detr",
     "language": "Python",
     "pushed_at": "2026-06-30T20:24:59Z",
-    "stargazers_count": 8264,
+    "stargazers_count": 8276,
     "topics": [
       "computer-vision",
       "detr",
@@ -399,7 +399,7 @@
       "rf-detr",
       "sota"
     ],
-    "updated_at": "2026-07-01T00:54:10Z"
+    "updated_at": "2026-07-01T08:30:29Z"
   },
   "repo_links": [
     {

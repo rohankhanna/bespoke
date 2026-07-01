@@ -318,11 +318,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T01:13:38.419645+00:00",
+  "fetched_at": "2026-07-01T08:47:30.887540+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 17287
+      "size": 17288
     },
     {
       "path": "Dockerfile",
@@ -362,8 +362,8 @@
     "full_name": "zhayujie/CowAgent",
     "html_url": "https://github.com/zhayujie/CowAgent",
     "language": "Python",
-    "pushed_at": "2026-06-30T12:05:17Z",
-    "stargazers_count": 45699,
+    "pushed_at": "2026-07-01T08:28:48Z",
+    "stargazers_count": 45711,
     "topics": [
       "ai",
       "ai-agent",
@@ -382,7 +382,7 @@
       "openclaw",
       "skills"
     ],
-    "updated_at": "2026-07-01T00:13:43Z"
+    "updated_at": "2026-07-01T08:28:56Z"
   },
   "repo_links": [],
   "terms": [

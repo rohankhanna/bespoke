@@ -1,7 +1,7 @@
 {
   "component": "eslint-config-prettier",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-07-01T00:49:47.383029+00:00",
+  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -3137,6 +3137,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "xiaohk/stickyland"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node"
     }
   ]
 }

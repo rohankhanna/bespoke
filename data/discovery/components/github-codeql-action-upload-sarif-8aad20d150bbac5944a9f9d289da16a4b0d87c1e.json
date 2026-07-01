@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
   "first_seen_at": "2026-06-22T00:52:01.139311+00:00",
-  "last_seen_at": "2026-07-01T00:49:47.383029+00:00",
+  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-distributions.yml",
       "source_repo": "ogx-ai/ogx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crate-ci/cargo-release"
     }
   ]
 }

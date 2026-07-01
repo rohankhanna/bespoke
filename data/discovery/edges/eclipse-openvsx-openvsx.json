@@ -37,6 +37,41 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-yarn-sboms.yml",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-yarn-sboms.yml",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "target": "actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-yarn-sboms.yml",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-yarn-sboms.yml",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "target": "eclipse-csi/workflows/.github/workflows/store-sbom-data.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-yarn-sboms.yml",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "target": "Generate Yarn SBOM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gradle-dependency-graph.yml",
       "source_repo": "eclipse-openvsx/openvsx",
       "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
@@ -267,27 +302,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/scorecard-analysis.yml",
-      "source_repo": "eclipse-openvsx/openvsx",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/scorecard-analysis.yml",
-      "source_repo": "eclipse-openvsx/openvsx",
-      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/scorecard-analysis.yml",
-      "source_repo": "eclipse-openvsx/openvsx",
-      "target": "Scorecard analysis workflow",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "eclipse-openvsx/openvsx",
@@ -323,6 +337,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-30T12:55:19.331325+00:00",
+  "generated_at": "2026-07-01T07:41:50.299402+00:00",
   "source_repo": "eclipse-openvsx/openvsx"
 }

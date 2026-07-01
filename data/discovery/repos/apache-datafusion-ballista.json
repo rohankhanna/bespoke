@@ -724,7 +724,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T00:57:21.027801+00:00",
+  "fetched_at": "2026-07-01T08:13:13.584820+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -776,7 +776,7 @@
     "full_name": "apache/datafusion-ballista",
     "html_url": "https://github.com/apache/datafusion-ballista",
     "language": "Rust",
-    "pushed_at": "2026-06-30T12:57:37Z",
+    "pushed_at": "2026-07-01T04:18:18Z",
     "stargazers_count": 2077,
     "topics": [
       "arrow",

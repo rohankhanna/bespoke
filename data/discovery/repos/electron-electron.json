@@ -921,7 +921,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T17:42:15.409593+00:00",
+  "fetched_at": "2026-07-01T09:17:56.045028+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -953,7 +953,7 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 18035
+      "size": 18183
     },
     {
       "path": ".github/workflows/check-nmv-version.yml",
@@ -973,8 +973,8 @@
     "full_name": "electron/electron",
     "html_url": "https://github.com/electron/electron",
     "language": "C++",
-    "pushed_at": "2026-06-30T16:12:55Z",
-    "stargazers_count": 121843,
+    "pushed_at": "2026-06-30T23:06:53Z",
+    "stargazers_count": 121850,
     "topics": [
       "c-plus-plus",
       "chrome",
@@ -986,7 +986,7 @@
       "v8",
       "works-with-codespaces"
     ],
-    "updated_at": "2026-06-30T16:38:53Z"
+    "updated_at": "2026-07-01T09:02:56Z"
   },
   "repo_links": [],
   "terms": [

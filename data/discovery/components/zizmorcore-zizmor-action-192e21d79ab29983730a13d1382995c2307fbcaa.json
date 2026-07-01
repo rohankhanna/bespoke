@@ -1,12 +1,17 @@
 {
   "component": "zizmorcore/zizmor-action@192e21d79ab29983730a13d1382995c2307fbcaa",
   "first_seen_at": "2026-06-30T12:55:19.331325+00:00",
-  "last_seen_at": "2026-07-01T00:49:47.383029+00:00",
+  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "crate-ci/cargo-release"
     }
   ]
 }

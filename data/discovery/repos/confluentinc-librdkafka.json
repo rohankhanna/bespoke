@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T17:23:13.086205+00:00",
+  "fetched_at": "2026-07-01T09:08:17.756946+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -102,7 +102,7 @@
     "full_name": "confluentinc/librdkafka",
     "html_url": "https://github.com/confluentinc/librdkafka",
     "language": "C",
-    "pushed_at": "2026-06-30T15:32:21Z",
+    "pushed_at": "2026-07-01T08:41:46Z",
     "stargazers_count": 996,
     "topics": [
       "apache-kafka",

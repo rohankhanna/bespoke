@@ -886,11 +886,23 @@
       "observed_at": "2026-07-01T00:49:47.383029+00:00",
       "source_file": ".github/workflows/ci-macos.yml",
       "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T07:41:50.299402+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T07:41:50.299402+00:00",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "TrenchBroom/TrenchBroom"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T00:49:47.383029+00:00",
+  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
   "lexical_providers": [
     "datamuse"
   ],

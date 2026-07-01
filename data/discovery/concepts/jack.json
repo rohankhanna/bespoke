@@ -436,11 +436,17 @@
       "observed_at": "2026-06-30T12:55:19.331325+00:00",
       "source_file": null,
       "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-01T07:41:50.299402+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
     }
   ],
   "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
+  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
   "lexical_providers": [
     "datamuse"
   ],

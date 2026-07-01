@@ -236,7 +236,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T01:28:55.005286+00:00",
+  "fetched_at": "2026-07-01T09:02:23.316028+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -273,13 +273,13 @@
     "html_url": "https://github.com/eclipse-jdtls/eclipse.jdt.ls",
     "language": "Java",
     "pushed_at": "2026-06-30T09:00:40Z",
-    "stargazers_count": 2386,
+    "stargazers_count": 2387,
     "topics": [
       "eclipse",
       "java",
       "language-server-protocol"
     ],
-    "updated_at": "2026-06-30T00:19:06Z"
+    "updated_at": "2026-07-01T02:44:21Z"
   },
   "repo_links": [
     {

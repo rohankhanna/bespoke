@@ -130,11 +130,17 @@
       "observed_at": "2026-06-30T12:55:19.331325+00:00",
       "source_file": ".github/workflows/rust-clippy.yml",
       "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-01T07:41:50.299402+00:00",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph"
     }
   ],
   "first_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-30T12:55:19.331325+00:00",
+  "last_seen_at": "2026-07-01T07:41:50.299402+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -2318,7 +2318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-30T17:18:20.702916+00:00",
+  "fetched_at": "2026-07-01T09:05:41.853761+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -2370,7 +2370,7 @@
     "full_name": "module-federation/core",
     "html_url": "https://github.com/module-federation/core",
     "language": "JavaScript",
-    "pushed_at": "2026-06-30T06:39:54Z",
+    "pushed_at": "2026-07-01T06:04:17Z",
     "stargazers_count": 2560,
     "topics": [
       "module-federation",

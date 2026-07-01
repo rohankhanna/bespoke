@@ -11,14 +11,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml",
       "source_repo": "grpc/grpc-dart",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml",
       "source_repo": "grpc/grpc-dart",
-      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
       "target_type": "component"
     },
     {
@@ -85,6 +85,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-07-01T00:49:47.383029+00:00",
+  "generated_at": "2026-07-01T07:41:50.299402+00:00",
   "source_repo": "grpc/grpc-dart"
 }

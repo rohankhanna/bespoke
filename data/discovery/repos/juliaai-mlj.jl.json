@@ -239,7 +239,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T01:18:35.419223+00:00",
+  "fetched_at": "2026-07-01T08:52:02.642494+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -267,7 +267,7 @@
     "full_name": "JuliaAI/MLJ.jl",
     "html_url": "https://github.com/JuliaAI/MLJ.jl",
     "language": "Julia",
-    "pushed_at": "2026-06-03T03:29:32Z",
+    "pushed_at": "2026-07-01T08:35:38Z",
     "stargazers_count": 1928,
     "topics": [
       "classification",
