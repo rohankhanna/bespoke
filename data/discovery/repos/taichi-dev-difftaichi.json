@@ -51,15 +51,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T18:48:58.422871+00:00",
+  "fetched_at": "2026-07-02T02:38:05.267885+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 5611
-    },
-    {
-      "path": "requirements.txt",
-      "size": 77
     }
   ],
   "related_repositories": [],

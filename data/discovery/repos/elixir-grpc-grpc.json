@@ -133,11 +133,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T18:56:10.758984+00:00",
+  "fetched_at": "2026-07-02T01:20:19.934410+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 18348
+      "size": 18197
     },
     {
       "path": "Dockerfile",
@@ -145,7 +145,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 3977
+      "size": 4082
     }
   ],
   "related_repositories": [],
@@ -157,7 +157,7 @@
     "full_name": "elixir-grpc/grpc",
     "html_url": "https://github.com/elixir-grpc/grpc",
     "language": "Elixir",
-    "pushed_at": "2026-06-30T12:05:30Z",
+    "pushed_at": "2026-07-01T23:59:12Z",
     "stargazers_count": 1516,
     "topics": [
       "elixir",
@@ -169,7 +169,7 @@
       "protobuf",
       "rpc"
     ],
-    "updated_at": "2026-06-30T12:04:29Z"
+    "updated_at": "2026-07-01T23:59:17Z"
   },
   "repo_links": [],
   "terms": [

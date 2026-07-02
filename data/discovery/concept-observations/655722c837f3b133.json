@@ -84,7 +84,7 @@
   "normalized_form": "stale-bot",
   "observation_id": "655722c837f3b133",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T13:10:44.857614+00:00",
+  "observed_at": "2026-07-02T00:47:02.904728+00:00",
   "observed_text": "Stale Bot",
   "source_context_snippet": "Stale Bot",
   "source_file": ".github/workflows/stale.yml.disabled",

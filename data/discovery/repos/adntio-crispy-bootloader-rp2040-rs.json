@@ -91,6 +91,11 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sbom.yml"
+    },
+    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security-scan.yml"
@@ -232,6 +237,13 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sbom.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security-scan.yml",
       "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
       "target": "actions/checkout@v6",
@@ -301,7 +313,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T19:12:00.091696+00:00",
+  "fetched_at": "2026-07-02T01:52:25.583164+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -314,6 +326,10 @@
     {
       "path": ".github/workflows/ci.yml",
       "size": 5206
+    },
+    {
+      "path": ".github/workflows/sbom.yml",
+      "size": 2175
     },
     {
       "path": ".github/workflows/security-scan.yml",
@@ -329,10 +345,10 @@
     "full_name": "ADNTIO/crispy-bootloader-rp2040-rs",
     "html_url": "https://github.com/ADNTIO/crispy-bootloader-rp2040-rs",
     "language": "Rust",
-    "pushed_at": "2026-06-29T06:11:23Z",
+    "pushed_at": "2026-07-01T20:40:14Z",
     "stargazers_count": 9,
     "topics": [],
-    "updated_at": "2026-06-23T15:32:46Z"
+    "updated_at": "2026-07-01T20:40:18Z"
   },
   "repo_links": [
     {

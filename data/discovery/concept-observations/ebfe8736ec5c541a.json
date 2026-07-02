@@ -84,7 +84,7 @@
   "normalized_form": "plotters-bitmap-backend",
   "observation_id": "ebfe8736ec5c541a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T13:10:44.857614+00:00",
+  "observed_at": "2026-07-02T00:47:02.904728+00:00",
   "observed_text": "Plotters Bitmap Backend",
   "source_context_snippet": "Plotters Bitmap Backend",
   "source_file": ".github/workflows/plotters-bitmap.yml",

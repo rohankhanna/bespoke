@@ -106,7 +106,7 @@
   "normalized_form": "size",
   "observation_id": "08f189948bcf15b0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T13:10:44.857614+00:00",
+  "observed_at": "2026-07-02T00:47:02.904728+00:00",
   "observed_text": "size",
   "source_context_snippet": "size",
   "source_file": ".github/workflows/size-limit.yaml",

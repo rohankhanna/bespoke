@@ -1041,11 +1041,23 @@
       "observed_at": "2026-07-01T13:10:44.857614+00:00",
       "source_file": null,
       "source_repo": "webview2/EdgeSharp.Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-02T00:47:02.904728+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-07-02T00:47:02.904728+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples"
     }
   ],
   "first_seen_at": "2026-05-08T12:43:50.373126+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "last_seen_at": "2026-07-02T00:47:02.904728+00:00",
   "lexical_providers": [
     "datamuse"
   ],

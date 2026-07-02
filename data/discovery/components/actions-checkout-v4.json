@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-07-01T18:47:31.416208+00:00",
+  "last_seen_at": "2026-07-02T00:47:02.904728+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -58352,6 +58352,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/adr-166-mcp-bridge-security.yml",
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sbom.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs"
     }
   ]
 }

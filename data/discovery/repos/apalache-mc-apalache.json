@@ -496,7 +496,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T19:25:47.201806+00:00",
+  "fetched_at": "2026-07-02T02:09:10.897405+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -541,7 +541,7 @@
     "html_url": "https://github.com/apalache-mc/apalache",
     "language": "Scala",
     "pushed_at": "2026-07-01T08:03:52Z",
-    "stargazers_count": 579,
+    "stargazers_count": 580,
     "topics": [
       "apalache",
       "model-checking",
@@ -551,7 +551,7 @@
       "tlaplus",
       "verification"
     ],
-    "updated_at": "2026-07-01T14:40:41Z"
+    "updated_at": "2026-07-01T20:42:22Z"
   },
   "repo_links": [
     {

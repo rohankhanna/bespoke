@@ -1451,11 +1451,23 @@
       "observed_at": "2026-07-01T13:10:44.857614+00:00",
       "source_file": ".github/workflows/cpu-tests.yml",
       "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-02T00:47:02.904728+00:00",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/lit-llama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-02T00:47:02.904728+00:00",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/litgpt"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "last_seen_at": "2026-07-02T00:47:02.904728+00:00",
   "lexical_providers": [
     "datamuse"
   ],

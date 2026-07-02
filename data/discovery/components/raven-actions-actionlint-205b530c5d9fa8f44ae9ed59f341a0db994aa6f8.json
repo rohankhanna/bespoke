@@ -1,7 +1,7 @@
 {
   "component": "raven-actions/actionlint@205b530c5d9fa8f44ae9ed59f341a0db994aa6f8",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-07-01T18:47:31.416208+00:00",
+  "last_seen_at": "2026-07-02T00:47:02.904728+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

@@ -43,7 +43,7 @@
   "normalized_form": "mineru",
   "observation_id": "99daee4f75e67491",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T13:10:44.857614+00:00",
+  "observed_at": "2026-07-02T00:47:02.904728+00:00",
   "observed_text": "mineru",
   "source_context_snippet": "mineru",
   "source_file": ".github/workflows/ci.yml",

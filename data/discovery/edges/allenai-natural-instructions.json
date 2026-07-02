@@ -8,6 +8,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/natural-instructions",
+      "target": "allenai/natural-instructions-v1",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/blank.yml",
       "source_repo": "allenai/natural-instructions",
@@ -22,6 +29,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-07-01T18:47:31.416208+00:00",
+  "generated_at": "2026-07-02T00:47:02.904728+00:00",
   "source_repo": "allenai/natural-instructions"
 }

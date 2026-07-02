@@ -156,6 +156,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@mermaid-js/mermaid-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@playwright/test",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -1174,6 +1179,13 @@
       "source_file": "package.json",
       "source_repo": "module-federation/core",
       "target": "@fontsource/roboto-mono",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "module-federation/core",
+      "target": "@mermaid-js/mermaid-cli",
       "target_type": "component"
     },
     {
@@ -2318,7 +2330,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T19:24:09.531226+00:00",
+  "fetched_at": "2026-07-02T02:07:17.010607+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -2326,7 +2338,7 @@
     },
     {
       "path": "package.json",
-      "size": 15573
+      "size": 15676
     },
     {
       "path": ".github/workflows/actionlint.yml",
@@ -2370,8 +2382,8 @@
     "full_name": "module-federation/core",
     "html_url": "https://github.com/module-federation/core",
     "language": "JavaScript",
-    "pushed_at": "2026-07-01T19:22:20Z",
-    "stargazers_count": 2560,
+    "pushed_at": "2026-07-02T01:58:59Z",
+    "stargazers_count": 2561,
     "topics": [
       "module-federation",
       "nextjs",
@@ -2380,7 +2392,7 @@
       "typescript",
       "webpack"
     ],
-    "updated_at": "2026-06-26T14:57:13Z"
+    "updated_at": "2026-07-02T01:59:02Z"
   },
   "repo_links": [
     {

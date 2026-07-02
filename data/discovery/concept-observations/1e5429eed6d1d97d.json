@@ -84,7 +84,7 @@
   "normalized_form": "publish-test-results",
   "observation_id": "1e5429eed6d1d97d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-07-01T18:47:31.416208+00:00",
+  "observed_at": "2026-07-02T00:47:02.904728+00:00",
   "observed_text": "Publish Test Results",
   "source_context_snippet": "Publish Test Results",
   "source_file": ".github/workflows/publish-test-results.yml",

@@ -1282,11 +1282,23 @@
       "observed_at": "2026-07-01T13:10:44.857614+00:00",
       "source_file": ".github/workflows/citest.yaml",
       "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-02T00:47:02.904728+00:00",
+      "source_file": ".github/workflows/citest.yaml",
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-07-02T00:47:02.904728+00:00",
+      "source_file": ".github/workflows/citest.yaml",
+      "source_repo": "modelscope/ms-agent"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "last_seen_at": "2026-07-02T00:47:02.904728+00:00",
   "lexical_providers": [
     "datamuse"
   ],

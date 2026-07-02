@@ -1,7 +1,7 @@
 {
   "component": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-07-01T13:10:44.857614+00:00",
+  "last_seen_at": "2026-07-02T00:47:02.904728+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

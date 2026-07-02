@@ -1,7 +1,7 @@
 {
   "component": "scala-steward-org/scala-steward-action@v2.92.0",
   "first_seen_at": "2026-06-29T18:49:06.046656+00:00",
-  "last_seen_at": "2026-07-01T18:47:31.416208+00:00",
+  "last_seen_at": "2026-07-02T00:47:02.904728+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

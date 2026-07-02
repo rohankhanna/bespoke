@@ -20,6 +20,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/natural-instructions",
+      "target": "allenai/natural-instructions-v1",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/blank.yml",
       "source_repo": "allenai/natural-instructions",
@@ -34,7 +41,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-07-01T19:04:11.504688+00:00",
+  "fetched_at": "2026-07-02T01:29:18.334299+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -63,6 +70,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "allenai/natural-instructions-expansion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/natural-instructions-v1",
       "source_file": "README.md"
     }
   ],

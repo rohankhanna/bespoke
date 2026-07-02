@@ -124,7 +124,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T18:53:17.601844+00:00",
+  "fetched_at": "2026-07-02T01:16:51.893937+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -148,7 +148,7 @@
     "full_name": "standardrb/standard",
     "html_url": "https://github.com/standardrb/standard",
     "language": "Ruby",
-    "pushed_at": "2026-06-22T22:42:33Z",
+    "pushed_at": "2026-07-01T22:45:31Z",
     "stargazers_count": 2906,
     "topics": [
       "formatter",

@@ -416,7 +416,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-07-01T18:50:05.647585+00:00",
+  "fetched_at": "2026-07-02T01:12:38.386180+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -456,7 +456,7 @@
     },
     {
       "path": ".github/workflows/claude-answer.yml",
-      "size": 2042
+      "size": 2274
     }
   ],
   "related_repositories": [],
@@ -468,8 +468,8 @@
     "full_name": "NVIDIA-NeMo/Speech",
     "html_url": "https://github.com/NVIDIA-NeMo/Speech",
     "language": "Python",
-    "pushed_at": "2026-07-01T07:06:36Z",
-    "stargazers_count": 17685,
+    "pushed_at": "2026-07-02T00:26:54Z",
+    "stargazers_count": 17687,
     "topics": [
       "asr",
       "deeplearning",
@@ -482,7 +482,7 @@
       "speech-translation",
       "tts"
     ],
-    "updated_at": "2026-07-01T18:35:16Z"
+    "updated_at": "2026-07-02T00:27:04Z"
   },
   "repo_links": [
     {

@@ -1,7 +1,7 @@
 {
   "component": "ai/copy-changelog-to-release@a6dc825c34575add2da2060796794f7b84894628",
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
-  "last_seen_at": "2026-07-01T18:47:31.416208+00:00",
+  "last_seen_at": "2026-07-02T00:47:02.904728+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
